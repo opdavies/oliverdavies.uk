@@ -17,6 +17,7 @@ Some of the tasks that I've worked on so far:
 * Working on responsive [Bluecheese](https://www.drupal.org/project/bluecheese) (the Drupal.org theme).
 * Adding [LoginToboggan](https://www.drupal.org/project/logintoboggan) to Drupal.org and improving the user login and registration processes.
 * Customisations to the [Election](https://www.drupal.org/project/election) module for the [2015 Drupal Association Board community elections](http://assoc.drupal.org/2015-nominations).
+* Improving the new user experience by adding "New" badge to user pictures of new users for their first 90 days since registering their account.
 
 ## Freelance
 
