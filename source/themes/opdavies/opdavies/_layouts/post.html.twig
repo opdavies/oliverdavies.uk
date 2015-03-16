@@ -1,0 +1,7 @@
+{% extends 'default' %}
+
+{% block content_wrapper %}
+  <h1>{{ page.title }}</h1>
+  Posted: {{ page.date | date('jS F Y') }}
+  {% block content %}{% endblock %}
+{% endblock %}
