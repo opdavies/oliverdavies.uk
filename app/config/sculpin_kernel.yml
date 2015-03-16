@@ -3,3 +3,5 @@ sculpin:
 sculpin_content_types:
   posts:
     enabled: false
+sculpin_theme:
+  theme: opdavies/opdavies
