@@ -2,6 +2,6 @@ sculpin:
   permalink: pretty
 sculpin_content_types:
   posts:
-    enabled: false
+    permalink: blog/:slug_title/
 sculpin_theme:
   theme: opdavies/opdavies
