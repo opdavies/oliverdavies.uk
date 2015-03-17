@@ -1,7 +1,16 @@
 sculpin:
   permalink: pretty
 sculpin_content_types:
+  clients:
+    permalink: clients/:slug_title/
+    enabled: false
   posts:
     permalink: blog/:slug_title/
+  projects:
+    permalink: projects/:slug_title/
+    enabled: false
+  talks:
+    permalink: talks/:slug_title/
+    enabled: false
 sculpin_theme:
   theme: opdavies/opdavies
