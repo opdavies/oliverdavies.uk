@@ -7,7 +7,7 @@
     <title>{% if (page.url == '/') and (site.description) %}{{ site.description }}{% else %}{{ page.title }}{% endif %} | {{ site.title }}</title>
   </head>
   <body>
-    {% include 'main-menu' %}
+    {% include 'header' %}
     {% block content_wrapper %}
       {% block content %}{% endblock %}
     {% endblock %}
