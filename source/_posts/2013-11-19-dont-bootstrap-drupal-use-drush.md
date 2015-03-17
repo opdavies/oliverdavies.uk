@@ -1,5 +1,6 @@
 ---
 title: Don't Bootstrap Drupal, Use Drush
+nav: blog
 tags:
   - Drush
   - Drupal Planet

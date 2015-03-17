@@ -1,5 +1,6 @@
 ---
 title: Imagefield Import Archive
+nav: blog
 tags:
   - Drupal Planet
   - ImageField Import

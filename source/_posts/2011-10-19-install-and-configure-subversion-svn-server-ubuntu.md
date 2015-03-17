@@ -1,5 +1,6 @@
 ---
 title: How to Install and Configure Subversion (SVN) Server on Ubuntu
+nav: blog
 slug: install-and-configure-subversion-svn-server-ubuntu
 tags:
   - SVN

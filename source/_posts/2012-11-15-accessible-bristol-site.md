@@ -1,5 +1,6 @@
 ---
 title: Accessible Bristol site launched
+nav: blog
 description: I'm happy to report that the Accessible Bristol was launched this week, on Drupal 7.
 tags:
   - Accessibility

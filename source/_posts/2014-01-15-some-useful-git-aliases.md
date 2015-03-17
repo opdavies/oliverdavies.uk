@@ -1,5 +1,6 @@
 ---
 title: Some Useful Git Aliases
+nav: blog
 tags:
   - Git
 ---

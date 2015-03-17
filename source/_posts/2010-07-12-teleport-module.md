@@ -1,5 +1,6 @@
 ---
 title: Review of the Teleport Module
+nav: blog
 slug: review-teleport-module
 tags:
   - Drupal Planet

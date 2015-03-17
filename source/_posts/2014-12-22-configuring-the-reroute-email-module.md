@@ -1,5 +1,6 @@
 ---
 title: Configuring the Reroute Email Module
+nav: blog
 tags:
   - Drupal
   - Drupal 6

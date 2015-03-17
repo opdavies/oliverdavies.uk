@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Services
+nav: services
 ---
 # Services
 

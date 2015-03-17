@@ -1,5 +1,6 @@
 ---
 title: Create Multigroups in Drupal 7 using Field Collections
+nav: blog
 slug: create-multigroups-drupal-7-using-field-collections
 tags:
   - Drupal 7

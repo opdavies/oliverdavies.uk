@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About Oliver
+nav: about
 ---
 # About
 

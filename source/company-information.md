@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Company Information
+nav: company
 ---
 # Company Information
 

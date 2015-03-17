@@ -1,5 +1,6 @@
 ---
 title: Create an Omega Subtheme with LESS CSS Preprocessor using Omega Tools and Drush
+nav: blog
 slug: create-omega-subtheme-less-css-preprocessor-using-omega-tools-and-drush
 tags:
   - Drupal 7

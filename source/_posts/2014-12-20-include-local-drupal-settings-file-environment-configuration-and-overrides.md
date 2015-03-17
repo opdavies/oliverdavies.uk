@@ -1,5 +1,6 @@
 ---
 title: Include a Local Drupal Settings file for Environment Configuration and Overrides
+nav: blog
 tags:
   - Drupal
   - Drupal 6

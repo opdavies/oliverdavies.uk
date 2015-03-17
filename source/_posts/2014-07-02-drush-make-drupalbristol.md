@@ -1,5 +1,6 @@
 ---
 title: drush make drupalbristol
+nav: blog
 tags:
   - Drupal
   - Drush

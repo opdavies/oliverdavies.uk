@@ -1,5 +1,6 @@
 ---
 title: Download Different Versions of Drupal with Drush
+nav: blog
 description: How to download different versions of Drupal core using Drush.
 slug: download-different-versions-drupal-drush
 tags:

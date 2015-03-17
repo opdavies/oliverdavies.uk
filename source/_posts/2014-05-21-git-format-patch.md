@@ -1,5 +1,6 @@
 ---
 title: git format-patch is your Friend
+nav: blog
 slug: git-format-patch
 tags:
   - Patches

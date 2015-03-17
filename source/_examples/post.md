@@ -1,5 +1,6 @@
 ---
 title:
+nav: blog
 tags:
   - 
 ---

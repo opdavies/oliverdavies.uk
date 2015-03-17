@@ -1,5 +1,6 @@
 ---
 title: Change the Content Type of Multiple Nodes Using SQL
+nav: blog
 slug: change-content-type-multiple-nodes-using-sql
 tags:
   - Drupal Planet
