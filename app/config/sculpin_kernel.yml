@@ -6,6 +6,8 @@ sculpin_content_types:
     enabled: false
   posts:
     permalink: blog/:slug_title/
+    taxonomies:
+      - tags
   projects:
     permalink: projects/:slug_title/
     enabled: false
