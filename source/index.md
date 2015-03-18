@@ -5,7 +5,7 @@ nav: about
 ---
 # About
 
-Hi, I'm Oliver - a [Drupal](https://www.drupal.org/about) Developer and Systems Administrator based in Wales. I work for the [Drupal Association](https://assoc.drupal.org/about) Engineering team, working on Drupal.org, it's sub-sites and infrastructure, as well as providing part-time freelance services.
+Hi, I'm Oliver Davies - a [Drupal](https://www.drupal.org/about) Developer and Systems Administrator based in Wales. I work for the [Drupal Association](https://assoc.drupal.org/about) Engineering team, working on Drupal.org, it's sub-sites and infrastructure, as well as providing part-time freelance services.
 
 I'm an active member of the Drupal community - organising and attending local user groups and DrupalCamps, mentoring at DrupalCons, and contributing code to core and various contrib modules and themes. I'm the Git Documentation Maintainer for the Drupal project and a provisional member of the [Drupal Security team](https://www.drupal.org/security-team).
 
