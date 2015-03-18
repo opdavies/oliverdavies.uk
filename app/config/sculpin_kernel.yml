@@ -1,6 +1,7 @@
 sculpin:
   permalink: pretty
-  ignore: 
+  ignore:
+    - '_examples/*'
     - '**/*.scss'
     - '**/config.rb'
     - '**/Gemfile*'
