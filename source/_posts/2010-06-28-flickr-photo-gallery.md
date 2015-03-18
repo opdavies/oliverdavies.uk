@@ -14,18 +14,18 @@ tags:
   - Flickr
   - ImageField
 ---
-In this tutorial, I'll show you how to create a photo gallery which uses photos imported from <a title="Flickr" href="http://www.flickr.com/">Flickr</a>. 
+In this tutorial, I'll show you how to create a photo gallery which uses photos imported from [Flickr](http://www.flickr.com).
 
 The modules that I'll use to create the Gallery are:
 
-* <a href="http://drupal.org/project/cck">CCK</a>
-* <a href="http://drupal.org/project/feeds">Feeds</a>
-* <a href="http://drupal.org/project/feeds_imagegrabber">Feeds Image Grabber</a>
-* <a href="http://drupal.org/project/filefield">FileField</a>
-* <a href="http://drupal.org/project/imageapi/">ImageAPI</a>
-* <a href="http://drupal.org/project/imagecache">ImageCache</a>
-* <a href="http://drupal.org/project/imagefield">ImageField</a>
-* <a href="http://drupal.org/project/views">Views</a>
+* [CCK](http://drupal.org/project/cck)
+* [Feeds](http://drupal.org/project/feeds)
+* [Feeds Image Grabber](http://drupal.org/project/feeds_imagegrabber)
+* [FileField](http://drupal.org/project/filefield)
+* [ImageAPI](http://drupal.org/project/imageapi)
+* [ImageCache](http://drupal.org/project/imagecache)
+* [ImageField](http://drupal.org/project/imagefield)
+* [Views](http://drupal.org/project/views)
 
 The first thing that I did was to create a content type to store my imported images. I named it 'Photo', removed the Body field, and added an Image field.
 

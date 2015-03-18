@@ -17,7 +17,7 @@ Recently, I converted a client's static HTML website, along with their Coppermin
 
 Over the next few posts, I'll be replicating the process that I used during the conversion, and how I added some additional features to my Drupal gallery.
 
-To begin with, I created my photo gallery as described by <a href="http://www.lullabot.com/about/team/jeff-eaton">Jeff Eaton</a> in <a href="http://www.lullabot.com/articles/photo-galleries-views-attach">this screencast</a>, downloaded all my client's previous photos via FTP,  and quickly added them into the new gallery using the <a href="http://drupal.org/project/imagefield_import">Imagefield Import</a> module (which I mentioned <a href="internal:/2010/05/29/importing-images-using-the-imagefieldimport-module" title="Importing images using the Imagefield_Import module">previously</a>).
+To begin with, I created my photo gallery as described by [Jeff Eaton](http://www.lullabot.com/about/team/jeff-eaton) in [this screencast](http://www.lullabot.com/articles/photo-galleries-views-attach), downloaded all my client's previous photos via FTP,  and quickly added them into the new gallery using the [Imagefield Import](http://drupal.org/project/imagefield_import) module (which I mentioned [previously](/blog/quickly-import-multiples-images-using-imagefieldimport-module)).
 
 When I compare this to the previous gallery, I can see several  differences which I'd like to include. The first of which is the number  of photos in each gallery, and the date that the most recent photo was added.
 
@@ -33,7 +33,7 @@ AND status = 1;
 
 As the nid value of each gallery corresponds with the 'field_gallery_nid' field within the content_type_photo field, I can now  query the database and retrieve information about each specific  gallery.
 
-For example, using <a href="http://www.w3schools.com/sql/sql_alias.asp">aliasing</a> within my SQL statement, I can retrieve a list of all the published  photos within the 'British Squad 2008' gallery by using the following code:
+For example, using [aliasing](http://www.w3schools.com/sql/sql_alias.asp) within my SQL statement, I can retrieve a list of all the published  photos within the 'British Squad 2008' gallery by using the following code:
 
 ~~~sql
 SELECT n.title, n.nid, p.field_gallery_nid
@@ -53,7 +53,7 @@ AND n.status = 1
 AND n.nid = p.nid;
 ~~~
 
-As I've used the <a href="http://drupal.org/project/views_attach">Views Attach</a> module, and I'm embedding the photos directly into the Gallery nodes, I  easily add this to each gallery by creating a custom  node-gallery.tpl.php file within my theme. I can then use the following PHP code to retrieve the node ID for that specific gallery:
+As I've used the [Views Attach](http://drupal.org/project/views_attach) module, and I'm embedding the photos directly into the Gallery nodes, I  easily add this to each gallery by creating a custom  node-gallery.tpl.php file within my theme. I can then use the following PHP code to retrieve the node ID for that specific gallery:
 
 ~~~php
 <?php
@@ -118,6 +118,6 @@ if ($selected_gallery_total != 0) {
 ?>
 ~~~
 
-The values that I've entered are from <a href="http://php.net/manual/en/function.date.php">this page</a> on <a href="http://php.net">PHP.net</a>, and can be changed according on how you want the date to be displayed.
+The values that I've entered are from [this page](http://php.net/manual/en/function.date.php) on PHP.net, and can be changed according on how you want the date to be displayed.
 
 As I've added all of these photos today, then the correct dates are  being displayed. However, on the client's original website, the majority  of these photos were pubished several months or years ago, and I'd like  the new website to still reflect the original created dates. As opposed  to modifying each individual photograph, I'll be doing this in bulk in  my next post.

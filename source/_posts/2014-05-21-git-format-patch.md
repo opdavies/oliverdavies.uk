@@ -10,7 +10,7 @@ tags:
 ---
 ## The Problem
 
-As an active contributor to the <a href="http://drupal.org">Drupal</a> project, I spend a lot of time working with other peoples’ modules and themes, and occassionally have to fix a bug or add some new functionality.
+As an active contributor to the [Drupal](http://drupal.org) project, I spend a lot of time working with other peoples’ modules and themes, and occassionally have to fix a bug or add some new functionality.
 
 In the Drupal community, we use a patch based workflow where any changes that I make get exported to a file detailing the differences. The patch file (*.patch) is attached to an item in an issue queue on Drupal.org, applied by the maintainer to their local copy of the code and reviewed, and hopefully committed.
 

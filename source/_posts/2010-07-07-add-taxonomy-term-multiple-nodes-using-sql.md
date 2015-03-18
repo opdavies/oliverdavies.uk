@@ -14,7 +14,7 @@ tags:
 
 In preparation for my Blog posts being added to [Drupal Planet](http://drupal.org/planet), I needed to create a new Taxonomy term (or, in this case, tag) called 'Drupal Planet', and assign it to new content to imported into their aggregator. After taking a quick look though my previous posts, I decided that 14 of my previous posts were relevant, and thought that it would be useful to also assign these the 'Drupal Planet' tag.
 
-I didn't want to manually open each post and add the new tag, so I decided to make the changes myself directly into the database using SQL, and as a follow-up to a previous post - <a href="internal:node/32" title="Quickly change the content type of multiple nodes using SQL">Quickly Change the Content Type of Multiple Nodes using SQL</a>.
+I didn't want to manually open each post and add the new tag, so I decided to make the changes myself directly into the database using SQL, and as a follow-up to a previous post - [Quickly Change the Content Type of Multiple Nodes using SQL](/blog/change-content-type-multiple-nodes-using-sql).
 
 **Again, before changing any values within the database, ensure that you  have an up-to-date backup which you can restore if you encounter a  problem!**
 

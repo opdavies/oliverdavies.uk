@@ -8,7 +8,7 @@ tags:
   - Fancy Slide
   - Slideshow
 ---
-Whilst updating my About page, I thought about creating a slideshow of several images instead of just the one static image. When I looking on Drupal.org, the only slideshow modules were to create slideshows of images that were attached to different nodes - not multiple images attached to one node. Then, I found the <a href="http://drupal.org/project/fancy_slide">Fancy Slide</a> module. It's a jQuery Slideshow module with features that include integration with the <a href="http://drupal.org/project/cck">CCK</a>, <a href="http://drupal.org/project/imagecache">ImageCache</a> and <a href="http://drupal.org/project/nodequeue">Nodequeue</a> modules.
+Whilst updating my About page, I thought about creating a slideshow of several images instead of just the one static image. When I looking on Drupal.org, the only slideshow modules were to create slideshows of images that were attached to different nodes - not multiple images attached to one node. Then, I found the [Fancy Slide](http://drupal.org/project/fancy_slide) module. It's a jQuery Slideshow module with features that include integration with the [CCK](http://drupal.org/project/cck), [ImageCache](http://drupal.org/project/imagecache) and [Nodequeue](http://drupal.org/project/nodequeue) modules.
 
 I added an CCK Image field to my Page content type, and set the number of values to 3, then uploaded my images to the Page.
 

@@ -11,7 +11,7 @@ tags:
   - Drupal Planet
   - Drupal
 ---
-First, I need to download the <a href="http://drupal.org/project/date" title="Date module on Drupal.org">Date</a> module, and make my module dependent on date_popup by adding the following line into my module's .info file.
+First, I need to download the [Date](http://drupal.org/project/date "Date module on Drupal.org") module, and make my module dependent on date_popup by adding the following line into my module's .info file.
 
     dependencies[] = date_popup
 
