@@ -1,0 +1,34 @@
+header[role="banner"] {
+  background-color: #064771;
+  color: white;
+  padding: 1.5em 0;
+
+  .inner {
+  	@include container(960px);
+
+  	.site-name {
+  		@include span(first 3);
+  	}
+
+  	.main-menu {
+  		@include span(9);
+  		text-align: right;
+
+  		a {
+        border-bottom: 1px solid #064771;
+  			color: white;
+        display: block;
+        margin-left: .5em;
+        text-decoration: none;
+
+        &.active {
+          border-color: white;
+        }
+  		}
+  	}
+  }
+}
+
+.main-menu ul {
+	@include inline-block-list;
+}

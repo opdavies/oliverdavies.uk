@@ -1,8 +1,10 @@
-<nav id="main-menu" class="menu--main" role="navigation">
-  <a href="{{ site.url }}"{% if page.nav == 'about' %} class="active"{% endif %}>About</a>
-  <a href="{{ site.url }}/work"{% if page.nav == 'work' %} class="active"{% endif %}>Work</a>
-  <a href="{{ site.url }}/services"{% if page.nav == 'services' %} class="active"{% endif %}>Services</a>
-  <a href="{{ site.url }}/talks"{% if page.nav == 'talks' %} class="active"{% endif %}>Talks</a>
-  <a href="{{ site.url }}/blog"{% if page.nav == 'blog' %} class="active"{% endif %}>Blog</a>
-  <a href="{{ site.url }}/contact"{% if page.nav == 'contact' %} class="active"{% endif %}>Contact</a>
+<nav class="main-menu" role="navigation">
+  <ul>
+    <li><a href="{{ site.url }}"{% if page.nav == 'about' %} class="active"{% endif %}>About</a></li>
+    <li><a href="{{ site.url }}/work"{% if page.nav == 'work' %} class="active"{% endif %}>Work</a></li>
+    <li><a href="{{ site.url }}/services"{% if page.nav == 'services' %} class="active"{% endif %}>Services</a></li>
+    <li><a href="{{ site.url }}/talks"{% if page.nav == 'talks' %} class="active"{% endif %}>Talks</a></li>
+    <li><a href="{{ site.url }}/blog"{% if page.nav == 'blog' %} class="active"{% endif %}>Blog</a></li>
+    <li><a href="{{ site.url }}/contact"{% if page.nav == 'contact' %} class="active"{% endif %}>Contact</a></li>
+  </ul>
 </nav>
