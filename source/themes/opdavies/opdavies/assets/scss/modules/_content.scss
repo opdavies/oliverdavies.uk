@@ -1,18 +1,18 @@
 .content {
-	@include container(960px);
-	padding: 1em 0 2em;
+  @include container(960px);
+  padding: 1em 0 2em;
 
-	a {
-		text-decoration: none;
+  a {
+    text-decoration: none;
 
-		&:link,
-		&:visited {
-	    color: #0678be;
-	  }
+    &:link,
+    &:visited {
+      color: #0678be;
+    }
 
-	  &:hover,
-	  &:focus {
-	  	color: black;
-	  }
-	}
+    &:hover,
+    &:focus {
+      color: black;
+    }
+  }
 }

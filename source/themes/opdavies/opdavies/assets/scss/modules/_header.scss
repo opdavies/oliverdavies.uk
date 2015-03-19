@@ -4,19 +4,19 @@ header[role="banner"] {
   padding: 1.5em 0;
 
   .inner {
-  	@include container(960px);
+    @include container(960px);
 
-  	.site-name {
-  		@include span(first 3);
-  	}
+    .site-name {
+      @include span(first 3);
+    }
 
-  	.main-menu {
-  		@include span(9);
-  		text-align: right;
+    .main-menu {
+      @include span(9);
+      text-align: right;
 
-  		a {
+      a {
         border-bottom: 1px solid #064771;
-  			color: white;
+        color: white;
         display: block;
         margin-left: .5em;
         text-decoration: none;
@@ -24,11 +24,11 @@ header[role="banner"] {
         &.active {
           border-color: white;
         }
-  		}
-  	}
+      }
+    }
   }
 }
 
 .main-menu ul {
-	@include inline-block-list;
+  @include inline-block-list;
 }
