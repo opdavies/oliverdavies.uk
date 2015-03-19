@@ -1,0 +1,10 @@
+<h1>{{ page.title | title }}</h1>  
+<p class="posted">Posted: {{ page.date | date('jS F Y') }}</p>
+{#
+{% if page.tags %}
+  Tags:
+  {% for tag in page.tags %}
+    {{ tag }}{% if not loop.last %},{% else %}.{% endif %}
+  {% endfor %}
+{% endif %}
+#}
