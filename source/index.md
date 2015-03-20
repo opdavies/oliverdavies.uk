@@ -2,6 +2,7 @@
 layout: default
 title: About Oliver
 nav: about
+front: true
 ---
 # About
 

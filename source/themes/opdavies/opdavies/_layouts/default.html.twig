@@ -2,10 +2,9 @@
 <html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="{{ page.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if (page.url == '/') and (site.description) %}{{ site.description }}{% else %}{{ page.title }}{% endif %} | {{ site.title }}</title>
-
+    <meta name="description" content="{% if page.front == true %}{{ site.description }}{% else %}{{ page.description }}{% endif %}">
+    <title>{% if (page.front == true) and (site.subtitle) %}{{ site.subtitle }}{% else %}{{ page.title }}{% endif %} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ site.url }}/{{ theme_path('assets/css/styles.css') }}">
   </head>
   <body>
