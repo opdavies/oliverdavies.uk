@@ -8,6 +8,7 @@ tags:
   - Git Flow
   - DrupalCamp London
   - Talks
+tweets: true
 ---
 Here are my slides from my "What is Git Flow?" session at [DrupalCamp London](http://2014.drupalcamplondon.co.uk).
 
@@ -35,5 +36,3 @@ I've had some great feedback via Twitter:
 <blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p>Great presentation by <a href="https://twitter.com/opdavies">@opdavies</a> on git flow at <a href="https://twitter.com/search?q=%23dclondon&amp;src=hash">#dclondon</a> very well prepared and presented. <a href="http://t.co/tDINp2Nsbn">pic.twitter.com/tDINp2Nsbn</a></p>&mdash; Greg Franklin (@gfranklin) <a href="https://twitter.com/gfranklin/statuses/440104311276969984">March 2, 2014</a></blockquote>
 
 <blockquote class="twitter-tweet" lang="en"><p>Great talk on git flow <a href="https://twitter.com/opdavies">@opdavies</a> <a href="https://twitter.com/search?q=%23dclondon&amp;src=hash">#dclondon</a></p>&mdash; Curve Agency (@CurveAgency) <a href="https://twitter.com/CurveAgency/statuses/440095250775035904">March 2, 2014</a></blockquote>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><iframe width="560" height="315" src="//www.youtube.com/embed/T-miCpHxfds?rel=0" frameborder="0" allowfullscreen></iframe>
