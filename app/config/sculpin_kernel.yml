@@ -19,5 +19,8 @@ sculpin_content_types:
   talks:
     permalink: talks/:slug_title/
     enabled: false
+  testimonials:
+    permalink: testimonials/:slug_title/
+    enabled: false
 sculpin_theme:
   theme: opdavies/opdavies
