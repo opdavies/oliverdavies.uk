@@ -1,0 +1,8 @@
+{% extends 'default' %}
+
+{% block content_wrapper %}
+  <div class="content">
+    {% if page.website %}<a href="{{ page.website }}">{{ page.website }}</a>{% endif %}
+    {% block content %}{% endblock %}
+  </div>
+{% endblock %}
