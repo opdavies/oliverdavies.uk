@@ -1,4 +1,5 @@
 header[role="banner"] {
+  @include adjust-leading-to(1);
   background-color: #064771;
   color: white;
   padding: 1.5em 0;

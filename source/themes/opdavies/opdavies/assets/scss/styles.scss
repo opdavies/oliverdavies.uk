@@ -1,6 +1,7 @@
 @import 'compass';
 @import 'compass/reset';
 @import 'compass/css3';
+@import 'compass/typography/vertical_rhythm';
 @import 'susy';
 
 @import "variables/**/*";
@@ -8,8 +9,10 @@
 @import "modules/**/*";
 
 body {
+  @include adjust-font-size-to(14px);
+  @include adjust-leading-to(1);
   color: #222;
-  font: 14px Arial;
+  font-family: Arial;
 }
 
 p,
@@ -24,12 +27,20 @@ pre {
 }
 
 h1 {
-  font-size: 2em;
-  margin-bottom: .5em;
+  @include adjust-font-size-to(30px, 1, 14px);
+  @include adjust-leading-to(1);
+  margin-bottom: .2em;
 }
+
 h2 {
-  font-size: 1.5em;
-  margin-bottom: .5em;
+  @include adjust-font-size-to(21px, 1, 14px);
+  display: inline-block;
+  margin: .5em 0;
+
+  h1 + & {
+    // Remove the top margin if the h2 is after a h1.
+    margin-top: 0;
+  }
 }
 
 ul {
