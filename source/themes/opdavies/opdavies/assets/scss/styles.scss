@@ -12,7 +12,7 @@ body {
   @include adjust-font-size-to(14px);
   @include adjust-leading-to(1);
   color: #222;
-  font-family: Arial;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p,
