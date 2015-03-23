@@ -16,6 +16,7 @@ javascripts_dir = "assets/js"
 # Require any additional compass plugins installed on your system.
 require 'susy'
 require 'sass-globbing'
+require 'breakpoint'
 
 ##
 ## You probably don't need to edit anything below this.

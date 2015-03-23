@@ -5,25 +5,35 @@ header[role="banner"] {
   padding: 1.5em 0;
 
   .inner {
-    @include container(960px);
-
-    .site-name {
-      @include span(first 3);
+    @include container(95%);
+    
+    @include breakpoint($desktop) {
+      @include container(960px);
     }
 
-    .main-menu {
-      @include span(9);
-      text-align: right;
+    .main-menu a {
+      border-bottom: 1px solid #064771;
+      color: white;
+      display: block;
+      margin: 0 .5em 0 0;
+      text-decoration: none;
 
-      a {
-        border-bottom: 1px solid #064771;
-        color: white;
-        display: block;
-        margin-left: .5em;
-        text-decoration: none;
+      &.active {
+        border-color: white;
+      }
+    }
 
-        &.active {
-          border-color: white;
+    @include breakpoint($mobile + 1) {
+      .site-name {
+        @include span(first 4);
+      }
+
+      .main-menu {
+        @include span(8);
+        text-align: right;
+
+        a {
+          margin: 0 0 0 .5em;
         }
       }
     }

@@ -50,7 +50,7 @@ html {
   line-height: 1.5em; }
 
 .content {
-  max-width: 960px;
+  max-width: 95%;
   margin-left: auto;
   margin-right: auto;
   padding: 1em 0; }
@@ -58,6 +58,15 @@ html {
     content: " ";
     display: block;
     clear: both; }
+  @media (min-width: 1025px) {
+    .content {
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto; }
+      .content:after {
+        content: " ";
+        display: block;
+        clear: both; } }
   .content a {
     text-decoration: none; }
     .content a:link, .content a:visited {
@@ -66,7 +75,7 @@ html {
       color: black; }
 
 footer[role="contentinfo"] {
-  max-width: 960px;
+  max-width: 95%;
   margin-left: auto;
   margin-right: auto;
   border-top: 1px solid #CCC;
@@ -76,6 +85,15 @@ footer[role="contentinfo"] {
     content: " ";
     display: block;
     clear: both; }
+  @media (min-width: 1025px) {
+    footer[role="contentinfo"] {
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto; }
+      footer[role="contentinfo"]:after {
+        content: " ";
+        display: block;
+        clear: both; } }
 
 header[role="banner"] {
   line-height: 1.5em;
@@ -83,30 +101,42 @@ header[role="banner"] {
   color: white;
   padding: 1.5em 0; }
   header[role="banner"] .inner {
-    max-width: 960px;
+    max-width: 95%;
     margin-left: auto;
     margin-right: auto; }
     header[role="banner"] .inner:after {
       content: " ";
       display: block;
       clear: both; }
-    header[role="banner"] .inner .site-name {
-      width: 23.72881%;
-      float: left;
-      margin-left: 0; }
-    header[role="banner"] .inner .main-menu {
-      width: 74.57627%;
-      float: left;
-      margin-left: 1.69492%;
-      text-align: right; }
-      header[role="banner"] .inner .main-menu a {
-        border-bottom: 1px solid #064771;
-        color: white;
-        display: block;
-        margin-left: .5em;
-        text-decoration: none; }
-        header[role="banner"] .inner .main-menu a.active {
-          border-color: white; }
+    @media (min-width: 1025px) {
+      header[role="banner"] .inner {
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto; }
+        header[role="banner"] .inner:after {
+          content: " ";
+          display: block;
+          clear: both; } }
+    header[role="banner"] .inner .main-menu a {
+      border-bottom: 1px solid #064771;
+      color: white;
+      display: block;
+      margin: 0 .5em 0 0;
+      text-decoration: none; }
+      header[role="banner"] .inner .main-menu a.active {
+        border-color: white; }
+    @media (min-width: 322px) {
+      header[role="banner"] .inner .site-name {
+        width: 32.20339%;
+        float: left;
+        margin-left: 0; }
+      header[role="banner"] .inner .main-menu {
+        width: 66.10169%;
+        float: left;
+        margin-left: 1.69492%;
+        text-align: right; }
+        header[role="banner"] .inner .main-menu a {
+          margin: 0 0 0 .5em; } }
 
 .main-menu ul {
   margin: 0;

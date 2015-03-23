@@ -1,6 +1,10 @@
 .content {
-  @include container(960px);
+  @include container(95%);
   padding: 1em 0;
+
+  @include breakpoint($desktop) {
+    @include container(960px);
+  }
 
   a {
     text-decoration: none;
