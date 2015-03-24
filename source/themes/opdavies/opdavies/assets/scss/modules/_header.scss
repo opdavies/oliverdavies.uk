@@ -11,15 +11,21 @@ header[role="banner"] {
       @include container(960px);
     }
 
-    .main-menu a {
-      border-bottom: 1px solid #064771;
-      color: white;
-      display: block;
-      margin: 0 .5em 0 0;
-      text-decoration: none;
+    .main-menu {
+      ul {
+        @include inline-block-list;
+      }
 
-      &.active {
-        border-color: white;
+      a {
+        border-bottom: 1px solid #064771;
+        color: white;
+        display: block;
+        margin: 0 .5em 0 0;
+        text-decoration: none;
+
+        &.active {
+          border-color: white;
+        }
       }
     }
 
@@ -40,6 +46,8 @@ header[role="banner"] {
   }
 }
 
-.main-menu ul {
-  @include inline-block-list;
+@each $class in about, work, services, talks, blog, contact {
+  body.#{$class} .main-menu a.#{$class} {
+    border-bottom-color: white;
+  }
 }

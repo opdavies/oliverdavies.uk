@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{% if page.front == true %}{{ site.description }}{% else %}{{ page.description }}{% endif %}">
     <title>{% if (page.front == true) and (site.subtitle) %}{{ site.subtitle }}{% else %}{{ page.title }}{% endif %} | {{ site.title }}</title>
+    
     <link rel="stylesheet" href="{{ site.url }}/{{ theme_path('assets/css/styles.css') }}">
   </head>
   <body{% if page.nav %} class="{{ page.nav }}"{% endif %}>

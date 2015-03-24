@@ -117,6 +117,22 @@ header[role="banner"] {
           content: " ";
           display: block;
           clear: both; } }
+    header[role="banner"] .inner .main-menu ul {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      overflow: hidden;
+      *zoom: 1; }
+      header[role="banner"] .inner .main-menu ul li {
+        list-style-image: none;
+        list-style-type: none;
+        margin-left: 0;
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        *zoom: 1;
+        *display: inline;
+        white-space: nowrap; }
     header[role="banner"] .inner .main-menu a {
       border-bottom: 1px solid #064771;
       color: white;
@@ -138,22 +154,23 @@ header[role="banner"] {
         header[role="banner"] .inner .main-menu a {
           margin: 0 0 0 .5em; } }
 
-.main-menu ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  *zoom: 1; }
-  .main-menu ul li {
-    list-style-image: none;
-    list-style-type: none;
-    margin-left: 0;
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-    white-space: nowrap; }
+body.about .main-menu a.about {
+  border-bottom-color: white; }
+
+body.work .main-menu a.work {
+  border-bottom-color: white; }
+
+body.services .main-menu a.services {
+  border-bottom-color: white; }
+
+body.talks .main-menu a.talks {
+  border-bottom-color: white; }
+
+body.blog .main-menu a.blog {
+  border-bottom-color: white; }
+
+body.contact .main-menu a.contact {
+  border-bottom-color: white; }
 
 body {
   font-size: 0.875em;
