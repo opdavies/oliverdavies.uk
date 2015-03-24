@@ -18,4 +18,4 @@ Twitter
 : [@opdavies](http://twitter.com/opdavies)
 
 Drupal.org
-: <https://www.drupal.org/u/opdavies>
+: [https://www.drupal.org/u/opdavies](https://www.drupal.org/u/opdavies "Oliver’s profile on Drupal.org")
