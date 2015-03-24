@@ -52,6 +52,15 @@ code {
   font-family: "Courier New";
 }
 
+dt {
+  font-weight: bold;
+  margin-top: .5em;
+
+  &:after {
+    content: ':';
+  }
+}
+
 dd {
-  padding-left: 1.5em;
+  padding-left: 2em;
 }
