@@ -11,6 +11,9 @@ Email
 IRC (Freenode)
 : opdavies
 
+Skype
+: [opdavies](skype:opdavies?add "Add Oliver on Skype (opens the Skype client)")
+
 Twitter
 : [@opdavies](http://twitter.com/opdavies)
 
