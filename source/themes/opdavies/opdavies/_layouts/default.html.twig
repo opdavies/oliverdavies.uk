@@ -7,7 +7,7 @@
     <title>{% if (page.front == true) and (site.subtitle) %}{{ site.subtitle }}{% else %}{{ page.title }}{% endif %} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ site.url }}/{{ theme_path('assets/css/styles.css') }}">
   </head>
-  <body>
+  <body{% if page.nav %} class="{{ page.nav }}"{% endif %}>
     {% include 'header' %}
 
     {% block content_wrapper %}
