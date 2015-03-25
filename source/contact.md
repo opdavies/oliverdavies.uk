@@ -6,7 +6,7 @@ nav: contact
 # Contact
 
 Email
-: <contact@oliverdavies.co.uk>
+: [oliver@oliverdavies.co.uk](mailto:oliver+contact@oliverdavies.co.uk?subject=Contact%20Oliver%20Davies)
 
 IRC (Freenode)
 : opdavies
