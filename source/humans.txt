@@ -1,0 +1,10 @@
+/* TEAM */
+	Developer: Oliver Davies
+	Site: http://www.oliverdavies.co.uk
+	Twitter: @opdavies
+	Location: Wales, UK
+
+/* SITE */
+	Doctype: HTML5
+	Software: PhpStorm, Sublime Text
+	Technologies: Sculpin, PHP, SASS/Compass, HTML5
