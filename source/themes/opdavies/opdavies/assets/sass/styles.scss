@@ -1,11 +1,5 @@
 @import 'compass';
-@import 'compass/reset';
-@import 'compass/css3';
-@import 'compass/typography/vertical_rhythm';
-@import 'susy';
-@import 'breakpoint';
+@import 'bootstrap';
 
-@import "variables/**/*";
 @import "base/**/*";
-@import "layout/**/*";
-@import "modules/**/*";
+@import "components/**/*";

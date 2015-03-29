@@ -14,9 +14,8 @@ generated_images_dir = images_dir + "/generated"
 javascripts_dir = "assets/js"
 
 # Require any additional compass plugins installed on your system.
-require 'susy'
 require 'sass-globbing'
-require 'breakpoint'
+require 'bootstrap-sass'
 
 ##
 ## You probably don't need to edit anything below this.
