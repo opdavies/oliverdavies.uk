@@ -7,7 +7,7 @@ nav: talks
 
 ## Upcoming Talks
 
-April 2015 - [PHPSW](http://phpsw.org.uk)
+April 2015 - [PHPSW](http://phpsw.org.uk/events/221484360-lightning-talks)
 : Drupal 8 (lightning talk)
 
 ## Previous Talks
