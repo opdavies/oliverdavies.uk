@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    bootstrap-sass (3.2.0.0)
+      sass (~> 3.2)
     breakpoint (2.4.2)
       sass (~> 3.3.0)
       sassy-maps (< 1.0.0)
@@ -36,6 +38,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass
   breakpoint (= 2.4.2)
   compass (= 1.0.0.alpha.20)
   oily_png

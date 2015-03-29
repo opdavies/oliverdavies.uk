@@ -17,6 +17,7 @@ javascripts_dir = "assets/js"
 require 'susy'
 require 'sass-globbing'
 require 'breakpoint'
+require 'bootstrap-sass'
 
 ##
 ## You probably don't need to edit anything below this.
