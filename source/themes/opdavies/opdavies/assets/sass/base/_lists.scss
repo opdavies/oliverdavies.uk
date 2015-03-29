@@ -1,0 +1,16 @@
+ul {
+  list-style-type: disc;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: .5em;
+
+  &:after {
+    content: ':';
+  }
+}
+
+dd {
+  padding-left: 2em;
+}

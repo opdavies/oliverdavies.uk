@@ -6,61 +6,6 @@
 @import 'breakpoint';
 
 @import "variables/**/*";
+@import "base/**/*";
 @import "layout/**/*";
 @import "modules/**/*";
-
-body {
-  @include adjust-font-size-to(14px);
-  @include adjust-leading-to(1);
-  color: #222;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-p,
-ul,
-ol,
-pre {
-  margin-bottom: 1em;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
-}
-
-h1 {
-  @include adjust-font-size-to(30px, 1, 14px);
-  @include adjust-leading-to(1);
-  margin-bottom: .2em;
-}
-
-h2 {
-  @include adjust-font-size-to(21px, 1, 14px);
-  display: inline-block;
-  margin: .5em 0;
-
-  h1 + & {
-    // Remove the top margin if the h2 is after a h1.
-    margin-top: 0;
-  }
-}
-
-ul {
-  list-style-type: disc;
-}
-
-code {
-  font-family: "Courier New";
-}
-
-dt {
-  font-weight: bold;
-  margin-top: .5em;
-
-  &:after {
-    content: ':';
-  }
-}
-
-dd {
-  padding-left: 2em;
-}
