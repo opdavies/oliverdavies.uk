@@ -5,6 +5,11 @@ nav: talks
 ---
 # Talks
 
+## Upcoming Talks
+
+April 2015 - [PHPSW](http://phpsw.org.uk)
+: Drupal 8 (lightning talk)
+
 ## Previous Talks
 
 February 2015 - [DrupalCamp London](http://2015.drupalcamplondon.co.uk)
