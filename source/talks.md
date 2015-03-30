@@ -15,7 +15,7 @@ April 2015 - [PHPSW](http://phpsw.org.uk/events/221484360-lightning-talks)
 February 2015 - [DrupalCamp London](http://2015.drupalcamplondon.co.uk)
 : Drupal.org in 2015: What's coming next?
 
-January 2015 - [DrupalCamp Brighton](http://www.drupalcampbrighton.co.uk)
+January 2015 - [DrupalCamp Brighton](http://www.drupalcampbrighton.co.uk/drupalcamp-brighton-2015/)
 : Drupal.org in 2015: What's coming next?
 
 August 2014 - South Wales Drupal User Group
