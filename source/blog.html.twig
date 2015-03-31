@@ -5,6 +5,7 @@ nav: blog
 use:
   - posts
 ---
+{% block content %}
 <h1>Blog</h1>
 
 {% if data.posts %}
@@ -14,3 +15,6 @@ use:
     {% endfor %}
   </ul>
 {% endif %}
+{% endblock %}
+
+{% block sidebar %}{% endblock %}
