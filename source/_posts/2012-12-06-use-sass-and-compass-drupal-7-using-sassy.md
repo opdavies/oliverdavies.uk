@@ -1,6 +1,8 @@
 ---
 title: How to use SASS and Compass in Drupal 7 using Sassy
 nav: blog
+use:
+  - posts
 slug: use-sass-and-compass-drupal-7-using-sassy
 tags:
   - Compass

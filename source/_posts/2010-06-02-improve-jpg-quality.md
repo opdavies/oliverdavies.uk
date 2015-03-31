@@ -1,6 +1,8 @@
 ---
 title: Improve JPG Quality in Imagecache and ImageAPI
 nav: blog
+use:
+  - posts
 slug: improve-jpg-quality-imagecache-and-imageapi
 tags:
   - Drupal Planet

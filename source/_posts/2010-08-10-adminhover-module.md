@@ -1,6 +1,8 @@
 ---
 title: Review of the Admin:hover Module
 nav: blog
+use:
+  - posts
 slug: review-adminhover-module
 tags:
   - Drupal Planet

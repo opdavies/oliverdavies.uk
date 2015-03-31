@@ -1,6 +1,8 @@
 ---
 title: How to add a date popup calendar onto a custom form
 nav: blog
+use:
+  - posts
 slug: add-date-popup-calendar-custom-form
 tags:
   - Forms

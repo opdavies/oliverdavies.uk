@@ -2,6 +2,8 @@
 layout: default
 title: Talks
 nav: talks
+use:
+  - posts
 ---
 # Talks
 

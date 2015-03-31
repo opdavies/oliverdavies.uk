@@ -1,6 +1,8 @@
 ---
 title: Conditional Email Addresses in a Webform
 nav: blog
+use:
+  - posts
 slug: conditional-email-addresses-webform
 tags:
   - Drupal Planet

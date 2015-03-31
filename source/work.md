@@ -2,6 +2,8 @@
 layout: default
 title: Work
 nav: work
+use:
+  - posts
 ---
 # Work
 

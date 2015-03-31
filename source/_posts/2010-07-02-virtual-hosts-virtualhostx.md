@@ -1,6 +1,8 @@
 ---
 title: Create Virtual Hosts on Mac OS X Using VirtualHostX
 nav: blog
+use:
+  - posts
 slug: create-virtual-hosts-mac-os-x-using-virtualhostx
 tags:
   - Drupal Planet

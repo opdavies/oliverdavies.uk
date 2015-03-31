@@ -3,6 +3,8 @@ layout: default
 title: About Oliver
 nav: about
 front: true
+use:
+  - posts
 ---
 # About
 

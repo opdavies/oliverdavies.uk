@@ -2,6 +2,8 @@
 layout: default
 title: Services
 nav: services
+use:
+  - posts
 ---
 # Services
 

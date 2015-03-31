@@ -2,6 +2,8 @@
 layout: default
 title: Contact
 nav: contact
+use:
+  - posts
 ---
 # Contact
 

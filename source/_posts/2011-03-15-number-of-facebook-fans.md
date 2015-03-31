@@ -1,6 +1,8 @@
 ---
 title: Display the Number of Facebook fans in PHP
 nav: blog
+use:
+  - posts
 slug: display-number-facebook-fans-php
 ---
 Replace the $page_id value with your Page ID number (unless you want to show the number of fans for this site).You can find your Page ID by logging into your Facebook account, going to 'Adverts and Pages', clicking 'Edit page', and looking at the URL. 

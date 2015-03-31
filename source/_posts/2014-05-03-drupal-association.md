@@ -1,6 +1,8 @@
 ---
 title: Drupal Association
 nav: blog
+use:
+  - posts
 tags:
   - Drupal
   - Personal

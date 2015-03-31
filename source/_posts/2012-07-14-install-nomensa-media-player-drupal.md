@@ -1,6 +1,8 @@
 ---
 title: Install and Configure the Nomensa Accessible Media Player in Drupal
 nav: blog
+use:
+  - posts
 slug: install-nomensa-media-player-drupal
 tags:
   - Accessibility

@@ -1,6 +1,8 @@
 ---
 title: Include a Local Drupal Settings file for Environment Configuration and Overrides
 nav: blog
+use:
+  - posts
 slug: include-local-drupal-settings-file-environment-configuration-and-overrides
 tags:
   - Drupal
