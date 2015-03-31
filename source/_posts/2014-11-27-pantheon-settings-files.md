@@ -52,7 +52,7 @@ if (isset($_SERVER['PANTHEON_ENVIRONMENT'])) {
 
 This means that rather than having one long file, each environment has it's own dedicated settings file that contains it's own additional configuration. This is much easier to read and make changes to, and also means that less code is loaded and parsed by PHP. Settings that apply to all environments are still added to settings.php.
 
-Below this, I also include a similar piece of code to include a settings.local.php file. The settings.php file then gets committed into the [Git](http://git-scm.com) repository.
+Below this, I also include a [similar piece of code](/blog/include-local-drupal-settings-file-environment-configuration-and-overrides/) to include a settings.local.php file. The settings.php file then gets committed into the [Git](http://git-scm.com) repository.
 
 Within the sites/default directory, I also include an example file (example.settings.env.php) for reference. This is duplicated, renamed and populated accordingly.
 
