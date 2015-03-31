@@ -14,15 +14,23 @@
   <body{% if page.nav %} class="{{ page.nav }}"{% endif %}>
     {% include 'navbar' %}
 
-    {% block content_wrapper %}
-      <div class="container">
-        {% block content %}{% endblock %}
-      </div>
-    {% endblock %}
+    <div class="container">
+      <div class="row">
 
-    {% block sidebar %}
-      {% include 'latest-posts' %}
-    {% endblock %}
+        {% block content_wrapper %}
+          <div class="col-md-9">
+            {% block content %}{% endblock %}
+          </div>
+        {% endblock %}
+
+        {% block sidebar %}
+          <div class="col-md-3">
+            {% include 'latest-posts' %}
+          </div>
+        {% endblock %}
+
+      </div>{# .row #}
+    </div>{# .container #}
 
     <footer class="container" role="contentinfo">
       <p class="copyright">&copy; 2010&ndash;{{ 'now'|date('Y') }} {{ site.title }}</p>
