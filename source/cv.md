@@ -6,7 +6,7 @@ nav: cv
 
 # Oliver Davies CV
 
-_Drupal specialist, core contributor and contrib maintainer._
+_Drupal specialist, core contributor and contrib maintainer. Mentor. Speaker. Author._
 
 ## Skills
 
@@ -28,11 +28,12 @@ _Drupal specialist, core contributor and contrib maintainer._
 | Content management systems | Drupal 6/7/8, WordPress
 | Static site generators | Sculpin, Jekyll
 
-## Experience
+## Relevant Drupal Experience
 
 ### Drupal Association
 
-<https://assoc.drupal.org>
+<https://assoc.drupal.org><br>
+<https://www.drupal.org>
 
 _Role: Drupal.org Developer (May 2014 - Present)_
 
@@ -61,12 +62,21 @@ _Role: Senior Drupal Developer (April 2013 - May 2014)_
   * Additional custom module development and theming.
   * Providing CMS and Git training to the client's internal Intranet team.
 * **Introduced new tools such as Puppet, Vagrant, SASS and Compass into the team.**
+* **Local development environment setup using [Vagrant](http://vagrantup.com) and [Puppet](http://puppetlabs.com).**
+* **Evaluating Drupal for new projects.**
 
 ### Nomensa
 
 <http://www.nomensa.com>
 
 _Role: Freelance Drupal Developer (February 2012 - July 2012), Application Developer & System Administrator (July 2012 - April 2013)_
+
+* **Development of client websites using Drupal 7.**
+ * Accessible front-end development and theming to meet WCAG 2.0 AA standards.
+ * Installation and configuration of CiviCRM, and adding some custom data synchronisation between CiviCRM and Drupal.
+ * Providing CMS training to clients.
+* **Local development environment setup using [Vagrant](http://vagrantup.com) and [Puppet](http://puppetlabs.com).**
+* **Evaluating Drupal for new projects and proving cost and time estimates for new work.**
 
 ### Proctor & Stevenson
 
@@ -88,3 +98,27 @@ _Role: PHP Developer (April 2011 - February 2012)_
 <http://www.horseandcountry.tv>
 
 _Role: Web Developer (July 2010 - April 2011)_
+
+* **Re-development of the Events section**
+  * Added and configured [Ubercart](http://ubercart.org) to allow for paid events, including tiered levels.
+  * Front-end development and theming to match updated mockups and styleguide.
+  
+## Non-Drupal Experience
+
+* Software & Solutions Developer at Fujitsu UK & Ireleand (February 2010 - July 2010)
+* Technical Support Specialist at Fujitsu UK & Ireleand (July 2007 - February 2010)
+* Laptop Repair Technician for Panasonic Computer Products Europe (August 2006 - July 2007)
+* Laptop Repair Technician for Student Essentials Ltd (September 2004 - August 2006)
+
+## Drupal Contributions
+
+* [Contributed code to Drupal 7 core](http://cgit.drupalcode.org/drupal/log/?h=7.x&qt=grep&q=opdavies).
+* [Contributed patches to Drupal 8 core](https://www.drupal.org/node/889772#comment-9211267) (not committed, issue is still active).
+* [Over 650 commits](https://www.drupal.org/user/381388/track/code) to contributed projects on Drupal.org.
+
+## Community
+
+* Drupal, PHP and web accessibility user group organiser, attendee and speaker.
+* Regular DrupalCamp attendee, volunteer and speaker.
+* Regular DrupalCon attendee and sprint mentor.
+* Founding member of the Organising Committee for [DrupalCamp Bristol](http://2015.drupalcampbristol.co.uk).
