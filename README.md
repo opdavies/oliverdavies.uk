@@ -1,7 +1,7 @@
-sculpin-minimal
-===============
+oliverdavies.co.uk
+==================
 
-A minimal installation of [Sculpin](http://sculpin.io).
+The source code for <http://www.oliverdavies.co.uk>. Built with [Sculpin](http://sculpin.io).
 
 Build
 -----
