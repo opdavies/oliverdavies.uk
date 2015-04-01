@@ -42,9 +42,14 @@ My alternative solution to this is to include an environment-specific settings f
 To do this, add the following code to the bottom of settings.php:
 
 ~~~php
-// If using Pantheon, include an environment-specific settings file, for example
-// settings.dev.php, if one exists.
 if (isset($_SERVER['PANTHEON_ENVIRONMENT'])) {
+  if ($_SERVER['PANTHEON_ENVIRONMENT'] != 'live') {
+    // You can still add things here, for example to apply to all sites apart
+    // from production. Mail reroutes, caching settings etc.
+  }
+
+  // Include an environment-specific settings file, for example
+  // settings.dev.php, if one exists.
   $environment_settings = __DIR__ . '/settings.' .  $_SERVER['PANTHEON_ENVIRONMENT'] . '.php';
   if (file_exists($environment_settings)) {
     include $environment_settings;
