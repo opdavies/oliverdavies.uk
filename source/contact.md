@@ -7,7 +7,7 @@ use:
 ---
 # Contact
 
-If you find any issues or want to suggest any improvements to the site, you can [create an issue](https://github.com/opdavies/oliverdavies.co.uk/issues/new) in the GitHub repository. If you want to suggest an improvement to a blog post, please feel free to fork the repository and submit a pull request.
+If you find any issues or want to suggest any improvements to the site, you can [create an issue](https://github.com/opdavies/oliverdavies.co.uk/issues/new) on GitHub. If you want to suggest an improvement to a blog post, please feel free to fork the repository and submit a pull request.
 
 Email
 : [oliver@oliverdavies.co.uk](mailto:oliver+contact@oliverdavies.co.uk?subject=Contact%20Oliver%20Davies)
