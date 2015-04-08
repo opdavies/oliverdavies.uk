@@ -2,28 +2,23 @@
 
 set -x
 
-SCULPIN='/usr/local/bin/sculpin'
-ENV='prod'
-BRANCH='master'
-REPO="git@github.com:opdavies/opdavies.github.io.git --branch ${BRANCH}"
-DEPLOY_DIR='./gh-pages-deployment'
-
-rm -rf ./output_${ENV}
-${SCULPIN} generate --env=${ENV}
+rm -rf ./output_prod
+/usr/local/bin/sculpin generate --env=prod
 
 LOG=$(git log --oneline -n 1)
 
-rm -rf ${DEPLOY_DIR}
-git clone ${REPO} ${DEPLOY_DIR}
+rm -rf ./gh-pages-deployment/
+git clone git@github.com:opdavies/opdavies.github.io.git ./gh-pages-deployment/
 
-pushd ${DEPLOY_DIR}
+pushd ./gh-pages-deployment/
 
-git checkout -B ${BRANCH}
+git checkout master
+git checkout -b master
 
-rsync --quiet --archive --delete ../output_${ENV}/ ./
+rsync --quiet --archive --filter="P .git*" --delete ../output_prod/ ./
 
 git add -A .
 git commit -m "${LOG}"
-git push origin ${BRANCH} --force
+git push origin master --force
 
 popd
