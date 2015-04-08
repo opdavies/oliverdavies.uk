@@ -4,9 +4,9 @@ set -x
 
 SCULPIN='/usr/local/bin/sculpin'
 ENV='prod'
-REPO='git@github.com:opdavies/opdavies.github.io.git'
-DEPLOY_DIR='./gh-pages-deployment'
 BRANCH='master'
+REPO="git@github.com:opdavies/opdavies.github.io.git --branch ${BRANCH}"
+DEPLOY_DIR='./gh-pages-deployment'
 
 rm -rf ./output_${ENV}
 ${SCULPIN} generate --env=${ENV}
@@ -20,7 +20,7 @@ pushd ${DEPLOY_DIR}
 
 git checkout -B ${BRANCH}
 
-cp -R ../output_${ENV}/* ./
+rsync --quiet --archive --delete ../output_${ENV}/ ./
 
 git add -A .
 git commit -m "${LOG}"
