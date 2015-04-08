@@ -10,7 +10,7 @@ use:
 ## Upcoming Talks
 
 April 2015 - [PHPSW](http://phpsw.org.uk/events/221484360-lightning-talks)
-: Drupal 8 (lightning talk)
+: [Drupal 8](http://opdavies.github.com/phpsw-drupal8) (lightning talk)
 
 ## Previous Talks
 
