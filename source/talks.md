@@ -12,7 +12,7 @@ use:
 ## Previous Talks
 
 April 2015 - [PHPSW](http://phpsw.org.uk/events/221484360-lightning-talks)
-: [Drupal 8](http://opdavies.github.com/phpsw-drupal8) (lightning talk)
+: [Drupal 8](https://speakerdeck.com/opdavies/drupal-8) (lightning talk)
 
 February 2015 - [DrupalCamp London](http://2015.drupalcamplondon.co.uk)
 : Drupal.org in 2015: What's coming next?
