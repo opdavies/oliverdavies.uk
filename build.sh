@@ -17,13 +17,9 @@ rm -rf ${BUILD_DIR}
 git clone ${REPO} ${BUILD_DIR}
 
 pushd ${BUILD_DIR}
-
 git checkout -B ${BRANCH}
-
 rsync --quiet --archive --filter="P .git*" --delete ../output_${ENV}/ ./
-
 git add -A .
 git commit -m "${LOG}"
 git push origin ${BRANCH} --force
-
 popd
