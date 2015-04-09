@@ -2,14 +2,13 @@
 
 set -x
 
-SCULPIN='/usr/local/bin/sculpin'
 ENV='prod'
 REPO='git@github.com:opdavies/opdavies.github.io.git'
 BRANCH='master'
 BUILD_DIR='./gh-pages-deployment/'
 
 rm -rf ./output_${ENV}
-${SCULPIN} generate --env=${ENV}
+sculpin generate --env=${ENV}
 
 LOG=$(git log --oneline -n 1)
 
