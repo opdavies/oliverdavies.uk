@@ -12,8 +12,7 @@ git clone git@github.com:opdavies/opdavies.github.io.git ./gh-pages-deployment/
 
 pushd ./gh-pages-deployment/
 
-git checkout master
-git checkout -b master
+git checkout -B master
 
 rsync --quiet --archive --filter="P .git*" --delete ../output_prod/ ./
 
