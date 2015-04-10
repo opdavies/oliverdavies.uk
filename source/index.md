@@ -5,6 +5,8 @@ nav: about
 front: true
 use:
   - posts
+meta:
+  description: 'The personal website and blog of Oliver Davies, a Drupal Developer and Systems Administrator from Wales, UK.'
 ---
 # About
 
