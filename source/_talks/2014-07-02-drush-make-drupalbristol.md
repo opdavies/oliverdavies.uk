@@ -1,7 +1,7 @@
 ---
 title: drush make drupalbristol
 location: Drupal Bristol User Group
-speakerdeck: https://speakerdeck.com/opdavies/drush-make-drupalbristol
+slides: https://speakerdeck.com/opdavies/drush-make-drupalbristol
 tags:
   - user-group
   - drupal
