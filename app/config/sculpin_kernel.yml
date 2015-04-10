@@ -20,7 +20,6 @@ sculpin_content_types:
     enabled: false
   talks:
     permalink: talks/:slug_title/
-    enabled: false
     taxonomies:
       - tags
   testimonials:
