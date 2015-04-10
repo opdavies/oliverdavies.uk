@@ -8,5 +8,6 @@ tags:
 meta:
   description: "An impromptu talk about the Drupal Association and I've done there since joining the team."
 slug: drupal-association
+nav: talks
 ---
 An impromptu talk about the [Drupal Association](https://assoc.drupal.org) and I've done there since joining the team.

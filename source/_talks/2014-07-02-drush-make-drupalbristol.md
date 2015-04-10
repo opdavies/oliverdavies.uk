@@ -9,5 +9,6 @@ tags:
   - drush-make
 meta:
   description: 'An introduction to Drush and Drush Make.'
+nav: talks
 ---
 An introduction to Drush and Drush Make.

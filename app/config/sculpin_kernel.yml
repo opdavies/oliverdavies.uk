@@ -16,7 +16,6 @@ sculpin_content_types:
       - tags
     enabled: false
   talks:
-    layout: default
     permalink: talks/:year/:month/:day/:slug_title/
     taxonomies:
       - tags
