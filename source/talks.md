@@ -4,6 +4,8 @@ title: Talks
 nav: talks
 use:
   - posts
+meta:
+  description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups.'
 ---
 # Talks
 
