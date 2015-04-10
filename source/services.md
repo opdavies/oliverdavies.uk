@@ -4,6 +4,8 @@ title: Services
 nav: services
 use:
   - posts
+meta:
+  description: 'Information about freelance services that Oliver offers.'
 ---
 # Services
 

@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{% if page.front == true %}{{ site.description }}{% else %}{{ page.description }}{% endif %}">
+    {% if page.meta.description %}
+      <meta name="description" content="{{ page.meta.description|e('html') }}">
+    {% endif %}
     <link rel="author" href="{{ site.url }}/humans.txt" />
     <title>{% if (page.front == true) and (site.subtitle) %}{{ site.subtitle }}{% else %}{{ page.title }}{% endif %} | {{ site.title }}</title>
     
