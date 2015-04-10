@@ -15,6 +15,11 @@ sculpin_content_types:
     taxonomies:
       - tags
     enabled: false
+  talks:
+    permalink: talks/:slug_title/
+    enabled: false
+    taxonomies:
+      - tags
   testimonials:
     permalink: testimonials/:slug_title/
     layout: default
