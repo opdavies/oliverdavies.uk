@@ -21,6 +21,8 @@ sculpin_content_types:
   talks:
     permalink: talks/:slug_title/
     enabled: false
+    taxonomies:
+      - tags
   testimonials:
     permalink: testimonials/:slug_title/
     layout: default
