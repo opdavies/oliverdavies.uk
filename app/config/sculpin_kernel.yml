@@ -19,7 +19,8 @@ sculpin_content_types:
       - tags
     enabled: false
   talks:
-    permalink: talks/:slug_title/
+    layout: default
+    permalink: talks/:year/:month/:day/:slug_title/
     taxonomies:
       - tags
   testimonials:
