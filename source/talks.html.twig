@@ -1,0 +1,15 @@
+---
+layout: default
+title: Talks
+use:
+  - talks
+---
+
+<h1>Talks</h1>
+
+<dl>
+  {% for talk in data.talks %}
+    <dt>{{ talk.date|date('F Y') }} - {{ talk.location|raw }}</dt>
+    <dd><a href="{{ site.url }}{{ talk.url }}">{{ talk.title }}</a></dd>
+  {% endfor %}
+</dl>
