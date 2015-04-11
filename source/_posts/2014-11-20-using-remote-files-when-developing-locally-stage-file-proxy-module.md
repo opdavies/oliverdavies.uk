@@ -4,8 +4,8 @@ nav: blog
 use:
   - posts
 tags:
-  - Drupal
-  - Drupal Planet
+  - drupal
+  - drupal-planet
   - Servers
 ---
 Download the [Stage File Proxy](https://www.drupal.org/project/stage_file_proxy) module from Drupal.org and enable it on your site.

@@ -5,8 +5,8 @@ use:
   - posts
 slug: pantheon-settings-files
 tags:
-  - Drupal
-  - Drupal Planet
+  - drupal
+  - drupal-planet
   - Pantheon
   - settings.php
 ---

@@ -5,11 +5,10 @@ use:
   - posts
 slug: review-teleport-module
 tags:
-  - Drupal Planet
-  - Drupal 6
-  - Modules
-  - Drupal Modules
-  - Teleport
+  - drupal-planet
+  - drupal-6
+  - drupal-modules
+  - teleport
 ---
 As a heavily-reliant [Quicksilver](http://en.wikipedia.org/wiki/Quicksilver_%28software%29) user on my MacBook Pro, I was glad when I found the [Teleport](http://drupal.org/project/teleport) module for [Drupal](http://drupal.org) *(due to Elliott Rothman's [tweet](http://twitter.com/elliotttt/status/18044234238))*.
 

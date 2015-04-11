@@ -5,12 +5,13 @@ use:
   - posts
 slug: quickly-import-multiples-images-using-imagefieldimport-module
 tags:
-  - Drupal Planet
-  - ImageField Import
-  - Drupal 6
-  - Photo Gallery
-  - CCK
-  - ImageField
+  - drupal-planet
+  - imagefield-import
+  - drupal
+  - drupal-6
+  - photo-gallery
+  - cck
+  - imagefield
 ---
 **Thanks to Bob at [Mustardseed Media](http://mustardseedmedia.com) for [tweeting](http://twitter.com/mustardseedinc/status/14713096905) about this module. It's undoubtedly saved me hours of work today alone!**
 

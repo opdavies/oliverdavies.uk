@@ -6,8 +6,8 @@ use:
 slug: writing-info-file-drupal-7-theme
 tags:
   - Theming
-  - Drupal Theming
-  - Drupal
+  - - drupal-theming
+  - drupal
   - Code
 ---
 ~~~

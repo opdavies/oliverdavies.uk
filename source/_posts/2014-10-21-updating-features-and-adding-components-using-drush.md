@@ -5,8 +5,8 @@ use:
   - posts
 slug: updating-features-and-adding-components-using-drush
 tags:
-  - Drupal
-  - Drupal Planet
+  - drupal
+  - drupal-planet
   - Drush
   - Features
 ---

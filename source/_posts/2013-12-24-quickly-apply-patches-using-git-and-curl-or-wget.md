@@ -6,7 +6,7 @@ use:
 description: How to quickly download a patch file and apply it to a Git repository in one line
 tags:
   - Git
-  - Drupal Planet
+  - drupal-planet
 ---
 Testing a patch file is usually a two-step process. First you download the patch file from the source, and then you run a separate command to apply it.
 

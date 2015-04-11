@@ -6,8 +6,8 @@ use:
 slug: git-format-patch
 tags:
   - Patches
-  - Drupal
-  - Drupal Planet
+  - drupal
+  - drupal-planet
   - Git
 ---
 ## The Problem

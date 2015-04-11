@@ -6,7 +6,7 @@ use:
 description: I'm absolutely delighted to announce that I'm going to be writing an article for Linux Journal magazine's upcoming Drupal special.
 slug: writing-article-linux-journal
 tags:
-  - Drupal
+  - drupal
   - Distributions
   - Installation Profiles
   - Writing

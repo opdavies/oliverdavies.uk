@@ -8,8 +8,8 @@ tags:
   - SimpleTest
   - TDD
   - Test Driven Development
-  - Drupal Planet
-  - Drupal
+  - drupal-planet
+  - drupal
 ---
 Here are some useful links that I've found when researching about unit testing in Drupal using SimpleTest:
 

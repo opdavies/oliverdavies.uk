@@ -6,9 +6,9 @@ use:
 description: For reference, this is the code needed to display a menu in a Drupal 7 template file.
 slug: display-custom-menu-drupal-7-theme-template-file
 tags:
-  - Drupal
-  - Drupal 7
-  - Drupal Planet
+  - drupal
+  - drupal-7
+  - drupal-planet
   - PHP
   - ARIA
 ---

@@ -5,11 +5,12 @@ use:
   - posts
 slug: using-imagecache-and-imagecrop-my-portfolio
 tags:
-  - Drupal 6
-  - CCK
-  - ImageCache
-  - ImageField
-  - ImageCrop
+  - drupal
+  - drupal-6
+  - cck
+  - imagecache
+  - imagecrop
+  - imagefield
 ---
 Whilst working on my own portfolio/testimonial website, I decided to have a portfolio page displaying the name of each site and a thumbnail image. For this Blog post, I'll be using a site called [Popcorn Strips](http://popcornstrips.com) which I built for a friend earlier this year as an example.
 

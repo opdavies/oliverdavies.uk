@@ -7,7 +7,7 @@ description: How to use an SASS each loop to easily add multiple fonts to your C
 slug: include-css-fonts-using-sass-each-loop
 tags:
   - Compass
-  - Drupal Planet
+  - drupal-planet
   - Fonts
   - SASS
 ---

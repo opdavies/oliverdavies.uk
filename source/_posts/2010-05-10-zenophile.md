@@ -4,12 +4,12 @@ nav: blog
 use:
   - posts
 tags:
-  - Drupal Planet
-  - Drupal 6
-  - Drupal Modules
-  - Drupal Theming
-  - Zen
-  - Zenophile
+  - drupal-planet
+  - drupal-6
+  - drupal-modules
+  - drupal-theming
+  - zen
+  - zenophile
 ---
 If you use the [Zen](http://drupal.org/project/zen) theme, then you should also be using the [Zenophile](http://drupal.org/project/zenophile) module!
 

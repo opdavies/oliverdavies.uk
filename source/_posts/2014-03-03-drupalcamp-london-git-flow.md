@@ -8,7 +8,7 @@ slug: what-git-flow
 tags:
   - Git
   - Git Flow
-  - DrupalCamp London
+  - drupalCamp London
   - Talks
 tweets: true
 ---

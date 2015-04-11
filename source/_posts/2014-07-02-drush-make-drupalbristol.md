@@ -4,10 +4,10 @@ nav: blog
 use:
   - posts
 tags:
-  - Drupal
+  - drupal
   - Drush
   - Drush Make
-  - Drupal Bristol
+  - drupal Bristol
   - Talks
 ---
 Here are my slides from this month's talk night at the [Drupal Bristol user group](https://groups.drupal.org/bristol-and-west-uk).

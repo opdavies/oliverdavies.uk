@@ -4,10 +4,10 @@ nav: blog
 use:
   - posts
 tags:
-  - Drupal
-  - Drupal 6
-  - Drupal 7
-  - Drupal Planet
+  - drupal
+  - drupal-6
+  - drupal-7
+  - drupal-planet
   - Email
 draft: true
 ---

@@ -5,15 +5,15 @@ use:
   - posts
 slug: create-better-photo-gallery-drupal-part-1
 tags:
-  - Drupal Planet
-  - Drupal 6
+  - drupal-planet
+  - drupal-6
   - Photo Gallery
   - SQL
   - Views
   - Sequel Pro
   - CCK
   - Views Attach
-  - Drupal
+  - drupal
 ---
 Recently, I converted a client's static HTML website, along with their Coppermine Photo Gallery, into a Drupal-powered website.
 

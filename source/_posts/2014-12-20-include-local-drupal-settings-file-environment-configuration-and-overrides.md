@@ -5,11 +5,11 @@ use:
   - posts
 slug: include-local-drupal-settings-file-environment-configuration-and-overrides
 tags:
-  - Drupal
-  - Drupal 6
-  - Drupal 7
-  - Drupal 8
-  - Drupal Planet
+  - drupal
+  - drupal-6
+  - drupal-7
+  - drupal 8
+  - drupal-planet
   - settings.php
 ---
 At the bottom of settings.php, add the following code:

@@ -5,8 +5,8 @@ use:
   - posts
 slug: create-and-apply-patches
 tags:
-  - Drupal Planet
-  - Drupal 6
+  - drupal-planet
+  - drupal-6
   - Modules
   - Patch
 ---

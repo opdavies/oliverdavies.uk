@@ -5,9 +5,9 @@ use:
   - posts
 slug: creating-and-using-custom-tokens-drupal-7
 tags:
-  - Drupal
-  - Drupal Planet
-  - Drupal 7
+  - drupal
+  - drupal-planet
+  - drupal-7
   - Tokens
 ---
 This post outlines the steps required to create your own custom tokens in Drupal.

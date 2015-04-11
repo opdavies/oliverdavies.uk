@@ -5,12 +5,12 @@ use:
   - posts
 slug: create-omega-subtheme-less-css-preprocessor-using-omega-tools-and-drush
 tags:
-  - Drupal 7
-  - Omega
-  - Theming
-  - LESS
-  - Drupal Planet
-  - Drupal
+  - drupal-7
+  - omega
+  - theming
+  - less
+  - drupal-planet
+  - drupal
 ---
 In this tutorial I'll be showing how to create an [Omega](http://drupal.org/project/omega) subtheme using the [Omega Tools](http://drupal.org/project/omega_tools) module, and have it working with the [LESS CSS preprocessor](http://lesscss.org).
 

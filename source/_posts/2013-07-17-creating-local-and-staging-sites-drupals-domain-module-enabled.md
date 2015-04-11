@@ -5,8 +5,8 @@ use:
   - posts
 slug: creating-local-and-staging-sites-drupals-domain-module-enabled
 tags:
-  - Drupal
-  - Drupal Planet
+  - drupal
+  - drupal-planet
   - Databases
   - Domain
   - Table Prefixing

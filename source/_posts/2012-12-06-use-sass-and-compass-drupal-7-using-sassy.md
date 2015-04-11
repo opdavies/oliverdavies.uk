@@ -7,9 +7,9 @@ slug: use-sass-and-compass-drupal-7-using-sassy
 tags:
   - Compass
   - CSS
-  - Drupal
-  - Drupal 7
-  - Drupal Planet
+  - drupal
+  - drupal-7
+  - drupal-planet
   - LESS
   - Preprocessing
   - SASS

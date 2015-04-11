@@ -4,7 +4,7 @@ nav: blog
 use:
   - posts
 tags:
-  - Drupal
+  - drupal
   - Personal
 ---
 Today was my last day working at [Precedent](http://www.precedent.com). Next week, I'll be starting my [new job](https://assoc.drupal.org/node/18923 "Drupal.org Developer") at the [Drupal Association](http://assoc.drupal.org) working on Drupal's home - [Drupal.org](http://www.drupal.org).

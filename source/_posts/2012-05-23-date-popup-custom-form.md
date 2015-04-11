@@ -5,13 +5,13 @@ use:
   - posts
 slug: add-date-popup-calendar-custom-form
 tags:
-  - Forms
-  - Form API
-  - Date
-  - Calendar
-  - Drupal 7
-  - Drupal Planet
-  - Drupal
+  - forms
+  - form-api
+  - date
+  - calendar
+  - drupal-7
+  - drupal-planet
+  - drupal
 ---
 First, I need to download the [Date](http://drupal.org/project/date "Date module on Drupal.org") module, and make my module dependent on date_popup by adding the following line into my module's .info file.
 

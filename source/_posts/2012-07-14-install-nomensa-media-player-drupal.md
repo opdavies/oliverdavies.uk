@@ -6,8 +6,8 @@ use:
 slug: install-nomensa-media-player-drupal
 tags:
   - Accessibility
-  - Drupal
-  - Drupal Planet
+  - drupal
+  - drupal-planet
   - Nomensa
 ---
 *The official documentation for this module is now located at <https://www.drupal.org/node/2383447>. This post was accurate at the time of writing, whereas the documentation page will be kept up to date with any future changes.*

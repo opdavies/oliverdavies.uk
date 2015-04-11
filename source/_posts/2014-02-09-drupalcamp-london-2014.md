@@ -5,8 +5,8 @@ use:
   - posts
 description: It's all booked, I'm going to be attending DrupalCamp London.
 tags:
-  - Drupal
-  - DrupalCamp London
+  - drupal
+  - drupalCamp London
   - Git
   - Git Flow
 ---

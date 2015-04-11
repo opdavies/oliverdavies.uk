@@ -6,8 +6,8 @@ use:
 description: Whilst watching Drupalize.me's recent Introduction to Git series, I thought it was useful the way that the current Git branch or tag name was displayed in the bash prompt. Here's how to do it.
 slug: display-git-branch-or-tag-names-your-bash-prompt
 tags:
-  - Drupal
-  - Drupal Planet
+  - drupal
+  - drupal-planet
   - Git
   - Terminal
 ---

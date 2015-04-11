@@ -4,9 +4,8 @@ nav: blog
 use:
   - posts
 tags:
-  - Drupal Planet
-  - ImageField Import
-  - Module Development
+  - drupal-planet
+  - imagefield-import
 ---
 I've finally uploaded my first module onto Drupal.org!
 

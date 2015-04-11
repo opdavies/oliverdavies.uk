@@ -5,8 +5,8 @@ use:
   - posts
 slug: create-better-photo-gallery-drupal-part-2
 tags:
-  - Drupal Planet
-  - Drupal 6
+  - drupal-planet
+  - drupal-6
   - Photo Gallery
   - SQL
   - Sequel Pro

@@ -5,8 +5,8 @@ use:
   - posts
 description: How to quickly create a Zen sub-theme using Drush.
 tags:
-  - Drupal
-  - Drupal Planet
+  - drupal
+  - drupal-planet
   - Drush
   - Zen
   - Theming

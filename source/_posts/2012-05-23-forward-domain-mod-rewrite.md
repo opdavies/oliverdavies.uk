@@ -7,7 +7,7 @@ slug: forward-one-domain-another-using-modrewrite-and-htaccess
 tags:
   - .htaccess
   - Code
-  - Drupal
+  - drupal
   - Apache
   - mod_rewrite
 ---

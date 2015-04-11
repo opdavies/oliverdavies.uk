@@ -5,8 +5,8 @@ use:
   - posts
 slug: create-multigroups-drupal-7-using-field-collections
 tags:
-  - Drupal 7
-  - Drupal Planet
+  - drupal-7
+  - drupal-planet
   - CCK
   - Fields
   - Field Collection
