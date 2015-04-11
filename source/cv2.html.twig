@@ -1,0 +1,43 @@
+---
+layout: default
+title: CV2
+jobs:
+  - company: Drupal Association
+    website: https://assoc.drupal.org
+    role: Drupal.org Developer
+    start: 2014
+  - company: Precedent
+    website: http://precedent.com
+    role: Senior Drupal Developer
+    start: 2013
+    end: 2014
+  - company: Nomensa
+    website: http://www.nomensa.com
+    role: Application Developer & Systems Administrator
+    start: 2012
+    end: 2013
+  - company: Nomensa
+    website: http://www.nomensa.com
+    role: Freelance Drupal Developer
+    start: 2012
+    end: 2012
+  - company: Proctor & Stevenson
+    website: http://www.proctors.co.uk
+    role: PHP Developer
+    start: 2011
+    end: 2012
+  - company: Horse & Country TV
+    website: http://www.horseandcountry.tv
+    role: Web Developer
+    start: 2010
+    end: 2011
+---
+<h1>CV</h1>
+
+{% for job in page.jobs %}
+  <h2>{{ job.company }}</h2>
+  {% if job.website %}
+      <a href="{{ job.website }}">{{ job.website }}</a>
+  {% endif %}
+    <p>{{ job.role }} from {{ job.start }} - {% if job.end %}{{ job.end }}{% else %}Present{% endif %}</p>
+{% endfor %}
