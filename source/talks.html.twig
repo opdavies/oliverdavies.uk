@@ -5,37 +5,39 @@ nav: talks
 meta:
   description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
 talks:
-  - date: 2015-04-08
-    location: PHPSW
-    description: <a href="https://speakerdeck.com/opdavies/drupal-8">Drupal 8</a> (lightning talk)
-  - date: 2015-02-28
-    location: DrupalCamp London
-    description: Drupal.org in 2015: What's coming next?
-  - date: 2015-01-18
-    location: DrupalCamp Brighton
-    description: Drupal.org in 2015: What's coming next?
-  - date: 2014-08-09
-    location: South Wales Drupal User Group
-    description: An impromptu talk about the <a href="https://assoc.drupal.org">Drupal Association</a> and I've done there since joining the team.
-  - date: 2014-07-02
-    location: Drupal Bristol User Group
-    description: <a href="/blog/drush-make-drupalbristol">drush make drupalbristol</a>: An introduction to Drush and Drush Make.
-  - date: 2014-03-01
-    location: DrupalCamp London
-    description: <a href="/blog/what-git-flow">Never Commit to Master</a>: An Introduction to Git Flow.
-  - date: 2013-07-10
-    location: South Wales Drupal User Group
-    description: An overview of the Drupal LDAP module and how I customised it for a client project.
   - date: 2012-09-05
     location: unified.diff
     description: <a href="http://vimeo.com/49827006">So, what is this Drupal thing?</a> - an introduction to Drupal.
+  - date: 2013-07-10
+    location: South Wales Drupal User Group
+    description: An overview of the Drupal LDAP module and how I customised it for a client project.
+  - date: 2014-03-01
+    location: DrupalCamp London
+    description: <a href="/blog/what-git-flow">Never Commit to Master</a>: An Introduction to Git Flow.
+  - date: 2014-07-02
+    location: Drupal Bristol User Group
+    description: <a href="/blog/drush-make-drupalbristol">drush make drupalbristol</a>: An introduction to Drush and Drush Make.
+  - date: 2014-08-09
+    location: South Wales Drupal User Group
+    description: An impromptu talk about the <a href="https://assoc.drupal.org">Drupal Association</a> and I've done there since joining the team.
+  - date: 2015-01-18
+    location: DrupalCamp Brighton
+    description: Drupal.org in 2015: What's coming next?
+  - date: 2015-02-28
+    location: DrupalCamp London
+    description: Drupal.org in 2015: What's coming next?
+  - date: 2016-04-08
+    location: PHPSW
+    description: <a href="https://speakerdeck.com/opdavies/drupal-8">Drupal 8</a> (lightning talk)
 use:
   - posts
 ---
 <h1>Talks</h1>
 
+{% set now = 'now'|date('U') %}
+
 <dl>
-  {% for talk in page.talks %}
+  {% for talk in page.talks|reverse if talk.date <= now %}
     {% if loop.first %}<h2>Previous Talks</h2>{% endif %}
 
     <dt>{{ talk.date|date('F Y') }} - {{ talk.location }}</dt>
