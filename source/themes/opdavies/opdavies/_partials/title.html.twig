@@ -1,16 +1,12 @@
-{% set separator = '-' %}
+{% set separator = '|' %}
 {% spaceless %}<title>
   {% if page.full_title %}
     {{ page.full_title }}
-  {% elseif page.title %}
-    {% if site.title %}
-      {{ page.title }} {{ separator }} {{ site.title }}
-    {% elseif page.subtitle %}
-      {{ page.title }} {{ separator }} {{ site.title }} {{ separator }} {{ site.subtitle }}
-    {% endif %}
+  {% elseif page.title and site.title %}
+    {{ page.title }} {{ separator }} {{ site.title }}
   {% elseif site.title %}
     {% if site.subtitle %}
-      {{ site.title }} {{ separator }} {{ site.subtitle }}
+      {{ site.subtitle }} {{ separator }} {{ site.title }}
     {% else %}
       {{ site.title }}
     {% endif %}
