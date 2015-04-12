@@ -7,6 +7,7 @@
     {% if page.meta.description %}
       <meta name="description" content="{{ page.meta.description|e('html') }}">
     {% endif %}
+    {% if page.meta.og %}{% include "og" with {og: page.meta.og} %}{% endif %}
     <link rel="author" href="{{ site.url }}/humans.txt" />
     <title>{% if (page.front == true) and (site.subtitle) %}{{ site.subtitle }}{% else %}{{ page.title }}{% endif %} | {{ site.title }}</title>
     
