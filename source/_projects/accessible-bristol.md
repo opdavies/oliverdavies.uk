@@ -1,7 +1,7 @@
 ---
 title: Accessible Bristol
-website: http://www.accessiblebristol.org
-is_featured: true
+link: http://www.accessiblebristol.org
+featured: true
 tags:
   - drupal
   - drupal-7
