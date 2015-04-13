@@ -11,6 +11,24 @@ use:
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+
+    {% set pages = { 0: 'accessibility', 1: 'blog', 2: 'company-information', 3: 'contact', 4: 'services', 5: 'talks', 6: 'work' } %}
+    {% for page in pages %}
+      <url>
+        <loc>{{ site.url }}/{{ page }}</loc>
+        <lastmod>{{ site.calculated_date | date('Y-m-d') }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+      </url>
+    {% endfor %}
+
+  <url>
+    <loc>{{ site.url }}/blog</loc>
+    <lastmod>{{ site.calculated_date | date('Y-m-d') }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   {% for post in data.posts %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
