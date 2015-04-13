@@ -1,8 +1,6 @@
 ---
 title: drush make drupalbristol
 nav: blog
-use:
-  - posts
 tags:
   - drupal
   - drush

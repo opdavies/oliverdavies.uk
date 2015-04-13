@@ -1,8 +1,6 @@
 ---
 title: Include environment-specific settings files on Pantheon
 nav: blog
-use:
-  - posts
 slug: pantheon-settings-files
 tags:
   - drupal

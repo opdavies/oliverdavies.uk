@@ -1,8 +1,6 @@
 ---
 title: Reflections on speaking at UnifiedDiff
 nav: blog
-use:
-  - posts
 description: Yesterday evening I went to and spoke at the <a href="http://www.unifieddiff.co.uk" title="UnifiedDiff">UnifiedDiff meetup</a> in Cardiff, having offered previously to do a presentation providing an introduction to Drupal.
 slug: reflections-speaking-unifieddiff
 tags:

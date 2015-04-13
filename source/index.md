@@ -1,8 +1,6 @@
 ---
 layout: default
 nav: about
-use:
-  - posts
 meta:
   description: 'The personal website and blog of Oliver Davies, a Drupal Developer and Systems Administrator from Wales, UK.'
   og:

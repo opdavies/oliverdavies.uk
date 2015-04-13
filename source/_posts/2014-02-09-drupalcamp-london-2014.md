@@ -1,8 +1,6 @@
 ---
 title: DrupalCamp London 2014
 nav: blog
-use:
-  - posts
 description: It's all booked, I'm going to be attending DrupalCamp London.
 tags:
   - drupal

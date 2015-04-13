@@ -1,8 +1,6 @@
 ---
 title: Leaving Nomensa, Joining Precedent
 nav: blog
-use:
-  - posts
 description: Yesterday was my last day working at Nomensa. Next week, I'll be starting as a Senior Developer at Precedent.
 tags:
   - nomensa

@@ -2,8 +2,6 @@
 layout: default
 title: Work
 nav: work
-use:
-  - posts
 meta:
   description: "Information about Oliver's current work."
 ---

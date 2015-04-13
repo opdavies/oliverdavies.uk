@@ -1,8 +1,6 @@
 ---
 title: How to Create and Apply Patches
 nav: blog
-use:
-  - posts
 slug: create-and-apply-patches
 tags:
   - drupal-planet

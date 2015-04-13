@@ -2,8 +2,6 @@
 title: How to Define a Minimum Drupal Core Version
 description: How to define a minimum Drupal core version for your module or theme.
 nav: blog
-use:
-  - posts
 tags:
   - drupal
   - drupal 7

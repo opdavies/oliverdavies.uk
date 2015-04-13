@@ -1,8 +1,6 @@
 ---
 title: Easily Embed TypeKit Fonts into your Drupal Website
 nav: blog
-use:
-  - posts
 slug: easily-embed-typekit-fonts-your-drupal-website
 tags:
   - drupal-planet

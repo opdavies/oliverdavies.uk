@@ -1,8 +1,6 @@
 ---
 title: Going to DrupalCon
 nav: blog
-use:
-  - posts
 slug: going-drupalcon
 tags:
   - drupalcon

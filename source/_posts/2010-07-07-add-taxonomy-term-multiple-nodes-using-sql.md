@@ -1,8 +1,6 @@
 ---
 title: Add a Taxonomy Term to Multiple Nodes Using SQL
 nav: blog
-use:
-  - posts
 slug: add-taxonomy-term-multiple-nodes-using-sql
 tags:
   - taxonomy

@@ -1,8 +1,6 @@
 ---
 title: Creating and using custom tokens in Drupal 7
 nav: blog
-use:
-  - posts
 slug: creating-and-using-custom-tokens-drupal-7
 tags:
   - drupal

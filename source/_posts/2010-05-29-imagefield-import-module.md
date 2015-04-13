@@ -1,8 +1,6 @@
 ---
 title: Quickly Import Multiples Images Using the Imagefield_Import Module
 nav: blog
-use:
-  - posts
 slug: quickly-import-multiples-images-using-imagefieldimport-module
 tags:
   - drupal-planet

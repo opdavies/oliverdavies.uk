@@ -1,8 +1,6 @@
 ---
 title: Installing Nagios on CentOS
 nav: blog
-use:
-  - posts
 slug: installing-nagios-centos
 tags:
   - nagios
