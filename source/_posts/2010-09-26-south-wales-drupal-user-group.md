@@ -7,7 +7,8 @@ slug: south-wales-drupal-user-group
 tags:
   - drupal
   - drupal-planet
-  - SWDUG
+  - swdug
+  - meetups
 ---
 If you do Drupal, and you're in the area, come and join us for the first South Wales Drupal User Group Meetup!
 

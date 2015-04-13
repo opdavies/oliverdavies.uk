@@ -5,6 +5,8 @@ use:
   - posts
 description: Yesterday evening I went to and spoke at the <a href="http://www.unifieddiff.co.uk" title="UnifiedDiff">UnifiedDiff meetup</a> in Cardiff, having offered previously to do a presentation providing an introduction to Drupal.
 slug: reflections-speaking-unifieddiff
+tags:
+  - talks
 ---
 Yesterday evening I went along and spoke at the [UnifiedDiff meetup](http://www.unifieddiff.co.uk) in Cardiff, having offered previously to do a presentation providing an introduction to Drupal.
 

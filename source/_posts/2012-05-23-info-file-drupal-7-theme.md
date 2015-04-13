@@ -5,10 +5,10 @@ use:
   - posts
 slug: writing-info-file-drupal-7-theme
 tags:
-  - Theming
-  - - drupal-theming
+  - theming
+  - drupal-theming
   - drupal
-  - Code
+  - code
 ---
 ~~~
 name = My Theme

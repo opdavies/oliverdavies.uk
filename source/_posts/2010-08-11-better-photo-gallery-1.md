@@ -7,12 +7,12 @@ slug: create-better-photo-gallery-drupal-part-1
 tags:
   - drupal-planet
   - drupal-6
-  - Photo Gallery
-  - SQL
-  - Views
-  - Sequel Pro
-  - CCK
-  - Views Attach
+  - photo-gallery
+  - sql
+  - views
+  - sequel-pro
+  - cck
+  - views-attach
   - drupal
 ---
 Recently, I converted a client's static HTML website, along with their Coppermine Photo Gallery, into a Drupal-powered website.

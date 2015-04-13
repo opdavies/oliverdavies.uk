@@ -4,6 +4,9 @@ nav: blog
 use:
   - posts
 slug: proctors-hosting-next-drupal-meetup
+tags:
+  - meetups
+  - drupal-bristol
 ---
 My employer, [Proctor & Stevenson](http://www.proctors.co.uk), are going to be hosting the next Bristol & South West Drupal meetup on the 25th May at our offices.
 

@@ -9,8 +9,8 @@ tags:
   - drupal
   - drupal-7
   - drupal-planet
-  - PHP
-  - ARIA
+  - php
+  - aria
 ---
 For reference, this is the code needed to display a menu in a Drupal 7 template file, including the navigation ARIA role.
 

@@ -7,9 +7,9 @@ description: If you use a lot of process and preprocess functions within your Dr
 slug: dividing-drupals-process-and-preprocess-functions-separate-files
 tags:
   - drupal
-  - Code
-  - Theming
-  - Preprocessing
+  - code
+  - theming
+  - preprocessing
 ---
 If you use a lot of process and preprocess functions within your Drupal theme, then your template.php can get very long and it can become difficult to find a certain piece of code. Following the example of the [Omega theme](http://drupal.org/project/omega "The Omega theme on Drupal.org"), I've started separating my process and preprocess functions into their own files. For example, mytheme_preprocess_node can be placed within a preprocess/node.inc file, and mytheme_process_page can be placed within process/page.inc.
 

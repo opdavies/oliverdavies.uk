@@ -6,9 +6,9 @@ use:
 slug: forward-one-domain-another-using-modrewrite-and-htaccess
 tags:
   - .htaccess
-  - Code
+  - code
   - drupal
-  - Apache
+  - apache
   - mod_rewrite
 ---
 Within the mod_rewrite section of your .htaccess file, add the following lines:

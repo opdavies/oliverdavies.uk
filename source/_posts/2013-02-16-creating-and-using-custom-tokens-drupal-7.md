@@ -8,7 +8,7 @@ tags:
   - drupal
   - drupal-planet
   - drupal-7
-  - Tokens
+  - tokens
 ---
 This post outlines the steps required to create your own custom tokens in Drupal.
 

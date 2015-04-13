@@ -5,9 +5,9 @@ use:
   - posts
 slug: quickest-way-install-sublime-text-2-ubuntu
 tags:
-  - Linux
-  - Sublime Text
-  - Ubuntu
+  - linux
+  - sublime-text
+  - ubuntu
 ---
 After reading numerous blog posts about how to install [Sublime Text 2](http://www.sublimetext.com/2 "Sublime Text 2") in [Ubuntu](http://www.ubuntu.com/2 "Ubuntu"), this is definitely the quickest way! Just paste the following lines into your Terminal:
 

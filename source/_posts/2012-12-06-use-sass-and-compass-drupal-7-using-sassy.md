@@ -5,15 +5,14 @@ use:
   - posts
 slug: use-sass-and-compass-drupal-7-using-sassy
 tags:
-  - Compass
-  - CSS
+  - compass
+  - css
   - drupal
   - drupal-7
   - drupal-planet
-  - LESS
-  - Preprocessing
-  - SASS
-  - SCSS
+  - less
+  - preprocessing
+  - sass
 ---
 I've recently started using [SASS](http://sass-lang.com) rather than LESS to do my CSS preprocessing - namely due to its integration with [Compass](http://compass-style.org) and it's built-in CSS3 mixins. There are three modules that provide the ability to use SASS within Drupal:
 

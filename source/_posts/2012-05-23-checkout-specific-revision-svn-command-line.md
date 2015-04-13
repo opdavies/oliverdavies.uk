@@ -5,8 +5,8 @@ use:
   - posts
 slug: checkout-specific-revision-svn-command-line
 tags:
-  - SVN
-  - Version control
+  - svn
+  - version-control
 ---
 If you're checking out the repository for the first time:
 

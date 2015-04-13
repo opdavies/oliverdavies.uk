@@ -5,9 +5,9 @@ nav: blog
 use:
   - posts
 tags:
-  - Drupal
-  - Drupal 7
-  - Drupal Planet
+  - drupal
+  - drupal 7
+  - drupal-planet
 meta:
   og:
     title: 'How to Define a Minimum Drupal Core Version'

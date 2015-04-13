@@ -5,10 +5,10 @@ use:
   - posts
 tags:
   - drupal
-  - Drush
-  - Drush Make
-  - drupal Bristol
-  - Talks
+  - drush
+  - drush-make
+  - drupal-bristol
+  - talks
 ---
 Here are my slides from this month's talk night at the [Drupal Bristol user group](https://groups.drupal.org/bristol-and-west-uk).
 

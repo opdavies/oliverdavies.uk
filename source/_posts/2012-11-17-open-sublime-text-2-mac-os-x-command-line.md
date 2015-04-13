@@ -5,9 +5,9 @@ use:
   - posts
 slug: open-sublime-text-2-mac-os-x-command-line
 tags:
-  - Sublime Text
-  - Mac OS X
-  - Terminal
+  - sublime-text
+  - mac-os-x
+  - terminal
 ---
 Paste the following code into the Mac OS X Terminal, assuming that you've installed Sublime Text 2 into the /Applications folder.
 

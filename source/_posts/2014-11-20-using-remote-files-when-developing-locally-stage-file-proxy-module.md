@@ -6,7 +6,7 @@ use:
 tags:
   - drupal
   - drupal-planet
-  - Servers
+  - servers
 ---
 Download the [Stage File Proxy](https://www.drupal.org/project/stage_file_proxy) module from Drupal.org and enable it on your site.
 

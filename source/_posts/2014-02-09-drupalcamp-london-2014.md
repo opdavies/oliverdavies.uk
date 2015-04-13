@@ -6,9 +6,9 @@ use:
 description: It's all booked, I'm going to be attending DrupalCamp London.
 tags:
   - drupal
-  - drupalCamp London
-  - Git
-  - Git Flow
+  - drupalcamp-london
+  - git
+  - git-flow
 ---
 It's all booked, I'm going to be attending [DrupalCamp London](http://2014.drupalcamplondon.co.uk).
 

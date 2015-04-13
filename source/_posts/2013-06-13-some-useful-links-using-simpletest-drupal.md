@@ -5,9 +5,9 @@ use:
   - posts
 slug: some-useful-links-using-simpletest-drupal
 tags:
-  - SimpleTest
-  - TDD
-  - Test Driven Development
+  - simpletest
+  - tdd
+  - test-driven-development
   - drupal-planet
   - drupal
 ---

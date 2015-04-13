@@ -5,10 +5,10 @@ use:
   - posts
 slug: git-format-patch
 tags:
-  - Patches
+  - patches
   - drupal
   - drupal-planet
-  - Git
+  - git
 ---
 ## The Problem
 

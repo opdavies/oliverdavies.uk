@@ -8,7 +8,7 @@ tags:
   - drupal
   - drupal-6
   - drupal-7
-  - drupal 8
+  - drupal-8
   - drupal-planet
   - settings.php
 ---

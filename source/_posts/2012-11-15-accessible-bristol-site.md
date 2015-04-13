@@ -5,9 +5,9 @@ use:
   - posts
 description: I'm happy to report that the Accessible Bristol was launched this week, on Drupal 7.
 tags:
-  - Accessibility
-  - Accessible Bristol
-  - Nomensa
+  - accessibility
+  - accessible-bristol
+  - nomensa
 ---
 I'm happy to report that the [Accessible Bristol](http://www.accessiblebristol.org.uk) website was launched this week, on Drupal 7. The site's been developed over the past few months, and uses the [User Relationships](http://drupal.org/project/user_relationships) and [Privatemsg](http://drupal.org/project/privatemsg) modules to provide a community-based platform where people with an interest in accessibility can register and network with each other.
 
