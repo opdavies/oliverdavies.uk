@@ -11,6 +11,8 @@ meta:
 
 If you find any issues or want to suggest any improvements to the site, you can [create an issue](https://github.com/opdavies/oliverdavies.co.uk/issues/new) on GitHub. If you want to suggest an improvement to a blog post, please feel free to fork the repository and submit a pull request.
 
+If you have a support or feature request for one of the Drupal projects that I maintain, please create an issue in the appropriate issue queue on Drupal.org. 
+
 Email
 : [oliver@oliverdavies.co.uk](mailto:oliver+contact@oliverdavies.co.uk?subject=Contact%20Oliver%20Davies)
 
