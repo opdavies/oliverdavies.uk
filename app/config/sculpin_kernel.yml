@@ -6,9 +6,6 @@ sculpin:
     - '**/config.rb'
     - '**/Gemfile*'
 sculpin_content_types:
-  clients:
-    permalink: clients/:slug_title/
-    enabled: false
   posts:
     permalink: blog/:slug_title/
     taxonomies:
