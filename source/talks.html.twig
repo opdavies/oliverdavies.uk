@@ -66,9 +66,10 @@ talks:
 <h1>Talks</h1>
 
 {% set now = 'now'|date('U') %}
+{% set talks = page.talks|reverse %}
 
 {% set found = false %}
-{% for talk in page.talks|reverse if talk.date >= now %}
+{% for talk in talks if talk.date >= now %}
   {% if loop.first %}
     {% set found = true %}
     <h2>Upcoming Talks</h2>
@@ -82,7 +83,7 @@ talks:
 {% endif %}
 
 {% set found = false %}
-{% for talk in page.talks|reverse if talk.date < now %}
+{% for talk in talks if talk.date < now %}
   {% if loop.first %}
     {% set found = true %}
     <h2>Previous Talks</h2>
