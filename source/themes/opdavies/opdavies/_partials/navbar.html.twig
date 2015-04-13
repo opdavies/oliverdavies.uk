@@ -12,11 +12,10 @@
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right" role="navigation">
         <li{% if page.nav == 'about' %} class="active"{% endif %}><a href="{{ site.url }}">About</a></li>
-        <li{% if page.nav == 'work' %} class="active"{% endif %}><a href="{{ site.url }}/work">Work</a></li>
-        <li{% if page.nav == 'services' %} class="active"{% endif %}><a href="{{ site.url }}/services">Services</a></li>
-        <li{% if page.nav == 'talks' %} class="active"{% endif %}><a href="{{ site.url }}/talks">Talks</a></li>
-        <li{% if page.nav == 'blog' %} class="active"{% endif %}><a href="{{ site.url }}/blog">Blog</a></li>
-        <li{% if page.nav == 'contact' %} class="active"{% endif %}><a href="{{ site.url }}/contact">Contact</a></li>
+        {% set items = { 0: 'work', 1: 'services', 2: 'talks', 3: 'blog', 4: 'contact' } %}
+        {% for item in items %}
+          <li{% if page.nav == item %} class="active"{% endif %}><a href="{{ site.url }}/{{ item }}">{{ item|title }}</a></li>
+        {% endfor %}
       </ul>
     </div>{# .nav-collapse #}
   </div>
