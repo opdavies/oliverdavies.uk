@@ -1,12 +1,19 @@
 ---
 layout: default
-title: About Oliver
 nav: about
-front: true
 use:
   - posts
 meta:
   description: 'The personal website and blog of Oliver Davies, a Drupal Developer and Systems Administrator from Wales, UK.'
+  og:
+    title: 'Oliver Davies - Drupal Developer'
+    description: 'The personal website and blog of Oliver Davies, a Drupal Developer and Systems Administrator from Wales, UK.'
+    type: website
+    image:
+      url: http://www.oliverdavies.co.uk/assets/images/oliver.jpg
+      width: 327
+      height: 327
+      type: image/jpg
 ---
 # About
 
