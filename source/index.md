@@ -15,6 +15,8 @@ meta:
 ---
 # About
 
+<img src="/assets/images/oliver-small.jpg" class="img-circle">
+
 Oliver Davies is a senior level Web Developer and Systems Administrator based in the UK, who was been working online since 2007. Specialising in PHP and open source technologies, Oliver architects and develops websites using [Drupal](https://www.drupal.org) - a powerful content management framework - and [Sculpin](http://sculpin.io) - a static site generator written in PHP.
 
 Oliver currently works for the [Drupal Association](https://assoc.drupal.org) and also provides freelance consultancy services for Drupal websites and Linux servers.
