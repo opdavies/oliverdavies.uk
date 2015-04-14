@@ -7,9 +7,9 @@ meta:
 ---
 # Contact
 
-If you find any issues or want to suggest any improvements to the site, you can [create an issue](https://github.com/opdavies/oliverdavies.co.uk/issues/new) on GitHub. If you want to suggest an improvement to a blog post, please feel free to fork the repository and submit a pull request.
-
 If you have a support or feature request for one of the Drupal projects that I maintain, please create an issue in the appropriate issue queue on Drupal.org. 
+
+If you find any issues or want to suggest any improvements to the site, you can [create an issue](https://github.com/opdavies/oliverdavies.co.uk/issues/new) on GitHub. If you want to suggest an improvement to a blog post, please feel free to fork the repository and submit a pull request.
 
 Email
 : [oliver@oliverdavies.co.uk](mailto:oliver+contact@oliverdavies.co.uk?subject=Contact%20Oliver%20Davies)
@@ -21,4 +21,7 @@ Twitter
 : [@opdavies](http://twitter.com/opdavies)
 
 Drupal.org
-: [https://www.drupal.org/u/opdavies](https://www.drupal.org/u/opdavies "Oliver’s profile on Drupal.org")
+: <https://www.drupal.org/u/opdavies>
+
+LinkedIn
+: <https://uk.linkedin.com/in/opdavies>
