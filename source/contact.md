@@ -11,14 +11,14 @@ The best way to contact me is via [email](mailto:oliver+contact@oliverdavies.co.
 
 If you have a support or feature request for one of the Drupal projects that I maintain, please create an issue in the appropriate issue queue on [Drupal.org](https://www.drupal.org).
 
-If you want to report an issue or want to suggest any improvements to the site, you can do so on GitHub. If you want to suggest an improvement to a blog post, please feel free to fork the repository and submit a pull request.
+If you want to report an issue or want to suggest any improvements to the site, you can do so on [GitHub](https://github.com/opdavies/opdavies.github.io/issues/new). I'm happy to receive [pull requests](https://help.github.com/articles/using-pull-requests) if you want to suggest a change to piece of content.
 
 ## Elsewhere
 
 Here are the best places to contact me online:
 
 * IRC ({{ site.elsewhere.irc }})
-* <a href="{{ site.elsewhere.twitter }}">Twitter</a>
+* <a href="{{ site.elsewhere.twitter }}">Twitter</a> (@opdavies)
 * <a href="{{ site.elsewhere.drupalorg }}">Drupal.org</a>
 * <a href="{{ site.elsewhere.linkedin }}">LinkedIn</a>
 
