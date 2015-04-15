@@ -1,6 +1,10 @@
 title: Oliver Davies
 subtitle: Drupal & Linux Specialist
 url: http://localhost:8000
-twitter: opdavies
-twitter_url: http://twitter.com/opdavies
-linkedin_url: http://uk.linkedin.com/in/opdavies
+
+elsewhere:
+  twitter: http://twitter.com/opdavies
+  linkedin: http://uk.linkedin.com/in/opdavies
+  drupalorg: https://www.drupal.org/u/opdavies
+  github: http://github.com/opdavies
+  irc: opdavies
