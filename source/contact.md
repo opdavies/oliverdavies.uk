@@ -18,7 +18,7 @@ If you want to report an issue or want to suggest any improvements to the site, 
 Here are the best places to contact me online:
 
 * IRC ({{ site.elsewhere.irc }})
-* <a href="{{ site.elsewhere.twitter }}">Twitter</a> (@opdavies)
+* <a href="{{ site.elsewhere.twitter }}">Twitter</a> (@{{ site.elsewhere.twitter_name  }})
 * <a href="{{ site.elsewhere.drupalorg }}">Drupal.org</a>
 * <a href="{{ site.elsewhere.linkedin }}">LinkedIn</a>
 
