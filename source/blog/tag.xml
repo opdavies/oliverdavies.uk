@@ -9,6 +9,7 @@ generator: [posts_tag_index]
     <language>en</language>
     {% if site.description %}<description>{{ site.description|raw }}</description>{% endif %}
     <atom:link href="{{ site.url }}{{ page.url }}" rel="self" type="application/rss+xml" />
+    <lastBuildDate>{{ site.calculated_date | date('c') }}</lastBuildDate>
       {% for post in page.tag_posts|slice(0, 10) %}
       <item>
         <title>{{ post.title }}</title>
@@ -16,7 +17,6 @@ generator: [posts_tag_index]
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
         <pubDate>{{ post.date|date('r') }}</pubDate>
         <description>{{ post.description|raw }}</description>
-        <lastBuildDate>{{ site.calculated_date | date('c') }}</lastBuildDate>
       </item>
     {% endfor %}
   </channel>
