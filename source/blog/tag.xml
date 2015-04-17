@@ -11,10 +11,9 @@ generator: [posts_tag_index]
     {% for post in page.tag_posts|slice(0, 10) %}
       <item>
         <title>{{ post.title }}</title>
-        <link isPermalink="true">{{ site.url }}{{ post.url }}</link>
+        <link>{{ site.url }}{{ post.url }}</link>
         <pubDate>{{ post.date|date('r') }}</pubDate>
         <description>{{ post.description|raw }}</description>
-        <lastBuildDate></lastBuildDate>
       </item>
     {% endfor %}
   </channel>
