@@ -6,13 +6,15 @@ generator: [posts_tag_index]
   <channel>
     <title>{{ site.title }}</title>
     <link>{{ site.url }}</link>
+    <language>en</language>
     {% if site.description %}<description>{{ site.description|raw }}</description>{% endif %}
     {% for post in page.tag_posts|slice(0, 10) %}
       <item>
         <title>{{ post.title }}</title>
-        <link>{{ site.url }}{{ post.url }}</link>
+        <link isPermalink="true">{{ site.url }}{{ post.url }}</link>
         <pubDate>{{ post.date|date('r') }}</pubDate>
-        {% if post.description %}<description>{{ post.description|raw }}</description>{% endif %}
+        <description>{{ post.description|raw }}</description>
+        <lastBuildDate></lastBuildDate>
       </item>
     {% endfor %}
   </channel>
