@@ -4,9 +4,19 @@ description: Oliver Davies, Drupal Developer
 url: http://localhost:8000
 
 elsewhere:
-  twitter_name: opdavies
-  twitter: http://twitter.com/opdavies
-  linkedin: http://uk.linkedin.com/in/opdavies
-  drupalorg: https://www.drupal.org/user/381388
-  github: http://github.com/opdavies
-  irc: opdavies
+  twitter:
+    title: Twitter
+    url: http://twitter.com/opdavies
+    handle: opdavies
+  linkedin:
+    title: LinkedIn
+    url: http://uk.linkedin.com/in/opdavies
+  drupalorg:
+    title: Drupal.org
+    url: https://www.drupal.org/user/381388
+    nice_url: https://www.drupal.org/u/opdavies
+  github:
+    title: GitHub
+    url: http://github.com/opdavies
+  irc:
+    handle: opdavies
