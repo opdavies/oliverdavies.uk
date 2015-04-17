@@ -17,10 +17,10 @@ If you want to report an issue or want to suggest any improvements to the site, 
 
 Here are the best places to contact me online:
 
-* {{ site.irc.title }} ({{ site.irc.handle }}) - I'm usually in #drupal-uk on Freenode, among others.
-* <a href="{{ site.twitter.url }}">{{ site.twitter.title }}</a> (@{{ site.twitter.handle }})
-* <a href="{{ site.drupalorg.nice_url }}">{{ site.drupalorg.title }}</a>
-* <a href="{{ site.linkedin.url }}">{{ site.linkedin.title }}</a>
+* IRC ({{ site.irc }}) - I'm usually in #drupal-uk on Freenode, among others.
+* <a href="{{ site.twitter }}">Twitter</a> (@{{ site.twitter_name }})
+* <a href="{{ site.drupalorg_nice }}">Drupal.org</a>
+* <a href="{{ site.linkedin }}">LinkedIn</a>
 
 ## Meetups
 

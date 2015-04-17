@@ -3,20 +3,10 @@ subtitle: Drupal & Linux Specialist
 description: Oliver Davies, Drupal Developer
 url: http://localhost:8000
 
-twitter:
-  title: Twitter
-  url: http://twitter.com/opdavies
-  handle: opdavies
-linkedin:
-  title: LinkedIn
-  url: http://uk.linkedin.com/in/opdavies
-drupalorg:
-  title: Drupal.org
-  url: https://www.drupal.org/user/381388
-  nice_url: https://www.drupal.org/u/opdavies
-github:
-  title: GitHub
-  url: http://github.com/opdavies
-irc:
-  title: IRC
-  handle: opdavies
+twitter: http://twitter.com/opdavies
+twitter_name: opdavies
+linkedin: http://uk.linkedin.com/in/opdavies
+drupalorg: https://www.drupal.org/user/381388
+drupalorg_nice: https://www.drupal.org/u/opdavies
+github: http://github.com/opdavies
+irc: opdavies
