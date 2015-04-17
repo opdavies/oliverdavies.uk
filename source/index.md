@@ -23,5 +23,5 @@ Oliver currently works for the [Drupal Association](https://assoc.drupal.org) an
 
 In his spare time, Oliver contributes to Drupal core and maintains several contrib modules on Drupal.org, is the Git Documentation Maintainer for the Drupal project, and is a provisional member of the [Drupal Security team](https://www.drupal.org/security-team). He attends, organises and [talks](/talks) at user groups, and volunteers and mentors at conferences. He also is a 2nd Degree Black Belt in Tae Kwon-Do and a Brazilian Jiu-Jitsu practitioner.
 
-Oliver has active social media profiles on <a href="{{ site.elsewhere.twitter.url }}">Twitter</a> and <a href="{{ site.elsewhere.linkedin.url }}">LinkedIn</a>, and you can view his code on
-<a href="{{ site.elsewhere.drupalorg.url }}/track/code">Drupal.org</a> and <a href="{{ site.elsewhere.github.url }}?tab=activity">GitHub</a>.
+Oliver has active social media profiles on <a href="{{ site.twitter.url }}">{{ site.twitter.title }}</a> and <a href="{{ site.linkedin.url }}">{{ site.linkedin.title }}</a>, and you can view his code on
+<a href="{{ site.drupalorg.url }}/track/code">{{ site.drupalorg.title }}</a> and <a href="{{ site.github.url }}?tab=activity">{{ site.github.title }}</a>.
