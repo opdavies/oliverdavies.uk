@@ -21,8 +21,3 @@ sculpin_content_types:
     enabled: false
 sculpin_theme:
   theme: opdavies/opdavies
-
-sculpin_twig:
-  extensions:
-    - 'html.twig'
-    - 'md.twig'
