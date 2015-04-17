@@ -12,6 +12,7 @@ generator: [posts_tag_index]
       <item>
         <title>{{ post.title }}</title>
         <link>{{ site.url }}{{ post.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
         <pubDate>{{ post.date|date('r') }}</pubDate>
         <description>{{ post.description|raw }}</description>
       </item>
