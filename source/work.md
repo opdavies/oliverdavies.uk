@@ -14,13 +14,16 @@ My main job is working for the Engineering team at the [Drupal Association](http
 Some of the tasks that I've worked on so far:
 
 * Building new pages for [Supporting Partners](https://www.drupal.org/supporters/partners), [Technology Supporters](https://www.drupal.org/supporters/technology) and [Hosting Supporters](https://www.drupal.org/supporters/hosting).
-* Configuring human-readable paths for user profiles using [Pathauto](https://www.drupal.org/project/pathauto).
+* Improving user profiles
+  * Configuring human-readable paths for user profiles using [Pathauto](https://www.drupal.org/project/pathauto).
+  * Migration of user data from profile values to fields, and various user profile improvements.
+  * Adding [LoginToboggan](https://www.drupal.org/project/logintoboggan) to Drupal.org and improving the user login and registration processes.
 * Theming of [DrupalCon Amsterdam](https://amsterdam2014.drupal.org) and [DrupalCon Latin America](https://latinamerica2015.drupal.org) sites.
-* Migration of user data from profile values to fields, and various user profile improvements.
 * Working on responsive [Bluecheese](https://www.drupal.org/project/bluecheese) (the Drupal.org theme).
-* Adding [LoginToboggan](https://www.drupal.org/project/logintoboggan) to Drupal.org and improving the user login and registration processes.
 * Customisations to the [Election](https://www.drupal.org/project/election) module for the [2015 Drupal Association Board community elections](http://assoc.drupal.org/2015-nominations).
-* Improving the new user experience by adding a "New" badge to pictures of new users for their first 90 days on the site.
+* User role progression
+  * Adding a "New" badge to pictures of new users for their first 90 days on the site.
+  * Adding a "confirm" button to relevant user profile pages and comments.
 
 ## Freelance
 
