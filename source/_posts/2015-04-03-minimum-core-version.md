@@ -4,7 +4,7 @@ description: How to define a minimum Drupal core version for your module or them
 nav: blog
 tags:
   - drupal
-  - drupal 7
+  - drupal-7
   - drupal-planet
 meta:
   og:
