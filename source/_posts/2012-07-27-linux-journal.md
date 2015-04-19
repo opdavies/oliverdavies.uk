@@ -1,16 +1,14 @@
 ---
 title: Writing an Article for Linux Journal
 nav: blog
-use:
-  - posts
 description: I'm absolutely delighted to announce that I'm going to be writing an article for Linux Journal magazine's upcoming Drupal special.
 slug: writing-article-linux-journal
 tags:
-  - Drupal
-  - Distributions
-  - Installation Profiles
-  - Writing
-  - Linux Journal
+  - drupal
+  - distributions
+  - installation-profiles
+  - writing
+  - linux-journal
 ---
 I'm absolutely delighted to announce that I'm going to be writing an article for [Linux Journal](http://www.linuxjournal.com) magazine's upcoming Drupal special. The article is going to be entitled "Speeding Up Your Drupal Development Using Installation Profiles and Distributions" and will be mentioning existing distributions available on Drupal.org, but mainly focussing on the steps needed to create your own custom distribution. Needless to say, I'm quite excited about it!
 

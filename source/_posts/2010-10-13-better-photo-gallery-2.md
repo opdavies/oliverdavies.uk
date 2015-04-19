@@ -1,9 +1,9 @@
 ---
 title: Create a Better Photo Gallery in Drupal - Part 3
 nav: blog
-use:
-  - posts
 slug: create-better-photo-gallery-drupal-part-3
+tags:
+  - drupal
 ---
 The next part of the new gallery that I want to implement is to group the galleries by their respective categories. The first step is to edit my original photo_gallery view and add an additional display.
 

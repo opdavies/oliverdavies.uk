@@ -2,14 +2,17 @@
 title: How to Define a Minimum Drupal Core Version
 description: How to define a minimum Drupal core version for your module or theme.
 nav: blog
-use:
-  - posts
 tags:
-  - Drupal
-  - Drupal 7
-  - Drupal Planet
+  - drupal
+  - drupal-7
+  - drupal-planet
+meta:
+  og:
+    title: 'How to Define a Minimum Drupal Core Version'
+    description: 'How to define a minimum Drupal core version for your module or theme.'
+    type: article
 ---
-This week, my first code patch was [committed to Drupal core](https://www.drupal.org/node/2394517#comment-9773143). The patch adds the `user_has_role()` function to theu user module, to simplify the way to check whether a user in Drupal has been assigned a specific role. This is something that I normally write a custom function for each project, but it's now available in Drupal core as of [7.36](https://www.drupal.org/drupal-7.36-release-notes).
+This week, my first code patch was [committed to Drupal core](https://www.drupal.org/node/2394517#comment-9773143). The patch adds the `user_has_role()` function to the user module, to simplify the way to check whether a user in Drupal has been assigned a specific role. This is something that I normally write a custom function for each project, but it's now available in Drupal core as of [7.36](https://www.drupal.org/drupal-7.36-release-notes).
 
 But what if someone is using a core version less than 7.36 and tries using the function? The site would return an error because that function wouldn't exist.
 

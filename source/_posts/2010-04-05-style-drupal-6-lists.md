@@ -1,14 +1,12 @@
 ---
 title: Style Drupal 6's Taxonomy Lists with PHP, CSS and jQuery
 nav: blog
-use:
-  - posts
 slug: style-drupal-6s-taxonomy-lists-php-css-and-jquery
 tags:
-  - Taxonomy
-  - Drupal Planet
-  - Drupal 6
-  - Drupal Theming
+  - drupal-6
+  - drupal-planet
+  - drupal-theming
+  - taxonomy
 ---
 Whilst developing this, and other Drupal websites for clients, I decided that I wanted to categorise content using the taxonomy system. However, I wasn't happy with the way that Drupal displayed the terms lists by default, and I started comparing this to other websites that I look at. 
 

@@ -1,15 +1,13 @@
 ---
 title: Create a Zen Sub-theme Using Drush
 nav: blog
-use:
-  - posts
 description: How to quickly create a Zen sub-theme using Drush.
 tags:
-  - Drupal
-  - Drupal Planet
-  - Drush
-  - Zen
-  - Theming
+  - drupal
+  - drupal-planet
+  - drush
+  - zen
+  - theming
 ---
 First, download the [Zen](https://drupal.org/project/zen "The Zen theme") theme if you haven't already done so.
 

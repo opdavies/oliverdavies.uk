@@ -1,12 +1,10 @@
 ---
 title: Going to DrupalCon
 nav: blog
-use:
-  - posts
 slug: going-drupalcon
 tags:
-  - DrupalCon
-  - Precedent
+  - drupalcon
+  - precedent
 ---
 [Precedent](http://www.precedent.co.uk) are sending myself and two of our other Drupal Developers to [Drupalcon Prague](http://prague2013.drupal.org).
 

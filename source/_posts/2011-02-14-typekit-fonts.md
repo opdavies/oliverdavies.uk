@@ -1,13 +1,11 @@
 ---
 title: Easily Embed TypeKit Fonts into your Drupal Website
 nav: blog
-use:
-  - posts
 slug: easily-embed-typekit-fonts-your-drupal-website
 tags:
-  - Drupal Planet
-  - Drupal 6
-  - TypeKit
+  - drupal-planet
+  - drupal-6
+  - typekit
 ---
 To begin with, you will need to [register for a TypeKit account](https://typekit.com/plans) - there is a free version if you just want to try it out.
 

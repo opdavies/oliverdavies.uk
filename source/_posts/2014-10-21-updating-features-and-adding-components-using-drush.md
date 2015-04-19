@@ -1,14 +1,12 @@
 ---
 title: Updating Features and Adding Components Using Drush
 nav: blog
-use:
-  - posts
 slug: updating-features-and-adding-components-using-drush
 tags:
-  - Drupal
-  - Drupal Planet
-  - Drush
-  - Features
+  - drupal
+  - drupal-planet
+  - drush
+  - features
 ---
 If you use the [Features module](http://drupal.org/project/features) to manage your Drupal configuration, it can be time consuming to update features through the UI, especially if you are working on a remote server and need to keep downloading and uploading files.
 

@@ -1,14 +1,12 @@
 ---
 title: git format-patch is your Friend
 nav: blog
-use:
-  - posts
 slug: git-format-patch
 tags:
-  - Patches
-  - Drupal
-  - Drupal Planet
-  - Git
+  - patches
+  - drupal
+  - drupal-planet
+  - git
 ---
 ## The Problem
 

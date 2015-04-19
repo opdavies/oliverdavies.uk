@@ -1,14 +1,12 @@
 ---
 title: Install and Configure the Nomensa Accessible Media Player in Drupal
 nav: blog
-use:
-  - posts
 slug: install-nomensa-media-player-drupal
 tags:
-  - Accessibility
-  - Drupal
-  - Drupal Planet
-  - Nomensa
+  - accessibility
+  - drupal
+  - drupal-planet
+  - nomensa
 ---
 *The official documentation for this module is now located at <https://www.drupal.org/node/2383447>. This post was accurate at the time of writing, whereas the documentation page will be kept up to date with any future changes.*
 

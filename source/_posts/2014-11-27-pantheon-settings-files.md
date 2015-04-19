@@ -1,13 +1,11 @@
 ---
 title: Include environment-specific settings files on Pantheon
 nav: blog
-use:
-  - posts
 slug: pantheon-settings-files
 tags:
-  - Drupal
-  - Drupal Planet
-  - Pantheon
+  - drupal
+  - drupal-planet
+  - pantheon
   - settings.php
 ---
 I was recently doing some work on a site hosted on [Pantheon](http://getpantheon.com) and came across an issue, for which part of the suggested fix was to ensure that the `$base_url` variable was explicitly defined within settings.php (this is also best practice on all Drupal sites).

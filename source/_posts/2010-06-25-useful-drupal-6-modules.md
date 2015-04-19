@@ -1,13 +1,11 @@
 ---
 title: 10 Useful Drupal 6 Modules
 nav: blog
-use:
-  - posts
 tags:
-  - Drupal Planet
-  - Drupal 6
-  - Modules
-  - Drupal Modules
+  - drupal-planet
+  - drupal-6
+  - drupal
+  - drupal-modules
 ---
 Aside from the obvious candidates such as Views, CCK etc, here are a list of 10 contributed modules that I currently use on each Drupal project.
 

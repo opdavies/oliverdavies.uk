@@ -1,14 +1,12 @@
 ---
 title: Configuring the Reroute Email Module
 nav: blog
-use:
-  - posts
 tags:
-  - Drupal
-  - Drupal 6
-  - Drupal 7
-  - Drupal Planet
-  - Email
+  - drupal
+  - drupal-6
+  - drupal-7
+  - drupal-planet
+  - email
 draft: true
 ---
 [Reroute Email](https://www.drupal.org/project/reroute_email) module uses `hook_mail_alter()` to prevent emails from being sent to users from non-production sites. It allows you to enter one or more email addresses that will receive the emails instead of delivering them to the original user.

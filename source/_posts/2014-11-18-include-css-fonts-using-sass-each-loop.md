@@ -1,15 +1,13 @@
 ---
 title: Include CSS Fonts by Using a SASS each Loop
 nav: blog
-use:
-  - posts
 description: How to use an SASS each loop to easily add multiple fonts to your CSS.
 slug: include-css-fonts-using-sass-each-loop
 tags:
-  - Compass
-  - Drupal Planet
-  - Fonts
-  - SASS
+  - compass
+  - drupal-planet
+  - fonts
+  - sass
 ---
 Using a file structure similar to this, organise your font files into directories, using the the font name for both the directory name and for the file names.
 

@@ -1,12 +1,10 @@
 ---
 title: Using Remote Files when Developing Locally with Stage File Proxy Module
 nav: blog
-use:
-  - posts
 tags:
-  - Drupal
-  - Drupal Planet
-  - Servers
+  - drupal
+  - drupal-planet
+  - servers
 ---
 Download the [Stage File Proxy](https://www.drupal.org/project/stage_file_proxy) module from Drupal.org and enable it on your site.
 

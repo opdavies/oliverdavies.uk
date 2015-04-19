@@ -5,20 +5,10 @@ nav: blog
 use:
   - posts
 ---
-{% block content_wrapper %}
-  <div class="col-md-12">
-    {% block content %}
-      <h1>Blog</h1>
+<h1>Blog</h1>
 
-      {% if data.posts %}
-        <ul>
-          {% for post in data.posts %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    {% endblock %}
-  </div> {# .col.md-12 #}
-{% endblock %}
-
-{% block sidebar %}{% endblock %}
+<ul>
+  {% for post in data.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>

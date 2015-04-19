@@ -1,14 +1,12 @@
 ---
 title: Download Different Versions of Drupal with Drush
 nav: blog
-use:
-  - posts
 description: How to download different versions of Drupal core using Drush.
 slug: download-different-versions-drupal-drush
 tags:
-  - Drupal
-  - Drupal Planet
-  - Drush
+  - drupal
+  - drupal-planet
+  - drush
 ---
 If you use [Drush](https://raw.github.com/drush-ops/drush/master/README.md "About Drush"), it's likely that you've used the `drush pm-download` (or `drush dl` for short) command to start a new project. This command downloads projects from Drupal.org, but if you don't specify a project or type "drush dl drupal", the command will download the current stable version of Drupal core. Currently, this will be Drupal 7 with that being the current stable version of core at the time of writing this post.
 

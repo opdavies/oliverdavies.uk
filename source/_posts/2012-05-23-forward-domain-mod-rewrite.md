@@ -1,14 +1,12 @@
 ---
 title: Forward one domain to another using mod_rewrite and .htaccess
 nav: blog
-use:
-  - posts
 slug: forward-one-domain-another-using-modrewrite-and-htaccess
 tags:
   - .htaccess
-  - Code
-  - Drupal
-  - Apache
+  - code
+  - drupal
+  - apache
   - mod_rewrite
 ---
 Within the mod_rewrite section of your .htaccess file, add the following lines:

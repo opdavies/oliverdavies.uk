@@ -1,14 +1,12 @@
 ---
 title: How to Create and Apply Patches
 nav: blog
-use:
-  - posts
 slug: create-and-apply-patches
 tags:
-  - Drupal Planet
-  - Drupal 6
-  - Modules
-  - Patch
+  - drupal-planet
+  - drupal-6
+  - modules
+  - patches
 ---
 Earlier this year, I posted a solution to [an issue](http://drupal.org/node/753898) on the Drupal.org issue queue. Originally, I just posted the code back onto the issue, but have now created a patch that can easily be applied to any Drupal 6 installation. Here is a run-through of the process of creating and applying a patch. In this case, I made changes to the `user_pass_validate()` function that's found within `modules/user/user.pages.inc`.
 

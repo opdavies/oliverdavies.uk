@@ -1,15 +1,13 @@
 ---
 title: Creating Local and Staging sites with Drupal's Domain Module Enabled
 nav: blog
-use:
-  - posts
 slug: creating-local-and-staging-sites-drupals-domain-module-enabled
 tags:
-  - Drupal
-  - Drupal Planet
-  - Databases
-  - Domain
-  - Table Prefixing
+  - drupal
+  - drupal-planet
+  - databases
+  - domain
+  - table-prefixing
 ---
 The [Domain Access project](https://drupal.org/project/domain "The Domain Access project on Drupal.org") is a suite of modules that provide tools for running a group of affiliated sites from one Drupal installation and a single shared database. The issue is that the domains are stored within the database so these are copied across when the data is migrated between environments, whereas the domains are obviously going to change.
 

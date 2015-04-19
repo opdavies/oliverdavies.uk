@@ -1,16 +1,14 @@
 ---
 title: Display a Custom Menu in a Drupal 7 Theme Template File
 nav: blog
-use:
-  - posts
 description: For reference, this is the code needed to display a menu in a Drupal 7 template file.
 slug: display-custom-menu-drupal-7-theme-template-file
 tags:
-  - Drupal
-  - Drupal 7
-  - Drupal Planet
-  - PHP
-  - ARIA
+  - drupal
+  - drupal-7
+  - drupal-planet
+  - php
+  - aria
 ---
 For reference, this is the code needed to display a menu in a Drupal 7 template file, including the navigation ARIA role.
 

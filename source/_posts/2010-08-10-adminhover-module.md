@@ -1,16 +1,13 @@
 ---
 title: Review of the Admin:hover Module
 nav: blog
-use:
-  - posts
 slug: review-adminhover-module
 tags:
-  - Drupal Planet
-  - Drupal 6
-  - Modules
-  - Drupal Modules
-  - Admin:hover
-  - Administration
+  - drupal-planet
+  - drupal-6
+  - drupal-modules
+  - admin:hover
+  - administration
 ---
 Sorry for the lack of Blog posts lately, but [my new job](http://horseandcountry.tv) that I started a few weeks ago has certainly been keeping me busy! I've got a few more posts that I'm preparing content for, and I'll hopefully be back into my weekly-post routine before too long!
 
