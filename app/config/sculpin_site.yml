@@ -12,3 +12,21 @@ drupalorg: https://www.drupal.org/user/381388
 drupalorg_nice: https://www.drupal.org/u/opdavies
 github: http://github.com/opdavies
 irc: opdavies
+
+toolkit:
+  - title: Drupal
+    url: https://www.drupal.org
+  - title: Sculpin
+    url: http://sculpin.io
+  - title: Git
+    url: http://git-scm.com
+  - title: SASS
+    url: http://sass-lang.com
+  - title: Compass
+    url: http://compass-style.org
+  - title: Vagrant
+    url: http://vagrantup.com
+  - title: Puppet
+    url: http://en.wikipedia.org/wiki/Puppet_%28software%29
+  - title: Jenkins
+    url: http://jenkins-ci.org
