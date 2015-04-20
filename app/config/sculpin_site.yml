@@ -24,6 +24,10 @@ toolkit:
     url: http://sass-lang.com
   - title: Compass
     url: http://compass-style.org
+  - title: Susy
+    url: http://susy.oddbird.net
+  - title: Grunt
+    url: http://gruntjs.com
   - title: Vagrant
     url: http://vagrantup.com
   - title: Puppet
