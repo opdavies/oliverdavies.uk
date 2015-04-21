@@ -2,10 +2,10 @@
 layout: default
 nav: about
 meta:
-  description: 'The personal website and blog of Oliver Davies, a Drupal Developer and Systems Administrator from Wales, UK.'
+  description: 'The personal website and blog of Oliver Davies, a Drupal Developer and System Administrator from Wales, UK.'
   og:
     title: 'Oliver Davies - Drupal Developer'
-    description: 'The personal website and blog of Oliver Davies, a Drupal Developer and Systems Administrator from Wales, UK.'
+    description: 'The personal website and blog of Oliver Davies, a Drupal Developer and System Administrator from Wales, UK.'
     type: website
     image:
       url: http://www.oliverdavies.co.uk/assets/images/oliver.jpg
@@ -17,7 +17,7 @@ meta:
 
 <img src="/assets/images/oliver-small.jpg" class="img-circle">
 
-Oliver Davies is a senior level Web Developer and Systems Administrator based in the UK, who was been working online since 2007. Specialising in PHP and open source technologies, Oliver architects and develops websites using [Drupal](https://www.drupal.org) - a powerful content management framework - and [Sculpin](http://sculpin.io) - a static site generator written in PHP.
+Oliver Davies is a senior level Web Developer and System Administrator based in the UK, who was been working online since 2007. Specialising in PHP and open source technologies, Oliver architects and develops websites using [Drupal](https://www.drupal.org) - a powerful content management framework - and [Sculpin](http://sculpin.io) - a static site generator written in PHP.
 
 Oliver currently works for the [Drupal Association](https://assoc.drupal.org) and also provides freelance consultancy services for Drupal websites and Linux servers.
 
