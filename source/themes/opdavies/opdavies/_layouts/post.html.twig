@@ -13,6 +13,8 @@
     </p>
   {% endif %}
 
+  {% include 'about-author' %}
+
   {% if page.next_post or page.previous_post %}
     <ul>
       {% if page.next_post %}<li>Next post: <a href="{{ page.next_post.url }}">{{ page.next_post.title }}</a></li>{% endif %}
