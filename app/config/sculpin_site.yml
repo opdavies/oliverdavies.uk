@@ -13,3 +13,6 @@ drupalorg: https://www.drupal.org/user/381388
 drupalorg_nice: https://www.drupal.org/u/opdavies
 github: http://github.com/opdavies
 irc: opdavies
+
+bio: >
+  <p><a href="/">Oliver Davies</a> is a Drupal Developer and System Administrator based in the UK. He works for the <a href="https://assoc.drupal.org">Drupal Association</a> and also provides freelance consultancy services for Drupal websites and Linux servers.</p>
