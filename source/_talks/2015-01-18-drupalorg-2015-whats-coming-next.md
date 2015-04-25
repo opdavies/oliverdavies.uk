@@ -1,7 +1,8 @@
 ---
 title: Drupal.org in 2015: What's Coming Next
-location: <a href="http://www.drupalcampbrighton.co.uk/drupalcamp-brighton-2015/">DrupalCamp Brighton 2015</a>
+location: <a href="http://www.drupalcampbrighton.co.uk/drupalcamp-brighton-2015/">DrupalCamp Brighton</a>
 date: 2015-01-18
+description: Drupal.org in 2015: What's coming next?
 tags:
   - conference
   - drupalcamp

@@ -1,7 +1,7 @@
 ---
 title: About the Drupal Association
 location: South Wales Drupal User Group
-date: 2014-08-19
+description: An impromptu talk about the <a href="https://assoc.drupal.org">Drupal Association</a> and I've done there since joining the team.
 tags:
   - user-group
   - drupal-association
