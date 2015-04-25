@@ -2,20 +2,6 @@
 layout: default
 title: Talks
 nav: talks
-<<<<<<< HEAD
-use:
-  - talks
----
-
-<h1>Talks</h1>
-
-<dl>
-  {% for talk in data.talks %}
-    <dt>{{ talk.date|date('F Y') }} - {{ talk.location|raw }}</dt>
-    <dd><a href="{{ site.url }}{{ talk.url }}">{{ talk.title }}</a></dd>
-  {% endfor %}
-</dl>
-=======
 meta:
   description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
 talks:
@@ -112,4 +98,3 @@ talks:
 {% if found %}
   </dl>
 {% endif %}
->>>>>>> master
