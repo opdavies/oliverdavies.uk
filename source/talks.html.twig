@@ -12,7 +12,7 @@ use:
 <p>I regularly speak at conferences and user groups about a range of subjects relating to Drupal, PHP and web development. If you would like to me to speak at your group or conference, please <a href="/contact">get in touch</a>.</p>
 
 {% set now = 'now'|date('U') %}
-{% set talks = data.talks|reverse %}
+{% set talks = data.talks %}
 
 {% set found = false %}
 {% for talk in talks if talk.date >= now %}

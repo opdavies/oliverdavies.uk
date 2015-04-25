@@ -1,6 +1,7 @@
 ---
 title: drush make drupalbristol
 location: Drupal Bristol User Group
+description: <a href="/blog/drush-make-drupalbristol">drush make drupalbristol</a>: An introduction to Drush and Drush Make.
 slides: https://speakerdeck.com/opdavies/drush-make-drupalbristol
 tags:
   - user-group
