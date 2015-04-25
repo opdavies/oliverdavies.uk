@@ -4,72 +4,15 @@ title: Talks
 nav: talks
 meta:
   description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
-talks:
-  - date: 2012-09-05
-    location: unified.diff
-    description: <a href="http://vimeo.com/49827006">So, what is this Drupal thing?</a> - an introduction to Drupal.
-    tags:
-      - user-group
-      - drupal
-  - date: 2013-07-10
-    location: South Wales Drupal User Group
-    description: An overview of the Drupal LDAP module and how I customised it for a client project.
-    tags:
-      - user-group
-      - drupal
-      - ldap
-  - date: 2014-03-01
-    location: DrupalCamp London
-    description: <a href="/blog/what-git-flow">Never Commit to Master</a>: An Introduction to Git Flow.
-    tags:
-      - conference
-      - drupalcamp
-      - git
-      - git-flow
-  - date: 2014-07-02
-    location: Drupal Bristol User Group
-    description: <a href="/blog/drush-make-drupalbristol">drush make drupalbristol</a>: An introduction to Drush and Drush Make.
-    tags:
-      - user-group
-      - drush
-      - drush-make
-  - date: 2014-08-09
-    location: South Wales Drupal User Group
-    description: An impromptu talk about the <a href="https://assoc.drupal.org">Drupal Association</a> and I've done there since joining the team.
-    tags:
-      - user-group
-      - drupal-association
-  - date: 2015-01-18
-    location: DrupalCamp Brighton
-    description: Drupal.org in 2015: What's coming next?
-    tags:
-      - conference
-      - drupalcamp
-      - drupalorg
-      - drupal-association
-  - date: 2015-02-28
-    location: DrupalCamp London
-    description: Drupal.org in 2015: What's coming next?
-    tags:
-      - conference
-      - drupalcamp
-      - drupalorg
-      - drupal-association
-  - date: 2015-04-08
-    location: PHPSW
-    description: <a href="https://speakerdeck.com/opdavies/drupal-8">Drupal 8</a> (lightning talk)
-    tags:
-      - user-group
-      - drupal
-      - drupal-8
-      - phpsw
+use:
+  - talks
 ---
 <h1>Talks</h1>
 
 <p>I regularly speak at conferences and user groups about a range of subjects relating to Drupal, PHP and web development. If you would like to me to speak at your group or conference, please <a href="/contact">get in touch</a>.</p>
 
 {% set now = 'now'|date('U') %}
-{% set talks = page.talks|reverse %}
+{% set talks = data.talks|reverse %}
 
 {% set found = false %}
 {% for talk in talks if talk.date >= now %}
