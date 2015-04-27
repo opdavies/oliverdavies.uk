@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ site.url }}/{{ theme_path('assets/css/styles.css') }}">
     {% block styles %}{% endblock %}
   </head>
-  <body{% if page.nav %} class="{{ page.nav }}"{% endif %}>
+  <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
     {% include 'navbar' %}
 
     <div class="container">
