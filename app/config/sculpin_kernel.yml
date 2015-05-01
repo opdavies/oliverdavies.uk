@@ -11,17 +11,17 @@ sculpin_content_types:
     taxonomies:
       - tags
   projects:
+    enabled: false
     permalink: projects/:slug_title/
     taxonomies:
       - tags
-    enabled: false
   talks:
     permalink: talks/:year/:month/:day/:slug_title/
     taxonomies:
       - tags
   testimonials:
+    enabled: false
     permalink: testimonials/:slug_title/
     layout: default
-    enabled: false
 sculpin_theme:
   theme: opdavies/opdavies
