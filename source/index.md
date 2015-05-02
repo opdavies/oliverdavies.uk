@@ -21,7 +21,7 @@ Oliver Davies is a senior level Web Developer and System Administrator based in 
 
 Oliver currently works for the [Drupal Association](https://assoc.drupal.org) and also provides freelance consultancy services for Drupal websites and Linux servers.
 
-In his spare time, Oliver contributes to Drupal core and maintains several contrib modules on Drupal.org, is the Git Documentation Maintainer for the Drupal project, and is a provisional member of the [Drupal Security team](https://www.drupal.org/security-team). He attends, organises and [talks](/talks) at user groups, and volunteers and mentors at conferences. He also is a 2nd Degree Black Belt in Tae Kwon-Do and a Brazilian Jiu-Jitsu practitioner.
+In his spare time, Oliver contributes to Drupal core and maintains several modules on Drupal.org, is the Git Documentation Maintainer for the Drupal project, and is a provisional member of the [Drupal Security team](https://www.drupal.org/security-team). He attends, organises and [talks](/talks) at user groups, and volunteers and mentors at conferences. He also is a 2nd Degree Black Belt in Tae Kwon-Do and a Brazilian Jiu-Jitsu practitioner.
 
 Oliver has active social media profiles on <a href="{{ site.twitter }}">Twitter</a> and <a href="{{ site.linkedin }}">LinkedIn</a>, and you can view his code on
 <a href="{{ site.drupalorg }}/track/code">Drupal.org</a> and <a href="{{ site.github }}?tab=activity">GitHub</a>.
