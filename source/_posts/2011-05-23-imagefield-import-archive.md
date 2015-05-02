@@ -2,8 +2,8 @@
 title: Imagefield Import Archive
 nav: blog
 tags:
-  - drupal-planet
-  - imagefield-import
+    - drupal-planet
+    - imagefield-import
 ---
 I've finally uploaded my first module onto Drupal.org!
 

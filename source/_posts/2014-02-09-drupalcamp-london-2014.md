@@ -3,10 +3,10 @@ title: DrupalCamp London 2014
 nav: blog
 description: It's all booked, I'm going to be attending DrupalCamp London.
 tags:
-  - drupal
-  - drupalcamp-london
-  - git
-  - git-flow
+    - drupal
+    - drupalcamp-london
+    - git
+    - git-flow
 ---
 It's all booked, I'm going to be attending [DrupalCamp London](http://2014.drupalcamplondon.co.uk).
 

@@ -3,18 +3,18 @@ title: Quickly Apply Patches Using Git and curl or wget
 nav: blog
 description: How to quickly download a patch file and apply it to a Git repository in one line
 tags:
-  - git
-  - drupal-planet
+    - git
+    - drupal-planet
 ---
 Testing a patch file is usually a two-step process. First you download the patch file from the source, and then you run a separate command to apply it.
 
 You can save time and typing by running the two commands on one line:
 
-    $ curl http://drupal.org/files/[patch-name].patch | git apply
+        $ curl http://drupal.org/files/[patch-name].patch | git apply
 
 Or, if you don't have curl installed, you can use wget:
 
-    $ wget -q -O - http://drupal.org/files/[patch-name].patch | git apply
+        $ wget -q -O - http://drupal.org/files/[patch-name].patch | git apply
 
 These commands need to be run within the root of your Git repository (i.e. where the .git directory is).
 

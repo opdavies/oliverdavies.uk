@@ -3,9 +3,9 @@ title: Accessible Bristol
 link: http://www.accessiblebristol.org
 featured: true
 tags:
-  - drupal
-  - drupal-7
-  - accessibility
+    - drupal
+    - drupal-7
+    - accessibility
 ---
 
 ## Modules used

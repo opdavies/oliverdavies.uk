@@ -1,12 +1,12 @@
 {% extends 'default' %}
 
 {% block content_wrapper %}
-  <h1>{{ page.title }}</h1>
-  {% block content %}{% endblock %}
+    <h1>{{ page.title }}</h1>
+    {% block content %}{% endblock %}
 
-  {% if page.slides_embed %}
-    <div class="slides">
-      {{ page.slides_embed|raw }}
-    </div>
-  {% endif %}
+    {% if page.slides_embed %}
+        <div class="slides">
+            {{ page.slides_embed|raw }}
+        </div>
+    {% endif %}
 {% endblock %}

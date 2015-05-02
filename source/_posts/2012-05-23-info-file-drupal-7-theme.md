@@ -3,10 +3,10 @@ title: Writing a .info file for a Drupal 7 theme
 nav: blog
 slug: writing-info-file-drupal-7-theme
 tags:
-  - theming
-  - drupal-theming
-  - drupal
-  - code
+    - theming
+    - drupal-theming
+    - drupal
+    - code
 ---
 ~~~
 name = My Theme

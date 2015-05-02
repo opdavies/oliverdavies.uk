@@ -3,12 +3,12 @@ title: Add a Taxonomy Term to Multiple Nodes Using SQL
 nav: blog
 slug: add-taxonomy-term-multiple-nodes-using-sql
 tags:
-  - taxonomy
-  - drupal-planet
-  - drupal-6
-  - sql
-  - sequal-pro
-  - database
+    - taxonomy
+    - drupal-planet
+    - drupal-6
+    - sql
+    - sequal-pro
+    - database
 ---
 **Update:** This can also be done using the [Views Bulk Operations](http://drupal.org/project/views_bulk_operations) module.
 
@@ -16,7 +16,7 @@ In preparation for my Blog posts being added to [Drupal Planet](http://drupal.or
 
 I didn't want to manually open each post and add the new tag, so I decided to make the changes myself directly into the database using SQL, and as a follow-up to a previous post - [Quickly Change the Content Type of Multiple Nodes using SQL](/blog/change-content-type-multiple-nodes-using-sql).
 
-**Again, before changing any values within the database, ensure that you  have an up-to-date backup which you can restore if you encounter a  problem!**
+**Again, before changing any values within the database, ensure that you    have an up-to-date backup which you can restore if you encounter a    problem!**
 
 The first thing I did was create the 'Drupal Planet' term in my Tags vocabulary. I decided to do this via the administration area of my site, and not via the database. Then, using [Sequel Pro](http://www.sequelpro.com), I ran the following SQL query to give me a list of Blog posts on my site - showing just their titles and nid values.
 
@@ -27,13 +27,13 @@ SELECT title, nid FROM node WHERE TYPE = 'blog' ORDER BY title ASC;
 I made a note of the nid's of the returned nodes, and kept them for later. I then ran a similar query against the term_data table. This returned a list of Taxonomy terms - showing the term's name, and it's unique tid value.
 
 ~~~sql
-SELECT NAME, tid FROM term_data ORDER  BY NAME ASC;
+SELECT NAME, tid FROM term_data ORDER    BY NAME ASC;
 ~~~
 
 The term that I was interested in, Drupal Planet, had the tid of 84. To confirm that no nodes were already assigned a taxonomy term with this tid, I ran another query against the database. I'm using aliases within this query to link the node, term_node and term_data tables. For more information on SQL aliases, take a look at <http://w3schools.com/sql/sql_alias.asp>.
 
 ~~~sql
-SELECT * FROM node n, term_data td, term_node tn WHERE  td.tid = 84 AND  n.nid = tn.nid AND  tn.tid = td.tid;
+SELECT * FROM node n, term_data td, term_node tn WHERE    td.tid = 84 AND    n.nid = tn.nid AND    tn.tid = td.tid;
 ~~~
 
 As expected, it returned no rows.
