@@ -9,18 +9,9 @@ sculpin_content_types:
         permalink: blog/:slug_title/
         taxonomies:
             - tags
-    projects:
-        enabled: false
-        permalink: projects/:slug_title/
-        taxonomies:
-            - tags
     talks:
         permalink: talks/:year/:month/:day/:slug_title/
         taxonomies:
             - tags
-    testimonials:
-        enabled: false
-        permalink: testimonials/:slug_title/
-        layout: default
 sculpin_theme:
     theme: opdavies/opdavies
