@@ -17,7 +17,7 @@ Recently, I converted a client's static HTML website, along with their Coppermin
 
 Over the next few posts, I'll be replicating the process that I used during the conversion, and how I added some additional features to my Drupal gallery.
 
-To begin with, I created my photo gallery as described by [Jeff Eaton](http://www.lullabot.com/about/team/jeff-eaton) in [this screencast](http://www.lullabot.com/articles/photo-galleries-views-attach), downloaded all my client's previous photos via FTP,    and quickly added them into the new gallery using the [Imagefield Import](http://drupal.org/project/imagefield_import) module (which I mentioned [previously](/blog/quickly-import-multiples-images-using-imagefieldimport-module)).
+To begin with, I created my photo gallery as described by [Jeff Eaton](http://www.lullabot.com/about/team/jeff-eaton) in [this screencast](http://www.lullabot.com/articles/photo-galleries-views-attach), downloaded all my client's previous photos via FTP,    and quickly added them into the new gallery using the [Imagefield Import](http://drupal.org/project/imagefield_import) module (which I mentioned [previously](/blog/quickly-import-multiples-images-using-imagefieldimport-module/)).
 
 When I compare this to the previous gallery, I can see several    differences which I'd like to include. The first of which is the number    of photos in each gallery, and the date that the most recent photo was added.
 
