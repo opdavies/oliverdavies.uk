@@ -24,7 +24,7 @@ Here are the best places to contact me online:
 
 ## Meetups
 
-Here are the user group meetups that I attend regularly. If you're in the area, feel free to pop along and say hi!
+Here are the user group meetups that I organise or attend regularly. If you're in the area, feel free to pop along and say hi!
 
 * [SWDUG](http://www.swdug.co.uk) (South Wales Drupal user group)
 * [Drupal Bristol](https://groups.drupal.org/bristol-and-west-uk)
