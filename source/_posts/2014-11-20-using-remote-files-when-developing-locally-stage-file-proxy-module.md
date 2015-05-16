@@ -13,15 +13,10 @@ As this module is only going to be needed on pre-production sites, it would be b
 ~~~php
 // File proxy to the live site.
 $conf['stage_file_proxy_origin'] = 'http://www.example.com';
-~~~
 
-~~~php
 // Don't copy the files, just link to them.
 $conf['stage_file_proxy_hotlink'] = TRUE;
-~~~
 
-
-~~~php
 // Image style images are the wrong size otherwise.
 $conf['stage_file_proxy_use_imagecache_root'] = FALSE;
 ~~~
