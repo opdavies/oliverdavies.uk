@@ -3,10 +3,10 @@ title: Include environment-specific settings files on Pantheon
 nav: blog
 slug: pantheon-settings-files
 tags:
-    - drupal
-    - drupal-planet
-    - pantheon
-    - settings.php
+  - drupal
+  - drupal-planet
+  - pantheon
+  - settings.php
 ---
 I was recently doing some work on a site hosted on [Pantheon](http://getpantheon.com) and came across an issue, for which part of the suggested fix was to ensure that the `$base_url` variable was explicitly defined within settings.php (this is also best practice on all Drupal sites).
 
@@ -14,22 +14,22 @@ The way that was recommended was by using a `switch()` function based on Pantheo
 
 ~~~php
 switch ($_SERVER['PANTHEON_ENVIRONMENT']) {
-    case 'dev':
-        // Development environment.
-        $base_url = 'dev-my-site.gotpantheon.com';
-        break;
+  case 'dev':
+    // Development environment.
+    $base_url = 'dev-my-site.gotpantheon.com';
+    break;
 
 
-    case 'test':
-        // Testing environment.
-        $base_url = 'test-my-site.gotpantheon.com';
-        break;
+  case 'test':
+    // Testing environment.
+    $base_url = 'test-my-site.gotpantheon.com';
+    break;
 
 
-    case 'live':
-        // Production environment.
-        $base_url = 'live-my-site.gotpantheon.com';
-        break;
+  case 'live':
+    // Production environment.
+    $base_url = 'live-my-site.gotpantheon.com';
+    break;
 }
 ~~~
 
@@ -41,17 +41,17 @@ To do this, add the following code to the bottom of settings.php:
 
 ~~~php
 if (isset($_SERVER['PANTHEON_ENVIRONMENT'])) {
-    if ($_SERVER['PANTHEON_ENVIRONMENT'] != 'live') {
-        // You can still add things here, for example to apply to all sites apart
-        // from production. Mail reroutes, caching settings etc.
-    }
+  if ($_SERVER['PANTHEON_ENVIRONMENT'] != 'live') {
+    // You can still add things here, for example to apply to all sites apart
+    // from production. Mail reroutes, caching settings etc.
+  }
 
-    // Include an environment-specific settings file, for example
-    // settings.dev.php, if one exists.
-    $environment_settings = __DIR__ . '/settings.' .    $_SERVER['PANTHEON_ENVIRONMENT'] . '.php';
-    if (file_exists($environment_settings)) {
-        include $environment_settings;
-    }
+  // Include an environment-specific settings file, for example
+  // settings.dev.php, if one exists.
+  $environment_settings = __DIR__ . '/settings.' .  $_SERVER['PANTHEON_ENVIRONMENT'] . '.php';
+  if (file_exists($environment_settings)) {
+    include $environment_settings;
+  }
 }
 ~~~
 

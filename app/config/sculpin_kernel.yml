@@ -1,17 +1,17 @@
 sculpin:
-    permalink: pretty
-    ignore:
-        - '**/*.scss'
-        - '**/config.rb'
-        - '**/Gemfile*'
+  permalink: pretty
+  ignore:
+    - '**/*.scss'
+    - '**/config.rb'
+    - '**/Gemfile*'
 sculpin_content_types:
-    posts:
-        permalink: blog/:slug_title/
-        taxonomies:
-            - tags
-    talks:
-        permalink: talks/:year/:month/:day/:slug_title/
-        taxonomies:
-            - tags
+  posts:
+    permalink: blog/:slug_title/
+    taxonomies:
+      - tags
+  talks:
+    permalink: talks/:year/:month/:day/:slug_title/
+    taxonomies:
+      - tags
 sculpin_theme:
-    theme: opdavies/opdavies
+  theme: opdavies/opdavies
