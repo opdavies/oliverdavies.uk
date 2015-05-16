@@ -3,13 +3,13 @@ title: Checkout a specific revision from SVN from the command line
 nav: blog
 slug: checkout-specific-revision-svn-command-line
 tags:
-    - svn
-    - version-control
+  - svn
+  - version-control
 ---
 If you're checking out the repository for the first time:
 
-        svn checkout -r 1234 url://repository/path
+    svn checkout -r 1234 url://repository/path
 
 If you already have the repository checked out:
 
-        svn up -r 1234
+    svn up -r 1234

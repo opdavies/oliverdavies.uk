@@ -2,11 +2,11 @@
 title: Configuring the Reroute Email Module
 nav: blog
 tags:
-    - drupal
-    - drupal-6
-    - drupal-7
-    - drupal-planet
-    - email
+  - drupal
+  - drupal-6
+  - drupal-7
+  - drupal-planet
+  - email
 draft: true
 ---
 [Reroute Email](https://www.drupal.org/project/reroute_email) module uses `hook_mail_alter()` to prevent emails from being sent to users from non-production sites. It allows you to enter one or more email addresses that will receive the emails instead of delivering them to the original user.
@@ -39,9 +39,9 @@ If you want to add multiple addresses, these should be added in a semicolon-deli
 
 ~~~php
 $conf['reroute_email_address'] = implode(';', array(
-    'person1@example.com',
-    'person2@example.com',
-    'person3@example.com',
+  'person1@example.com',
+  'person2@example.com',
+  'person3@example.com',
 ));
 ~~~
 

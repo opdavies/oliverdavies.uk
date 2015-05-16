@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en-GB" class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        {% if page.meta.description %}
-            <meta name="description" content="{{ page.meta.description|e('html') }}">
-        {% endif %}
-        {% if page.meta.og %}{% include "og" with {og: page.meta.og} %}{% endif %}
-        <link rel="author" href="{{ site.url }}/humans.txt" />
-        {% include 'title' %}
-        <link rel="stylesheet" href="{{ site.url }}/{{ theme_path('assets/css/styles.css') }}">
-        {% block styles %}{% endblock %}
-    </head>
-    <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
-        {% include 'navbar' %}
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.meta.description %}
+      <meta name="description" content="{{ page.meta.description|e('html') }}">
+    {% endif %}
+    {% if page.meta.og %}{% include "og" with {og: page.meta.og} %}{% endif %}
+    <link rel="author" href="{{ site.url }}/humans.txt" />
+    {% include 'title' %}
+    <link rel="stylesheet" href="{{ site.url }}/{{ theme_path('assets/css/styles.css') }}">
+    {% block styles %}{% endblock %}
+  </head>
+  <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+    {% include 'navbar' %}
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    {% block content_wrapper %}
-                        {% block content %}{% endblock %}
-                    {% endblock %}
-                </div>
-            </div>{# .row #}
-        </div>{# .container #}
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          {% block content_wrapper %}
+            {% block content %}{% endblock %}
+          {% endblock %}
+        </div>
+      </div>{# .row #}
+    </div>{# .container #}
 
-        <footer class="container" role="contentinfo">
-            <p class="copyright">&copy; {{ site.start_date }}-{{ 'now' | date('Y') }} {{ site.title }}.</p>
-        </footer>
+    <footer class="container" role="contentinfo">
+      <p class="copyright">&copy; {{ site.start_date }}-{{ 'now' | date('Y') }} {{ site.title }}.</p>
+    </footer>
 
-        {% include 'footer-scripts' %}
-    </body>
+    {% include 'footer-scripts' %}
+  </body>
 </html>

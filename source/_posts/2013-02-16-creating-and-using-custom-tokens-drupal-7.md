@@ -3,10 +3,10 @@ title: Creating and using custom tokens in Drupal 7
 nav: blog
 slug: creating-and-using-custom-tokens-drupal-7
 tags:
-    - drupal
-    - drupal-planet
-    - drupal-7
-    - tokens
+  - drupal
+  - drupal-planet
+  - drupal-7
+  - tokens
 ---
 This post outlines the steps required to create your own custom tokens in Drupal.
 
@@ -32,13 +32,13 @@ The first thing that we need to do is define the new token type and/or the token
  * Implements hook_token_info().
  */
 function foo_token_info() {
-    $info = array();
+  $info = array();
 
-    // Add any new tokens.
-    $info['tokens']['foo']['bar'] = t('This is my new bar token within the foo type.');
+  // Add any new tokens.
+  $info['tokens']['foo']['bar'] = t('This is my new bar token within the foo type.');
 
-    // Return them.
-    return $info;
+  // Return them.
+  return $info;
 }
 ~~~
 
@@ -55,12 +55,12 @@ Now that the Token module is aware of our new token, we now need to determine wh
  * Implements hook_tokens().
  */
 function foo_tokens($type, $tokens, array $data = array(), array $options = array()) {
-    $replacements = array();
+  $replacements = array();
 
-    // Code goes here...
+  // Code goes here...
 
-    // Return the replacements.
-    return $replacements;
+  // Return the replacements.
+  return $replacements;
 }
 ~~~
 
@@ -71,29 +71,29 @@ The first thing to check for is the type of token using an `if()` function, as t
  * Implements hook_tokens().
  */
 function foo_tokens($type, $tokens, array $data = array(), array $options = array()) {
-    $replacements = array();
+  $replacements = array();
 
-    // The first thing that we're going to check for is the type of token - node,
-    // user etc...
-    if ($type == 'foo') {
-        // Loop through each of the available tokens.
-        foreach ($tokens as $name => $original) {
-            // Find the desired token by name
-            switch ($name) {
-                case 'bar':
-                    $new = '';
+  // The first thing that we're going to check for is the type of token - node,
+  // user etc...
+  if ($type == 'foo') {
+    // Loop through each of the available tokens.
+    foreach ($tokens as $name => $original) {
+      // Find the desired token by name
+      switch ($name) {
+        case 'bar':
+          $new = '';
 
-                    // Work out the value of $new...
+          // Work out the value of $new...
 
-                    // Add the new value into the replacements array.
-                    $replacements[$original] = $new;
-                    break;
-            }
-        }
+          // Add the new value into the replacements array.
+          $replacements[$original] = $new;
+          break;
+      }
     }
+  }
 
-    // Return the replacements.
-    return $replacements;
+  // Return the replacements.
+  return $replacements;
 }
 ~~~
 
@@ -106,22 +106,22 @@ An example from Copyright Block module:
  * Implements hook_tokens().
  */
 function copyright_block_tokens($type, $tokens, array $data = array(), array $options = array()) {
-    $replacements = array();
+  $replacements = array();
 
-    if ($type == 'copyright_statement') {
-        foreach ($tokens as $name => $original) {
-            switch ($name) {
-                case 'dates':
-                    $start_year = variable_get('copyright_block_start_year', date('Y'));
-                    $current_year = date('Y');
+  if ($type == 'copyright_statement') {
+    foreach ($tokens as $name => $original) {
+      switch ($name) {
+        case 'dates':
+          $start_year = variable_get('copyright_block_start_year', date('Y'));
+          $current_year = date('Y');
 
-                    $replacements[$original] = $start_year < $current_year ? $start_year . '-' . $current_year : $start_year;
-                    break;
-            }
-        }
+          $replacements[$original] = $start_year < $current_year ? $start_year . '-' . $current_year : $start_year;
+          break;
+      }
     }
+  }
 
-    return $replacements;
+  return $replacements;
 }
 ~~~
 

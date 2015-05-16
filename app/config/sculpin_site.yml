@@ -18,26 +18,26 @@ lanyrd: http://lanyrd.com/profile/opdavies
 joindin: https://joind.in/user/view/27119
 
 bio: >
-    <p><a href="/">Oliver Davies</a> is a Drupal Developer and System Administrator based in the UK. He works for the <a href="https://assoc.drupal.org">Drupal Association</a> and also provides freelance consultancy services for Drupal websites and Linux servers.</p>
+  <p><a href="/">Oliver Davies</a> is a Drupal Developer and System Administrator based in the UK. He works for the <a href="https://assoc.drupal.org">Drupal Association</a> and also provides freelance consultancy services for Drupal websites and Linux servers.</p>
 
 toolkit:
-    - title: Drupal
-      url: https://www.drupal.org
-    - title: Sculpin
-      url: http://sculpin.io
-    - title: Git
-      url: http://git-scm.com
-    - title: SASS
-      url: http://sass-lang.com
-    - title: Compass
-      url: http://compass-style.org
-    - title: Susy
-      url: http://susy.oddbird.net
-    - title: Grunt
-      url: http://gruntjs.com
-    - title: Vagrant
-      url: http://vagrantup.com
-    - title: Puppet
-      url: http://en.wikipedia.org/wiki/Puppet_%28software%29
-    - title: Jenkins
-      url: http://jenkins-ci.org
+  - title: Drupal
+    url: https://www.drupal.org
+  - title: Sculpin
+    url: http://sculpin.io
+  - title: Git
+    url: http://git-scm.com
+  - title: SASS
+    url: http://sass-lang.com
+  - title: Compass
+    url: http://compass-style.org
+  - title: Susy
+    url: http://susy.oddbird.net
+  - title: Grunt
+    url: http://gruntjs.com
+  - title: Vagrant
+    url: http://vagrantup.com
+  - title: Puppet
+    url: http://en.wikipedia.org/wiki/Puppet_%28software%29
+  - title: Jenkins
+    url: http://jenkins-ci.org
