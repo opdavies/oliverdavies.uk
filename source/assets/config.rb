@@ -7,11 +7,11 @@
 ##
 
 # Location of the theme's resources.
-css_dir = "assets/css"
-sass_dir = "assets/sass"
-images_dir = "assets/images"
+css_dir = "css"
+sass_dir = "sass"
+images_dir = "images"
 generated_images_dir = images_dir + "/generated"
-javascripts_dir = "assets/js"
+javascripts_dir = "js"
 
 # Require any additional compass plugins installed on your system.
 require 'sass-globbing'
