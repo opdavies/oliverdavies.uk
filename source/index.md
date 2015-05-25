@@ -15,15 +15,13 @@ meta:
 ---
 # About
 
-<img src="{{ site.gravatar_url }}" alt="Picture of Oliver" class="img-circle">
+<!-- <img src="{{ site.gravatar_url }}" alt="Picture of Oliver" class="img-circle"> -->
 
-Oliver Davies is a senior level Web Developer and System Administrator based in the UK, who was been working online since 2007. Specialising in PHP and open source technologies, Oliver architects and develops websites using [Drupal](https://www.drupal.org) - a powerful content management framework - and [Sculpin](http://sculpin.io) - a static site generator written in PHP.
+Oliver Davies is a [Drupal Developer](https://www.drupal.org/u/opdavies) and Linux System Administrator based in the UK. He works for the [Drupal Association](https://assoc.drupal.org) and also provides part-time consultancy services.
 
-Oliver currently works for the [Drupal Association](https://assoc.drupal.org) and also provides freelance consultancy services for Drupal websites and Linux servers.
+An active community member, Oliver co-organises [SWDUG](https://groups.drupal.org/wales-uk) and the [Bristol Drupal user group](https://groups.drupal.org/bristol-west-uk), and is a founding member of the [DrupalCamp Bristol](http://2015.drupalcampbristol.co.uk) organising committee. He also attends other Drupal events and conferences as well as local PHP, Linux and web accessibility user groups.
 
-Oliver has contributed code to Drupal 7 and 8 core, and maintains and contributes to several modules and themes on Drupal.org. He is the Git Documentation Maintainer for the Drupal project, and a provisional member of the [Drupal Security team](https://www.drupal.org/security-team). He attends, organises and [talks](/talks/) at user groups, and volunteers and mentors online and in-person at conferences.
+A contributor to [Drupal 7](http://cgit.drupalcode.org/drupal/log/?h=7.x&qt=grep&q=opdavies) and [Drupal 8](http://cgit.drupalcode.org/drupal/log/?h=8.0.x&qt=grep&q=opdavies) core, Oliver also [mentors new contributors](https://www.drupal.org/user/381388/people-mentored) online and in person at local sprints, DrupalCamps and DrupalCons. He maintains several projects on Drupal.org, and has contributed to numerous others. He is also the Git Documentation Maintainer for the Drupal project, and a provisional member of the [Drupal Security team](https://www.drupal.org/security-team).
 
-He also is a 2nd Degree Black Belt in Tae Kwon-Do and a Brazilian Jiu-Jitsu practitioner.
-
-Oliver has active social media profiles on <a href="{{ site.twitter }}">Twitter</a> and <a href="{{ site.linkedin }}">LinkedIn</a>, and you can view his code on
+You can follow him on <a href="{{ site.twitter }}">Twitter</a> and <a href="{{ site.linkedin }}">LinkedIn</a>, and you can view his code on
 <a href="{{ site.drupalorg }}/track/code">Drupal.org</a> and <a href="{{ site.github }}?tab=activity">GitHub</a>.
