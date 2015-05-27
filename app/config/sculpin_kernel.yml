@@ -4,6 +4,7 @@ sculpin:
     - '**/*.scss'
     - '**/config.rb'
     - '**/Gemfile*'
+
 sculpin_content_types:
   posts:
     permalink: blog/:slug_title/
