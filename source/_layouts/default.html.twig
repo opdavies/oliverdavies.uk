@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<html lang="en-GB" class="no-js">
+<!--[if lte IE 8]> <html class="ie ie8 lt9 lte8 lte7"> <![endif]-->
+<!--[if IE 9]> <html class="ie ie9 lte9"> <![endif]-->
+<!--[if gt IE 9]> <html> <![endif]-->
+<!--[if !IE]><!--> <html> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     {% if page.meta.description %}
       <meta name="description" content="{{ page.meta.description|e('html') }}">
     {% endif %}
+
     {% if page.meta.og %}{% include "og" with {og: page.meta.og} %}{% endif %}
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="author" href="{{ site.url }}/humans.txt" />
+
     {% include 'title' %}
+
     <link rel="stylesheet" href="{{ site.url }}/{{ theme_path('assets/css/styles.css') }}">
     {% block styles %}{% endblock %}
   </head>
