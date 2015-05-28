@@ -7,17 +7,15 @@ meta:
 ---
 # Contact
 
-The best way to contact me is via [email](mailto:oliver+contact@oliverdavies.co.uk?subject=Contact%20Oliver%20Davies).
+The best ways to contact me is via [email](mailto:oliver+contact@oliverdavies.co.uk?subject=Contact%20Oliver%20Davies) and <a href="{{ site.twitter }}">Twitter</a>.
 
 If you have a support or feature request for one of the Drupal projects that I maintain, please create an issue in the appropriate issue queue on [Drupal.org](https://www.drupal.org).
-
-If you want to report an issue or want to suggest any improvements to the site, you can do so on [GitHub](https://github.com/opdavies/opdavies.github.io/issues/new). I'm happy to receive [pull requests](https://help.github.com/articles/using-pull-requests) if you want to suggest a change to piece of content.
 
 ## Elsewhere
 
 Here are the best places to contact me online:
 
-* IRC ({{ site.irc }}) - I'm usually in #drupal-uk on Freenode, among others.
+* IRC ({{ site.irc }}) - I'm usually in #drupal-uk and #drupal-contribute on Freenode, among others.
 * <a href="{{ site.twitter }}">Twitter</a> (@{{ site.twitter_name }})
 * <a href="{{ site.drupalorg_nice }}">Drupal.org</a>
 * <a href="{{ site.linkedin }}">LinkedIn</a>
@@ -26,7 +24,7 @@ Here are the best places to contact me online:
 
 Here are the user group meetups that I organise or attend regularly. If you're in the area, feel free to pop along and say hi!
 
-* [SWDUG](http://www.swdug.co.uk) (South Wales Drupal user group)
+* [SWDUG](http://www.swdug.org.uk) (South Wales Drupal user group)
 * [Drupal Bristol](https://groups.drupal.org/bristol-and-west-uk)
 * [PHPSW](http://www.phpsw.org.uk)
 * [SWLUG](http://www.swlug.org) (South Wales Linux user group)
