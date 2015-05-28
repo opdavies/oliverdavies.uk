@@ -5,6 +5,7 @@
 <!--[if !IE]><!--> <html> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
+    {% include 'title' %}
 
     {% if page.meta.description %}
       <meta name="description" content="{{ page.meta.description|e('html') }}">
@@ -14,11 +15,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="author" href="{{ site.url }}/humans.txt" />
-
-    {% include 'title' %}
-
     <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
   </head>
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
