@@ -19,8 +19,7 @@
 
     {% include 'title' %}
 
-    <link rel="stylesheet" href="{{ site.url }}/{{ theme_path('assets/css/styles.css') }}">
-    {% block styles %}{% endblock %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
   </head>
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
     {% include 'navbar' %}
