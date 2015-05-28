@@ -4,14 +4,14 @@ title: Testimonials
 testimonials:
   - name: Ed Welsby
     text: Oliver was great to work with, he has a solid knowledge of the various aspects of web development and never minded helping me out with Linux commands!
-    role:
-    company:
-    url:
+    role: Senior Developer
+    company: Proctor & Stevenson
+    url: http://www.proctors.co.uk
   - name: Brian Healy
     text: Oliver was fantastic to work with - pro-active and highly responsive, he worked well remotely and as part of a project team. His understanding of the project requirement(s) and ability to translate it into working code was essential and he delivered.
     role:
-    company:
-    url:
+    company: Tincan
+    url: http://tincan.co.uk
   - name: Brian Hartwell
     text: Oliver was great to work with. He has expert knowledge with Drupal and delivered exactly what we were looking for on time. He's understanding, friendly and easy to get along with. I would enjoy working with him again in the future.
     role:
@@ -24,14 +24,14 @@ testimonials:
     url:
   - name: James Chapman
     text: We used Oliver on a number of occasions throughout 2012 and I have to say we've been delighted with his work. His skills working with Drupal are excellent particularly with custom module development and we wouldn't hesitate to recommend him others.
-    role:
-    company:
-    url:
+    role: Director
+    company: Development Done Right
+    url: http://www.developmentdoneright.co.uk
   - name: Marlon Duncanson
     text: Oliver is a great guy and really easy to work with. He really goes the extra mile to make sure the project is done properly. I would recommend him and will not hesitate to use him again in future.
     role:
-    company:
-    url:
+    company: Hypergroup Limited
+    url: http://www.hypergroup.com
 ---
 # Testimonials
 
