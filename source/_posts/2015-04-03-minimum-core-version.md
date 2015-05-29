@@ -56,6 +56,8 @@ In the original scenario, we want to specify that the module can only be enabled
 
 Because we need to check for Drupal's core version, we're using the system module as the dependency and specifying that it needs to be either equal to or greater than 7.36. If this dependency is not met, e.g. Drupal 7.35 is being used, then the module cannot be enabled rather than showing a function not found error for `user_has_role()` when it is called.
 
+!['A screenshot of the modules page showing System as a dependency for a custom module.'](/assets/images/blog/minimum-drupal-version-d7.png)
+
 ## External Links
 
 * [Writing module .info files (Drupal 7.x)](https://www.drupal.org/node/542202#dependencies)
