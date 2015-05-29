@@ -20,6 +20,8 @@ Here are the best places to contact me online:
 * <a href="{{ site.drupalorg_nice }}">Drupal.org</a>
 * <a href="{{ site.linkedin }}">LinkedIn</a>
 
+I also have profiles on <a href="{{ site.lanyrd }}">Lanyrd</a> and <a href="{{ site.joindin }}">Joind.in</a>.
+
 ## Meetups
 
 Here are the user group meetups that I organise or attend regularly. If you're in the area, feel free to pop along and say hi!
