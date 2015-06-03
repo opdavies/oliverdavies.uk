@@ -17,7 +17,7 @@ meta:
 
 <!-- <img src="{{ site.gravatar_url }}" alt="Picture of Oliver" class="img-circle"> -->
 
-Oliver Davies is a [Drupal Developer](https://www.drupal.org/u/opdavies) and Linux System Administrator based in the UK. He works for the [Drupal Association](https://assoc.drupal.org) and also provides part-time consultancy services.
+Oliver Davies is a [Drupal Developer]({{ site.drupalorg_nice }}) and Linux System Administrator based in the UK. He works for the [Drupal Association](https://assoc.drupal.org) and also provides part-time consultancy services.
 
 An active community member, Oliver co-organises [SWDUG](https://groups.drupal.org/wales-uk) and the [Bristol Drupal user group](https://groups.drupal.org/bristol-west-uk), and is a founding member of the [DrupalCamp Bristol](http://2015.drupalcampbristol.co.uk) organising committee. He also attends other Drupal events and conferences as well as local PHP, Linux and web accessibility user groups.
 
