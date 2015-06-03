@@ -22,7 +22,8 @@ meta:
 ## System Administration
 
 * [CentOS](http://www.centos.org), [RHEL](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) and [Ubuntu](http://www.ubuntu.com/server) server configuration, including [Apache](http://apache.org), [Nginx](http://nginx.org), [PHP](http://php.net), [MySQL](http://mysql.com) and [MariaDB](https://mariadb.org).
-* Server configuration and management using [Puppet](http://puppetlabs.com) and [Ansible](http://www.ansible.com).
+* Server configuration and management using [Puppet](http://puppetlabs.com) and/or [Ansible](http://www.ansible.com).
 * Continuous integration using [Jenkins](http://jenkins-ci.org).
 * Virtual machine setup using [Vagrant](http://vagrantup.com) for development or server testing.
 * Domain name and DNS management.
+
