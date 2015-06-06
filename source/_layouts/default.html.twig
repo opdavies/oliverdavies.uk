@@ -3,40 +3,40 @@
 <!--[if IE 9]> <html class="ie ie9 lte9"> <![endif]-->
 <!--[if gt IE 9]> <html> <![endif]-->
 <!--[if !IE]><!--> <html> <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    {% include 'title' %}
+    <head>
+        <meta charset="utf-8">
+        {% include 'title' %}
 
-    {% if page.meta.description %}
-      <meta name="description" content="{{ page.meta.description|e('html') }}">
-    {% endif %}
+        {% if page.meta.description %}
+            <meta name="description" content="{{ page.meta.description|e('html') }}">
+        {% endif %}
 
-    {% if page.meta.og %}{% include "og" with {og: page.meta.og} %}{% endif %}
+        {% if page.meta.og %}{% include "og" with {og: page.meta.og} %}{% endif %}
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="author" href="{{ site.url }}/humans.txt" />
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
-  </head>
-  <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
-    {% include 'navbar' %}
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="author" href="{{ site.url }}/humans.txt" />
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
+    </head>
+    <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+        {% include 'navbar' %}
 
-    <div class="container">
-      <div class="row">
-        {% block content_wrapper %}
-          <div class="col-md-10">
-            {% block content %}{% endblock %}
-          </div>
-        {% endblock %}
+        <div class="container">
+            <div class="row">
+                {% block content_wrapper %}
+                    <div class="col-md-10">
+                        {% block content %}{% endblock %}
+                    </div>
+                {% endblock %}
 
-        {% include 'sidebar' %}
-      </div>{# .row #}
-    </div>{# .container #}
+                {% include 'sidebar' %}
+            </div>{# .row #}
+        </div>{# .container #}
 
-    <footer class="container" role="contentinfo">
-      <p class="copyright">&copy; {{ site.start_date }}-{{ 'now' | date('Y') }} {{ site.title }}.</p>
-    </footer>
+        <footer class="container" role="contentinfo">
+            <p class="copyright">&copy; {{ site.start_date }}-{{ 'now' | date('Y') }} {{ site.title }}.</p>
+        </footer>
 
-    {% include 'footer-scripts' %}
-  </body>
+        {% include 'footer-scripts' %}
+    </body>
 </html>

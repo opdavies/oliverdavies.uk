@@ -3,11 +3,11 @@ title: Create a Slideshow of Multiple Images Using Fancy Slide
 nav: blog
 slug: create-slideshow-multiple-images-using-fancy-slide
 tags:
-  - drupal-planet
-  - drupal
-  - drupal-6
-  - fancy-slide
-  - slideshow
+    - drupal-planet
+    - drupal
+    - drupal-6
+    - fancy-slide
+    - slideshow
 ---
 Whilst updating my About page, I thought about creating a slideshow of several images instead of just the one static image. When I looking on Drupal.org, the only slideshow modules were to create slideshows of images that were attached to different nodes - not multiple images attached to one node. Then, I found the [Fancy Slide](http://drupal.org/project/fancy_slide) module. It's a jQuery Slideshow module with features that include integration with the [CCK](http://drupal.org/project/cck), [ImageCache](http://drupal.org/project/imagecache) and [Nodequeue](http://drupal.org/project/nodequeue) modules.
 

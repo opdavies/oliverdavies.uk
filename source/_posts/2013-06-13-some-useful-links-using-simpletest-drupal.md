@@ -3,11 +3,11 @@ title: Some useful links for using SimpleTest in Drupal
 nav: blog
 slug: some-useful-links-using-simpletest-drupal
 tags:
-  - simpletest
-  - tdd
-  - test-driven-development
-  - drupal-planet
-  - drupal
+    - simpletest
+    - tdd
+    - test-driven-development
+    - drupal-planet
+    - drupal
 ---
 Here are some useful links that I've found when researching about unit testing in Drupal using SimpleTest:
 

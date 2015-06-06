@@ -3,7 +3,7 @@ title: Create a Better Photo Gallery in Drupal - Part 3
 nav: blog
 slug: create-better-photo-gallery-drupal-part-3
 tags:
-  - drupal
+    - drupal
 ---
 The next part of the new gallery that I want to implement is to group the galleries by their respective categories. The first step is to edit my original photo_gallery view and add an additional display.
 
@@ -27,8 +27,8 @@ To reduce the amount of code needed, I can use the following 'while' loop to gen
 <?php
 $terms = db_query("SELECT * FROM {term_data} WHERE vid = 1");
 while ($term = db_fetch_array($terms)) {
-  print '<h3>' . $term['name'] . '</h3>';
-  print views_embed_view('gallery', 'page_2', $term['name']);
+    print '<h3>' . $term['name'] . '</h3>';
+    print views_embed_view('gallery', 'page_2', $term['name']);
 }
 ?>
 ~~~

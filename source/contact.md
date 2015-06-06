@@ -3,7 +3,7 @@ layout: default
 title: Contact
 nav: contact
 meta:
-  description: 'Information about how to get in touch with Oliver.'
+    description: 'Information about how to get in touch with Oliver.'
 ---
 # Contact
 

@@ -2,10 +2,10 @@
 title: 10 Useful Drupal 6 Modules
 nav: blog
 tags:
-  - drupal-planet
-  - drupal-6
-  - drupal
-  - drupal-modules
+    - drupal-planet
+    - drupal-6
+    - drupal
+    - drupal-modules
 ---
 Aside from the obvious candidates such as Views, CCK etc, here are a list of 10 contributed modules that I currently use on each Drupal project.
 
@@ -20,4 +20,4 @@ So, in no particular order:
 * **[Node Picker](http://drupal.org/project/nodepicker):**<br>A rewrite of the module [TinyMCE Node Picker](http://drupal.org/project/tinymce_node_picker). Allows you to easily create links to internal nodes.
 * **[Module Filter](http://drupal.org/project/module_filter):**<br>What this module aims to accomplish is the ability to quickly find the module you are looking for without having to rely on the browsers search feature which more times than not shows you the module name in the 'Required by' or 'Depends on' sections of the various modules or even some other location on the page like a menu item.
 * **[Zenophile](http://drupal.org/project/zenophile):**<br>Quickly create Zen subthemes.
-* **[Add Another](http://drupal.org/project/addanother):**<br>Add another displays a message after a user creates a node, and/or displays an "Add another" tab on nodes allowing them to make another node of the same type.  You can control what roles and node types see this feature.
+* **[Add Another](http://drupal.org/project/addanother):**<br>Add another displays a message after a user creates a node, and/or displays an "Add another" tab on nodes allowing them to make another node of the same type.    You can control what roles and node types see this feature.

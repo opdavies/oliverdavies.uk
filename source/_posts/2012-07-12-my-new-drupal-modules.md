@@ -3,12 +3,12 @@ title: My new Drupal modules
 nav: blog
 description: After a busy few days, I've released two new contrib Drupal modules.
 tags:
-  - drupal
-  - drupal-modules
-  - drupal-6
-  - drupal-7
-  - drupal-planet
-  - accessibility
+    - drupal
+    - drupal-modules
+    - drupal-6
+    - drupal-7
+    - drupal-planet
+    - accessibility
 ---
 After a busy few days, I've released two new contrib Drupal modules:
 

@@ -2,7 +2,7 @@
 title: Some Useful Git Aliases
 nav: blog
 tags:
-  - git
+    - git
 ---
 Here are some bash aliases that I use and find helpful for quickly writing Git and Git Flow commands. These should be placed within your `~/.bashrc` or `~/.bash_profile` file:
 
