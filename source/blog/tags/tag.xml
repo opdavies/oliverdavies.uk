@@ -3,21 +3,21 @@ generator: [posts_tag_index]
 ---
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>{{ site.title }}</title>
-    <link>{{ site.url }}</link>
-    <language>en</language>
-    {% if site.description %}<description>{{ site.description|raw }}</description>{% endif %}
-    <atom:link href="{{ site.url }}{{ page.url }}" rel="self" type="application/rss+xml" />
-    <lastBuildDate>{{ site.calculated_date|date('r') }}</lastBuildDate>
-      {% for post in page.tag_posts|slice(0, 10) %}
-      <item>
-        <title>{{ post.title }}</title>
-        <link>{{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-        <pubDate>{{ post.date|date('r') }}</pubDate>
-        <description>{{ post.description|raw }}</description>
-      </item>
-    {% endfor %}
-  </channel>
+    <channel>
+        <title>{{ site.title }}</title>
+        <link>{{ site.url }}</link>
+        <language>en</language>
+        {% if site.description %}<description>{{ site.description|raw }}</description>{% endif %}
+        <atom:link href="{{ site.url }}{{ page.url }}" rel="self" type="application/rss+xml" />
+        <lastBuildDate>{{ site.calculated_date|date('r') }}</lastBuildDate>
+            {% for post in page.tag_posts|slice(0, 10) %}
+            <item>
+                <title>{{ post.title }}</title>
+                <link>{{ site.url }}{{ post.url }}</link>
+                <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+                <pubDate>{{ post.date|date('r') }}</pubDate>
+                <description>{{ post.description|raw }}</description>
+            </item>
+        {% endfor %}
+    </channel>
 </rss>

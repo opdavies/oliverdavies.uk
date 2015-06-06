@@ -3,10 +3,10 @@ title: How to fix Vagrant Loading the Wrong Virtual Machine
 nav: blog
 slug: fix-vagrant-loading-wrong-virtual-machine
 tags:
-  - vagrant
-  - virtualbox
+    - vagrant
+    - virtualbox
 meta:
-  description: How to fix it when Vagrant loads the wrong virtual machine.
+    description: How to fix it when Vagrant loads the wrong virtual machine.
 ---
 A few times recently, I've had instances where Vagrant seems to have forgotten which virtual machine it's supposed to load, probably due to renaming a project directory or the .vagrant directory being moved accidentally.
 

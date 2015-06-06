@@ -3,10 +3,10 @@ title: Updating Features and Adding Components Using Drush
 nav: blog
 slug: updating-features-and-adding-components-using-drush
 tags:
-  - drupal
-  - drupal-planet
-  - drush
-  - features
+    - drupal
+    - drupal-planet
+    - drush
+    - features
 ---
 If you use the [Features module](http://drupal.org/project/features) to manage your Drupal configuration, it can be time consuming to update features through the UI, especially if you are working on a remote server and need to keep downloading and uploading files.
 
@@ -18,7 +18,7 @@ To search for a component, use the `drush features-components` command. This wil
 
 To filter further, you can also use the `grep` command to filter the results. For example, `drush features-components --not-exported field_base | grep foo`, would only return non-exported field bases containing the word "foo".
 
-The result is a source and a component, separated by a colon. For example,  `field_base:field_foo`.
+The result is a source and a component, separated by a colon. For example,    `field_base:field_foo`.
 
 ## Exporting the Feature
 
@@ -26,7 +26,7 @@ Once you have a list of the components that you need to add, you can export the 
 
 For example:
 
-    $ drush features-export -y myfeature field_base:field_foo field_instance:user-field_foo
+        $ drush features-export -y myfeature field_base:field_foo field_instance:user-field_foo
 
 In this example, the base for field_boo and it's instance on the user object is being added to the "myfeature" feature.
 

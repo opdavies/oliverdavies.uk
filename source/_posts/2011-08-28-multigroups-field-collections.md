@@ -3,13 +3,13 @@ title: Create Multigroups in Drupal 7 using Field Collections
 nav: blog
 slug: create-multigroups-drupal-7-using-field-collections
 tags:
-  - drupal-7
-  - drupal-planet
-  - cck
-  - fields
-  - field-collection
-  - entity-api
-  - multigroup
+    - drupal-7
+    - drupal-planet
+    - cck
+    - fields
+    - field-collection
+    - entity-api
+    - multigroup
 ---
 One of my favourite things lately in Drupal 6 has been CCK 3, and more specifically, the Content Multigroups sub-module. Basically this allows you to create a fieldset of various CCK fields, and then repeat that multiple times. For example, I use it on this site whist creating invoices for clients. I have a fieldset called 'Line Item', containing 'Description', 'Quantity' and 'Price' fields. With a standard fieldset, I could only have one instance of each field - however, using a multigroup, I can create multiple groups of line items which I then use within the invoice.
 

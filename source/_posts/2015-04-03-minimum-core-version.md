@@ -3,14 +3,14 @@ title: How to Define a Minimum Drupal Core Version
 description: How to define a minimum Drupal core version for your module or theme.
 nav: blog
 tags:
-  - drupal
-  - drupal-7
-  - drupal-planet
+    - drupal
+    - drupal-7
+    - drupal-planet
 meta:
-  og:
-    title: 'How to Define a Minimum Drupal Core Version'
-    description: 'How to define a minimum Drupal core version for your module or theme.'
-    type: article
+    og:
+        title: 'How to Define a Minimum Drupal Core Version'
+        description: 'How to define a minimum Drupal core version for your module or theme.'
+        type: article
 ---
 This week, my first code patch was [committed to Drupal core](https://www.drupal.org/node/2394517#comment-9773143). The patch adds the `user_has_role()` function to the user module, to simplify the way to check whether a user in Drupal has been assigned a specific role. This is something that I normally write a custom function for each project, but it's now available in Drupal core as of [7.36](https://www.drupal.org/drupal-7.36-release-notes).
 
@@ -26,7 +26,7 @@ What I'm going to be doing for my contrib projects is defining a minimum version
 
 You can define a simple dependency for your module by adding a line this this to your project's .info file:
 
-    dependencies[] = views
+        dependencies[] = views
 
 This would make your module dependant on having the [Views](https://www.drupal.org/project/views) module present and enabled, which you'd need if you were including views as part of your module, for example.
 
@@ -34,12 +34,12 @@ This would make your module dependant on having the [Views](https://www.drupal.o
 
 In the previous example, our module would enable if _any_ version of Views was enabled, but we need to specify a specific version. We can do this by including version numbers within the dependencies field in the following format:
 
-    dependencies[] = modulename (major.minor)
+        dependencies[] = modulename (major.minor)
 
 This can be a for a specific module release or a branch name:
 
-    dependencies[] = modulename (1.0)
-    dependencies[] = modulename (1.x)
+        dependencies[] = modulename (1.0)
+        dependencies[] = modulename (1.x)
 
 We can also use the following as part of the field for extra granularity:
 
@@ -52,7 +52,7 @@ We can also use the following as part of the field for extra granularity:
 
 In the original scenario, we want to specify that the module can only be enabled on Drupal core 7.36 or later. To do this, we can use the "greater than or equal to" option.
 
-    dependencies[] = system (>=7.36)
+        dependencies[] = system (>=7.36)
 
 Because we need to check for Drupal's core version, we're using the system module as the dependency and specifying that it needs to be either equal to or greater than 7.36. If this dependency is not met, e.g. Drupal 7.35 is being used, then the module cannot be enabled rather than showing a function not found error for `user_has_role()` when it is called.
 

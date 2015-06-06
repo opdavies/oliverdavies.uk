@@ -3,7 +3,7 @@ layout: default
 title: Services
 nav: services
 meta:
-  description: 'Information about freelance services that Oliver offers.'
+    description: 'Information about freelance services that Oliver offers.'
 ---
 # Services
 
