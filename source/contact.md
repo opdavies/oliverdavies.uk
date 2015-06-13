@@ -28,6 +28,6 @@ Here are the user group meetups that I organise or attend regularly. If you're i
 
 * [SWDUG](http://www.swdug.org.uk) (South Wales Drupal user group)
 * [Drupal Bristol](https://groups.drupal.org/bristol-and-west-uk)
-* [PHPSW](http://www.phpsw.org.uk)
+* [PHPSW](http://www.phpsw.uk)
 * [SWLUG](http://www.swlug.org) (South Wales Linux user group)
 * [Accessible Bristol](http://www.accessiblebristol.org.uk)
