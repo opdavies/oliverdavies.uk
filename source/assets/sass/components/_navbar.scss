@@ -1,0 +1,5 @@
+@each $page in about, work, services, talks, blog, contact {
+  .page--#{$page} .nav__#{$page} {
+    @extend .active;
+  }
+}
