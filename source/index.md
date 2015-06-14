@@ -15,7 +15,7 @@ meta:
 ---
 # About
 
-<!-- <img src="{{ site.gravatar_url }}" alt="Picture of Oliver" class="img-circle"> -->
+<img src="{{ site.gravatar_url }}?s=85" alt="Picture of Oliver" class="img-circle">
 
 Oliver Davies is a <a href="{{ site.drupalorg_nice }}">Drupal Developer</a> and Linux System Administrator based in the UK. He works for the [Drupal Association](https://assoc.drupal.org) and also provides part-time consultancy services.
 
