@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Services
-nav: services
+body_class: page--services
 meta:
   description: 'Information about freelance services that Oliver offers.'
 ---

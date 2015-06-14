@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Work
-nav: work
+body_class: page--work
 meta:
   description: "Information about Oliver's current work."
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact
-nav: contact
+body_class: page--contact
 meta:
   description: 'Information about how to get in touch with Oliver.'
 ---

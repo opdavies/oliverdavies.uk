@@ -1,6 +1,6 @@
 ---
 layout: default
-nav: about
+body_class: page--about
 meta:
   description: 'The personal website and blog of Oliver Davies, a Drupal Developer and System Administrator from Wales, UK.'
   og:
