@@ -3,13 +3,13 @@ title: Change the Content Type of Multiple Nodes Using SQL
 nav: blog
 slug: change-content-type-multiple-nodes-using-sql
 tags:
-  - drupal-planet
-  - drupal-6
-  - drupal
-  - sql
-  - sequel-pro
-  - database
-  - content-types
+    - drupal-planet
+    - drupal-6
+    - drupal
+    - sql
+    - sequel-pro
+    - database
+    - content-types
 ---
 In this post, I will be changing values within my Drupal 6 site's database to quickly change the content type of multiple nodes. I will be using a test development site with the core Blog module installed, and converting Blog posts to a custom content type called 'News article'.
 

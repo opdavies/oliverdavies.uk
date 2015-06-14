@@ -3,12 +3,12 @@ title: Use Regular Expressions to Search and Replace in Coda or TextMate
 nav: blog
 slug: use-regular-expressions-search-and-replace-coda-or-textmate
 tags:
-  - taxonomy
-  - sequel-pro
-  - database
-  - coda
-  - regular-expression
-  - textmate
+    - taxonomy
+    - sequel-pro
+    - database
+    - coda
+    - regular-expression
+    - textmate
 ---
 As in [the original post](/blog/add-taxonomy-term-multiple-nodes-using-sql/ "Quickly adding a taxonomy term to multiple nodes using SQL"), I'd generated a list of node ID values, and needed to add structure the SQL update statment formatted in a certain way. However, I changed my inital query slightly to out put the same nid value twice.
 

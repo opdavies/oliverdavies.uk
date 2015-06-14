@@ -3,42 +3,40 @@
 <!--[if IE 9]> <html class="ie ie9 lte9"> <![endif]-->
 <!--[if gt IE 9]> <html> <![endif]-->
 <!--[if !IE]><!--> <html> <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
+    <head>
+        <meta lang="en-GB" charset="utf-8">
+        {% include 'title' %}
 
-    {% if page.meta.description %}
-      <meta name="description" content="{{ page.meta.description|e('html') }}">
-    {% endif %}
+        {% if page.meta.description %}
+            <meta name="description" content="{{ page.meta.description|e('html') }}">
+        {% endif %}
 
-    {% if page.meta.og %}{% include "og" with {og: page.meta.og} %}{% endif %}
+        {% if page.meta.og %}{% include "og" with {og: page.meta.og} %}{% endif %}
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="author" href="{{ site.url }}/humans.txt" />
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
+    </head>
+    <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+        {% include 'navbar' %}
 
-    <link rel="author" href="{{ site.url }}/humans.txt" />
+        <div class="container">
+            <div class="row">
+                {% block content_wrapper %}
+                    <div class="col-md-10">
+                        {% block content %}{% endblock %}
+                    </div>
+                {% endblock %}
 
-    {% include 'title' %}
+                {% include 'sidebar' %}
+            </div>{# .row #}
+        </div>{# .container #}
 
-    <link rel="stylesheet" href="{{ site.url }}/{{ theme_path('assets/css/styles.css') }}">
-    {% block styles %}{% endblock %}
-  </head>
-  <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
-    {% include 'navbar' %}
+        <footer class="container" role="contentinfo">
+            <p class="copyright">&copy; {{ site.start_date }}-{{ 'now' | date('Y') }} {{ site.title }}.</p>
+        </footer>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          {% block content_wrapper %}
-            {% block content %}{% endblock %}
-          {% endblock %}
-        </div>
-      </div>{# .row #}
-    </div>{# .container #}
-
-    <footer class="container" role="contentinfo">
-      <p class="copyright">&copy; {{ site.start_date }}-{{ 'now' | date('Y') }} {{ site.title }}.</p>
-    </footer>
-
-    {% include 'footer-scripts' %}
-  </body>
+        {% include 'footer-scripts' %}
+    </body>
 </html>

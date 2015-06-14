@@ -3,9 +3,9 @@ title: Installing Nagios on CentOS
 nav: blog
 slug: installing-nagios-centos
 tags:
-  - nagios
-  - centos
-  - linux
+    - nagios
+    - centos
+    - linux
 ---
 A great post details that details the steps needed to install [Nagios](http://nagios.org) - a popular open source system and network monitoring software application - on CentOS.
 

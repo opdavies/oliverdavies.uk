@@ -3,7 +3,7 @@ layout: default
 title: Services
 nav: services
 meta:
-  description: 'Information about freelance services that Oliver offers.'
+    description: 'Information about freelance services that Oliver offers.'
 ---
 # Services
 
@@ -22,8 +22,8 @@ meta:
 ## System Administration
 
 * [CentOS](http://www.centos.org), [RHEL](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) and [Ubuntu](http://www.ubuntu.com/server) server configuration, including [Apache](http://apache.org), [Nginx](http://nginx.org), [PHP](http://php.net), [MySQL](http://mysql.com) and [MariaDB](https://mariadb.org).
-* Configuration management using [Puppet](http://puppetlabs.com) (preferred) or [Ansible](http://www.ansible.com).
+* Server configuration and management using [Puppet](http://puppetlabs.com) and/or [Ansible](http://www.ansible.com).
 * Continuous integration using [Jenkins](http://jenkins-ci.org).
-* Server deployment using [Ansible](http://www.ansible.com).
 * Virtual machine setup using [Vagrant](http://vagrantup.com) for development or server testing.
 * Domain name and DNS management.
+
