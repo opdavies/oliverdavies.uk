@@ -1,11 +1,11 @@
 title: Oliver Davies
 subtitle: Drupal Developer & System Administrator
-
 description: Oliver Davies, Drupal Developer
 author: Oliver Davies
 email: oliver@oliverdavies.co.uk
 gravatar_url: http://www.gravatar.com/avatar/e0f6adcd63d8393e689b327e978d0887.png
 
+# Social links.
 twitter: http://twitter.com/opdavies
 twitter_name: opdavies
 linkedin: http://uk.linkedin.com/in/opdavies
@@ -20,3 +20,5 @@ ansible_galaxy: https://galaxy.ansible.com/list#/users/14560
 bio: >
   <p><a href="/">Oliver Davies</a> is a Drupal Developer and System Administrator based in the UK. He works for the <a href="https://assoc.drupal.org">Drupal Association</a> and also provides freelance consultancy services for Drupal websites and Linux servers.</p>
   
+apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
+favicon_sizes: [ 160, 96, 32, 16 ]

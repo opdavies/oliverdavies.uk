@@ -17,7 +17,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="author" href="{{ site.url }}/humans.txt" />
     <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
-    <link rel="shortcut icon" href="{{ site.gravatar_url }}">
+
+    {% for size in site.apple_touch_icon_sizes %}
+      <link rel="apple-touch-icon" href="{{ site.gravatar_url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
+    {% endfor %}
+
+    {% for size in site.favicon_sizes %}
+      <link rel="icon" href="{{ site.gravatar_url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
+    {% endfor %}
   </head>
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
     {% include 'navbar' %}
