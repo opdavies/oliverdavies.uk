@@ -3,10 +3,10 @@ title: git format-patch is your Friend
 nav: blog
 slug: git-format-patch
 tags:
-    - patches
-    - drupal
-    - drupal-planet
-    - git
+  - patches
+  - drupal
+  - drupal-planet
+  - git
 ---
 ## The Problem
 
@@ -18,7 +18,7 @@ There is an option that the maintainer can add to the end of their commit messag
 
 For example:
 
-        --author="opdavies <opdavies@381388.no-reply.drupal.org>"
+    --author="opdavies <opdavies@381388.no-reply.drupal.org>"
 
 This differs slightly different for each Drupal user, and the code can be found on their Drupal.org profile page.
 
@@ -75,8 +75,8 @@ If you need to commit a patch that was created using `git format-patch`, the bes
 
 For example, within your repository, run:
 
-        $ git am /path/to/file
-        $ git am ~/Code/metatag-comment-fragment-conflict-2265447-4.patch
+    $ git am /path/to/file
+    $ git am ~/Code/metatag-comment-fragment-conflict-2265447-4.patch
 
 You should end up with some output similar to the following:
 

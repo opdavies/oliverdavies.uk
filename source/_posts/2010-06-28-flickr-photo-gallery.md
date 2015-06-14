@@ -3,16 +3,16 @@ title: Create a Flickr Photo Gallery Using Feeds, CCK and Views
 nav: blog
 slug: create-flickr-photo-gallery-using-feeds-cck-and-views
 tags:
-    - drupal-planet
-    - drupal-6
-    - photo-gallery
-    - views
-    - cck
-    - imagecache
-    - feeds
-    - filefield
-    - flickr
-    - imagefield
+  - drupal-planet
+  - drupal-6
+  - photo-gallery
+  - views
+  - cck
+  - imagecache
+  - feeds
+  - filefield
+  - flickr
+  - imagefield
 ---
 In this tutorial, I'll show you how to create a photo gallery which uses photos imported from [Flickr](http://www.flickr.com).
 
@@ -35,7 +35,7 @@ Next, I installed and configured the Feeds and Image Grabber module. I used an o
 * **Processor settings:** I changed the content type to 'Photo', and the author's name from 'anonymous'.
 * **Processor mapping:** I added a new mapping from 'Item URL (link)' to 'Photo (FIG)'. The Photo FIG target is added by the Image Grabber module.
 
-Next, I needed to create the actual Feed, which I did by clicking 'Import' within the Navigation menu,    and clicking 'Feed'. I gave it a title, entered the URL to my RSS feed from Flickr, and enabled the Image Grabber for this feed.
+Next, I needed to create the actual Feed, which I did by clicking 'Import' within the Navigation menu,  and clicking 'Feed'. I gave it a title, entered the URL to my RSS feed from Flickr, and enabled the Image Grabber for this feed.
 
 Once the Feed is created, the latest 20 images from the RSS feed are imported and 20 new Photos nodes are created. In the example below, the image with the 'Photo' label is the Image field mapped by the Image Grabber module. It is this image that I'll be displaying within my Gallery.
 

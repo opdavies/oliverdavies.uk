@@ -3,11 +3,11 @@ title: Create Virtual Hosts on Mac OS X Using VirtualHostX
 nav: blog
 slug: create-virtual-hosts-mac-os-x-using-virtualhostx
 tags:
-    - drupal-planet
-    - drupal-6
-    - mamp
-    - virtual-hosts
-    - virtualhostx
+  - drupal-planet
+  - drupal-6
+  - mamp
+  - virtual-hosts
+  - virtualhostx
 ---
 This isn't a Drupal related topic per se, but it is a walk-through of one of the applications that I use whilst doing Drupal development work. I assume, like most Mac OS X users, I use [MAMP](http://www.mamp.info/en/index.html) to run Apache, MySQL and PHP locally whilst developing. I also use virtual hosts in Apache to create local .dev domains which are as close as possible to the actual live domains. For example, if I was developing a site called mysite.com, my local development version would be mysite.dev.
 

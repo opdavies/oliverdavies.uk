@@ -3,11 +3,11 @@ title: Creating Local and Staging sites with Drupal's Domain Module Enabled
 nav: blog
 slug: creating-local-and-staging-sites-drupals-domain-module-enabled
 tags:
-    - drupal
-    - drupal-planet
-    - databases
-    - domain
-    - table-prefixing
+  - drupal
+  - drupal-planet
+  - databases
+  - domain
+  - table-prefixing
 ---
 The [Domain Access project](https://drupal.org/project/domain "The Domain Access project on Drupal.org") is a suite of modules that provide tools for running a group of affiliated sites from one Drupal installation and a single shared database. The issue is that the domains are stored within the database so these are copied across when the data is migrated between environments, whereas the domains are obviously going to change.
 
@@ -23,16 +23,16 @@ Within each site's settings.php file, define the prefix for the domain table wit
 
 ~~~~php
 $databases['default']['default'] = array(
-    'driver' => 'mysql',
-    'database' => 'foobar',
-    'username' => 'foo',
-    'password' => 'bar',
-    'host' => 'localhost',
-    'prefix' => array(
-        'default' => '',
-        'domain' => 'local_', // This will use the local_domain table.
-        // Add any other prefixed tables here.
-    ),
+  'driver' => 'mysql',
+  'database' => 'foobar',
+  'username' => 'foo',
+  'password' => 'bar',
+  'host' => 'localhost',
+  'prefix' => array(
+    'default' => '',
+    'domain' => 'local_', // This will use the local_domain table.
+    // Add any other prefixed tables here.
+  ),
 );
 ~~~~
 

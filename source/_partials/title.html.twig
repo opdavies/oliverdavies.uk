@@ -1,14 +1,14 @@
 {% set separator = '|' %}
 {% spaceless %}<title>
-    {% if page.full_title %}
-        {{ page.full_title }}
-    {% elseif page.title and site.title %}
-        {{ page.title }} {{ separator }} {{ site.title }}
-    {% elseif site.title %}
-        {% if site.subtitle %}
-            {{ site.subtitle }} {{ separator }} {{ site.title }}
-        {% else %}
-            {{ site.title }}
-        {% endif %}
+  {% if page.full_title %}
+    {{ page.full_title }}
+  {% elseif page.title and site.title %}
+    {{ page.title }} {{ separator }} {{ site.title }}
+  {% elseif site.title %}
+    {% if site.subtitle %}
+      {{ site.subtitle }} {{ separator }} {{ site.title }}
+    {% else %}
+      {{ site.title }}
     {% endif %}
+  {% endif %}
 </title>{% endspaceless %}

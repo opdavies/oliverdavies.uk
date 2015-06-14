@@ -3,21 +3,21 @@ layout: default
 title: Tag Archive
 nav: blog
 generator:
-    - posts_tag_index
+  - posts_tag_index
 ---
 
 {% block head_meta %}
-        <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/blog/tags/{{ page.tag|url_encode(true) }}.xml" title="{{ site.title }} '{{ page.tag }}' tag feed" />
-        <meta name="robots" content="noindex, follow">
+    <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/blog/tags/{{ page.tag|url_encode(true) }}.xml" title="{{ site.title }} '{{ page.tag }}' tag feed" />
+    <meta name="robots" content="noindex, follow">
 {% endblock %}
 
 {% block title %}{{ page.title }} "{{ page.tag }}"{% endblock %}
 
 {% block content %}
-    <h2>"{{ page.tag }}"</h2>
+  <h2>"{{ page.tag }}"</h2>
 <ul>
-    {% for post in page.tag_posts %}
-            <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
+  {% for post in page.tag_posts %}
+      <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
 {% endblock content %}

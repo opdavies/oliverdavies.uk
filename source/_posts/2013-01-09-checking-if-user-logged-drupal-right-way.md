@@ -4,18 +4,18 @@ nav: blog
 description: How to check if a user is logged into Drupal by using the user_is_logged_in() and user_is_anonymous() functions.
 slug: checking-if-user-logged-drupal-right-way
 tags:
-    - drupal
-    - drupal-6
-    - drupal-7
-    - drupal-planet
-    - php
+  - drupal
+  - drupal-6
+  - drupal-7
+  - drupal-planet
+  - php
 ---
 I see this regularly when working on Drupal sites when someone wants to check whether the current user is logged in to Drupal (authenticated) or not (anonymous):
 
 ~~~~
 global $user;
 if ($user->uid) {
-    // The user is logged in.
+  // The user is logged in.
 }
 ~~~~
 
@@ -24,7 +24,7 @@ or
 ~~~~
 global $user;
 if (!$user->uid) {
-    // The user is not logged in.
+  // The user is not logged in.
 }
 ~~~~
 
@@ -32,7 +32,7 @@ The better way to do this is to use the [user_is_logged_in()](http://api.drupal.
 
 ~~~~
 if (user_is_logged_in()) {
-    // Do something.
+  // Do something.
 }
 ~~~~
 
@@ -45,13 +45,13 @@ A great use case for this is within a `hook_menu()` implementation within a cust
  * Implements hook_menu().
  */
 function mymodule_menu() {
-    $items['foo'] = array(
-        'title' => 'Foo',
-        'page callback' => 'mymodule_foo',
-        'access callback' => 'user_is_logged_in',
-    );
+  $items['foo'] = array(
+    'title' => 'Foo',
+    'page callback' => 'mymodule_foo',
+    'access callback' => 'user_is_logged_in',
+  );
 
-    return $items;
+  return $items;
 }
 ~~~~
 

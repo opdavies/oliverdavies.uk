@@ -2,11 +2,11 @@
 title: Adding Custom Theme Templates in Drupal 7
 nav: blog
 description: >
-    Today, I had a situation where I was displaying a list of teasers for news article nodes. The article content type had several different fields assigned to it, including main and thumbnail images. In this case, I wanted to have different output and fields displayed when a teaser was displayed compared to when a complete node was displayed.
+  Today, I had a situation where I was displaying a list of teasers for news article nodes. The article content type had several different fields assigned to it, including main and thumbnail images. In this case, I wanted to have different output and fields displayed when a teaser was displayed compared to when a complete node was displayed.
 slug: adding-custom-theme-templates-drupal-7
 tags:
-    - drupal-planet
-    - drupal
+  - drupal-planet
+  - drupal
 ---
 Today, I had a situation where I was displaying a list of teasers for news article nodes. The article content type had several different fields assigned to it, including main and thumbnail images. In this case, I wanted to have different output and fields displayed when a teaser was displayed compared to when a complete node was displayed.
 
@@ -14,10 +14,10 @@ I have previously seen it done this way by adding this into in a node.tpl.php fi
 
 ~~~~
 if ($teaser) {
-    // The teaser output.
+  // The teaser output.
 }
 else {
-    // The whole node output.
+  // The whole node output.
 }
 ~~~~
 
@@ -27,10 +27,10 @@ The function requires the node variables as an argument - one of which is theme_
 
 ~~~~php
 array (
-    0 => 'node__article',
-    1 => 'node__343',
-    2 => 'node__view__latest_news',
-    3 => 'node__view__latest_news__page',
+  0 => 'node__article',
+  1 => 'node__343',
+  2 => 'node__view__latest_news',
+  3 => 'node__view__latest_news__page',
 )
 ~~~~
 
@@ -41,12 +41,12 @@ So, within my theme's template.php file:
  * Implementation of hook_preprocess_HOOK().
  */
 function mytheme_preprocess_node(&$variables) {
-    $node = $variables['node'];
-    
-    if ($variables['teaser']) {
-        // Add a new item into the theme_hook_suggestions array.
-        $variables['theme_hook_suggestions'][] = 'node__' . $node->type . '_teaser';
-    }
+  $node = $variables['node'];
+  
+  if ($variables['teaser']) {
+    // Add a new item into the theme_hook_suggestions array.
+    $variables['theme_hook_suggestions'][] = 'node__' . $node->type . '_teaser';
+  }
 }
 ~~~~
 
@@ -54,11 +54,11 @@ After adding the new suggestion:
 
 ~~~~php
 array (
-    0 => 'node__article',
-    1 => 'node__343',
-    2 => 'node__view__latest_news',
-    3 => 'node__view__latest_news__page',
-    4 => 'node__article_teaser',
+  0 => 'node__article',
+  1 => 'node__343',
+  2 => 'node__view__latest_news',
+  3 => 'node__view__latest_news__page',
+  4 => 'node__article_teaser',
 )
 ~~~~
 
