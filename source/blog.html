@@ -16,5 +16,6 @@ use:
     {% if post.blocks.excerpt %}
         {{ post.blocks.excerpt | raw }}
     {% endif %}
+    <a href="{{ post.url }}">Read more &rarr;</a>
   </article>
 {% endfor %}
