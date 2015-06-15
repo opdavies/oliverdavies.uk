@@ -22,3 +22,23 @@ bio: >
   
 apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
 favicon_sizes: [ 160, 96, 32, 16 ]
+
+main_menu:
+  - title: About
+    href: /
+    class: nav__about
+  - title: Work
+    href: /work/
+    class: nav__work
+  - title: Services
+    href: /services/
+    class: nav__services
+  - title: Talks
+    href: /talks/
+    class: nav__talks
+  - title: Blog
+    href: /blog/
+    class: nav__blog
+  - title: Contact
+    href: /contact/
+    class: nav__contact
