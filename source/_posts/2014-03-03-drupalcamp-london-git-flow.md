@@ -10,6 +10,11 @@ tags:
   - talks
 tweets: true
 ---
+{% block excerpt %}
+Here are my slides from my "What is Git Flow?" session at [DrupalCamp London](http://2014.drupalcamplondon.co.uk).
+{% endblock %}
+
+{% block content %}
 Here are my slides from my "What is Git Flow?" session at [DrupalCamp London](http://2014.drupalcamplondon.co.uk).
 
 <script async class="speakerdeck-embed" data-id="201559e0f103013198dd5a5f6f23ab67" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
@@ -36,3 +41,4 @@ I've had some great feedback via Twitter:
 <blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p>Great presentation by <a href="https://twitter.com/opdavies">@opdavies</a> on git flow at <a href="https://twitter.com/search?q=%23dclondon&amp;src=hash">#dclondon</a> very well prepared and presented. <a href="http://t.co/tDINp2Nsbn">pic.twitter.com/tDINp2Nsbn</a></p>&mdash; Greg Franklin (@gfranklin) <a href="https://twitter.com/gfranklin/statuses/440104311276969984">March 2, 2014</a></blockquote>
 
 <blockquote class="twitter-tweet" lang="en"><p>Great talk on git flow <a href="https://twitter.com/opdavies">@opdavies</a> <a href="https://twitter.com/search?q=%23dclondon&amp;src=hash">#dclondon</a></p>&mdash; Curve Agency (@CurveAgency) <a href="https://twitter.com/CurveAgency/statuses/440095250775035904">March 2, 2014</a></blockquote>
+{% endblock %}

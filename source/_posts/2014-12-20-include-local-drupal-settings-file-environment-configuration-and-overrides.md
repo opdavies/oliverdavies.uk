@@ -10,6 +10,11 @@ tags:
   - drupal-planet
   - settings.php
 ---
+{% block excerpt %}
+How to create and include a local settings file to define and override environment-specific variables, and keep sensitive things like your database credentials and API keys safe.
+{% endblock %}
+
+{% block content %}
 At the bottom of settings.php, add the following code:
 
 ~~~php
@@ -39,3 +44,4 @@ sites/*/private
 ~~~
 
 This will allow for settings.php to be added to Git and committed, but not settings.local.php.
+{% endblock %}
