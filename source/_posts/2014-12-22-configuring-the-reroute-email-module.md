@@ -9,6 +9,11 @@ tags:
   - email
 draft: true
 ---
+{% block excerpt %}
+[Reroute Email](https://www.drupal.org/project/reroute_email) module uses `hook_mail_alter()` to prevent emails from being sent to users from non-production sites. It allows you to enter one or more email addresses that will receive the emails instead of delivering them to the original user.
+{% endblock %}
+
+{% block content %}
 [Reroute Email](https://www.drupal.org/project/reroute_email) module uses `hook_mail_alter()` to prevent emails from being sent to users from non-production sites. It allows you to enter one or more email addresses that will receive the emails instead of delivering them to the original user.
 
 > This is useful in case where you do not want email sent from a Drupal site to reach the users. For example, if you copy a live site to a test site for the purpose of development, and you do not want any email sent to real users of the original site. Or you want to check the emails sent for uniform formatting, footers, ...etc.
@@ -46,3 +51,4 @@ $conf['reroute_email_address'] = implode(';', array(
 ~~~
 
 In this example, person2@example.com and person3@example.com would receive their emails from the site as normal. Any emails to addresses not in the array would continue to be redirected to person1@example.com.
+{% endblock %}

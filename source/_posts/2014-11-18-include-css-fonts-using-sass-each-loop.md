@@ -9,6 +9,11 @@ tags:
   - fonts
   - sass
 ---
+{% block excerpt %}
+How to use an @each loop in SASS to quickly include multiple font files within your stylesheet.
+{% endblock %}
+
+{% block content %}
 Using a file structure similar to this, organise your font files into directories, using the the font name for both the directory name and for the file names.
 
 ~~~~
@@ -55,3 +60,4 @@ Within your SASS file, start an `@each` loop, listing the names of the fonts. In
 When the CSS has been compiled, you can then use in your CSS in the standard way.
 
     font-family: "FuturaBook";
+{% endblock %}

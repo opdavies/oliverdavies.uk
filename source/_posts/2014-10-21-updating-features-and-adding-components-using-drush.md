@@ -8,10 +8,16 @@ tags:
   - drush
   - features
 ---
+{% block excerpt %}
 If you use the [Features module](http://drupal.org/project/features) to manage your Drupal configuration, it can be time consuming to update features through the UI, especially if you are working on a remote server and need to keep downloading and uploading files.
 
 If you re-create a feature through the UI, you'll be prompted to download a new archive of the feature in its entirety onto your local computer. You could either commit this into a local repository and then pull it remotely, or use a tool such as SCP to upload the archive onto the server and commit it from there. You can simplify this process by using [Drush](http://drush.org).
+{% endblock %}
 
+{% block content %}
+If you use the [Features module](http://drupal.org/project/features) to manage your Drupal configuration, it can be time consuming to update features through the UI, especially if you are working on a remote server and need to keep downloading and uploading files.
+
+If you re-create a feature through the UI, you'll be prompted to download a new archive of the feature in its entirety onto your local computer. You could either commit this into a local repository and then pull it remotely, or use a tool such as SCP to upload the archive onto the server and commit it from there. You can simplify this process by using [Drush](http://drush.org).
 ## Finding Components
 
 To search for a component, use the `drush features-components` command. This will display a list of all components on the site. As we're only interested in components that haven't been exported yet, add the `--not-exported` option to filter the results.
@@ -47,3 +53,4 @@ Once finished, the feature is updated in it's original location, so there's no d
 * [The Features project page on Drupal.org](http://www.drupal.org/project/features)
 * [The "drush features-components" command](http://www.drushcommands.com/drush-6x/features/features-components)
 * [The "drush features-export" command](http://www.drushcommands.com/drush-6x/features/features-export)
+{% endblock %}

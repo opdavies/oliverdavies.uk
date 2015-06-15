@@ -8,6 +8,13 @@ tags:
   - pantheon
   - settings.php
 ---
+{% block excerpt %}
+I was recently doing some work on a site hosted on [Pantheon](http://getpantheon.com) and came across an issue, for which part of the suggested fix was to ensure that the `$base_url` variable was explicitly defined within settings.php (this is also best practice on all Drupal sites).
+
+The way that was recommended was by using a `switch()` function based on Pantheon's environment variable. For example:
+{% endblock %}
+
+{% block content %}
 I was recently doing some work on a site hosted on [Pantheon](http://getpantheon.com) and came across an issue, for which part of the suggested fix was to ensure that the `$base_url` variable was explicitly defined within settings.php (this is also best practice on all Drupal sites).
 
 The way that was recommended was by using a `switch()` function based on Pantheon's environment variable. For example:
@@ -79,3 +86,4 @@ $base_url = '';
 ~~~
 
 The environment specific files are also committed into Git and pushed to Pantheon, and are then included automatically on each environment.
+{% endblock %}
