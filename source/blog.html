@@ -10,8 +10,11 @@ use:
 ---
 <h1>Blog</h1>
 
-<ul>
-  {% for post in page.pagination.items %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+{% for post in page.pagination.items %}
+  <article class="post"></article>
+    <h2>{{ post.title }}</h2>
+    {% if post.blocks.excerpt %}
+        {{ post.blocks.excerpt | raw }}
+    {% endif %}
+  </article>
+{% endfor %}
