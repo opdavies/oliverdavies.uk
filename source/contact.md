@@ -21,13 +21,3 @@ Here are the best places to contact me online:
 * <a href="{{ site.linkedin.url }}">LinkedIn</a>
 
 I also have profiles on <a href="{{ site.lanyrd.url }}">Lanyrd</a> and <a href="{{ site.joindin.url }}">Joind.in</a>.
-
-## Meetups
-
-Here are the user group meetups that I organise or attend regularly. If you're in the area, feel free to pop along and say hi!
-
-* [SWDUG](http://www.swdug.org.uk) (South Wales Drupal user group)
-* [Drupal Bristol](https://groups.drupal.org/bristol-and-west-uk)
-* [PHPSW](http://www.phpsw.uk)
-* [SWLUG](http://www.swlug.org) (South Wales Linux user group)
-* [Accessible Bristol](http://www.accessiblebristol.org.uk)
