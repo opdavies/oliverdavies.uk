@@ -43,6 +43,19 @@
 
     <footer class="container" role="contentinfo">
       <p class="copyright">&copy; 2010-{{ 'now' | date('Y') }} {{ site.title }}.</p>
+
+      <div class="meetups">
+        <h2>Meetups</h2>
+        <ul>
+          {% for meetup in site.meetups %}
+            <li class="meetup__{{ meetup.name | lower | replace({ ' ': '-' }) }}">
+              <a href="{{ meetup.url }}" title="{{ meetup.name }}">
+                <img src="{{ meetup.logo }}" alt="{{ meetup.name }}">
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </footer>
 
     {% include 'footer-scripts' %}
