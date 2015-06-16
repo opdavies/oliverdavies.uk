@@ -42,3 +42,15 @@ main_menu:
   - title: Contact
     href: /contact/
     class: nav__contact
+
+meetups:
+  - name: SWDUG
+    url: https://swdug.org.uk
+  - name: Drupal Bristol
+    url: https://groups.drupal.org
+  - name: PHPSW
+    url: http://phpsw.uk
+  - name: SWLUG
+    url: http://swlug.org.uk
+  - name: Accessible Bristol
+    url: http://www.accessiblebristol.org.uk
