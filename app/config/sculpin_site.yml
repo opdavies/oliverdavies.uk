@@ -53,22 +53,27 @@ meetups:
     name: SWDUG
     logo: swdug.png
     url: http://swdug.org.uk
+
   drupalbristol:
     name: Drupal Bristol
     logo: drupal-bristol.jpeg
     url: https://groups.drupal.org/bristol-west-uk
+
   phpsw:
     name: PHPSW
     logo: phpsw.jpeg
     url: http://phpsw.uk
+
   swlug:
     name: SWLUG
     logo: swlug.png
     url: http://swlug.org.uk
+
   accbristol:
     name: Accessible Bristol
     logo: accessible-bristol.png
     url: http://www.accessiblebristol.org.uk
+
   udiff:
     name: unified.diff
     logo: unified-diff.png
