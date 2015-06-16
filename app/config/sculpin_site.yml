@@ -54,21 +54,27 @@ main_menu:
     class: nav__contact
 
 meetups:
-  - name: SWDUG
+  swdug:
+    name: SWDUG
     logo: swdug.png
     url: http://swdug.org.uk
-  - name: Drupal Bristol
+  drupalbristol:
+    name: Drupal Bristol
     logo: drupal-bristol.jpeg
     url: https://groups.drupal.org/bristol-west-uk
-  - name: PHPSW
+  phpsw:
+    name: PHPSW
     logo: phpsw.jpeg
     url: http://phpsw.uk
-  - name: SWLUG
+  swlug:
+    name: SWLUG
     logo: swlug.png
     url: http://swlug.org.uk
-  - name: Accessible Bristol
+  accbristol:
+    name: Accessible Bristol
     logo: accessible-bristol.png
     url: http://www.accessiblebristol.org.uk
-  - name: unified.diff
+  udiff:
+    name: unified.diff
     logo: unified-diff.png
     url: http://unifieddiff.co.uk
