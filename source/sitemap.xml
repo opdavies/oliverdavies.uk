@@ -5,7 +5,7 @@ permalink: sitemap.xml
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>{{ site.url }}</loc>
-    <lastmod>{{ site.calculated_date | date('Y-m-d') }}</lastmod>
+    <lastmod>{{ site.calculated_date|date('Y-m-d') }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -14,7 +14,7 @@ permalink: sitemap.xml
     {% for page in pages %}
       <url>
         <loc>{{ site.url }}/{{ page }}</loc>
-        <lastmod>{{ site.calculated_date | date('Y-m-d') }}</lastmod>
+        <lastmod>{{ site.calculated_date|date('Y-m-d') }}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
       </url>
@@ -22,7 +22,7 @@ permalink: sitemap.xml
 
   <url>
     <loc>{{ site.url }}/blog</loc>
-    <lastmod>{{ site.calculated_date | date('Y-m-d') }}</lastmod>
+    <lastmod>{{ site.calculated_date|date('Y-m-d') }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

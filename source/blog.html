@@ -14,7 +14,7 @@ use:
   <article class="post">
     <h2>{{ post.title }}</h2>
     {% if post.blocks.excerpt %}
-      {{ post.blocks.excerpt | raw }}
+      {{ post.blocks.excerpt|raw }}
     {% endif %}
     <a href="{{ post.url }}">Read more &rarr;</a>
   </article>
