@@ -46,7 +46,7 @@ main_menu:
 meetups:
   - name: SWDUG
     logo: swdug.png
-    url: https://swdug.org.uk
+    url: http://swdug.org.uk
   - name: Drupal Bristol
     logo: drupal-bristol.jpeg
     url: https://groups.drupal.org
