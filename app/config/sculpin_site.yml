@@ -45,12 +45,17 @@ main_menu:
 
 meetups:
   - name: SWDUG
+    logo: swdug.png
     url: https://swdug.org.uk
   - name: Drupal Bristol
+    logo: drupal-bristol.jpeg
     url: https://groups.drupal.org
   - name: PHPSW
+    logo: phpsw.jpeg
     url: http://phpsw.uk
   - name: SWLUG
+    logo: swlug.png
     url: http://swlug.org.uk
   - name: Accessible Bristol
+    logo: accessible-bristol.png
     url: http://www.accessiblebristol.org.uk
