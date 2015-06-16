@@ -1,0 +1,7 @@
+.meetups {
+  @include clearfix;
+
+  ul {
+    @include inline-block-list;
+  }
+}
