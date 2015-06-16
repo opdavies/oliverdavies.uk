@@ -4,4 +4,18 @@
   ul {
     @include inline-block-list;
   }
+
+  li {
+    outline: 1px dotted red;
+    margin: 0 5px 5px 0;
+  }
+
+  a {
+    display: block;
+  }
+
+  img {
+    max-height: 50px;
+    width: auto;
+  }
 }
