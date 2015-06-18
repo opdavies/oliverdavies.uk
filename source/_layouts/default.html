@@ -4,7 +4,7 @@
 <!--[if gt IE 9]> <html> <![endif]-->
 <!--[if !IE]><!--> <html> <!--<![endif]-->
   {% include 'head' %}
-  <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+  <body class="{% block body_classes %}{% endblock %}">
     {% include 'navbar' %}
 
     <div class="container">
