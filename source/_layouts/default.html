@@ -19,11 +19,11 @@
     <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
 
     {% for size in site.apple_touch_icon_sizes %}
-      <link rel="apple-touch-icon" href="{{ site.gravatar_url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
+      <link rel="apple-touch-icon" href="{{ site.gravatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
     {% endfor %}
 
     {% for size in site.favicon_sizes %}
-      <link rel="icon" href="{{ site.gravatar_url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
+      <link rel="icon" href="{{ site.gravatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
     {% endfor %}
   </head>
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
