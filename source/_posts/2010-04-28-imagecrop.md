@@ -1,6 +1,5 @@
 ---
 title: Using ImageCache and ImageCrop for my Portfolio
-nav: blog
 slug: using-imagecache-and-imagecrop-my-portfolio
 tags:
   - drupal

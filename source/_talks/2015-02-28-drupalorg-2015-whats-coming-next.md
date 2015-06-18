@@ -11,5 +11,4 @@ tags:
 meta:
   description: 'Everything that you wanted to know about Drupal 8 in ten minutes, but were afraid to ask!'
 slug: drupalorg-2015
-nav: talks
 ---

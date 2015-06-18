@@ -1,6 +1,5 @@
 ---
 title: Writing a .info file for a Drupal 7 theme
-nav: blog
 slug: writing-info-file-drupal-7-theme
 tags:
   - theming

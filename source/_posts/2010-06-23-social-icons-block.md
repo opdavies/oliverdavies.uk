@@ -1,6 +1,5 @@
 ---
 title: Create a Block of Social Media Icons using CCK, Views and Nodequeue
-nav: blog
 slug: create-block-social-media-icons-using-cck-views-and-nodequeue
 tags:
   - drupal-planet

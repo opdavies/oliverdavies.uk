@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Accessibility
-nav: accessibility
 ---
 # Accessibility
 

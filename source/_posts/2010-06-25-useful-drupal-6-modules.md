@@ -1,6 +1,5 @@
 ---
 title: 10 Useful Drupal 6 Modules
-nav: blog
 tags:
   - drupal-planet
   - drupal-6

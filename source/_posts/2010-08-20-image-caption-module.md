@@ -1,6 +1,5 @@
 ---
 title: Review of the Image Caption Module
-nav: blog
 slug: review-image-caption-module
 tags:
   - drupal-planet

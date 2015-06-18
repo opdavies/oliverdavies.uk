@@ -1,6 +1,5 @@
 ---
 title: Open Sublime Text 2 from the Mac OS X Command Line
-nav: blog
 slug: open-sublime-text-2-mac-os-x-command-line
 tags:
   - sublime-text

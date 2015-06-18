@@ -1,6 +1,5 @@
 ---
 title: Create a Slideshow of Multiple Images Using Fancy Slide
-nav: blog
 slug: create-slideshow-multiple-images-using-fancy-slide
 tags:
   - drupal-planet

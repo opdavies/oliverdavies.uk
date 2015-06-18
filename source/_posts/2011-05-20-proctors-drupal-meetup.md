@@ -1,6 +1,5 @@
 ---
 title: Proctors Hosting the next Drupal Meetup
-nav: blog
 slug: proctors-hosting-next-drupal-meetup
 tags:
   - meetups

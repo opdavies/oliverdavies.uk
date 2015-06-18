@@ -1,6 +1,5 @@
 ---
 title: Checking if a user is logged into Drupal (the right way)
-nav: blog
 description: How to check if a user is logged into Drupal by using the user_is_logged_in() and user_is_anonymous() functions.
 slug: checking-if-user-logged-drupal-right-way
 tags:

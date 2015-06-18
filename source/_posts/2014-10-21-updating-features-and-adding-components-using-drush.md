@@ -1,6 +1,5 @@
 ---
 title: Updating Features and Adding Components Using Drush
-nav: blog
 slug: updating-features-and-adding-components-using-drush
 tags:
   - drupal

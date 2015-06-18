@@ -1,6 +1,5 @@
 ---
 title: Quickly Create Zen Subthemes Using Zenophile
-nav: blog
 tags:
   - drupal-planet
   - drupal-6

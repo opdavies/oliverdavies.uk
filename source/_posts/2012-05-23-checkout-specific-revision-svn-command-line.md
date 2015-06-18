@@ -1,6 +1,5 @@
 ---
 title: Checkout a specific revision from SVN from the command line
-nav: blog
 slug: checkout-specific-revision-svn-command-line
 tags:
   - svn

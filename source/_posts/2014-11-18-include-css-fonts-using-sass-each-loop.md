@@ -1,6 +1,5 @@
 ---
 title: Include CSS Fonts by Using a SASS each Loop
-nav: blog
 description: How to use an SASS each loop to easily add multiple fonts to your CSS.
 slug: include-css-fonts-using-sass-each-loop
 tags:

@@ -1,6 +1,5 @@
 ---
 title: Use Regular Expressions to Search and Replace in Coda or TextMate
-nav: blog
 slug: use-regular-expressions-search-and-replace-coda-or-textmate
 tags:
   - taxonomy

@@ -1,6 +1,5 @@
 ---
 title: How to use Authorized Keys to Create a Passwordless SSH Connection
-nav: blog
 slug: use-authorized-keys-create-passwordless-ssh-connection
 tags:
   - linux

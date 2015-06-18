@@ -1,6 +1,5 @@
 ---
 title: How to fix Vagrant Loading the Wrong Virtual Machine
-nav: blog
 slug: fix-vagrant-loading-wrong-virtual-machine
 tags:
   - vagrant

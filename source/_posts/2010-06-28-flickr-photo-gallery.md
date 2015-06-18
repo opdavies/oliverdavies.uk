@@ -1,6 +1,5 @@
 ---
 title: Create a Flickr Photo Gallery Using Feeds, CCK and Views 
-nav: blog
 slug: create-flickr-photo-gallery-using-feeds-cck-and-views
 tags:
   - drupal-planet
