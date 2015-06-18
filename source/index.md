@@ -17,10 +17,12 @@ meta:
 
 <img src="{{ site.gravatar.url }}?s=85" alt="Picture of Oliver" class="img-circle">
 
-Oliver Davies is a <a href="{{ site.drupalorg.nice }}">Drupal Developer</a> and Linux System Administrator based in the UK. He works for the [Drupal Association](https://assoc.drupal.org) and also provides part-time consultancy services.
+Hi, I'm Oliver Davies, a <a href="{{ site.drupalorg.nice }}">Drupal Developer</a> and System Administrator based in the Newport, South Wales. I work for the [Drupal Association](https://assoc.drupal.org), while also working freelance on Drupal websites and Linux servers.
 
-An active community member, Oliver co-organises <a href="{{ site.meetups.swdug.url }}">SWDUG</a> and the <a href="{{ site.meetups.drupalbristol.url }}">Bristol Drupal user group</a>, and is a founding member of the [DrupalCamp Bristol](http://2015.drupalcampbristol.co.uk) organising committee. He also attends other Drupal events and conferences as well as local PHP, Linux and web accessibility user groups.
+An active community member, I organise <a href="{{ site.meetups.swdug.url }}">SWDUG</a> and co-organise <a href="{{ site.meetups.drupalbristol.url }}">Bristol Drupal</a>, and am a founding member of the [DrupalCamp Bristol](http://2015.drupalcampbristol.co.uk) organising committee. I also attend other events and conferences related to Drupal, PHP, Linux and web accessibility.
 
-A contributor to <a href="http://cgit.drupalcode.org/drupal/log/?h=7.x&qt=grep&q={{ site.drupalorg.name }}">Drupal 7</a> and <a href="http://cgit.drupalcode.org/drupal/log/?h=8.0.x&qt=grep&q={{ site.drupalorg.name }}">Drupal 8</a> core, Oliver also <a href="{{ site.drupalorg.url }}/people-mentored">mentors new contributors</a> online and in person at local sprints, DrupalCamps and DrupalCons. He maintains several projects on Drupal.org, and has contributed to numerous others. He is also the Git Documentation Maintainer for the Drupal project, and a provisional member of the [Drupal Security team](https://www.drupal.org/security-team).
+I'm contributor to <a href="http://cgit.drupalcode.org/drupal/log/?h=7.x&qt=grep&q={{ site.drupalorg.name }}">Drupal 7</a> and <a href="http://cgit.drupalcode.org/drupal/log/?h=8.0.x&qt=grep&q={{ site.drupalorg.name }}">Drupal 8</a> core, and I <a href="{{ site.drupalorg.url }}/people-mentored">mentor new contributors</a> online and in person at local sprints, DrupalCamps and DrupalCons. I maintain several projects on Drupal.org, and have contributed to numerous others.
 
-You can follow him on <a href="{{ site.twitter.url }}">Twitter</a> and <a href="{{ site.linkedin.url }}">LinkedIn</a>, and you can view his code on <a href="{{ site.drupalorg.url }}/track/code">Drupal.org</a> and <a href="{{ site.github.url }}?tab=activity">GitHub</a>.
+I'm also the Git Documentation Maintainer for the Drupal project, and a provisional member of the [Drupal Security team](https://www.drupal.org/security-team).
+
+You can follow me on <a href="{{ site.twitter.url }}">Twitter</a> and <a href="{{ site.linkedin.url }}">LinkedIn</a>, and you can view my code on <a href="{{ site.drupalorg.url }}/track/code">Drupal.org</a> and <a href="{{ site.github.url }}?tab=activity">GitHub</a>.
