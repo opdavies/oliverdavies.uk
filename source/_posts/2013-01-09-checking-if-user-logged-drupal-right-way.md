@@ -10,6 +10,11 @@ tags:
   - drupal-planet
   - php
 ---
+{% block excerpt %}
+I see this regularly when working on Drupal sites when someone wants to check whether the current user is logged in to Drupal (authenticated) or not (anonymous).
+{% endblock %}
+
+{% block content %}
 I see this regularly when working on Drupal sites when someone wants to check whether the current user is logged in to Drupal (authenticated) or not (anonymous):
 
 ~~~~
@@ -56,3 +61,4 @@ function mymodule_menu() {
 ~~~~
 
 There is also a [user_is_anonymous()](http://api.drupal.org/api/drupal/modules!user!user.module/function/user_is_anonymous/7) function if you want the opposite result. Both of these functions are available in Drupal 6 and higher.
+{% endblock %}

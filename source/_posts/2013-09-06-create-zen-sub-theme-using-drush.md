@@ -9,6 +9,11 @@ tags:
   - zen
   - theming
 ---
+{% block excerpt %}
+How to use [Drush](https://drupal.org/project/drush) to quickly build a new sub-theme of [Zen](https://drupal.org/project/zen).
+{% endblock %}
+
+{% block content %}
 First, download the [Zen](https://drupal.org/project/zen "The Zen theme") theme if you haven't already done so.
 
     $ drush dl zen
@@ -27,3 +32,4 @@ The parameters that I'm passing it are:
 This will create a new theme in sites/all/themes/oliverdavies.
 
 For further help, type `$ drush help zen` to see the Drush help page for the zen command.
+{% endblock %}

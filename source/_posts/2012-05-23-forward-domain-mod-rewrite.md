@@ -9,6 +9,11 @@ tags:
   - apache
   - mod_rewrite
 ---
+{% block excerpt %}
+How to use the .htaccess file to forward to a different domain.
+{% endblock %}
+
+{% block content %}
 Within the mod_rewrite section of your .htaccess file, add the following lines:
 
     RewriteCond %{HTTP_HOST} ^yoursite\.co\.uk$
@@ -23,3 +28,4 @@ This automatically forwards any users from http://yoursite.co.uk to http://yours
     RewriteRule (.*) http://yoursite.com/$1 [R=301,L]
 
 If any of the RewriteCond conditions apply, then the RewriteRule is executed.
+{% endblock %}

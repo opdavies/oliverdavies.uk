@@ -10,6 +10,11 @@ tags:
   - php
   - aria
 ---
+{% block excerpt %}
+For reference, this is the code needed to display a menu in a Drupal 7 template file, including the navigation ARIA role.
+{% endblock %}
+
+{% block content %}
 For reference, this is the code needed to display a menu in a Drupal 7 template file, including the navigation ARIA role.
 
 ~~~php
@@ -24,3 +29,4 @@ print theme('links', array(
   )
 ));
 ~~~
+{% endblock %}

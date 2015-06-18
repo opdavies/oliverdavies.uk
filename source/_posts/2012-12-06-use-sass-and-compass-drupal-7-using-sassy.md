@@ -12,6 +12,11 @@ tags:
   - preprocessing
   - sass
 ---
+{% block excerpt %}
+I've recently started using [SASS](http://sass-lang.com) rather than LESS to do my CSS preprocessing - namely due to its integration with [Compass](http://compass-style.org) and it's built-in CSS3 mixins. Here are three modules that provide the ability to use SASS within Drupal.
+{% endblock %}
+
+{% block content %}
 I've recently started using [SASS](http://sass-lang.com) rather than LESS to do my CSS preprocessing - namely due to its integration with [Compass](http://compass-style.org) and it's built-in CSS3 mixins. There are three modules that provide the ability to use SASS within Drupal:
 
 * [Sassy](http://drupal.org/project/sassy "Sassy module on drupal.org")
@@ -56,3 +61,4 @@ Personally, in development, I'd set caching to 'uncached' and the error reportin
 ## Adding SASS files into your theme
 
 With this done, you can now add SASS and SCSS files by adding a line like `stylesheets[all][] = css/base.scss` in your theme's .info file.
+{% endblock %}

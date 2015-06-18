@@ -8,6 +8,11 @@ tags:
   - drupal
   - code
 ---
+{% block excerpt %}
+An example .info file for a Drupal 7 theme.
+{% endblock %}
+
+{% block content %}
 ~~~
 name = My Theme
 description = A description of my theme
@@ -37,3 +42,4 @@ stylesheets[print][] = css/print.css
 # Add javascript files
 styles[] = js/mytheme.js
 ~~~
+{% endblock %}

@@ -8,6 +8,11 @@ tags:
   - drupal-planet
   - nomensa
 ---
+{% block excerpt %}
+This week I released the first version of the Nomensa Accessible Media Player module for Drupal 7. Here's some instructions of how to install and configure it.
+{% endblock %}
+
+{% block content %}
 *The official documentation for this module is now located at <https://www.drupal.org/node/2383447>. This post was accurate at the time of writing, whereas the documentation page will be kept up to date with any future changes.*
 
 This week I released the first version of the Nomensa Accessible Media Player module for Drupal 7. Here's some instructions of how to install and configure it.
@@ -57,3 +62,4 @@ For example:
 ## Screencast
 
 <a class="player" href="http://vimeo.com/45731954">Nomensa Accessible Media Player for Drupal</a>
+{% endblock %}

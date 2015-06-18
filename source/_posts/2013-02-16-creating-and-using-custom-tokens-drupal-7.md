@@ -8,6 +8,11 @@ tags:
   - drupal-7
   - tokens
 ---
+{% block excerpt %}
+This post outlines the steps required to create your own custom tokens in Drupal.
+{% endblock %}
+
+{% block content %}
 This post outlines the steps required to create your own custom tokens in Drupal.
 
 When writing the recent releases of the [Copyright Block](http://drupal.org/project/copyright_block) module, I used tokens to allow the user to edit and customise their copyright message and place the copyright_message:dates token in the desired position. When the block is rendered, the token is replaced by the necessary dates.
@@ -136,3 +141,4 @@ $b = token_replace($a);
 // This would only use foo tokens.
 $c = token_replace($a, array('foo'));
 ~~~
+{% endblock %}

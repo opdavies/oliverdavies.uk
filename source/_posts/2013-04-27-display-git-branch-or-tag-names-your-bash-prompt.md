@@ -9,6 +9,11 @@ tags:
   - git
   - terminal
 ---
+{% block excerpt %}
+Whilst watching [Drupalize.me](http://drupalize.me "Drupalize.me")'s recent [Introduction to Git series](http://drupalize.me/series/introduction-git-series "Introduction to Git on Drupalize.me"), I thought it was useful the way that the current Git branch or tag name was displayed in the bash prompt. Here's how to do it.
+{% endblock %}
+
+{% block content %}
 Whilst watching [Drupalize.me](http://drupalize.me "Drupalize.me")'s recent [Introduction to Git series](http://drupalize.me/series/introduction-git-series "Introduction to Git on Drupalize.me"), I thought it was useful the way that the current Git branch or tag name was displayed in the bash prompt.
 
 For example (with some slight modifications):
@@ -56,3 +61,4 @@ PS1="\u@\h:\w\$(parse_git_branch_or_tag) $ "
 ~~~~
 
 Restart your Terminal or type `source ~/.bashrc` to see your changes.
+{% endblock %}
