@@ -1,13 +1,15 @@
 ---
 layout: default
 title: Blog
-body_class: page--blog
 generator: pagination
 pagination:
   max_per_page: 5
 use:
   - posts
 ---
+{% block body_classes %}page--blog page--blog__list{% endblock %}
+
+{% block content %}
 <h1>Blog</h1>
 
 {% for post in page.pagination.items %}
@@ -30,3 +32,4 @@ use:
     {% endif %}
   </nav>
 {% endif %}
+{% endblock %}

@@ -1,10 +1,12 @@
 ---
 layout: default
 title: Contact
-body_class: page--contact
 meta:
   description: 'Information about how to get in touch with Oliver.'
 ---
+{% block body_classes %}page--contact{% endblock %}
+
+{% block content %}
 # Contact
 
 The best ways to contact me is via <a href="mailto:{{ site.email }}?subject=Contact%20Oliver%20Davies">email</a> and <a href="{{ site.twitter.url }}">Twitter</a>.
@@ -21,3 +23,4 @@ Here are the best places to contact me online:
 * <a href="{{ site.linkedin.url }}">LinkedIn</a>
 
 I also have profiles on <a href="{{ site.lanyrd.url }}">Lanyrd</a> and <a href="{{ site.joindin.url }}">Joind.in</a>.
+{% endblock %}

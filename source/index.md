@@ -1,6 +1,5 @@
 ---
 layout: default
-body_class: page--about
 meta:
   description: 'The personal website and blog of Oliver Davies, a Drupal Developer and System Administrator from Wales, UK.'
   og:
@@ -13,6 +12,9 @@ meta:
       height: 327
       type: image/jpg
 ---
+{% block body_classes %}page--about{% endblock %}
+
+{% block content %}
 # About
 
 <img src="{{ site.gravatar.url }}?s=85" alt="Picture of Oliver" class="img-circle">
@@ -26,3 +28,4 @@ I'm contributor to <a href="http://cgit.drupalcode.org/drupal/log/?h=7.x&qt=grep
 I'm also the Git Documentation Maintainer for the Drupal project, and a provisional member of the [Drupal Security team](https://www.drupal.org/security-team).
 
 You can follow me on <a href="{{ site.twitter.url }}">Twitter</a> and <a href="{{ site.linkedin.url }}">LinkedIn</a>, and you can view my code on <a href="{{ site.drupalorg.url }}/track/code">Drupal.org</a> and <a href="{{ site.github.url }}?tab=activity">GitHub</a>.
+{% endblock %}

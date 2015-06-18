@@ -1,10 +1,12 @@
 ---
 layout: default
 title: Work
-body_class: page--work
 meta:
   description: "Information about Oliver's current work."
 ---
+{% block body_classes %}page--work{% endblock %}
+
+{% block content %}
 # Work
 
 ## Drupal Association
@@ -30,3 +32,4 @@ Some of the tasks that I've worked on so far:
 In my spare time, I provide remote freelance consultancy services for Drupal websites and Linux servers.
 
 Services include Drupal site architecture, builds, upgrades and maintenance, custom module development and theming, Linux server administration and configuration management using [Puppet](http://puppetlabs.com) and [Ansible](http://www.ansible.com), and [Jenkins](http://jenkins-ci.org) continuous integration setup and configuration.
+{% endblock %}

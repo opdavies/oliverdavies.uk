@@ -1,10 +1,12 @@
 ---
 layout: default
 title: Services
-body_class: page--services
 meta:
   description: 'Information about freelance services that Oliver offers.'
 ---
+{% block body_classes %}page--services{% endblock %}
+
+{% block content %}
 # Services
 
 ## Drupal
@@ -26,4 +28,4 @@ meta:
 * Continuous integration using [Jenkins](http://jenkins-ci.org).
 * Virtual machine setup using [Vagrant](http://vagrantup.com) for development or server testing.
 * Domain name and DNS management.
-
+{% endblock %}
