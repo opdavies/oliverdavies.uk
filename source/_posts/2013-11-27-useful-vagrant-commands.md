@@ -5,6 +5,11 @@ description: Here are the basic commands that you need to adminster a virtual ma
 tags:
   - vagrant
 ---
+{% block excerpt %}
+[Vagrant](http://www.vagrantup.com "About Vagrant") is a tool for managing virtual machines within [VirtualBox](https://www.virtualbox.org) from the command line. Here are some useful commands to know when using Vagrant.
+{% endblock %}
+
+{% block content %}
 [Vagrant](http://www.vagrantup.com "About Vagrant") is a tool for managing virtual machines within [VirtualBox](https://www.virtualbox.org) from the command line. Here are some useful commands to know when using Vagrant:
 
 Command | Description
@@ -19,3 +24,4 @@ vagrant halt (-f) | Halt the Vagrant box. Use -f to forcefully shut down the box
 vagrant destroy (-f) | Destroys a Vagrant box. Use -f to forcefully shut down the box without prompting for confirmation.
 
 The full Vagrant documentation can be found at <http://docs.vagrantup.com/v2/>.
+{% endblock %}

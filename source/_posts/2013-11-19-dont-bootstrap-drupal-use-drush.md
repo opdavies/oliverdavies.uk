@@ -6,6 +6,13 @@ tags:
   - drupal-planet
   - php
 ---
+{% block excerpt %}
+There are times when doing Drupal development when you need to run a custom PHP script, maybe moving data from one field to another, that doesn't warrant the time and effort to create a custom module. In this scenario, it would be quicker to write a .php script and bootstrap Drupal to gain access to functions like `node_load()` and `db_query()`.
+
+To bootstrap Drupal, you would need to add some additional lines of code to the stop of your script. Here is an alternative way.
+{% endblock %}
+
+{% block content %}
 There are times when doing Drupal development when you need to run a custom PHP script, maybe moving data from one field to another, that doesn't warrant the time and effort to create a custom module. In this scenario, it would be quicker to write a .php script and bootstrap Drupal to gain access to functions like `node_load()` and `db_query()`.
 
 To bootstrap Drupal, you would need to add some additional lines of code to the stop of your script. Something like:
@@ -45,3 +52,4 @@ Or, if you're using [Drush aliases](http://deeson-online.co.uk/labs/drupal-drush
     $ drush @mysite.local scr foo
 
 If you commonly use the same scripts for different projects, you could also store these within a separate Git repository and checkout the scripts directory using a [Git submodule](http://git-scm.com/book/en/Git-Tools-Submodules "Git Submodules"). 
+{% endblock %}

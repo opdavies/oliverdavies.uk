@@ -7,11 +7,15 @@ tags:
   - drupal
   - drupal-planet
   - drush
+
 ---
+{% block excerpt %}
 If you use [Drush](https://raw.github.com/drush-ops/drush/master/README.md "About Drush"), it's likely that you've used the `drush pm-download` (or `drush dl` for short) command to start a new project. This command downloads projects from Drupal.org, but if you don't specify a project or type "drush dl drupal", the command will download the current stable version of Drupal core. Currently, this will be Drupal 7 with that being the current stable version of core at the time of writing this post.
 
 But what if you don't want Drupal 7?
+{% endblock %}
 
+{% block content %}
 I still maintain a number of Drupal 6 sites and occassionally need to download Drupal 6 core as opposed to Drupal 7. I'm also experimenting with Drupal 8 so I need to download that as well.
 
 By declarding the core version of Drupal, such as "drupal-6", Drush will download that instead.
@@ -35,3 +39,4 @@ The same can be done for other core versions of Drupal, from Drupal 5 upwards.
     $ drush dl drupal-8
 
 For a full list of the available options, type "drush help pm-download" into a Terminal window or take a look at the entry on [drush.ws](http://drush.ws/#pm-download, "The entry for pm-download on drush.ws").
+{% endblock %}
