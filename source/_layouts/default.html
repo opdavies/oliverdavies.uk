@@ -3,29 +3,7 @@
 <!--[if IE 9]> <html class="ie ie9 lte9"> <![endif]-->
 <!--[if gt IE 9]> <html> <![endif]-->
 <!--[if !IE]><!--> <html> <!--<![endif]-->
-  <head>
-    <meta lang="en-GB" charset="utf-8">
-    {% include 'title' %}
-
-    {% if page.meta.description %}
-      <meta name="description" content="{{ page.meta.description|e('html') }}">
-    {% endif %}
-
-    {% if page.meta.og %}{% include "og" with {og: page.meta.og} %}{% endif %}
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="author" href="{{ site.url }}/humans.txt" />
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
-
-    {% for size in site.apple_touch_icon_sizes %}
-      <link rel="apple-touch-icon" href="{{ site.gravatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
-    {% endfor %}
-
-    {% for size in site.favicon_sizes %}
-      <link rel="icon" href="{{ site.gravatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
-    {% endfor %}
-  </head>
+  {% include 'head' %}
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
     {% include 'navbar' %}
 
@@ -41,23 +19,6 @@
       </div>{# .row #}
     </div>{# .container #}
 
-    <footer class="container" role="contentinfo">
-      <p class="copyright">&copy; 2010-{{ 'now'|date('Y') }} {{ site.title }}.</p>
-
-      <div class="meetups">
-        <h2>Meetups</h2>
-        <ul>
-          {% for meetup in site.meetups %}
-            <li class="meetup__{{ meetup.name|lower|replace({ ' ': '-' }) }}">
-              <a href="{{ meetup.url }}" title="{{ meetup.name }}">
-                <img src="/assets/images/meetups/{{ meetup.logo }}" alt="{{ meetup.name }}">
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </footer>
-
-    {% include 'footer-scripts' %}
+    {% include 'footer' %}
   </body>
 </html>
