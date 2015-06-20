@@ -47,6 +47,8 @@ main_menu:
     href: /blog/
   - title: Contact
     href: /contact/
+  - title: CV
+    href: /cv/
 
 meetups:
   swdug:
