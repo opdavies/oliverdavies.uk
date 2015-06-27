@@ -37,8 +37,6 @@ favicon_sizes: [ 160, 96, 32, 16 ]
 main_menu:
   - title: About
     href: /
-  - title: Work
-    href: /work/
   - title: Services
     href: /services/
   - title: Talks
