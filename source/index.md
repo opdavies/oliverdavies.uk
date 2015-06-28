@@ -19,7 +19,7 @@ meta:
 
 <img src="{{ site.gravatar.url }}?s=85" alt="Picture of Oliver" class="img-circle">
 
-Hi, I'm Oliver Davies, a <a href="{{ site.drupalorg.nice }}">Drupal Developer</a> and System Administrator based in Newport, South Wales. I’m a Senior Developer at [Microserve](https://microserve.io), while also working freelance on Drupal websites and Linux servers. I previously worked for the [Drupal Association](https://assoc.drupal.org), as well as other UK agencies such as [Precedent](http://precedent.com) and [Nomensa](http://www.nomensa.com).
+Hi, I'm Oliver Davies, a <a href="{{ site.drupalorg.nice }}">Drupal Developer</a> and System Administrator based in Newport, South Wales. I work for the [Drupal Association](https://assoc.drupal.org), while also working freelance on Drupal websites and Linux servers.
 
 An active community member, I organise <a href="{{ site.meetups.swdug.url }}">SWDUG</a> and co-organise <a href="{{ site.meetups.drupalbristol.url }}">Bristol Drupal</a>, and am a founding member of the [DrupalCamp Bristol](http://2015.drupalcampbristol.co.uk) organising committee. I also attend other events and conferences related to Drupal, PHP, Linux and web accessibility.
 
