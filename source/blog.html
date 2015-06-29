@@ -16,7 +16,7 @@ use:
   <article class="post">
     <h2>{{ post.title }}</h2>
 
-    {% include 'post-header' %}
+    {% include 'post-header' with { page: post } %}
 
     {% if post.blocks.excerpt %}
       {{ post.blocks.excerpt|raw }}
