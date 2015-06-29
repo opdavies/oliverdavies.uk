@@ -15,6 +15,9 @@ use:
 {% for post in page.pagination.items %}
   <article class="post">
     <h2>{{ post.title }}</h2>
+
+    {% include 'post-header' %}
+
     {% if post.blocks.excerpt %}
       {{ post.blocks.excerpt|raw }}
     {% endif %}
