@@ -70,7 +70,7 @@ testimonials:
 {% for testimonial in page.testimonials|reverse|slice(0,5) %}
     <article class="testimonial">
         <h2 class="testimonial__name">{{ testimonial.name }}</h2>
-        
+
         {% if testimonial.role or testimonial.company %}{% spaceless %}
             <p>
                 {{ testimonial.role }} at
@@ -79,7 +79,7 @@ testimonials:
                 {% if testimonial.url %}</a>{% endif %}
             </p>
         {% endspaceless %}{% endif %}
-        
+
         {{ testimonial.text|raw }}
     </article>
 {% endfor %}
