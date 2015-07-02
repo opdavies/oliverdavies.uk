@@ -30,6 +30,7 @@ testimonials:
       <p>Oliver is seasoned Drupal and all round highly skilled and experienced web developer. I have worked with Oliver on an important project where he was reliable, prompt and ensured strict client deadline delivery and confidentiality at all times.</p>
 
   - name: James Chapman
+    role: Director
     company: Development Done Right
     url: http://www.developmentdoneright.co.uk
     text: >
@@ -59,6 +60,10 @@ testimonials:
 
 {% for testimonial in page.testimonials|reverse|slice(0,5) %}
   <h2>{{ testimonial.name }}</h2>
-  <p>{{ testimonial.role }} at {{ testimonial.company }}</p>
-  {{ testimonial.text | raw }}
+
+  {% if testimonial.role or testimonial.company %}
+    <p>{{ testimonial.role }} at {{ testimonial.company }}</p>
+  {% endif %}
+
+  {{ testimonial.text|raw }}
 {% endfor %}
