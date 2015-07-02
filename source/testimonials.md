@@ -58,6 +58,10 @@ testimonials:
 ---
 # Testimonials
 
+<p>Here are some examples of the nice things that clients and former colleagues have said.</p>
+
+<p>You can view more recommendations on my <a href="{{ site.linkedin.url }}">LinkedIn profile</a>.</p>
+
 {% for testimonial in page.testimonials|reverse|slice(0,5) %}
   <h2>{{ testimonial.name }}</h2>
 
