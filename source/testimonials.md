@@ -57,7 +57,7 @@ testimonials:
 ---
 # Testimonials
 
-{% for testimonial in page.testimonials %}
+{% for testimonial in page.testimonials|slice(0,5) %}
   <h2>{{ testimonial.name }}</h2>
   <p>{{ testimonial.role }} at {{ testimonial.company }}</p>
   {{ testimonial.text | raw }}
