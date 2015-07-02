@@ -2,26 +2,6 @@
 layout: default
 title: Testimonials
 testimonials:
-  - name: Josh Mitchell
-    role: CTO
-    company: Drupal Association
-    text: >
-      <p>Oliver is a skilled Drupal developer with a passion for the Drupal community. As his direct supervisor, I was able to watch Oliver grow with the Drupal Association and contribute an amazing amount of effort and integrity to all of his work.</p>
-      <p>Everything we have thrown at Oliver, he has approached with an open and flexible mind that has allowed him to work on a wide range of projects and features for Drupal products.</p>
-
-  - name: Holly Ross
-    role: Executive Director
-    company: Drupal Association
-    text: >
-      <p>Oliver has been an outstanding contributor to the Drupal Association team. He is a talented developer who writes great code and applies his curiosity and love of learning to every project. He is also a fantastic team member, who gives to the team as much as he gets.</p>
-      <p>Oliver is the embodiment of everything good about the Drupal community.</p>
-
-  - name: Léonie Watson
-    role: Director of Accessibility
-    company: Nomensa
-    text: >
-      <p>Oliver is a flexible and hardworking developer, with a terrific knowledge of Drupal. He promotes accessibility best practice within the Drupal community, and is always happy to share his knowledge with other people.</p>
-
   - name: Ed Welsby
     role: Senior Developer
     company: Proctor & Stevenson
@@ -34,6 +14,12 @@ testimonials:
     url: http://tincan.co.uk
     text: >
       <p>Oliver was fantastic to work with - pro-active and highly responsive, he worked well remotely and as part of a project team. His understanding of the project requirement(s) and ability to translate it into working code was essential and he delivered.</p>
+
+  - name: Marlon Duncanson
+    company: Hypergroup Limited
+    url: http://www.hypergroup.com
+    text: >
+      <p>Oliver is a great guy and really easy to work with. He really goes the extra mile to make sure the project is done properly. I would recommend him and will not hesitate to use him again in future.</p>
 
   - name: Brian Hartwell
     text: >
@@ -49,15 +35,29 @@ testimonials:
     text: >
       <p>We used Oliver on a number of occasions throughout 2012 and I have to say we've been delighted with his work. His skills working with Drupal are excellent particularly with custom module development and we wouldn't hesitate to recommend him others.</p>
 
-  - name: Marlon Duncanson
-    company: Hypergroup Limited
-    url: http://www.hypergroup.com
+  - name: Léonie Watson
+    role: Director of Accessibility
+    company: Nomensa
     text: >
-      <p>Oliver is a great guy and really easy to work with. He really goes the extra mile to make sure the project is done properly. I would recommend him and will not hesitate to use him again in future.</p>
+      <p>Oliver is a flexible and hardworking developer, with a terrific knowledge of Drupal. He promotes accessibility best practice within the Drupal community, and is always happy to share his knowledge with other people.</p>
+
+  - name: Holly Ross
+    role: Executive Director
+    company: Drupal Association
+    text: >
+      <p>Oliver has been an outstanding contributor to the Drupal Association team. He is a talented developer who writes great code and applies his curiosity and love of learning to every project. He is also a fantastic team member, who gives to the team as much as he gets.</p>
+      <p>Oliver is the embodiment of everything good about the Drupal community.</p>
+
+  - name: Josh Mitchell
+    role: CTO
+    company: Drupal Association
+    text: >
+      <p>Oliver is a skilled Drupal developer with a passion for the Drupal community. As his direct supervisor, I was able to watch Oliver grow with the Drupal Association and contribute an amazing amount of effort and integrity to all of his work.</p>
+      <p>Everything we have thrown at Oliver, he has approached with an open and flexible mind that has allowed him to work on a wide range of projects and features for Drupal products.</p>
 ---
 # Testimonials
 
-{% for testimonial in page.testimonials|slice(0,5) %}
+{% for testimonial in page.testimonials|reverse|slice(0,5) %}
   <h2>{{ testimonial.name }}</h2>
   <p>{{ testimonial.role }} at {{ testimonial.company }}</p>
   {{ testimonial.text | raw }}
