@@ -59,5 +59,6 @@ testimonials:
 
 {% for testimonial in page.testimonials %}
   <h2>{{ testimonial.name }}</h2>
+  <p>{{ testimonial.role }} at {{ testimonial.company }}</p>
   {{ testimonial.text | raw }}
 {% endfor %}
