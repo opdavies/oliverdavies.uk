@@ -10,27 +10,29 @@ use:
 {% block body_classes %}page--blog page--blog__list{% endblock %}
 
 {% block content %}
-<h1>Blog</h1>
+    <h1>Blog</h1>
 
-{% for post in page.pagination.items %}
-  <article class="post">
-    {% include 'post-header' with { page: post, title_tag: 'h2' } %}
+    {% for post in page.pagination.items %}
+        <article class="post">
+            {% include 'post-header' with { page: post, title_tag: 'h2' } %}
 
-    {% if post.blocks.excerpt %}
-      {{ post.blocks.excerpt|raw }}
-    {% endif %}
-    <a href="{{ post.url }}">Read more &rarr;</a>
-  </article>
-{% endfor %}
+            {% if post.blocks.excerpt %}
+                {{ post.blocks.excerpt|raw }}
+            {% else %}
+                {{ post.blocks.content|raw|split(' ')|slice(0,50)|join(' ')|raw }} &hellip;
+            {% endif %}
+            <a href="{{ post.url }}">Read more &rarr;</a>
+        </article>
+    {% endfor %}
 
-{% if page.pagination.previous_page or page.pagination.next_page %}
-  <nav>
-    {% if page.pagination.previous_page %}
-      <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Items</a>
+    {% if page.pagination.previous_page or page.pagination.next_page %}
+        <nav>
+            {% if page.pagination.previous_page %}
+                <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Items</a>
+            {% endif %}
+            {% if page.pagination.next_page %}
+                <a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Items</a>
+            {% endif %}
+        </nav>
     {% endif %}
-    {% if page.pagination.next_page %}
-      <a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Items</a>
-    {% endif %}
-  </nav>
-{% endif %}
 {% endblock %}
