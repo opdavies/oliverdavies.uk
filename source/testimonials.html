@@ -46,6 +46,7 @@ testimonials:
     role: Executive Director
     company: Drupal Association
     url: https://assoc.drupal.org
+    image: https://assoc.drupal.org/files/headshot_drupal.png
     text: >
       <p>Oliver has been an outstanding contributor to the Drupal Association team. He is a talented developer who writes great code and applies his curiosity and love of learning to every project. He is also a fantastic team member, who gives to the team as much as he gets.</p>
       <p>Oliver is the embodiment of everything good about the Drupal community.</p>
@@ -54,6 +55,7 @@ testimonials:
     role: CTO
     company: Drupal Association
     url: https://assoc.drupal.org
+    image: https://assoc.drupal.org/files/joshv2.png
     text: >
       <p>Oliver is a skilled Drupal developer with a passion for the Drupal community. As his direct supervisor, I was able to watch Oliver grow with the Drupal Association and contribute an amazing amount of effort and integrity to all of his work.</p>
       <p>Everything we have thrown at Oliver, he has approached with an open and flexible mind that has allowed him to work on a wide range of projects and features for Drupal products.</p>
@@ -62,9 +64,7 @@ testimonials:
 
 {% block content %}
 <h1>Testimonials</h1>
-
 <p>Here are some examples of the nice things that clients and former colleagues have said.</p>
-
 <p>You can view more recommendations on my <a href="{{ site.linkedin.url }}">LinkedIn profile</a>.</p>
 
 {% for testimonial in page.testimonials|reverse|slice(0,5) %}
@@ -79,6 +79,10 @@ testimonials:
                 {% if testimonial.url %}</a>{% endif %}
             </p>
         {% endspaceless %}{% endif %}
+
+        {% if testimonial.image %}
+            <img class="testimonial__image" src="{{ testimonial.image }}" alt="{{ testimonial.name }}"/>
+        {% endif %}
 
         {{ testimonial.text|raw }}
     </article>

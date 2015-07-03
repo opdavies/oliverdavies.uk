@@ -1,0 +1,11 @@
+.page--testimonials .testimonial {
+  @include clearfix;
+  margin-bottom: 10px;
+
+  .testimonial__image {
+    float: right;
+    margin: 0 0 10px 10px;
+    max-height: 100px;
+    max-width: 100px;
+  }
+}
