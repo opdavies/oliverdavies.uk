@@ -27,6 +27,8 @@ ansible_galaxy:
   url: https://galaxy.ansible.com/list#/users/14560
 gravatar:
   url: http://www.gravatar.com/avatar/e0f6adcd63d8393e689b327e978d0887.png
+flickr:
+  url: https://www.flickr.com/photos/133286555@N04
 
 bio: >
   <p><a href="/">Oliver Davies</a> is a Drupal Developer and System Administrator based in the UK. He works for the <a href="https://assoc.drupal.org">Drupal Association</a> and also provides freelance consultancy services for Drupal websites and Linux servers.</p>

@@ -24,4 +24,5 @@ Here are some other places to find me online:
 * <a href="{{ site.lanyrd.url }}">Lanyrd</a>
 * <a href="{{ site.joindin.url }}">Joind.in</a>
 * <a href="{{ site.ansible_galaxy.url }}">Ansible Galaxy</a>
+* <a href="{{ site.flickr.url }}">Flickr</a>
 {% endblock %}
