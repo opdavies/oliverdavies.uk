@@ -3,7 +3,7 @@
 {% block body_classes %}page--blog page--blog__post{% endblock %}
 
 {% block content_wrapper %}
-  <div class="col-md-10">
+  <main class="col-md-10">
     {% include 'post-header' %}
 
     {% block content %}{% endblock %}
@@ -26,5 +26,5 @@
       </ul>
     {% endif %}
 
-  </div>
+  </main>
 {% endblock %}
