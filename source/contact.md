@@ -4,7 +4,7 @@ title: Contact
 meta:
   description: 'Information about how to get in touch with Oliver.'
 ---
-{% block body_classes %}page--contact{% endblock %}
+{% block body_classes 'page--contact' %}
 
 {% block content %}
 # Contact
