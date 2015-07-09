@@ -12,7 +12,7 @@ meta:
       height: 327
       type: image/jpg
 ---
-{% block body_classes %}page--about{% endblock %}
+{% block body_classes 'page--about' %}
 
 {% block content %}
 # About

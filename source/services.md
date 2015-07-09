@@ -4,7 +4,7 @@ title: Services
 meta:
   description: 'Information about freelance services that Oliver offers.'
 ---
-{% block body_classes %}page--services{% endblock %}
+{% block body_classes 'page--services' %}
 
 {% block content %}
 # Services
