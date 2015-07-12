@@ -12,7 +12,7 @@ meta:
 ## Drupal
 
 * Website development using Drupal 6 and 7.
-* Use of Drupal distributions such as [Commerce Kickstart](https://www.drupal.org/project/commerce_kickstart), [Drupal Commons](https://www.drupal.org/project/commons), [Open Atrium](https://www.drupal.org/project/openatrium) and [COD](https://www.drupal.org/project/cod) (the conference organising distribution).
+* Use of Drupal distributions such as [Commerce Kickstart](https://www.drupal.org/project/commerce_kickstart), [Drupal Commons](https://www.drupal.org/project/commons), [Open Atrium](https://www.drupal.org/project/openatrium) and [COD](http://usecod.io) (the conference organising distribution).
 * Custom module development including integration with third party APIs.
 * Front-end and theme development using [SASS](http://sass-lang.com) and [Compass](http://compass-style.org).
 * eCommerce using [Drupal Commerce](http://drupalcommerce.org) (I've also used [Ubercart](http://ubercart.org) with Drupal 6).
