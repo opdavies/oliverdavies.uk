@@ -23,7 +23,7 @@ Hi, I'm Oliver Davies, a <a href="{{ site.drupalorg.nice }}">Drupal Developer</a
 
 An active community member, I organise <a href="{{ site.meetups.swdug.url }}">SWDUG</a> and co-organise <a href="{{ site.meetups.drupalbristol.url }}">Bristol Drupal</a>, and am a founding member of the [DrupalCamp Bristol](http://2015.drupalcampbristol.co.uk) organising committee (we held our first event in July 2015). I also attend other events and conferences related to Drupal, PHP, Linux and web accessibility.
 
-I'm contributor to <a href="http://cgit.drupalcode.org/drupal/log/?h=7.x&qt=grep&q={{ site.drupalorg.name }}">Drupal 7</a> and <a href="http://cgit.drupalcode.org/drupal/log/?h=8.0.x&qt=grep&q={{ site.drupalorg.name }}">Drupal 8</a> core, and I <a href="{{ site.drupalorg.url }}/people-mentored">mentor new contributors</a> online and in person at local sprints, DrupalCamps and DrupalCons. I maintain several projects on Drupal.org, and have contributed to numerous others.
+I'm a contributor to <a href="http://cgit.drupalcode.org/drupal/log/?h=7.x&qt=grep&q={{ site.drupalorg.name }}">Drupal 7</a> and <a href="http://cgit.drupalcode.org/drupal/log/?h=8.0.x&qt=grep&q={{ site.drupalorg.name }}">Drupal 8</a> core, and I <a href="{{ site.drupalorg.url }}/people-mentored">mentor new contributors</a> online and in person at local sprints, DrupalCamps and DrupalCons. I maintain several projects on Drupal.org, and have contributed to numerous others.
 
 I'm also the Git Documentation Maintainer for the Drupal project, and a provisional member of the [Drupal Security team](https://www.drupal.org/security-team).
 
