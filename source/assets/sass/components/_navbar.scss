@@ -1,5 +1,5 @@
-@each $page in about, work, services, testimonials, talks, blog, contact {
-  .page--#{$page} .nav__#{$page} {
-    @extend .active;
-  }
+@each $page in services, testimonials, talks, blog, contact {
+    .page--#{$page} .nav__#{$page} {
+        @extend .active;
+    }
 }
