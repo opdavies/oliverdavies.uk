@@ -7,12 +7,39 @@ talks:
     - title: So, what is this Drupal thing?
       date: 2012-09-05
       location: unified.diff
+
     - title: Drupal LDAP module
       date: 2013-07-10
       location: SWDUG
+
+    - title: Never Commit to Master: An Introduction to Git Flow
+      date: 2014-03-01
+      location: DrupalCamp London 2014
+
+    - title: drush make drupalbristol
+      date: 2014-07-02
+      location: Bristol DUG
+
+    - title: About the Drupal Association
+      date: 2014-08-19
+      location: SWDUG
+
+    - title: Drupal.org in 2015: What’s Coming Next
+      date: 2015-01-18
+      location: DrupalCamp Brighton 2015
+
+    - title: Drupal.org in 2015: What’s Coming Next
+      date: 2015-02-28
+      location: DrupalCamp London 2015
+
+    - title: Drupal 8 (Lightning Talk)
+      date: 2015-04-08
+      location: PHPSW
+
     - title: Test Drive Twig with Sculpin
       date: 2015-07-24
       location: DrupalCamp North 2015
+
     - title: Sculpin
       date: 2015-08-21
       location: unified.diff
@@ -53,13 +80,13 @@ talks:
             <h2>Previous Talks</h2>
         {% endif %}
 
-{% set this_year %}{{ talk.date|date('Y') }}{% endset %}
+        {% set this_year %}{{ talk.date|date('Y') }}{% endset %}
         {% if this_year != year %}
             <h3>{{ this_year }}</h3>
             {% set year = this_year %}
         {% endif %}
         {{ talk.title }}<br>
-        
+
         <!-- {% include 'talk-listing-item' %} -->
     {% endfor %}
 {% endblock %}
