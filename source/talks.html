@@ -55,39 +55,51 @@ talks:
 
     {% set found = false %}
     {% set year = '0' %}
+
     {% for talk in talks|reverse if talk.date >= now %}
-        {% set found = true %}
         {% if loop.first %}
             <h2>Upcoming Talks</h2>
         {% endif %}
 
         {% set this_year %}{{ talk.date|date('Y') }}{% endset %}
         {% if this_year != year %}
-            <h3>{{ this_year }}</h3>
-            {% set year = this_year %}
-        {% endif %}
-        {{ talk.title }}<br>
+            {% set found = true %}
 
-        <!--{% include 'talk-listing-item' %}-->
+            {% set year = this_year %}
+            <h3>{{ this_year }}</h3>
+            <ul>
+        {% endif %}
+
+        <li>{{ talk.title }}</li>
     {% endfor %}
-    {% if found %}
-        </ul>
-    {% endif %}
+    </ul>
 
     {% set found = false %}
     {% set year = '0' %}
+    {% set new_year = false %}
+
     {% for talk in talks if talk.date < now %}
         {% if loop.first %}
             <h2>Previous Talks</h2>
         {% endif %}
 
         {% set this_year %}{{ talk.date|date('Y') }}{% endset %}
-        {% if this_year != year %}
-            <h3>{{ this_year }}</h3>
-            {% set year = this_year %}
-        {% endif %}
-        {{ talk.title }}<br>
 
-        <!-- {% include 'talk-listing-item' %} -->
+        {% if this_year != year %}
+            {% if new_year %}
+                {# Close the list for the previous year. #}
+                </ul>
+            {% endif %}
+
+            {% set year = this_year %}
+            {% set found = true %}
+
+            <h3>{{ this_year }}</h3>
+            <ul>
+        {% else %}
+            {% set new_year = true %}
+        {% endif %}
+
+        <li>{{ talk.title }}</li>
     {% endfor %}
 {% endblock %}
