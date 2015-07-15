@@ -2,45 +2,55 @@
 layout: default
 title: Talks
 meta:
-  description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
-use:
-  - talks
+description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
+talks:
+    - title: So, what is this Drupal thing?
+      date: 2012-09-05
+      location: unified.diff
+    - title: Drupal LDAP module
+      date: 2013-07-10
+      location: SWDUG
+    - title: Test Drive Twig with Sculpin
+      date: 2015-07-24
+      location: DrupalCamp North 2015
+    - title: Sculpin
+      date: 2015-08-21
+      location: unified.diff
 ---
 {% block body_classes 'page--talks page--talks__list' %}
 
 {% block content %}
-<h1>Talks</h1>
+    <h1>Talks</h1>
+    <p>I regularly speak at conferences and user groups about a range of subjects relating to Drupal, PHP and web development. If you would like to me to speak at your group or conference, please <a href="/contact/">get in touch</a>.</p>
 
-<p>I regularly speak at conferences and user groups about a range of subjects relating to Drupal, PHP and web development. If you would like to me to speak at your group or conference, please <a href="/contact/">get in touch</a>.</p>
+    {% set now = 'now'|date('U') %}
+    {% set talks = page.talks %}
 
-{% set now = 'now'|date('U') %}
-{% set talks = data.talks %}
+    {% set found = false %}
+    {% for talk in talks|reverse if talk.date >= now %}
+        {% set found = true %}
+        {% if loop.first %}
+            <h2>Upcoming Talks</h2>
+            <ul>
+        {% endif %}
 
-{% set found = false %}
-{% for talk in talks|reverse if talk.date >= now %}
-  {% if loop.first %}
-    {% set found = true %}
-    <h2>Upcoming Talks</h2>
-    <dl>
-  {% endif %}
+        {% include 'talk-listing-item' %}
+    {% endfor %}
+    {% if found %}
+        </ul>
+    {% endif %}
 
-  {% include 'talk-listing-item' %}
-{% endfor %}
-{% if found %}
-  </dl>
-{% endif %}
+    {% set found = false %}
+    {% for talk in talks if talk.date < now %}
+        {% set found = true %}
+        {% if loop.first %}
+            <h2>Previous Talks</h2>
+            <ul>
+        {% endif %}
 
-{% set found = false %}
-{% for talk in talks if talk.date < now %}
-  {% if loop.first %}
-    {% set found = true %}
-    <h2>Previous Talks</h2>
-    <dl>
-  {% endif %}
-
-  {% include 'talk-listing-item' %}
-{% endfor %}
-{% if found %}
-  </dl>
-{% endif %}
+        {% include 'talk-listing-item' %}
+    {% endfor %}
+    {% if found %}
+        </ul>
+    {% endif %}
 {% endblock %}
