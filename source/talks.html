@@ -2,21 +2,24 @@
 layout: default
 title: Talks
 meta:
-description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
+    description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
 talks:
     - title: So, what is this Drupal thing?
+      title_link: http://vimeo.com/49827006
       date: 2012-09-05
       location: unified.diff
 
-    - title: Drupal LDAP module
+    - title: An overview of the Drupal LDAP module
       date: 2013-07-10
       location: SWDUG
 
     - title: Never Commit to Master: An Introduction to Git Flow
+      title_link: https://speakerdeck.com/opdavies/never-commit-to-master-an-introduction-to-git-flow
       date: 2014-03-01
       location: DrupalCamp London 2014
 
     - title: drush make drupalbristol
+      title_link: https://speakerdeck.com/opdavies/drush-make-drupalbristol
       date: 2014-07-02
       location: Bristol DUG
 
@@ -33,6 +36,7 @@ talks:
       location: DrupalCamp London 2015
 
     - title: Drupal 8 (Lightning Talk)
+      title_link: https://speakerdeck.com/opdavies/drupal-8
       date: 2015-04-08
       location: PHPSW
 
@@ -40,7 +44,7 @@ talks:
       date: 2015-07-24
       location: DrupalCamp North 2015
 
-    - title: Sculpin
+    - title: Building Static Websites with Sculpin
       date: 2015-08-21
       location: unified.diff
 ---
@@ -79,7 +83,7 @@ talks:
             {% set new_year = true %}
         {% endif %}
 
-        <li>{{ talk.title }}</li>
+        {% include 'talk-listing-item' %}
     {% endfor %}
 
     {% if found %}
@@ -112,7 +116,7 @@ talks:
             {% set new_year = true %}
         {% endif %}
 
-        <li>{{ talk.title }}</li>
+        {% include 'talk-listing-item' %}
     {% endfor %}
 
     {% if found %}
