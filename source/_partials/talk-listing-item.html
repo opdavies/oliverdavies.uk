@@ -1,5 +1,5 @@
 <li>{% spaceless %}
-    {{ talk.location }} -
+    {{ talk.date|date('F') }} - {{ talk.location }} -
     {% if talk.title_link -%}<a href="{{ talk.title_link }}" title="{{ talk.title }}">{%- endif -%}
     {{ talk.title }}
     {%- if talk.title_link -%}</a>{%- endif -%}
