@@ -1,6 +1,6 @@
-<li>
+<li>{% spaceless %}
     {{ talk.location }} -
-    {% if talk.title_link %}<a href="{{ talk.title_link }}" title="{{ talk.title }}">{% endif %}
+    {%- if talk.title_link -%}<a href="{{ talk.title_link }}" title="{{ talk.title }}">{%- endif -%}
     {{ talk.title }}
-    {% if talk.title_link %}</a>{% endif %}
-</li>
+    {%- if talk.title_link -%}</a>{%- endif -%}
+{% endspaceless %}</li>
