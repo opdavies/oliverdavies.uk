@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sculpin and Twig Resources
-date: 2015-07-18
+date: 2015-07-19
 meta:
     description: Some links to useful resources relating to Sculpin.
 tags:
