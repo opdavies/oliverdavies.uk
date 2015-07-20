@@ -51,5 +51,4 @@ Here’s a list of resources that I compiled whilst preparing for my [Sculpin an
 * <http://twig.sensiolabs.org/>
 * <http://twig.sensiolabs.org/doc/templates.html> - variables, filters, functions, template inheritance, expressions etc.
 * Go to http://twig.sensiolabs.org/{foo} to search for a tag, filter, test or function.
-
 {% endblock %}
