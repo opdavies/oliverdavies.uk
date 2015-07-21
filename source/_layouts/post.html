@@ -8,15 +8,15 @@
 
     {% block content %}{% endblock %}
 
-    {% if page.related %}
+    {% if page.related -%}
         <h2>Related Posts</h2>
 
         <ul>
             {% for relate in page.related -%}
                 <li><a href="{{ relate.source.url }}">{{ relate.title }}</a></li>
-            {%- endfor %}
+            {% endfor %}
         </ul>
-    {% endif %}
+    {%- endif %}
 
     {% if page.tags %}
       <p class="tags">
