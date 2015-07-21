@@ -19,8 +19,9 @@ use:
             {% if post.blocks.excerpt %}
                 {{ post.blocks.excerpt|raw }}
             {% else %}
-                {{ post.blocks.content|raw|split(' ')|slice(0,50)|join(' ')|raw }} &hellip;
+                <p>{{ post.blocks.content|raw|split(' ')|slice(0,50)|join(' ')|raw }} &hellip;</p>
             {% endif %}
+
             <a href="{{ post.url }}">Read more &rarr;</a>
         </article>
     {% endfor %}
