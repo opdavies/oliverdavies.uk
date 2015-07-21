@@ -81,7 +81,7 @@ The Twig layout:
     {% endfor%}
     {%- endraw %}
 
-I also did’t want to have to push an empty commit or manually trigger a job in Jenkins after doing a talk in order for it to be positioned in the correct place on the page, so I also wanted Jenkins to schedule a regular build regardless of whether or not code had been pushed, so ensure that my talks page would be up to date.
+I also didn’t want to have to push an empty commit or manually trigger a job in Jenkins after doing a talk in order for it to be positioned in the correct place on the page, so I also wanted Jenkins to schedule a regular build regardless of whether or not code had been pushed, so ensure that my talks page would be up to date.
 
 After originally thinking that I'd have to split the build steps into a separate item and trigger that from a scheduled item, and amend my git commit item accordingly, I found a **Build periodically** option that I could use within the same item, leaving it intact and not having to make amends.
 
