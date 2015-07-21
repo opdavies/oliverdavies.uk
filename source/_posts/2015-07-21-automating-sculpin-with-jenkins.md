@@ -41,6 +41,8 @@ Within the **Builds** section of the item, I added an *Execute Shell* step, wher
 
     #!/bin/bash
 
+    set -uex
+
     sculpin generate --env=prod --quiet
     if [ $? -ne 0 ]; then echo "Could not generate the site"; exit 1; fi
 
