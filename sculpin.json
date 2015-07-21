@@ -1,5 +1,5 @@
 {
     "require": {
-        "tsphethean/sculpin-related-posts-bundle": "0.1.0"
+        "tsphethean/sculpin-related-posts-bundle": "~0.1.0"
     }
 }

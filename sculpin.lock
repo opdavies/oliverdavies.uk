@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d37b05ed16424b89840bb47bf5f29ffe",
+    "hash": "0534583cebab2a2d1502880eb3d75947",
     "packages": [
         {
             "name": "tsphethean/sculpin-related-posts-bundle",
