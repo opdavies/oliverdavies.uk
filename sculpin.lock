@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d37b05ed16424b89840bb47bf5f29ffe",
+    "packages": [
+        {
+            "name": "tsphethean/sculpin-related-posts-bundle",
+            "version": "0.1.0",
+            "target-dir": "Tsphethean/Sculpin/Bundle/RelatedPostsBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tsphethean/sculpin-related-posts-bundle.git",
+                "reference": "7398139c3a5c5d407436d385e58b1cf2fe7ac84b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tsphethean/sculpin-related-posts-bundle/zipball/7398139c3a5c5d407436d385e58b1cf2fe7ac84b",
+                "reference": "7398139c3a5c5d407436d385e58b1cf2fe7ac84b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Tsphethean\\Sculpin\\Bundle\\RelatedPostsBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tom Phethean",
+                    "homepage": "http://www.tsphethean.co.uk"
+                }
+            ],
+            "description": "Sculpin Related Posts Bundle",
+            "homepage": "https://sculpin.io",
+            "keywords": [
+                "blog",
+                "blogging",
+                "related posts",
+                "site",
+                "static"
+            ],
+            "time": "2014-03-21 14:38:52"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
