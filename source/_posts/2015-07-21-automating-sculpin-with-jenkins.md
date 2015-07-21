@@ -7,12 +7,6 @@ tags:
     - jenkins
 slug: automating-sculpin-jenkins
 ---
-{% block excerpt %}
-How to automate Sculpin builds via Jenkins, either periodically or when a Git commit is pushed.
-{% endblock %}
-
-{% block content %}
-
 As part of re-building this site with [Sculpin](http://sculpin.io), I wanted to automate the deployments, as in I wouldn't need to run a script like [publish.sh](https://raw.githubusercontent.com/sculpin/sculpin-blog-skeleton/master/publish.sh) locally and have that deploy my code onto my server. Not only did that mean that my local workflow was simpler (update, commit and push, rather than update, commit, push and deploy), but if I wanted to make a quick edit or hotfix, I could log into GitHub or Bitbucket (wherever I decided to host the source code) from any computer or my phone, make the change and have it deployed for me.
 
 I'd started using [Jenkins CI](http://jenkins-ci.org) during my time at the Drupal Association, and had since built my own Jenkins server to handle deployments of Drupal websites, so that was the logical choice to use.
@@ -94,4 +88,3 @@ I set this to `@daily` (the same `H H * * *` - `H` is a Jenkins thing), so that 
 This workflow works great for one site, but as I roll out more Sculpin sites, I'd like to reduce duplication. I see this mainly as I’ll end up creating a separate `sculpin_build` item that’s decoupled from the site that it’s building, and instead passing variables such as environment, server name and docroot path as parameters in a parameterized build.
 
 I'll probably also take the raw shell script out of Jenkins and save it in a text file that's stored locally on the server, and execute that via Jenkins. This means that I’d be able to store this file in a separate Git repository with my other Jenkins scripts and get the standard advantages of using version control.
-{% endblock %}

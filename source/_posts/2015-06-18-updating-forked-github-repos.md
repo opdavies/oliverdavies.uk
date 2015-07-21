@@ -8,10 +8,6 @@ tags:
   - github
   - sculpin
 ---
-{% block excerpt %}
-I just had to update a repo that I forked on GitHub. This is how I did it. Did I do it the correct way?
-{% endblock %}
-
 {% block content %}
 ## Sculpin
 

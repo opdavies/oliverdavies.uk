@@ -3,7 +3,7 @@ layout: post
 title: Sculpin and Twig Resources
 date: 2015-07-19
 meta:
-    description: Some links to useful resources relating to Sculpin.
+    description: A compiled list of resources relating to Sculpin and Twig.
 tags:
     - sculpin
     - drupalcamp
@@ -12,7 +12,7 @@ tags:
 slug: sculpin-twig-resources
 ---
 {% block excerpt %}
-A compiled list of resources relating to Sculpin and Twig.
+Here’s a list of resources that I compiled whilst preparing for my [Sculpin and Twig talk](http://drupalcampnorth.org/session/test-drive-twig-sculpin) at [DrupalCamp North](http://drupalcampnorth.org).
 {% endblock %}
 
 {% block content %}
