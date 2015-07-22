@@ -12,8 +12,9 @@ use:
 {% block content %}
     <h1>Blog</h1>
 
+    <ul class="posts">
     {% for post in page.pagination.items %}
-        <article class="post">
+        <li class="post">
             {% include 'post-header' with { page: post, title_tag: 'h2' } %}
 
             {% if post.blocks.excerpt %}
@@ -23,8 +24,9 @@ use:
             {% endif %}
 
             <a href="{{ post.url }}">Read more &rarr;</a>
-        </article>
+        </li>
     {% endfor %}
+    </ul>
 
     {% if page.pagination.previous_page or page.pagination.next_page %}
         <nav>

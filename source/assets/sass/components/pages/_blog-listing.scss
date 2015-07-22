@@ -1,0 +1,14 @@
+.page--blog__list {
+    ul.posts {
+        list-style: none;
+        margin-bottom: 2em;
+        padding-left: 0;
+    }
+
+    .post {
+        @include clearfix;
+        border-bottom: 1px solid #CCC;
+        margin-bottom: 1em;
+        padding-bottom: 2em;
+    }
+}
