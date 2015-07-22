@@ -6,74 +6,74 @@ author: Oliver Davies
 email: oliver@oliverdavies.uk
 
 twitter:
-  url: http://twitter.com/opdavies
-  name: opdavies
+    url: http://twitter.com/opdavies
+    name: opdavies
 linkedin:
-  url: http://uk.linkedin.com/in/opdavies
+    url: http://uk.linkedin.com/in/opdavies
 drupalorg:
-  url: https://www.drupal.org/user/381388
-  name: opdavies
-  nice: https://www.drupal.org/u/opdavies
+    url: https://www.drupal.org/user/381388
+    name: opdavies
+    nice: https://www.drupal.org/u/opdavies
 github:
-  url: http://github.com/opdavies
-  name: opdavies
+    url: http://github.com/opdavies
+    name: opdavies
 irc:
-  name: opdavies
+    name: opdavies
 lanyrd:
-  url: http://lanyrd.com/profile/opdavies
+    url: http://lanyrd.com/profile/opdavies
 joindin:
-  url: https://joind.in/user/view/27119
+    url: https://joind.in/user/view/27119
 ansible_galaxy:
-  url: https://galaxy.ansible.com/list#/users/14560
+    url: https://galaxy.ansible.com/list#/users/14560
 gravatar:
-  url: http://www.gravatar.com/avatar/e0f6adcd63d8393e689b327e978d0887.png
+    url: http://www.gravatar.com/avatar/e0f6adcd63d8393e689b327e978d0887.png
 flickr:
-  url: https://www.flickr.com/photos/133286555@N04
+    url: https://www.flickr.com/photos/133286555@N04
 speakerdeck:
-  url: https://speakerdeck.com/opdavies
+    url: https://speakerdeck.com/opdavies
 
 apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
 favicon_sizes: [ 160, 96, 32, 16 ]
 
 main_menu:
-  - title: Services
-    href: /services/
-  - title: Testimonials
-    href: /testimonials/
-  - title: Talks
-    href: /talks/
-  - title: Blog
-    href: /blog/
-  - title: Contact
-    href: /contact/
+    - title: Services
+      href: /services/
+    - title: Testimonials
+      href: /testimonials/
+    - title: Talks
+      href: /talks/
+    - title: Blog
+      href: /blog/
+    - title: Contact
+      href: /contact/
 
 meetups:
-  swdug:
-    name: SWDUG
-    logo: swdug.png
-    url: http://swdug.org.uk
+    swdug:
+        name: SWDUG
+        logo: swdug.png
+        url: http://swdug.org.uk
 
-  drupalbristol:
-    name: Drupal Bristol
-    logo: drupal-bristol.jpeg
-    url: https://groups.drupal.org/bristol-west-uk
+    drupalbristol:
+        name: Drupal Bristol
+        logo: drupal-bristol.jpeg
+        url: https://groups.drupal.org/bristol-west-uk
 
-  phpsw:
-    name: PHPSW
-    logo: phpsw.jpeg
-    url: http://phpsw.uk
+    phpsw:
+        name: PHPSW
+        logo: phpsw.jpeg
+        url: http://phpsw.uk
 
-  swlug:
-    name: SWLUG
-    logo: swlug.png
-    url: http://swlug.org.uk
+    swlug:
+        name: SWLUG
+        logo: swlug.png
+        url: http://swlug.org.uk
 
-  accbristol:
-    name: Accessible Bristol
-    logo: accessible-bristol.png
-    url: http://www.accessiblebristol.org.uk
+    accbristol:
+        name: Accessible Bristol
+        logo: accessible-bristol.png
+        url: http://www.accessiblebristol.org.uk
 
-  udiff:
-    name: unified.diff
-    logo: unified-diff.png
-    url: http://unifieddiff.co.uk
+    udiff:
+        name: unified.diff
+        logo: unified-diff.png
+        url: http://unifieddiff.co.uk
