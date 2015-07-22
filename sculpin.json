@@ -1,5 +1,9 @@
 {
     "require": {
+        "components/highlightjs": "~7.3.0",
         "tsphethean/sculpin-related-posts-bundle": "~0.1.0"
+    },
+    "config": {
+        "component-dir": "source/components"
     }
 }
