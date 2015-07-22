@@ -10,4 +10,3 @@ sculpin_content_types:
         permalink: blog/:slug_title/
         taxonomies:
             - tags
-
