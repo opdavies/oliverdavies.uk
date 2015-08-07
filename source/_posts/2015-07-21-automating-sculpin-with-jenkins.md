@@ -90,3 +90,23 @@ I set this to `@daily` (the same `H H * * *` - `H` is a Jenkins thing), so that 
 This workflow works great for one site, but as I roll out more Sculpin sites, I'd like to reduce duplication. I see this mainly as I’ll end up creating a separate `sculpin_build` item that’s decoupled from the site that it’s building, and instead passing variables such as environment, server name and docroot path as parameters in a parameterized build.
 
 I'll probably also take the raw shell script out of Jenkins and save it in a text file that's stored locally on the server, and execute that via Jenkins. This means that I’d be able to store this file in a separate Git repository with my other Jenkins scripts and get the standard advantages of using version control.
+
+## Update
+
+Since publishing this post, I've added some more items to the original build script.
+
+### Updating Sculpin Dependencies
+
+    if [ -f sculpin.json ]; then
+      sculpin update
+    fi
+
+Runs `sculpin update` on each build if the sculpin.json file exists, to ensure that the required custom bundles and dependencies are installed.
+
+### Managing Redirects
+
+    if [ -f scripts/redirects.php ]; then
+        /usr/bin/php scripts/redirects.php
+    fi
+
+I've been working on a `redirects.php` script that generates redirects from a .csv file, after seeing similar things in the Pantheon Documentation and That Podcast repositories. This checks if that file exists, and if so, runs it and generates the source file containing each redirect.
