@@ -2,6 +2,8 @@
 
 <?php
 
+$csv = 'redirects.csv';
+
 $template = <<<EOS
 ---
 layout: redirect
@@ -10,12 +12,9 @@ destination: %DESTINATION%
 
 EOS;
 
-$filename = dirname(__FILE__) . '/redirects.csv';
-
 $row = 0;
-
-if (($handle = fopen($filename, 'r')) !== FALSE) {
-    while (($data = fgetcsv($handle, filesize($filename))) !== FALSE) {
+if (($handle = fopen($csv, 'r')) !== FALSE) {
+    while (($data = fgetcsv($handle, filesize($csv))) !== FALSE) {
         $row++;
 
         if ($row > 1) {
