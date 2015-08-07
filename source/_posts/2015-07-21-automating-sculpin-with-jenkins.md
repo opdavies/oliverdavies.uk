@@ -109,4 +109,4 @@ Runs `sculpin update` on each build if the sculpin.json file exists, to ensure t
         /usr/bin/php scripts/redirects.php
     fi
 
-I've been working on a `redirects.php` script that generates redirects from a .csv file, after seeing similar things in the Pantheon Documentation and That Podcast repositories. This checks if that file exists, and if so, runs it and generates the source file containing each redirect.
+I've been working on a `redirects.php` script that generates redirects from a .csv file, after seeing similar things in the [Pantheon Documentation](https://github.com/pantheon-systems/documentation) and [That Podcast](https://github.com/thatpodcast/thatpodcast.io) repositories. This checks if that file exists, and if so, runs it and generates the source file containing each redirect.
