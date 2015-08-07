@@ -17,14 +17,18 @@ $row = 1;
 
 if (($handle = fopen($filename, 'r')) !== FALSE) {
     while (($data = fgetcsv($handle, filesize($filename))) !== FALSE) {
-var_dump($data[0]);
+        if ($row === 1) {
+            continue;
+        }
+
         $templateData = [
-            '%DESTINATION%' => $destination,
+            '%DESTINATION%' => $data[1],
         ];
 
         $output = strtr($template, $templateData);
         file_put_contents("source/{$data[0]}.html", $output);
 
+        echo "Written to {$data[0]}.html\n";
         $row++;
     }
 }
