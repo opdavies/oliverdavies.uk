@@ -2,7 +2,7 @@
 
 <?php
 
-$csv = __FILE__ . '/redirects.csv';
+$csv = __DIR__ . '/redirects.csv';
 
 $template = <<<EOS
 ---
