@@ -17,9 +17,9 @@ $row = 1;
 
 if (($handle = fopen($filename, 'r')) !== FALSE) {
     while (($data = fgetcsv($handle, filesize($filename))) !== FALSE) {
-        if ($row === 1) {
-            continue;
-        }
+#        if ($row == 1) {
+#            continue;
+#        }
 
         $templateData = [
             '%DESTINATION%' => $data[1],
@@ -29,6 +29,7 @@ if (($handle = fopen($filename, 'r')) !== FALSE) {
         file_put_contents("source/{$data[0]}.html", $output);
 
         echo "Written to {$data[0]}.html\n";
+
         $row++;
     }
 }
