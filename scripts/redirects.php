@@ -3,7 +3,6 @@
 <?php
 
 $template = <<<EOS
-
 ---
 layout: redirect
 destination: %DESTINATION%
