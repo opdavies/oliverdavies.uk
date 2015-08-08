@@ -1,9 +1,5 @@
 sculpin:
     permalink: pretty
-    ignore:
-        - '**/*.scss'
-        - '**/config.rb'
-        - '**/Gemfile*'
 
 sculpin_content_types:
     posts:
