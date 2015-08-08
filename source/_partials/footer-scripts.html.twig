@@ -5,7 +5,7 @@
 
 {% block scripts %}{% endblock %}
 
-{% if page.tweets == true %}
+{% if page.tweets is defined and page.tweets == true %}
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 {% endif %}
 
