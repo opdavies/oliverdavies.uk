@@ -77,3 +77,5 @@ meetups:
         name: unified.diff
         logo: unified-diff.png
         url: http://unifieddiff.co.uk
+
+hightlightjs: default
