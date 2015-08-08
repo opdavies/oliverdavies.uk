@@ -98,7 +98,7 @@ Since publishing this post, I've added some more items to the original build scr
 ### Updating Composer
 
     if [ -f composer.json ]; then
-        /usr/local/bin/composer
+        /usr/local/bin/composer update
     fi
 
 Updates project dependencies via [Composer](https://getcomposer.org/doc/00-intro.md#introduction) if composer.json exists.
