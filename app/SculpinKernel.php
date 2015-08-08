@@ -1,6 +1,8 @@
 <?php
 
-class SculpinKernel extends \Sculpin\Bundle\SculpinBundle\HttpKernel\AbstractKernel
+use Sculpin\Bundle\SculpinBundle\HttpKernel\AbstractKernel;
+
+class SculpinKernel extends AbstractKernel
 {
     protected function getAdditionalSculpinBundles()
     {
