@@ -2,3 +2,4 @@
 /source/components/
 /.sculpin/
 /vendor/
+.sass-cache/
