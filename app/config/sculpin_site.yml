@@ -79,3 +79,11 @@ meetups:
         url: http://unifieddiff.co.uk
 
 hightlightjs: default
+
+availability:
+    day:
+        available: no
+        until: ~
+    evenings:
+        available: yes
+        until: ~
