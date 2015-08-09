@@ -81,3 +81,5 @@ meetups:
 hightlightjs: default
 
 digitalocean_referral: a913b4b00d4a
+
+default_date_format: jS F, Y
