@@ -10,9 +10,9 @@
 
         {{ page.blocks.content|raw }}
 
-        {% if page.joindin_id %}
+        {% if page.joindin %}
             <p>
-                <a href="https://joind.in/talk/view/{{ page.joindin_id }}">Rate this talk on Joind.in.</a>
+                <a href="{{ page.joindin }}" class="btn btn-primary">Rate this talk</a>
             </p>
         {% endif %}
 
