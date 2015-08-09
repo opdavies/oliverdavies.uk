@@ -7,5 +7,9 @@
         <h1>{{ page.title }}</h1>
 
         {{ page.blocks.content|raw }}
+
+        {% if page.speakerdeck_id %}
+            <script async class="speakerdeck-embed" data-id="{{ page.speakerdeck_id }}" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
+        {% endif %}
     </main>
 {% endblock %}
