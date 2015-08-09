@@ -3,6 +3,8 @@ layout: default
 title: Talks
 meta:
     description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
+use:
+    - talks
 talks:
     - title: So, what is this Drupal thing?
       title_link: http://vimeo.com/49827006
@@ -59,7 +61,7 @@ talks:
     <p>There is also information about events that I’ve attended and spoken at on my <a href="{{ site.lanyrd.url }}">Lanyrd</a> and <a href="{{ site.joindin.url }}">Joind.in</a> profiles.</p>
 
     {% set now = 'now'|date('U') %}
-    {% set talks = page.talks|reverse %}
+    {% set talks = data.talks|reverse %}
 
     {% set found = false %}
     {% set year = '0' %}
