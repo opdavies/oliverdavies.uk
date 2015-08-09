@@ -16,7 +16,7 @@ Here are my slides from my "What is Git Flow?" session at [DrupalCamp London](ht
 {% block content %}
 Here are my slides from my "What is Git Flow?" session at [DrupalCamp London](http://2014.drupalcamplondon.co.uk).
 
-<script async class="speakerdeck-embed" data-id="201559e0f103013198dd5a5f6f23ab67" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
+{% include 'speakerdeck' %}
 
 ## Take aways
 
