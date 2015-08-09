@@ -36,14 +36,14 @@ If you've got any questions, please feel free to <a href="http://twitter.com/opd
 I've had some great feedback via Twitter:
 
 {% include 'tweet' with {
-  tweet_content: '<p><a href="https://twitter.com/opdavies">@opdavies</a> <a href="https://twitter.com/DrupalCampLDN">@DrupalCampLDN</a> always had trouble with git. Your talk + Git flow has made it all very easy.</p>&mdash; James Tombs (@jtombs) <a href="https://twitter.com/jtombs/statuses/440108072078696449">March 2, 2014</a>'
+  content: '<p><a href="https://twitter.com/opdavies">@opdavies</a> <a href="https://twitter.com/DrupalCampLDN">@DrupalCampLDN</a> always had trouble with git. Your talk + Git flow has made it all very easy.</p>&mdash; James Tombs (@jtombs) <a href="https://twitter.com/jtombs/statuses/440108072078696449">March 2, 2014</a>'
 } %}
 
 {% include 'tweet' with {
-  tweet_content: '<p>Great presentation by <a href="https://twitter.com/opdavies">@opdavies</a> on git flow at <a href="https://twitter.com/search?q=%23dclondon&amp;src=hash">#dclondon</a> very well prepared and presented. <a href="http://t.co/tDINp2Nsbn">pic.twitter.com/tDINp2Nsbn</a></p>&mdash; Greg Franklin (@gfranklin) <a href="https://twitter.com/gfranklin/statuses/440104311276969984">March 2, 2014</a>'
+  content: '<p>Great presentation by <a href="https://twitter.com/opdavies">@opdavies</a> on git flow at <a href="https://twitter.com/search?q=%23dclondon&amp;src=hash">#dclondon</a> very well prepared and presented. <a href="http://t.co/tDINp2Nsbn">pic.twitter.com/tDINp2Nsbn</a></p>&mdash; Greg Franklin (@gfranklin) <a href="https://twitter.com/gfranklin/statuses/440104311276969984">March 2, 2014</a>'
 } %}
 
 {% include 'tweet' with {
-  tweet_content: '<p>Great talk on git flow <a href="https://twitter.com/opdavies">@opdavies</a> <a href="https://twitter.com/search?q=%23dclondon&amp;src=hash">#dclondon</a></p>&mdash; Curve Agency (@CurveAgency) <a href="https://twitter.com/CurveAgency/statuses/440095250775035904">March 2, 2014</a>'
+  content: '<p>Great talk on git flow <a href="https://twitter.com/opdavies">@opdavies</a> <a href="https://twitter.com/search?q=%23dclondon&amp;src=hash">#dclondon</a></p>&mdash; Curve Agency (@CurveAgency) <a href="https://twitter.com/CurveAgency/statuses/440095250775035904">March 2, 2014</a>'
 } %}
 {% endblock %}
