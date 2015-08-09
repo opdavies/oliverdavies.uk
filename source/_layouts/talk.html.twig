@@ -16,8 +16,10 @@
             </p>
         {% endif %}
 
-        {% if page.speakerdeck_id %}
-            <script async class="speakerdeck-embed" data-id="{{ page.speakerdeck_id }}" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
+        {% if page.slides_embed %}
+            <div class="slides">
+                {{ page.slides_embed|raw }}
+            </div>
         {% endif %}
     </main>
 {% endblock %}
