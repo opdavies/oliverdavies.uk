@@ -80,10 +80,12 @@ meetups:
 
 hightlightjs: default
 
+digitalocean_referral: a913b4b00d4a
+
 availability:
     day:
         available: no
         until: ~
     evenings:
-        available: yes
+        available: limited
         until: ~
