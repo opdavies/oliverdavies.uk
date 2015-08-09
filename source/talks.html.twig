@@ -5,51 +5,6 @@ meta:
     description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
 use:
     - talks
-talks:
-    - title: So, what is this Drupal thing?
-      title_link: http://vimeo.com/49827006
-      date: 2012-09-05
-      location: unified.diff
-
-    - title: An overview of the Drupal LDAP module
-      date: 2013-07-10
-      location: SWDUG
-
-    - title: Never Commit to Master: An Introduction to Git Flow
-      title_link: https://speakerdeck.com/opdavies/never-commit-to-master-an-introduction-to-git-flow
-      date: 2014-03-01
-      location: DrupalCamp London
-
-    - title: drush make drupalbristol
-      title_link: https://speakerdeck.com/opdavies/drush-make-drupalbristol
-      date: 2014-07-02
-      location: Bristol DUG
-
-    - title: About the Drupal Association
-      date: 2014-08-19
-      location: SWDUG
-
-    - title: Drupal.org in 2015: What’s Coming Next
-      date: 2015-01-18
-      location: DrupalCamp Brighton
-
-    - title: Drupal.org in 2015: What’s Coming Next
-      date: 2015-02-28
-      location: DrupalCamp London
-
-    - title: Drupal 8 (Lightning Talk)
-      title_link: https://speakerdeck.com/opdavies/drupal-8
-      date: 2015-04-08
-      location: PHPSW
-
-    - title: Test Drive Twig with Sculpin
-      title_link: https://speakerdeck.com/opdavies/test-drive-twig-with-sculpin
-      date: 2015-07-25
-      location: DrupalCamp North
-
-    - title: Building Static Websites with Sculpin
-      date: 2015-08-21
-      location: unified.diff
 ---
 {% block body_classes 'page--talks page--talks__list' %}
 
@@ -100,7 +55,7 @@ talks:
     {% set year = '0' %}
     {% set new_year = false %}
 
-    {% for talk in talks if talk.date < now %}
+    {% for talk in talks|reverse if talk.date < now %}
         {% if loop.first %}
             <h2>Previous Talks</h2>
         {% endif %}
