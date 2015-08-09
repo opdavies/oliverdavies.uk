@@ -8,6 +8,12 @@
 
         {{ page.blocks.content|raw }}
 
+        {% if page.joindin_id %}
+            <p>
+                <a href="https://joind.in/talk/view/{{ page.joindin_id }}">Rate this talk on Joind.in.</a>
+            </p>
+        {% endif %}
+
         {% if page.speakerdeck_id %}
             <script async class="speakerdeck-embed" data-id="{{ page.speakerdeck_id }}" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
         {% endif %}
