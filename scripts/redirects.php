@@ -25,8 +25,8 @@ if (($handle = fopen($csv, 'r')) !== FALSE) {
             $output = strtr($template, $templateData);
 
             $filename = str_replace('/', '-', $data[0]);
-            file_put_contents("source/{$data[0]}.html", $output);
-            echo "Written to {$data[0]}.html\n";
+            file_put_contents("source/$filename.html", $output);
+            echo "Written to $filename.html\n";
         }
     }
 }
