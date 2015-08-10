@@ -60,5 +60,5 @@ For example:
 
 ## Screencast
 
-<a class="player" href="http://vimeo.com/45731954">Nomensa Accessible Media Player for Drupal</a>
+<iframe src="https://player.vimeo.com/video/45731954" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 {% endblock %}
