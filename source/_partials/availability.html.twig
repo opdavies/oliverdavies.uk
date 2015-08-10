@@ -5,8 +5,7 @@
         {% set output, now = '', "now"|date('U') %}
 
         {% for type, data in site.availability %}
-            {% set text, status, start, end = '', site.availability[type].available, site.availability[type].start,
-            site.availability[type].end %}
+            {% set text, status, start, end = '', data.available, data.start, data.end %}
 
             {% if type == 'day' %}
                 {% if status == 'yes' %}
