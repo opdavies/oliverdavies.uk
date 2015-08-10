@@ -38,7 +38,7 @@
                 {% set text = text ~ ' until ' ~ end|date('F Y') %}
             {% endif %}
 
-            <p>{{ text }}.</p>
+            <p class="availability__{{ status }}">{{ text }}.</p>
         {% endfor %}
     </div>
 </div>
