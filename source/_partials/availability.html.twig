@@ -17,6 +17,7 @@
             {% if day_start|date('U') > now %}
                 {% set day_status = day_status ~ ' starting ' ~ day_start|date('F Y') %}
             {% endif %}
+
             {% if evenings_end %}
                 {% set day_status = day_status ~ ', until ' ~ day_end|date('F Y') %}
             {% endif %}
@@ -42,6 +43,7 @@
             {% if evenings_start|date('U') > now %}
                 {% set evening_status = evening_status ~ ' starting ' ~ evenings_start|date('F Y') %}
             {% endif %}
+
             {% if evenings_end %}
                 {% set evening_status = evening_status ~ ', until ' ~ evenings_end|date('F Y') %}
             {% endif %}
