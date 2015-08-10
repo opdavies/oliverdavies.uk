@@ -27,13 +27,15 @@
             {% if start %}
                 {% if start|date('U') > now %}
                     {% set text = text ~ ' starting ' ~ start|date('F Y') %}
-                {% endif %}
 
-                {% if end %}
-                    {% set text = text ~ ', until ' ~ end|date('F Y') %}
+                    {% if end %}
+                        {% set text = text ~ ',' %}
+                    {% endif %}
                 {% endif %}
-            {% elseif end %}
-                {% set text = text ~ ', until ' ~ end|date('F Y') %}
+            {% endif %}
+
+            {% if end %}
+                {% set text = text ~ ' until ' ~ end|date('F Y') %}
             {% endif %}
 
             <p>{{ text }}.</p>
