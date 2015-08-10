@@ -3,18 +3,20 @@
     <div class="content">
         {% set day_available = site.availability.day.available %}
         {% if (day_available == 'no') %}
-            <p>Not available for day contract work.</p>
+            {% set day_status = 'Not available for day contract work' %}
         {% else %}
-            <p>Available for day contract work.</p>
+            {% set day_status = 'Available for day contract work' %}
         {% endif %}
+        <p>{{ day_status }}.</p>
 
         {% set evenings_available = site.availability.evenings.available %}
         {% if (evenings_available == 'yes') %}
-            <p>Available for weekend/evening freelance work.</p>
+            {% set evening_status = 'Available for weekend/evening freelance work' %}
         {% elseif (evenings_available == 'limited') %}
-            <p>Limited availability for weekend/evening freelance work.</p>
+            {% set evening_status = 'Limited availability for weekend/evening freelance work' %}
         {% else %}
-            <p>Not available for weekend/evening freelance work.</p>
+            {% set evening_status = 'Not available for weekend/evening freelance work' %}
         {% endif %}
+        <p>{{ evening_status }}.</p>
     </div>
 </div>
