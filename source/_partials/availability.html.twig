@@ -5,62 +5,38 @@
         {% set output, now = '', "now"|date('U') %}
 
         {% for type, data in site.availability %}
-            {% set text, status, start, end = '', site.availability[type].availability, site.availability[type].start,
+            {% set text, status, start, end = '', site.availability[type].available, site.availability[type].start,
             site.availability[type].end %}
 
             {% if type == 'day' %}
-
+                {% if status == 'yes' %}
+                    {% set text = 'Available for day contract work' %}
+                {% elseif status == 'no' %}
+                    {% set text = 'Not available for day contract work' %}
+                {% endif %}
             {% elseif type == 'evenings' %}
-
+                {% if status == 'yes' %}
+                    {% set text = 'Available for weekend/evening freelance work' %}
+                {% elseif status == 'limited' %}
+                    {% set text = 'Limited availability for weekend/evening freelance work' %}
+                {% elseif status == 'no' %}
+                    {% set text = 'Not available for weekend/evening freelance work' %}
+                {% endif %}
             {% endif %}
+
+            {% if start %}
+                {% if start|date('U') > now %}
+                    {% set text = text ~ ' starting ' ~ start|date('F Y') %}
+                {% endif %}
+
+                {% if end %}
+                    {% set text = text ~ ', until ' ~ end|date('F Y') %}
+                {% endif %}
+            {% elseif end %}
+                {% set text = text ~ ', until ' ~ end|date('F Y') %}
+            {% endif %}
+
+            <p>{{ text }}.</p>
         {% endfor %}
-
-        {#
-        {% if (day_available == 'no') %}
-            {% set day_status = 'Not available for day contract work' %}
-        {% else %}
-            {% set day_status = 'Available for day contract work' %}
-        {% endif %}
-
-        {% if day_start %}
-            {% if day_start|date('U') > now %}
-                {% set day_status = day_status ~ ' starting ' ~ day_start|date('F Y') %}
-            {% endif %}
-
-            {% if evenings_end %}
-                {% set day_status = day_status ~ ', until ' ~ day_end|date('F Y') %}
-            {% endif %}
-        {% elseif day_end %}
-            {% set day_status = day_status ~ ', until ' ~ day_end|date('F Y') %}
-        {% endif %}
-
-        <p>{{ day_status }}.</p>
-
-        {% set evenings_available = site.availability.evenings.available %}
-        {% set evenings_start = site.availability.evenings.start %}
-        {% set evenings_end = site.availability.evenings.end %}
-
-        {% if (evenings_available == 'yes') %}
-            {% set evening_status = 'Available for weekend/evening freelance work' %}
-        {% elseif (evenings_available == 'limited') %}
-            {% set evening_status = 'Limited availability for weekend/evening freelance work' %}
-        {% else %}
-            {% set evening_status = 'Not available for weekend/evening freelance work' %}
-        {% endif %}
-
-        {% if evenings_start %}
-            {% if evenings_start|date('U') > now %}
-                {% set evening_status = evening_status ~ ' starting ' ~ evenings_start|date('F Y') %}
-            {% endif %}
-
-            {% if evenings_end %}
-                {% set evening_status = evening_status ~ ', until ' ~ evenings_end|date('F Y') %}
-            {% endif %}
-        {% elseif evenings_end %}
-            {% set evening_status = evening_status ~ ', until ' ~ evenings_end|date('F Y') %}
-        {% endif %}
-
-        <p>{{ evening_status }}.</p>
-        #}
     </div>
 </div>
