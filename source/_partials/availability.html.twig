@@ -1,19 +1,20 @@
 <div class="availability">
     <h2>Availability</h2>
     <div class="content">
-        {% if (site.availability.day.available == 'no') %}
+        {% set day_available = site.availability.day.available %}
+        {% if (day_available == 'no') %}
             <p>Not available for day contract work.</p>
         {% else %}
             <p>Available for day contract work.</p>
         {% endif %}
 
-        {% if (site.availability.evenings.available == 'yes') %}
+        {% set evenings_available = site.availability.evenings.available %}
+        {% if (evenings_available == 'yes') %}
             <p>Available for weekend/evening freelance work.</p>
-        {% elseif (site.availability.evenings.available == 'limited') %}
+        {% elseif (evenings_available == 'limited') %}
             <p>Limited availability for weekend/evening freelance work.</p>
         {% else %}
             <p>Not available for weekend/evening freelance work.</p>
         {% endif %}
-
     </div>
 </div>
