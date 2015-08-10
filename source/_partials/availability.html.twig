@@ -1,12 +1,21 @@
 <div class="availability">
     <h2>Availability</h2>
+
     <div class="content">
-        {% set now = "now"|date('U') %}
+        {% set output, now = '', "now"|date('U') %}
 
-        {% set day_available = site.availability.day.available %}
-        {% set day_start = site.availability.day.start %}
-        {% set day_end = site.availability.day.end %}
+        {% for type, data in site.availability %}
+            {% set text, status, start, end = '', site.availability[type].availability, site.availability[type].start,
+            site.availability[type].end %}
 
+            {% if type == 'day' %}
+
+            {% elseif type == 'evenings' %}
+
+            {% endif %}
+        {% endfor %}
+
+        {#
         {% if (day_available == 'no') %}
             {% set day_status = 'Not available for day contract work' %}
         {% else %}
@@ -52,5 +61,6 @@
         {% endif %}
 
         <p>{{ evening_status }}.</p>
+        #}
     </div>
 </div>
