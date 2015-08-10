@@ -85,7 +85,9 @@ digitalocean_referral: a913b4b00d4a
 availability:
     day:
         available: no
-        until: ~
+        start: ~
+        end: ~
     evenings:
         available: limited
-        until: ~
+        start: 2015-08-10
+        end: ~
