@@ -1,6 +1,8 @@
 <div class="availability">
     <h2>Availability</h2>
     <div class="content">
+        {% set now = "now"|date('U') %}
+
         {% set day_available = site.availability.day.available %}
         {% set day_start = site.availability.day.start %}
         {% set day_end = site.availability.day.end %}
@@ -12,7 +14,9 @@
         {% endif %}
 
         {% if day_start %}
-            {% set day_status = day_status ~ ' starting ' ~ day_start|date('F Y') %}
+            {% if day_start|date('U') > now %}
+                {% set day_status = day_status ~ ' starting ' ~ day_start|date('F Y') %}
+            {% endif %}
             {% if evenings_end %}
                 {% set day_status = day_status ~ ', until ' ~ day_end|date('F Y') %}
             {% endif %}
@@ -35,7 +39,9 @@
         {% endif %}
 
         {% if evenings_start %}
-            {% set evening_status = evening_status ~ ' starting ' ~ evenings_start|date('F Y') %}
+            {% if evenings_start|date('U') > now %}
+                {% set evening_status = evening_status ~ ' starting ' ~ evenings_start|date('F Y') %}
+            {% endif %}
             {% if evenings_end %}
                 {% set evening_status = evening_status ~ ', until ' ~ evenings_end|date('F Y') %}
             {% endif %}
