@@ -74,7 +74,7 @@ meetups:
         url: http://www.accessiblebristol.org.uk
 
     udiff:
-        name: unified.diff
+        name: Unified Diff
         logo: unified-diff.png
         url: http://unifieddiff.co.uk
 
