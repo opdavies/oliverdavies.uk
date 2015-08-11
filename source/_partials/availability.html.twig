@@ -2,42 +2,40 @@
     <h2>Availability</h2>
 
     <div class="content">
-        {% set output, now = '', "now"|date('U') %}
+        {% set now = "now"|date('U') %}
 
         {% for type, data in site.availability %}
-            {% set text, status, start, end = '', data.available, data.start, data.end %}
-
             {% if type == 'day' %}
-                {% if status == 'yes' %}
+                {% if data.available == 'yes' %}
                     {% set text = 'Available for day contract work' %}
-                {% elseif status == 'no' %}
+                {% elseif data.available == 'no' %}
                     {% set text = 'Not available for day contract work' %}
                 {% endif %}
             {% elseif type == 'evenings' %}
-                {% if status == 'yes' %}
+                {% if data.available == 'yes' %}
                     {% set text = 'Available for weekend/evening freelance work' %}
-                {% elseif status == 'limited' %}
+                {% elseif data.available == 'limited' %}
                     {% set text = 'Limited availability for weekend/evening freelance work' %}
-                {% elseif status == 'no' %}
+                {% elseif data.available == 'no' %}
                     {% set text = 'Not available for weekend/evening freelance work' %}
                 {% endif %}
             {% endif %}
 
-            {% if start %}
-                {% if start|date('U') > now %}
-                    {% set text = text ~ ' starting ' ~ start|date('F Y') %}
+            {% if data.start %}
+                {% if data.start|date('U') > now %}
+                    {% set text = text ~ ' starting ' ~ data.start|date('F Y') %}
 
-                    {% if end %}
+                    {% if data.end %}
                         {% set text = text ~ ',' %}
                     {% endif %}
                 {% endif %}
             {% endif %}
 
-            {% if end %}
-                {% set text = text ~ ' until ' ~ end|date('F Y') %}
+            {% if data.end %}
+                {% set text = text ~ ' until ' ~ data.end|date('F Y') %}
             {% endif %}
 
-            <p class="availability__{{ status }}">{{ text }}.</p>
+            <p class="availability__{{ data.available }}">{{ text }}.</p>
         {% endfor %}
     </div>
 </div>
