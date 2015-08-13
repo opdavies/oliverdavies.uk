@@ -1,5 +1,6 @@
 <li>{% spaceless %}
     <strong>
+        {% if not talk.fuzzy_date %}
             {{ talk.date|date('jS F') }}
         {% else %}
             {{ talk.date|date('F') }}
