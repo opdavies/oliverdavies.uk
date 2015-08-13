@@ -24,7 +24,7 @@ use:
     {% set year = '0' %}
     {% set new_year = false %}
 
-    {% for talk in talks|reverse if talk.date >= now %}
+    {% for talk in talks if talk.date >= now %}
         {% if loop.first %}
             <h2>Upcoming Talks</h2>
         {% endif %}
