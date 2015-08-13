@@ -74,7 +74,7 @@ meetups:
         url: http://www.accessiblebristol.org.uk
 
     udiff:
-        name: unified.diff
+        name: Unified Diff
         logo: unified-diff.png
         url: http://unifieddiff.co.uk
 
@@ -83,3 +83,14 @@ hightlightjs: default
 digitalocean_referral: a913b4b00d4a
 
 default_date_format: jS F, Y
+
+availability:
+    day:
+        available: no
+        start: ~
+        end: ~
+    evenings:
+        available: limited
+        start: 2015-08-10
+        end: ~
+

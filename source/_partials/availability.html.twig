@@ -1,0 +1,41 @@
+<div class="availability">
+    <h2>Availability</h2>
+
+    <div class="content">
+        {% set now = "now"|date('U') %}
+
+        {% for type, data in site.availability %}
+            {% if type == 'day' %}
+                {% if data.available == 'yes' %}
+                    {% set text = 'Available for day contract work' %}
+                {% elseif data.available == 'no' %}
+                    {% set text = 'Not available for day contract work' %}
+                {% endif %}
+            {% elseif type == 'evenings' %}
+                {% if data.available == 'yes' %}
+                    {% set text = 'Available for weekend/evening freelance work' %}
+                {% elseif data.available == 'limited' %}
+                    {% set text = 'Limited availability for weekend/evening freelance work' %}
+                {% elseif data.available == 'no' %}
+                    {% set text = 'Not available for weekend/evening freelance work' %}
+                {% endif %}
+            {% endif %}
+
+            {% if data.start %}
+                {% if data.start|date('U') > now %}
+                    {% set text = text ~ ' starting ' ~ data.start|date('F Y') %}
+
+                    {% if data.end %}
+                        {% set text = text ~ ',' %}
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+
+            {% if data.end %}
+                {% set text = text ~ ' until ' ~ data.end|date('F Y') %}
+            {% endif %}
+
+            <p class="availability__{{ data.available }}">{{ text }}.</p>
+        {% endfor %}
+    </div>
+</div>

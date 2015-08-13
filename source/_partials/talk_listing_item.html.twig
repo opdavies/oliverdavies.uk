@@ -1,6 +1,11 @@
 <li>{% spaceless %}
-    <strong>{{ talk.date|date('F') }}</strong> - {{ talk.location }} -
-    <a href="{{ talk.url }}" title="{{ talk.title }}">
-        {{ talk.title }}
-    </a>
+    <strong>
+            {{ talk.date|date('jS F') }}
+        {% else %}
+            {{ talk.date|date('F') }}
+        {% endif %}
+    </strong> - {{ talk.location }} -
+    {% if talk.title_link -%}<a href="{{ talk.title_link }}" title="{{ talk.title }}">{%- endif -%}
+    {{ talk.title }}
+    {%- if talk.title_link -%}</a>{%- endif -%}
 {% endspaceless %}</li>
