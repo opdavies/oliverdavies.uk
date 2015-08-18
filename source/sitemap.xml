@@ -15,7 +15,7 @@ use:
     {% set pages = { 0: 'accessibility', 1: 'blog', 2: 'company-information', 3: 'contact', 4: 'services', 5: 'talks', 6: 'work' } %}
     {% for page in pages %}
       <url>
-        <loc>{{ site.url }}/{{ page }}</loc>
+        <loc>{{ site.url }}/{{ page }}/</loc>
         <lastmod>{{ site.calculated_date|date('Y-m-d') }}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -31,7 +31,7 @@ use:
 
   {% for post in data.posts %}
   <url>
-    <loc>{{ site.url }}{{ post.url }}</loc>
+    <loc>{{ site.url }}{{ post.url }}/</loc>
     <lastmod>{{ post.date|date('c') }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
