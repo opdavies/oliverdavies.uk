@@ -61,7 +61,20 @@
                     </main>
                 {% endblock %}
 
-                {% include 'sidebar' %}
+                {% block sidebar_wrapper %}
+                    <div class="col-md-2">
+                        {% block sidebar %}
+                            <section class="block block--da_member">
+                                <h2>Drupal Association</h2>
+                                <a href="https://assoc.drupal.org/membership" title="Become a Drupal Association member">
+                                    <img src="{{ site.url }}/assets/images/da-individual-member.png" alt="Drupal Association Individual Member">
+                                </a>
+                            </section>
+
+                            {% include 'availability' %}
+                        {% endblock %}
+                    </div>
+                {% endblock %}
             </div>{# .row #}
         </div>{# .container #}
 
