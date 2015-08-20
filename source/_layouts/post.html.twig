@@ -6,7 +6,7 @@
     <main class="col-md-10">
         {% include 'post_header' %}
 
-        {% block content %}{% endblock %}
+        {% block content %}{% endblock content %}
 
         {% if page.related -%}
             <h2>Related Posts</h2>
@@ -45,4 +45,4 @@
     {% endif %}
 
     </main>
-{% endblock %}
+{% endblock content_wrapper %}

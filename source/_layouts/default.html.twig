@@ -57,9 +57,9 @@
             <div class="row">
                 {% block content_wrapper %}
                     <main class="col-md-10">
-                        {% block content %}{% endblock %}
+                        {% block content %}{% endblock content %}
                     </main>
-                {% endblock %}
+                {% endblock content_wrapper %}
 
                 {% block sidebar_wrapper %}
                     <div class="col-md-2">
@@ -72,9 +72,9 @@
                             </section>
 
                             {% include 'availability' %}
-                        {% endblock %}
+                        {% endblock sidebar %}
                     </div>
-                {% endblock %}
+                {% endblock sidebar_wrapper %}
             </div>{# .row #}
         </div>{# .container #}
 
@@ -89,7 +89,7 @@
         <script src="{{ site.url }}/components/highlightjs/highlight.pack.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
 
-        {% block scripts %}{% endblock %}
+        {% block scripts %}{% endblock scripts %}
 
         {% if page.tweets is defined and page.tweets == true %}
             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
