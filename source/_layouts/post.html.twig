@@ -3,38 +3,40 @@
 {% block body_classes 'page--blog page--blog__post' %}
 
 {% block content_wrapper %}
-  <main class="col-md-10">
-    {% include 'post_header' %}
+    <main class="col-md-10">
+        {% include 'post_header' %}
 
-    {% block content %}{% endblock %}
+        {% block content %}{% endblock %}
 
-    {% if page.related -%}
-        <h2>Related Posts</h2>
+        {% if page.related -%}
+            <h2>Related Posts</h2>
 
-        <ul>
-            {% for relate in page.related -%}
-                <li><a href="{{ relate.source.url }}">{{ relate.title }}</a></li>
-            {% endfor %}
-        </ul>
-    {%- endif %}
+            <ul>
+                {% for relate in page.related -%}
+                    <li>
+                        <a href="{{ relate.source.url }}">{{ relate.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {%- endif %}
 
-    {% if page.tags %}
-      <p class="tags">
-        Tags:
-        {% for tag in page.tags %}
-          <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
-        {% endfor %}
-      </p>
+        {% if page.tags %}
+            <p class="tags">
+                Tags:
+                {% for tag in page.tags %}
+                    <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+                {% endfor %}
+            </p>
+        {% endif %}
+
+        {% include 'about_author' %}
+
+        {% if page.next_post or page.previous_post %}
+            <ul>
+                {% if page.next_post %}<li>Next post: <a href="{{ page.next_post.url }}">{{ page.next_post.title }}</a></li>{% endif %}
+                {% if page.previous_post %}<li>Previous post: <a href="{{ page.previous_post.url }}">{{ page.previous_post.title }}</a></li>{% endif %}
+            </ul>
     {% endif %}
 
-    {% include 'about_author' %}
-
-    {% if page.next_post or page.previous_post %}
-      <ul>
-        {% if page.next_post %}<li>Next post: <a href="{{ page.next_post.url }}">{{ page.next_post.title }}</a></li>{% endif %}
-        {% if page.previous_post %}<li>Previous post: <a href="{{ page.previous_post.url }}">{{ page.previous_post.title }}</a></li>{% endif %}
-      </ul>
-    {% endif %}
-
-  </main>
+    </main>
 {% endblock %}
