@@ -7,6 +7,7 @@ slides_embed: <script async class="speakerdeck-embed" data-id="54589d2e50a3476a9
 tags:
     - conference
     - drupalcamp
+    - drupalcamp-north
     - sculpin
     - twig
 ---
