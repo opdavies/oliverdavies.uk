@@ -4,22 +4,8 @@
     <div class="content">
         {% set now = "now"|date('U') %}
 
-        {% for type, data in site.availability %}
-            {% if type == 'day' %}
-                {% if data.available == 'yes' %}
-                    {% set text = 'Available for day contract work' %}
-                {% elseif data.available == 'no' %}
-                    {% set text = 'Not available for day contract work' %}
-                {% endif %}
-            {% elseif type == 'evenings' %}
-                {% if data.available == 'yes' %}
-                    {% set text = 'Available for weekend/evening freelance work' %}
-                {% elseif data.available == 'limited' %}
-                    {% set text = 'Limited availability for weekend/evening freelance work' %}
-                {% elseif data.available == 'no' %}
-                    {% set text = 'Not available for weekend/evening freelance work' %}
-                {% endif %}
-            {% endif %}
+        {% for type, data in site.availability.status %}
+            {% set text = site.availability.text[type][data.available] %}
 
             {% if data.start %}
                 {% if data.start|date('U') > now %}

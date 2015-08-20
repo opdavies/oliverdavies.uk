@@ -86,11 +86,20 @@ default_date_format: jS F, Y
 title_separator: "|"
 
 availability:
-    day:
-        available: no
-        start: ~
-        end: ~
-    evenings:
-        available: limited
-        start: 2015-08-10
-        end: ~
+    status:
+        day:
+            available: no
+            start: ~
+            end: ~
+        evenings:
+            available: limited
+            start: 2015-08-10
+            end: ~
+    text:
+        day:
+            yes: Available for day contract work
+            no: Not available for day contract work
+        evenings:
+            yes: Available for weekend/evening freelance work
+            no: Not availabile for weekend/evening freelance work
+            limited: Limited availability for weekend/evening freelance work
