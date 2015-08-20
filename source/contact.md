@@ -21,7 +21,7 @@ Here are some other places to find me online:
 
 * IRC ({{ site.irc.name }}) - I'm usually in #drupal-uk and #drupal-contribute on Freenode, among others.
 * <a href="{{ site.twitter.url }}">Twitter</a> (@{{ site.twitter.name }})
-* <a href="{{ site.drupalorg.nice }}">Drupal.org</a>
+* <a href="{{ site.drupalorg.url_nice }}">Drupal.org</a>
 * <a href="{{ site.linkedin.url }}">LinkedIn</a>
 * <a href="{{ site.lanyrd.url }}">Lanyrd</a>
 * <a href="{{ site.joindin.url }}">Joind.in</a>

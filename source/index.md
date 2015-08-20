@@ -20,7 +20,7 @@ meta:
 <img src="{{ site.gravatar.url }}?s=85" alt="Picture of Oliver" class="img-circle">
 
 Hi, I'm Oliver Davies, a Web Developer and System Administrator based in Newport, South Wales. I specialise in PHP
-development with <a href="{{ site.drupalorg.nice }}">Drupal</a> and <a href="http://sculpin.io">Sculpin</a>, and Linux
+development with <a href="{{ site.drupalorg.url_nice }}">Drupal</a> and <a href="http://sculpin.io">Sculpin</a>, and Linux
 system administration. I’m also currently learning Symfony2 framework and Silex.
 
 You can follow me on
