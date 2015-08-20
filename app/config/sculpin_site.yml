@@ -78,10 +78,8 @@ meetups:
         logo: unified-diff.png
         url: http://unifieddiff.co.uk
 
-hightlightjs: default
-
+hightlightjs_style: default
 digitalocean_referral: a913b4b00d4a
-
 default_date_format: jS F, Y
 title_separator: "|"
 
