@@ -5,8 +5,11 @@
         {% else %}
             {{ talk.date|date('F') }}
         {% endif %}
-    </strong> - {{ talk.location }} -
-    {% if talk.title_link %}<a href="{{ talk.title_link }}">{% endif %}
+    </strong> -
+        {% if talk.location_link %}<a href="{{ talk.location_link }}">{% endif %}
+            {{ talk.location }}
+        {% if talk.location_link %}</a>{% endif %}
+    - {% if talk.title_link %}<a href="{{ talk.title_link }}">{% endif %}
         {{ talk.title }}
     {% if talk.title_link %}</a>{% endif %}
 
