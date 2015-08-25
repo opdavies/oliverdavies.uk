@@ -3,8 +3,12 @@ layout: default
 title: Talks
 meta:
     description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
-use:
-    - talks
+talks:
+    - { date: 2015-04-08, location: PHPSW, title: Drupal 8, title_suffix: (lightning talk), title_link: https://joind.in/talk/view/14380 }
+    - { date: 2015-07-25, location: DrupalCamp North, title: Test Drive Twig with Sculpin, title_link: https://speakerdeck.com/opdavies/test-drive-twig-with-sculpin }
+    - { date: 2015-08-25, location: Umbraco Bristol, title: Drupal }
+    - { date: 2015-11-01, location: Accessible Bristol, title: Accessible Drupal, fuzzy_date: true }
+    - { date: 2015-11-01, location: Unified Diff, title: Building Static Websites with Sculpin, fuzzy_date: true }
 ---
 {% block body_classes 'page--talks page--talks__list' %}
 
@@ -18,7 +22,7 @@ use:
     <a href="{{ site.lanyrd.url }}">Lanyrd</a> and <a href="{{ site.joindin.url }}">Joind.in</a> profiles.</p>
 
     {% set now = 'now'|date('U') %}
-    {% set talks = data.talks|reverse %}
+    {% set talks = page.talks %}
 
     {% set found = false %}
     {% set year = '0' %}
