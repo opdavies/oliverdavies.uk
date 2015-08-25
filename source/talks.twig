@@ -3,8 +3,19 @@ layout: default
 title: Talks
 meta:
     description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
-use:
-    - talks
+talks:
+    - { date: 2012-09-05, location: Unified Diff, title: "So, What's This Drupal Thing?", title_link: https://vimeo.com/49827006 }
+    - { date: 2013-07-10, location: SWDUG, title: Drupal and the LDAP Module }
+    - { date: 2014-03-01, location: DrupalCamp London, title: "Never Commit to Master: An Introduction to Git Flow", title_link: https://speakerdeck.com/opdavies/never-commit-to-master-an-introduction-to-git-flow }
+    - { date: 2014-07-02, location: Drupal Bristol, title: drush make drupalbristol, title_link: https://speakerdeck.com/opdavies/drush-make-drupalbristol }
+    - { date: 2014-08-19, location: SWDUG, title: About the Drupal Association }
+    - { date: 2015-01-18, location: DrupalCamp Brighton, title: "Drupal.org in 2015: What's Coming Next" }
+    - { date: 2015-02-28, location: DrupalCamp London, title: "Drupal.org in 2015: What's Coming Next" }
+    - { date: 2015-04-08, location: PHPSW, title: Drupal 8, title_suffix: (lightning talk), title_link: https://joind.in/talk/view/14380 }
+    - { date: 2015-07-25, location: DrupalCamp North, title: Test Drive Twig with Sculpin, title_link: https://speakerdeck.com/opdavies/test-drive-twig-with-sculpin }
+    - { date: 2015-08-25, location: Umbraco Bristol, title: Drupal }
+    - { date: 2015-11-01, location: Accessible Bristol, title: Accessible Drupal, fuzzy_date: true }
+    - { date: 2015-11-01, location: Unified Diff, title: Building Static Websites with Sculpin, fuzzy_date: true }
 ---
 {% block body_classes 'page--talks page--talks__list' %}
 
@@ -17,8 +28,8 @@ use:
     <p>There is also information about events that I’ve attended and spoken at on my
     <a href="{{ site.lanyrd.url }}">Lanyrd</a> and <a href="{{ site.joindin.url }}">Joind.in</a> profiles.</p>
 
-    {% set now = 'now'|date('U') %}
-    {% set talks = data.talks|reverse %}
+    {% set now = 'today'|date('U') %}
+    {% set talks = page.talks %}
 
     {% set found = false %}
     {% set year = '0' %}

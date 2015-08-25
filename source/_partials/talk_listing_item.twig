@@ -6,7 +6,9 @@
             {{ talk.date|date('F') }}
         {% endif %}
     </strong> - {{ talk.location }} -
-    <a href="{{ talk.url }}">
+    {% if talk.title_link %}<a href="{{ talk.title_link }}">{% endif %}
         {{ talk.title }}
-    </a>
+    {% if talk.title_link %}</a>{% endif %}
+
+    {{ talk.title_suffix }}
 {% endspaceless %}</li>
