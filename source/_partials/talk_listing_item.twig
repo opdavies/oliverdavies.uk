@@ -13,6 +13,7 @@
     {% if talk.location_link %}
         </a>
     {% endif %}
+    {{ talk.location_suffix }}
     -
     {% if talk.title_link %}
         <a href="{{ talk.title_link }}">
@@ -21,4 +22,5 @@
     {% if talk.title_link %}
         </a>
     {% endif %}
+    {{ talk.title_suffix }}
 </li>
