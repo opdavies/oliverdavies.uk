@@ -1,26 +1,9 @@
 <li>
-    <strong>
+    <strong>{% spaceless %}
         {% if talk.fuzzy_date %}
             {{ talk.date|date('F') }}
         {% else %}
             {{ talk.date|date('jS F') }}
         {% endif %}
-    </strong> -
-    {% if talk.location_link %}
-        <a href="{{ talk.location_link }}">
-    {% endif %}
-    {{ talk.location }}
-    {% if talk.location_link %}
-        </a>
-    {% endif %}
-    {{ talk.location_suffix }}
-    -
-    {% if talk.title_link %}
-        <a href="{{ talk.title_link }}">
-    {% endif %}
-    {{ talk.title }}
-    {% if talk.title_link %}
-        </a>
-    {% endif %}
-    {{ talk.title_suffix }}
+    {% endspaceless %}</strong> - {{ talk.location|raw }} - {{ talk.title|raw }}
 </li>
