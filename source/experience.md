@@ -9,6 +9,11 @@ meta:
 {% block content %}
 # Experience
 
+## PHP
+
+* A good knowledge of procedural and object-orientated PHP (5+).
+* Knowledge of using CMSes and frameworks such as [Drupal](#drupal), WordPress, [Sculpin](#static-sites) and [Symfony](#symfony).
+
 ## Drupal
 
 * Website development using Drupal 6 and 7.
@@ -23,14 +28,14 @@ meta:
 * Ad-hoc and ongoing support and maintenance of Drupal sites, including security updates.
 * [Git](http://git-scm.com) setup and training.
 
-## Symfony
+##Symfony
 
 * An intermediate knowledge of object-oriented PHP.
 * An introductory knowledge of [Symfony](https://symfony.com/) full-stack framework and [Silex](http://silex.sensiolabs.org/).
 * Use of [Composer](https://getcomposer.org/doc/00-intro.md#introduction) and Symfony components such as [Guzzle](https://packagist.org/packages/guzzlehttp/guzzle) in non-Drupal projects.
 * Use of [Twig](http://twig.sensiolabs.org/) in Symfony, Drupal 8 and Sculpin projects.
 
-## Static sites
+##Static sites
 
 * Development of sites using [Jekyll](http://jekyllrb.com/), hosted on [GitHub Pages](https://pages.github.com/).
 * Development of sites using [Sculpin](https://sculpin.io). These have mainly been self-hosted and served via Nginx.
