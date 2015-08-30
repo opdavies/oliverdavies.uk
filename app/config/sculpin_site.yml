@@ -36,7 +36,7 @@ apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
 favicon_sizes: [ 160, 96, 32, 16 ]
 
 main_menu:
-    - { title: Services, href: /services/ }
+    - { title: Experience, href: /experience/ }
     - { title: Testimonials, href: /testimonials/ }
     - { title: Talks, href: /talks/ }
     - { title: Blog, href: /blog/ }
