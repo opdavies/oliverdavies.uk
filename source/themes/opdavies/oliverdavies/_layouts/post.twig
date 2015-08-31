@@ -9,7 +9,7 @@
         {% block content %}{% endblock content %}
 
         <p class="post-feedback" style="font-style: italic">
-            <b>Have feedback about this post?</b> <a href="mailto:{{ site.email }}?subject=Feedback: {{ page.title }}">Email me</a> or <a href="https://twitter.com/home?status=@{{ site.twitter.name }} {{ site.url }}/{{ page.url }}:">send me a tweet</a>.
+            <b>Have feedback about this post?</b> <a href="mailto:{{ site.email }}?subject=Feedback: {{ page.title }}">Email me</a> or <a href="https://twitter.com/home?status=@{{ site.twitter.name }} {{ site.url }}{{ page.url }}:">send me a tweet</a>.
         </p>
 
         {% if page.related -%}
