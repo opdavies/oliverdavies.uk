@@ -8,6 +8,10 @@
 
         {% block content %}{% endblock content %}
 
+        <p class="post-feedback" style="font-style: italic">
+            <b>Have feedback about this post?</b> <a href="mailto:{{ site.email }}">Email me</a> or <a href="{{ site.twitter.url }}">send me a tweet</a>.
+        </p>
+
         {% if page.related -%}
             <h2>Related Posts</h2>
 
