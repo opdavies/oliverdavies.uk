@@ -1,5 +1,15 @@
+sculpin:
+    ignore:
+        - "**/*.scss"
+        - "**/.sass-cache"
+        - "**/config.rb"
+        - "**/Gemfile*"
+
 sculpin_content_types:
     posts:
         permalink: blog/:slug_title/
         taxonomies:
             - tags
+
+sculpin_theme:
+    theme: opdavies/oliverdavies
