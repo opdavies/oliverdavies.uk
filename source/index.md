@@ -20,12 +20,11 @@ meta:
 <img src="{{ site.gravatar.url }}?s=100" alt="Picture of Oliver" class="img-circle">
 
 Hi, I'm Oliver Davies, a Web Developer and System Administrator based in Newport, South Wales. I specialise in PHP
-development with <a href="{{ site.drupalorg.url_nice }}">Drupal</a> and <a href="http://sculpin.io">Sculpin</a>, and Linux
-system administration. I’m also currently learning Symfony2 framework and Silex.
+development with <a href="{{ site.drupalorg.url_nice }}">Drupal</a> and <a href="http://sculpin.io">Sculpin</a>, and
+Linux system administration. I’m also currently learning Symfony2 framework and Silex.
 
-You can follow me on
-<a href="{{ site.twitter.url }}">Twitter</a> and <a href="{{ site.linkedin.url }}">LinkedIn</a>, and you can view my
-code on <a href="{{ site.drupalorg.url }}/track/code">Drupal.org</a> and
+You can follow me on <a href="{{ site.twitter.url }}">Twitter</a> and <a href="{{ site.linkedin.url }}">LinkedIn</a>,
+and you can view my code on <a href="{{ site.drupalorg.url }}/track/code">Drupal.org</a> and
 <a href="{{ site.github.url }}?tab=activity">GitHub</a>.
 
 I’m currently a Senior Developer at [Microserve](https://microserve.io) - a specialist Drupal development agency based
