@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-    <!--[if lte IE 8]><html lang="en-GB" class="ie ie8 lt9 lte8 lte7"> <![endif]-->
-    <!--[if IE 9]><html lang="en-GB" class="ie ie9 lte9"> <![endif]-->
-    <!--[if gt IE 9]><html lang="en-GB"><![endif]-->
-    <!--[if !IE]><!--><html lang="en-GB"><!--<![endif]-->
+    <!--[if lte IE 8]><html lang="{{ site.html_lang }}" class="ie ie8 lt9 lte8 lte7"> <![endif]-->
+    <!--[if IE 9]><html lang="{{ site.html_lang }}" class="ie ie9 lte9"> <![endif]-->
+    <!--[if gt IE 9]><html lang="{{ site.html_lang }}"><![endif]-->
+    <!--[if !IE]><!--><html lang="{{ site.html_lang }}"><!--<![endif]-->
     <head>
         {% include 'title' %}
 
@@ -14,7 +14,7 @@
             {% include "og" with { og: page.meta.og } %}
         {% endif %}
 
-        <meta lang="en-GB" charset="utf-8">
+        <meta lang="{{ site.html_lang }}" charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{ site.url }}/{{ theme_path('css/styles.css') }}">
