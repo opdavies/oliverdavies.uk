@@ -54,6 +54,5 @@ and a provisional member of the [Drupal Security team](https://www.drupal.org/se
 
 I organise Drupal user group events such as talk nights and code sprints in <a href="{{ site.meetups.swdug.url }}">South
 Wales</a> and <a href="{{ site.meetups.drupalbristol.url }}">Bristol</a>, and am a founding
-[DrupalCamp Bristol](http://2015.drupalcampbristol.co.uk) organising committee member. I also regularly attend and speak
-at other meetups and conferences related to Drupal, PHP, Linux, DevOps, and web deveopment and accessibility.
+[DrupalCamp Bristol](http://2015.drupalcampbristol.co.uk) organising committee member. I also regularly attend and speak aat other meetups and conferences related to Drupal, PHP, Linux, DevOps, and web development and accessibility.
 {% endblock %}
