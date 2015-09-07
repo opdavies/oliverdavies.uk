@@ -10,6 +10,8 @@ sculpin_content_types:
         permalink: blog/:slug_title/
         taxonomies:
             - tags
+    talks:
+        permalink: talks/:slug_title/
 
 sculpin_theme:
     theme: opdavies/oliverdavies
