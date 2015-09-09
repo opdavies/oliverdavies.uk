@@ -11,7 +11,7 @@ sculpin_content_types:
         taxonomies:
             - tags
     talks:
-        permalink: talks/:slug_title/
+        permalink: talks/:year/:month/:slug_title/
 
 sculpin_theme:
     theme: opdavies/oliverdavies
