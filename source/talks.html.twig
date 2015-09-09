@@ -32,9 +32,7 @@ use: [talks]
     {% set now = 'today'|date('U') %}
     {% set talks = data.talks|reverse %}
 
-    {% set found = false %}
-    {% set year = '0' %}
-    {% set new_year = false %}
+    {% set found, year, new_year = false, '0', false %}
 
     {% for talk in talks if talk.date >= now %}
         {% if loop.first %}
@@ -49,9 +47,8 @@ use: [talks]
                 </ul>
             {% endif %}
 
-            {% set found = true %}
+            {% set found, year = true, this_year %}
 
-            {% set year = this_year %}
             <h3>{{ this_year }}</h3>
             <ul>
         {% else %}
@@ -65,9 +62,7 @@ use: [talks]
         </ul>
     {% endif %}
 
-    {% set found = false %}
-    {% set year = '0' %}
-    {% set new_year = false %}
+    {% set found, year, new_year = false, '0', false %}
 
     {% for talk in talks|reverse if talk.date < now %}
         {% if loop.first %}
@@ -82,8 +77,7 @@ use: [talks]
                 </ul>
             {% endif %}
 
-            {% set year = this_year %}
-            {% set found = true %}
+            {% set year, found = this_year, true %}
 
             <h3>{{ this_year }}</h3>
             <ul>
