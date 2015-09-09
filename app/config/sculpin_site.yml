@@ -56,6 +56,7 @@ default_date_format: jS F, Y
 fuzzy_date_format: F Y
 title_separator: "|"
 html_lang: en-GB
+bootswatch: lumen
 
 availability:
     status:
