@@ -7,12 +7,12 @@
         <h1>{{ page.title }}</h1>
 
         <p>
-            At {{ page.location }},
-            {% if page.fuzzy_date %}
+            At {{ page.location }} -
+            {% spaceless %}{% if page.fuzzy_date %}
                 {{ page.date|date(site.fuzzy_date_format) }}
             {% else %}
                 {{ page.date|date(site.default_date_format) }}
-            {% endif %}.
+            {% endif %}{% endspaceless %}.
         </p>
 
         {% if page.slides_embed %}
