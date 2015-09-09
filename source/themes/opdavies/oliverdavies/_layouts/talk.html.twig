@@ -15,6 +15,10 @@
             {% endif %}.
         </p>
 
+        {% if page.slides_embed %}
+            {{ page.slides_embed|raw }}
+        {% endif %}
+
         {{ page.blocks.content|raw }}
     </main>
 {% endblock content_wrapper %}
