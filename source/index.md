@@ -1,16 +1,16 @@
 ---
 layout: default
 meta:
-  description: 'The personal website and blog of Oliver Davies, a Drupal Developer and System Administrator from Wales, UK.'
-  og:
-    title: 'Oliver Davies - Drupal Developer'
     description: 'The personal website and blog of Oliver Davies, a Drupal Developer and System Administrator from Wales, UK.'
-    type: website
-    image:
-      url: /assets/images/oliver.jpg
-      width: 327
-      height: 327
-      type: image/jpg
+    og:
+        title: 'Oliver Davies - Drupal Developer'
+        description: 'The personal website and blog of Oliver Davies, a Drupal Developer and System Administrator from Wales, UK.'
+        type: website
+        image:
+            url: /assets/images/oliver.jpg
+            width: 327
+            height: 327
+            type: image/jpg
 ---
 {% block body_classes 'page--about' %}
 
@@ -32,7 +32,6 @@ I'm a contributor to <a href="http://cgit.drupalcode.org/drupal/log/?h=7.x&qt=gr
 I maintain several contrib projects on Drupal.org, and have contributed to numerous others - including several relating to Drupal.org itself, such as [Bluecheese](http://cgit.drupalcode.org/bluecheese/log/?qt=author&q=Oliver+Davies) (the Drupal.org theme) and the [Drupal.org customisations](http://cgit.drupalcode.org/drupalorg/log/?qt=author&q=Oliver+Davies) module.
 
 <a href="{{ site.drupalorg.url }}/people-mentored">I mentor new Drupal contributors</a> online and in person at local sprints, DrupalCamps and DrupalCons, and have helped several new contributors to get their first commits to Drupal core.
-
 
 I'm also the [Git Documentation Maintainer](https://www.drupal.org/node/2248627#comment-8887789) for the Drupal project, and a provisional member of the [Drupal Security team](https://www.drupal.org/security-team).
 
