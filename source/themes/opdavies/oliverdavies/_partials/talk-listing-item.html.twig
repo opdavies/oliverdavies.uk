@@ -5,5 +5,5 @@
         {% else %}
             {{ talk.date|date('jS F') }}
         {% endif %}
-    {% endspaceless %}</strong> - {{ talk.location|raw }} - {{ talk.title|raw }}
+    {% endspaceless %}</strong> - {{ talk.location }} - <a href="{{ talk.url }}">{{ talk.title }}</a>
 </li>
