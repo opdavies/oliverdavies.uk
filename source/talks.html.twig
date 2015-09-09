@@ -30,7 +30,7 @@ use: [talks]
     <a href="{{ site.lanyrd.url }}">Lanyrd</a> and <a href="{{ site.joindin.url }}">Joind.in</a> profiles.</p>
 
     {% set now = 'today'|date('U') %}
-    {% set talks = data.talks %}
+    {% set talks = data.talks|reverse %}
 
     {% set found = false %}
     {% set year = '0' %}
