@@ -43,7 +43,7 @@
                 </div>
 
                 <div id="navbar" class="collapse navbar-collapse" role="navigation">
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav">
                         {% for link in site.main_menu %}
                             <li class="nav__{{ link.title|lower }}{% if page.url ~ '/' == link.href %} active{% endif %}"><a href="{{ link.href }}">{{ link.title }}</a></li>
                         {% endfor %}
