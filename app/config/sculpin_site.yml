@@ -55,7 +55,6 @@ digitalocean_referral: a913b4b00d4a
 default_date_format: jS F, Y
 title_separator: "|"
 html_lang: en-GB
-bootswatch: lumen
 
 availability:
     status:
