@@ -29,7 +29,7 @@
             <link rel="icon" href="{{ site.gravatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
         {% endfor %}
     </head>
-    <body>
+    <body{% if page.blocks.body_classes %} class="{{ page.blocks.body_classes }}"{% endif %}>
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">

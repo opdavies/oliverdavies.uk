@@ -8,31 +8,35 @@ pagination:
 use:
     - posts
 ---
-<h1>Blog</h1>
+{% block content %}
+    <h1>Blog</h1>
 
-<ul class="posts">
-{% for post in page.pagination.items %}
-    <li class="post">
-        {% include 'post_header' with { page: post, title_tag: 'h2' } %}
+    <ul class="posts">
+    {% for post in page.pagination.items %}
+        <li class="post">
+            {% include 'post_header' with { page: post, title_tag: 'h2' } %}
 
-        {% if post.blocks.excerpt %}
-            {{ post.blocks.excerpt|raw }}
-        {% else %}
-            <p>{{ post.blocks.content|raw|split(' ')|slice(0,50)|join(' ')|replace({ 'h2':'h3' })|raw }} &hellip;</p>
-        {% endif %}
+            {% if post.blocks.excerpt %}
+                {{ post.blocks.excerpt|raw }}
+            {% else %}
+                <p>{{ post.blocks.content|raw|split(' ')|slice(0,50)|join(' ')|replace({ 'h2':'h3' })|raw }} &hellip;</p>
+            {% endif %}
 
-        <a href="{{ post.url }}">Read more &rarr;</a>
-    </li>
-{% endfor %}
-</ul>
+            <a href="{{ post.url }}">Read more &rarr;</a>
+        </li>
+    {% endfor %}
+    </ul>
 
-{% if page.pagination.previous_page or page.pagination.next_page %}
-    <nav>
-        {% if page.pagination.previous_page %}
-            <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Items</a>
-        {% endif %}
-        {% if page.pagination.next_page %}
-            <a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Items</a>
-        {% endif %}
-    </nav>
-{% endif %}
+    {% if page.pagination.previous_page or page.pagination.next_page %}
+        <nav>
+            {% if page.pagination.previous_page %}
+                <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Items</a>
+            {% endif %}
+            {% if page.pagination.next_page %}
+                <a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Items</a>
+            {% endif %}
+        </nav>
+    {% endif %}
+{% endblock %}
+
+{% block body_classes 'page--blog page--blog__list' %}

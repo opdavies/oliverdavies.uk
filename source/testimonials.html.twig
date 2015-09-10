@@ -79,27 +79,31 @@ testimonials:
           <p>Everything we have thrown at Oliver, he has approached with an open and flexible mind that has allowed him
           to work on a wide range of projects and features for Drupal products.</p>
 ---
-<h1>Testimonials</h1>
-<p>Here are some examples of the nice things that clients and former colleagues have said.</p>
-<p>You can view more recommendations on my <a href="{{ site.linkedin.url }}">LinkedIn profile</a>.</p>
+{% block content %}
+    <h1>Testimonials</h1>
+    <p>Here are some examples of the nice things that clients and former colleagues have said.</p>
+    <p>You can view more recommendations on my <a href="{{ site.linkedin.url }}">LinkedIn profile</a>.</p>
 
-{% for testimonial in page.testimonials|reverse|slice(0,5) %}
-    <article class="testimonial">
-        <h2 class="testimonial__name">{{ testimonial.name }}</h2>
+    {% for testimonial in page.testimonials|reverse|slice(0,5) %}
+        <article class="testimonial">
+            <h2 class="testimonial__name">{{ testimonial.name }}</h2>
 
-        {% if testimonial.role or testimonial.company %}{% spaceless %}
-            <p>
-                {{ testimonial.role }} at
-                {% if testimonial.url %}<a href="{{ testimonial.url }}" title="{{ testimonial.company }}">{% endif %}
-                {{ testimonial.company }}
-                {% if testimonial.url %}</a>{% endif %}
-            </p>
-        {% endspaceless %}{% endif %}
+            {% if testimonial.role or testimonial.company %}{% spaceless %}
+                <p>
+                    {{ testimonial.role }} at
+                    {% if testimonial.url %}<a href="{{ testimonial.url }}" title="{{ testimonial.company }}">{% endif %}
+                    {{ testimonial.company }}
+                    {% if testimonial.url %}</a>{% endif %}
+                </p>
+            {% endspaceless %}{% endif %}
 
-        {% if testimonial.image %}
-            <img class="testimonial__image" src="{{ testimonial.image }}" alt="{{ testimonial.name }}"/>
-        {% endif %}
+            {% if testimonial.image %}
+                <img class="testimonial__image" src="{{ testimonial.image }}" alt="{{ testimonial.name }}"/>
+            {% endif %}
 
-        {{ testimonial.text|raw }}
-    </article>
-{% endfor %}
+            {{ testimonial.text|raw }}
+        </article>
+    {% endfor %}
+{% endblock %}
+
+{% block body_classes 'page--testimonials' %}
