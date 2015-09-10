@@ -1,4 +1,5 @@
 ---
+nav: talks
 title: Dancing for Drupal
 location: umBristol (Bristol Umbraco user group)
 slides:

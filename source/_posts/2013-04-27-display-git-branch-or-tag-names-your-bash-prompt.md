@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: Display Git Branch or Tag Names in your Bash Prompt
 description: Whilst watching Drupalize.me's recent Introduction to Git series, I thought it was useful the way that the current Git branch or tag name was displayed in the bash prompt. Here's how to do it.
 slug: display-git-branch-or-tag-names-your-bash-prompt

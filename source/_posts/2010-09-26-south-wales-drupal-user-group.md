@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: The Inaugural Meetup for the South Wales Drupal User Group
 slug: south-wales-drupal-user-group
 tags:

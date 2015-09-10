@@ -1,5 +1,5 @@
 ---
-layout: post
+nav: blog
 title: Sculpin and Twig Resources
 date: 2015-07-19
 meta:

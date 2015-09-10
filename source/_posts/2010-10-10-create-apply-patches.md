@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: How to Create and Apply Patches
 slug: create-and-apply-patches
 tags:

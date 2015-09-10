@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: Quickly Apply Patches Using Git and curl or wget
 description: How to quickly download a patch file and apply it to a Git repository in one line
 tags:

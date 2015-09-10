@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: Drupal Association
 tags:
   - drupal

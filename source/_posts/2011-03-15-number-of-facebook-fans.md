@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: Display the Number of Facebook fans in PHP
 slug: display-number-facebook-fans-php
 tags:

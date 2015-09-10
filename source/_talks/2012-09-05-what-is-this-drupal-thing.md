@@ -1,4 +1,5 @@
 ---
+nav: talks
 title: So, What is This Drupal Thing?
 location: Unified Diff
 slides:

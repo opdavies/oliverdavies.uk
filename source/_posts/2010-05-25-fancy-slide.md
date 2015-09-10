@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: Create a Slideshow of Multiple Images Using Fancy Slide
 slug: create-slideshow-multiple-images-using-fancy-slide
 tags:

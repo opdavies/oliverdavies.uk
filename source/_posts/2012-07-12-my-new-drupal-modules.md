@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: My new Drupal modules
 description: After a busy few days, I've released two new contrib Drupal modules.
 tags:

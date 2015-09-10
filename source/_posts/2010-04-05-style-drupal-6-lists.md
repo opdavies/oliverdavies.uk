@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: Style Drupal 6's Taxonomy Lists with PHP, CSS and jQuery
 slug: style-drupal-6s-taxonomy-lists-php-css-and-jquery
 tags:

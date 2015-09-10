@@ -1,8 +1,9 @@
 ---
 layout: default
+nav: experience
 title: Experience
 meta:
-  description: 'Information about freelance services that Oliver offers.'
+    description: 'Information about freelance services that Oliver offers.'
 ---
 {% block body_classes 'page--experience' %}
 

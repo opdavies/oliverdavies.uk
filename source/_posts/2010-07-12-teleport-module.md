@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: Review of the Teleport Module
 slug: review-teleport-module
 tags:

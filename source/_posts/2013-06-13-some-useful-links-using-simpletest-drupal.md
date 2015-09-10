@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: Some useful links for using SimpleTest in Drupal
 slug: some-useful-links-using-simpletest-drupal
 tags:

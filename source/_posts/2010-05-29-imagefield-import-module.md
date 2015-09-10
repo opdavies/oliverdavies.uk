@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: Quickly Import Multiples Images Using the Imagefield_Import Module
 slug: quickly-import-multiples-images-using-imagefieldimport-module
 tags:

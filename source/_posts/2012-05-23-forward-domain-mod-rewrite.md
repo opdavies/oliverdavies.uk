@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: Forward one domain to another using mod_rewrite and .htaccess
 slug: forward-one-domain-another-using-modrewrite-and-htaccess
 tags:

@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: Some Useful Git Aliases
 tags:
   - git

@@ -1,4 +1,5 @@
 ---
+nav: blog
 title:
 tags:
     -

@@ -1,4 +1,5 @@
 ---
+nav: talks
 title: drush make drupalbristol
 location: Bristol Drupal user group
 slides:

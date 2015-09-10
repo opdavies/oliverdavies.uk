@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: Writing an Article for Linux Journal
 description: I'm absolutely delighted to announce that I'm going to be writing an article for Linux Journal magazine's upcoming Drupal special.
 slug: writing-article-linux-journal

@@ -1,4 +1,5 @@
 ---
+nav: blog
 title: Writing a .info file for a Drupal 7 theme
 slug: writing-info-file-drupal-7-theme
 tags:
