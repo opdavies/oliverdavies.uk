@@ -19,7 +19,7 @@ you would like to me to speak at your group or conference, please <a href="/cont
 
 {% set found, year, new_year = false, '0', false %}
 
-{% for talk in talks if talk.date >= now %}
+{% for talk in talks|reverse if talk.date >= now %}
     {% if loop.first %}
         <h2>Upcoming Talks</h2>
     {% endif %}
