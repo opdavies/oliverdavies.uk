@@ -15,10 +15,10 @@
             {% endif %}{% endspaceless %}.
         </p>
 
-        {% if page.slides_embed %}
-            {{ page.slides_embed|raw }}
-        {% endif %}
-
         {{ page.blocks.content|raw }}
+
+        {% if page.slides.embed %}
+            {{ page.slides.embed|raw }}
+        {% endif %}
     </main>
 {% endblock content_wrapper %}
