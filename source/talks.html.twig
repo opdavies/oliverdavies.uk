@@ -1,0 +1,78 @@
+---
+layout: default
+nav: talks
+title: Talks
+meta:
+    description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
+use: [talks]
+---
+<h1>Talks</h1>
+
+<p>I regularly speak at conferences and user groups about a range of subjects including Drupal, Sculpin and Git. If
+you would like to me to speak at your group or conference, please <a href="/contact/">get in touch</a>.</p>
+
+<p>There is also information about events that I’ve attended and spoken at on my
+<a href="{{ site.lanyrd.url }}">Lanyrd</a> and <a href="{{ site.joindin.url }}">Joind.in</a> profiles.</p>
+
+{% set now = 'today'|date('U') %}
+{% set talks = data.talks %}
+
+{% set found, year, new_year = false, '0', false %}
+
+{% for talk in talks if talk.date >= now %}
+    {% if loop.first %}
+        <h2>Upcoming Talks</h2>
+    {% endif %}
+
+    {% set this_year %}{{ talk.date|date('Y') }}{% endset %}
+
+    {% if this_year != year %}
+        {% if new_year %}
+            {# Close the list for the previous year. #}
+            </ul>
+        {% endif %}
+
+        {% set found, year = true, this_year %}
+
+        <h3>{{ this_year }}</h3>
+        <ul>
+    {% else %}
+        {% set new_year = true %}
+    {% endif %}
+
+    {% include 'talk_listing_item' %}
+{% endfor %}
+
+{% if found %}
+    </ul>
+{% endif %}
+
+{% set found, year, new_year = false, '0', false %}
+
+{% for talk in talks if talk.date < now %}
+    {% if loop.first %}
+        <h2>Previous Talks</h2>
+    {% endif %}
+
+    {% set this_year %}{{ talk.date|date('Y') }}{% endset %}
+
+    {% if this_year != year %}
+        {% if new_year %}
+            {# Close the list for the previous year. #}
+            </ul>
+        {% endif %}
+
+        {% set year, found = this_year, true %}
+
+        <h3>{{ this_year }}</h3>
+        <ul>
+    {% else %}
+        {% set new_year = true %}
+    {% endif %}
+
+    {% include 'talk_listing_item' %}
+{% endfor %}
+
+{% if found %}
+    </ul>
+{% endif %}
