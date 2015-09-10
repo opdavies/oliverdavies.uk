@@ -1,8 +1,9 @@
 ---
 title:
 location:
-slides_url:
-slides_embed:
+slides:
+    url:
+    embed:
 slug:
 draft: true
 # fuzzy_date: true
