@@ -5,9 +5,6 @@ title: Contact
 meta:
   description: 'Information about how to get in touch with Oliver.'
 ---
-{% block body_classes 'page--contact' %}
-
-{% block content %}
 # Contact
 
 The best ways to contact me is via <a href="mailto:{{ site.email }}?subject=Contact%20Oliver%20Davies">email</a> and
@@ -29,4 +26,3 @@ Here are some other places to find me online:
 * <a href="{{ site.speakerdeck.url }}">Speaker Deck</a>
 * <a href="{{ site.ansible_galaxy.url }}">Ansible Galaxy</a>
 * <a href="{{ site.flickr.url }}">Flickr</a>
-{% endblock %}

@@ -5,9 +5,6 @@ title: Experience
 meta:
     description: 'Information about freelance services that Oliver offers.'
 ---
-{% block body_classes 'page--experience' %}
-
-{% block content %}
 # Experience
 
 ## PHP
@@ -50,4 +47,3 @@ meta:
 * Continuous integration using [Jenkins](http://jenkins-ci.org).
 * Virtual machine setup using [Vagrant](http://vagrantup.com) for development or server testing.
 * Domain name and DNS management.
-{% endblock %}
