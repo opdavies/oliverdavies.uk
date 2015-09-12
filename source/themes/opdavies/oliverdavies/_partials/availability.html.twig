@@ -21,7 +21,7 @@
                 {% set text = text ~ ' until ' ~ data.end|date('F Y') %}
             {% endif %}
 
-            <p class="availability__{{ data.available }}">{{ text }}.</p>
+            <p>{{ text|raw }}.</p>
         {% endfor %}
     </div>
 </div>

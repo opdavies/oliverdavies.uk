@@ -69,9 +69,9 @@ availability:
             end: ~
     text:
         day:
-            yes: Available for day contract work
-            no: Not available for day contract work
+            yes: <i class="fa fa-thumbs-o-up text-success"></i> Available for day contract work
+            no: <i class="fa fa-thumbs-o-down text-danger"></i> Not available for day contract work
         evenings:
-            yes: Available for weekend/evening freelance work
-            no: Not availabile for weekend/evening freelance work
-            limited: Limited availability for weekend/evening freelance work
+            yes: <i class="fa fa-thumbs-o-up text-success"></i> Available for weekend/evening freelance work
+            limited: <i class="fa fa-thumbs-o-up text-warning"></i> Limited availability for weekend/evening freelance work
+            no: <i class="fa fa-thumbs-o-down text-danger"></i> Not availabile for weekend/evening freelance work
