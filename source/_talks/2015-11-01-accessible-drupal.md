@@ -7,5 +7,9 @@ event:
     location: Bristol, UK
 fuzzy_date: yes
 draft: yes
+tags:
+    - accessible-bristol
+    - accessibility
+    - drupal
 ---
 TBC.
