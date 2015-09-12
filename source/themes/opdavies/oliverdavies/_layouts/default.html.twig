@@ -97,7 +97,7 @@
 
         {% block scripts %}{% endblock scripts %}
 
-        {% if page.tweets is defined and page.tweets == true %}
+        {% if page.tweets %}
             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         {% endif %}
 
