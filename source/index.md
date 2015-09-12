@@ -24,7 +24,7 @@ I’m currently a Senior Developer at [Microserve](https://microserve.io) - a sp
 
 I still occasionally work on freelance projects in my spare time - please [get in touch](/contact/) for any more information.
 
-I'm a contributor to <a href="http://cgit.drupalcode.org/drupal/log/?h=7.x&qt=grep&q={{ site.drupalorg.name }}">Drupal 7</a> and <a href="http://cgit.drupalcode.org/drupal/log/?h=8.0.x&qt=grep&q={{ site.drupalorg.name }}">Drupal 8.0.x</a> core, as well as to other open-source projects including [COD](http://usecod.io) (the conference organising distribution, built on Drupal), Sculpin (a static site generator written in PHP), various Puppet modules and Ansible roles, and the [Drupal VM](http://www.drupalvm.com) project.
+I'm a contributor to <a href="http://cgit.drupalcode.org/drupal/log/?h=7.x&qt=grep&q={{ site.drupalorg.name }}">Drupal 7</a> and <a href="http://cgit.drupalcode.org/drupal/log/?h=8.0.x&qt=grep&q={{ site.drupalorg.name }}">Drupal 8</a> core, as well as to other open-source projects including [COD](http://usecod.io) (the conference organising distribution, built on Drupal), Sculpin (a static site generator written in PHP), various Puppet modules and Ansible roles, and the [Drupal VM](http://www.drupalvm.com) project.
 
 I maintain several contrib projects on Drupal.org, and have contributed to numerous others - including several relating to Drupal.org itself, such as [Bluecheese](http://cgit.drupalcode.org/bluecheese/log/?qt=author&q=Oliver+Davies) (the Drupal.org theme) and the [Drupal.org customisations](http://cgit.drupalcode.org/drupalorg/log/?qt=author&q=Oliver+Davies) module.
 
