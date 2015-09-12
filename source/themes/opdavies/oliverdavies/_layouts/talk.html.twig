@@ -5,7 +5,7 @@
         <h1>{{ page.title }}</h1>
 
         <p>
-            At {{ page.location }} -
+            At {{ page.event.name }} -
             {% spaceless %}{% if page.fuzzy_date %}
                 {{ page.date|date(site.fuzzy_date_format) }}
             {% else %}

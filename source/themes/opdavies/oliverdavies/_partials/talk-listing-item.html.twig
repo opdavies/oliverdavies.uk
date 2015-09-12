@@ -5,7 +5,7 @@
         {% else %}
             {{ talk.date|date('jS F') }}
         {% endif %}
-    {% endspaceless %}</strong> - {{ talk.location }}
+    {% endspaceless %}</strong> - {{ talk.event.name }}
     -
     {% if talk.fuzzy_date %}
         {{ talk.title }}

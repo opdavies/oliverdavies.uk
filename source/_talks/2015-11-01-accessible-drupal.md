@@ -1,7 +1,8 @@
 ---
 nav: talks
 title: Accessible Drupal
-location: Accessible Bristol
+event:
+    name: Accessible Bristol
 fuzzy_date: yes
 draft: yes
 ---
