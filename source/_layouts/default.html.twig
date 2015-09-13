@@ -46,8 +46,10 @@
 
                 <div id="navbar" class="collapse navbar-collapse" role="navigation">
                     <ul class="nav navbar-nav">
-                        {% for link in site.main_menu %}
-                            <li class="nav__{{ link.title|lower }}{% if page.nav == link.nav %} active{% endif %}"><a href="{{ link.href }}">{{ link.title }}</a></li>
+                        {% for name, item in site.main_menu %}
+                            <li{% if page.nav == name %} class="active"{% endif %}>
+                                <a href="{{ item.href }}">{{ item.title }}</a>
+                            </li>
                         {% endfor %}
                     </ul>
                 </div>{# .nav-collapse #}
