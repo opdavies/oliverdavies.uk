@@ -43,12 +43,35 @@ main_menu:
     - { title: Contact, href: /contact/, nav: contact }
 
 meetups:
-    swdug: { name: SWDUG, logo: swdug.png, url: http://swdug.org.uk }
-    drupalbristol: { name: Drupal Bristol, logo: drupal-bristol.jpeg, url: https://groups.drupal.org/bristol-west-uk }
-    phpsw: { name: PHPSW, logo: phpsw.jpeg, url: http://phpsw.uk }
-    swlug: { name: SWLUG, logo: swlug.png, url: http://swlug.org.uk }
-    accbristol: { name: Accessible Bristol, logo: accessible-bristol.png, url: http://www.accessiblebristol.org.uk }
-    udiff: { name: Unified Diff, logo: unified-diff.png, url: http://unifieddiff.co.uk }
+    swdug:
+        name: SWDUG
+        logo: swdug.png
+        url: http://swdug.org.uk
+
+    drupalbristol:
+        name: Drupal Bristol
+        logo: drupal-bristol.jpeg
+        url: https://groups.drupal.org/bristol-west-uk
+
+    phpsw:
+        name: PHPSW
+        logo: phpsw.jpeg
+        url: http://phpsw.uk
+
+    swlug:
+        name: SWLUG
+        logo: swlug.png
+        url: http://swlug.org.uk
+
+    accbristol:
+        name: Accessible Bristol
+        logo: accessible-bristol.png
+        url: http://www.accessiblebristol.org.uk
+
+    udiff:
+        name: Unified Diff
+        logo: unified-diff.png
+        url: http://unifieddiff.co.uk
 
 hightlightjs_style: default
 digitalocean_referral: a913b4b00d4a
