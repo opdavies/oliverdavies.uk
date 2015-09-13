@@ -1,7 +1,7 @@
-<div class="availability">
-    <h2>Availability</h2>
+<div class="panel panel-default">
+    <div class="panel-heading">Availability</div>
 
-    <div class="content">
+    <div class="panel-body">
         {% set now = "now"|date('U') %}
 
         {% for type, data in site.availability.status %}
@@ -21,7 +21,7 @@
                 {% set text = text ~ ' until ' ~ data.end|date('F Y') %}
             {% endif %}
 
-            <p class="availability__{{ data.available }}">{{ text }}.</p>
+            <p>{{ text|raw }}.</p>
         {% endfor %}
     </div>
 </div>

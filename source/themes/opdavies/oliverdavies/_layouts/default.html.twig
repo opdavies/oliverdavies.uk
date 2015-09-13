@@ -17,9 +17,11 @@
         <meta lang="{{ site.html_lang }}" charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link rel="stylesheet" href="{{ site.url }}/{{ theme_path('css/styles.css') }}">
         <link rel="stylesheet" href="{{ site.url }}/components/bootswatch/cosmo/bootstrap.min.css">
         <link rel="stylesheet" href="{{ site.url }}/components/highlightjs/styles/{{ site.hightlightjs_style }}.css">
+        <link rel="stylesheet" href="{{ site.url }}/components/font-awesome/css/font-awesome.min.css">
 
         {% for size in site.apple_touch_icon_sizes %}
             <link rel="apple-touch-icon" href="{{ site.gravatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
@@ -63,19 +65,15 @@
                 {% block sidebar_wrapper %}
                     <div class="col-md-3">
                         {% block sidebar %}
-                            <section class="block block--da_member">
-                                <h2 class="sr-only">Drupal Association</h2>
+                            <div class="panel">
                                 <a href="https://assoc.drupal.org/membership" title="Become a Drupal Association member">
                                     <img src="{{ site.url }}/assets/images/da-individual-member.png" alt="Drupal Association Individual Member" width="150">
                                 </a>
-                            </section>
 
-                            <section class="block block--drupalcon">
-                                <h2 class="sr-only">DrupalCon Barcelona</h2>
                                 <a href="https://events.drupal.org/barcelona2015">
                                     <img src="{{ site.url }}/assets/images/drupalcon-barcelona.png" alt="I’m attending DrupalCon Barcelona." width="150">
                                 </a>
-                            </section>
+                            </div>
 
                             {% include 'availability' %}
                         {% endblock sidebar %}
