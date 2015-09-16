@@ -14,7 +14,7 @@ use:
     <ul class="posts">
     {% for post in page.pagination.items %}
         <li class="post">
-            {% include 'post_header' with { page: post, title_tag: 'h2' } %}
+            {% include 'post-header' with { page: post, title_tag: 'h2' } %}
 
             {% if post.blocks.excerpt %}
                 {{ post.blocks.excerpt|raw }}
@@ -28,14 +28,14 @@ use:
     </ul>
 
     {% if page.pagination.previous_page or page.pagination.next_page %}
-        <nav>
+        <ul class="pager">
             {% if page.pagination.previous_page %}
-                <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Items</a>
+                <li class="next"><a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer →</a></li>
             {% endif %}
             {% if page.pagination.next_page %}
-                <a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Items</a>
+                <li class="previous"><a href="{{ site.url }}{{ page.pagination.next_page.url }}">← Older</a></li>
             {% endif %}
-        </nav>
+        </ul>
     {% endif %}
 {% endblock %}
 

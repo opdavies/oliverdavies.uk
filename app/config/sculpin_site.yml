@@ -1,9 +1,11 @@
 title: Oliver Davies
 subtitle: Drupal Developer & System Administrator
 description: Oliver Davies, Drupal Developer
-
-author: Oliver Davies
 email: oliver+website@oliverdavies.uk
+
+author:
+    name: Oliver Davies
+    bio: Oliver Davies is a Drupal Developer and System Administrator based in the UK. He is a Senior Developer at <a href="https://microserve.io">Microserve</a> and also provides freelance consultancy services for Drupal websites, PHP applications and Linux servers.
 
 twitter:
     url: http://twitter.com/opdavies
@@ -36,19 +38,52 @@ apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
 favicon_sizes: [ 160, 96, 32, 16 ]
 
 main_menu:
-    - { title: Experience, href: /experience/, nav: experience }
-    - { title: Testimonials, href: /testimonials/, nav: testimonials }
-    - { title: Talks, href: /talks/, nav: talks }
-    - { title: Blog, href: /blog/, nav: blog }
-    - { title: Contact, href: /contact/, nav: contact }
+    experience:
+        title: Experience
+        href: /experience/
+    testimonials:
+        title: Testimonials
+        href: /testimonials/
+    talks:
+        title: Talks
+        href: /talks/
+    blog:
+        title: Blog
+        href: /blog/
+    contact:
+        title: Contact
+        href: /contact/
 
 meetups:
-    swdug: { name: SWDUG, logo: swdug.png, url: http://swdug.org.uk }
-    drupalbristol: { name: Drupal Bristol, logo: drupal-bristol.jpeg, url: https://groups.drupal.org/bristol-west-uk }
-    phpsw: { name: PHPSW, logo: phpsw.jpeg, url: http://phpsw.uk }
-    swlug: { name: SWLUG, logo: swlug.png, url: http://swlug.org.uk }
-    accbristol: { name: Accessible Bristol, logo: accessible-bristol.png, url: http://www.accessiblebristol.org.uk }
-    udiff: { name: Unified Diff, logo: unified-diff.png, url: http://unifieddiff.co.uk }
+    swdug:
+        name: SWDUG
+        logo: swdug.png
+        url: http://swdug.org.uk
+
+    drupalbristol:
+        name: Drupal Bristol
+        logo: drupal-bristol.jpeg
+        url: https://groups.drupal.org/bristol-west-uk
+
+    phpsw:
+        name: PHPSW
+        logo: phpsw.jpeg
+        url: http://phpsw.uk
+
+    swlug:
+        name: SWLUG
+        logo: swlug.png
+        url: http://swlug.org.uk
+
+    accbristol:
+        name: Accessible Bristol
+        logo: accessible-bristol.png
+        url: http://www.accessiblebristol.org.uk
+
+    udiff:
+        name: Unified Diff
+        logo: unified-diff.png
+        url: http://unifieddiff.co.uk
 
 hightlightjs_style: default
 digitalocean_referral: a913b4b00d4a

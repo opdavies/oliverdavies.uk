@@ -3,5 +3,6 @@ body {
 }
 
 main img {
-  @extend .img-responsive;
+  height: auto;
+  max-width: 100%;
 }
