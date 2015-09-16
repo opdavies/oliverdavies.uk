@@ -7,7 +7,7 @@ event:
     location: Cardiff, UK
 video: https://vimeo.com/49827006
 vimeo: 49827006
-slug: what-this-drupal-thing
+slug: what-is-this-drupal-thing
 tags:
     - meetup
     - drupal

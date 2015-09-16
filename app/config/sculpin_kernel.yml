@@ -4,4 +4,6 @@ sculpin_content_types:
         taxonomies:
             - tags
     talks:
-        permalink: talks/:year/:month/:day/:slug_title/
+        permalink: talks/:filename/
+        taxonomies:
+            - tags

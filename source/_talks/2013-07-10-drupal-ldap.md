@@ -9,4 +9,5 @@ tags:
     - swdug
     - drupal
     - ldap
+slug: drupal-ldap
 ---
