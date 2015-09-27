@@ -1,0 +1,5 @@
+<div class="list-group">
+    {% for post in data.posts[0:number_of_posts|default(5)] %}
+        <a href="{{ post.url }}" class="list-group-item">{{ post.title }}</a>
+    {% endfor %}
+</div>
