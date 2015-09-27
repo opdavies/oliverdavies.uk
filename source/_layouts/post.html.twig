@@ -2,9 +2,9 @@
 
 {% block content_wrapper %}
     <main class="col-md-9">
-        {% include 'post-header' %}
+        {% include('post-header') %}
 
-        {% block content %}{% endblock content %}
+        {% block content %}{% endblock %}
 
         <p class="post-feedback" style="font-style: italic">
             <b>Have feedback about this post?</b> <a href="mailto:{{ site.email }}?subject=Feedback: {{ page.title }}">Email me</a> or <a href="https://twitter.com/home?status=@{{ site.twitter.name }} {{ site.url }}{{ page.url }}:">send me a tweet</a>.
@@ -47,4 +47,4 @@
         {% endif %}
 
     </main>
-{% endblock content_wrapper %}
+{% endblock %}

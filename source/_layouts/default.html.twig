@@ -4,14 +4,14 @@
     <!--[if gt IE 9]><html lang="{{ site.html_lang }}"><![endif]-->
     <!--[if !IE]><!--><html lang="{{ site.html_lang }}"><!--<![endif]-->
     <head>
-        {% include 'title' %}
+        {% include('title') %}
 
         {% if page.meta.description %}
             <meta name="description" content="{{ page.meta.description|e('html') }}">
         {% endif %}
 
         {% if page.meta.og %}
-            {% include "og" with { og: page.meta.og } %}
+            {{ include('og', { og: page.meta.og }) }}
         {% endif %}
 
         <meta lang="{{ site.html_lang }}" charset="utf-8">
@@ -31,7 +31,7 @@
             <link rel="icon" href="{{ site.gravatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
         {% endfor %}
     </head>
-    <body{% if page.blocks.body_classes %} class="{{ page.blocks.body_classes }}"{% endif %}>
+    <body class="{{ page.blocks.body_classes }}">
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -60,9 +60,9 @@
             <div class="row">
                 {% block content_wrapper %}
                     <main class="col-md-9">
-                        {% block content %}{% endblock content %}
+                        {% block content %}{% endblock %}
                     </main>
-                {% endblock content_wrapper %}
+                {% endblock %}
 
                 {% block sidebar_wrapper %}
                     <div class="col-md-3">
@@ -77,17 +77,17 @@
                                 </a>
                             </div>
 
-                            {% include 'availability' %}
-                        {% endblock sidebar %}
+                            {% include('availability') %}
+                        {% endblock %}
                     </div>
-                {% endblock sidebar_wrapper %}
+                {% endblock %}
             </div>{# .row #}
         </div>{# .container #}
 
         <footer class="container">
             <p class="copyright">&copy; 2010-{{ 'now'|date('Y') }} {{ site.title }}. Powered by <a href="https://sculpin.io">Sculpin</a> and <a href="https://www.digitalocean.com/?refcode={{ site.digitalocean_referral }}">DigitalOcean</a>.</p>
 
-            {% include 'meetups' %}
+            {% include('meetups') %}
         </footer>
 
         <script src="{{ site.url }}/components/jquery/jquery.min.js"></script>
@@ -95,7 +95,7 @@
         <script src="{{ site.url }}/components/highlightjs/highlight.pack.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
 
-        {% block scripts %}{% endblock scripts %}
+        {% block scripts %}{% endblock %}
 
         {% if page.tweets %}
             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
