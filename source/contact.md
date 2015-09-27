@@ -9,8 +9,7 @@ meta:
 
 The best ways to contact me is via <a href="mailto:{{ site.email }}?subject=Email from {{ site.short_url }}">email</a> and <a href="{{ site.twitter.url }}">Twitter</a>.
 
-If you have a support or feature request for one of the Drupal projects that I maintain, please create an issue in the
-appropriate issue queue on [Drupal.org](https://www.drupal.org).
+If you have a support or feature request for one of the Drupal projects that I maintain, please create an issue in the appropriate issue queue on [Drupal.org](https://www.drupal.org).
 
 ## Elsewhere
 
