@@ -6,7 +6,8 @@ event:
     website: http://unifieddiff.co.uk
     location: Cardiff, UK
 video: https://vimeo.com/49827006
-vimeo: 49827006
+vimeo:
+  id: 49827006
 slug: what-is-this-drupal-thing
 tags:
     - meetup
