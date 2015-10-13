@@ -24,6 +24,6 @@ I’m a Drupal core contributor and <a href="{{ site.drupalorg.url }}/people-men
 
 I also contribute to other open-source projects including [Drupal VM](http://www.drupalvm.com) (a Vagrant and Ansible based virtual environment for Drupal development), [COD](http://usecod.io) (the conference organising distribution, built on Drupal), and various Puppet modules and Ansible roles.
 
-I’m a user group and conference organiser and [speaker](/talks/), and a founding committee member of [DrupalCamp Bristol](http://www.drupalcampbristol.co.uk).
+I organise [SWDUG](https://groups.drupal.org/wales-uk) and [Drupal Bristol](http://drupalbristol.org.uk), and am a co-organiser of [PHPSW](http://phpsw.uk).
 
 You can follow me on <a href="{{ site.twitter.url }}">Twitter</a> and <a href="{{ site.linkedin.url }}">LinkedIn</a>, and you can view my code on <a href="{{ site.drupalorg.url }}/track/code">Drupal.org</a> and <a href="{{ site.github.url }}?tab=activity">GitHub</a>.
