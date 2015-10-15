@@ -39,48 +39,33 @@ apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
 favicon_sizes: [ 160, 96, 32, 16 ]
 
 main_menu:
-    experience:
-        title: Experience
-        href: /experience/
-    testimonials:
-        title: Testimonials
-        href: /testimonials/
-    talks:
-        title: Talks
-        href: /talks/
-    blog:
-        title: Blog
-        href: /blog/
-    contact:
-        title: Contact
-        href: /contact/
+    experience: { title: Experience, href: /experience/ }
+    testimonials: { title: Testimonials, href: /testimonials/ }
+    talks: { title: Talks, href: /talks/ }
+    blog: { title: Blog, href: /blog/ }
+    contact: { title: Contact, href: /contact/ }
 
 meetups:
     swdug:
         name: SWDUG
         logo: swdug.png
         url: http://swdug.org.uk
-
     drupalbristol:
         name: Drupal Bristol
         logo: drupal-bristol.jpeg
         url: https://groups.drupal.org/bristol-west-uk
-
     phpsw:
         name: PHPSW
         logo: phpsw.jpeg
         url: http://phpsw.uk
-
     swlug:
         name: SWLUG
         logo: swlug.png
         url: http://swlug.org.uk
-
     accbristol:
         name: Accessible Bristol
         logo: accessible-bristol.png
         url: http://www.accessiblebristol.org.uk
-
     udiff:
         name: Unified Diff
         logo: unified-diff.png
@@ -95,14 +80,8 @@ html_lang: en-GB
 
 availability:
     status:
-        day:
-            available: no
-            start: ~
-            end: ~
-        evenings:
-            available: limited
-            start: 2015-08-10
-            end: ~
+        day: { available: no, start: ~, end: ~ }
+        evenings: { available: limited, start: 2015-08-10, end: ~ }
     text:
         day:
             yes: <i class="fa fa-thumbs-o-up text-success"></i> Available for day contract work
