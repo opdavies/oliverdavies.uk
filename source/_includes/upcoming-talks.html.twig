@@ -1,0 +1,23 @@
+{% set year = 0 %}
+
+{% for talk in data.talks if date(talk.date) >= date('today') %}
+    {% if loop.first %}
+        <h2>Upcoming Talks</h2>
+    {% endif %}
+
+    {% if talk.date|date('Y') != year %}
+        {% set year = talk.date|date('Y') %}
+
+        </ul>
+        <h3>{{ year }}</h3>
+        <ul>
+    {% endif %}
+
+    <li>
+        {{- include('talk-listing-item') -}}
+    </li>
+{% endfor %}
+
+{% if year != 0 %}
+    </ul>
+{% endif %}
