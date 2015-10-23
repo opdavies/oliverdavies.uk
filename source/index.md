@@ -16,7 +16,7 @@ meta:
 
 <img src="{{ site.gravatar.url }}?s=125" alt="Picture of Oliver" class="img-circle">
 
-I’m a Web Developer and System Administrator based in Newport, South Wales, UK.
+Hi, I’m Oliver - a full stack Web Developer and System Administrator based in Newport, South Wales, UK.
 
 I’m currently a Senior Developer at [Microserve](https://microserve.io), and a part-time freelancer. I specialise in PHP development with <a href="{{ site.drupalorg.url_nice }}">Drupal</a> and [Sculpin](http://sculpin.io/), and Linux server administration. I’m also currently learning [Symfony](http://symfony.com/) and [Silex](http://silex.sensiolabs.org/).
 
@@ -24,6 +24,6 @@ I’m a Drupal core contributor and <a href="{{ site.drupalorg.url }}/people-men
 
 I also contribute to other open-source projects including [Drupal VM](http://www.drupalvm.com) (a Vagrant and Ansible based virtual environment for Drupal development), [COD](http://usecod.io) (the conference organising distribution, built on Drupal), and various Puppet modules and Ansible roles.
 
-I organise [SWDUG](https://groups.drupal.org/wales-uk) and [Drupal Bristol](http://drupalbristol.org.uk), and am a co-organiser of [PHPSW](http://phpsw.uk).
+I organise Drupal user groups in [Cardiff](https://groups.drupal.org/wales-uk) and [Bristol](http://drupalbristol.org.uk), am a founding organiser of [DrupalCamp Bristol](http://www.drupalcampbristol.co.uk), and a co-organiser of the [PHPSW](http://phpsw.uk) user group. I also [regularly speak](/talks/) at conferences and user groups.
 
 You can follow me on <a href="{{ site.twitter.url }}">Twitter</a> and <a href="{{ site.linkedin.url }}">LinkedIn</a>, and you can view my code on <a href="{{ site.drupalorg.url }}/track/code">Drupal.org</a> and <a href="{{ site.github.url }}?tab=activity">GitHub</a>.

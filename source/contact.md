@@ -7,7 +7,7 @@ meta:
 ---
 # Contact
 
-The best ways to contact me is via <a href="mailto:{{ site.email }}?subject=Email%20from%20{{ site.short_url }}">email</a> and <a href="{{ site.twitter.url }}">Twitter</a>.
+The best ways to contact me is via <a href="mailto:{{ site.email }}?subject=Email%20from%20{{ site.short_url }}">e-mail</a>, my <a href="{{ site.drupalorg.url }}/contact">Drupal.org contact form</a>, and via my <a href="{{ site.twitter.url }}">Twitter account</a>.
 
 If you have a support or feature request for one of the Drupal projects that I maintain, please create an issue in the appropriate issue queue on [Drupal.org](https://www.drupal.org).
 
