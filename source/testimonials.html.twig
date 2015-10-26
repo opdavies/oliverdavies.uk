@@ -102,8 +102,12 @@ testimonials:
         <article class="testimonial">
             <h2 class="testimonial__name">{{ testimonial.name }}</h2>
 
-            {% if testimonial.role or company.name %}{% spaceless %}
-                <p>
+            {% if testimonial.role and not company.name %}
+                <p class="lead">
+                    {{ testimonial.role }}
+                </p>
+            {% elseif testimonial.role and company.name %}{% spaceless %}
+                <p class="lead">
                     {{ testimonial.role }} at
                     {% if company.url %}
                         <a href="{{ company.url }}" title="{{ company.name }}">{{ company.name }}</a>
