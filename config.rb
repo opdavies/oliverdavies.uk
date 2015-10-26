@@ -16,6 +16,7 @@ javascripts_dir = "source/js"
 # Require any additional compass plugins installed on your system.
 require 'sass-globbing'
 require 'bootstrap-sass'
+require 'breakpoint'
 
 ##
 ## You probably don't need to edit anything below this.
