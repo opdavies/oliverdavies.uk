@@ -3,9 +3,10 @@
   margin-bottom: 10px;
 
   .testimonial__image {
+    @extend .img-circle;
     float: right;
+    height: 90px;
     margin: 0 0 10px 10px;
-    max-height: 100px;
-    max-width: 100px;
+    width: 90px;
   }
 }
