@@ -96,7 +96,7 @@ testimonials:
     <p>Here are some examples of the nice things that clients and former colleagues have said.</p>
     <p>You can view more recommendations on my <a href="{{ site.linkedin.url }}">LinkedIn profile</a>.</p>
 
-    {% for testimonial in page.testimonials|reverse %}
+    {% for testimonial in page.testimonials|reverse if not testimonial.draft %}
         {% set company = testimonial.company %}
 
         <article class="testimonial">

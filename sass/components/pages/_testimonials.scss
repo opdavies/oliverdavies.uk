@@ -4,9 +4,14 @@
 
   .testimonial__image {
     @extend .img-circle;
-    float: right;
-    height: 90px;
+    @extend .pull-right;
+    height: 75px;
     margin: 0 0 10px 10px;
-    width: 90px;
+    width: 75px;
+
+    @include breakpoint($screen-sm) {
+      height: 90px;
+      width: 90px;
+    }
   }
 }
