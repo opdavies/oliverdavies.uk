@@ -23,14 +23,6 @@
         <link rel="stylesheet" href="{{ site.url }}/components/font-awesome/css/font-awesome.min.css">
         {% block styles %}{% endblock %}
 
-        <style type="text/css">
-            main a:link,
-            main a:hover {
-                border-bottom: 1px solid;
-                text-decoration: none;
-            }
-        </style>
-
         {% for size in site.apple_touch_icon_sizes %}
             <link rel="apple-touch-icon" href="{{ site.gravatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
         {% endfor %}
