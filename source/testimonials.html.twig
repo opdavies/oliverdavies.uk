@@ -6,8 +6,9 @@ testimonials:
     - name: Ed Welsby
       image: ed-welsby.png
       role: Senior Developer
-      company: Proctor & Stevenson
-      url: http://www.proctors.co.uk
+      company:
+        name: Proctor & Stevenson
+        url: http://www.proctors.co.uk
       text: >
           <p>Oliver was great to work with, he has a solid knowledge of the various aspects of web development and never
           minded helping me out with Linux commands!</p>
@@ -15,16 +16,18 @@ testimonials:
     - name: Brian Healy
       image: brian-healy.png
       role: Director of Business Development
-      company: Tincan
-      url: http://tincan.co.uk
+      company:
+        name: Tincan
+        url: http://tincan.co.uk
       text: >
           <p>Oliver was fantastic to work with - pro-active and highly responsive, he worked well remotely and as part
           of a project team. His understanding of the project requirement(s) and ability to translate it into working
           code was essential and he delivered.</p>
 
     - name: Marlon Duncanson
-      company: Hypergroup Limited
-      url: http://www.hypergroup.com
+      company:
+        name: Hypergroup Limited
+        url: http://www.hypergroup.com
       text: >
           <p>Oliver is a great guy and really easy to work with. He really goes the extra mile to make sure the project
           is done properly. I would recommend him and will not hesitate to use him again in future.</p>
@@ -43,8 +46,9 @@ testimonials:
 
     - name: James Chapman
       role: Director
-      company: Development Done Right
-      url: http://www.developmentdoneright.co.uk
+      company:
+        name: Development Done Right
+        url: http://www.developmentdoneright.co.uk
       image: james-chapman.png
       text: >
           <p>We used Oliver on a number of occasions throughout 2012 and I have to say we've been delighted with his
@@ -53,8 +57,9 @@ testimonials:
 
     - name: Léonie Watson
       role: Director of Accessibility
-      company: Nomensa
-      url: http://www.nomensa.com
+      company:
+        name: Nomensa
+        url: http://www.nomensa.com
       image: leonie-watson.jpg
       text: >
           <p>Oliver is a flexible and hardworking developer, with a terrific knowledge of Drupal. He promotes
@@ -63,8 +68,9 @@ testimonials:
 
     - name: Holly Ross
       role: Executive Director
-      company: Drupal Association
-      url: https://assoc.drupal.org
+      company:
+        name: Drupal Association
+        url: https://assoc.drupal.org
       image: holly-ross.png
       text: >
           <p>Oliver has been an outstanding contributor to the Drupal Association team. He is a talented developer who
@@ -74,8 +80,9 @@ testimonials:
 
     - name: Josh Mitchell
       role: CTO
-      company: Drupal Association
-      url: https://assoc.drupal.org
+      company:
+        name: Drupal Association
+        url: https://assoc.drupal.org
       image: josh-mitchell.png
       text: >
           <p>Oliver is a skilled Drupal developer with a passion for the Drupal community. As his direct supervisor, I
@@ -90,15 +97,19 @@ testimonials:
     <p>You can view more recommendations on my <a href="{{ site.linkedin.url }}">LinkedIn profile</a>.</p>
 
     {% for testimonial in page.testimonials|reverse|slice(0,5) %}
+        {% set company = testimonial.company %}
+
         <article class="testimonial">
             <h2 class="testimonial__name">{{ testimonial.name }}</h2>
 
-            {% if testimonial.role or testimonial.company %}{% spaceless %}
+            {% if testimonial.role or company.name %}{% spaceless %}
                 <p>
                     {{ testimonial.role }} at
-                    {% if testimonial.url %}<a href="{{ testimonial.url }}" title="{{ testimonial.company }}">{% endif %}
-                    {{ testimonial.company }}
-                    {% if testimonial.url %}</a>{% endif %}
+                    {% if company.url %}
+                        <a href="{{ company.url }}" title="{{ company.name }}">{{ company.name }}</a>
+                    {% else %}
+                        {{ company.name }}
+                    {% endif %}
                 </p>
             {% endspaceless %}{% endif %}
 
