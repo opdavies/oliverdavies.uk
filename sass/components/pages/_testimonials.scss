@@ -4,7 +4,7 @@
 
   .testimonial__image {
     @extend .img-circle;
-    float: right;
+    @extend .pull-right;
     height: 90px;
     margin: 0 0 10px 10px;
     width: 90px;
