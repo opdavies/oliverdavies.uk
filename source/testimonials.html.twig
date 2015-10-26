@@ -4,6 +4,7 @@ nav: testimonials
 title: Testimonials
 testimonials:
     - name: Ed Welsby
+      image: ed-welsby.png
       role: Senior Developer
       company: Proctor & Stevenson
       url: http://www.proctors.co.uk
@@ -12,6 +13,8 @@ testimonials:
           minded helping me out with Linux commands!</p>
 
     - name: Brian Healy
+      image: brian-healy.png
+      role: Director of Business Development
       company: Tincan
       url: http://tincan.co.uk
       text: >
@@ -42,6 +45,7 @@ testimonials:
       role: Director
       company: Development Done Right
       url: http://www.developmentdoneright.co.uk
+      image: james-chapman.png
       text: >
           <p>We used Oliver on a number of occasions throughout 2012 and I have to say we've been delighted with his
           work. His skills working with Drupal are excellent particularly with custom module development and we wouldn’t
@@ -51,6 +55,7 @@ testimonials:
       role: Director of Accessibility
       company: Nomensa
       url: http://www.nomensa.com
+      image: leonie-watson.jpg
       text: >
           <p>Oliver is a flexible and hardworking developer, with a terrific knowledge of Drupal. He promotes
           accessibility best practice within the Drupal community, and is always happy to share his knowledge with other
@@ -60,7 +65,7 @@ testimonials:
       role: Executive Director
       company: Drupal Association
       url: https://assoc.drupal.org
-      image: https://assoc.drupal.org/files/headshot_drupal.png
+      image: holly-ross.png
       text: >
           <p>Oliver has been an outstanding contributor to the Drupal Association team. He is a talented developer who
           writes great code and applies his curiosity and love of learning to every project. He is also a fantastic team
@@ -71,7 +76,7 @@ testimonials:
       role: CTO
       company: Drupal Association
       url: https://assoc.drupal.org
-      image: https://assoc.drupal.org/files/joshv2.png
+      image: josh-mitchell.png
       text: >
           <p>Oliver is a skilled Drupal developer with a passion for the Drupal community. As his direct supervisor, I
           was able to watch Oliver grow with the Drupal Association and contribute an amazing amount of effort and
@@ -98,7 +103,7 @@ testimonials:
             {% endspaceless %}{% endif %}
 
             {% if testimonial.image %}
-                <img class="testimonial__image" src="{{ testimonial.image }}" alt="{{ testimonial.name }}"/>
+                <img class="testimonial__image" src="{{ site.url }}/images/testimonials/{{ testimonial.image }}" alt="{{ testimonial.name }}"/>
             {% endif %}
 
             {{ testimonial.text|raw }}
