@@ -1,7 +1,0 @@
-/*
-@each $page in experience, services, testimonials, talks, blog, contact {
-    .page--#{$page} .nav__#{$page} {
-        @extend .active;
-    }
-}
-*/
