@@ -115,7 +115,7 @@ testimonials:
                 <img class="testimonial__image" src="{{ site.url }}/images/testimonials/{{ testimonial.image }}" alt="{{ testimonial.name }}"/>
             {% endif %}
 
-            {% if testimonial.role and not company.name %}
+            {% if testimonial.role and company.name is not defined %}
                 <p class="lead">
                     {{ testimonial.role }}
                 </p>
