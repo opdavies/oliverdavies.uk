@@ -16,14 +16,18 @@ meta:
 
 <img src="{{ site.gravatar.url }}?s=125" alt="Picture of Oliver" class="img-circle">
 
-Hi, I’m Oliver - a full stack Web Developer and System Administrator based in Newport, South Wales, UK.
+I’m a full-stack Web Developer and System Administrator based in Newport, South Wales, UK.
 
-I’m currently a Senior Developer at [Microserve](https://microserve.io), and a part-time freelancer. I specialise in PHP development with <a href="{{ site.drupalorg.url_nice }}">Drupal</a> and [Sculpin](http://sculpin.io/), and Linux server administration. I’m also currently learning [Symfony](http://symfony.com/) and [Silex](http://silex.sensiolabs.org/).
+I’ve been a <a href="{{ site.drupalorg.url_nice }}">Drupal</a> and PHP specialist since 2007, when I started as a hobbyist and part-time freelancer. I’ve been working full-time with Drupal since 2010 - including over a year at the [Drupal Association](https://assoc.drupal.org/about/) working on improving and maintaining [Drupal.org](https://www.drupal.org).
 
-I’m a Drupal core contributor and <a href="{{ site.drupalorg.url }}/people-mentored">mentor</a>, and a <a href="https://www.drupal.org/project/user/{{ site.drupalorg.uid }}">contrib project maintainer</a>. I’m also the Drupal [Git documentation maintainer](https://www.drupal.org/node/2248627#comment-8887789) and provisional member of the [Drupal Security Team](https://www.drupal.org/security-team).
+I’m currently a Senior Developer at [Microserve](https://microserve.io), and I also run my own freelance working with Drupal, PHP and Linux.
 
-I also contribute to other open-source projects including [Drupal VM](http://www.drupalvm.com) (a Vagrant and Ansible based virtual environment for Drupal development), [COD](http://usecod.io) (the conference organising distribution, built on Drupal), and various Puppet modules and Ansible roles.
+I’m a Drupal <a href="{{ site.drupalorg.url_nice }}/issue-credits/3060">core contributor</a> and <a href="https://www.drupal.org/project/user/{{ site.drupalorg.uid }}">contrib project maintainer</a>, have successfully <a href="{{ site.drupalorg.url }}/people-mentored">mentored new contributors</a> online and in-person since DrupalCon Prague in 2013, and am a provisional member of the [Drupal Security Team](https://www.drupal.org/security-team).
 
-I organise Drupal user groups in [Cardiff](https://groups.drupal.org/wales-uk) and [Bristol](http://drupalbristol.org.uk), am a founding organiser of [DrupalCamp Bristol](http://www.drupalcampbristol.co.uk), and a co-organiser of the [PHPSW](http://phpsw.uk) user group. I also [regularly speak](/talks/) at conferences and user groups.
+I’m an avid user and advocate of the [Git](http://git-scm.com) version control system, and am the [Git documentation maintainer](https://www.drupal.org/node/2248627#comment-8887789) for the Drupal project.
+
+I [regularly speak](/talks/) at conferences and user groups, organise Drupal meetups in [Cardiff](https://groups.drupal.org/wales-uk) and [Bristol](http://drupalbristol.org.uk), and am a co-organiser of [PHPSW](http://phpsw.uk). I’m also a founding committee member of [DrupalCamp Bristol](http://www.drupalcampbristol.co.uk).
+
+I build static websites with [Sculpin](https://sculpin.io), am currently learning [Symfony](http://symfony.com/) and [Silex](http://silex.sensiolabs.org/), and contribute to other open-source projects including [Drupal VM](http://www.drupalvm.com) (a Vagrant and Ansible based virtual environment for Drupal development), [COD](http://usecod.io) (the conference organising distribution, built on Drupal), and various [Puppet](https://puppetlabs.com/puppet/what-is-puppet/) modules and [Ansible](http://www.ansible.com/how-ansible-works) roles.
 
 You can follow me on <a href="{{ site.twitter.url }}">Twitter</a> and <a href="{{ site.linkedin.url }}">LinkedIn</a>, and you can view my code on <a href="{{ site.drupalorg.url }}/track/code">Drupal.org</a> and <a href="{{ site.github.url }}?tab=activity">GitHub</a>.
