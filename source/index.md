@@ -16,11 +16,11 @@ meta:
 
 <img src="{{ site.gravatar.url }}?s=125" alt="Picture of Oliver" class="img-circle">
 
-I’m a full-stack Web Developer and System Administrator based in Newport, South Wales, UK.
+I’m a <a href="{{ site.drupalorg.url_nice }}">Drupal specialist</a> based in the UK, with experience of PHP and Symfony development and Linux server administration.
 
-I’ve been a <a href="{{ site.drupalorg.url_nice }}">Drupal</a> and PHP specialist since 2007, when I started as a hobbyist and part-time freelancer. I’ve been working full-time with Drupal since 2010 - including over a year at the [Drupal Association](https://assoc.drupal.org/about/) working on improving and maintaining [Drupal.org](https://www.drupal.org).
+I’ve been working with Drupal and PHP since 2007, when I started as a hobbyist and part-time freelancer. I’ve been working full-time with Drupal since 2010 - including over a year at the [Drupal Association](https://assoc.drupal.org/about/) working on improving and maintaining [Drupal.org](https://www.drupal.org).
 
-I’m currently a Lead Developer at [CTI Digital](https://www.ctidigital.com/), and I also run my own freelance business working with Drupal, PHP and Linux.
+I’m currently a Lead Developer at [CTI Digital](https://www.ctidigital.com/), and I also run my own freelance business.
 
 I’m a Drupal <a href="{{ site.drupalorg.url_nice }}/issue-credits/3060">core contributor</a> and <a href="https://www.drupal.org/project/user/{{ site.drupalorg.uid }}">contrib project maintainer</a>, have successfully <a href="{{ site.drupalorg.url }}/people-mentored">mentored new contributors</a> online and in-person since DrupalCon Prague in 2013, and am a provisional member of the [Drupal Security Team](https://www.drupal.org/security-team).
 
