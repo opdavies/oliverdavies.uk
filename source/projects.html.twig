@@ -4,6 +4,6 @@ title: Projects
 use:
     - projects
 ---
-{% for project in data.projects %}
+{% for project in data.projects|reverse %}
     <a href="{{ project.url }}">{{ project.title }}</a><br>
 {% endfor %}
