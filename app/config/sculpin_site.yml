@@ -72,3 +72,25 @@ availability:
             yes: <i class="fa fa-thumbs-o-up text-success"></i> Available for weekend/evening freelance work
             limited: <i class="fa fa-thumbs-o-up text-warning"></i> Limited availability for weekend/evening freelance work
             no: <i class="fa fa-thumbs-o-down text-danger"></i> Not availabile for weekend/evening freelance work
+
+companies:
+    horse_country:
+        title: 'Horse & Country TV'
+    proctors:
+        title: 'Proctor & Stevenson'
+        website: http://www.proctors.co.uk
+    nomensa:
+        title: Nomensa
+        website: http://www.nomensa.com
+    precedent:
+        title: Precedent
+        website: http://precedent.com
+    lab_class:
+        title: Lab Class
+        website: http://labclass.co.uk
+    drupal_association:
+        title: Drupal Association
+        website: https://assoc.drupal.org
+    microserve:
+        title: Microserve
+        website: https://microserve.io
