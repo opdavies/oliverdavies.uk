@@ -3,6 +3,10 @@ sculpin_content_types:
         permalink: blog/:slug_title/
         taxonomies:
             - tags
+    projects:
+        permalink: projects/:slug_title/
+        taxonomies:
+            - tags
     talks:
         permalink: talks/:filename/
         taxonomies:
