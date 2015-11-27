@@ -1,0 +1,39 @@
+{% extends 'page' %}
+
+{% block content_wrapper %}
+    <main class="col-md-9">
+        {{ page.blocks.content_top|raw }}
+        {{ page.blocks.content|raw }}
+        {{ page.blocks.content_bottom|raw }}
+    </main>
+{% endblock %}
+
+{% block content_top %}
+    {{ parent() }}
+
+    {% if page.company %}
+        <div class="project--company">
+            <em>{% spaceless %}{% set company = site.companies[page.company] %}
+            Developed on behalf of
+            {% if company.website %}
+                <a href="{{ company.website }}">{{ company.title }}</a>
+            {% else %}
+                {{ company.title }}
+            {% endif %}{% endspaceless %}.</em>
+        </div>
+    {% endif %}
+{% endblock %}
+
+{% block content_bottom %}
+    {% if page.website %}
+        <div class="project--website">
+            <a href="{{ page.website }}" class="btn btn-primary">View the website</a>
+        </div>
+    {% endif %}
+
+    {% if page.image %}
+        <div class="project--image">
+            <img src="/images/projects/{{ page.image }}" alt="The {{ page.title }} website.">
+        </div>
+    {% endif %}
+{% endblock %}
