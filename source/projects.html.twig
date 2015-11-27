@@ -1,0 +1,9 @@
+---
+layout: page
+title: Projects
+use:
+    - projects
+---
+{% for project in data.projects %}
+    <a href="{{ project.url }}">{{ project.title }}</a><br>
+{% endfor %}
