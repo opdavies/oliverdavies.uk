@@ -11,6 +11,8 @@
 {% block content_top %}
     {{ parent() }}
 
+    Role: {{ page.role }}
+
     {% if page.company %}
         <div class="project--company">
             <em>{% spaceless %}{% set company = site.companies[page.company] %}
