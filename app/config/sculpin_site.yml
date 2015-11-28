@@ -76,6 +76,8 @@ availability:
 companies:
     horse_country:
         title: 'Horse & Country TV'
+    zooba:
+        title: Zooba Ltd
     proctors:
         title: 'Proctor & Stevenson'
         website: http://www.proctors.co.uk
@@ -85,6 +87,9 @@ companies:
     precedent:
         title: Precedent
         website: http://precedent.com
+    trent:
+        title: Trent Design
+        website: http://www.trentdesign.net
     lab_class:
         title: Lab Class
         website: http://labclass.co.uk
