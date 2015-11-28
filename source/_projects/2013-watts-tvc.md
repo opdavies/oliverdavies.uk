@@ -6,5 +6,5 @@ tags:
     - drupal-7
 image: wattstvc.png
 company: lab_class
-role: Lead Developer
+role: Freelance Developer
 ---
