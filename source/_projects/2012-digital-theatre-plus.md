@@ -7,4 +7,5 @@ tags:
     - drupal-commerce
 image: digital-theatre-plus.png
 company: nomensa
+role: Developer
 ---

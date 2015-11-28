@@ -6,4 +6,5 @@ tags:
     - drupal-7
 image: drupalorg.png
 company: drupal_association
+role: Drupal.org Developer
 ---

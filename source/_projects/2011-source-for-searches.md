@@ -7,4 +7,5 @@ tags:
     - ubercart
 image: source-for-searches.png
 company: proctors
+role: Lead Developer
 ---

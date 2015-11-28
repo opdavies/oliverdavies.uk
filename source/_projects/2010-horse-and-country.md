@@ -6,4 +6,5 @@ tags:
     - drupal-6
 image: handc.png
 company: horse_country
+role: Developer
 ---
