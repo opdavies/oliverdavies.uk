@@ -5,7 +5,7 @@ nav: experience
 experiences:
     - name: CTI Digital
       webite: https://www.ctidigital.com
-      logo: /images/experience/cti-digital.png
+      logo: cti-digital.png
       role: Lead Drupal Developer
       location: Remote
       start: November 2015
@@ -23,7 +23,7 @@ experiences:
     - name: Microserve
       website: https://microserve.io
       location: Bristol, England
-      logo: /images/experience/microserve.png
+      logo: microserve.png
       role: Senior Drupal Developer
       start: July 2015
       end: November 2015
@@ -33,7 +33,7 @@ experiences:
 
     - name: Drupal Association
       website: https://assoc.drupal.org
-      logo: /images/experience/drupal-association.png
+      logo: drupal-association.png
       role: Drupal.org Developer
       location: Remote
       start: 2014
@@ -45,7 +45,7 @@ experiences:
     - name: Precedent
       website: http://precedent.com
       location: Cardiff, Wales
-      logo: /images/experience/precedent.jpg
+      logo: precedent.jpg
       role: Senior Drupal Developer
       start: 2013
       end: 2014
@@ -55,7 +55,7 @@ experiences:
     - name: Nomensa
       website: http://www.nomensa.com
       location: Bristol, England
-      logo: /images/experience/nomensa.png
+      logo: nomensa.png
       role: 'Contract Drupal Developer / Application Developer & System Administrator'
       start: 2012
       end: 2013
@@ -66,7 +66,7 @@ experiences:
     - name: 'Proctor & Stevenson'
       website: http://www.proctors.co.uk
       location: Bristol, England
-      logo: /images/experience/proctors.jpg
+      logo: proctors.jpg
       role: 'PHP Developer'
       start: 2011
       end: 2012
@@ -76,7 +76,7 @@ experiences:
     - name: 'Horse & Country TV'
       website: http://www.horseandcountry.tv
       location: Cwmbran, Wales
-      logo: /images/experience/horse-and-country.jpg
+      logo: horse-and-country.jpg
       role: Web Developer
       start: 2010
       end: 2011
@@ -92,7 +92,7 @@ experiences:
                 <h2>{{ experience.name }}</h2>
 
                 {% if experience.logo %}
-                    <img class="experience--logo" src="{{ experience.logo }}" alt="{{ experience.name }} logo">
+                    <img class="experience--logo" src="/assets/images/experience/{{ experience.logo }}" alt="{{ experience.name }} logo">
                 {% endif %}
 
                 {% if experience.website %}
