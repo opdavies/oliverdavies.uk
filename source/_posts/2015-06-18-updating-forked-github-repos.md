@@ -7,6 +7,7 @@ meta:
 tags:
   - git
   - github
+  - phpstorm
   - sculpin
 ---
 {% block content %}
@@ -60,4 +61,22 @@ This seems to have worked OK - the commits are still authored by the correct peo
 ## Is There a Better Way?
 
 Did I miss something? Is there a recommended and/or better way to update your forked repos, maybe through the UI? Please <a href="https://twitter.com/?status=Rebasing GitHub Forks: @{{ site.twitter.name }}">send me a tweet</a> with any comments.
+
+## Update: Rebasing in PhpStorm
+
+__December 2015:__ I’ve found that PhpStorm has an option available to rebase a fork from within the IDE. This is within the *VCS* > *Git* menu.
+
+I believe that it will use an existing "upstream" remote if it exists, otherwise it will add one automatically for you, linking to the repository that you forked from.
+
+Once you’ve completed the rebase, you can then push your updated branch either from the terminal, or using the *Push* command from the same menu.
+
+![Rebasing a forked repository in PhpStorm using the VCS menu.](/assets/images/blog/github-fork-rebase-phpstorm.png)
+
+It would be great to see something similar added to [hub](https://hub.github.com) too (I’ve created [an issue](https://github.com/github/hub/issues/1047))!
+
+## Resources
+
+* [PhpStorm - Advanced GitHub Integration: Rebase My GitHub Fork (blog post)](http://blog.jetbrains.com/idea/2011/02/advanced-github-integration-rebase-my-github-fork/)
+* [Rebasing a GitHub fork inside PhpStorm (video)](https://www.youtube.com/watch?v=Twy-dhVgN4k)
+* [hub](https://hub.github.com) - makes Git better with GitHub
 {% endblock %}
