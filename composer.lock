@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "684c1a754e07028d53a166ead8a0cbe8",
-    "content-hash": "75bc6de9eb35b0f8ab69b9ba697001b7",
+    "hash": "a3815d272a20196506517f3333add096",
+    "content-hash": "d23473718354d281f1fa09937f5421ab",
     "packages": [
         {
             "name": "behat/behat",
@@ -1943,12 +1943,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sculpin/sculpin.git",
-                "reference": "c4f0814b955af3b96d6bb4499151a4a6b7fb3f62"
+                "reference": "c4f0814"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sculpin/sculpin/zipball/c4f0814b955af3b96d6bb4499151a4a6b7fb3f62",
-                "reference": "c4f0814b955af3b96d6bb4499151a4a6b7fb3f62",
+                "reference": "c4f0814",
                 "shasum": ""
             },
             "require": {
