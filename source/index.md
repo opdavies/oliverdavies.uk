@@ -11,6 +11,15 @@ meta:
             width: 327
             height: 327
             type: image/jpg
+
+tools:
+    - { title: Drupal, website: https://www.drupal.org }
+    - { title: Symfony, website: http://symfony.com }
+    - { title: Silex, website: http://silex.sensiolabs.org }
+    - { title: Sculpin, website: https://sculpin.io }
+    - { title: CentOS, website: https://www.centos.org/about }
+    - { title: Git, website: http://git-scm.com }
+    - { title: Ansible, website: http://www.ansible.com }
 ---
 # About Me
 
