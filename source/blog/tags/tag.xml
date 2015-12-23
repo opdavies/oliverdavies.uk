@@ -16,7 +16,7 @@ generator: [posts_tag_index]
         <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
         <pubDate>{{ post.date|date('r') }}</pubDate>
-        <description>{{ post.description|raw }}</description>
+        <description>{{ post.blocks.excerpt|raw }}</description>
       </item>
     {% endfor %}
   </channel>
