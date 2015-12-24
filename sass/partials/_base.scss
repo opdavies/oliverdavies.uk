@@ -1,15 +1,15 @@
 body {
-  padding-top: 60px;
+    padding-top: 60px;
 }
 
 main {
-  a:link,
-  a:hover {
-    border-bottom: 1px solid;
-    text-decoration: none;
-  }
+    a:link,
+    a:hover {
+        border-bottom: 1px solid;
+        text-decoration: none;
+    }
 
-  img {
-    @extend .img-responsive;
-  }
+    img {
+        @extend .img-responsive;
+    }
 }

@@ -1,17 +1,17 @@
 .page--testimonials .testimonial {
-  @include clearfix;
-  margin-bottom: 10px;
+    @include clearfix;
+    margin-bottom: 10px;
 
-  .testimonial__image {
-    @extend .img-circle;
-    @extend .pull-right;
-    height: 75px;
-    margin: 0 0 10px 10px;
-    width: 75px;
+    .testimonial__image {
+        @extend .img-circle;
+        @extend .pull-right;
+        height: 75px;
+        margin: 0 0 10px 10px;
+        width: 75px;
 
-    @include breakpoint($screen-sm) {
-      height: 90px;
-      width: 90px;
+        @include breakpoint($screen-sm) {
+            height: 90px;
+            width: 90px;
+        }
     }
-  }
 }
