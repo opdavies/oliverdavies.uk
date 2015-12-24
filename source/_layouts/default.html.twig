@@ -68,19 +68,15 @@
                 {% block sidebar_wrapper %}
                     <div class="col-md-3">
                         {% block sidebar %}
-                            <div class="panel">
-                                <a href="https://assoc.drupal.org/membership/individuals?country=United+Kingdom" title="I’m a Drupal Association member.">
-                                    <img src="{{ site.url }}/assets/images/da-individual-member.png" alt="Drupal Association Individual Member" width="150">
+                            <div class="panel panel--badges">
+                                <a class="panel--badges--badge__da-member" href="https://assoc.drupal.org/membership" title="I’m a Drupal Association member.">
+                                    <img src="{{ site.url }}/assets/images/da-individual-member.png" alt="Drupal Association Individual Member">
                                 </a>
 
-                                <a href="https://assoc.drupal.org/membership">
-                                    <img src="{{ site.url }}/assets/images/drupal-association-become-member.png" alt="Become a Drupal Association member." width="150">
+                                <a href="https://www.drupal.org/8">
+                                    <img alt="I built Drupal 8 with hand holding a wrench on blue background" src="{{ site.url }}/assets/images/drupal-8.jpg"/>
                                 </a>
                             </div>
-
-                            <a href="https://www.drupal.org/8">
-                                <img alt="I built Drupal 8 with hand holding a wrench on blue background" src="{{ site.url }}/assets/images/drupal-8.jpg"/>
-                            </a>
 
                             {% include('availability') %}
                         {% endblock %}

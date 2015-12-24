@@ -1,0 +1,15 @@
+.panel--badges {
+    > a {
+        display: block;
+        margin: 0 0 10px;
+        text-align: center;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &[class$="da-member"] img {
+            max-width: 175px;
+        }
+    }
+}
