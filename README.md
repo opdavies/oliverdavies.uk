@@ -1,3 +1,3 @@
-# oliverdavies.uk
+# [oliverdavies.uk](https://www.oliverdavies.uk)
 
-My personal website, built with [Sculpin](http://sculpin.io). Originally forked from [Sculpin Minimal](https://github.com/opdavies/sculpin-minimal).
+Built with [Sculpin](http://sculpin.io).
