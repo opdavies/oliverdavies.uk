@@ -1,13 +1,7 @@
 {% spaceless %}<title>
-    {% if page.full_title %}
-        {{ page.full_title }}
-    {% elseif page.title and site.title %}
-        {{ page.title }} {{ site.title_separator }} {{ site.title }}
-    {% elseif site.title %}
-        {% if site.subtitle %}
-            {{ site.subtitle }} {{ site.title_separator }} {{ site.title }}
-        {% else %}
-            {{ site.title }}
-        {% endif %}
+    {% if page.front %}
+        {{ site.subtitle }} | {{ site.title }}
+    {% else %}
+        {{ page.title }} | {{ site.title }}
     {% endif %}
 </title>{% endspaceless %}
