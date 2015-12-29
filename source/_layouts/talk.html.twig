@@ -15,14 +15,16 @@
 
         {{ page.blocks.content|raw }}
 
-        {% if page.slides.embed %}
-            <hr>
+        {% if page.blocks.slides %}
             <h2>Slides</h2>
-            {{ page.slides.embed|raw }}
+
+            {{ page.blocks.slides|raw }}
         {% endif %}
 
-        {% if page.vimeo.id %}
-            <iframe src="https://player.vimeo.com/video/{{ page.vimeo.id }}?title=0&portrait=0" width="{{ page.vimeo.width|default(500) }}" height="{{ page.vimeo.height|default(281) }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        {% if page.blocks.video %}
+            <h2>Video</h2>
+
+            {{ page.blocks.video|raw }}
         {% endif %}
     </main>
-{% endblock content_wrapper %}
+{% endblock %}

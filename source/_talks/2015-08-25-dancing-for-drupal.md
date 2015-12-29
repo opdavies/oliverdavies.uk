@@ -5,14 +5,13 @@ event:
     name: umBristol (Bristol Umbraco user group)
     website: http://umbristol.co.uk
     location: Bristol, UK
-slides:
-    url: https://speakerdeck.com/opdavies/umbristol-dancing-for-drupal
-    embed: <script async class="speakerdeck-embed" data-id="ffa9b6dea6dc4a8eb207b9982ed6e1bd" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+slides: https://speakerdeck.com/opdavies/umbristol-dancing-for-drupal
 tags:
     - meetup
     - umbristol
     - drupal
 ---
+{% block content %}
 As part of their [CMS Dance-Off](http://www.meetup.com/umBristol/events/223807592/), I was selected to speak about Drupal alongside other speakers representing Umbraco, Sitecore and Episerver.
 
 The points to cover were:
@@ -26,3 +25,8 @@ The points to cover were:
 * What does the future of your CMS look like?
 
 In each point, tried to cover the differences between Drupal core and developing a project using Drupal, as well as between Drupal 7 and Drupal 8, as things like source control and versioning would be approached differently.
+{% endblock %}
+
+{% block slides %}
+<script async class="speakerdeck-embed" data-id="ffa9b6dea6dc4a8eb207b9982ed6e1bd" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+{% endblock %}
