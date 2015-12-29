@@ -1,9 +1,9 @@
 #!/bin/bash
 
-ENV=prod
+ENV=staging
 DEPLOY_USER=deployment
-DEPLOY_HOST=www.oliverdavies.uk
-DEPLOY_PATH=/var/www/oliverdavies/site
+DEPLOY_HOST=oliverdavies.s.oliverdavies.uk
+DEPLOY_PATH=/var/www/oliverdavies/public
 
 ./vendor/bin/sculpin generate --env=${ENV} --clean --no-interaction
 if [ $? -ne 0 ]; then echo "Could not generate the site"; exit 1; fi
