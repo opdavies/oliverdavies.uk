@@ -1,10 +1,16 @@
 ---
+nav: talks
 title:
-location:
+event:
+    name:
+    website:
+    location:
 slides:
-    url:
-    embed:
+code:
+video:
+joindin:
 slug:
 draft: true
 # fuzzy_date: true
+tags: []
 ---
