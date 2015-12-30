@@ -1,6 +1,7 @@
 ---
 nav: talks
 title: Dancing for Drupal
+type: meetup
 event:
     name: umBristol (Bristol Umbraco user group)
     website: http://umbristol.co.uk
@@ -10,8 +11,9 @@ tags:
     - meetup
     - umbristol
     - drupal
+tweets: yes
 ---
-{% block content %}
+{% block abstract %}
 As part of their [CMS Dance-Off](http://www.meetup.com/umBristol/events/223807592/), I was selected to speak about Drupal alongside other speakers representing Umbraco, Sitecore and Episerver.
 
 The points to cover were:
@@ -29,4 +31,8 @@ In each point, tried to cover the differences between Drupal core and developing
 
 {% block slides %}
 <script async class="speakerdeck-embed" data-id="ffa9b6dea6dc4a8eb207b9982ed6e1bd" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+{% endblock %}
+
+{% block feedback %}
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/opdavies">@opdavies</a> <a href="https://twitter.com/Horls">@Horls</a> <a href="https://twitter.com/mhwelander">@mhwelander</a> <a href="https://twitter.com/ThisisZone">@ThisisZone</a> <a href="https://twitter.com/mozzy16">@mozzy16</a> Thanks for a top night of knowledge sharing! <a href="https://twitter.com/hashtag/drupal?src=hash">#drupal</a> <a href="https://twitter.com/hashtag/episerver?src=hash">#episerver</a> <a href="https://twitter.com/hashtag/sitecore?src=hash">#sitecore</a> <a href="https://twitter.com/hashtag/umbraco?src=hash">#umbraco</a> <a href="https://twitter.com/hashtag/h5yr?src=hash">#h5yr</a></p>&mdash; umBristol (@umBristol) <a href="https://twitter.com/umBristol/status/636290498362216449">August 25, 2015</a></blockquote>
 {% endblock %}
