@@ -26,4 +26,4 @@ gulp.task('watch', function () {
     gulp.watch('./sass/**/*.scss', ['compass']);
 });
 
-gulp.task('default', []);
+gulp.task('default', ['watch']);
