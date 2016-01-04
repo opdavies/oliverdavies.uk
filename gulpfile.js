@@ -13,7 +13,8 @@ gulp.task('compass', function () {
     gulp.src('./sass')
         .pipe(plugins.compass({
           config_file: './config.rb',
-          css: config.cssDir
+          css: config.cssDir,
+          sourcemap: true
         }))
         .pipe(plugins.minifyCss())
         .pipe(gulp.dest(config.cssDir));
