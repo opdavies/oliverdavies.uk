@@ -1,24 +1,22 @@
 'use strict';
 
 var gulp = require('gulp'),
-    compass = require('gulp-compass'),
-    minify_css = require('gulp-minify-css'),
-    imagemin = require('gulp-imagemin');
+    plugins = require('gulp-load-plugins')();
 
 gulp.task('compass', function () {
     gulp.src('./sass')
-        .pipe(compass({
+        .pipe(plugins.compass({
           config_file: './config.rb',
           css: './source/assets/css'
         }))
-        .pipe(minify_css())
+        .pipe(plugins.minifyCss())
         .pipe(gulp.dest('./source/assets/css'));
 });
 
 gulp.task('image', function () {
     // Minify images.
     gulp.src('./source/assets/images/*')
-        .pipe(imagemin())
+        .pipe(plugins.imagemin())
         .pipe(gulp.dest('./source/assets/images'));
 });
 
