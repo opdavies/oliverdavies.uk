@@ -9,7 +9,7 @@ var config = {
     sassPattern: './sass/**/*.scss'
 };
 
-gulp.task('compass', function () {
+gulp.task('styles', function () {
     gulp.src('./sass')
         .pipe(plugins.compass({
           config_file: './config.rb',
@@ -28,7 +28,7 @@ gulp.task('images', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch(config.sassPattern, ['compass']);
+    gulp.watch(config.sassPattern, ['styles']);
 });
 
 gulp.task('default', ['watch']);
