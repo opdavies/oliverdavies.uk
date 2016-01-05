@@ -1,7 +1,8 @@
 'use strict';
 
 var gulp = require('gulp'),
-    plugins = require('gulp-load-plugins')();
+    plugins = require('gulp-load-plugins')(),
+    del = require('del');
 
 var config = {
     cssDir: './source/assets/css',
@@ -31,4 +32,9 @@ gulp.task('watch', function () {
     gulp.watch(config.sassPattern, ['styles']);
 });
 
-gulp.task('default', ['watch']);
+gulp.task('clean', function () {
+    del.sync('./source/assets/css/*');
+    del.sync('./output_*/assets/css/*');
+});
+
+gulp.task('default', ['clean', 'watch']);
