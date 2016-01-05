@@ -20,9 +20,9 @@ gulp.task('compass', function () {
         .pipe(gulp.dest(config.cssDir));
 });
 
-gulp.task('image', function () {
+gulp.task('images', function () {
     // Minify images.
-    gulp.src(imagesDir + '/*')
+    gulp.src(config.imagesDir + '/*')
         .pipe(plugins.imagemin())
         .pipe(gulp.dest(config.imagesDir));
 });
