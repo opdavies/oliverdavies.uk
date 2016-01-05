@@ -57,6 +57,7 @@ meetups:
     accbristol: { name: Accessible Bristol, logo: accessible-bristol.png, url: http://www.accessiblebristol.org.uk }
     # udiff: { name: Unified Diff, logo: unified-diff.png, url: http://unifieddiff.co.uk }
     nwdug: { name: NWDUG, logo: nwdug.jpg, url: http://www.meetup.com/nwdrupal }
+    phpnw: { name: PHPNW, logo: phpnw.gif, url: http://phpnw.org.uk }
 
 hightlightjs_style: default
 digitalocean_referral: a913b4b00d4a
