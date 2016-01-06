@@ -7,7 +7,9 @@ var gulp = require('gulp'),
 var config = {
     cssDir: './source/assets/css',
     imagesDir: './source/assets/images',
-    sassPattern: './sass/**/*.scss'
+    sassPattern: './sass/**/*.scss',
+    production: !!plugins.util.env.production,
+    sourceMaps: !plugins.util.env.production
 };
 
 gulp.task('styles', function () {
@@ -15,7 +17,7 @@ gulp.task('styles', function () {
         .pipe(plugins.compass({
           config_file: './config.rb',
           css: config.cssDir,
-          sourcemap: true
+          sourcemap: config.sourceMaps
         }))
         .pipe(plugins.minifyCss())
         .pipe(gulp.dest(config.cssDir));
