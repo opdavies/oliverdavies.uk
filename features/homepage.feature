@@ -5,4 +5,4 @@ Feature: Homepage
 
   Scenario:
     Given I am on "/"
-    Then I should see "I’m a Drupal specialist based in the UK"
+    Then I should see "I’m a Web Developer and Drupal specialist"
