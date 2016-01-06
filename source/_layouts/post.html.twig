@@ -7,7 +7,7 @@
         {% block content %}{% endblock %}
 
         <p class="post-feedback" style="font-style: italic">
-            <b>Have feedback about this post?</b> <a href="mailto:{{ site.email }}?subject=Feedback: {{ page.title }}">Email me</a> or <a href="https://twitter.com/home?status=@{{ site.twitter.name }} {{ site.url }}{{ page.url }}:">send me a tweet</a>.
+            <b>Have feedback on this post?</b> <a href="mailto:{{ site.email }}?subject=Feedback: {{ page.title }}">Email me</a> or <a href="https://twitter.com/intent/tweet?text=@{{ site.twitter.name }}&url={{ site.url }}{{ page.url|url_encode }}">send me a tweet</a>.
         </p>
 
         {% if page.related -%}
