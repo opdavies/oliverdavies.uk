@@ -1,7 +1,7 @@
 /node_modules/
 /output_*/
 /source/assets/css/
-/source/components/
+/source/assets/fonts/
 /.sculpin/
 /vendor/
 .sass-cache/

@@ -5,22 +5,43 @@ var gulp = require('gulp'),
     del = require('del');
 
 var config = {
-    cssDir: './source/assets/css',
-    imagesDir: './source/assets/images',
+    bowerDir: 'vendor/bower_components',
+    assetsDir: './source/assets',
     sassPattern: './sass/**/*.scss',
     production: !!plugins.util.env.production,
-    sourceMaps: !plugins.util.env.production
+    sourceMaps: !plugins.util.env.production,
+    liveReload: !plugins.util.env.production,
 };
 
+var app = {};
+
+app.addStyle = function(paths, filename) {
+    gulp.src(paths)
+        .pipe(plugins.plumber())
+        .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.init()))
+        .pipe(plugins.sass())
+        .pipe(plugins.concat(filename))
+        .pipe(config.production ? plugins.minifyCss() : plugins.util.noop())
+        .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.write('.')))
+        .pipe(gulp.dest(config.assetsDir + '/css'))
+        .pipe(plugins.if(config.liveReload, livereload()));
+}
+
+app.copy = function(srcFiles, outputDir) {
+    gulp.src(srcFiles)
+        .pipe(gulp.dest(outputDir));
+}
+
+gulp.task('fonts', function () {
+    // Copy fonts from bower_components into source/asset/fonts.
+    app.copy(config.bowerDir + '/font-awesome/fonts/*', config.assetsDir + '/fonts');
+});
+
 gulp.task('styles', function () {
-    gulp.src('./sass')
-        .pipe(plugins.compass({
-          config_file: './config.rb',
-          css: config.cssDir,
-          sourcemap: config.sourceMaps
-        }))
-        .pipe(plugins.minifyCss())
-        .pipe(gulp.dest(config.cssDir));
+    app.addStyle([
+        config.bowerDir + '/font-awesome/css/font-awesome.css',
+        './sass/styles.scss'
+    ], 'all.css')
 });
 
 gulp.task('images', function () {
@@ -31,12 +52,15 @@ gulp.task('images', function () {
 });
 
 gulp.task('watch', function () {
+    plugins.livereload.listen();
     gulp.watch(config.sassPattern, ['styles']);
 });
 
 gulp.task('clean', function () {
-    del.sync('./source/assets/css/*');
+    del.sync(config.assetsDir + '/css');
+    del.sync(config.assetsDir + '/fonts');
     del.sync('./output_*/assets/css/*');
+    del.sync('./output_*/assets/fonts/*');
 });
 
-gulp.task('default', ['clean', 'watch']);
+gulp.task('default', ['clean', 'styles', 'fonts', 'watch']);

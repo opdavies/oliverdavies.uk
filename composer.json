@@ -14,9 +14,6 @@
     "require": {
         "sculpin/sculpin": "dev-master#c4f0814",
         "tsphethean/sculpin-related-posts-bundle": "~0.1.0",
-        "components/bootstrap": "3.3.5",
-        "components/jquery": "~1.9.1",
-        "components/font-awesome": "@stable",
         "behat/behat": "2.5.*@stable",
         "behat/mink": "1.5.*@stable",
         "behat/mink-extension": "*",
