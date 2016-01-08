@@ -24,7 +24,7 @@ app.addStyle = function(paths, filename) {
         .pipe(config.production ? plugins.minifyCss() : plugins.util.noop())
         .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.write('.')))
         .pipe(gulp.dest(config.assetsDir + '/css'))
-        .pipe(plugins.if(config.liveReload, livereload()));
+        .pipe(plugins.if(config.liveReload, plugins.livereload()));
 };
 
 app.copy = function(srcFiles, outputDir) {
