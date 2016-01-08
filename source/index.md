@@ -26,7 +26,7 @@ tools:
 ---
 # About Me
 
-<img src="{{ site.gravatar.url }}?s=100" alt="Picture of Oliver" class="img-circle">
+<img src="{{ site.url }}/assets/images/me-precedent.jpg" alt="Picture of Oliver" class="img-circle">
 
 My name is Oliver Davies (aka [opdavies](https://www.google.com/#q=opdavies)), I’m a Web Developer and Drupal specialist based in Wales, UK.
 

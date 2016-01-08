@@ -32,8 +32,6 @@ joindin:
     url: https://joind.in/user/view/27119
 ansible_galaxy:
     url: https://galaxy.ansible.com/list#/users/14560
-gravatar:
-    url: //www.gravatar.com/avatar/e0f6adcd63d8393e689b327e978d0887.png
 flickr:
     url: https://www.flickr.com/photos/133286555@N04
 speakerdeck:
