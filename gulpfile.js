@@ -10,7 +10,7 @@ var config = {
     sassPattern: './sass/**/*.scss',
     production: !!plugins.util.env.production,
     sourceMaps: !plugins.util.env.production,
-    liveReload: !plugins.util.env.production,
+    liveReload: !plugins.util.env.production
 };
 
 var app = {};
@@ -25,12 +25,12 @@ app.addStyle = function(paths, filename) {
         .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.write('.')))
         .pipe(gulp.dest(config.assetsDir + '/css'))
         .pipe(plugins.if(config.liveReload, livereload()));
-}
+};
 
 app.copy = function(srcFiles, outputDir) {
     gulp.src(srcFiles)
         .pipe(gulp.dest(outputDir));
-}
+};
 
 gulp.task('fonts', function () {
     // Copy fonts from bower_components into source/asset/fonts.
