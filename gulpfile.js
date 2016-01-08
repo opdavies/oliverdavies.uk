@@ -63,4 +63,6 @@ gulp.task('clean', function () {
     del.sync('./output_*/assets/fonts/*');
 });
 
-gulp.task('default', ['clean', 'styles', 'fonts', 'watch']);
+gulp.task('build', ['clean', 'styles', 'fonts']);
+
+gulp.task('default', ['build', 'watch']);
