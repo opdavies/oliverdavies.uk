@@ -5,7 +5,7 @@ var gulp = require('gulp'),
     del = require('del');
 
 var config = {
-    bowerDir: 'vendor/bower_components',
+    bowerDir: 'vendor/bower',
     assetsDir: './source/assets',
     sassPattern: './sass/**/*.scss',
     production: !!plugins.util.env.production,
