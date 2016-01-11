@@ -32,6 +32,16 @@ app.copy = function(srcFiles, outputDir) {
         .pipe(gulp.dest(outputDir));
 };
 
+app.addScript = function(paths, filename) {
+    gulp.src(paths)
+        .pipe(plugins.plumber())
+        .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.init()))
+        .pipe(plugins.concat(filename))
+        .pipe(config.production ? plugins.uglify() : plugins.util.noop())
+        .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.write('.')))
+        .pipe(gulp.dest(config.assetsDir + '/js'))
+}
+
 gulp.task('fonts', function () {
     // Copy fonts from bower_components into source/asset/fonts.
     app.copy(config.bowerDir + '/font-awesome/fonts/*', config.assetsDir + '/fonts');
@@ -41,7 +51,14 @@ gulp.task('styles', function () {
     app.addStyle([
         config.bowerDir + '/font-awesome/css/font-awesome.css',
         './sass/styles.scss'
-    ], 'all.css')
+    ], 'all.css');
+});
+
+gulp.task('scripts', function () {
+    app.addScript([
+        config.bowerDir + '/jquery/dist/jquery.js',
+        config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js'
+    ], 'all.js');
 });
 
 gulp.task('images', function () {
@@ -59,10 +76,11 @@ gulp.task('watch', function () {
 gulp.task('clean', function () {
     del.sync(config.assetsDir + '/css');
     del.sync(config.assetsDir + '/fonts');
+    del.sync(config.assetsDir + '/js');
     del.sync('./output_*/assets/css/*');
     del.sync('./output_*/assets/fonts/*');
 });
 
-gulp.task('build', ['clean', 'styles', 'fonts']);
+gulp.task('build', ['clean', 'styles', 'scripts', 'fonts']);
 
 gulp.task('default', ['build', 'watch']);
