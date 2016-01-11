@@ -92,7 +92,7 @@ experiences:
                 <h2>{{ experience.name }}</h2>
 
                 {% if experience.logo %}
-                    <img class="experience--logo" src="/assets/images/experience/{{ experience.logo }}" alt="{{ experience.name }} logo">
+                    <img class="experience--logo" src="{{ site.images_url }}/assets/images/experience/{{ experience.logo }}" alt="{{ experience.name }} logo">
                 {% endif %}
 
                 {% if experience.website %}
