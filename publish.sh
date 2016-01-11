@@ -11,5 +11,8 @@ gulp build --production
 ./vendor/bin/sculpin generate --env=${ENV} --clean --no-interaction
 if [ $? -ne 0 ]; then echo "Could not generate the site"; exit 1; fi
 
+# Minify HTML.
+gulp minify-prod-html
+
 rsync -av --delete output_${ENV}/ ${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}
 if [ $? -ne 0 ]; then echo "Could not publish the site"; exit 1; fi

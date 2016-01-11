@@ -19,7 +19,7 @@ use:
             {% if post.blocks.excerpt %}
                 {{ post.blocks.excerpt|raw }}
             {% else %}
-                <p>{{ post.blocks.content|raw|split(' ')|slice(0,50)|join(' ')|replace({ 'h2':'h3' })|raw }} &hellip;</p>
+                <p>{{ post.blocks.content|raw|striptags|split(' ')|slice(0,50)|join(' ')|replace({ 'h2':'h3' }) }} &hellip;</p>
             {% endif %}
 
             <a href="{{ post.url }}">Read more &rarr;</a>

@@ -81,6 +81,12 @@ gulp.task('clean', function () {
     del.sync('./output_*/assets/fonts/*');
 });
 
+gulp.task('minify-prod-html', function() {
+    gulp.src('output_prod/**/*.html')
+        .pipe(plugins.htmlmin({ collapseWhitespace: true }))
+        .pipe(gulp.dest('output_prod'));
+});
+
 gulp.task('build', ['clean', 'styles', 'scripts', 'fonts']);
 
 gulp.task('default', ['build', 'watch']);
