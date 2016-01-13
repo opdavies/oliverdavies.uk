@@ -1,9 +1,9 @@
 #!/bin/bash
 
-ENV=prod
-DEPLOY_USER=deployment
-DEPLOY_HOST=www.oliverdavies.uk
-DEPLOY_PATH=/var/www/oliverdavies/public
+export ENV=prod
+export DEPLOY_USER=deployment
+export DEPLOY_HOST=www.oliverdavies.uk
+export DEPLOY_PATH=/var/www/oliverdavies/public
 
 # Rebuild assets.
 gulp build --production
