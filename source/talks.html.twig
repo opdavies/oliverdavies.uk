@@ -15,12 +15,12 @@ use:
 {% set found = false %}
 {% set year = 0 %}
 {% set now = 'now'|date_modify('-2 days')|date('U') %}
-{% for talk in data.talks if talk.date >= now %}
+{% for talk in data.talks|reverse if talk.date >= now %}
     {% if loop.first %}
         {% set found = true %}
         <h2>Upcoming Talks</h2>
     {% endif %}
-    
+
     {% if talk.date|date('Y') != year %}
         {% set year = talk.date|date('Y') %}
         </ul>
