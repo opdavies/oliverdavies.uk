@@ -1,7 +1,8 @@
-@import '_variables';
-
+@import '../vendor/bower/bootstrap-sass/assets/stylesheets/bootstrap/variables';
+@import '../vendor/bower/bootstrap-sass/assets/stylesheets/bootstrap/mixins/clearfix';
 @import '../vendor/bower/compass-breakpoint/stylesheets/breakpoint';
-@import '../vendor/bower/bootstrap-sass/assets/stylesheets/bootstrap';
+
+@import '_variables';
 
 @import 'partials/base';
 @import 'partials/badges';

@@ -1,4 +1,4 @@
 g = require 'gulp'
 
 g.task 'build', ->
-  g.start 'clean', 'styles', 'scripts', 'fonts'
+  g.start 'clean', 'vendor', 'styles', 'fonts'

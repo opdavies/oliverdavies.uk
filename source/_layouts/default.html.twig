@@ -18,7 +18,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="{{ site.url }}/assets/css/all.css">
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/vendor.css">
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/site.css">
         {% block styles %}{% endblock %}
 
         {% for size in site.apple_touch_icon_sizes %}
@@ -90,7 +91,7 @@
             {% include('meetups') %}
         </footer>
 
-        <script src="{{ site.url }}/assets/js/all.js"></script>
+        <script src="{{ site.url }}/assets/js/vendor.js"></script>
 
         {% block scripts %}{% endblock %}
 
