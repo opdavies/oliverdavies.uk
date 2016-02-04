@@ -4,6 +4,7 @@ g.task 'clean', ->
   g.src [
     'output_*/assets/css',
     'output_*/assets/fonts',
+    'output_*/assets/js',
     'source/assets/css',
     'source/assets/fonts',
     'source/assets/js',
