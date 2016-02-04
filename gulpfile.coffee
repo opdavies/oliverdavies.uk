@@ -22,7 +22,7 @@ g.css = (srcFiles, destFile) ->
     .pipe g.p.concat destFile
     .pipe g.p.if g.config.sourceMaps, g.p.sourcemaps.write('.')
     .pipe g.dest 'source/assets/css'
-    .pipe g.p.if g.config.livereload, g.p.livereload()
+    .pipe g.p.if g.config.liveReload, g.p.livereload()
 
 g.js = (srcFiles, destFile) ->
   g.src srcFiles
