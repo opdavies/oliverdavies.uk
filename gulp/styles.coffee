@@ -1,4 +1,4 @@
 g = require 'gulp'
 
 g.task 'styles', ->
-  g.css 'sass/site.scss', 'site.css'
+  g.css 'styles/site.scss', 'site.css'

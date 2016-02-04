@@ -4,7 +4,7 @@ g.task 'vendor', -> g.start 'vendor-styles', 'vendor-scripts'
 
 g.task 'vendor-styles', ->
   g.css [
-    'sass/vendor.scss',
+    'styles/vendor.scss',
     'vendor/bower/font-awesome/css/font-awesome.css'
   ], 'vendor.css'
 
