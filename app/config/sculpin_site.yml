@@ -45,7 +45,7 @@ favicon_sizes: [ 160, 96, 32, 16 ]
 main_menu:
     about: { title: About & Contact, href: / }
     experience: { title: Experience, href: /experience/ }
-#    testimonials: { title: Testimonials, href: /testimonials/ }
+    testimonials: { title: Testimonials, href: /testimonials/ }
     talks: { title: Talks, href: /talks/ }
     blog: { title: Blog, href: /blog/ }
 
