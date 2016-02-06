@@ -11,17 +11,9 @@
 {% block content_top %}
     {{ parent() }}
 
-    Role: {{ page.role }}
-
-    {% if page.company %}
-        <div class="project--company">
-            <em>{% spaceless %}{% set company = site.companies[page.company] %}
-            Developed on behalf of
-            {% if company.website %}
-                <a href="{{ company.website }}">{{ company.title }}</a>
-            {% else %}
-                {{ company.title }}
-            {% endif %}{% endspaceless %}.</em>
+    {% if page.image %}
+        <div class="project--image">
+            <img class="img-responsive" src="/assets/images/projects/{{ page.image }}" alt="The {{ page.title }} website.">
         </div>
     {% endif %}
 {% endblock %}
@@ -33,9 +25,29 @@
         </div>
     {% endif %}
 
-    {% if page.image %}
-        <div class="project--image">
-            <img src="/assets/images/projects/{{ page.image }}" alt="The {{ page.title }} website.">
+    {% if page.company %}
+        {% set company = site.companies[page.company] %}
+
+        <div class="project--company{% if company.logo %} project--company__has-logo{% endif %}">
+            {% if page.freelance %}
+                <h2>Built for</h2>
+            {% else %}
+                <h2>Built whilst at</h2>
+            {% endif %}
+
+            {% if company.logo %}
+                {% set name = '<img src="/assets/images/experience/' ~ company.logo ~ '" alt="' ~ company.title ~ '">' %}
+            {% else %}
+                {% set name = company.title %}
+            {% endif %}
+
+            {% if company.website %}
+                <a href="{{ company.website }}" title="{{ company.title }}">
+                    {{ name|raw }}
+                </a>
+            {% else %}
+                {{ name|raw }}
+            {% endif %}
         </div>
     {% endif %}
 {% endblock %}
