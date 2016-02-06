@@ -7,4 +7,5 @@ tags:
 image: wattstvc.png
 company: lab_class
 role: Freelance Developer
+freelance: true
 ---

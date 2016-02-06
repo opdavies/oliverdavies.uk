@@ -6,4 +6,5 @@ tags:
     - drupal-6
 image: vikisports.png
 role: Freelance Developer
+freelance: true
 ---

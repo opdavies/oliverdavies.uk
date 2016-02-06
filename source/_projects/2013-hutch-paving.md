@@ -6,4 +6,5 @@ tags:
 image: hutch-paving.png
 role: Freelance Developer
 company: trent
+freelance: true
 ---

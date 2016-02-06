@@ -7,4 +7,5 @@ tags:
     - accessibility
 image: accessible-bristol.png
 role: Freelance Developer
+freelance: true
 ---

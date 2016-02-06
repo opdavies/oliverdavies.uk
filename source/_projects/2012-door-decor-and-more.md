@@ -8,4 +8,5 @@ tags:
 image: door-decor-more.png
 company: zooba
 role: Freelance Developer
+freelance: true
 ---

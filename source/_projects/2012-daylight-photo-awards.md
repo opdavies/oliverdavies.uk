@@ -7,4 +7,5 @@ tags:
     - drupal-commerce
 image: daylight-photo-awards.png
 role: Freelance Developer
+freelance: true
 ---

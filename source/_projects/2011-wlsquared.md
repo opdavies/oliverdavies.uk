@@ -6,4 +6,5 @@ tags:
     - drupal-7
 image: wlsquared.png
 role: Freelance Developer
+freelance: true
 ---
