@@ -10,7 +10,7 @@ author:
         role: Lead Drupal Developer
         name: CTI Digital
         website: https://www.ctidigital.com
-
+        logo: cti-digital.png
 twitter:
     url: http://twitter.com/opdavies
     name: opdavies
@@ -79,19 +79,26 @@ availability:
             no: <i class="fa fa-thumbs-o-down text-danger"></i> Not availabile for weekend/evening freelance work
 
 companies:
+    freelance:
+        title: Freelance
     horse_country:
         title: 'Horse & Country TV'
+        logo: horse-and-country.jpg
+        website: http://www.horseandcountry.tv
     zooba:
         title: Zooba Ltd
     proctors:
         title: 'Proctor & Stevenson'
         website: http://www.proctors.co.uk
+        logo: proctors.jpg
     nomensa:
         title: Nomensa
         website: http://www.nomensa.com
+        logo: nomensa.png
     precedent:
         title: Precedent
         website: http://precedent.com
+        logo: precedent.jpg
     trent:
         title: Trent Design
         website: http://www.trentdesign.net
@@ -101,6 +108,12 @@ companies:
     drupal_association:
         title: Drupal Association
         website: https://assoc.drupal.org
+        logo: drupal-association.png
     microserve:
         title: Microserve
         website: https://microserve.io
+        logo: microserve.png
+    cti:
+        title: CTI Digital
+        website: https://www.ctidigital.com
+        logo: cti-digital.png
