@@ -105,6 +105,7 @@ companies:
     lab_class:
         title: Lab Class
         website: http://labclass.co.uk
+        logo: lab-class.png
     drupal_association:
         title: Drupal Association
         website: https://assoc.drupal.org
