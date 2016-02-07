@@ -8,4 +8,5 @@ image: wattstvc.png
 company: lab_class
 role: Freelance Developer
 freelance: true
+skills: [drupal, php, git, sass, compass]
 ---

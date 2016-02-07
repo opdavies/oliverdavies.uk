@@ -8,4 +8,5 @@ tags:
 image: source-for-searches.png
 company: proctors
 role: Developer
+skills: [drupal, php, less, svn]
 ---

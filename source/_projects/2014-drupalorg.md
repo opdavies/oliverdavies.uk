@@ -7,4 +7,5 @@ tags:
 image: drupalorg.png
 company: drupal_association
 role: Drupal.org Developer
+skills: [drupal, php, git, sass, compass, jenkins]
 ---

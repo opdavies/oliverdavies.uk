@@ -7,4 +7,5 @@ tags:
 image: avon-motorsport.png
 company: proctors
 role: Developer
+skills: [drupal, php, less, svn]
 ---

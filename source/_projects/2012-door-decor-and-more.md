@@ -9,4 +9,5 @@ image: door-decor-more.png
 company: zooba
 role: Freelance Developer
 freelance: true
+skills: [drupal, drupal-commerce, php, git]
 ---

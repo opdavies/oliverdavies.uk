@@ -8,4 +8,5 @@ tags:
 image: accessible-bristol.png
 role: Freelance Developer
 freelance: true
+skills: [drupal, php, less, git]
 ---

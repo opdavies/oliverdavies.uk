@@ -7,4 +7,5 @@ tags:
 image: wlsquared.png
 role: Freelance Developer
 freelance: true
+skills: [drupal, php, git]
 ---

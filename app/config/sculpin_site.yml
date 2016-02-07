@@ -118,3 +118,14 @@ companies:
         title: CTI Digital
         website: https://www.ctidigital.com
         logo: cti-digital.png
+
+skills:
+    drupal: { title: Drupal, image: drupal.png }
+    drupal-commerce: { title: Drupal Commerce, image: drupal-commerce.png }
+    php: { title: PHP, image: php.png }
+    git: { title: Git, image: git.png }
+    svn: { title: Subversion, image: svn.jpg }
+    less: { title: Less, image: less.png }
+    sass: { title: Sass, image: sass.png }
+    compass: { title: Compass, image: compass.png }
+    jenkins: { title: Jenkins, image: jenkins.png }

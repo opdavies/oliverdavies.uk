@@ -1,0 +1,14 @@
+{% if page.skills %}
+    <div class="project--skills">
+        <h2>Skills</h2>
+
+        <ul>
+            {% for item in page.skills %}
+                {% set skill = site.skills[item] %}
+                <li>
+                    <img src="/assets/images/skills/{{ skill.image }}" alt="{{ skill.title }}" title="{{ skill.title }}">
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}

@@ -7,4 +7,5 @@ tags:
 image: handc.png
 company: horse_country
 role: Developer
+skills: [drupal, php, git]
 ---

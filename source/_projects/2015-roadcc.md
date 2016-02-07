@@ -7,4 +7,5 @@ tags:
 image: roadcc.png
 company: microserve
 role: Lead Developer
+skills: [drupal, php, git, less]
 ---

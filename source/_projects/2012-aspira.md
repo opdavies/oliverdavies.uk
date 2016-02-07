@@ -7,4 +7,5 @@ tags:
 image: aspira.png
 company: proctors
 role: Developer
+skills: [drupal, php, svn]
 ---

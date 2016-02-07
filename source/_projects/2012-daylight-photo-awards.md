@@ -8,4 +8,5 @@ tags:
 image: daylight-photo-awards.png
 role: Freelance Developer
 freelance: true
+skills: [drupal, drupal-commerce, git, sass, compass, jenkins]
 ---
