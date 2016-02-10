@@ -8,23 +8,26 @@ experiences:
       location: Remote
       start: November 2015
       end: ~
+      description: |
+          <p>After initially working on various retainers and support contracts for the first couple of months, I’m now part of the build team for <a href="http://www.london.gov.uk">london.gov.uk</a>.</p>
 
     - company: freelance
       location: Remote
-      role: 'Drupal/PHP Developer & System Administrator'
+      role: 'PHP Developer & Linux System Administrator'
       start: 2007
       end: ~
-      description: >
-          <p>Working on Drupal and PHP projects in my spare time.</p>
-          <p>Linux server administration and configuration using Puppet, and more recently, Ansible.</p>
+      description: |
+          <p>Working on Drupal and Symfony development, maintenance and support projects in my spare time.</p>
+          <p>Administration of Debian, Ubuntu and CentOS servers, and configuration using Puppet, or more recently, Ansible.</p>
 
     - company: microserve
       location: Bristol, England
       role: Senior Drupal Developer
       start: July 2015
       end: November 2015
-      description: >
+      description: |
           <p>Full-stack Drupal development, focussing on data migration.</p>
+          <p>Lead Developer of the <a href="http://road.cc">road.cc</a> rebuild project onto Drupal 7, including working with non-Drupal PHP applications and utilising of Symfony components, and interacting with Drupal via REST.</p>
           <p>Community and contribution advocate.</p>
 
     - company: drupal_association
@@ -32,7 +35,7 @@ experiences:
       location: Remote
       start: 2014
       end: July 2015
-      description: >
+      description: |
           <p>Maintaining and improving Drupal.org - the home of the Drupal community.</p>
           <p>Speaking at user groups and DrupalCamps to promote the Drupal Association.</p>
 
@@ -41,7 +44,7 @@ experiences:
       role: Senior Drupal Developer
       start: 2013
       end: 2014
-      description: >
+      description: |
           <p>Drupal 7 website development, including site building, theming, module development, data migration and server configuration.</p>
 
     - company: nomensa
@@ -49,7 +52,7 @@ experiences:
       role: 'Contract Drupal Developer / Application Developer & System Administrator'
       start: 2012
       end: 2013
-      description: >
+      description: |
           <p>Drupal 7 website development and Linux server administration.</p>
           <p>I originally started as a contractor, and later took a staff role.</p>
 
@@ -58,7 +61,7 @@ experiences:
       role: 'PHP Developer'
       start: 2011
       end: 2012
-      description: >
+      description: |
           <p>Website development, mainly with Drupal and PHP, including the agency’s first Drupal 7 project.</p>
 
     - company: horse_country
@@ -66,7 +69,7 @@ experiences:
       role: Web Developer
       start: 2010
       end: 2011
-      description: >
+      description: |
           <p>Maintaining and adding new features to the Horse & Country TV website (Drupal 6).</p>
 ---
 <h1>Experience</h1>
@@ -77,18 +80,18 @@ experiences:
             {% set company = site.companies[experience.company] %}
 
             <div class="experience col-md-6">
-                <h2>{{ company.title }}</h2>
-
-                {% if company.logo %}
-                    <img class="experience--logo" src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.title }} logo">
-                {% endif %}
-
                 {% if company.website %}
                     <div>
                         <a href="{{ company.website }}">
-                            {{ company.website }}
+                            <h2>{{ company.title }}</h2>
                         </a>
                     </div>
+                {% else %}
+                    <h2>{{ company.title }}</h2>
+                {% endif %}
+
+                {% if company.logo %}
+                    <img class="experience--logo" src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.title }} logo">
                 {% endif %}
 
                 <div class="role-wrapper">
