@@ -17,9 +17,7 @@
         "behat/behat": "2.5.*@stable",
         "behat/mink": "1.5.*@stable",
         "behat/mink-extension": "*",
-        "behat/mink-goutte-driver": "*"
-    },
-    "config": {
-        "component-dir": "source/components"
+        "behat/mink-goutte-driver": "*",
+        "opdavies/sculpin-content-generator-bundle": "dev-master"
     }
 }

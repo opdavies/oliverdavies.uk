@@ -6,8 +6,9 @@ class SculpinKernel extends AbstractKernel
 {
     protected function getAdditionalSculpinBundles()
     {
-        return array(
-           'Tsphethean\Sculpin\Bundle\RelatedPostsBundle\SculpinRelatedPostsBundle'
-        );
+        return [
+            'Tsphethean\Sculpin\Bundle\RelatedPostsBundle\SculpinRelatedPostsBundle',
+            'Opdavies\Sculpin\Bundle\ContentGeneratorBundle\SculpinContentGeneratorBundle'
+        ];
     }
 }
