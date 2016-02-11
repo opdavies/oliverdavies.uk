@@ -45,6 +45,7 @@ Here is some information about me:
 * [Twitter](https://twitter.com/opdavies) - @opdavies
 * [Drupal.org](https://www.drupal.org/u/opdavies)
 * [GitHub](https://www.github.com/opdavies)
+* [Packagist](https://packagist.org/users/opdavies)
 * [Ansible Galaxy](https://galaxy.ansible.com/list#/users/14560)
 * [SpeakerDeck](https://speakerdeck.com/opdavies)
 * [LinkedIn](http://uk.linkedin.com/in/opdavies)
