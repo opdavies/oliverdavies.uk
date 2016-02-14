@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5bbebc491893fc23e7fa62411e3385df",
-    "content-hash": "bc5732b3374a653079a43f785264ad44",
+    "hash": "2d7470181bed43b55a095120eed34d12",
+    "content-hash": "4237d09d695ef8f30d1a66bbe5980781",
     "packages": [
         {
             "name": "behat/behat",
@@ -1457,20 +1457,23 @@
         },
         {
             "name": "opdavies/sculpin-content-generator-bundle",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opdavies/sculpin-content-generator-bundle.git",
-                "reference": "4d32b247abc4d2be750e422d1c712cfc179bebdd"
+                "reference": "7fea6ee6fbcbc198c9a4e8b72e67386b76100603"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opdavies/sculpin-content-generator-bundle/zipball/4d32b247abc4d2be750e422d1c712cfc179bebdd",
-                "reference": "4d32b247abc4d2be750e422d1c712cfc179bebdd",
+                "url": "https://api.github.com/repos/opdavies/sculpin-content-generator-bundle/zipball/7fea6ee6fbcbc198c9a4e8b72e67386b76100603",
+                "reference": "7fea6ee6fbcbc198c9a4e8b72e67386b76100603",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
+            },
+            "suggest": {
+                "sculpin/sculpin": "@stable"
             },
             "type": "library",
             "autoload": {
@@ -1479,6 +1482,9 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Oliver Davies",
@@ -1490,7 +1496,7 @@
             "keywords": [
                 "sculpin"
             ],
-            "time": "2016-02-11 20:18:01"
+            "time": "2016-02-14 07:29:36"
         },
         {
             "name": "psr/log",
@@ -3230,7 +3236,7 @@
         "sculpin/sculpin": 20,
         "behat/behat": 0,
         "behat/mink": 0,
-        "opdavies/sculpin-content-generator-bundle": 20
+        "opdavies/sculpin-content-generator-bundle": 0
     },
     "prefer-stable": true,
     "prefer-lowest": false,
