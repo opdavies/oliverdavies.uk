@@ -70,4 +70,6 @@ The recommended method is via downloading the phar file (the same as Composer an
 Please log any bugs or feature requests in the [GitHub issue tracker](https://github.com/opdavies/drupal-vm-config-generator/issues), and I’m more than happy to receive pull requests.
 
 If you’re interested in contributing, please feel free to fork the repository and start doing so, or contact me with any questions.
+
+__Update 17/02/16:__ The autoloading issue is now fixed if you require the package via Composer, and this has been tagged as the [1.0.1 release](https://github.com/opdavies/drupal-vm-config-generator/releases/tag/1.0.1)
 {% endblock %}
