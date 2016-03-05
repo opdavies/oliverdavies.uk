@@ -15,6 +15,7 @@ tags:
 tweets: yes
 code: https://github.com/opdavies/dclondon16-d8-module
 slides: https://speakerdeck.com/opdavies/getting-started-with-drupal-8-module-development
+date: 2016-03-05 14:00
 ---
 {% block abstract %}
 New to object-orientated PHP, Symfony or YAML, and want to get started building modules in Drupal 8? This is the session for you!
