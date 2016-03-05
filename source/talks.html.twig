@@ -14,7 +14,7 @@ use:
 
 {% set found = false %}
 {% set year = 0 %}
-{% set now = 'now'|date_modify('-2 days')|date('U') %}
+{% set now = 'now'|date('U') %}
 {% for talk in data.talks|reverse if talk.date >= now %}
     {% if loop.first %}
         {% set found = true %}
