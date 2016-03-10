@@ -2,7 +2,7 @@
     <h2>Meetups</h2>
     <ul>
         {% for meetup in site.meetups %}
-            <li class="meetup__{{ meetup.name|lower|replace({ ' ': '-' }) }}">
+            <li class="meetups--{{ meetup.name|lower|replace({ ' ': '-' }) }}">
                 <a href="{{ meetup.url }}" title="{{ meetup.name }}">
                     <img src="{{ site.images_url }}/assets/images/meetups/{{ meetup.logo }}" alt="{{ meetup.name }}">
                 </a>
