@@ -1,6 +1,6 @@
 ---
 nav: talks
-title: Drupal VM Generator (Lightning Talk)
+title: Drupal VM Generator
 type: meetup
 event:
     name: NWDUG
