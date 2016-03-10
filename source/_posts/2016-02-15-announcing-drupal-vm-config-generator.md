@@ -1,18 +1,19 @@
 ---
 nav: blog
-title: Announcing the Drupal VM Config Generator
+title: Announcing the Drupal VM Generator
 tags:
     - drupal
     - drupal-planet
     - drupal-vm
     - symfony
+slug: announcing-the-drupal-vm-config-generator
 ---
 {% block excerpt %}
-For the past few weeks I’ve been working on a personal side project, based on Drupal VM. It’s called the [Drupal VM Config Generator](https://github.com/opdavies/drupal-vm-config-generator), and over the weekend I’ve added the final features and fixed the remaining issues, and tagged the 1.0.0 release.
+For the past few weeks I’ve been working on a personal side project, based on Drupal VM. It’s called the [Drupal VM Generator](https://github.com/opdavies/drupal-vm-generator), and over the weekend I’ve added the final features and fixed the remaining issues, and tagged the 1.0.0 release.
 {% endblock %}
 
 {% block content %}
-For the past few weeks I’ve been working on a personal side project, based on Drupal VM. It’s called the [Drupal VM Config Generator](https://github.com/opdavies/drupal-vm-config-generator), and over the weekend I’ve added the final features and fixed the remaining issues, and tagged the 1.0.0 release.
+For the past few weeks I’ve been working on a personal side project, based on Drupal VM. It’s called the [Drupal VM Generator](https://github.com/opdavies/drupal-vm-generator), and over the weekend I’ve added the final features and fixed the remaining issues, and tagged the 1.0.0 release.
 
 ![](/assets/images/blog/drupalvm-generate-repo.png)
 
@@ -24,15 +25,15 @@ What is different to a regular Vagrant VM is that uses a file called `config.yml
 
 In addition to some essential Ansible roles for installing and configuring packages such as Git, MySQL, PHP and Drush, there are also some roles that are conditional and only installed based on the value of other settings. These include Apache, Nginx, Solr, Varnish and Drupal Console.
 
-## What does the Drupal VM Config Generator do?
+## What does the Drupal VM Generator do?
 
-> The Drupal VM Config Generator is a Symfony application that allows you to quickly create configuration files that are minimal and use-case specific.
+> The Drupal VM Generator is a Symfony application that allows you to quickly create configuration files that are minimal and use-case specific.
 
 Drupal VM comes with an [example.config.yml file](https://github.com/geerlingguy/drupal-vm/blob/master/example.config.yml) that shows all of the default variables and their values. When I first started using it, I’d make a copy of `example.config.yml`, rename it to `config.yml` and edit it as needed, but a lot of the examples aren’t needed for every use case. If you’re using Nginx as your webserver, then you don’t need the Apache virtual hosts. If you are not using Solr on this project, then you don’t need the Solr variables.
 
 For a few months, I’ve kept and used boilerplace versions of `config.yml` - one for Apache and one for Nginx. These are minimal, so have most of the comments removed and only the variables that I regularly need, but these can still be quite time consuming to edit each time, and if there are additions or changes upstream, then I have two versions to maintain.
 
-The Drupal VM Config Generator is a Symfony application that allows you to quickly create configuration files that are minimal and use-case specific. It uses the [Console component](http://symfony.com/doc/current/components/console/introduction.html) to collect input from the user, [Twig](http://twig.sensiolabs.org) to generate the file, the [Filesystem component](http://symfony.com/doc/current/components/filesystem/introduction.html) to write it.
+The Drupal VM Generator is a Symfony application that allows you to quickly create configuration files that are minimal and use-case specific. It uses the [Console component](http://symfony.com/doc/current/components/console/introduction.html) to collect input from the user, [Twig](http://twig.sensiolabs.org) to generate the file, the [Filesystem component](http://symfony.com/doc/current/components/filesystem/introduction.html) to write it.
 
 Based on the options passed to it and/or answers that you provide, it generates a custom, minimal `config.yml` file for your project.
 
@@ -63,13 +64,13 @@ drupalvm-generate \
 
 ## Where do I get it?
 
-The project is hosted on [GitHub](https://github.com/opdavies/drupal-vm-config-generator), and there are installation instructions within the [README](https://github.com/opdavies/drupal-vm-config-generator/blob/master/README.md#installation).
+The project is hosted on [GitHub](https://github.com/opdavies/drupal-vm-generator), and there are installation instructions within the [README](https://github.com/opdavies/drupal-vm-generator/blob/master/README.md#installation).
 
 The recommended method is via downloading the phar file (the same as Composer and Drupal Console). You can also clone the GitHub repository and run the command from there. I’m also wanting to upload it to Packagist so that it can be included if you manage your projects with Composer.
 
-Please log any bugs or feature requests in the [GitHub issue tracker](https://github.com/opdavies/drupal-vm-config-generator/issues), and I’m more than happy to receive pull requests.
+Please log any bugs or feature requests in the [GitHub issue tracker](https://github.com/opdavies/drupal-vm-generator/issues), and I’m more than happy to receive pull requests.
 
 If you’re interested in contributing, please feel free to fork the repository and start doing so, or contact me with any questions.
 
-__Update 17/02/16:__ The autoloading issue is now fixed if you require the package via Composer, and this has been tagged as the [1.0.1 release](https://github.com/opdavies/drupal-vm-config-generator/releases/tag/1.0.1)
+__Update 17/02/16:__ The autoloading issue is now fixed if you require the package via Composer, and this has been tagged as the [1.0.1 release](https://github.com/opdavies/drupal-vm-generator/releases/tag/1.0.1)
 {% endblock %}
