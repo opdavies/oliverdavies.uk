@@ -9,5 +9,5 @@ event:
 code: https://github.com/opdavies/drupal-vm-generator
 ---
 {% block abstract %}
-An impromptu lightning talk about the [Drupal VM Generator](https://github.com/opdavies/drupal-vm-config-generator) project.
+An impromptu lightning talk about the [Drupal VM Generator](https://github.com/opdavies/drupal-vm-generator) project.
 {% endblock %}
