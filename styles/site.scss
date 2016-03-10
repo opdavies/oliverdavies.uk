@@ -10,11 +10,11 @@
 @import '../vendor/bower/compass-breakpoint/stylesheets/breakpoint';
 
 @import 'base';
-@import 'badges';
-@import 'experience';
-@import 'meetups';
-@import 'footer';
-@import 'testimonials';
-@import 'blog-list';
-@import 'blog-post';
-@import 'portfolio';
+@import 'components/badges';
+@import 'components/footer';
+@import 'components/meetups';
+@import 'components/testimonials';
+@import 'pages/blog-list';
+@import 'pages/blog-post';
+@import 'pages/experience';
+@import 'pages/portfolio';

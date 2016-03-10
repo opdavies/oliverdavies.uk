@@ -1,7 +1,7 @@
 .experience {
     @include clearfix;
 
-    .experience--logo {
+    .experience__logo {
         @extend .pull-right;
         margin: 0 0 10px 10px;
         max-width: 25%;
