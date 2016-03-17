@@ -74,37 +74,35 @@ experiences:
 ---
 <h1>Experience</h1>
 
-{% for experiences in page.experiences|batch(2) %}
-    <div class="row">
-        {% for experience in experiences %}
-            {% set company = site.companies[experience.company] %}
+{% for experience in page.experiences %}
+  {% set company = site.companies[experience.company] %}
 
-            <div class="experience col-md-6">
-                {% if company.website %}
-                    <div>
-                        <a href="{{ company.website }}">
-                            <h2>{{ company.title }}</h2>
-                        </a>
-                    </div>
-                {% else %}
-                    <h2>{{ company.title }}</h2>
-                {% endif %}
+  <div class="experience">
+      {% if company.website %}
+          <div>
+              <a href="{{ company.website }}">
+                  <h2 class="experience__title">{{ company.title }}</h2>
+              </a>
+          </div>
+      {% else %}
+          <h2 class="experience__title">{{ company.title }}</h2>
+      {% endif %}
 
-                {% if company.logo %}
-                    <img class="experience__logo" src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.title }} logo">
-                {% endif %}
+      {% if company.logo %}
+          <img class="experience__logo" src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.title }} logo">
+      {% endif %}
 
-                <div class="role-wrapper">
-                    {% spaceless %}
-                        {{ experience.role ~ ' from ' ~ experience.start ~ ' to ' ~ experience.end|default('Present') }}
-                        {% if experience.location %}
-                            ({{ experience.location }})
-                        {% endif %}
-                    {% endspaceless %}.
-                </div>
+      <div class="experience__role">
+          {% spaceless %}
+              {{ experience.role ~ ' from ' ~ experience.start ~ ' to ' ~ experience.end|default('Present') }}
+              {% if experience.location %}
+                  ({{ experience.location }})
+              {% endif %}
+          {% endspaceless %}.
+      </div>
 
-                {{ experience.description|raw }}
-            </div>
-        {% endfor %}
-    </div>
+      <div class="experience__description">
+          {{ experience.description|raw }}
+      </div>
+  </div>
 {% endfor %}
