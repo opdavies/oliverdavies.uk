@@ -66,6 +66,8 @@ drupalvm-generate \
 
 The project is hosted on [GitHub](https://github.com/opdavies/drupal-vm-generator), and there are installation instructions within the [README](https://github.com/opdavies/drupal-vm-generator/blob/master/README.md#installation).
 
+<div class="github-card" data-github="opdavies/drupal-vm-generator" data-width="400" data-height="" data-theme="default"></div>
+
 The recommended method is via downloading the phar file (the same as Composer and Drupal Console). You can also clone the GitHub repository and run the command from there. I’m also wanting to upload it to Packagist so that it can be included if you manage your projects with Composer.
 
 Please log any bugs or feature requests in the [GitHub issue tracker](https://github.com/opdavies/drupal-vm-generator/issues), and I’m more than happy to receive pull requests.
