@@ -13,4 +13,5 @@ g.task 'vendor-scripts', =>
     'vendor/bower/jquery/dist/jquery.js',
     'vendor/bower/bootstrap-sass/assets/javascripts/bootstrap/collapse.js',
     'scripts/vendor/github-cards.js'
+    'scripts/vendor/tweets.js'
   ], 'vendor.js'
