@@ -49,4 +49,5 @@ Here is some information about me:
 * [Ansible Galaxy](https://galaxy.ansible.com/list#/users/14560)
 * [SpeakerDeck](https://speakerdeck.com/opdavies)
 * [LinkedIn](http://uk.linkedin.com/in/opdavies)
+* [YouTube](https://www.youtube.com/channel/UCkeK0qF9HHUPQH_fvn4ghqQ)
 * IRC - opdavies (freenode and OFTC)
