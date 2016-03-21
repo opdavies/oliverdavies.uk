@@ -42,12 +42,12 @@ Here is some information about me:
 
 ## Elsewhere
 
-* [Twitter](https://twitter.com/opdavies) - @opdavies
-* [Drupal.org](https://www.drupal.org/u/opdavies)
-* [GitHub](https://www.github.com/opdavies)
-* [Packagist](https://packagist.org/users/opdavies)
-* [Ansible Galaxy](https://galaxy.ansible.com/list#/users/14560)
-* [SpeakerDeck](https://speakerdeck.com/opdavies)
-* [LinkedIn](http://uk.linkedin.com/in/opdavies)
-* [YouTube](https://www.youtube.com/channel/UCkeK0qF9HHUPQH_fvn4ghqQ)
-* IRC - opdavies (freenode and OFTC)
+* <a href="{{ site.twitter.url }}">Twitter</a> - @{{ site.twitter.name }}
+* <a href="{{ site.drupalorg.url_nice }}">Drupal.org</a>
+* <a href="{{ site.github.url }}">GitHub</a>
+* <a href="{{ site.packagist.url }}">Packagist</a>
+* <a href="{{ site.ansible_galaxy.url }}">Ansible Galaxy</a>
+* <a href="{{ site.speakerdeck.url }}">SpeakerDeck</a>
+* <a href="{{ site.linkedin.url }}">LinkedIn</a>
+* <a href="{{ site.youtube.channel_url }}">YouTube</a>
+* IRC - {{ site.irc.name }} (freenode and OFTC)

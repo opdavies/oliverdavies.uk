@@ -11,33 +11,51 @@ author:
         name: CTI Digital
         website: https://www.ctidigital.com
         logo: cti-digital.png
+
 twitter:
-    url: http://twitter.com/opdavies
+    url: https://twitter.com/opdavies
     name: opdavies
+
 linkedin:
     url: http://uk.linkedin.com/in/opdavies
+
 drupalorg:
     url: https://www.drupal.org/user/381388
     url_nice: https://www.drupal.org/u/opdavies
     name: opdavies
     uid: 381388
+
 github:
     url: http://github.com/opdavies
     name: opdavies
+
 irc:
     name: opdavies
+
 lanyrd:
     url: http://lanyrd.com/profile/opdavies
+
 joindin:
     url: https://joind.in/user/view/27119
+
 ansible_galaxy:
     url: https://galaxy.ansible.com/list#/users/14560
+
 flickr:
     url: https://www.flickr.com/photos/133286555@N04
+
 speakerdeck:
     url: https://speakerdeck.com/opdavies
+
 gravatar:
     url: //www.gravatar.com/avatar/e0f6adcd63d8393e689b327e978d0887.png
+
+youtube:
+    channel_url: https://www.youtube.com/channel/UCkeK0qF9HHUPQH_fvn4ghqQ
+
+packagist:
+    name: opdavies
+    url: https://packagist.org/users/opdavies
 
 apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
 favicon_sizes: [ 160, 96, 32, 16 ]
