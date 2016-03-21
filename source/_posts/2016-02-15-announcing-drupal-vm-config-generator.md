@@ -43,24 +43,7 @@ Here’s an example of it in action:
 
 You can also define options when calling the command and skip any or all questions. Running the following would bypass all of the questions and create a new file with no interaction or additional steps.
 
-```
-drupalvm-generate \
-  --hostname=example.com \
-  --machine-name=example \
-  --ip-address=192.168.88.88 \
-  --cpus=1 \
-  --memory=512 \
-  --webserver=nginx \
-  --domain=example.com \
-  --path=../site \
-  --destination=/var/www/site \
-  --docroot=/var/www/site/drupal \
-  --drupal-version=8 \
-  --build-makefile=no \
-  --install-site=true \
-  --installed-extras=xdebug,xhprof \
-  --force
-```
+<code data-gist-id="24e569577ca4b72f049d" data-gist-file="with-options.sh"></code>
 
 ## Where do I get it?
 
