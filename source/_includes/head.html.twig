@@ -1,0 +1,27 @@
+<head>
+    {% include('title') %}
+
+    {% if page.meta.description %}
+        <meta name="description" content="{{ page.meta.description|e('html') }}">
+    {% endif %}
+
+    {% if page.meta.og %}
+        {{ include('og', { og: page.meta.og }) }}
+    {% endif %}
+
+    <meta lang="{{ site.locale }}" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/vendor.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/site.css">
+    {% block styles %}{% endblock %}
+
+    {% for size in site.apple_touch_icon_sizes %}
+        <link rel="apple-touch-icon" href="{{ site.gravatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
+    {% endfor %}
+
+    {% for size in site.favicon_sizes %}
+        <link rel="icon" href="{{ site.gravatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
+    {% endfor %}
+</head>

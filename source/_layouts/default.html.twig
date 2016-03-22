@@ -1,59 +1,8 @@
 <!DOCTYPE html>
-    <!--[if lte IE 8]><html lang="{{ site.locale }}" class="ie ie8 lt9 lte8 lte7"> <![endif]-->
-    <!--[if IE 9]><html lang="{{ site.locale }}" class="ie ie9 lte9"> <![endif]-->
-    <!--[if gt IE 9]><html lang="{{ site.locale }}"><![endif]-->
-    <!--[if !IE]><!--><html lang="{{ site.locale }}"><!--<![endif]-->
-    <head>
-        {% include('title') %}
-
-        {% if page.meta.description %}
-            <meta name="description" content="{{ page.meta.description|e('html') }}">
-        {% endif %}
-
-        {% if page.meta.og %}
-            {{ include('og', { og: page.meta.og }) }}
-        {% endif %}
-
-        <meta lang="{{ site.locale }}" charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="stylesheet" href="{{ site.url }}/assets/css/vendor.css">
-        <link rel="stylesheet" href="{{ site.url }}/assets/css/site.css">
-        {% block styles %}{% endblock %}
-
-        {% for size in site.apple_touch_icon_sizes %}
-            <link rel="apple-touch-icon" href="{{ site.gravatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
-        {% endfor %}
-
-        {% for size in site.favicon_sizes %}
-            <link rel="icon" href="{{ site.gravatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
-        {% endfor %}
-    </head>
+<html class="no-js" lang="{{ site.locale }}">
+    {{ include('head.html.twig') }}
     <body class="{{ page.blocks.body_classes }}">
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="{{ site.url }}/">{{ site.title }}</a>
-                </div>
-
-                <div id="navbar" class="collapse navbar-collapse" role="navigation">
-                    <ul class="nav navbar-nav">
-                        {% for name, item in site.main_menu %}
-                            <li{% if page.nav == name %} class="active"{% endif %}>
-                                <a href="{{ item.href }}">{{ item.title }}</a>
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </div>{# .nav-collapse #}
-            </div>
-        </nav>
+        {{ include('nav.html.twig') }}
 
         <div class="container">
             <div class="row">
@@ -65,38 +14,10 @@
                     </main>
                 {% endblock %}
 
-                {% block sidebar_wrapper %}
-                    <div class="col-md-3">
-                        {% block sidebar %}
-                            <div class="panel badges">
-                                <a class="badges__badge--da-member" href="https://assoc.drupal.org/membership" title="I’m a Drupal Association member.">
-                                    <img src="{{ site.images_url }}/assets/images/da-individual-member.png" alt="Drupal Association Individual Member">
-                                </a>
-
-                                <a href="https://www.drupal.org/8">
-                                    <img alt="I built Drupal 8 with hand holding a wrench on blue background" src="{{ site.images_url }}/assets/images/drupal-8.jpg"/>
-                                </a>
-                            </div>
-
-                            {% include('availability') %}
-                        {% endblock %}
-                    </div>
-                {% endblock %}
+                {{ include('sidebar.html.twig') }}
             </div>{# .row #}
         </div>{# .container #}
 
-        <footer class="container">
-            <p class="copyright">&copy; 2010-{{ 'now'|date('Y') }} {{ site.title }}. Powered by <a href="https://sculpin.io">Sculpin</a>.</p>
-
-            {% include('meetups') %}
-        </footer>
-
-        <script src="{{ site.url }}/assets/js/vendor.js"></script>
-
-        {% block scripts %}{% endblock %}
-
-        {% if site.google_analytics_tracking_id %}
-            <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', '{{ site.google_analytics_tracking_id }}', 'auto'); ga('send', 'pageview');</script>
-        {% endif %}
+        {{ include('footer.html.twig') }}
     </body>
 </html>
