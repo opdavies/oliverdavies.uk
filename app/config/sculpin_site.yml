@@ -1,80 +1,26 @@
-title: Oliver Davies
-subtitle: Web Developer, System Administrator - PHP, Drupal, Symfony, Linux
-description: Oliver Davies, Lead Drupal Developer
+title: 'Oliver Davies'
+subtitle: 'Web Developer, System Administrator - PHP, Drupal, Symfony, Linux'
+description: 'Oliver Davies, Lead Drupal Developer'
 email: oliver+website@oliverdavies.uk
+
+apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
+default_date_format: 'jS F, Y'
+favicon_sizes: [ 160, 96, 32, 16 ]
+fuzzy_date_format: F Y
+locale: en-GB
+title_separator: "|"
 
 author:
     name: Oliver Davies
-    bio: Oliver Davies is a Drupal Developer and System Administrator based in the UK. He is a Lead Developer at <a href="http://ctidigital.com">CTI Digital</a> and also provides freelance consultancy services for Drupal websites, PHP applications and Linux servers.
+    bio: 'Oliver Davies is a Drupal Developer and System Administrator based in the UK. He is a Lead Developer at <a href="http://ctidigital.com">CTI Digital</a> and also provides freelance consultancy services for Drupal websites, PHP applications and Linux servers.'
     company:
         role: Lead Drupal Developer
         name: CTI Digital
         website: https://www.ctidigital.com
         logo: cti-digital.png
 
-twitter:
-    url: https://twitter.com/opdavies
-    name: opdavies
-
-linkedin:
-    url: http://uk.linkedin.com/in/opdavies
-
-drupalorg:
-    url: https://www.drupal.org/user/381388
-    url_nice: https://www.drupal.org/u/opdavies
-    name: opdavies
-    uid: 381388
-
-github:
-    url: http://github.com/opdavies
-    name: opdavies
-
-irc:
-    name: opdavies
-
-lanyrd:
-    url: http://lanyrd.com/profile/opdavies
-
-joindin:
-    url: https://joind.in/user/view/27119
-
 ansible_galaxy:
     url: https://galaxy.ansible.com/list#/users/14560
-
-flickr:
-    url: https://www.flickr.com/photos/133286555@N04
-
-speakerdeck:
-    url: https://speakerdeck.com/opdavies
-
-gravatar:
-    url: //www.gravatar.com/avatar/e0f6adcd63d8393e689b327e978d0887.png
-
-youtube:
-    channel_url: https://www.youtube.com/channel/UCkeK0qF9HHUPQH_fvn4ghqQ
-
-packagist:
-    name: opdavies
-    url: https://packagist.org/users/opdavies
-
-apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
-favicon_sizes: [ 160, 96, 32, 16 ]
-
-meetups:
-    drupalbristol: { name: Drupal Bristol, logo: drupal-bristol.jpeg, url: https://groups.drupal.org/bristol-west-uk }
-    phpsw: { name: PHPSW, logo: phpsw.jpeg, url: http://phpsw.uk }
-    swdug: { name: SWDUG, logo: swdug.png, url: http://swdug.org.uk }
-    swlug: { name: SWLUG, logo: swlug.png, url: http://swlug.org.uk }
-    accbristol: { name: Accessible Bristol, logo: accessible-bristol.png, url: http://www.accessiblebristol.org.uk }
-    nwdug: { name: NWDUG, logo: nwdug.jpg, url: http://www.meetup.com/nwdrupal }
-    phpnw: { name: PHPNW, logo: phpnw.gif, url: http://phpnw.org.uk }
-
-hightlightjs_style: default
-digitalocean_referral: a913b4b00d4a
-default_date_format: jS F, Y
-fuzzy_date_format: F Y
-title_separator: "|"
-locale: en-GB
 
 availability:
     status:
@@ -130,13 +76,82 @@ companies:
         website: https://www.ctidigital.com
         logo: cti-digital.png
 
+drupalorg:
+    url: https://www.drupal.org/user/381388
+    url_nice: https://www.drupal.org/u/opdavies
+    name: opdavies
+    uid: 381388
+
+github:
+    url: http://github.com/opdavies
+    name: opdavies
+
+gravatar:
+    url: //www.gravatar.com/avatar/e0f6adcd63d8393e689b327e978d0887.png
+
+irc:
+    name: opdavies
+
+joindin:
+    url: https://joind.in/user/view/27119
+
+lanyrd:
+    url: http://lanyrd.com/profile/opdavies
+
+linkedin:
+    url: http://uk.linkedin.com/in/opdavies
+
+meetups:
+    drupalbristol:
+        name: Drupal Bristol
+        logo: drupal-bristol.jpeg
+        url: https://groups.drupal.org/bristol-west-uk
+    phpsw:
+        name: PHPSW
+        logo: phpsw.jpeg
+        url: http://phpsw.uk
+    swdug:
+        name: SWDUG
+        logo: swdug.png
+        url: http://swdug.org.uk
+    swlug:
+        name: SWLUG
+        logo: swlug.png
+        url: http://swlug.org.uk
+    accbristol:
+        name: Accessible Bristol
+        logo: accessible-bristol.png
+        url: http://www.accessiblebristol.org.uk
+    nwdug:
+        name: NWDUG
+        logo: nwdug.jpg
+        url: http://www.meetup.com/nwdrupal
+    phpnw:
+        name: PHPNW
+        logo: phpnw.gif
+        url: http://phpnw.org.uk
+
 skills:
+    compass: { title: Compass, image: compass.png }
     drupal: { title: Drupal, image: drupal.png }
     drupal-commerce: { title: Drupal Commerce, image: drupal-commerce.png }
-    php: { title: PHP, image: php.png }
     git: { title: Git, image: git.png }
-    svn: { title: Subversion, image: svn.jpg }
-    less: { title: Less, image: less.png }
-    sass: { title: Sass, image: sass.png }
-    compass: { title: Compass, image: compass.png }
     jenkins: { title: Jenkins, image: jenkins.png }
+    less: { title: Less, image: less.png }
+    php: { title: PHP, image: php.png }
+    sass: { title: Sass, image: sass.png }
+    svn: { title: Subversion, image: svn.jpg }
+
+speakerdeck:
+    url: https://speakerdeck.com/opdavies
+
+twitter:
+    url: https://twitter.com/opdavies
+    name: opdavies
+
+packagist:
+    name: opdavies
+    url: https://packagist.org/users/opdavies
+
+youtube:
+    channel_url: https://www.youtube.com/channel/UCkeK0qF9HHUPQH_fvn4ghqQ
