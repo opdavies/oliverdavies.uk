@@ -7,6 +7,7 @@ g.task 'clean', ->
     'output_*/assets/js',
     'source/assets/css',
     'source/assets/fonts',
+    'source/assets/images/*/thumbnails',
     'source/assets/js',
   ], read: false
     .pipe g.p.clean()
