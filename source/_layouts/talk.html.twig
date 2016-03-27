@@ -2,44 +2,64 @@
 
 {% block content_wrapper %}
     <main class="col-md-9">
-        <h1>{{ page.title }}</h1>
+        <h1 class="page-title">{{ page.title }}</h1>
 
         {% if page.blocks.abstract %}
-            <h2>Abstract</h2>
+            <div class="abstract">
+                <h2 class="abstract__title">Abstract</h2>
 
-            {{ page.blocks.abstract|raw }}
+                <div class="abstract__content">
+                    {{ page.blocks.abstract|raw }}
+                </div>
+            </div>
         {% endif %}
 
-        <h2>Details</h2>
+        <div class="details">
+            <h2>Details</h2>
 
-        <ul>
-            <li>Event:
-                {% if page.event.website %}
-                    <a href="{{ page.event.website }}">{{ page.event.name }}</a>
-                {% else %}
-                    {{ page.event.name }}
-                {% endif %}
-            </li>
-            <li>Date: {{ page.date|date(site.default_date_format) }}</li>
-            <li>Location: {{ page.event.location }}</li>
-        </ul>
+            <ul>
+                <li>Event:
+                    {% if page.event.website %}
+                        <a href="{{ page.event.website }}">{{ page.event.name }}</a>
+                    {% else %}
+                        {{ page.event.name }}
+                    {% endif %}
+                </li>
+                <li>Date: {{ page.date|date(site.default_date_format) }}</li>
+                <li>Location: {{ page.event.location }}</li>
+            </ul>
+        </div>
 
         {% if page.blocks.slides %}
-            <h2>Slides</h2>
+            <div class="slides">
+                <h2 class="slides__title">Slides</h2>
 
-            {{ page.blocks.slides|raw }}
+                <div class="slides__content">
+                    {{ page.blocks.slides|raw }}
+                </div>
+            </div>
         {% endif %}
 
         {% if page.blocks.video %}
-            <h2>Video</h2>
+            <div class="video">
+            <h2 class="video__title">Video</h2>
 
-            {{ page.blocks.video|raw }}
+                <div class="video__content">
+                    {{ page.blocks.video|raw }}
+                </div>
+            </div>
         {% endif %}
 
         {% if page.blocks.feedback %}
-            <h2>Feedback</h2>
+            <div class="feedback">
+                <h2 class="feedback__title">Feedback</h2>
 
-            {{ page.blocks.feedback|raw }}
+                <div class="feedback__content">
+                    {{ page.blocks.feedback|raw }}
+                </div>
+            </div>
         {% endif %}
     </main>
 {% endblock %}
+
+{% block body_classes %}page--talk{% endblock %}
