@@ -19,5 +19,10 @@
         "behat/mink-extension": "*",
         "behat/mink-goutte-driver": "*",
         "opdavies/sculpin-content-generator-bundle": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "AppBundle\\": "src/AppBundle"
+        }
     }
 }

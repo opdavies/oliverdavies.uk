@@ -1,0 +1,9 @@
+services:
+    app.twig.vimeo:
+        class: AppBundle\Twig\VimeoExtension
+        tags:
+            - { name: twig.extension }
+    app.twig.youtube:
+        class: AppBundle\Twig\YouTubeExtension
+        tags:
+            - { name: twig.extension }

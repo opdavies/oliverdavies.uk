@@ -14,5 +14,5 @@ tags:
     - unified-diff
 ---
 {% block video %}
-<iframe src="https://player.vimeo.com/video/49827006?title=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{{ vimeo('49827006')|raw }}
 {% endblock %}
