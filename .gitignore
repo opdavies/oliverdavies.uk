@@ -1,9 +1,6 @@
 /node_modules/
 /output_*/
-/source/assets/css/
-/source/assets/fonts/
-/source/assets/images/*/thumbnails/
-/source/assets/js/
+/source/assets
 /.sculpin/
 /vendor/
 .sass-cache/
