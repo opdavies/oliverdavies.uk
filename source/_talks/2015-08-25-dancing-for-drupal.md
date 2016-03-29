@@ -30,7 +30,7 @@ In each point, tried to cover the differences between Drupal core and developing
 {% endblock %}
 
 {% block slides %}
-<script async class="speakerdeck-embed" data-id="ffa9b6dea6dc4a8eb207b9982ed6e1bd" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+{{ speakerdeck('ffa9b6dea6dc4a8eb207b9982ed6e1bd', '1.33333333333333')|raw }}
 {% endblock %}
 
 {% block feedback %}

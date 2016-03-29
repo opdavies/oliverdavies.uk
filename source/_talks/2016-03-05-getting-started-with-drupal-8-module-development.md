@@ -43,7 +43,7 @@ What we won’t be covering:
 {% endblock %}
 
 {% block slides %}
-<script async class="speakerdeck-embed" data-id="0041804e52664d12a8e31cd118264813" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+{{ speakerdeck('0041804e52664d12a8e31cd118264813', '1.77777777777778')|raw }}
 {% endblock %}
 
 {% block feedback %}

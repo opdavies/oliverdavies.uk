@@ -1,4 +1,8 @@
 services:
+    app.twig.speakerdeck:
+        class: AppBundle\Twig\SpeakerDeckExtension
+        tags:
+            - { name: twig.extension }
     app.twig.vimeo:
         class: AppBundle\Twig\VimeoExtension
         tags:
