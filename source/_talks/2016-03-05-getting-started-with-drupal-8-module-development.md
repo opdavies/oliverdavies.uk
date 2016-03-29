@@ -47,7 +47,7 @@ What we won’t be covering:
 {% endblock %}
 
 {% block feedback %}
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/opdavies">@opdavies</a> good talk on Getting started with Drupal 8 module development! 😀</p>&mdash; Michael trestianu (@Tresti88) <a href="https://twitter.com/Tresti88/status/706129843134570496">March 5, 2016</a></blockquote>
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/opdavies">@opdavies</a> Great talk. Thanks.</p>&mdash; John Bloomfield (@jbloomfield) <a href="https://twitter.com/jbloomfield/status/706131469148811264">March 5, 2016</a></blockquote>
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/opdavies">@opdavies</a> definitely went well , I learnt from it , as did a others .</p>&mdash; tim marsh (@timmarsh) <a href="https://twitter.com/timmarsh/status/706214342027567104">March 5, 2016</a></blockquote>
+{{ tweet('<a href="https://twitter.com/opdavies">@opdavies</a> good talk on Getting started with Drupal 8 module development! 😀</p>&mdash; Michael trestianu (@Tresti88) <a href="https://twitter.com/Tresti88/status/706129843134570496">March 5, 2016</a>')|raw }}
+{{ tweet('<a href="https://twitter.com/opdavies">@opdavies</a> Great talk. Thanks.</p>&mdash; John Bloomfield (@jbloomfield) <a href="https://twitter.com/jbloomfield/status/706131469148811264">March 5, 2016</a>')|raw }}
+{{ tweet('<a href="https://twitter.com/opdavies">@opdavies</a> definitely went well , I learnt from it , as did a others .</p>&mdash; tim marsh (@timmarsh) <a href="https://twitter.com/timmarsh/status/706214342027567104">March 5, 2016</a>')|raw }}
 {% endblock %}

@@ -3,6 +3,10 @@ services:
         class: AppBundle\Twig\SpeakerDeckExtension
         tags:
             - { name: twig.extension }
+    app.twig.tweet:
+        class: AppBundle\Twig\TweetExtension
+        tags:
+            - { name: twig.extension }
     app.twig.vimeo:
         class: AppBundle\Twig\VimeoExtension
         tags:

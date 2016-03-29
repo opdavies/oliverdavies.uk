@@ -27,5 +27,5 @@ This session covered how to install Sculpin itself, as well as how to use it to 
 {% endblock %}
 
 {% block feedback %}
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Twig said &#39;foo&#39;, then Sculpin said &#39;bar&#39;. They agreed to go spaceless ;-)&#10;&#10;Interesting talk by <a href="https://twitter.com/opdavies">@opdavies</a> &#10;<a href="https://twitter.com/hashtag/dcnorth15?src=hash">#dcnorth15</a> <a href="http://t.co/26GmhiCdfJ">http://t.co/26GmhiCdfJ</a></p>&mdash; Stefan van Hooft (@hooftio) <a href="https://twitter.com/hooftio/status/624898550158200832">July 25, 2015</a></blockquote>
+{{ tweet('Twig said &#39;foo&#39;, then Sculpin said &#39;bar&#39;. They agreed to go spaceless ;-)&#10;&#10;Interesting talk by <a href="https://twitter.com/opdavies">@opdavies</a> &#10;<a href="https://twitter.com/hashtag/dcnorth15?src=hash">#dcnorth15</a> <a href="http://t.co/26GmhiCdfJ">http://t.co/26GmhiCdfJ</a></p>&mdash; Stefan van Hooft (@hooftio) <a href="https://twitter.com/hooftio/status/624898550158200832">July 25, 2015</a>')|raw }}
 {% endblock %}
