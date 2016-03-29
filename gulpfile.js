@@ -13,33 +13,33 @@ var config = {
 var app = {};
 
 app.css = function (paths, filename) {
-  gulp.src(paths)
-    .pipe(plugins.plumber())
-    .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.init()))
-    .pipe(plugins.sourcemaps.init())
-    .pipe(plugins.sassGlob())
-    .pipe(plugins.sass())
-    .pipe(plugins.concat(filename))
-    .pipe(config.production ? plugins.cleanCss() : plugins.util.noop())
-    .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.write('.')))
-    .pipe(gulp.dest('source/assets/css'))
-    .pipe(plugins.if(config.liveReload, plugins.livereload()));
+    gulp.src(paths)
+        .pipe(plugins.plumber())
+        .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.init()))
+        .pipe(plugins.sourcemaps.init())
+        .pipe(plugins.sassGlob())
+        .pipe(plugins.sass())
+        .pipe(plugins.concat(filename))
+        .pipe(config.production ? plugins.cleanCss() : plugins.util.noop())
+        .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.write('.')))
+        .pipe(gulp.dest('source/assets/css'))
+        .pipe(plugins.if(config.liveReload, plugins.livereload()));
 };
 
 app.js = function (paths, filename) {
-  gulp.src(paths)
-    .pipe(plugins.plumber())
-    .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.init()))
-    .pipe(plugins.sourcemaps.init())
-    .pipe(plugins.concat(filename))
-    .pipe(config.production ? plugins.uglify() : plugins.util.noop())
-    .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.write('.')))
-    .pipe(gulp.dest('source/assets/js'));
+    gulp.src(paths)
+        .pipe(plugins.plumber())
+        .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.init()))
+        .pipe(plugins.sourcemaps.init())
+        .pipe(plugins.concat(filename))
+        .pipe(config.production ? plugins.uglify() : plugins.util.noop())
+        .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.write('.')))
+        .pipe(gulp.dest('source/assets/js'));
 };
 
 app.copy = function (srcFiles, outputDir) {
-  gulp.src(srcFiles)
-      .pipe(gulp.dest(outputDir));
+    gulp.src(srcFiles)
+        .pipe(gulp.dest(outputDir));
 };
 
 gulp.task('styles', function () {
