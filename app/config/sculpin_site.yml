@@ -105,31 +105,31 @@ meetups:
     drupalbristol:
         name: Drupal Bristol
         logo: drupal-bristol.jpeg
-        url: https://groups.drupal.org/bristol-west-uk
-    phpsw:
-        name: PHPSW
-        logo: phpsw.jpeg
-        url: http://phpsw.uk
+        url: http://www.drupalbristol.org.uk
     swdug:
         name: SWDUG
         logo: swdug.png
         url: http://swdug.org.uk
-    swlug:
-        name: SWLUG
-        logo: swlug.png
-        url: http://swlug.org.uk
-    accbristol:
-        name: Accessible Bristol
-        logo: accessible-bristol.png
-        url: http://www.accessiblebristol.org.uk
     nwdug:
         name: NWDUG
         logo: nwdug.jpg
-        url: http://www.meetup.com/nwdrupal
+        url: http://www.nwdrupal.org.uk
+    phpsw:
+        name: PHPSW
+        logo: phpsw.jpeg
+        url: http://phpsw.uk
     phpnw:
         name: PHPNW
         logo: phpnw.jpg
         url: http://phpnw.org.uk
+    # swlug:
+        # name: SWLUG
+        # logo: swlug.png
+        # url: http://swlug.org.uk
+    # accbristol:
+        # name: Accessible Bristol
+        # logo: accessible-bristol.png
+        # url: http://www.accessiblebristol.org.uk
 
 skills:
     compass: { title: Compass, image: compass.png }
