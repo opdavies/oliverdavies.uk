@@ -4,7 +4,10 @@ var del = require('del');
 
 var config = {
   assetsDir: './assets',
+  bowerDir: './vendor/bower',
+  outputDir: './source/assets',
   sassPattern: './assets/sass/**/*.sass',
+  jsPattern: 'js/**/*.js',
   production: !!plugins.util.env.production,
   sourceMaps: !plugins.util.env.production,
   liveReload: !plugins.util.env.production
@@ -22,7 +25,7 @@ app.css = function (paths, filename) {
         .pipe(plugins.concat(filename))
         .pipe(config.production ? plugins.cleanCss() : plugins.util.noop())
         .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.write('.')))
-        .pipe(gulp.dest('source/assets/css'))
+        .pipe(gulp.dest(config.outputDir + '/css'))
         .pipe(plugins.if(config.liveReload, plugins.livereload()));
 };
 
@@ -34,7 +37,7 @@ app.js = function (paths, filename) {
         .pipe(plugins.concat(filename))
         .pipe(config.production ? plugins.uglify() : plugins.util.noop())
         .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.write('.')))
-        .pipe(gulp.dest('source/assets/js'));
+        .pipe(gulp.dest(config.outputDir + '/js'));
 };
 
 app.copy = function (srcFiles, outputDir) {
@@ -43,17 +46,28 @@ app.copy = function (srcFiles, outputDir) {
 };
 
 gulp.task('styles', function () {
-    app.css(config.assetsDir + '/sass/site.sass', 'site.css');
+    app.css([
+      config.bowerDir + '/font-awesome/css/font-awesome.css',
+      config.assetsDir + '/sass/site.sass',
+    ], 'site.css');
 });
+
+gulp.task('scripts', function () {
+    app.js([
+        config.bowerDir + '/jquery/dist/jquery.js',
+        config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js',
+        config.assetsDir + config.jsPattern
+    ], 'site.js');
+})
 
 gulp.task('watch', function () {
     gulp.watch(config.sassPattern, ['styles']);
-    gulp.watch(config.assetsDir + '/js/**/*.js', ['scripts']);
+    gulp.watch(config.assetsDir + config.jsPattern, ['scripts']);
 });
 
 gulp.task('clean', function () {
-    del.sync('output_*/assets');
-    del.sync('source/assets');
+    del.sync('output_*/assets/{css,fonts,images,js}');
+    del.sync(config.outputDir + '/{css,fonts,images,js}');
 });
 
 gulp.task('vendor-styles', function () {
@@ -74,7 +88,7 @@ gulp.task('vendor-scripts', function () {
 gulp.task('vendor', ['vendor-styles', 'vendor-scripts']);
 
 gulp.task('fonts', function () {
-    app.copy('./assets/fonts/*', './source/assets/fonts');
+    app.copy(config.bowerDir + '/font-awesome/fonts/*', config.outputDir + '/fonts');
 });
 
 gulp.task('meetup-thumbnails', function () {
@@ -82,16 +96,16 @@ gulp.task('meetup-thumbnails', function () {
         .pipe(plugins.imageResize({
             height: '50'
         }))
-        .pipe(gulp.dest(config.assetsDir + '/images/meetups/thumbnails'))
+        .pipe(gulp.dest(config.outputDir + '/images/meetups/thumbnails'))
 });
 
 gulp.task('copy-images', function () {
-    app.copy('./assets/images/**/*', './source/assets/images');
+    app.copy(config.assetsDir + '/images/**/*', config.outputDir + '/images');
 });
 
 gulp.task('images', ['meetup-thumbnails', 'copy-images']);
 
-gulp.task('build', ['clean', 'vendor', 'styles', 'fonts', 'images']);
+gulp.task('build', ['clean', 'styles', 'scripts', 'fonts', 'images']);
 
 gulp.task('default', ['build', 'watch']);
 
