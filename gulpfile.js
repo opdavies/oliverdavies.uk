@@ -70,23 +70,6 @@ gulp.task('clean', function () {
     del.sync(config.outputDir + '/{css,fonts,images,js}');
 });
 
-gulp.task('vendor-styles', function () {
-    app.css([
-        config.assetsDir + '/sass/vendor.sass',
-        'vendor/bower/font-awesome/css/font-awesome.css'
-    ], 'vendor.css')
-});
-
-gulp.task('vendor-scripts', function () {
-    app.js([
-      'vendor/bower/jquery/dist/jquery.js',
-      'vendor/bower/bootstrap-sass/assets/javascripts/bootstrap/collapse.js',
-      'scripts/vendor/**/*.js'
-    ], 'vendor.js');
-});
-
-gulp.task('vendor', ['vendor-styles', 'vendor-scripts']);
-
 gulp.task('fonts', function () {
     app.copy(config.bowerDir + '/font-awesome/fonts/*', config.outputDir + '/fonts');
 });
@@ -94,7 +77,7 @@ gulp.task('fonts', function () {
 gulp.task('meetup-thumbnails', function () {
     gulp.src(config.assetsDir + '/images/meetups/originals/*')
         .pipe(plugins.imageResize({
-            height: '50'
+            height: '80'
         }))
         .pipe(gulp.dest(config.outputDir + '/images/meetups/thumbnails'))
 });
