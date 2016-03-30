@@ -10,6 +10,9 @@ fuzzy_date_format: F Y
 locale: en-GB
 title_separator: "|"
 
+ansible_galaxy:
+    url: 'https://galaxy.ansible.com/list#/users/14560'
+
 author:
     name: Oliver Davies
     bio: 'Oliver Davies is a Drupal Developer and System Administrator based in the UK. He is a Lead Developer at <a href="http://ctidigital.com">CTI Digital</a> and also provides freelance consultancy services for Drupal websites, PHP applications and Linux servers.'
@@ -19,21 +22,9 @@ author:
         website: https://www.ctidigital.com
         logo: cti-digital.png
 
-ansible_galaxy:
-    url: https://galaxy.ansible.com/list#/users/14560
-
-availability:
-    status:
-        day: { available: no, start: ~, end: ~ }
-        evenings: { available: limited, start: 2015-08-10, end: ~ }
-    text:
-        day:
-            yes: <i class="fa fa-thumbs-o-up text-success"></i> Available for day contract work
-            no: <i class="fa fa-thumbs-o-down text-danger"></i> Not available for day contract work
-        evenings:
-            yes: <i class="fa fa-thumbs-o-up text-success"></i> Available for weekend/evening freelance work
-            limited: <i class="fa fa-thumbs-o-up text-warning"></i> Limited availability for weekend/evening freelance work
-            no: <i class="fa fa-thumbs-o-down text-danger"></i> Not availabile for weekend/evening freelance work
+availability: |
+    <p><i class="fa fa-thumbs-o-down text-danger"></i> Not available for day contract work</p>
+    <p><i class="fa fa-thumbs-o-up text-warning"></i> Limited availability for weekend/evening freelance work</p>
 
 companies:
     freelance:

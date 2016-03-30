@@ -2,26 +2,6 @@
     <div class="panel-heading">Availability</div>
 
     <div class="panel-body">
-        {% set now = "now"|date('U') %}
-
-        {% for type, data in site.availability.status %}
-            {% set text = site.availability.text[type][data.available] %}
-
-            {% if data.start %}
-                {% if data.start|date('U') > now %}
-                    {% set text = text ~ ' starting ' ~ data.start|date('F Y') %}
-
-                    {% if data.end %}
-                        {% set text = text ~ ',' %}
-                    {% endif %}
-                {% endif %}
-            {% endif %}
-
-            {% if data.end %}
-                {% set text = text ~ ' until ' ~ data.end|date('F Y') %}
-            {% endif %}
-
-            <p>{{ text|raw }}.</p>
-        {% endfor %}
+        {{ site.availability|raw }}
     </div>
 </div>
