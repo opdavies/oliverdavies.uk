@@ -12,7 +12,8 @@ var config = {
   jsPattern: 'js/**/*.js',
   production: !!plugins.util.env.production,
   sourceMaps: !plugins.util.env.production,
-  liveReload: !plugins.util.env.production
+  liveReload: !plugins.util.env.production,
+  notify: !plugins.util.env.production
 };
 
 var app = {};
@@ -31,7 +32,7 @@ app.css = function (paths, filename) {
         .pipe(config.production ? plugins.cleanCss() : plugins.util.noop())
         .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.write('.')))
         .pipe(gulp.dest(config.outputDir + '/css'))
-        .pipe(plugins.notify())
+        .pipe(config.notify ? plugins.notify() : plugins.util.noop())
         .pipe(plugins.if(config.liveReload, plugins.livereload()));
 };
 
@@ -44,7 +45,7 @@ app.js = function (paths, filename) {
         .pipe(config.production ? plugins.uglify() : plugins.util.noop())
         .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.write('.')))
         .pipe(gulp.dest(config.outputDir + '/js'))
-        .pipe(plugins.notify());
+        .pipe(config.notify ? plugins.notify() : plugins.util.noop());
 };
 
 app.copy = function (srcFiles, outputDir) {
