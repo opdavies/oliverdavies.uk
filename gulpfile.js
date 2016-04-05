@@ -53,7 +53,7 @@ app.copy = function (srcFiles, outputDir) {
 gulp.task('styles', function () {
     app.css([
       config.bowerDir + '/font-awesome/css/font-awesome.css',
-      config.assetsDir + '/sass/site.sass',
+      config.assetsDir + '/sass/site.sass'
     ], 'site.css');
 });
 
@@ -63,7 +63,7 @@ gulp.task('scripts', function () {
         config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js',
         config.assetsDir + '/' + config.jsPattern
     ], 'site.js');
-})
+});
 
 gulp.task('watch', function () {
     gulp.watch(config.sassPattern, ['styles']);
