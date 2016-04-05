@@ -15,6 +15,7 @@ class SculpinKernel extends AbstractKernel
         return [
             'Tsphethean\Sculpin\Bundle\RelatedPostsBundle\SculpinRelatedPostsBundle',
             'Opdavies\Sculpin\Bundle\ContentGeneratorBundle\SculpinContentGeneratorBundle',
+            'Opdavies\Sculpin\Bundle\GistEmbedBundle\SculpinGistEmbedBundle',
             'AppBundle\AppBundle'
         ];
     }

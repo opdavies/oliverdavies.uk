@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2d7470181bed43b55a095120eed34d12",
-    "content-hash": "4237d09d695ef8f30d1a66bbe5980781",
+    "hash": "bb25b6081539ba1d29f8fa1d3274e42c",
+    "content-hash": "4742df7c3ddcb48cbe8c074ac76fc8dc",
     "packages": [
         {
             "name": "behat/behat",
@@ -1499,6 +1499,49 @@
             "time": "2016-02-14 07:29:36"
         },
         {
+            "name": "opdavies/sculpin-gist-embed-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opdavies/sculpin-gist-embed-bundle.git",
+                "reference": "1e7246d52638a7c80ace2272d93d9cffd6fcc3b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opdavies/sculpin-gist-embed-bundle/zipball/1e7246d52638a7c80ace2272d93d9cffd6fcc3b8",
+                "reference": "1e7246d52638a7c80ace2272d93d9cffd6fcc3b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "sculpin/sculpin": "@stable"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Opdavies\\Sculpin\\Bundle\\GistEmbedBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oliver Davies",
+                    "email": "oliver@oliverdavies.uk",
+                    "homepage": "https://www.oliverdavies.uk"
+                }
+            ],
+            "description": "Allows for embedding GitHub Gists into a Sculpin site.",
+            "keywords": [
+                "sculpin"
+            ],
+            "time": "2016-04-05 19:57:22"
+        },
+        {
             "name": "psr/log",
             "version": "1.0.0",
             "source": {
@@ -1718,7 +1761,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sculpin/sculpin/zipball/c4f0814b955af3b96d6bb4499151a4a6b7fb3f62",
+                "url": "https://api.github.com/repos/sculpin/sculpin/zipball/0a5489a37fb6d498985c23cca5fa42d176be8c99",
                 "reference": "c4f0814",
                 "shasum": ""
             },
@@ -2097,7 +2140,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/17d4b2e64ce1c6ba7caa040f14469b3c44d7f7d2",
+                "url": "https://api.github.com/repos/symfony/config/zipball/a5d5d25c994ed8e55668b2562cb0c0320469f1f4",
                 "reference": "17d4b2e64ce1c6ba7caa040f14469b3c44d7f7d2",
                 "shasum": ""
             },
@@ -3236,7 +3279,8 @@
         "sculpin/sculpin": 20,
         "behat/behat": 0,
         "behat/mink": 0,
-        "opdavies/sculpin-content-generator-bundle": 0
+        "opdavies/sculpin-content-generator-bundle": 0,
+        "opdavies/sculpin-gist-embed-bundle": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

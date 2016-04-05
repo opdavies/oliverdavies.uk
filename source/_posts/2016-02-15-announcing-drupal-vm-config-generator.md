@@ -43,7 +43,7 @@ Here’s an example of it in action:
 
 You can also define options when calling the command and skip any or all questions. Running the following would bypass all of the questions and create a new file with no interaction or additional steps.
 
-<code data-gist-id="24e569577ca4b72f049d" data-gist-file="with-options.sh"></code>
+{{ gist('24e569577ca4b72f049d', 'with-options.sh') }}
 
 ## Where do I get it?
 
