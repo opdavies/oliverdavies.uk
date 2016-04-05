@@ -22,6 +22,9 @@ app.css = function (paths, filename) {
         .pipe(plugins.sourcemaps.init())
         .pipe(plugins.sassGlob())
         .pipe(plugins.sass())
+        .pipe(plugins.autoprefixer({
+            browsers: ['last 2 versions']
+        }))
         .pipe(plugins.concat(filename))
         .pipe(config.production ? plugins.cleanCss() : plugins.util.noop())
         .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.write('.')))
