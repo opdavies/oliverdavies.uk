@@ -26,6 +26,7 @@ app.css = function (paths, filename) {
         .pipe(config.production ? plugins.cleanCss() : plugins.util.noop())
         .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.write('.')))
         .pipe(gulp.dest(config.outputDir + '/css'))
+        .pipe(plugins.notify())
         .pipe(plugins.if(config.liveReload, plugins.livereload()));
 };
 
@@ -37,7 +38,8 @@ app.js = function (paths, filename) {
         .pipe(plugins.concat(filename))
         .pipe(config.production ? plugins.uglify() : plugins.util.noop())
         .pipe(plugins.if(config.sourceMaps, plugins.sourcemaps.write('.')))
-        .pipe(gulp.dest(config.outputDir + '/js'));
+        .pipe(gulp.dest(config.outputDir + '/js'))
+        .pipe(plugins.notify());
 };
 
 app.copy = function (srcFiles, outputDir) {
