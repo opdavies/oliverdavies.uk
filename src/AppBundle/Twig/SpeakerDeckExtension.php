@@ -13,13 +13,14 @@ class SpeakerDeckExtension extends Twig_Extension
     public function getFunctions()
     {
         return [
-            new Twig_SimpleFunction('speakerdeck', [$this, 'embedCode']),
+            new Twig_SimpleFunction('speakerdeck', [$this, 'embedCode'], [
+                'is_safe' => ['html']
+            ]),
         ];
     }
 
     public function embedCode($dataId, $dataRatio)
     {
-//        <script async class="speakerdeck-embed" data-id="0041804e52664d12a8e31cd118264813" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
         return sprintf(
             '<script async class="speakerdeck-embed" data-id="%s" data-ratio="%s" src="//speakerdeck.com/assets/embed.js"></script>',
             $dataId,

@@ -14,5 +14,5 @@ tags:
     - unified-diff
 ---
 {% block video %}
-{{ vimeo('49827006')|raw }}
+{{ vimeo('49827006') }}
 {% endblock %}

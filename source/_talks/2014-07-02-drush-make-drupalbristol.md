@@ -15,5 +15,5 @@ tags:
     - drush-make
 ---
 {% block slides %}
-{{ speakerdeck('42605700f102013198de5a5f6f23ab67', '1.29456384323641')|raw }}
+{{ speakerdeck('42605700f102013198de5a5f6f23ab67', '1.29456384323641') }}
 {% endblock %}
