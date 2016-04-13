@@ -13,7 +13,9 @@ class YouTubeExtension extends Twig_Extension
     public function getFunctions()
     {
         return [
-            new Twig_SimpleFunction('youtube', [$this, 'embedCode'])
+            new Twig_SimpleFunction('youtube', [$this, 'embedCode'], [
+                'is_safe' => ['html']
+            ])
         ];
     }
 
