@@ -7,6 +7,10 @@ event:
     website: http://nwdrupal.org.uk
     location: Manchester, UK
 code: https://github.com/opdavies/drupal-vm-generator
+tags:
+    - drupal-vm
+    - drupal-vm-generator
+    - symfony
 ---
 {% block abstract %}
 An impromptu lightning talk about the [Drupal VM Generator](https://github.com/opdavies/drupal-vm-generator) project.

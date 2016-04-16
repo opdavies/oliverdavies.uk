@@ -3,8 +3,8 @@ nav: talks
 title: drush make drupalbristol
 type: meetup
 event:
-    name: Bristol Drupal user group
-    website: http://drupalbristol.org.uk
+    name: Bristol Drupal
+    website: http://www.drupalbristol.org.uk
     location: Bristol, UK
 slides: https://speakerdeck.com/opdavies/drush-make-drupalbristol
 tags:
