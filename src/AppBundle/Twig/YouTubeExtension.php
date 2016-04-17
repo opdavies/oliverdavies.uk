@@ -30,7 +30,9 @@ class YouTubeExtension extends Twig_Extension
     public function embedCode($videoId)
     {
         return sprintf(
-            '<iframe width="560" height="315" src="https://www.youtube.com/embed/%s" frameborder="0" allowfullscreen></iframe>',
+            '<div class="embed-container">
+            <iframe src="https://www.youtube.com/embed/%s" frameborder="0" allowfullscreen></iframe>
+            </div>',
             $videoId
         );
     }
