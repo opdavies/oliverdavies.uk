@@ -4,7 +4,13 @@
     .experience__logo
         @extend .pull-right
         margin: 0 0 10px 10px
-        max-width: 150px
+        max-width: 25%
+
+        @include breakpoint($screen-sm-min)
+          max-width: 20%
+
+        @include breakpoint($screen-md-min)
+          max-width: 15%
 
     .experience__role
         font-style: italic
