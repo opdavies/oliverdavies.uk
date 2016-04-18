@@ -92,6 +92,20 @@ lanyrd:
 linkedin:
     url: http://uk.linkedin.com/in/opdavies
 
+main_menu:
+    about:
+        href: /
+        title: About
+    talks:
+        href: /talks/
+        title: Talks
+    experience:
+        href: /experience/
+        title: Experience
+    blog:
+        href: /blog/
+        title: Blog
+
 meetups:
     drupalbristol:
         name: Drupal Bristol

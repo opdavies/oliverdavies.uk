@@ -12,15 +12,11 @@
 
         <div id="navbar" class="collapse navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
-                <li class="{{ page.nav == 'about' ? 'active' }}">
-                    <a href="{{ site.url }}/">About</a>
-                </li>
-                <li class="{{ page.nav == 'talks' ? 'active' }}">
-                    <a href="{{ site.url }}/talks/">Talks</a>
-                </li>
-                <li class="{{ page.nav == 'blog' ? 'active' }}">
-                    <a href="{{ site.url }}/blog/">Blog</a>
-                </li>
+                {% for id, link in site.main_menu %}
+                    <li class="{{ page.nav == id ? 'active' }}">
+                        <a href="{{ site.url }}{{ link.href }}">{{ link.title }}</a>
+                    </li>
+                {% endfor %}
             </ul>
         </div>{# .nav-collapse #}
     </div>
