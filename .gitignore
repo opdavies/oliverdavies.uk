@@ -4,3 +4,4 @@
 /.sculpin/
 /vendor/
 .sass-cache/
+publish.sh
