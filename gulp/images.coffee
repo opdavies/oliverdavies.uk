@@ -8,6 +8,4 @@ gulp.task 'meetup-thumbnails', ->
         .pipe gulp.dest gulp.config.outputDir + '/images/meetups/thumbnails'
 
 gulp.task 'copy-images', ->
-    gulp.src gulp.config.assetsDir + '/images/**/*'
-        .pipe gulp.plugins.imagemin()
-        .pipe gulp.dest gulp.config.outputDir + '/images'
+    gulp.copy gulp.config.assetsDir + '/images/**/*', gulp.config.outputDir + '/images'
