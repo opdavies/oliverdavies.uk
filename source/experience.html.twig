@@ -78,14 +78,10 @@ experiences:
   {% set company = site.companies[experience.company] %}
 
   <div class="experience">
+      <h2 class="experience__title">{{ company.title }}</h2>
+
       {% if company.website %}
-          <div>
-              <a href="{{ company.website }}">
-                  <h2 class="experience__title">{{ company.title }}</h2>
-              </a>
-          </div>
-      {% else %}
-          <h2 class="experience__title">{{ company.title }}</h2>
+          <a href="">{{ company.website }}</a>
       {% endif %}
 
       {% if company.logo %}
