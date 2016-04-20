@@ -1,12 +1,11 @@
 ---
-nav: blog
 title: Announcing the Drupal VM Generator
+nav: blog
 tags:
     - drupal
     - drupal-planet
     - drupal-vm
     - symfony
-slug: announcing-the-drupal-vm-config-generator
 ---
 {% block excerpt %}
 For the past few weeks I’ve been working on a personal side project, based on Drupal VM. It’s called the [Drupal VM Generator](https://github.com/opdavies/drupal-vm-generator), and over the weekend I’ve added the final features and fixed the remaining issues, and tagged the 1.0.0 release.
