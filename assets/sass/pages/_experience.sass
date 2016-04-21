@@ -9,22 +9,23 @@
         @include breakpoint(max-width $screen-tablet)
             font-size: 1.5em
 
-    .experience__website
+    &__website
         display: inline-block
         margin-bottom: 2px
 
-    .experience__role
+    &__role
         font-style: italic
         margin-bottom: 10px
 
 .experience--with-logo
-    .experience__logo
-        @extend .pull-right
-        margin: 3px 0 20px 20px
-        max-width: 25%
+    .experience
+        &__logo
+            @extend .pull-right
+            margin: 3px 0 20px 20px
+            max-width: 25%
 
-        @include breakpoint($screen-sm-min)
-            max-width: 20%
+            @include breakpoint($screen-sm-min)
+                max-width: 20%
 
-        @include breakpoint($screen-md-min)
-            max-width: 15%
+            @include breakpoint($screen-md-min)
+                max-width: 15%
