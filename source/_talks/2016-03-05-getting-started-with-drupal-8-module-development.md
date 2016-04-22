@@ -46,6 +46,10 @@ What we won’t be covering:
 {{ speakerdeck('0041804e52664d12a8e31cd118264813', '1.77777777777778') }}
 {% endblock %}
 
+{% block video %}
+{{ youtube('qO_Wh5WE3VA') }}
+{% endblock %}
+
 {% block feedback %}
 {{ tweet('<a href="https://twitter.com/opdavies">@opdavies</a> good talk on Getting started with Drupal 8 module development! 😀</p>&mdash; Michael trestianu (@Tresti88) <a href="https://twitter.com/Tresti88/status/706129843134570496">March 5, 2016</a>') }}
 {{ tweet('<a href="https://twitter.com/opdavies">@opdavies</a> Great talk. Thanks.</p>&mdash; John Bloomfield (@jbloomfield) <a href="https://twitter.com/jbloomfield/status/706131469148811264">March 5, 2016</a>') }}
