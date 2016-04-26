@@ -13,9 +13,11 @@ tags:
     - symfony
 ---
 {% block abstract %}
-An impromptu lightning talk about the [Drupal VM Generator](https://github.com/opdavies/drupal-vm-generator) project.
+An impromptu lightning talk about the [Drupal VM Generator][1] project.
 {% endblock %}
 
 {% block video %}
 {{ youtube('U1pbKAAO2Wo?start=3690') }}
 {% endblock %}
+
+[1]: https://github.com/opdavies/drupal-vm-generator
