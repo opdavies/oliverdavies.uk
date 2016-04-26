@@ -17,6 +17,9 @@
                         <a href="{{ site.url }}{{ link.href }}">{{ link.title }}</a>
                     </li>
                 {% endfor %}
+                <li>
+                    <a href="mailto:{{ site.email }}?subject=Email%20from%20{{ site.short_url }}">Contact <i class="fa fa-envelope-o"></i></a>
+                </li>
             </ul>
         </div>{# .nav-collapse #}
     </div>
