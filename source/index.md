@@ -40,6 +40,15 @@ Here is some information about me:
 * I’m the organiser of [Drupal Bristol][15] and [SWDUG][16], and co-organiser of [PHPSW][17] and [DrupalCamp Bristol][18].
 * I [regularly speak][19] at various user groups and conferences about topics including Drupal, PHP and Git.
 
+## Hire Me
+
+* Drupal website development and maintenance
+* Symfony, Silex and Laravel development
+* Static websites with Jekyll and Sculpin
+* Front-end development
+* Linux system administration, CI setup and configuration management
+* Git support and training
+
 ## Elsewhere
 
 * [Twitter][21] - @{{ site.twitter.name }}
