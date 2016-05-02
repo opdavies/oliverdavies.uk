@@ -7,7 +7,7 @@ sculpin_content_types:
         taxonomies:
             - tags
     projects:
-        permalink: portfolio/:slug_title/
+        permalink: projects/:slug_title/
         taxonomies:
             - skills
             - tags
