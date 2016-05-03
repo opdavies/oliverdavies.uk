@@ -28,17 +28,17 @@ tools:
 
 <img src="{{ site.gravatar.url }}?s=200" alt="Picture of Oliver" class="me img-circle">
 
-My name is Oliver Davies (aka [opdavies][1]), I’m a Web Developer and Drupal specialist based in Wales, UK.
+My name is Oliver Davies (aka [opdavies][1]), I’m a Web Developer and System Administrator based in Wales, UK.
 
-Here is some information about me:
+Here is some more information about me:
 
-* I’m a full-stack PHP Developer and System Administrator, specialising in [Drupal][2], [Symfony][3], [Git][4], [Linux][5] and [Ansible][6].
-* I’m a {{ site.author.company.role }} at [{{ site.author.company.name }}][20], and previously worked for the [Drupal Association][7] as well as agencies such as [Microserve][8], [Precedent][9] and [Nomensa][10].
-* I provide part-time freelance development and consultancy services.
-* I’m a Drupal 7 & 8 [core contributor][11], [contrib maintainer][12] and [mentor][13].
+* I’m a {{ site.author.company.role }} at [{{ site.author.company.name }}][20]. I also provide part-time freelance development and consultancy services.
+* I work with open source technologies. I specialise in [Drupal][2] and [Linux][5],  but also work with [Symfony][3], [Silex][29], [Sculpin][31] and [Laravel][30].
+* I’m a Drupal 7 & 8 core contributor, module maintainer and mentor.
 * I’m a provisional member of the [Drupal Security Team][14] and the Git documentation maintainer for Drupal.org.
-* I’m the organiser of [Drupal Bristol][15] and [SWDUG][16], and co-organiser of [PHPSW][17] and [DrupalCamp Bristol][18].
-* I [regularly speak][19] at various user groups and conferences about topics including Drupal, PHP and Git.
+* I’m the lead organiser of [Drupal Bristol][15], and an organiser of [PHPSW][17] and [DrupalCamp Bristol][18].
+* I [regularly speak][19] at conferences and user groups.
+* I previously worked for the [Drupal Association][7] and agencies including [Microserve][8], [Precedent][9] and [Nomensa][10].
 
 ## Hire Me
 
@@ -89,3 +89,7 @@ Here is some information about me:
 [26]: {{site.speakerdeck.url}}
 [27]: {{site.linkedin.url}}
 [28]: {{site.youtube.channel_url}}
+[29]: http://silex.sensiolabs.org
+[30]: https://laravel.com
+[31]: https://sculpin.io
+[32]: https://docs.puppet.com/guides/faq.html#what-is-puppet
