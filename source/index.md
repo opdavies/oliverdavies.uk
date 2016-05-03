@@ -57,6 +57,7 @@ Here is some more information about me:
 * [Packagist][24] (PHP)
 * [Ansible Galaxy][25]
 * [SpeakerDeck][26]
+* [Joind.in][33]
 * [LinkedIn][27]
 * [YouTube][28]
 * IRC - {{ site.irc.name }} (freenode and OFTC)
@@ -93,3 +94,4 @@ Here is some more information about me:
 [30]: https://laravel.com
 [31]: https://sculpin.io
 [32]: https://docs.puppet.com/guides/faq.html#what-is-puppet
+[33]: {{site.joindin.url}}
