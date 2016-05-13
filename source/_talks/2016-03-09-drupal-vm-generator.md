@@ -12,12 +12,6 @@ tags:
     - drupal-vm-generator
     - symfony
 ---
-{% block abstract %}
-An impromptu lightning talk about the [Drupal VM Generator][1] project.
-{% endblock %}
+An impromptu lightning talk about the [Drupal VM Generator][0] project.
 
-{% block video %}
-{{ youtube('U1pbKAAO2Wo?start=3690') }}
-{% endblock %}
-
-[1]: https://github.com/opdavies/drupal-vm-generator
+[0]: https://github.com/opdavies/drupal-vm-generator

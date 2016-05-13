@@ -14,8 +14,13 @@ tags:
     - drupal-8
 tweets: yes
 code: https://github.com/opdavies/dclondon16-d8-module
-slides: https://speakerdeck.com/opdavies/getting-started-with-drupal-8-module-development
+slides:
+    embed: <script async class="speakerdeck-embed" data-id="0041804e52664d12a8e31cd118264813" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+    url: https://speakerdeck.com/opdavies/getting-started-with-drupal-8-module-development
 date: 2016-03-05 14:00
+video:
+    embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/qO_Wh5WE3VA" frameborder="0" allowfullscreen></iframe>
+    url: https://www.youtube.com/watch?v=qO_Wh5WE3VA
 meta:
     og:
         title: Getting Started with Drupal 8 Module Development
@@ -25,7 +30,6 @@ meta:
             height: 540
             width: 960
 ---
-{% block abstract %}
 New to object-orientated PHP, Symfony or YAML, and want to get started building modules in Drupal 8? This is the session for you!
 
 In this session, we’ll cover:
@@ -40,18 +44,3 @@ What we won’t be covering:
 
 * Automated testing in PHPUnit or Simpletest.
 * Adding third party libraries and external dependencies via Composer.
-{% endblock %}
-
-{% block slides %}
-{{ speakerdeck('0041804e52664d12a8e31cd118264813', '1.77777777777778') }}
-{% endblock %}
-
-{% block video %}
-{{ youtube('qO_Wh5WE3VA') }}
-{% endblock %}
-
-{% block feedback %}
-{{ tweet('<a href="https://twitter.com/opdavies">@opdavies</a> good talk on Getting started with Drupal 8 module development! 😀</p>&mdash; Michael trestianu (@Tresti88) <a href="https://twitter.com/Tresti88/status/706129843134570496">March 5, 2016</a>') }}
-{{ tweet('<a href="https://twitter.com/opdavies">@opdavies</a> Great talk. Thanks.</p>&mdash; John Bloomfield (@jbloomfield) <a href="https://twitter.com/jbloomfield/status/706131469148811264">March 5, 2016</a>') }}
-{{ tweet('<a href="https://twitter.com/opdavies">@opdavies</a> definitely went well , I learnt from it , as did a others .</p>&mdash; tim marsh (@timmarsh) <a href="https://twitter.com/timmarsh/status/706214342027567104">March 5, 2016</a>') }}
-{% endblock %}
