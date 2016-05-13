@@ -1,65 +1,42 @@
-{% extends 'default.html.twig' %}
+{% extends "base" %}
 
-{% block content_wrapper %}
-    <main class="col-md-9">
-        <h1 class="page-title">{{ page.title }}</h1>
-
-        {% if page.blocks.abstract %}
-            <div class="abstract">
-                <h2 class="abstract__title">Abstract</h2>
-
-                <div class="abstract__content">
-                    {{ page.blocks.abstract|raw }}
-                </div>
-            </div>
-        {% endif %}
-
-        <div class="details">
-            <h2>Details</h2>
-
-            <ul>
-                <li>Event:
-                    {% if page.event.website %}
-                        <a href="{{ page.event.website }}">{{ page.event.name }}</a>
-                    {% else %}
-                        {{ page.event.name }}
-                    {% endif %}
-                </li>
-                <li>Date: {{ page.date|date(site.default_date_format) }}</li>
-                <li>Location: {{ page.event.location }}</li>
-            </ul>
-        </div>
-
-        {% if page.blocks.slides %}
-            <div class="slides">
-                <h2 class="slides__title">Slides</h2>
-
-                <div class="slides__content">
-                    {{ page.blocks.slides|raw }}
-                </div>
-            </div>
-        {% endif %}
-
-        {% if page.blocks.video %}
-            <div class="video">
-            <h2 class="video__title">Video</h2>
-
-                <div class="video__content">
-                    {{ page.blocks.video|raw }}
-                </div>
-            </div>
-        {% endif %}
-
-        {% if page.blocks.feedback %}
-            <div class="feedback">
-                <h2 class="feedback__title">Feedback</h2>
-
-                <div class="feedback__content">
-                    {{ page.blocks.feedback|raw }}
-                </div>
-            </div>
-        {% endif %}
-    </main>
+{% block content_top %}
+    <h1>{{ page.title }}</h1>
 {% endblock %}
 
-{% block body_classes %}page--talk{% endblock %}
+{% block content_wrapper %}
+    {% block content %}{% endblock %}
+
+    {% if page.event %}
+        <h2>Details</h2>
+
+        <ul>
+            <li>
+                Event:
+                {% if page.event.website %}<a href="{{ page.event.website }}">{%- endif -%}
+                {{ page.event.name }}
+                {%- if page.event.website -%}</a>{%- endif %}
+            </li>
+            <li>Date: {{ page.date|date(site.default_date_format) }}</li>
+            <li>Location: {{ page.event.location }}</li>
+        </ul>
+    {% endif %}
+
+    {% if page.slides.embed %}
+        <div class="slides">
+            <h2 class="slides__title">Slides</h2>
+
+            <div class="slides__content">
+                {{ page.slides.embed|raw }}
+            </div>
+        </div>
+    {% endif %}
+
+    {% if page.video.embed %}
+        <h2>Video</h2>
+
+        <div class="embed-container">
+            {{ page.video.embed|raw }}
+        </div>
+    {% endif %}
+{% endblock %}
