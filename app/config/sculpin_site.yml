@@ -11,7 +11,7 @@ locale: en-GB
 title_separator: "|"
 
 ansible_galaxy:
-    url: 'https://galaxy.ansible.com/list#/users/14560'
+    url: https://galaxy.ansible.com/opdavies
 
 author:
     name: Oliver Davies
