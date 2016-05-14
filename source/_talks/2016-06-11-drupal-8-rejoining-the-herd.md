@@ -1,7 +1,6 @@
 ---
 nav: talks
 title: Drupal 8: Rejoining the Herd
-type: conference
 event:
     name: PHP South Coast 2016
     website: http://2016.phpsouthcoast.co.uk

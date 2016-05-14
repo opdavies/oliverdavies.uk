@@ -1,7 +1,6 @@
 ---
 nav: talks
 title: So, what is this Drupal thing?
-type: meetup
 event:
     name: Unified Diff
     website: http://unifieddiff.co.uk

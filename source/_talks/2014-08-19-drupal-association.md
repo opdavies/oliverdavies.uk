@@ -1,7 +1,6 @@
 ---
 nav: talks
 title: About the Drupal Association
-type: meetup
 event:
     name: SWDUG
     location: Cardiff, UK

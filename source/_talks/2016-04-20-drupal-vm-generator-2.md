@@ -1,7 +1,6 @@
 ---
 nav: talks
 title: Drupal VM Generator
-type: meetup
 event:
     name: Drupal Bristol
     website: https://www.drupalbristol.org.uk
@@ -10,6 +9,7 @@ code: https://github.com/opdavies/drupal-vm-generator
 tags:
     - drupal-vm
     - drupal-vm-generator
+    - meetup
     - symfony
 slides:
     embed: <script async class="speakerdeck-embed" data-id="a27ee1d2bfed4a209dc395fa455acb41" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>

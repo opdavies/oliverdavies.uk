@@ -1,7 +1,6 @@
 ---
 nav: talks
 title: Drupal VM Generator
-type: meetup
 event:
     name: NWDUG
     website: http://nwdrupal.org.uk
@@ -10,6 +9,7 @@ code: https://github.com/opdavies/drupal-vm-generator
 tags:
     - drupal-vm
     - drupal-vm-generator
+    - meetup
     - symfony
 ---
 An impromptu lightning talk about the [Drupal VM Generator][0] project.

@@ -1,7 +1,6 @@
 ---
 nav: talks
 title: Dancing for Drupal
-type: meetup
 event:
     name: umBristol (Bristol Umbraco user group)
     website: http://umbristol.co.uk

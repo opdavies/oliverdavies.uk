@@ -1,7 +1,6 @@
 ---
 nav: talks
 title: Test Drive Twig with Sculpin
-type: conference
 event:
     name: DrupalCamp North 2015
     website: http://drupalcampnorth.org

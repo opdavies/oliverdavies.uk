@@ -1,7 +1,6 @@
 ---
 nav: talks
 title: drush make drupalbristol
-type: meetup
 event:
     name: Bristol Drupal
     website: http://www.drupalbristol.org.uk
