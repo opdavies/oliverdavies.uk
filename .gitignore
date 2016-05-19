@@ -5,3 +5,5 @@
 /vendor/
 .sass-cache/
 publish.sh
+assets/images/*/*
+!assets/images/*/originals

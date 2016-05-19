@@ -68,7 +68,8 @@ gulp.task('fonts', function () {
 gulp.task('meetup-thumbnails', function () {
   gulp.src(config.assetsDir + '/images/meetups/originals/*')
       .pipe(plugins.imageResize({ height: 80 }))
-      .pipe(gulp.dest(config.assetsDir + '/images/meetups/thumbnails'));
+      .pipe(gulp.dest(config.outputDir + '/images/meetups/thumbnails'))
+      .pipe(gulp.dest('output_dev/assets/images/meetups/thumbnails'));
 });
 
 gulp.task('copy-images', function () {

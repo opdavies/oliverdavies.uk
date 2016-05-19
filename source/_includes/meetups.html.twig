@@ -1,9 +1,9 @@
 <div class="meetups">
-    <h2>Meetups</h2>
+    <h2>Things that I organise</h2>
     <ul>
         {% for meetup in site.meetups %}
             <li class="meetups--{{ meetup.name|lower|replace({ ' ': '-' }) }}">
-                <a href="{{ meetup.url }}" title="{{ meetup.name }}">
+                <a href="{{ meetup.website }}" title="{{ meetup.name }}">
                     <img src="{{ site.images_url }}/assets/images/meetups/thumbnails/{{ meetup.logo }}" alt="{{ meetup.name }}">
                 </a>
             </li>
