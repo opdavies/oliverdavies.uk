@@ -33,12 +33,12 @@ My name is Oliver Davies (aka [opdavies][1]), I’m a Web Developer and System A
 Here is some more information about me:
 
 * I’m a {{ site.author.company.role }} at [{{ site.author.company.name }}][20]. I also provide part-time freelance development and consultancy services.
-* I work with open source technologies. I specialise in [Drupal][2] and [Linux][5],  but also work with [Symfony][3], [Silex][29], [Sculpin][31] and [Laravel][30].
+* I work with open source technologies, specialising in [Drupal][2] and [Linux][5], but also [Symfony][3], [Silex][29], [Sculpin][31] and [Laravel][30].
 * I’m a Drupal 7 & 8 core contributor, module maintainer and mentor.
 * I’m a provisional member of the [Drupal Security Team][14] and the Git documentation maintainer for Drupal.org.
 * I’m the lead organiser of [Drupal Bristol][15], and an organiser of [PHPSW][17] and [DrupalCamp Bristol][18].
 * I [regularly speak][19] at conferences and user groups.
-* I previously worked for the [Drupal Association][7] and agencies including [Microserve][8], [Precedent][9] and [Nomensa][10].
+* I previously worked for the [Drupal Association][7] and other agencies including [CTI Digital][34], [Microserve][8], [Precedent][9] and [Nomensa][10].
 
 ## Hire Me
 
@@ -95,3 +95,4 @@ Here is some more information about me:
 [31]: https://sculpin.io
 [32]: https://docs.puppet.com/guides/faq.html#what-is-puppet
 [33]: {{site.joindin.url}}
+[34]: https://www.ctidigital.com

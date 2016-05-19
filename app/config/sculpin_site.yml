@@ -1,6 +1,6 @@
 title: 'Oliver Davies'
 subtitle: 'Web Developer, System Administrator - PHP, Drupal, Symfony, Linux'
-description: 'Oliver Davies, Lead Drupal Developer'
+description: 'Oliver Davies, Drupal Developer'
 email: oliver+website@oliverdavies.uk
 
 apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
@@ -15,12 +15,12 @@ ansible_galaxy:
 
 author:
     name: Oliver Davies
-    bio: 'Oliver Davies is a Drupal Developer and System Administrator based in the UK. He is a Lead Developer at <a href="http://ctidigital.com">CTI Digital</a> and also provides freelance consultancy services for Drupal websites, PHP applications and Linux servers.'
+    bio: 'Oliver Davies is a Drupal Developer and System Administrator based in the UK. He is a Senior Developer at <a href="https://www.appnovation.com">Appnovation Technologies</a> and also provides freelance consultancy services for Drupal websites, PHP applications and Linux servers.'
     company:
-        role: Lead Drupal Developer
-        name: CTI Digital
-        website: https://www.ctidigital.com
-        logo: cti-digital.png
+        role: Senior Drupal Developer
+        name: Appnovation Technologies
+        website: https://www.appnovation.com
+        logo: appnovation.png
 
 availability: |
     <p><i class="fa fa-thumbs-o-down text-danger"></i> Not available for day contract work</p>
@@ -66,6 +66,10 @@ companies:
         title: CTI Digital
         website: https://www.ctidigital.com
         logo: cti-digital.png
+    appnovation:
+        title: Appnovation Technologies
+        website: https://www.appnovation.com
+        logo: appnovation.png
 
 drupalorg:
     url: https://www.drupal.org/user/381388
@@ -93,18 +97,10 @@ linkedin:
     url: http://uk.linkedin.com/in/opdavies
 
 main_menu:
-    about:
-        href: /
-        title: About
-    talks:
-        href: /talks/
-        title: Talks
-    experience:
-        href: /experience/
-        title: Experience
-    blog:
-        href: /blog/
-        title: Blog
+    about: { href: /, title: About }
+    talks: { href: /talks/, title: Talks }
+    experience: { href: /experience/, title: Experience }
+    blog: { href: /blog/, title: Blog }
 
 meetups:
     drupalbristol:

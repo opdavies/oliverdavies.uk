@@ -25,7 +25,8 @@ app.css = function (paths, filename) {
         .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
         .pipe(plugins.if(!config.production, gulp.dest(config.outputDir + '/css')))
         .pipe(plugins.if(!config.production, plugins.refresh()))
-        .pipe(gulp.dest(config.outputDir + '/css'));
+        .pipe(gulp.dest(config.outputDir + '/css'))
+        .pipe(plugins.if(!config.production, gulp.dest('output_dev/css')));
 };
 
 app.js = function (paths, filename) {
