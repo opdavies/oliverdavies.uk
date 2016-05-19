@@ -12,6 +12,7 @@
         }
     ],
     "require": {
+        "composer-plugin-api": "*",
         "sculpin/sculpin": "dev-master#c4f0814",
         "tsphethean/sculpin-related-posts-bundle": "~0.1.0",
         "behat/behat": "2.5.*@stable",
