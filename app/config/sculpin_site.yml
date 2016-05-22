@@ -1,13 +1,10 @@
 title: 'Oliver Davies'
 subtitle: 'Web Developer, System Administrator - PHP, Drupal, Symfony, Linux'
 description: 'Oliver Davies, Drupal Developer'
-email: oliver+website@oliverdavies.uk
-
-apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
 default_date_format: 'jS F, Y'
-favicon_sizes: [ 160, 96, 32, 16 ]
 fuzzy_date_format: F Y
-title_separator: "|"
+apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
+favicon_sizes: [ 160, 96, 32, 16 ]
 
 ansible_galaxy:
     url: https://galaxy.ansible.com/opdavies
@@ -16,28 +13,42 @@ author:
     name: Oliver Davies
     bio: 'Oliver Davies is a Drupal Developer and System Administrator based in the UK. He is a Senior Developer at <a href="https://www.appnovation.com">Appnovation Technologies</a> and also provides freelance consultancy services for Drupal websites, PHP applications and Linux servers.'
     company:
-        role: Senior Drupal Developer
-        name: Appnovation Technologies
-        website: https://www.appnovation.com
         logo: appnovation.png
+        name: Appnovation Technologies
+        role: Senior Drupal Developer
+        website: https://www.appnovation.com
 
 availability: |
     <p><i class="fa fa-thumbs-o-down text-danger"></i> Not available for day contract work</p>
     <p><i class="fa fa-thumbs-o-up text-warning"></i> Limited availability for weekend/evening freelance work</p>
 
 companies:
+    appnovation:
+        title: Appnovation Technologies
+        website: https://www.appnovation.com
+        logo: appnovation.png
+    cti:
+        title: CTI Digital
+        website: https://www.ctidigital.com
+        logo: cti-digital.png
+    drupal_association:
+        title: Drupal Association
+        website: https://assoc.drupal.org
+        logo: drupal-association.png
     freelance:
         title: Freelance
     horse_country:
         title: 'Horse & Country TV'
         logo: horse-and-country.jpg
         website: http://www.horseandcountry.tv
-    zooba:
-        title: Zooba Ltd
-    proctors:
-        title: 'Proctor & Stevenson'
-        website: http://www.proctors.co.uk
-        logo: proctors.jpg
+    lab_class:
+        title: Lab Class
+        website: http://labclass.co.uk
+        logo: lab-class.png
+    microserve:
+        title: Microserve
+        website: https://microserve.io
+        logo: microserve.png
     nomensa:
         title: Nomensa
         website: http://www.nomensa.com
@@ -46,39 +57,27 @@ companies:
         title: Precedent
         website: http://precedent.com
         logo: precedent.jpg
+    proctors:
+        title: 'Proctor & Stevenson'
+        website: http://www.proctors.co.uk
+        logo: proctors.jpg
     trent:
         title: Trent Design
         website: http://www.trentdesign.net
-    lab_class:
-        title: Lab Class
-        website: http://labclass.co.uk
-        logo: lab-class.png
-    drupal_association:
-        title: Drupal Association
-        website: https://assoc.drupal.org
-        logo: drupal-association.png
-    microserve:
-        title: Microserve
-        website: https://microserve.io
-        logo: microserve.png
-    cti:
-        title: CTI Digital
-        website: https://www.ctidigital.com
-        logo: cti-digital.png
-    appnovation:
-        title: Appnovation Technologies
-        website: https://www.appnovation.com
-        logo: appnovation.png
+    zooba:
+        title: Zooba Ltd
 
 drupalorg:
-    url: https://www.drupal.org/user/381388
-    url_nice: https://www.drupal.org/u/opdavies
     name: opdavies
     uid: 381388
+    url: https://www.drupal.org/user/381388
+    url_nice: https://www.drupal.org/u/opdavies
+
+email: oliver+website@oliverdavies.uk
 
 github:
-    url: http://github.com/opdavies
     name: opdavies
+    url: http://github.com/opdavies
 
 gravatar:
     url: //www.gravatar.com/avatar/e0f6adcd63d8393e689b327e978d0887.png
@@ -119,6 +118,10 @@ meetups:
         logo: phpsw.jpeg
         website: http://phpsw.uk
 
+packagist:
+    name: opdavies
+    url: https://packagist.org/users/opdavies
+
 skills:
     compass: { title: Compass, image: compass.png }
     drupal: { title: Drupal, image: drupal.png }
@@ -134,12 +137,8 @@ speakerdeck:
     url: https://speakerdeck.com/opdavies
 
 twitter:
+    name: opdavies
     url: https://twitter.com/opdavies
-    name: opdavies
-
-packagist:
-    name: opdavies
-    url: https://packagist.org/users/opdavies
 
 youtube:
     channel_url: https://www.youtube.com/channel/UCkeK0qF9HHUPQH_fvn4ghqQ
