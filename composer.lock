@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2d9b2c3d1e034d8e519290b8b7e5a58c",
-    "content-hash": "7fca4b67d9eabebf0d72ce7d7be70c8d",
+    "hash": "cdcd672b52166af7ac6387d5bc41355e",
+    "content-hash": "0627879b40d97bf0be46f0c857291af4",
     "packages": [
         {
             "name": "behat/behat",
@@ -1762,7 +1762,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sculpin/sculpin/zipball/c4f0814",
+                "url": "https://api.github.com/repos/sculpin/sculpin/zipball/c4b61f12e7a2d73d0da383af8b3ee77b47ff4335",
                 "reference": "c4f0814",
                 "shasum": ""
             },
@@ -1854,20 +1854,20 @@
         },
         {
             "name": "sculpin/sculpin-theme-composer-plugin",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sculpin/sculpin-theme-composer-plugin.git",
-                "reference": "1ae2b691988830d29febc4e9d254aa4c9dfe8682"
+                "reference": "22553329741ca6666b10e5073b76e0dd23806aee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sculpin/sculpin-theme-composer-plugin/zipball/1ae2b691988830d29febc4e9d254aa4c9dfe8682",
-                "reference": "1ae2b691988830d29febc4e9d254aa4c9dfe8682",
+                "url": "https://api.github.com/repos/sculpin/sculpin-theme-composer-plugin/zipball/22553329741ca6666b10e5073b76e0dd23806aee",
+                "reference": "22553329741ca6666b10e5073b76e0dd23806aee",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0"
+                "composer-plugin-api": "1.0.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -1882,7 +1882,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2016-04-25 20:35:37"
+            "time": "2013-12-16 05:47:32"
         },
         {
             "name": "seld/cli-prompt",
@@ -3334,15 +3334,18 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": {
         "sculpin/sculpin": 20,
+        "dflydev/embedded-composer-console": 20,
+        "dflydev/embedded-composer-core": 20,
+        "composer/composer": 20,
         "behat/behat": 0,
         "behat/mink": 0,
         "opdavies/sculpin-content-generator-bundle": 0,
         "opdavies/sculpin-gist-embed-bundle": 20
     },
-    "prefer-stable": true,
+    "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
