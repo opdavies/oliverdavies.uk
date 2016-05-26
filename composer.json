@@ -21,10 +21,5 @@
         "behat/mink-goutte-driver": "*",
         "opdavies/sculpin-content-generator-bundle": "@stable",
         "opdavies/sculpin-gist-embed-bundle": "dev-master"
-    },
-    "autoload": {
-        "psr-4": {
-            "AppBundle\\": "src/AppBundle"
-        }
     }
 }

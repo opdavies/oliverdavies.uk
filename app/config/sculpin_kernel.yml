@@ -1,6 +1,7 @@
 sculpin:
     ignore:
         - 'assets/images/*/originals/*'
+
 sculpin_content_types:
     posts:
         permalink: blog/:slug_title/
