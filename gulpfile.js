@@ -7,8 +7,10 @@ var gulp = require('gulp'),
 var config = {
     assetsDir: 'assets',
     bowerDir: 'vendor/bower',
+    jsPattern: 'js/**/*.js',
     outputDir: 'source/assets',
-    production: plugins.util.env.production || false
+    production: plugins.util.env.production || false,
+    sassPattern: 'sass/**/*.sass'
 };
 
 var app = {};
@@ -25,8 +27,7 @@ app.css = function (paths, filename) {
         .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
         .pipe(plugins.if(!config.production, gulp.dest(config.outputDir + '/css')))
         .pipe(plugins.if(!config.production, plugins.refresh()))
-        .pipe(gulp.dest(config.outputDir + '/css'))
-        .pipe(plugins.if(!config.production, gulp.dest('output_dev/css')));
+        .pipe(gulp.dest(config.outputDir + '/css'));
 };
 
 app.js = function (paths, filename) {
@@ -60,10 +61,7 @@ gulp.task('scripts', function () {
 });
 
 gulp.task('fonts', function () {
-    app.copy(
-        config.bowerDir + '/font-awesome/fonts/*',
-        config.outputDir + '/fonts'
-    );
+    app.copy(config.bowerDir + '/font-awesome/fonts/*', config.outputDir + '/fonts');
 });
 
 gulp.task('clean', function () {
@@ -78,9 +76,8 @@ gulp.task('build', ['clean', 'styles', 'scripts', 'fonts']);
 gulp.task('watch', function () {
   plugins.refresh.listen();
 
-  gulp.watch('assets/sass/**/*.sass', ['styles']);
-  gulp.watch('assets/js/**/*.js', ['scripts']);
-  gulp.watch('assets/images/**/*', ['copy-images']);
+  gulp.watch('source/assets/' + config.sassPattern, ['styles']);
+  gulp.watch('source/assets/' + config.jsPattern, ['scripts']);
 });
 
 gulp.task('default', ['build', 'watch']);
