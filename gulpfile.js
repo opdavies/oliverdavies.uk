@@ -66,19 +66,6 @@ gulp.task('fonts', function () {
     );
 });
 
-gulp.task('meetup-thumbnails', function () {
-  gulp.src(config.assetsDir + '/images/meetups/originals/*')
-      .pipe(plugins.imageResize({ height: 80 }))
-      .pipe(gulp.dest(config.outputDir + '/images/meetups/thumbnails'))
-      .pipe(gulp.dest('output_dev/assets/images/meetups/thumbnails'));
-});
-
-gulp.task('copy-images', function () {
-    app.copy(config.assetsDir + '/images/**/*', config.outputDir + '/images');
-});
-
-gulp.task('images', ['meetup-thumbnails', 'copy-images']);
-
 gulp.task('clean', function () {
     del.sync(config.outputDir + '/css');
     del.sync(config.outputDir + '/js');
@@ -86,7 +73,7 @@ gulp.task('clean', function () {
     del.sync('output_*/assets/js');
 });
 
-gulp.task('build', ['clean', 'styles', 'scripts', 'fonts', 'images']);
+gulp.task('build', ['clean', 'styles', 'scripts', 'fonts']);
 
 gulp.task('watch', function () {
   plugins.refresh.listen();

@@ -1,9 +1,9 @@
 /node_modules/
 /output_*/
-/source/assets
+/source/assets/css/
+/source/assets/fonts/
+/source/assets/js/
 /.sculpin/
 /vendor/
 .sass-cache/
 publish.sh
-assets/images/*/*
-!assets/images/*/originals
