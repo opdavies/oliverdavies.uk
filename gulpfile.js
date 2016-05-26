@@ -16,7 +16,7 @@ var config = {
 var app = {};
 
 app.css = function (paths, filename) {
-  gulp.src(paths)
+    gulp.src(paths)
         .pipe(plugins.plumber())
         .pipe(plugins.if(!config.production, plugins.sourcemaps.init()))
         .pipe(plugins.sassGlob())
@@ -74,10 +74,10 @@ gulp.task('clean', function () {
 gulp.task('build', ['clean', 'styles', 'scripts', 'fonts']);
 
 gulp.task('watch', function () {
-  plugins.refresh.listen();
+    plugins.refresh.listen();
 
-  gulp.watch('source/assets/' + config.sassPattern, ['styles']);
-  gulp.watch('source/assets/' + config.jsPattern, ['scripts']);
+    gulp.watch('source/assets/' + config.sassPattern, ['styles']);
+    gulp.watch('source/assets/' + config.jsPattern, ['scripts']);
 });
 
 gulp.task('default', ['build', 'watch']);
