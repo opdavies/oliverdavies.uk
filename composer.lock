@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cdcd672b52166af7ac6387d5bc41355e",
-    "content-hash": "0627879b40d97bf0be46f0c857291af4",
+    "hash": "c7d73b6295228677ff3c37e46a939704",
+    "content-hash": "8b18935e14c9f65d74f0c200ef10373d",
     "packages": [
         {
             "name": "behat/behat",
@@ -868,6 +868,7 @@
                 "embedded",
                 "extensibility"
             ],
+            "abandoned": "dflydev/embedded-composer",
             "time": "2014-09-17 04:02:52"
         },
         {
@@ -924,6 +925,7 @@
                 "embedded",
                 "extensibility"
             ],
+            "abandoned": "dflydev/embedded-composer",
             "time": "2015-03-23 20:10:26"
         },
         {
@@ -1354,16 +1356,16 @@
         },
         {
             "name": "michelf/php-markdown",
-            "version": "1.5.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/michelf/php-markdown.git",
-                "reference": "e1aabe18173231ebcefc90e615565742fc1c7fd9"
+                "reference": "de9a19c7bf352d41cc99ed86c3c0ef17e87394b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/e1aabe18173231ebcefc90e615565742fc1c7fd9",
-                "reference": "e1aabe18173231ebcefc90e615565742fc1c7fd9",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/de9a19c7bf352d41cc99ed86c3c0ef17e87394b6",
+                "reference": "de9a19c7bf352d41cc99ed86c3c0ef17e87394b6",
                 "shasum": ""
             },
             "require": {
@@ -1386,22 +1388,22 @@
             ],
             "authors": [
                 {
-                    "name": "John Gruber",
-                    "homepage": "http://daringfireball.net/"
-                },
-                {
                     "name": "Michel Fortin",
                     "email": "michel.fortin@michelf.ca",
-                    "homepage": "https://michelf.ca/",
+                    "homepage": "http://michelf.ca/",
                     "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "http://daringfireball.net/"
                 }
             ],
             "description": "PHP Markdown",
-            "homepage": "https://michelf.ca/projects/php-markdown/",
+            "homepage": "http://michelf.ca/projects/php-markdown/",
             "keywords": [
                 "markdown"
             ],
-            "time": "2015-03-01 12:03:08"
+            "time": "2014-05-05 02:43:50"
         },
         {
             "name": "netcarver/textile",
@@ -1754,16 +1756,16 @@
         },
         {
             "name": "sculpin/sculpin",
-            "version": "dev-master",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sculpin/sculpin.git",
-                "reference": "c4f0814"
+                "reference": "ba4fea7f5a0b7de61a393e82a59c8001aa025285"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sculpin/sculpin/zipball/c4b61f12e7a2d73d0da383af8b3ee77b47ff4335",
-                "reference": "c4f0814",
+                "url": "https://api.github.com/repos/sculpin/sculpin/zipball/ba4fea7f5a0b7de61a393e82a59c8001aa025285",
+                "reference": "ba4fea7f5a0b7de61a393e82a59c8001aa025285",
                 "shasum": ""
             },
             "require": {
@@ -1777,21 +1779,21 @@
                 "dflydev/symfony-finder-factory": "1.*",
                 "doctrine/inflector": "1.0.*",
                 "guzzle/guzzle": "~3.0",
-                "michelf/php-markdown": "~1.5.0",
+                "michelf/php-markdown": "1.4.*",
                 "netcarver/textile": "3.5.*",
-                "php": "^5.4|^7.0",
+                "php": ">=5.3.2",
                 "react/http": "0.2.*",
                 "sculpin/sculpin-theme-composer-plugin": "1.0.*@dev",
-                "symfony/class-loader": "~2.3",
-                "symfony/config": "~2.3",
+                "symfony/class-loader": "~2.1",
+                "symfony/config": "~2.1",
                 "symfony/console": "~2.3",
-                "symfony/dependency-injection": "~2.3",
-                "symfony/event-dispatcher": "~2.3",
-                "symfony/filesystem": "~2.3",
-                "symfony/finder": "~2.3",
+                "symfony/dependency-injection": "~2.1",
+                "symfony/event-dispatcher": "~2.1",
+                "symfony/filesystem": "~2.1",
+                "symfony/finder": "~2.1",
                 "symfony/http-kernel": "~2.3",
-                "symfony/process": "~2.3",
-                "symfony/yaml": "~2.3",
+                "symfony/process": "~2.1",
+                "symfony/yaml": "~2.1",
                 "twig/extensions": "~1.0",
                 "twig/twig": "~1.9"
             },
@@ -1808,9 +1810,7 @@
                 "sculpin/twig-bundle": "self.version"
             },
             "require-dev": {
-                "phpunit/phpunit": "3.7.*",
-                "symfony/css-selector": "~2.6",
-                "symfony/dom-crawler": "~2.6"
+                "phpunit/phpunit": "3.7.*"
             },
             "bin": [
                 "bin/sculpin",
@@ -1819,12 +1819,12 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1.x-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Sculpin\\": "src/Sculpin/"
+                "psr-0": {
+                    "Sculpin": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1850,24 +1850,24 @@
                 "site",
                 "static"
             ],
-            "time": "2015-11-04 09:28:03"
+            "time": "2014-12-15 17:43:46"
         },
         {
             "name": "sculpin/sculpin-theme-composer-plugin",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sculpin/sculpin-theme-composer-plugin.git",
-                "reference": "22553329741ca6666b10e5073b76e0dd23806aee"
+                "reference": "8b5bb152bd7d4516edb3493a9cf3204ed99e9ef5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sculpin/sculpin-theme-composer-plugin/zipball/22553329741ca6666b10e5073b76e0dd23806aee",
-                "reference": "22553329741ca6666b10e5073b76e0dd23806aee",
+                "url": "https://api.github.com/repos/sculpin/sculpin-theme-composer-plugin/zipball/8b5bb152bd7d4516edb3493a9cf3204ed99e9ef5",
+                "reference": "8b5bb152bd7d4516edb3493a9cf3204ed99e9ef5",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0"
+                "composer-plugin-api": "^1.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -1882,7 +1882,10 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2013-12-16 05:47:32"
+            "license": [
+                "MIT"
+            ],
+            "time": "2016-05-24 19:51:53"
         },
         {
             "name": "seld/cli-prompt",
@@ -3336,7 +3339,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sculpin/sculpin": 20,
         "dflydev/embedded-composer-console": 20,
         "dflydev/embedded-composer-core": 20,
         "composer/composer": 20,
