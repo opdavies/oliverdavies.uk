@@ -1,7 +1,6 @@
 {
   "devDependencies": {
     "bower": "^1.7.7",
-    "coffee-script": "^1.10.0",
     "del": "^2.2.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
@@ -21,6 +20,7 @@
     "gulp-sass-glob": "^1.0.5",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.3",
-    "gulp-util": "^3.0.7"
+    "gulp-util": "^3.0.7",
+    "require-dir": "^0.3.0"
   }
 }

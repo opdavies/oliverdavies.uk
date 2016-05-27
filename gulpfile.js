@@ -1,19 +1,18 @@
 'use strict';
 
-var gulp = require('gulp'),
-    plugins = require('gulp-load-plugins')(),
-    del = require('del');
+global.gulp = require('gulp');
+global.plugins = require('gulp-load-plugins')();
 
-var config = {
+global.config = {
     assetsDir: 'assets',
     bowerDir: 'vendor/bower',
     jsPattern: 'js/**/*.js',
     outputDir: 'source/assets',
     production: plugins.util.env.production || false,
-    sassPattern: 'sass/**/*.sass'
-};
+    sassPattern: 'sass/**/*.sass',
+}
 
-var app = {};
+global.app = {};
 
 app.css = function (paths, filename) {
     gulp.src(paths)
@@ -45,45 +44,4 @@ app.copy = function (source, destination) {
         .pipe(gulp.dest(destination));
 };
 
-gulp.task('styles', function () {
-    app.css([
-      config.bowerDir + '/font-awesome/css/font-awesome.css',
-      config.assetsDir + '/sass/site.sass'
-    ], 'site.css');
-});
-
-gulp.task('scripts', function () {
-    app.js([
-        config.bowerDir + '/jquery/dist/jquery.js',
-        config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js',
-        config.assetsDir + '/' + config.jsPattern
-    ], 'site.js');
-});
-
-gulp.task('fonts', function () {
-    app.copy(config.bowerDir + '/font-awesome/fonts/*', config.outputDir + '/fonts');
-});
-
-gulp.task('clean', function () {
-    del.sync(config.outputDir + '/css');
-    del.sync(config.outputDir + '/js');
-    del.sync('output_*/assets/css');
-    del.sync('output_*/assets/js');
-});
-
-gulp.task('build', ['clean', 'styles', 'scripts', 'fonts']);
-
-gulp.task('watch', function () {
-    plugins.refresh.listen();
-
-    gulp.watch('source/assets/' + config.sassPattern, ['styles']);
-    gulp.watch('source/assets/' + config.jsPattern, ['scripts']);
-});
-
-gulp.task('default', ['build', 'watch']);
-
-gulp.task('minify-prod-html', function () {
-    gulp.src('output_prod/**/*.html')
-        .pipe(plugins.htmlmin({ collapseWhitespace: true }))
-        .pipe(gulp.dest('output_prod'));
-});
+require('require-dir')('./gulp');
