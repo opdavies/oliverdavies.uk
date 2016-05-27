@@ -1,1 +1,23 @@
-{% extends "base" %}
+<!DOCTYPE html>
+<html class="no-js" lang="en-GB">
+    {{ include('head') }}
+    <body class="{{ page.blocks.body_classes }}">
+        {{ include('nav') }}
+
+        <div class="container">
+            <div class="row">
+                <main class="col-md-9">
+                    {% block content_top %}{% endblock %}
+                    {% block content_wrapper %}
+                        {% block content %}{% endblock %}
+                    {% endblock %}
+                    {% block content_bottom %}{% endblock %}
+                </main>
+
+                {{ include('sidebar') }}
+            </div>{# .row #}
+        </div>{# .container #}
+
+        {{ include('footer') }}
+    </body>
+</html>
