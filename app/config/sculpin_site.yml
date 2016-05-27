@@ -11,7 +11,7 @@ ansible_galaxy:
 
 author:
     name: Oliver Davies
-    bio: 'Oliver Davies is a Drupal Developer and System Administrator based in the UK. He is a Senior Developer at <a href="https://www.appnovation.com">Appnovation Technologies</a> and also provides freelance consultancy services for Drupal websites, PHP applications and Linux servers.'
+    bio: 'Oliver Davies is a Drupal Developer and System Administrator based in the UK. He is a Senior Developer at <a href="https://www.appnovation.com">Appnovation</a> and also provides freelance consultancy services for Drupal websites, PHP applications and Linux servers.'
     company:
         logo: appnovation.png
         name: Appnovation Technologies
