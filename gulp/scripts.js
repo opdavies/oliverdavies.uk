@@ -3,7 +3,7 @@ gulp.task('scripts', function () {
         [
             config.bowerDir + '/jquery/dist/jquery.js',
             config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js',
-            config.assetsDir + '/' + config.jsPattern
+            config.js.search
         ],
         'site.js'
     );
