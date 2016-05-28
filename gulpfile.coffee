@@ -13,7 +13,7 @@ global.config =
         collapseWhitespace: true
     js:
         sourceDir: 'assets/js',
-        pattern: '/js/**/*.js',
+        pattern: '/**/*.js',
         outputDir: 'source/assets/js'
     production: plugins.util.env.production || false
     sass:
