@@ -9,30 +9,30 @@ global.config = {
     },
     bowerDir: 'vendor/bower',
     fonts: {
-        output: 'source/assets/fonts'
+        outputDir: 'source/assets/fonts'
     },
     htmlmin: {
         collapseWhitespace: true
     },
     js: {
-        source: 'assets/js',
-        search: '/js/**/*.js',
-        output: 'source/assets/js'
+        sourceDir: 'assets/js',
+        pattern: '/js/**/*.js',
+        outputDir: 'source/assets/js'
     },
     production: plugins.util.env.production || false,
     sass: {
-        source: 'assets/sass',
-        search: '/**/*.sass',
-        output: 'source/assets/css'
+        sourceDir: 'assets/sass',
+        pattern: '/**/*.sass',
+        outputDir: 'source/assets/css'
     },
     scss: {
-        search: '/**/*.scss'
+        pattern: '/**/*.scss'
     }
 }
 
 global.app = {};
 
-app.css = function (paths, filename) {
+app.sass = function (paths, filename) {
     gulp.src(paths)
         .pipe(plugins.plumber())
         .pipe(plugins.if(!config.production, plugins.sourcemaps.init()))
@@ -43,7 +43,7 @@ app.css = function (paths, filename) {
         .pipe(plugins.if(config.production, plugins.cleanCss()))
         .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
         .pipe(plugins.if(!config.production, plugins.refresh()))
-        .pipe(gulp.dest(config.sass.output));
+        .pipe(gulp.dest(config.sass.outputDir));
 };
 
 app.js = function (paths, filename) {
@@ -53,7 +53,7 @@ app.js = function (paths, filename) {
         .pipe(plugins.concat(filename))
         .pipe(plugins.if(config.production, plugins.uglify()))
         .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
-        .pipe(gulp.dest(config.js.output));
+        .pipe(gulp.dest(config.js.outputDir));
 };
 
 app.copy = function (source, destination) {

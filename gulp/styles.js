@@ -1,6 +1,6 @@
 gulp.task('styles', function () {
-    app.css([
+    app.sass([
         config.bowerDir + '/font-awesome/css/font-awesome.css',
-        config.sass.source + '/site.sass'
+        config.sass.sourceDir + '/site.sass'
     ], 'site.css');
 });

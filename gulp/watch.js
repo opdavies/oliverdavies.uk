@@ -1,7 +1,8 @@
 gulp.task('watch', function () {
     plugins.refresh.listen();
 
-    gulp.watch(config.sass.source + config.sass.search, ['styles']);
-    gulp.watch(config.sass.source + config.scss.search, ['styles']);
-    gulp.watch(config.js.source + config.js.search, ['scripts']);
+    gulp.watch(config.sass.sourceDir + config.sass.pattern, ['styles']);
+    gulp.watch(config.sass.sourceDir + config.scss.pattern, ['styles']);
+
+    gulp.watch(config.js.sourceDir + config.js.pattern, ['scripts']);
 });
