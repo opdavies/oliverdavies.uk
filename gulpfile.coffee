@@ -6,19 +6,19 @@ global.plugins = require('gulp-load-plugins')()
 global.config =
     autoprefixer:
         browsers: 'last 2 versions'
-    bowerDir: 'vendor/bower',
+    bowerDir: 'vendor/bower'
     fonts:
         outputDir: 'source/assets/fonts'
     htmlmin:
         collapseWhitespace: true
     js:
-        sourceDir: 'assets/js',
-        pattern: '/**/*.js',
+        sourceDir: 'assets/js'
+        pattern: '/**/*.js'
         outputDir: 'source/assets/js'
     production: plugins.util.env.production || false
     sass:
-        sourceDir: 'assets/sass',
-        pattern: '/**/*.sass',
+        sourceDir: 'assets/sass'
+        pattern: '/**/*.sass'
         outputDir: 'source/assets/css'
     scss:
         pattern: '/**/*.scss'
