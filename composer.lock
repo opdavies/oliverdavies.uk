@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c7d73b6295228677ff3c37e46a939704",
-    "content-hash": "8b18935e14c9f65d74f0c200ef10373d",
+    "hash": "e0aaf88a786a57a3d5283127645a7480",
+    "content-hash": "de244316ba5b494962818bbb2588429b",
     "packages": [
         {
             "name": "behat/behat",
@@ -343,24 +343,81 @@
             "time": "2013-07-03 18:43:54"
         },
         {
-            "name": "composer/composer",
-            "version": "1.0.3",
+            "name": "composer/ca-bundle",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/composer/composer.git",
-                "reference": "a4a0546ece469cae984219f920c75437820064ff"
+                "url": "https://github.com/composer/ca-bundle.git",
+                "reference": "a2995e5fe351055f2c7630166af12ce8fd03edfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/a4a0546ece469cae984219f920c75437820064ff",
-                "reference": "a4a0546ece469cae984219f920c75437820064ff",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/a2995e5fe351055f2c7630166af12ce8fd03edfc",
+                "reference": "a2995e5fe351055f2c7630166af12ce8fd03edfc",
                 "shasum": ""
             },
             "require": {
+                "php": "^5.3.2 || ^7.0"
+            },
+            "require-dev": {
+                "symfony/process": "^2.5 || ^3.0"
+            },
+            "suggest": {
+                "symfony/process": "This is necessary to reliably check whether openssl_x509_parse is vulnerable on older php versions, but can be ignored on PHP 5.5.6+"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\CaBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Lets you find a path to the system CA bundle, and includes a fallback to the Mozilla CA bundle.",
+            "keywords": [
+                "cabundle",
+                "cacert",
+                "certificate",
+                "ssl",
+                "tls"
+            ],
+            "time": "2016-04-13 10:13:24"
+        },
+        {
+            "name": "composer/composer",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/composer.git",
+                "reference": "b2cf67b1a575d7e648c742be2454339232ef32b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/composer/zipball/b2cf67b1a575d7e648c742be2454339232ef32b2",
+                "reference": "b2cf67b1a575d7e648c742be2454339232ef32b2",
+                "shasum": ""
+            },
+            "require": {
+                "composer/ca-bundle": "^1.0",
                 "composer/semver": "^1.0",
                 "composer/spdx-licenses": "^1.0",
                 "justinrainbow/json-schema": "^1.6",
                 "php": "^5.3.2 || ^7.0",
+                "psr/log": "^1.0",
                 "seld/cli-prompt": "^1.0",
                 "seld/jsonlint": "^1.4",
                 "seld/phar-utils": "^1.0",
@@ -384,7 +441,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -415,7 +472,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2016-04-29 15:30:16"
+            "time": "2016-05-31 18:48:12"
         },
         {
             "name": "composer/semver",
@@ -814,25 +871,36 @@
             "time": "2015-08-13 03:51:18"
         },
         {
-            "name": "dflydev/embedded-composer-console",
+            "name": "dflydev/embedded-composer",
             "version": "dev-master",
-            "target-dir": "Dflydev/EmbeddedComposer/Console",
             "source": {
                 "type": "git",
-                "url": "https://github.com/dflydev/dflydev-embedded-composer-console.git",
-                "reference": "0f279f17dfe6f350d32f15f5baab55503eebe2fa"
+                "url": "https://github.com/dflydev/dflydev-embedded-composer.git",
+                "reference": "c9ca20fd3ccfbfb7bfcc3c65c33191f458c8a3a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dflydev/dflydev-embedded-composer-console/zipball/0f279f17dfe6f350d32f15f5baab55503eebe2fa",
-                "reference": "0f279f17dfe6f350d32f15f5baab55503eebe2fa",
+                "url": "https://api.github.com/repos/dflydev/dflydev-embedded-composer/zipball/c9ca20fd3ccfbfb7bfcc3c65c33191f458c8a3a7",
+                "reference": "c9ca20fd3ccfbfb7bfcc3c65c33191f458c8a3a7",
                 "shasum": ""
             },
             "require": {
-                "composer/composer": "@dev",
-                "dflydev/embedded-composer-core": "1.*@dev",
-                "php": ">=5.3.2",
-                "symfony/console": "~2.3@dev"
+                "composer/composer": "^1.0",
+                "php": ">=5.3.2"
+            },
+            "replace": {
+                "dflydev/embedded-composer-bundle": "self.version",
+                "dflydev/embedded-composer-console": "self.version",
+                "dflydev/embedded-composer-core": "self.version"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7.10",
+                "symfony/console": "~2.3@dev",
+                "symfony/http-kernel": "~2.1"
+            },
+            "suggest": {
+                "symfony/console": "~2.3",
+                "symfony/http-kernel": "~2.1"
             },
             "type": "library",
             "extra": {
@@ -842,7 +910,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "Dflydev\\EmbeddedComposer\\Console": ""
+                    "Dflydev\\EmbeddedComposer": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -861,72 +929,13 @@
                     "homepage": "http://beausimensen.com"
                 }
             ],
-            "description": "Embed Composer into a Symfony Console application",
-            "keywords": [
-                "composer",
-                "console",
-                "embedded",
-                "extensibility"
-            ],
-            "abandoned": "dflydev/embedded-composer",
-            "time": "2014-09-17 04:02:52"
-        },
-        {
-            "name": "dflydev/embedded-composer-core",
-            "version": "dev-master",
-            "target-dir": "Dflydev/EmbeddedComposer/Core",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dflydev/dflydev-embedded-composer-core.git",
-                "reference": "ec7461d8ddcecc8041212c1acf6f6d020be773a0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dflydev/dflydev-embedded-composer-core/zipball/ec7461d8ddcecc8041212c1acf6f6d020be773a0",
-                "reference": "ec7461d8ddcecc8041212c1acf6f6d020be773a0",
-                "shasum": ""
-            },
-            "require": {
-                "composer/composer": "1.0.*@dev",
-                "php": ">=5.3.2",
-                "seld/jsonlint": "1.*",
-                "symfony/console": "~2.3@dev"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Dflydev\\EmbeddedComposer\\Core": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Dragonfly Development Inc.",
-                    "email": "info@dflydev.com",
-                    "homepage": "http://dflydev.com"
-                },
-                {
-                    "name": "Beau Simensen",
-                    "email": "beau@dflydev.com",
-                    "homepage": "http://beausimensen.com"
-                }
-            ],
-            "description": "Embed Composer core",
+            "description": "Embed Composer into another application",
             "keywords": [
                 "composer",
                 "embedded",
                 "extensibility"
             ],
-            "abandoned": "dflydev/embedded-composer",
-            "time": "2015-03-23 20:10:26"
+            "time": "2016-05-21 00:49:42"
         },
         {
             "name": "dflydev/placeholder-resolver",
@@ -1356,16 +1365,16 @@
         },
         {
             "name": "michelf/php-markdown",
-            "version": "1.4.1",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/michelf/php-markdown.git",
-                "reference": "de9a19c7bf352d41cc99ed86c3c0ef17e87394b6"
+                "reference": "e1aabe18173231ebcefc90e615565742fc1c7fd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/de9a19c7bf352d41cc99ed86c3c0ef17e87394b6",
-                "reference": "de9a19c7bf352d41cc99ed86c3c0ef17e87394b6",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/e1aabe18173231ebcefc90e615565742fc1c7fd9",
+                "reference": "e1aabe18173231ebcefc90e615565742fc1c7fd9",
                 "shasum": ""
             },
             "require": {
@@ -1388,22 +1397,22 @@
             ],
             "authors": [
                 {
-                    "name": "Michel Fortin",
-                    "email": "michel.fortin@michelf.ca",
-                    "homepage": "http://michelf.ca/",
-                    "role": "Developer"
-                },
-                {
                     "name": "John Gruber",
                     "homepage": "http://daringfireball.net/"
+                },
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "https://michelf.ca/",
+                    "role": "Developer"
                 }
             ],
             "description": "PHP Markdown",
-            "homepage": "http://michelf.ca/projects/php-markdown/",
+            "homepage": "https://michelf.ca/projects/php-markdown/",
             "keywords": [
                 "markdown"
             ],
-            "time": "2014-05-05 02:43:50"
+            "time": "2015-03-01 12:03:08"
         },
         {
             "name": "netcarver/textile",
@@ -1756,44 +1765,43 @@
         },
         {
             "name": "sculpin/sculpin",
-            "version": "v2.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sculpin/sculpin.git",
-                "reference": "ba4fea7f5a0b7de61a393e82a59c8001aa025285"
+                "reference": "4b4df8dc2a8057855c37aee72b41cc3ff865fe1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sculpin/sculpin/zipball/ba4fea7f5a0b7de61a393e82a59c8001aa025285",
-                "reference": "ba4fea7f5a0b7de61a393e82a59c8001aa025285",
+                "url": "https://api.github.com/repos/sculpin/sculpin/zipball/4b4df8dc2a8057855c37aee72b41cc3ff865fe1d",
+                "reference": "4b4df8dc2a8057855c37aee72b41cc3ff865fe1d",
                 "shasum": ""
             },
             "require": {
-                "composer/composer": "1.*@dev",
                 "dflydev/ant-path-matcher": "1.*",
                 "dflydev/apache-mime-types": "~1.0,>=1.0.1",
                 "dflydev/canal": "1.*",
                 "dflydev/dot-access-configuration": "1.*",
-                "dflydev/embedded-composer-console": "1.0.*@dev",
-                "dflydev/embedded-composer-core": "1.0.*@dev",
+                "dflydev/embedded-composer": "^1.0@dev",
                 "dflydev/symfony-finder-factory": "1.*",
                 "doctrine/inflector": "1.0.*",
                 "guzzle/guzzle": "~3.0",
-                "michelf/php-markdown": "1.4.*",
+                "michelf/php-markdown": "~1.5.0",
                 "netcarver/textile": "3.5.*",
-                "php": ">=5.3.2",
+                "php": "^5.4|^7.0",
                 "react/http": "0.2.*",
                 "sculpin/sculpin-theme-composer-plugin": "1.0.*@dev",
-                "symfony/class-loader": "~2.1",
-                "symfony/config": "~2.1",
+                "seld/jsonlint": "^1.4",
+                "symfony/class-loader": "~2.3",
+                "symfony/config": "~2.3",
                 "symfony/console": "~2.3",
-                "symfony/dependency-injection": "~2.1",
-                "symfony/event-dispatcher": "~2.1",
-                "symfony/filesystem": "~2.1",
-                "symfony/finder": "~2.1",
+                "symfony/dependency-injection": "~2.3",
+                "symfony/event-dispatcher": "~2.3",
+                "symfony/filesystem": "~2.3",
+                "symfony/finder": "~2.3",
                 "symfony/http-kernel": "~2.3",
-                "symfony/process": "~2.1",
-                "symfony/yaml": "~2.1",
+                "symfony/process": "~2.3",
+                "symfony/yaml": "~2.3",
                 "twig/extensions": "~1.0",
                 "twig/twig": "~1.9"
             },
@@ -1810,7 +1818,9 @@
                 "sculpin/twig-bundle": "self.version"
             },
             "require-dev": {
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "3.7.*",
+                "symfony/css-selector": "~2.6",
+                "symfony/dom-crawler": "~2.6"
             },
             "bin": [
                 "bin/sculpin",
@@ -1819,12 +1829,12 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "2.1.x-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Sculpin": "src"
+                "psr-4": {
+                    "Sculpin\\": "src/Sculpin/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1850,7 +1860,7 @@
                 "site",
                 "static"
             ],
-            "time": "2014-12-15 17:43:46"
+            "time": "2016-05-23 22:01:12"
         },
         {
             "name": "sculpin/sculpin-theme-composer-plugin",
@@ -3143,16 +3153,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.24.0",
+            "version": "v1.24.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8"
+                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8",
-                "reference": "3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3566d311a92aae4deec6e48682dc5a4528c4a512",
+                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512",
                 "shasum": ""
             },
             "require": {
@@ -3200,7 +3210,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-01-25 21:22:18"
+            "time": "2016-05-30 09:11:59"
         },
         {
             "name": "webignition/internet-media-type",
@@ -3339,9 +3349,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "dflydev/embedded-composer-console": 20,
-        "dflydev/embedded-composer-core": 20,
-        "composer/composer": 20,
+        "sculpin/sculpin": 20,
+        "dflydev/embedded-composer": 20,
         "behat/behat": 0,
         "behat/mink": 0,
         "opdavies/sculpin-content-generator-bundle": 0,
