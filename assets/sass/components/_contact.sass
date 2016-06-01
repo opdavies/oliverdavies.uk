@@ -1,0 +1,12 @@
+.page--contact
+    form
+       .form__name,
+       .form__email,
+       .form__subject,
+       .form__message
+          @extend .form-group
+
+          [type="email"],
+          [type="text"],
+          textarea
+              @extend .form-control
