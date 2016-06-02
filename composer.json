@@ -13,11 +13,13 @@
         "sculpin/sculpin": "^2.1@dev",
         "dflydev/embedded-composer": "^1.0@dev",
         "tsphethean/sculpin-related-posts-bundle": "~0.1.0",
+        "opdavies/sculpin-content-generator-bundle": "@stable",
+        "opdavies/sculpin-gist-embed-bundle": "dev-master"
+    },
+    "require-dev": {
         "behat/behat": "2.5.*@stable",
         "behat/mink": "1.5.*@stable",
         "behat/mink-extension": "*",
-        "behat/mink-goutte-driver": "*",
-        "opdavies/sculpin-content-generator-bundle": "@stable",
-        "opdavies/sculpin-gist-embed-bundle": "dev-master"
+        "behat/mink-goutte-driver": "*"
     }
 }
