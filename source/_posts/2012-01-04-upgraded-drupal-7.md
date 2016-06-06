@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Site Upgraded to Drupal 7
 slug: site-upgraded-drupal-7
 ---

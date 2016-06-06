@@ -1,5 +1,4 @@
 ---
-nav: talks
 title: So, what is this Drupal thing?
 event:
     name: Unified Diff

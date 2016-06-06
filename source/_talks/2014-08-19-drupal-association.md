@@ -1,5 +1,4 @@
 ---
-nav: talks
 title: About the Drupal Association
 event:
     name: SWDUG

@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Creating Local and Staging sites with Drupal's Domain Module Enabled
 slug: creating-local-and-staging-sites-drupals-domain-module-enabled
 tags:

@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Prevent Apache from displaying text files within a web browser
 slug: prevent-apache-displaying-text-files-within-web-browser
 tags:

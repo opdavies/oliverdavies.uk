@@ -1,5 +1,4 @@
 ---
-nav: talks
 title: Getting Started with Drupal 8 Module Development
 event:
     name: DrupalCamp London 2016

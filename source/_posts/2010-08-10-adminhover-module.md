@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Review of the Admin:hover Module
 slug: review-adminhover-module
 tags:

@@ -1,5 +1,4 @@
 ---
-nav: talks
 title: Drupal VM Generator
 event:
     name: NWDUG

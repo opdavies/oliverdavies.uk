@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Conditional Email Addresses in a Webform
 slug: conditional-email-addresses-webform
 tags:

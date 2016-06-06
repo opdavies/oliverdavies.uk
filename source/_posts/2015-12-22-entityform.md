@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Programmatically Load an Entityform in Drupal 7
 tags:
     - drupal

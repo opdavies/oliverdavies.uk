@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Quickly Create Zen Subthemes Using Zenophile
 tags:
   - drupal-planet

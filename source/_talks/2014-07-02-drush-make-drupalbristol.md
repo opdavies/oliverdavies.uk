@@ -1,5 +1,4 @@
 ---
-nav: talks
 title: drush make drupalbristol
 event:
     name: Bristol Drupal

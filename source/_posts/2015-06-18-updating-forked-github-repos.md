@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Updating Forked Repositories on GitHub
 date: 2015-06-18 11:35:00
 meta:

@@ -1,6 +1,5 @@
 ---
 title: Simplifying Drupal Migrations with xautoload
-nav: blog
 tags:
     - autoloading
     - drupal

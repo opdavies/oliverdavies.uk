@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Using ImageCache and ImageCrop for my Portfolio
 slug: using-imagecache-and-imagecrop-my-portfolio
 tags:

@@ -1,5 +1,4 @@
 ---
-nav: talks
 title: Dancing for Drupal
 event:
     name: umBristol (Bristol Umbraco user group)

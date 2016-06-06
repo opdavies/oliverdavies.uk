@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Review of the Image Caption Module
 slug: review-image-caption-module
 tags:

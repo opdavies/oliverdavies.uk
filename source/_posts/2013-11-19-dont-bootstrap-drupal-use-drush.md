@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Don't Bootstrap Drupal, Use Drush
 tags:
   - drush

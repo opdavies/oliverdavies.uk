@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Create Virtual Hosts on Mac OS X Using VirtualHostX
 slug: create-virtual-hosts-mac-os-x-using-virtualhostx
 tags:

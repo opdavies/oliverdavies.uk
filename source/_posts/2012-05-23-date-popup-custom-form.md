@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: How to add a date popup calendar onto a custom form
 slug: add-date-popup-calendar-custom-form
 tags:

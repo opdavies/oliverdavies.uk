@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Improve JPG Quality in Imagecache and ImageAPI
 slug: improve-jpg-quality-imagecache-and-imageapi
 tags:

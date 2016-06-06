@@ -1,5 +1,4 @@
 ---
-nav: talks
 title: Drupal 8: Rejoining the Herd
 event:
     name: PHP South Coast 2016

@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Display a Custom Menu in a Drupal 7 Theme Template File
 description: For reference, this is the code needed to display a menu in a Drupal 7 template file.
 slug: display-custom-menu-drupal-7-theme-template-file

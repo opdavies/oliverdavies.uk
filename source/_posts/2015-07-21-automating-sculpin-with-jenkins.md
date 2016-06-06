@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Automating Sculpin Builds with Jenkins CI
 date: 2015-07-21
 tags:

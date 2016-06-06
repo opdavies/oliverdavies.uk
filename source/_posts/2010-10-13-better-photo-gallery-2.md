@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Create a Better Photo Gallery in Drupal - Part 3
 slug: create-better-photo-gallery-drupal-part-3
 tags:

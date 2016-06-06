@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Using Remote Files when Developing Locally with Stage File Proxy Module
 tags:
   - drupal

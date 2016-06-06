@@ -1,5 +1,4 @@
 ---
-nav: talks
 title: Test Drive Twig with Sculpin
 event:
     name: DrupalCamp North 2015

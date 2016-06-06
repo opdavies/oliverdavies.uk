@@ -1,6 +1,5 @@
 ---
 title: Announcing the Drupal VM Generator
-nav: blog
 tags:
     - drupal
     - drupal-planet

@@ -1,5 +1,4 @@
 ---
-nav: blog
 title: Change the Content Type of Multiple Nodes Using SQL
 slug: change-content-type-multiple-nodes-using-sql
 tags:
