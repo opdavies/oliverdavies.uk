@@ -12,6 +12,10 @@
             </div>
 
             {% include('availability') %}
+
+            {% if page.url == '/.' %}
+                {% include ('latest-posts') %}
+            {% endif %}
         {% endblock %}
     </div>
 {% endblock %}
