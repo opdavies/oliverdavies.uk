@@ -87,14 +87,14 @@ experiences:
     {% set company = site.companies[experience.company] %}
 
     <div class="experience experience--{{ company.logo ? 'with-logo' : 'no-logo' }}">
-        <h2 class="experience__title">{{ company.title }}</h2>
+        <h2 class="experience__title">{{ company.name }}</h2>
 
         {% if company.website %}
             <a href="{{ company.website }}" class="experience__website">{{ company.website }}</a>
         {% endif %}
 
         {% if company.logo %}
-            <img class="experience__logo" src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.title }} logo">
+            <img class="experience__logo" src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.name }} logo">
         {% endif %}
 
         <div class="experience__role">

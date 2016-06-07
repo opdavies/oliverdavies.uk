@@ -25,48 +25,48 @@ availability: |
 
 companies:
     appnovation:
-        title: Appnovation Technologies
+        name: Appnovation Technologies
         website: https://www.appnovation.com
         logo: appnovation.png
     cti:
-        title: CTI Digital
+        name: CTI Digital
         website: https://www.ctidigital.com
         logo: cti-digital.png
     drupal_association:
-        title: Drupal Association
+        name: Drupal Association
         website: https://assoc.drupal.org
         logo: drupal-association.png
     freelance:
-        title: Freelance
+        name: Freelance
     horse_country:
-        title: 'Horse & Country TV'
+        name: 'Horse & Country TV'
         logo: horse-and-country.jpg
         website: http://www.horseandcountry.tv
     lab_class:
-        title: Lab Class
+        name: Lab Class
         website: http://labclass.co.uk
         logo: lab-class.png
     microserve:
-        title: Microserve
+        name: Microserve
         website: https://microserve.io
         logo: microserve.png
     nomensa:
-        title: Nomensa
+        name: Nomensa
         website: http://www.nomensa.com
         logo: nomensa.png
     precedent:
-        title: Precedent
+        name: Precedent
         website: http://precedent.com
         logo: precedent.jpg
     proctors:
-        title: 'Proctor & Stevenson'
+        name: 'Proctor & Stevenson'
         website: http://www.proctors.co.uk
         logo: proctors.jpg
     trent:
-        title: Trent Design
+        name: Trent Design
         website: http://www.trentdesign.net
     zooba:
-        title: Zooba Ltd
+        name: Zooba Ltd
 
 drupalorg:
     name: opdavies
