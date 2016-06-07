@@ -6,6 +6,7 @@ tags:
     - drupal-8
 year: 2016
 image: drupalvmgenerator.com.png
+slug: drupal-vm-generator-website
 ---
 [drupalvmgenerator.com][1] is a Drupal 8 website for the Drupal VM Generator project.
 

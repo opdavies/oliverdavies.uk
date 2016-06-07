@@ -10,4 +10,5 @@ image:
 company: microserve
 role: Lead Developer
 skills: [drupal, php, git, less]
+slug: road-cc
 ---
