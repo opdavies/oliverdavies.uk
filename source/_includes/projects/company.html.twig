@@ -1,0 +1,21 @@
+{% if page.company %}
+    {% set company = site.companies[page.company] %}
+
+    <div class="project__company project__company--{{ company.logo ? 'has-logo' : 'no-logo' }}">
+        <h2>Built {{ page.freelance ? 'for' : 'whilst at' }}</h2>
+
+        {% if company.logo %}
+            {% set name = '<img src="/assets/images/experience/' ~ company.logo ~ '" alt="' ~ company.name ~ '">' %}
+        {% else %}
+            {% set name = company.name %}
+        {% endif %}
+
+        {% if company.website %}
+            <a href="{{ company.website }}" title="{{ company.name }}">
+                {{ name|raw }}
+            </a>
+        {% else %}
+            {{ name|raw }}
+        {% endif %}
+    </div>
+{% endif %}
