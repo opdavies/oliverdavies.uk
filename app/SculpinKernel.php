@@ -1,6 +1,9 @@
 <?php
 
+use Opdavies\Sculpin\Bundle\ContentGeneratorBundle\SculpinContentGeneratorBundle;
+use Opdavies\Sculpin\Bundle\GistEmbedBundle\SculpinGistEmbedBundle;
 use Sculpin\Bundle\SculpinBundle\HttpKernel\AbstractKernel;
+use Tsphethean\Sculpin\Bundle\RelatedPostsBundle\SculpinRelatedPostsBundle;
 
 /**
  * Class SculpinKernel
@@ -13,9 +16,9 @@ class SculpinKernel extends AbstractKernel
     protected function getAdditionalSculpinBundles()
     {
         return [
-            'Tsphethean\Sculpin\Bundle\RelatedPostsBundle\SculpinRelatedPostsBundle',
-            'Opdavies\Sculpin\Bundle\ContentGeneratorBundle\SculpinContentGeneratorBundle',
-            'Opdavies\Sculpin\Bundle\GistEmbedBundle\SculpinGistEmbedBundle',
+            SculpinContentGeneratorBundle::class,
+            SculpinGistEmbedBundle::class,
+            SculpinRelatedPostsBundle::class,
         ];
     }
 }
