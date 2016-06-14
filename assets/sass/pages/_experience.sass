@@ -3,11 +3,10 @@
     position: relative
     +clearfix
 
-    h2
-        margin-top: 0
-
-        @include breakpoint(max-width $screen-tablet)
+    +breakpoint(max-width $screen-tablet)
+        h2
             font-size: 1.5em
+            margin-top: 0
 
     p:last-of-type
         margin-bottom: 0
@@ -24,7 +23,7 @@
     .experience
         &__logo
             @extend .pull-right
-            margin: 0 0 2em 2em
+            margin: 0 0 0 2em
             max-width: 20%
 
             @include breakpoint($screen-md-min)
