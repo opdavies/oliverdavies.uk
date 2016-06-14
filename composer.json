@@ -17,9 +17,7 @@
         "opdavies/sculpin-gist-embed-bundle": "dev-master"
     },
     "require-dev": {
-        "behat/behat": "2.5.*@stable",
-        "behat/mink": "1.5.*@stable",
-        "behat/mink-extension": "*",
-        "behat/mink-goutte-driver": "*"
+        "behat/mink-extension": "@stable",
+        "behat/mink-goutte-driver": "@stable"
     }
 }
