@@ -4,7 +4,7 @@ Feature: Home
     I need to be able to see that the homepage is correct
 
     Scenario:
-        Given I am on "/"
+        Given I am on the homepage
         Then the response status code should be 200
         And the ".nav li.active a" element should contain "About"
         And I should see "I’m a Web Developer and System Administrator based in Wales, UK."
