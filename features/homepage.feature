@@ -5,4 +5,7 @@ Feature: Homepage
 
   Scenario:
     Given I am on "/"
-    Then I should see "I’m a Web Developer and System Administrator based in Wales, UK."
+    Then the response status code should be 200
+    And I should see "I’m a Web Developer and System Administrator based in Wales, UK."
+    And the "title" element should contain "Web Developer, System Administrator - PHP, Drupal, Symfony, Linux | Oliver Davies"
+    And the "title" element should not contain "About | Oliver Davies"

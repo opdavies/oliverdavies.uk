@@ -1,5 +1,5 @@
 {% spaceless %}<title>
-    {% if page.front %}
+    {% if page.url == '/.' %}
         {{ site.subtitle }} | {{ site.title }}
     {% else %}
         {{ page.title }} | {{ site.title }}
