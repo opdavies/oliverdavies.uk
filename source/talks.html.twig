@@ -8,20 +8,24 @@ use:
 ---
 <h1>Talks</h1>
 
-<p>I regularly speak at conferences and user groups about a range of subjects including Drupal, Sculpin and Git. If you would like to me to speak at your group or conference, please <a href="mailto:{{ site.email }}?subject=Speaking%20enquiry">get in touch</a>.</p>
+<p>I regularly speak at conferences and user groups about a range of subjects including Drupal, Sculpin and Git. If you would like to me to speak at your group or conference, please <a href="/contact/">get in touch</a>.</p>
+
 <p>There is also information about events that I’ve attended and spoken at on my <a href="{{ site.lanyrd.url }}">Lanyrd</a> and <a href="{{ site.joindin.url }}">Joind.in</a> profiles.</p>
 
 {% set found = false %}
 {% set year = 0 %}
 {% set now = 'now'|date('U') %}
+
 {% for talk in data.talks|reverse if talk.date >= now %}
     {% if loop.first %}
         {% set found = true %}
+
         <h2>Upcoming Talks</h2>
     {% endif %}
 
     {% if talk.date|date('Y') != year %}
         {% set year = talk.date|date('Y') %}
+
         </ul>
         <h3>{{ year }}</h3>
         <ul>
@@ -29,20 +33,24 @@ use:
 
     {{ include('talk-listing-item') }}
 {% endfor %}
+
 {% if found %}
     </ul>
 {% endif %}
 
 {% set found = false %}
 {% set year = 0 %}
+
 {% for talk in data.talks if talk.date < now %}
     {% if loop.first %}
         {% set found = true %}
+
         <h2>Previous Talks</h2>
     {% endif %}
 
     {% if talk.date|date('Y') != year %}
         {% set year = talk.date|date('Y') %}
+
         </ul>
         <h3>{{ year }}</h3>
         <ul>
@@ -50,6 +58,7 @@ use:
 
     {{ include('talk-listing-item') }}
 {% endfor %}
+
 {% if found %}
     </ul>
 {% endif %}
