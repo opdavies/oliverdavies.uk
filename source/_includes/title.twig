@@ -1,7 +1,7 @@
-{% spaceless %}<title>
+<title>{% spaceless %}
     {% if page.url == '/.' %}
         {{ site.subtitle }} | {{ site.title }}
     {% else %}
         {{ page.title }} | {{ site.title }}
     {% endif %}
-</title>{% endspaceless %}
+{% endspaceless %}</title>
