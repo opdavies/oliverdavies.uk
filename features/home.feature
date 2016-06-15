@@ -6,7 +6,7 @@ Feature: Home
     Scenario:
         Given I am on the homepage
         Then the response status code should be 200
-        And the ".nav li.active a" element should contain "About"
         And I should see "I’m a Web Developer and System Administrator based in Wales, UK."
-        And the "title" element should contain "Web Developer, System Administrator - PHP, Drupal, Symfony, Linux | Oliver Davies"
-        And the "title" element should not contain "About | Oliver Davies"
+        And the active menu link should be "About"
+        And the page title should be "Web Developer, System Administrator - PHP, Drupal, Symfony, Linux | Oliver Davies"
+        And the page title should not be "About | Oliver Davies"
