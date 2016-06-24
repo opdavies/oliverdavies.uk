@@ -20,8 +20,8 @@ author:
         website: https://www.appnovation.com
 
 availability: |
-    <p><i class="fa fa-thumbs-o-down text-danger"></i> Not available for day contract work</p>
-    <p><i class="fa fa-thumbs-o-up text-warning"></i> Limited availability for weekend/evening freelance work</p>
+    <p><i class="fa fa-thumbs-o-down text-danger"></i> Currently no spare part-time capacity.</p>
+    <p><i class="fa fa-thumbs-o-down text-danger"></i> Currently no spare full-time capacity.</p>
 
 companies:
     appnovation:
