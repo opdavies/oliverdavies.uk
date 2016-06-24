@@ -2,6 +2,25 @@
     <div class="panel-heading">Availability</div>
 
     <div class="panel-body">
-        {{ site.availability|raw }}
+        {% for key, availability in site.availability %}
+            <p>
+                {% if availability == 'yes' %}
+                    <i class="fa fa-thumbs-o-up text-success"></i>
+
+                    {{ key == 'full' ? 'Currently have available full-time capacity' }}
+                    {{ key == 'part' ? 'Currently have available part-time capacity' }}
+                {% elseif availability == 'limited' %}
+                    <i class="fa fa-thumbs-o-up text-warning"></i>
+
+                    {{ key == 'full' ? 'Currently have limited full-time capacity' }}
+                    {{ key == 'part' ? 'Currently have limited part-time capacity' }}
+                {% else %}
+                    <i class="fa fa-thumbs-o-down text-danger"></i>
+
+                    {{ key == 'full' ? 'Currently no spare full-time capacity.' }}
+                    {{ key == 'part' ? 'Currently no spare part-time capacity.' }}
+                {% endif %}
+            </p>
+        {% endfor %}
     </div>
 </div>
