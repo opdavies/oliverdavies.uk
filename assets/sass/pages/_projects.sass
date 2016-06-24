@@ -1,12 +1,18 @@
 .project
-    &--company__has-logo
+    &__company--has-logo
         a:link,
         a:hover
             border-bottom: 0
             display: block
 
         img
-            max-height: 50px
+            max-width: 75%
+
+            +breakpoint($screen-sm)
+                max-width: 50%
+
+            +breakpoint($screen-md)
+                max-width: 33.3%
 
     &__website
         @extend .btn

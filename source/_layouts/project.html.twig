@@ -1,5 +1,7 @@
 {% extends 'page' %}
 
+{% block body_classes 'page--project' %}
+
 {% block content_wrapper %}
     {% if page.image -%}
         <img src="/assets/images/projects/{{ page.image.name ?: page.image }}" alt="{{ page.image.alt }}">
