@@ -40,15 +40,6 @@ Here is some more information about me:
 * I [regularly speak][19] at conferences and user groups.
 * I previously worked for the [Drupal Association][7] and other agencies including [CTI Digital][34], [Microserve][8], [Precedent][9] and [Nomensa][10].
 
-## Hire Me
-
-* Drupal website development and maintenance
-* Symfony, Silex and Laravel development
-* Static websites with Jekyll and Sculpin
-* Front-end development
-* Linux system administration, CI setup and configuration management
-* Git support and training
-
 ## Elsewhere
 
 * [Twitter][21] - @{{ site.twitter.name }}
