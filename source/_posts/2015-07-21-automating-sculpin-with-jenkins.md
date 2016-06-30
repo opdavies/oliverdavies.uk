@@ -97,7 +97,7 @@ Since publishing this post, I've added some more items to the original build scr
 ### Updating Composer
 
     if [ -f composer.json ]; then
-        /usr/local/bin/composer update
+        /usr/local/bin/composer install
     fi
 
 Updates project dependencies via [Composer](https://getcomposer.org/doc/00-intro.md#introduction) if composer.json exists.
@@ -105,10 +105,10 @@ Updates project dependencies via [Composer](https://getcomposer.org/doc/00-intro
 ### Updating Sculpin Dependencies
 
     if [ -f sculpin.json ]; then
-      sculpin update
+      sculpin install
     fi
 
-Runs `sculpin update` on each build if the sculpin.json file exists, to ensure that the required custom bundles and dependencies are installed.
+Runs `sculpin install` on each build if the sculpin.json file exists, to ensure that the required custom bundles and dependencies are installed.
 
 ### Managing Redirects
 
