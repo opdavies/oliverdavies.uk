@@ -13,7 +13,7 @@ author:
     name: Oliver Davies
     bio: 'Oliver Davies is a Drupal Developer and System Administrator based in the UK. He is a Senior Developer at <a href="https://www.appnovation.com">Appnovation</a> and also provides freelance consultancy services for Drupal websites, PHP applications and Linux servers.'
     company:
-        logo: appnovation.png
+        logo: appnovation.jpg
         name: Appnovation Technologies
         name_short: Appnovation
         role: Senior Drupal Developer
@@ -27,7 +27,7 @@ companies:
     appnovation:
         name: Appnovation Technologies
         website: https://www.appnovation.com
-        logo: appnovation.png
+        logo: appnovation.jpg
     cti:
         name: CTI Digital
         website: https://www.ctidigital.com
