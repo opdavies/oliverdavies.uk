@@ -10,8 +10,8 @@ tags:
     - drupal-vm
     - symfony
 slides:
-  url: https://speakerdeck.com/opdavies/drupal-vm-meet-symfony-console
-  embed: <script async class="speakerdeck-embed" data-id="56c79770f73f4e47a542a30243437c49" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
+    url: https://speakerdeck.com/opdavies/drupal-vm-meet-symfony-console
+    embed: <script async class="speakerdeck-embed" data-id="56c79770f73f4e47a542a30243437c49" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
 ---
 _TL;DR - Come and learn about Symfony Console, with examples from a real-world project._
 
