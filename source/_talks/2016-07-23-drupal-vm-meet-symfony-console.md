@@ -9,8 +9,11 @@ tags:
     - php
     - drupal-vm
     - symfony
+slides:
+  url: https://speakerdeck.com/opdavies/drupal-vm-meet-symfony-console
+  embed: <script async class="speakerdeck-embed" data-id="56c79770f73f4e47a542a30243437c49" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
 ---
-_TL;DR - Come and learn about Symfony Console, with examples from a real project._
+_TL;DR - Come and learn about Symfony Console, with examples from a real-world project._
 
 The [Drupal VM Generator][2] is a CLI application, built on [Symfony Console][0], that generates configuration files for [Drupal VM][1] based on personal settings and user interaction.
 
