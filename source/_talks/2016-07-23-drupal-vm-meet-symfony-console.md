@@ -4,6 +4,7 @@ event:
     name: DrupalCamp Bristol 2016
     website: https://www.drupalcampbristol.co.uk
     location: Bristol, UK
+    logo: assets/images/talks/drupalcamp-bristol.png
 tags:
     - conference
     - php
