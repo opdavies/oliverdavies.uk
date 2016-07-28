@@ -46,6 +46,7 @@ Here is some more information about me:
 * [Drupal.org][22]
 * [GitHub][23]
 * [Packagist][24] (PHP)
+* [WordPress.org][35]
 * [Ansible Galaxy][25]
 * [SpeakerDeck][26]
 * [Joind.in][33]
@@ -87,3 +88,4 @@ Here is some more information about me:
 [32]: https://docs.puppet.com/guides/faq.html#what-is-puppet
 [33]: {{site.joindin.url}}
 [34]: https://www.ctidigital.com
+[35]: {{site.wordpress.url}}
