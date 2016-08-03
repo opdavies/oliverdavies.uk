@@ -5,7 +5,7 @@ tags:
     - drupal
     - drupal-7
 image:
-    name: roadcc.png
+    name: road-cc.png
     alt: The new road.cc website
 company: microserve
 role: Lead Developer

@@ -4,7 +4,7 @@ website: http://www.wattstvc.co.uk
 tags:
     - drupal
     - drupal-7
-image: wattstvc.png
+image: watts-tvc.png
 company: lab_class
 role: Freelance Developer
 freelance: true
