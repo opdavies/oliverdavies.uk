@@ -30,29 +30,18 @@ use:
 
 My name is Oliver Davies (aka [opdavies][1]), I’m a Web Developer and System Administrator based in Wales, UK.
 
-Here is some more information about me:
+My main specialty is Drupal architecture and development, but I’m also familiar with Symfony, Silex, Sculpin, Laravel and WordPress. I’m a {{ site.author.company.role }} at [{{ site.author.company.name }}][20], and am usually available for part-time consultancy and development work.
 
-* I’m a {{ site.author.company.role }} at [{{ site.author.company.name }}][20]. I also provide part-time freelance development and consultancy services.
-* I work with open source technologies, specialising in [Drupal][2] and [Linux][5], but also [Symfony][3], [Silex][29], [Sculpin][31] and [Laravel][30].
-* I’m a Drupal 7 & 8 core contributor, module maintainer and mentor.
-* I’m a provisional member of the [Drupal Security Team][14] and the Git documentation maintainer for Drupal.org.
-* I’m the lead organiser of [Drupal Bristol][15], and an organiser of [PHPSW][17] and [DrupalCamp Bristol][18].
-* I [regularly speak][19] at conferences and user groups.
-* I previously worked for the [Drupal Association][7] and other agencies including [CTI Digital][34], [Microserve][8], [Precedent][9] and [Nomensa][10].
+I’m a regular open source contributor and mentor, a provisional member of the [Drupal Security team][14] and the Git documentation maintainer for Drupal.org. I organise and speak at conferences and user groups including [Drupal Bristol][15], [PHPSW][17] and [DrupalCamp Bristol][18].
+
+Want to get in touch? <a href="mailto:{{ site.email }}?subject=Email from {{ site.short_url }}">Send me an email</a>.
 
 ## Elsewhere
 
 * [Twitter][21] - @{{ site.twitter.name }}
 * [Drupal.org][22]
 * [GitHub][23]
-* [Packagist][24] (PHP)
-* [WordPress.org][35]
-* [Ansible Galaxy][25]
-* [SpeakerDeck][26]
-* [Joind.in][33]
-* [LinkedIn][27]
-* [YouTube][28]
-* IRC - {{ site.irc.name }} (freenode and OFTC)
+* IRC - {{ site.irc.name }} on freenode
 
 [1]: https://www.google.com/#q=opdavies
 [2]: https://www.drupal.org
