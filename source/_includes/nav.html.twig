@@ -16,10 +16,6 @@
                     <a href="/">About</a>
                 </li>
 
-                <li class="{{ page.url == '/talks' or '/talks/' in page.url ? 'active' }}">
-                    <a href="/talks">Talks</a>
-                </li>
-
                 <li class="{{ page.url == '/experience' ? 'active' }}">
                     <a href="/experience">Experience</a>
                 </li>
@@ -30,6 +26,10 @@
 
                 <li class="{{ page.url == '/blog' or '/blog/' in page.url ? 'active' }}">
                     <a href="/blog">Blog</a>
+                </li>
+
+                <li class="{{ page.url == '/talks' or '/talks/' in page.url ? 'active' }}">
+                    <a href="/talks">Talks</a>
                 </li>
             </ul>
         </div>{# .nav-collapse #}
