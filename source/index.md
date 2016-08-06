@@ -39,6 +39,7 @@ Want to get in touch? <a href="mailto:{{ site.email }}?subject=Email from {{ sit
 ## Elsewhere
 
 * [Twitter][21] - @{{ site.twitter.name }}
+* [LinkedIn][27]
 * [Drupal.org][22]
 * [GitHub][23]
 * IRC - {{ site.irc.name }} on freenode
