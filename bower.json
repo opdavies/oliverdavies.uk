@@ -1,18 +1,6 @@
 {
   "name": "oliverdavies.uk",
-  "description": "",
-  "main": "",
-  "license": "MIT",
-  "moduleType": [],
-  "homepage": "https://www.oliverdavies.uk",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
+  "devDependencies": {
     "bootstrap-sass": "~3.3.6",
     "font-awesome": "fontawesome#~4.5.0",
     "compass-breakpoint": "breakpoint-sass#~2.6.1",
