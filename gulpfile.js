@@ -34,7 +34,7 @@ app.sass = function(paths, filename) {
         .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
         .pipe(plugins.if(!config.production, plugins.refresh()))
         .pipe(gulp.dest(config.sass.outputDir));
-}
+};
 
 app.js = function(paths, filename) {
     return gulp.src(paths)
@@ -44,12 +44,12 @@ app.js = function(paths, filename) {
         .pipe(plugins.if(config.production, plugins.uglify()))
         .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
         .pipe(gulp.dest(config.js.outputDir));
-}
+};
 
 app.copy = function(source, destination) {
     return gulp.src(source)
         .pipe(gulp.dest(destination));
-}
+};
 
 gulp.task('clean', function() {
     del.sync(config.fontsDir);
@@ -86,7 +86,7 @@ gulp.task('watch', function() {
 
     gulp.watch(config.sass.sourceDir + config.sass.pattern, ['styles']);
     gulp.watch(config.js.sourceDir + config.js.pattern, ['scripts']);
-})
+});
 
 gulp.task('build', ['clean', 'fonts', 'styles', 'scripts']);
 
