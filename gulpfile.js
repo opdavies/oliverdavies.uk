@@ -5,18 +5,18 @@ var plugins = require('gulp-load-plugins')();
 var del = require('del');
 
 var config = {
-    "bowerDir": "vendor/bower_components",
-    "fontsDir": "source/assets/fonts",
-    "js": {
-        "sourceDir": "assets/js",
-        "outputDir": "source/assets/js",
-        "pattern": "/**/*.js"
+    bowerDir: 'vendor/bower_components',
+    fontsDir: 'source/assets/fonts',
+    js: {
+        sourceDir: 'assets/js',
+        outputDir: 'source/assets/js',
+        pattern: '/**/*.js'
     },
-    "production": !!plugins.util.env.production,
-    "sass": {
-        "sourceDir": "assets/sass",
-        "pattern": "/**/*.sass",
-        "outputDir": "source/assets/css"
+    production: !!plugins.util.env.production,
+    sass: {
+        sourceDir: 'assets/sass',
+        pattern: '/**/*.sass',
+        outputDir: 'source/assets/css'
     }
 };
 
