@@ -34,6 +34,16 @@ My main specialty is Drupal architecture and development, but I’m also familia
 
 I’m a regular open source contributor and mentor, a provisional member of the [Drupal Security team][14] and the a documentation maintainer for Drupal.org. I organise and speak at conferences and user groups including [Drupal Bristol][15], [PHPSW][17] and [DrupalCamp Bristol][18].
 
+## Hire Me
+
+I am usually available for part-time engagements outside of my day job for {{ site.author.company.name_short }}, providing there is no conflict of interest.
+
+The services that I offer are:
+
+* PHP and front-end development (in particular Drupal, Symfony, Silex and Laravel).
+* Static website development with Sculpin or Jekyll.
+* Linux server administration and maintenance.
+
 ## Contact Me
 
 * [Twitter][21] - @{{ site.twitter.name }}
