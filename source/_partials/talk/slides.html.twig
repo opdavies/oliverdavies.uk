@@ -1,0 +1,9 @@
+{% if page.slides.embed %}
+    <div class="slides">
+        <h2 class="slides__title">Slides</h2>
+
+        <div class="slides__content">
+            {{ page.slides.embed|raw }}
+        </div>
+    </div>
+{% endif %}

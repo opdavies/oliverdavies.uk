@@ -3,18 +3,11 @@
 {% block body_classes 'page--project' %}
 
 {% block content_wrapper %}
-    {% if page.image -%}
-        <img src="/assets/images/projects/{{ page.image.name ?: page.image }}" alt="{{ page.image.alt }}">
-    {%- endif %}
+    {{ include('project/image') }}
 
     {% block content %}{% endblock %}
 
-    {% if page.website %}
-        <a class="project__website" href="{{ page.website }}">
-            View the website
-        </a>
-    {% endif %}
-
-    {{ include('projects/skills') }}
-    {{ include('projects/company') }}
+    {{ include('project/website') }}
+    {{ include('project/skills') }}
+    {{ include('project/company') }}
 {% endblock %}

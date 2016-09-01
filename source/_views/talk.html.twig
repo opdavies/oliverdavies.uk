@@ -7,36 +7,7 @@
 {% block content_wrapper %}
     {% block content %}{% endblock %}
 
-    {% if page.event %}
-        <h2>Details</h2>
-
-        <ul>
-            <li>
-                Event:
-                {% if page.event.website %}<a href="{{ page.event.website }}">{%- endif -%}
-                {{ page.event.name }}
-                {%- if page.event.website -%}</a>{%- endif %}
-            </li>
-            <li>Date: {{ page.date|date(site.default_date_format) }}</li>
-            <li>Location: {{ page.event.location }}</li>
-        </ul>
-    {% endif %}
-
-    {% if page.slides.embed %}
-        <div class="slides">
-            <h2 class="slides__title">Slides</h2>
-
-            <div class="slides__content">
-                {{ page.slides.embed|raw }}
-            </div>
-        </div>
-    {% endif %}
-
-    {% if page.video.embed %}
-        <h2>Video</h2>
-
-        <div class="embed-container">
-            {{ page.video.embed|raw }}
-        </div>
-    {% endif %}
+    {{ include('talk/event') }}
+    {{ include('talk/slides') }}
+    {{ include('talk/video') }}
 {% endblock %}

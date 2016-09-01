@@ -11,19 +11,22 @@ use:
     <h1>Blog</h1>
 
     <ul class="posts">
-    {% for post in page.pagination.items %}
-        <li class="post">
-            {% include 'post-header' with { page: post, title_tag: 'h2' } %}
+        {% for post in page.pagination.items %}
+            <li class="post">
+                {{ include('post/header', {
+                    page: post,
+                    title_tag: 'h2'
+                }) }}
 
-            {% if post.blocks.excerpt %}
-                {{ post.blocks.excerpt|raw }}
-            {% else %}
-                <p>{{ post.blocks.content|raw|striptags|split(' ')|slice(0,50)|join(' ')|replace({ 'h2':'h3' }) }} &hellip;</p>
-            {% endif %}
+                {% if post.blocks.excerpt %}
+                    {{ post.blocks.excerpt|raw }}
+                {% else %}
+                    <p>{{ post.blocks.content|raw|striptags|split(' ')|slice(0,50)|join(' ')|replace({ 'h2':'h3' }) }} &hellip;</p>
+                {% endif %}
 
-            <a href="{{ post.url }}">Read more &rarr;</a>
-        </li>
-    {% endfor %}
+                <a href="{{ post.url }}">Read more &rarr;</a>
+            </li>
+        {% endfor %}
     </ul>
 
     {% if page.pagination.previous_page or page.pagination.next_page %}
