@@ -10,11 +10,11 @@
         }
     ],
     "require": {
-        "sculpin/sculpin": "^2.1@dev",
         "dflydev/embedded-composer": "^1.0@dev",
-        "tsphethean/sculpin-related-posts-bundle": "~0.1.0",
         "opdavies/sculpin-content-generator-bundle": "@stable",
-        "opdavies/sculpin-gist-embed-bundle": "dev-master"
+        "opdavies/sculpin-gist-embed-bundle": "dev-master",
+        "sculpin/sculpin": "^2.1@dev",
+        "tsphethean/sculpin-related-posts-bundle": "~0.1.0"
     },
     "require-dev": {
         "behat/mink-extension": "@stable",
