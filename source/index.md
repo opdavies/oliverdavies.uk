@@ -44,12 +44,16 @@ The services that I offer are:
 * Static website development with Sculpin or Jekyll.
 * Linux server administration and maintenance.
 
-## Contact Me
+## Elsewhere
 
 * [Twitter][21] - @{{ site.twitter.name }}
 * [LinkedIn][27]
 * [Drupal.org][22]
 * [GitHub][23]
+* [Packagist][24]
+* [Ansible Galaxy][25]
+* [Speaker Deck][26]
+* [YouTube][28]
 * IRC (freenode) - {{ site.irc.name }}
 
 [1]: https://www.google.com/#q=opdavies

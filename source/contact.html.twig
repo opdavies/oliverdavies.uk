@@ -3,7 +3,7 @@ title: Contact
 layout: page
 ---
 {% block content %}
-    <p>To send me an email, complete the form below. The form is powered by <a href="https://formspree.io">Formspree</a>.</p>
+    <p>To send me an email, complete the form below.</p>
 
     <form action="https://formspree.io/{{ site.email }}" method="POST">
         <div class="form__name">
@@ -31,6 +31,7 @@ layout: page
         </div>
 
         <input type="hidden" name="_next" value="{{ site.url }}/contact-thanks/" />
+
         <input type="text" name="_gotcha" style="display: none" />
     </form>
 {% endblock %}
