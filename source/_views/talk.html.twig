@@ -7,7 +7,7 @@
 {% block content_wrapper %}
     {% block content %}{% endblock %}
 
-    {{ include('talk/event') }}
-    {{ include('talk/slides') }}
-    {{ include('talk/video') }}
+    {% include 'talk/event' %}
+    {% include 'talk/slides' %}
+    {% include 'talk/video' %}
 {% endblock %}

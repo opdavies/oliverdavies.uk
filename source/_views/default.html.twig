@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-GB">
-    {{ include('head') }}
+    {% include 'head' %}
+
     <body class="{{ page.blocks.body_classes }}">
-        {{ include('nav') }}
+        {% include 'nav' %}
 
         <div class="container">
             <div class="row">
@@ -14,10 +15,10 @@
                     {% block content_bottom %}{% endblock %}
                 </main>
 
-                {{ include('sidebar') }}
+                {% include 'sidebar' %}
             </div>{# .row #}
         </div>{# .container #}
 
-        {{ include('footer') }}
+        {% include 'footer' %}
     </body>
 </html>

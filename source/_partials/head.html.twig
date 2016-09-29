@@ -1,5 +1,5 @@
 <head>
-    {% include('title') %}
+    {% include 'title' %}
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
     {% endif %}
 
     {% if page.meta.og %}
-        {{ include('og', { og: page.meta.og }) }}
+        {% include 'og' with { og: page.meta.og } %}
     {% endif %}
 
     <link rel="stylesheet" href="{{ site.url }}/assets/css/site.css">

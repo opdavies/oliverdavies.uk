@@ -1,9 +1,9 @@
 {% block sidebar_wrapper %}
     <div class="col-md-3">
         {% block sidebar %}
-            {{ include('badges') }}
-            {{ include('availability') }}
-            {{ include('posts/latest') }}
+            {% include 'badges' %}
+            {% include 'availability' %}
+            {% include 'posts/latest' %}
         {% endblock %}
     </div>
 {% endblock %}

@@ -3,11 +3,11 @@
 {% block body_classes 'page--project' %}
 
 {% block content_wrapper %}
-    {{ include('project/image') }}
+    {% include 'project/image' %}
 
     {% block content %}{% endblock %}
 
-    {{ include('project/website') }}
-    {{ include('project/skills') }}
-    {{ include('project/company') }}
+    {% include 'project/website' %}
+    {% include 'project/skills' %}
+    {% include 'project/company' %}
 {% endblock %}
