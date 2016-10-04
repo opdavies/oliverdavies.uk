@@ -32,7 +32,7 @@ My name is Oliver Davies (aka [opdavies][1]), I’m a Web Developer and System A
 
 My main specialty is Drupal architecture and development, but I’m also familiar with Symfony, Silex, Sculpin, Laravel and WordPress. I’m a {{ site.author.company.role }} at [{{ site.author.company.name }}][20], and am usually available for part-time consultancy and development work.
 
-I’m a regular open source contributor and mentor, a provisional member of the [Drupal Security team][14] and the a documentation maintainer for Drupal.org. I organise and speak at conferences and user groups including [Drupal Bristol][15], [PHPSW][17] and [DrupalCamp Bristol][18].
+I’m a regular open source contributor and mentor, a provisional member of the [Drupal Security team][14] and the a documentation maintainer for Drupal.org. I speak at various conferences and user groups, co-organise [Drupal Bristol][15] and [PHPSW][17], and am a co-founder and co-organiser of [DrupalCamp Bristol][18].
 
 ## Hire Me
 
