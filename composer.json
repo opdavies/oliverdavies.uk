@@ -1,13 +1,4 @@
 {
-    "name": "opdavies/oliverdavies.uk",
-    "description": "Oliver Davies’ personal website and blog.",
-    "authors": [
-        {
-            "name": "Oliver Davies",
-            "email": "oliver@oliverdavies.uk",
-            "homepage": "https://www.oliverdavies.uk"
-        }
-    ],
     "require": {
         "dflydev/embedded-composer": "^1.0@dev",
         "opdavies/sculpin-content-generator-bundle": "@stable",
