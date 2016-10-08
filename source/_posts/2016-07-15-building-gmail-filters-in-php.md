@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Building Gmail Filters with PHP
 tags:
     - php
