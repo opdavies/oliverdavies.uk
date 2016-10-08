@@ -3,6 +3,7 @@
         "dflydev/embedded-composer": "^1.0@dev",
         "opdavies/sculpin-content-generator-bundle": "@stable",
         "opdavies/sculpin-gist-embed-bundle": "dev-master",
+        "php": "^5.5",
         "sculpin/sculpin": "^2.1@dev",
         "tsphethean/sculpin-related-posts-bundle": "~0.1.0"
     },
