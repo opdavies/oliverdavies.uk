@@ -1,15 +1,6 @@
 .experience
     margin-bottom: $padding-large-vertical * 3
-    position: relative
     +clearfix
-
-    +breakpoint(max-width $screen-tablet)
-        h2
-            font-size: 1.5em
-            margin-top: 0
-
-    p:last-of-type
-        margin-bottom: 0
 
     &__website
         display: inline-block
@@ -17,14 +8,27 @@
 
     &__role
         color: $gray-light
-        margin-bottom: 10px
+        margin-bottom: .625rem
 
-.experience--with-logo
-    .experience
+    &__logo
+        margin-left: 1.5em
+        margin-top: 25px
+        max-width: 25%
+
+    img
+        height: auto
+        width: 100%
+
+    p:last-of-type
+        margin-bottom: 0
+
+    +breakpoint(30rem)
         &__logo
-            @extend .pull-right
-            margin: 0 0 0 2em
-            max-width: 20%
+            max-width: 15%
 
-            @include breakpoint($screen-md-min)
-                max-width: 15%
+.experience.has-logo
+    display: flex
+    justify-content: flex-start
+
+    .inner
+        flex: 1
