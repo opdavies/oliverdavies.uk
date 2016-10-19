@@ -91,11 +91,3 @@ gulp.task('watch', function() {
 gulp.task('build', ['clean', 'fonts', 'styles', 'scripts']);
 
 gulp.task('default', ['build', 'watch']);
-
-gulp.task('minify-prod-html', function() {
-    return gulp.src('output_prod/**/*.html')
-        .pipe(plugins.htmlmin({
-            collapseWhitespace: true
-        }))
-        .pipe(gulp.dest('output_prod'));
-});
