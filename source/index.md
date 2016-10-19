@@ -28,21 +28,17 @@ use:
 
 <img src="{{ site.gravatar.url }}?s=200" alt="Picture of Oliver" class="me img-circle">
 
-My name is Oliver Davies (aka [opdavies][1]), I’m a Web Developer and System Administrator based in Wales, UK.
+My name is Oliver Davies (aka [opdavies][1]), I’m a Web Developer and System Administrator based in Wales, UK. I’m a {{ site.author.company.role }} at [{{ site.author.company.name }}][20], part-time freelancer, open source contributor and mentor.
 
-My main specialty is Drupal architecture and development, but I’m also familiar with Symfony, Silex, Sculpin, Laravel and WordPress. I’m a {{ site.author.company.role }} at [{{ site.author.company.name }}][20], and am usually available for part-time consultancy and development work.
+I’m a provisional member of the [Drupal Security team][14] and a documentation maintainer for Drupal.org. I speak at various conferences and user groups, co-organise [Drupal Bristol][15] and [PHPSW][17], and am a co-founder and co-organiser of [DrupalCamp Bristol][18].
 
-I’m a regular open source contributor and mentor, a provisional member of the [Drupal Security team][14] and the a documentation maintainer for Drupal.org. I speak at various conferences and user groups, co-organise [Drupal Bristol][15] and [PHPSW][17], and am a co-founder and co-organiser of [DrupalCamp Bristol][18].
+## Skills
 
-## Hire Me
-
-I am usually available for part-time engagements outside of my day job for {{ site.author.company.name_short }}, providing there is no conflict of interest.
-
-The services that I offer are:
-
-* PHP and front-end development (in particular Drupal, Symfony, Silex and Laravel).
-* Static website development with Sculpin or Jekyll.
-* Linux server administration and maintenance.
+- Drupal (6, 7, 8)
+- Symfony, Silex, Laravel
+- Sculpin, Jekyll
+- Front-end development
+- Linux server administration
 
 ## Elsewhere
 
