@@ -37,7 +37,7 @@ I’m a provisional member of the [Drupal Security team][14] and a documentation
 - Drupal (6, 7, 8)
 - Symfony, Silex, Laravel
 - Sculpin, Jekyll
-- Front-end development
+- Front-end development (HTML, CSS, JavaScript, jQuery)
 - Linux server administration
 
 ## Elsewhere
