@@ -12,53 +12,33 @@ use:
 
 <p>There is also information about events that I’ve attended and spoken at on my <a href="{{ site.lanyrd.url }}">Lanyrd</a> and <a href="{{ site.joindin.url }}">Joind.in</a> profiles.</p>
 
-{% set found = false %}
-{% set year = 0 %}
 {% set now = 'now'|date('U') %}
 
-{% for talk in data.talks|reverse if talk.date >= now %}
-    {% if loop.first %}
-        {% set found = true %}
+{% include "talks-table" with { talks: data.talks } %}
 
-        <h2>Upcoming Talks</h2>
-    {% endif %}
+<!-- <table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Talk</th>
+            <th>Event</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for talk in data.talks if talk.date < now %}
+            <tr>
+                <td>
+                    {{ talk.date|date(site.default_date_format) }}
+                </td>
 
-    {% if talk.date|date('Y') != year %}
-        {% set year = talk.date|date('Y') %}
+                <td>
+                    <a href="{{ talk.url }}">
+                        {{ talk.title }}
+                    </a>
+                </td>
 
-        </ul>
-        <h3>{{ year }}</h3>
-        <ul>
-    {% endif %}
-
-    {{ include('talks/listing-item') }}
-{% endfor %}
-
-{% if found %}
-    </ul>
-{% endif %}
-
-{% set found = false %}
-{% set year = 0 %}
-
-{% for talk in data.talks if talk.date < now %}
-    {% if loop.first %}
-        {% set found = true %}
-
-        <h2>Previous Talks</h2>
-    {% endif %}
-
-    {% if talk.date|date('Y') != year %}
-        {% set year = talk.date|date('Y') %}
-
-        </ul>
-        <h3>{{ year }}</h3>
-        <ul>
-    {% endif %}
-
-    {{ include('talks/listing-item') }}
-{% endfor %}
-
-{% if found %}
-    </ul>
-{% endif %}
+                <td>{{ talk.event.name }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table> -->

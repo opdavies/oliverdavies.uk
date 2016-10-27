@@ -1,0 +1,26 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Talk</th>
+            <th>Event</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for talk in talks %}
+            <tr>
+                <td>
+                    {{ talk.date|date(site.default_date_format) }}
+                </td>
+
+                <td>
+                    <a href="{{ talk.url }}">
+                        {{ talk.title }}
+                    </a>
+                </td>
+
+                <td>{{ talk.event.name }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
