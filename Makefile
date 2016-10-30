@@ -19,7 +19,7 @@ generate:
 	$(SCULPIN) generate --clean --no-interaction
 
 gulp:
-    $(GULP) watch
+	$(GULP) watch
 
 serve:
 	$(SCULPIN) generate --server --clean --no-interaction
