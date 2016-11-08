@@ -2,8 +2,8 @@
   "name": "oliverdavies.uk",
   "devDependencies": {
     "bootstrap-sass": "~3.3.6",
-    "font-awesome": "fontawesome#~4.5.0",
     "compass-breakpoint": "breakpoint-sass#~2.6.1",
+    "font-awesome": "fontawesome#~4.5.0",
     "jquery2": "^2.0.0"
   }
 }

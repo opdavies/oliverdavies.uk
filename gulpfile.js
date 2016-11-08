@@ -2,23 +2,8 @@
 
 var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
+var config = require('./gulpfile.config')(plugins);
 var del = require('del');
-
-var config = {
-    bowerDir: 'vendor/bower_components',
-    fontsDir: 'source/assets/fonts',
-    js: {
-        sourceDir: 'assets/js',
-        outputDir: 'source/assets/js',
-        pattern: '/**/*.js'
-    },
-    production: !!plugins.util.env.production,
-    sass: {
-        sourceDir: 'assets/sass',
-        pattern: '/**/*.sass',
-        outputDir: 'source/assets/css'
-    }
-};
 
 var app = {};
 
@@ -51,6 +36,10 @@ app.copy = function(source, destination) {
         .pipe(gulp.dest(destination));
 };
 
+gulp.task('default', function() {
+    return plugins.taskListing.withFilters(null, 'default')();
+});
+
 gulp.task('clean', function() {
     del.sync(config.fontsDir);
     del.sync(config.js.outputDir);
@@ -66,14 +55,24 @@ gulp.task('fonts', function() {
     ], config.fontsDir);
 });
 
-gulp.task('styles', function() {
+gulp.task('sass', ['sass:compile', 'sass:watch']);
+
+gulp.task('sass:compile', function() {
     return app.sass([
         config.bowerDir + '/font-awesome/css/font-awesome.css',
         config.sass.sourceDir + config.sass.pattern
     ], 'site.css');
 });
 
-gulp.task('scripts', function() {
+gulp.task('sass:watch', ['sass:compile'], function() {
+    plugins.refresh.listen();
+
+    gulp.watch(config.sass.sourceDir + config.sass.pattern, ['styles']);
+});
+
+gulp.task('js', ['js:compile', 'js:watch']);
+
+gulp.task('js:compile', function() {
     return app.js([
         config.bowerDir + '/jquery2/jquery.js',
         config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js',
@@ -81,13 +80,12 @@ gulp.task('scripts', function() {
     ], 'site.js');
 });
 
-gulp.task('watch', function() {
+gulp.task('js:watch', ['js:compile'], function() {
     plugins.refresh.listen();
 
-    gulp.watch(config.sass.sourceDir + config.sass.pattern, ['styles']);
-    gulp.watch(config.js.sourceDir + config.js.pattern, ['scripts']);
+    gulp.watch(config.js.sourceDir + config.js.pattern, ['js']);
 });
 
-gulp.task('build', ['clean', 'fonts', 'styles', 'scripts']);
+gulp.task('build', ['clean', 'fonts', 'sass:compile', 'js:compile']);
 
-gulp.task('default', ['build', 'watch']);
+gulp.task('watch', ['sass:watch', 'js:watch'])
