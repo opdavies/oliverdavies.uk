@@ -6,9 +6,9 @@ event:
     website: http://phpsw.uk
     location: Bristol, UK
 tags: ['meetups', 'phpsw', 'drupal', 'composer']
-# slides:
-#     embed:
-#     url:
+slides:
+    embed: '<script async class="speakerdeck-embed" data-id="7a1358502526425a9cfd288f85fb32f3" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>'
+    url: https://speakerdeck.com/opdavies/modern-drupal-development-with-composer
 # joindin:
 ---
 Building a Drupal application? You no longer need to download archives to add new modules or update core, or deal with Drupal specific tools to manage your codebase.
