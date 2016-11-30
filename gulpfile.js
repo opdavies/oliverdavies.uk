@@ -2,9 +2,23 @@
 
 var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
-var config = require('./gulpfile.config')(plugins);
 var del = require('del');
 
+var config = {
+    bowerDir: 'vendor/bower_components',
+    fontsDir: 'source/assets/fonts',
+    js: {
+        sourceDir: 'assets/js',
+        outputDir: 'source/assets/js',
+        pattern: '/**/*.js'
+    },
+    production: !!plugins.util.env.production,
+    sass: {
+        sourceDir: 'assets/sass',
+        pattern: '/**/*.sass',
+        outputDir: 'source/assets/css'
+    }
+};
 var app = {};
 
 app.sass = function(paths, filename) {
