@@ -8,5 +8,8 @@
         "php": "^5.5",
         "sculpin/sculpin": "^2.1@dev",
         "tsphethean/sculpin-related-posts-bundle": "~0.1.0"
+    },
+    "config": {
+        "bin-dir": "bin"
     }
 }

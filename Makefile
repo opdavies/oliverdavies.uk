@@ -2,7 +2,7 @@
 
 BOWER="node_modules/.bin/bower"
 GULP="node_modules/.bin/gulp"
-SCULPIN="vendor/bin/sculpin"
+SCULPIN="bin/sculpin"
 
 init: build watch
 
