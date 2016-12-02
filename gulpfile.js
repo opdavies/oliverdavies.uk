@@ -50,10 +50,6 @@ app.copy = function(source, destination) {
         .pipe(gulp.dest(destination));
 };
 
-gulp.task('default', function() {
-    return plugins.taskListing.withFilters(null, 'default')();
-});
-
 gulp.task('clean', function() {
     del.sync(config.fontsDir);
     del.sync(config.js.outputDir);
@@ -69,24 +65,14 @@ gulp.task('fonts', function() {
     ], config.fontsDir);
 });
 
-gulp.task('sass', ['sass:compile', 'sass:watch']);
-
-gulp.task('sass:compile', function() {
+gulp.task('styles', function() {
     return app.sass([
         config.bowerDir + '/font-awesome/css/font-awesome.css',
         config.sass.sourceDir + config.sass.pattern
     ], 'site.css');
 });
 
-gulp.task('sass:watch', ['sass:compile'], function() {
-    plugins.refresh.listen();
-
-    gulp.watch(config.sass.sourceDir + config.sass.pattern, ['sass:compile']);
-});
-
-gulp.task('js', ['js:compile', 'js:watch']);
-
-gulp.task('js:compile', function() {
+gulp.task('scripts', function() {
     return app.js([
         config.bowerDir + '/jquery2/jquery.js',
         config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js',
@@ -94,12 +80,13 @@ gulp.task('js:compile', function() {
     ], 'site.js');
 });
 
-gulp.task('js:watch', ['js:compile'], function() {
+gulp.task('build', ['clean', 'fonts', 'styles', 'scripts']);
+
+gulp.task('default', ['build']);
+
+gulp.task('watch', ['build'], function() {
     plugins.refresh.listen();
 
-    gulp.watch(config.js.sourceDir + config.js.pattern, ['js']);
+    gulp.watch(config.sass.sourceDir + config.sass.pattern, ['sass:compile']);
+    gulp.watch(config.js.sourceDir + config.js.pattern, ['scripts']);
 });
-
-gulp.task('build', ['clean', 'fonts', 'sass:compile', 'js:compile']);
-
-gulp.task('watch', ['sass:watch', 'js:watch'])
