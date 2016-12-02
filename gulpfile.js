@@ -87,6 +87,6 @@ gulp.task('default', ['build']);
 gulp.task('watch', ['build'], function() {
     plugins.refresh.listen();
 
-    gulp.watch(config.sass.sourceDir + config.sass.pattern, ['sass:compile']);
+    gulp.watch(config.sass.sourceDir + config.sass.pattern, ['styles']);
     gulp.watch(config.js.sourceDir + config.js.pattern, ['scripts']);
 });
