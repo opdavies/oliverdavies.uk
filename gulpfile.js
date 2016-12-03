@@ -5,6 +5,9 @@ var plugins = require('gulp-load-plugins')();
 var del = require('del');
 
 var config = {
+    autoprefixer: {
+        browsers: "last 2 versions"
+    },
     bowerDir: 'vendor/bower_components',
     fontsDir: 'source/assets/fonts',
     js: {
@@ -27,7 +30,7 @@ app.sass = function(paths, filename) {
         .pipe(plugins.if(!config.production, plugins.sourcemaps.init()))
         .pipe(plugins.sassGlob())
         .pipe(plugins.sass())
-        .pipe(plugins.autoprefixer("last 2 versions"))
+        .pipe(plugins.autoprefixer(config.autoprefixer.browsers))
         .pipe(plugins.concat(filename))
         .pipe(plugins.if(config.production, plugins.cleanCss()))
         .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
