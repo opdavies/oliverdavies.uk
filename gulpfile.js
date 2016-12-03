@@ -29,10 +29,11 @@ app.sass = function(paths, filename) {
         .pipe(plugins.plumber())
         .pipe(plugins.if(!config.production, plugins.sourcemaps.init()))
         .pipe(plugins.sassGlob())
-        .pipe(plugins.sass())
+        .pipe(plugins.sass({
+            outputStyle: 'compressed'
+        }))
         .pipe(plugins.autoprefixer(config.autoprefixer.browsers))
         .pipe(plugins.concat(filename))
-        .pipe(plugins.if(config.production, plugins.cleanCss()))
         .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
         .pipe(plugins.if(!config.production, plugins.refresh()))
         .pipe(gulp.dest(config.sass.outputDir));
