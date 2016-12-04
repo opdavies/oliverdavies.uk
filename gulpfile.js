@@ -22,6 +22,7 @@ var config = {
         outputDir: 'source/assets/css'
     }
 };
+
 var app = {};
 
 app.sass = function(paths, filename) {
@@ -67,9 +68,10 @@ gulp.task('clean', function() {
 });
 
 gulp.task('fonts', function() {
-    return app.copy([
-        config.bowerDir + "/font-awesome/fonts/*"
-    ], config.fontsDir);
+    return app.copy(
+        config.bowerDir + "/font-awesome/fonts/*",
+        config.fontsDir
+    );
 });
 
 gulp.task('styles', function() {
