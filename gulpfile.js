@@ -6,7 +6,7 @@ var del = require('del');
 
 var config = {
     autoprefixer: {
-        browsers: "last 2 versions"
+        browsers: ["last 2 versions", "> 5%"]
     },
     bowerDir: 'vendor/bower_components',
     fontsDir: 'source/assets/fonts',
@@ -32,7 +32,10 @@ app.sass = function(paths, filename) {
         .pipe(plugins.sass({
             outputStyle: 'compressed'
         }))
-        .pipe(plugins.autoprefixer(config.autoprefixer.browsers))
+        .pipe(plugins.autoprefixer({
+            browsers: config.autoprefixer.browsers,
+            cascade: false
+        }))
         .pipe(plugins.concat(filename))
         .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
         .pipe(plugins.if(!config.production, plugins.refresh()))
