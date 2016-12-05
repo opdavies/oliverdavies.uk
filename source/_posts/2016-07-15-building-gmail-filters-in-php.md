@@ -19,15 +19,17 @@ For example:
 
 require __DIR__ '/vendor/autoload.php';
 
+use Opdavies\GmailFilterBuilder\Builder;
+use Opdavies\GmailFilterBuilder\Filter;
+
 $filters = [];
 
-$filters[] = GmailFilter::create()
-  ->from(['example@test.com'])
-  ->label('Test')
-  ->archive()
-  ->neverSpam();
+$filters[] = Filter::create()
+    ->has('from:example@test.com')
+    ->labelAndArchive('Test')
+    ->neverSpam();
 
-print GmailFilterBuilder::build($filters);
+new Builder($filters);
 ```
 
 In this case, an email from `example@test.com` would be archived, never marked as spam, and have a label of "Test" added to it.
