@@ -1,22 +1,24 @@
 module.exports = function (plugins) {
-    var config = {
+    return {
         autoprefixer: {
             browsers: ["last 2 versions", "> 5%"]
         },
-        bowerDir: 'vendor/bower_components',
-        fontsDir: 'source/assets/fonts',
+        bower: {
+            path: 'vendor/bower_components',
+        },
+        fonts: {
+            destination: 'source/assets/fonts',
+        },
         js: {
-            sourceDir: 'assets/js',
-            outputDir: 'source/assets/js',
-            pattern: '/**/*.js'
+            source: 'assets/js',
+            pattern: '/**/*.js',
+            destination: 'source/assets/js',
         },
         production: !!plugins.util.env.production,
         sass: {
-            sourceDir: 'assets/sass',
+            source: 'assets/sass',
             pattern: '/**/*.sass',
-            outputDir: 'source/assets/css'
+            destination: 'source/assets/css',
         }
     }
-
-    return config;
 }

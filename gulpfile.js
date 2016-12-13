@@ -2,8 +2,9 @@
 
 var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
-var config = require('./gulpfile.config.js')(plugins);
 var del = require('del');
+
+var config = require('./gulpfile.config.js')(plugins);
 
 var app = {};
 
@@ -22,7 +23,7 @@ app.sass = function(paths, filename) {
         .pipe(plugins.concat(filename))
         .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
         .pipe(plugins.if(!config.production, plugins.refresh()))
-        .pipe(gulp.dest(config.sass.outputDir));
+        .pipe(gulp.dest(config.sass.destination));
 };
 
 app.js = function(paths, filename) {
@@ -32,7 +33,7 @@ app.js = function(paths, filename) {
         .pipe(plugins.concat(filename))
         .pipe(plugins.if(config.production, plugins.uglify()))
         .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
-        .pipe(gulp.dest(config.js.outputDir));
+        .pipe(gulp.dest(config.js.destination));
 };
 
 app.copy = function(source, destination) {
@@ -41,9 +42,9 @@ app.copy = function(source, destination) {
 };
 
 gulp.task('clean', function() {
-    del.sync(config.fontsDir);
-    del.sync(config.js.outputDir);
-    del.sync(config.sass.outputDir);
+    del.sync(config.fonts.destination);
+    del.sync(config.js.destination);
+    del.sync(config.sass.destination);
     del.sync('output_*/assets/css');
     del.sync('output_*/assets/fonts');
     del.sync('output_*/assets/js');
@@ -51,23 +52,23 @@ gulp.task('clean', function() {
 
 gulp.task('fonts', function() {
     return app.copy(
-        config.bowerDir + "/font-awesome/fonts/*",
-        config.fontsDir
+        config.bower.path + "/font-awesome/fonts/*",
+        config.fonts.destination
     );
 });
 
 gulp.task('styles', function() {
     return app.sass([
-        config.bowerDir + '/font-awesome/css/font-awesome.css',
-        config.sass.sourceDir + config.sass.pattern
+        config.bower.path + '/font-awesome/css/font-awesome.css',
+        config.sass.source + config.sass.pattern
     ], 'site.css');
 });
 
 gulp.task('scripts', function() {
     return app.js([
-        config.bowerDir + '/jquery2/jquery.js',
-        config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js',
-        config.js.sourceDir + config.js.pattern
+        config.bower.path + '/jquery2/jquery.js',
+        config.bower.path + '/bootstrap-sass/assets/javascripts/bootstrap.js',
+        config.js.source + config.js.pattern
     ], 'site.js');
 });
 
@@ -78,6 +79,6 @@ gulp.task('default', ['build']);
 gulp.task('watch', ['build'], function() {
     plugins.refresh.listen();
 
-    gulp.watch(config.sass.sourceDir + config.sass.pattern, ['styles']);
-    gulp.watch(config.js.sourceDir + config.js.pattern, ['scripts']);
+    gulp.watch(config.sass.source + config.sass.pattern, ['styles']);
+    gulp.watch(config.js.source + config.js.pattern, ['scripts']);
 });
