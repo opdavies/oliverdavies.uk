@@ -10,6 +10,7 @@
         "tsphethean/sculpin-related-posts-bundle": "~0.1.0"
     },
     "config": {
-        "bin-dir": "bin"
+        "bin-dir": "bin",
+        "sort-packages": true
     }
 }
