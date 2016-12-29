@@ -3,6 +3,7 @@ title: Useful Vagrant Commands
 description: Here are the basic commands that you need to adminster a virtual machine using <a href="http://vagrantup.com" title="The Vagrant Home page">Vagrant</a>.
 tags:
   - vagrant
+use: [posts]
 ---
 {% block excerpt %}
 [Vagrant](http://www.vagrantup.com "About Vagrant") is a tool for managing virtual machines within [VirtualBox](https://www.virtualbox.org) from the command line. Here are some useful commands to know when using Vagrant.

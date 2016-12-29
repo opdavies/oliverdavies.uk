@@ -5,6 +5,7 @@ tags:
   - sublime-text
   - mac-os-x
   - terminal
+use: [posts]
 ---
 {% block excerpt %}
 How to open Sublime Text from the command line.

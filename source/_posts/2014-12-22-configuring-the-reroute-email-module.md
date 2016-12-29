@@ -7,6 +7,7 @@ tags:
   - drupal-planet
   - email
 draft: true
+use: [posts]
 ---
 {% block excerpt %}
 [Reroute Email](https://www.drupal.org/project/reroute_email) module uses `hook_mail_alter()` to prevent emails from being sent to users from non-production sites. It allows you to enter one or more email addresses that will receive the emails instead of delivering them to the original user.

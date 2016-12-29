@@ -8,6 +8,7 @@ tags:
   - drupal-7
   - drupal-planet
   - accessibility
+use: [posts]
 ---
 {% block excerpt %}
 After a busy few days, I've released two new contrib Drupal modules.

@@ -6,6 +6,7 @@ tags:
   - drupal-planet
   - drupal-theming
   - taxonomy
+use: [posts]
 ---
 Whilst developing this, and other Drupal websites for clients, I decided that I wanted to categorise content using the taxonomy system. However, I wasn't happy with the way that Drupal displayed the terms lists by default, and I started comparing this to other websites that I look at. 
 

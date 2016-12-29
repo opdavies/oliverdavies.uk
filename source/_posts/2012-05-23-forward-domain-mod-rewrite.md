@@ -7,6 +7,7 @@ tags:
   - drupal
   - apache
   - mod_rewrite
+use: [posts]
 ---
 {% block excerpt %}
 How to use the .htaccess file to forward to a different domain.

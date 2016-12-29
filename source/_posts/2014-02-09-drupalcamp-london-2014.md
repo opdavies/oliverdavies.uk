@@ -6,6 +6,7 @@ tags:
   - drupalcamp-london
   - git
   - git-flow
+use: [posts]
 ---
 {% block excerpt %}
 It's all booked, I'm going to be attending [DrupalCamp London](http://2014.drupalcamplondon.co.uk) this year, my first DrupalCamp!

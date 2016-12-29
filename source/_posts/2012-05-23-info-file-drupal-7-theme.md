@@ -6,6 +6,7 @@ tags:
   - drupal-theming
   - drupal
   - code
+use: [posts]
 ---
 {% block excerpt %}
 An example .info file for a Drupal 7 theme.

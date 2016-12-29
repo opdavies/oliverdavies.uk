@@ -4,6 +4,7 @@ slug: use-authorized-keys-create-passwordless-ssh-connection
 tags:
   - linux
   - ssh
+use: [posts]
 ---
 If you're accessing Linux servers or automating tasks between servers, rather than having to enter your user password every time, you can also use SSH public key authentication. This is a simple process that involves creating a local key and storing it within the *authorized_keys* file on the remote server.
 

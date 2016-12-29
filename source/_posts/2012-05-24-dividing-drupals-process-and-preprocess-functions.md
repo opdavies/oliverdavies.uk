@@ -7,6 +7,7 @@ tags:
   - code
   - theming
   - preprocessing
+use: [posts]
 ---
 {% block excerpt %}
 If you use a lot of process and preprocess functions within your Drupal theme, then your template.php can get very long and it can become difficult to find a certain piece of code.

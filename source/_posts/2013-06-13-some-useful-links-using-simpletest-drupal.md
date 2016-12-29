@@ -7,6 +7,7 @@ tags:
   - test-driven-development
   - drupal-planet
   - drupal
+use: [posts]
 ---
 {% block excerpt %}
 Here are some useful links that I've found when researching about unit testing in Drupal using SimpleTest.

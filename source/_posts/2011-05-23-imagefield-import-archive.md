@@ -3,6 +3,7 @@ title: Imagefield Import Archive
 tags:
   - drupal-planet
   - imagefield-import
+use: [posts]
 ---
 I've finally uploaded my first module onto Drupal.org!
 

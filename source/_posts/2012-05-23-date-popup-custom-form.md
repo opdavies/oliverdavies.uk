@@ -9,6 +9,7 @@ tags:
   - drupal-7
   - drupal-planet
   - drupal
+use: [posts]
 ---
 {% block excerpt %}
 How to use a date popup calendar within your custom module.

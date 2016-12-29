@@ -9,6 +9,7 @@ tags:
   - sequel-pro
   - database
   - content-types
+use: [posts]
 ---
 In this post, I will be changing values within my Drupal 6 site's database to quickly change the content type of multiple nodes. I will be using a test development site with the core Blog module installed, and converting Blog posts to a custom content type called 'News article'.
 

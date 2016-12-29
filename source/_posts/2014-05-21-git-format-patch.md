@@ -6,6 +6,7 @@ tags:
   - drupal
   - drupal-planet
   - git
+use: [posts]
 ---
 {% block excerpt %}
 An explanation of the "git format-patch" command, and how it could be used in Drupal's Git workflow.

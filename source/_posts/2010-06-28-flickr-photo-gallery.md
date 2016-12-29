@@ -12,6 +12,7 @@ tags:
   - filefield
   - flickr
   - imagefield
+use: [posts]
 ---
 In this tutorial, I'll show you how to create a photo gallery which uses photos imported from [Flickr](http://www.flickr.com).
 

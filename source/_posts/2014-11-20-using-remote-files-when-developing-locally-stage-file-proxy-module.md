@@ -4,6 +4,7 @@ tags:
   - drupal
   - drupal-planet
   - servers
+use: [posts]
 ---
 {% block excerpt %}
 How to install and configure the [Stage File Proxy](https://www.drupal.org/project/stage_file_proxy) module to serve remote images on your local Drupal site.

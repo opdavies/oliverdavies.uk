@@ -6,6 +6,7 @@ tags:
   - drush-make
   - drupal-bristol
   - talks
+use: [posts]
 ---
 {% block excerpt %}
 Here are my slides from this month's talk night at the [Drupal Bristol user group](https://groups.drupal.org/bristol-and-west-uk).

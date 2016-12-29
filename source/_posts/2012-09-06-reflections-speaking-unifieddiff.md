@@ -4,6 +4,7 @@ description: Yesterday evening I went to and spoke at the <a href="http://www.un
 slug: reflections-speaking-unifieddiff
 tags:
   - talks
+use: [posts]
 ---
 {% block excerpt %}
 Yesterday evening I went along and spoke at the [UnifiedDiff meetup](http://www.unifieddiff.co.uk) in Cardiff, having offered previously to do a presentation providing an introduction to Drupal.

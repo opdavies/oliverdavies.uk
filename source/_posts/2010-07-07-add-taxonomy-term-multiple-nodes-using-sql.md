@@ -8,6 +8,7 @@ tags:
   - sql
   - sequal-pro
   - database
+use: [posts]
 ---
 **Update:** This can also be done using the [Views Bulk Operations](http://drupal.org/project/views_bulk_operations) module.
 

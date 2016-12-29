@@ -6,6 +6,7 @@ tags:
     - drupal-planet
     - drupal-7
     - php
+use: [posts]
 ---
 {% block excerpt %}
 How to use the [xautoload][1] module to autoload migration classes within your Drupal 7 migration modules.

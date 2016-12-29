@@ -5,6 +5,7 @@ tags:
     - drupal-planet
     - drupal-vm
     - symfony
+use: [posts]
 ---
 {% block excerpt %}
 For the past few weeks I’ve been working on a personal side project, based on Drupal VM. It’s called the [Drupal VM Generator][1], and over the weekend I’ve added the final features and fixed the remaining issues, and tagged the 1.0.0 release.

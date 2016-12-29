@@ -3,6 +3,7 @@ title: Building Gmail Filters with PHP
 tags:
     - php
     - gmail
+use: [posts]
 ---
 Earlier this week I wrote a small PHP library called [GmailFilterBuilder][0] that allows you to write Gmail filters in PHP and export them to XML.
 

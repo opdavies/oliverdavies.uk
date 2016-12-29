@@ -4,6 +4,7 @@ slug: checkout-specific-revision-svn-command-line
 tags:
   - svn
   - version-control
+use: [posts]
 ---
 {% block excerpt %}
 How to checkout a specific revision from a SVN (Subversion) repository.

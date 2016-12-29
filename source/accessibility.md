@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Accessibility
+use: [posts]
 ---
 # Accessibility
 

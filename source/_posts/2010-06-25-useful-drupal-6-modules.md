@@ -5,6 +5,7 @@ tags:
   - drupal-6
   - drupal
   - drupal-modules
+use: [posts]
 ---
 Aside from the obvious candidates such as Views, CCK etc, here are a list of 10 contributed modules that I currently use on each Drupal project.
 

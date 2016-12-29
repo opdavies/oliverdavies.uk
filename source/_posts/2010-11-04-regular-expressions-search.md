@@ -8,6 +8,7 @@ tags:
   - coda
   - regular-expression
   - textmate
+use: [posts]
 ---
 As in [the original post](/blog/add-taxonomy-term-multiple-nodes-using-sql/ "Quickly adding a taxonomy term to multiple nodes using SQL"), I'd generated a list of node ID values, and needed to add structure the SQL update statment formatted in a certain way. However, I changed my inital query slightly to out put the same nid value twice.
 

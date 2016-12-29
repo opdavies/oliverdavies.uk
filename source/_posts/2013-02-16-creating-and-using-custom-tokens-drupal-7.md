@@ -6,6 +6,7 @@ tags:
   - drupal-planet
   - drupal-7
   - tokens
+use: [posts]
 ---
 {% block excerpt %}
 This post outlines the steps required to create your own custom tokens in Drupal.

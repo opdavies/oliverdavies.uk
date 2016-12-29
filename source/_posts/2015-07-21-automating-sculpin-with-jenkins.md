@@ -5,6 +5,7 @@ tags:
     - sculpin
     - jenkins
 slug: automating-sculpin-jenkins
+use: [posts]
 ---
 As part of re-building this site with [Sculpin](http://sculpin.io), I wanted to automate the deployments, as in I wouldn't need to run a script like [publish.sh](https://raw.githubusercontent.com/sculpin/sculpin-blog-skeleton/master/publish.sh) locally and have that deploy my code onto my server. Not only did that mean that my local workflow was simpler (update, commit and push, rather than update, commit, push and deploy), but if I wanted to make a quick edit or hotfix, I could log into GitHub or Bitbucket (wherever I decided to host the source code) from any computer or my phone, make the change and have it deployed for me.
 

@@ -7,6 +7,7 @@ tags:
   - drupal-6
   - imagefield
   - image-caption
+use: [posts]
 ---
 Up until as recent as last week, whenever I added an image into one of my Blog posts, I was manually adding the caption below each image and styling it accordingly. That was until I installed the [Image Caption](http://drupal.org/project/image_caption) module.
 

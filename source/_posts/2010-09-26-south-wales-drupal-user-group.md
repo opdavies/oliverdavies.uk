@@ -6,6 +6,7 @@ tags:
   - drupal-planet
   - swdug
   - meetups
+use: [posts]
 ---
 If you do Drupal, and you're in the area, come and join us for the first South Wales Drupal User Group Meetup!
 

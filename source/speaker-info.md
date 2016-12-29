@@ -2,6 +2,7 @@
 layout: page
 title: Speaker information
 slug: speaker-info/
+use: [posts]
 ---
 ## Job title
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Development Terms
+use: [posts]
 ---
 # Development Terms
 

@@ -5,6 +5,7 @@ tags:
   - drupal-planet
   - drupal-6
   - imagecache
+use: [posts]
 ---
 Whilst uploading images for my Projects and Testimonials sections, I noticed that the Imagecache-scaled images weren't as high a quality the originals on my Mac. I did some searching online and found out that, by default, Drupal resamples uploaded jpgs to 75% of their original quality.
 

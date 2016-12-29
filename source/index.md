@@ -21,8 +21,7 @@ tools:
     - { title: CentOS, website: https://www.centos.org/about }
     - { title: Git, website: http://git-scm.com }
     - { title: Ansible, website: http://www.ansible.com }
-use:
-    - posts
+use: [posts]
 ---
 # About Me
 

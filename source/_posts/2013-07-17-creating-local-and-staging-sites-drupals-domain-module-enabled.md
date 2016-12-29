@@ -7,6 +7,7 @@ tags:
   - databases
   - domain
   - table-prefixing
+use: [posts]
 ---
 {% block excerpt %}
 The [Domain Access project](https://drupal.org/project/domain "The Domain Access project on Drupal.org") is a suite of modules that provide tools for running a group of affiliated sites from one Drupal installation and a single shared database. The issue is that the domains are stored within the database so these are copied across when the data is migrated between environments, whereas the domains are obviously going to change.

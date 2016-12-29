@@ -8,6 +8,7 @@ tags:
   - github
   - phpstorm
   - sculpin
+use: [posts]
 ---
 {% block content %}
 ## Sculpin

@@ -9,6 +9,7 @@ tags:
   - photo-gallery
   - cck
   - imagefield
+use: [posts]
 ---
 **Thanks to Bob at [Mustardseed Media](http://mustardseedmedia.com) for [tweeting](http://twitter.com/mustardseedinc/status/14713096905) about this module. It's undoubtedly saved me hours of work today alone!**
 

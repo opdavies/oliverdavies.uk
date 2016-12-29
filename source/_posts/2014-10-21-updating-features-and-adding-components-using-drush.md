@@ -6,6 +6,7 @@ tags:
   - drupal-planet
   - drush
   - features
+use: [posts]
 ---
 {% block excerpt %}
 If you use the [Features module](http://drupal.org/project/features) to manage your Drupal configuration, it can be time consuming to update features through the UI, especially if you are working on a remote server and need to keep downloading and uploading files.

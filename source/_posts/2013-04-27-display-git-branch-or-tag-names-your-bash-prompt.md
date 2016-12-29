@@ -7,6 +7,7 @@ tags:
   - drupal-planet
   - git
   - terminal
+use: [posts]
 ---
 {% block excerpt %}
 Whilst watching [Drupalize.me](http://drupalize.me "Drupalize.me")'s recent [Introduction to Git series](http://drupalize.me/series/introduction-git-series "Introduction to Git on Drupalize.me"), I thought it was useful the way that the current Git branch or tag name was displayed in the bash prompt. Here's how to do it.

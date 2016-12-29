@@ -2,6 +2,7 @@
 title: Some Useful Git Aliases
 tags:
   - git
+use: [posts]
 ---
 {% block excerpt %}
 Here are some bash aliases that I use and find helpful for quickly writing Git and Git Flow commands.

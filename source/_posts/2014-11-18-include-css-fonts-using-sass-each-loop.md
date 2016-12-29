@@ -7,6 +7,7 @@ tags:
   - drupal-planet
   - fonts
   - sass
+use: [posts]
 ---
 {% block excerpt %}
 How to use an @each loop in SASS to quickly include multiple font files within your stylesheet.

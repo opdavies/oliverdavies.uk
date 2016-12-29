@@ -8,6 +8,7 @@ tags:
   - drupal-planet
   - php
   - aria
+use: [posts]
 ---
 {% block excerpt %}
 For reference, this is the code needed to display a menu in a Drupal 7 template file, including the navigation ARIA role.

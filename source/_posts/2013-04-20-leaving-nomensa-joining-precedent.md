@@ -5,6 +5,7 @@ tags:
   - nomensa
   - precedent
   - personal
+use: [posts]
 ---
 {% block excerpt %}
 Yesterday was my last day working at [Nomensa](http://www.nomensa.com "Nomensa"). Next week, I'll be starting as a Senior Developer at [Precedent](http://www.precedent.co.uk "Precedent").

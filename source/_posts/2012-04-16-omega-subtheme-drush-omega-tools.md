@@ -8,6 +8,7 @@ tags:
   - less
   - drupal-planet
   - drupal
+use: [posts]
 ---
 In this tutorial I'll be showing how to create an [Omega](http://drupal.org/project/omega) subtheme using the [Omega Tools](http://drupal.org/project/omega_tools) module, and have it working with the [LESS CSS preprocessor](http://lesscss.org).
 
