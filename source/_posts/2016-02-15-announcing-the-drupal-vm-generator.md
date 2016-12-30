@@ -4,6 +4,7 @@ tags:
     - drupal
     - drupal-planet
     - drupal-vm
+    - drupal-vm-generator
     - symfony
 use: [posts]
 ---
