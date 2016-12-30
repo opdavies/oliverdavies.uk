@@ -2,12 +2,12 @@
 
 {% block content_wrapper %}
     {% include 'post/header' %}
+    {% include 'post/tags' %}
 
     {% block content %}{% endblock %}
 
-    {% include 'post/feedback' %}
+    {# {% include 'post/feedback' %} #}
     {# {% include 'post/related' %} #}
-    {% include 'post/tags' %}
-    {% include 'post/about-author' %}
     {% include 'post/pager' %}
+    {% include 'post/about-author' %}
 {% endblock %}
