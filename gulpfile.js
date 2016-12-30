@@ -4,7 +4,7 @@ var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
 var del = require('del');
 
-var config = require('./gulpfile.config.js')(plugins);
+var config = require('./gulpfile.config')(plugins);
 
 var app = {};
 
