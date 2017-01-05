@@ -1,4 +1,10 @@
 {
+    "scripts": {
+        "clean": "rm -rf output_*/",
+        "dev": "sculpin generate --clean --no-interaction --server --watch",
+        "production": "sculpin generate --clean --no-interaction --env prod",
+        "test": "behat"
+    },
     "require": {
         "behat/mink-extension": "@stable",
         "behat/mink-goutte-driver": "@stable",
@@ -10,7 +16,6 @@
         "tsphethean/sculpin-related-posts-bundle": "~0.1.0"
     },
     "config": {
-        "bin-dir": "bin",
         "sort-packages": true
     }
 }

@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "init": "yarn && bower install",
+    "dev": "gulp watch",
+    "production": "gulp --production"
+  },
   "devDependencies": {
     "bower": "^1.7.7",
     "del": "^2.2.0",
