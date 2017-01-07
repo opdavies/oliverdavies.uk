@@ -59,6 +59,7 @@ gulp.task('fonts', function() {
 gulp.task('styles', function() {
     return app.sass([
         config.bower.path + '/font-awesome/css/font-awesome.css',
+        config.bower.path + '/highlightjs/styles/default.css',
         config.sass.source + config.sass.pattern
     ], 'site.css');
 });
@@ -67,6 +68,7 @@ gulp.task('scripts', function() {
     return app.js([
         config.bower.path + '/jquery2/jquery.js',
         config.bower.path + '/bootstrap-sass/assets/javascripts/bootstrap.js',
+        config.bower.path + '/highlightjs/highlight.pack.js',
         config.js.source + config.js.pattern
     ], 'site.js');
 });
