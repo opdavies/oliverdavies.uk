@@ -2,7 +2,7 @@
     "scripts": {
         "clean": "rm -rf output_*/",
         "dev": "sculpin generate --clean --no-interaction --server --watch",
-        "production": "sculpin generate --clean --no-interaction --env prod",
+        "production": "sculpin generate --clean --no-interaction --env='prod' --quiet",
         "test": "behat"
     },
     "require": {
