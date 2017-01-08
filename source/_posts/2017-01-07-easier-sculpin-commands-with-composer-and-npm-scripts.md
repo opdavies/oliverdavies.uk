@@ -12,7 +12,7 @@ My website includes several various command line tools - e.g. [Sculpin][4], [Gul
 In this video, I show you how I've simplied my Sculpin and Gulp workflow using custom Composer and NPM scripts.
 
 <div class="embed-container">
-    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/UTNupSghd-8" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eiWDV_63yCQ" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Scripts
@@ -25,7 +25,7 @@ Here are the scripts that I’m using - they are slightly different from those i
 "scripts": {
     "clean": "rm -rf output_*/",
     "dev": "sculpin generate --clean --no-interaction --server --watch",
-    "production": "sculpin generate --clean --no-interaction --env='prod'"
+    "production": "sculpin generate --clean --no-interaction --env='prod' --quiet"
 }
 ```
 
