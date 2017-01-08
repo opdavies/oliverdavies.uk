@@ -14,14 +14,13 @@ def deploy():
     fix_file_permissions()
 
 def build_site():
-    local('composer install --no-dev')
-    local('bin/sculpin generate -e prod --clean --no-interaction --quiet')
+    local('composer install --no-dev --optimize-autoloader')
+    local('composer run production')
     local('echo %s > output_prod/version' % env.build_number)
 
 def build_assets():
-    local('yarn --pure-lockfile')
-    local('./node_modules/.bin/bower install')
-    local('./node_modules/.bin/gulp build --production --silent')
+    local('npm run init')
+    local('npm run production')
 
 def deploy_site():
     rsync_project(
@@ -33,5 +32,5 @@ def deploy_site():
     run('sudo service nginx configtest && sudo service nginx reload')
 
 def fix_file_permissions():
-    run('sudo chown -R jarvis:www-data %s/web' % project_root)
+    run('sudo chown -R %s:%s %s/web' % (env.user, env.group, project_root))
     run('sudo chmod -R 750 %s/web' % project_root)

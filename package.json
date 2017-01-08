@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "init": "yarn && bower install",
+    "init": "yarn --pure-lockfile && bower install",
     "dev": "gulp watch",
     "production": "gulp --production"
   },
