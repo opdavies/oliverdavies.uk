@@ -12,11 +12,11 @@ def build_deploy():
     file_permissions()
 
 def build():
+    local('npm run init')
+    local('npm run production')
     local('composer install --no-dev --optimize-autoloader')
     local('composer run production')
     local('echo %s > output_prod/version' % env.build_number)
-    local('npm run init')
-    local('npm run production')
 
 def deploy():
     rsync_project(
