@@ -6,7 +6,7 @@ env.use_ssh_config = True
 project_root = '/var/www/oliverdavies'
 
 @task
-def deploy():
+def build_deploy():
     build()
     deploy()
     file_permissions()
