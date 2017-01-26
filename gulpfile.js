@@ -73,11 +73,9 @@ gulp.task('scripts', function() {
     ], 'site.js');
 });
 
-gulp.task('build', ['clean', 'fonts', 'styles', 'scripts']);
+gulp.task('default', ['clean', 'fonts', 'styles', 'scripts']);
 
-gulp.task('default', ['build']);
-
-gulp.task('watch', ['build'], function() {
+gulp.task('watch', ['default'], function() {
     plugins.refresh.listen();
 
     gulp.watch(config.sass.source + config.sass.pattern, ['styles']);
