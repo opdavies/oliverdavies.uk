@@ -4,53 +4,67 @@ var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
 var del = require('del');
 
-var config = require('./gulpfile.config')(plugins);
+var config = {
+    bowerDir: 'vendor/bower_components',
+    fontsDir: 'source/assets/fonts',
+    js: {
+        sourceDir: 'assets/js',
+        pattern: '/**/*.js',
+        outputDir: 'source/assets/js',
+    },
+    production: !!plugins.util.env.production,
+    sass: {
+        sourceDir: 'assets/sass',
+        pattern: '/**/*.sass',
+        outputDir: 'source/assets/css',
+    }
+};
 
 gulp.task('styles', function() {
     return gulp.src([
-            config.bower.path + '/font-awesome/css/font-awesome.css',
-            config.bower.path + '/highlightjs/styles/default.css',
-            config.sass.source + config.sass.pattern
+            config.bowerDir + '/font-awesome/css/font-awesome.css',
+            config.bowerDir + '/highlightjs/styles/default.css',
+            config.sass.sourceDir + config.sass.pattern
         ])
         .pipe(plugins.plumber())
         .pipe(plugins.if(!config.production, plugins.sourcemaps.init()))
         .pipe(plugins.sassGlob())
         .pipe(plugins.sass())
         .pipe(plugins.autoprefixer({
-            browsers: config.autoprefixer.browsers,
+            browsers: ["last 2 versions", "> 5%"],
             cascade: false
         }))
         .pipe(plugins.concat('site.css'))
         .pipe(plugins.if(config.production, plugins.cleanCss()))
         .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
         .pipe(plugins.if(!config.production, plugins.refresh()))
-        .pipe(gulp.dest(config.sass.destination));
+        .pipe(gulp.dest(config.sass.outputDir));
 });
 
 gulp.task('scripts', function() {
     return gulp.src([
-            config.bower.path + '/jquery2/jquery.js',
-            config.bower.path + '/bootstrap-sass/assets/javascripts/bootstrap.js',
-            config.bower.path + '/highlightjs/highlight.pack.js',
-            config.js.source + config.js.pattern
+            config.bowerDir + '/jquery2/jquery.js',
+            config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js',
+            config.bowerDir + '/highlightjs/highlight.pack.js',
+            config.js.sourceDir + config.js.pattern
         ])
         .pipe(plugins.plumber())
         .pipe(plugins.if(!config.production, plugins.sourcemaps.init()))
         .pipe(plugins.concat('site.js'))
         .pipe(plugins.if(config.production, plugins.uglify()))
         .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
-        .pipe(gulp.dest(config.js.destination));
+        .pipe(gulp.dest(config.js.outputDir));
 });
 
 gulp.task('fonts', function() {
-    return gulp.src(config.bower.path + "/font-awesome/fonts/*")
-        .pipe(gulp.dest(config.fonts.destination));
+    return gulp.src(config.bowerDir + "/font-awesome/fonts/*")
+        .pipe(gulp.dest(config.fontsDir));
 });
 
 gulp.task('clean', function() {
-    del.sync(config.fonts.destination);
-    del.sync(config.js.destination);
-    del.sync(config.sass.destination);
+    del.sync(config.fontsDir);
+    del.sync(config.js.outputDir);
+    del.sync(config.sass.outputDir);
     del.sync('output_*/assets/css');
     del.sync('output_*/assets/fonts');
     del.sync('output_*/assets/js');
@@ -61,6 +75,6 @@ gulp.task('default', ['clean', 'fonts', 'styles', 'scripts']);
 gulp.task('watch', ['default'], function() {
     plugins.refresh.listen();
 
-    gulp.watch(config.sass.source + config.sass.pattern, ['styles']);
-    gulp.watch(config.js.source + config.js.pattern, ['scripts']);
+    gulp.watch(config.sass.sourceDir + config.sass.pattern, ['styles']);
+    gulp.watch(config.js.sourceDir + config.js.pattern, ['scripts']);
 });
