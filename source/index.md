@@ -34,7 +34,7 @@ I’m a provisional member of the [Drupal Security team][14] and a documentation
 ## Proficiencies
 
 - PHP, Drupal (6, 7, 8), Symfony, Silex, Laravel, Sculpin, Jekyll
-- PhpUnit, SimpleTest, Behat
+- PHPUnit, SimpleTest, Behat
 - HTML, CSS, Less, Sass, JavaScript, jQuery, Grunt, Gulp
 - Linux (Debian, Red Hat), Vagrant, Docker, Puppet, Ansible, Jenkins, Fabric
 
