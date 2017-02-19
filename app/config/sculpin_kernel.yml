@@ -3,12 +3,14 @@ sculpin_content_types:
         permalink: blog/:slug_title/
         taxonomies:
             - tags
+
     projects:
         permalink: projects/:slug_title/
         taxonomies:
             - skills
             - tags
+
     talks:
-        permalink: talks/:filename/
+        permalink: talks/:year/:month/:day/:filename/
         taxonomies:
             - tags
