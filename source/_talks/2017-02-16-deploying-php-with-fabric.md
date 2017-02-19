@@ -8,4 +8,5 @@ tags: ['meetup', 'php', 'fabric']
 slides:
    url: ~
    embed: ~
+draft: true
 ---
