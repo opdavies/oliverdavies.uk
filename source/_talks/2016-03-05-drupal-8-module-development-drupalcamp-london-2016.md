@@ -1,9 +1,6 @@
 ---
 title: Getting Started with Drupal 8 Module Development
-event:
-    name: DrupalCamp London 2016
-    website: http://drupalcamp.london
-    location: London, UK
+location: DrupalCamp London 2016
 tags:
     - conference
     - php

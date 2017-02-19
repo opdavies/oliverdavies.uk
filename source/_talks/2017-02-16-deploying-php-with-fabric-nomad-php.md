@@ -1,9 +1,6 @@
 ---
 title: Deploying PHP Applications with Fabric
-event:
-    name: Nomad PHP Lightning Talks
-    website: https://nomadphp.com
-    location: Online
+location: Nomad PHP
 tags: ['meetup', 'php', 'fabric']
 slides:
    url: ~

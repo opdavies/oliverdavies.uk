@@ -1,9 +1,6 @@
 ---
 title: Dancing for Drupal
-event:
-    name: umBristol (Bristol Umbraco user group)
-    website: http://umbristol.co.uk
-    location: Bristol, UK
+location: umBristol (Bristol Umbraco user group)
 slides:
     embed: <script async class="speakerdeck-embed" data-id="ffa9b6dea6dc4a8eb207b9982ed6e1bd" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
     url: https://speakerdeck.com/opdavies/umbristol-dancing-for-drupal

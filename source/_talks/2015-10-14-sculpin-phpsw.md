@@ -1,9 +1,6 @@
 ---
 title: Building Static Websites with Sculpin
-event:
-    name: PHPSW
-    website: http://phpsw.uk
-    location: Bristol, UK
+location: PHPSW
 slides:
     embed: <script async class="speakerdeck-embed" data-id="6c9c4be1a1344f1291ff13a391674a66" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
     url: https://speakerdeck.com/opdavies/building-static-websites-with-sculpin

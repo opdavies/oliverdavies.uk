@@ -1,9 +1,6 @@
 ---
 title: Test Drive Twig with Sculpin
-event:
-    name: DrupalCamp North 2015
-    website: http://drupalcampnorth.org
-    location: Sunderland, UK
+location: DrupalCamp North 2015
 slides:
     embed: <script async class="speakerdeck-embed" data-id="54589d2e50a3476a9a75aed809e9edf1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
     url: https://speakerdeck.com/opdavies/test-drive-twig-with-sculpin

@@ -1,9 +1,6 @@
 ---
 title: Drupal 8
-event:
-    name: PHPSW
-    website: http://phpsw.uk
-    location: Bristol, UK
+location: PHPSW
 slides:
     embed: <script async class="speakerdeck-embed" data-id="46ba4ba577d94a32b7abdade610ceb69" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
     url: https://speakerdeck.com/opdavies/drupal-8

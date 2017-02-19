@@ -1,9 +1,6 @@
 ---
 title: Drupal 8: Rejoining the Herd
-event:
-    name: PHP South Coast 2016
-    website: http://2016.phpsouthcoast.co.uk
-    location: Portsmouth, UK
+location: PHP South Coast 2016
 tags:
     - conference
     - php

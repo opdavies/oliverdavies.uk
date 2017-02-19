@@ -1,10 +1,7 @@
 
 ---
 title: Test driven Drupal development with SimpleTest and PHPUnit
-event:
-    name: DrupalCamp London 2017
-    website: http://drupalcamp.london
-    location: London, UK
+location: DrupalCamp London 2017
 tags: []
 slides:
    url: ~

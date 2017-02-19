@@ -1,9 +1,6 @@
 ---
 title: It All Started With A Patch
-event:
-    name: PHPSW
-    website: https://phpsw.uk
-    location: Bristol, UK
+location: PHPSW
 tags: [meetup, phpsw, open-source]
 slides:
      url: https://speakerdeck.com/opdavies/it-all-started-with-a-patch-phpsw

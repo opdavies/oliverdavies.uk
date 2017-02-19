@@ -1,8 +1,6 @@
 ---
 title: About the Drupal Association
-event:
-    name: SWDUG
-    location: Cardiff, UK
+location: SWDUG
 tags:
     - meetup
     - swdug

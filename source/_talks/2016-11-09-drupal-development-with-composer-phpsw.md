@@ -1,10 +1,7 @@
 ---
 title: Modern Drupal Development with Composer
 type: Lightning talk
-event:
-    name: PHPSW
-    website: http://phpsw.uk
-    location: Bristol, UK
+location: PHPSW
 tags: ['meetups', 'phpsw', 'drupal', 'composer']
 slides:
     embed: '<script async class="speakerdeck-embed" data-id="7a1358502526425a9cfd288f85fb32f3" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>'

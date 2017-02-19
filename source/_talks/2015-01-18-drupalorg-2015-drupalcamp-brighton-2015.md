@@ -1,9 +1,7 @@
 ---
 title: Drupal.org in 2015: What's Coming Next
-event:
-    name: DrupalCamp Brighton 2015
-    website: http://www.drupalcampbrighton.co.uk/drupalcamp-brighton-2015
-    location: Brighton, UK
+location: DrupalCamp Brighton 2015
+logo_link: http://www.drupalcampbrighton.co.uk/drupalcamp-brighton-2015
 tags:
     - conference
     - drupalcamp

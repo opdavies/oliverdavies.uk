@@ -1,9 +1,6 @@
 ---
 title: Drupal VM Generator
-event:
-    name: Drupal Bristol
-    website: https://www.drupalbristol.org.uk
-    location: Bristol, UK
+location: Drupal Bristol
 code: https://github.com/opdavies/drupal-vm-generator
 tags:
     - drupal-vm

@@ -1,9 +1,6 @@
 ---
 title: Getting (Your Data) Into Drupal 8
-event:
-    name: DrupalCamp London 2017
-    website: http://drupalcamp.london
-    location: London, UK
+location: DrupalCamp London 2017
 tags: []
 slides:
    url: ~

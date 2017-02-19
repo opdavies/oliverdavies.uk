@@ -1,9 +1,6 @@
 ---
 title: Drupal VM Generator
-event:
-    name: NWDUG
-    website: http://nwdrupal.org.uk
-    location: Manchester, UK
+location: NWDUG
 code: https://github.com/opdavies/drupal-vm-generator
 tags:
     - drupal-vm
