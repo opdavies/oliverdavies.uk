@@ -13,22 +13,5 @@
         {% block content %}{% endblock %}
     </div>
 
-    <div class="talk-pager is-flex">
-        {% if page.next_talk %}
-            <div class="is-half">
-                <a href="{{ page.next_talk.url }}">
-                    &laquo; {{ page.next_talk.title }}
-                </a>
-            </div>
-        {% endif %}
-
-        {% if page.previous_talk %}
-            <div class="is-half text-right">
-                <a href="{{ page.previous_talk.url }}" class="is-half text-right">
-                    {{ page.previous_talk.title }} &raquo;
-                </a>
-            </div>
-        {% endif %}
-    </div>
-
+    {% include 'talk/pager' %}
 {% endblock %}
