@@ -1,12 +1,12 @@
 ---
 title: Deploying PHP Applications with Fabric
 location: Nomad PHP
-tags: ['meetup', 'php', 'fabric']
-slides:
-   url: ~
-   embed: ~
-draft: true
+slides: ~
+slides_embed: ~
 logo: assets/images/talks/logos/nomad-php.png
+logo_link: ~
+tags: [meetup, php, fabric]
+draft: true
 ---
 You’ve built your application, and now you just need to deploy it. There are various ways that this could be done – from (S)FTP, to SCP and rsync, to running commands like “git pull” and “composer install” directly on the server (not recommended).
 

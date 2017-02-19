@@ -1,9 +1,8 @@
 ---
 title: Building Static Websites with Sculpin
 location: PHPSW
-slides:
-    embed: <script async class="speakerdeck-embed" data-id="6c9c4be1a1344f1291ff13a391674a66" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
-    url: https://speakerdeck.com/opdavies/building-static-websites-with-sculpin
+slides: https://speakerdeck.com/opdavies/building-static-websites-with-sculpin
+slides_embed: <script async class="speakerdeck-embed" data-id="6c9c4be1a1344f1291ff13a391674a66" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
 code: https://github.com/opdavies/sculpin-demo
 joindin: https://joind.in/talk/view/15486
 tags:

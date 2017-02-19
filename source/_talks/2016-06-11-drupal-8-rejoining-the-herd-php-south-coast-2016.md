@@ -6,9 +6,8 @@ tags:
     - php
     - drupal
     - drupal-8
-slides:
-    embed: <script async class="speakerdeck-embed" data-id="440fd6592f474741bc606c96bc32c104" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
-    url: https://speakerdeck.com/opdavies/drupal-rejoining-the-herd
+slides: https://speakerdeck.com/opdavies/drupal-rejoining-the-herd
+slides_embed: <script async class="speakerdeck-embed" data-id="440fd6592f474741bc606c96bc32c104" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
 logo: assets/images/talks/logos/php-south-coast-2016.png
 logo_link: http://2016.phpsouthcoast.co.uk/schedule
 ---
