@@ -9,7 +9,9 @@
     {% include 'talk/slides' %}
     {% include 'talk/video' %}
 
-    <div class="content">
+    <div class="talk-description">
+        {% include 'talk/logo' %}
+
         {% block content %}{% endblock %}
     </div>
 

@@ -7,4 +7,5 @@ tags:
     - drupalcamp
     - drupalcamp-london
     - drupal-association
+logo: assets/images/talks/logos/drupalcamp-london-2015.png
 ---

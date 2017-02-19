@@ -10,6 +10,8 @@ tags:
 slides:
     embed: <script async class="speakerdeck-embed" data-id="a27ee1d2bfed4a209dc395fa455acb41" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
     url: https://speakerdeck.com/opdavies/bristol-dug-drupal-vm-generator
+logo: assets/images/talks/logos/drupal-bristol.jpg
+logo_link: https://groups.drupal.org/node/510443
 ---
 An short talk about the [Drupal VM Generator][1] project.
 

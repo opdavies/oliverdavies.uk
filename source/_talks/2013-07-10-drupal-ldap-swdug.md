@@ -7,4 +7,5 @@ tags:
     - drupal
     - ldap
 slug: drupal-ldap
+logo: assets/images/talks/logos/swdug.png
 ---

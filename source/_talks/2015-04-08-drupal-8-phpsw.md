@@ -14,6 +14,8 @@ tags:
     - drupal
     - drupal-8
 tweets: yes
+logo: assets/images/talks/logos/phpsw.png
+logo_link: http://phpsw.uk/talks/drupal-8
 ---
 This was a ten minute lightning talk, designed to highlight the major changes coming in Drupal 8.
 

@@ -24,6 +24,8 @@ meta:
             type: 'image/png'
             height: 540
             width: 960
+logo:
+logo_link:
 ---
 New to object-orientated PHP, Symfony or YAML, and want to get started building modules in Drupal 8? This is the session for you!
 

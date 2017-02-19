@@ -1,7 +1,8 @@
 ---
 title: Drupal VM, Meet Symfony Console
 location: DrupalCamp Bristol 2016
-logo: assets/images/talks/drupalcamp-bristol.png
+logo: assets/images/talks/logos/drupalcamp-bristol-2016.png
+logo_link: https://www.drupalcampbristol.co.uk
 tags:
     - conference
     - php

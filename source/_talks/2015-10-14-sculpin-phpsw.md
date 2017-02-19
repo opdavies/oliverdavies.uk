@@ -14,6 +14,8 @@ tweets: yes
 video:
     embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/aN53arCKZAU" frameborder="0" allowfullscreen></iframe>
     url: https://www.youtube.com/watch?v=aN53arCKZAU
+logo: assets/images/talks/logos/phpsw.png
+logo_link: http://phpsw.uk/talks/building-static-sites-with-sculpin
 ---
 [Sculpin][0] is a static site generator written in PHP. It converts Markdown files, Twig templates and standard HTML into a static HTML site that can be easily deployed.
 

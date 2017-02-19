@@ -6,6 +6,8 @@ tags: []
 slides:
    url: ~
    embed: ~
+logo: assets/images/talks/logos/drupalcamp-london-2017.png
+logo_link: http://drupalcamp.london/session/test-driven-drupal-development-simpletest-and-phpunit
 ---
 Testing is important. Why? It allows developers to add new features and edit and refactor existing code without the worry of adding regressions, reduces the reliance on manual testing to discover bugs, and by taking a test driven approach, your implementation code is leaner as you only write what is needed for your tests to pass.
 

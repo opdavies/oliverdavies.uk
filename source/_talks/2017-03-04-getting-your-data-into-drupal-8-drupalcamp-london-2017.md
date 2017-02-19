@@ -5,6 +5,8 @@ tags: []
 slides:
    url: ~
    embed: ~
+logo: assets/images/talks/logos/drupalcamp-london-2017.png
+logo_link: http://drupalcamp.london/session/getting-your-data-drupal-8
 ---
 If you’ve moved a site from Drupal 6 to 7, the chances are that you’ve either used the upgrade path to update your old site in-place, or you built a new site from scratch and used the Migrate module from contrib to migrate your data from the old database.
 

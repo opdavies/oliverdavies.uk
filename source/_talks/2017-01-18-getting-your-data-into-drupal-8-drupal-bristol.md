@@ -1,6 +1,8 @@
 ---
 title: Getting (Your Data) Into Drupal 8
 location: Drupal Bristol
+logo: assets/images/talks/logos/drupal-bristol.jpg
+logo_link: https://groups.drupal.org/node/515718
 tags: ['meetup', 'drupal', 'drupal-8']
 slides:
    url: https://speakerdeck.com/opdavies/getting-your-data-into-drupal-8-drupal-bristol

@@ -9,6 +9,8 @@ tags:
     - umbristol
     - drupal
 tweets: yes
+logo: assets/images/talks/logos/umbristol.jpeg
+logo_link: https://www.meetup.com/umBristol/events/223807592
 ---
 As part of their [CMS Dance-Off][1], I was selected to speak about Drupal alongside other speakers representing Umbraco, Sitecore and Episerver.
 

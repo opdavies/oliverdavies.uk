@@ -10,6 +10,8 @@ slides:
 video:
     embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Yi_FPI3xHwc" frameborder="0" allowfullscreen></iframe>'
     url: https://www.youtube.com/watch?v=Yi_FPI3xHwc
+logo: assets/images/talks/logos/phpsw.png
+logo_link: http://phpsw.uk/talks/modern-drupal-development-with-composer
 ---
 Building a Drupal application? You no longer need to download archives to add new modules or update core, or deal with Drupal specific tools to manage your codebase.
 

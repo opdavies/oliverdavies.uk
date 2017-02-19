@@ -8,4 +8,5 @@ tags:
     - drupalcamp-brighton
     - drupal-association
 slug: drupalorg-2015
+logo: assets/images/talks/logos/drupalcamp-brighton-2015.png
 ---

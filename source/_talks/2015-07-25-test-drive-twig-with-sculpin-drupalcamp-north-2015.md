@@ -12,6 +12,8 @@ tags:
     - sculpin
     - twig
 tweets: yes
+logo: assets/images/talks/logos/drupalcamp-north-2015.png
+logo_link: http://drupalcampnorth.org/session/test-drive-twig-sculpin
 ---
 [Sculpin][1] is a static site generator written in PHP, and based on [Symfony components][2]. It uses [YAML][3] and [Twig][4], which makes it very appealing to Drupal people wanting to learn these in preparation for Drupal 8.
 
