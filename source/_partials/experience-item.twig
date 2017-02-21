@@ -4,7 +4,9 @@
     experience.featured ? 'is-featured',
 ] %}
 
-<div class="{{ classes|sort|join(' ') }}">
+{% set logo_path = company.logo ? site.images_url ~ '/assets/images/experience/' ~ company.logo : null %}
+
+<div class="{{ classes|sort|join(' ')|trim }}"{% if logo_path %} style="background-image: url('{{ logo_path }}')"{% endif %}>
     <div class="inner">
         <h2>{{ company.name }}</h2>
 
@@ -27,10 +29,4 @@
             {{ experience.description|raw }}
         </div>
     </div>{# /.inner #}
-
-    {% if company.logo %}
-        <div class="experience__logo">
-            <img src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.name }} logo">
-        </div>
-    {% endif %}
 </div>

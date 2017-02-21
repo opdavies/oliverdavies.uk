@@ -27,8 +27,14 @@
             max-width: 15%
 
 .experience.has-logo
-    display: flex
-    justify-content: flex-start
+    background:
+        position: 100% (20px + 3px)
+        repeat: no-repeat
+        size: 90px
+    +tablet
+        background-size: 120px
 
-    .inner
-        flex: 1
+.experience.has-logo .inner
+    padding-right: calc(90px + 1em)
+    +tablet
+        padding-right: calc(120px + 1em)
