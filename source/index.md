@@ -35,7 +35,7 @@ I’m a provisional member of the [Drupal Security team][14] and a documentation
 
 - PHP, Drupal (6, 7, 8), Symfony, Silex, Laravel, Sculpin, Jekyll
 - PHPUnit, SimpleTest, Behat
-- HTML, CSS, Less, Sass, JavaScript, jQuery, Grunt, Gulp
+- HTML, Twig, CSS, Less, Sass, JavaScript, jQuery, Grunt, Gulp
 - Linux (Debian, Red Hat), Vagrant, Docker, Puppet, Ansible, Jenkins, Fabric
 
 ## Elsewhere
