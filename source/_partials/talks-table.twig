@@ -1,33 +1,35 @@
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Date</th>
-            {% if show_talk %}<th>Talk</th>{% endif %}
-            <th>Event</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% set events = reverse_order ? events|sortbyfield('date')|reverse : events|sortbyfield('date') %}
-        {% for event in events %}
+<div class="table-responsive" style="overflow-x: auto">
+    <table class="table table-striped">
+        <thead>
             <tr>
-                <td>
-                    {{ event.date|date('j F Y') }}
-                </td>
-
-                {% if show_talk %}
-                    <td>
-                        <a href="{{ event.talk.url }}">
-                            {{ event.talk.title }}
-                        </a>
-                    </td>
-                {% endif %}
-
-                <td>
-                    {% if event.website %}<a href="{{ event.website }}">{% endif %}
-                    {{ event.title }}
-                    {% if event.website %}</a>{% endif %}
-                </td>
+                <th>Date</th>
+                {% if show_talk %}<th>Talk</th>{% endif %}
+                <th>Event</th>
             </tr>
-        {% endfor %}
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            {% set events = reverse_order ? events|sortbyfield('date')|reverse : events|sortbyfield('date') %}
+            {% for event in events %}
+                <tr>
+                    <td>
+                        {{ event.date|date('j F Y') }}
+                    </td>
+
+                    {% if show_talk %}
+                        <td>
+                            <a href="{{ event.talk.url }}">
+                                {{ event.talk.title }}
+                            </a>
+                        </td>
+                    {% endif %}
+
+                    <td>
+                        {% if event.website %}<a href="{{ event.website }}">{% endif %}
+                        {{ event.title }}
+                        {% if event.website %}</a>{% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
