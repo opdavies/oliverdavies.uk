@@ -22,7 +22,9 @@
                 {% endif %}
 
                 <td>
+                    {% if event.website %}<a href="{{ event.website }}">{% endif %}
                     {{ event.title }}
+                    {% if event.website %}</a>{% endif %}
                 </td>
             </tr>
         {% endfor %}
