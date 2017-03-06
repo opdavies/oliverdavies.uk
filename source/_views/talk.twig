@@ -5,15 +5,10 @@
 {% endblock %}
 
 {% block content_wrapper %}
-    {% include 'talk/location' %}
-    {% include 'talk/slides' %}
-    {% include 'talk/video' %}
-
     <div class="talk-description">
-        {% include 'talk/logo' %}
-
         {% block content %}{% endblock %}
     </div>
 
-    {% include 'talk/pager' %}
+    {% include 'talk/slides' %}
+    {% include 'talk/video' %}
 {% endblock %}

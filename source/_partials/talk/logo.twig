@@ -1,7 +1,0 @@
-{% if page.logo %}
-    <div class="talk-logo">
-        {% if page.logo_link %}<a href="{{ page.logo_link }}" title="{{ page.location }}" target="_blank">{% endif -%}
-            <img src="{{ site.url }}/{{ page.logo }}" alt="{{ page.location }}">
-        {%- if page.logo_link %}</a>{% endif %}
-    </div>
-{% endif %}
