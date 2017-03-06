@@ -20,4 +20,4 @@ use: [talks, posts]
     {% endfor %}
 {% endfor %}
 
-{% include "talks-table" with { events: events, show_talk: true } %}
+{% include "talks-table" with { events: events, show_talk: true, reverse_order: true } %}
