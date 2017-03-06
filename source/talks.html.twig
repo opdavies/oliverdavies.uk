@@ -7,18 +7,17 @@ use: [talks, posts]
 ---
 <h1>Talks</h1>
 
+<p>I regularly speak at conferences and user groups about a range of subjects including Drupal, Sculpin and Git. If you would like to me to speak at your group or conference, please <a href="/contact/">get in touch</a>.</p>
+
+<p>There is also information about events that I’ve attended and spoken at on my <a href="{{ site.lanyrd.url }}">Lanyrd</a> and <a href="{{ site.joindin.url }}">Joind.in</a> profiles.</p>
+
 {% set events = [] %}
 
 {% for talk in data.talks %}
     {% for event in talk.events %}
-        {% set event = event|merge({ talk: talk }) %}
+        {% set event = event|merge({ talk: talk })|merge(site.talks_events[event.id]) %}
         {% set events = events|merge([event]) %}
     {% endfor %}
 {% endfor %}
 
-{% for event in events|sortbyfield('date')|reverse %}
-    {{ event.title }}<br>
-    {{ event.date }}<br>
-    {{ event.talk.title }}<br>
-    {{ event.talk.url }}<br><br>
-{% endfor %}
+{% include "talks-table" with { events: events|sortbyfield('date')|reverse } %}

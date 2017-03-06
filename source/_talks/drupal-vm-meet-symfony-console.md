@@ -1,16 +1,11 @@
 ---
 title: Drupal VM, Meet Symfony Console
-location: DrupalCamp Bristol 2016
-logo: assets/images/talks/logos/drupalcamp-bristol-2016.png
-logo_link: https://www.drupalcampbristol.co.uk
-tags:
-    - conference
-    - php
-    - drupal-vm
-    - symfony
+tags: [conference, php, drupal-vm, symfony]
 slides: https://speakerdeck.com/opdavies/drupal-vm-meet-symfony-console
 slides_embed: <script async class="speakerdeck-embed" data-id="56c79770f73f4e47a542a30243437c49" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
 image: drupal-vm-meet-symfony-console.png
+events:
+    - { id: drupalcamp-bristol-2016, date: '2016-07-23' }
 ---
 _TL;DR - Come and learn about Symfony Console, with examples from a real-world project._
 

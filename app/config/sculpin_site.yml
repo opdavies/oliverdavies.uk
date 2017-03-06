@@ -143,3 +143,19 @@ wordpress:
 
 youtube:
     channel_url: https://www.youtube.com/channel/UCkeK0qF9HHUPQH_fvn4ghqQ
+
+talks_events:
+    drupal-bristol: { title: Drupal Bristol, website: https://www.drupalbristol.org.uk }
+    drupalcamp-brighton-2015: { title: DrupalCamp Brighton 2015, website: http://2015.drupalcampbrighton.co.uk }
+    drupalcamp-bristol-2016: { title: DrupalCamp Bristol 2016, website: https://www.drupalcampbristol.org.uk }
+    drupalcamp-london-2014: { title: DrupalCamp London 2014, website: https://drupalcamp.london }
+    drupalcamp-london-2015: { title: DrupalCamp London 2015, website: https://drupalcamp.london }
+    drupalcamp-london-2016: { title: DrupalCamp London 2016, website: https://drupalcamp.london }
+    drupalcamp-london-2017: { title: DrupalCamp London 2017 }
+    drupalcamp-north-2015: { title: DrupalCamp North 2015 }
+    nwdug: { title: NWDUG }
+    phpsc-16: { title: PHP South Coast 2016, website: http://2016.phpsouthcoast.co.uk }
+    phpsw: { title: PHPSW, website: https://phpsw.uk }
+    swdug: { title: 'SWDUG (South Wales Drupal user group)' }
+    umbristol: { title: 'umBristol (Bristol Umbraco user group)' }
+    udiff: { title: Unified Diff }

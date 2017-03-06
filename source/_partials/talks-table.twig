@@ -7,19 +7,21 @@
         </tr>
     </thead>
     <tbody>
-        {% for talk in talks %}
+        {% for event in events %}
             <tr>
                 <td>
-                    {{ talk.date|date(site.default_date_format) }}
+                    {{ event.date|date(site.default_date_format) }}
                 </td>
 
                 <td>
-                    <a href="{{ talk.url }}">
-                        {{ talk.title }}
+                    <a href="{{ event.talk.url }}">
+                        {{ event.talk.title }}
                     </a>
                 </td>
 
-                <td>{{ talk.location }}</td>
+                <td>
+                    {{ event.title }}
+                </td>
             </tr>
         {% endfor %}
     </tbody>
