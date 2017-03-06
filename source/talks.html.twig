@@ -20,4 +20,4 @@ use: [talks, posts]
     {% endfor %}
 {% endfor %}
 
-{% include "talks-table" with { events: events|sortbyfield('date')|reverse } %}
+{% include "talks-table" with { events: events, show_talk: true } %}

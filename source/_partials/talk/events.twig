@@ -1,0 +1,11 @@
+<div class="talk-events">
+    <h2>Events</h2>
+
+    {% set events = [] %}
+    {% for event in page.events %}
+        {% set event = event|merge({ talk: page })|merge(site.talks_events[event.id]) %}
+        {% set events = events|merge([event]) %}
+    {% endfor %}
+
+    {% include "talks-table" with { events: events } %}
+</div>
