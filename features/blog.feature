@@ -7,7 +7,7 @@ Feature: Blog
         And the active menu link should be "Blog"
 
     Scenario:
-        Given I am on "/blog/simplifying-drupal-migrations-with-xautoload"
+        Given I am on "/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload"
         Then the response status code should be 200
         And the page title should be "Simplifying Drupal Migrations with xautoload"
         And the active menu link should be "Blog"
