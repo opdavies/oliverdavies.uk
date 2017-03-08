@@ -2,10 +2,12 @@
 title: Modern Drupal Development with Composer
 type: Lightning talk
 tags: ['meetups', 'phpsw', 'drupal', 'composer']
-slides: https://speakerdeck.com/opdavies/modern-drupal-development-with-composer
-slides_embed: '<script async class="speakerdeck-embed" data-id="7a1358502526425a9cfd288f85fb32f3" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>'
-video: https://www.youtube.com/watch?v=Yi_FPI3xHwc
-video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Yi_FPI3xHwc" frameborder="0" allowfullscreen></iframe>'
+slides:
+    url: https://speakerdeck.com/opdavies/modern-drupal-development-with-composer
+    embed: '<script async class="speakerdeck-embed" data-id="7a1358502526425a9cfd288f85fb32f3" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>'
+video:
+    url: https://www.youtube.com/watch?v=Yi_FPI3xHwc
+    embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Yi_FPI3xHwc" frameborder="0" allowfullscreen></iframe>'
 events:
     - { id: phpsw, date: '2016-11-09' }
 ---

@@ -1,8 +1,9 @@
 ---
 title: Drupal VM, Meet Symfony Console
 tags: [conference, php, drupal-vm, symfony]
-slides: https://speakerdeck.com/opdavies/drupal-vm-meet-symfony-console
-slides_embed: <script async class="speakerdeck-embed" data-id="56c79770f73f4e47a542a30243437c49" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
+slides:
+    url: https://speakerdeck.com/opdavies/drupal-vm-meet-symfony-console
+    embed: <script async class="speakerdeck-embed" data-id="56c79770f73f4e47a542a30243437c49" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
 image: drupal-vm-meet-symfony-console.png
 events:
     - { id: drupalcamp-bristol-2016, date: '2016-07-23' }

@@ -1,8 +1,9 @@
 ---
 title: Drupal 8: Rejoining the Herd
 tags: [conference, php, drupal, drupal-8]
-slides: https://speakerdeck.com/opdavies/drupal-rejoining-the-herd
-slides_embed: <script async class="speakerdeck-embed" data-id="440fd6592f474741bc606c96bc32c104" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
+slides:
+    url: https://speakerdeck.com/opdavies/drupal-rejoining-the-herd
+    embed: <script async class="speakerdeck-embed" data-id="440fd6592f474741bc606c96bc32c104" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
 events:
     - { id: phpsc-16, date: '2016-06-11' }
 ---

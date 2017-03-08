@@ -1,7 +1,8 @@
 ---
 title: Getting (Your Data) Into Drupal 8
-slides: https://speakerdeck.com/opdavies/getting-your-data-into-drupal-8-drupal-bristol
-slides_embed: <script async class="speakerdeck-embed" data-id="63e5dfce996e46699e304d50e896477b" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
+slides:
+    url: https://speakerdeck.com/opdavies/getting-your-data-into-drupal-8-drupal-bristol
+    embed: <script async class="speakerdeck-embed" data-id="63e5dfce996e46699e304d50e896477b" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
 tags: [drupalcamp, migration, drupal-8]
 events:
     - { id: drupal-bristol, date: '2017-01-18' }

@@ -1,8 +1,8 @@
-{% if page.slides_embed %}
+{% if page.slides.embed %}
     <div class="talk-slides">
         <h2>Slides</h2>
         <div class="presentation">
-            {{ page.slides_embed|raw }}
+            {{ page.slides.embed|raw }}
         </div>
     </div>
 {% endif %}

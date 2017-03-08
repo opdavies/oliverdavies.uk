@@ -1,8 +1,9 @@
 ---
 title: Goodbye Drush Make. Hello Composer!
 tags: ['meetup', 'drupal', 'composer']
-slides: http://bit.ly/slides-goodbye-drush-make-hello-composer2
-slides_embed: '<script async class="speakerdeck-embed" data-id="1c1e0e129ab34816bd4c4edb5f6642c2" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>'
+slides:
+    url: http://bit.ly/slides-goodbye-drush-make-hello-composer2
+    embed: '<script async class="speakerdeck-embed" data-id="1c1e0e129ab34816bd4c4edb5f6642c2" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>'
 events:
     - { id: drupal-bristol, date: '2016-11-17' }
 ---

@@ -3,10 +3,12 @@ title: Getting Started with Drupal 8 Module Development
 tags: [conference, php, drupal, drupalcamp, drupal-8]
 tweets: yes
 code: https://github.com/opdavies/dclondon16-d8-module
-slides: https://speakerdeck.com/opdavies/getting-started-with-drupal-8-module-development
-slides_embed: <script async class="speakerdeck-embed" data-id="0041804e52664d12a8e31cd118264813" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-video: https://www.youtube.com/watch?v=qO_Wh5WE3VA
-video_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/qO_Wh5WE3VA" frameborder="0" allowfullscreen></iframe>
+slides:
+    url: https://speakerdeck.com/opdavies/getting-started-with-drupal-8-module-development
+    embed: <script async class="speakerdeck-embed" data-id="0041804e52664d12a8e31cd118264813" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+video:
+    url: https://www.youtube.com/watch?v=qO_Wh5WE3VA
+    embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/qO_Wh5WE3VA" frameborder="0" allowfullscreen></iframe>
 meta:
     og:
         title: Getting Started with Drupal 8 Module Development
