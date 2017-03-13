@@ -1,0 +1,18 @@
+{% set classes = [
+    'experience',
+    'is-flex',
+    company.logo ? 'has-logo',
+    experience.featured ? 'is-featured',
+] %}
+
+<div class="{{ classes|sort|join(' ') }}">
+    <div class="inner">
+        <h2>{{ company.name }}</h2>
+
+        {{ include('experience/website') }}
+        {{ include('experience/role') }}
+        {{ include('experience/description') }}
+    </div>{# /.inner #}
+
+    {{ include('experience/logo') }}
+</div>

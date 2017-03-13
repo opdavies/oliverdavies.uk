@@ -85,7 +85,7 @@ use: [posts]
 <h1>Experience</h1>
 
 {% for experience in page.experiences %}
-    {% include "experience-item" with {
+    {% include "experience/item" with {
         experience: experience,
         company: site.companies[experience.company]
     } %}

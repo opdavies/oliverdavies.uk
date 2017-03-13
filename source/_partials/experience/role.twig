@@ -1,0 +1,8 @@
+<div class="experience__role">
+    {% spaceless %}
+        {{ experience.role ~ ' from ' ~ experience.start ~ ' to ' ~ experience.end|default('Present') }}
+        {% if experience.location %}
+            ({{ experience.location }})
+        {% endif %}
+    {% endspaceless %}.
+</div>
