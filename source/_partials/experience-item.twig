@@ -1,17 +1,12 @@
 {% set classes = [
     'experience',
+    'is-flex',
     company.logo ? 'has-logo',
     experience.featured ? 'is-featured',
 ] %}
 
 <div class="{{ classes|sort|join(' ') }}">
     <div class="inner">
-        {% if company.logo %}
-            <div class="experience__logo">
-                <img src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.name }} logo">
-            </div>
-        {% endif %}
-
         <h2>{{ company.name }}</h2>
 
         {% if company.website %}
@@ -33,4 +28,10 @@
             {{ experience.description|raw }}
         </div>
     </div>{# /.inner #}
+
+    {% if company.logo %}
+        <div class="experience__logo">
+            <img src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.name }} logo">
+        </div>
+    {% endif %}
 </div>

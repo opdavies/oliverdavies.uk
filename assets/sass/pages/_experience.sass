@@ -2,6 +2,9 @@
     margin-bottom: $padding-large-vertical * 3
     +clearfix
 
+    .inner
+        flex: 1
+
     &__website
         display: inline-block
         margin-bottom: 2px
@@ -25,10 +28,3 @@
     +breakpoint(30rem)
         &__logo
             max-width: 15%
-
-.experience.has-logo
-    display: flex
-    justify-content: flex-start
-
-    .inner
-        flex: 1
