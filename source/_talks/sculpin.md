@@ -1,5 +1,6 @@
 ---
 title: Building Static Websites with Sculpin
+type: Lightning talk
 slides:
     url: https://speakerdeck.com/opdavies/building-static-websites-with-sculpin
     embed: <script async class="speakerdeck-embed" data-id="6c9c4be1a1344f1291ff13a391674a66" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>

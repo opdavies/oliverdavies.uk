@@ -1,5 +1,6 @@
 ---
 title: Drupal.org in 2015: What's Coming Next
+type: Talk
 tags: [conference, drupalcamp, drupalcamp-london, drupal-association]
 slides:
     url: https://speakerdeck.com/opdavies/drupal-dot-org-in-2015

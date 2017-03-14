@@ -1,5 +1,6 @@
 ---
 title: Getting Started with Drupal 8 Module Development
+type: Talk
 tags: [conference, php, drupal, drupalcamp, drupal-8]
 tweets: yes
 code: https://github.com/opdavies/dclondon16-d8-module

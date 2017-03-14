@@ -21,6 +21,12 @@
                             <a href="{{ event.talk.url }}">
                                 {{ event.talk.title }}
                             </a>
+
+                            {% if event.talk.type %}
+                                <small class="talk-type">
+                                    {{ event.talk.type }}
+                                </small>
+                            {% endif %}
                         </td>
                     {% endif %}
 

@@ -1,5 +1,6 @@
 ---
 title: Test Drive Twig with Sculpin
+type: Talk
 slides:
     url: https://speakerdeck.com/opdavies/test-drive-twig-with-sculpin
     embed: <script async class="speakerdeck-embed" data-id="54589d2e50a3476a9a75aed809e9edf1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>

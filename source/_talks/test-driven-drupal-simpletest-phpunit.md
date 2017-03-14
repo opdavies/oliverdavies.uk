@@ -1,5 +1,6 @@
 ---
 title: Test Driven Drupal Development with SimpleTest and PHPUnit
+type: Talk
 slides:
     url: https://speakerdeck.com/opdavies/test-driven-drupal-development-with-simpletest-and-phpunit-drupalcamp-london-2017
     embed: <script async class="speakerdeck-embed" data-id="4f12722ed400468b93ebb32a23b3c757" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>

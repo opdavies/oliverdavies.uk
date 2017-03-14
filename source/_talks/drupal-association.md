@@ -1,5 +1,6 @@
 ---
 title: About the Drupal Association
+type: Talk
 tags: [meetup, swdug, drupal, drupal-association]
 slug: drupal-association
 events:

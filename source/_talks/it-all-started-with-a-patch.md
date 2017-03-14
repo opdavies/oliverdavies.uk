@@ -1,5 +1,6 @@
 ---
 title: It All Started With A Patch
+type: Lightning talk
 tags: [meetup, phpsw, open-source]
 slides:
     url: https://speakerdeck.com/opdavies/it-all-started-with-a-patch-phpsw
