@@ -1,6 +1,7 @@
 ---
 title: Drupal 8: Rejoining the Herd
 type: Talk
+joindin: https://joind.in/talk/41d0f
 tags: [conference, php, drupal, drupal-8]
 slides:
     url: https://speakerdeck.com/opdavies/drupal-rejoining-the-herd
