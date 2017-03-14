@@ -28,6 +28,12 @@
                         {% if event.website %}<a href="{{ event.website }}">{% endif %}
                         {{ event.title }}
                         {% if event.website %}</a>{% endif %}
+
+                        {% if event.location %}
+                            <small class="event-location">
+                                {{- event.location -}}
+                            </small>
+                        {% endif %}
                     </td>
 
                     <td class="feedback">
