@@ -20,4 +20,21 @@ You can find him on Twitter, Drupal.org and GitHub as _opdavies_.
 
 <https://www.dropbox.com/s/say1muiqedik0l4/0188395_thumb.jpg>
 
+## Events that I’ve spoken at
+
+- DrupalCamp London (2014, 2015, 2016, 2017)
+- DrupalCamp Brighton 2015
+- DrupalCamp North 2015
+- PHP South Coast 2016
+- DrupalCamp Bristol 2016
+- Nomad PHP
+
+## Videos
+
+Here are some videos of my previous talks:
+
+- <https://www.youtube.com/watch?v=aN53arCKZAU>
+- <https://www.youtube.com/watch?v=qO_Wh5WE3VA>
+- <https://www.youtube.com/watch?v=Yi_FPI3xHwc>
+
 [0]: {{site.author.company.website}}
