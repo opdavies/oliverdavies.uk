@@ -71,9 +71,7 @@ gulp.task('clean', function() {
     del.sync(config.fontsDir);
     del.sync(config.js.outputDir);
     del.sync(config.sass.outputDir);
-    del.sync('output_*/assets/css');
-    del.sync('output_*/assets/fonts');
-    del.sync('output_*/assets/js');
+    del.sync('output_*/assets/{css,fonts,js}');
 });
 
 gulp.task('default', ['clean', 'fonts', 'styles', 'scripts']);
