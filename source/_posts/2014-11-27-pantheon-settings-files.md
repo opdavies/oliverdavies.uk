@@ -19,7 +19,7 @@ I was recently doing some work on a site hosted on [Pantheon](http://getpantheon
 
 The way that was recommended was by using a `switch()` function based on Pantheon's environment variable. For example:
 
-~~~php
+```language-php
 switch ($_SERVER['PANTHEON_ENVIRONMENT']) {
   case 'dev':
     // Development environment.
@@ -38,7 +38,7 @@ switch ($_SERVER['PANTHEON_ENVIRONMENT']) {
     $base_url = 'live-my-site.gotpantheon.com';
     break;
 }
-~~~
+```
 
 Whilst this works, it doesn't conform to the DRY (don't repeat yourself) principle and means that you also might get a rather long and complicated settings file, especially when you start using multiple switches and checking for the value of the environment multiple times.
 
@@ -46,7 +46,7 @@ My alternative solution to this is to include an environment-specific settings f
 
 To do this, add the following code to the bottom of settings.php:
 
-~~~php
+```language-php
 if (isset($_SERVER['PANTHEON_ENVIRONMENT'])) {
   if ($_SERVER['PANTHEON_ENVIRONMENT'] != 'live') {
     // You can still add things here, for example to apply to all sites apart
@@ -60,7 +60,7 @@ if (isset($_SERVER['PANTHEON_ENVIRONMENT'])) {
     include $environment_settings;
   }
 }
-~~~
+```
 
 This means that rather than having one long file, each environment has it's own dedicated settings file that contains it's own additional configuration. This is much easier to read and make changes to, and also means that less code is loaded and parsed by PHP. Settings that apply to all environments are still added to settings.php.
 
@@ -68,7 +68,7 @@ Below this, I also include a [similar piece of code](/blog/include-local-drupal-
 
 Within the sites/default directory, I also include an example file (example.settings.env.php) for reference. This is duplicated, renamed and populated accordingly.
 
-~~~php
+```language-php
 <?php
 
 /**
@@ -83,7 +83,7 @@ Within the sites/default directory, I also include an example file (example.sett
  */
 
 $base_url = '';
-~~~
+```
 
 The environment specific files are also committed into Git and pushed to Pantheon, and are then included automatically on each environment.
 {% endblock %}

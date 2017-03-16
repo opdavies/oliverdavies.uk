@@ -20,15 +20,15 @@ The [Domain Access project](https://drupal.org/project/domain "The Domain Access
 
 Rather than changing the domain settings within the Domain module itself, the best solution I think is to use table prefixes and create a different domain table per environment. With a live, staging and local domains, the tables would be named as follows:
 
-~~~~
+```language-bash
 live_domain
 local_domain
 staging_domain
-~~~~
+```
 
 Within each site's settings.php file, define the prefix for the domain table within the databases array so that each site is looking at the correct table for its environment.
 
-~~~~php
+```language-php
 $databases['default']['default'] = array(
   'driver' => 'mysql',
   'database' => 'foobar',
@@ -41,7 +41,7 @@ $databases['default']['default'] = array(
     // Add any other prefixed tables here.
   ),
 );
-~~~~
+```
 
 Within each environment-specific domain table, update the subdomain column to contain the appropriate domain names.
 

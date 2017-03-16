@@ -22,7 +22,7 @@ Here are the scripts that I’m using - they are slightly different from those i
 
 ### composer.json
 
-```json
+```language-json
 "scripts": {
     "clean": "rm -rf output_*/",
     "dev": "sculpin generate --clean --no-interaction --server --watch",
@@ -33,7 +33,7 @@ Here are the scripts that I’m using - they are slightly different from those i
 Run with `composer run <name>`, e.g. `composer run dev`.
 ### package.json
 
-```json
+```language-json
 "scripts": {
     "init": "yarn && bower install",
     "dev": "gulp watch",

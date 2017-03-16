@@ -23,7 +23,7 @@ var config = {
 gulp.task('styles', function() {
     return gulp.src([
             config.bowerDir + '/font-awesome/css/font-awesome.css',
-            config.bowerDir + '/highlightjs/styles/default.css',
+            config.bowerDir + '/prism/themes/prism-tomorrow.css',
             config.sass.sourceDir + config.sass.pattern
         ])
         .pipe(plugins.plumber())
@@ -50,7 +50,8 @@ gulp.task('scripts', function() {
     return gulp.src([
             config.bowerDir + '/jquery2/jquery.js',
             config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js',
-            config.bowerDir + '/highlightjs/highlight.pack.js',
+            config.bowerDir + '/prism/prism.js',
+            config.bowerDir + '/prism/components/prism-{apacheconf,bash,css,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
             config.js.sourceDir + config.js.pattern
         ])
         .pipe(plugins.plumber())

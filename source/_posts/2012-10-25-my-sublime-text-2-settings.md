@@ -18,7 +18,7 @@ These preferences ensure that the code is compliant with [Drupal coding standard
 
 These can be changed by going to Preferences > Settings - User.
 
-~~~
+```language-json
 {
   "color_scheme": "Packages/Theme - Aqua/Color Schemes/Tomorrow Night Aqua.tmTheme",
   "default_line_ending": "unix",
@@ -79,18 +79,18 @@ These can be changed by going to Preferences > Settings - User.
   "trim_trailing_white_space_on_save": true,
   "word_wrap": false
 }
-~~~
+```
 
 ## Key bindings
 
 These can be changed by going to Preferences > Key Bindings - User.
 
-~~~
+```language-json
 [
   { "keys": ["alt+s"], "command": "toggle_side_bar" },
   { "keys": ["alt+r"], "command": "reindent" }
 ]
-~~~
+```
 
 ## Packages
 

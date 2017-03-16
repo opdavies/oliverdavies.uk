@@ -20,7 +20,7 @@ If you use a lot of process and preprocess functions within your Drupal theme, t
 
 The first step is to use the default mytheme_process() and mytheme_preprocess() functions to utilise my custom function. So within my template.php file:
 
-~~~php
+```language-php
 <?php
 
 /**
@@ -40,11 +40,11 @@ function mytheme_preprocess(&$variables, $hook) {
 function mytheme_process(&$variables, $hook) {
   mytheme_invoke('process', $hook, $variables);
 }
-~~~
+```
 
 Now, to write the `mytheme_invoke()` function:
 
-~~~php
+```language-php
 <?php
 
 /**
@@ -85,7 +85,7 @@ function mytheme_invoke($type, $hook, &$variables) {
     $function($variables);
   }
 }
-~~~
+```
 
 As `mytheme_invoke()` checks to see if the function already exists before searching for checking the include files, I could still add the functions into template.php as normal and this would override any corresponding include file.
 {% endblock %}

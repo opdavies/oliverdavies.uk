@@ -32,7 +32,9 @@ Once you have a list of the components that you need to add, you can export the 
 
 For example:
 
-    $ drush features-export -y myfeature field_base:field_foo field_instance:user-field_foo
+```language-bash
+$ drush features-export -y myfeature field_base:field_foo field_instance:user-field_foo
+```
 
 In this example, the base for field_boo and it's instance on the user object is being added to the "myfeature" feature.
 

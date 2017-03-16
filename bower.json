@@ -5,6 +5,6 @@
     "compass-breakpoint": "breakpoint-sass#~2.6.1",
     "font-awesome": "fontawesome#~4.5.0",
     "jquery2": "^2.0.0",
-    "highlightjs": "^9.9.0"
+    "prism": "prismjs#^1.6.0"
   }
 }

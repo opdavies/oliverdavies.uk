@@ -17,7 +17,7 @@ For reference, this is the code needed to display a menu in a Drupal 7 template 
 {% block content %}
 For reference, this is the code needed to display a menu in a Drupal 7 template file, including the navigation ARIA role.
 
-~~~php
+```language-php
 $menu_name = 'menu-footer-menu';
 $menu_id = 'footer-menu';
 print theme('links', array(
@@ -28,5 +28,5 @@ print theme('links', array(
      'class'=> array('links', 'inline')
   )
 ));
-~~~
+```
 {% endblock %}

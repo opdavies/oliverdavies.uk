@@ -39,15 +39,17 @@ This now that Jenkins would be checking for any updates to the repo each minute,
 
 Within the **Builds** section of the item, I added an *Execute Shell* step, where I could enter a command to execute. Here, I pasted a modified version of the original publish.sh script.
 
-    #!/bin/bash
+```language-bash
+#!/bin/bash
 
-    set -uex
+set -uex
 
-    sculpin generate --env=prod --quiet
-    if [ $? -ne 0 ]; then echo "Could not generate the site"; exit 1; fi
+sculpin generate --env=prod --quiet
+if [ $? -ne 0 ]; then echo "Could not generate the site"; exit 1; fi
 
-    rsync -avze 'ssh' --delete output_prod/ prodwww2:/var/www/html/oliverdavies.uk/htdocs
-    if [ $? -ne 0 ]; then echo "Could not publish the site"; exit 1; fi
+rsync -avze 'ssh' --delete output_prod/ prodwww2:/var/www/html/oliverdavies.uk/htdocs
+if [ $? -ne 0 ]; then echo "Could not publish the site"; exit 1; fi
+```
 
 This essentially is the same as the original file, in that Sculpin generates the site, and uses rsync to deploy it somewhere else. In my case, `prodwww2` is a Jenkins node (this alias is configured in `/var/lib/jenkins/.ssh/config`), and `/var/www/html/oliverdavies.uk/htdocs` is the directory from where my site is served.
 
@@ -57,25 +59,29 @@ There is some dynamic content on my site, specifically on the Talks page. Each t
 
 The YAML front matter:
 
-    ---
-    ...
-    talks:
-        - title: Test Drive Twig with Sculpin
-          date: 2015-07-24
-          location: DrupalCamp North
-    ---
+```language-yaml
+---
+...
+talks:
+    - title: Test Drive Twig with Sculpin
+      date: 2015-07-24
+      location: DrupalCamp North
+---
+```
 
 The Twig layout:
 
-    {% raw -%}
-    {% for talk in talks|reverse if talk.date >= now %}
-        {# Upcoming talks #}
-    {% endfor %}
+```language-twig
+{% raw -%}
+{% for talk in talks|reverse if talk.date >= now %}
+    {# Upcoming talks #}
+{% endfor %}
 
-    {% for talk in talks if talk.date < now %}
-        {# Previous talks #}
-    {% endfor%}
-    {%- endraw %}
+{% for talk in talks if talk.date < now %}
+    {# Previous talks #}
+{% endfor%}
+{%- endraw %}
+```
 
 I also didn’t want to have to push an empty commit or manually trigger a job in Jenkins after doing a talk in order for it to be positioned in the correct place on the page, so I also wanted Jenkins to schedule a regular build regardless of whether or not code had been pushed, so ensure that my talks page would be up to date.
 
@@ -97,24 +103,30 @@ Since publishing this post, I've added some more items to the original build scr
 
 ### Updating Composer
 
-    if [ -f composer.json ]; then
-        /usr/local/bin/composer install
-    fi
+```language-bash
+if [ -f composer.json ]; then
+    /usr/local/bin/composer install
+fi
+```
 
 Updates project dependencies via [Composer](https://getcomposer.org/doc/00-intro.md#introduction) if composer.json exists.
 
 ### Updating Sculpin Dependencies
 
-    if [ -f sculpin.json ]; then
-      sculpin install
-    fi
+```language-bash
+if [ -f sculpin.json ]; then
+  sculpin install
+fi
+```
 
 Runs `sculpin install` on each build if the sculpin.json file exists, to ensure that the required custom bundles and dependencies are installed.
 
 ### Managing Redirects
 
-    if [ -f scripts/redirects.php ]; then
-        /usr/bin/php scripts/redirects.php
-    fi
+```language-bash
+if [ -f scripts/redirects.php ]; then
+    /usr/bin/php scripts/redirects.php
+fi
+```
 
 I've been working on a `redirects.php` script that generates redirects from a .csv file, after seeing similar things in the [Pantheon Documentation](https://github.com/pantheon-systems/documentation) and [That Podcast](https://github.com/thatpodcast/thatpodcast.io) repositories. This checks if that file exists, and if so, runs it and generates the source file containing each redirect.

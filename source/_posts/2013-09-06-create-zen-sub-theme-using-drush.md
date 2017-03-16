@@ -16,11 +16,15 @@ How to use [Drush](https://drupal.org/project/drush) to quickly build a new sub-
 {% block content %}
 First, download the [Zen](https://drupal.org/project/zen "The Zen theme") theme if you haven't already done so.
 
-    $ drush dl zen
+```language-bash
+$ drush dl zen
+```
 
 This will now enable you to use the "drush zen" command.
 
-    $ drush zen "Oliver Davies" oliverdavies --description="A Zen sub-theme for oliverdavies.co.uk" --without-rtl
+```language-bash
+$ drush zen "Oliver Davies" oliverdavies --description="A Zen sub-theme for oliverdavies.co.uk" --without-rtl
+```
 
 The parameters that I'm passing it are:
 

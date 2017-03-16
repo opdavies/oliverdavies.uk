@@ -16,7 +16,7 @@ How to use an @each loop in SASS to quickly include multiple font files within y
 {% block content %}
 Using a file structure similar to this, organise your font files into directories, using the the font name for both the directory name and for the file names.
 
-~~~~
+```language-bash
 .
 ├── FuturaBold
 │   ├── FuturaBold.eot
@@ -38,11 +38,11 @@ Using a file structure similar to this, organise your font files into directorie
 │   ├── FuturaItalic.svg
 │   ├── FuturaItalic.ttf
 │   └── FuturaItalic.woff
-~~~~
+```
 
 Within your SASS file, start an `@each` loop, listing the names of the fonts. In the same way as PHP's `foreach` loop, each font name will get looped through using the `$family` variable and then compiled into CSS.
 
-~~~~
+```language-scss
 @each $family in FuturaBook, FuturaBold, FuturaBoldItalic, FuturaItalic {
   @font-face {
     font-family: #{$family};
@@ -55,9 +55,11 @@ Within your SASS file, start an `@each` loop, listing the names of the fonts. In
     font-style: normal;
   }
 }
-~~~~
+```
 
 When the CSS has been compiled, you can then use in your CSS in the standard way.
 
-    font-family: "FuturaBook";
+```language-scss
+font-family: "FuturaBook";
+```
 {% endblock %}

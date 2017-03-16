@@ -15,7 +15,7 @@ The library contains two classes - `GmailFilter` which is used to create each fi
 
 For example:
 
-```php
+```language-php
 # test.php
 
 require __DIR__ '/vendor/autoload.php';
@@ -47,15 +47,21 @@ It’s a simple filter that accepts a boolean and returns `true` or `false` as a
 
 Before:
 
-    {% raw %}{{ filter.isArchive ? 'true' : 'false' }}{% endraw %}
+```language-twig
+{% raw %}{{ filter.isArchive ? 'true' : 'false' }}{% endraw %}
+```
 
 After:
 
-    {% raw %}{{ filter.isArchive|boolean_string }}{% endraw %}
+```language-twig
+{% raw %}{{ filter.isArchive|boolean_string }}{% endraw %}
+```
 
 This can then be used to generate output like this, whereas having blank values would have resulted in errors when importing to Gmail.
 
-    <apps:property name='shouldArchive' value='true'/>
+```language-xml
+<apps:property name='shouldArchive' value='true'/>
+```
 
 ## Example
 

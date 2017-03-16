@@ -17,11 +17,15 @@ Testing a patch file is usually a two-step process. First you download the patch
 
 You can save time and typing by running the two commands on one line:
 
-    $ curl http://drupal.org/files/[patch-name].patch | git apply -v
+```language-bash
+$ curl http://drupal.org/files/[patch-name].patch | git apply -v
+```
 
 Or, if you don't have curl installed, you can use wget:
 
-    $ wget -q -O - http://drupal.org/files/[patch-name].patch | git apply -v
+```language-bash
+$ wget -q -O - http://drupal.org/files/[patch-name].patch | git apply -v
+```
 
 These commands need to be run within the root of your Git repository (i.e. where the .git directory is).
 

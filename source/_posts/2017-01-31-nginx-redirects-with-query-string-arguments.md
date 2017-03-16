@@ -4,7 +4,8 @@ tags: [nginx]
 use: [posts]
 ---
 This is an example of how my Nginx configuration looked to redirect from an old domain to a new one, and also to redirect from the root `example.com` domain to the canonical `www` subdomain.
-```
+
+```language-nginx
 server {
   listen 80;
 
@@ -22,11 +23,15 @@ This was fixed by making a small change to my `return` statement.
 
 Before:
 
-    return 301 https://www.example.com$uri;
+```language-nginx
+return 301 https://www.example.com$uri;
+```
 
 After:
 
-    return 301 https://www.example.com$uri$is_args$args;
+```language-nginx
+return 301 https://www.example.com$uri$is_args$args;
+```
 
 `$is_args` is an empty string if there are no arguments, or a `?` to signify the start of the query string. `$args` then adds the arguments (`$query_string` could also be used with the same result).
 

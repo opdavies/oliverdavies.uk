@@ -12,17 +12,17 @@ use: [posts]
 ---
 As in [the original post](/blog/add-taxonomy-term-multiple-nodes-using-sql/ "Quickly adding a taxonomy term to multiple nodes using SQL"), I'd generated a list of node ID values, and needed to add structure the SQL update statment formatted in a certain way. However, I changed my inital query slightly to out put the same nid value twice.
 
-~~~sql
+```language-sql
 SELECT nid, nid FROM node WHERE TYPE = 'blog' ORDER BY nid ASC;
-~~~
+```
 
 Then, I could select all of the returned rows, copy the values, and paste them into Coda:
 
 As before, I needed my SQL update statement to be in the following format:
 
-~~~sql
+```language-sql
 INSERT INTO term_node VALUE (nid, vid, tid), (nid2, vid2, tid);
-~~~
+```
 
 As I mentioned previously, the nid and vid values are the same for each node, and the tid will remain constant. In this case, the tid value that I needed to use was '63'.
 

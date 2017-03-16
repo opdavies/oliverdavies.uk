@@ -24,7 +24,7 @@ Here are the steps that I took to be able to load, render and embed the form.
 
 The first thing that I needed to do to render the form was to load an empty instance of the entityform using `entityform_empty_load()`. In this example, `newsletter` is the name of my form type.
 
-```php
+```language-php
 $form = entityform_empty_load('newsletter');
 ```
 
@@ -36,8 +36,9 @@ The next step was to be able to render the form. I did this using the `entity_fo
 
 As this function is within the `entityform.admin.inc` file and not autoloaded by Drupal, I needed to include it using `module_load_include()` so that the function was available.
 
-```php
+```language-php
 module_load_include('inc', 'entityform', 'entityform.admin');
+
 $output = entityform_form_wrapper($form, 'submit', 'embedded'),
 ```
 

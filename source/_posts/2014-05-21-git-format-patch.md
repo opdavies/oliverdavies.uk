@@ -23,7 +23,9 @@ There is an option that the maintainer can add to the end of their commit messag
 
 For example:
 
-    --author="opdavies <opdavies@381388.no-reply.drupal.org>"
+```language-bash
+--author="opdavies <opdavies@381388.no-reply.drupal.org>"
+```
 
 This differs slightly different for each Drupal user, and the code can be found on their Drupal.org profile page.
 
@@ -43,13 +45,15 @@ From the [manual page](http://git-scm.com/docs/git-format-patch):
 
 Here is a section of a patch that I created for the [Metatag module](http://drupal.org/project/metatag) using `git format-patch`:
 
-    From 80c8fa14de7f4a83c2e70367aab0aedcadf4f3b0 Mon Sep 17 00:00:00 2001
-    From: Oliver Davies &lt;oliver@oliverdavies.co.uk&gt;
-    Date: Mon, 12 May 2014 14:53:55 +0100
-    Subject: [PATCH] Exclude comment entities when checking if this is the page,
-     otherwise comment_fragment.module will break metatag
+```language-bash
+From 80c8fa14de7f4a83c2e70367aab0aedcadf4f3b0 Mon Sep 17 00:00:00 2001
+From: Oliver Davies &lt;oliver@oliverdavies.co.uk&gt;
+Date: Mon, 12 May 2014 14:53:55 +0100
+Subject: [PATCH] Exclude comment entities when checking if this is the page,
+ otherwise comment_fragment.module will break metatag
 
-    ---
+---
+```
 
 As mentioned above, the patch is structured in an email format. The commit message is used as the subject line, and the date that the commit was made locally is used for the date. What we’re interested in is the “From” value. This contains your name and email address from your `~/.gitconfig` file and is used to author the patch automatically.
 
@@ -78,15 +82,19 @@ If you need to commit a patch that was created using `git format-patch`, the bes
 
 For example, within your repository, run:
 
-    $ git am /path/to/file
-    $ git am ~/Code/metatag-comment-fragment-conflict-2265447-4.patch
+```language-bash
+$ git am /path/to/file
+$ git am ~/Code/metatag-comment-fragment-conflict-2265447-4.patch
+```
 
 You should end up with some output similar to the following:
 
-    Applying: #2272799 Added supporters section
-    Applying: #2272799 Added navigation tabs
-    Applying: #2272799 Fixed indentation
-    Applying: #2272799 Replaced URL
+```language-bash
+Applying: #2272799 Added supporters section
+Applying: #2272799 Added navigation tabs
+Applying: #2272799 Fixed indentation
+Applying: #2272799 Replaced URL
+```
 
 Each line is the commit message associated with that patch.
 

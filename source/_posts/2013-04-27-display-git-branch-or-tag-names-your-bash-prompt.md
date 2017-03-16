@@ -18,20 +18,22 @@ Whilst watching [Drupalize.me](http://drupalize.me "Drupalize.me")'s recent [Int
 
 For example (with some slight modifications):
 
-~~~~
+```language-bash
 oliver@oliver-mbp:~/Development/drupal(master) $
 oliver@oliver-mbp:~/Development/a11y_checklist(7.x-1.0) $
-~~~~
+```
 
 Here's how to do it.
 
 To begin with, create a new file to contain the functions,
 
-    vim ~/.bash/git-prompt
+```language-bash
+vim ~/.bash/git-prompt
+```
 
 Paste the following code into the file, and save it.
 
-~~~~
+```language-bash
 parse_git_branch () {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
@@ -47,18 +49,20 @@ parse_git_branch_or_tag() {
   fi
   echo $OUT
 }
-~~~~
+```
 
 Edit your `.bashrc` or `.bash_profile` file to override the PS1 value.
 
-    vim ~/.bashrc
+```language-bash
+vim ~/.bashrc
+```
 
 Add  the following code at the bottom of the file, and save it.
 
-~~~~
+```language-bash
 source ~/.bash/git-prompt
 PS1="\u@\h:\w\$(parse_git_branch_or_tag) $ "
-~~~~
+```
 
 Restart your Terminal or type `source ~/.bashrc` to see your changes.
 {% endblock %}

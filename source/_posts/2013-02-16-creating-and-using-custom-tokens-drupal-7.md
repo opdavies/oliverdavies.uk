@@ -32,7 +32,7 @@ We will be using the fictional *foo* module to demonstrate this.
 
 The first thing that we need to do is define the new token type and/or the token itself, along with it's descriptive text. To view the existing tokens and types, use `dpm(token_get_info());`, assuming that you have the [Devel module](http://drupal.org/project/devel) installed.
 
-~~~php
+```language-php
 /**
  * Implements hook_token_info().
  */
@@ -45,7 +45,7 @@ function foo_token_info() {
   // Return them.
   return $info;
 }
-~~~
+```
 
 In this case, the token called *bar* resides within the *foo* group.
 
@@ -55,7 +55,7 @@ If I needed to add a new token within an existing token type, such as 'node', th
 
 Now that the Token module is aware of our new token, we now need to determine what the token is replaced with. This is done using `hook_tokens()`. Here is the basic code needed for an implementation:
 
-~~~php
+```language-php
 /**
  * Implements hook_tokens().
  */
@@ -67,11 +67,11 @@ function foo_tokens($type, $tokens, array $data = array(), array $options = arra
   // Return the replacements.
   return $replacements;
 }
-~~~
+```
 
 The first thing to check for is the type of token using an `if()` function, as this could be an existing type like 'node', 'user' or 'site', or a custom token type like 'foo'. Once we're sure that we're looking at the right type(s), we can use `foreach ($tokens as $name => $original)` to loop through each of the available tokens using a `switch()`. For each token, you can perform some logic to work out the replacement text and then add it into the replacements array using `$replacements[$original] = $new;`.
 
-~~~php
+```language-php
 /**
  * Implements hook_tokens().
  */
@@ -100,13 +100,13 @@ function foo_tokens($type, $tokens, array $data = array(), array $options = arra
   // Return the replacements.
   return $replacements;
 }
-~~~
+```
 
 ## Example
 
 An example from Copyright Block module:
 
-~~~php
+```language-php
 /**
  * Implements hook_tokens().
  */
@@ -128,17 +128,17 @@ function copyright_block_tokens($type, $tokens, array $data = array(), array $op
 
   return $replacements;
 }
-~~~
+```
 
 ## Using token_replace()
 
 With everything defined, all that we now need to do is pass some text through the `token_replace()` function to replace it with the values defined within `hook_token()`.
 
-~~~php
+```language-php
 $a = t('Something');
 // This would use any token type - node, user etc.
 $b = token_replace($a);
 // This would only use foo tokens.
 $c = token_replace($a, array('foo'));
-~~~
+```
 {% endblock %}

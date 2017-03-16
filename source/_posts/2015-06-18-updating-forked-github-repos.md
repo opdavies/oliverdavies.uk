@@ -27,24 +27,28 @@ There had been commits to the main repo since my pull request was merged, I didn
 
 I had a quick look for a *Update my fork* button or something, but couldn't see one to I added the main repository as an additional remote called `upstream` and fetched the changes.
 
-    $ git remote add upstream https://github.com/sculpin/sculpin.io.git
+```language-bash
+$ git remote add upstream https://github.com/sculpin/sculpin.io.git
 
-    $ git fetch upstream
-    remote: Counting objects: 33, done.
-    remote: Total 33 (delta 6), reused 6 (delta 6), pack-reused 27
-    Unpacking objects: 100% (33/33), done.
-    From https://github.com/sculpin/sculpin.io
-    * [new branch]      master     -> upstream/master
-    * [new branch]      pr/4       -> upstream/pr/4
+$ git fetch upstream
+remote: Counting objects: 33, done.
+remote: Total 33 (delta 6), reused 6 (delta 6), pack-reused 27
+Unpacking objects: 100% (33/33), done.
+From https://github.com/sculpin/sculpin.io
+* [new branch]      master     -> upstream/master
+* [new branch]      pr/4       -> upstream/pr/4
+```
 
 Now my local site knows about the upstream repo, and I could rebase the changes (`git pull upstream master` should have worked too) and push them back to origin.
 
-    $ git rebase upstream/master
-    First, rewinding head to replay your work on top of it...
-    ...
-    Fast-forwarded master to upstream/master.
+```language-bash
+$ git rebase upstream/master
+First, rewinding head to replay your work on top of it...
+...
+Fast-forwarded master to upstream/master.
 
-    $ git push origin master
+$ git push origin master
+```
 
 This seems to have worked OK - the commits are still authored by the correct people and at the correct date and time - and I went ahead and created a new feature branch and pull request based on that master branch.
 

@@ -29,17 +29,21 @@ Alternatively, you could use a base theme like [Sasson](http://drupal.org/projec
 
 The first thing to do is download the PHPSass library from [GitHub](https://github.com/richthegeek/phpsass "PHPSass on GitHub"), as this is a requirement of the Sassy module and we can't enable it without the library. So, in a Terminal window:
 
-    $ mkdir -p sites/all/libraries; 
-    $ cd sites/all/libraries; 
-    $ wget https://github.com/richthegeek/phpsass/archive/master.tar.gz; 
-    $ tar zxf master.tar.gz; 
-    $ rm master.tar.gz; 
-    $ mv phpsass-master/ phpsass
+```language-bash
+$ mkdir -p sites/all/libraries; 
+$ cd sites/all/libraries; 
+$ wget https://github.com/richthegeek/phpsass/archive/master.tar.gz; 
+$ tar zxf master.tar.gz; 
+$ rm master.tar.gz; 
+$ mv phpsass-master/ phpsass
+```
 
 Or, if you're using Drush Make files:
 
-    libraries[phpsass][download][type] = "get"
-    libraries[phpsass][download][url] = "https://github.com/richthegeek/phpsass/archive/master.tar.gz"
+```language-ini
+libraries[phpsass][download][type] = "get"
+libraries[phpsass][download][url] = "https://github.com/richthegeek/phpsass/archive/master.tar.gz"
+```
 
 The PHPSass library should now be located at `sites/all/libraries/phpsass`.
 
@@ -47,8 +51,10 @@ The PHPSass library should now be located at `sites/all/libraries/phpsass`.
 
 This is easy if you use [Drush](http://drupal.org/project/drush):
 
-    $ drush dl libraries prepro sassy
-    $ drush en -y libraries prepro sassy sassy_compass
+```language-bash
+$ drush dl libraries prepro sassy
+$ drush en -y libraries prepro sassy sassy_compass
+```
 
 Otherwise, download the each module from it's respective project page and place it within your `sites/all/modules` or `sites/all/modules/contrib` directory.
 

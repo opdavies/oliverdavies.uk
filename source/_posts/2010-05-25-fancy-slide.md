@@ -19,8 +19,8 @@ I added the dimensions of my images, the type of animation, specified the node t
 
 I added the following code into my About page, as described in the Fancy Slide readme.txt file - the number representing the ID of the slideshow.
 
-~~~php
+```language-php
 <?php print theme('fancy_slide', 1); ?>
-~~~
+```
 
 In my opinion, this adds a nice effect to the About page. I like it because it's easy to set up, and easy to add additional images later on if required.

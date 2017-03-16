@@ -13,9 +13,14 @@ How to checkout a specific revision from a SVN (Subversion) repository.
 {% block content %}
 If you're checking out the repository for the first time:
 
-    svn checkout -r 1234 url://repository/path
+```language-bash
+$ svn checkout -r 1234 url://repository/path
+```
 
 If you already have the repository checked out:
 
-    svn up -r 1234
+```language-bash
+$ svn up -r 1234
+```
+
 {% endblock %}

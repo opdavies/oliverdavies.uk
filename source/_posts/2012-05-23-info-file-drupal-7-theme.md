@@ -13,7 +13,7 @@ An example .info file for a Drupal 7 theme.
 {% endblock %}
 
 {% block content %}
-~~~
+```language-ini
 name = My Theme
 description = A description of my theme
 core = 7.x
@@ -41,5 +41,5 @@ stylesheets[print][] = css/print.css
 
 # Add javascript files
 styles[] = js/mytheme.js
-~~~
+```
 {% endblock %}
