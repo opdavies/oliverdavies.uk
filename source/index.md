@@ -27,7 +27,7 @@ use: [posts]
 
 <img src="{{ site.gravatar.url }}?s=200" alt="Picture of Oliver" class="me img-circle">
 
-My name is Oliver Davies (aka [opdavies][1]), I’m a Web Developer and System Administrator based in Wales, UK. I’m a {{ site.author.company.role }} at [{{ site.author.company.name }}][20], part-time freelancer, open source contributor, mentor and conference speaker.
+My name is Oliver Davies (aka [opdavies][1]), I’m a Web Developer and System Administrator based in Wales, UK. I’m a {{ site.work.role }} at [{{ site.companies[site.work.company].name }}][20], part-time freelancer, open source contributor, mentor and conference speaker.
 
 I’m a provisional member of the [Drupal Security team][14] and a documentation maintainer for Drupal.org. I speak at various conferences and user groups, co-organise [Drupal Bristol][15] and [PHPSW][17], and am a co-founder and co-organiser of [DrupalCamp Bristol][18].
 
@@ -69,7 +69,7 @@ I’m a provisional member of the [Drupal Security team][14] and a documentation
 [17]: https://phpsw.uk
 [18]: http://www.drupalcampbristol.co.uk
 [19]: {{site.url}}/talks/
-[20]: {{site.author.company.website}}
+[20]: {{site.companies[site.work.company].website}}
 [21]: {{site.twitter.url}}
 [22]: {{site.drupalorg.url_nice}}
 [23]: {{site.github.url}}
