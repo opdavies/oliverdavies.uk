@@ -11,5 +11,5 @@ tags: [conference, drupalcamp, drupalcamp-london, git, git-flow]
 slug: git-flow
 tweets: yes
 events:
-    - { id: drupalcamp-london-2014, date: '2014-03-01' }
+    - { id: drupalcamp-london-14, date: '2014-03-01' }
 ---

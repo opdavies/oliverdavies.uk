@@ -36,20 +36,20 @@ drupalorg:
 email: oliver+url@oliverdavies.uk
 
 events:
-    drupal-bristol:           { title: Drupal Bristol,           location: 'Bristol, UK',    url: https://www.drupalbristol.org.uk }
-    drupalcamp-brighton-2015: { title: DrupalCamp Brighton 2015, location: 'Brighton, UK',   url: ~ }
-    drupalcamp-bristol-2016:  { title: DrupalCamp Bristol 2016,  location: 'Bristol, UK',    url: https://www.drupalcampbristol.org.uk }
-    drupalcamp-london-2014:   { title: DrupalCamp London 2014,   location: 'London, UK',     url: ~ }
-    drupalcamp-london-2015:   { title: DrupalCamp London 2015,   location: 'London, UK',     url: ~ }
-    drupalcamp-london-2016:   { title: DrupalCamp London 2016,   location: 'London, UK',     url: ~ }
-    drupalcamp-london-2017:   { title: DrupalCamp London 2017,   location: 'London, UK',     url: https://drupalcamp.london }
-    drupalcamp-north-2015:    { title: DrupalCamp North 2015,    location: 'Sunderland, UK', url: http://drupalcampnorth.org }
-    nwdug:                    { title: NWDUG,                    location: 'Manchester, UK', url: http://nwdrupal.org.uk }
-    phpsc-16:                 { title: PHP South Coast 2016,     location: 'Portsmouth, UK', url: http://2016.phpsouthcoast.co.uk }
-    phpsw:                    { title: PHPSW,                    location: 'Bristol, UK',    url: https://phpsw.uk }
-    swdug:                    { title: SWDUG,                    location: 'Cardiff, UK',    url: ~ }
-    udiff:                    { title: Unified Diff,             location: 'Cardiff, UK',    url: http://unifieddiff.co.uk }
-    umbristol:                { title: umBristol,                location: 'Bristol, UK',    url: http://umbristol.co.uk }
+    drupal-bristol:         { title: Drupal Bristol,           location: 'Bristol, UK',    url: https://www.drupalbristol.org.uk }
+    drupalcamp-brighton-15: { title: DrupalCamp Brighton 2015, location: 'Brighton, UK',   url: ~ }
+    drupalcamp-bristol-16:  { title: DrupalCamp Bristol 2016,  location: 'Bristol, UK',    url: https://www.drupalcampbristol.org.uk }
+    drupalcamp-london-14:   { title: DrupalCamp London 2014,   location: 'London, UK',     url: ~ }
+    drupalcamp-london-15:   { title: DrupalCamp London 2015,   location: 'London, UK',     url: ~ }
+    drupalcamp-london-16:   { title: DrupalCamp London 2016,   location: 'London, UK',     url: ~ }
+    drupalcamp-london-17:   { title: DrupalCamp London 2017,   location: 'London, UK',     url: https://drupalcamp.london }
+    drupalcamp-north-15:    { title: DrupalCamp North 2015,    location: 'Sunderland, UK', url: http://drupalcampnorth.org }
+    nwdug:                  { title: NWDUG,                    location: 'Manchester, UK', url: http://nwdrupal.org.uk }
+    phpsc-16:               { title: PHP South Coast 2016,     location: 'Portsmouth, UK', url: http://2016.phpsouthcoast.co.uk }
+    phpsw:                  { title: PHPSW,                    location: 'Bristol, UK',    url: https://phpsw.uk }
+    swdug:                  { title: SWDUG,                    location: 'Cardiff, UK',    url: ~ }
+    udiff:                  { title: Unified Diff,             location: 'Cardiff, UK',    url: http://unifieddiff.co.uk }
+    umbristol:              { title: umBristol,                location: 'Bristol, UK',    url: http://umbristol.co.uk }
 
 github:
     name: opdavies

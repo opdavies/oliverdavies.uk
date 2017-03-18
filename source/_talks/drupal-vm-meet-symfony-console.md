@@ -7,7 +7,7 @@ slides:
     embed: <script async class="speakerdeck-embed" data-id="56c79770f73f4e47a542a30243437c49" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
 image: drupal-vm-meet-symfony-console.png
 events:
-    - { id: drupalcamp-bristol-2016, date: '2016-07-23' }
+    - { id: drupalcamp-bristol-16, date: '2016-07-23' }
 ---
 _TL;DR - Come and learn about Symfony Console, with examples from a real-world project._
 

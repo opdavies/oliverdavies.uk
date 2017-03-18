@@ -8,7 +8,7 @@ slides:
 video:
     url: https://www.youtube.com/watch?v=5FYMRR61sdo
     embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/5FYMRR61sdo" frameborder="0" allowfullscreen></iframe>'
-joindin: https://joind.in/event/phpsw-new-skills-february-2017/it-started-with-a-patch
+joindin: https://joind.in/event/phpsw-new-skills-february-17/it-started-with-a-patch
 events:
     - { id: phpsw, date: '2017-02-08' }
 ---
