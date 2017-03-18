@@ -47,9 +47,9 @@ events:
     nwdug:                    { title: NWDUG,                    location: 'Manchester, UK', url: http://nwdrupal.org.uk }
     phpsc-16:                 { title: PHP South Coast 2016,     location: 'Portsmouth, UK', url: http://2016.phpsouthcoast.co.uk }
     phpsw:                    { title: PHPSW,                    location: 'Bristol, UK',    url: https://phpsw.uk }
-    swdug:                    { title: 'SWDUG',                  location: 'Cardiff, UK',    url: ~ }
+    swdug:                    { title: SWDUG,                    location: 'Cardiff, UK',    url: ~ }
     udiff:                    { title: Unified Diff,             location: 'Cardiff, UK',    url: http://unifieddiff.co.uk }
-    umbristol:                { title: 'umBristol',              location: 'Bristol, UK',    url: http://umbristol.co.uk }
+    umbristol:                { title: umBristol,                location: 'Bristol, UK',    url: http://umbristol.co.uk }
 
 github:
     name: opdavies
