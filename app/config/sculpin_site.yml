@@ -14,50 +14,18 @@ availability:
     full: no
 
 companies:
-    appnovation:
-        name: Appnovation
-        website: https://www.appnovation.com
-        logo: appnovation.png
-    cti:
-        name: CTI Digital
-        website: https://www.ctidigital.com
-        logo: cti-digital.png
-    drupal_association:
-        name: Drupal Association
-        website: https://assoc.drupal.org
-        logo: drupal-association.png
-    freelance:
-        name: Freelance
-    horse_country:
-        name: 'Horse & Country TV'
-        logo: horse-and-country.jpg
-        website: http://www.horseandcountry.tv
-    lab_class:
-        name: Lab Class
-        website: http://labclass.co.uk
-        logo: lab-class.png
-    microserve:
-        name: Microserve
-        name_short: Microserve
-        website: https://microserve.io
-        logo: microserve.png
-    nomensa:
-        name: Nomensa
-        website: http://www.nomensa.com
-        logo: nomensa.png
-    precedent:
-        name: Precedent
-        website: http://precedent.com
-        logo: precedent.jpg
-    proctors:
-        name: 'Proctor & Stevenson'
-        website: http://www.proctors.co.uk
-        logo: proctors.jpg
-    trent:
-        name: Trent Design
-        website: http://www.trentdesign.net
-    zooba:
-        name: Zooba Ltd
+    appnovation:        { name: Appnovation,           logo: appnovation.png,        website: https://www.appnovation.com,  }
+    cti:                { name: CTI Digital,           logo: cti-digital.png,        website: https://www.ctidigital.com }
+    drupal_association: { name: Drupal Association,    logo: drupal-association.png, website: https://assoc.drupal.org }
+    freelance:          { name: Freelance,             logo: ~,                      website: ~ }
+    horse_country:      { name: 'Horse & Country TV',  logo: horse-and-country.jpg,  website: http://www.horseandcountry.tv }
+    lab_class:          { name: Lab Class,             logo: lab-class.png,          website: http://labclass.co.uk, }
+    microserve:         { name: Microserve,            logo: microserve.png,         website: https://microserve.io,  }
+    nomensa:            { name: Nomensa,               logo: nomensa.png,            website: http://www.nomensa.com }
+    precedent:          { name: Precedent,             logo: precedent.jpg,          website: http://precedent.com }
+    proctors:           { name: 'Proctor & Stevenson', logo: proctors.jpg,           website: http://www.proctors.co.uk }
+    trent:              { name: Trent Design,          logo: ~,                      website: http://www.trentdesign.net }
+    zooba:              { name: Zooba Ltd,             logo: ~,                      website: ~ }
 
 drupalorg:
     name: opdavies
@@ -66,6 +34,22 @@ drupalorg:
     url_nice: https://www.drupal.org/u/opdavies
 
 email: oliver+website@oliverdavies.uk
+
+events:
+    drupal-bristol:           { title: Drupal Bristol,           location: 'Bristol, UK',    website: https://www.drupalbristol.org.uk }
+    drupalcamp-brighton-2015: { title: DrupalCamp Brighton 2015, location: 'Brighton, UK',   website: ~ }
+    drupalcamp-bristol-2016:  { title: DrupalCamp Bristol 2016,  location: 'Bristol, UK',    website: https://www.drupalcampbristol.org.uk }
+    drupalcamp-london-2014:   { title: DrupalCamp London 2014,   location: 'London, UK',     website: ~ }
+    drupalcamp-london-2015:   { title: DrupalCamp London 2015,   location: 'London, UK',     website: ~ }
+    drupalcamp-london-2016:   { title: DrupalCamp London 2016,   location: 'London, UK',     website: ~ }
+    drupalcamp-london-2017:   { title: DrupalCamp London 2017,   location: 'London, UK',     website: https://drupalcamp.london }
+    drupalcamp-north-2015:    { title: DrupalCamp North 2015,    location: 'Sunderland, UK', website: http://drupalcampnorth.org }
+    nwdug:                    { title: NWDUG,                    location: 'Manchester, UK', website: http://nwdrupal.org.uk }
+    phpsc-16:                 { title: PHP South Coast 2016,     location: 'Portsmouth, UK', website: http://2016.phpsouthcoast.co.uk }
+    phpsw:                    { title: PHPSW,                    location: 'Bristol, UK',    website: https://phpsw.uk }
+    swdug:                    { title: 'SWDUG',                  location: 'Cardiff, UK',    website: ~ }
+    udiff:                    { title: Unified Diff,             location: 'Cardiff, UK',    website: http://unifieddiff.co.uk }
+    umbristol:                { title: 'umBristol',              location: 'Bristol, UK',    website: http://umbristol.co.uk }
 
 github:
     name: opdavies
@@ -89,37 +73,25 @@ linkedin:
     url: http://uk.linkedin.com/in/opdavies
 
 meetups:
-    drupalbristol:
-        name: Drupal Bristol
-        logo: drupal-bristol.jpeg
-        website: http://www.drupalbristol.org.uk
-    drupalcampbristol:
-        name: DrupalCamp Bristol
-        website: http://www.drupalcampbristol.co.uk
-        logo: drupalcamp-bristol.png
-    swdug:
-        name: SWDUG
-        logo: swdug.png
-        website: http://swdug.org.uk
-    phpsw:
-        name: PHPSW
-        logo: phpsw.jpeg
-        website: http://phpsw.uk
+    drupalbristol:     { name: Drupal Bristol,     logo: drupal-bristol.jpeg,    website: http://www.drupalbristol.org.uk }
+    drupalcampbristol: { name: DrupalCamp Bristol, logo: drupalcamp-bristol.png, website: http://www.drupalcampbristol.co.uk }
+    phpsw:             { name: PHPSW,              logo: phpsw.jpeg,             website: http://phpsw.uk }
+    swdug:             { name: SWDUG,              logo: swdug.png,              website: http://swdug.org.uk }
 
 packagist:
     name: opdavies
     url: https://packagist.org/users/opdavies
 
 skills:
-    compass: { title: Compass, image: compass.png }
-    drupal: { title: Drupal, image: drupal.png }
+    compass:         { title: Compass,         image: compass.png }
+    drupal:          { title: Drupal,          image: drupal.png }
     drupal-commerce: { title: Drupal Commerce, image: drupal-commerce.png }
-    git: { title: Git, image: git.png }
-    jenkins: { title: Jenkins, image: jenkins.png }
-    less: { title: Less, image: less.png }
-    php: { title: PHP, image: php.png }
-    sass: { title: Sass, image: sass.png }
-    svn: { title: Subversion, image: svn.jpg }
+    git:             { title: Git,             image: git.png }
+    jenkins:         { title: Jenkins,         image: jenkins.png }
+    less:            { title: Less,            image: less.png }
+    php:             { title: PHP,             image: php.png }
+    sass:            { title: Sass,            image: sass.png }
+    svn:             { title: Subversion,      image: svn.jpg }
 
 speakerdeck:
     url: https://speakerdeck.com/opdavies
@@ -134,72 +106,6 @@ wordpress:
 
 youtube:
     channel_url: https://www.youtube.com/channel/UCkeK0qF9HHUPQH_fvn4ghqQ
-
-talks_events:
-    drupal-bristol:
-        title: Drupal Bristol
-        website: https://www.drupalbristol.org.uk
-        location: 'Bristol, UK'
-
-    drupalcamp-brighton-2015:
-        title: DrupalCamp Brighton 2015
-        location: 'Brighton, UK'
-
-    drupalcamp-bristol-2016:
-        title: DrupalCamp Bristol 2016
-        website: https://www.drupalcampbristol.org.uk
-        location: 'Bristol, UK'
-
-    drupalcamp-london-2014:
-        title: DrupalCamp London 2014
-        location: 'London, UK'
-
-    drupalcamp-london-2015:
-        title: DrupalCamp London 2015
-        location: 'London, UK'
-
-    drupalcamp-london-2016:
-        title: DrupalCamp London 2016
-        location: 'London, UK'
-
-    drupalcamp-london-2017:
-        title: DrupalCamp London 2017
-        website: https://drupalcamp.london
-        location: 'London, UK'
-
-    drupalcamp-north-2015:
-        title: DrupalCamp North 2015
-        website: http://drupalcampnorth.org
-        location: 'Sunderland, UK'
-
-    nwdug:
-        title: NWDUG
-        website: http://nwdrupal.org.uk
-        location: 'Manchester, UK'
-
-    phpsc-16:
-        title: PHP South Coast 2016
-        website: http://2016.phpsouthcoast.co.uk
-        location: 'Portsmouth, UK'
-
-    phpsw:
-        title: PHPSW
-        website: https://phpsw.uk
-        location: 'Bristol, UK'
-
-    swdug:
-        title: 'SWDUG (South Wales Drupal user group)'
-        location: 'Cardiff, UK'
-
-    umbristol:
-        title: 'umBristol (Bristol Umbraco user group)'
-        website: http://umbristol.co.uk
-        location: 'Bristol, UK'
-
-    udiff:
-        title: Unified Diff
-        website: http://unifieddiff.co.uk
-        location: 'Cardiff, UK'
 
 work:
     role: Senior Drupal Developer

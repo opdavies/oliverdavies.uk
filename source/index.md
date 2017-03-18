@@ -21,7 +21,7 @@ tools:
     - { title: CentOS, website: https://www.centos.org/about }
     - { title: Git, website: http://git-scm.com }
     - { title: Ansible, website: http://www.ansible.com }
-use: [posts]
+use: [posts, testimonials]
 ---
 # About Me
 
@@ -49,6 +49,8 @@ I’m a provisional member of the [Drupal Security team][14] and a documentation
 * [Speaker Deck][26]
 * [YouTube][28]
 * IRC (freenode) - {{ site.irc.name }}
+
+{{ random(data.testimonials) }}
 
 [1]: https://www.google.com/#q=opdavies
 [2]: https://www.drupal.org

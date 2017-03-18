@@ -3,7 +3,7 @@
 
     {% set events = [] %}
     {% for event in page.events %}
-        {% set event = event|merge({ talk: page })|merge(site.talks_events[event.id]) %}
+        {% set event = event|merge({ talk: page })|merge(site.events[event.id]) %}
         {% set events = events|merge([event]) %}
     {% endfor %}
 

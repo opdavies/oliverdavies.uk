@@ -15,7 +15,7 @@ use: [talks, posts]
 
 {% for talk in data.talks %}
     {% for event in talk.events %}
-        {% set event = event|merge({ talk: talk })|merge(site.talks_events[event.id]) %}
+        {% set event = event|merge({ talk: talk })|merge(site.events[event.id]) %}
         {% set events = events|merge([event]) %}
     {% endfor %}
 {% endfor %}
