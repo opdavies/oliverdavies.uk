@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "23b35e60c5c1518a04da384491bdb09f",
+    "content-hash": "0da413eebfc584e5625555c79d2d44cf",
     "packages": [
         {
             "name": "behat/behat",
@@ -1797,6 +1797,50 @@
                 "sculpin"
             ],
             "time": "2016-04-05 19:57:22"
+        },
+        {
+            "name": "opdavies/sculpin-twig-markdown-bundle",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opdavies/sculpin-twig-markdown-bundle.git",
+                "reference": "8927ec4707eada3ad9ca8817eb9daeb1d91ae50b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opdavies/sculpin-twig-markdown-bundle/zipball/8927ec4707eada3ad9ca8817eb9daeb1d91ae50b",
+                "reference": "8927ec4707eada3ad9ca8817eb9daeb1d91ae50b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "sculpin/sculpin": "@stable"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Opdavies\\Sculpin\\Bundle\\TwigMarkdownBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oliver Davies",
+                    "email": "oliver@oliverdavies.uk",
+                    "homepage": "https://www.oliverdavies.uk"
+                }
+            ],
+            "keywords": [
+                "markdown",
+                "sculpin",
+                "twig"
+            ],
+            "time": "2017-03-18T10:39:19+00:00"
         },
         {
             "name": "opdavies/sculpin-twig-sort-by-field-bundle",
