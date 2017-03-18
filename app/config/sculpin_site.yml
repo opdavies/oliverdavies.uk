@@ -33,7 +33,7 @@ drupalorg:
     url: https://www.drupal.org/user/381388
     url_new: https://www.drupal.org/u/opdavies
 
-email: oliver+url@oliverdavies.uk
+email: oliver+website@oliverdavies.uk
 
 events:
     drupal-bristol:         { title: Drupal Bristol,           location: 'Bristol, UK',    url: https://www.drupalbristol.org.uk }
