@@ -73,7 +73,7 @@ I’m a provisional member of the [Drupal Security team][14] and a documentation
 [19]: {{site.url}}/talks/
 [20]: {{site.companies[site.work.company].url}}
 [21]: {{site.twitter.url}}
-[22]: {{site.drupalorg.url_nice}}
+[22]: {{site.drupalorg.url_new}}
 [23]: {{site.github.url}}
 [24]: {{site.packagist.url}}
 [25]: {{site.ansible_galaxy.url}}
