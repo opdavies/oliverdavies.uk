@@ -14,13 +14,13 @@ availability:
     full: no
 
 companies:
-    appnovation:        { name: Appnovation,           logo: appnovation.png,        website: https://www.appnovation.com,  }
+    appnovation:        { name: Appnovation,           logo: appnovation.png,        website: https://www.appnovation.com }
     cti:                { name: CTI Digital,           logo: cti-digital.png,        website: https://www.ctidigital.com }
     drupal_association: { name: Drupal Association,    logo: drupal-association.png, website: https://assoc.drupal.org }
     freelance:          { name: Freelance,             logo: ~,                      website: ~ }
     horse_country:      { name: 'Horse & Country TV',  logo: horse-and-country.jpg,  website: http://www.horseandcountry.tv }
-    lab_class:          { name: Lab Class,             logo: lab-class.png,          website: http://labclass.co.uk, }
-    microserve:         { name: Microserve,            logo: microserve.png,         website: https://microserve.io,  }
+    lab_class:          { name: Lab Class,             logo: lab-class.png,          website: http://labclass.co.uk }
+    microserve:         { name: Microserve,            logo: microserve.png,         website: https://microserve.io }
     nomensa:            { name: Nomensa,               logo: nomensa.png,            website: http://www.nomensa.com }
     precedent:          { name: Precedent,             logo: precedent.jpg,          website: http://precedent.com }
     proctors:           { name: 'Proctor & Stevenson', logo: proctors.jpg,           website: http://www.proctors.co.uk }
