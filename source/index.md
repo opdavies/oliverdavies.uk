@@ -40,17 +40,17 @@ I’m a provisional member of the [Drupal Security team][14] and a documentation
 
 ## Elsewhere
 
-* [Twitter][21] - @{{ site.twitter.name }}
-* [Drupal.org][22]
-* [GitHub][23]
-* [Packagist][24]
-* [Ansible Galaxy][25]
-* [Speaker Deck][26]
-* [LinkedIn][27]
-* [YouTube][28]
-* [Reddit][36]
-* [Stack Overflow][37]
-* IRC (freenode) - {{ site.irc.name }}
+- [Twitter][21] - @{{ site.twitter.name }}
+- [Drupal.org][22]
+- [GitHub][23]
+- [Packagist][24]
+- [Ansible Galaxy][25]
+- [Speaker Deck][26]
+- [LinkedIn][27]
+- [YouTube][28]
+- [Reddit][36]
+- [Stack Overflow][37]
+- IRC (freenode) - {{ site.irc.name }}
 
 [1]: https://www.google.com/#q=opdavies
 [2]: https://www.drupal.org
