@@ -103,7 +103,7 @@ use: [posts]
                     {{ testimonial.role }}
                 </p>
             {% elseif testimonial.role and company.name %}{% spaceless %}
-                <p class="lead">
+                <p class="testimonial__role">
                     {{ testimonial.role }} at
                     {% if company.url %}
                         <a href="{{ company.url }}" title="{{ company.name }}">{{ company.name }}</a>
