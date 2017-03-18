@@ -6,12 +6,10 @@
         color: #777
 
     &__image
-        @extend .img-circle
-        @extend .pull-right
         height: 75px
         margin: 0 0 10px 10px
         width: 75px
 
-        +breakpoint($screen-sm)
+        +until($screen-sm)
             height: 90px
             width: 90px
