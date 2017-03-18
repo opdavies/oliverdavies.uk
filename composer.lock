@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0da413eebfc584e5625555c79d2d44cf",
+    "content-hash": "80a5430a08133725f4c575f27e2dc276",
     "packages": [
         {
             "name": "behat/behat",
@@ -1757,7 +1757,7 @@
         },
         {
             "name": "opdavies/sculpin-gist-embed-bundle",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opdavies/sculpin-gist-embed-bundle.git",
@@ -1796,7 +1796,7 @@
             "keywords": [
                 "sculpin"
             ],
-            "time": "2016-04-05 19:57:22"
+            "time": "2016-04-05T19:57:22+00:00"
         },
         {
             "name": "opdavies/sculpin-twig-markdown-bundle",
@@ -1844,16 +1844,16 @@
         },
         {
             "name": "opdavies/sculpin-twig-sort-by-field-bundle",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opdavies/sculpin-twig-sort-by-field-bundle.git",
-                "reference": "41b193d878238d505799635fdee95876c5be1894"
+                "reference": "30f1bfec6d66487c4b43ce21965446b536f11964"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opdavies/sculpin-twig-sort-by-field-bundle/zipball/41b193d878238d505799635fdee95876c5be1894",
-                "reference": "41b193d878238d505799635fdee95876c5be1894",
+                "url": "https://api.github.com/repos/opdavies/sculpin-twig-sort-by-field-bundle/zipball/30f1bfec6d66487c4b43ce21965446b536f11964",
+                "reference": "30f1bfec6d66487c4b43ce21965446b536f11964",
                 "shasum": ""
             },
             "require": {
@@ -1882,7 +1882,7 @@
             "keywords": [
                 "sculpin"
             ],
-            "time": "2017-03-05 22:11:49"
+            "time": "2017-03-05T22:18:05+00:00"
         },
         {
             "name": "psr/http-message",
@@ -3783,8 +3783,6 @@
         "behat/mink-goutte-driver": 0,
         "dflydev/embedded-composer": 20,
         "opdavies/sculpin-content-generator-bundle": 0,
-        "opdavies/sculpin-gist-embed-bundle": 20,
-        "opdavies/sculpin-twig-sort-by-field-bundle": 20,
         "sculpin/sculpin": 20
     },
     "prefer-stable": false,

@@ -11,9 +11,9 @@
         "behat/mink-goutte-driver": "@stable",
         "dflydev/embedded-composer": "^1.0@dev",
         "opdavies/sculpin-content-generator-bundle": "@stable",
-        "opdavies/sculpin-gist-embed-bundle": "dev-master",
+        "opdavies/sculpin-gist-embed-bundle": "^0.1",
         "opdavies/sculpin-twig-markdown-bundle": "^0.1",
-        "opdavies/sculpin-twig-sort-by-field-bundle": "dev-master",
+        "opdavies/sculpin-twig-sort-by-field-bundle": "^1.0",
         "sculpin/sculpin": "^2.1@dev",
         "tsphethean/sculpin-related-posts-bundle": "~0.1.0"
     },
