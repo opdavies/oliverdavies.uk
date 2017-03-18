@@ -10,7 +10,7 @@ use: [posts]
 
 ## Bio
 
-Oliver has been building websites since 2007, specialising in PHP and Drupal since 2008, and more recently also working with Symfony, Silex, Laravel and Sculpin. He is a {{ site.work.role }} at [{{ site.companies[site.work.company].name_short }}][0], a Drupal core contributor and module maintainer, and a provisional member of the Drupal Security team.
+Oliver has been building websites since 2007, specialising in PHP and Drupal since 2008, and more recently also working with Symfony, Silex, Laravel and Sculpin. He is a {{ site.work.role }} at [{{ site.companies[site.work.company].name }}][0], a Drupal core contributor and module maintainer, and a provisional member of the Drupal Security team.
 
 In his spare time, Oliver can usually be found attending or organising a user group or conference, or working on freelance or open source projects.
 
