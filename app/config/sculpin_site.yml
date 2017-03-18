@@ -83,15 +83,26 @@ packagist:
     url: https://packagist.org/users/opdavies
 
 skills:
+    ansible:         { title: Ansible,         image: ~ }
     compass:         { title: Compass,         image: compass.png }
+    composer:        { title: Composer,        image: ~ }
+    docker:          { title: Docker,          image: ~ }
     drupal:          { title: Drupal,          image: drupal.png }
     drupal-commerce: { title: Drupal Commerce, image: drupal-commerce.png }
     git:             { title: Git,             image: git.png }
+    grunt:           { title: Grunt,           image: ~ }
+    gulp:            { title: Gulp,            image: ~ }
     jenkins:         { title: Jenkins,         image: jenkins.png }
+    laravel:         { title: Laravel,         image: ~ }
     less:            { title: Less,            image: less.png }
+    linux:           { title: Linux,           image: ~ }
     php:             { title: PHP,             image: php.png }
+    puppet:          { title: Puppet,          image: ~ }
     sass:            { title: Sass,            image: sass.png }
+    silex:           { title: Silex,           image: ~ }
     svn:             { title: Subversion,      image: svn.jpg }
+    symfony:         { title: Symfony,         image: ~ }
+    vagrant:         { title: Vagrant,         image: ~ }
 
 speakerdeck:
     url: https://speakerdeck.com/opdavies
