@@ -41,13 +41,15 @@ I’m a provisional member of the [Drupal Security team][14] and a documentation
 ## Elsewhere
 
 * [Twitter][21] - @{{ site.twitter.name }}
-* [LinkedIn][27]
 * [Drupal.org][22]
 * [GitHub][23]
 * [Packagist][24]
 * [Ansible Galaxy][25]
 * [Speaker Deck][26]
+* [LinkedIn][27]
 * [YouTube][28]
+* [Reddit][36]
+* [Stack Overflow][37]
 * IRC (freenode) - {{ site.irc.name }}
 
 [1]: https://www.google.com/#q=opdavies
@@ -85,3 +87,5 @@ I’m a provisional member of the [Drupal Security team][14] and a documentation
 [33]: {{site.joindin.url}}
 [34]: https://www.ctidigital.com
 [35]: {{site.wordpress.url}}
+[36]: https://www.reddit.com/user/opdavies
+[37]: http://stackoverflow.com/users/3012648/opdavies
