@@ -71,7 +71,7 @@ I’m a provisional member of the [Drupal Security team][14] and a documentation
 [17]: https://phpsw.uk
 [18]: http://www.drupalcampbristol.co.uk
 [19]: {{site.url}}/talks/
-[20]: {{site.companies[site.work.company].website}}
+[20]: {{site.companies[site.work.company].url}}
 [21]: {{site.twitter.url}}
 [22]: {{site.drupalorg.url_nice}}
 [23]: {{site.github.url}}

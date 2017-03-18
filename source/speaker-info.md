@@ -37,4 +37,4 @@ Here are some videos of my previous talks:
 - <https://www.youtube.com/watch?v=qO_Wh5WE3VA>
 - <https://www.youtube.com/watch?v=Yi_FPI3xHwc>
 
-[0]: {{site.companies[site.work.company].website}}
+[0]: {{site.companies[site.work.company].url}}

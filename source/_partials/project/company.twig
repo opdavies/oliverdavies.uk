@@ -10,8 +10,8 @@
             {% set name = company.name %}
         {% endif %}
 
-        {% if company.website %}
-            <a href="{{ company.website }}" title="{{ company.name }}">
+        {% if company.url %}
+            <a href="{{ company.url }}" title="{{ company.name }}">
                 {{ name|raw }}
             </a>
         {% else %}

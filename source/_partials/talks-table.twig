@@ -31,9 +31,9 @@
                     {% endif %}
 
                     <td>
-                        {% if event.website %}<a href="{{ event.website }}">{% endif %}
+                        {% if event.url %}<a href="{{ event.url }}">{% endif %}
                         {{ event.title }}
-                        {% if event.website %}</a>{% endif %}
+                        {% if event.url %}</a>{% endif %}
 
                         {% if event.location %}
                             <small class="event-location">
