@@ -35,7 +35,7 @@ gulp.task('styles', function() {
             cascade: false
         }))
         .pipe(plugins.concat('site.css'))
-        .pipe(plugins.if(!config.production, plugins.purifycss([
+        .pipe(plugins.if(config.production, plugins.purifycss([
             'source/**/*.html',
             'source/**/*.md',
             'source/**/*.twig',
