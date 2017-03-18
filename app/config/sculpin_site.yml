@@ -73,10 +73,10 @@ linkedin:
     url: http://uk.linkedin.com/in/opdavies
 
 meetups:
-    drupalbristol:     { name: Drupal Bristol,     logo: drupal-bristol.jpeg,    url: http://www.drupalbristol.org.uk }
-    drupalcampbristol: { name: DrupalCamp Bristol, logo: drupalcamp-bristol.png, url: http://www.drupalcampbristol.co.uk }
-    phpsw:             { name: PHPSW,              logo: phpsw.jpeg,             url: http://phpsw.uk }
-    swdug:             { name: SWDUG,              logo: swdug.png,              url: http://swdug.org.uk }
+    - { name: Drupal Bristol,     logo: drupal-bristol.jpeg,    url: http://www.drupalbristol.org.uk }
+    - { name: DrupalCamp Bristol, logo: drupalcamp-bristol.png, url: http://www.drupalcampbristol.co.uk }
+    - { name: PHPSW,              logo: phpsw.jpeg,             url: http://phpsw.uk }
+    - { name: SWDUG,              logo: swdug.png,              url: http://swdug.org.uk }
 
 packagist:
     name: opdavies
