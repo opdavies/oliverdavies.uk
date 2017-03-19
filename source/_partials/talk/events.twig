@@ -7,5 +7,5 @@
         {% set events = events|merge([event]) %}
     {% endfor %}
 
-    {% include "talks-table" with { events: events } %}
+    {% include "talks-table" with { events: events, hide_talk: true } %}
 </div>

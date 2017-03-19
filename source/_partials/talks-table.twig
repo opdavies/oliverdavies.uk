@@ -2,16 +2,16 @@
     <table class="talk-event-table table table-striped">
         <thead>
             <tr>
-                <th class="date">Date</th>
-                {% if show_talk %}<th>Talk</th>{% endif %}
-                <th>Event</th>
-                {% if show_feedback %}<th class="feedback">Feedback</th>{% endif %}
+                <th class="column-date">Date</th>
+                {% if not hide_talk %}<th>Talk</th>{% endif %}
+                <th class="column-event">Event</th>
+                {% if not hide_feedback %}<th class="column-feedback">Feedback</th>{% endif %}
             </tr>
         </thead>
         <tbody>
             {% for event in events %}
                 <tr>
-                    <td class="date">
+                    <td class="column-date">
                         {{ event.date|date('j F Y') }}
 
                         {% if event.time %}
@@ -21,7 +21,7 @@
                         {% endif %}
                     </td>
 
-                    {% if show_talk %}
+                    {% if not hide_talk %}
                         <td>
                             <a href="{{ event.talk.url }}">
                                 {{ event.talk.title }}
@@ -35,7 +35,7 @@
                         </td>
                     {% endif %}
 
-                    <td>
+                    <td class="column-event">
                         {% if event.url %}<a href="{{ event.url }}">{% endif %}
                         {{ event.title }}
                         {% if event.url %}</a>{% endif %}
@@ -47,8 +47,8 @@
                         {% endif %}
                     </td>
 
-                    {% if show_feedback -%}
-                        <td class="feedback">
+                    {% if not hide_feedback -%}
+                        <td class="column-feedback">
                             {% if event.talk.joindin %}
                                 <a href="{{ event.talk.joindin }}" class="btn btn-primary" title="Read or leave feedback for this talk">
                                     <i class="fa fa-comment-o"></i> joind.in

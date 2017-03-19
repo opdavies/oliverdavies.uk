@@ -30,15 +30,13 @@ use: [talks, posts]
 
 {% include "talks-table" with {
     events: upcoming_events|sortbyfield('date'),
-    show_talk: true
+    hide_feedback: true,
 } %}
 
 <h2>Last 5 Talks</h2>
 
 {% include "talks-table" with {
-    events: past_events|sortbyfield('date')|reverse[:5],
-    show_feedback: true,
-    show_talk: true
+    events: past_events|sortbyfield('date')|reverse[:5]
 } %}
 
 <p>You can view more talks in the <a href="/talks/archive">talks archive</a>.</p>
