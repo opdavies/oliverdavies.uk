@@ -84,6 +84,7 @@ packagist:
 
 skills:
     ansible:         { title: Ansible,         image: ~ }
+    behat:           { title: Behat,           image: ~ }
     compass:         { title: Compass,         image: compass.png }
     composer:        { title: Composer,        image: ~ }
     docker:          { title: Docker,          image: ~ }
@@ -97,9 +98,11 @@ skills:
     less:            { title: Less,            image: less.png }
     linux:           { title: Linux,           image: ~ }
     php:             { title: PHP,             image: php.png }
+    phpunit:         { title: PHPUnit,         image: ~ }
     puppet:          { title: Puppet,          image: ~ }
     sass:            { title: Sass,            image: sass.png }
     silex:           { title: Silex,           image: ~ }
+    simpletest:      { title: SimpleTest,      image: ~ }
     svn:             { title: Subversion,      image: svn.jpg }
     symfony:         { title: Symfony,         image: ~ }
     vagrant:         { title: Vagrant,         image: ~ }
