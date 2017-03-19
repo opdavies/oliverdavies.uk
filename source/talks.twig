@@ -30,15 +30,14 @@ use: [talks, posts]
 
 {% include "talks-table" with {
     events: upcoming_events,
-    show_talk: true,
-    reverse_order: true,
+    show_talk: true
 } %}
 
 <h2>Previous Talks</h2>
 
 {% include "talks-table" with {
     events: past_events,
-    show_talk: true,
+    reverse_order: true,
     show_feedback: true,
-    reverse_order: true
+    show_talk: true
 } %}
