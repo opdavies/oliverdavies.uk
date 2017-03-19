@@ -44,6 +44,7 @@ events:
     drupalcamp-london-16:   { title: DrupalCamp London 2016,   location: 'London, UK',     url: ~ }
     drupalcamp-london-17:   { title: DrupalCamp London 2017,   location: 'London, UK',     url: https://drupalcamp.london }
     drupalcamp-north-15:    { title: DrupalCamp North 2015,    location: 'Sunderland, UK', url: http://drupalcampnorth.org }
+    nomad_php:              { title: Nomad PHP,                location: Online,           url: https://nomadphp.com }
     nwdug:                  { title: NWDUG,                    location: 'Manchester, UK', url: http://nwdrupal.org.uk }
     phpsc-16:               { title: PHP South Coast 2016,     location: 'Portsmouth, UK', url: http://2016.phpsouthcoast.co.uk }
     phpsw:                  { title: PHPSW,                    location: 'Bristol, UK',    url: https://phpsw.uk }

@@ -5,7 +5,7 @@
                 <th class="date">Date</th>
                 {% if show_talk %}<th>Talk</th>{% endif %}
                 <th>Event</th>
-                <th class="feedback">Feedback</th>
+                {% if show_feedback %}<th class="feedback">Feedback</th>{% endif %}
             </tr>
         </thead>
         <tbody>
@@ -14,6 +14,12 @@
                 <tr>
                     <td class="date">
                         {{ event.date|date('j F Y') }}
+
+                        {% if event.time %}
+                            <small class="talk-type">
+                                {{ event.time }}
+                            </small>
+                        {% endif %}
                     </td>
 
                     {% if show_talk %}
@@ -42,13 +48,15 @@
                         {% endif %}
                     </td>
 
-                    <td class="feedback">
-                        {% if event.talk.joindin %}
-                            <a href="{{ event.talk.joindin }}" class="btn btn-primary" title="Read or leave feedback for this talk">
-                                <i class="fa fa-comment-o"></i> joind.in
-                            </a>
-                        {% endif %}
-                    </td>
+                    {% if show_feedback -%}
+                        <td class="feedback">
+                            {% if event.talk.joindin %}
+                                <a href="{{ event.talk.joindin }}" class="btn btn-primary" title="Read or leave feedback for this talk">
+                                    <i class="fa fa-comment-o"></i> joind.in
+                                </a>
+                            {% endif %}
+                        </td>
+                    {%- endif %}
                 </tr>
             {% endfor %}
         </tbody>

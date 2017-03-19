@@ -11,13 +11,34 @@ use: [talks, posts]
 
 <p>There is also information about events that I’ve attended and spoken at on my <a href="{{ site.lanyrd.url }}">Lanyrd</a> and <a href="{{ site.joindin.url }}">Joind.in</a> profiles.</p>
 
-{% set events = [] %}
+{% set upcoming_events = [] %}
+{% set past_events = [] %}
 
 {% for talk in data.talks %}
-    {% for event in talk.events %}
+    {% for event in talk.events if event.date >= 'today'|date('Y-m-d') %}
         {% set event = event|merge({ talk: talk })|merge(site.events[event.id]) %}
-        {% set events = events|merge([event]) %}
+        {% set upcoming_events = upcoming_events|merge([event]) %}
+    {% endfor %}
+
+    {% for event in talk.events if event.date < 'today'|date('Y-m-d') %}
+        {% set event = event|merge({ talk: talk })|merge(site.events[event.id]) %}
+        {% set past_events = past_events|merge([event]) %}
     {% endfor %}
 {% endfor %}
 
-{% include "talks-table" with { events: events, show_talk: true, reverse_order: true } %}
+<h2>Upcoming Talks</h2>
+
+{% include "talks-table" with {
+    events: upcoming_events,
+    show_talk: true,
+    reverse_order: true,
+} %}
+
+<h2>Previous Talks</h2>
+
+{% include "talks-table" with {
+    events: past_events,
+    show_talk: true,
+    show_feedback: true,
+    reverse_order: true
+} %}
