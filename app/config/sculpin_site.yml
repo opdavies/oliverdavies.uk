@@ -93,6 +93,7 @@ skills:
     git:             { title: Git,             image: git.png }
     grunt:           { title: Grunt,           image: ~ }
     gulp:            { title: Gulp,            image: ~ }
+    jekyll           { title: Jekyll,          image: ~ }
     jenkins:         { title: Jenkins,         image: jenkins.png }
     laravel:         { title: Laravel,         image: ~ }
     less:            { title: Less,            image: less.png }
@@ -105,6 +106,7 @@ skills:
     simpletest:      { title: SimpleTest,      image: ~ }
     svn:             { title: Subversion,      image: svn.jpg }
     symfony:         { title: Symfony,         image: ~ }
+    twig:            { title: Twig,            image: ~ }
     vagrant:         { title: Vagrant,         image: ~ }
 
 speakerdeck:
