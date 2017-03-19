@@ -7,7 +7,7 @@ slides:
 tags: [drupalcamp, migration, drupal-8]
 events:
     - { id: drupal-bristol, date: '2017-01-18' }
-    - { id: drupalcamp-london-17, date: '2017-03-04' }
+    - { id: drupalcamp-london-17, date: '2017-03-04', time: '12:05 - 12:50' }
 ---
 If you’ve moved a site from Drupal 6 to 7, the chances are that you’ve either used the upgrade path to update your old site in-place, or you built a new site from scratch and used the Migrate module from contrib to migrate your data from the old database.
 

@@ -6,7 +6,7 @@ slides:
     embed: <script async class="speakerdeck-embed" data-id="4f12722ed400468b93ebb32a23b3c757" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
 tags: [drupalcamp, simpletest, phpunit, testing]
 events:
-    - { id: drupalcamp-london-17, date: '2017-03-04' }
+    - { id: drupalcamp-london-17, date: '2017-03-04', time: '16:15 - 17:00' }
 ---
 Testing is important. Why? It allows developers to add new features and edit and refactor existing code without the worry of adding regressions, reduces the reliance on manual testing to discover bugs, and by taking a test driven approach, your implementation code is leaner as you only write what is needed for your tests to pass.
 

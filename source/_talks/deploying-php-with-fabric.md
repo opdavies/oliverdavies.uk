@@ -6,7 +6,7 @@ slides: ~
 slides_embed: ~
 tags: [meetup, php, fabric]
 events:
-    - { id: nomad_php, date: '2017-04-20', time: '19:00 CEST' }
+    - { id: nomad_php, date: '2017-04-20', time: '19:00 (CET)' }
 ---
 You’ve built your application, and now you just need to deploy it. There are various ways that this could be done – from (S)FTP, to SCP and rsync, to running commands like “git pull” and “composer install” directly on the server (not recommended).
 
