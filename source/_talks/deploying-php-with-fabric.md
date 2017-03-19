@@ -5,7 +5,6 @@ location: Nomad PHP
 slides: ~
 slides_embed: ~
 tags: [meetup, php, fabric]
-draft: true
 events:
     - { id: nomad_php, date: '2017-04-20', time: '19:00 CEST' }
 ---
