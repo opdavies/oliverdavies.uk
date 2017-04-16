@@ -1,12 +1,11 @@
 {% set classes = [
-    'experience',
+    'experience-item',
     'is-flex',
     company.logo ? 'has-logo',
-    experience.featured ? 'is-featured',
 ] %}
 
-<div class="{{ classes|sort|join(' ') }}">
-    <div class="inner">
+<div class="{{ classes|join(' ')|trim }}">
+    <div class="experience-item-inner flex">
         <h2>{{ company.name }}</h2>
 
         {{ include('experience/website') }}

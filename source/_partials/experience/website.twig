@@ -1,5 +1,5 @@
-{% if company.url %}
-    <a href="{{ company.url }}" class="experience__website">
-        {{ company.url }}
+{% if company.url -%}
+    <a class="experience-item-website" href="{{ company.url }}">
+        {{- company.url -}}
     </a>
-{% endif %}
+{%- endif %}

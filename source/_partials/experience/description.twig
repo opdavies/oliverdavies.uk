@@ -1,3 +1,5 @@
-<div class="experience__description">
-    {{ experience.description|markdown }}
-</div>
+{% if experience.description %}
+    <div class="experience-item-description">
+        {{ experience.description|markdown }}
+    </div>
+{% endif %}

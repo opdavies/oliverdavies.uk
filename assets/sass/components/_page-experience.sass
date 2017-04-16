@@ -1,28 +1,25 @@
-.experience
+.experience-item
     margin-bottom: $padding-large-vertical * 3
     +clearfix
 
-    .inner
-        flex: 1
+.experience-item-website
+    display: inline-block
+    margin-bottom: 2px
 
-    &__website
-        display: inline-block
-        margin-bottom: 2px
+.experience-item-role
+    color: $gray-light
+    margin-bottom: .625rem
 
-    &__role
-        color: $gray-light
-        margin-bottom: .625rem
-
-    &__logo
-        margin-left: 1.5em
-        margin-top: 25px
-        max-width: 25%
-        +desktop
-            max-width: 15%
+.experience-item-logo
+    margin-left: 1.5em
+    margin-top: 25px
+    max-width: 25%
+    +desktop
+        max-width: 15%
 
     img
         height: auto
         width: 100%
 
-    p:last-of-type
-        margin-bottom: 0
+.experience-item-description p:last-of-type
+    margin-bottom: 0
