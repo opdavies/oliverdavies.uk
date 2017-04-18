@@ -28,5 +28,5 @@ def deploy():
     run('sudo service nginx configtest && sudo service nginx reload')
 
 def file_permissions():
-    sudo('chown -R %s:%s %s/web' % (env.user, env.group, project_root))
-    sudo('chmod -R 750 %s/web' % project_root)
+    run('sudo chown -R %s:%s %s/web' % (env.user, env.group, project_root))
+    run('sudo chmod -R 750 %s/web' % project_root)
