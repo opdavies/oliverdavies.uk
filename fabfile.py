@@ -25,7 +25,7 @@ def deploy():
         default_opts='-vzcrSLh',
         delete=True
     )
-    run('sudo service nginx configtest && sudo service nginx reload')
+    sudo('service nginx configtest && service nginx reload')
 
 def file_permissions():
     run('sudo chown -R %s:%s %s/web' % (env.user, env.group, project_root))
