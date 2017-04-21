@@ -14,7 +14,7 @@ meta:
     og:
         title: Getting Started with Drupal 8 Module Development
         image:
-            url: 'https://www.oliverdavies.uk/assets/images/talks/dclondon16.png'
+            url: /assets/images/talks/dclondon16.png
             type: 'image/png'
             height: 540
             width: 960

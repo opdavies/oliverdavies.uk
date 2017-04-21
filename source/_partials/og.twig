@@ -11,7 +11,7 @@
 {% endif %}
 
 {% if og.image and og.image.url %}
-    <meta property="og:image" content="{{ og.image.url }}"/>
+    <meta property="og:image" content="{{ site.url }}{{ og.image.url }}"/>
     {% if og.image.type %}
         <meta property="og:image:type" content="{{ og.image.type }}"/>
     {% endif %}
@@ -26,7 +26,7 @@
 {% if og.title %}
     {% if og.image %}
         <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:image:src" content="{{ og.image.url }}">
+        <meta name="twitter:image:src" content="{{ site.url }}{{ og.image.url }}">
         <meta name="twitter:creator" content="@{{ site.twitter.name }}"/>
     {% else %}
         <meta name="twitter:card" content="summary"/>
