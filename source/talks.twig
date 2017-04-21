@@ -26,12 +26,14 @@ use: [talks, posts]
     {% endfor %}
 {% endfor %}
 
-<h2>Upcoming Talks</h2>
+{% if upcoming_events is not empty %}
+    <h2>Upcoming Talks</h2>
 
-{% include "talks-table" with {
-    events: upcoming_events|sortbyfield('date'),
-    hide_feedback: true,
-} %}
+    {% include "talks-table" with {
+        events: upcoming_events|sortbyfield('date'),
+        hide_feedback: true,
+    } %}
+{% endif %}
 
 <h2>Last 5 Talks</h2>
 
