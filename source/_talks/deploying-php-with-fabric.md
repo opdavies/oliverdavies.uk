@@ -6,6 +6,16 @@ slides:
     url: https://speakerdeck.com/opdavies/deploying-php-applications-with-fabric
     embed: '<script async class="speakerdeck-embed" data-id="c147618ce07546ca92f92983c52d6a41" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>'
 tags: [meetup, php, fabric]
+meta:
+    og:
+        title: Deploying PHP Applcations with Fabric
+        description: "You've built your PHP application, now learn how to deploy it with Fabric."
+        type: website
+        image:
+            url: /assets/images/talks/deploying-php-fabric.png
+            width: 1280
+            height: 800
+            type: image/png
 events:
     - { id: nomad_php, date: '2017-04-20', time: '19:00 (CET)' }
 ---
