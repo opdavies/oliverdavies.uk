@@ -67,10 +67,10 @@ I’m a provisional member of the [Drupal Security team][14] and a webmaster and
 [12]: https://www.drupal.org/project/user/381388
 [13]: https://www.drupal.org/user/381388/people-mentored
 [14]: https://www.drupal.org/security-team
-[15]: http://www.drupalbristol.org.uk
+[15]: https://www.drupalbristol.org.uk
 [16]: https://groups.drupal.org/wales-uk
 [17]: https://phpsw.uk
-[18]: http://www.drupalcampbristol.co.uk
+[18]: https://www.drupalcampbristol.co.uk
 [19]: {{site.url}}/talks/
 [20]: {{site.companies[site.work.company].url}}
 [21]: {{site.twitter.url}}
