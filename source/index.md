@@ -27,9 +27,9 @@ use: [posts, testimonials]
 
 <img src="{{ site.gravatar.url }}?s=200" alt="Picture of Oliver" class="me img-circle">
 
-My name is Oliver Davies (aka [opdavies][1]), I’m a Web Developer and System Administrator based in Wales, UK. I’m a PHP specialist, a {{ site.work.role }} at [{{ site.companies[site.work.company].name }}][20], former Developer at the [Drupal Association][39], part-time freelancer, open source contributor, mentor and conference speaker.
+My name is Oliver Davies (aka [opdavies][1]), I’m a Web Developer and System Administrator based in Wales, UK. I’m a PHP specialist, a {{ site.work.role }} at [{{ site.companies[site.work.company].name }}][20], former Developer at the [{{ site.companies.drupal_association.name }}][39], part-time freelancer, open source contributor, mentor and conference speaker.
 
-I’m a provisional member of the [Drupal Security team][14] and a webmaster and documentation maintainer for Drupal.org. I speak at various conferences and user groups, co-organise [Drupal Bristol][15] and [PHPSW][17], and am a co-founder and co-organiser of [DrupalCamp Bristol][18].
+I’m a provisional member of the [Drupal Security team][14] and a webmaster and documentation maintainer for Drupal.org. [I speak at various user groups and conferences][40], and co-organise the [Drupal Bristol user group][15], [PHPSW][17] and [DrupalCamp Bristol][18].
 
 ## Proficiencies
 
@@ -92,3 +92,4 @@ I’m a provisional member of the [Drupal Security team][14] and a webmaster and
 [37]: http://stackoverflow.com/users/3012648/opdavies
 [38]: https://disqus.com/by/opdavies
 [39]: {{site.companies.drupal_association.url}}
+[40]: {{site.url}}/talks
