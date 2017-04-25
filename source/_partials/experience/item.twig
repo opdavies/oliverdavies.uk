@@ -1,10 +1,11 @@
 {% set classes = [
     'experience-item',
-    'is-flex',
     company.logo ? 'has-logo',
 ] %}
 
 <div class="{{ classes|join(' ')|trim }}">
+    {{ include('experience/logo') }}
+
     <div class="experience-item-inner">
         <h2>{{ company.name }}</h2>
 
@@ -12,6 +13,4 @@
         {{ include('experience/role') }}
         {{ include('experience/description') }}
     </div>{# /.inner #}
-
-    {{ include('experience/logo') }}
 </div>
