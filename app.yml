@@ -1,0 +1,24 @@
+api: '1'
+type: sculpin
+
+sculpin:
+  theme:
+    build:
+      bower: yes
+      npm: no
+      type: gulp
+      yarn: yes
+    path: ~
+
+composer:
+  install: yes
+
+deploy:
+  restart_php: false
+  restart_webserver: true
+  rsync:
+    # local_dir:
+    # remote_dir: 
+    options: '-vzcrSLh'
+    delete: true
+  type: rsync
