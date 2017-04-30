@@ -23,7 +23,7 @@ var config = {
 gulp.task('styles', function () {
     return gulp.src([
         config.bowerDir + '/font-awesome/css/font-awesome.css',
-        config.bowerDir + '/prism/themes/prism-tomorrow.css',
+        config.bowerDir + '/prism/themes/prism-twilight.css',
         config.sass.sourceDir + config.sass.pattern
     ])
         .pipe(plugins.plumber())
