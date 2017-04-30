@@ -20,12 +20,12 @@ var config = {
     }
 };
 
-gulp.task('styles', function() {
+gulp.task('styles', function () {
     return gulp.src([
-            config.bowerDir + '/font-awesome/css/font-awesome.css',
-            config.bowerDir + '/prism/themes/prism-tomorrow.css',
-            config.sass.sourceDir + config.sass.pattern
-        ])
+        config.bowerDir + '/font-awesome/css/font-awesome.css',
+        config.bowerDir + '/prism/themes/prism-tomorrow.css',
+        config.sass.sourceDir + config.sass.pattern
+    ])
         .pipe(plugins.plumber())
         .pipe(plugins.if(!config.production, plugins.sourcemaps.init()))
         .pipe(plugins.sassGlob())
@@ -46,14 +46,14 @@ gulp.task('styles', function() {
         .pipe(gulp.dest(config.sass.outputDir));
 });
 
-gulp.task('scripts', function() {
+gulp.task('scripts', function () {
     return gulp.src([
-            config.bowerDir + '/jquery2/jquery.js',
-            config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js',
-            config.bowerDir + '/prism/prism.js',
-            config.bowerDir + '/prism/components/prism-{apacheconf,bash,css,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
-            config.js.sourceDir + config.js.pattern
-        ])
+        config.bowerDir + '/jquery2/jquery.js',
+        config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js',
+        config.bowerDir + '/prism/prism.js',
+        config.bowerDir + '/prism/components/prism-{apacheconf,bash,css,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
+        config.js.sourceDir + config.js.pattern
+    ])
         .pipe(plugins.plumber())
         .pipe(plugins.if(!config.production, plugins.sourcemaps.init()))
         .pipe(plugins.concat('site.js'))
@@ -62,12 +62,12 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest(config.js.outputDir));
 });
 
-gulp.task('fonts', function() {
+gulp.task('fonts', function () {
     return gulp.src(config.bowerDir + "/font-awesome/fonts/*")
         .pipe(gulp.dest(config.fontsDir));
 });
 
-gulp.task('clean', function() {
+gulp.task('clean', function () {
     del.sync(config.fontsDir);
     del.sync(config.js.outputDir);
     del.sync(config.sass.outputDir);
@@ -76,7 +76,7 @@ gulp.task('clean', function() {
 
 gulp.task('default', ['clean', 'fonts', 'styles', 'scripts']);
 
-gulp.task('watch', ['default'], function() {
+gulp.task('watch', ['default'], function () {
     plugins.refresh.listen();
 
     gulp.watch(config.sass.sourceDir + config.sass.pattern, ['styles']);
