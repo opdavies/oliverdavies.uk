@@ -12,6 +12,22 @@ sculpin:
 composer:
   install: yes
 
+redirects:
+    "^/about": { to: "/" }
+    "^/blog/2012/07/nomensa-accessible-media-player-drupal": { to: "/blog/install-nomensa-media-player-drupal/" }
+    "^/blog/announcing-the-drupal-vm-config-generator": { to: "/blog/announcing-the-drupal-vm-generator" }
+    "^/consulting": { to: "/" }
+    "^/cv": { to: "https://gitprint.com/opdavies/cv/blob/master/README.md" }
+    "^/drupalgive": { to: "https://www.drupal.org/u/opdavies" }
+    "^/git-flow": { to: "/talks/git-flow" }
+    "^/portfolio": { to: "/projects" }
+    "^/services": { to: "/experience" }
+    "^/slides/bristol-dug/drupal-vm-generator": { to: "http://opdavies.github.io/slides-drupal-vm-generator" }
+    "^/slides/phpsw/building-static-websites-with-sculpin": { to: "https://opdavies.github.io/slides-phpsw-sculpin" }
+    "^/speaking": { to: "/talks" }
+    "^/terms-and-conditions": { to: "/terms" }
+    "^/work": { to: "/experience" }
+
 deploy:
   restart_php: false
   restart_webserver: true
