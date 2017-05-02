@@ -8,6 +8,16 @@ video:
     url: https://www.youtube.com/watch?v=jtmARTuYhp8
     embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/jtmARTuYhp8" frameborder="0" allowfullscreen></iframe>
 tags: [drupalcamp, migration, drupal-8]
+meta:
+    og:
+        title: Getting (Your Data) into Drupal 8
+        description: "How I migrated the Drupal Bristol website onto Drupal 8."
+        type: website
+        image:
+            url: /assets/images/talks/getting-your-data-into-drupal-8.png
+            width: 2560
+            height: 1440
+            type: image/png
 events:
     - { id: drupal-bristol, date: '2017-01-18' }
     - { id: drupalcamp-london-17, date: '2017-03-04', time: '12:05 - 12:50' }

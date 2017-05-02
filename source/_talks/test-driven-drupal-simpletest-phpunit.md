@@ -8,6 +8,16 @@ video:
     url: https://www.youtube.com/watch?v=fdbxXOi2HP4
     embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/fdbxXOi2HP4" frameborder="0" allowfullscreen></iframe>
 tags: [drupalcamp, simpletest, phpunit, testing]
+meta:
+    og:
+        title: Test Driven Drupal Development with SimpleTest and PHPUnit
+        description: "How to write tests and follow TDD for Drupal applications."
+        type: website
+        image:
+            url: /assets/images/talks/test-driven-drupal-development.png
+            width: 2560
+            height: 1440
+            type: image/png
 events:
     - { id: drupalcamp-london-17, date: '2017-03-04', time: '16:15 - 17:00' }
 ---
