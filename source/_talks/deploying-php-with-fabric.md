@@ -5,6 +5,9 @@ location: Nomad PHP
 slides:
     url: https://speakerdeck.com/opdavies/deploying-php-applications-with-fabric
     embed: '<script async class="speakerdeck-embed" data-id="c147618ce07546ca92f92983c52d6a41" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>'
+video:
+    embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/kM0MDUJE8ys" frameborder="0" allowfullscreen></iframe>'
+    url: https://www.youtube.com/watch?v=kM0MDUJE8ys
 tags: [meetup, php, fabric]
 meta:
     og:
