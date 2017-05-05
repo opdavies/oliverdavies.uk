@@ -34,7 +34,7 @@ services:
 
 Nginx and PHP-FPM are running in separate containers, the volumes are shared across both and the Nginx backend is set to use the `php` container.
 
-This is how I was running the tests from my laptop:
+This is the command that I was using to run the tests:
 
 ```language-bash
 $ docker-compose run --rm \
