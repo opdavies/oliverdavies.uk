@@ -5,7 +5,6 @@ tags:
     - drupal
     - drupal-planet
     - testing
-date: 2017-05-05
 ---
 **TL;DR** You need to include the name of your web server container as the `--url` option to `run-scripts.php`.
 
