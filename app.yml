@@ -16,6 +16,7 @@ redirects:
     "^/about": { to: "/" }
     "^/blog/10-useful-drupal-6-modules": { to: "/blog/2010/06/25/10-useful-drupal-6-modules" }
     "^/blog/2012/07/nomensa-accessible-media-player-drupal": { to: "/blog/install-nomensa-media-player-drupal/" }
+    "^/blog/2017/05/05/fixing-drupal-simpletest-issues-inside-docker-containers": { to: "/blog/2017/05/05/fixing-drupal-simpletest-docker" }
     "^/blog/accessible-bristol-site-launched": { to: "/blog/2012/11/15/accessible-bristol-site-launched" }
     "^/blog/add-date-popup-calendar-custom-form": { to: "/blog/2012/05/23/add-date-popup-calendar-custom-form" }
     "^/blog/add-taxonomy-term-multiple-nodes-using-sql": { to: "/blog/2010/07/07/add-taxonomy-term-multiple-nodes-using-sql" }
