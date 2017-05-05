@@ -89,7 +89,7 @@ Test run duration: 2 min 31 sec
 
 **Note:** In this example I have separate `nginx` and `php` containers, but I've tried and had the same issue when running Nginx and PHP-FPM in the same container - e.g. called `app` - and still needed to add `--url http://app` in order for the tests to run successfully.
 
-I don’t know if this issue is macOS specfic (I know that [Drupal CI][2] is based on Docker, and I don’t know if it’s an issue) but I’m going to test also on my Ubuntu Desktop environment and investigate further and also compare the test run times for Docker in macOS, Docker in Ubuntu and within Drupal VM.
+I don’t know if this issue is macOS specfic (I know that [Drupal CI][2] is based on Docker, and I don’t know if it’s an issue) but I’m going to test also on my Ubuntu Desktop environment and investigate further and also compare the test run times for Docker in macOS, Docker in Ubuntu and within Drupal VM. I’m also going to test this with PHPUnit tests with Drupal 8.
 
 [0]: https://www.docker.com
 [1]: https://www.drupalvm.com
