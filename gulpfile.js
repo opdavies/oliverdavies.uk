@@ -51,7 +51,7 @@ gulp.task('scripts', function () {
         config.bowerDir + '/jquery2/jquery.js',
         config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js',
         config.bowerDir + '/prism/prism.js',
-        config.bowerDir + '/prism/components/prism-{apacheconf,bash,css,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
+        config.bowerDir + '/prism/components/prism-{apacheconf,bash,css,diff,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
         config.js.sourceDir + config.js.pattern
     ])
         .pipe(plugins.plumber())

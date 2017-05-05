@@ -5,17 +5,18 @@ tags:
     - drupal-modules
     - drupal-planet
     - testing
+date: 2017-05-05
 draft: true
 ---
-Recently, I reviewed [a patch][1] in the [Override Node Options][2] module issue queue. For those not aware, the module adds extra permissions to each content type for node options like "authored by" and "published on" which are normally only available to users with the `administer nodes` permissions. What the patch does is to optionally add another set of permissions that enable an option for all content types - e.g. "override published option for all node types".
+Recently, I reviewed [a patch][1] in the [Override Node Options][2] module issue queue. For those not familiar with it, the module adds extra permissions for node options like "authored by" and "published on" which are normally only available to users with the `administer nodes` permission. What the patch does is to optionally add another set of permissions that enable options for all content types - e.g. "override published option for all node types", in addition to or instead of the content type specific ones.
 
-It was quite an old issue and the latest patch needed to be re-rolled due to merge conflicts, but the existing tests still passed with a new patch. Though as no new tests were added for the new functionality, these needed to be added before I committed the patch.
+It was quite an old issue and the latest patch needed to be re-rolled due to merge conflicts, but the existing tests still passed. Though as no new tests were added for the new functionality, these needed to be added before I committed it.
 
 This post documents the steps that I took to update the tests to add the proposed functionality.
 
 ## Reviewing the Existing Tests
 
-The first thing to do was to run the existing tests and check that ehy pass. I do this on the command line by typing `php scripts/run-tests.sh --color --class OverrideNodeOptionsTestCase`.
+The first thing to do was to run the existing tests and check that they still passed. I do this on the command line by typing `php scripts/run-tests.sh --class OverrideNodeOptionsTestCase`.
 
 ```language-markup
 Drupal test run
@@ -68,28 +69,29 @@ protected function testNodeOptions() {
 }
 ```
 
-The first part of the test is creating and logging in a user with some content type specific override permissions (`$this->adminUser`), and then testing that the fields were updated when the node is saved. The second part is testing that the fields are not visible for a normal user without the extra permissions (`$this->normalUser`), which is created in the `setUp()` method at the top of the class.
+The first part of the test is creating and logging in a user with some content type specific override permissions (`$this->adminUser`), and then testing that the fields were updated when the node is saved. The second part is testing that the fields are not visible for a normal user without the extra permissions (`$this->normalUser`), which is created in the `setUp()` class' method.
 
-To test the new "all types" permissions, I decided that I’d need to create another user to test against called `$generalUser` and run the first part of the tests in a loop.
+To test the new "all types" permissions, I created another user to test against called `$generalUser` and run the first part of the tests in a loop.
 
 ## Beginning to Refactor the Tests
 
 With the tests passing, I was able to start refactoring.
 
 ```language-php
+// Create a new user with content type specific permissions.
 $specificUser = $this->drupalCreateUser(array(
-   'create page content',
-   'edit any page content',
-   'override page published option',
-   'override page promote to front page option',
-   'override page sticky option',
-   'override page comment setting option',
+  'create page content',
+  'edit any page content',
+  'override page published option',
+  'override page promote to front page option',
+  'override page sticky option',
+  'override page comment setting option',
 ));
 
 foreach (array($specificUser) as $account) {
   $this->drupalLogin($account);
   
-  // Run the tests.
+  // Test all the things.
   ...
 }
 ```
@@ -110,7 +112,7 @@ $generalUser = $this->drupalCreateUser(array());
 foreach (array($specificUser, $generalUser) as $account) {
   $this->drupalLogin($account);
 
-  // Run the tests.
+  // Test all the things.
 }
 ```
 
@@ -126,6 +128,8 @@ Test run duration: 28 sec
 ```
 
 Then it was a case of re-adding more permissions to the user and seeing the number of failures decrease, confirming that the functionality was working correctly.
+
+TODO: Add another example.
 
 ## Gotchas
 
