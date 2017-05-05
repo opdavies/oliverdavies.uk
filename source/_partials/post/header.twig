@@ -1,4 +1,4 @@
 {% set title_tag = title_tag|default('h1') %}
 <{{ title_tag }}>{{ page.title }}</{{ title_tag }}>
 
-<p class="posted">Posted: {{ page.date|date('jS F Y') }}</p>
+<p class="posted">{{ page.date|date('jS F Y') }}</p>
