@@ -134,3 +134,6 @@ hooks:
         yarn --pure-lockfile
         node_modules/.bin/bower install
         node_modules/.bin/gulp --production
+
+deploy:
+    type: rsync
