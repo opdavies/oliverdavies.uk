@@ -130,10 +130,10 @@ redirects:
 
 commands:
     build: |
-        vendor/bin/sculpin generate --env=prod
         yarn --pure-lockfile
         node_modules/.bin/bower install
         node_modules/.bin/gulp --production
+        vendor/bin/sculpin generate --env=prod
 
 deploy:
     restart_php: false
