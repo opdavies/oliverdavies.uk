@@ -128,7 +128,7 @@ redirects:
     "^/terms-and-conditions": { to: "/terms" }
     "^/work": { to: "/experience" }
 
-hooks:
+commands:
     build: |
         vendor/bin/sculpin generate --env=prod
         yarn --pure-lockfile
