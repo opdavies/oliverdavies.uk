@@ -136,4 +136,6 @@ hooks:
         node_modules/.bin/gulp --production
 
 deploy:
+    restart_php: false
+    restart_webserver: true
     type: rsync
