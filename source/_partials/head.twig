@@ -9,9 +9,7 @@
         <meta name="description" content="{{ page.meta.description|e('html') }}">
     {% endif %}
 
-    {% if page.meta.og %}
-        {% include 'og' with { og: page.meta.og } %}
-    {% endif %}
+    {% include 'og' with { og: page.meta.og } %}
 
     <link rel="stylesheet" href="{{ site.url }}/assets/css/site.css">
     {% block styles %}{% endblock %}
