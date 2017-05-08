@@ -13,6 +13,9 @@ availability:
     part: limited
     full: no
 
+avatar:
+    url: /assets/images/me-precedent.jpg
+
 companies:
     appnovation:        { name: Appnovation,           logo: appnovation.png,        url: 'https://www.appnovation.com' }
     cti:                { name: CTI Digital,           logo: cti-digital.png,        url: 'https://www.ctidigital.com' }
