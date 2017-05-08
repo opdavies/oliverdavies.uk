@@ -7,11 +7,6 @@ meta:
         title: 'Oliver Davies - Drupal Developer'
         description: 'The personal website and blog of Oliver Davies, a Drupal Developer and System Administrator from Wales, UK.'
         type: website
-        image:
-            url: /assets/images/oliver.jpg
-            width: 327
-            height: 327
-            type: image/jpg
 
 tools:
     - { title: Drupal, website: https://www.drupal.org }
@@ -25,7 +20,7 @@ use: [posts, testimonials]
 ---
 # About Me
 
-<img src="{{ site.gravatar.url }}?s=200" alt="Picture of Oliver" class="me img-circle">
+<img src="{{ site.images_url }}{{ site.avatar.url }}" alt="Picture of Oliver" class="me img-circle">
 
 My name is Oliver Davies (aka [opdavies][1]) - a Web Developer and System Administrator based in Wales, UK. I’m a PHP specialist, a {{ site.work.role }} at [{{ site.companies[site.work.company].name }}][20], former Developer at the [{{ site.companies.drupal_association.name }}][39], part-time freelancer, open source contributor, mentor and conference speaker.
 
