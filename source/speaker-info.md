@@ -10,11 +10,9 @@ use: [posts]
 
 ## Bio
 
-Oliver has been building websites since 2007, specialising in PHP and Drupal since 2008, and more recently also working with Symfony, Silex, Laravel and Sculpin. He is a {{ site.work.role }} at [{{ site.companies[site.work.company].name }}][0], a Drupal core contributor and module maintainer, and a provisional member of the Drupal Security team.
+[Oliver Davies][1] ([@{{ site.twitter.name }}][2]) has been building websites since 2007, specialising in PHP and Drupal since 2008, and more recently also working with Symfony, Silex, Laravel and Sculpin. He is a {{ site.work.role }} at [{{ site.companies[site.work.company].name }}][0], a Drupal core contributor and open source advocate.
 
-In his spare time, Oliver can usually be found attending or organising a user group or conference, or working on freelance or open source projects.
-
-You can find him on Twitter, Drupal.org and GitHub as _opdavies_.
+He regularly blogs and gives talks about web development and systems administration, maintains and contributes to various open source projects, and co-organises his local Drupal and PHP meetups and conferences.
 
 ## Photo
 
@@ -38,3 +36,5 @@ Here are some videos of my previous talks:
 - <https://www.youtube.com/watch?v=Yi_FPI3xHwc>
 
 [0]: {{site.companies[site.work.company].url}}
+[1]: {{site.url}}
+[2]: {{site.twitter.url}}
