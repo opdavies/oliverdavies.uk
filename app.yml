@@ -1,5 +1,16 @@
-build:
-  type: composer
+api: '1'
+
+sculpin:
+  theme:
+    build:
+      bower: yes
+      npm: no
+      type: gulp
+      yarn: yes
+    path: ~
+
+composer:
+  install: yes
 
 redirects:
     "^/about": { to: "/" }
@@ -128,14 +139,10 @@ redirects:
     "^/terms-and-conditions": { to: "/terms" }
     "^/work": { to: "/experience" }
 
-commands:
-    build: |
-        yarn --pure-lockfile
-        node_modules/.bin/bower install
-        node_modules/.bin/gulp --production
-        vendor/bin/sculpin generate --env=prod
-
 deploy:
-    restart_php: false
-    restart_webserver: true
-    type: rsync
+  restart_php: false
+  restart_webserver: true
+  rsync:
+    options: '-vzcrSLh'
+    delete: true
+  type: rsync
