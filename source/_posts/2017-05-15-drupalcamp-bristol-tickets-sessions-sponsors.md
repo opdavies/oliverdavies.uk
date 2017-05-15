@@ -36,7 +36,7 @@ In less than two months time, [DrupalCamp Bristol][0] will be back for our third
 
 Today we announced [Emma Karayiannis][3] as our Saturday keynote speaker, and we’ll be announcing some of the other speakers later this week.
 
-Not submitted your session yet? The call for sessions is open until May 31st. We’re looking for talks not only on Drupal, but other related topics such as PHP, Symfony, server administration/DevOps, project management, case studies, being human etc. If you want to submit but want to ask something beforehand, please [send us an email][4] or ping us on [Twitter][5].
+Not submitted your session yet? The [session submissions][12] are open until May 31st. We’re looking for talks not only on Drupal, but other related topics such as PHP, Symfony, server administration/DevOps, project management, case studies, being human etc. If you want to submit but want to ask something beforehand, please [send us an email][4] or ping us on [Twitter][5].
 
 Not spoken at a DrupalCamp before? No problem. We’re looking for both new and experienced speakers, and have both long (45 minutes) and short (20 minutes) talk slots available.
 
@@ -59,3 +59,4 @@ Any other questions? Take a look at [our website][0] or get in touch via [Twitte
 [9]: http://www.proctors.co.uk
 [10]: https://www.eventbrite.co.uk/e/drupalcamp-bristol-2017-tickets-33574193316#ticket
 [11]: mailto:info@drupalcampbristol.co.uk
+[12]: https://2017.drupalcampbristol.co.uk/#block-dcb2017-page-title
