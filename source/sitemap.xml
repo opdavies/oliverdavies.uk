@@ -1,6 +1,6 @@
 ---
 permalink: sitemap.xml
-use: [posts]
+use: [posts, talks]
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -36,4 +36,14 @@ use: [posts]
     <priority>1.0</priority>
   </url>
   {% endfor %}
+
+  {% for talk in data.talks if not talk.hide_page %}
+  <url>
+    <loc>{{ site.url }}{{ talk.url }}/</loc>
+    <lastmod>{{ talk.date|date('c') }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {% endfor %}
+
 </urlset>
