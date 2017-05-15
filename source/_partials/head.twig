@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="{{ site.url }}/assets/css/site.css">
     {% block styles %}{% endblock %}
 
-    {% for size in site.apple_touch_icon_sizes %}
+    {% for size in [57, 60, 72, 76, 114, 120, 144, 152] %}
         <link rel="apple-touch-icon" href="{{ site.avatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
     {% endfor %}
 
-    {% for size in site.favicon_sizes %}
+    {% for size in [16, 32, 96, 160] %}
         <link rel="icon" href="{{ site.avatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
     {% endfor %}
 </head>
