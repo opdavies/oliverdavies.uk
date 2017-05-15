@@ -23,9 +23,13 @@
 
                     {% if not hide_talk %}
                         <td>
-                            <a href="{{ event.talk.url }}">
+                            {% if not event.talk.hide_page %}
+                                <a href="{{ event.talk.url }}">
+                                    {{ event.talk.title }}
+                                </a>
+                            {% else %}
                                 {{ event.talk.title }}
-                            </a>
+                            {% endif %}
 
                             {% if event.talk.type %}
                                 <small class="talk-type">
