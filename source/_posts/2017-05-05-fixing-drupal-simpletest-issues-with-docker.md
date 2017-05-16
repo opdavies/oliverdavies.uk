@@ -73,6 +73,8 @@ Running the tests again with the`--verbose` option, I saw this message appear in
 
 > simplexml_import_dom(): Invalid Nodetype to import
 
+**Update:** I later found that <https://www.drupal.org/docs/7/testing/running-tests-through-command-line#troubleshooting> references this error message, but I didn’t see this page within my original search.
+
 After checking that I had all of the required PHP extensions installed, I ran `docker-compose exec php bash` to connect to the `php` container and ran `curl http://localhost` to check the output. Rather than seeing the HTML for the site, I got this error message:
 
 > curl: (7) Failed to connect to localhost port 80: Connection refused
