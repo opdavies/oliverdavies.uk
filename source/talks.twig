@@ -5,40 +5,46 @@ meta:
     description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
 use: [talks, posts]
 ---
-<h1>Talks</h1>
+{% block content %}
+    <h1>Talks</h1>
 
-<p>I regularly speak at conferences and user groups about a range of subjects including Drupal, Sculpin and Git. If you would like to me to speak at your group or conference, please <a href="/contact/">get in touch</a>.</p>
+    <p>I regularly speak at conferences and user groups about a range of subjects including Drupal, Sculpin and Git. If you would like to me to speak at your group or conference, please <a href="/contact/">get in touch</a>.</p>
 
-<p>There is also information about events that I’ve attended and spoken at on my <a href="{{ site.lanyrd.url }}">Lanyrd</a> and <a href="{{ site.joindin.url }}">Joind.in</a> profiles.</p>
+    <p>There is also information about events that I’ve attended and spoken at on my <a href="{{ site.lanyrd.url }}">Lanyrd</a> and <a href="{{ site.joindin.url }}">Joind.in</a> profiles.</p>
 
-{% set upcoming_events = [] %}
-{% set past_events = [] %}
+    {% set upcoming_events = [] %}
+    {% set past_events = [] %}
 
-{% for talk in data.talks %}
-    {% for event in talk.events if event.date >= 'today'|date('Y-m-d') %}
-        {% set event = event|merge({ talk: talk })|merge(site.events[event.id]) %}
-        {% set upcoming_events = upcoming_events|merge([event]) %}
+    {% for talk in data.talks %}
+        {% for event in talk.events if event.date >= 'today'|date('Y-m-d') %}
+            {% set event = event|merge({ talk: talk })|merge(site.events[event.id]) %}
+            {% set upcoming_events = upcoming_events|merge([event]) %}
+        {% endfor %}
+
+        {% for event in talk.events if event.date < 'today'|date('Y-m-d') %}
+            {% set event = event|merge({ talk: talk })|merge(site.events[event.id]) %}
+            {% set past_events = past_events|merge([event]) %}
+        {% endfor %}
     {% endfor %}
 
-    {% for event in talk.events if event.date < 'today'|date('Y-m-d') %}
-        {% set event = event|merge({ talk: talk })|merge(site.events[event.id]) %}
-        {% set past_events = past_events|merge([event]) %}
-    {% endfor %}
-{% endfor %}
+    {% if upcoming_events is not empty %}
+        <h2>Upcoming Talks</h2>
 
-{% if upcoming_events is not empty %}
-    <h2>Upcoming Talks</h2>
+        {% include "talks-table" with {
+            events: upcoming_events|sortbyfield('date'),
+            hide_feedback: true,
+        } %}
+    {% endif %}
+
+    <h2>Last 5 Talks</h2>
 
     {% include "talks-table" with {
-        events: upcoming_events|sortbyfield('date'),
-        hide_feedback: true,
+        events: past_events|sortbyfield('date')|reverse[:5]
     } %}
-{% endif %}
 
-<h2>Last 5 Talks</h2>
+    <p>You can view more talks in the <a href="/talks/archive">talks archive</a>.</p>
+{% endblock %}
 
-{% include "talks-table" with {
-    events: past_events|sortbyfield('date')|reverse[:5]
-} %}
-
-<p>You can view more talks in the <a href="/talks/archive">talks archive</a>.</p>
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/talks-table.css">
+{% endblock %}

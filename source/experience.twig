@@ -99,11 +99,17 @@ experiences:
           Maintaining and adding new features to the Horse & Country TV website (Drupal 6).
 use: [posts]
 ---
-<h1>Experience</h1>
+{% block content %}
+    <h1>Experience</h1>
 
-{% for experience in page.experiences %}
-    {% include "experience/item" with {
-        experience: experience,
-        company: site.companies[experience.company]
-    } %}
-{% endfor %}
+    {% for experience in page.experiences %}
+        {% include "experience/item" with {
+            experience: experience,
+            company: site.companies[experience.company]
+        } %}
+    {% endfor %}
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/experience.css">
+{% endblock %}

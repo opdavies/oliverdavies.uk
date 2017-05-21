@@ -18,6 +18,7 @@ tools:
     - { title: Ansible, website: http://www.ansible.com }
 use: [posts, testimonials]
 ---
+{% block content %}
 # About Me
 
 <img src="{{ site.images_url }}{{ site.avatar.url }}" alt="Picture of Oliver" class="me img-circle">
@@ -47,6 +48,11 @@ I’m a provisional member of the [Drupal Security team][14] and a webmaster and
 - [Stack Overflow][37]
 - [Disqus][38]
 - IRC (freenode) - {{ site.irc.name }}
+{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" href="{{ site.url }}/assets/css/about.css">
+{% endblock %}
 
 [1]: https://www.google.com/#q=opdavies
 [2]: https://www.drupal.org

@@ -1,0 +1,39 @@
+@import '../../vendor/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/clearfix'
+
+.post-pager
+    clear: both
+    margin-top: 2em
+
+.post-pager div
+    flex: 1
+
+pre
+    display: block
+    overflow: auto
+    word-break: normal
+    word-wrap: no-wrap
+
+pre[class*="language-"]
+    border: 0
+    border-radius: 0
+    margin: 1.5em 0
+
+pre code
+    white-space: pre
+    word-break: normal
+
+code.hljs
+    background-color: inherit
+    padding: 0
+
+code[data-gist-id]
+    background: transparent
+    padding: 0
+
+.about-author
+    +clearfix
+
+    img
+        float: left
+        margin: 0 1em 1em 0
+        width: 50px
