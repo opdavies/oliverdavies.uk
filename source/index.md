@@ -18,11 +18,12 @@ tools:
     - { title: Ansible, website: http://www.ansible.com }
 use: [posts, testimonials]
 ---
+{% block content %}
 # About Me
 
 <img src="{{ site.images_url }}{{ site.avatar.url }}" alt="Picture of Oliver" class="me img-circle">
 
-My name is Oliver Davies (aka [opdavies][1]) - a Web Developer and System Administrator based in Wales, UK. I’m a PHP specialist, a {{ site.work.role }} at [{{ site.companies[site.work.company].name }}][20], former Developer at the [{{ site.companies.drupal_association.name }}][39], part-time freelancer, open source contributor, mentor and conference speaker.
+My name is Oliver Davies (aka [opdavies][1]) - a Web Developer and System Administrator based in Wales, UK. I’m a PHP specialist, a {{ site.work.role }} at [{{ site.companies[site.work.company].name }}][20], former Developer at the [{{ site.companies.drupal_association.name }}][39], part-time freelancer, open source contributor and advocate, mentor and conference speaker.
 
 I’m a provisional member of the [Drupal Security team][14] and a webmaster and documentation maintainer for Drupal.org. [I speak at various user groups and conferences][40], and co-organise the [Drupal Bristol user group][15], [PHPSW][17] and [DrupalCamp Bristol][18].
 
@@ -47,6 +48,11 @@ I’m a provisional member of the [Drupal Security team][14] and a webmaster and
 - [Stack Overflow][37]
 - [Disqus][38]
 - IRC (freenode) - {{ site.irc.name }}
+{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" href="{{ site.url }}/assets/css/about.css">
+{% endblock %}
 
 [1]: https://www.google.com/#q=opdavies
 [2]: https://www.drupal.org

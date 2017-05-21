@@ -99,38 +99,44 @@ experiences:
           Maintaining and adding new features to the Horse & Country TV website (Drupal 6).
 use: [posts]
 ---
-<h1>Experience</h1>
+{% block content %}
+    <h1>Experience</h1>
 
-{% for experience in page.experiences %}
-    {% set company = site.companies[experience.company] %}
+    {% for experience in page.experiences %}
+        {% set company = site.companies[experience.company] %}
 
-    <div class="experience-item{% if company.logo %} has-logo{% endif %}">
-        {% if company.logo %}
-            <div class="experience-item-logo">
-                <img src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.name }} logo">
-            </div>
-        {% endif %}
-
-        <div class="experience-item-inner">
-            <h2>{{ company.name }}</h2>
-
-            {% if company.url -%}
-                <a class="experience-item-website" href="{{ company.url }}">
-                    {{- company.url -}}
-                </a>
-            {%- endif %}
-
-            <div class="experience-item-role">
-                {{- experience.role }} from {{ experience.start }} to {{ experience.end|default('Present') -}}
-                {%- if experience.location %} ({{ experience.location }}){% endif %}.
-            </div>
-
-            {% if experience.description %}
-                <div class="experience-item-description">
-                    {{ experience.description|markdown }}
+        <div class="experience-item{% if company.logo %} has-logo{% endif %}">
+            {% if company.logo %}
+                <div class="experience-item-logo">
+                    <img src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.name }} logo">
                 </div>
             {% endif %}
 
-        </div>{# /.inner #}
-    </div>
-{% endfor %}
+            <div class="experience-item-inner">
+                <h2>{{ company.name }}</h2>
+
+                {% if company.url -%}
+                    <a class="experience-item-website" href="{{ company.url }}">
+                        {{- company.url -}}
+                    </a>
+                {%- endif %}
+
+                <div class="experience-item-role">
+                    {{- experience.role }} from {{ experience.start }} to {{ experience.end|default('Present') -}}
+                    {%- if experience.location %} ({{ experience.location }}){% endif %}.
+                </div>
+
+                {% if experience.description %}
+                    <div class="experience-item-description">
+                        {{ experience.description|markdown }}
+                    </div>
+                {% endif %}
+
+            </div>{# /.inner #}
+        </div>
+    {% endfor %}
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/experience.css">
+{% endblock %}

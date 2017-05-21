@@ -41,3 +41,8 @@
         {% include "talks-table" with { events: events, hide_talk: true } %}
     </div>{# .talk-events #}
 {% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/talk.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/talks-table.css">
+{% endblock %}
