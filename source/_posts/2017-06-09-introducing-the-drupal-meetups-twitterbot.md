@@ -3,7 +3,6 @@ title: Introducing the Drupal Meetups Twitterbot
 tags:
     - twitter
     - php
-draft: true
 ---
 {% block excerpt %}
 <img src="/assets/images/blog/drupal-meetups-twitterbot.png" alt="" class="is-centered">
