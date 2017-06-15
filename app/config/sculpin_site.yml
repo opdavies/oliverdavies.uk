@@ -87,31 +87,50 @@ packagist:
     url: https://packagist.org/users/opdavies
 
 skills:
-    ansible:         { title: Ansible,         image: ~ }
-    behat:           { title: Behat,           image: ~ }
-    compass:         { title: Compass,         image: compass.png }
-    composer:        { title: Composer,        image: ~ }
-    docker:          { title: Docker,          image: ~ }
-    drupal:          { title: Drupal,          image: drupal.png }
-    drupal-commerce: { title: Drupal Commerce, image: drupal-commerce.png }
-    git:             { title: Git,             image: git.png }
-    grunt:           { title: Grunt,           image: ~ }
-    gulp:            { title: Gulp,            image: ~ }
-    jekyll:          { title: Jekyll,          image: ~ }
-    jenkins:         { title: Jenkins,         image: jenkins.png }
-    laravel:         { title: Laravel,         image: ~ }
-    less:            { title: Less,            image: less.png }
-    linux:           { title: Linux,           image: ~ }
-    php:             { title: PHP,             image: php.png }
-    phpunit:         { title: PHPUnit,         image: ~ }
-    puppet:          { title: Puppet,          image: ~ }
-    sass:            { title: Sass,            image: sass.png }
-    silex:           { title: Silex,           image: ~ }
-    simpletest:      { title: SimpleTest,      image: ~ }
-    svn:             { title: Subversion,      image: svn.jpg }
-    symfony:         { title: Symfony,         image: ~ }
-    twig:            { title: Twig,            image: ~ }
-    vagrant:         { title: Vagrant,         image: ~ }
+    0:
+        - { name: Drupal,          image: drupal.png }
+        - { name: Drupal Commerce, image: drupal-commerce.png }
+        - { name: PHP,             image: php.png }
+        - { name: Composer,        image: composer.png }
+        - { name: Symfony,         image: symfony.png }
+        - { name: Silex,           image: silex.png }
+        - { name: Sculpin,         image: sculpin.png }
+        - { name: Twig,            image: twig.png }
+        - { name: Jekyll,          image: jekyll.png }
+        - { name: PHPUnit,         image: phpunit.png }
+        - { name: SimpleTest,      image: simpletest.png }
+        - { name: Behat,           image: behat.png }
+        - { name: Gulp,            image: gulp.png }
+        - { name: Bower,           image: bower.png }
+        - { name: NPM,             image: npm.png }
+        - { name: Sass,            image: sass.png }
+        - { name: jQuery,          image: jquery.gif }
+        - { name: Git,             image: git.png }
+        - { name: Linux,           image: linux.png }
+        - { name: Debian,          image: debian.png }
+        - { name: Ubuntu,          image: ubuntu.png }
+        - { name: CentOS,          image: centos.png }
+        - { name: Vagrant,         image: vagrant.png }
+        - { name: Docker,          image: docker.png }
+        - { name: Nginx,           image: nginx.png }
+        - { name: MySQL,           image: mysql.png }
+        - { name: MariaDB,         image: mariadb.png }
+        - { name: Ansible,         image: ansible.png }
+        - { name: Puppet,          image: puppet.png }
+        - { name: Fabric,          image: fabric.png }
+        - { name: Jenkins,         image: jenkins.png }
+    1:
+        - { name: Ubercart,        image: ubercart.png }
+        - { name: WordPress,       image: wordpress.png }
+        - { name: Subversion,      image: svn.jpg }
+        - { name: Grunt,           image: grunt.png }
+        - { name: Less,            image: less.png }
+        - { name: Compass,         image: compass.png }
+        - { name: Apache,          image: apache.png }
+        - { name: Apache Solr,     image: solr.png }
+    2:
+        - { name: Laravel,         image: laravel.png }
+        - { name: Lumen,           image: lumen.png }
 
 speakerdeck:
     url: https://speakerdeck.com/opdavies
