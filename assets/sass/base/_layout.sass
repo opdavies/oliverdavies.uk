@@ -9,3 +9,7 @@
 
 .flex
     flex: 1
+
+@each $value in 'block' 'inline' 'inline-block'
+    .display-#{$value}
+        display: #{$value}
