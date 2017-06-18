@@ -64,7 +64,7 @@ gulp.task('styles', function () {
 
 gulp.task('scripts', function () {
     return gulp.src([
-        'node_modules/jquery2/jquery.js',
+        'node_modules/jquery/dist/jquery.js',
         'node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
         'node_modules/prism/prism.js',
         'node_modules/prism/components/prism-{apacheconf,bash,css,diff,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
