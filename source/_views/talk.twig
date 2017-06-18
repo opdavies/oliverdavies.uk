@@ -11,9 +11,35 @@
         {% block content %}{% endblock %}
     </div>
 
-    {% include 'talk/slides' %}
-    {% include 'talk/video' %}
-    {% include 'talk/events' %}
+    {% if page.slides.embed %}
+        <div class="talk-slides">
+            <h2>Slides</h2>
+            <div class="presentation">
+                {{ page.slides.embed|raw }}
+            </div>{# .presentation #}
+        </div>{# .talk-slides #}
+    {% endif %}
+
+    {% if page.video.embed %}
+        <div class="talk-video">
+            <h2>Video</h2>
+            <div class="embed-container">
+                {{ page.video.embed|raw }}
+            </div>
+        </div>{# .talk-video #}
+    {% endif %}
+
+    <div class="talk-events">
+        <h2>Events</h2>
+
+        {% set events = [] %}
+        {% for event in page.events %}
+            {% set event = event|merge({ talk: page })|merge(site.events[event.id]) %}
+            {% set events = events|merge([event]) %}
+        {% endfor %}
+
+        {% include "talks-table" with { events: events, hide_talk: true } %}
+    </div>{# .talk-events #}
 {% endblock %}
 
 {% block stylesheets %}

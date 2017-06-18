@@ -103,10 +103,37 @@ use: [posts]
     <h1>Experience</h1>
 
     {% for experience in page.experiences %}
-        {% include "experience/item" with {
-            experience: experience,
-            company: site.companies[experience.company]
-        } %}
+        {% set company = site.companies[experience.company] %}
+
+        <div class="experience-item{% if company.logo %} has-logo{% endif %}">
+            {% if company.logo %}
+                <div class="experience-item-logo">
+                    <img src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.name }} logo">
+                </div>
+            {% endif %}
+
+            <div class="experience-item-inner">
+                <h2>{{ company.name }}</h2>
+
+                {% if company.url -%}
+                    <a class="experience-item-website" href="{{ company.url }}">
+                        {{- company.url -}}
+                    </a>
+                {%- endif %}
+
+                <div class="experience-item-role">
+                    {{- experience.role }} from {{ experience.start }} to {{ experience.end|default('Present') -}}
+                    {%- if experience.location %} ({{ experience.location }}){% endif %}.
+                </div>
+
+                {% if experience.description %}
+                    <div class="experience-item-description">
+                        {{ experience.description|markdown }}
+                    </div>
+                {% endif %}
+
+            </div>{# /.inner #}
+        </div>
     {% endfor %}
 {% endblock %}
 

@@ -3,7 +3,7 @@ api: '1'
 sculpin:
   theme:
     build:
-      bower: yes
+      bower: no
       npm: no
       type: gulp
       yarn: yes

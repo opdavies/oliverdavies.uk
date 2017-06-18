@@ -5,7 +5,6 @@ var plugins = require('gulp-load-plugins')();
 var del = require('del');
 
 var config = {
-    bowerDir: 'vendor/bower_components',
     fontsDir: 'source/assets/fonts',
     js: {
         sourceDir: 'assets/js',
@@ -46,14 +45,14 @@ app.sass = function (sourceFiles, filename) {
 
 gulp.task('styles', function () {
     app.sass([
-        config.bowerDir + '/font-awesome/css/font-awesome.css',
+        'node_modules/font-awesome/css/font-awesome.css',
         config.sass.sourceDir + '/main.sass'
     ], 'main.css');
 
     app.sass(config.sass.sourceDir + '/about.sass', 'about.css');
     app.sass(config.sass.sourceDir + '/blog.sass', 'blog.css');
     app.sass([
-        config.bowerDir + '/prism/themes/prism-twilight.css',
+        'node_modules/prism/themes/prism-twilight.css',
         config.sass.sourceDir + '/blog-post.sass'
     ], 'blog-post.css');
     app.sass(config.sass.sourceDir + '/experience.sass', 'experience.css');
@@ -65,10 +64,10 @@ gulp.task('styles', function () {
 
 gulp.task('scripts', function () {
     return gulp.src([
-        config.bowerDir + '/jquery2/jquery.js',
-        config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js',
-        config.bowerDir + '/prism/prism.js',
-        config.bowerDir + '/prism/components/prism-{apacheconf,bash,css,diff,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
+        'node_modules/jquery/dist/jquery.js',
+        'node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
+        'node_modules/prism/prism.js',
+        'node_modules/prism/components/prism-{apacheconf,bash,css,diff,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
         config.js.sourceDir + config.js.pattern
     ])
         .pipe(plugins.plumber())
@@ -80,7 +79,7 @@ gulp.task('scripts', function () {
 });
 
 gulp.task('fonts', function () {
-    return gulp.src(config.bowerDir + "/font-awesome/fonts/*")
+    return gulp.src('node_modules/font-awesome/fonts/*')
         .pipe(gulp.dest(config.fontsDir));
 });
 
