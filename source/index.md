@@ -94,4 +94,4 @@ I’m a provisional member of the [Drupal Security team][14] and a webmaster and
 [38]: https://disqus.com/by/opdavies
 [39]: {{site.companies.drupal_association.url}}
 [40]: {{site.url}}/talks
-[41]: https://www.acquia.com/certification
+[41]: http://certification.acquia.com/registry?fname=Oliver&lname=Davies&country=United+Kingdom
