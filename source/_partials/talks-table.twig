@@ -12,7 +12,9 @@
             {% for event in events %}
                 <tr>
                     <td class="column-date">
-                        {{ event.date|date('j F Y') }}
+                        <div class="event-date display-block">
+                            {{ event.date|date('j F Y') }}
+                        </div>
 
                         {% if event.time %}
                             <small class="talk-type">
@@ -23,13 +25,15 @@
 
                     {% if not hide_talk %}
                         <td>
-                            {% if not event.talk.hide_page %}
-                                <a href="{{ event.talk.url }}">
+                            <div class="display-block">
+                                {% if not event.talk.hide_page %}
+                                    <a href="{{ event.talk.url }}">
+                                        {{ event.talk.title }}
+                                    </a>
+                                {% else %}
                                     {{ event.talk.title }}
-                                </a>
-                            {% else %}
-                                {{ event.talk.title }}
-                            {% endif %}
+                                {% endif %}
+                            </div>
 
                             {% if event.talk.type %}
                                 <small class="talk-type">
@@ -40,9 +44,11 @@
                     {% endif %}
 
                     <td class="column-event">
-                        {% if event.url %}<a href="{{ event.url }}">{% endif %}
-                        {{ event.title }}
-                        {% if event.url %}</a>{% endif %}
+                        <div class="display-block">
+                            {% if event.url %}<a href="{{ event.url }}">{% endif %}
+                            {{ event.title }}
+                            {% if event.url %}</a>{% endif %}
+                        </div>
 
                         {% if event.location %}
                             <small class="event-location">
