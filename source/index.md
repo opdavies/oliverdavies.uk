@@ -27,12 +27,9 @@ My name is Oliver Davies (aka [opdavies][1]) - a Web Developer and System Admini
 
 I’m a provisional member of the [Drupal Security team][14] and a webmaster and documentation maintainer for Drupal.org. [I speak at various user groups and conferences][40], and co-organise the [Drupal Bristol user group][15], [PHPSW][17] and [DrupalCamp Bristol][18].
 
-## Proficiencies
+## Skills
 
-- PHP, Drupal (6, 7, 8), Symfony, Silex, Laravel, Sculpin, Jekyll
-- PHPUnit, SimpleTest, Behat
-- HTML, Twig, CSS, Less, Sass, JavaScript, jQuery, Grunt, Gulp
-- Linux (Debian, Red Hat), Vagrant, Docker, Puppet, Ansible, Jenkins, Fabric
+{% include 'skills-list' with { skills: site.skills[0] } %}
 
 ## Elsewhere
 
