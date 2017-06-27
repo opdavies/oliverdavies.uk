@@ -117,6 +117,11 @@ skills:
         - { name: Ansible,         image: ansible.png }
         - { name: Fabric,          image: fabric.png }
         - { name: Jenkins,         image: jenkins.png }
+        - { name: Acquia,          image: acquia.png }
+        - { name: Pantheon,        image: pantheon.png }
+        - { name: 'Platform.sh',   image: platform.png }
+        - { name: Amazon AWS,      image: amazon.png }
+        - { name: Linode,          image: linode.png }
     1:
         - { name: Ubercart,        image: ubercart.png }
         - { name: WordPress,       image: wordpress.png }
