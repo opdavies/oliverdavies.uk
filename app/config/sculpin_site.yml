@@ -89,7 +89,7 @@ packagist:
 skills:
     0:
         - { name: Drupal, image: drupal.png }
-        - { name: Drupal Commerce image: drupal-commerce.png }
+        - { name: Drupal Commerce, image: drupal-commerce.png }
         - { name: PHP, image: php.png }
         - { name: Composer, image: composer.png }
         - { name: Symfony, image: symfony.png }
