@@ -39,21 +39,21 @@ drupalorg:
 email: oliver+website@oliverdavies.uk
 
 events:
-    drupal-bristol:         { title: Drupal Bristol,           location: 'Bristol, UK',    url: 'https://www.drupalbristol.org.uk' }
-    drupalcamp-brighton-15: { title: DrupalCamp Brighton 2015, location: 'Brighton, UK',   url: ~ }
-    drupalcamp-bristol-16:  { title: DrupalCamp Bristol 2016,  location: 'Bristol, UK',    url: 'https://www.drupalcampbristol.org.uk' }
-    drupalcamp-london-14:   { title: DrupalCamp London 2014,   location: 'London, UK',     url: ~ }
-    drupalcamp-london-15:   { title: DrupalCamp London 2015,   location: 'London, UK',     url: ~ }
-    drupalcamp-london-16:   { title: DrupalCamp London 2016,   location: 'London, UK',     url: ~ }
-    drupalcamp-london-17:   { title: DrupalCamp London 2017,   location: 'London, UK',     url: 'https://drupalcamp.london' }
-    drupalcamp-north-15:    { title: DrupalCamp North 2015,    location: 'Sunderland, UK', url: 'http://drupalcampnorth.org' }
-    nomad_php:              { title: Nomad PHP,                location: Online,           url: 'https://nomadphp.com' }
-    nwdug:                  { title: NWDUG,                    location: 'Manchester, UK', url: 'http://nwdrupal.org.uk' }
-    phpsc-16:               { title: PHP South Coast 2016,     location: 'Portsmouth, UK', url: 'http://2016.phpsouthcoast.co.uk' }
-    phpsw:                  { title: PHPSW,                    location: 'Bristol, UK',    url: 'https://phpsw.uk' }
-    swdug:                  { title: SWDUG,                    location: 'Cardiff, UK',    url: ~ }
-    udiff:                  { title: Unified Diff,             location: 'Cardiff, UK',    url: 'http://unifieddiff.co.uk' }
-    umbristol:              { title: umBristol,                location: 'Bristol, UK',    url: 'http://umbristol.co.uk' }
+    drupal-bristol: { title: Drupal Bristol, location: 'Bristol, UK', url: 'https://www.drupalbristol.org.uk' }
+    drupalcamp-brighton-15 { title: DrupalCamp Brighton 2015 location: 'Brighton, UK', url: ~ }
+    drupalcamp-bristol-16: { title: DrupalCamp Bristol 2016, location: 'Bristol, UK', url: 'https://www.drupalcampbristol.org.uk' }
+    drupalcamp-london-14: { title: DrupalCamp London 2014, location: 'London, UK', url: ~ }
+    drupalcamp-london-15: { title: DrupalCamp London 2015, location: 'London, UK', url: ~ }
+    drupalcamp-london-16: { title: DrupalCamp London 2016, location: 'London, UK', url: ~ }
+    drupalcamp-london-17: { title: DrupalCamp London 2017, location: 'London, UK', url: 'https://drupalcamp.london' }
+    drupalcamp-north-15: { title: DrupalCamp North 2015, location: 'Sunderland, UK', url: 'http://drupalcampnorth.org' }
+    nomad_php: { title: Nomad PHP, location: Online, url: 'https://nomadphp.com' }
+    nwdug: { title: NWDUG, location: 'Manchester, UK', url: 'http://nwdrupal.org.uk' }
+    phpsc-16: { title: PHP South Coast 2016, location: 'Portsmouth, UK', url: 'http://2016.phpsouthcoast.co.uk' }
+    phpsw: { title: PHPSW, location: 'Bristol, UK', url: 'https://phpsw.uk' }
+    swdug: { title: SWDUG, location: 'Cardiff, UK', url: ~ }
+    udiff: { title: Unified Diff, location: 'Cardiff, UK', url: 'http://unifieddiff.co.uk' }
+    umbristol: { title: umBristol, location: 'Bristol, UK', url: 'http://umbristol.co.uk' }
 
 github:
     name: opdavies
@@ -77,10 +77,10 @@ linkedin:
     url: http://uk.linkedin.com/in/opdavies
 
 meetups:
-    - { name: Drupal Bristol,     logo: drupal-bristol.jpeg,    url: 'http://www.drupalbristol.org.uk' }
+    - { name: Drupal Bristol, logo: drupal-bristol.jpeg, url: 'http://www.drupalbristol.org.uk' }
     - { name: DrupalCamp Bristol, logo: drupalcamp-bristol.png, url: 'http://www.drupalcampbristol.co.uk' }
-    - { name: PHPSW,              logo: phpsw.jpeg,             url: 'http://phpsw.uk' }
-    # - { name: SWDUG,              logo: swdug.png,              url: http://swdug.org.uk }
+    - { name: PHPSW, logo: phpsw.jpeg, url: 'http://phpsw.uk' }
+    # - { name: SWDUG, logo: swdug.png, url: http://swdug.org.uk }
 
 packagist:
     name: opdavies
@@ -88,54 +88,54 @@ packagist:
 
 skills:
     0:
-        - { name: Drupal,          image: drupal.png }
-        - { name: Drupal Commerce, image: drupal-commerce.png }
-        - { name: PHP,             image: php.png }
-        - { name: Composer,        image: composer.png }
-        - { name: Symfony,         image: symfony.png }
-        - { name: Silex,           image: silex.png }
-        - { name: Sculpin,         image: sculpin.png }
-        - { name: Twig,            image: twig.png }
-        - { name: PHPUnit,         image: phpunit.png }
-        - { name: SimpleTest,      image: simpletest.png }
-        - { name: Behat,           image: behat.png }
-        - { name: Gulp,            image: gulp.png }
-        - { name: Bower,           image: bower.png }
-        - { name: NPM,             image: npm.png }
-        - { name: Sass,            image: sass.png }
-        - { name: jQuery,          image: jquery.gif }
-        - { name: Git,             image: git.png }
-        - { name: Linux,           image: linux.png }
-        - { name: Debian,          image: debian.png }
-        - { name: Ubuntu,          image: ubuntu.png }
-        - { name: CentOS,          image: centos.png }
-        - { name: Vagrant,         image: vagrant.png }
-        - { name: Docker,          image: docker.png }
-        - { name: Nginx,           image: nginx.png }
-        - { name: MySQL,           image: mysql.png }
-        - { name: MariaDB,         image: mariadb.png }
-        - { name: Ansible,         image: ansible.png }
-        - { name: Fabric,          image: fabric.png }
-        - { name: Jenkins,         image: jenkins.png }
-        - { name: Acquia,          image: acquia.png }
-        - { name: Pantheon,        image: pantheon.png }
-        - { name: 'Platform.sh',   image: platform.png }
-        - { name: Amazon AWS,      image: amazon.png }
-        - { name: Linode,          image: linode.png }
+        - { name: Drupal, image: drupal.png }
+        - { name: Drupal Commerce image: drupal-commerce.png }
+        - { name: PHP, image: php.png }
+        - { name: Composer, image: composer.png }
+        - { name: Symfony, image: symfony.png }
+        - { name: Silex, image: silex.png }
+        - { name: Sculpin, image: sculpin.png }
+        - { name: Twig, image: twig.png }
+        - { name: PHPUnit, image: phpunit.png }
+        - { name: SimpleTest, image: simpletest.png }
+        - { name: Behat, image: behat.png }
+        - { name: Gulp, image: gulp.png }
+        - { name: Bower, image: bower.png }
+        - { name: NPM, image: npm.png }
+        - { name: Sass, image: sass.png }
+        - { name: jQuery, image: jquery.gif }
+        - { name: Git, image: git.png }
+        - { name: Linux, image: linux.png }
+        - { name: Debian, image: debian.png }
+        - { name: Ubuntu, image: ubuntu.png }
+        - { name: CentOS, image: centos.png }
+        - { name: Vagrant, image: vagrant.png }
+        - { name: Docker, image: docker.png }
+        - { name: Nginx, image: nginx.png }
+        - { name: MySQL, image: mysql.png }
+        - { name: MariaDB, image: mariadb.png }
+        - { name: Ansible, image: ansible.png }
+        - { name: Fabric, image: fabric.png }
+        - { name: Jenkins, image: jenkins.png }
+        - { name: Acquia, image: acquia.png }
+        - { name: Pantheon, image: pantheon.png }
+        - { name: 'Platform.sh', image: platform.png }
+        - { name: Amazon AWS, image: amazon.png }
+        - { name: Linode, image: linode.png }
     1:
-        - { name: Ubercart,        image: ubercart.png }
-        - { name: WordPress,       image: wordpress.png }
-        - { name: Jekyll,          image: jekyll.png }
-        - { name: Subversion,      image: svn.jpg }
-        - { name: Grunt,           image: grunt.png }
-        - { name: Less,            image: less.png }
-        - { name: Compass,         image: compass.png }
-        - { name: Puppet,          image: puppet.png }
-        - { name: Apache,          image: apache.png }
-        - { name: Apache Solr,     image: solr.png }
+        - { name: Ubercart, image: ubercart.png }
+        - { name: WordPress, image: wordpress.png }
+        - { name: Jekyll, image: jekyll.png }
+        - { name: Subversion, image: svn.jpg }
+        - { name: Grunt, image: grunt.png }
+        - { name: Less, image: less.png }
+        - { name: Compass, image: compass.png }
+        - { name: Puppet, image: puppet.png }
+        - { name: Apache, image: apache.png }
+        - { name: Apache Solr, image: solr.png }
     2:
-        - { name: Laravel,         image: laravel.png }
-        - { name: Lumen,           image: lumen.png }
+        - { name: Laravel, image: laravel.png }
+        - { name: Lumen, image: lumen.png }
 
 speakerdeck:
     url: https://speakerdeck.com/opdavies

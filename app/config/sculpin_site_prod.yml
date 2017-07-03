@@ -1,6 +1,6 @@
 ---
 imports:
-  - sculpin_site.yml
+    - sculpin_site.yml
 url: https://www.oliverdavies.uk
 images_url: //images.oliverdavies.uk
 short_url: oliverdavies.uk
