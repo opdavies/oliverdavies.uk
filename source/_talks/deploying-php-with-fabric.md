@@ -1,14 +1,13 @@
 ---
 title: Deploying PHP Applications with Fabric
-type: Lightning talk
-location: Nomad PHP
+type: Talk
 slides:
     url: https://speakerdeck.com/opdavies/deploying-php-applications-with-fabric
     embed: '<script async class="speakerdeck-embed" data-id="c147618ce07546ca92f92983c52d6a41" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>'
 video:
     embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/kM0MDUJE8ys" frameborder="0" allowfullscreen></iframe>'
     url: https://www.youtube.com/watch?v=kM0MDUJE8ys
-tags: [meetup, php, fabric]
+tags: [meetup, conference, php, fabric]
 meta:
     og:
         title: Deploying PHP Applcations with Fabric
@@ -21,6 +20,7 @@ meta:
             type: image/png
 events:
     - { id: nomad_php, date: '2017-04-20', time: '19:00 (CET)' }
+    - { id: phpnw-17, date: '2017-09', fuzzy_date: true }
 ---
 You’ve built your application, and now you just need to deploy it. There are various ways that this could be done – from (S)FTP, to SCP and rsync, to running commands like “git pull” and “composer install” directly on the server (not recommended).
 

@@ -115,6 +115,10 @@ events:
         title: NWDUG
         location: 'Manchester, UK'
         url: 'http://nwdrupal.org.uk'
+    phpnw-17:
+        title: PHP North West 2017
+        location: 'Manchester, UK'
+        url: 'http://conference.phpnw.org.uk/phpnw17'
     phpsc-16:
         title: PHP South Coast 2016
         location: 'Portsmouth, UK'

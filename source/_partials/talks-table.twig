@@ -13,7 +13,11 @@
                 <tr>
                     <td class="column-date">
                         <div class="event-date display-block">
-                            {{ event.date|date('j F Y') }}
+                            {% if event.fuzzy_date %}
+                                {{ event.date|date('F Y') }}
+                            {% else %}
+                                {{ event.date|date('j F Y') }}
+                            {% endif %}
                         </div>
 
                         {% if event.time %}
