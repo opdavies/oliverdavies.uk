@@ -38,6 +38,7 @@ I’m a provisional member of the [Drupal Security team][14] and a webmaster and
 - [GitHub][23]
 - [Packagist][24]
 - [Ansible Galaxy][25]
+- [Joind.in][33]
 - [Speaker Deck][26]
 - [LinkedIn][27]
 - [YouTube][28]
