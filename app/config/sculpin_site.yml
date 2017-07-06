@@ -17,18 +17,54 @@ avatar:
     url: /assets/images/me-precedent.jpg
 
 companies:
-    appnovation:        { name: Appnovation,           logo: appnovation.png,        url: 'https://www.appnovation.com' }
-    cti:                { name: CTI Digital,           logo: cti-digital.png,        url: 'https://www.ctidigital.com' }
-    drupal_association: { name: Drupal Association,    logo: drupal-association.png, url: 'https://assoc.drupal.org' }
-    freelance:          { name: Freelance,             logo: ~,                      url: ~ }
-    horse_country:      { name: 'Horse & Country TV',  logo: horse-and-country.jpg,  url: 'http://www.horseandcountry.tv' }
-    lab_class:          { name: Lab Class,             logo: lab-class.png,          url: 'http://labclass.co.uk' }
-    microserve:         { name: Microserve,            logo: microserve.png,         url: 'https://microserve.io' }
-    nomensa:            { name: Nomensa,               logo: nomensa.png,            url: 'http://www.nomensa.com' }
-    precedent:          { name: Precedent,             logo: precedent.jpg,          url: 'http://precedent.com' }
-    proctors:           { name: 'Proctor & Stevenson', logo: proctors.jpg,           url: 'http://www.proctors.co.uk' }
-    trent:              { name: Trent Design,          logo: ~,                      url: 'http://www.trentdesign.net' }
-    zooba:              { name: Zooba Ltd,             logo: ~,                      url: ~ }
+    appnovation:
+        name: Appnovation
+        logo: appnovation.png
+        url: 'https://www.appnovation.com'
+    cti:
+        name: CTI Digital
+        logo: cti-digital.png
+        url: 'https://www.ctidigital.com'
+    drupal_association: 
+        name: Drupal Association
+        logo: drupal-association.png
+        url: 'https://assoc.drupal.org'
+    freelance:
+        name: Freelance
+        logo: ~
+        url: ~
+    horse_country:
+        name: 'Horse & Country TV'
+        logo: horse-and-country.jpg
+        url: 'http://www.horseandcountry.tv'
+    lab_class:
+        name: Lab Class
+        logo: lab-class.png
+        url: 'http://labclass.co.uk'
+    microserve:
+        name: Microserve
+        logo: microserve.png
+        url: 'https://microserve.io'
+    nomensa:
+        name: Nomensa
+        logo: nomensa.png
+        url: 'http://www.nomensa.com'
+    precedent:
+        name: Precedent
+        logo: precedent.jpg
+        url: 'http://precedent.com'
+    proctors: 
+        name: 'Proctor & Stevenson'
+        logo: proctors.jpg
+        url: 'http://www.proctors.co.uk'
+    trent:
+        name: Trent Design
+        logo: ~
+        url: 'http://www.trentdesign.net'
+    zooba:
+        name: Zooba Ltd
+        logo: ~
+        url: ~
 
 drupalorg:
     name: opdavies
@@ -39,21 +75,66 @@ drupalorg:
 email: oliver+website@oliverdavies.uk
 
 events:
-    drupal-bristol: { title: Drupal Bristol, location: 'Bristol, UK', url: 'https://www.drupalbristol.org.uk' }
-    drupalcamp-brighton-15 { title: DrupalCamp Brighton 2015 location: 'Brighton, UK', url: ~ }
-    drupalcamp-bristol-16: { title: DrupalCamp Bristol 2016, location: 'Bristol, UK', url: 'https://www.drupalcampbristol.org.uk' }
-    drupalcamp-london-14: { title: DrupalCamp London 2014, location: 'London, UK', url: ~ }
-    drupalcamp-london-15: { title: DrupalCamp London 2015, location: 'London, UK', url: ~ }
-    drupalcamp-london-16: { title: DrupalCamp London 2016, location: 'London, UK', url: ~ }
-    drupalcamp-london-17: { title: DrupalCamp London 2017, location: 'London, UK', url: 'https://drupalcamp.london' }
-    drupalcamp-north-15: { title: DrupalCamp North 2015, location: 'Sunderland, UK', url: 'http://drupalcampnorth.org' }
-    nomad_php: { title: Nomad PHP, location: Online, url: 'https://nomadphp.com' }
-    nwdug: { title: NWDUG, location: 'Manchester, UK', url: 'http://nwdrupal.org.uk' }
-    phpsc-16: { title: PHP South Coast 2016, location: 'Portsmouth, UK', url: 'http://2016.phpsouthcoast.co.uk' }
-    phpsw: { title: PHPSW, location: 'Bristol, UK', url: 'https://phpsw.uk' }
-    swdug: { title: SWDUG, location: 'Cardiff, UK', url: ~ }
-    udiff: { title: Unified Diff, location: 'Cardiff, UK', url: 'http://unifieddiff.co.uk' }
-    umbristol: { title: umBristol, location: 'Bristol, UK', url: 'http://umbristol.co.uk' }
+    drupal-bristol:
+        title: Drupal Bristol
+        location: 'Bristol, UK'
+        url: 'https://www.drupalbristol.org.uk'
+    drupalcamp-brighton-15:
+        title: DrupalCamp Brighton 201
+        location: 'Brighton, UK'
+        url: ~
+    drupalcamp-bristol-16:
+        title: DrupalCamp Bristol 2016
+        location: 'Bristol, UK'
+        url: 'https://www.drupalcampbristol.org.uk'
+    drupalcamp-london-14:
+        title: DrupalCamp London 2014
+        location: 'London, UK'
+        url: ~
+    drupalcamp-london-15:
+        title: DrupalCamp London 2015
+        location: 'London, UK'
+        url: ~
+    drupalcamp-london-16:
+        title: DrupalCamp London 2016
+        location: 'London, UK'
+        url: ~
+    drupalcamp-london-17:
+        title: DrupalCamp London 2017
+        location: 'London, UK'
+        url: 'https://drupalcamp.london'
+    drupalcamp-north-15:
+        title: DrupalCamp North 2015
+        location: 'Sunderland, UK'
+        url: 'http://drupalcampnorth.org'
+    nomad_php:
+        title: Nomad PHP
+        location: Online
+        url: 'https://nomadphp.com'
+    nwdug:
+        title: NWDUG
+        location: 'Manchester, UK'
+        url: 'http://nwdrupal.org.uk'
+    phpsc-16:
+        title: PHP South Coast 2016
+        location: 'Portsmouth, UK'
+        url: 'http://2016.phpsouthcoast.co.uk'
+    phpsw:
+        title: PHPSW
+        location: 'Bristol, UK'
+        url: 'https://phpsw.uk'
+    swdug:
+        title: SWDUG
+        location: 'Cardiff, UK'
+        url: ~
+    udiff:
+        title: Unified Diff
+        location: 'Cardiff, UK'
+        url: 'http://unifieddiff.co.uk'
+    umbristol:
+        title: umBristol
+        location: 'Bristol, UK'
+        url: 'http://umbristol.co.uk'
 
 github:
     name: opdavies
@@ -77,10 +158,15 @@ linkedin:
     url: http://uk.linkedin.com/in/opdavies
 
 meetups:
-    - { name: Drupal Bristol, logo: drupal-bristol.jpeg, url: 'http://www.drupalbristol.org.uk' }
-    - { name: DrupalCamp Bristol, logo: drupalcamp-bristol.png, url: 'http://www.drupalcampbristol.co.uk' }
-    - { name: PHPSW, logo: phpsw.jpeg, url: 'http://phpsw.uk' }
-    # - { name: SWDUG, logo: swdug.png, url: http://swdug.org.uk }
+    - name: Drupal Bristol
+      logo: drupal-bristol.jpeg
+      url: 'http://www.drupalbristol.org.uk'
+    - name: DrupalCamp Bristol
+      logo: drupalcamp-bristol.png
+      url: 'http://www.drupalcampbristol.co.uk'
+    - name: PHPSW
+      logo: phpsw.jpeg
+      url: 'http://phpsw.uk'
 
 packagist:
     name: opdavies
