@@ -182,8 +182,8 @@ events:
           date: '2017-04-20'
           time: '19:00 (CET)'
           talk:
-            id: deploying-php-with-fabric
-            type: Lightning talk
+              id: deploying-php-with-fabric
+              type: Lightning talk
 
         - event: phpnw17
           date: '2017-10-01'
