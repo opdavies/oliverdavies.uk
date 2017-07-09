@@ -4,15 +4,13 @@ layout: page
 use: [talks]
 ---
 {% set events = [] %}
-{% for talk in data.talks %}
-    {% for event in talk.events if event.date < 'today'|date('Y-m-d') %}
-        {% set event = event|merge({ talk: talk })|merge(site.events[event.id]) %}
-        {% set events = events|merge([event]) %}
-    {% endfor %}
+
+{% for date in site.events.dates|reverse if date.date < "today"|date("Y-m-d") %}
+    {% set events = events|merge([{
+        date: date,
+        event: site.events.events[date.event],
+        talks: data.talks,
+    }]) %}
 {% endfor %}
 
-{% include "talks-table" with {
-    events: events|sortbyfield('date')|reverse,
-    show_feedback: true,
-    show_talk: true
-} %}
+{% include 'talks-table' with { events: events } %}

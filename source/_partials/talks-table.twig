@@ -1,75 +1,63 @@
 <div class="table-responsive">
-    <table class="talk-event-table table table-striped">
+    <table class="table table-striped">
         <thead>
             <tr>
-                <th class="column-date">Date</th>
-                {% if not hide_talk %}<th>Talk</th>{% endif %}
-                <th class="column-event">Event</th>
-                {% if not hide_feedback %}<th class="column-feedback">Feedback</th>{% endif %}
+                <th style="width: 20%">Date</th>
+                {% if not talk_page %}<th style="width: 40%">Talk</th>{% endif %}
+                <th>Event</th>
+                {% if not upcoming %}<th style="width: 10%">Feedback</th>{% endif %}
             </tr>
         </thead>
         <tbody>
-            {% for event in events %}
+            {% for row in events %}
+                {% set talk = false %}
+                {% set key = row.date.talk.id ?: row.date.talk %}
+                {% for item in row.talks if key == item.filename|split('.')|first %}
+                    {% set talk = item %}
+                {% endfor %}
                 <tr>
-                    <td class="column-date">
-                        <div class="event-date display-block">
-                            {% if event.fuzzy_date %}
-                                {{ event.date|date('F Y') }}
-                            {% else %}
-                                {{ event.date|date('j F Y') }}
-                            {% endif %}
-                        </div>
-
-                        {% if event.time %}
-                            <small class="talk-type">
-                                {{ event.time }}
-                            </small>
+                    <td>
+                        {{ row.date.date|date(row.date.fuzzy_date ? 'F Y' : 'j F Y') }}
+                        {% if row.date.time %}
+                            <small class="display-block">{{ row.date.time }}</small>
                         {% endif %}
                     </td>
 
-                    {% if not hide_talk %}
+                    {% if not talk_page %}
                         <td>
-                            <div class="display-block">
-                                {% if not event.talk.hide_page %}
-                                    <a href="{{ event.talk.url }}">
-                                        {{ event.talk.title }}
-                                    </a>
-                                {% else %}
-                                    {{ event.talk.title }}
-                                {% endif %}
-                            </div>
-
-                            {% if event.talk.type %}
-                                <small class="talk-type">
-                                    {{ event.talk.type }}
-                                </small>
+                            {% if row.date.talk.title is defined %}
+                               {{ row.date.talk.title }}
+                            {% else %}
+                                <a href="{{ talk.url }}">{{ talk.title }}</a>
                             {% endif %}
+                            <small class="display-block">
+                                {{ row.date.talk.type ?: talk.type }}
+                            </small>
                         </td>
                     {% endif %}
 
-                    <td class="column-event">
-                        <div class="display-block">
-                            {% if event.url %}<a href="{{ event.url }}">{% endif %}
-                            {{ event.title }}
-                            {% if event.url %}</a>{% endif %}
-                        </div>
-
-                        {% if event.location %}
-                            <small class="event-location">
-                                {{- event.location -}}
-                            </small>
+                    <td>
+                        {% if row.event.website %}
+                            <a href="{{ row.event.website }}">
+                                {{ row.event.name }}
+                            </a>
+                        {% else %}
+                            {{ row.event.name }}
                         {% endif %}
+                        <small class="display-block">
+                            {{ row.event.location }}
+                        </small>
                     </td>
 
-                    {% if not hide_feedback -%}
-                        <td class="column-feedback">
-                            {% if event.talk.joindin %}
-                                <a href="{{ event.talk.joindin }}" class="btn btn-primary" title="Read or leave feedback for this talk">
+                    {% if not upcoming %}
+                        <td>
+                            {% if row.date.feedback %}
+                                <a href="{{ row.date.feedback }}" class="btn btn-primary" title="Read or leave feedback for this talk">
                                     <i class="fa fa-comment-o"></i> joind.in
                                 </a>
                             {% endif %}
                         </td>
-                    {%- endif %}
+                    {% endif %}
                 </tr>
             {% endfor %}
         </tbody>

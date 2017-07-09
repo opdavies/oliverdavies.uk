@@ -1,4 +1,5 @@
 ---
+id: git-flow
 title: Never Commit to Master - An Introduction to Git Flow
 type: Talk
 slides:
@@ -10,6 +11,4 @@ video:
 tags: [conference, drupalcamp, drupalcamp-london, git, git-flow]
 slug: git-flow
 tweets: yes
-events:
-    - { id: drupalcamp-london-14, date: '2014-03-01' }
 ---

@@ -1,80 +1,191 @@
 events:
-    drupal-bristol:
-        title: Drupal Bristol
-        location: 'Bristol, UK'
-        url: 'https://www.drupalbristol.org.uk'
+    events:
+        drupal-bristol:
+            name: Drupal Bristol
+            location: Bristol, UK
+            website: https://www.drupalbristol.org.uk
 
-    drupalcamp-brighton-15:
-        title: DrupalCamp Brighton 2015
-        location: 'Brighton, UK'
-        url: ~
+        drupalcamp-brighton-15:
+            name: DrupalCamp Brighton 2015
+            location: Brighton, UK
+            website: ~
 
-    drupalcamp-bristol-16:
-        title: DrupalCamp Bristol 2016
-        location: 'Bristol, UK'
-        url: 'https://www.drupalcampbristol.org.uk'
+        drupalcamp-bristol-16:
+            name: DrupalCamp Bristol 2016
+            location: Bristol, UK
+            website: https://2016.drupalcampbristol.org.uk
 
-    drupalcamp-london-14:
-        title: DrupalCamp London 2014
-        location: 'London, UK'
-        url: ~
+        drupalcamp-london-14:
+            name: DrupalCamp London 2014
+            location: London, UK
+            website: ~
 
-    drupalcamp-london-15:
-        title: DrupalCamp London 2015
-        location: 'London, UK'
-        url: ~
+        drupalcamp-london-15:
+            name: DrupalCamp London 2015
+            location: London, UK
+            website: ~
 
-    drupalcamp-london-16:
-        title: DrupalCamp London 2016
-        location: 'London, UK'
-        url: ~
+        drupalcamp-london-16:
+            name: DrupalCamp London 2016
+            location: London, UK
+            website: ~
 
-    drupalcamp-london-17:
-        title: DrupalCamp London 2017
-        location: 'London, UK'
-        url: 'https://drupalcamp.london'
+        drupalcamp-london-17:
+            name: DrupalCamp London 2017
+            location: London, UK
+            website: http://drupalcamp.london
 
-    drupalcamp-north-15:
-        title: DrupalCamp North 2015
-        location: 'Sunderland, UK'
-        url: 'http://drupalcampnorth.org'
+        drupalcamp-north-15:
+            name: DrupalCamp North 2015
+            location: Sunderland, UK
+            website: http://drupalcampnorth.org
 
-    nomad_php:
-        title: Nomad PHP
-        location: Online
-        url: 'https://nomadphp.com'
+        nomad-php:
+            name: Nomad PHP
+            location: Online
+            website: https://nomadphp.com
 
-    nwdug:
-        title: NWDUG
-        location: 'Manchester, UK'
-        url: 'http://nwdrupal.org.uk'
+        nwdug:
+            name: NWDUG
+            location: Manchester, UK
+            website: http://nwdrupal.org.uk
 
-    phpnw-17:
-        title: PHP North West 2017
-        location: 'Manchester, UK'
-        url: 'http://conference.phpnw.org.uk/phpnw17'
+        phpnw17:
+            name: PHP North West 2017
+            location: Manchester, UK
+            website: http://conference.phpnw.org.uk/phpnw17
 
-    phpsc-16:
-        title: PHP South Coast 2016
-        location: 'Portsmouth, UK'
-        url: 'http://2016.phpsouthcoast.co.uk'
+        phpsc16:
+            name: PHP South Coast 2016
+            location: Portsmouth, UK
+            website: http://2016.phpsouthcoast.co.uk
 
-    phpsw:
-        title: PHPSW
-        location: 'Bristol, UK'
-        url: 'https://phpsw.uk'
+        phpsw:
+            name: PHPSW
+            location: Bristol, UK
+            website: https://phpsw.uk
 
-    swdug:
-        title: SWDUG
-        location: 'Cardiff, UK'
-        url: ~
+        swdug:
+            name: SWDUG
+            location: Cardiff, UK
+            website: ~
 
-    udiff:
-        title: Unified Diff
-        location: 'Cardiff, UK'
-        url: 'http://unifieddiff.co.uk'
+        umbristol:
+            name: umBristol
+            location: Bristol, UK
+            website: http://umbristol.co.uk
 
-    umbristol:
-        title: umBristol
-        location: 'Bristol, UK'
-        url: 'http://umbristol.co.uk'
+        unifieddiff:
+            name: 'unified.diff'
+            location: Cardiff, UK
+            website: http://unifieddiff.co.uk
+
+    dates:
+        - event: unifieddiff
+          date: '2012-09-05'
+          talk: what-is-this-drupal-thing
+
+        - event: swdug
+          date: '2013-07-10'
+          talk:
+              title: Drupal and the LDAP Module
+              type: Talk
+
+        - event: drupalcamp-london-14
+          date: '2014-03-01'
+          talk: git-flow
+
+        - event: drupal-bristol
+          date: '2014-08-19'
+          talk: drush-make-drupalbristol
+
+        - event: swdug
+          date: '2014-08-19'
+          talk:
+              title: About the Drupal Association
+              type: Talk
+
+        - event: drupalcamp-brighton-15
+          date: '2015-01-18'
+          talk: drupalorg-2015
+
+        - event: drupalcamp-london-15
+          date: '2015-02-28'
+          talk: drupalorg-2015
+
+        - event: phpsw
+          date: '2015-04-08'
+          talk: drupal-8
+
+        - event: drupalcamp-north-15
+          date: '2015-07-25'
+          talk: test-drive-twig-with-sculpin
+
+        - event: umbristol
+          date: '2015-08-25'
+          talk: dancing-for-drupal
+
+        - event: phpsw
+          date: '2015-10-14'
+          talk: sculpin
+          feedback: https://joind.in/talk/view/15486
+
+        - event: drupalcamp-london-16
+          date: '2016-03-05'
+          talk: drupal-8-module-development
+
+        - event: nwdug
+          date: '2016-03-08'
+          talk: drupal-vm-generator
+
+        - event: drupal-bristol
+          date: '2016-04-02'
+          talk: drupal-vm-generator
+
+        - event: phpsc16
+          date: '2016-06-11'
+          talk: drupal-8-rejoining-the-herd
+          feedback: https://joind.in/talk/41d0f
+
+        - event: drupalcamp-bristol-16
+          date: '2016-07-23'
+          talk: drupal-vm-meet-symfony-console
+
+        - event: phpsw
+          date: '2016-11-09'
+          talk: drupal-development-with-composer
+
+        - event: drupal-bristol
+          date: '2016-11-17'
+          talk: goodbye-drush-make-hello-composer
+
+        - event: drupal-bristol
+          date: '2017-01-18'
+          talk: getting-your-data-into-drupal-8
+
+        - event: phpsw
+          date: '2016-02-08'
+          talk: it-all-started-with-a-patch
+          feedback: https://joind.in/event/phpsw-new-skills-february-17/it-started-with-a-patch
+
+        - event: drupalcamp-london-17
+          date: '2017-03-04'
+          time: '16:15 - 17:00'
+          talk: test-driven-drupal-simpletest-phpunit
+
+        - event: drupalcamp-london-17
+          date: '2017-03-04'
+          time: '12:05 - 12:50'
+          talk: getting-your-data-into-drupal-8
+
+        - event: nomad-php
+          date: '2017-04-20'
+          time: '19:00 (CET)'
+          talk:
+            id: deploying-php-with-fabric
+            type: Lightning talk
+
+        - event: phpnw17
+          date: '2017-10-01'
+          fuzzy_date: yes
+          talk: deploying-php-with-fabric

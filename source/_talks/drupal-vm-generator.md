@@ -1,4 +1,5 @@
 ---
+id: drupal-vm-generator
 title: Drupal VM Generator
 type: Lightning talk
 code: https://github.com/opdavies/drupal-vm-generator
@@ -9,9 +10,6 @@ slides:
 video:
     url: https://youtu.be/U1pbKAAO2Wo?t=3696
     embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/U1pbKAAO2Wo?start=3696" frameborder="0" allowfullscreen></iframe>
-events:
-    - { id: nwdug, date: '2016-03-08' }
-    - { id: drupal-bristol, date: '2016-04-02' }
 ---
 An short talk about the [Drupal VM Generator][1] project.
 

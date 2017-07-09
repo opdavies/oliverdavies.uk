@@ -16,6 +16,6 @@
 .list-style-none
     list-style: none
 
-@each $value in 'block' 'inline' 'inline-block'
+@each $value in 'block', 'inline', 'inline-block'
     .display-#{$value}
         display: #{$value}
