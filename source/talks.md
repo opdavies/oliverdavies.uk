@@ -10,7 +10,7 @@ use: [talks, posts]
 
 I regularly speak at conferences and user groups about a range of subjects including Drupal, Sculpin and Git. If you would like to me to speak at your group or conference, please [get in touch][0].
 
-There is also information about events that I’ve attended and spoken at on my [Lanyrd][1] and []Joind.in][2] profiles.
+There is also information about events that I’ve attended and spoken at on my [Lanyrd][1] and [Joind.in][2] profiles.
 
 {% set upcoming_events = [] %}
 {% set past_events = [] %}
