@@ -1,0 +1,80 @@
+events:
+    drupal-bristol:
+        title: Drupal Bristol
+        location: 'Bristol, UK'
+        url: 'https://www.drupalbristol.org.uk'
+
+    drupalcamp-brighton-15:
+        title: DrupalCamp Brighton 2015
+        location: 'Brighton, UK'
+        url: ~
+
+    drupalcamp-bristol-16:
+        title: DrupalCamp Bristol 2016
+        location: 'Bristol, UK'
+        url: 'https://www.drupalcampbristol.org.uk'
+
+    drupalcamp-london-14:
+        title: DrupalCamp London 2014
+        location: 'London, UK'
+        url: ~
+
+    drupalcamp-london-15:
+        title: DrupalCamp London 2015
+        location: 'London, UK'
+        url: ~
+
+    drupalcamp-london-16:
+        title: DrupalCamp London 2016
+        location: 'London, UK'
+        url: ~
+
+    drupalcamp-london-17:
+        title: DrupalCamp London 2017
+        location: 'London, UK'
+        url: 'https://drupalcamp.london'
+
+    drupalcamp-north-15:
+        title: DrupalCamp North 2015
+        location: 'Sunderland, UK'
+        url: 'http://drupalcampnorth.org'
+
+    nomad_php:
+        title: Nomad PHP
+        location: Online
+        url: 'https://nomadphp.com'
+
+    nwdug:
+        title: NWDUG
+        location: 'Manchester, UK'
+        url: 'http://nwdrupal.org.uk'
+
+    phpnw-17:
+        title: PHP North West 2017
+        location: 'Manchester, UK'
+        url: 'http://conference.phpnw.org.uk/phpnw17'
+
+    phpsc-16:
+        title: PHP South Coast 2016
+        location: 'Portsmouth, UK'
+        url: 'http://2016.phpsouthcoast.co.uk'
+
+    phpsw:
+        title: PHPSW
+        location: 'Bristol, UK'
+        url: 'https://phpsw.uk'
+
+    swdug:
+        title: SWDUG
+        location: 'Cardiff, UK'
+        url: ~
+
+    udiff:
+        title: Unified Diff
+        location: 'Cardiff, UK'
+        url: 'http://unifieddiff.co.uk'
+
+    umbristol:
+        title: umBristol
+        location: 'Bristol, UK'
+        url: 'http://umbristol.co.uk'
