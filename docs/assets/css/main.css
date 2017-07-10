@@ -8153,6 +8153,30 @@ main p img {
 .display-inline-block {
   display: inline-block; }
 
+.table > thead > tr > th.vertical-top,
+.table > thead > tr > td.vertical-top,
+.table > tbody > tr > th.vertical-top,
+.table > tbody > tr > td.vertical-top,
+.table > tfoot > tr > th.vertical-top,
+.table > tfoot > tr > td.vertical-top {
+  vertical-align: top; }
+
+.table > thead > tr > th.vertical-middle,
+.table > thead > tr > td.vertical-middle,
+.table > tbody > tr > th.vertical-middle,
+.table > tbody > tr > td.vertical-middle,
+.table > tfoot > tr > th.vertical-middle,
+.table > tfoot > tr > td.vertical-middle {
+  vertical-align: middle; }
+
+.table > thead > tr > th.vertical-bottom,
+.table > thead > tr > td.vertical-bottom,
+.table > tbody > tr > th.vertical-bottom,
+.table > tbody > tr > td.vertical-bottom,
+.table > tfoot > tr > th.vertical-bottom,
+.table > tfoot > tr > td.vertical-bottom {
+  vertical-align: bottom; }
+
 .text-left {
   text-align: left; }
 
