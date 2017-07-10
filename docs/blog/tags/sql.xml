@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oliver Davies</title>
-    <link>https://www.oliverdavies.uk</link>
+    <link>https://opdavies.github.io/oliverdavies.uk</link>
     <language>en</language>
-    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/sql.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 10 Jul 2017 22:27:20 +0100</lastBuildDate>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://opdavies.github.io/oliverdavies.uk/blog/tags/sql.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2017 22:42:42 +0100</lastBuildDate>
             <item>
         <title>Create a Better Photo Gallery in Drupal - Part 2</title>
-        <link>https://www.oliverdavies.uk/blog/2010/08/17/create-better-photo-gallery-drupal-part-2</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/08/17/create-better-photo-gallery-drupal-part-2</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2010/08/17/create-better-photo-gallery-drupal-part-2</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2010/08/17/create-better-photo-gallery-drupal-part-2</guid>
         <pubDate>Tue, 17 Aug 2010 00:00:00 +0100</pubDate>
         <description></description>
       </item>
           <item>
         <title>Create a Better Photo Gallery in Drupal - Part 1</title>
-        <link>https://www.oliverdavies.uk/blog/2010/08/11/create-better-photo-gallery-drupal-part-1</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/08/11/create-better-photo-gallery-drupal-part-1</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2010/08/11/create-better-photo-gallery-drupal-part-1</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2010/08/11/create-better-photo-gallery-drupal-part-1</guid>
         <pubDate>Wed, 11 Aug 2010 00:00:00 +0100</pubDate>
         <description></description>
       </item>
           <item>
         <title>Add a Taxonomy Term to Multiple Nodes Using SQL</title>
-        <link>https://www.oliverdavies.uk/blog/2010/07/07/add-taxonomy-term-multiple-nodes-using-sql</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/07/07/add-taxonomy-term-multiple-nodes-using-sql</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2010/07/07/add-taxonomy-term-multiple-nodes-using-sql</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2010/07/07/add-taxonomy-term-multiple-nodes-using-sql</guid>
         <pubDate>Wed, 07 Jul 2010 00:00:00 +0100</pubDate>
         <description></description>
       </item>
           <item>
         <title>Change the Content Type of Multiple Nodes Using SQL</title>
-        <link>https://www.oliverdavies.uk/blog/2010/07/01/change-content-type-multiple-nodes-using-sql</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/07/01/change-content-type-multiple-nodes-using-sql</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2010/07/01/change-content-type-multiple-nodes-using-sql</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2010/07/01/change-content-type-multiple-nodes-using-sql</guid>
         <pubDate>Thu, 01 Jul 2010 00:00:00 +0100</pubDate>
         <description></description>
       </item>

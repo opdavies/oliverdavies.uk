@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oliver Davies</title>
-    <link>https://www.oliverdavies.uk</link>
+    <link>https://opdavies.github.io/oliverdavies.uk</link>
     <language>en</language>
-    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/ubuntu.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 10 Jul 2017 22:27:19 +0100</lastBuildDate>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://opdavies.github.io/oliverdavies.uk/blog/tags/ubuntu.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2017 22:42:42 +0100</lastBuildDate>
             <item>
         <title>The Quickest way to Install Sublime Text 2 in Ubuntu</title>
-        <link>https://www.oliverdavies.uk/blog/2013/03/02/quickest-way-install-sublime-text-2-ubuntu</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/03/02/quickest-way-install-sublime-text-2-ubuntu</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2013/03/02/quickest-way-install-sublime-text-2-ubuntu</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2013/03/02/quickest-way-install-sublime-text-2-ubuntu</guid>
         <pubDate>Sat, 02 Mar 2013 00:00:00 +0000</pubDate>
         <description><p>After reading numerous blog posts about how to install <a href="http://www.sublimetext.com/2" title="Sublime Text 2">Sublime Text 2</a> in <a href="http://www.ubuntu.com/2" title="Ubuntu">Ubuntu</a>, this is definitely the quickest way!</p>
 </description>
       </item>
           <item>
         <title>How to Install and Configure Subversion (SVN) Server on Ubuntu</title>
-        <link>https://www.oliverdavies.uk/blog/2011/10/19/install-and-configure-subversion-svn-server-ubuntu</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2011/10/19/install-and-configure-subversion-svn-server-ubuntu</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2011/10/19/install-and-configure-subversion-svn-server-ubuntu</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2011/10/19/install-and-configure-subversion-svn-server-ubuntu</guid>
         <pubDate>Wed, 19 Oct 2011 00:00:00 +0100</pubDate>
         <description></description>
       </item>

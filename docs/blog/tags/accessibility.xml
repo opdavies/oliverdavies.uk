@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oliver Davies</title>
-    <link>https://www.oliverdavies.uk</link>
+    <link>https://opdavies.github.io/oliverdavies.uk</link>
     <language>en</language>
-    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/accessibility.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 10 Jul 2017 22:27:19 +0100</lastBuildDate>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://opdavies.github.io/oliverdavies.uk/blog/tags/accessibility.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2017 22:42:42 +0100</lastBuildDate>
             <item>
         <title>Accessible Bristol site launched</title>
-        <link>https://www.oliverdavies.uk/blog/2012/11/15/accessible-bristol-site-launched</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/11/15/accessible-bristol-site-launched</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2012/11/15/accessible-bristol-site-launched</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2012/11/15/accessible-bristol-site-launched</guid>
         <pubDate>Thu, 15 Nov 2012 00:00:00 +0000</pubDate>
         <description><p>I'm happy to announce that the <a href="http://www.accessiblebristol.org.uk">Accessible Bristol</a> website was launched this week, on Drupal 7.</p>
 
@@ -18,16 +18,16 @@
       </item>
           <item>
         <title>Install and Configure the Nomensa Accessible Media Player in Drupal</title>
-        <link>https://www.oliverdavies.uk/blog/2012/07/14/install-nomensa-media-player-drupal</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/07/14/install-nomensa-media-player-drupal</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2012/07/14/install-nomensa-media-player-drupal</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2012/07/14/install-nomensa-media-player-drupal</guid>
         <pubDate>Sat, 14 Jul 2012 00:00:00 +0100</pubDate>
         <description><p>This week I released the first version of the Nomensa Accessible Media Player module for Drupal 7. Here's some instructions of how to install and configure it.</p>
 </description>
       </item>
           <item>
         <title>My new Drupal modules</title>
-        <link>https://www.oliverdavies.uk/blog/2012/07/12/my-new-drupal-modules</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/07/12/my-new-drupal-modules</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2012/07/12/my-new-drupal-modules</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2012/07/12/my-new-drupal-modules</guid>
         <pubDate>Thu, 12 Jul 2012 00:00:00 +0100</pubDate>
         <description><p>After a busy few days, I've released two new contrib Drupal modules.</p>
 </description>

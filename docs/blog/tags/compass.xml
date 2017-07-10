@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oliver Davies</title>
-    <link>https://www.oliverdavies.uk</link>
+    <link>https://opdavies.github.io/oliverdavies.uk</link>
     <language>en</language>
-    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/compass.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 10 Jul 2017 22:27:18 +0100</lastBuildDate>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://opdavies.github.io/oliverdavies.uk/blog/tags/compass.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2017 22:42:41 +0100</lastBuildDate>
             <item>
         <title>Include CSS Fonts by Using a SASS each Loop</title>
-        <link>https://www.oliverdavies.uk/blog/2014/11/18/include-css-fonts-using-sass-each-loop</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/11/18/include-css-fonts-using-sass-each-loop</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2014/11/18/include-css-fonts-using-sass-each-loop</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2014/11/18/include-css-fonts-using-sass-each-loop</guid>
         <pubDate>Tue, 18 Nov 2014 00:00:00 +0000</pubDate>
         <description><p>How to use an @each loop in SASS to quickly include multiple font files within your stylesheet.</p>
 </description>
       </item>
           <item>
         <title>How to use SASS and Compass in Drupal 7 using Sassy</title>
-        <link>https://www.oliverdavies.uk/blog/2012/12/06/use-sass-and-compass-drupal-7-using-sassy</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/12/06/use-sass-and-compass-drupal-7-using-sassy</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2012/12/06/use-sass-and-compass-drupal-7-using-sassy</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2012/12/06/use-sass-and-compass-drupal-7-using-sassy</guid>
         <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
         <description><p>I've recently started using <a href="http://sass-lang.com">SASS</a> rather than LESS to do my CSS preprocessing - namely due to its integration with <a href="http://compass-style.org">Compass</a> and it's built-in CSS3 mixins. Here are three modules that provide the ability to use SASS within Drupal.</p>
 </description>

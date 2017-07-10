@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oliver Davies</title>
-    <link>https://www.oliverdavies.uk</link>
+    <link>https://opdavies.github.io/oliverdavies.uk</link>
     <language>en</language>
-    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/features.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 10 Jul 2017 22:27:18 +0100</lastBuildDate>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://opdavies.github.io/oliverdavies.uk/blog/tags/features.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2017 22:42:41 +0100</lastBuildDate>
             <item>
         <title>Turning Your Custom Drupal Module into a Feature</title>
-        <link>https://www.oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature</guid>
         <pubDate>Sat, 20 May 2017 00:00:00 +0100</pubDate>
         <description><p>Yesterday I was fixing a bug in an inherited Drupal 7 custom module, and I decided that I was going to add some tests to ensure that the bug was fixed and doesn’t get accidentially re-introduced in the future. The test though required me to have a particular content type and fields which are specific to this site, so weren’t present within the standard installation profile used to run tests.</p>
 
@@ -20,8 +20,8 @@
       </item>
           <item>
         <title>Updating Features and Adding Components Using Drush</title>
-        <link>https://www.oliverdavies.uk/blog/2014/10/21/updating-features-and-adding-components-using-drush</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/10/21/updating-features-and-adding-components-using-drush</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2014/10/21/updating-features-and-adding-components-using-drush</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2014/10/21/updating-features-and-adding-components-using-drush</guid>
         <pubDate>Tue, 21 Oct 2014 00:00:00 +0100</pubDate>
         <description><p>If you use the <a href="http://drupal.org/project/features">Features module</a> to manage your Drupal configuration, it can be time consuming to update features through the UI, especially if you are working on a remote server and need to keep downloading and uploading files.</p>
 

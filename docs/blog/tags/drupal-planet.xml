@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oliver Davies</title>
-    <link>https://www.oliverdavies.uk</link>
+    <link>https://opdavies.github.io/oliverdavies.uk</link>
     <language>en</language>
-    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/drupal-planet.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 10 Jul 2017 22:27:18 +0100</lastBuildDate>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://opdavies.github.io/oliverdavies.uk/blog/tags/drupal-planet.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2017 22:42:41 +0100</lastBuildDate>
             <item>
         <title>Turning Your Custom Drupal Module into a Feature</title>
-        <link>https://www.oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature</guid>
         <pubDate>Sat, 20 May 2017 00:00:00 +0100</pubDate>
         <description><p>Yesterday I was fixing a bug in an inherited Drupal 7 custom module, and I decided that I was going to add some tests to ensure that the bug was fixed and doesn’t get accidentially re-introduced in the future. The test though required me to have a particular content type and fields which are specific to this site, so weren’t present within the standard installation profile used to run tests.</p>
 
@@ -20,8 +20,8 @@
       </item>
           <item>
         <title>DrupalCamp Bristol 2017 - Early Bird Tickets, Call for Sessions, Sponsors</title>
-        <link>https://www.oliverdavies.uk/blog/2017/05/15/drupalcamp-bristol-early-bird-tickets-sessions-sponsors</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/05/15/drupalcamp-bristol-early-bird-tickets-sessions-sponsors</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2017/05/15/drupalcamp-bristol-early-bird-tickets-sessions-sponsors</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2017/05/15/drupalcamp-bristol-early-bird-tickets-sessions-sponsors</guid>
         <pubDate>Mon, 15 May 2017 00:00:00 +0100</pubDate>
         <description><p><img src="/assets/images/blog/drupalcamp-bristol-17-logo.jpg" alt="DrupalCamp Bristol 2017 logo" class="is-centered"></p>
 
@@ -35,9 +35,16 @@
 </description>
       </item>
           <item>
+        <title>Updating Override Node Options Tests</title>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2017/05/05/updating-override-node-options-tests</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2017/05/05/updating-override-node-options-tests</guid>
+        <pubDate>Fri, 05 May 2017 01:00:00 +0100</pubDate>
+        <description></description>
+      </item>
+          <item>
         <title>Fixing Drupal SimpleTest issues inside Docker Containers</title>
-        <link>https://www.oliverdavies.uk/blog/2017/05/05/fixing-drupal-simpletest-docker</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/05/05/fixing-drupal-simpletest-docker</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2017/05/05/fixing-drupal-simpletest-docker</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2017/05/05/fixing-drupal-simpletest-docker</guid>
         <pubDate>Fri, 05 May 2017 00:00:00 +0100</pubDate>
         <description><p>I’ve been a Drupal VM user for a long time, but lately I’ve been using a combination Drupal VM and Docker for my local development environment. There were a couple of issues preventing me from completely switching to Docker - one of which being that when I tried running of my Simpletest tests, a lot of them would fail where they would pass when run within Drupal VM.</p>
 
@@ -46,24 +53,24 @@
       </item>
           <item>
         <title>Simplifying Drupal Migrations with xautoload</title>
-        <link>https://www.oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload</guid>
         <pubDate>Tue, 03 May 2016 00:00:00 +0100</pubDate>
         <description><p>How to use the <a href="https://www.drupal.org/project/xautoload">xautoload</a> module to autoload migration classes within your Drupal 7 migration modules.</p>
 </description>
       </item>
           <item>
         <title>Announcing the Drupal VM Generator</title>
-        <link>https://www.oliverdavies.uk/blog/2016/02/15/announcing-the-drupal-vm-generator</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2016/02/15/announcing-the-drupal-vm-generator</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2016/02/15/announcing-the-drupal-vm-generator</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2016/02/15/announcing-the-drupal-vm-generator</guid>
         <pubDate>Mon, 15 Feb 2016 00:00:00 +0000</pubDate>
         <description><p>For the past few weeks I’ve been working on a personal side project, based on Drupal VM. It’s called the <a href="https://github.com/opdavies/drupal-vm-generator">Drupal VM Generator</a>, and over the weekend I’ve added the final features and fixed the remaining issues, and tagged the 1.0.0 release.</p>
 </description>
       </item>
           <item>
         <title>Programmatically Load an Entityform in Drupal 7</title>
-        <link>https://www.oliverdavies.uk/blog/2015/12/22/programmatically-load-an-entityform-in-drupal-7</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2015/12/22/programmatically-load-an-entityform-in-drupal-7</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2015/12/22/programmatically-load-an-entityform-in-drupal-7</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2015/12/22/programmatically-load-an-entityform-in-drupal-7</guid>
         <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
         <description><p>I recently had my first experience using the <a href="https://www.drupal.org/project/entityform">Entityform module</a> in a project. It was quite easy to configure with different form types, but then I needed to embed the form into an overlay. I was expecting to use the <code>drupal_get_form()</code> function and render it, but this didn’t work.</p>
 
@@ -72,35 +79,25 @@
       </item>
           <item>
         <title>How to Define a Minimum Drupal Core Version</title>
-        <link>https://www.oliverdavies.uk/blog/2015/04/03/how-to-define-a-minimum-drupal-core-version</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2015/04/03/how-to-define-a-minimum-drupal-core-version</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2015/04/03/how-to-define-a-minimum-drupal-core-version</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2015/04/03/how-to-define-a-minimum-drupal-core-version</guid>
         <pubDate>Fri, 03 Apr 2015 00:00:00 +0100</pubDate>
         <description></description>
       </item>
           <item>
+        <title>Configuring the Reroute Email Module</title>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2014/12/22/configuring-the-reroute-email-module</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2014/12/22/configuring-the-reroute-email-module</guid>
+        <pubDate>Mon, 22 Dec 2014 00:00:00 +0000</pubDate>
+        <description><p><a href="https://www.drupal.org/project/reroute_email">Reroute Email</a> module uses <code>hook_mail_alter()</code> to prevent emails from being sent to users from non-production sites. It allows you to enter one or more email addresses that will receive the emails instead of delivering them to the original user.</p>
+</description>
+      </item>
+          <item>
         <title>Include a Local Drupal Settings file for Environment Configuration and Overrides</title>
-        <link>https://www.oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides</guid>
+        <link>https://opdavies.github.io/oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides</link>
+        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides</guid>
         <pubDate>Sat, 20 Dec 2014 00:00:00 +0000</pubDate>
         <description><p>How to create and include a local settings file to define and override environment-specific variables, and keep sensitive things like your database credentials and API keys safe.</p>
-</description>
-      </item>
-          <item>
-        <title>Include environment-specific settings files on Pantheon</title>
-        <link>https://www.oliverdavies.uk/blog/2014/11/27/pantheon-settings-files</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/11/27/pantheon-settings-files</guid>
-        <pubDate>Thu, 27 Nov 2014 00:00:00 +0000</pubDate>
-        <description><p>I was recently doing some work on a site hosted on <a href="http://getpantheon.com">Pantheon</a> and came across an issue, for which part of the suggested fix was to ensure that the <code>$base_url</code> variable was explicitly defined within settings.php (this is also best practice on all Drupal sites).</p>
-
-<p>The way that was recommended was by using a <code>switch()</code> function based on Pantheon's environment variable. For example:</p>
-</description>
-      </item>
-          <item>
-        <title>Using Remote Files when Developing Locally with Stage File Proxy Module</title>
-        <link>https://www.oliverdavies.uk/blog/2014/11/20/using-remote-files-when-developing-locally-with-stage-file-proxy-module</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/11/20/using-remote-files-when-developing-locally-with-stage-file-proxy-module</guid>
-        <pubDate>Thu, 20 Nov 2014 00:00:00 +0000</pubDate>
-        <description><p>How to install and configure the <a href="https://www.drupal.org/project/stage_file_proxy">Stage File Proxy</a> module to serve remote images on your local Drupal site.</p>
 </description>
       </item>
       </channel>
