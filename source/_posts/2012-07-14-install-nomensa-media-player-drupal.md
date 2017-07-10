@@ -56,8 +56,8 @@ Within your content add links to your videos. For example:
 The best way that I can suggest to do this is to use a File field to upload your captions file:
 
 1. Add a File field to your content type;
-2. On your page upload the captions file.
-3. Right-click the uploaded file, copy the link location, and use this for the path to your captions file.
+1. On your page upload the captions file.
+1. Right-click the uploaded file, copy the link location, and use this for the path to your captions file.
 
 For example:
 
@@ -67,5 +67,15 @@ For example:
 
 ## Screencast
 
-<iframe src="https://player.vimeo.com/video/45731954" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="embed-container">
+    <iframe
+        src="https://player.vimeo.com/video/45731954"
+        width="500"
+        height="313"
+        frameborder="0"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen>
+    </iframe>
+</div>
 {% endblock %}
