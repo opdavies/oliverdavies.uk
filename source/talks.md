@@ -41,7 +41,7 @@ There is also information about events that I’ve attended and spoken at on my 
 
 ## Last 5 Talks
 
-{% include 'talks-table' with { events: past_events|reverse[:5] } %}
+{% include 'talks-table' with { events: past_events|reverse|slice(0,5) } %}
 
 You can view more talks in the [talks archive][3].
 {% endblock %}
