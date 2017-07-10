@@ -17,6 +17,9 @@ tools:
     - { title: Git, website: http://git-scm.com }
     - { title: Ansible, website: http://www.ansible.com }
 use: [posts, testimonials]
+redirect:
+    - about/
+    - consulting/
 ---
 {% block content %}
 # About Me

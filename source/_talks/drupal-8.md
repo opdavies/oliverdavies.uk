@@ -10,6 +10,8 @@ video:
     embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/36zCxPrOOzM" frameborder="0" allowfullscreen></iframe>
 tags: [meetup, phpsw, drupal, drupal-8]
 tweets: yes
+redirect:
+    - talks/2015/04/08/drupal-8-phpsw/
 ---
 This was a ten minute lightning talk, designed to highlight the major changes coming in Drupal 8.
 

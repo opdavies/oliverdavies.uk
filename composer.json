@@ -10,6 +10,7 @@
         "behat/mink-extension": "@stable",
         "behat/mink-goutte-driver": "@stable",
         "dflydev/embedded-composer": "^1.0@dev",
+        "mavimo/sculpin-redirect-bundle": "@dev",
         "opdavies/sculpin-content-generator-bundle": "@stable",
         "opdavies/sculpin-gist-embed-bundle": "^0.1",
         "opdavies/sculpin-twig-markdown-bundle": "^0.1",

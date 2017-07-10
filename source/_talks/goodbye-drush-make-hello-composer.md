@@ -6,6 +6,8 @@ tags: ['meetup', 'drupal', 'composer']
 slides:
     url: http://bit.ly/slides-goodbye-drush-make-hello-composer2
     embed: '<script async class="speakerdeck-embed" data-id="1c1e0e129ab34816bd4c4edb5f6642c2" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>'
+redirect:
+    - talks/2016/11/17/goodbye-drush-make-hello-composer-drupal-bristol/
 ---
 One of the main outcomes of Drupal 8 was “getting off the island” with third-party code included in core and adopting modern best practices from the wider PHP ecosystem - including [Composer][1], PHP’s dependency manager.
 

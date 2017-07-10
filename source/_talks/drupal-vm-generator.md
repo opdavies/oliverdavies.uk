@@ -10,6 +10,10 @@ slides:
 video:
     url: https://youtu.be/U1pbKAAO2Wo?t=3696
     embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/U1pbKAAO2Wo?start=3696" frameborder="0" allowfullscreen></iframe>
+redirect:
+    - talks/2016/03/09/drupal-vm-generator-nwdug/
+    - talks/2016/04/02/drupal-vm-generator-drupal-bristol/
+    - talks/drupal-vm-generator-2/
 ---
 An short talk about the [Drupal VM Generator][1] project.
 

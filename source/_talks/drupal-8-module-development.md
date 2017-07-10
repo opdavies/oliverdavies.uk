@@ -19,6 +19,8 @@ meta:
             type: 'image/png'
             height: 540
             width: 960
+redirect:
+    - talks/2016/03/05/drupal-8-module-development-drupalcamp-london-2016/
 ---
 New to object-orientated PHP, Symfony or YAML, and want to get started building modules in Drupal 8? This is the session for you!
 

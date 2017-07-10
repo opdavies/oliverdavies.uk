@@ -11,4 +11,7 @@ video:
 tags: [conference, drupalcamp, drupalcamp-london, git, git-flow]
 slug: git-flow
 tweets: yes
+redirect:
+    - git-flow/
+    - talks/2014/03/01/git-flow-drupalcamp-london-2014/
 ---
