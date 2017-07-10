@@ -63,7 +63,11 @@
                     {% if not upcoming %}
                         <td>
                             {% if row.date.feedback %}
-                                <a href="{{ row.date.feedback }}" class="btn btn-primary" title="Read or leave feedback for this talk">
+                                <a
+                                    href="{{ row.date.feedback }}"
+                                    class="btn btn-primary"
+                                    title="Read or leave feedback for this talk"
+                                >
                                     <i class="fa fa-comment-o"></i> joind.in
                                 </a>
                             {% endif %}
