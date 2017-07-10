@@ -3,10 +3,13 @@
         <thead>
             <tr>
                 <th style="width: 20%">Date</th>
+
                 {% if not talk_page %}
                     <th style="width: 40%">Talk</th>
                 {% endif %}
+
                 <th>Event</th>
+
                 {% if not upcoming %}
                     <th style="width: 10%">Feedback</th>
                 {% endif %}
@@ -16,12 +19,14 @@
             {% for row in events %}
                 {% set talk = false %}
                 {% set key = row.date.talk.id ?: row.date.talk %}
+
                 {% for item in row.talks if key == item.filename|split('.')|first %}
                     {% set talk = item %}
                 {% endfor %}
                 <tr>
                     <td>
                         {{ row.date.date|date(row.date.fuzzy_date ? 'F Y' : 'j F Y') }}
+
                         {% if row.date.time %}
                             <small class="display-block">{{ row.date.time }}</small>
                         {% endif %}
@@ -34,6 +39,7 @@
                             {% else %}
                                 <a href="{{ talk.url }}">{{ talk.title }}</a>
                             {% endif %}
+
                             <small class="display-block">
                                 {{ row.date.talk.type ?: talk.type }}
                             </small>
@@ -48,6 +54,7 @@
                         {% else %}
                             {{ row.event.name }}
                         {% endif %}
+
                         <small class="display-block">
                             {{ row.event.location }}
                         </small>
@@ -62,6 +69,7 @@
                             {% endif %}
                         </td>
                     {% endif %}
+
                 </tr>
             {% endfor %}
         </tbody>

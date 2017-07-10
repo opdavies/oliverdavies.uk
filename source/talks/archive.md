@@ -6,6 +6,7 @@ use: [talks]
 Here are a list of my previous conference and user group talks:
 
 {% set events = [] %}
+
 {% for date in site.events.dates|reverse %}
     {% if date.date >= 'today'|date('Y-m-d') %}
     {% else %}
@@ -16,6 +17,7 @@ Here are a list of my previous conference and user group talks:
         }]) %}
     {% endif %}
 {% endfor %}
+
 {% include 'talks-table' with { events: events } %}
 
 Upcoming talks can be found on the [talks page][0].
