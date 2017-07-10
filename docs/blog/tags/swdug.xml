@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oliver Davies</title>
+    <link>https://www.oliverdavies.uk</link>
+    <language>en</language>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/swdug.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2017 22:27:20 +0100</lastBuildDate>
+            <item>
+        <title>The Inaugural Meetup for the South Wales Drupal User Group</title>
+        <link>https://www.oliverdavies.uk/blog/2010/09/26/south-wales-drupal-user-group</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/09/26/south-wales-drupal-user-group</guid>
+        <pubDate>Sun, 26 Sep 2010 00:00:00 +0100</pubDate>
+        <description></description>
+      </item>
+      </channel>
+</rss>

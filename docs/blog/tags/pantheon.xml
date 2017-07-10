@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oliver Davies</title>
+    <link>https://www.oliverdavies.uk</link>
+    <language>en</language>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/pantheon.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2017 22:27:18 +0100</lastBuildDate>
+            <item>
+        <title>Include environment-specific settings files on Pantheon</title>
+        <link>https://www.oliverdavies.uk/blog/2014/11/27/pantheon-settings-files</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/11/27/pantheon-settings-files</guid>
+        <pubDate>Thu, 27 Nov 2014 00:00:00 +0000</pubDate>
+        <description><p>I was recently doing some work on a site hosted on <a href="http://getpantheon.com">Pantheon</a> and came across an issue, for which part of the suggested fix was to ensure that the <code>$base_url</code> variable was explicitly defined within settings.php (this is also best practice on all Drupal sites).</p>
+
+<p>The way that was recommended was by using a <code>switch()</code> function based on Pantheon's environment variable. For example:</p>
+</description>
+      </item>
+      </channel>
+</rss>

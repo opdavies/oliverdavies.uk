@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oliver Davies</title>
+    <link>https://www.oliverdavies.uk</link>
+    <language>en</language>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/features.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2017 22:27:18 +0100</lastBuildDate>
+            <item>
+        <title>Turning Your Custom Drupal Module into a Feature</title>
+        <link>https://www.oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature</guid>
+        <pubDate>Sat, 20 May 2017 00:00:00 +0100</pubDate>
+        <description><p>Yesterday I was fixing a bug in an inherited Drupal 7 custom module, and I decided that I was going to add some tests to ensure that the bug was fixed and doesn’t get accidentially re-introduced in the future. The test though required me to have a particular content type and fields which are specific to this site, so weren’t present within the standard installation profile used to run tests.</p>
+
+<p>I decided to convert the custom module into a <a href="https://www.drupal.org/project/features">Feature</a> so that the content type and it’s fields could be added to it, and therefore present on the testing site once the module is installed.</p>
+
+<p>To do this, I needed to expose the module to the Features API.</p>
+</description>
+      </item>
+          <item>
+        <title>Updating Features and Adding Components Using Drush</title>
+        <link>https://www.oliverdavies.uk/blog/2014/10/21/updating-features-and-adding-components-using-drush</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/10/21/updating-features-and-adding-components-using-drush</guid>
+        <pubDate>Tue, 21 Oct 2014 00:00:00 +0100</pubDate>
+        <description><p>If you use the <a href="http://drupal.org/project/features">Features module</a> to manage your Drupal configuration, it can be time consuming to update features through the UI, especially if you are working on a remote server and need to keep downloading and uploading files.</p>
+
+<p>If you re-create a feature through the UI, you'll be prompted to download a new archive of the feature in its entirety onto your local computer. You could either commit this into a local repository and then pull it remotely, or use a tool such as SCP to upload the archive onto the server and commit it from there. You can simplify this process by using <a href="http://drush.org">Drush</a>.</p>
+</description>
+      </item>
+      </channel>
+</rss>

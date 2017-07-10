@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-GB">
+    <head>
+        <title>Announcing the Drupal VM Generator | Oliver Davies</title>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+        <meta property="og:url" content="https://www.oliverdavies.uk/blog/2016/02/15/announcing-the-drupal-vm-generator">
+<meta property="og:title" content="Announcing the Drupal VM Generator"/>
+
+
+
+    <meta property="og:image" content="https://www.oliverdavies.uk/assets/images/me-precedent.jpg"/>
+    <meta property="og:image:height" content="327"/>
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="327"/>
+
+
+
+        <link rel="stylesheet" href="https://www.oliverdavies.uk/assets/css/main.css">
+            <link rel="stylesheet" href="https://www.oliverdavies.uk/assets/css/blog-post.css">
+
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=57" sizes="57x57">
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=114" sizes="114x114">
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=72" sizes="72x72">
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=144" sizes="144x144">
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=60" sizes="60x60">
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=120" sizes="120x120">
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=76" sizes="76x76">
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=152" sizes="152x152">
+        
+                    <link rel="icon" href="/assets/images/me-precedent.jpg?s=160" sizes="160x160">
+                    <link rel="icon" href="/assets/images/me-precedent.jpg?s=96" sizes="96x96">
+                    <link rel="icon" href="/assets/images/me-precedent.jpg?s=32" sizes="32x32">
+                    <link rel="icon" href="/assets/images/me-precedent.jpg?s=16" sizes="16x16">
+            </head>
+    <body class="">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://www.oliverdavies.uk/">Oliver Davies</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="">
+                    <a href="/">About</a>
+                </li>
+
+                <li class="">
+                    <a href="/experience">Experience</a>
+                </li>
+
+                <li class="">
+                    <a href="/testimonials">Testimonials</a>
+                </li>
+
+                <li class="">
+                    <a href="/talks">Talks</a>
+                </li>
+
+                <li class="active">
+                    <a href="/blog">Blog</a>
+                </li>
+
+                <li class="">
+                    <a href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>    </div>
+</nav>
+
+        <div class="container">
+            <div class="row">
+                <main class="col-md-9">
+                                            <h1>Announcing the Drupal VM Generator</h1>
+
+<p class="posted">15th February 2016</p>
+
+    <p>For the past few weeks I’ve been working on a personal side project, based on Drupal VM. It’s called the <a href="https://github.com/opdavies/drupal-vm-generator">Drupal VM Generator</a>, and over the weekend I’ve added the final features and fixed the remaining issues, and tagged the 1.0.0 release.</p>
+
+<p><img src="/assets/images/blog/drupalvm-generate-repo.png" alt="" /></p>
+
+<h2 id="what-is-drupal-vm%3F">What is Drupal VM?</h2>
+
+<p><a href="http://www.drupalvm.com">Drupal VM</a> is a project created and maintained by <a href="http://www.jeffgeerling.com">Jeff Geerling</a>. It’s a <a href="http://www.vagrantup.com">Vagrant</a> virtual machine for Drupal development that is provisioned using <a href="https://www.ansible.com">Ansible</a>.</p>
+
+<p>What is different to a regular Vagrant VM is that uses a file called <code>config.yml</code> to configure the machine. Settings such as <code>vagrant_hostname</code>, <code>drupalvm_webserver</code> and <code>drupal_core_path</code> are stored as YAML and passed into the <code>Vagrantfile</code> and the <code>playbook.yml</code> file which is used when the Ansible provisioner runs.</p>
+
+<p>In addition to some essential Ansible roles for installing and configuring packages such as Git, MySQL, PHP and Drush, there are also some roles that are conditional and only installed based on the value of other settings. These include Apache, Nginx, Solr, Varnish and Drupal Console.</p>
+
+<h2 id="what-does-the-drupal-vm-generator-do%3F">What does the Drupal VM Generator do?</h2>
+
+<blockquote>
+  <p>The Drupal VM Generator is a Symfony application that allows you to quickly create configuration files that are minimal and use-case specific.</p>
+</blockquote>
+
+<p>Drupal VM comes with an <a href="https://github.com/geerlingguy/drupal-vm/blob/master/example.config.yml">example.config.yml file</a> that shows all of the default variables and their values. When I first started using it, I’d make a copy of <code>example.config.yml</code>, rename it to <code>config.yml</code> and edit it as needed, but a lot of the examples aren’t needed for every use case. If you’re using Nginx as your webserver, then you don’t need the Apache virtual hosts. If you are not using Solr on this project, then you don’t need the Solr variables.</p>
+
+<p>For a few months, I’ve kept and used boilerplace versions of <code>config.yml</code> - one for Apache and one for Nginx. These are minimal, so have most of the comments removed and only the variables that I regularly need, but these can still be quite time consuming to edit each time, and if there are additions or changes upstream, then I have two versions to maintain.</p>
+
+<p>The Drupal VM Generator is a Symfony application that allows you to quickly create configuration files that are minimal and use-case specific. It uses the <a href="http://symfony.com/doc/current/components/console/introduction.html">Console component</a> to collect input from the user, <a href="http://twig.sensiolabs.org">Twig</a> to generate the file, the <a href="http://symfony.com/doc/current/components/filesystem/introduction.html">Filesystem component</a> to write it.</p>
+
+<p>Based on the options passed to it and/or answers that you provide, it generates a custom, minimal <code>config.yml</code> file for your project.</p>
+
+<p>Here’s an example of it in action:</p>
+
+<p><img src="/assets/images/blog/drupalvm-generate-example-2.gif" alt="'An animated gif showing the interaction process and the resulting config.yml file'" /></p>
+
+<p>You can also define options when calling the command and skip any or all questions. Running the following would bypass all of the questions and create a new file with no interaction or additional steps.</p>
+<code data-gist-id="24e569577ca4b72f049d" data-gist-file="with-options.sh"></code>
+<h2 id="where-do-i-get-it%3F">Where do I get it?</h2>
+
+<p>The project is hosted on <a href="https://github.com/opdavies/drupal-vm-generator">GitHub</a>, and there are installation instructions within the <a href="https://github.com/opdavies/drupal-vm-generator/blob/master/README.md#installation">README</a>.</p>
+
+<div class="github-card" data-github="opdavies/drupal-vm-generator" data-width="400" data-height="" data-theme="default"></div>
+
+<p>The recommended method is via downloading the phar file (the same as Composer and Drupal Console). You can also clone the GitHub repository and run the command from there. I’m also wanting to upload it to Packagist so that it can be included if you manage your projects with Composer.</p>
+
+<p>Please log any bugs or feature requests in the <a href="https://github.com/opdavies/drupal-vm-generator/issues">GitHub issue tracker</a>, and I’m more than happy to receive pull requests.</p>
+
+<p>If you’re interested in contributing, please feel free to fork the repository and start doing so, or contact me with any questions.</p>
+
+<p><strong>Update 17/02/16:</strong> The autoloading issue is now fixed if you require the package via Composer, and this has been tagged as the <a href="https://github.com/opdavies/drupal-vm-generator/releases/tag/1.0.1">1.0.1 release</a></p>
+
+                <p class="tags">
+        Tags:
+                    <a href="https://www.oliverdavies.uk/blog/tags/drupal">drupal</a>,                     <a href="https://www.oliverdavies.uk/blog/tags/drupal-planet">drupal-planet</a>,                     <a href="https://www.oliverdavies.uk/blog/tags/drupal-vm">drupal-vm</a>,                     <a href="https://www.oliverdavies.uk/blog/tags/drupal-vm-generator">drupal-vm-generator</a>,                     <a href="https://www.oliverdavies.uk/blog/tags/symfony">symfony</a>            </p>
+    <div class="post-pager is-flex">
+            <div class="is-half">
+           <a href="/blog/2015/12/22/programmatically-load-an-entityform-in-drupal-7">
+                &laquo; Programmatically Load an Entityform in Drupal 7
+            </a>
+        </div>
+    
+            <div class="is-half text-right">
+            <a href="/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload">
+                Simplifying Drupal Migrations with xautoload &raquo;
+            </a>
+        </div>
+    </div>
+    <div class="about-author">
+    <h2>About the Author</h2>
+
+    <img src="//images.oliverdavies.uk/assets/images/me-precedent.jpg" alt="Picture of Oliver" class="img-circle">
+
+    <p>Oliver Davies is a Web Developer, System Administrator and Drupal specialist based in the UK. He is a Senior Developer at <a href="https://microserve.io">Microserve</a> and also provides freelance consultancy services for Drupal websites, PHP applications and Linux servers.</p>
+</div>
+                                    </main>
+
+                                    <div class="col-md-3">
+                                                    <div class="panel badges text-center">
+    <a class="badge--da-member" href="https://assoc.drupal.org/membership" title="I’m a Drupal Association member.">
+        <img
+            src="//images.oliverdavies.uk/assets/images/da-individual-member.png"
+            alt="Drupal Association Individual Member"
+            width="152"
+            >
+    </a>
+
+    <a href="http://drupalcores.com/#opdavies">
+        <img
+            alt="I built Drupal 8 with hand holding a wrench on blue background"
+            src="//images.oliverdavies.uk/assets/images/drupal-8.jpg"
+            />
+    </a>
+
+    <img
+        src="//images.oliverdavies.uk/assets/images/badges/acquia-certified-developer-drupal-8.png"
+        alt="Acquia Certified Developer - Drupal 8 Exam Badge"
+        height="147" width="147"
+        />
+
+    <a href="http://conference.phpnw.org.uk/phpnw17">
+        <img src="//images.oliverdavies.uk/assets/images/badges/phpnw17.png" alt="">
+    </a>
+</div>
+                            <div class="availability panel panel-default">
+    <div class="panel-heading">Availability</div>
+
+    <div class="panel-body">
+                    <p>
+    <i class="fa fa-thumbs-o-up text-warning"></i>
+
+    
+    Currently have limited part-time capacity
+</p>
+                    <p>
+    <i class="fa fa-thumbs-o-down text-danger"></i>
+
+    Currently no spare full-time capacity.
+    
+</p>
+            </div>
+</div>
+                                <div class="latest-posts panel panel-default">
+        <div class="latest-posts__heading panel-heading">Latest blog posts</div>
+
+        <ul class="list-group">
+                            <li class="post list-group-item">
+                    <span class="post__title">
+                        <a href="/blog/2017/06/09/introducing-the-drupal-meetups-twitterbot">
+                            Introducing the Drupal Meetups Twitterbot
+                        </a>
+                    </span> -
+                    <span class="post__date">9th June, 2017</span>
+                </li>
+                            <li class="post list-group-item">
+                    <span class="post__title">
+                        <a href="/blog/2017/05/20/turning-drupal-module-into-feature">
+                            Turning Your Custom Drupal Module into a Feature
+                        </a>
+                    </span> -
+                    <span class="post__date">20th May, 2017</span>
+                </li>
+                            <li class="post list-group-item">
+                    <span class="post__title">
+                        <a href="/blog/2017/05/15/drupalcamp-bristol-early-bird-tickets-sessions-sponsors">
+                            DrupalCamp Bristol 2017 - Early Bird Tickets, Call for Sessions, Sponsors
+                        </a>
+                    </span> -
+                    <span class="post__date">15th May, 2017</span>
+                </li>
+                    </ul>
+    </div>
+                                                                        </div>
+                
+            </div>        </div>
+        <footer class="container">
+            <p class="copyright">
+                &copy; 2010-2017 Oliver Davies. Built with <a href="https://sculpin.io">Sculpin</a>.
+            </p>
+
+            <div class="meetups">
+    <h2>Things that I organise</h2>
+    <ul>
+                    <li class="meetups--drupal-bristol">
+                <a href="http://www.drupalbristol.org.uk" title="Drupal Bristol">
+                    <img src="//images.oliverdavies.uk/assets/images/meetups/drupal-bristol.jpeg" alt="Drupal Bristol">
+                </a>
+            </li>
+                    <li class="meetups--drupalcamp-bristol">
+                <a href="http://www.drupalcampbristol.co.uk" title="DrupalCamp Bristol">
+                    <img src="//images.oliverdavies.uk/assets/images/meetups/drupalcamp-bristol.png" alt="DrupalCamp Bristol">
+                </a>
+            </li>
+                    <li class="meetups--phpsw">
+                <a href="http://phpsw.uk" title="PHPSW">
+                    <img src="//images.oliverdavies.uk/assets/images/meetups/phpsw.jpeg" alt="PHPSW">
+                </a>
+            </li>
+            </ul>
+</div>
+        </footer>
+
+        <script src="https://www.oliverdavies.uk/assets/js/site.js"></script>
+
+                    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-11967257-1', 'auto'); ga('send', 'pageview');</script>
+        
+            </body>
+</html>

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /_projects/
+Disallow: /_testimonials/
+Disallow: /404.html
+
+Sitemap: https://www.oliverdavies.uk/sitemap.xml

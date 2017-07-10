@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oliver Davies</title>
+    <link>https://www.oliverdavies.uk</link>
+    <language>en</language>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/drupal-vm-generator.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2017 22:27:18 +0100</lastBuildDate>
+            <item>
+        <title>Drupal VM Generator 2.9.1 Released</title>
+        <link>https://www.oliverdavies.uk/blog/2016/12/30/drupal-vm-generator-291-released</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2016/12/30/drupal-vm-generator-291-released</guid>
+        <pubDate>Fri, 30 Dec 2016 00:00:00 +0000</pubDate>
+        <description><p>I spent some time yesterday working on the <a href="http://www.drupalvmgenerator.com">Drupal VM Generator</a>, and have released versions 2.8.1, 2.9.0 and 2.9.1.</p>
+</description>
+      </item>
+          <item>
+        <title>Announcing the Drupal VM Generator</title>
+        <link>https://www.oliverdavies.uk/blog/2016/02/15/announcing-the-drupal-vm-generator</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2016/02/15/announcing-the-drupal-vm-generator</guid>
+        <pubDate>Mon, 15 Feb 2016 00:00:00 +0000</pubDate>
+        <description><p>For the past few weeks I’ve been working on a personal side project, based on Drupal VM. It’s called the <a href="https://github.com/opdavies/drupal-vm-generator">Drupal VM Generator</a>, and over the weekend I’ve added the final features and fixed the remaining issues, and tagged the 1.0.0 release.</p>
+</description>
+      </item>
+      </channel>
+</rss>

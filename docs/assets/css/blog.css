@@ -1,0 +1,16 @@
+.page--blog__list ul.posts {
+  list-style: none;
+  margin-bottom: 2em;
+  padding-left: 0; }
+
+.page--blog__list .post {
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 1em;
+  padding-bottom: 2em; }
+  .page--blog__list .post:before, .page--blog__list .post:after {
+    content: " ";
+    display: table; }
+  .page--blog__list .post:after {
+    clear: both; }
+
+/*# sourceMappingURL=blog.css.map */

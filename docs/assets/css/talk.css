@@ -1,0 +1,15 @@
+.talk-full h1 {
+  margin-bottom: 25px; }
+
+.presentation {
+  background: url("../images/loading.gif") no-repeat center;
+  min-height: 275px;
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    .presentation {
+      min-height: 460px; } }
+  @media screen and (min-width: 992px) {
+    .presentation {
+      min-height: 540px; } }
+
+/*# sourceMappingURL=talk.css.map */

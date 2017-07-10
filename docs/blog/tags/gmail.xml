@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oliver Davies</title>
+    <link>https://www.oliverdavies.uk</link>
+    <language>en</language>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/gmail.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2017 22:27:18 +0100</lastBuildDate>
+            <item>
+        <title>Building Gmail Filters with PHP</title>
+        <link>https://www.oliverdavies.uk/blog/2016/07/15/building-gmail-filters-with-php</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2016/07/15/building-gmail-filters-with-php</guid>
+        <pubDate>Fri, 15 Jul 2016 00:00:00 +0100</pubDate>
+        <description></description>
+      </item>
+      </channel>
+</rss>

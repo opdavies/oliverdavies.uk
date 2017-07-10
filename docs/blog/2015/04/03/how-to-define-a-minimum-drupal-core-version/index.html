@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-GB">
+    <head>
+        <title>How to Define a Minimum Drupal Core Version | Oliver Davies</title>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+        <meta property="og:url" content="https://www.oliverdavies.uk/blog/2015/04/03/how-to-define-a-minimum-drupal-core-version">
+<meta property="og:title" content="How to Define a Minimum Drupal Core Version"/>
+
+    <meta property="og:description" content="How to define a minimum Drupal core version for your module or theme."/>
+
+    <meta property="og:type" content="article"/>
+
+    <meta property="og:image" content="https://www.oliverdavies.uk/assets/images/me-precedent.jpg"/>
+    <meta property="og:image:height" content="327"/>
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="327"/>
+
+            <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:image:src" content="https://www.oliverdavies.uk/assets/images/me-precedent.jpg">
+        <meta name="twitter:creator" content="@opdavies"/>
+    <meta name="twitter:title" content="How to Define a Minimum Drupal Core Version"/>
+    <meta name="twitter:text:description" content="How to define a minimum Drupal core version for your module or theme."/>
+    <meta name="twitter:site" content="@opdavies"/>
+
+
+        <link rel="stylesheet" href="https://www.oliverdavies.uk/assets/css/main.css">
+            <link rel="stylesheet" href="https://www.oliverdavies.uk/assets/css/blog-post.css">
+
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=57" sizes="57x57">
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=114" sizes="114x114">
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=72" sizes="72x72">
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=144" sizes="144x144">
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=60" sizes="60x60">
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=120" sizes="120x120">
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=76" sizes="76x76">
+                    <link rel="apple-touch-icon" href="/assets/images/me-precedent.jpg?s=152" sizes="152x152">
+        
+                    <link rel="icon" href="/assets/images/me-precedent.jpg?s=160" sizes="160x160">
+                    <link rel="icon" href="/assets/images/me-precedent.jpg?s=96" sizes="96x96">
+                    <link rel="icon" href="/assets/images/me-precedent.jpg?s=32" sizes="32x32">
+                    <link rel="icon" href="/assets/images/me-precedent.jpg?s=16" sizes="16x16">
+            </head>
+    <body class="">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://www.oliverdavies.uk/">Oliver Davies</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="">
+                    <a href="/">About</a>
+                </li>
+
+                <li class="">
+                    <a href="/experience">Experience</a>
+                </li>
+
+                <li class="">
+                    <a href="/testimonials">Testimonials</a>
+                </li>
+
+                <li class="">
+                    <a href="/talks">Talks</a>
+                </li>
+
+                <li class="active">
+                    <a href="/blog">Blog</a>
+                </li>
+
+                <li class="">
+                    <a href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>    </div>
+</nav>
+
+        <div class="container">
+            <div class="row">
+                <main class="col-md-9">
+                                            <h1>How to Define a Minimum Drupal Core Version</h1>
+
+<p class="posted">3rd April 2015</p>
+
+    <p>This week, my first code patch was <a href="https://www.drupal.org/node/2394517#comment-9773143">committed to Drupal core</a>. The patch adds the <code>user_has_role()</code> function to the user module, to simplify the way to check whether a user in Drupal has been assigned a specific role. This is something that I normally write a custom function for each project, but it's now available in Drupal core as of <a href="https://www.drupal.org/drupal-7.36-release-notes">7.36</a>.</p>
+
+<p>But what if someone is using a core version less than 7.36 and tries using the function? The site would return an error because that function wouldn't exist.</p>
+
+<p>If you're building a new Drupal site, then I'd assume that you're using a latest version of core, or you have the opportunity to update it when needed. But what if you're writing a contrib module? How can you be sure that the correct minimum version of core?</p>
+
+<h2 id="setting-dependencies">Setting Dependencies</h2>
+
+<p>What I'm going to be doing for my contrib projects is defining a minimum version of Drupal core that the module is compatible with. If this dependency isn't met, the module won't be able to be enabled. This is done within your module's .info file.</p>
+
+<h3 id="adding-a-simple-dependency">Adding a Simple Dependency</h3>
+
+<p>You can define a simple dependency for your module by adding a line this this to your project's .info file:</p>
+
+<pre><code class="language-bash">dependencies[] = views
+</code></pre>
+
+<p>This would make your module dependant on having the <a href="https://www.drupal.org/project/views">Views</a> module present and enabled, which you'd need if you were including views as part of your module, for example.</p>
+
+<h3 id="adding-a-complex-dependency">Adding a Complex Dependency</h3>
+
+<p>In the previous example, our module would enable if <em>any</em> version of Views was enabled, but we need to specify a specific version. We can do this by including version numbers within the dependencies field in the following format:</p>
+
+<pre><code class="language-bash">dependencies[] = modulename (major.minor)
+</code></pre>
+
+<p>This can be a for a specific module release or a branch name:</p>
+
+<pre><code class="language-bash">dependencies[] = modulename (1.0)
+dependencies[] = modulename (1.x)
+</code></pre>
+
+<p>We can also use the following as part of the field for extra granularity:</p>
+
+<ul>
+<li>= or == equals (this is the default)</li>
+<li>> greater than</li>
+<li>&lt; lesser than</li>
+<li>>= greater than or equal to</li>
+<li>&lt;= lesser than or equal to</li>
+<li>!= not equal to</li>
+</ul>
+
+<p>In the original scenario, we want to specify that the module can only be enabled on Drupal core 7.36 or later. To do this, we can use the "greater than or equal to" option.</p>
+
+<pre><code class="language-ini">dependencies[] = system (&gt;=7.36)
+</code></pre>
+
+<p>Because we need to check for Drupal's core version, we're using the system module as the dependency and specifying that it needs to be either equal to or greater than 7.36. If this dependency is not met, e.g. Drupal 7.35 is being used, then the module cannot be enabled rather than showing a function not found error for <code>user_has_role()</code> when it is called.</p>
+
+<p><img src="/assets/images/blog/minimum-drupal-version-d7.png" alt="A screenshot of the modules page showing System as a dependency for a custom module." /></p>
+
+<h2 id="external-links">External Links</h2>
+
+<ul>
+<li><a href="https://www.drupal.org/node/542202#dependencies">Writing module .info files (Drupal 7.x)</a></li>
+</ul>
+
+                <p class="tags">
+        Tags:
+                    <a href="https://www.oliverdavies.uk/blog/tags/drupal">drupal</a>,                     <a href="https://www.oliverdavies.uk/blog/tags/drupal-7">drupal-7</a>,                     <a href="https://www.oliverdavies.uk/blog/tags/drupal-planet">drupal-planet</a>            </p>
+    <div class="post-pager is-flex">
+            <div class="is-half">
+           <a href="/blog/2015/03/20/2014">
+                &laquo; 2014
+            </a>
+        </div>
+    
+            <div class="is-half text-right">
+            <a href="/blog/2015/06/18/updating-forked-repositories-on-github">
+                Updating Forked Repositories on GitHub &raquo;
+            </a>
+        </div>
+    </div>
+    <div class="about-author">
+    <h2>About the Author</h2>
+
+    <img src="//images.oliverdavies.uk/assets/images/me-precedent.jpg" alt="Picture of Oliver" class="img-circle">
+
+    <p>Oliver Davies is a Web Developer, System Administrator and Drupal specialist based in the UK. He is a Senior Developer at <a href="https://microserve.io">Microserve</a> and also provides freelance consultancy services for Drupal websites, PHP applications and Linux servers.</p>
+</div>
+                                    </main>
+
+                                    <div class="col-md-3">
+                                                    <div class="panel badges text-center">
+    <a class="badge--da-member" href="https://assoc.drupal.org/membership" title="I’m a Drupal Association member.">
+        <img
+            src="//images.oliverdavies.uk/assets/images/da-individual-member.png"
+            alt="Drupal Association Individual Member"
+            width="152"
+            >
+    </a>
+
+    <a href="http://drupalcores.com/#opdavies">
+        <img
+            alt="I built Drupal 8 with hand holding a wrench on blue background"
+            src="//images.oliverdavies.uk/assets/images/drupal-8.jpg"
+            />
+    </a>
+
+    <img
+        src="//images.oliverdavies.uk/assets/images/badges/acquia-certified-developer-drupal-8.png"
+        alt="Acquia Certified Developer - Drupal 8 Exam Badge"
+        height="147" width="147"
+        />
+
+    <a href="http://conference.phpnw.org.uk/phpnw17">
+        <img src="//images.oliverdavies.uk/assets/images/badges/phpnw17.png" alt="">
+    </a>
+</div>
+                            <div class="availability panel panel-default">
+    <div class="panel-heading">Availability</div>
+
+    <div class="panel-body">
+                    <p>
+    <i class="fa fa-thumbs-o-up text-warning"></i>
+
+    
+    Currently have limited part-time capacity
+</p>
+                    <p>
+    <i class="fa fa-thumbs-o-down text-danger"></i>
+
+    Currently no spare full-time capacity.
+    
+</p>
+            </div>
+</div>
+                                <div class="latest-posts panel panel-default">
+        <div class="latest-posts__heading panel-heading">Latest blog posts</div>
+
+        <ul class="list-group">
+                            <li class="post list-group-item">
+                    <span class="post__title">
+                        <a href="/blog/2017/06/09/introducing-the-drupal-meetups-twitterbot">
+                            Introducing the Drupal Meetups Twitterbot
+                        </a>
+                    </span> -
+                    <span class="post__date">9th June, 2017</span>
+                </li>
+                            <li class="post list-group-item">
+                    <span class="post__title">
+                        <a href="/blog/2017/05/20/turning-drupal-module-into-feature">
+                            Turning Your Custom Drupal Module into a Feature
+                        </a>
+                    </span> -
+                    <span class="post__date">20th May, 2017</span>
+                </li>
+                            <li class="post list-group-item">
+                    <span class="post__title">
+                        <a href="/blog/2017/05/15/drupalcamp-bristol-early-bird-tickets-sessions-sponsors">
+                            DrupalCamp Bristol 2017 - Early Bird Tickets, Call for Sessions, Sponsors
+                        </a>
+                    </span> -
+                    <span class="post__date">15th May, 2017</span>
+                </li>
+                    </ul>
+    </div>
+                                                                        </div>
+                
+            </div>        </div>
+        <footer class="container">
+            <p class="copyright">
+                &copy; 2010-2017 Oliver Davies. Built with <a href="https://sculpin.io">Sculpin</a>.
+            </p>
+
+            <div class="meetups">
+    <h2>Things that I organise</h2>
+    <ul>
+                    <li class="meetups--drupal-bristol">
+                <a href="http://www.drupalbristol.org.uk" title="Drupal Bristol">
+                    <img src="//images.oliverdavies.uk/assets/images/meetups/drupal-bristol.jpeg" alt="Drupal Bristol">
+                </a>
+            </li>
+                    <li class="meetups--drupalcamp-bristol">
+                <a href="http://www.drupalcampbristol.co.uk" title="DrupalCamp Bristol">
+                    <img src="//images.oliverdavies.uk/assets/images/meetups/drupalcamp-bristol.png" alt="DrupalCamp Bristol">
+                </a>
+            </li>
+                    <li class="meetups--phpsw">
+                <a href="http://phpsw.uk" title="PHPSW">
+                    <img src="//images.oliverdavies.uk/assets/images/meetups/phpsw.jpeg" alt="PHPSW">
+                </a>
+            </li>
+            </ul>
+</div>
+        </footer>
+
+        <script src="https://www.oliverdavies.uk/assets/js/site.js"></script>
+
+                    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-11967257-1', 'auto'); ga('send', 'pageview');</script>
+        
+            </body>
+</html>

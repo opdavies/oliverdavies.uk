@@ -1,0 +1,34 @@
+.experience-item {
+  margin-bottom: 30px; }
+  .experience-item:before, .experience-item:after {
+    content: " ";
+    display: table; }
+  .experience-item:after {
+    clear: both; }
+
+.experience-item-website {
+  display: inline-block;
+  margin-bottom: 2px; }
+
+.experience-item-role {
+  color: #777777;
+  margin-bottom: .625rem; }
+
+.experience-item-logo {
+  float: right;
+  margin: 25px 0 1em 1.5em;
+  max-width: 25%; }
+  @media screen and (min-width: 500px) {
+    .experience-item-logo {
+      max-width: 20%; } }
+  @media screen and (min-width: 992px) {
+    .experience-item-logo {
+      max-width: 15%; } }
+  .experience-item-logo img {
+    height: auto;
+    width: 100%; }
+
+.experience-item-description p:last-of-type {
+  margin-bottom: 0; }
+
+/*# sourceMappingURL=experience.css.map */

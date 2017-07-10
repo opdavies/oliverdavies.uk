@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oliver Davies</title>
+    <link>https://www.oliverdavies.uk</link>
+    <language>en</language>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/drupalcon.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2017 22:27:18 +0100</lastBuildDate>
+            <item>
+        <title>Going to DrupalCon</title>
+        <link>https://www.oliverdavies.uk/blog/2013/07/26/going-drupalcon</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/07/26/going-drupalcon</guid>
+        <pubDate>Fri, 26 Jul 2013 00:00:00 +0100</pubDate>
+        <description><p><a href="http://www.precedent.co.uk">Precedent</a> are sending myself and two of our other Drupal Developers to <a href="http://prague2013.drupal.org">Drupalcon Prague</a>.</p>
+</description>
+      </item>
+      </channel>
+</rss>
