@@ -7,6 +7,9 @@ tags:
   - drupal-planet
   - nomensa
 use: [posts]
+redirect:
+    - blog/2012/07/nomensa-accessible-media-player-drupal/
+    - blog/install-nomensa-media-player-drupal/
 ---
 {% block excerpt %}
 This week I released the first version of the Nomensa Accessible Media Player module for Drupal 7. Here's some instructions of how to install and configure it.

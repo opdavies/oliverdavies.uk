@@ -8,6 +8,8 @@ tags:
   - admin:hover
   - administration
 use: [posts]
+redirect:
+    - blog/review-adminhover-module/
 ---
 Sorry for the lack of Blog posts lately, but [my new job](http://horseandcountry.tv) that I started a few weeks ago has certainly been keeping me busy! I've got a few more posts that I'm preparing content for, and I'll hopefully be back into my weekly-post routine before too long!
 

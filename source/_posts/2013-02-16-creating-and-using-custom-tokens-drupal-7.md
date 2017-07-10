@@ -7,6 +7,8 @@ tags:
   - drupal-7
   - tokens
 use: [posts]
+redirect:
+    - blog/creating-and-using-custom-tokens-drupal-7/
 ---
 {% block excerpt %}
 This post outlines the steps required to create your own custom tokens in Drupal.

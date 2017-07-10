@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "80a5430a08133725f4c575f27e2dc276",
+    "content-hash": "07647295865a5f602f8121fef18afc29",
     "packages": [
         {
             "name": "behat/behat",
@@ -1602,6 +1602,52 @@
                 "schema"
             ],
             "time": "2016-06-02T10:59:52+00:00"
+        },
+        {
+            "name": "mavimo/sculpin-redirect-bundle",
+            "version": "dev-master",
+            "target-dir": "Mavimo/Sculpin/Bundle/RedirectBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mavimo/sculpin-redirect-bundle.git",
+                "reference": "5c42c401942008de04aa1e1d64161ca105568e2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mavimo/sculpin-redirect-bundle/zipball/5c42c401942008de04aa1e1d64161ca105568e2a",
+                "reference": "5c42c401942008de04aa1e1d64161ca105568e2a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mavimo\\Sculpin\\Bundle\\RedirectBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Vito Moscaritolo",
+                    "email": "marco@mavimo.org",
+                    "homepage": "http://www.mavimo.org"
+                }
+            ],
+            "description": "Sculpin Redirect Bundle",
+            "homepage": "https://sculpin.io",
+            "keywords": [
+                "blog",
+                "blogging",
+                "redirect",
+                "site",
+                "static"
+            ],
+            "time": "2014-01-04 14:40:02"
         },
         {
             "name": "michelf/php-markdown",
@@ -3782,6 +3828,7 @@
         "behat/mink-extension": 0,
         "behat/mink-goutte-driver": 0,
         "dflydev/embedded-composer": 20,
+        "mavimo/sculpin-redirect-bundle": 20,
         "opdavies/sculpin-content-generator-bundle": 0,
         "sculpin/sculpin": 20
     },

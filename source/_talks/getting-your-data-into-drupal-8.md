@@ -19,6 +19,9 @@ meta:
             width: 2560
             height: 1440
             type: image/png
+redirect:
+    - talks/2017/01/18/getting-your-data-into-drupal-8-drupal-bristol/
+    - talks/2017/03/04/getting-your-data-into-drupal-8-drupalcamp-london-2017/
 ---
 If you’ve moved a site from Drupal 6 to 7, the chances are that you’ve either used the upgrade path to update your old site in-place, or you built a new site from scratch and used the Migrate module from contrib to migrate your data from the old database.
 
