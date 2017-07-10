@@ -19,3 +19,14 @@
 @each $value in 'block', 'inline', 'inline-block'
     .display-#{$value}
         display: #{$value}
+
+@each $value in 'top', 'middle', 'bottom'
+    .table
+        & > thead > tr > th,
+        & > thead > tr > td,
+        & > tbody > tr > th,
+        & > tbody > tr > td,
+        & > tfoot > tr > th,
+        & > tfoot > tr > td
+            &.vertical-#{$value}
+                vertical-align: #{$value}

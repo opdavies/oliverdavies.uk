@@ -46,10 +46,6 @@ There is also information about events that I’ve attended and spoken at on my 
 You can view more talks in the [talks archive][3].
 {% endblock %}
 
-{% block stylesheets %}
-<link rel="stylesheet" href="{{ site.url }}/assets/css/talks-table.css">
-{% endblock %}
-
 [0]: {{site.url}}/contact
 [1]: {{site.lanyrd.url}}
 [2]: {{site.joindin.url}}
