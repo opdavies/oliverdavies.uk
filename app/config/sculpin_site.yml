@@ -70,5 +70,6 @@ work:
 imports:
     - ../../data/companies.yml
     - ../../data/events.yml
+    - ../../data/experience.yml
     - ../../data/meetups.yml
     - ../../data/skills.yml
