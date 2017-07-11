@@ -1,0 +1,56 @@
+{% extends 'default' %}
+
+{% block body_classes 'talk talk-full' %}
+
+{% block content_top %}
+    <h1>{{ page.title }}</h1>
+{% endblock %}
+
+{% block content_wrapper %}
+    <div class="talk-description">
+        {% block content %}{% endblock %}
+    </div>
+
+    {% if page.slides.embed %}
+        <div class="talk-slides">
+            <h2>Slides</h2>
+            <div class="presentation">
+                {{ page.slides.embed|raw }}
+            </div>{# .presentation #}
+        </div>{# .talk-slides #}
+    {% endif %}
+
+    {% if page.video.embed %}
+        <div class="talk-video">
+            <h2>Video</h2>
+            <div class="embed-container">
+                {{ page.video.embed|raw }}
+            </div>
+        </div>{# .talk-video #}
+    {% endif %}
+
+    <div class="talk-events">
+        <h2>Events</h2>
+
+        {% set events = [] %}
+        {% for date in site.events.dates %}
+            {% set key = (date.talk.id is defined) ? date.talk.id : date.talk %}
+            {% set talk = (page.id is defined) ? page.id : page.url|split('/')|last %}
+            {% if key == talk %}
+                {% set events = events|merge([{
+                    date: date,
+                    event: site.events.events[date.event],
+                }]) %}
+            {% endif %}
+        {% endfor %}
+
+        {% include 'talks-table' with {
+            events: events,
+            talk_page: true,
+        } %}
+    </div>{# .talk-events #}
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/talk.css">
+{% endblock %}

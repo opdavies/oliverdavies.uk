@@ -1,0 +1,41 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ site.url }}/">{{ site.title }}</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="{{ page.url == '/.' ? 'active' }}">
+                    <a href="/">About</a>
+                </li>
+
+                <li class="{{ page.url == '/experience' ? 'active' }}">
+                    <a href="/experience">Experience</a>
+                </li>
+
+                <li class="{{ page.url == '/testimonials' ? 'active' }}">
+                    <a href="/testimonials">Testimonials</a>
+                </li>
+
+                <li class="{{ page.url == '/talks' or '/talks/' in page.url ? 'active' }}">
+                    <a href="/talks">Talks</a>
+                </li>
+
+                <li class="{{ page.url == '/blog' or '/blog/' in page.url ? 'active' }}">
+                    <a href="/blog">Blog</a>
+                </li>
+
+                <li class="{{ page.url == '/contact' or '/contact/' in page.url ? 'active' }}">
+                    <a href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>{# .nav-collapse #}
+    </div>
+</nav>
