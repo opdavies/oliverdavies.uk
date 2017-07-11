@@ -7,11 +7,9 @@
     clear: both; }
 
 .experience-item-website {
-  display: inline-block;
   margin-bottom: 2px; }
 
 .experience-item-role {
-  color: #777777;
   margin-bottom: .625rem; }
 
 .experience-item-logo {

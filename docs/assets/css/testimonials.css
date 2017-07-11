@@ -5,8 +5,6 @@
     display: table; }
   .testimonial:after {
     clear: both; }
-  .testimonial__role {
-    color: #777; }
   .testimonial__image {
     height: 75px;
     margin: 0 0 10px 10px;

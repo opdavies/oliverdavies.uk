@@ -8186,6 +8186,9 @@ main p img {
 .text-right {
   text-align: right; }
 
+.text-light {
+  color: #777; }
+
 .availability p:last-of-type {
   margin-bottom: 0; }
 
