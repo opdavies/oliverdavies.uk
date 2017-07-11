@@ -74,12 +74,16 @@ use: [posts]
             <h2 class="testimonial__name">{{ testimonial.name }}</h2>
 
             {% if testimonial.image %}
-                <img class="testimonial__image pull-right img-circle" src="{{ site.url }}/assets/images/testimonials/{{ testimonial.image }}" alt="{{ testimonial.name }}"/>
+                <img
+                    class="testimonial__image pull-right img-circle"
+                    src="{{ site.url }}/assets/images/testimonials/{{ testimonial.image }}"
+                    alt="{{ testimonial.name }}"
+                />
             {% endif %}
 
             {% if testimonial.role %}
-                <div class="testimonial__role">
-                    {{ testimonial.role|markdown}}
+                <div class="testimonial__role text-light">
+                    {{ testimonial.role|markdown }}
                 </div>
             {% endif %}
 

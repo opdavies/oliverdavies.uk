@@ -23,12 +23,12 @@ redirect:
                 <h2>{{ company.name }}</h2>
 
                 {% if company.url -%}
-                    <a class="experience-item-website" href="{{ company.url }}">
+                    <a class="experience-item-website display-inline-block" href="{{ company.url }}">
                         {{- company.url -}}
                     </a>
                 {%- endif %}
 
-                <div class="experience-item-role">
+                <div class="experience-item-role text-light">
                     {{- experience.role }}
                     from
                     {{ experience.start }}
