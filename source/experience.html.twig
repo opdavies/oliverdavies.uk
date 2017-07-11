@@ -125,7 +125,11 @@ redirect:
                 {%- endif %}
 
                 <div class="experience-item-role">
-                    {{- experience.role }} from {{ experience.start }} to {{ experience.end|default('Present') -}}
+                    {{- experience.role }}
+                    from
+                    {{ experience.start }}
+                    to
+                    {{ experience.end|default('Present') -}}
                     {%- if experience.location %} ({{ experience.location }}){% endif %}.
                 </div>
 
