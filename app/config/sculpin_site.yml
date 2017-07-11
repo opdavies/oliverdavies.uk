@@ -68,8 +68,8 @@ work:
     company: microserve
 
 imports:
-    - ../../data/companies.yml
-    - ../../data/events.yml
-    - ../../data/experience.yml
-    - ../../data/meetups.yml
-    - ../../data/skills.yml
+    - ../data/companies.yml
+    - ../data/events.yml
+    - ../data/experience.yml
+    - ../data/meetups.yml
+    - ../data/skills.yml
