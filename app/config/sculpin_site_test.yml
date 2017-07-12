@@ -1,7 +1,0 @@
----
-imports:
-    - sculpin_site.yml
-url: https://opdavies.github.io/oliverdavies.uk
-images_url: https://opdavies.github.io/oliverdavies.uk
-short_url: https://opdavies.github.io/oliverdavies.uk
-google_analytics_tracking_id: UA-11967257-1

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SITE_ENV="test"
+SITE_ENV="prod"
 
 # Remove the existing docs directory, build the site and create the new
 # docs directory.
