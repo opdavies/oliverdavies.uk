@@ -1,732 +1,720 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk</loc>
+    <loc>https://www.oliverdavies.uk</loc>
     <lastmod>2017-07-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
               <url>
-        <loc>https://opdavies.github.io/oliverdavies.uk/accessibility/</loc>
+        <loc>https://www.oliverdavies.uk/accessibility/</loc>
         <lastmod>2017-07-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
       </url>
           <url>
-        <loc>https://opdavies.github.io/oliverdavies.uk/blog/</loc>
+        <loc>https://www.oliverdavies.uk/blog/</loc>
         <lastmod>2017-07-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
       </url>
           <url>
-        <loc>https://opdavies.github.io/oliverdavies.uk/company-information/</loc>
+        <loc>https://www.oliverdavies.uk/company-information/</loc>
         <lastmod>2017-07-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
       </url>
           <url>
-        <loc>https://opdavies.github.io/oliverdavies.uk/contact/</loc>
+        <loc>https://www.oliverdavies.uk/contact/</loc>
         <lastmod>2017-07-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
       </url>
           <url>
-        <loc>https://opdavies.github.io/oliverdavies.uk/services/</loc>
+        <loc>https://www.oliverdavies.uk/services/</loc>
         <lastmod>2017-07-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
       </url>
           <url>
-        <loc>https://opdavies.github.io/oliverdavies.uk/talks/</loc>
+        <loc>https://www.oliverdavies.uk/talks/</loc>
         <lastmod>2017-07-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
       </url>
           <url>
-        <loc>https://opdavies.github.io/oliverdavies.uk/work/</loc>
+        <loc>https://www.oliverdavies.uk/work/</loc>
         <lastmod>2017-07-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
       </url>
     
   <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog</loc>
+    <loc>https://www.oliverdavies.uk/blog</loc>
     <lastmod>2017-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2017/06/09/introducing-the-drupal-meetups-twitterbot/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2017/06/09/introducing-the-drupal-meetups-twitterbot/</loc>
     <lastmod>2017-06-09T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature/</loc>
     <lastmod>2017-05-20T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2017/05/15/drupalcamp-bristol-early-bird-tickets-sessions-sponsors/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2017/05/15/drupalcamp-bristol-early-bird-tickets-sessions-sponsors/</loc>
     <lastmod>2017-05-15T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2017/05/05/updating-override-node-options-tests/</loc>
-    <lastmod>2017-05-05T01:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-    <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2017/05/05/fixing-drupal-simpletest-docker/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2017/05/05/fixing-drupal-simpletest-docker/</loc>
     <lastmod>2017-05-05T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2017/01/31/nginx-redirects-with-query-string-arguments/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2017/01/31/nginx-redirects-with-query-string-arguments/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2017/01/07/easier-sculpin-commands-with-composer-and-npm-scripts/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2017/01/07/easier-sculpin-commands-with-composer-and-npm-scripts/</loc>
     <lastmod>2017-01-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2016/12/30/drupal-vm-generator-291-released/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2016/12/30/drupal-vm-generator-291-released/</loc>
     <lastmod>2016-12-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2016/07/15/building-gmail-filters-with-php/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2016/07/15/building-gmail-filters-with-php/</loc>
     <lastmod>2016-07-15T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload/</loc>
     <lastmod>2016-05-03T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2016/02/15/announcing-the-drupal-vm-generator/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2016/02/15/announcing-the-drupal-vm-generator/</loc>
     <lastmod>2016-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2015/12/22/programmatically-load-an-entityform-in-drupal-7/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2015/12/22/programmatically-load-an-entityform-in-drupal-7/</loc>
     <lastmod>2015-12-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2015/07/21/automating-sculpin-jenkins/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2015/07/21/automating-sculpin-jenkins/</loc>
     <lastmod>2015-07-21T01:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2015/07/19/sculpin-twig-resources/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2015/07/19/sculpin-twig-resources/</loc>
     <lastmod>2015-07-19T01:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2015/06/18/updating-forked-repositories-on-github/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2015/06/18/updating-forked-repositories-on-github/</loc>
     <lastmod>2015-06-18T12:35:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2015/04/03/how-to-define-a-minimum-drupal-core-version/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2015/04/03/how-to-define-a-minimum-drupal-core-version/</loc>
     <lastmod>2015-04-03T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2015/03/20/2014/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2015/03/20/2014/</loc>
     <lastmod>2015-03-20T20:14:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2014/12/22/configuring-the-reroute-email-module/</loc>
-    <lastmod>2014-12-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-    <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides/</loc>
     <lastmod>2014-12-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2014/11/27/pantheon-settings-files/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2014/11/27/pantheon-settings-files/</loc>
     <lastmod>2014-11-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2014/11/20/using-remote-files-when-developing-locally-with-stage-file-proxy-module/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2014/11/20/using-remote-files-when-developing-locally-with-stage-file-proxy-module/</loc>
     <lastmod>2014-11-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2014/11/18/include-css-fonts-using-sass-each-loop/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2014/11/18/include-css-fonts-using-sass-each-loop/</loc>
     <lastmod>2014-11-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2014/10/21/updating-features-and-adding-components-using-drush/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2014/10/21/updating-features-and-adding-components-using-drush/</loc>
     <lastmod>2014-10-21T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2014/10/06/fix-vagrant-loading-wrong-virtual-machine/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2014/10/06/fix-vagrant-loading-wrong-virtual-machine/</loc>
     <lastmod>2014-10-06T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2014/07/02/drush-make-drupalbristol/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2014/07/02/drush-make-drupalbristol/</loc>
     <lastmod>2014-07-02T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2014/05/21/git-format-patch/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2014/05/21/git-format-patch/</loc>
     <lastmod>2014-05-21T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2014/05/06/thanks/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2014/05/06/thanks/</loc>
     <lastmod>2014-05-06T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2014/05/03/drupal-association/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2014/05/03/drupal-association/</loc>
     <lastmod>2014-05-03T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2014/03/03/what-git-flow/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2014/03/03/what-git-flow/</loc>
     <lastmod>2014-03-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2014/02/09/drupalcamp-london-2014/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2014/02/09/drupalcamp-london-2014/</loc>
     <lastmod>2014-02-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2014/01/15/some-useful-git-aliases/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2014/01/15/some-useful-git-aliases/</loc>
     <lastmod>2014-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2013/12/31/download-different-versions-drupal-drush/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2013/12/31/download-different-versions-drupal-drush/</loc>
     <lastmod>2013-12-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2013/12/24/quickly-apply-patches-using-git-and-curl-or-wget/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2013/12/24/quickly-apply-patches-using-git-and-curl-or-wget/</loc>
     <lastmod>2013-12-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2013/11/27/useful-vagrant-commands/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2013/11/27/useful-vagrant-commands/</loc>
     <lastmod>2013-11-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2013/11/19/dont-bootstrap-drupal-use-drush/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2013/11/19/dont-bootstrap-drupal-use-drush/</loc>
     <lastmod>2013-11-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2013/09/06/create-a-zen-sub-theme-using-drush/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2013/09/06/create-a-zen-sub-theme-using-drush/</loc>
     <lastmod>2013-09-06T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2013/07/26/going-drupalcon/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2013/07/26/going-drupalcon/</loc>
     <lastmod>2013-07-26T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2013/07/17/creating-local-and-staging-sites-drupals-domain-module-enabled/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2013/07/17/creating-local-and-staging-sites-drupals-domain-module-enabled/</loc>
     <lastmod>2013-07-17T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2013/06/13/some-useful-links-using-simpletest-drupal/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2013/06/13/some-useful-links-using-simpletest-drupal/</loc>
     <lastmod>2013-06-13T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2013/04/27/display-git-branch-or-tag-names-your-bash-prompt/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2013/04/27/display-git-branch-or-tag-names-your-bash-prompt/</loc>
     <lastmod>2013-04-27T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2013/04/20/leaving-nomensa-joining-precedent/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2013/04/20/leaving-nomensa-joining-precedent/</loc>
     <lastmod>2013-04-20T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2013/03/02/quickest-way-install-sublime-text-2-ubuntu/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2013/03/02/quickest-way-install-sublime-text-2-ubuntu/</loc>
     <lastmod>2013-03-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2013/02/16/creating-and-using-custom-tokens-drupal-7/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2013/02/16/creating-and-using-custom-tokens-drupal-7/</loc>
     <lastmod>2013-02-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2013/01/09/checking-if-user-logged-drupal-right-way/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2013/01/09/checking-if-user-logged-drupal-right-way/</loc>
     <lastmod>2013-01-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/12/06/use-sass-and-compass-drupal-7-using-sassy/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/12/06/use-sass-and-compass-drupal-7-using-sassy/</loc>
     <lastmod>2012-12-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/11/17/open-sublime-text-2-mac-os-x-command-line/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/11/17/open-sublime-text-2-mac-os-x-command-line/</loc>
     <lastmod>2012-11-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/11/15/accessible-bristol-site-launched/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/11/15/accessible-bristol-site-launched/</loc>
     <lastmod>2012-11-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/10/25/my-sublime-text-2-settings/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/10/25/my-sublime-text-2-settings/</loc>
     <lastmod>2012-10-25T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/09/06/reflections-speaking-unifieddiff/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/09/06/reflections-speaking-unifieddiff/</loc>
     <lastmod>2012-09-06T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file/</loc>
     <lastmod>2012-08-18T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/07/27/writing-article-linux-journal/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/07/27/writing-article-linux-journal/</loc>
     <lastmod>2012-07-27T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/07/14/install-nomensa-media-player-drupal/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/07/14/install-nomensa-media-player-drupal/</loc>
     <lastmod>2012-07-14T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/07/12/my-new-drupal-modules/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/07/12/my-new-drupal-modules/</loc>
     <lastmod>2012-07-12T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/05/24/dividing-drupals-process-and-preprocess-functions-separate-files/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/05/24/dividing-drupals-process-and-preprocess-functions-separate-files/</loc>
     <lastmod>2012-05-24T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/05/23/writing-info-file-drupal-7-theme/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/05/23/writing-info-file-drupal-7-theme/</loc>
     <lastmod>2012-05-23T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/05/23/prevent-apache-displaying-text-files-within-web-browser/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/05/23/prevent-apache-displaying-text-files-within-web-browser/</loc>
     <lastmod>2012-05-23T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/05/23/add-date-popup-calendar-custom-form/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/05/23/add-date-popup-calendar-custom-form/</loc>
     <lastmod>2012-05-23T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/05/23/forward-one-domain-another-using-modrewrite-and-htaccess/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/05/23/forward-one-domain-another-using-modrewrite-and-htaccess/</loc>
     <lastmod>2012-05-23T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/05/23/checkout-specific-revision-svn-command-line/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/05/23/checkout-specific-revision-svn-command-line/</loc>
     <lastmod>2012-05-23T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/04/19/adding-custom-theme-templates-drupal-7/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/04/19/adding-custom-theme-templates-drupal-7/</loc>
     <lastmod>2012-04-19T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/04/17/installing-nagios-centos/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/04/17/installing-nagios-centos/</loc>
     <lastmod>2012-04-17T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/04/16/create-omega-subtheme-less-css-preprocessor-using-omega-tools-and-drush/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/04/16/create-omega-subtheme-less-css-preprocessor-using-omega-tools-and-drush/</loc>
     <lastmod>2012-04-16T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/02/01/use-authorized-keys-create-passwordless-ssh-connection/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/02/01/use-authorized-keys-create-passwordless-ssh-connection/</loc>
     <lastmod>2012-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2012/01/04/site-upgraded-drupal-7/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2012/01/04/site-upgraded-drupal-7/</loc>
     <lastmod>2012-01-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2011/10/19/install-and-configure-subversion-svn-server-ubuntu/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2011/10/19/install-and-configure-subversion-svn-server-ubuntu/</loc>
     <lastmod>2011-10-19T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2011/08/28/create-multigroups-drupal-7-using-field-collections/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2011/08/28/create-multigroups-drupal-7-using-field-collections/</loc>
     <lastmod>2011-08-28T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2011/05/23/imagefield-import-archive/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2011/05/23/imagefield-import-archive/</loc>
     <lastmod>2011-05-23T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2011/05/20/proctors-hosting-next-drupal-meetup/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2011/05/20/proctors-hosting-next-drupal-meetup/</loc>
     <lastmod>2011-05-20T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2011/03/31/proctor-stevenson/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2011/03/31/proctor-stevenson/</loc>
     <lastmod>2011-03-31T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2011/03/15/display-number-facebook-fans-php/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2011/03/15/display-number-facebook-fans-php/</loc>
     <lastmod>2011-03-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2011/02/14/easily-embed-typekit-fonts-your-drupal-website/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2011/02/14/easily-embed-typekit-fonts-your-drupal-website/</loc>
     <lastmod>2011-02-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/11/04/use-regular-expressions-search-and-replace-coda-or-textmate/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/11/04/use-regular-expressions-search-and-replace-coda-or-textmate/</loc>
     <lastmod>2010-11-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/10/22/create-better-photo-gallery-drupal-part-21/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/10/22/create-better-photo-gallery-drupal-part-21/</loc>
     <lastmod>2010-10-22T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/10/13/create-better-photo-gallery-drupal-part-3/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/10/13/create-better-photo-gallery-drupal-part-3/</loc>
     <lastmod>2010-10-13T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/10/10/create-and-apply-patches/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/10/10/create-and-apply-patches/</loc>
     <lastmod>2010-10-10T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/09/26/south-wales-drupal-user-group/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/09/26/south-wales-drupal-user-group/</loc>
     <lastmod>2010-09-26T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/08/20/review-image-caption-module/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/08/20/review-image-caption-module/</loc>
     <lastmod>2010-08-20T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/08/17/create-better-photo-gallery-drupal-part-2/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/08/17/create-better-photo-gallery-drupal-part-2/</loc>
     <lastmod>2010-08-17T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/08/11/create-better-photo-gallery-drupal-part-1/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/08/11/create-better-photo-gallery-drupal-part-1/</loc>
     <lastmod>2010-08-11T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/08/10/review-adminhover-module/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/08/10/review-adminhover-module/</loc>
     <lastmod>2010-08-10T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/07/12/review-teleport-module/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/07/12/review-teleport-module/</loc>
     <lastmod>2010-07-12T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/07/07/add-taxonomy-term-multiple-nodes-using-sql/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/07/07/add-taxonomy-term-multiple-nodes-using-sql/</loc>
     <lastmod>2010-07-07T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/07/02/create-virtual-hosts-mac-os-x-using-virtualhostx/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/07/02/create-virtual-hosts-mac-os-x-using-virtualhostx/</loc>
     <lastmod>2010-07-02T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/07/01/change-content-type-multiple-nodes-using-sql/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/07/01/change-content-type-multiple-nodes-using-sql/</loc>
     <lastmod>2010-07-01T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/06/28/create-flickr-photo-gallery-using-feeds-cck-and-views/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/06/28/create-flickr-photo-gallery-using-feeds-cck-and-views/</loc>
     <lastmod>2010-06-28T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/06/25/10-useful-drupal-6-modules/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/06/25/10-useful-drupal-6-modules/</loc>
     <lastmod>2010-06-25T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/06/23/create-block-social-media-icons-using-cck-views-and-nodequeue/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/06/23/create-block-social-media-icons-using-cck-views-and-nodequeue/</loc>
     <lastmod>2010-06-23T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/06/02/improve-jpg-quality-imagecache-and-imageapi/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/06/02/improve-jpg-quality-imagecache-and-imageapi/</loc>
     <lastmod>2010-06-02T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/05/29/quickly-import-multiples-images-using-imagefieldimport-module/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/05/29/quickly-import-multiples-images-using-imagefieldimport-module/</loc>
     <lastmod>2010-05-29T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/05/25/create-slideshow-multiple-images-using-fancy-slide/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/05/25/create-slideshow-multiple-images-using-fancy-slide/</loc>
     <lastmod>2010-05-25T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/05/10/quickly-create-zen-subthemes-using-zenophile/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/05/10/quickly-create-zen-subthemes-using-zenophile/</loc>
     <lastmod>2010-05-10T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/05/06/conditional-email-addresses-webform/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/05/06/conditional-email-addresses-webform/</loc>
     <lastmod>2010-05-06T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/04/28/using-imagecache-and-imagecrop-my-portfolio/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/04/28/using-imagecache-and-imagecrop-my-portfolio/</loc>
     <lastmod>2010-04-28T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/blog/2010/04/05/style-drupal-6s-taxonomy-lists-php-css-and-jquery/</loc>
+    <loc>https://www.oliverdavies.uk/blog/2010/04/05/style-drupal-6s-taxonomy-lists-php-css-and-jquery/</loc>
     <lastmod>2010-04-05T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/dancing-for-drupal/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/dancing-for-drupal/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/deploying-php-applications-with-fabric/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/deploying-php-applications-with-fabric/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/getting-started-with-drupal-8-module-development/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/getting-started-with-drupal-8-module-development/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/drupal-8-rejoining-the-herd/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/drupal-8-rejoining-the-herd/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/drupal-8/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/drupal-8/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/modern-drupal-development-with-composer/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/modern-drupal-development-with-composer/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/drupal-vm-generator/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/drupal-vm-generator/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/drupal-vm-meet-symfony-console/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/drupal-vm-meet-symfony-console/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/drupalorg-in-2015-whats-coming-next/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/drupalorg-in-2015-whats-coming-next/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/drush-make-drupalbristol/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/drush-make-drupalbristol/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/getting-your-data-into-drupal-8/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/getting-your-data-into-drupal-8/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/git-flow/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/git-flow/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/goodbye-drush-make-hello-composer/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/goodbye-drush-make-hello-composer/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/it-all-started-with-a-patch/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/it-all-started-with-a-patch/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/building-static-websites-with-sculpin/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/building-static-websites-with-sculpin/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/test-drive-twig-with-sculpin/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/test-drive-twig-with-sculpin/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/test-driven-drupal-development-with-simpletest-and-phpunit/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/test-driven-drupal-development-with-simpletest-and-phpunit/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://opdavies.github.io/oliverdavies.uk/talks/so-what-is-this-drupal-thing/</loc>
-    <lastmod>2017-07-12T07:21:17+01:00</lastmod>
+    <loc>https://www.oliverdavies.uk/talks/so-what-is-this-drupal-thing/</loc>
+    <lastmod>2017-07-12T07:22:42+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

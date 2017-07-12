@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oliver Davies</title>
-    <link>https://opdavies.github.io/oliverdavies.uk</link>
+    <link>https://www.oliverdavies.uk</link>
     <language>en</language>
-    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://opdavies.github.io/oliverdavies.uk/blog/tags/vagrant.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 12 Jul 2017 07:21:22 +0100</lastBuildDate>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/vagrant.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2017 07:22:47 +0100</lastBuildDate>
             <item>
         <title>How to fix Vagrant Loading the Wrong Virtual Machine</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2014/10/06/fix-vagrant-loading-wrong-virtual-machine</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2014/10/06/fix-vagrant-loading-wrong-virtual-machine</guid>
+        <link>https://www.oliverdavies.uk/blog/2014/10/06/fix-vagrant-loading-wrong-virtual-machine</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/10/06/fix-vagrant-loading-wrong-virtual-machine</guid>
         <pubDate>Mon, 06 Oct 2014 00:00:00 +0100</pubDate>
         <description><p>A few times recently, I've had instances where <a href="https://www.vagrantup.com">Vagrant</a> seems to have forgotten which virtual machine it's supposed to load, probably due to renaming a project directory or the .vagrant directory being moved accidentally.</p>
 
@@ -18,8 +18,8 @@
       </item>
           <item>
         <title>Useful Vagrant Commands</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2013/11/27/useful-vagrant-commands</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2013/11/27/useful-vagrant-commands</guid>
+        <link>https://www.oliverdavies.uk/blog/2013/11/27/useful-vagrant-commands</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/11/27/useful-vagrant-commands</guid>
         <pubDate>Wed, 27 Nov 2013 00:00:00 +0000</pubDate>
         <description><p><a href="http://www.vagrantup.com" title="About Vagrant">Vagrant</a> is a tool for managing virtual machines within <a href="https://www.virtualbox.org">VirtualBox</a> from the command line. Here are some useful commands to know when using Vagrant.</p>
 </description>

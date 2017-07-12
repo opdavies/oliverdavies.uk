@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oliver Davies</title>
-    <link>https://opdavies.github.io/oliverdavies.uk</link>
+    <link>https://www.oliverdavies.uk</link>
     <language>en</language>
-    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://opdavies.github.io/oliverdavies.uk/blog/tags/drupalcamp.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 12 Jul 2017 07:21:22 +0100</lastBuildDate>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/drupalcamp.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2017 07:22:47 +0100</lastBuildDate>
             <item>
         <title>DrupalCamp Bristol 2017 - Early Bird Tickets, Call for Sessions, Sponsors</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2017/05/15/drupalcamp-bristol-early-bird-tickets-sessions-sponsors</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2017/05/15/drupalcamp-bristol-early-bird-tickets-sessions-sponsors</guid>
+        <link>https://www.oliverdavies.uk/blog/2017/05/15/drupalcamp-bristol-early-bird-tickets-sessions-sponsors</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/05/15/drupalcamp-bristol-early-bird-tickets-sessions-sponsors</guid>
         <pubDate>Mon, 15 May 2017 00:00:00 +0100</pubDate>
         <description><p><img src="/assets/images/blog/drupalcamp-bristol-17-logo.jpg" alt="DrupalCamp Bristol 2017 logo" class="is-centered"></p>
 
@@ -24,8 +24,8 @@
       </item>
           <item>
         <title>Sculpin and Twig Resources</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2015/07/19/sculpin-twig-resources</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2015/07/19/sculpin-twig-resources</guid>
+        <link>https://www.oliverdavies.uk/blog/2015/07/19/sculpin-twig-resources</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2015/07/19/sculpin-twig-resources</guid>
         <pubDate>Sun, 19 Jul 2015 01:00:00 +0100</pubDate>
         <description><p>Here’s a list of resources that I compiled whilst preparing for my <a href="http://drupalcampnorth.org/session/test-drive-twig-sculpin">Sculpin and Twig talk</a> at <a href="http://drupalcampnorth.org">DrupalCamp North</a>.</p>
 </description>

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oliver Davies</title>
-    <link>https://opdavies.github.io/oliverdavies.uk</link>
+    <link>https://www.oliverdavies.uk</link>
     <language>en</language>
-    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://opdavies.github.io/oliverdavies.uk/blog/tags/docker.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 12 Jul 2017 07:21:22 +0100</lastBuildDate>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/docker.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2017 07:22:47 +0100</lastBuildDate>
             <item>
         <title>Fixing Drupal SimpleTest issues inside Docker Containers</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2017/05/05/fixing-drupal-simpletest-docker</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2017/05/05/fixing-drupal-simpletest-docker</guid>
+        <link>https://www.oliverdavies.uk/blog/2017/05/05/fixing-drupal-simpletest-docker</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/05/05/fixing-drupal-simpletest-docker</guid>
         <pubDate>Fri, 05 May 2017 00:00:00 +0100</pubDate>
         <description><p>I’ve been a Drupal VM user for a long time, but lately I’ve been using a combination Drupal VM and Docker for my local development environment. There were a couple of issues preventing me from completely switching to Docker - one of which being that when I tried running of my Simpletest tests, a lot of them would fail where they would pass when run within Drupal VM.</p>
 

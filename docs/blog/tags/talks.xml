@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oliver Davies</title>
-    <link>https://opdavies.github.io/oliverdavies.uk</link>
+    <link>https://www.oliverdavies.uk</link>
     <language>en</language>
-    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://opdavies.github.io/oliverdavies.uk/blog/tags/talks.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 12 Jul 2017 07:21:22 +0100</lastBuildDate>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/talks.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2017 07:22:47 +0100</lastBuildDate>
             <item>
         <title>drush make drupalbristol</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2014/07/02/drush-make-drupalbristol</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2014/07/02/drush-make-drupalbristol</guid>
+        <link>https://www.oliverdavies.uk/blog/2014/07/02/drush-make-drupalbristol</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/07/02/drush-make-drupalbristol</guid>
         <pubDate>Wed, 02 Jul 2014 00:00:00 +0100</pubDate>
         <description><p>Here are my slides from this month's talk night at the <a href="https://groups.drupal.org/bristol-and-west-uk">Drupal Bristol user group</a>.</p>
 </description>
       </item>
           <item>
         <title>DrupalCamp London: What is Git Flow?</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2014/03/03/what-git-flow</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2014/03/03/what-git-flow</guid>
+        <link>https://www.oliverdavies.uk/blog/2014/03/03/what-git-flow</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/03/03/what-git-flow</guid>
         <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
         <description><p>Here are my slides from my "What is Git Flow?" session at <a href="http://2014.drupalcamplondon.co.uk">DrupalCamp London</a>.</p>
 </description>
       </item>
           <item>
         <title>Reflections on speaking at UnifiedDiff</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2012/09/06/reflections-speaking-unifieddiff</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2012/09/06/reflections-speaking-unifieddiff</guid>
+        <link>https://www.oliverdavies.uk/blog/2012/09/06/reflections-speaking-unifieddiff</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/09/06/reflections-speaking-unifieddiff</guid>
         <pubDate>Thu, 06 Sep 2012 00:00:00 +0100</pubDate>
         <description><p>Yesterday evening I went along and spoke at the <a href="http://www.unifieddiff.co.uk">UnifiedDiff meetup</a> in Cardiff, having offered previously to do a presentation providing an introduction to Drupal.</p>
 </description>

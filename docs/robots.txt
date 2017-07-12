@@ -3,4 +3,4 @@ Disallow: /_projects/
 Disallow: /_testimonials/
 Disallow: /404.html
 
-Sitemap: https://opdavies.github.io/oliverdavies.uk/sitemap.xml
+Sitemap: https://www.oliverdavies.uk/sitemap.xml

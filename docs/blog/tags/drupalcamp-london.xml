@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oliver Davies</title>
-    <link>https://opdavies.github.io/oliverdavies.uk</link>
+    <link>https://www.oliverdavies.uk</link>
     <language>en</language>
-    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://opdavies.github.io/oliverdavies.uk/blog/tags/drupalcamp-london.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 12 Jul 2017 07:21:22 +0100</lastBuildDate>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/drupalcamp-london.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2017 07:22:47 +0100</lastBuildDate>
             <item>
         <title>2014</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2015/03/20/2014</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2015/03/20/2014</guid>
+        <link>https://www.oliverdavies.uk/blog/2015/03/20/2014</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2015/03/20/2014</guid>
         <pubDate>Fri, 20 Mar 2015 20:14:00 +0000</pubDate>
         <description><p>A lot happened in 2014. Here are some of the main things that I'd like to highlight.</p>
 </description>
       </item>
           <item>
         <title>DrupalCamp London: What is Git Flow?</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2014/03/03/what-git-flow</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2014/03/03/what-git-flow</guid>
+        <link>https://www.oliverdavies.uk/blog/2014/03/03/what-git-flow</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/03/03/what-git-flow</guid>
         <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
         <description><p>Here are my slides from my "What is Git Flow?" session at <a href="http://2014.drupalcamplondon.co.uk">DrupalCamp London</a>.</p>
 </description>
       </item>
           <item>
         <title>DrupalCamp London 2014</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2014/02/09/drupalcamp-london-2014</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2014/02/09/drupalcamp-london-2014</guid>
+        <link>https://www.oliverdavies.uk/blog/2014/02/09/drupalcamp-london-2014</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/02/09/drupalcamp-london-2014</guid>
         <pubDate>Sun, 09 Feb 2014 00:00:00 +0000</pubDate>
         <description><p>It's all booked, I'm going to be attending <a href="http://2014.drupalcamplondon.co.uk">DrupalCamp London</a> this year, my first DrupalCamp!</p>
 </description>

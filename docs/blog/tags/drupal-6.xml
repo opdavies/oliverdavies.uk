@@ -2,83 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oliver Davies</title>
-    <link>https://opdavies.github.io/oliverdavies.uk</link>
+    <link>https://www.oliverdavies.uk</link>
     <language>en</language>
-    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://opdavies.github.io/oliverdavies.uk/blog/tags/drupal-6.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 12 Jul 2017 07:21:22 +0100</lastBuildDate>
+    <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/drupal-6.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2017 07:22:47 +0100</lastBuildDate>
             <item>
-        <title>Configuring the Reroute Email Module</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2014/12/22/configuring-the-reroute-email-module</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2014/12/22/configuring-the-reroute-email-module</guid>
-        <pubDate>Mon, 22 Dec 2014 00:00:00 +0000</pubDate>
-        <description><p><a href="https://www.drupal.org/project/reroute_email">Reroute Email</a> module uses <code>hook_mail_alter()</code> to prevent emails from being sent to users from non-production sites. It allows you to enter one or more email addresses that will receive the emails instead of delivering them to the original user.</p>
-</description>
-      </item>
-          <item>
         <title>Include a Local Drupal Settings file for Environment Configuration and Overrides</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides</guid>
+        <link>https://www.oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides</guid>
         <pubDate>Sat, 20 Dec 2014 00:00:00 +0000</pubDate>
         <description><p>How to create and include a local settings file to define and override environment-specific variables, and keep sensitive things like your database credentials and API keys safe.</p>
 </description>
       </item>
           <item>
         <title>Checking if a user is logged into Drupal (the right way)</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2013/01/09/checking-if-user-logged-drupal-right-way</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2013/01/09/checking-if-user-logged-drupal-right-way</guid>
+        <link>https://www.oliverdavies.uk/blog/2013/01/09/checking-if-user-logged-drupal-right-way</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/01/09/checking-if-user-logged-drupal-right-way</guid>
         <pubDate>Wed, 09 Jan 2013 00:00:00 +0000</pubDate>
         <description><p>I see this regularly when working on Drupal sites when someone wants to check whether the current user is logged in to Drupal (authenticated) or not (anonymous).</p>
 </description>
       </item>
           <item>
         <title>My new Drupal modules</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2012/07/12/my-new-drupal-modules</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2012/07/12/my-new-drupal-modules</guid>
+        <link>https://www.oliverdavies.uk/blog/2012/07/12/my-new-drupal-modules</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/07/12/my-new-drupal-modules</guid>
         <pubDate>Thu, 12 Jul 2012 00:00:00 +0100</pubDate>
         <description><p>After a busy few days, I've released two new contrib Drupal modules.</p>
 </description>
       </item>
           <item>
         <title>Easily Embed TypeKit Fonts into your Drupal Website</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2011/02/14/easily-embed-typekit-fonts-your-drupal-website</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2011/02/14/easily-embed-typekit-fonts-your-drupal-website</guid>
+        <link>https://www.oliverdavies.uk/blog/2011/02/14/easily-embed-typekit-fonts-your-drupal-website</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2011/02/14/easily-embed-typekit-fonts-your-drupal-website</guid>
         <pubDate>Mon, 14 Feb 2011 00:00:00 +0000</pubDate>
         <description></description>
       </item>
           <item>
         <title>How to Create and Apply Patches</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2010/10/10/create-and-apply-patches</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2010/10/10/create-and-apply-patches</guid>
+        <link>https://www.oliverdavies.uk/blog/2010/10/10/create-and-apply-patches</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/10/10/create-and-apply-patches</guid>
         <pubDate>Sun, 10 Oct 2010 00:00:00 +0100</pubDate>
         <description><p>Earlier this year, I posted a solution to <a href="http://drupal.org/node/753898">an issue</a> on the Drupal.org issue queue. Originally, I just posted the code back onto the issue, but have now created a patch that can easily be applied to any Drupal 6 installation. Here is a run-through of the process of creating and applying a patch. In this case, I made changes to the <code>user_pass_validate()</code> function that's found within <code>modules/user/user.pages.inc</code>.</p>
 </description>
       </item>
           <item>
         <title>Review of the Image Caption Module</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2010/08/20/review-image-caption-module</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2010/08/20/review-image-caption-module</guid>
+        <link>https://www.oliverdavies.uk/blog/2010/08/20/review-image-caption-module</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/08/20/review-image-caption-module</guid>
         <pubDate>Fri, 20 Aug 2010 00:00:00 +0100</pubDate>
         <description></description>
       </item>
           <item>
         <title>Create a Better Photo Gallery in Drupal - Part 2</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2010/08/17/create-better-photo-gallery-drupal-part-2</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2010/08/17/create-better-photo-gallery-drupal-part-2</guid>
+        <link>https://www.oliverdavies.uk/blog/2010/08/17/create-better-photo-gallery-drupal-part-2</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/08/17/create-better-photo-gallery-drupal-part-2</guid>
         <pubDate>Tue, 17 Aug 2010 00:00:00 +0100</pubDate>
         <description></description>
       </item>
           <item>
         <title>Create a Better Photo Gallery in Drupal - Part 1</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2010/08/11/create-better-photo-gallery-drupal-part-1</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2010/08/11/create-better-photo-gallery-drupal-part-1</guid>
+        <link>https://www.oliverdavies.uk/blog/2010/08/11/create-better-photo-gallery-drupal-part-1</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/08/11/create-better-photo-gallery-drupal-part-1</guid>
         <pubDate>Wed, 11 Aug 2010 00:00:00 +0100</pubDate>
         <description></description>
       </item>
           <item>
         <title>Review of the Admin:hover Module</title>
-        <link>https://opdavies.github.io/oliverdavies.uk/blog/2010/08/10/review-adminhover-module</link>
-        <guid isPermaLink="true">https://opdavies.github.io/oliverdavies.uk/blog/2010/08/10/review-adminhover-module</guid>
+        <link>https://www.oliverdavies.uk/blog/2010/08/10/review-adminhover-module</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/08/10/review-adminhover-module</guid>
         <pubDate>Tue, 10 Aug 2010 00:00:00 +0100</pubDate>
+        <description></description>
+      </item>
+          <item>
+        <title>Review of the Teleport Module</title>
+        <link>https://www.oliverdavies.uk/blog/2010/07/12/review-teleport-module</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/07/12/review-teleport-module</guid>
+        <pubDate>Mon, 12 Jul 2010 00:00:00 +0100</pubDate>
         <description></description>
       </item>
       </channel>
