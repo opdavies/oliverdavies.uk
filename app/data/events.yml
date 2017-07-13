@@ -187,5 +187,5 @@ events:
 
         - event: phpnw17
           date: '2017-10-01'
-          fuzzy_date: yes
+          time: '09:00 - 09:45'
           talk: deploying-php-with-fabric
