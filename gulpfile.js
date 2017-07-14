@@ -46,20 +46,9 @@ app.sass = function (sourceFiles, filename) {
 gulp.task('styles', function () {
     app.sass([
         'node_modules/font-awesome/css/font-awesome.css',
+        'node_modules/prism/themes/prism-twilight.css',
         config.sass.sourceDir + '/main.sass'
     ], 'main.css');
-
-    app.sass(config.sass.sourceDir + '/about.sass', 'about.css');
-    app.sass(config.sass.sourceDir + '/blog.sass', 'blog.css');
-    app.sass([
-        'node_modules/prism/themes/prism-twilight.css',
-        config.sass.sourceDir + '/blog-post.sass'
-    ], 'blog-post.css');
-    app.sass(config.sass.sourceDir + '/experience.sass', 'experience.css');
-    app.sass(config.sass.sourceDir + '/project.sass', 'project.css');
-    app.sass(config.sass.sourceDir + '/talk.sass', 'talk.css');
-    app.sass(config.sass.sourceDir + '/talks-table.sass', 'talks-table.css');
-    app.sass(config.sass.sourceDir + '/testimonials.sass', 'testimonials.css');
 });
 
 gulp.task('scripts', function () {
