@@ -7,15 +7,6 @@ meta:
         title: 'Oliver Davies - Drupal Developer'
         description: 'The personal website and blog of Oliver Davies, a Drupal Developer and System Administrator from Wales, UK.'
         type: website
-
-tools:
-    - { title: Drupal, website: https://www.drupal.org }
-    - { title: Symfony, website: http://symfony.com }
-    - { title: Silex, website: http://silex.sensiolabs.org }
-    - { title: Sculpin, website: https://sculpin.io }
-    - { title: CentOS, website: https://www.centos.org/about }
-    - { title: Git, website: http://git-scm.com }
-    - { title: Ansible, website: http://www.ansible.com }
 use: [posts, testimonials]
 redirect:
     - about/
