@@ -8,5 +8,7 @@ tags:
 image: digital-theatre-plus.png
 company: nomensa
 role: Developer
-skills: [drupal, php]
+skills:
+    - Drupal 7
+    - PHP
 ---

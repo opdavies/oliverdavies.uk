@@ -7,5 +7,9 @@ tags:
 image: cattery.png
 role: Freelance Developer
 freelance: true
-skills: [drupal, php, jenkins]
+skills:
+    - Drupal 6
+    - PHP
+    - CSS
+    - Jenkins
 ---

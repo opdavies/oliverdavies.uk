@@ -7,5 +7,7 @@ image: hutch-paving.png
 role: Freelance Developer
 company: trent
 freelance: true
-skills: [drupal, php]
+skills:
+    - Drupal 7
+    - PHP
 ---

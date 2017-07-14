@@ -8,5 +8,10 @@ tags:
 image: source-for-searches.png
 company: proctors
 role: Developer
-skills: [drupal, php, less, svn]
+skills:
+    - Drupal 6
+    - Ubercart
+    - PHP
+    - Less
+    - SVN
 ---

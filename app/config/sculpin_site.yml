@@ -72,5 +72,4 @@ imports:
     - ../data/events.yml
     - ../data/experience.yml
     - ../data/meetups.yml
-    - ../data/skills.yml
     - ../data/testimonials.yml

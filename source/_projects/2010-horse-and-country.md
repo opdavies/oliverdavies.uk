@@ -7,5 +7,8 @@ tags:
 image: horse-and-country.png
 company: horse_country
 role: Developer
-skills: [drupal, php, git]
+skills:
+    - Drupal
+    - PHP
+    - Git
 ---

@@ -9,6 +9,10 @@ image:
     alt: The new road.cc website
 company: microserve
 role: Lead Developer
-skills: [drupal, php, git, less]
+skills:
+    - Drupal 7
+    - PHP
+    - Git
+    - Less
 slug: road-cc
 ---

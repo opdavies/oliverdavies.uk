@@ -7,5 +7,10 @@ tags:
 image: vikisports.png
 role: Freelance Developer
 freelance: true
-skills: [drupal, php, git, jenkins]
+skills:
+    - Drupal 6
+    - Drupal 7
+    - PHP
+    - Git
+    - Jenkins
 ---

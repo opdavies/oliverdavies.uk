@@ -3,8 +3,8 @@
         <h2>Skills</h2>
 
         <ul>
-            {% for item in page.skills|sort %}
-                <li>{{ site.skills[item].title }}</li>
+            {% for skill in page.skills %}
+                <li>{{ skill }}</li>
             {% endfor %}
         </ul>
     </div>
