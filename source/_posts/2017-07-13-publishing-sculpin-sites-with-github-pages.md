@@ -48,7 +48,7 @@ This has been made simpler and tidier now that we can use a `docs` directory wit
 
 This means that I can simply re-generate the site after making changes and add it as an additional commit to my main branch with no need to switch branches or perform a merge.
 
-To simplify this, I’ve added a new [build.sh script][3] into my repository to automate the sites. This is how it currently looks:
+To simplify this, I’ve added a new [publish.sh script][3] into my repository to automate the sites. This is how it currently looks:
 
 ```language-bash
 #!/usr/bin/env bash
@@ -84,7 +84,7 @@ As the site was previously using HTTPS, I didn’t want to have to go back to HT
 
 ## Next Steps
 
-- Enable automatically running `build.sh` when new changes are pushed to GitHub rather than running it manually. I was previously [using Jenkins][4] and Fabric for this, though I’m also going to look into using Travis to accomplish this.
+- Enable automatically running `publish.sh` when new changes are pushed to GitHub rather than running it manually. I was previously [using Jenkins][4] and Fabric for this, though I’m also going to look into using Travis to accomplish this.
 - Add the pre-build steps such as running `composer install` and `yarn` to install dependencies, and `gulp` to create the front-end assets. This was previously done by Jenkins in my previous setup.
 
 ## Resources
@@ -97,7 +97,7 @@ As the site was previously using HTTPS, I didn’t want to have to go back to HT
 [0]: https://pages.github.com
 [1]: https://github.com/opdavies/oliverdavies.uk
 [2]: https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch
-[3]: https://github.com/opdavies/oliverdavies.uk/blob/master/build.sh
+[3]: https://github.com/opdavies/oliverdavies.uk/blob/master/publish.sh
 [4]: /blog/2015/07/21/automating-sculpin-jenkins
 [5]: https://github.com/blog/572-bypassing-jekyll-on-github-pages
 [6]: https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare
