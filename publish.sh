@@ -2,6 +2,9 @@
 
 SITE_ENV="prod"
 
+# Build front-end assets.
+node_modules/.bin/gulp --production
+
 # Remove the existing docs directory, build the site and create the new
 # docs directory.
 rm -rf ./docs
