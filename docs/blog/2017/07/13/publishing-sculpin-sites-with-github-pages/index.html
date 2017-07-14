@@ -111,7 +111,7 @@
 
 <p>This means that I can simply re-generate the site after making changes and add it as an additional commit to my main branch with no need to switch branches or perform a merge.</p>
 
-<p>To simplify this, I’ve added a new <a href="https://github.com/opdavies/oliverdavies.uk/blob/master/build.sh">build.sh script</a> into my repository to automate the sites. This is how it currently looks:</p>
+<p>To simplify this, I’ve added a new <a href="https://github.com/opdavies/oliverdavies.uk/blob/master/publish.sh">publish.sh script</a> into my repository to automate the sites. This is how it currently looks:</p>
 
 <pre><code class="language-bash">#!/usr/bin/env bash
 
@@ -147,7 +147,7 @@ git push origin HEAD
 <h2 id="next-steps">Next Steps</h2>
 
 <ul>
-<li>Enable automatically running <code>build.sh</code> when new changes are pushed to GitHub rather than running it manually. I was previously <a href="/blog/2015/07/21/automating-sculpin-jenkins">using Jenkins</a> and Fabric for this, though I’m also going to look into using Travis to accomplish this.</li>
+<li>Enable automatically running <code>publish.sh</code> when new changes are pushed to GitHub rather than running it manually. I was previously <a href="/blog/2015/07/21/automating-sculpin-jenkins">using Jenkins</a> and Fabric for this, though I’m also going to look into using Travis to accomplish this.</li>
 <li>Add the pre-build steps such as running <code>composer install</code> and <code>yarn</code> to install dependencies, and <code>gulp</code> to create the front-end assets. This was previously done by Jenkins in my previous setup.</li>
 </ul>
 

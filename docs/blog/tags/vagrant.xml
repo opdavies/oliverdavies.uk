@@ -5,7 +5,7 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/vagrant.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 14 Jul 2017 20:32:01 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jul 2017 20:58:38 +0100</lastBuildDate>
             <item>
         <title>How to fix Vagrant Loading the Wrong Virtual Machine</title>
         <link>https://www.oliverdavies.uk/blog/2014/10/06/fix-vagrant-loading-wrong-virtual-machine</link>
