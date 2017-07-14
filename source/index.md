@@ -19,7 +19,7 @@ redirect:
 
 My name is Oliver Davies (aka [opdavies][1]) - a Web Developer and System Administrator based in Wales, UK. I’m a PHP specialist and [Acquia certified Drupal Developer][41], a {{ site.work.role }} at [{{ site.companies[site.work.company].name }}][20], former Developer at the [{{ site.companies.drupal_association.name }}][39], part-time freelancer, open source contributor and advocate, mentor and conference speaker.
 
-I’m a provisional member of the [Drupal Security team][14] and a webmaster and documentation maintainer for Drupal.org. [I speak at various user groups and conferences][40], and co-organise the [Drupal Bristol user group][15], [PHPSW][17] and [DrupalCamp Bristol][18].
+I’m a webmaster and documentation maintainer for [Drupal.org][42], and a provisional member of the [Drupal Security team][14]. [I speak at various user groups and conferences][40], and co-organise the [Drupal Bristol user group][15], [PHPSW][17] and [DrupalCamp Bristol][18].
 
 ## Skills
 
@@ -87,3 +87,4 @@ I’m a provisional member of the [Drupal Security team][14] and a webmaster and
 [39]: {{site.companies.drupal_association.url}}
 [40]: {{site.url}}/talks
 [41]: http://certification.acquia.com/registry?fname=Oliver&lname=Davies&city=Newport&state=Wales&country=United+Kingdom&org=&exam=All
+[42]: https://www.drupal.org
