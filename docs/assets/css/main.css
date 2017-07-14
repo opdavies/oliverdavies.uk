@@ -8230,15 +8230,141 @@ main p img {
   max-height: 40px;
   width: auto; }
 
-.skills-list {
-  margin: 1em 0;
+img.me {
+  max-width: 110px; }
+
+.page--blog__list ul.posts {
+  list-style: none;
+  margin-bottom: 2em;
+  padding-left: 0; }
+
+.page--blog__list .post {
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 1em;
+  padding-bottom: 2em; }
+  .page--blog__list .post:before, .page--blog__list .post:after {
+    content: " ";
+    display: table; }
+  .page--blog__list .post:after {
+    clear: both; }
+
+.experience-item {
+  margin-bottom: 30px; }
+  .experience-item:before, .experience-item:after {
+    content: " ";
+    display: table; }
+  .experience-item:after {
+    clear: both; }
+
+.experience-item-website {
+  margin-bottom: 2px; }
+
+.experience-item-role {
+  margin-bottom: .625rem; }
+
+.experience-item-logo {
+  float: right;
+  margin: 25px 0 1em 1.5em;
+  max-width: 25%; }
+  @media screen and (min-width: 500px) {
+    .experience-item-logo {
+      max-width: 20%; } }
+  @media screen and (min-width: 992px) {
+    .experience-item-logo {
+      max-width: 15%; } }
+  .experience-item-logo img {
+    height: auto;
+    width: 100%; }
+
+.experience-item-description p:last-of-type {
+  margin-bottom: 0; }
+
+.post-pager {
+  clear: both;
+  margin-top: 2em; }
+
+.post-pager div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+
+pre {
+  display: block;
+  overflow: auto;
+  word-break: normal;
+  word-wrap: no-wrap; }
+
+pre[class*="language-"] {
+  border: 0;
+  border-radius: 0;
+  margin: 1.5em 0; }
+
+pre code {
+  white-space: pre;
+  word-break: normal; }
+
+code.hljs {
+  background-color: inherit;
   padding: 0; }
 
-.skill {
-  margin: 0 10px 15px 0; }
+code[data-gist-id] {
+  background: transparent;
+  padding: 0; }
 
-.skill-image {
-  height: 40px;
-  width: auto; }
+.about-author:before, .about-author:after {
+  content: " ";
+  display: table; }
+
+.about-author:after {
+  clear: both; }
+
+.about-author img {
+  float: left;
+  margin: 0 1em 1em 0;
+  width: 50px; }
+
+.project-company.has-logo a:link,
+.project-company.has-logo a:hover {
+  border-bottom: 0;
+  display: block; }
+
+.project-company.has-logo img {
+  max-width: 75%; }
+  @media screen and (min-width: 768px) {
+    .project-company.has-logo img {
+      max-width: 50%; } }
+  @media screen and (min-width: 992px) {
+    .project-company.has-logo img {
+      max-width: 33.3%; } }
+
+.talk-full h1 {
+  margin-bottom: 25px; }
+
+.presentation {
+  background: url("../images/loading.gif") no-repeat center;
+  min-height: 275px;
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    .presentation {
+      min-height: 460px; } }
+  @media screen and (min-width: 992px) {
+    .presentation {
+      min-height: 540px; } }
+
+.testimonial {
+  margin-bottom: 10px; }
+  .testimonial:before, .testimonial:after {
+    content: " ";
+    display: table; }
+  .testimonial:after {
+    clear: both; }
+  .testimonial__image {
+    height: 75px;
+    margin: 0 0 10px 10px;
+    width: 75px; }
+    @media screen and (max-width: 767px) {
+      .testimonial__image {
+        height: 90px;
+        width: 90px; } }
 
 /*# sourceMappingURL=main.css.map */
