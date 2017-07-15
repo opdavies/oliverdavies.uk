@@ -1,0 +1,8 @@
+language: php
+
+before_script:
+    - composer install --prefer-dist --no-dev
+    - yarn --pure-lockfile
+
+script:
+    - ./publish.sh
