@@ -12,7 +12,7 @@ cache:
         - $HOME/.composer/cache
 
 before_install:
-    - npm install
+    - npm install --production
     - composer install --prefer-dist --no-dev
 
 script:
