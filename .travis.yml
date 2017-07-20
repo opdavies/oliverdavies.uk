@@ -1,19 +1,22 @@
 language: php
 php: 7
-
 sudo: true
 
 branches:
-    only:
-        - master
+  only:
+    - master
 
 cache:
-    directories:
-        - $HOME/.composer/cache
+  directories:
+    - $HOME/.composer/cache
 
 before_install:
-    - npm install
-    - composer install --prefer-dist --no-dev
+  - npm install
+  - composer install --prefer-dist --no-dev
 
 script:
-    - ./publish.sh
+  - ./publish.sh
+
+env:
+  global:
+    - secure: DuV9qSuSrOJu2gTDgHSKdVGMyt9JRdDjzh+CTKAByiAhE3baYgiae0ZIvNZtoUIzXwAEhTKb4t6RHh4/uh1rV1lnldeCqhUEa7dEnXwY+unh4B/0/+tlUD6QJwXcJVvTIPU0i11UkkAAlOx7C9JNgaeHWgj7qFAZ2SxyqlEaOdiqg6w6Vyg87aKUT53mUveLLvEq+g2E8tUrxFGuFBywRCdpnuKeuONgBrVb35redLl411B2vu1XM1zRNDWF3CRqfvaobDBZKgn19uTpq/r2UbP9MemSNLFg88TDxhmYMzut1NkDFSJyHbHrsZkkRoWYuR1msrvL0WDvtPrYuV9g7V7K03n9yKWirYXmSkQxodS6vbyAGiXrpq+M5Buz9VgtFs6ASUBmk4VVPoydxfif+iDUICPy+lqVGvqbAHL5iKOnqLJ0ClG9gkam65fgW5aLcT785Fl4u3tJBYg3LPLl8VY+f+cwDIZ2sd/EwOz11aWUwv7yUYipXf4NxXjQnKnCGVaKZzz9deq7tl8aka0YsPCxTj6ttZcMaI20aTzcTd/vorTqA0myZ3Vsey9CgOVm/m+xaQupyyYKUG9aUxi/T28Jqf4dzDIuiS8KJUiQJT7HEFfIUgKfRc6F7Xr6siwbQh6mmVrMgMS6Zf9g7S6u2aGDpmuMOQvgKqYUSewxBJc=
