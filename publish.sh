@@ -13,6 +13,7 @@ touch output_${SITE_ENV}/.nojekyll
 mv output_${SITE_ENV} docs
 
 # Ensure the correct Git variables are used.
+git remote set-url origin git@github.com:opdavies/oliverdavies.uk.git
 git config --local user.name 'Oliver Davies'
 git config --local user.email oliver@oliverdavies.uk
 
