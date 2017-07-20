@@ -3,7 +3,7 @@
 SITE_ENV="prod"
 
 # Build front-end assets.
-node_modules/.bin/gulp --production
+npm run prod
 
 # Remove the existing docs directory, build the site and create the new
 # docs directory.
