@@ -1,9 +1,6 @@
 .is-centered
     margin: 0 auto
 
-.is-flex
-    display: flex
-
 .is-half
     width: 50%
 
@@ -16,8 +13,12 @@
 .list-style-none
     list-style: none
 
-@each $value in 'block', 'inline', 'inline-block'
-    .display-#{$value}
+.align-items-center
+  align-items: center
+
+@each $value in 'block', 'inline', 'inline-block', 'flex'
+    .display-#{$value},
+    .is-#{$value},
         display: #{$value}
 
 @each $value in 'top', 'middle', 'bottom'
@@ -30,3 +31,7 @@
         & > tfoot > tr > td
             &.vertical-#{$value}
                 vertical-align: #{$value}
+
+@each $value in 2, 3, 4, 5
+    .is-#{$value}
+        width: calc(100% / #{$value})
