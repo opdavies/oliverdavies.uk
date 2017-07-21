@@ -5,11 +5,11 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/php.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 15 Jul 2017 08:29:44 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2017 18:44:11 +0100</lastBuildDate>
             <item>
         <title>Publishing Sculpin Sites with GitHub Pages</title>
-        <link>https://www.oliverdavies.uk/blog/2017/07/13/publishing-sculpin-sites-with-github-pages</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/07/13/publishing-sculpin-sites-with-github-pages</guid>
+        <link>https://www.oliverdavies.uk/blog/2017/07/13/publishing-sculpin-sites-with-github-pages/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/07/13/publishing-sculpin-sites-with-github-pages/</guid>
         <pubDate>Thu, 13 Jul 2017 00:00:00 +0100</pubDate>
         <description><p><img
     src="/assets/images/blog/jackson-octocat.png"
@@ -25,8 +25,8 @@
       </item>
           <item>
         <title>Introducing the Drupal Meetups Twitterbot</title>
-        <link>https://www.oliverdavies.uk/blog/2017/06/09/introducing-the-drupal-meetups-twitterbot</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/06/09/introducing-the-drupal-meetups-twitterbot</guid>
+        <link>https://www.oliverdavies.uk/blog/2017/06/09/introducing-the-drupal-meetups-twitterbot/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/06/09/introducing-the-drupal-meetups-twitterbot/</guid>
         <pubDate>Fri, 09 Jun 2017 00:00:00 +0100</pubDate>
         <description><p><img src="/assets/images/blog/drupal-meetups-twitterbot.png" alt="" class="is-centered"></p>
 
@@ -35,23 +35,23 @@
       </item>
           <item>
         <title>Building Gmail Filters with PHP</title>
-        <link>https://www.oliverdavies.uk/blog/2016/07/15/building-gmail-filters-with-php</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2016/07/15/building-gmail-filters-with-php</guid>
+        <link>https://www.oliverdavies.uk/blog/2016/07/15/building-gmail-filters-with-php/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2016/07/15/building-gmail-filters-with-php/</guid>
         <pubDate>Fri, 15 Jul 2016 00:00:00 +0100</pubDate>
         <description></description>
       </item>
           <item>
         <title>Simplifying Drupal Migrations with xautoload</title>
-        <link>https://www.oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload</guid>
+        <link>https://www.oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload/</guid>
         <pubDate>Tue, 03 May 2016 00:00:00 +0100</pubDate>
         <description><p>How to use the <a href="https://www.drupal.org/project/xautoload">xautoload</a> module to autoload migration classes within your Drupal 7 migration modules.</p>
 </description>
       </item>
           <item>
         <title>Don&#039;t Bootstrap Drupal, Use Drush</title>
-        <link>https://www.oliverdavies.uk/blog/2013/11/19/dont-bootstrap-drupal-use-drush</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/11/19/dont-bootstrap-drupal-use-drush</guid>
+        <link>https://www.oliverdavies.uk/blog/2013/11/19/dont-bootstrap-drupal-use-drush/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/11/19/dont-bootstrap-drupal-use-drush/</guid>
         <pubDate>Tue, 19 Nov 2013 00:00:00 +0000</pubDate>
         <description><p>There are times when doing Drupal development when you need to run a custom PHP script, maybe moving data from one field to another, that doesn't warrant the time and effort to create a custom module. In this scenario, it would be quicker to write a .php script and bootstrap Drupal to gain access to functions like <code>node_load()</code> and <code>db_query()</code>.</p>
 
@@ -60,24 +60,24 @@
       </item>
           <item>
         <title>Checking if a user is logged into Drupal (the right way)</title>
-        <link>https://www.oliverdavies.uk/blog/2013/01/09/checking-if-user-logged-drupal-right-way</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/01/09/checking-if-user-logged-drupal-right-way</guid>
+        <link>https://www.oliverdavies.uk/blog/2013/01/09/checking-if-user-logged-drupal-right-way/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/01/09/checking-if-user-logged-drupal-right-way/</guid>
         <pubDate>Wed, 09 Jan 2013 00:00:00 +0000</pubDate>
         <description><p>I see this regularly when working on Drupal sites when someone wants to check whether the current user is logged in to Drupal (authenticated) or not (anonymous).</p>
 </description>
       </item>
           <item>
         <title>Display a Custom Menu in a Drupal 7 Theme Template File</title>
-        <link>https://www.oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file</guid>
+        <link>https://www.oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file/</guid>
         <pubDate>Sat, 18 Aug 2012 00:00:00 +0100</pubDate>
         <description><p>For reference, this is the code needed to display a menu in a Drupal 7 template file, including the navigation ARIA role.</p>
 </description>
       </item>
           <item>
         <title>Display the Number of Facebook fans in PHP</title>
-        <link>https://www.oliverdavies.uk/blog/2011/03/15/display-number-facebook-fans-php</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2011/03/15/display-number-facebook-fans-php</guid>
+        <link>https://www.oliverdavies.uk/blog/2011/03/15/display-number-facebook-fans-php/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2011/03/15/display-number-facebook-fans-php/</guid>
         <pubDate>Tue, 15 Mar 2011 00:00:00 +0000</pubDate>
         <description></description>
       </item>

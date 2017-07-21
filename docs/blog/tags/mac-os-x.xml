@@ -5,11 +5,11 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/mac-os-x.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 15 Jul 2017 08:29:46 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2017 18:44:12 +0100</lastBuildDate>
             <item>
         <title>Open Sublime Text 2 from the Mac OS X Command Line</title>
-        <link>https://www.oliverdavies.uk/blog/2012/11/17/open-sublime-text-2-mac-os-x-command-line</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/11/17/open-sublime-text-2-mac-os-x-command-line</guid>
+        <link>https://www.oliverdavies.uk/blog/2012/11/17/open-sublime-text-2-mac-os-x-command-line/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/11/17/open-sublime-text-2-mac-os-x-command-line/</guid>
         <pubDate>Sat, 17 Nov 2012 00:00:00 +0000</pubDate>
         <description><p>How to open Sublime Text from the command line.</p>
 </description>

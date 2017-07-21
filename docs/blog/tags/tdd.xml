@@ -5,11 +5,11 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/tdd.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 15 Jul 2017 08:29:46 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2017 18:44:12 +0100</lastBuildDate>
             <item>
         <title>Some useful links for using SimpleTest in Drupal</title>
-        <link>https://www.oliverdavies.uk/blog/2013/06/13/some-useful-links-using-simpletest-drupal</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/06/13/some-useful-links-using-simpletest-drupal</guid>
+        <link>https://www.oliverdavies.uk/blog/2013/06/13/some-useful-links-using-simpletest-drupal/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/06/13/some-useful-links-using-simpletest-drupal/</guid>
         <pubDate>Thu, 13 Jun 2013 00:00:00 +0100</pubDate>
         <description><p>Here are some useful links that I've found when researching about unit testing in Drupal using SimpleTest.</p>
 </description>

@@ -5,11 +5,11 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/date.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 15 Jul 2017 08:29:46 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2017 18:44:12 +0100</lastBuildDate>
             <item>
         <title>How to add a date popup calendar onto a custom form</title>
-        <link>https://www.oliverdavies.uk/blog/2012/05/23/add-date-popup-calendar-custom-form</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/05/23/add-date-popup-calendar-custom-form</guid>
+        <link>https://www.oliverdavies.uk/blog/2012/05/23/add-date-popup-calendar-custom-form/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/05/23/add-date-popup-calendar-custom-form/</guid>
         <pubDate>Wed, 23 May 2012 00:00:00 +0100</pubDate>
         <description><p>How to use a date popup calendar within your custom module.</p>
 </description>

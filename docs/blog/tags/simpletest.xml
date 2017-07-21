@@ -5,11 +5,11 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/simpletest.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 15 Jul 2017 08:29:45 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2017 18:44:11 +0100</lastBuildDate>
             <item>
         <title>Fixing Drupal SimpleTest issues inside Docker Containers</title>
-        <link>https://www.oliverdavies.uk/blog/2017/05/05/fixing-drupal-simpletest-docker</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/05/05/fixing-drupal-simpletest-docker</guid>
+        <link>https://www.oliverdavies.uk/blog/2017/05/05/fixing-drupal-simpletest-docker/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/05/05/fixing-drupal-simpletest-docker/</guid>
         <pubDate>Fri, 05 May 2017 00:00:00 +0100</pubDate>
         <description><p>I’ve been a Drupal VM user for a long time, but lately I’ve been using a combination Drupal VM and Docker for my local development environment. There were a couple of issues preventing me from completely switching to Docker - one of which being that when I tried running of my Simpletest tests, a lot of them would fail where they would pass when run within Drupal VM.</p>
 
@@ -18,8 +18,8 @@
       </item>
           <item>
         <title>Some useful links for using SimpleTest in Drupal</title>
-        <link>https://www.oliverdavies.uk/blog/2013/06/13/some-useful-links-using-simpletest-drupal</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/06/13/some-useful-links-using-simpletest-drupal</guid>
+        <link>https://www.oliverdavies.uk/blog/2013/06/13/some-useful-links-using-simpletest-drupal/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/06/13/some-useful-links-using-simpletest-drupal/</guid>
         <pubDate>Thu, 13 Jun 2013 00:00:00 +0100</pubDate>
         <description><p>Here are some useful links that I've found when researching about unit testing in Drupal using SimpleTest.</p>
 </description>

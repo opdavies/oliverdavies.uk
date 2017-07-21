@@ -5,11 +5,11 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/nginx.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 15 Jul 2017 08:29:45 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2017 18:44:11 +0100</lastBuildDate>
             <item>
         <title>Nginx Redirects With Query String Arguments</title>
-        <link>https://www.oliverdavies.uk/blog/2017/01/31/nginx-redirects-with-query-string-arguments</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/01/31/nginx-redirects-with-query-string-arguments</guid>
+        <link>https://www.oliverdavies.uk/blog/2017/01/31/nginx-redirects-with-query-string-arguments/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/01/31/nginx-redirects-with-query-string-arguments/</guid>
         <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
         <description><p>This is an example of how my Nginx configuration looked to redirect from an old domain to a new one, and also to redirect from the root <code>example.com</code> domain to the canonical <code>www</code> subdomain.</p>
 </description>

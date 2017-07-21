@@ -5,19 +5,19 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/zen.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 15 Jul 2017 08:29:45 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2017 18:44:11 +0100</lastBuildDate>
             <item>
         <title>Create a Zen Sub-theme Using Drush</title>
-        <link>https://www.oliverdavies.uk/blog/2013/09/06/create-a-zen-sub-theme-using-drush</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/09/06/create-a-zen-sub-theme-using-drush</guid>
+        <link>https://www.oliverdavies.uk/blog/2013/09/06/create-a-zen-sub-theme-using-drush/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/09/06/create-a-zen-sub-theme-using-drush/</guid>
         <pubDate>Fri, 06 Sep 2013 00:00:00 +0100</pubDate>
         <description><p>How to use <a href="https://drupal.org/project/drush">Drush</a> to quickly build a new sub-theme of <a href="https://drupal.org/project/zen">Zen</a>.</p>
 </description>
       </item>
           <item>
         <title>Quickly Create Zen Subthemes Using Zenophile</title>
-        <link>https://www.oliverdavies.uk/blog/2010/05/10/quickly-create-zen-subthemes-using-zenophile</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/05/10/quickly-create-zen-subthemes-using-zenophile</guid>
+        <link>https://www.oliverdavies.uk/blog/2010/05/10/quickly-create-zen-subthemes-using-zenophile/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/05/10/quickly-create-zen-subthemes-using-zenophile/</guid>
         <pubDate>Mon, 10 May 2010 00:00:00 +0100</pubDate>
         <description></description>
       </item>

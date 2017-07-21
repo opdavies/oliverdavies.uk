@@ -5,11 +5,11 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/gulp.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 15 Jul 2017 08:29:45 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2017 18:44:11 +0100</lastBuildDate>
             <item>
         <title>Easier Sculpin Commands with Composer and NPM Scripts</title>
-        <link>https://www.oliverdavies.uk/blog/2017/01/07/easier-sculpin-commands-with-composer-and-npm-scripts</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/01/07/easier-sculpin-commands-with-composer-and-npm-scripts</guid>
+        <link>https://www.oliverdavies.uk/blog/2017/01/07/easier-sculpin-commands-with-composer-and-npm-scripts/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/01/07/easier-sculpin-commands-with-composer-and-npm-scripts/</guid>
         <pubDate>Sat, 07 Jan 2017 00:00:00 +0000</pubDate>
         <description><p>In this video, I show you how I've simplied my Sculpin and Gulp workflow using custom Composer and NPM scripts.</p>
 </description>

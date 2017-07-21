@@ -5,11 +5,11 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/aria.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 15 Jul 2017 08:29:46 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2017 18:44:12 +0100</lastBuildDate>
             <item>
         <title>Display a Custom Menu in a Drupal 7 Theme Template File</title>
-        <link>https://www.oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file</guid>
+        <link>https://www.oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file/</guid>
         <pubDate>Sat, 18 Aug 2012 00:00:00 +0100</pubDate>
         <description><p>For reference, this is the code needed to display a menu in a Drupal 7 template file, including the navigation ARIA role.</p>
 </description>

@@ -5,19 +5,19 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/settings.php.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 15 Jul 2017 08:29:45 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2017 18:44:11 +0100</lastBuildDate>
             <item>
         <title>Include a Local Drupal Settings file for Environment Configuration and Overrides</title>
-        <link>https://www.oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides</guid>
+        <link>https://www.oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides/</guid>
         <pubDate>Sat, 20 Dec 2014 00:00:00 +0000</pubDate>
         <description><p>How to create and include a local settings file to define and override environment-specific variables, and keep sensitive things like your database credentials and API keys safe.</p>
 </description>
       </item>
           <item>
         <title>Include environment-specific settings files on Pantheon</title>
-        <link>https://www.oliverdavies.uk/blog/2014/11/27/pantheon-settings-files</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/11/27/pantheon-settings-files</guid>
+        <link>https://www.oliverdavies.uk/blog/2014/11/27/pantheon-settings-files/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/11/27/pantheon-settings-files/</guid>
         <pubDate>Thu, 27 Nov 2014 00:00:00 +0000</pubDate>
         <description><p>I was recently doing some work on a site hosted on <a href="http://getpantheon.com">Pantheon</a> and came across an issue, for which part of the suggested fix was to ensure that the <code>$base_url</code> variable was explicitly defined within settings.php (this is also best practice on all Drupal sites).</p>
 

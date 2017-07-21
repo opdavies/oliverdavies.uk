@@ -5,11 +5,11 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/table-prefixing.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 15 Jul 2017 08:29:46 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2017 18:44:12 +0100</lastBuildDate>
             <item>
         <title>Creating Local and Staging sites with Drupal&#039;s Domain Module Enabled</title>
-        <link>https://www.oliverdavies.uk/blog/2013/07/17/creating-local-and-staging-sites-drupals-domain-module-enabled</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/07/17/creating-local-and-staging-sites-drupals-domain-module-enabled</guid>
+        <link>https://www.oliverdavies.uk/blog/2013/07/17/creating-local-and-staging-sites-drupals-domain-module-enabled/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/07/17/creating-local-and-staging-sites-drupals-domain-module-enabled/</guid>
         <pubDate>Wed, 17 Jul 2013 00:00:00 +0100</pubDate>
         <description><p>The <a href="https://drupal.org/project/domain" title="The Domain Access project on Drupal.org">Domain Access project</a> is a suite of modules that provide tools for running a group of affiliated sites from one Drupal installation and a single shared database. The issue is that the domains are stored within the database so these are copied across when the data is migrated between environments, whereas the domains are obviously going to change.</p>
 

@@ -5,11 +5,11 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/drupal-7.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 15 Jul 2017 08:29:45 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2017 18:44:11 +0100</lastBuildDate>
             <item>
         <title>Turning Your Custom Drupal Module into a Feature</title>
-        <link>https://www.oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature</guid>
+        <link>https://www.oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/05/20/turning-drupal-module-into-feature/</guid>
         <pubDate>Sat, 20 May 2017 00:00:00 +0100</pubDate>
         <description><p>Yesterday I was fixing a bug in an inherited Drupal 7 custom module, and I decided that I was going to add some tests to ensure that the bug was fixed and doesn’t get accidentially re-introduced in the future. The test though required me to have a particular content type and fields which are specific to this site, so weren’t present within the standard installation profile used to run tests.</p>
 
@@ -20,16 +20,16 @@
       </item>
           <item>
         <title>Simplifying Drupal Migrations with xautoload</title>
-        <link>https://www.oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload</guid>
+        <link>https://www.oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload/</guid>
         <pubDate>Tue, 03 May 2016 00:00:00 +0100</pubDate>
         <description><p>How to use the <a href="https://www.drupal.org/project/xautoload">xautoload</a> module to autoload migration classes within your Drupal 7 migration modules.</p>
 </description>
       </item>
           <item>
         <title>Programmatically Load an Entityform in Drupal 7</title>
-        <link>https://www.oliverdavies.uk/blog/2015/12/22/programmatically-load-an-entityform-in-drupal-7</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2015/12/22/programmatically-load-an-entityform-in-drupal-7</guid>
+        <link>https://www.oliverdavies.uk/blog/2015/12/22/programmatically-load-an-entityform-in-drupal-7/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2015/12/22/programmatically-load-an-entityform-in-drupal-7/</guid>
         <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
         <description><p>I recently had my first experience using the <a href="https://www.drupal.org/project/entityform">Entityform module</a> in a project. It was quite easy to configure with different form types, but then I needed to embed the form into an overlay. I was expecting to use the <code>drupal_get_form()</code> function and render it, but this didn’t work.</p>
 
@@ -38,55 +38,55 @@
       </item>
           <item>
         <title>How to Define a Minimum Drupal Core Version</title>
-        <link>https://www.oliverdavies.uk/blog/2015/04/03/how-to-define-a-minimum-drupal-core-version</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2015/04/03/how-to-define-a-minimum-drupal-core-version</guid>
+        <link>https://www.oliverdavies.uk/blog/2015/04/03/how-to-define-a-minimum-drupal-core-version/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2015/04/03/how-to-define-a-minimum-drupal-core-version/</guid>
         <pubDate>Fri, 03 Apr 2015 00:00:00 +0100</pubDate>
         <description></description>
       </item>
           <item>
         <title>Include a Local Drupal Settings file for Environment Configuration and Overrides</title>
-        <link>https://www.oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides</guid>
+        <link>https://www.oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/12/20/include-local-drupal-settings-file-environment-configuration-and-overrides/</guid>
         <pubDate>Sat, 20 Dec 2014 00:00:00 +0000</pubDate>
         <description><p>How to create and include a local settings file to define and override environment-specific variables, and keep sensitive things like your database credentials and API keys safe.</p>
 </description>
       </item>
           <item>
         <title>Creating and using custom tokens in Drupal 7</title>
-        <link>https://www.oliverdavies.uk/blog/2013/02/16/creating-and-using-custom-tokens-drupal-7</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/02/16/creating-and-using-custom-tokens-drupal-7</guid>
+        <link>https://www.oliverdavies.uk/blog/2013/02/16/creating-and-using-custom-tokens-drupal-7/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/02/16/creating-and-using-custom-tokens-drupal-7/</guid>
         <pubDate>Sat, 16 Feb 2013 00:00:00 +0000</pubDate>
         <description><p>This post outlines the steps required to create your own custom tokens in Drupal.</p>
 </description>
       </item>
           <item>
         <title>Checking if a user is logged into Drupal (the right way)</title>
-        <link>https://www.oliverdavies.uk/blog/2013/01/09/checking-if-user-logged-drupal-right-way</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/01/09/checking-if-user-logged-drupal-right-way</guid>
+        <link>https://www.oliverdavies.uk/blog/2013/01/09/checking-if-user-logged-drupal-right-way/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/01/09/checking-if-user-logged-drupal-right-way/</guid>
         <pubDate>Wed, 09 Jan 2013 00:00:00 +0000</pubDate>
         <description><p>I see this regularly when working on Drupal sites when someone wants to check whether the current user is logged in to Drupal (authenticated) or not (anonymous).</p>
 </description>
       </item>
           <item>
         <title>How to use SASS and Compass in Drupal 7 using Sassy</title>
-        <link>https://www.oliverdavies.uk/blog/2012/12/06/use-sass-and-compass-drupal-7-using-sassy</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/12/06/use-sass-and-compass-drupal-7-using-sassy</guid>
+        <link>https://www.oliverdavies.uk/blog/2012/12/06/use-sass-and-compass-drupal-7-using-sassy/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/12/06/use-sass-and-compass-drupal-7-using-sassy/</guid>
         <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
         <description><p>I've recently started using <a href="http://sass-lang.com">SASS</a> rather than LESS to do my CSS preprocessing - namely due to its integration with <a href="http://compass-style.org">Compass</a> and it's built-in CSS3 mixins. Here are three modules that provide the ability to use SASS within Drupal.</p>
 </description>
       </item>
           <item>
         <title>Display a Custom Menu in a Drupal 7 Theme Template File</title>
-        <link>https://www.oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file</guid>
+        <link>https://www.oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file/</guid>
         <pubDate>Sat, 18 Aug 2012 00:00:00 +0100</pubDate>
         <description><p>For reference, this is the code needed to display a menu in a Drupal 7 template file, including the navigation ARIA role.</p>
 </description>
       </item>
           <item>
         <title>My new Drupal modules</title>
-        <link>https://www.oliverdavies.uk/blog/2012/07/12/my-new-drupal-modules</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/07/12/my-new-drupal-modules</guid>
+        <link>https://www.oliverdavies.uk/blog/2012/07/12/my-new-drupal-modules/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/07/12/my-new-drupal-modules/</guid>
         <pubDate>Thu, 12 Jul 2012 00:00:00 +0100</pubDate>
         <description><p>After a busy few days, I've released two new contrib Drupal modules.</p>
 </description>

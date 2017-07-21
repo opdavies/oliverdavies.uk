@@ -5,27 +5,27 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/sublime-text.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 15 Jul 2017 08:29:46 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2017 18:44:12 +0100</lastBuildDate>
             <item>
         <title>The Quickest way to Install Sublime Text 2 in Ubuntu</title>
-        <link>https://www.oliverdavies.uk/blog/2013/03/02/quickest-way-install-sublime-text-2-ubuntu</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/03/02/quickest-way-install-sublime-text-2-ubuntu</guid>
+        <link>https://www.oliverdavies.uk/blog/2013/03/02/quickest-way-install-sublime-text-2-ubuntu/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/03/02/quickest-way-install-sublime-text-2-ubuntu/</guid>
         <pubDate>Sat, 02 Mar 2013 00:00:00 +0000</pubDate>
         <description><p>After reading numerous blog posts about how to install <a href="http://www.sublimetext.com/2" title="Sublime Text 2">Sublime Text 2</a> in <a href="http://www.ubuntu.com/2" title="Ubuntu">Ubuntu</a>, this is definitely the quickest way!</p>
 </description>
       </item>
           <item>
         <title>Open Sublime Text 2 from the Mac OS X Command Line</title>
-        <link>https://www.oliverdavies.uk/blog/2012/11/17/open-sublime-text-2-mac-os-x-command-line</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/11/17/open-sublime-text-2-mac-os-x-command-line</guid>
+        <link>https://www.oliverdavies.uk/blog/2012/11/17/open-sublime-text-2-mac-os-x-command-line/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/11/17/open-sublime-text-2-mac-os-x-command-line/</guid>
         <pubDate>Sat, 17 Nov 2012 00:00:00 +0000</pubDate>
         <description><p>How to open Sublime Text from the command line.</p>
 </description>
       </item>
           <item>
         <title>My Sublime Text 2 settings</title>
-        <link>https://www.oliverdavies.uk/blog/2012/10/25/my-sublime-text-2-settings</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/10/25/my-sublime-text-2-settings</guid>
+        <link>https://www.oliverdavies.uk/blog/2012/10/25/my-sublime-text-2-settings/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/10/25/my-sublime-text-2-settings/</guid>
         <pubDate>Thu, 25 Oct 2012 00:00:00 +0100</pubDate>
         <description><p><a href="http://www.sublimetext.com/2">Sublime Text 2</a> has been my text editor of choice for the past few months, and I use it at home, in work, and on any virtual machines that I run. So rather than having to manually re-enter my settings each time, I thought that I'd document them here for future reference.</p>
 

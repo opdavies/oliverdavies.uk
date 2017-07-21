@@ -5,11 +5,11 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/virtualbox.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 15 Jul 2017 08:29:45 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2017 18:44:11 +0100</lastBuildDate>
             <item>
         <title>How to fix Vagrant Loading the Wrong Virtual Machine</title>
-        <link>https://www.oliverdavies.uk/blog/2014/10/06/fix-vagrant-loading-wrong-virtual-machine</link>
-        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/10/06/fix-vagrant-loading-wrong-virtual-machine</guid>
+        <link>https://www.oliverdavies.uk/blog/2014/10/06/fix-vagrant-loading-wrong-virtual-machine/</link>
+        <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/10/06/fix-vagrant-loading-wrong-virtual-machine/</guid>
         <pubDate>Mon, 06 Oct 2014 00:00:00 +0100</pubDate>
         <description><p>A few times recently, I've had instances where <a href="https://www.vagrantup.com">Vagrant</a> seems to have forgotten which virtual machine it's supposed to load, probably due to renaming a project directory or the .vagrant directory being moved accidentally.</p>
 
