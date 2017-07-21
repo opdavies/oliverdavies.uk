@@ -47,10 +47,6 @@ I’m a webmaster and documentation maintainer for [Drupal.org][42], and a provi
 - IRC (freenode) - {{ site.irc.name }}
 {% endblock %}
 
-{% block stylesheets %}
-<link rel="stylesheet" href="{{ site.url }}/assets/css/about.css">
-{% endblock %}
-
 [1]: https://www.google.com/#q=opdavies
 [2]: https://www.drupal.org
 [3]: http://symfony.com
