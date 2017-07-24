@@ -47,8 +47,6 @@ I’m a webmaster and documentation maintainer for [Drupal.org][42], and a provi
 - [Stack Overflow][37]
 - [Disqus][38]
 - IRC (freenode) - {{ site.irc.name }}
-
-test
 {% endblock %}
 
 [1]: https://www.google.com/#q=opdavies
