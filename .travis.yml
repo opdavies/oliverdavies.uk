@@ -12,6 +12,9 @@ cache:
 
 before_install:
   - openssl aes-256-cbc -K $encrypted_01701315b81b_key -iv $encrypted_01701315b81b_iv -in deploy_key.enc -out deploy_key -d
+  - chmod 600 deploy_key
+  - eval `ssh-agent -s`
+  - ssh-add deploy_key
   - npm install
   - composer install --prefer-dist --no-dev
 
