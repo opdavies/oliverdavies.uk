@@ -618,109 +618,109 @@
   
     <url>
     <loc>https://www.oliverdavies.uk/talks/dancing-for-drupal//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/deploying-php-applications-with-fabric//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/getting-started-with-drupal-8-module-development//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/drupal-8-rejoining-the-herd//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/drupal-8//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/modern-drupal-development-with-composer//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/drupal-vm-generator//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/drupal-vm-meet-symfony-console//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/drupalorg-in-2015-whats-coming-next//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/drush-make-drupalbristol//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/getting-your-data-into-drupal-8//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/git-flow//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/goodbye-drush-make-hello-composer//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/it-all-started-with-a-patch//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/building-static-websites-with-sculpin//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/test-drive-twig-with-sculpin//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/test-driven-drupal-development-with-simpletest-and-phpunit//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
     <loc>https://www.oliverdavies.uk/talks/so-what-is-this-drupal-thing//</loc>
-    <lastmod>2017-07-24T19:05:46+00:00</lastmod>
+    <lastmod>2017-07-24T19:08:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
