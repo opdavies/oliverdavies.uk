@@ -5,7 +5,9 @@ set -uex
 SITE_ENV="prod"
 REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
+echo $SSH_REPO
 SHA=`git rev-parse --verify HEAD`
+echo $SHA
 
 # Build front-end assets.
 npm run prod
