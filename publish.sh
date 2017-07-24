@@ -2,6 +2,9 @@
 
 SITE_ENV="prod"
 
+REPO=`git config remote.origin.url`
+SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
+
 # Build front-end assets.
 npm run prod
 
@@ -15,4 +18,4 @@ mv output_${SITE_ENV} docs
 # Add, commit and push the changes.
 git add --all docs
 git commit -m 'Build.'
-git push origin HEAD
+git push $SSH_REPO HEAD
