@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-SITE_ENV="prod"
+set -uex
 
+SITE_ENV="prod"
 REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 SHA=`git rev-parse --verify HEAD`
