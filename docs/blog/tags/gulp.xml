@@ -5,7 +5,7 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/gulp.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 24 Jul 2017 18:39:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jul 2017 18:44:29 +0000</lastBuildDate>
             <item>
         <title>Easier Sculpin Commands with Composer and NPM Scripts</title>
         <link>https://www.oliverdavies.uk/blog/2017/01/07/easier-sculpin-commands-with-composer-and-npm-scripts/</link>
