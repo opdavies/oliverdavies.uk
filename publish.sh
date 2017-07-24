@@ -19,6 +19,7 @@ touch output_${SITE_ENV}/.nojekyll
 mv output_${SITE_ENV} docs
 
 # Add, commit and push the changes.
+git checkout $TARGET_BRANCH
 git add --all docs
 git commit -m "Re-generate site. $SHA"
 git push $SSH_REPO $TARGET_BRANCH
