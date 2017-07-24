@@ -1,22 +1,20 @@
 language: php
 php: 7
 sudo: true
-
 branches:
   only:
-    - master
-
+  - master
 cache:
   directories:
-    - $HOME/.composer/cache
-
+  - $HOME/.composer/cache
 before_install:
-  - npm install
-  - composer install --prefer-dist --no-dev
-
+- openssl aes-256-cbc -K $encrypted_01701315b81b_key -iv $encrypted_01701315b81b_iv
+  -in deploy.pub.enc -out ~\/.ssh/deploy.pub -d
+- npm install
+- composer install --prefer-dist --no-dev
 script:
-  - ./publish.sh
-
+- ./publish.sh
 env:
   global:
-    secure: dDkWwZmpNILTnysDdKp6uhnQ+TtT/RbJyhMFc+YQKOvXH4hBoXFf+gGqzVPCGJDHiNhDR07w0oinYfeAw4Ap4MCGBT4X8LfNgvcakxdElZmsu/5ybebNKTkh12CR1jbRKwFyBhV5AWzDY0i0KSkjPZWMx7u4Nrhv53CGFCnIPns88vy8fb2OZvDF6EbUgLHAzE/9DscfDTIbuzrl0RA9UxFJa065d1HCZtGAieki19YrCFkG/ws7nYU4j6JxgywMwOQd8pZAjtEInOAFlks76zNPeqFrrebpet7Z+DE+oEDV5wg5zas2t9lS8ys5VElm8Lrgm0Flv1BfDz9yh67GqDULNGlEz0VSoGcMUV8E624U21EYtD3rxnnNASMedFqjAX4+vh/6/ZAe4X/lpjBZop/J5qPO5o84otj0Xvm71k4o1qCcyLTNWJTqU4WU1X/RH7wuHwTB5NjjN4PsHa9oYmDwPvciVBV6Br37W/S4OYdVAC0ueIEbLFY2Dcvvjpo2elAn95Wqqbb6pKbMowNnIOissFdQduL4DDiAm8qTm/REa3I4oTp91r5RVz6BY7YKLKgCWzTYWetsUXk7kUvO8KXj9Hq8I54YO2skO0+2ezyVAnguJ8ga++ss4f3wGrkdNvaTRNDR4bksPRQbMcamIOJ0m+k6eb2NuEf8w3SO1KU=
+  - secure: HWWS3Xb9FZ1Yc4VOzMXcugWGDLXjslDFJGdKxH+g8/8s2LA4gljpGpnNJcZL5AcqUC5JepCzG9AnUc9CpueEu8lcdUHX1rnqVsKJu/pFj+6bW7+6+EfFIZj5lIYTDp3Rziuh9wvgt/U0UoKwnhEp9T2XPtC6bqn6fy6+K9CWlL0Xu7IeEozUqyU6tNog0p5xlBsv7LeIk5S2Sp5blXGvAYRy7BxF8TDbxmhmtxyAYZvKDo2hJCWD4eIzyQl8++jiNkp4du+VMswZKNK17XriQtSVP1OFu6LVx1tRET7YKXk4BYui4C02oEJtQu0C/dufJzIFmWlxPmMnCX5Wt9DAP8Y5FfS+retKCEtyu/6wG6aQ+Rbn64ccFzIVkyTGZeyvIY58PfJmJFhMrnKAxkylXJrXVE1pJwCenwG1BMeMDliwV690Gm+SZbEj1sxZKLTnaa0PuZYtfdQnCUiYHiNcxGixHN+Ji5602ffltbBBQXTIXSxIv51tDiUpEk2a/05DjKcltWkxM12iIE9k1hq/GAOjEARkwZ51t9vHkGVH6z/xs1YtTOQN6IIEGUT3WZLxjVwGtOGglelFxNn0WLkLgPDDD5Rv9AOvIn0tman3cj/hiFan/yh8ST9NMM1IznlmvC7YoNvx5276WjtkrCFE1TsAk1ABmxTFsBvpfSyG+xg=
+  - COMMIT_AUTHOR_EMAIL: "oliver@oliverdavies.uk"

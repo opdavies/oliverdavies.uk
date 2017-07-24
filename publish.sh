@@ -12,10 +12,6 @@ vendor/bin/sculpin generate --no-interaction --clean --env=${SITE_ENV}
 touch output_${SITE_ENV}/.nojekyll
 mv output_${SITE_ENV} docs
 
-# Ensure the correct Git variables are used.
-git config --local user.name 'Oliver Davies'
-git config --local user.email oliver@oliverdavies.uk
-
 # Add, commit and push the changes.
 git add --all docs
 git commit -m 'Build.'
