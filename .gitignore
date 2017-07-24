@@ -9,4 +9,5 @@
 .sass-cache/
 publish.sh
 *.pyc
-deploy.key
+deploy_key
+deploy_key.pub
