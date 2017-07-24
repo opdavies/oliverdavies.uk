@@ -24,6 +24,7 @@ touch output_${SITE_ENV}/.nojekyll
 cd output_${SITE_ENV}
 mv ../.git .
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
+git pull --rebase
 git add --all .
 git commit -m "Re-generate site. $SHA"
 git push $SSH_REPO $TARGET_BRANCH
