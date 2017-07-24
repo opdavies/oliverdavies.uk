@@ -1,20 +1,22 @@
 language: php
 php: 7
 sudo: true
+
 branches:
   only:
-  - master
+    - master
+
 cache:
   directories:
-  - $HOME/.composer/cache
+    - $HOME/.composer/cache
+
 before_install:
-- openssl aes-256-cbc -K $encrypted_01701315b81b_key -iv $encrypted_01701315b81b_iv
-  -in deploy.pub.enc -out ~\/.ssh/deploy.pub -d
-- npm install
-- composer install --prefer-dist --no-dev
-script:
-- ./publish.sh
+  - npm install
+  - composer install --prefer-dist --no-dev
+
+script: ./publish.sh
+
 env:
   global:
-  - secure: HWWS3Xb9FZ1Yc4VOzMXcugWGDLXjslDFJGdKxH+g8/8s2LA4gljpGpnNJcZL5AcqUC5JepCzG9AnUc9CpueEu8lcdUHX1rnqVsKJu/pFj+6bW7+6+EfFIZj5lIYTDp3Rziuh9wvgt/U0UoKwnhEp9T2XPtC6bqn6fy6+K9CWlL0Xu7IeEozUqyU6tNog0p5xlBsv7LeIk5S2Sp5blXGvAYRy7BxF8TDbxmhmtxyAYZvKDo2hJCWD4eIzyQl8++jiNkp4du+VMswZKNK17XriQtSVP1OFu6LVx1tRET7YKXk4BYui4C02oEJtQu0C/dufJzIFmWlxPmMnCX5Wt9DAP8Y5FfS+retKCEtyu/6wG6aQ+Rbn64ccFzIVkyTGZeyvIY58PfJmJFhMrnKAxkylXJrXVE1pJwCenwG1BMeMDliwV690Gm+SZbEj1sxZKLTnaa0PuZYtfdQnCUiYHiNcxGixHN+Ji5602ffltbBBQXTIXSxIv51tDiUpEk2a/05DjKcltWkxM12iIE9k1hq/GAOjEARkwZ51t9vHkGVH6z/xs1YtTOQN6IIEGUT3WZLxjVwGtOGglelFxNn0WLkLgPDDD5Rv9AOvIn0tman3cj/hiFan/yh8ST9NMM1IznlmvC7YoNvx5276WjtkrCFE1TsAk1ABmxTFsBvpfSyG+xg=
-  - COMMIT_AUTHOR_EMAIL: "oliver@oliverdavies.uk"
+    - ENCRYPTION_LABEL: 01701315b81b
+    - COMMIT_AUTHOR_EMAIL: "oliver@oliverdavies.uk"
