@@ -18,6 +18,13 @@ vendor/bin/sculpin generate --no-interaction --clean --env=${SITE_ENV}
 touch output_${SITE_ENV}/.nojekyll
 mv output_${SITE_ENV} docs
 
+git config --local user.email "oliver@oliver@oliverdavies.uk"
+
+if [ -z `git diff --exit-code` ]; then
+    echo "No changes on this push. Exiting."
+    exit 0
+fi
+
 # Add, commit and push the changes.
 git checkout $TARGET_BRANCH
 git add --all docs
