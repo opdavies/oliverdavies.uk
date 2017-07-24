@@ -5,7 +5,7 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/sublime-text.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 24 Jul 2017 19:22:01 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jul 2017 18:39:34 +0000</lastBuildDate>
             <item>
         <title>The Quickest way to Install Sublime Text 2 in Ubuntu</title>
         <link>https://www.oliverdavies.uk/blog/2013/03/02/quickest-way-install-sublime-text-2-ubuntu/</link>
@@ -26,7 +26,7 @@
         <title>My Sublime Text 2 settings</title>
         <link>https://www.oliverdavies.uk/blog/2012/10/25/my-sublime-text-2-settings/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/10/25/my-sublime-text-2-settings/</guid>
-        <pubDate>Thu, 25 Oct 2012 00:00:00 +0100</pubDate>
+        <pubDate>Thu, 25 Oct 2012 00:00:00 +0000</pubDate>
         <description><p><a href="http://www.sublimetext.com/2">Sublime Text 2</a> has been my text editor of choice for the past few months, and I use it at home, in work, and on any virtual machines that I run. So rather than having to manually re-enter my settings each time, I thought that I'd document them here for future reference.</p>
 
 <p>These preferences ensure that the code is compliant with <a href="http://drupal.org/coding-standards" title="Drupal coding standards on Drupal.org">Drupal coding standards</a> - using two spaces instead of a tab, no trailing whitespace, blank line at the end of a file etc.</p>

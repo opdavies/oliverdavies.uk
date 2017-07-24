@@ -5,33 +5,33 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/imagefield.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 24 Jul 2017 19:22:02 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jul 2017 18:39:35 +0000</lastBuildDate>
             <item>
         <title>Review of the Image Caption Module</title>
         <link>https://www.oliverdavies.uk/blog/2010/08/20/review-image-caption-module/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/08/20/review-image-caption-module/</guid>
-        <pubDate>Fri, 20 Aug 2010 00:00:00 +0100</pubDate>
+        <pubDate>Fri, 20 Aug 2010 00:00:00 +0000</pubDate>
         <description></description>
       </item>
           <item>
         <title>Create a Flickr Photo Gallery Using Feeds, CCK and Views</title>
         <link>https://www.oliverdavies.uk/blog/2010/06/28/create-flickr-photo-gallery-using-feeds-cck-and-views/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/06/28/create-flickr-photo-gallery-using-feeds-cck-and-views/</guid>
-        <pubDate>Mon, 28 Jun 2010 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 28 Jun 2010 00:00:00 +0000</pubDate>
         <description></description>
       </item>
           <item>
         <title>Quickly Import Multiples Images Using the Imagefield_Import Module</title>
         <link>https://www.oliverdavies.uk/blog/2010/05/29/quickly-import-multiples-images-using-imagefieldimport-module/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/05/29/quickly-import-multiples-images-using-imagefieldimport-module/</guid>
-        <pubDate>Sat, 29 May 2010 00:00:00 +0100</pubDate>
+        <pubDate>Sat, 29 May 2010 00:00:00 +0000</pubDate>
         <description></description>
       </item>
           <item>
         <title>Using ImageCache and ImageCrop for my Portfolio</title>
         <link>https://www.oliverdavies.uk/blog/2010/04/28/using-imagecache-and-imagecrop-my-portfolio/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/04/28/using-imagecache-and-imagecrop-my-portfolio/</guid>
-        <pubDate>Wed, 28 Apr 2010 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 28 Apr 2010 00:00:00 +0000</pubDate>
         <description></description>
       </item>
       </channel>

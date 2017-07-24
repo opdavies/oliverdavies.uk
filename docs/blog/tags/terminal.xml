@@ -5,12 +5,12 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/terminal.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 24 Jul 2017 19:22:01 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jul 2017 18:39:34 +0000</lastBuildDate>
             <item>
         <title>Display Git Branch or Tag Names in your Bash Prompt</title>
         <link>https://www.oliverdavies.uk/blog/2013/04/27/display-git-branch-or-tag-names-your-bash-prompt/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/04/27/display-git-branch-or-tag-names-your-bash-prompt/</guid>
-        <pubDate>Sat, 27 Apr 2013 00:00:00 +0100</pubDate>
+        <pubDate>Sat, 27 Apr 2013 00:00:00 +0000</pubDate>
         <description><p>Whilst watching <a href="http://drupalize.me" title="Drupalize.me">Drupalize.me</a>'s recent <a href="http://drupalize.me/series/introduction-git-series" title="Introduction to Git on Drupalize.me">Introduction to Git series</a>, I thought it was useful the way that the current Git branch or tag name was displayed in the bash prompt. Here's how to do it.</p>
 </description>
       </item>

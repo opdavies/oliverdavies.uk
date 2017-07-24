@@ -5,12 +5,12 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/domain.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 24 Jul 2017 19:22:01 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jul 2017 18:39:34 +0000</lastBuildDate>
             <item>
         <title>Creating Local and Staging sites with Drupal&#039;s Domain Module Enabled</title>
         <link>https://www.oliverdavies.uk/blog/2013/07/17/creating-local-and-staging-sites-drupals-domain-module-enabled/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/07/17/creating-local-and-staging-sites-drupals-domain-module-enabled/</guid>
-        <pubDate>Wed, 17 Jul 2013 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
         <description><p>The <a href="https://drupal.org/project/domain" title="The Domain Access project on Drupal.org">Domain Access project</a> is a suite of modules that provide tools for running a group of affiliated sites from one Drupal installation and a single shared database. The issue is that the domains are stored within the database so these are copied across when the data is migrated between environments, whereas the domains are obviously going to change.</p>
 
 <p>Rather than changing the domain settings within the Domain module itself, the best solution I think is to use table prefixes and create a different domain table per environment.</p>

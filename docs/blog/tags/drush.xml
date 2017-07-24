@@ -5,12 +5,12 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/drush.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 24 Jul 2017 19:22:01 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jul 2017 18:39:34 +0000</lastBuildDate>
             <item>
         <title>Updating Features and Adding Components Using Drush</title>
         <link>https://www.oliverdavies.uk/blog/2014/10/21/updating-features-and-adding-components-using-drush/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/10/21/updating-features-and-adding-components-using-drush/</guid>
-        <pubDate>Tue, 21 Oct 2014 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
         <description><p>If you use the <a href="http://drupal.org/project/features">Features module</a> to manage your Drupal configuration, it can be time consuming to update features through the UI, especially if you are working on a remote server and need to keep downloading and uploading files.</p>
 
 <p>If you re-create a feature through the UI, you'll be prompted to download a new archive of the feature in its entirety onto your local computer. You could either commit this into a local repository and then pull it remotely, or use a tool such as SCP to upload the archive onto the server and commit it from there. You can simplify this process by using <a href="http://drush.org">Drush</a>.</p>
@@ -20,7 +20,7 @@
         <title>drush make drupalbristol</title>
         <link>https://www.oliverdavies.uk/blog/2014/07/02/drush-make-drupalbristol/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2014/07/02/drush-make-drupalbristol/</guid>
-        <pubDate>Wed, 02 Jul 2014 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
         <description><p>Here are my slides from this month's talk night at the <a href="https://groups.drupal.org/bristol-and-west-uk">Drupal Bristol user group</a>.</p>
 </description>
       </item>
@@ -48,7 +48,7 @@
         <title>Create a Zen Sub-theme Using Drush</title>
         <link>https://www.oliverdavies.uk/blog/2013/09/06/create-a-zen-sub-theme-using-drush/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2013/09/06/create-a-zen-sub-theme-using-drush/</guid>
-        <pubDate>Fri, 06 Sep 2013 00:00:00 +0100</pubDate>
+        <pubDate>Fri, 06 Sep 2013 00:00:00 +0000</pubDate>
         <description><p>How to use <a href="https://drupal.org/project/drush">Drush</a> to quickly build a new sub-theme of <a href="https://drupal.org/project/zen">Zen</a>.</p>
 </description>
       </item>

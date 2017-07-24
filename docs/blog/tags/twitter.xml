@@ -5,12 +5,12 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/twitter.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 24 Jul 2017 19:22:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jul 2017 18:39:34 +0000</lastBuildDate>
             <item>
         <title>Introducing the Drupal Meetups Twitterbot</title>
         <link>https://www.oliverdavies.uk/blog/2017/06/09/introducing-the-drupal-meetups-twitterbot/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/06/09/introducing-the-drupal-meetups-twitterbot/</guid>
-        <pubDate>Fri, 09 Jun 2017 00:00:00 +0100</pubDate>
+        <pubDate>Fri, 09 Jun 2017 00:00:00 +0000</pubDate>
         <description><p><img src="/assets/images/blog/drupal-meetups-twitterbot.png" alt="" class="is-centered"></p>
 
 <p>The <a href="https://github.com/opdavies/drupal-meetups-twitterbot">Drupal Meetups Twitterbot</a> is a small project that I worked on a few months ago, but hadn't got around to promoting yet. It’s intention is to provide <a href="https://twitter.com/drupal_meetups">one Twitter account</a> where people can get the up to date news from various Drupal meetups.</p>

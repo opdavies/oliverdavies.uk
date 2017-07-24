@@ -5,12 +5,12 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/modules.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 24 Jul 2017 19:22:02 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jul 2017 18:39:35 +0000</lastBuildDate>
             <item>
         <title>How to Create and Apply Patches</title>
         <link>https://www.oliverdavies.uk/blog/2010/10/10/create-and-apply-patches/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2010/10/10/create-and-apply-patches/</guid>
-        <pubDate>Sun, 10 Oct 2010 00:00:00 +0100</pubDate>
+        <pubDate>Sun, 10 Oct 2010 00:00:00 +0000</pubDate>
         <description><p>Earlier this year, I posted a solution to <a href="http://drupal.org/node/753898">an issue</a> on the Drupal.org issue queue. Originally, I just posted the code back onto the issue, but have now created a patch that can easily be applied to any Drupal 6 installation. Here is a run-through of the process of creating and applying a patch. In this case, I made changes to the <code>user_pass_validate()</code> function that's found within <code>modules/user/user.pages.inc</code>.</p>
 </description>
       </item>

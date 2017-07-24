@@ -5,12 +5,12 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/gmail.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 24 Jul 2017 19:22:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jul 2017 18:39:34 +0000</lastBuildDate>
             <item>
         <title>Building Gmail Filters with PHP</title>
         <link>https://www.oliverdavies.uk/blog/2016/07/15/building-gmail-filters-with-php/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2016/07/15/building-gmail-filters-with-php/</guid>
-        <pubDate>Fri, 15 Jul 2016 00:00:00 +0100</pubDate>
+        <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
         <description></description>
       </item>
       </channel>

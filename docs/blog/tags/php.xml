@@ -5,12 +5,12 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/php.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 24 Jul 2017 19:22:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jul 2017 18:39:34 +0000</lastBuildDate>
             <item>
         <title>Publishing Sculpin Sites with GitHub Pages</title>
         <link>https://www.oliverdavies.uk/blog/2017/07/13/publishing-sculpin-sites-with-github-pages/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/07/13/publishing-sculpin-sites-with-github-pages/</guid>
-        <pubDate>Thu, 13 Jul 2017 00:00:00 +0100</pubDate>
+        <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
         <description><p><img
     src="/assets/images/blog/jackson-octocat.png"
     alt=""
@@ -27,7 +27,7 @@
         <title>Introducing the Drupal Meetups Twitterbot</title>
         <link>https://www.oliverdavies.uk/blog/2017/06/09/introducing-the-drupal-meetups-twitterbot/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2017/06/09/introducing-the-drupal-meetups-twitterbot/</guid>
-        <pubDate>Fri, 09 Jun 2017 00:00:00 +0100</pubDate>
+        <pubDate>Fri, 09 Jun 2017 00:00:00 +0000</pubDate>
         <description><p><img src="/assets/images/blog/drupal-meetups-twitterbot.png" alt="" class="is-centered"></p>
 
 <p>The <a href="https://github.com/opdavies/drupal-meetups-twitterbot">Drupal Meetups Twitterbot</a> is a small project that I worked on a few months ago, but hadn't got around to promoting yet. It’s intention is to provide <a href="https://twitter.com/drupal_meetups">one Twitter account</a> where people can get the up to date news from various Drupal meetups.</p>
@@ -37,14 +37,14 @@
         <title>Building Gmail Filters with PHP</title>
         <link>https://www.oliverdavies.uk/blog/2016/07/15/building-gmail-filters-with-php/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2016/07/15/building-gmail-filters-with-php/</guid>
-        <pubDate>Fri, 15 Jul 2016 00:00:00 +0100</pubDate>
+        <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
         <description></description>
       </item>
           <item>
         <title>Simplifying Drupal Migrations with xautoload</title>
         <link>https://www.oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload/</guid>
-        <pubDate>Tue, 03 May 2016 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
         <description><p>How to use the <a href="https://www.drupal.org/project/xautoload">xautoload</a> module to autoload migration classes within your Drupal 7 migration modules.</p>
 </description>
       </item>
@@ -70,7 +70,7 @@
         <title>Display a Custom Menu in a Drupal 7 Theme Template File</title>
         <link>https://www.oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/08/18/display-custom-menu-drupal-7-theme-template-file/</guid>
-        <pubDate>Sat, 18 Aug 2012 00:00:00 +0100</pubDate>
+        <pubDate>Sat, 18 Aug 2012 00:00:00 +0000</pubDate>
         <description><p>For reference, this is the code needed to display a menu in a Drupal 7 template file, including the navigation ARIA role.</p>
 </description>
       </item>

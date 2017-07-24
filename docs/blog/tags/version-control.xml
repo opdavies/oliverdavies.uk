@@ -5,12 +5,12 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/version-control.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 24 Jul 2017 19:22:01 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jul 2017 18:39:35 +0000</lastBuildDate>
             <item>
         <title>Checkout a specific revision from SVN from the command line</title>
         <link>https://www.oliverdavies.uk/blog/2012/05/23/checkout-specific-revision-svn-command-line/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/05/23/checkout-specific-revision-svn-command-line/</guid>
-        <pubDate>Wed, 23 May 2012 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 23 May 2012 00:00:00 +0000</pubDate>
         <description><p>How to checkout a specific revision from a SVN (Subversion) repository.</p>
 </description>
       </item>
@@ -18,7 +18,7 @@
         <title>How to Install and Configure Subversion (SVN) Server on Ubuntu</title>
         <link>https://www.oliverdavies.uk/blog/2011/10/19/install-and-configure-subversion-svn-server-ubuntu/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2011/10/19/install-and-configure-subversion-svn-server-ubuntu/</guid>
-        <pubDate>Wed, 19 Oct 2011 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 19 Oct 2011 00:00:00 +0000</pubDate>
         <description></description>
       </item>
       </channel>

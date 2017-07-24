@@ -5,12 +5,12 @@
     <link>https://www.oliverdavies.uk</link>
     <language>en</language>
     <description>Oliver Davies, Drupal Developer</description>    <atom:link href="https://www.oliverdavies.uk/blog/tags/code.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 24 Jul 2017 19:22:01 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jul 2017 18:39:34 +0000</lastBuildDate>
             <item>
         <title>Dividing Drupal&#039;s process and preprocess functions into separate files</title>
         <link>https://www.oliverdavies.uk/blog/2012/05/24/dividing-drupals-process-and-preprocess-functions-separate-files/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/05/24/dividing-drupals-process-and-preprocess-functions-separate-files/</guid>
-        <pubDate>Thu, 24 May 2012 00:00:00 +0100</pubDate>
+        <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
         <description><p>If you use a lot of process and preprocess functions within your Drupal theme, then your template.php can get very long and it can become difficult to find a certain piece of code.</p>
 
 <p>Following the example of the <a href="http://drupal.org/project/omega" title="The Omega theme on Drupal.org">Omega theme</a>, I've started separating my process and preprocess functions into their own files. For example, mytheme_preprocess_node can be placed within a preprocess/node.inc file, and mytheme_process_page can be placed within process/page.inc.</p>
@@ -20,7 +20,7 @@
         <title>Writing a .info file for a Drupal 7 theme</title>
         <link>https://www.oliverdavies.uk/blog/2012/05/23/writing-info-file-drupal-7-theme/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/05/23/writing-info-file-drupal-7-theme/</guid>
-        <pubDate>Wed, 23 May 2012 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 23 May 2012 00:00:00 +0000</pubDate>
         <description><p>An example .info file for a Drupal 7 theme.</p>
 </description>
       </item>
@@ -28,7 +28,7 @@
         <title>Prevent Apache from displaying text files within a web browser</title>
         <link>https://www.oliverdavies.uk/blog/2012/05/23/prevent-apache-displaying-text-files-within-web-browser/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/05/23/prevent-apache-displaying-text-files-within-web-browser/</guid>
-        <pubDate>Wed, 23 May 2012 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 23 May 2012 00:00:00 +0000</pubDate>
         <description><p>When you download <a href="http://drupal.org/project/drupal">Drupal</a>, there are several text files that are placed in the root of your installation. You don't want or need these to be visible to anyone attempting to view them in a browser - especially CHANGELOG.txt as that includes the exact version of Drupal you are running and could therefore have security implications.</p>
 
 <p>Rather than delete these files or change the file permissions manually for each file, I can add the following lines into my VirtualHost configuration.</p>
@@ -38,7 +38,7 @@
         <title>Forward one domain to another using mod_rewrite and .htaccess</title>
         <link>https://www.oliverdavies.uk/blog/2012/05/23/forward-one-domain-another-using-modrewrite-and-htaccess/</link>
         <guid isPermaLink="true">https://www.oliverdavies.uk/blog/2012/05/23/forward-one-domain-another-using-modrewrite-and-htaccess/</guid>
-        <pubDate>Wed, 23 May 2012 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 23 May 2012 00:00:00 +0000</pubDate>
         <description><p>How to use the .htaccess file to forward to a different domain.</p>
 </description>
       </item>
