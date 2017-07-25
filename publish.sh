@@ -12,19 +12,15 @@ TARGET_BRANCH="master"
 # Build front-end assets.
 npm run prod
 
-git config --local user.email "oliver@oliver@oliverdavies.uk"
+git config --local user.email "oliver@oliverdavies.uk"
 
-# Remove the existing docs directory, build the site and create the new
-# docs directory.
-rm -rf ./docs
 vendor/bin/sculpin generate --no-interaction --clean --env=${SITE_ENV}
 touch output_${SITE_ENV}/.nojekyll
 
 # Add, commit and push the changes.
 cd output_${SITE_ENV}
-mv ../.git .
+cp -R ../.git .
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
-git pull --rebase $SSH_REPO $TARGET_BRANCH
 git add --all .
 git commit -m "Re-generate site. $SHA"
 git push $SSH_REPO $TARGET_BRANCH
