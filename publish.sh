@@ -11,11 +11,8 @@ TARGET_BRANCH="master"
 BUILD_DIR=".build"
 
 # Prepare the build directory.
-# git clone $REPO $BUILD_DIR
-mkdir -p $BUILD_DIR
-cp -R .git $BUILD_DIR
+git clone $REPO $BUILD_DIR
 pushd $BUILD_DIR
-git fetch
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 popd
 rm -rf ${BUILD_DIR}/**/* || exit 0
