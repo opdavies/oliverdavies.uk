@@ -27,7 +27,7 @@
     "sass:compile": "node-sass assets/sass/main.sass $npm_package_config_cssOutputFile --source-map true",
     "sass:concat": "mkdir -p $npm_package_config_cssOutputDir && concat node_modules/font-awesome/css/font-awesome.css node_modules/prismjs/themes/prism-twilight.css $npm_package_config_cssOutputFile -o $npm_package_config_cssOutputFile",
     "sass:move": "mv $npm_package_config_cssOutputFile $npm_package_config_cssOutputFile.map $npm_package_config_cssOutputDir",
-    "sass:remove-maps": "rm -f $npm_package_config_cssOutputDir/.*map",
+    "sass:remove-maps": "rm -f $npm_package_config_cssOutputDir/*.css.map",
     "sass:watch": "onchange $npm_package_config_sassDir -v -- npm run sass"
   },
   "devDependencies": {
