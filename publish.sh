@@ -15,8 +15,8 @@ mkdir -p $BUILD_DIR
 cp -R .git $BUILD_DIR
 pushd $BUILD_DIR
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
-rm -r **/* || exit 0
 popd
+rm -rf ${BUILD_DIR}/**/* || exit 0
 
 # Re-generate the site.
 npm run prod
