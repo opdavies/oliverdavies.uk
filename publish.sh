@@ -22,6 +22,7 @@ touch output_prod/.nojekyll
 # Add, commit and push the changes.
 pushd $BUILD_DIR
 mv ../output_prod/* .
+git config --local user.email oliver@oliverdavies.uk
 git add -A .
 git commit -m "Re-generate site: `git rev-parse --verify HEAD`"
 git push $SSH_REPO master
