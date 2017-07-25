@@ -20,7 +20,7 @@ touch output_${SITE_ENV}/.nojekyll
 # Add, commit and push the changes.
 cd output_${SITE_ENV}
 cp -R ../.git .
-git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
+git checkout -f $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 git add --all .
 git commit -m "Re-generate site. $SHA"
 git push $SSH_REPO $TARGET_BRANCH
