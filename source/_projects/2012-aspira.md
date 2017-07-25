@@ -5,7 +5,7 @@ tags:
     - drupal
     - drupal-7
 image: aspira.png
-company: proctors
+company: 'Proctor & Stevenson'
 role: Developer
 skills:
     - Drupal 7

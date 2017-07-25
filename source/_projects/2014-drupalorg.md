@@ -5,7 +5,7 @@ tags:
     - drupal
     - drupal-7
 image: drupal-org.png
-company: drupal_association
+company: Drupal Association
 role: Drupal.org Developer
 skills:
     - Drupal 7

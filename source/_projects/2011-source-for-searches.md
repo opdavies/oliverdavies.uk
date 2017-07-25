@@ -6,7 +6,7 @@ tags:
     - drupal-6
     - ubercart
 image: source-for-searches.png
-company: proctors
+company: 'Proctor & Stevenson'
 role: Developer
 skills:
     - Drupal 6

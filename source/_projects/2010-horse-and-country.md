@@ -5,7 +5,7 @@ tags:
     - drupal
     - drupal-6
 image: horse-and-country.png
-company: horse_country
+company: 'Horse & Country TV'
 role: Developer
 skills:
     - Drupal

@@ -15,12 +15,12 @@ redirect:
         <div class="experience-item{% if company.logo %} has-logo{% endif %}">
             {% if company.logo %}
                 <div class="experience-item-logo">
-                    <img src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.name }} logo">
+                    <img src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ experience.company }} logo">
                 </div>
             {% endif %}
 
             <div class="experience-item-inner">
-                <h2>{{ company.name }}</h2>
+                <h2>{{ experience.company }}</h2>
 
                 {% if company.url -%}
                     <a class="experience-item-website display-inline-block" href="{{ company.url }}">

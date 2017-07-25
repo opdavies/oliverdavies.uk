@@ -6,7 +6,7 @@ tags:
     - drupal-7
     - drupal-commerce
 image: digital-theatre-plus.png
-company: nomensa
+company: Nomensa
 role: Developer
 skills:
     - Drupal 7

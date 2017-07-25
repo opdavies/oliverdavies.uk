@@ -1,60 +1,48 @@
 companies:
-    appnovation:
-        name: Appnovation
+    Appnovation:
         logo: appnovation.png
         url: 'https://www.appnovation.com'
 
-    cti:
-        name: CTI Digital
+    'CTI Digital':
         logo: cti-digital.png
         url: 'https://www.ctidigital.com'
 
-    drupal_association: 
-        name: Drupal Association
+    'Drupal Association': 
         logo: drupal-association.png
         url: 'https://assoc.drupal.org'
 
-    freelance:
-        name: Freelance
+    Freelance:
         logo: ~
         url: ~
 
-    horse_country:
-        name: 'Horse & Country TV'
+    'Horse & Country TV':
         logo: horse-and-country.jpg
         url: 'http://www.horseandcountry.tv'
 
-    lab_class:
-        name: Lab Class
+    'Lab Class':
         logo: lab-class.png
         url: 'http://labclass.co.uk'
 
-    microserve:
-        name: Microserve
+    Microserve:
         logo: microserve.png
         url: 'https://microserve.io'
 
-    nomensa:
-        name: Nomensa
+    Nomensa:
         logo: nomensa.png
         url: 'http://www.nomensa.com'
 
-    precedent:
-        name: Precedent
+    Precedent:
         logo: precedent.jpg
         url: 'http://precedent.com'
 
-    proctors: 
-        name: 'Proctor & Stevenson'
+    'Proctor & Stevenson':
         logo: proctors.jpg
         url: 'http://www.proctors.co.uk'
 
-    trent:
-        name: Trent Design
+    'Trent Design':
         logo: ~
         url: 'http://www.trentdesign.net'
 
-    zooba:
-        name: Zooba Ltd
+    'Zooba Ltd':
         logo: ~
         url: ~

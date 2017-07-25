@@ -5,7 +5,7 @@ tags:
     - drupal
     - drupal-6
 image: avon-motorsport.png
-company: proctors
+company: 'Proctor & Stevenson'
 role: Developer
 skills:
     - Drupal 6
