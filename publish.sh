@@ -12,8 +12,8 @@ BUILD_DIR=".build"
 mkdir -p $BUILD_DIR
 pushd $BUILD_DIR
 cp -R ../.git .
-git fetch
 git checkout master || git checkout --orphan master
+git pull
 popd
 rm -rf ${BUILD_DIR}/**/* || exit 0
 
