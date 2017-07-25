@@ -6,11 +6,13 @@ SITE_ENV="prod"
 REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 SHA=`git rev-parse --verify HEAD`
-BUILD_DIR="_deploy"
+BUILD_DIR=".build"
 
 # Prepare the build directory.
-git clone $REPO $BUILD_DIR
+mkdir -p $BUILD_DIR
 pushd $BUILD_DIR
+cp -R ../.git .
+git fetch
 git checkout master || git checkout --orphan master
 popd
 rm -rf ${BUILD_DIR}/**/* || exit 0
