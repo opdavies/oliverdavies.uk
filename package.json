@@ -17,7 +17,7 @@
     "fonts:copy": "mkdir -p $npm_package_config_fontsDir && cp -R node_modules/font-awesome/fonts/* $npm_package_config_fontsDir",
     "js": "npm run js:concat",
     "js:clean": "rm -rf $npm_package_config_jsOutputDir output_*/assets/js/",
-    "js:concat": "mkdir -p $npm_package_config_jsOutputDir && concat node_modules/jquery/dist/jquery.js node_modules/bootstrap-sass/assets/javascripts/bootstrap.js node_modules/prismjs/prism.js node_modules/prismjs/components/prism-{apacheconf,bash,css,diff,ini,json,nginx,php,sass,scss,sql,less,twig,yaml}.js $npm_package_config_jsInputDir/**/*.js $npm_package_config_jsInputDir/main.js -o $npm_package_config_jsOutputDir$npm_package_config_jsOutputFile",
+    "js:concat": "mkdir -p $npm_package_config_jsOutputDir && concat node_modules/jquery/dist/jquery.js node_modules/bootstrap-sass/assets/javascripts/bootstrap.js node_modules/prismjs/prism.js $npm_package_config_jsInputDir/**/*.js $npm_package_config_jsInputDir/main.js -o $npm_package_config_jsOutputDir$npm_package_config_jsOutputFile",
     "js:watch": "onchange $npm_package_config_jsInputDir -v -- npm run js",
     "prod": "npm run production",
     "production": "cross-env ENV=prod npm run build",
