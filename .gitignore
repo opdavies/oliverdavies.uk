@@ -4,6 +4,7 @@
 /source/assets/css/
 /source/assets/fonts/
 /source/assets/js/
+/.build/
 /.sculpin/
 /vendor/
 .sass-cache/
