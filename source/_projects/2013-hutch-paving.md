@@ -5,7 +5,7 @@ tags:
     - drupal-7
 image: hutch-paving.png
 role: Freelance Developer
-company: Trent Design
+company: trent
 freelance: true
 skills:
     - Drupal 7

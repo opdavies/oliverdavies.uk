@@ -1,5 +1,5 @@
 experiences:
-    - company: 'Horse & Country TV'
+    - company: horse_country
       location: Cwmbran, Wales
       role: Web Developer
       start: 2010
@@ -7,7 +7,7 @@ experiences:
       description: |
           Maintaining and adding new features to the Horse & Country TV website (Drupal 6).
 
-    - company: 'Proctor & Stevenson'
+    - company: proctors
       location: Bristol, England
       role: 'PHP Developer'
       start: 2011
@@ -15,7 +15,7 @@ experiences:
       description: |
           Website development, mainly with Drupal and PHP, including the agency’s first Drupal 7 project.
 
-    - company: Nomensa
+    - company: nomensa
       location: Bristol, England
       role: 'Contract Drupal Developer / Application Developer & System Administrator'
       start: 2012
@@ -25,7 +25,7 @@ experiences:
 
           I originally started as a contractor, and later took a staff role.
 
-    - company: Precedent
+    - company: precedent
       location: Cardiff, Wales
       role: Senior Drupal Developer
       start: 2013
@@ -33,7 +33,7 @@ experiences:
       description: |
           Drupal 7 website development, including site building, theming, module development, data migration and server configuration.
 
-    - company: Drupal Association
+    - company: drupal_association
       role: Drupal.org Developer
       location: Remote
       start: 2014
@@ -43,7 +43,7 @@ experiences:
 
           Speaking at user groups and DrupalCamps to promote the Drupal Association.
 
-    - company: Microserve
+    - company: microserve
       location: Bristol, England
       role: Senior Drupal Developer
       start: July 2015
@@ -55,7 +55,7 @@ experiences:
 
           Community and contribution advocate.
 
-    - company: CTI Digital
+    - company: cti
       role: Lead Drupal Developer
       location: Remote
       start: November 2015
@@ -67,7 +67,7 @@ experiences:
 
           Initial development of a CLI application for generating new and auditing existing codebases to ensure consistency across projects. This uses various Symfony components - mainly the Console and Filesystem components.
 
-    - company: Appnovation
+    - company: appnovation
       location: Cardiff, Wales
       role: Senior Drupal Developer
       start: May 2016
@@ -77,7 +77,7 @@ experiences:
 
           Part of various pre-sales teams, including the company’s first UK Drupal 8 project and first FTSE 100 client.
 
-    - company: Freelance
+    - company: freelance
       location: Remote
       role: 'Web Developer & System Administrator'
       start: 2007
@@ -88,7 +88,7 @@ experiences:
 
           Administration of Debian, Ubuntu and CentOS servers, and configuration using Puppet, or more recently, Ansible.
 
-    - company: Microserve
+    - company: microserve
       location: Bristol, England
       role: Senior Drupal Developer
       start: March 2017

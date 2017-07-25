@@ -7,7 +7,7 @@ tags:
 image:
     name: road-cc.png
     alt: The new road.cc website
-company: Microserve
+company: microserve
 role: Lead Developer
 skills:
     - Drupal 7

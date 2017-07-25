@@ -6,7 +6,7 @@ tags:
     - drupal-7
     - drupal-commerce
 image: door-decor-more.png
-company: Zooba Ltd
+company: zooba
 role: Freelance Developer
 freelance: true
 skills:

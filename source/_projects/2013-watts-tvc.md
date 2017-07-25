@@ -5,7 +5,7 @@ tags:
     - drupal
     - drupal-7
 image: watts-tvc.png
-company: Lab Class
+company: lab_class
 role: Freelance Developer
 freelance: true
 skills:
