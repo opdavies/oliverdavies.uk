@@ -15,7 +15,7 @@ redirect:
 {% block content %}
 # About Me
 
-<img src="{{ site.images_url }}{{ site.avatar.url }}" alt="Picture of Oliver" class="me img-circle">
+<img src="{{ site.images_url }}{{ site.avatar.url }}" alt="Picture of Oliver" class="me is-circle is-marginless">
 
 My name is Oliver Davies (aka [opdavies][1]) - a full-stack Web Developer and System Administrator based in Wales, UK.
 

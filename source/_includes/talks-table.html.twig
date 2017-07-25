@@ -28,7 +28,7 @@
                         {{ row.date.date|date(row.date.fuzzy_date ? 'F Y' : 'j F Y') }}
 
                         {% if row.date.time %}
-                            <small class="display-block">{{ row.date.time }}</small>
+                            <small class="is-block">{{ row.date.time }}</small>
                         {% endif %}
                     </td>
 
@@ -40,7 +40,7 @@
                                 <a href="{{ talk.url }}">{{ talk.title }}</a>
                             {% endif %}
 
-                            <small class="display-block">
+                            <small class="is-block">
                                 {{ row.date.talk.type ?: talk.type }}
                             </small>
                         </td>
@@ -55,7 +55,7 @@
                             {{ row.event.name }}
                         {% endif %}
 
-                        <small class="display-block">
+                        <small class="is-block">
                             {{ row.event.location }}
                         </small>
                     </td>
@@ -65,10 +65,10 @@
                             {% if row.date.feedback %}
                                 <a
                                     href="{{ row.date.feedback }}"
-                                    class="btn btn-primary"
+                                    class="button is-primary"
                                     title="Read or leave feedback for this talk"
                                 >
-                                    <i class="fa fa-comment-o"></i> joind.in
+                                    <i class="fa fa-comment-o" style="margin-right: 8px"></i> joind.in
                                 </a>
                             {% endif %}
                         </td>

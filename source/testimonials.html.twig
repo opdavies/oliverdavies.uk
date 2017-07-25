@@ -5,12 +5,12 @@ use: [posts]
 ---
 {% block content %}
     {% for testimonial in site.testimonials|reverse %}
-        <article class="testimonial">
-            <h2 class="testimonial__name">{{ testimonial.name }}</h2>
+        <article class="testimonial mb-3">
+            <h2 class="testimonial__name is-marginless">{{ testimonial.name }}</h2>
 
             {% if testimonial.image %}
                 <img
-                    class="testimonial__image pull-right img-circle"
+                    class="testimonial__image is-pulled-right is-circle"
                     src="{{ site.url }}/assets/images/testimonials/{{ testimonial.image }}"
                     alt="{{ testimonial.name }}"
                 />
@@ -22,7 +22,9 @@ use: [posts]
                 </div>
             {% endif %}
 
-            {{ testimonial.text|markdown }}
+            <div class="mt-1">
+                {{ testimonial.text|markdown }}
+            </div>
         </article>
     {% endfor %}
 {% endblock %}

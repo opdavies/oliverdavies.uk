@@ -12,7 +12,7 @@
     </div>
 
     {% if page.slides.embed %}
-        <div class="talk-slides">
+        <div class="talk-slides mt-2">
             <h2>Slides</h2>
             <div class="presentation">
                 {{ page.slides.embed|raw }}
@@ -21,7 +21,7 @@
     {% endif %}
 
     {% if page.video.embed %}
-        <div class="talk-video">
+        <div class="talk-video mt-2">
             <h2>Video</h2>
             <div class="embed-container">
                 {{ page.video.embed|raw }}
@@ -29,7 +29,7 @@
         </div>{# .talk-video #}
     {% endif %}
 
-    <div class="talk-events">
+    <div class="talk-events mt-3">
         <h2>Events</h2>
 
         {% set events = [] %}

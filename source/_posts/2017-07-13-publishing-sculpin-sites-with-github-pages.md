@@ -11,12 +11,13 @@ meta:
             width: 451
 ---
 {% block excerpt %}
-<img
-    src="/assets/images/blog/jackson-octocat.png"
-    alt=""
-    class="is-centered"
-    style="margin-bottom: 20px"
->
+<div class="has-text-centered">
+    <img
+        src="/assets/images/blog/jackson-octocat.png"
+        alt=""
+        style="margin-bottom: 20px"
+    >
+</div>
 
 Earlier this week I moved this site from my personal Linode server to [GitHub Pages][0].
 
