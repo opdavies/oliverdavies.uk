@@ -20,8 +20,8 @@ vendor/bin/sculpin generate --no-interaction --clean --env=prod
 touch output_prod/.nojekyll
 
 # Add, commit and push the changes.
-mv output_prod/* $BUILD_DIR
 pushd $BUILD_DIR
+mv ../output_prod/* .
 git add -A .
 git commit -m "Re-generate site: `git rev-parse --verify HEAD`"
 git push $SSH_REPO master
