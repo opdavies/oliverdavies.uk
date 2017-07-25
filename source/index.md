@@ -89,5 +89,5 @@ I’m a webmaster and documentation maintainer for [Drupal.org][42], and a provi
 [38]: https://disqus.com/by/opdavies
 [39]: {{site.companies.drupal_association.url}}
 [40]: {{site.url}}/talks
-[41]: http://certification.acquia.com/registry?fname=Oliver&lname=Davies&city=Newport&state=Wales&country=United+Kingdom&org=&exam=All
+[41]: https://certification.acquia.com/user/1647756
 [42]: https://www.drupal.org
