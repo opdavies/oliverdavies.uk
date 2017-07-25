@@ -22,10 +22,7 @@ touch output_prod/.nojekyll
 # Add, commit and push the changes.
 mv output_prod/* $BUILD_DIR
 pushd $BUILD_DIR
-echo "!/assets/css/
-!/assets/images/
-!/assets/js/" > .gitignore
-git add --all -f .
+git add -A .
 git commit -m "Re-generate site: `git rev-parse --verify HEAD`"
 git push $SSH_REPO master
 popd
