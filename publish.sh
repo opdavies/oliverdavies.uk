@@ -25,7 +25,7 @@ touch output_${SITE_ENV}/.nojekyll
 # Add, commit and push the changes.
 mv output_${SITE_ENV}/* $BUILD_DIR
 pushd $BUILD_DIR
-git add --all .
+git add --all -f .
 git commit -m "Re-generate site: $SHA"
 git push $SSH_REPO $TARGET_BRANCH
 popd
