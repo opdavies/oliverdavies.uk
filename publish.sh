@@ -26,5 +26,5 @@ echo "!/assets/css/
 !/assets/js/" > .gitignore
 git add --all -f .
 git commit -m "Re-generate site: `git rev-parse --verify HEAD`"
-git push $SSH_REPO $TARGET_BRANCH
+git push $SSH_REPO master
 popd
