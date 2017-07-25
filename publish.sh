@@ -5,6 +5,7 @@ set -e
 SITE_ENV="prod"
 REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
+SHA=`git rev-parse --verify HEAD`
 BUILD_DIR="_deploy"
 
 # Prepare the build directory.
@@ -24,6 +25,6 @@ pushd $BUILD_DIR
 mv ../output_prod/* .
 git config --local user.email oliver@oliverdavies.uk
 git add -A .
-git commit -m "Re-generate site: `git rev-parse --verify HEAD`"
+git commit -m "Re-generate site: $SHA"
 git push $SSH_REPO master
 popd
