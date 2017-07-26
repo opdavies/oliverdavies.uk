@@ -7,15 +7,6 @@ $blue: #0678BE
 
 $primary: $blue
 
-.is-circle
-    border-radius: 50%
-
-$properties: ( mb: 'margin-bottom', ml: 'margin-left', mr: 'margin-right', mt: 'margin-top', pb: 'padding-bottom', pl: 'padding-left', pr: 'padding-right', pt: 'padding-top' )
-@each $key, $property in $properties
-    @for $value from 1 through 5
-        .#{$key}-#{$value}
-            #{$property}: #{$value}em !important
-
 @import 'node_modules/bulma/bulma'
 
 @import 'base'
@@ -23,6 +14,7 @@ $properties: ( mb: 'margin-bottom', ml: 'margin-left', mr: 'margin-right', mt: '
 
 @import 'base/layout'
 @import 'base/typography'
+@import 'base/utilities'
 
 @import 'components/availability'
 @import 'components/badges'

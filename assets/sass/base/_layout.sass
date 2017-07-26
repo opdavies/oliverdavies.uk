@@ -32,6 +32,12 @@
             &.vertical-#{$value}
                 vertical-align: #{$value}
 
-@each $value in 2, 3, 4, 5
+@for $value from 2 through 5
     .is-#{$value}
         width: calc(100% / #{$value})
+
+$properties: ( mb: 'margin-bottom', ml: 'margin-left', mr: 'margin-right', mt: 'margin-top', pb: 'padding-bottom', pl: 'padding-left', pr: 'padding-right', pt: 'padding-top' )
+@each $key, $property in $properties
+    @for $value from 1 through 5
+        .#{$key}-#{$value}
+            #{$property}: #{$value}em !important

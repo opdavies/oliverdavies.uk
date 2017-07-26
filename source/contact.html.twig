@@ -7,29 +7,39 @@ use: [posts]
     <p>To send me an email, complete the form below.</p>
 
     <form action="https://formspree.io/{{ site.email }}" method="POST">
-        <div class="form__name form-group">
+        <div class="form__name field">
             <label for="name">Name</label>
-            <input type="text" class="form-control" name="name" required>
+            <div class="control">
+                <input type="text" class="input" name="name" required>
+            </div>
         </div>
 
-        <div class="form__email form-group">
+        <div class="form__email field">
             <label for="email">Email</label>
-            <input type="email" class="form-control" name="email" required>
+            <div class="control">
+                <input type="email" class="input" name="email" required>
+            </div>
         </div>
 
-        <div class="form__subject form-group">
+        <div class="form__subject field">
             <label for="subject">Subject</label>
-            <input type="text" class="form-control" name="subject" required>
+            <div class="control">
+                <input type="text" class="input" name="subject" required>
+            </div>
         </div>
 
-        <div class="form__message form-group">
-            <label for="message">Message</label>
-            <textarea name="message" class="form-control" rows="5" required></textarea>
+        <div class="field">
+            <div class="control">
+                <label for="message">Message</label>
+                <textarea name="message" class="textarea" rows="5" required></textarea>
+            </div>
         </div>
 
         <div class="form__actions">
-            <button class="btn btn-primary" type="submit">
-                <i class="fa fa-send"></i>
+            <button class="button is-primary" type="submit">
+                <span class="icon is-small" style="margin-right: 5px">
+                    <i class="fa fa-send"></i>
+                </span>
                 Send email
             </button>
         </div>

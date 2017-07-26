@@ -21,7 +21,7 @@
     "js:watch": "onchange $npm_package_config_jsInputDir -v -- npm run js",
     "prod": "npm run production",
     "production": "cross-env ENV=prod npm run build",
-    "sass": "npm run sass:concat && npm run sass:$ENV:compile && npm run sass:$ENV:move",
+    "sass": "npm run sass:$ENV:compile && npm run sass:concat && npm run sass:$ENV:move",
     "sass:clean": "rm -rf $npm_package_config_cssOutputDir output_*/assets/css/",
     "sass:concat": "mkdir -p $npm_package_config_cssOutputDir && concat node_modules/font-awesome/css/font-awesome.css node_modules/prismjs/themes/prism-twilight.css $npm_package_config_cssOutputFile -o $npm_package_config_cssOutputFile",
     "sass:dev:compile": "node-sass assets/sass/main.sass $npm_package_config_cssOutputFile --source-map true",
