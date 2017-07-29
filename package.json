@@ -12,7 +12,7 @@
     "build": "npm run clean && npm-run-all -p sass js fonts:copy",
     "clean": "npm-run-all -p sass:clean fonts:clean js:clean",
     "dev": "npm run development",
-    "development": "cross-env ENV=dev npm run build && npm-run-all -p sass:watch js:watch",
+    "development": "cross-env ENV=dev npm run build",
     "fonts:clean": "rm -rf $npm_package_config_fontsDir output_*/assets/fonts/",
     "fonts:copy": "mkdir -p $npm_package_config_fontsDir && cp -R node_modules/font-awesome/fonts/* $npm_package_config_fontsDir",
     "js": "npm run js:concat",
@@ -29,7 +29,8 @@
     "sass:prod:compile": "node-sass assets/sass/main.sass $npm_package_config_cssOutputFile",
     "sass:prod:move": "mv $npm_package_config_cssOutputFile $npm_package_config_cssOutputDir && npm run sass:uglify",
     "sass:uglify": "uglifycss --ugly-comments $npm_package_config_cssOutputDir/$npm_package_config_cssOutputFile --output $npm_package_config_cssOutputDir/$npm_package_config_cssOutputFile",
-    "sass:watch": "onchange $npm_package_config_sassDir -v -- npm run sass"
+    "sass:watch": "onchange $npm_package_config_sassDir -v -- npm run sass",
+    "watch": "npm run dev && cross-env ENV=dev npm-run-all -p sass:watch js:watch"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
