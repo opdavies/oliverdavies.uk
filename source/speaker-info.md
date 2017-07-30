@@ -11,9 +11,9 @@ use: [posts]
 
 ## Bio
 
-[Oliver Davies][1] ([@{{ site.twitter.name }}][2]) has been building websites since 2007, specialising in PHP and Drupal since 2008, and more recently also working with Symfony, Silex, Laravel and Sculpin. He is a {{ site.work.role }} at [{{ company.name }}][0], a Drupal core contributor and mentor, and an open source and contribution advocate.
+[Oliver Davies][1] ([@{{ site.twitter.name }}][2]) has been building websites and web applications since 2007 - primarily with Drupal, though more recently also with Symfony, Silex, Laravel and Sculpin. He is a {{ site.work.role }} at [{{ company.name }}][0], a Drupal core contributor and mentor, and an open source and contribution advocate.
 
-He regularly blogs and gives talks about web development and systems administration, maintains and contributes to various open source projects, and co-organises the Drupal Bristol and PHPSW meetups and DrupalCamp Bristol conference.
+He regularly blogs and gives talks about web development and systems administration, maintains and contributes to various open source projects, and co-organises DrupalCamp Bristol as well as the Drupal Bristol and PHPSW user groups.
 
 ## Photo
 
@@ -29,14 +29,11 @@ Here are some of the events that I’ve spoken at:
 - PHP South Coast 2016
 - DrupalCamp Bristol 2016
 - Nomad PHP
+<!-- - PHP North West 2017 -->
 
 ## Videos
 
-Here are some videos of my previous talks:
-
-- <https://www.youtube.com/watch?v=aN53arCKZAU>
-- <https://www.youtube.com/watch?v=qO_Wh5WE3VA>
-- <https://www.youtube.com/watch?v=Yi_FPI3xHwc>
+Here is a YouTube playlist of some of my previous talks: <http://bit.ly/opdavies-talk-videos>.
 
 [0]: {{company.url}}
 [1]: {{site.url}}
