@@ -20,18 +20,22 @@ gulp.task('clean', getTask('clean'));
 gulp.task('default', ['clean', 'fonts', 'styles', 'scripts']);
 gulp.task('fonts', getTask('fonts'));
 
-gulp.task('styles', addStyle([
-    'node_modules/font-awesome/css/font-awesome.css',
-    'node_modules/prismjs/themes/prism-twilight.css',
-    config.sass.sourceDir + '/main.sass'
-], 'site.css'));
+gulp.task('styles',
+    addStyle([
+        'node_modules/font-awesome/css/font-awesome.css',
+        'node_modules/prismjs/themes/prism-twilight.css',
+        config.sass.sourceDir + '/main.sass'
+    ], 'site.css')
+);
 
-gulp.task('scripts', addScript([
-    'node_modules/jquery/dist/jquery.js',
-    'node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
-    'node_modules/prismjs/prism.js',
-    'node_modules/prismjs/components/prism-{apacheconf,bash,css,diff,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
-    config.js.sourceDir + config.js.pattern
-], 'site.js'));
+gulp.task('scripts',
+    addScript([
+        'node_modules/jquery/dist/jquery.js',
+        'node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
+        'node_modules/prismjs/prism.js',
+        'node_modules/prismjs/components/prism-{apacheconf,bash,css,diff,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
+        config.js.sourceDir + config.js.pattern
+    ], 'site.js')
+);
 
 gulp.task('watch', ['default'], getTask('watch'));
