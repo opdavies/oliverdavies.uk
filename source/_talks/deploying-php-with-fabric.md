@@ -19,6 +19,9 @@ meta:
             width: 1280
             height: 800
             type: image/png
+slug: deploying-php-fabric
+redirect:
+    - talks/deploying-php-applications-with-fabric/
 ---
 You’ve built your application, and now you just need to deploy it. There are various ways that this could be done – from (S)FTP, to SCP and rsync, to running commands like “git pull” and “composer install” directly on the server (not recommended).
 
