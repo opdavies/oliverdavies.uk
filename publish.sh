@@ -16,7 +16,7 @@ popd
 rm -rf ${BUILD_DIR}/**/* || exit 0
 
 # Re-generate the site.
-npm run prod
+node_modules/.bin/gulp --production
 vendor/bin/sculpin generate --no-interaction --clean --env=prod
 touch output_prod/.nojekyll
 
