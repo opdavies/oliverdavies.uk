@@ -5,19 +5,19 @@ use: [posts]
 ---
 {% block content %}
     {% for testimonial in site.testimonials|reverse %}
-        <article class="testimonial mb-3">
-            <h2 class="testimonial__name is-marginless">{{ testimonial.name }}</h2>
+        <article class="is-clearfix mb-3">
+            <h2 class="is-marginless">{{ testimonial.name }}</h2>
 
             {% if testimonial.image %}
                 <img
-                    class="testimonial__image is-pulled-right is-circle"
                     src="{{ site.url }}/assets/images/testimonials/{{ testimonial.image }}"
+                    class="testimonial-image is-pulled-right is-circle ml-2 mb-1"
                     alt="{{ testimonial.name }}"
-                />
+                >
             {% endif %}
 
             {% if testimonial.role %}
-                <div class="testimonial__role text-light">
+                <div class="text-light">
                     {{ testimonial.role|markdown }}
                 </div>
             {% endif %}

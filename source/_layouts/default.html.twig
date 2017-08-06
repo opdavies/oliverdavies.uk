@@ -27,34 +27,38 @@
     <body class="{{ page.blocks.body_classes }}">
         {% include 'nav' %}
 
-        <div class="container">
-            <div class="columns">
-                <main class="content column is-9">
-                    {% block content_top %}{% endblock %}
-                    {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
-                    {% block content_bottom %}{% endblock %}
-                </main>
+        <section class="section">
+            <div class="container">
+                <div class="columns">
+                    <main class="content column is-9">
+                        {% block content_top %}{% endblock %}
+                        {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
+                        {% block content_bottom %}{% endblock %}
+                    </main>
 
-                {% block sidebar_wrapper %}
-                    <div class="column is-3">
-                        {% block sidebar %}
-                            {% include 'badges' %}
-                            {% include 'availability' %}
-                            {% include 'posts/latest' %}
-                        {% endblock %}
-                    </div>
-                {% endblock %}
+                    {% block sidebar_wrapper %}
+                        <div class="column is-3">
+                            {% block sidebar %}
+                                {% include 'badges' %}
+                                {% include 'availability' %}
+                                {% include 'posts/latest' %}
+                            {% endblock %}
+                        </div>
+                    {% endblock %}
 
-            </div>{# .row #}
-        </div>{# .container #}
+                </div>{# .row #}
+            </div>{# .container #}
+        </section>
 
-        <footer class="container content">
-            <p class="copyright">
-                &copy; 2010-{{ 'now'|date('Y') }} {{ site.title }}. Built with <a href="https://sculpin.io">Sculpin</a>.
-            </p>
+        <section class="section">
+            <footer class="container content">
+                <p class="copyright">
+                    &copy; 2010-{{ 'now'|date('Y') }} {{ site.title }}. Built with <a href="https://sculpin.io">Sculpin</a>, <a href="http://bulma.io">Bulma</a> and <a href="https://gulpjs.com">Gulp</a>.
+                </p>
 
-            {% include 'meetups' %}
-        </footer>
+                {% include 'meetups' %}
+            </footer>
+        </section>
 
         <script src="{{ site.url }}/assets/js/site.js"></script>
 
@@ -62,6 +66,6 @@
             <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', '{{ site.google_analytics_tracking_id }}', 'auto'); ga('send', 'pageview');</script>
         {% endif %}
 
-        {% block scripts '' %}
+        {% block scripts %}{% endblock %}
     </body>
 </html>
