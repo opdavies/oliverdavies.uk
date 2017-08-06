@@ -1,8 +1,9 @@
 {% if page.tags %}
-    <p class="tags">
-        Tags:
+    <div class="tags">
         {% for tag in page.tags %}
-            <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+            <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}" class="tag is-light is-borderless">
+                {{- tag -}}
+            </a>
         {% endfor %}
-    </p>
+    </div>
 {% endif %}

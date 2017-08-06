@@ -1,41 +1,41 @@
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ site.url }}/">{{ site.title }}</a>
-        </div>
-
-        <div id="navbar" class="collapse navbar-collapse" role="navigation">
-            <ul class="nav navbar-nav">
-                <li class="{{ page.url == '/.' ? 'active' }}">
-                    <a href="/">About</a>
-                </li>
-
-                <li class="{{ page.url == '/experience' ? 'active' }}">
-                    <a href="/experience">Experience</a>
-                </li>
-
-                <li class="{{ page.url == '/testimonials' ? 'active' }}">
-                    <a href="/testimonials">Testimonials</a>
-                </li>
-
-                <li class="{{ page.url == '/talks' or '/talks/' in page.url ? 'active' }}">
-                    <a href="/talks">Talks</a>
-                </li>
-
-                <li class="{{ page.url == '/blog' or '/blog/' in page.url ? 'active' }}">
-                    <a href="/blog">Blog</a>
-                </li>
-
-                <li class="{{ page.url == '/contact' or '/contact/' in page.url ? 'active' }}">
-                    <a href="/contact">Contact</a>
-                </li>
-            </ul>
-        </div>{# .nav-collapse #}
+<nav class="nav has-shadow" id="top">
+  <div class="container">
+    <div class="nav-left">
+      <a class="nav-item">
+        <div class="nav-item">{{ site.title }}</div>
+      </a>
     </div>
+
+    <span class="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+
+    <div class="nav-right nav-menu">
+      <a class="nav-item is-tab {{ page.url == '/.' ? 'is-active' }}" href="/">
+          About
+        </a>
+
+        <a class="nav-item is-tab {{ page.url == '/experience' ? 'is-active' }}" href="/experience">
+          Experience
+        </a>
+
+        <a class="nav-item is-tab {{ page.url == '/testimonials' ? 'is-active' }}" href="/testimonials">
+          Testimonials
+        </a>
+
+        <a class="nav-item is-tab {{ page.url == '/talks' or '/talks/' in page.url ? 'is-active' }}" href="/talks">
+          Talks
+        </a>
+
+        <a class="nav-item is-tab {{ page.url == '/blog' or '/blog/' in page.url ? 'is-active' }}" href="/blog">
+          Blog
+        </a>
+
+        <a class="nav-item is-tab {{ page.url == '/contact' or '/contact/' in page.url ? 'is-active' }}" href="/contact">
+          Contact
+        </a>
+    </div>
+  </div>
 </nav>

@@ -31,10 +31,9 @@ gulp.task('styles',
 gulp.task('scripts',
     addScript([
         'node_modules/jquery/dist/jquery.js',
-        'node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
         'node_modules/prismjs/prism.js',
-        'node_modules/prismjs/components/prism-{apacheconf,bash,css,diff,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
-        config.js.sourceDir + config.js.pattern
+        'node_modules/prismjs/components/prism-{apacheconf,bsash,css,diff,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
+        config.js.sourceDir + '/**/*.js'
     ], 'site.js')
 );
 

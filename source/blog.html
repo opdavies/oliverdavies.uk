@@ -9,9 +9,9 @@ use: [posts]
 {% block content %}
     <h1>Blog</h1>
 
-    <ul class="posts">
+    <ul class="posts list-style-none">
         {% for post in page.pagination.items %}
-            <li class="post">
+            <li class="post is-clearfix mb-2 pb-3">
                 {{ include('post/header', {
                     page: post,
                     title_tag: 'h2'

@@ -12,7 +12,7 @@ redirect:
     {% for experience in site.experiences|reverse %}
         {% set company = site.companies[experience.company] %}
 
-        <div class="experience-item{% if company.logo %} has-logo{% endif %}">
+        <div class="experience-item{% if company.logo %} has-logo{% endif %} mb-3">
             {% if company.logo %}
                 <div class="experience-item-logo">
                     <img src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.name }} logo">
@@ -20,10 +20,10 @@ redirect:
             {% endif %}
 
             <div class="experience-item-inner">
-                <h2>{{ company.name }}</h2>
+                <h2 class="is-marginless">{{ company.name }}</h2>
 
                 {% if company.url -%}
-                    <a class="experience-item-website display-inline-block" href="{{ company.url }}">
+                    <a class="experience-item-website is-inline-block" href="{{ company.url }}">
                         {{- company.url -}}
                     </a>
                 {%- endif %}
