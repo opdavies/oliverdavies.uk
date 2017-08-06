@@ -17,6 +17,8 @@ use: [posts]
                     title_tag: 'h2'
                 }) }}
 
+                {% include 'post/intro-image' with { page: post } %}
+
                 {% if post.blocks.excerpt %}
                     {{ post.blocks.excerpt|raw }}
                 {% else %}

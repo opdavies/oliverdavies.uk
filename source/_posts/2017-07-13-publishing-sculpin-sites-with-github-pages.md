@@ -10,29 +10,21 @@ meta:
             height: 200
             width: 451
 ---
-{% block excerpt %}
-<div class="has-text-centered">
-    <img
-        src="/assets/images/blog/jackson-octocat.png"
-        alt=""
-        style="margin-bottom: 20px"
-    >
-</div>
+{% block intro_image %}
+<img
+    src="/assets/images/blog/jackson-octocat.png"
+    alt=""
+    class="mb-2"
+>
+{% endblock %}
 
+{% block excerpt %}
 Earlier this week I moved this site from my personal Linode server to [GitHub Pages][0].
 
 This made sense as I already kept the source code in [on GitHub][1], the issue was that GitHub Pages doesn’t know how to dynamically parse and generate a Sculpin site like it does with some other static site generators. It can though parse and serve HTML files, which is what Sculpin generates. It’s just a case of how those files are added to GitHub.
 {% endblock %}
 
 {% block content %}
-<div class="has-text-centered">
-    <img
-        src="/assets/images/blog/jackson-octocat.png"
-        alt=""
-        style="margin-bottom: 20px"
-    >
-</div>
-
 Earlier this week I moved this site from my personal Linode server to [GitHub Pages][0].
 
 This made sense as I already kept the source code in [on GitHub][1], the issue was that GitHub Pages doesn’t know how to dynamically parse and generate a Sculpin site like it does with some other static site generators. It can though parse and serve HTML files, which is what Sculpin generates. It’s just a case of how those files are added to GitHub.
