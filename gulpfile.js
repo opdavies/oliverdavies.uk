@@ -3,38 +3,71 @@
 var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
 var config = require('./gulpfile.config')(plugins);
+var del = require('del');
 
-function getTask(task) {
-    return require('./gulp-tasks/' + task)(gulp, plugins, config);
-}
+var app = {};
 
-function addStyle(sourceFiles, outputFile) {
-    return require('./gulp-tasks/styles')(gulp, plugins, config, sourceFiles, outputFile);
-}
+app.copy = function (sourceFiles, destination) {
+    return gulp.src(sourceFiles)
+        .pipe(gulp.dest(destination));
+};
 
-function addScript(sourceFiles, outputFile) {
-    return require('./gulp-tasks/scripts')(gulp, plugins, config, sourceFiles, outputFile);
-}
+app.sass = function (sourceFiles, outputFile) {
+    return gulp.src(sourceFiles)
+        .pipe(plugins.plumber())
+        .pipe(plugins.if(!config.production, plugins.sourcemaps.init()))
+        .pipe(plugins.sassGlob())
+        .pipe(plugins.sass())
+        .pipe(plugins.autoprefixer(config.sass.autoprefixer))
+        .pipe(plugins.concat(outputFile))
+        .pipe(plugins.if(config.production, plugins.purifycss(config.sass.purifyCss)))
+        .pipe(plugins.if(config.production, plugins.cleanCss()))
+        .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
+        .pipe(plugins.if(!config.production, plugins.refresh()))
+        .pipe(gulp.dest(config.sass.outputDir));
+};
 
-gulp.task('clean', getTask('clean'));
+app.js = function (sourceFiles, outputFile) {
+    return gulp.src(sourceFiles)
+        .pipe(plugins.plumber())
+        .pipe(plugins.if(!config.production, plugins.sourcemaps.init()))
+        .pipe(plugins.concat(outputFile))
+        .pipe(plugins.if(config.production, plugins.uglify()))
+        .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
+        .pipe(gulp.dest(config.js.outputDir));
+};
+
+gulp.task('clean', function () {
+    del.sync('source/assets/{css,fonts,js}');
+    del.sync('output_*/assets/{css,fonts,js}');
+});
+
 gulp.task('default', ['clean', 'fonts', 'styles', 'scripts']);
-gulp.task('fonts', getTask('fonts'));
 
-gulp.task('styles',
-    addStyle([
+gulp.task('fonts', function () {
+    return app.copy('node_modules/font-awesome/fonts/*', config.fonts.outputDir);
+});
+
+gulp.task('styles', function () {
+    return app.sass([
         'node_modules/font-awesome/css/font-awesome.css',
         'node_modules/prismjs/themes/prism-twilight.css',
         config.sass.sourceDir + '/main.sass'
-    ], 'site.css')
-);
+    ], 'site.css');
+});
 
-gulp.task('scripts',
-    addScript([
+gulp.task('scripts', function () {
+    return app.js([
         'node_modules/jquery/dist/jquery.js',
         'node_modules/prismjs/prism.js',
         'node_modules/prismjs/components/prism-{apacheconf,bsash,css,diff,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
         config.js.sourceDir + '/**/*.js'
     ], 'site.js')
-);
+});
 
-gulp.task('watch', ['default'], getTask('watch'));
+gulp.task('watch', ['default'], function () {
+    plugins.refresh.listen();
+
+    gulp.watch(config.sass.sourceDir + config.sass.pattern, ['styles']);
+    gulp.watch(config.js.sourceDir + config.js.pattern, ['scripts']);
+});
