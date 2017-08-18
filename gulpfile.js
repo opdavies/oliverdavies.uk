@@ -70,10 +70,14 @@ gulp.task('styles', function () {
 gulp.task('scripts', function () {
     app.js([
         'node_modules/jquery/dist/jquery.js',
+        config.js.sourceDir + '/**/*.js'
+    ], 'main.js')
+
+    app.js([
+        'node_modules/jquery/dist/jquery.js',
         'node_modules/prismjs/prism.js',
         'node_modules/prismjs/components/prism-{apacheconf,bsash,css,diff,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
-        config.js.sourceDir + '/**/*.js'
-    ], 'site.js')
+    ], 'post.js')
 });
 
 gulp.task('watch', ['default'], function () {
