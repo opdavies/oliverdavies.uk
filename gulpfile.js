@@ -49,15 +49,26 @@ gulp.task('fonts', function () {
 });
 
 gulp.task('styles', function () {
-    return app.sass([
+    app.sass([
         'node_modules/font-awesome/css/font-awesome.css',
-        'node_modules/prismjs/themes/prism-twilight.css',
         config.sass.sourceDir + '/main.sass'
-    ], 'site.css');
+    ], 'main.css');
+
+    app.sass([
+        'node_modules/prismjs/themes/prism-twilight.css',
+        config.sass.sourceDir + '/post.sass'
+    ], 'post.css')
+
+    app.sass(config.sass.sourceDir + '/about.sass', 'about.css');
+    app.sass(config.sass.sourceDir + '/blog.sass', 'blog.css');
+    app.sass(config.sass.sourceDir + '/experience.sass', 'experience.css');
+    app.sass(config.sass.sourceDir + '/project.sass', 'project.css');
+    app.sass(config.sass.sourceDir + '/talk.sass', 'talk.css');
+    app.sass(config.sass.sourceDir + '/testimonials.sass', 'testimonials.css');
 });
 
 gulp.task('scripts', function () {
-    return app.js([
+    app.js([
         'node_modules/jquery/dist/jquery.js',
         'node_modules/prismjs/prism.js',
         'node_modules/prismjs/components/prism-{apacheconf,bsash,css,diff,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
