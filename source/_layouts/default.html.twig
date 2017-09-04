@@ -24,20 +24,20 @@
             <link rel="icon" href="{{ site.avatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
         {% endfor %}
     </head>
-    <body class="helvetica black-90 {{ page.blocks.body_classes }}">
+    <body class="helvetica black-80 {{ page.blocks.body_classes }}">
         {% include 'nav' %}
 
         <div class="ph3 ph5-l">
             <div class="f6">
                 <div class="flex-l">
-                    <main class="w-75-l pr4 lh-copy">
+                    <main class="w-75-l pr4-ns lh-copy">
                         {% block content_top %}{% endblock %}
                         {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
                         {% block content_bottom %}{% endblock %}
                     </main>
 
                     {% block sidebar_wrapper %}
-                        <div class="w-25-l ph3">
+                        <div class="w-25-l ph3-m pt4 pt0-l">
                             {% block sidebar %}
                                 {% include 'badges' %}
                                 {% include 'availability' %}
@@ -50,7 +50,7 @@
 
             <footer class="mt4 bt b--moon-gray">
                 <p class="f6">
-                    &copy; 2010-{{ 'now'|date('Y') }} {{ site.title }}. Built with <a href="https://sculpin.io">Sculpin</a>, <a href="http://bulma.io">Bulma</a> and <a href="https://gulpjs.com">Gulp</a>.
+                    &copy; 2010-{{ 'now'|date('Y') }} {{ site.title }}. Built with <a href="https://sculpin.io">Sculpin</a>.
                 </p>
 
                 {% include 'meetups' %}

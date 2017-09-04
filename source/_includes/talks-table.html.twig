@@ -1,17 +1,17 @@
-<div class="table-responsive">
+<div class="w-100 overflow-x-auto overflow-y-hidden">
     <table class="w-100 ba b--moon-gray">
         <thead>
             <tr class="striped--light-gray">
-                <th class="w-20 pa2 tl">Date</th>
+                <th class="w-20-l pa2 tl">Date</th>
 
                 {% if not talk_page %}
-                    <th class="w-40 pa2 tl">Talk</th>
+                    <th class="w-40-l pa2 tl">Talk</th>
                 {% endif %}
 
                 <th class="pa2 tl">Event</th>
 
                 {% if not upcoming %}
-                    <th class="w-12 pa2 tl">Feedback</th>
+                    <th class="w4 pa2 tl">Feedback</th>
                 {% endif %}
             </tr>
         </thead>
@@ -61,20 +61,18 @@
                     </td>
 
                     {% if not upcoming %}
-                        <td class="">
+                        <td class="ph2">
                             {% if row.date.feedback %}
                                 <a
                                     href="{{ row.date.feedback }}"
                                     class="bg-blue br2 pa2 white-90 no-underline dib dim"
-                                    title="Read or leave feedback for this talk"
-                                >
+                                    title="Read or leave feedback for this talk">
                                     <i class="fa fa-comment-o mr1"></i>
                                     joind.in
                                 </a>
                             {% endif %}
                         </td>
                     {% endif %}
-
                 </tr>
             {% endfor %}
         </tbody>
