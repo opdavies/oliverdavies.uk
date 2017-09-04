@@ -16,9 +16,7 @@ meta:
 slug: drupalcamp-bristol-early-bird-tickets-sessions-sponsors
 ---
 {% block intro_image %}
-<div class="has-text-centered">
-    <img src="/assets/images/blog/drupalcamp-bristol-17-logo.jpg" alt="DrupalCamp Bristol 2017 logo">
-</div>
+<img src="/assets/images/blog/drupalcamp-bristol-17-logo.jpg" alt="DrupalCamp Bristol 2017 logo">
 {% endblock %}
 
 {% block excerpt %}

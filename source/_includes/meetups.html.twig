@@ -1,12 +1,17 @@
-<div class="meetups">
-    <h2>Things that I organise</h2>
-    <ul>
+<div class="mt4">
+    <h2 class="mb3">Things that I organise</h2>
+
+    <ul class="list flex pa0 mt0">
         {% for meetup in site.meetups %}
-            <li class="meetups--{{ meetup.name|lower|replace({ ' ': '-' }) }}">
-                <a href="{{ meetup.url }}" title="{{ meetup.name }}">
+            <li>
+                <a
+                    href="{{ meetup.url }}"
+                    title="{{ meetup.name }}"
+                    class="dib {% if not loop.last %}mr2{% endif %}">
                     <img
                         src="{{ site.images_url }}/assets/images/meetups/{{ meetup.logo }}"
                         alt="{{ meetup.name }} logo"
+                        class="h3"
                     >
                 </a>
             </li>

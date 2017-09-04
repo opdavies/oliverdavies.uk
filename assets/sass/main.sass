@@ -1,21 +1,22 @@
-@import 'node_modules/bulma/sass/utilities/initial-variables'
+@import "node_modules/tachyons-sass/scss/colors";
 
-$family-sans-serif: "Helvetica Neue", Arial, sans-serif
-$body-size: 14px
+$blue: #0678be
 
-$blue: #0678BE
+@import "node_modules/tachyons-sass/tachyons";
 
-$primary: $blue
+p,
+li,
+td
+    a
+        color: $blue
 
-@import 'node_modules/bulma/bulma'
+.video
+    padding: 56.25% 0 0
 
-@import 'base'
-@import 'mixins'
-
-@import 'base/layout'
-@import 'base/utilities'
-
-@import 'components/availability'
-@import 'components/badges'
-@import 'components/footer'
-@import 'components/meetups'
+.video iframe,
+.video embed 
+  height: 100%
+  left: 0
+  position: absolute
+  top: 0
+  width: 100%

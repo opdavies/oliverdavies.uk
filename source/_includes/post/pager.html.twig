@@ -1,15 +1,15 @@
-<div class="post-pager is-clearfix is-flex mt-2">
+<div class="flex mt3">
     {% if page.previous_post %}
-        <div class="is-half flex">
-           <a href="{{ page.previous_post.url }}">
+        <div class="w-50-ns">
+           <a href="{{ page.previous_post.url }}" class="blue hover-blue">
                 &laquo; {{ page.previous_post.title }}
             </a>
         </div>
     {% endif %}
 
     {% if page.next_post %}
-        <div class="is-half flex has-text-right">
-            <a href="{{ page.next_post.url }}">
+        <div class="w-50-ns tr">
+            <a href="{{ page.next_post.url }}" class="blue hover-blue">
                 {{ page.next_post.title }} &raquo;
             </a>
         </div>

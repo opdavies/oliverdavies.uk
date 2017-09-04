@@ -1,4 +1,8 @@
 {% set title_tag = title_tag ?: 'h1' %}
-<{{ title_tag }}>{{ page.title }}</{{ title_tag }}>
+<{{ title_tag }} class="mb1">
+    {{ page.title }}
+</{{ title_tag }}>
 
-<p class="posted">{{ page.date|date('jS F Y') }}</p>
+<p class="mt0 black-50">
+    {{ page.date|date('jS F Y') }}
+</p>

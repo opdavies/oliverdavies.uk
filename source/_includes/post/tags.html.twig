@@ -1,7 +1,7 @@
 {% if page.tags %}
     <div class="tags">
         {% for tag in page.tags %}
-            <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}" class="tag is-light is-borderless">
+            <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}" class="blue">
                 {{- tag -}}
             </a>
         {% endfor %}

@@ -1,0 +1,24 @@
+@import "node_modules/tachyons-sass/tachyons";
+
+$blue1: #0678be;
+
+p,
+li,
+td {
+    a { color: $blue1; }
+}
+
+.blue1 { color: $blue1; }
+
+.video {
+    padding: 56.25% 0 0;
+}
+
+.video iframe,
+.video embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

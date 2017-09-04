@@ -7,42 +7,21 @@ use: [posts]
     <p>To send me an email, complete the form below.</p>
 
     <form action="https://formspree.io/{{ site.email }}" method="POST">
-        <div class="form__name field">
-            <label for="name">Name</label>
-            <div class="control">
-                <input type="text" class="input" name="name" required>
-            </div>
-        </div>
+        <label for="name" class="db mb1">Name</label>
+        <input type="text" class="w-100 pa2 mb3 ba b--black-50" name="name" required>
 
-        <div class="form__email field">
-            <label for="email">Email</label>
-            <div class="control">
-                <input type="email" class="input" name="email" required>
-            </div>
-        </div>
+        <label for="email" class="db mb1">Email</label>
+        <input type="email" class="w-100 pa2 mb3 ba b--black-50" name="email" required>
 
-        <div class="form__subject field">
-            <label for="subject">Subject</label>
-            <div class="control">
-                <input type="text" class="input" name="subject" required>
-            </div>
-        </div>
+        <label for="subject" class="db mb1">Subject</label>
+        <input type="text" class="w-100 pa2 mb3 ba b--black-50" name="subject" required>
 
-        <div class="field">
-            <div class="control">
-                <label for="message">Message</label>
-                <textarea name="message" class="textarea" rows="5" required></textarea>
-            </div>
-        </div>
+        <label for="message" class="db mb1">Message</label>
+        <textarea name="message" class="w-100 pa2 mb3 ba b--black-50" rows="5" required></textarea>
 
-        <div class="form__actions">
-            <button class="button is-primary" type="submit">
-                <span class="icon is-small" style="margin-right: 5px">
-                    <i class="fa fa-send"></i>
-                </span>
-                Send email
-            </button>
-        </div>
+        <button class="b ph3 pv2 input-reset ba b--black bg-transparent pointer f6" type="submit">
+            Send email
+        </button>
 
         <input type="hidden" name="_next" value="{{ site.url }}/contact-thanks/" />
 

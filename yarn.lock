@@ -253,10 +253,6 @@ builtin-modules@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
 
-bulma:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.5.0.tgz#09a7932c1c15aa7ef92840f7a50b1bfebbfd5461"
-
 bytes@2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-2.2.0.tgz#fd35464a403f6f9117c2de3609ecff9cae000588"
@@ -2822,6 +2818,16 @@ supports-color@^4.2.0:
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-4.2.1.tgz#65a4bb2631e90e02420dba5554c375a4754bb836"
   dependencies:
     has-flag "^2.0.0"
+
+tachyons-sass:
+  version "4.7.4"
+  resolved "https://registry.yarnpkg.com/tachyons-sass/-/tachyons-sass-4.7.4.tgz#47199472f444f1451692ec4509c5da700569ea57"
+  dependencies:
+    tachyons "^4.7.4"
+
+tachyons@^4.7.4:
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/tachyons/-/tachyons-4.8.1.tgz#9a3183feecb3240c4dcefee7feecc8259acd7381"
 
 tar@^2.0.0:
   version "2.2.1"
