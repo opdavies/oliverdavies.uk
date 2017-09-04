@@ -1,11 +1,9 @@
-<div class="availability panel panel-default">
-    <div class="panel-heading">Availability</div>
+<div class="lh-copy">
+    <h2>Availability</h2>
 
-    <div class="panel-block">
-        <div>
-            {% for key, availability in site.availability %}
-                {% include 'availability/' ~ availability with { value: key } %}
-            {% endfor %}
-        </div>
-    </div>
+    <ul class="list pa0">
+        {% for key, availability in site.availability %}
+            {% include 'availability/' ~ availability with { value: key } %}
+        {% endfor %}
+    </ul>
 </div>

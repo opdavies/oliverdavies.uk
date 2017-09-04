@@ -12,29 +12,31 @@ redirect:
     {% for experience in site.experiences|reverse %}
         {% set company = site.companies[experience.company] %}
 
-        <div class="experience-item{% if company.logo %} has-logo{% endif %} mb-3">
+        <div class="mb4">
             {% if company.logo %}
-                <div class="experience-item-logo">
-                    <img src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.name }} logo">
+                <div class="fr mb3 ml3 mt2">
+                    <img src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}" alt="{{ company.name }} logo" class="mw4">
                 </div>
             {% endif %}
 
             <div class="experience-item-inner">
-                <h2 class="is-marginless">{{ company.name }}</h2>
+                <h2 class="mb0">{{ company.name }}</h2>
 
-                {% if company.url -%}
-                    <a class="experience-item-website is-inline-block" href="{{ company.url }}">
-                        {{- company.url -}}
-                    </a>
-                {%- endif %}
+                <div class="mb3">
+                    {% if company.url -%}
+                        <a class="dib mb1 blue1" href="{{ company.url }}">
+                            {{- company.url -}}
+                        </a>
+                    {%- endif %}
 
-                <div class="experience-item-role text-light">
-                    {{- experience.role }}
-                    from
-                    {{ experience.start }}
-                    to
-                    {{ experience.end|default('Present') -}}
-                    {%- if experience.location %} ({{ experience.location }}){% endif %}.
+                    <div class="black-50">
+                        {{- experience.role }}
+                        from
+                        {{ experience.start }}
+                        to
+                        {{ experience.end|default('Present') -}}
+                        {%- if experience.location %} ({{ experience.location }}){% endif %}.
+                    </div>
                 </div>
 
                 {% if experience.description %}

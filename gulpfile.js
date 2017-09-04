@@ -54,17 +54,17 @@ gulp.task('styles', function () {
         config.sass.sourceDir + '/main.sass'
     ], 'main.css');
 
-    app.sass([
-        'node_modules/prismjs/themes/prism-twilight.css',
-        config.sass.sourceDir + '/post.sass'
-    ], 'post.css')
+    // app.sass([
+    //     'node_modules/prismjs/themes/prism-twilight.css',
+    //     config.sass.sourceDir + '/post.sass'
+    // ], 'post.css')
 
-    app.sass(config.sass.sourceDir + '/about.sass', 'about.css');
-    app.sass(config.sass.sourceDir + '/blog.sass', 'blog.css');
-    app.sass(config.sass.sourceDir + '/experience.sass', 'experience.css');
-    app.sass(config.sass.sourceDir + '/project.sass', 'project.css');
-    app.sass(config.sass.sourceDir + '/talk.sass', 'talk.css');
-    app.sass(config.sass.sourceDir + '/testimonials.sass', 'testimonials.css');
+    // app.sass(config.sass.sourceDir + '/about.sass', 'about.css');
+    // app.sass(config.sass.sourceDir + '/blog.sass', 'blog.css');
+    // app.sass(config.sass.sourceDir + '/experience.sass', 'experience.css');
+    // app.sass(config.sass.sourceDir + '/project.sass', 'project.css');
+    // app.sass(config.sass.sourceDir + '/talk.sass', 'talk.css');
+    // app.sass(config.sass.sourceDir + '/testimonials.sass', 'testimonials.css');
 });
 
 gulp.task('scripts', function () {

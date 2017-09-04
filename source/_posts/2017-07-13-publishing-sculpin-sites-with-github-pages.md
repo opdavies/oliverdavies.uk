@@ -11,11 +11,7 @@ meta:
             width: 451
 ---
 {% block intro_image %}
-<img
-    src="/assets/images/blog/jackson-octocat.png"
-    alt=""
-    class="mb-2"
->
+<img src="/assets/images/blog/jackson-octocat.png" alt="">
 {% endblock %}
 
 {% block excerpt %}

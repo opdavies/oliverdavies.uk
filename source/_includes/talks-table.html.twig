@@ -1,17 +1,17 @@
 <div class="table-responsive">
-    <table class="talks-table table is-striped">
+    <table class="w-100 ba b--moon-gray">
         <thead>
-            <tr>
-                <th style="width: 20%">Date</th>
+            <tr class="striped--light-gray">
+                <th class="w-20 pa2 tl">Date</th>
 
                 {% if not talk_page %}
-                    <th style="width: 40%">Talk</th>
+                    <th class="w-40 pa2 tl">Talk</th>
                 {% endif %}
 
-                <th>Event</th>
+                <th class="pa2 tl">Event</th>
 
                 {% if not upcoming %}
-                    <th style="width: 10%">Feedback</th>
+                    <th class="w-12 pa2 tl">Feedback</th>
                 {% endif %}
             </tr>
         </thead>
@@ -23,54 +23,52 @@
                 {% for item in row.talks if key == item.filename|split('.')|first %}
                     {% set talk = item %}
                 {% endfor %}
-                <tr>
-                    <td class="vertical-middle">
+                <tr class="striped--near-white">
+                    <td class="pa2">
                         {{ row.date.date|date(row.date.fuzzy_date ? 'F Y' : 'j F Y') }}
 
                         {% if row.date.time %}
-                            <small class="is-block">{{ row.date.time }}</small>
+                            <small class="db">{{ row.date.time }}</small>
                         {% endif %}
                     </td>
 
                     {% if not talk_page %}
-                        <td>
+                        <td class="pa2">
                             {% if row.date.talk.title is defined %}
                                {{ row.date.talk.title }}
                             {% else %}
-                                <a href="{{ talk.url }}">{{ talk.title }}</a>
+                                <a href="{{ talk.url }}" class="blue">{{ talk.title }}</a>
                             {% endif %}
 
-                            <small class="is-block">
+                            <small class="db">
                                 {{ row.date.talk.type ?: talk.type }}
                             </small>
                         </td>
                     {% endif %}
 
-                    <td class="vertical-middle">
+                    <td class="pa2">
                         {% if row.event.website %}
-                            <a href="{{ row.event.website }}">
+                            <a href="{{ row.event.website }}" class="blue">
                                 {{ row.event.name }}
                             </a>
                         {% else %}
                             {{ row.event.name }}
                         {% endif %}
 
-                        <small class="is-block">
+                        <small class="db">
                             {{ row.event.location }}
                         </small>
                     </td>
 
                     {% if not upcoming %}
-                        <td class="vertical-middle">
+                        <td class="">
                             {% if row.date.feedback %}
                                 <a
                                     href="{{ row.date.feedback }}"
-                                    class="button is-primary"
+                                    class="bg-blue br2 pa2 white-90 no-underline dib dim"
                                     title="Read or leave feedback for this talk"
                                 >
-                                   <!--  <span class="icon is-small">
-                                        <i class="fa fa-comment-o" style="margin-right: 8px"></i>
-                                    </span> -->
+                                    <i class="fa fa-comment-o mr1"></i>
                                     joind.in
                                 </a>
                             {% endif %}

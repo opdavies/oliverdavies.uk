@@ -1,5 +1,5 @@
-<div class="panel badges has-text-centered">
-    <a href="https://assoc.drupal.org/membership" title="I’m a Drupal Association member." class="is-block">
+<div>
+    <a href="https://assoc.drupal.org/membership" title="I’m a Drupal Association member." class="db mb3 tc">
         <img
             src="{{ site.images_url }}/assets/images/badges/da-individual-member.png"
             alt="Drupal Association Individual Member"
@@ -7,23 +7,21 @@
         />
     </a>
 
-    <div class="acquia-badges">
-        <div class="badge">
-            <img
-                src="{{ site.images_url }}/assets/images/badges/acquia-d8-developer.png"
-                alt="Acquia Certified Developer - Drupal 8 Exam Badge"
-            />
-        </div>
-
-        <div class="badge">
-            <img
-                src="{{ site.images_url }}/assets/images/badges/acquia-d8-back-end.png"
-                alt="Acquia Certified Back End Specialist - Drupal 8 Exam Badge"
-            />
-        </div>
+    <div class="db mb3 dt">
+        {% for badge in [
+            { image: 'acquia-d8-developer.png', alt: 'Acquia Certified Developer - Drupal 8 Exam Badge' },
+            { image: 'acquia-d8-back-end.png', alt: 'Acquia Certified Back End Specialist - Drupal 8 Exam Badge' }
+        ] %}
+            <div class="dtc">
+                <img
+                    src="{{ site.images_url }}/assets/images/badges/{{ badge.image }}"
+                    alt="{{ badge.alt }}"
+                />
+            </div>
+        {% endfor %}
     </div>
 
-    <a href="http://conference.phpnw.org.uk/phpnw17" class="is-block">
+    <a href="http://conference.phpnw.org.uk/phpnw17" class="db">
         <img src="{{ site.images_url }}/assets/images/badges/phpnw17.png" alt="">
     </a>
 </div>

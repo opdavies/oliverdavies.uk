@@ -9,9 +9,9 @@ use: [posts]
 {% block content %}
     <h1>Blog</h1>
 
-    <ul class="posts list-style-none">
+    <ul class="list pa0 ma0">
         {% for post in page.pagination.items %}
-            <li class="post is-clearfix mb-2 pb-3">
+            <li class="cf mb2 pb4 bb b--light-silver">
                 {{ include('post/header', {
                     page: post,
                     title_tag: 'h2'
@@ -41,8 +41,6 @@ use: [posts]
         </ul>
     {% endif %}
 {% endblock %}
-
-{% block body_classes 'page--blog page--blog__list' %}
 
 {% block stylesheets %}
     <link rel="stylesheet" href="{{ site.url }}/assets/css/blog.css">

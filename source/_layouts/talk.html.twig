@@ -8,7 +8,7 @@
     </div>
 
     {% if page.slides.embed %}
-        <div class="mt-2">
+        <div class="mt2">
             <h2>Slides</h2>
             <div class="talk-slides">
                 {{ page.slides.embed|raw }}
@@ -17,15 +17,16 @@
     {% endif %}
 
     {% if page.video.embed %}
-        <div class="mt-2">
+        <div class="mt2">
             <h2>Video</h2>
-            <div class="embed-container">
+
+            <div class="video w-100 relative">
                 {{ page.video.embed|raw }}
             </div>
         </div>
     {% endif %}
 
-    <div class="mt-3">
+    <div class="mt4">
         <h2>Events</h2>
 
         {% set events = [] %}
