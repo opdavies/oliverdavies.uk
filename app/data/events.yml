@@ -189,6 +189,7 @@ events:
           date: '2017-09-13'
           time: ~
           talk: deploying-php-with-fabric
+          feedback: https://joind.in/talk/a5ff3
 
         - event: phpnw17
           date: '2017-10-01'
