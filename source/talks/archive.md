@@ -13,12 +13,11 @@ Here are a list of my previous conference and user group talks:
         {% set events = events|merge([{
             date: date,
             event: site.events.events[date.event],
-            talks: data.talks,
         }]) %}
     {% endif %}
 {% endfor %}
 
-{% include 'talks-table' with { events: events } %}
+{% include 'talks-table' %}
 
 Upcoming talks can be found on the [talks page][0].
 

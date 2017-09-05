@@ -1,5 +1,4 @@
 ---
-id: drupal-vm-generator
 title: Drupal VM Generator
 type: Lightning talk
 code: https://github.com/opdavies/drupal-vm-generator

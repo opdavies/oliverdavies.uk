@@ -99,11 +99,11 @@ events:
           date: '2014-08-19'
           talk: drush-make-drupalbristol
 
-        - event: swdug
-          date: '2014-08-19'
-          talk:
-              title: About the Drupal Association
-              type: Talk
+        # - event: swdug
+        #   date: '2014-08-19'
+        #   talk:
+        #       title: About the Drupal Association
+        #       type: Talk
 
         - event: drupalcamp-brighton-15
           date: '2015-01-18'
@@ -171,7 +171,7 @@ events:
         - event: drupalcamp-london-17
           date: '2017-03-04'
           time: '16:15 - 17:00'
-          talk: test-driven-drupal-simpletest-phpunit
+          talk: tdd-test-driven-drupal
 
         - event: drupalcamp-london-17
           date: '2017-03-04'
@@ -181,17 +181,16 @@ events:
         - event: nomad-php
           date: '2017-04-20'
           time: '19:00 (CET)'
-          talk:
-              id: deploying-php-with-fabric
-              type: Lightning talk
+          type: Lightning talk
+          talk: deploying-php-fabric
 
         - event: phpsw
           date: '2017-09-13'
           time: ~
-          talk: deploying-php-with-fabric
           feedback: https://joind.in/talk/a5ff3
+          talk: deploying-php-fabric
 
         - event: phpnw17
           date: '2017-10-01'
           time: '09:00 - 09:45'
-          talk: deploying-php-with-fabric
+          talk: deploying-php-fabric

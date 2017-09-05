@@ -17,62 +17,44 @@
         </thead>
         <tbody>
             {% for row in events %}
-                {% set talk = false %}
-                {% set key = row.date.talk.id ?: row.date.talk %}
-
-                {% for item in row.talks if key == item.filename|split('.')|first %}
-                    {% set talk = item %}
-                {% endfor %}
-                <tr class="striped--near-white">
+                <tr>
                     <td class="pa2">
-                        {{ row.date.date|date(row.date.fuzzy_date ? 'F Y' : 'j F Y') }}
+                        {{ row.date.date }}
 
-                        {% if row.date.time %}
-                            <small class="db">{{ row.date.time }}</small>
+                        {% if row.date.time is defined %}
+                            <small class="db black-50">
+                                {{ row.date.time }}
+                            </small>
                         {% endif %}
                     </td>
 
                     {% if not talk_page %}
                         <td class="pa2">
-                            {% if row.date.talk.title is defined %}
-                               {{ row.date.talk.title }}
+                            {% if row.date.talk.title is not defined %}
+                                {% for talk in data.talks if talk.id ends with '/' ~ row.date.talk ~ '.md' %}
+                                    <a href="{{ talk.url }}">
+                                        {{ talk.title }}
+                                    </a>
+                                {% endfor %}
                             {% else %}
-                                <a href="{{ talk.url }}" class="blue">{{ talk.title }}</a>
+                                {{ row.date.talk.title }}
                             {% endif %}
-
-                            <small class="db">
-                                {{ row.date.talk.type ?: talk.type }}
-                            </small>
                         </td>
                     {% endif %}
 
                     <td class="pa2">
-                        {% if row.event.website %}
-                            <a href="{{ row.event.website }}" class="blue">
-                                {{ row.event.name }}
-                            </a>
-                        {% else %}
-                            {{ row.event.name }}
-                        {% endif %}
+                        {{ row.event.name }}
 
-                        <small class="db">
-                            {{ row.event.location }}
-                        </small>
+                        {% if row.event.location is defined %}
+                            <small class="db black-50">
+                                {{ row.event.location }}
+                            </small>
+                        {% endif %}
                     </td>
 
-                    {% if not upcoming %}
-                        <td class="ph2">
-                            {% if row.date.feedback %}
-                                <a
-                                    href="{{ row.date.feedback }}"
-                                    class="bg-blue br2 pa2 white-90 no-underline dib dim"
-                                    title="Read or leave feedback for this talk">
-                                    <i class="fa fa-comment-o mr1"></i>
-                                    joind.in
-                                </a>
-                            {% endif %}
-                        </td>
-                    {% endif %}
+                    <td class="pa2">
+                        feedback
+                    </td>
                 </tr>
             {% endfor %}
         </tbody>

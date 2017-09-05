@@ -1,7 +1,5 @@
 ---
-id: drupal-vm-meet-symfony-console
 title: Drupal VM, Meet Symfony Console
-type: Talk
 tags: [conference, php, drupal-vm, symfony]
 slides:
     url: https://speakerdeck.com/opdavies/drupal-vm-meet-symfony-console

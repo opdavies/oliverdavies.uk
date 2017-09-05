@@ -1,5 +1,4 @@
 ---
-id: drupal-development-with-composer
 title: Modern Drupal Development with Composer
 type: Lightning talk
 tags: ['meetups', 'phpsw', 'drupal', 'composer']

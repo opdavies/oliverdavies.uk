@@ -1,7 +1,5 @@
 ---
-id: getting-your-data-into-drupal-8
 title: Getting (Your Data) Into Drupal 8
-type: Talk
 slides:
     url: https://speakerdeck.com/opdavies/getting-your-data-into-drupal-8-drupal-bristol
     embed: '<script async class="speakerdeck-embed" data-id="63e5dfce996e46699e304d50e896477b" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>'
@@ -22,6 +20,7 @@ meta:
 redirect:
     - talks/2017/01/18/getting-your-data-into-drupal-8-drupal-bristol/
     - talks/2017/03/04/getting-your-data-into-drupal-8-drupalcamp-london-2017/
+use: [talks]
 ---
 If you’ve moved a site from Drupal 6 to 7, the chances are that you’ve either used the upgrade path to update your old site in-place, or you built a new site from scratch and used the Migrate module from contrib to migrate your data from the old database.
 

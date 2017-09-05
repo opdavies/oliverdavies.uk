@@ -1,5 +1,4 @@
 ---
-id: it-all-started-with-a-patch
 title: It All Started With A Patch
 type: Lightning talk
 tags: [meetup, phpsw, open-source]

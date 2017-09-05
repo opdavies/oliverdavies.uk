@@ -1,5 +1,4 @@
 ---
-id: sculpin
 title: Building Static Websites with Sculpin
 type: Lightning talk
 slides:
