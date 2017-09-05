@@ -15,6 +15,11 @@ events:
             location: Bristol, UK
             website: https://2016.drupalcampbristol.org.uk
 
+        drupalcamp-dublin-17:
+            name: DrupalCamp Dublin 2017
+            location: Dublin, Ireland
+            website: http://2017.drupal.ie
+
         drupalcamp-london-14:
             name: DrupalCamp London 2014
             location: London, UK
@@ -195,3 +200,11 @@ events:
           date: '2017-10-01'
           time: '09:00 - 09:45'
           talk: deploying-php-with-fabric
+
+        - event: drupalcamp-dublin-17
+          date: '2017-10-20'
+          talk: deploying-drupal-fabric
+
+        - event: drupalcamp-dublin-17
+          date: '2017-10-20'
+          talk: test-driven-drupal-simpletest-phpunit

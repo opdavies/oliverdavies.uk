@@ -1,5 +1,5 @@
 ---
-title: Test Driven Drupal Development with SimpleTest and PHPUnit
+title: TDD - Test Driven Drupal
 type: Talk
 slides:
     url: https://speakerdeck.com/opdavies/test-driven-drupal-development-with-simpletest-and-phpunit-drupalcamp-london-17

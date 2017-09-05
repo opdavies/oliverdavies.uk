@@ -1,6 +1,6 @@
 ---
 id: deploying-php-with-fabric
-title: Deploying PHP Applications with Fabric
+title: Deploying PHP Applications (and anything else) with Fabric
 type: Talk
 slides:
     url: https://speakerdeck.com/opdavies/deploying-php-applications-with-fabric
