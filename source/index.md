@@ -11,7 +11,6 @@ use: [posts, testimonials]
 redirect:
     - about/
 ---
-{% block content %}
 # About Me
 
 <img src="{{ site.images_url }}{{ site.avatar.url }}" alt="Picture of Oliver" class="br-100 mw4">
@@ -46,12 +45,6 @@ I’m a webmaster and documentation maintainer for [Drupal.org][42], and a provi
 - [Stack Overflow][37]
 - [Disqus][38]
 - IRC (freenode) - {{ site.irc.name }}
-{% endblock %}
-
-{% block stylesheets %}
-<link rel="stylesheet" href="{{ site.url }}/assets/css/about.css">
-{% endblock %}
-
 
 [1]: https://www.google.com/#q=opdavies
 [2]: https://www.drupal.org
