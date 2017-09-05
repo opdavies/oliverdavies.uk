@@ -1,0 +1,9 @@
+{% if page.video.embed %}
+    <div class="mt2">
+        <h2>Video</h2>
+
+        <div class="video w-100 pa0 relative">
+            {{ page.video.embed|raw }}
+        </div>
+    </div>
+{% endif %}

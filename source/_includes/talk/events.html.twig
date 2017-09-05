@@ -1,0 +1,20 @@
+<div class="mt4">
+    <h2>Events</h2>
+
+    {% set events = [] %}
+    {% for date in site.events.dates %}
+        {% set key = (date.talk.id is defined) ? date.talk.id : date.talk %}
+        {% set talk = (page.id is defined) ? page.id : page.url|split('/')|last %}
+        {% if key == talk %}
+            {% set events = events|merge([{
+                date: date,
+                event: site.events.events[date.event],
+            }]) %}
+        {% endif %}
+    {% endfor %}
+
+    {% include 'talks-table' with {
+        events: events,
+        talk_page: true,
+    } %}
+</div>
