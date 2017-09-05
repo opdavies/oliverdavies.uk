@@ -8,7 +8,7 @@
     {% if page.slides.embed %}
         <div class="mt2">
             <h2>Slides</h2>
-            <div class="talk-slides">
+            <div class="slides w-100 bg-center">
                 {{ page.slides.embed|raw }}
             </div>
         </div>
@@ -18,7 +18,7 @@
         <div class="mt2">
             <h2>Video</h2>
 
-            <div class="video w-100 relative">
+            <div class="video w-100 pa0 relative">
                 {{ page.video.embed|raw }}
             </div>
         </div>
@@ -44,4 +44,8 @@
             talk_page: true,
         } %}
     </div>
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/talk.css">
 {% endblock %}

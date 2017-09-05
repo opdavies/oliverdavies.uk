@@ -58,6 +58,8 @@ gulp.task('styles', function () {
         'node_modules/prismjs/themes/prism-twilight.css',
         config.sass.sourceDir + '/post.sass'
     ], 'post.css')
+
+    app.sass(config.sass.sourceDir + '/talk.sass', 'talk.css');
 });
 
 gulp.task('scripts', function () {

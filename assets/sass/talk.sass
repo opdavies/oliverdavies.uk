@@ -1,11 +1,22 @@
-@import "node_modules/bulma/sass/utilities/initial-variables"
-@import "node_modules/bulma/sass/utilities/mixins"
+@import "./node_modules/tachyons-sass/scss/media-queries"
 
-.talk-slides
-    background: url('../images/loading.gif') no-repeat center
+.slides
+    background-image: url('../images/loading.gif')
     min-height: 275px
-    width: 100%
-    +tablet
+
+    @media #{$breakpoint-medium}
         min-height: 460px
-    +desktop
+
+    @media #{$breakpoint-large}
         min-height: 540px
+
+.video
+    padding-top: 56.25%
+
+.video iframe,
+.video embed 
+  height: 100%
+  left: 0
+  position: absolute
+  top: 0
+  width: 100%
