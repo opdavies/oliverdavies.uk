@@ -22,7 +22,7 @@
                         {{ row.date.date|date(row.date.fuzzy_date ? 'F Y' : 'j F Y') }}
 
                         {% if row.date.time is defined %}
-                            <small class="db black-50">
+                            <small class="db black-70">
                                 {{ row.date.time }}
                             </small>
                         {% endif %}
@@ -40,7 +40,7 @@
                                 {{ row.date.talk_title }}
                             {% endif %}
 
-                            <small class="db black-50">
+                            <small class="db black-70">
                                 {{ row.date.type|default('Talk') }}
                             </small>
                         </td>
@@ -56,7 +56,7 @@
                         {% endif %}
 
                         {% if row.event.location is defined %}
-                            <small class="db black-50">
+                            <small class="db black-70">
                                 {{ row.event.location }}
                             </small>
                         {% endif %}
