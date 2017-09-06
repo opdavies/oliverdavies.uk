@@ -6,5 +6,5 @@ sculpin_content_types:
         permalink: projects/:slug_title/
         taxonomies: [skills, tags]
     talks:
-        permalink: talks/:slug_title/
+        permalink: talks/:basename/
         taxonomies: [tags]
