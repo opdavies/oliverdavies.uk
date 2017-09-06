@@ -1,5 +1,5 @@
 ---
-id: deploying-drupal-fabric
+talk_id: 19
 title: 'Deploying Drupal (and anything else) with Fabric'
 type: Talk
 slides:
@@ -11,14 +11,9 @@ video:
 tags: [meetup, conference, php, fabric, drupal]
 meta:
     og:
-        title: Deploying PHP Applcations with Fabric
-        description: "You've built your PHP application, now learn how to deploy it with Fabric."
+        title: Deploying Drupal with Fabric
+        description: "You've built your Drupal site, now learn how to deploy it with Fabric."
         type: website
-        image:
-            url: /assets/images/talks/deploying-php-fabric.png
-            width: 1280
-            height: 800
-            type: image/png
 ---
 You’ve built your website, and now you just need to deploy it. There are various ways that this could be done - from (S)FTP, to SCP and rsync, to running commands like “git pull” and “composer install” directly on the server (not recommended).
 
