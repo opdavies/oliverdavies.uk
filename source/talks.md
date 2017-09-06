@@ -21,14 +21,12 @@ There is also information about events that I’ve attended and spoken at on my 
     {% if date.date >= 'today'|date('Y-m-d') %}
         {% set upcoming_events = upcoming_events|merge([{
             date: date,
-            event: site.events.events[date.event],
-            talks: data.talks,
+            event: site.events.events[date.event]
         }]) %}
     {% else %}
         {% set past_events = past_events|merge([{
             date: date,
-            event: site.events.events[date.event],
-            talks: data.talks,
+            event: site.events.events[date.event]
         }]) %}
     {% endif %}
 {% endfor %}

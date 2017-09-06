@@ -1,7 +1,6 @@
 ---
-id: drush-make-drupalbristol
+talk_id: 3
 title: drush make drupalbristol
-type: Talk
 slides:
     url: https://speakerdeck.com/opdavies/drush-make-drupalbristol
     embed: <script async class="speakerdeck-embed" data-id="42605700f102013198de5a5f6f23ab67" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>

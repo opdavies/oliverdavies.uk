@@ -1,7 +1,6 @@
 ---
-id: deploying-php-with-fabric
+talk_id: 18
 title: Deploying PHP Applications (and anything else) with Fabric
-type: Talk
 slides:
     url: https://speakerdeck.com/opdavies/deploying-php-applications-with-fabric
     embed: '<script async class="speakerdeck-embed" data-id="c147618ce07546ca92f92983c52d6a41" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>'
@@ -19,7 +18,6 @@ meta:
             width: 1280
             height: 800
             type: image/png
-slug: deploying-php-fabric
 redirect:
     - talks/deploying-php-applications-with-fabric/
 ---
