@@ -7,15 +7,17 @@
     },
     "require": {
         "php": "^5.5|^7.0",
-        "behat/mink-extension": "@stable",
-        "behat/mink-goutte-driver": "@stable",
         "dflydev/embedded-composer": "^1.0@dev",
         "mavimo/sculpin-redirect-bundle": "@dev",
-        "opdavies/sculpin-content-generator-bundle": "@stable",
         "opdavies/sculpin-gist-embed-bundle": "^0.1",
         "opdavies/sculpin-twig-markdown-bundle": "^0.1",
         "sculpin/sculpin": "^2.1@dev",
         "tsphethean/sculpin-related-posts-bundle": "~0.1.0"
+    },
+    "require-dev": {
+        "behat/mink-extension": "@stable",
+        "behat/mink-goutte-driver": "@stable",
+        "opdavies/sculpin-content-generator-bundle": "@stable"
     },
     "config": {
         "sort-packages": true
