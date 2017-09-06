@@ -2,7 +2,7 @@
     <h2>Events</h2>
 
     {% set events = [] %}
-    {% for date in site.events.dates %}
+    {% for date in site.events.dates if date.talk_id == page.talk_id %}
         {% set events = events|merge([{
             date: date,
             event: site.events.events[date.event],
@@ -11,6 +11,6 @@
 
     {% include 'talks-table' with {
         events: events,
-        talk_page: true,
+        talk_page: true
     } %}
 </div>

@@ -1,7 +1,7 @@
 <div class="w-100 overflow-x-auto overflow-y-hidden">
     <table class="w-100 ba b--moon-gray">
         <thead>
-            <tr class="striped--light-gray">
+            <tr class="striped--near-white">
                 <th class="w-20-l pa2 tl">Date</th>
 
                 {% if not talk_page %}
@@ -17,9 +17,9 @@
         </thead>
         <tbody>
             {% for row in events %}
-                <tr>
+                <tr class="striped--near-white">
                     <td class="pa2">
-                        {{ row.date.date }}
+                        {{ row.date.date|date(row.date.fuzzy_date ? 'F Y' : 'j F Y') }}
 
                         {% if row.date.time is defined %}
                             <small class="db black-50">
@@ -30,20 +30,30 @@
 
                     {% if not talk_page %}
                         <td class="pa2">
-                            {% if row.date.talk.title is not defined %}
-                                {% for talk in data.talks if talk.id ends with '/' ~ row.date.talk ~ '.md' %}
+                            {% if row.date.talk_title is not defined %}
+                                {% for talk in data.talks if talk.talk_id == row.date.talk_id %}
                                     <a href="{{ talk.url }}">
                                         {{ talk.title }}
                                     </a>
                                 {% endfor %}
                             {% else %}
-                                {{ row.date.talk.title }}
+                                {{ row.date.talk_title }}
                             {% endif %}
+
+                            <small class="db black-50">
+                                {{ row.date.type|default('Talk') }}
+                            </small>
                         </td>
                     {% endif %}
 
                     <td class="pa2">
-                        {{ row.event.name }}
+                        {% if row.event.website is defined %}
+                            <a href="{{ row.event.website }}">
+                                {{ row.event.name }}
+                            </a>
+                        {% else %}
+                            {{ row.event.name }}
+                        {% endif %}
 
                         {% if row.event.location is defined %}
                             <small class="db black-50">
@@ -52,9 +62,19 @@
                         {% endif %}
                     </td>
 
-                    <td class="pa2">
-                        feedback
-                    </td>
+                    {% if not upcoming %}
+                        <td class="ph2">
+                            {% if row.date.feedback %}
+                                <a
+                                    href="{{ row.date.feedback }}"
+                                    class="bg-blue br2 pa2 white-90 no-underline dib dim"
+                                    title="Read or leave feedback for this talk">
+                                    <i class="fa fa-comment-o mr1"></i>
+                                    joind.in
+                                </a>
+                            {% endif %}
+                        </td>
+                    {% endif %}
                 </tr>
             {% endfor %}
         </tbody>

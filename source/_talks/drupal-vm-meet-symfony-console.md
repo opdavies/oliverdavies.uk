@@ -1,4 +1,5 @@
 ---
+talk_id: 12
 title: Drupal VM, Meet Symfony Console
 tags: [conference, php, drupal-vm, symfony]
 slides:
