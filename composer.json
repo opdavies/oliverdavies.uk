@@ -15,7 +15,6 @@
         "tsphethean/sculpin-related-posts-bundle": "~0.1.0"
     },
     "require-dev": {
-        "behat/mink-extension": "@stable",
         "behat/mink-goutte-driver": "@stable",
         "opdavies/sculpin-content-generator-bundle": "@stable"
     },
