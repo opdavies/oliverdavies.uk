@@ -1,7 +1,6 @@
 ---
-id: goodbye-drush-make-hello-composer
+talk_id: 14
 title: Goodbye Drush Make. Hello Composer!
-type: Talk
 tags: ['meetup', 'drupal', 'composer']
 slides:
     url: http://bit.ly/slides-goodbye-drush-make-hello-composer2

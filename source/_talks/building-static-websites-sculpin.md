@@ -1,5 +1,5 @@
 ---
-id: sculpin
+talk_id: 8
 title: Building Static Websites with Sculpin
 type: Lightning talk
 slides:
@@ -13,6 +13,7 @@ video:
     url: https://www.youtube.com/watch?v=aN53arCKZAU
 redirect:
     - talks/2015/10/14/sculpin-phpsw/
+    - talks/building-static-websites-with-sculpin/
 ---
 [Sculpin][0] is a static site generator written in PHP. It converts Markdown files, Twig templates and standard HTML into a static HTML site that can be easily deployed.
 

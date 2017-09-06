@@ -1,7 +1,6 @@
 ---
-id: drupal-8-module-development
+talk_id: 9
 title: Getting Started with Drupal 8 Module Development
-type: Talk
 tags: [conference, php, drupal, drupalcamp, drupal-8]
 tweets: yes
 code: https://github.com/opdavies/dclondon16-d8-module
@@ -21,6 +20,7 @@ meta:
             width: 960
 redirect:
     - talks/2016/03/05/drupal-8-module-development-drupalcamp-london-2016/
+    - talks/getting-started-with-drupal-8-module-development/
 ---
 New to object-orientated PHP, Symfony or YAML, and want to get started building modules in Drupal 8? This is the session for you!
 
