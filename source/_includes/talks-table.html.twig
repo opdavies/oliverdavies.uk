@@ -47,7 +47,7 @@
                     {% endif %}
 
                     <td class="pa2">
-                        {% if row.event.website is defined %}
+                        {% if row.event.website is not empty %}
                             <a href="{{ row.event.website }}">
                                 {{ row.event.name }}
                             </a>
