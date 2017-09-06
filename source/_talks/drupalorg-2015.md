@@ -10,4 +10,5 @@ redirect:
     - talks/2015/02/28/drupalorg-2015-drupalcamp-london-2015/
     - talks/drupalorg-2015-2/
     - talks/drupalorg-2015/
+    - talks/drupalorg-in-2015-whats-coming-next/
 ---
