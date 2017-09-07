@@ -1,6 +1,6 @@
 ---
 talk_id: 19
-title: 'Deploying Drupal (and anything else) with Fabric'
+title: 'Deploying Drupal with Fabric'
 type: Talk
 slides:
     url: ~
