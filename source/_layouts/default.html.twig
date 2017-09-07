@@ -27,17 +27,17 @@
     <body class="helvetica black-80 {{ page.blocks.body_classes }}">
         {% include 'nav' %}
 
-        <div class="ph3 ph5-l">
-            <div class="f6">
+        <div class="w-100 pa3 ph4-ns">
+            <div class="f6 mw9 center">
                 <div class="flex-l">
-                    <main class="w-75-l pr4-ns lh-copy">
+                    <main class="flex-auto pr4-l lh-copy">
                         {% block content_top %}{% endblock %}
                         {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
                         {% block content_bottom %}{% endblock %}
                     </main>
 
                     {% block sidebar_wrapper %}
-                        <div class="w-25-l ph3-m pt4 pt0-l">
+                        <div class="flex-none w-30 w-25-m mw5 ph3-m pt4 pt0-l">
                             {% block sidebar %}
                                 {% include 'badges' %}
                                 {% include 'availability' %}
