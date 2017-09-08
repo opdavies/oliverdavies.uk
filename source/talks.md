@@ -19,7 +19,7 @@ There is also information about events that I’ve attended and spoken at on my 
 
 {% for date in site.events.dates %}
     {% if date.date >= 'today'|date('Y-m-d') %}
-        {% set upcoming_events = upcoming_events|reverse|merge([{
+        {% set upcoming_events = upcoming_events|merge([{
             date: date,
             event: site.events.events[date.event]
         }]) %}
