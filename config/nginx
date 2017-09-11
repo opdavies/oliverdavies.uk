@@ -26,5 +26,8 @@ server {
   root /var/www/oliverdavies.uk/output_prod;
 
   rewrite ^/about/?$ / permanent;
+  rewrite ^/consulting/?$ / permanent;
+  rewrite ^/portfolio/?$ /projects permanent;
+  rewrite ^/(services|work)/?$ /experience permanent;
   rewrite ^/speaking/?$ /talks permanent;
 }
