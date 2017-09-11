@@ -9,8 +9,6 @@ tags:
   - writing
   - linux-journal
 use: [posts]
-redirect:
-    - blog/writing-article-linux-journal/
 ---
 {% block excerpt %}
 I'm absolutely delighted to announce that I'm going to be writing an article for [Linux Journal](http://www.linuxjournal.com) magazine's upcoming Drupal special.

@@ -4,15 +4,15 @@ tags:
     - twitter
     - php
 ---
-{% block intro_image %}
-<img src="/assets/images/blog/drupal-meetups-twitterbot.png" alt="" class="is-centered">
-{% endblock %}
-
 {% block excerpt %}
+<img src="/assets/images/blog/drupal-meetups-twitterbot.png" alt="" class="is-centered">
+
 The [Drupal Meetups Twitterbot][0] is a small project that I worked on a few months ago, but hadn't got around to promoting yet. It’s intention is to provide [one Twitter account][1] where people can get the up to date news from various Drupal meetups.
 {% endblock %}
 
 {% block content %}
+<img src="/assets/images/blog/drupal-meetups-twitterbot.png" alt="" class="is-centered">
+
 The [Drupal Meetups Twitterbot][0] is a small project that I worked on a few months ago, but hadn't got around to promoting yet. It’s intention is to provide [one Twitter account][1] where people can get the up to date news from various Drupal meetups.
 
 It works by having a whitelist of [Twitter accounts and hashtags][2] to search for, uses [Codebird][3] to query the Twitter API and retweets any matching tweets on a scheduled basis.

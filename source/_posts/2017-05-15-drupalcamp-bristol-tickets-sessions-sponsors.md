@@ -15,11 +15,9 @@ meta:
         type: website
 slug: drupalcamp-bristol-early-bird-tickets-sessions-sponsors
 ---
-{% block intro_image %}
-<img src="/assets/images/blog/drupalcamp-bristol-17-logo.jpg" alt="DrupalCamp Bristol 2017 logo">
-{% endblock %}
-
 {% block excerpt %}
+<img src="/assets/images/blog/drupalcamp-bristol-17-logo.jpg" alt="DrupalCamp Bristol 2017 logo" class="is-centered">
+
 In less than two months time, [DrupalCamp Bristol][0] will be back for our third year! (July seems to come around quicker each year). This is this year’s schedule and venues:
 
 + 30th June - CXO (Business) day - [Watershed][1]
@@ -28,6 +26,8 @@ In less than two months time, [DrupalCamp Bristol][0] will be back for our third
 {% endblock %}
 
 {% block content %}
+<img src="/assets/images/blog/drupalcamp-bristol-17-logo.jpg" alt="DrupalCamp Bristol 2017 logo" class="is-centered">
+
 In less than two months time, [DrupalCamp Bristol][0] will be back for our third year! (July seems to come around quicker each year). This is this year’s schedule and venues:
 
 + 30th June - CXO (Business) day - [Watershed][1]

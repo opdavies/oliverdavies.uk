@@ -9,8 +9,6 @@ tags:
   - phpstorm
   - sculpin
 use: [posts]
-redirect:
-    - blog/updating-forked-repositories-on-github/
 ---
 {% block content %}
 ## Sculpin

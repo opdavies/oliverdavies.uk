@@ -9,8 +9,6 @@ tags:
   - sequal-pro
   - database
 use: [posts]
-redirect:
-    - blog/add-taxonomy-term-multiple-nodes-using-sql/
 ---
 **Update:** This can also be done using the [Views Bulk Operations](http://drupal.org/project/views_bulk_operations) module.
 

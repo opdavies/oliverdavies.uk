@@ -10,8 +10,6 @@ slug: fixing-drupal-simpletest-docker
 meta:
     og:
         description: How I managed to get my Drupal SimpleTest tests to run and pass within Docker containers.
-redirect:
-    - blog/2017/05/05/fixing-drupal-simpletest-issues-inside-docker-containers/
 ---
 {% block excerpt %}
 I’ve been a Drupal VM user for a long time, but lately I’ve been using a combination Drupal VM and Docker for my local development environment. There were a couple of issues preventing me from completely switching to Docker - one of which being that when I tried running of my Simpletest tests, a lot of them would fail where they would pass when run within Drupal VM.

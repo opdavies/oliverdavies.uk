@@ -8,8 +8,6 @@ tags:
   - fonts
   - sass
 use: [posts]
-redirect:
-    - blog/include-css-fonts-using-sass-each-loop/
 ---
 {% block excerpt %}
 How to use an @each loop in SASS to quickly include multiple font files within your stylesheet.

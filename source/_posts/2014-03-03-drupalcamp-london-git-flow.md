@@ -9,8 +9,6 @@ tags:
   - talks
 tweets: true
 use: [posts]
-redirect:
-    - blog/what-git-flow/
 ---
 {% block excerpt %}
 Here are my slides from my "What is Git Flow?" session at [DrupalCamp London](http://2014.drupalcamplondon.co.uk).

@@ -13,8 +13,6 @@ tags:
   - flickr
   - imagefield
 use: [posts]
-redirect:
-    - blog/create-flickr-photo-gallery-using-feeds-cck-and-views/
 ---
 In this tutorial, I'll show you how to create a photo gallery which uses photos imported from [Flickr](http://www.flickr.com).
 

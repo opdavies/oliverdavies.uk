@@ -10,8 +10,6 @@ tags:
   - cck
   - imagefield
 use: [posts]
-redirect:
-    - blog/quickly-import-multiples-images-using-imagefieldimport-module/
 ---
 **Thanks to Bob at [Mustardseed Media](http://mustardseedmedia.com) for [tweeting](http://twitter.com/mustardseedinc/status/14713096905) about this module. It's undoubtedly saved me hours of work today alone!**
 
