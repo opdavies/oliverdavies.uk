@@ -8,8 +8,6 @@ meta:
         description: 'The personal website and blog of Oliver Davies, a Drupal Developer and System Administrator from Wales, UK.'
         type: website
 use: [posts, testimonials]
-redirect:
-    - about/
 ---
 # About Me
 
