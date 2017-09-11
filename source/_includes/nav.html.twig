@@ -7,7 +7,7 @@
     </div>
 
     {% set links = [
-        { title: 'About', href: '/' },
+        { title: 'About', href: '/', pattern: '/\\.' },
         { title: 'Experience', href: '/experience' },
         { title: 'Testimonials', href: '/testimonials' },
         { title: 'Talks', href: '/talks' },
@@ -17,7 +17,7 @@
 
     <nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 mt0-ns">
         {% for link in links %}
-            {% set pattern = '#^' ~ link.href ~ '(.|/)?#' %}
+            {% set pattern = '#^' ~ (link.pattern ?: link.href) ~ '/?#' %}
             <a href="{{ link.href }}" class="f6 hover-blue link ml2 ml-m ml4-l dib {{ page.url matches pattern ? 'black' : 'black-70' }}">
                 {{- link.title -}}
             </a>
