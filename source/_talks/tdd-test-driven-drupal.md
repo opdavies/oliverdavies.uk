@@ -18,8 +18,6 @@ meta:
             width: 2560
             height: 1440
             type: image/png
-redirect:
-    - /talks/test-driven-drupal-development-with-simpletest-and-phpunit/
 use: [talks]
 ---
 Testing is important. Why? It allows developers to add new features and edit and refactor existing code without the worry of adding regressions, reduces the reliance on manual testing to discover bugs, and by taking a test driven approach, your implementation code is leaner as you only write what is needed for your tests to pass.

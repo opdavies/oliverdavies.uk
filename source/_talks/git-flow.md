@@ -8,9 +8,5 @@ video:
     url: https://www.youtube.com/watch?v=T-miCpHxfds
     embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/T-miCpHxfds" frameborder="0" allowfullscreen></iframe>
 tags: [conference, drupalcamp, drupalcamp-london, git, git-flow]
-slug: git-flow
 tweets: yes
-redirect:
-    - git-flow/
-    - talks/2014/03/01/git-flow-drupalcamp-london-2014/
 ---

@@ -6,8 +6,6 @@ slides:
     embed: <script async class="speakerdeck-embed" data-id="ffa9b6dea6dc4a8eb207b9982ed6e1bd" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 tags: [meetup, umbristol, drupal]
 tweets: yes
-redirect:
-    - talks/2015/08/25/dancing-for-drupal-umbristol/
 ---
 As part of their [CMS Dance-Off][1], I was selected to speak about Drupal alongside other speakers representing Umbraco, Sitecore and Episerver.
 
