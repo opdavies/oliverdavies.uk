@@ -1,6 +1,5 @@
 <?php
 
-use Mavimo\Sculpin\Bundle\RedirectBundle\SculpinRedirectBundle;
 use Opdavies\Sculpin\Bundle\ContentGeneratorBundle\SculpinContentGeneratorBundle;
 use Opdavies\Sculpin\Bundle\GistEmbedBundle\SculpinGistEmbedBundle;
 use Opdavies\Sculpin\Bundle\TwigMarkdownBundle\SculpinTwigMarkdownBundle;
@@ -19,7 +18,6 @@ class SculpinKernel extends AbstractKernel
         return [
             SculpinContentGeneratorBundle::class,
             SculpinGistEmbedBundle::class,
-            SculpinRedirectBundle::class,
             SculpinTwigMarkdownBundle::class,
         ];
     }
