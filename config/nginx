@@ -1,0 +1,29 @@
+server {
+  listen 80;
+
+  server_name oliverdavies.uk;
+  server_name www.oliverdavies.uk;
+
+  return 301 https://www.oliverdavies.uk$uri$is_args$args;
+}
+
+server {
+  listen 443 ssl;
+
+  server_name oliverdavies.uk;
+
+  return 301 https://www.oliverdavies.uk$uri$is_args$args;
+}
+
+server {
+  listen 443 ssl;
+
+  server_name www.oliverdavies.uk;
+
+  root /var/www/oliverdavies.uk/output_prod;
+
+  ssl_certificate /etc/letsencrypt/live/oliverdavies.uk/fullchain.pem;
+  ssl_certificate_key /etc/letsencrypt/live/oliverdavies.uk/privkey.pem;
+
+  rewrite ^/about/?$ / permanent;
+}
