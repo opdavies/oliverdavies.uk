@@ -1,3 +1,6 @@
+ssl_certificate /etc/letsencrypt/live/oliverdavies.uk/fullchain.pem;
+ssl_certificate_key /etc/letsencrypt/live/oliverdavies.uk/privkey.pem;
+
 server {
   listen 80;
 
@@ -21,9 +24,6 @@ server {
   server_name www.oliverdavies.uk;
 
   root /var/www/oliverdavies.uk/output_prod;
-
-  ssl_certificate /etc/letsencrypt/live/oliverdavies.uk/fullchain.pem;
-  ssl_certificate_key /etc/letsencrypt/live/oliverdavies.uk/privkey.pem;
 
   rewrite ^/about/?$ / permanent;
 }
