@@ -1,10 +1,4 @@
 {
-    "scripts": {
-        "clean": "rm -rf output_*/",
-        "dev": "sculpin generate --clean --no-interaction --server --watch",
-        "production": "sculpin generate --clean --no-interaction --env='prod' --quiet",
-        "test": "behat"
-    },
     "require": {
         "php": "^5.5|^7.0",
         "dflydev/embedded-composer": "^1.0@dev",
