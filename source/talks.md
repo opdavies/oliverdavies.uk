@@ -4,8 +4,6 @@ title: Talks
 meta:
     description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
 use: [talks, posts]
-redirect:
-    - speaking/
 ---
 {% block content %}
 # Talks
