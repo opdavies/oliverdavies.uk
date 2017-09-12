@@ -74,9 +74,10 @@ testimonials:
             {% if testimonial.image %}
                 <img
                     src="{{ site.url }}/assets/images/testimonials/{{ testimonial.image }}"
-                    class="fr mw3 br-100 ml4 mb4"
                     alt="{{ testimonial.name }}"
-                >
+                    class="fr mw3 br-100 ml4 mb4"
+                    height="65"
+                    width="65">
             {% endif %}
 
             {% if testimonial.role %}
