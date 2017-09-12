@@ -7,8 +7,6 @@ tags:
   - drupal
   - code
 use: [posts]
-redirect:
-    - blog/writing-info-file-drupal-7-theme/
 ---
 {% block excerpt %}
 An example .info file for a Drupal 7 theme.

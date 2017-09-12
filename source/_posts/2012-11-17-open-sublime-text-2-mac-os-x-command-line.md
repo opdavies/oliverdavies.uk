@@ -6,8 +6,6 @@ tags:
   - mac-os-x
   - terminal
 use: [posts]
-redirect:
-    - blog/open-sublime-text-2-mac-os-x-command-line/
 ---
 {% block excerpt %}
 How to open Sublime Text from the command line.

@@ -12,8 +12,6 @@ tags:
   - views-attach
   - drupal
 use: [posts]
-redirect:
-    - blog/create-better-photo-gallery-drupal-part-1/
 ---
 Recently, I converted a client's static HTML website, along with their Coppermine Photo Gallery, into a Drupal-powered website.
 

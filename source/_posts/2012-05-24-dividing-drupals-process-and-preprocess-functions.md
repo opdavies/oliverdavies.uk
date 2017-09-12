@@ -8,8 +8,6 @@ tags:
   - theming
   - preprocessing
 use: [posts]
-redirect:
-    - blog/dividing-drupals-process-and-preprocess-functions-separate-files/
 ---
 {% block excerpt %}
 If you use a lot of process and preprocess functions within your Drupal theme, then your template.php can get very long and it can become difficult to find a certain piece of code.

@@ -6,8 +6,6 @@ tags:
   - centos
   - linux
 use: [posts]
-redirect:
-    - blog/installing-nagios-centos/
 ---
 A great post details that details the steps needed to install [Nagios](http://nagios.org) - a popular open source system and network monitoring software application - on CentOS.
 
