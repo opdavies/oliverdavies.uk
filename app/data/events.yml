@@ -201,10 +201,10 @@ events:
 
         - event: drupalcamp-dublin-17
           date: '2017-10-20'
-          fuzzy_date: yes
+          time: '15:00 - 15:40'
           talk_id: 19
 
         - event: drupalcamp-dublin-17
-          date: '2017-10-20'
-          fuzzy_date: yes
+          date: '2017-10-21'
+          time: '12:00 - 12:40'
           talk_id: 17
