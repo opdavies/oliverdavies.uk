@@ -1,4 +1,8 @@
 {
+    "scripts": {
+        "dev": "sculpin generate --server --watch --clean --no-interaction",
+        "prod": "sculpin generate --env prod --clean --no-interaction"
+    },
     "require": {
         "php": "^5.5|^7.0",
         "dflydev/embedded-composer": "^1.0@dev",
