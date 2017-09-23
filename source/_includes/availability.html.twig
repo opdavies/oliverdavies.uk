@@ -2,8 +2,10 @@
     <h2>Availability</h2>
 
     <ul class="list pa0">
-        {% for key, availability in site.availability %}
-            {% include 'availability/' ~ availability with { value: key } %}
+        {% for type, value in site.availability %}
+            <li>
+                {% include 'availability/' ~ value %}
+            </li>
         {% endfor %}
     </ul>
 </div>
