@@ -16,6 +16,7 @@
             </tr>
         </thead>
         <tbody>
+            {% set today = 'today'|date('Y-m-d') %}
             {% for row in events %}
                 <tr class="striped--near-white">
                     <td class="pa2">
@@ -64,7 +65,7 @@
 
                     {% if not upcoming %}
                         <td class="ph2">
-                            {% if row.date.feedback %}
+                            {% if row.date.feedback and row.date.date <= today %}
                                 <a
                                     href="{{ row.date.feedback }}"
                                     class="bg-blue br2 pa2 white-90 no-underline dib dim"
