@@ -23,13 +23,13 @@ He regularly blogs and gives talks about web development and systems administrat
 
 Here are some of the events that I’ve spoken at:
 
-- DrupalCamp London (2014, 2015, 2016, 2017)
 - DrupalCamp Brighton 2015
-- DrupalCamp North 2015
-- PHP South Coast 2016
 - DrupalCamp Bristol 2016
+- DrupalCamp London (2014, 2015, 2016, 2017)
+- DrupalCamp North 2015
 - Nomad PHP
-<!-- - PHP North West 2017 -->
+- PHP North West 2017 (10 year anniversary)
+- PHP South Coast 2016
 
 ## Videos
 
