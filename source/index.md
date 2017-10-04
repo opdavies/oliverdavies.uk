@@ -28,6 +28,11 @@ I’m a webmaster and documentation maintainer for [Drupal.org][42], and a provi
 - Linux server administration, and configuration management with Ansible or Puppet.
 - Local development environment setup with Vagrant or Docker.
 
+## Certifications
+
+- Acquia certified Developer - Drupal 8 (June 2017)
+- Acquia certified Back End Specialist - Drupal 8 (July 2017)
+
 ## Elsewhere
 
 - [Twitter][21] - @{{ site.twitter.name }}
