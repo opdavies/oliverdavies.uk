@@ -17,7 +17,7 @@ app.sass = function (sourceFiles, outputFile) {
         .pipe(plugins.plumber())
         .pipe(plugins.if(!config.production, plugins.sourcemaps.init()))
         .pipe(plugins.sassGlob())
-        .pipe(plugins.sass())
+        .pipe(plugins.less())
         .pipe(plugins.autoprefixer(config.sass.autoprefixer))
         .pipe(plugins.concat(outputFile))
         .pipe(plugins.if(config.production, plugins.purifycss(config.sass.purifyCss)))
@@ -51,15 +51,15 @@ gulp.task('fonts', function () {
 gulp.task('styles', function () {
     app.sass([
         'node_modules/font-awesome/css/font-awesome.css',
-        config.sass.sourceDir + '/main.sass'
+        config.sass.sourceDir + '/main.less'
     ], 'main.css');
 
-    app.sass([
-        'node_modules/prismjs/themes/prism-twilight.css',
-        config.sass.sourceDir + '/post.sass'
-    ], 'post.css')
+    // app.sass([
+    //     'node_modules/prismjs/themes/prism-twilight.css',
+    //     config.sass.sourceDir + '/post.sass'
+    // ], 'post.css')
 
-    app.sass(config.sass.sourceDir + '/talk.sass', 'talk.css');
+    // app.sass(config.sass.sourceDir + '/talk.sass', 'talk.css');
 });
 
 gulp.task('scripts', function () {

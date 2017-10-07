@@ -5,8 +5,8 @@ module.exports = function (plugins) {
                 browsers: ["last 2 versions", "> 5%"],
                 cascade: false
             },
-            sourceDir: "assets/sass",
-            pattern: "/**/*.sass",
+            sourceDir: "assets/less",
+            pattern: "/**/*.less",
             purifyCss: [
                 'source/**/*.html',
                 'source/**/*.md',
