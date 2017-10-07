@@ -17,9 +17,12 @@
 
     <nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 mt0-ns">
         {% for link in links %}
-            {% set pattern = '#^' ~ (link.pattern ?: link.href) ~ '/?#' %}
-            <a href="{{ link.href }}" class="nav-item {{ page.url matches pattern ? 'nav-item--active' }}">
-            {# <a href="{{ link.href }}" class="f6 hover-blue link dib pa3 {{ page.url matches pattern ? 'black bb b--blue bw1' : 'black-50' }}"> #}
+            {% set classes = [
+                'nav-item',
+                not loop.first ? 'ml3',
+                page.url matches '#^' ~ (link.pattern ?: link.href) ~ '/?#' ? 'nav-item--active',
+            ] %}
+            <a href="{{ link.href }}" class="{{ classes|join(' ') }}">
                 {{- link.title -}}
             </a>
         {% endfor %}
