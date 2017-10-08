@@ -6,17 +6,8 @@
       </a>
     </div>
 
-    {% set links = [
-        { title: 'About', href: '/', pattern: '/\\.' },
-        { title: 'Experience', href: '/experience' },
-        { title: 'Testimonials', href: '/testimonials' },
-        { title: 'Talks', href: '/talks' },
-        { title: 'Blog', href: '/blog' },
-        { title: 'Contact', href: '/contact' }
-    ] %}
-
     <nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 mt0-ns">
-        {% for link in links %}
+        {% for link in site.nav_links %}
             <a href="{{ link.href }}" class="nav-item {{ page.url matches '#^' ~ (link.pattern ?: link.href) ~ '/?#' ? 'nav-item--active' }}">
                 {{- link.title -}}
             </a>
