@@ -12,19 +12,19 @@ app.copy = function (sourceFiles, destination) {
         .pipe(gulp.dest(destination));
 };
 
-app.sass = function (sourceFiles, outputFile) {
+app.css = function (sourceFiles, outputFile) {
     return gulp.src(sourceFiles)
         .pipe(plugins.plumber())
         .pipe(plugins.if(!config.production, plugins.sourcemaps.init()))
         .pipe(plugins.sassGlob())
-        .pipe(plugins.sass())
-        .pipe(plugins.autoprefixer(config.sass.autoprefixer))
+        .pipe(plugins.less())
+        .pipe(plugins.autoprefixer(config.less.autoprefixer))
         .pipe(plugins.concat(outputFile))
-        .pipe(plugins.if(config.production, plugins.purifycss(config.sass.purifyCss)))
+        .pipe(plugins.if(config.production, plugins.purifycss(config.less.purifyCss)))
         .pipe(plugins.if(config.production, plugins.cleanCss()))
         .pipe(plugins.if(!config.production, plugins.sourcemaps.write('.')))
         .pipe(plugins.if(!config.production, plugins.refresh()))
-        .pipe(gulp.dest(config.sass.outputDir));
+        .pipe(gulp.dest(config.less.outputDir));
 };
 
 app.js = function (sourceFiles, outputFile) {
@@ -49,35 +49,25 @@ gulp.task('fonts', function () {
 });
 
 gulp.task('styles', function () {
-    app.sass([
+    app.css([
         'node_modules/font-awesome/css/font-awesome.css',
-        config.sass.sourceDir + '/main.sass'
-    ], 'main.css');
-
-    app.sass([
         'node_modules/prismjs/themes/prism-twilight.css',
-        config.sass.sourceDir + '/post.sass'
-    ], 'post.css')
-
-    app.sass(config.sass.sourceDir + '/talk.sass', 'talk.css');
+        config.less.sourceDir + '/main.less'
+    ], 'site.css');
 });
 
 gulp.task('scripts', function () {
     app.js([
         'node_modules/jquery/dist/jquery.js',
-        config.js.sourceDir + '/**/*.js'
-    ], 'main.js')
-
-    app.js([
-        'node_modules/jquery/dist/jquery.js',
         'node_modules/prismjs/prism.js',
         'node_modules/prismjs/components/prism-{apacheconf,bsash,css,diff,ini,json,nginx,php,sass,scss,sql,less,twig,xml,yaml}.js',
-    ], 'post.js')
+        config.js.sourceDir + '/**/*.js'
+    ], 'site.js')
 });
 
 gulp.task('watch', ['default'], function () {
     plugins.refresh.listen();
 
-    gulp.watch(config.sass.sourceDir + config.sass.pattern, ['styles']);
+    gulp.watch(config.less.sourceDir + config.less.pattern, ['styles']);
     gulp.watch(config.js.sourceDir + config.js.pattern, ['scripts']);
 });

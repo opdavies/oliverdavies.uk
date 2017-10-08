@@ -7,6 +7,7 @@
     "gulp-clean-css": "^3.7.0",
     "gulp-concat": "^2.6.1",
     "gulp-if": "^2.0.2",
+    "gulp-less": "^3.3.2",
     "gulp-load-plugins": "^1.5.0",
     "gulp-plumber": "^1.1.0",
     "gulp-purifycss": "^0.2.0",
@@ -18,6 +19,7 @@
     "gulp-util": "^3.0.8",
     "jquery.2": "^1.0.0",
     "prismjs": "^1.6.0",
+    "tachyons-less": "^1.0.4",
     "tachyons-sass": "^4.7.4"
   }
 }
