@@ -1,6 +1,6 @@
 module.exports = function (plugins) {
     return {
-        sass: {
+        less: {
             autoprefixer: {
                 browsers: ["last 2 versions", "> 5%"],
                 cascade: false

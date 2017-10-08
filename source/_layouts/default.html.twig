@@ -13,7 +13,7 @@
 
         {% include 'og' with { og: page.meta.og } %}
 
-        <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/site.css">
         {% block stylesheets '' %}
 
         {% for size in site.apple_touch_icon_sizes %}
@@ -48,7 +48,7 @@
                 </div>
             </div>
 
-            <footer class="mw9 center mt4 bt b--moon-gray">
+            <footer class="mw9 center mt4 bt b--black-20">
                 <p class="f6">
                     &copy; 2010-{{ 'now'|date('Y') }} {{ site.title }}. Built with <a href="https://sculpin.io">Sculpin</a>.
                 </p>
@@ -57,7 +57,7 @@
             </footer>
         </div>
 
-        <script src="{{ site.url }}/assets/js/main.js"></script>
+        <script src="{{ site.url }}/assets/js/site.js"></script>
 
         {% if site.google_analytics_tracking_id %}
             <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', '{{ site.google_analytics_tracking_id }}', 'auto'); ga('send', 'pageview');</script>
