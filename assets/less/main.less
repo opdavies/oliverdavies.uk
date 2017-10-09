@@ -12,6 +12,24 @@ td {
     }
 }
 
+.button {
+    .bg-blue;
+    .bn;
+    .br2;
+    .dib;
+    .dim;
+    .link;
+    .no-underline;
+    .ph3;
+    .pv2;
+    .white-90;
+
+    &:hover {
+        background: darken(@blue, 10%);
+        cursor: pointer;
+    }
+}
+
 @import "components/nav";
 @import "components/post";
 @import "components/talk";
