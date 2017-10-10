@@ -21,12 +21,9 @@ I’m a webmaster and documentation maintainer for [Drupal.org][42], and a provi
 
 ## Skills
 
-- Website and application development with Drupal, Symfony, Silex, Laravel and Sculpin.
-- Front-end development with Gulp or Grunt, Sass, Less and JavaScript.
-- Version control with Git or SVN.
-- Continuous deployment and integration with Jenkins and Fabric.
-- Linux server administration, and configuration management with Ansible or Puppet.
-- Local development environment setup with Vagrant or Docker.
+- PHP, Drupal (6, 7, 8), Symfony, Silex, Laravel, Sculpin, Jekyll.
+- HTML, CSS, Sass, Less, Tachyons, Twig, JavaScript, jQuery, Gulp, Grunt.
+- Linux (Debian, Ubuntu, CentOS, Red Hat), Git, SVN, Jenkins, Fabric, Ansible, Puppet, Vagrant, Docker.
 
 ## Certifications
 
