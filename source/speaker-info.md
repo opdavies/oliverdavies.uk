@@ -15,9 +15,10 @@ use: [posts]
 
 He regularly blogs and gives talks about web development and systems administration, maintains and contributes to various open source projects, and co-organises DrupalCamp Bristol as well as the Drupal Bristol and PHPSW user groups.
 
-## Photo
+## Photos
 
-<https://www.dropbox.com/s/say1muiqedik0l4/0188395_thumb.jpg>
+- <https://www.dropbox.com/s/7ytm2buoezwtbdp/phpnw17-1%20copy%202.jpg>
+- <https://www.dropbox.com/s/say1muiqedik0l4/0188395_thumb.jpg>
 
 ## Events
 
