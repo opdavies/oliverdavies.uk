@@ -3,8 +3,8 @@ talk_id: 19
 title: 'Deploying Drupal with Fabric'
 type: Talk
 slides:
-    url: ~
-    embed: ~
+    url: 'https://speakerdeck.com/opdavies/deploying-drupal-and-anything-else-with-fabric'
+    embed: '<script async class="speakerdeck-embed" data-id="40d1eca4bd484afc86295924fff5dd41" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>'
 video:
     embed: ~
     url: ~
