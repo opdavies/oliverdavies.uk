@@ -5,6 +5,10 @@ events:
             location: Bristol, UK
             website: https://www.drupalbristol.org.uk
 
+        drupal-somerset:
+            name: Drupal Somerset
+            location: 'Glastonbury, UK'
+
         drupalcamp-brighton-15:
             name: DrupalCamp Brighton 2015
             location: Brighton, UK
@@ -208,3 +212,7 @@ events:
           date: '2017-10-21'
           time: '12:00 - 12:40'
           talk_id: 17
+
+        - event: drupal-somerset
+          date: '2017-10-26'
+          talk_id: 19
