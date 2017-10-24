@@ -5,5 +5,5 @@
         e.preventDefault();
 
         $(this).siblings('.nav-right').toggleClass('is-active');
-    })
+    });
 })(jQuery);
