@@ -2,8 +2,8 @@
 talk_id: 17
 title: TDD - Test Driven Drupal
 slides:
-    url: https://speakerdeck.com/opdavies/test-driven-drupal-development-with-simpletest-and-phpunit-drupalcamp-london-17
-    embed: '<script async class="speakerdeck-embed" data-id="4f12722ed400468b93ebb32a23b3c757" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>'
+    url: 'https://speakerdeck.com/opdavies/tdd-test-driven-drupal'
+    embed: '<script async class="speakerdeck-embed" data-id="088cb18033064f5cb18d1079795294a1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>'
 video:
     url: https://www.youtube.com/watch?v=fdbxXOi2HP4
     embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/fdbxXOi2HP4" frameborder="0" allowfullscreen></iframe>
