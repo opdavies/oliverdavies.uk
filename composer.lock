@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5d6c88302d555d6776bc87e0f086802a",
+    "content-hash": "a0f8f8519a18431f6596a4a342fd66fe",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -608,7 +608,7 @@
                 "embedded",
                 "extensibility"
             ],
-            "time": "2016-05-21 00:49:42"
+            "time": "2016-05-21T00:49:42+00:00"
         },
         {
             "name": "dflydev/placeholder-resolver",
@@ -1553,7 +1553,7 @@
                 "site",
                 "static"
             ],
-            "time": "2017-07-10 16:36:06"
+            "time": "2017-07-10T16:36:06+00:00"
         },
         {
             "name": "sculpin/sculpin-theme-composer-plugin",
