@@ -2,11 +2,112 @@
 layout: default
 title: Experience
 use: [posts]
+experiences:
+    - company: horse_country
+      location: Cwmbran, Wales
+      role: Web Developer
+      start: 2010
+      end: 2011
+      description: |
+          Maintaining and adding new features to the Horse & Country TV website (Drupal 6).
+
+    - company: proctors
+      location: Bristol, England
+      role: 'PHP Developer'
+      start: 2011
+      end: 2012
+      description: |
+          Website development, mainly with Drupal and PHP, including the agency’s first Drupal 7 project.
+
+    - company: nomensa
+      location: Bristol, England
+      role: 'Contract Drupal Developer / Application Developer & System Administrator'
+      start: 2012
+      end: 2013
+      description: |
+          Drupal 7 website development and Linux server administration.
+
+          I originally started as a contractor, and later took a staff role.
+
+    - company: precedent
+      location: Cardiff, Wales
+      role: Senior Drupal Developer
+      start: 2013
+      end: 2014
+      description: |
+          Drupal 7 website development, including site building, theming, module development, data migration and server configuration.
+
+    - company: drupal_association
+      role: Drupal.org Developer
+      location: Remote
+      start: 2014
+      end: July 2015
+      description: |
+          Maintaining and improving Drupal.org - the home of the Drupal community.
+
+          Speaking at user groups and DrupalCamps to promote the Drupal Association.
+
+    - company: microserve
+      location: Bristol, England
+      role: Senior Drupal Developer
+      start: July 2015
+      end: November 2015
+      description: |
+          Full-stack Drupal development, focussing on data migration.
+
+          Lead Developer of the [road.cc](http://road.cc) rebuild project onto Drupal 7, including working with non-Drupal PHP applications and utilising of Symfony components, and interacting with Drupal via REST.
+
+          Community and contribution advocate.
+
+    - company: cti
+      role: Lead Drupal Developer
+      location: Remote
+      start: November 2015
+      end: May 2016
+      description: |
+          Working on various Drupal 7 projects for clients including Greater London Authority (http://www.london.gov.uk), British Land and British Council, as well as various retainer contracts.
+
+          Working on internal Drupal 8 learning initiatives, focussing on custom module development and data migration.
+
+          Initial development of a CLI application for generating new and auditing existing codebases to ensure consistency across projects. This uses various Symfony components - mainly the Console and Filesystem components.
+
+    - company: appnovation
+      location: Cardiff, Wales
+      role: Senior Drupal Developer
+      start: May 2016
+      end: March 2017
+      description: |
+          Drupal 7 and 8 site building, custom module development and theming.
+
+          Part of various pre-sales teams, including the company’s first UK Drupal 8 project and first FTSE 100 client.
+
+    - company: freelance
+      location: Remote
+      role: 'Web Developer & System Administrator'
+      start: 2007
+      end: ~
+      featured: true
+      description: |
+          Working on Drupal and Symfony development, maintenance and support projects in my spare time.
+
+          Administration of Debian, Ubuntu and CentOS servers, and configuration using Puppet, or more recently, Ansible.
+
+    - company: microserve
+      location: Bristol, England
+      role: Senior Drupal Developer
+      start: March 2017
+      end: ~
+      description: |
+          Drupal 8 site building, custom module development, theming, data migrations.
+
+          Drupal 7 site building, custom module development, theming.
+
+          First Acquia certified Drupal 8 Developer and back-end specialist.
 ---
 {% block content %}
     <h1>Experience</h1>
 
-    {% for experience in site.experiences|reverse %}
+    {% for experience in page.experiences|reverse %}
         {% set company = site.companies[experience.company] %}
 
         <div class="cf mb4">
