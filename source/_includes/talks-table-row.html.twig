@@ -11,9 +11,13 @@
 
     {% if not talk_page %}
         <td class="pa2">
-            <a href="{{ row.talk.url }}">
-                {{ row.talk.title }}
-            </a>
+            {% if row.talk.url is not empty %}
+                <a href="{{ row.talk.url }}">
+                    {{ row.talk.title }}
+                </a>
+            {% else %}
+                {{  row.talk.title }}
+            {% endif %}
 
             <small class="db black-70">
                 {{ row.event.type|default('Talk') }}
