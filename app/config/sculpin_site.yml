@@ -79,4 +79,3 @@ imports:
     - ../data/companies.yml
     - ../data/events.yml
     - ../data/meetups.yml
-    - ../data/testimonials.yml
