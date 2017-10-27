@@ -1,0 +1,20 @@
+---
+layout: page
+title: Talk Archive
+use: [talks]
+---
+<p>Here are a list of my previous conference and user group talks:</p>
+
+{% set talks = [] %}
+{% for talk in data.talks %}
+    {% for event in talk.events %}
+        {% set talks = talks|merge([{
+            event: event|merge(site.events[event.event]),
+            talk: talk,
+        }]) %}
+    {% endfor %}
+{% endfor %}
+
+{% include 'talks-table' %}
+
+<p>Upcoming talks can be found on the <a href="{{ site.url }}/talks">talks page]</a>.</p>

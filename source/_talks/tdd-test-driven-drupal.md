@@ -1,5 +1,4 @@
 ---
-talk_id: 17
 title: TDD - Test Driven Drupal
 slides:
     url: 'https://speakerdeck.com/opdavies/tdd-test-driven-drupal'
@@ -19,6 +18,13 @@ meta:
             height: 1440
             type: image/png
 use: [talks]
+events:
+    - event: drupalcamp-london-17
+      date: '2017-03-04'
+      time: '16:15 - 17:00'
+    - event: drupalcamp-dublin-17
+      date: '2017-10-21'
+      time: '12:00 - 12:40'
 ---
 Testing is important. Why? It allows developers to add new features and edit and refactor existing code without the worry of adding regressions, reduces the reliance on manual testing to discover bugs, and by taking a test driven approach, your implementation code is leaner as you only write what is needed for your tests to pass.
 

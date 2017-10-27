@@ -1,5 +1,4 @@
 ---
-talk_id: 13
 title: Modern Drupal Development with Composer
 type: Lightning talk
 tags: ['meetups', 'phpsw', 'drupal', 'composer']
@@ -9,6 +8,9 @@ slides:
 video:
     url: https://www.youtube.com/watch?v=Yi_FPI3xHwc
     embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Yi_FPI3xHwc" frameborder="0" allowfullscreen></iframe>'
+events:
+    - event: phpsw
+      date: '2016-11-09'
 ---
 Building a Drupal application? You no longer need to download archives to add new modules or update core, or deal with Drupal specific tools to manage your codebase.
 
