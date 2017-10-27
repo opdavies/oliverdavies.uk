@@ -24,6 +24,6 @@ talks:
     {% endfor %}
 {% endfor %}
 
-{% include 'talks-table' %}
+{% include 'talks-table' with { talks: talks|format_talks } %}
 
 <p>Upcoming talks can be found on the <a href="{{ site.url }}/talks">talks page]</a>.</p>

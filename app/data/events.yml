@@ -87,11 +87,3 @@ events:
         name: 'unified.diff'
         location: Cardiff, UK
         website: http://unifieddiff.co.uk
-
-    #     - event: swdug
-    #       date: '2013-07-10'
-    #       talk_title: Drupal and the LDAP Module
-
-    #     - event: swdug
-    #       date: '2014-08-19'
-    #       talk_title: About the Drupal Association
