@@ -1,15 +1,11 @@
 <?php
 
-use App\FormatTalks\FormatTalksBundle;
-use App\FormatTalks\SculpinFormatTalksBundle;
+use FormatTalksBundle\SculpinFormatTalksBundle;
 use Opdavies\Sculpin\Bundle\ContentGeneratorBundle\SculpinContentGeneratorBundle;
 use Opdavies\Sculpin\Bundle\GistEmbedBundle\SculpinGistEmbedBundle;
 use Opdavies\Sculpin\Bundle\TwigMarkdownBundle\SculpinTwigMarkdownBundle;
 use Sculpin\Bundle\SculpinBundle\HttpKernel\AbstractKernel;
 
-/**
- * Class SculpinKernel
- */
 class SculpinKernel extends AbstractKernel
 {
     /**

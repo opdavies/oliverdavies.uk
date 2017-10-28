@@ -1,11 +1,8 @@
 <?php
 
-namespace App\FormatTalks\Twig;
+namespace FormatTalksBundle\Twig;
 
-use Twig_Extension;
-use Twig_SimpleFilter;
-
-class FormatTalksExtension extends Twig_Extension
+class FormatTalksExtension extends \Twig_Extension
 {
     /**
      * {@inheritdoc}
@@ -13,7 +10,7 @@ class FormatTalksExtension extends Twig_Extension
     public function getFilters()
     {
         return [
-            new Twig_SimpleFilter('format_talks', [$this, 'formatTalks']),
+            new \Twig_SimpleFilter('format_talks', [$this, 'formatTalks']),
         ];
     }
 

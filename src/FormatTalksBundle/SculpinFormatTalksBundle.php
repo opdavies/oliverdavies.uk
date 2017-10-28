@@ -1,6 +1,6 @@
 <?php
 
-namespace App\FormatTalks;
+namespace FormatTalksBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
