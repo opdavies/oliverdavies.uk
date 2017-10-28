@@ -10,11 +10,13 @@ use: [talks]
 
     {% set data = { talks: data.talks, events: site.events } %}
 
+    <h2>Upcoming Talks</h2>
+
     {% set upcoming_talks = data|format_talks(true) %}
     {% if upcoming_talks %}
-        <h2>Upcoming Talks</h2>
-
         {% include "talks-table" with { talks: upcoming_talks } %}
+    {% else %}
+        <p>Nothing scheduled at the moment.</p>
     {% endif %}
 
     <h2>Last 5 Talks</h2>
