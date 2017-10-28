@@ -1,218 +1,89 @@
 events:
-    events:
-        drupal-bristol:
-            name: Drupal Bristol
-            location: Bristol, UK
-            website: https://www.drupalbristol.org.uk
+    drupal-bristol:
+        name: 'Drupal Bristol'
+        location: 'Bristol, UK'
+        website: 'https://www.drupalbristol.org.uk'
 
-        drupal-somerset:
-            name: Drupal Somerset
-            location: 'Glastonbury, UK'
+    drupal-somerset:
+        name: 'Drupal Somerset'
+        location: 'Glastonbury, UK'
 
-        drupalcamp-brighton-15:
-            name: DrupalCamp Brighton 2015
-            location: Brighton, UK
-            website: ~
+    drupalcamp-brighton-15:
+        name: 'DrupalCamp Brighton 2015'
+        location: 'Brighton, UK'
+        website: ~
 
-        drupalcamp-bristol-16:
-            name: DrupalCamp Bristol 2016
-            location: Bristol, UK
-            website: https://2016.drupalcampbristol.org.uk
+    drupalcamp-bristol-16:
+        name: 'DrupalCamp Bristol 2016'
+        location: 'Bristol, UK'
+        website: 'https://2016.drupalcampbristol.org.uk'
 
-        drupalcamp-dublin-17:
-            name: DrupalCamp Dublin 2017
-            location: Dublin, Ireland
-            website: http://2017.drupal.ie
+    drupalcamp-dublin-17:
+        name: DrupalCamp Dublin 2017
+        location: Dublin, Ireland
+        website: http://2017.drupal.ie
 
-        drupalcamp-london-14:
-            name: DrupalCamp London 2014
-            location: London, UK
-            website: ~
+    drupalcamp-london-14:
+        name: DrupalCamp London 2014
+        location: London, UK
+        website: ~
 
-        drupalcamp-london-15:
-            name: DrupalCamp London 2015
-            location: London, UK
-            website: ~
+    drupalcamp-london-15:
+        name: DrupalCamp London 2015
+        location: London, UK
+        website: ~
 
-        drupalcamp-london-16:
-            name: DrupalCamp London 2016
-            location: London, UK
-            website: ~
+    drupalcamp-london-16:
+        name: DrupalCamp London 2016
+        location: London, UK
+        website: ~
 
-        drupalcamp-london-17:
-            name: DrupalCamp London 2017
-            location: London, UK
-            website: http://drupalcamp.london
+    drupalcamp-london-17:
+        name: DrupalCamp London 2017
+        location: London, UK
+        website: http://drupalcamp.london
 
-        drupalcamp-north-15:
-            name: DrupalCamp North 2015
-            location: Sunderland, UK
-            website: http://drupalcampnorth.org
+    drupalcamp-north-15:
+        name: DrupalCamp North 2015
+        location: Sunderland, UK
+        website: http://drupalcampnorth.org
 
-        nomad-php:
-            name: Nomad PHP
-            location: Online
-            website: https://nomadphp.com
+    nomad-php:
+        name: Nomad PHP
+        location: Online
+        website: https://nomadphp.com
 
-        nwdug:
-            name: NWDUG
-            location: Manchester, UK
-            website: http://nwdrupal.org.uk
+    nwdug:
+        name: NWDUG
+        location: Manchester, UK
+        website: http://nwdrupal.org.uk
 
-        phpnw17:
-            name: PHP North West 2017
-            location: Manchester, UK
-            website: http://conference.phpnw.org.uk/phpnw17
+    phpnw17:
+        name: PHP North West 2017
+        location: Manchester, UK
+        website: http://conference.phpnw.org.uk/phpnw17
 
-        phpsc16:
-            name: PHP South Coast 2016
-            location: Portsmouth, UK
-            website: http://2016.phpsouthcoast.co.uk
+    phpsc16:
+        name: PHP South Coast 2016
+        location: Portsmouth, UK
+        website: http://2016.phpsouthcoast.co.uk
 
-        phpsw:
-            name: PHPSW
-            location: Bristol, UK
-            website: https://phpsw.uk
+    phpsw:
+        name: PHPSW
+        location: Bristol, UK
+        website: https://phpsw.uk
 
-        swdug:
-            name: SWDUG
-            location: Cardiff, UK
-            website: ~
+    swdug:
+        name: SWDUG
+        location: Cardiff, UK
+        website: ~
 
-        umbristol:
-            name: umBristol
-            location: Bristol, UK
-            website: http://umbristol.co.uk
+    umbristol:
+        name: umBristol
+        location: Bristol, UK
+        website: http://umbristol.co.uk
 
-        unifieddiff:
-            name: 'unified.diff'
-            location: Cardiff, UK
-            website: http://unifieddiff.co.uk
-
-    dates:
-        - event: unifieddiff
-          date: '2012-09-05'
-          talk_id: 1
-
-        - event: swdug
-          date: '2013-07-10'
-          talk_title: Drupal and the LDAP Module
-
-        - event: drupalcamp-london-14
-          date: '2014-03-01'
-          talk: git-flow
-          talk_id: 2
-
-        - event: drupal-bristol
-          date: '2014-08-19'
-          talk: drush-make-drupalbristol
-          talk_id: 3
-
-        - event: swdug
-          date: '2014-08-19'
-          talk_title: About the Drupal Association
-
-        - event: drupalcamp-brighton-15
-          date: '2015-01-18'
-          talk_id: 4
-
-        - event: drupalcamp-london-15
-          date: '2015-02-28'
-          talk_id: 4
-
-        - event: phpsw
-          date: '2015-04-08'
-          talk_id: 5
-
-        - event: drupalcamp-north-15
-          date: '2015-07-25'
-          talk_id: 6
-
-        - event: umbristol
-          date: '2015-08-25'
-          talk_id: 7
-
-        - event: phpsw
-          date: '2015-10-14'
-          talk_id: 8
-          feedback: https://joind.in/talk/view/15486
-
-        - event: drupalcamp-london-16
-          date: '2016-03-05'
-          talk_id: 9
-
-        - event: nwdug
-          date: '2016-03-08'
-          talk_id: 10
-
-        - event: drupal-bristol
-          date: '2016-04-02'
-          talk_id: 10
-
-        - event: phpsc16
-          date: '2016-06-11'
-          talk_id: 11
-          feedback: https://joind.in/talk/41d0f
-
-        - event: drupalcamp-bristol-16
-          date: '2016-07-23'
-          talk_id: 12
-
-        - event: phpsw
-          date: '2016-11-09'
-          talk_id: 13
-
-        - event: drupal-bristol
-          date: '2016-11-17'
-          talk_id: 14
-
-        - event: drupal-bristol
-          date: '2017-01-18'
-          talk_id: 15
-
-        - event: phpsw
-          date: '2017-02-08'
-          talk_id: 16
-          feedback: https://joind.in/event/phpsw-new-skills-february-17/it-started-with-a-patch
-
-        - event: drupalcamp-london-17
-          date: '2017-03-04'
-          time: '16:15 - 17:00'
-          talk_id: 17
-
-        - event: drupalcamp-london-17
-          date: '2017-03-04'
-          time: '12:05 - 12:50'
-          talk_id: 15
-
-        - event: nomad-php
-          date: '2017-04-20'
-          time: '19:00 (CET)'
-          type: Lightning talk
-          talk_id: 18
-
-        - event: phpsw
-          date: '2017-09-13'
-          time: ~
-          feedback: https://joind.in/talk/a5ff3
-          talk_id: 18
-
-        - event: phpnw17
-          date: '2017-10-01'
-          time: '09:00 - 09:45'
-          talk_id: 18
-          feedback: 'https://joind.in/talk/4e35d'
-
-        - event: drupalcamp-dublin-17
-          date: '2017-10-20'
-          time: '15:00 - 15:40'
-          talk_id: 19
-
-        - event: drupalcamp-dublin-17
-          date: '2017-10-21'
-          time: '12:00 - 12:40'
-          talk_id: 17
-
-        - event: drupal-somerset
-          date: '2017-10-26'
-          talk_id: 19
+    unifieddiff:
+        name: 'unified.diff'
+        location: Cardiff, UK
+        website: http://unifieddiff.co.uk

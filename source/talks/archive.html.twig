@@ -1,0 +1,29 @@
+---
+layout: page
+title: Talk Archive
+use: [talks]
+talks:
+    - title: 'Drupal and the LDAP module'
+      events:
+          - date: '2013-07-10'
+            event: swdug
+    - title: 'About the Drupal Association'
+      events:
+          - date: '2014-08-19'
+            event: swdug
+---
+<p>Here are a list of my previous conference and user group talks:</p>
+
+{% set talks = [] %}
+{% for talk in data.talks|merge(page.talks) %}
+    {% for event in talk.events %}
+        {% set talks = talks|merge([{
+            event: event|merge(site.events[event.event]),
+            talk: talk,
+        }]) %}
+    {% endfor %}
+{% endfor %}
+
+{% include 'talks-table' with { talks: talks|format_talks } %}
+
+<p>Upcoming talks can be found on the <a href="{{ site.url }}/talks">talks page]</a>.</p>

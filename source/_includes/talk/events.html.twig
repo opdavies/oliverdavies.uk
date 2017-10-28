@@ -1,16 +1,13 @@
 <div class="mt4">
     <h2>Events</h2>
 
-    {% set events = [] %}
-    {% for date in site.events.dates if date.talk_id == page.talk_id %}
-        {% set events = events|merge([{
-            date: date,
-            event: site.events.events[date.event],
+    {% set talks = [] %}
+    {% for event in page.events %}
+        {% set talks = talks|merge([{
+            event: event|merge(site.events[event.event]),
+            talk: page,
         }]) %}
     {% endfor %}
 
-    {% include 'talks-table' with {
-        events: events,
-        talk_page: true
-    } %}
+    {% include "talks-table" with { talk_page: true } %}
 </div>

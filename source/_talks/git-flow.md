@@ -1,5 +1,4 @@
 ---
-talk_id: 2
 title: Never Commit to Master - An Introduction to Git Flow
 slides:
     url: https://speakerdeck.com/opdavies/never-commit-to-master-an-introduction-to-git-flow
@@ -9,4 +8,7 @@ video:
     embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/T-miCpHxfds" frameborder="0" allowfullscreen></iframe>
 tags: [conference, drupalcamp, drupalcamp-london, git, git-flow]
 tweets: yes
+events:
+    - event: drupalcamp-london-14
+      date: '2014-03-01'
 ---

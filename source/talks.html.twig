@@ -1,0 +1,28 @@
+---
+layout: page
+title: Talks
+meta:
+    description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
+use: [talks]
+---
+{% block content %}
+    <p>I regularly speak at conferences and user groups about a range of subjects including Drupal, Sculpin and Git. If you would like to me to speak at your group or conference, please <a href="{{ site.url }}/contact">get in touch</a>.</p>
+
+    <h2>Last 5 Talks</h2>
+
+    {% set talks = [] %}
+    {% for talk in data.talks %}
+        {% for event in talk.events %}
+            {% set talks = talks|merge([{
+                event: event|merge(site.events[event.event]),
+                talk: talk,
+            }]) %}
+        {% endfor %}
+    {% endfor %}
+
+    {% include "talks-table" with {
+        talks: talks|format_talks|slice(0,5)
+    } %}
+
+    <p>Upcoming talks can be found in the <a href="{{ site.url }}/talks/archive">talks archive</a>.</p>
+{% endblock %}

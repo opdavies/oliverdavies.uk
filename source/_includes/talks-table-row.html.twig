@@ -1,0 +1,56 @@
+<tr class="striped--near-white">
+    <td class="pa2">
+        {{ row.event.date|date(row.event.fuzzy_date ? 'F Y' : 'j F Y') }}
+
+        {% if row.event.time is defined %}
+            <small class="db black-70">
+                {{ row.event.time }}
+            </small>
+        {% endif %}
+    </td>
+
+    {% if not talk_page %}
+        <td class="pa2">
+            {% if row.talk.url is not empty %}
+                <a href="{{ row.talk.url }}">
+                    {{ row.talk.title }}
+                </a>
+            {% else %}
+                {{  row.talk.title }}
+            {% endif %}
+
+            <small class="db black-70">
+                {{ row.event.type|default('Talk') }}
+            </small>
+        </td>
+    {% endif %}
+
+    <td class="pa2">
+        {% if row.event.website is not empty %}
+            <a href="{{ row.event.website }}">
+                {{ row.event.name }}
+            </a>
+        {% else %}
+            {{ row.event.name }}
+        {% endif %}
+
+        {% if row.event.location is defined %}
+            <small class="db black-70">
+                {{ row.event.location }}
+            </small>
+        {% endif %}
+    </td>
+
+    {% if not upcoming %}
+        <td class="ph2">
+            {% if row.event.feedback and row.event.date <= today %}
+                <a
+                    href="{{ row.event.feedback }}"
+                    class="button"
+                    title="Read or leave feedback for this talk">
+                    <i class="fa fa-comment-o"></i> joind.in
+                </a>
+            {% endif %}
+        </td>
+    {% endif %}
+</tr>
