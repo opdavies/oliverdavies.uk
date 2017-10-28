@@ -20,7 +20,7 @@ class FormatTalksExtension extends \Twig_Extension
 
         $today = (new \DateTime())->format('Y-m-d');
 
-        return collect($data['talks'])->map(function ($talk) use ($events) {
+        return collect($data['talks'])->flatMap(function ($talk) use ($events) {
             // Build an associative array with the talk, as well as the
             // specified event data (e.g. date and time) as well as the shared
             // event data (e.g. event name and website).
@@ -30,7 +30,7 @@ class FormatTalksExtension extends \Twig_Extension
 
                 return compact('event', 'talk');
             });
-        })->flatten(1)->filter(function ($talk) use ($today, $onlyPrevious, $onlyUpcoming) {
+        })->filter(function ($talk) use ($today, $onlyPrevious, $onlyUpcoming) {
             if ($onlyUpcoming) {
                 return $talk['event']['date'] > $today;
             }
