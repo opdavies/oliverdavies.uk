@@ -8,11 +8,11 @@
                     href="{{ meetup.url }}"
                     title="{{ meetup.name }}"
                     class="dib {% if not loop.last %}mr2{% endif %}">
+
                     <img
                         src="{{ site.images_url }}/assets/images/meetups/{{ meetup.logo }}"
                         alt="{{ meetup.name }} logo"
-                        class="h3"
-                    >
+                        class="h3">
                 </a>
             </li>
         {% endfor %}

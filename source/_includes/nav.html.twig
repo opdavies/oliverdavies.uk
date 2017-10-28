@@ -1,17 +1,19 @@
 <header class="w-100 ph4-ns bg-white bb b--light-gray mb2">
-  <div class="db dt-ns mw9 center w-100">
-    <div class="db dtc-ns v-mid tl w-30">
-      <a href="/" class="dib f5 mt0 link black-70" title="Home">
-        {{ site.title }}
-      </a>
-    </div>
-
-    <nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 mt0-ns">
-        {% for link in site.nav_links %}
-            <a href="{{ link.href }}" class="nav-item {{ page.url matches '#^' ~ (link.pattern ?: link.href) ~ '/?#' ? 'nav-item--active' }}">
-                {{- link.title -}}
+    <div class="db dt-ns mw9 center w-100">
+        <div class="db dtc-ns v-mid tl w-30">
+            <a href="/" class="dib f5 mt0 link black-70" title="Home">
+                {{ site.title }}
             </a>
-        {% endfor %}
-    </nav>
-  </div>
+        </div>
+
+        <nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 mt0-ns">
+            {% for link in site.nav_links %}
+                <a
+                    href="{{ link.href }}"
+                    class="nav-item {{ page.url matches '#^' ~ (link.pattern ?: link.href) ~ '/?#' ? 'nav-item--active' }}">
+                    {{- link.title -}}
+                </a>
+            {% endfor %}
+        </nav>
+    </div>
 </header>
