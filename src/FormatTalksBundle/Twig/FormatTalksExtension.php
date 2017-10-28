@@ -16,31 +16,31 @@ class FormatTalksExtension extends \Twig_Extension
 
     public function formatTalks($data, $onlyUpcoming = false, $onlyPrevious = false)
     {
-        $event_data = $data['events'];
-
-        $talks = [];
-        foreach ($data['talks'] as $talk) {
-            foreach ($talk['events'] as $event) {
-                $event = array_merge($event, $event_data[$event['event']]);
-
-                $talks[] = compact('talk', 'event');
-            }
-        }
+        $events = collect($data['events']);
 
         $today = (new \DateTime())->format('Y-m-d');
 
-        return collect($talks)
-            ->filter(function ($talk) use ($today, $onlyPrevious, $onlyUpcoming) {
-                if ($onlyUpcoming) {
-                    return $talk['event']['date'] > $today;
-                }
+        return collect($data['talks'])->map(function ($talk) use ($events) {
+            // Build an associative array with the talk, as well as the
+            // specified event data (e.g. date and time) as well as the shared
+            // event data (e.g. event name and website).
+            return collect($talk['events'])->map(function ($event) use ($talk, $events) {
+                $event = collect($event);
+                $event = $event->merge($events->get($event->get('event')));
 
-                if ($onlyPrevious) {
-                    return $talk['event']['date'] < $today;
-                }
+                return compact('event', 'talk');
+            });
+        })->flatten(1)->filter(function ($talk) use ($today, $onlyPrevious, $onlyUpcoming) {
+            if ($onlyUpcoming) {
+                return $talk['event']['date'] > $today;
+            }
 
-                return true;
-            })->sortByDesc('event.date')->all();
+            if ($onlyPrevious) {
+                return $talk['event']['date'] < $today;
+            }
+
+            return true;
+        })->sortByDesc('event.date')->all();
     }
 
     /**
