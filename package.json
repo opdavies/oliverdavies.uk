@@ -16,6 +16,7 @@
     "init": "mkdir -p $npm_package_config_outputCss $npm_package_config_outputFonts $npm_package_config_outputJs",
     "less": "lessc --npm-import='prefix=~' $npm_package_config_lessPath/main.less $npm_package_config_outputCss/site.css",
     "prod": "npm run build",
+    "watch": "npm-run-all -p watch:css watch:js",
     "watch:css": "onchange $npm_package_config_lessPath -v -- npm-run-all -p build:css",
     "watch:js": "onchange $npm_package_config_jsPath -v -- npm-run-all -p build:js"
   },
