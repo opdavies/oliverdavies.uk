@@ -17,11 +17,22 @@ class FormatTalksExtension extends Twig_Extension
         ];
     }
 
-    public function formatTalks($talks)
+    public function formatTalks($data)
     {
-      return collect($talks)
-        ->sortByDesc('event.date')
-        ->all();
+        $event_data = $data['events'];
+
+        $talks = [];
+        foreach ($data['talks'] as $talk) {
+          foreach ($talk['events'] as $event) {
+            $event = array_merge($event, $event_data[$event['event']]);
+
+            $talks[] = compact('talk', 'event');
+          }
+        }
+
+        return collect($talks)
+            ->sortByDesc('event.date')
+            ->all();
     }
 
     /**

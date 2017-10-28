@@ -1,13 +1,9 @@
 <div class="mt4">
     <h2>Events</h2>
 
-    {% set talks = [] %}
-    {% for event in page.events %}
-        {% set talks = talks|merge([{
-            event: event|merge(site.events[event.event]),
-            talk: page,
-        }]) %}
-    {% endfor %}
-
-    {% include "talks-table" with { talk_page: true } %}
+    {% set data = { talks: [page], events: site.events } %}
+    {% include "talks-table" with {
+        talks: data|format_talks|reverse,
+        talk_page: true
+    } %}
 </div>
