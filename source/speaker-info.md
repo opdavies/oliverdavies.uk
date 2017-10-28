@@ -26,6 +26,7 @@ Here are some of the events that I’ve spoken at:
 
 - DrupalCamp Brighton 2015
 - DrupalCamp Bristol 2016
+- DrupalCamp Dublin 2017
 - DrupalCamp London (2014, 2015, 2016, 2017)
 - DrupalCamp North 2015
 - Nomad PHP
