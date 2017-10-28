@@ -17,22 +17,33 @@ class FormatTalksExtension extends Twig_Extension
         ];
     }
 
-    public function formatTalks($data)
+    public function formatTalks($data, $onlyUpcoming = false, $onlyPrevious = false)
     {
         $event_data = $data['events'];
 
         $talks = [];
         foreach ($data['talks'] as $talk) {
-          foreach ($talk['events'] as $event) {
-            $event = array_merge($event, $event_data[$event['event']]);
+            foreach ($talk['events'] as $event) {
+                $event = array_merge($event, $event_data[$event['event']]);
 
-            $talks[] = compact('talk', 'event');
-          }
+                $talks[] = compact('talk', 'event');
+            }
         }
 
+        $today = (new \DateTime())->format('Y-m-d');
+
         return collect($talks)
-            ->sortByDesc('event.date')
-            ->all();
+            ->filter(function ($talk) use ($today, $onlyPrevious, $onlyUpcoming) {
+                if ($onlyUpcoming) {
+                    return $talk['event']['date'] > $today;
+                }
+
+                if ($onlyPrevious) {
+                    return $talk['event']['date'] < $today;
+                }
+
+                return true;
+            })->sortByDesc('event.date')->all();
     }
 
     /**
