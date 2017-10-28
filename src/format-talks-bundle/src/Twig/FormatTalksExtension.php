@@ -20,7 +20,7 @@ class FormatTalksExtension extends Twig_Extension
     public function formatTalks($talks)
     {
       return collect($talks)
-        ->sortBy('event.date')
+        ->sortByDesc('event.date')
         ->all();
     }
 
