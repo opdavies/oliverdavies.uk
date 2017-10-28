@@ -15,7 +15,8 @@ talks:
 ---
 <p>Here are a list of my previous conference and user group talks:</p>
 
-{% set data = { talks: data.talks|merge(page.talks), events: site.events } %}
-{% include "talks-table" with { talks: data|format_talks(false, true) } %}
+{% include "talks-table" with {
+    talks: { talks: data.talks|merge(page.talks), events: site.events }|format_talks(false, true)
+} %}
 
 <p>Upcoming talks can be found on the <a href="{{ site.url }}/talks">talks page</a>.</p>

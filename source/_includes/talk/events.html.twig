@@ -1,9 +1,8 @@
 <div class="mt4">
     <h2>Events</h2>
 
-    {% set data = { talks: [page], events: site.events } %}
     {% include "talks-table" with {
-        talks: data|format_talks|reverse,
+        talks: { talks: [page], events: site.events }|format_talks|reverse,
         talk_page: true
     } %}
 </div>
