@@ -23,7 +23,7 @@ server {
 
   server_name www.oliverdavies.uk;
 
-  root /var/www/oliverdavies.uk/output_prod;
+  root /var/www/oliverdavies.uk/current/output_prod;
 
   rewrite ^/(services|work)/?$ /experience permanent;
   rewrite "^/about/?$" / permanent;
