@@ -9,10 +9,17 @@ use Twig_SimpleFilter;
 class FormatTalksExtension extends Twig_Extension
 {
     /**
+     * @var string The current date.
+     */
+    private $today;
+
+    /**
      * {@inheritdoc}
      */
     public function getFilters()
     {
+        $this->today = (new \DateTime())->format('Y-m-d');
+
         return [
             new Twig_SimpleFilter('all_talks', [$this, 'getAll']),
             new Twig_SimpleFilter('upcoming_talks', [$this, 'getUpcoming']),
@@ -43,10 +50,8 @@ class FormatTalksExtension extends Twig_Extension
    * @return array
    */
     public function getUpcoming(array $data) {
-        $today = (new \DateTime())->format('Y-m-d');
-
-        $talks = $this->format($data)->filter(function ($talk) use ($today) {
-            return $talk['event']['date'] >= $today;
+        $talks = $this->format($data)->filter(function ($talk) {
+            return $talk['event']['date'] >= $this->today;
         });
 
         return $this->sort($talks);
@@ -62,10 +67,8 @@ class FormatTalksExtension extends Twig_Extension
      * @return array
      */
     public function getPast(array $data) {
-        $today = (new \DateTime())->format('Y-m-d');
-
-        $talks = $this->format($data)->filter(function ($talk) use ($today) {
-            return $talk['event']['date'] < $today;
+        $talks = $this->format($data)->filter(function ($talk) {
+            return $talk['event']['date'] < $this->today;
         });
 
         return $this->sort($talks);
