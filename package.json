@@ -10,7 +10,7 @@
     "autoprefixer": "postcss -u autoprefixer -r $npm_package_config_outputCss/*.css",
     "build": "npm run init && npm-run-all -p build:css build:js copy:fonts",
     "build:css": "npm run less -- && npm run autoprefixer",
-    "build:js": "concat -o $npm_package_config_outputJs/site.js ./node_modules/jquery/dist/jquery.js ./node_modules/prismjs/prism.js ./node_modules/prismjs/components/prism-{apacheconf,bash,css,diff,ini,json,nginx,php,sass,scss,sql,less,twig,yaml}.js $npm_package_config_jsPath/vendor/*.js $npm_package_config_jsPath/main.js",
+    "build:js": "concat -o $npm_package_config_outputJs/site.js ./node_modules/jquery/dist/jquery.js $npm_package_config_jsPath/vendor/*.js $npm_package_config_jsPath/main.js",
     "copy:fonts": "cp -R ./node_modules/font-awesome/fonts/* $npm_package_config_outputFonts",
     "dev": "npm run build && npm-run-all -p watch:css watch:js",
     "init": "mkdir -p $npm_package_config_outputCss $npm_package_config_outputFonts $npm_package_config_outputJs",
