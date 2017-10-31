@@ -9,8 +9,7 @@ video:
 tags: [meetup, phpsw, drupal, drupal-8]
 tweets: yes
 events:
-    - event: phpsw
-      date: '2015-04-08'
+    - { event: phpsw, date: '2015-04-08' }
 ---
 This was a ten minute lightning talk, designed to highlight the major changes coming in Drupal 8.
 

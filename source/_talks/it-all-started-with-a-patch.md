@@ -9,8 +9,6 @@ video:
     url: https://www.youtube.com/watch?v=5FYMRR61sdo
     embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/5FYMRR61sdo" frameborder="0" allowfullscreen></iframe>'
 events:
-    - event: phpsw
-      date: '2017-02-08'
-      feedback: 'https://joind.in/event/phpsw-new-skills-february-17/it-started-with-a-patch'
+    - { event: phpsw, date: '2017-02-08' }
 ---
 A crash course of why and how to get involved with open source.

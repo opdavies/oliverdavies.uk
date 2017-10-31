@@ -9,6 +9,5 @@ video:
 tags: [conference, drupalcamp, drupalcamp-london, git, git-flow]
 tweets: yes
 events:
-    - event: drupalcamp-london-14
-      date: '2014-03-01'
+    - { event: drupalcamp-london-14, date: '2014-03-01' }
 ---

@@ -5,6 +5,5 @@ video:
     embed: <iframe src="https://player.vimeo.com/video/49827006" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 tags: [meetup, drupal, unified-diff]
 events:
-    - event: unifieddiff
-      date: '2012-09-05'
+    - { event: unifieddiff, date: '2012-09-05' }
 ---
