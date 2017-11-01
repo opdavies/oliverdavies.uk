@@ -66,7 +66,7 @@ I’m a webmaster and documentation maintainer for [Drupal.org][42], and a provi
 [17]: https://phpsw.uk
 [18]: https://www.drupalcampbristol.co.uk
 [19]: {{site.url}}/talks/
-[20]: {{site.companies[site.work.company].url}}?utm_source={{site.short_url}}&utm_campaign=about-bio
+[20]: {{site.companies[site.work.company].url}}?utm_source={{site.short_url}}&utm_medium=about-bio
 [21]: {{site.twitter.url}}
 [22]: {{site.drupalorg.url_new}}
 [23]: {{site.github.url}}
