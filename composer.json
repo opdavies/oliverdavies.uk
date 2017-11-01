@@ -15,7 +15,9 @@
         "wikimedia/composer-merge-plugin": "^1.4"
     },
     "require-dev": {
-        "opdavies/sculpin-content-generator-bundle": "@stable"
+        "opdavies/sculpin-content-generator-bundle": "@stable",
+        "phpunit/phpunit": "^5.7",
+        "symfony/var-dumper": "^3.3"
     },
     "config": {
         "sort-packages": true
