@@ -12,3 +12,4 @@ publish.sh
 *.pyc
 deploy_key
 deploy_key.pub
+phpunit.xml

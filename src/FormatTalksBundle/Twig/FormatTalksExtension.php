@@ -13,13 +13,16 @@ class FormatTalksExtension extends Twig_Extension
      */
     private $today;
 
+    public function __construct()
+    {
+        $this->today = (new \DateTime())->format('Y-m-d');
+    }
+
     /**
      * {@inheritdoc}
      */
     public function getFilters()
     {
-        $this->today = (new \DateTime())->format('Y-m-d');
-
         return [
             new Twig_SimpleFilter('all_talks', [$this, 'getAll']),
             new Twig_SimpleFilter('upcoming_talks', [$this, 'getUpcoming']),
@@ -91,7 +94,7 @@ class FormatTalksExtension extends Twig_Extension
             // event data (e.g. event name and website).
             return collect($talk['events'])->map(function ($event) use ($talk, $events) {
                 $event = collect($event);
-                $event = $event->merge($events->get($event->get('event')));
+                $event = $event->merge($events->get($event->get('event')))->all();
 
                 return compact('event', 'talk');
             });
