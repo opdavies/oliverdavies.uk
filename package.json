@@ -1,7 +1,7 @@
 {
   "config": {
-    "jsPath": "./assets/js",
-    "lessPath": "./assets/less",
+    "jsPath": "./js",
+    "lessPath": "./less",
     "outputCss": "./source/assets/css",
     "outputFonts": "./source/assets/fonts",
     "outputJs": "./source/assets/js"
