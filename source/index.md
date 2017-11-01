@@ -22,6 +22,7 @@ I’m a webmaster and documentation maintainer for [Drupal.org][42], and a provi
 ## Skills
 
 - PHP, Drupal (6, 7, 8), Symfony, Silex, Laravel, Sculpin, Jekyll.
+- PHPUnit, SimpleTest, Behat.
 - HTML, CSS, Sass, Less, Tachyons, Twig, JavaScript, jQuery, Gulp, Grunt.
 - Linux (Debian, Ubuntu, CentOS, Red Hat), Git, SVN, Jenkins, Fabric, Ansible, Puppet, Vagrant, Docker.
 
