@@ -10,7 +10,7 @@
     "autoprefixer": "postcss -u autoprefixer -r $npm_package_config_outputCss/*.css",
     "build": "npm run init && npm-run-all -p build:css build:js copy:fonts",
     "build:css": "npm run less -- && npm run autoprefixer",
-    "build:js": "concat -o $npm_package_config_outputJs/site.js ./node_modules/jquery/dist/jquery.js $npm_package_config_jsPath/vendor/*.js $npm_package_config_jsPath/main.js",
+    "build:js": "concat -o $npm_package_config_outputJs/site.js ./node_modules/jquery/dist/jquery.js ./node_modules/highlightjs/highlight.pack.js $npm_package_config_jsPath/vendor/*.js $npm_package_config_jsPath/main.js",
     "copy:fonts": "cp -R ./node_modules/font-awesome/fonts/* $npm_package_config_outputFonts",
     "dev": "npm run build && npm-run-all -p watch:css watch:js",
     "init": "mkdir -p $npm_package_config_outputCss $npm_package_config_outputFonts $npm_package_config_outputJs",
@@ -25,6 +25,7 @@
     "concat": "^1.0.3",
     "font-awesome": "^4.7.0",
     "graceful-fs": "^4.1.11",
+    "highlightjs": "^9.10.0",
     "jquery.2": "^1.0.0",
     "less": "2.7.1",
     "less-plugin-clean-css": "^1.5.1",
@@ -32,7 +33,6 @@
     "npm-run-all": "^4.1.1",
     "onchange": "^3.2.1",
     "postcss-cli": "^4.1.1",
-    "prismjs": "^1.6.0",
     "tachyons-less": "^1.0.4"
   }
 }
