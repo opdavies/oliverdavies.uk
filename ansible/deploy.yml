@@ -1,6 +1,12 @@
 ---
 - hosts: web
 
+  vars_prompt:
+    - name: git_branch
+      prompt: 'Enter a branch to deploy'
+      default: master
+      private: false
+
   vars:
     ansistrano_deploy_to: /var/www/oliverdavies.uk
     ansistrano_deploy_via: git
