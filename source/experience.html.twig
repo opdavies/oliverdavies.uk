@@ -125,7 +125,9 @@ experiences:
 
                 <div class="mb3">
                     {% if company.url -%}
-                        <a class="dib mb1 blue dim" href="{{ company.url }}">
+                        <a
+                            class="dib mb1 blue dim"
+                            href="{{ company.url }}?utm_source={{ site.short_url }}&utm_medium=experience">
                             {{- company.url -}}
                         </a>
                     {%- endif %}
