@@ -31,7 +31,7 @@ class FormatTalksTest extends PHPUnit_Framework_TestCase
         $eventC = ['date' => (new DateTime('today'))->format('Y-m-d')];
 
         $data = [
-            'events' => [],
+            'event_data' => [],
             'talks' => [
                 ['events' => [$eventA, $eventB]],
                 ['events' => [$eventC]],
@@ -60,7 +60,7 @@ class FormatTalksTest extends PHPUnit_Framework_TestCase
         $eventE = ['date' => (new DateTime('+2 weeks'))->format('Y-m-d')];
 
         $data = [
-            'events' => [],
+            'event_data' => [],
             'talks' => [
                 ['events' => [$eventA, $eventC]],
                 ['events' => [$eventB, $eventE]],
@@ -90,7 +90,7 @@ class FormatTalksTest extends PHPUnit_Framework_TestCase
         $eventF = ['date' => (new DateTime('-2 months'))->format('Y-m-d')];
 
         $data = [
-            'events' => [],
+            'event_data' => [],
             'talks' => [
                 ['events' => [$eventD]],
                 ['events' => [$eventA, $eventB, $eventC]],

@@ -86,15 +86,15 @@ class FormatTalksExtension extends Twig_Extension
    */
     public function format(array $data)
     {
-        $events = collect($data['events']);
+        $event_data = collect($data['event_data']);
 
-        return collect($data['talks'])->flatMap(function ($talk) use ($events) {
+        return collect($data['talks'])->flatMap(function ($talk) use ($event_data) {
             // Build an associative array with the talk, as well as the
             // specified event data (e.g. date and time) as well as the shared
             // event data (e.g. event name and website).
-            return collect($talk['events'])->map(function ($event) use ($talk, $events) {
+            return collect($talk['events'])->map(function ($event) use ($talk, $event_data) {
                 $event = collect($event);
-                $event = $event->merge($events->get($event->get('event')))->all();
+                $event = $event->merge($event_data->get($event->get('event')))->all();
 
                 return compact('event', 'talk');
             });

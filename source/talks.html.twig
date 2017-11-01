@@ -10,7 +10,7 @@ use: [talks]
 
     <h2>Upcoming Talks</h2>
 
-    {% set upcoming_talks = { talks: data.talks, events: site.events }|upcoming_talks %}
+    {% set upcoming_talks = { talks: data.talks, event_data: site.events }|upcoming_talks %}
     {% if upcoming_talks %}
         {% include "talks-table" with { talks: upcoming_talks } %}
     {% else %}
@@ -20,7 +20,7 @@ use: [talks]
     <h2>Last 5 Talks</h2>
 
     {% include "talks-table" with {
-        talks: { talks: data.talks, events: site.events }|past_talks|slice(0,5)
+        talks: { talks: data.talks, event_data: site.events }|past_talks|slice(0,5)
     } %}
 
     <p>All previous talks can be found in the <a href="{{ site.url }}/talks/archive">talks archive</a>.</p>
