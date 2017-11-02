@@ -39,7 +39,8 @@ class FormatTalksExtension extends Twig_Extension
    *
    * @return array
    */
-    public function getAll(array $data) {
+    public function getAll(array $data)
+    {
         return $this->sort($this->format($data));
     }
 
@@ -52,7 +53,8 @@ class FormatTalksExtension extends Twig_Extension
    *
    * @return array
    */
-    public function getUpcoming(array $data) {
+    public function getUpcoming(array $data)
+    {
         return $this->sort($this->format($data)->filter(function ($talk) {
             return $talk['event']['date'] >= $this->today;
         }));
@@ -67,7 +69,8 @@ class FormatTalksExtension extends Twig_Extension
      *
      * @return array
      */
-    public function getPast(array $data) {
+    public function getPast(array $data)
+    {
         return $this->sort($this->format($data)->filter(function ($talk) {
             return $talk['event']['date'] < $this->today;
         }));
