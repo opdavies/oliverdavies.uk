@@ -15,8 +15,8 @@
       - node_modules
     ansistrano_keep_releases: 3
     ansistrano_allow_anonymous_stats: false
-    ansistrano_after_symlink_shared_tasks_file: "{{ playbook_dir }}/hooks/after-symlink-shared.yml"
-    ansistrano_after_symlink_tasks_file: "{{ playbook_dir }}/hooks/after-symlink.yml"
+    ansistrano_after_symlink_shared_tasks_file: "{{ playbook_dir }}/deploy/after-symlink-shared.yml"
+    ansistrano_after_symlink_tasks_file: "{{ playbook_dir }}/deploy/after-symlink.yml"
 
   roles:
     - carlosbuenosvinos.ansistrano-deploy
