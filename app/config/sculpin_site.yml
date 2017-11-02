@@ -30,7 +30,7 @@ ansible_galaxy:
     url: https://galaxy.ansible.com/opdavies
 
 availability:
-    part: limited
+    part: no
     full: no
 
 avatar:
