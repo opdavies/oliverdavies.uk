@@ -89,7 +89,7 @@ public function testListingPageExists() {
 In order to run the tests, you either need to include `-c core` or be inside the `core` directory when running the command, to ensure that the test classes are autoloaded so can be found, though the path to the `vendor` directory may be different depending on your project structure. You can also specify a path within which to run the tests - e.g. within the module’s `test` directory.
 
 ```language-plain
-$ ../vendor/bin/phpunit -c core modules/custom/tdd_dublin/tests
+$ vendor/bin/phpunit -c core modules/custom/tdd_dublin/tests
 ```
 
 <div class="note" markdown="1">
@@ -555,9 +555,9 @@ OK (1 test, 2 assertions)
 Now we know that all the tests pass individually, all of the module tests should now be run to ensure that they all still pass and that there have been no regressions due to any of the changes.
 
 ```language-plain
-docker@cli:/var/www/core$ ../vendor/bin/phpunit -c core modules/custom/tdd_dublin/tests
+docker@cli:/var/www$ vendor/bin/phpunit -c core modules/custom/tdd_dublin/tests
 
-Testing ../modules/custom/tdd_dublin/tests
+Testing modules/custom/tdd_dublin/tests
 ...
 
 Time: 1.27 minutes, Memory: 6.00MB
