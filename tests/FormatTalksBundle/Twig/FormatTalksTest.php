@@ -21,6 +21,63 @@ class FormatTalksTest extends PHPUnit_Framework_TestCase
         $this->extension = new FormatTalksExtension();
     }
 
+    public function testFormat()
+    {
+        $data = [
+            'event_data' => [
+                'event-one' => [
+                    'name' => 'Event One',
+                    'location' => 'Somewhere',
+                    'website' => 'http://event-one.com',
+                ],
+                'event-two' => [
+                    'name' => 'Event Two',
+                    'location' => 'Somewhere else',
+                    'website' => 'http://event-two.com',
+                ],
+            ],
+            'talks' => [
+                [
+                    'title' => 'A talk',
+                    'events' => [
+                        ['event' => 'event-one', 'date' => '2018-01-01', 'time' => '09:00'],
+                        ['event' => 'event-two', 'date' => '2018-01-30', 'time' => '12:00'],
+                    ],
+                ],
+            ],
+        ];
+
+        $results = $this->extension->format($data)->all();
+
+        tap($results[0], function ($result) {
+            $this->assertArrayHasKey('event', $result);
+            $this->assertArrayHasKey('talk', $result);
+
+            $this->assertEquals([
+                'date' => '2018-01-01',
+                'event' => 'event-one',
+                'location' => 'Somewhere',
+                'name' => 'Event One',
+                'time' => '09:00',
+                'website' => 'http://event-one.com',
+            ], $result['event']);
+        });
+
+        tap($results[1], function ($result) {
+            $this->assertArrayHasKey('event', $result);
+            $this->assertArrayHasKey('talk', $result);
+
+            $this->assertEquals([
+                'date' => '2018-01-30',
+                'event' => 'event-two',
+                'location' => 'Somewhere else',
+                'name' => 'Event Two',
+                'time' => '12:00',
+                'website' => 'http://event-two.com',
+            ], $result['event']);
+        });
+    }
+
     /**
      * Test getting all events.
      */
