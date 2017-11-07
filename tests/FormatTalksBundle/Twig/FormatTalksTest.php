@@ -4,6 +4,7 @@ namespace FormatTalksBundle\Tests\Twig;
 
 use DateTime;
 use FormatTalksBundle\Twig\FormatTalksExtension;
+use Illuminate\Support\Collection;
 use PHPUnit\Framework\TestCase;
 
 class FormatTalksTest extends TestCase
@@ -21,6 +22,9 @@ class FormatTalksTest extends TestCase
         $this->extension = new FormatTalksExtension();
     }
 
+    /**
+     * @covers FormatTalksExtension::format()
+     */
     public function testFormat()
     {
         $data = [
@@ -79,7 +83,7 @@ class FormatTalksTest extends TestCase
     }
 
     /**
-     * Test getting all events.
+     * @covers FormatTalksExtension::getAll()
      */
     public function testGetAll()
     {
@@ -99,16 +103,17 @@ class FormatTalksTest extends TestCase
 
         $this->assertCount(3, $results);
 
+        // Earliest events should be returned first.
         $this->assertEquals(
-            [$eventA['date'], $eventC['date'], $eventB['date']],
+            [$eventB['date'], $eventC['date'], $eventA['date']],
             $this->extractDates($results)
         );
     }
 
     /**
-     * Test getting only upcoming events.
+     * @covers FormatTalksExtension::getUpcoming()
      */
-    public function testUpcomingEventsFilter()
+    public function testGetUpcoming()
     {
         $eventA = ['date' => (new DateTime('+1 week'))->format('Y-m-d')];
         $eventB = ['date' => (new DateTime('-2 weeks'))->format('Y-m-d')];
@@ -128,16 +133,17 @@ class FormatTalksTest extends TestCase
 
         $this->assertCount(3, $results);
 
+        // Earliest events should be returned first.
         $this->assertEquals(
-            [$eventE['date'], $eventA['date'], $eventC['date']],
+            [$eventC['date'], $eventA['date'], $eventE['date']],
             $this->extractDates($results)
         );
     }
 
     /**
-     * Test getting only past events.
+     * @covers FormatTalksExtension::getPast()
      */
-    public function testPastFilter()
+    public function testGetPast()
     {
         $eventA = ['date' => (new DateTime('+1 week'))->format('Y-m-d')];
         $eventB = ['date' => (new DateTime('-2 weeks'))->format('Y-m-d')];
@@ -159,6 +165,7 @@ class FormatTalksTest extends TestCase
 
         $this->assertCount(2, $results);
 
+        // Latest events should be returned first.
         $this->assertEquals(
             [$eventB['date'], $eventF['date']],
             $this->extractDates($results)
@@ -168,12 +175,12 @@ class FormatTalksTest extends TestCase
     /**
      * Extract the returned dates from the results.
      *
-     * @param array $results The results returned from the filter.
+     * @param Collection $results The results returned from the filter.
      *
      * @return array An array of dates.
      */
-    private function extractDates(array $results)
+    private function extractDates(Collection $results)
     {
-        return collect($results)->pluck('event.date')->all();
+        return $results->pluck('event.date')->all();
     }
 }

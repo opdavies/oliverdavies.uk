@@ -2,7 +2,7 @@
     <h2>Events</h2>
 
     {% include "talks-table" with {
-        talks: { talks: [page], event_data: site.events }|all_talks|reverse,
+        talks: { talks: [page], event_data: site.events }|all_talks,
         talk_page: true
     } %}
 </div>

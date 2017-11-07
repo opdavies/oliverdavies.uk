@@ -20,7 +20,11 @@
             {% endif %}
 
             <small class="db black-70">
-                {{ row.event.type|default('Talk') }}
+                {% if row.talk.type %}
+                    {{ row.talk.type }}
+                {% else %}
+                    {{ row.event.type|default('Talk') }}
+                {% endif %}
             </small>
         </td>
     {% endif %}

@@ -41,7 +41,7 @@ class FormatTalksExtension extends Twig_Extension
    */
     public function getAll(array $data)
     {
-        return $this->sort($this->format($data));
+        return $this->format($data)->sortBy('event.date');
     }
 
   /**
@@ -55,9 +55,9 @@ class FormatTalksExtension extends Twig_Extension
    */
     public function getUpcoming(array $data)
     {
-        return $this->sort($this->format($data)->filter(function ($talk) {
+        return $this->format($data)->filter(function ($talk) {
             return $talk['event']['date'] >= $this->today;
-        }));
+        })->sortBy('event.date');
     }
 
     /**
@@ -71,9 +71,9 @@ class FormatTalksExtension extends Twig_Extension
      */
     public function getPast(array $data)
     {
-        return $this->sort($this->format($data)->filter(function ($talk) {
+        return $this->format($data)->filter(function ($talk) {
             return $talk['event']['date'] < $this->today;
-        }));
+        })->sortByDesc('event.date');
     }
 
   /**
@@ -98,18 +98,6 @@ class FormatTalksExtension extends Twig_Extension
                 return compact('event', 'talk');
             });
         });
-    }
-
-  /**
-   * Sort and return the talks.
-   *
-   * @param Collection $talks The talk data.
-   *
-   * @return array
-   */
-    private function sort(Collection $talks)
-    {
-        return $talks->sortByDesc('event.date')->all();
     }
 
     /**
