@@ -12,7 +12,7 @@ use: [talks]
 
     {% set upcoming_talks = { talks: data.talks, event_data: site.events }|upcoming_talks %}
     {% if upcoming_talks %}
-        {% include "talks-table" with { talks: upcoming_talks } %}
+        {% include "talks-table" with { talks: upcoming_talks, upcoming: true } %}
     {% else %}
         <p>Nothing scheduled at the moment.</p>
     {% endif %}
