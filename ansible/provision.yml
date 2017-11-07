@@ -34,6 +34,7 @@
           rewrite "^/blog/10-useful-drupal-6-modules/?$" /blog/2010/06/25/10-useful-drupal-6-modules permanent;
           rewrite "^/blog/2012/07/nomensa-accessible-media-player-drupal/?$" /blog/install-nomensa-media-player-drupal/ permanent;
           rewrite "^/blog/2017/05/05/fixing-drupal-simpletest-issues-inside-docker-containers/?$" /blog/2017/05/05/fixing-drupal-simpletest-docker permanent;
+          rewrite "^/blog/2017/11/07/tdd-test-driven-drupal/?$" /blog/2017/11/07/writing-drupal-module-test-driven-development-tdd permanent;
           rewrite "^/blog/accessible-bristol-site-launched/?$" /blog/2012/11/15/accessible-bristol-site-launched permanent;
           rewrite "^/blog/add-date-popup-calendar-custom-form/?$" /blog/2012/05/23/add-date-popup-calendar-custom-form permanent;
           rewrite "^/blog/add-taxonomy-term-multiple-nodes-using-sql/?$" /blog/2010/07/07/add-taxonomy-term-multiple-nodes-using-sql permanent;

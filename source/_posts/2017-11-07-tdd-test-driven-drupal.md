@@ -1,7 +1,8 @@
 ---
-title: 'TDD - Test Driven Drupal'
+title: Writing a new Drupal 8 Module using Test Driven Development (TDD)
 tags: [drupal, testing, tdd, simpletest, phpunit]
 use: [posts]
+slug: writing-drupal-module-test-driven-development-tdd
 ---
 
 {% block intro_image %}
