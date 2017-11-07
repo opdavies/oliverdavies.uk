@@ -25,6 +25,7 @@
         root: "/srv/{{ server_name }}/current/output_prod"
         nginx_error_log: "/var/log/nginx/{{ server_name }}_error.log warn"
         nginx_access_log: "/var/log/nginx/{{ server_name }}_access.log warn"
+        error_page: 404 /404.html
         extra_parameters: |
           ssl_certificate /etc/letsencrypt/live/oliverdavies.uk/fullchain.pem;
           ssl_certificate_key /etc/letsencrypt/live/oliverdavies.uk/privkey.pem;
