@@ -17,11 +17,11 @@
         {% block stylesheets '' %}
 
         {% for size in site.apple_touch_icon_sizes %}
-            <link rel="apple-touch-icon" href="{{ site.avatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
+            <link rel="apple-touch-icon" href="{{ site.favicon.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
         {% endfor %}
 
         {% for size in site.favicon_sizes %}
-            <link rel="icon" href="{{ site.avatar.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
+            <link rel="icon" href="{{ site.favicon.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
         {% endfor %}
     </head>
     <body class="helvetica black-80 {{ page.blocks.body_classes }}">
