@@ -4,9 +4,9 @@ namespace FormatTalksBundle\Tests\Twig;
 
 use DateTime;
 use FormatTalksBundle\Twig\FormatTalksExtension;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class FormatTalksTest extends PHPUnit_Framework_TestCase
+class FormatTalksTest extends TestCase
 {
     /**
      * @var FormatTalksExtension
