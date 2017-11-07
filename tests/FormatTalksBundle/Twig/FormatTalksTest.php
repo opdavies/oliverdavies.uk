@@ -29,23 +29,23 @@ class FormatTalksTest extends TestCase
     {
         $data = [
             'event_data' => [
-                'event-one' => [
-                    'name' => 'Event One',
+                'event-a' => [
+                    'name' => 'Event A',
                     'location' => 'Somewhere',
-                    'website' => 'http://event-one.com',
+                    'website' => 'http://event-a.com',
                 ],
-                'event-two' => [
-                    'name' => 'Event Two',
+                'event-b' => [
+                    'name' => 'Event B',
                     'location' => 'Somewhere else',
-                    'website' => 'http://event-two.com',
+                    'website' => 'http://event-b.com',
                 ],
             ],
             'talks' => [
                 [
-                    'title' => 'A talk',
+                    'title' => 'Talk A',
                     'events' => [
-                        ['event' => 'event-one', 'date' => '2018-01-01', 'time' => '09:00'],
-                        ['event' => 'event-two', 'date' => '2018-01-30', 'time' => '12:00'],
+                        ['event' => 'event-a', 'date' => '2018-01-01', 'time' => '09:00'],
+                        ['event' => 'event-b', 'date' => '2018-01-30', 'time' => '12:00'],
                     ],
                 ],
             ],
@@ -59,11 +59,11 @@ class FormatTalksTest extends TestCase
 
             $this->assertEquals([
                 'date' => '2018-01-01',
-                'event' => 'event-one',
+                'event' => 'event-a',
                 'location' => 'Somewhere',
-                'name' => 'Event One',
+                'name' => 'Event A',
                 'time' => '09:00',
-                'website' => 'http://event-one.com',
+                'website' => 'http://event-a.com',
             ], $result['event']);
         });
 
@@ -73,11 +73,11 @@ class FormatTalksTest extends TestCase
 
             $this->assertEquals([
                 'date' => '2018-01-30',
-                'event' => 'event-two',
+                'event' => 'event-b',
                 'location' => 'Somewhere else',
-                'name' => 'Event Two',
+                'name' => 'Event B',
                 'time' => '12:00',
-                'website' => 'http://event-two.com',
+                'website' => 'http://event-b.com',
             ], $result['event']);
         });
     }
