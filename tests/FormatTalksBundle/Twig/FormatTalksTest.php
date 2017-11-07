@@ -22,6 +22,9 @@ class FormatTalksTest extends TestCase
         $this->extension = new FormatTalksExtension();
     }
 
+    /**
+     * @covers FormatTalksExtension::format()
+     */
     public function testFormat()
     {
         $data = [
@@ -80,7 +83,7 @@ class FormatTalksTest extends TestCase
     }
 
     /**
-     * Test getting all events.
+     * @covers FormatTalksExtension::getAll()
      */
     public function testGetAll()
     {
@@ -108,9 +111,9 @@ class FormatTalksTest extends TestCase
     }
 
     /**
-     * Test getting only upcoming events.
+     * @covers FormatTalksExtension::getUpcoming()
      */
-    public function testUpcomingEventsFilter()
+    public function testGetUpcoming()
     {
         $eventA = ['date' => (new DateTime('+1 week'))->format('Y-m-d')];
         $eventB = ['date' => (new DateTime('-2 weeks'))->format('Y-m-d')];
@@ -138,9 +141,9 @@ class FormatTalksTest extends TestCase
     }
 
     /**
-     * Test getting only past events.
+     * @covers FormatTalksExtension::getPast()
      */
-    public function testPastFilter()
+    public function testGetPast()
     {
         $eventA = ['date' => (new DateTime('+1 week'))->format('Y-m-d')];
         $eventB = ['date' => (new DateTime('-2 weeks'))->format('Y-m-d')];
