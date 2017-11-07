@@ -115,6 +115,7 @@
           rewrite "^/blog/use-authorized-keys-create-passwordless-ssh-connection/?$" /blog/2012/02/01/use-authorized-keys-create-passwordless-ssh-connection permanent;
           rewrite "^/blog/use-regular-expressions-search-and-replace-coda-or-textmate/?$" /blog/2010/11/04/use-regular-expressions-search-and-replace-coda-or-textmate permanent;
           rewrite "^/blog/use-sass-and-compass-drupal-7-using-sassy/?$" /blog/2012/12/06/use-sass-and-compass-drupal-7-using-sassy permanent;
+          rewrite "^/blog/tdd-test-driven-drupal/?$" /blog/2017/11/07/tdd-test-driven-drupal permanent;
           rewrite "^/blog/useful-vagrant-commands/?$" /blog/2013/11/27/useful-vagrant-commands permanent;
           rewrite "^/blog/using-imagecache-and-imagecrop-my-portfolio/?$" /blog/2010/04/28/using-imagecache-and-imagecrop-my-portfolio permanent;
           rewrite "^/blog/using-remote-files-when-developing-locally-with-stage-file-proxy-module/?$" /blog/2014/11/20/using-remote-files-when-developing-locally-with-stage-file-proxy-module permanent;
