@@ -5,7 +5,7 @@ use: [posts]
 ---
 
 {% block intro_image %}
-<img alt="" src="https://pbs.twimg.com/profile_banners/79704339/1507039793/1500x500">
+<img alt="" src="{{ site.images_url }}/assets/images/blog/drupalcamp-dublin.jpg">
 {% endblock %}
 
 {% block excerpt %}
