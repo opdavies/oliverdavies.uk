@@ -48,10 +48,18 @@ class FormatTalksTest extends TestCase
                         ['event' => 'event-b', 'date' => '2018-01-30', 'time' => '12:00'],
                     ],
                 ],
+                [
+                    'title' => 'Talk B',
+                    'events' => [
+                        ['event' => 'event-b', 'date' => '2018-01-31', 'time' => '17:00'],
+                    ],
+                ],
             ],
         ];
 
         $results = $this->extension->format($data)->all();
+
+        $this->assertCount(3, $results);
 
         tap($results[0], function ($result) {
             $this->assertArrayHasKey('event', $result);
@@ -65,6 +73,8 @@ class FormatTalksTest extends TestCase
                 'time' => '09:00',
                 'website' => 'http://event-a.com',
             ], $result['event']);
+
+            $this->assertEquals('Talk A', $result['talk']['title']);
         });
 
         tap($results[1], function ($result) {
@@ -79,6 +89,12 @@ class FormatTalksTest extends TestCase
                 'time' => '12:00',
                 'website' => 'http://event-b.com',
             ], $result['event']);
+
+            $this->assertEquals('Talk A', $result['talk']['title']);
+        });
+
+        tap($results[2], function ($result) {
+            $this->assertEquals('Talk B', $result['talk']['title']);
         });
     }
 
