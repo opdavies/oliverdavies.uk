@@ -215,6 +215,11 @@ events:
         location: Bristol, UK
         website: https://phpsw.uk
 
+    phpuk18:
+        name: PHP UK Conference 2018
+        location: London, UK
+        website: https://www.phpconference.co.uk
+
     swdug:
         name: SWDUG
         location: Cardiff, UK
