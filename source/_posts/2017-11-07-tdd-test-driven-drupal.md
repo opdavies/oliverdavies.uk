@@ -17,7 +17,7 @@ I recently gave a [talk on automated testing in Drupal][0] talk at [DrupalCamp D
 
 ## Prerequisites
 
-You have created a `core/phpunit.xml` file based on `core/phpunit.xml.dist`, and populated it with your database credentials so that PHPUnit can bootstrap the Drupal database as part of the tests.
+You have created a `core/phpunit.xml` file based on `core/phpunit.xml.dist`, and populated it with your database credentials so that PHPUnit can bootstrap the Drupal database as part of the tests. [Here is an example][5].
 
 ## Acceptance Criteria
 
@@ -577,3 +577,4 @@ I’ve started looking into whether some of the tests can be rewritten as kernel
 [2]: https://github.com/opdavies/tdd_dublin
 [3]: https://packagist.org/packages/tightenco/collect
 [4]: http://php.net/manual/en/function.array-column.php
+[5]: https://gist.github.com/opdavies/dc5f0cea46ccd349b34a9f3a463c14bb
