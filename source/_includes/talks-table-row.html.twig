@@ -1,16 +1,16 @@
-<tr class="striped--near-white">
-    <td class="pa2">
+<tr>
+    <td class="p-2">
         {{ row.event.date|date(row.event.fuzzy_date ? 'F Y' : 'j F Y') }}
 
         {% if row.event.time is defined %}
-            <small class="db black-70">
+            <div class="text-xs text-grey-dark">
                 {{ row.event.time }}
-            </small>
+            </div>
         {% endif %}
     </td>
 
     {% if not talk_page %}
-        <td class="pa2">
+        <td class="p-2">
             {% if row.talk.url is not empty %}
                 <a href="{{ row.talk.url }}">
                     {{ row.talk.title }}
@@ -19,17 +19,17 @@
                 {{  row.talk.title }}
             {% endif %}
 
-            <small class="db black-70">
+            <div class="text-xs text-grey-dark">
                 {% if row.talk.type %}
                     {{ row.talk.type }}
                 {% else %}
                     {{ row.event.type|default('Talk') }}
                 {% endif %}
-            </small>
+            </div>
         </td>
     {% endif %}
 
-    <td class="pa2">
+    <td class="p-2">
         {% if row.event.website is not empty %}
             <a href="{{ row.event.website }}">
                 {{ row.event.name }}
@@ -39,19 +39,18 @@
         {% endif %}
 
         {% if row.event.location is defined %}
-            <small class="db black-70">
+            <div class="text-xs text-grey-dark">
                 {{ row.event.location }}
-            </small>
+            </div>
         {% endif %}
     </td>
 
     {% if not upcoming %}
-        <td class="ph2">
+        <td class="p-2">
             {% if row.event.feedback and row.event.date <= today %}
-                <a
-                    href="{{ row.event.feedback }}"
-                    class="button"
-                    title="Read or leave feedback for this talk">
+                <a href="{{ row.event.feedback }}"
+                   class="button"
+                   title="Read or leave feedback for this talk">
                     <i class="fa fa-comment-o"></i> joind.in
                 </a>
             {% endif %}

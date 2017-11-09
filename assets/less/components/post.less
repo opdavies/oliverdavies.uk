@@ -1,68 +1,67 @@
-pre {
-    .db;
-    .overflow-auto;
-    word-break: normal;
-    word-wrap: no-wrap;
-}
+// pre {
+//     .db;
+//     .overflow-auto;
+//     word-break: normal;
+//     word-wrap: no-wrap;
+// }
 
-pre[class*="language-"] { .bn; .br0 }
+// pre[class*="language-"] { .bn; .br0 }
 
-pre code,
-p code {
-    font-size: .8125rem;
-}
+// pre code,
+// p code {
+//     font-size: .8125rem;
+// }
 
 pre code,
 pre code.hljs,
 .hljs {
-    .db;
-    .pa3;
-    .bl;
-    .bw2;
-    .b--black-40;
-    .mv2;
-    background: #eee;
+    @apply .p-4;
+    @apply .text-sm;
+    @apply .border-l-4;
+    @apply .border-grey-dark;
+    @apply .block;
+    @apply .bg-grey-lighter;
+    @apply .overflow-x-scroll;
 }
 
 p,
 li {
     code {
-        background: #eee;
+        @apply .bg-grey-lighter;
         padding: 1px 3px;
     }
 }
 
-pre code {
-    .pre;
-    word-break: normal;
-}
+// pre code {
+//     .pre;
+//     word-break: normal;
+// }
 
-pre code .number {
-    .h-auto;
-    .mr0;
-    .pa0;
-    background-color: inherit;
-    font-size: inherit;
-    min-width: auto;
-}
+// pre code .number {
+//     .h-auto;
+//     .mr0;
+//     .pa0;
+//     background-color: inherit;
+//     font-size: inherit;
+//     min-width: auto;
+// }
 
-code.hljs {
-    .pa0;
-    background-color: inherit;
-}
+// code.hljs {
+//     .pa0;
+//     background-color: inherit;
+// }
 
-code[data-gist-id] {
-    .pa0;
-    background: transparent;
-}
+// code[data-gist-id] {
+//     .pa0;
+//     background: transparent;
+// }
+
 
 .note {
-    .bg-light-blue;
-    .bl;
-    .b--blue;
-    .bw2;
-    .pa3;
-
-    p:first-child { .mt0; }
-    p:last-child { .mb0; }
+    @apply .bg-blue-lighter;
+    @apply .p-4;
+    @apply .border-l-4;
+    @apply .border-blue;
 }
+
+.note p:last-child { @apply .mb-0; }

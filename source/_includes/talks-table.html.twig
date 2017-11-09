@@ -1,17 +1,17 @@
 <div class="overflow-auto">
-    <table class="w-100 ba b--black-20">
+    <table class="talks-table w-full border border-grey-light">
         <thead>
-            <tr class="striped--near-white">
-                <th class="w-20-l pa2 tl bg-white">Date</th>
+            <tr>
+                <th class="w-1/4 p-2 text-left bg-white">Date</th>
 
                 {% if not talk_page %}
-                    <th class="w-40-l pa2 tl bg-white">Talk</th>
+                    <th class="w-1/3 p-2 text-left bg-white">Talk</th>
                 {% endif %}
 
-                <th class="pa2 tl bg-white">Event</th>
+                <th class="p-2 text-left bg-white">Event</th>
 
                 {% if not upcoming %}
-                    <th class="w4 pa2 tl bg-white">Feedback</th>
+                    <th class="p-2 text-left bg-white">Feedback</th>
                 {% endif %}
             </tr>
         </thead>

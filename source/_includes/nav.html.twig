@@ -1,19 +1,18 @@
-<header class="w-100 ph4-ns bg-white bb b--light-gray mb2">
-    <div class="db dt-ns mw9 center w-100">
-        <div class="db dtc-ns v-mid tl w-30">
-            <a href="/" class="dib f5 mt0 link black-70" title="Home">
+<div class="border-bottom border-b border-grey-lighter mb-4">
+    <header class="container mx-auto flex items-center">
+        <div class="w-1/4">
+            <a href="/" class="" title="Home">
                 {{ site.title }}
             </a>
         </div>
 
-        <nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 mt0-ns">
+        <nav class="w-3/4 text-right">
             {% for link in site.nav_links %}
-                <a
-                    href="{{ link.href }}"
-                    class="nav-item {{ page.url matches '#^' ~ (link.pattern ?: link.href) ~ '/?#' ? 'nav-item--active' }}">
+                <a href="{{ link.href }}"
+                   class="inline-block py-4 ml-4 {{ page.url matches '#^' ~ (link.pattern ?: link.href) ~ '/?#' ? 'border-b-2 border-blue' }}">
                     {{- link.title -}}
                 </a>
             {% endfor %}
         </nav>
-    </div>
-</header>
+    </header>
+</div>

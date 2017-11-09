@@ -2,7 +2,7 @@
     <div class="lh-copy">
         <h2>Latest blog posts</h2>
 
-        <ul class="list pa0">
+        <ul class="bullets">
             {% for post in data.posts|slice(0, site.latest_posts) %}
                 <li>
                     <a href="{{ post.url }}">

@@ -1,49 +1,66 @@
+@import (less) "~normalize.css/normalize.css";
+@import (less) "~suitcss-base/lib/base.css";
+
 @import (less) "~font-awesome/css/font-awesome.css";
 @import (less) "~highlightjs/styles/github-gist.css";
 
 @tailwind preflight;
 
-@blue: #0678be;
-
 p,
 li,
 td {
-    a { color: @blue }
+    a { @apply .text-blue; }
 }
 
-// .button {
-//     .bg-blue;
-//     .bn;
-//     .br2;
-//     .dib;
-//     .dim;
-//     .link;
-//     .no-underline;
-//     .ph3;
-//     .pv2;
-//     .white-90;
+.button {
+    @apply .bg-blue;
+    @apply .inline-block;
+    @apply .rounded;
+    @apply .text-white;
+    @apply .px-4;
+    @apply .py-2;
 
-//     &:hover {
-//         background: darken(@blue, 10%);
-//         cursor: pointer;
-//     }
-// }
+    &:active,
+    &:hover {
+        @apply .bg-blue-dark;
+    }
+}
 
-// blockquote {
-//     .ma0;
-//     .pl3;
-//     .bl;
-//     .bw2;
-//     .b--blue;
-// }
+blockquote {
+    @apply .border-l-4 .border-blue .pl-4;
+}
 
-// img.with-border {
-//     .ba;
-//     .b--silver;
-// }
+img.with-border {
+    @apply .border .border-grey-light;
+}
 
-// @import "components/nav";
-// @import "components/post";
-// @import "components/talk";
+p,
+ul,
+table,
+pre,
+.note {
+    @apply .mb-4;
+}
+
+a {
+    @apply .text-grey-darkest;
+    text-decoration: none;
+}
+
+main a:not(.button) {
+    text-decoration: underline;
+}
+
+.bullets,
+main ul {
+    list-style: disc;
+    @apply .pl-4;
+}
+
+@import "components/listing";
+@import "components/post";
+@import "components/talk";
+@import "components/talks-table";
+@import "components/testimonial";
 
 @tailwind utilities;

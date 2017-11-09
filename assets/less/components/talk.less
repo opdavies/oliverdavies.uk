@@ -2,22 +2,21 @@
 
 .video iframe,
 .video embed {
-    .absolute;
-    .h-100;
-    .left-0;
-    .top-0;
-    .w-100;
+    @apply .absolute;
+    @apply .pin-l;
+    @apply .pin-t;
+    @apply .w-full;
 }
 
-.slides {
-    background-image: url('../images/loading.gif');
-    min-height: 275px;
+// .slides {
+//     background-image: url('../images/loading.gif');
+//     min-height: 275px;
 
-    @media @breakpoint-medium {
-        min-height: 460px;
-    }
+//     @media @breakpoint-medium {
+//         min-height: 460px;
+//     }
 
-    @media @breakpoint-large {
-        min-height: 540px;
-    }
-}
+//     @media @breakpoint-large {
+//         min-height: 540px;
+//     }
+// }
