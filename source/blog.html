@@ -9,9 +9,9 @@ use: [posts]
 {% block content %}
     <h1>Blog</h1>
 
-    <ul class="list pa0 ma0">
+    <ul class="listing">
         {% for post in page.pagination.items %}
-            <li class="cf mb2 pb4 bb b--light-silver">
+            <li class="listing-item">
                 {{ include('post/header', {
                     page: post,
                     title_tag: 'h2'
@@ -33,10 +33,15 @@ use: [posts]
     {% if page.pagination.previous_page or page.pagination.next_page %}
         <ul class="pager">
             {% if page.pagination.previous_page %}
-                <li class="next"><a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer →</a></li>
+                <li class="next">
+                    <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer →</a>
+                </li>
             {% endif %}
+
             {% if page.pagination.next_page %}
-                <li class="previous"><a href="{{ site.url }}{{ page.pagination.next_page.url }}">← Older</a></li>
+                <li class="previous">
+                    <a href="{{ site.url }}{{ page.pagination.next_page.url }}">← Older</a>
+                </li>
             {% endif %}
         </ul>
     {% endif %}

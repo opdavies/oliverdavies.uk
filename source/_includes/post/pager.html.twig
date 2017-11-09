@@ -1,15 +1,15 @@
-<div class="flex mt3">
+<div class="flex mt-8 -mx-4">
     {% if page.previous_post %}
-        <div class="w-50-ns">
-           <a href="{{ page.previous_post.url }}" class="blue hover-blue">
+        <div class="w-1/2 px-4">
+           <a href="{{ page.previous_post.url }}" class="text-blue @text-blue-dark">
                 &laquo; {{ page.previous_post.title }}
             </a>
         </div>
     {% endif %}
 
     {% if page.next_post %}
-        <div class="w-50-ns tr">
-            <a href="{{ page.next_post.url }}" class="blue hover-blue">
+        <div class="w-1/2 px-4 text-right">
+            <a href="{{ page.next_post.url }}" class="text-blue @text-blue-dark">
                 {{ page.next_post.title }} &raquo;
             </a>
         </div>

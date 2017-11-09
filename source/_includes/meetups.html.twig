@@ -4,15 +4,13 @@
     <ul class="list flex pa0 mt0">
         {% for meetup in site.meetups %}
             <li>
-                <a
-                    href="{{ meetup.url }}"
-                    title="{{ meetup.name }}"
-                    class="dib {% if not loop.last %}mr2{% endif %}">
+                <a href="{{ meetup.url }}"
+                   title="{{ meetup.name }}"
+                   class="dib mr-4">
 
-                    <img
-                        src="{{ site.images_url }}/assets/images/meetups/{{ meetup.logo }}"
-                        alt="{{ meetup.name }} logo"
-                        class="h3">
+                    <img src="{{ site.images_url }}/assets/images/meetups/{{ meetup.logo }}"
+                         alt="{{ meetup.name }} logo"
+                         class="h-16">
                 </a>
             </li>
         {% endfor %}

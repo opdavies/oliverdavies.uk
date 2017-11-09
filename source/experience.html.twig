@@ -107,48 +107,48 @@ experiences:
 {% block content %}
     <h1>Experience</h1>
 
-    {% for experience in page.experiences|reverse %}
-        {% set company = site.companies[experience.company] %}
+    <div class="listing">
+        {% for experience in page.experiences|reverse %}
+            {% set company = site.companies[experience.company] %}
 
-        <div class="cf mb4">
-            {% if company.logo %}
-                <div class="fr mb3 ml3 mt2 mw3 mw4-ns">
-                    <img
-                        src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}"
-                        alt="{{ company.name }} logo"
-                        class="img">
-                </div>
-            {% endif %}
-
-            <div>
-                <h2 class="mv0">{{ company.name }}</h2>
-
-                <div class="mb3">
-                    {% if company.url -%}
-                        <a
-                            class="dib mb1 blue dim"
-                            href="{{ company.url }}?utm_source={{ site.short_url }}&utm_medium=experience">
-                            {{- company.url -}}
-                        </a>
-                    {%- endif %}
-
-                    <div class="black-50">
-                        {{- experience.role }}
-                        from
-                        {{ experience.start }}
-                        to
-                        {{ experience.end|default('Present') -}}
-                        {%- if experience.location %} ({{ experience.location }}){% endif %}.
-                    </div>
-                </div>
-
-                {% if experience.description %}
-                    <div>
-                        {{ experience.description|markdown }}
+            <div class="listing-item">
+                {% if company.logo %}
+                    <div class="float-right mb-4 ml-4 w-1/5">
+                        <img src="{{ site.images_url }}/assets/images/experience/{{ company.logo }}"
+                             alt="{{ company.name }} logo"
+                             class="img">
                     </div>
                 {% endif %}
 
-            </div>{# /.inner #}
-        </div>
-    {% endfor %}
+                <div>
+                    <h2 class="mv0">{{ company.name }}</h2>
+
+                    <div class="mb-4">
+                        {% if company.url -%}
+                            <a class="inline-block text-blue mb-1"
+                               href="{{ company.url }}?utm_source={{ site.short_url }}&utm_medium=experience">
+                                {{- company.url -}}
+                            </a>
+                        {%- endif %}
+
+                        <div class="text-grey-dark">
+                            {{- experience.role }}
+                            from
+                            {{ experience.start }}
+                            to
+                            {{ experience.end|default('Present') -}}
+                            {%- if experience.location %} ({{ experience.location }}){% endif %}.
+                        </div>
+                    </div>
+
+                    {% if experience.description %}
+                        <div>
+                            {{ experience.description|markdown }}
+                        </div>
+                    {% endif %}
+
+                </div>{# /.inner #}
+            </div>
+        {% endfor %}
+    </div>
 {% endblock %}
