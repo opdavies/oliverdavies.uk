@@ -16,9 +16,10 @@
             </tr>
         </thead>
         <tbody>
-            {% set today = 'today'|date('Y-m-d') %}
             {% for row in talks %}
-                {% include "talks-table-row" %}
+                {% include "talks-table-row" with {
+                    today: 'today'|date('Y-m-d')
+                } %}
             {% endfor %}
         </tbody>
     </table>
