@@ -1,6 +1,6 @@
 <?php
 
-namespace FormatTalksBundle\Tests\Twig;
+namespace Tests\FormatTalksBundle\Twig;
 
 use DateTime;
 use FormatTalksBundle\Twig\FormatTalksExtension;

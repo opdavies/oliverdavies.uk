@@ -27,6 +27,11 @@
         },
         "files": ["src/helpers.php"]
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
     "extra": {
         "merge-plugin": {
             "include": [
