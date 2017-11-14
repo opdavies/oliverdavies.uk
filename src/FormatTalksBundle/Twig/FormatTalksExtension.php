@@ -53,7 +53,7 @@ class FormatTalksExtension extends Twig_Extension
    */
     public function getUpcoming($talks, array $eventData = [])
     {
-          return $this->format($talks, $eventData)
+        return $this->format($talks, $eventData)
               ->filter(function ($talk) {
                   return $talk['event']['date'] >= $this->today;
               })

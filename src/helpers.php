@@ -1,6 +1,7 @@
 <?php
 
-function tap($value, $callback) {
+function tap($value, $callback)
+{
     $callback($value);
 
     return $value;

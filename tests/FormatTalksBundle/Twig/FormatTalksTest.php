@@ -27,7 +27,7 @@ class FormatTalksTest extends TestCase
      */
     public function testFormat()
     {
-            $event_data = [
+        $event_data = [
                 'event-a' => [
                     'name' => 'Event A',
                     'location' => 'Somewhere',
@@ -40,7 +40,7 @@ class FormatTalksTest extends TestCase
                 ],
             ];
 
-            $talks = [
+        $talks = [
                 [
                     'title' => 'Talk A',
                     'events' => [
