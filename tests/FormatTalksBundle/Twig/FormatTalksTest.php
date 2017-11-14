@@ -27,8 +27,7 @@ class FormatTalksTest extends TestCase
      */
     public function testFormat()
     {
-        $data = [
-            'event_data' => [
+            $event_data = [
                 'event-a' => [
                     'name' => 'Event A',
                     'location' => 'Somewhere',
@@ -39,8 +38,9 @@ class FormatTalksTest extends TestCase
                     'location' => 'Somewhere else',
                     'website' => 'http://event-b.com',
                 ],
-            ],
-            'talks' => [
+            ];
+
+            $talks = [
                 [
                     'title' => 'Talk A',
                     'events' => [
@@ -54,10 +54,9 @@ class FormatTalksTest extends TestCase
                         ['event' => 'event-b', 'date' => '2018-01-31', 'time' => '17:00'],
                     ],
                 ],
-            ],
         ];
 
-        $results = $this->extension->format($data)->all();
+        $results = $this->extension->format($talks, $event_data)->all();
 
         $this->assertCount(3, $results);
 
@@ -107,15 +106,12 @@ class FormatTalksTest extends TestCase
         $eventB = ['date' => (new DateTime('-2 weeks'))->format('Y-m-d')];
         $eventC = ['date' => (new DateTime('today'))->format('Y-m-d')];
 
-        $data = [
-            'event_data' => [],
-            'talks' => [
-                ['events' => [$eventA, $eventB]],
-                ['events' => [$eventC]],
-            ],
+        $talks = [
+            ['events' => [$eventA, $eventB]],
+            ['events' => [$eventC]],
         ];
 
-        $results = $this->extension->getAll($data);
+        $results = $this->extension->getAll($talks);
 
         $this->assertCount(3, $results);
 
@@ -137,15 +133,12 @@ class FormatTalksTest extends TestCase
         $eventD = ['date' => (new DateTime('+1 day'))->format('Y-m-d')];
         $eventE = ['date' => (new DateTime('+2 weeks'))->format('Y-m-d')];
 
-        $data = [
-            'event_data' => [],
-            'talks' => [
-                ['events' => [$eventA, $eventC]],
-                ['events' => [$eventB, $eventE]],
-            ],
+        $talks = [
+            ['events' => [$eventA, $eventC]],
+            ['events' => [$eventB, $eventE]],
         ];
 
-        $results = $this->extension->getUpcoming($data);
+        $results = $this->extension->getUpcoming($talks);
 
         $this->assertCount(3, $results);
 
@@ -168,16 +161,13 @@ class FormatTalksTest extends TestCase
         $eventE = ['date' => (new DateTime('-2 days'))->format('Y-m-d')];
         $eventF = ['date' => (new DateTime('-2 months'))->format('Y-m-d')];
 
-        $data = [
-            'event_data' => [],
-            'talks' => [
-                ['events' => [$eventD]],
-                ['events' => [$eventA, $eventB, $eventC]],
-                ['events' => [$eventF]],
-            ],
+        $talks = [
+            ['events' => [$eventD]],
+            ['events' => [$eventA, $eventB, $eventC]],
+            ['events' => [$eventF]],
         ];
 
-        $results = $this->extension->getPast($data);
+        $results = $this->extension->getPast($talks);
 
         $this->assertCount(2, $results);
 
