@@ -28,32 +28,32 @@ class FormatTalksTest extends TestCase
     public function testFormat()
     {
         $event_data = [
-                'event-a' => [
-                    'name' => 'Event A',
-                    'location' => 'Somewhere',
-                    'website' => 'http://event-a.com',
-                ],
-                'event-b' => [
-                    'name' => 'Event B',
-                    'location' => 'Somewhere else',
-                    'website' => 'http://event-b.com',
-                ],
-            ];
+            'event-a' => [
+                'name' => 'Event A',
+                'location' => 'Somewhere',
+                'website' => 'http://event-a.com',
+            ],
+            'event-b' => [
+                'name' => 'Event B',
+                'location' => 'Somewhere else',
+                'website' => 'http://event-b.com',
+            ],
+        ];
 
         $talks = [
-                [
-                    'title' => 'Talk A',
-                    'events' => [
-                        ['event' => 'event-a', 'date' => '2018-01-01', 'time' => '09:00'],
-                        ['event' => 'event-b', 'date' => '2018-01-30', 'time' => '12:00'],
-                    ],
+            [
+                'title' => 'Talk A',
+                'events' => [
+                    ['event' => 'event-a', 'date' => '2018-01-01', 'time' => '09:00'],
+                    ['event' => 'event-b', 'date' => '2018-01-30', 'time' => '12:00'],
                 ],
-                [
-                    'title' => 'Talk B',
-                    'events' => [
-                        ['event' => 'event-b', 'date' => '2018-01-31', 'time' => '17:00'],
-                    ],
+            ],
+            [
+                'title' => 'Talk B',
+                'events' => [
+                    ['event' => 'event-b', 'date' => '2018-01-31', 'time' => '17:00'],
                 ],
+            ],
         ];
 
         $results = $this->extension->format($talks, $event_data)->all();

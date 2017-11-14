@@ -54,10 +54,10 @@ class FormatTalksExtension extends Twig_Extension
     public function getUpcoming($talks, array $eventData = [])
     {
         return $this->format($talks, $eventData)
-              ->filter(function ($talk) {
-                  return $talk['event']['date'] >= $this->today;
-              })
-              ->sortBy('event.date');
+            ->filter(function ($talk) {
+                return $talk['event']['date'] >= $this->today;
+            })
+            ->sortBy('event.date');
     }
 
     /**
@@ -72,10 +72,10 @@ class FormatTalksExtension extends Twig_Extension
     public function getPast($talks, array $eventData = [])
     {
         return $this->format($talks, $eventData)
-              ->filter(function ($talk) {
-                  return $talk['event']['date'] < $this->today;
-              })
-              ->sortByDesc('event.date');
+            ->filter(function ($talk) {
+                return $talk['event']['date'] < $this->today;
+            })
+            ->sortByDesc('event.date');
     }
 
   /**
@@ -93,12 +93,13 @@ class FormatTalksExtension extends Twig_Extension
             // Build an associative array with the talk, as well as the
             // specified event data (e.g. date and time) as well as the shared
             // event data (e.g. event name and website).
-            return collect($talk['events'])->map(function ($event) use ($talk, $event_data) {
-                $event = collect($event);
-                $event = $event->merge($event_data->get($event->get('event')))->all();
+            return collect($talk['events'])
+                ->map(function ($event) use ($talk, $event_data) {
+                    $event = collect($event);
+                    $event = $event->merge($event_data->get($event->get('event')))->all();
 
-                return compact('event', 'talk');
-            });
+                    return compact('event', 'talk');
+                });
         });
     }
 
