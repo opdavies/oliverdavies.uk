@@ -3,8 +3,8 @@
 namespace FormatTalksBundle\Twig;
 
 use Illuminate\Support\Collection;
+use Twig\TwigFunction;
 use Twig_Extension;
-use Twig_SimpleFilter;
 
 class FormatTalksExtension extends Twig_Extension
 {
@@ -21,12 +21,12 @@ class FormatTalksExtension extends Twig_Extension
     /**
      * {@inheritdoc}
      */
-    public function getFilters()
+    public function getFunctions()
     {
         return [
-            new Twig_SimpleFilter('all_talks', [$this, 'getAll']),
-            new Twig_SimpleFilter('upcoming_talks', [$this, 'getUpcoming']),
-            new Twig_SimpleFilter('past_talks', [$this, 'getPast']),
+            new TwigFunction('getAllTalks', [$this, 'getAll']),
+            new TwigFunction('getUpcomingTalks', [$this, 'getUpcoming']),
+            new TwigFunction('getPastTalks', [$this, 'getPast']),
         ];
     }
 
@@ -39,9 +39,9 @@ class FormatTalksExtension extends Twig_Extension
    *
    * @return array
    */
-    public function getAll(array $data)
+    public function getAll($talks, array $eventData = [])
     {
-        return $this->format($data)->sortBy('event.date');
+        return $this->format($talks, $eventData)->sortBy('event.date');
     }
 
   /**
@@ -49,15 +49,15 @@ class FormatTalksExtension extends Twig_Extension
    *
    * Used on the main talks page.
    *
-   * @param array $data The talk and event data.
-   *
    * @return array
    */
-    public function getUpcoming(array $data)
+    public function getUpcoming($talks, array $eventData = [])
     {
-        return $this->format($data)->filter(function ($talk) {
-            return $talk['event']['date'] >= $this->today;
-        })->sortBy('event.date');
+          return $this->format($talks, $eventData)
+              ->filter(function ($talk) {
+                  return $talk['event']['date'] >= $this->today;
+              })
+              ->sortBy('event.date');
     }
 
     /**
@@ -69,11 +69,13 @@ class FormatTalksExtension extends Twig_Extension
      *
      * @return array
      */
-    public function getPast(array $data)
+    public function getPast($talks, array $eventData = [])
     {
-        return $this->format($data)->filter(function ($talk) {
-            return $talk['event']['date'] < $this->today;
-        })->sortByDesc('event.date');
+        return $this->format($talks, $eventData)
+              ->filter(function ($talk) {
+                  return $talk['event']['date'] < $this->today;
+              })
+              ->sortByDesc('event.date');
     }
 
   /**
@@ -83,11 +85,11 @@ class FormatTalksExtension extends Twig_Extension
    *
    * @return Collection The event and talk data.
    */
-    public function format(array $data)
+    public function format($talks, array $event_data)
     {
-        $event_data = collect($data['event_data']);
+        $event_data = collect($event_data);
 
-        return collect($data['talks'])->flatMap(function ($talk) use ($event_data) {
+        return collect($talks)->flatMap(function ($talk) use ($event_data) {
             // Build an associative array with the talk, as well as the
             // specified event data (e.g. date and time) as well as the shared
             // event data (e.g. event name and website).

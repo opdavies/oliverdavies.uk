@@ -2,7 +2,7 @@
     <h2>Events</h2>
 
     {% include "talks-table" with {
-        talks: { talks: [page], event_data: site.events }|all_talks,
+        talks: getAllTalks([page], site.events),
         talk_page: true
     } %}
 </div>
