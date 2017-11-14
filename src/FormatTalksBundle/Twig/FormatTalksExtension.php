@@ -3,8 +3,9 @@
 namespace FormatTalksBundle\Twig;
 
 use Illuminate\Support\Collection;
-use Twig\TwigFunction;
+use Sculpin\Contrib\ProxySourceCollection\ProxySourceCollection;
 use Twig_Extension;
+use Twig_SimpleFunction;
 
 class FormatTalksExtension extends Twig_Extension
 {
@@ -24,20 +25,19 @@ class FormatTalksExtension extends Twig_Extension
     public function getFunctions()
     {
         return [
-            new TwigFunction('getAllTalks', [$this, 'getAll']),
-            new TwigFunction('getUpcomingTalks', [$this, 'getUpcoming']),
-            new TwigFunction('getPastTalks', [$this, 'getPast']),
+            new Twig_SimpleFunction('getAllTalks', [$this, 'getAll']),
+            new Twig_SimpleFunction('getUpcomingTalks', [$this, 'getUpcoming']),
+            new Twig_SimpleFunction('getPastTalks', [$this, 'getPast']),
         ];
     }
 
   /**
    * Get all upcoming and previous talks.
    *
-   * Used to display the talk table on a specific talk page.
+   * @param ProxySourceCollection|array $talks All talk nodes.
+   * @param array $eventData Shared event data.
    *
-   * @param array $data An associative array of talk and event data.
-   *
-   * @return array
+   * @return Collection A sorted collection of talks.
    */
     public function getAll($talks, array $eventData = [])
     {
@@ -47,9 +47,10 @@ class FormatTalksExtension extends Twig_Extension
   /**
    * Get all upcoming talks.
    *
-   * Used on the main talks page.
+   * @param ProxySourceCollection|array $talks All talk nodes.
+   * @param array $eventData Shared event data.
    *
-   * @return array
+   * @return Collection A sorted collection of talks.
    */
     public function getUpcoming($talks, array $eventData = [])
     {
@@ -63,11 +64,10 @@ class FormatTalksExtension extends Twig_Extension
     /**
      * Get all past talks.
      *
-     * Used on the main talks page and the talks archive.
+     * @param ProxySourceCollection|array $talks All talk nodes.
+     * @param array $eventData Shared event data.
      *
-     * @param array $data The talk and event data.
-     *
-     * @return array
+     * @return Collection A sorted collection of talks.
      */
     public function getPast($talks, array $eventData = [])
     {
@@ -81,22 +81,23 @@ class FormatTalksExtension extends Twig_Extension
   /**
    * Format the talk data into the required format.
    *
-   * @param array $data The talk and event data.
+   * @param ProxySourceCollection|array $talks All talk nodes.
+   * @param array $eventData Shared event data.
    *
-   * @return Collection The event and talk data.
+   * @return Collection The combined event and talk data.
    */
-    public function format($talks, array $event_data)
+    public function format($talks, array $eventData)
     {
-        $event_data = collect($event_data);
+        $eventData = collect($eventData);
 
-        return collect($talks)->flatMap(function ($talk) use ($event_data) {
+        return collect($talks)->flatMap(function ($talk) use ($eventData) {
             // Build an associative array with the talk, as well as the
             // specified event data (e.g. date and time) as well as the shared
             // event data (e.g. event name and website).
             return collect($talk['events'])
-                ->map(function ($event) use ($talk, $event_data) {
+                ->map(function ($event) use ($talk, $eventData) {
                     $event = collect($event);
-                    $event = $event->merge($event_data->get($event->get('event')))->all();
+                    $event = $event->merge($eventData->get($event->get('event')))->all();
 
                     return compact('event', 'talk');
                 });
