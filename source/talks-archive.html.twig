@@ -11,8 +11,30 @@ talks:
       events:
           - { date: '2014-08-19', event: swdug }
 ---
-<p>Here are a list of my previous conference and user group talks:</p>
+{% block breadcrumb %}
+    <div class="breadcrumb border-b border-grey-lighter mb-6 -mt-6 bg-grey-lightest">
+        <div class="container mx-auto px-4">
+            <ul class="flex pl-0 mb-0">
+                <li class="list-reset flex items-center">
+                    <a class="inline py-2" href="{{ site.url }}/">Home</a>
+                    {% include "svg/chevron-right" with { class: 'text-grey-light mx-1', style: "height: 20px" } %}
+                </li>
+                <li class="list-reset flex items-center">
+                    <a class="inline py-2" href="{{ site.url }}/talks">Talks</a>
+                     {% include "svg/chevron-right" with { class: 'text-grey-light mx-1', style: "height: 20px" } %}
+                </li>
+                <li class="list-reset flex">
+                    <span class="inline py-2">Archive</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}
 
-{% include "talks-table" with { talks: getPastTalks(data.talks, site.events) } %}
+{% block content %}
+    <p>Here are a list of my previous conference and user group talks:</p>
 
-<p>Upcoming talks can be found on the <a href="{{ site.url }}/talks">talks page</a>.</p>
+    {% include "talks-table" with { talks: getPastTalks(data.talks, site.events) } %}
+
+    <p>Upcoming talks can be found on the <a href="{{ site.url }}/talks">talks page</a>.</p>
+{% endblock %}
