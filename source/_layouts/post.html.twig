@@ -1,5 +1,25 @@
 {% extends 'default' %}
 
+{% block breadcrumb %}
+    <div class="breadcrumb bg-grey-lightest border border-b border-silver mb-6 -mt-6">
+        <div class="container mx-auto px-4">
+            <ul class="flex pl-0 mb-0">
+                <li class="list-reset flex items-center">
+                    <a class="inline py-2" href="{{ site.url }}/">Home</a>
+                    {% include "svg/chevron-right" with { class: 'text-grey-light mx-1', style: "height: 20px" } %}
+                </li>
+                <li class="list-reset flex items-center">
+                    <a class="inline py-2" href="{{ site.url }}/blog">Blog</a>
+                     {% include "svg/chevron-right" with { class: 'text-grey-light mx-1', style: "height: 20px" } %}
+                </li>
+                <li class="list-reset flex">
+                    <span class="inline py-2">{{ page.title }}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}
+
 {% block content_wrapper %}
     {% include 'post/header' %}
     {% include 'post/intro-image' %}
