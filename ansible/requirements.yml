@@ -1,6 +1,0 @@
----
-- src: carlosbuenosvinos.ansistrano-deploy
-  version: 2.2.0
-
-- src: geerlingguy.nginx
-  version: 2.5.0
