@@ -1833,10 +1833,6 @@ normalize-selector@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/normalize-selector/-/normalize-selector-0.2.0.tgz#d0b145eb691189c63a78d201dc4fdb1293ef0c03"
 
-normalize.css, normalize.css@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-7.0.0.tgz#abfb1dd82470674e0322b53ceb1aaf412938e4bf"
-
 npm-run-all:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/npm-run-all/-/npm-run-all-4.1.1.tgz#3095cf3f3cacf57fcb662b210ab10c609af6ddbb"
@@ -2802,12 +2798,6 @@ sugarss@^0.2.0:
   resolved "https://registry.yarnpkg.com/sugarss/-/sugarss-0.2.0.tgz#ac34237563327c6ff897b64742bf6aec190ad39e"
   dependencies:
     postcss "^5.2.4"
-
-suitcss-base:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/suitcss-base/-/suitcss-base-4.0.0.tgz#f3374526410c90e28a3fd8435947f1caa6146eb6"
-  dependencies:
-    normalize.css "^7.0.0"
 
 supports-color@^2.0.0:
   version "2.0.0"

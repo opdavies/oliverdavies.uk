@@ -30,11 +30,9 @@
     "less": "2.7.1",
     "less-plugin-clean-css": "^1.5.1",
     "less-plugin-npm-import": "^2.1.0",
-    "normalize.css": "^7.0.0",
     "npm-run-all": "^4.1.1",
     "onchange": "^3.2.1",
     "postcss-cli": "^4.1.1",
-    "suitcss-base": "^4.0.0",
     "tailwindcss": "^0.1.4"
   }
 }
