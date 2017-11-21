@@ -1,16 +1,8 @@
 .talk-slides {
     background: url('../images/loading.gif') center no-repeat;
     min-height: 275px;
-}
 
-@screen md {
-    .talk-slides { min-height: 375px; }
-}
-
-@screen lg {
-    .talk-slides { min-height: 450px; }
-}
-
-@screen xl {
-    .talk-slides { min-height: 560px; }
+    @screen md { & { min-height: 375px; } }
+    @screen lg { & { min-height: 450px; } }
+    @screen xl { & { min-height: 560px; } }
 }
