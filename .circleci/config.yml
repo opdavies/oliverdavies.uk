@@ -2,7 +2,8 @@ version: 2
 
 jobs:
     build_and_test:
-        image: php:7.1
+        docker:
+            image: php:7.1
         steps:
             - checkout
             - run: ./vendor/bin/phpunit
