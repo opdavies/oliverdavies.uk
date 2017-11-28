@@ -4,13 +4,8 @@
     <ul class="list-reset flex">
         {% for meetup in site.meetups %}
             <li>
-                <a href="{{ meetup.url }}"
-                   title="{{ meetup.name }}"
-                   class="dib mr-4">
-
-                    <img src="{{ site.images_url }}/assets/images/meetups/{{ meetup.logo }}"
-                         alt="{{ meetup.name }} logo"
-                         class="h-16">
+                <a href="{{ meetup.url }}" title="{{ meetup.name }}" class="dib mr-4">
+                    <img src="{{ site.images_url }}/assets/images/meetups/{{ meetup.logo }}" alt="{{ meetup.name }} logo" class="h-16">
                 </a>
             </li>
         {% endfor %}

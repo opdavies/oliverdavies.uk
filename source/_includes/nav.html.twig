@@ -8,8 +8,7 @@
 
         <nav class="w-3/4 text-right">
             {% for link in site.nav_links %}
-                <a href="{{ link.href }}"
-                   class="inline-block pt-4 pb-3 ml-4 {{ page.url matches '#^' ~ (link.pattern ?: link.href) ~ '/?#' ? 'border-b-3 border-blue' }}">
+                <a href="{{ link.href }}" class="inline-block pt-4 pb-3 ml-4 {{ page.url matches '#^' ~ (link.pattern ?: link.href) ~ '/?#' ? 'border-b-3 border-blue' }}">
                     {{- link.title -}}
                 </a>
             {% endfor %}
