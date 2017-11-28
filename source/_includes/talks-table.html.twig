@@ -1,17 +1,17 @@
 <div class="overflow-auto">
-    <table class="w-full table-collapse border border-grey-light">
+    <table class="table">
         <thead>
             <tr>
-                <th class="w-1/4 p-2 text-left bg-white">Date</th>
+                <th class="w-1/4">Date</th>
 
                 {% if not talk_page %}
-                    <th class="w-1/3 p-2 text-left bg-white">Talk</th>
+                    <th class="w-1/3">Talk</th>
                 {% endif %}
 
-                <th class="p-2 text-left bg-white">Event</th>
+                <th>Event</th>
 
                 {% if not upcoming %}
-                    <th class="p-2 text-left bg-white">Feedback</th>
+                    <th>Feedback</th>
                 {% endif %}
             </tr>
         </thead>
