@@ -13,28 +13,28 @@ generator:
 {% block title %}{{ page.title }} "{{ page.tag }}"{% endblock %}
 
 {% block content %}
-    <h2>"{{ page.tag }}"</h2>
+    <h1>Tag: {{ page.tag }}</h1>
 
-    <div class="table-responsive">
-        <table class="w-100 ba b--moon-gray">
+    <div class="overflow-auto">
+        <table class="table">
             <thead>
-                <tr class="striped--light-gray">
-                    <th class="pa2">Post Title</th>
-                    <th class="pa2 w5">Date</th>
+                <tr>
+                    <th>Post Title</th>
+                    <th class="w-48">Date</th>
                 </tr>
             </thead>
             <tbody>
                 {% for post in page.tag_posts %}
-                    <tr class="striped--light-gray">
-                        <td class="pa2">
+                    <tr>
+                        <td>
                             <a href="{{ post.url }}">
                                 {{ post.title }}
                             </a>
                         </td>
-                        <td class="pa2">{{ post.date|date('j F Y') }}</td>
+                        <td>{{ post.date|date('j F Y') }}</td>
                     </tr>
                 {% endfor %}
             </tbody>
         </table>
     </div>
-{% endblock content %}
+{% endblock %}
