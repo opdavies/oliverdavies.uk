@@ -24,3 +24,12 @@ workflows:
   build_test_and_deploy:
     jobs:
       - build_and_test
+  nightly:
+    jobs:
+      - build_and_test
+    triggers:
+      - schedule:
+          cron: "0 * * * *"
+          filters:
+            branches:
+              only: master
