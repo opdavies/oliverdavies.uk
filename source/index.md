@@ -28,8 +28,10 @@ I’m a webmaster and documentation maintainer for [Drupal.org][42], and a provi
 
 ## Certifications
 
-- Acquia certified Developer - Drupal 8 (June 2017)
-- Acquia certified Back End Specialist - Drupal 8 (July 2017)
+- Acquia certified Developer - Drupal 8 (June 2017) - 8th in the UK
+- Acquia certified Back End Specialist - Drupal 8 (July 2017) - 1st in the UK
+- Acquia certified Front End Specialist - Drupal 8 (November 2017) - 4th in the UK
+- Acquia certified Grand Master - Drupal 8 (November 2017) - 3rd in the UK
 
 ## Elsewhere
 
