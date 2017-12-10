@@ -33,16 +33,16 @@ use: [posts]
     </ul>
 
     {% if page.pagination.previous_page or page.pagination.next_page %}
-        <ul class="pager">
-            {% if page.pagination.previous_page %}
-                <li class="next">
-                    <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer →</a>
+        <ul class="list-reset flex">
+            {% if page.pagination.next_page %}
+                <li class="w-1/2">
+                    <a href="{{ site.url }}{{ page.pagination.next_page.url }}">← Older posts</a>
                 </li>
             {% endif %}
 
-            {% if page.pagination.next_page %}
-                <li class="previous">
-                    <a href="{{ site.url }}{{ page.pagination.next_page.url }}">← Older</a>
+            {% if page.pagination.previous_page %}
+                <li class="w-1/2 text-right">
+                    <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer posts →</a>
                 </li>
             {% endif %}
         </ul>
