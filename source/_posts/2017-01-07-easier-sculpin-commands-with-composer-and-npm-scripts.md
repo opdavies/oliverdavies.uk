@@ -31,6 +31,7 @@ Here are the scripts that I’m using - they are slightly different from those i
 ```
 
 Run with `composer run <name>`, e.g. `composer run dev`.
+
 ### package.json
 
 ```language-json
