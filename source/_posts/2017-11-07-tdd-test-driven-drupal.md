@@ -14,17 +14,10 @@ meta:
             height: 1440
             type: image/png
 ---
+<p class="text-center" markdown="1">![](/assets/images/blog/drupalcamp-dublin.jpg)</p>
 
-{% block intro_image %}
-<img alt="" src="{{ site.images_url }}/assets/images/blog/drupalcamp-dublin.jpg">
-{% endblock %}
-
-{% block excerpt %}
 I recently gave a [talk on automated testing in Drupal][0] talk at [DrupalCamp Dublin][1] and as a lunch and learn session for my colleagues at Microserve. As part of the talk, I gave an example of how to build a Drupal 8 module using a test driven approach. I’ve released the [module code on GitHub][2], and this post outlines the steps of the process.
-{% endblock %}
-
-{% block content %}
-I recently gave a [talk on automated testing in Drupal][0] talk at [DrupalCamp Dublin][1] and as a lunch and learn session for my colleagues at Microserve. As part of the talk, I gave an example of how to build a Drupal 8 module using a test driven approach. I’ve released the [module code on GitHub][2], and this post outlines the steps of the process.
+<!-- split -->
 
 ## Prerequisites
 
@@ -581,7 +574,6 @@ They all pass, so we be confident that the code works as expected, we can contin
 ## Next Steps
 
 I’ve started looking into whether some of the tests can be rewritten as kernel tests, which should result in quicker test execution. I will post any updated code to the [GitHub repository][3], and will also do another blog post highlighting the differences between functional and kernel tests and the steps taken to do the conversion.  
-{% endblock %}
 
 [0]: {{site.url}}/talks/tdd-test-driven-drupal
 [1]: http://2017.drupal.ie

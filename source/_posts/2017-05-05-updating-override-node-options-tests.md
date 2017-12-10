@@ -13,6 +13,7 @@ Recently, I reviewed [a patch][1] in the [Override Node Options][2] module issue
 It was quite an old issue and the latest patch needed to be re-rolled due to merge conflicts, but the existing tests still passed. Though as no new tests were added for the new functionality, these needed to be added before I committed it.
 
 This post documents the steps that I took to update the tests to add the proposed functionality.
+<!-- split -->
 
 ## Reviewing the Existing Tests
 
