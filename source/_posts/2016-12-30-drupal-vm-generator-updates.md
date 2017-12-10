@@ -3,12 +3,8 @@ title: Drupal VM Generator 2.9.1 Released
 tags: ['drupal-vm-generator', releases]
 use: [posts]
 ---
-{% block excerpt %}
 I spent some time yesterday working on the [Drupal VM Generator][0], and have released versions 2.8.1, 2.9.0 and 2.9.1.
-{% endblock %}
-
-{% block content %}
-I spent some time yesterday working on the [Drupal VM Generator][0], and have released versions 2.8.1, 2.9.0 and 2.9.1.
+<!-- split -->
 
 The main updates are:
 
@@ -21,7 +17,6 @@ The main updates are:
 Currently the project is based on Drupal VM 3.0.0 which is an outdated version ([4.1.0][3] was released today). Adding updates and supporting the newer versions is a high priority, as well as keeping in sync with new releases. This will be easier with the test suite in place.
 
 My initial thoughts are that version 2.10.0 will support Drupal VM 4.0.0, and if needed, 2.11.0 will ship shortly afterwards and support Drupal VM 4.1.0.
-{% endblock %}
 
 [0]: http://www.drupalvmgenerator.com
 [1]: https://github.com/opdavies/drupal-vm-generator/tree/master/tests/Command

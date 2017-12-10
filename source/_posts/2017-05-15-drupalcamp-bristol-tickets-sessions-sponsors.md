@@ -15,24 +15,15 @@ meta:
         type: website
 slug: drupalcamp-bristol-early-bird-tickets-sessions-sponsors
 ---
-{% block intro_image %}
-<img src="/assets/images/blog/drupalcamp-bristol-17-logo.jpg" alt="DrupalCamp Bristol 2017 logo">
-{% endblock %}
+<p class="text-center" markdown="1">![DrupalCamp Bristol 2017 logo](/assets/images/blog/drupalcamp-bristol-17-logo.jpg)</p>
 
-{% block excerpt %}
 In less than two months time, [DrupalCamp Bristol][0] will be back for our third year! (July seems to come around quicker each year). This is this year’s schedule and venues:
 
 + 30th June - CXO (Business) day - [Watershed][1]
 + 1st July - Developer conference - [University of Bristol, School of Chemistry][2]
 + 2nd July - Contribution sprints - Venue TBC
-{% endblock %}
 
-{% block content %}
-In less than two months time, [DrupalCamp Bristol][0] will be back for our third year! (July seems to come around quicker each year). This is this year’s schedule and venues:
-
-+ 30th June - CXO (Business) day - [Watershed][1]
-+ 1st July - Developer conference - [University of Bristol, School of Chemistry][2]
-+ 2nd July - Contribution sprints - Venue TBC
+<!-- split -->
 
 Today we announced [Emma Karayiannis][3] as our Saturday keynote speaker, and we’ll be announcing some of the other speakers later this week.
 
@@ -45,7 +36,6 @@ Not bought your tickets yet? [Early bird tickets][10] for the CXO and conference
 We still have [sponsorships opportunities][6] available (big thanks to [Microserve][7], [Deeson][8] and [Proctors][9]) who have already signed up), but be quick if you want to be included in our brochure so that we can get you added before our print deadline! Without our sponsors, putting on this event each year would not be possible.
 
 Any other questions? Take a look at [our website][0] or get in touch via [Twitter][5] or [email][11].
-{% endblock %}
 
 [0]: https://2017.drupalcampbristol.co.uk
 [1]: http://www.watershed.co.uk
