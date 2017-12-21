@@ -1,8 +1,8 @@
 ---
-title: Using Laravel Collections outside Laravel
+title: Using Laravel Collections... Outside Laravel
 slides:
-    url: ~
-    embed: ~
+    url: https://speakerdeck.com/opdavies/using-laravel-collections-dot-dot-dot-outside-laravel
+    embed: '<script async class="speakerdeck-embed" data-id="76f1718a75a74940b0b028aac8b9f78b" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>'
 tags: [nomad-php, lightning-talk, laravel, collections]
 type: Lightning talk
 events:
