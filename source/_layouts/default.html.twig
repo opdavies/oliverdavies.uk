@@ -1,71 +1,25 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-GB">
-    <head>
-        <title>{% if page.url == '/.' %}{{ site.subtitle }} | {{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
-
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        {% if page.meta.description %}
-            <meta name="description" content="{{ page.meta.description|e('html') }}">
-        {% endif %}
-
-        {% include 'og' with { og: page.meta.og } %}
-
-        <link rel="stylesheet" href="{{ site.url }}/assets/css/site.css">
-        {% block stylesheets '' %}
-
-        {% for size in site.apple_touch_icon_sizes %}
-            <link rel="apple-touch-icon" href="{{ site.favicon.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
-        {% endfor %}
-
-        {% for size in site.favicon_sizes %}
-            <link rel="icon" href="{{ site.favicon.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
-        {% endfor %}
-    </head>
+    {% include 'head.html.twig' %}
     <body class="text-grey-darkest text-sm leading-normal">
-        {% include 'nav' %}
+        {% include 'nav.html.twig' %}
+
         {% block breadcrumb %}{% endblock %}
 
         <div class="container mx-auto px-4">
-            <div>
-                <div>
-                    <div class="md:flex -mx-4">
-                        <main class="md:w-3/4 px-4 mb-8 lg:mb-0">
-                            {% block content_top %}{% endblock %}
-                            {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
-                            {% block content_bottom %}{% endblock %}
-                        </main>
+            <div class="md:flex -mx-4">
+                <main class="md:w-3/4 px-4 mb-8 lg:mb-0">
+                    {% block content_top %}{% endblock %}
+                    {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
+                    {% block content_bottom %}{% endblock %}
+                </main>
 
-                        {% block sidebar_wrapper %}
-                            <div class="md:w-1/4 px-4">
-                                {% block sidebar %}
-                                    {% include 'badges' %}
-                                    {% include 'availability' %}
-                                    {% include 'posts/latest' %}
-                                {% endblock %}
-                            </div>
-                        {% endblock %}
-                    </div>
-                </div>
-
-                <footer class="border-t border-grey-lighter pt-4 mt-4">
-                    <p>
-                        &copy; 2010-{{ 'now'|date('Y') }} {{ site.title }}. Built with <a href="https://sculpin.io">Sculpin</a> and <a href="https://tailwindcss.com">Tailwind CSS</a>.
-                    </p>
-
-                    {% include 'meetups' %}
-                </footer>
+                {% include 'sidebar.html.twig' %}
             </div>
+
+            {% include 'footer.html.twig' %}
         </div>
 
-        <script src="{{ site.url }}/assets/js/site.js"></script>
-
-        {% if site.google_analytics_tracking_id %}
-            <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', '{{ site.google_analytics_tracking_id }}', 'auto'); ga('send', 'pageview');</script>
-        {% endif %}
-
-        {% block scripts %}{% endblock %}
+        {% include 'scripts.html.twig' %}
     </body>
 </html>
