@@ -3,20 +3,22 @@ version: 2
 jobs:
   build_and_test:
     docker:
-      - image: php:7.1
+      - image: circleci/php:7.1
     steps:
-      - run: apt-get update && apt-get -y install git unzip
       - checkout
-      - run:
-          name: Install Composer
-          command: |
-            php -r "copy('http://getcomposer.org/installer', 'composer-setup.php');" && \
-            php -r "if (hash_file('SHA384', 'composer-setup.php') === '544e09ee996cdf60ece3804abc52599c22b1f40f4323403c44d44fdfdd586475ca9813a858088ffbc1f233e9b180f061') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;" && \
-            php composer-setup.php && \
-            php -r "unlink('composer-setup.php');" \
-            chmod +x ./composer.phar && \
-            mv ./composer.phar /usr/local/bin/composer
-      - run: composer install --no-interaction --prefer-dist
+
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "composer.json" }}
+            - v1-dependencies-
+
+      - run: composer install -n --prefer-dist
+
+      - save_cache:
+          paths:
+            - ./vendor
+          key: v1-dependencies-{{ checksum "composer.json" }}
+
       - run: ./vendor/bin/phpunit
 
 workflows:
