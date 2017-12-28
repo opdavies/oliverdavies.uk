@@ -1,24 +1,31 @@
-{% set badges = [
-    { image: 'acquia-d8-grand-master.png', alt: 'Acquia Certified Grand Master - Drupal 8 Exam Badge' },
-    { image: 'acquia-d8-developer.png', alt: 'Acquia Certified Developer - Drupal 8 Exam Badge' },
-    { image: 'acquia-d8-back-end.png', alt: 'Acquia Certified Back End Specialist - Drupal 8 Exam Badge' },
-    { image: 'acquia-d8-front-end.png', alt: 'Acquia Certified Front End Specialist - Drupal 8 Exam Badge' },
-] %}
-
-<div class="text-center">
-    <a href="https://assoc.drupal.org/membership" title="I’m a Drupal Association member." class="block mb-4">
-        <img src="{{ site.images_url }}/assets/images/badges/da-individual-member.png" alt="Drupal Association Individual Member" width="200" />
-    </a>
-
-    <div class="mb-4 flex flex-wrap">
-        {% for badge in badges %}
-            <div class="w-1/4 lg:w-1/2 leading-none">
-                <img src="{{ site.images_url }}/assets/images/badges/{{ badge.image }}" alt="{{ badge.alt }}" />
-            </div>
-        {% endfor %}
+<div class="flex items-center md:block text-center">
+    <div class="w-1/2 md:w-full">
+        <a href="https://assoc.drupal.org/membership" title="I’m a Drupal Association member." class="block mb-4 px-4 md:px-0">
+            <img src="{{ site.images_url }}/assets/images/badges/da-individual-member.png" alt="Drupal Association Individual Member"/>
+        </a>
     </div>
 
-    <a href="http://conference.phpnw.org.uk/phpnw17" class="block mb-4">
+    <div class="w-1/2 md:w-full">
+        <div class="mb-4 flex flex-wrap">
+            <div class="w-full lg:w-1/2 leading-none px-4 md:px-0">
+                <img src="{{ site.images_url }}/assets/images/badges/acquia-d8-grand-master.png" alt="Acquia Certified Grand Master - Drupal 8 Exam Badge" />
+            </div>
+
+            <div class="w-full lg:w-1/2 leading-none px-4 md:px-0 hidden lg:block">
+                <img src="{{ site.images_url }}/assets/images/badges/acquia-d8-developer.png" alt="Acquia Certified Developer - Drupal 8 Exam Badge" />
+            </div>
+
+             <div class="w-full lg:w-1/2 leading-none px-4 md:px-0 hidden lg:block">
+                <img src="{{ site.images_url }}/assets/images/badges/acquia-d8-back-end.png" alt="Acquia Certified Back End Specialist - Drupal 8 Exam Badge" />
+            </div>
+
+             <div class="w-full lg:w-1/2 leading-none px-4 md:px-0 hidden lg:block">
+                <img src="{{ site.images_url }}/assets/images/badges/acquia-d8-front-end.png" alt="Acquia Certified Front End Specialist - Drupal 8 Exam Badge" />
+            </div>
+        </div>
+    </div>
+
+    <a href="http://conference.phpnw.org.uk/phpnw17" class="hidden lg:block mb-4">
         <img src="{{ site.images_url }}/assets/images/badges/phpnw17.png" alt="">
     </a>
 </div>
