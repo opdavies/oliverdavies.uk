@@ -1,17 +1,19 @@
 <div class="navbar border-bottom border-b border-grey-lighter mb-6">
-    <header class="container mx-auto px-4 flex items-center">
-        <div class="w-1/4">
-            <a href="/" class="" title="Home">
-                {{ site.title }}
-            </a>
-        </div>
-
-        <nav class="w-3/4 flex flex-wrap justify-end">
-            {% for link in site.nav_links %}
-                <a href="{{ link.href }}" class="pt-4 pb-3 ml-4 {{ page.url matches '#^' ~ (link.pattern ?: link.href) ~ '/?#' ? 'border-b-3 border-blue' }}">
-                    {{- link.title -}}
+    <header class="container mx-auto md:px-4">
+        <div class="md:flex md:items-center">
+            <div class="md:w-1/4">
+                <a href="/" class="" title="Home">
+                    {{ site.title }}
                 </a>
-            {% endfor %}
-        </nav>
+            </div>
+
+            <nav class="md:w-3/4 md:flex md:flex-wrap md:justify-end">
+                {% for link in site.nav_links %}
+                    <a href="{{ link.href }}" class="block pt-4 pb-3 md:ml-4 pl-4 md:pl-0 {{ page.url matches '#^' ~ (link.pattern ?: link.href) ~ '/?#' ? 'border-b-3 border-blue' }}">
+                        {{- link.title -}}
+                    </a>
+                {% endfor %}
+            </nav>
+        </div>
     </header>
 </div>
