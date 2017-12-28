@@ -11,7 +11,9 @@ use: [posts, testimonials]
 ---
 # About Me
 
-<img src="{{ site.images_url }}{{ site.avatar.url }}" alt="Picture of Oliver" class="w-1/6 rounded-full">
+<div class="mb-4 w-1/3 sm:w-1/4 lg:w-1/6">
+    <img src="{{ site.images_url }}{{ site.avatar.url }}" alt="Picture of Oliver" class="rounded-full">
+</div>
 
 My name is Oliver Davies (aka [opdavies][1]) - a full-stack Web Developer and System Administrator based in Wales, UK.
 
