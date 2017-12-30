@@ -17,7 +17,7 @@
 
             <nav class="w-full md:w-2/3 lg:w-3/4 hidden sm:flex sm:flex-wrap sm:justify-end">
                 {% for link in site.nav_links %}
-                    <a href="{{ link.href }}" class="flex items-center sm:ml-4 p-4 sm:p-0 -mx-4 sm:mx-0 sm:border-b-3 {{ page.url matches '#^' ~ (link.pattern ?: link.href) ~ '/?#' ? 'bg-grey-light sm:bg-transparent sm:border-blue' : 'sm:border-transparent' }} {{ loop.first ? 'border-t' }}">
+                    <a href="{{ link.href }}" class="flex items-center sm:ml-4 p-4 sm:p-0 -mx-4 sm:mx-0 sm:border-b-3 {{ page.url matches '#^' ~ (link.pattern ?: link.href) ~ '/?#' ? 'bg-grey-light sm:bg-transparent sm:border-blue' : 'sm:border-transparent' }} {{ loop.first ? 'border-t border-grey-lighter sm:border-t-0' }}">
                         {{- link.title -}}
                     </a>
                 {% endfor %}
