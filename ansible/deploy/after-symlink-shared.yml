@@ -1,0 +1,20 @@
+---
+- name: Install node dependencies
+  command: yarn install
+  args:
+   chdir: "{{ ansistrano_release_path.stdout }}"
+
+- name: Build assets
+  command: npm run prod
+  args:
+   chdir: "{{ ansistrano_release_path.stdout }}"
+
+- name: Install Composer dependencies
+  composer:
+   command: install
+   working_dir: "{{ ansistrano_release_path.stdout }}"
+
+- name: Generate the site
+  command: composer run prod
+  args:
+   chdir: "{{ ansistrano_release_path.stdout }}"
