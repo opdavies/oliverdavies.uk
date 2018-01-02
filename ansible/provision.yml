@@ -8,28 +8,12 @@
   vars:
     nginx_vhosts:
       - listen: 80
-        server_name: "oliverdavies.uk {{ server_name }}" 
-        return: "301 https://{{ server_name }}$request_uri"
-        filename: oliverdavies.uk.80.conf
-
-      - listen: 443 ssl
-        server_name: oliverdavies.uk
-        return: "301 https://{{ server_name }}$request_uri"
-        extra_parameters: |
-          ssl_certificate /etc/letsencrypt/live/oliverdavies.uk/fullchain.pem;
-          ssl_certificate_key /etc/letsencrypt/live/oliverdavies.uk/privkey.pem;
-        filename: oliverdavies.uk.443.conf
-
-      - listen: 443 ssl
         server_name: "{{ server_name }}"
         root: "/srv/{{ server_name }}/current/output_prod"
         nginx_error_log: "/var/log/nginx/{{ server_name }}_error.log warn"
         nginx_access_log: "/var/log/nginx/{{ server_name }}_access.log warn"
         error_page: 404 /404.html
         extra_parameters: |
-          ssl_certificate /etc/letsencrypt/live/oliverdavies.uk/fullchain.pem;
-          ssl_certificate_key /etc/letsencrypt/live/oliverdavies.uk/privkey.pem;
-
           rewrite ^/(services|work)/?$ /experience permanent;
           rewrite "^/about/?$" / permanent;
           rewrite "^/blog/10-useful-drupal-6-modules/?$" /blog/2010/06/25/10-useful-drupal-6-modules permanent;
