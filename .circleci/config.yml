@@ -40,7 +40,7 @@ jobs:
       - restore_cache:
           key: v1-{{ .Branch }}-{{ checksum "./ansible/requirements.yml" }}
 
-      - run ansible-galaxy install -r ansible/requirements.yml
+      - run: ansible-galaxy install -r ansible/requirements.yml
 
       - save_cache:
           key: v1-{{ .Branch }}-{{ checksum "./ansible/requirements.yml" }}
