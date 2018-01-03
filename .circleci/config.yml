@@ -27,11 +27,32 @@ jobs:
       - store_artifacts:
           path: ~/phpunit
 
+  deploy:
+    docker:
+      - image: ansible/ansible:ubuntu1604
+    steps:
+      - run:
+          name: Install system packages.
+          command: pip install --upgrade pip && pip install ansible
+
+      - checkout
+
+      - restore_cache:
+          key: v1-{{ .Branch }}-{{ checksum 'requirements.yml' }}
+
+      - run ansible-galaxy install -r ansible/requirements.yml
+
+      - save_cache:
+          key: v1-{{ .Branch }}-{{ checksum 'requirements.yml' }}
+          paths:
+            - '/root/.ansible/roles'
+
 workflows:
   version: 2
   build_test_and_deploy:
     jobs:
       - build_and_test
+      - deploy
   nightly:
     jobs:
       - build_and_test
