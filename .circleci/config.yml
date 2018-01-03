@@ -36,6 +36,7 @@ jobs:
           key: v1-{{ .Branch }}-{{ checksum "./ansible/requirements.yml" }}
           paths:
             - '/root/.ansible/roles'
+      - run: ansible-playbook ansible/deploy.yml -i ansible/hosts -e 'git_branch=master'
 
 workflows:
   version: 2
