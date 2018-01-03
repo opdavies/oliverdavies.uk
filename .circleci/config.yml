@@ -24,6 +24,8 @@ jobs:
   deploy:
     docker:
       - image: ansible/ansible:ubuntu1604
+        environment:
+          ANSIBLE_HOST_KEY_CHECKING: no
     steps:
       - run:
           name: Install system packages.
