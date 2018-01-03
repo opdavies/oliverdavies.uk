@@ -28,6 +28,7 @@ jobs:
           path: ~/phpunit
 
   deploy:
+    working_directory: ~/repo
     docker:
       - image: ansible/ansible:ubuntu1604
     steps:
