@@ -1,11 +1,11 @@
 ---
-- name: Install node dependencies
+- name: Install Node dependencies
   command: yarn install
   args:
    chdir: "{{ ansistrano_release_path.stdout }}"
 
-- name: Build assets
-  command: npm run prod
+- name: Install Webpack Encore assets
+  command: './node_modules/.bin/encore production'
   args:
    chdir: "{{ ansistrano_release_path.stdout }}"
 
