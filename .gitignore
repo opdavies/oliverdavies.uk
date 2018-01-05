@@ -1,13 +1,4 @@
-/bin/
 /node_modules/
 /output_*/
 /source/build/
-/.build/
-/.sculpin/
 /vendor/
-.sass-cache/
-publish.sh
-*.pyc
-deploy_key
-deploy_key.pub
-phpunit.xml
