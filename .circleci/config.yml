@@ -50,7 +50,7 @@ workflows:
             - build_and_test
   nightly:
     jobs:
-      - build_and_test
+      - build_test_and_deploy
     triggers:
       - schedule:
           cron: "0 4 * * *"
