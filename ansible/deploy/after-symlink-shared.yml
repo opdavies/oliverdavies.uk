@@ -8,6 +8,7 @@
   command: yarn run encore production
   args:
    chdir: "{{ ansistrano_release_path.stdout }}"
+  become: true
 
 - name: Install Composer dependencies
   composer:
