@@ -1,8 +1,16 @@
+.table-responsive {
+    @apply .mb-4 .border .w-full;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.table-responsive table {
+    @apply .mb-0 .border-0 .whitespace-no-wrap;
+}
+
 .table {
     @apply .w-full;
     @apply .table-collapse;
-    @apply .border;
-    @apply .border-grey-light;
 }
 
 .table tr:nth-child(odd) {
@@ -10,9 +18,9 @@
 }
 
 .table tr th {
-    @apply .text-left .p-2 .bg-white;
+    @apply .text-left .p-3 .bg-white;
 }
 
 .table td {
-    @apply .px-2 .py-3 .border-t;
+    @apply .px-3 .py-3 .border-t;
 }
