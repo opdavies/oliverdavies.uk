@@ -1,5 +1,5 @@
 <tr>
-    <td>
+    <td class="whitespace-no-wrap">
         {{ row.event.date|date(row.event.fuzzy_date ? 'F Y' : 'j F Y') }}
 
         {% if row.event.time is defined %}
@@ -10,7 +10,7 @@
     </td>
 
     {% if not talk_page %}
-        <td>
+        <td class="whitespace-no-wrap">
             {% if row.talk.url is not empty %}
                 <a href="{{ row.talk.url }}">
                     {{ row.talk.title }}
@@ -29,7 +29,7 @@
         </td>
     {% endif %}
 
-    <td>
+    <td class="whitespace-no-wrap">
         {% if row.event.website is not empty %}
             <a href="{{ row.event.website }}">
                 {{ row.event.name }}
@@ -46,7 +46,7 @@
     </td>
 
     {% if not upcoming %}
-        <td>
+        <td class="whitespace-no-wrap">
             {% if row.event.feedback and row.event.date <= today %}
                 <a href="{{ row.event.feedback }}"
                    class="button"
