@@ -51,7 +51,9 @@ workflows:
   nightly:
     jobs:
       - build_and_test
-      - deploy
+      - deploy:
+          requires:
+            - build_and_test
     triggers:
       - schedule:
           cron: "0 4 * * *"
