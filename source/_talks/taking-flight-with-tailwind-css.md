@@ -7,6 +7,16 @@ tags: [css, tailwind, meetup]
 type: Lightning talk
 events:
     - { event: drupal-bristol, date: '2018-01-17' }
+meta:
+    og:
+        title: Taking Flight with Tailwind CSS
+        description: An introduction to utility CSS and Tailwind.
+        type: website
+        image:
+            url: '/assets/images/talks/taking-flight-tailwind.png'
+            width: 2560
+            height: 1440
+            type: 'image/png'
 ---
 An introduction to utility class and component based styling, and how to soar with [Tailwind CSS][1].
 
