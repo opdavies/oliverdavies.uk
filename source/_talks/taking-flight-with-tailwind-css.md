@@ -1,9 +1,9 @@
 ---
 title: Taking Flight with Tailwind CSS
 slides:
-    url: ~
-    embed: ~
-tags: []
+    url: https://speakerdeck.com/opdavies/taking-flight-with-tailwind-css
+    embed: '<script async class="speakerdeck-embed" data-id="10ca51f23560443d83b898a92929b4b3" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>'
+tags: [css, tailwind, meetup]
 type: Lightning talk
 events:
     - { event: drupal-bristol, date: '2018-01-17' }
