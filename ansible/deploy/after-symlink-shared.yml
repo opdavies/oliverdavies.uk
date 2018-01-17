@@ -5,10 +5,9 @@
    chdir: "{{ ansistrano_release_path.stdout }}"
 
 - name: Install Webpack Encore assets
-  command: yarn run encore production
+  command: './node_modules/.bin/encore production'
   args:
    chdir: "{{ ansistrano_release_path.stdout }}"
-  become: true
 
 - name: Install Composer dependencies
   composer:
