@@ -36,6 +36,7 @@ You can usually find me on Twitter ([@{{ site.twitter.name }}][21]) and IRC ({{ 
 
 - Drupal 7 & 8 core contributor
 - Acquia certified Drupal 8 Grand Master
+- Open source project maintainer
 - Drupal.org webmaster
 - Drupal sprinter
 - DrupalCon sprint mentor
