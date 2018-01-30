@@ -10,12 +10,13 @@ var PurgecssPlugin = require('purgecss-webpack-plugin');
  * https://github.com/FullHuman/purgecss-webpack-plugin
  */
 class TailwindExtractor {
-    static extract(content) {
-        return content.match(/[A-z0-9-:\/]+/g);
-    }
+  static extract(content) {
+    return content.match(/[A-z0-9-:\/]+/g);
+  }
 }
 
-Encore.cleanupOutputBeforeBuild()
+Encore
+    .cleanupOutputBeforeBuild()
     .setOutputPath('source/build/')
     .setPublicPath('/build')
     .enableLessLoader()
@@ -26,19 +27,22 @@ Encore.cleanupOutputBeforeBuild()
             path: 'postcss.config.js'
         };
     })
-    .enableSourceMaps(!Encore.isProduction());
+    .enableSourceMaps(!Encore.isProduction())
+;
 
 // PurgeCSS
-// Encore.addPlugin(new PurgecssPlugin({
-//     paths: glob.sync([
-//         path.join(__dirname, "source/**/*.{twig,html,md}")
-//     ]),
-//     extractors: [
-//         {
-//             extractor: TailwindExtractor,
-//             extensions: ['twig', 'html', 'md']
-//         }
-//     ]
-// }));
+Encore.addPlugin(
+    new PurgecssPlugin({
+        paths: glob.sync([
+            path.join(__dirname, "source/**/*.{twig,html,md}")
+        ]),
+        extractors: [
+            {
+                extractor: TailwindExtractor,
+                extensions: ['twig', 'html', 'md']
+            }
+        ]
+    })
+);
 
 module.exports = Encore.getWebpackConfig();
