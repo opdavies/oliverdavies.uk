@@ -7,7 +7,9 @@ meta:
         title: 'Oliver Davies - Drupal Developer'
         description: 'The personal website and blog of Oliver Davies, a Drupal Developer and System Administrator from Wales, UK.'
         type: website
-use: [posts, testimonials]
+use:
+    - posts
+    - testimonials
 ---
 # About Me
 
@@ -15,41 +17,30 @@ use: [posts, testimonials]
     <img src="{{ site.images_url }}{{ site.avatar.url }}" alt="Picture of Oliver" class="rounded-full">
 </div>
 
-My name is Oliver Davies (aka [opdavies][1]) - a full-stack Web Developer and System Administrator based in Wales, UK.
+My name is Oliver Davies (aka [opdavies][1]) - a Full Stack Web Developer and System Administrator based in Wales, UK.
 
-I specialise in open-source PHP technologies. I primarily work with Drupal and am an [Acquia certified Drupal Developer][41] but also work with Symfony, Silex, Laravel and Sculpin. I’m a {{ site.work.role }} at [{{ site.companies[site.work.company].name }}][20], former Developer at the [{{ site.companies.drupal_association.name }}][39], part-time freelancer, open source contributor and advocate, mentor and conference speaker.
+I primarily work with Drupal and am an [Acquia certified Drupal Developer][41] but also work with Symfony, Laravel and Sculpin. I’m a {{ site.work.role }} at [{{ site.companies[site.work.company].name }}][20], part-time freelancer, former Developer at the [{{ site.companies.drupal_association.name }}][39], open source contributor and advocate, mentor and conference speaker.
 
 I’m a webmaster and documentation maintainer for [Drupal.org][42], and a provisional member of the [Drupal Security team][14]. [I speak at various user groups and conferences][40], and co-organise the [Drupal Bristol user group][15], [PHPSW][17] and [DrupalCamp Bristol][18].
+
+You can usually find me on Twitter ([@{{ site.twitter.name }}][21]) and IRC ({{ site.irc.name }}), and you can see my open source work on my [Drupal.org account][22] and [GitHub profile][23] as well as on [Packagist][24] and [Ansible Galaxy][25].
 
 ## Skills
 
 - PHP, Drupal (6, 7, 8), Symfony, Silex, Laravel, Sculpin, Jekyll.
 - PHPUnit, SimpleTest, Behat.
-- HTML, CSS, Sass, Less, Tachyons, Twig, JavaScript, jQuery, Gulp, Grunt.
-- Linux (Debian, Ubuntu, CentOS, Red Hat), Git, SVN, Jenkins, Fabric, Ansible, Puppet, Vagrant, Docker.
+- HTML, CSS, Sass, Less, Twig, JavaScript, jQuery, Gulp, Webpack.
+- Linux (Debian, Ubuntu, CentOS, Red Hat), Git, Jenkins, Fabric, Ansible, Puppet, Vagrant, Docker.
 
-## Certifications
+## Community
 
-- Acquia certified Developer - Drupal 8 (June 2017) - 8th in the UK
-- Acquia certified Back End Specialist - Drupal 8 (July 2017) - 1st in the UK
-- Acquia certified Front End Specialist - Drupal 8 (November 2017) - 4th in the UK
-- Acquia certified Grand Master - Drupal 8 (November 2017) - 3rd in the UK
-
-## Elsewhere
-
-- [Twitter][21] - @{{ site.twitter.name }}
-- [Drupal.org][22]
-- [GitHub][23]
-- [Packagist][24]
-- [Ansible Galaxy][25]
-- [Joind.in][33]
-- [Speaker Deck][26]
-- [LinkedIn][27]
-- [YouTube][28]
-- [Reddit][36]
-- [Stack Overflow][37]
-- [Disqus][38]
-- IRC (freenode) - {{ site.irc.name }}
+- Drupal 7 & 8 core contributor
+- Acquia certified Drupal 8 Grand Master
+- Drupal.org webmaster
+- Drupal sprinter
+- DrupalCon sprint mentor
+- User group and conference organiser
+- Speaker
 
 [1]: https://www.google.com/#q=opdavies
 [2]: https://www.drupal.org
