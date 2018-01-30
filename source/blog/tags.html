@@ -5,10 +5,27 @@ title: Tags
 use:
   - posts_tags
 ---
-<h2>Tags</h2>
+<h1>Blog Tags</h1>
 
-<ul>
-{% for tag,posts in data.posts_tags %}
-  <li><a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a></li>
-{% endfor %}
-</ul>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Number of posts</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for tag, posts in data.posts_tags %}
+                <tr>
+                    <td>
+                        <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">
+                            {{ tag }}
+                        </a>
+                    </td>
+                    <td>{{ posts|length }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
