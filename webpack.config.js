@@ -1,5 +1,4 @@
 var Encore = require('@symfony/webpack-encore');
-var tailwindcss = require('tailwindcss');
 var glob = require('glob-all');
 var path = require('path');
 var PurgecssPlugin = require('purgecss-webpack-plugin');
@@ -10,13 +9,12 @@ var PurgecssPlugin = require('purgecss-webpack-plugin');
  * https://github.com/FullHuman/purgecss-webpack-plugin
  */
 class TailwindExtractor {
-  static extract(content) {
-    return content.match(/[A-z0-9-:\/]+/g);
-  }
+    static extract(content) {
+        return content.match(/[A-z0-9-:\/]+/g);
+    }
 }
 
-Encore
-    .cleanupOutputBeforeBuild()
+Encore.cleanupOutputBeforeBuild()
     .setOutputPath('source/build/')
     .setPublicPath('/build')
     .enableLessLoader()
@@ -27,10 +25,8 @@ Encore
             path: 'postcss.config.js'
         };
     })
-    .enableSourceMaps(!Encore.isProduction())
-;
+    .enableSourceMaps(!Encore.isProduction());
 
-// PurgeCSS
 Encore.addPlugin(
     new PurgecssPlugin({
         paths: glob.sync([
