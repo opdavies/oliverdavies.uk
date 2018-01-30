@@ -9,7 +9,6 @@ favicon_sizes: [ 160, 96, 32, 16 ]
 nav_links:
     - { title: About, href: '/', pattern: '/\.' }
     - { title: Experience, href: '/experience' }
-    - { title: Testimonials, href: '/testimonials' }
     - { title: Talks, href: '/talks' }
     - { title: Blog, href: '/blog' }
     - { title: Contact, href: '/contact' }
