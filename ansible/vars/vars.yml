@@ -107,7 +107,6 @@ nginx_vhosts:
       rewrite "^/cv/?$" https://gitprint.com/opdavies/cv/blob/master/README.md permanent;
       rewrite "^/drupalgive/?$" https://www.drupal.org/u/opdavies permanent;
       rewrite "^/git-flow/?$" /talks/git-flow permanent;
-      rewrite "^/portfolio/?$" /projects permanent;
       rewrite "^/slides/bristol-dug/drupal-vm-generator/?$" http://opdavies.github.io/slides-drupal-vm-generator permanent;
       rewrite "^/slides/phpsw/building-static-websites-with-sculpin/?$" https://opdavies.github.io/slides-phpsw-sculpin permanent;
       rewrite "^/speaker-info/?$" https://github.com/opdavies/talks/blob/master/speaker-bio.md permanent;
