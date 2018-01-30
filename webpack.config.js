@@ -34,7 +34,7 @@ Encore
 Encore.addPlugin(
     new PurgecssPlugin({
         paths: glob.sync([
-            path.join(__dirname, "source/**/*.{twig,html,md}")
+            path.join(__dirname, "output_*/**/*.html"),
         ]),
         extractors: [
             {
