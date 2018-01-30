@@ -1,6 +1,6 @@
 {% if data.posts and page.url != '/blog' %}
-    <div class="lh-copy">
-        <h2>Latest blog posts</h2>
+    <div class="mb-6 lh-copy">
+        <h2>Latest Blog Posts</h2>
 
         <ul class="bullets">
             {% for post in data.posts|slice(0, site.latest_posts) %}
