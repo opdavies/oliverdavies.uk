@@ -41,6 +41,7 @@ You can usually find me on Twitter ([@{{ site.twitter.name }}][21]) and IRC ({{ 
 - Drupal sprinter
 - DrupalCon sprint mentor
 - User group and conference organiser
+- Blogger and author
 - Speaker
 
 [1]: https://www.google.com/#q=opdavies
