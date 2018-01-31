@@ -1,5 +1,10 @@
 <head>
-    <title>{% if page.url == '/.' %}{{ site.subtitle }} | {{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
+    <title>
+        {% if page.title is defined and page.url != '/.' %}
+            {{ page.title }} |
+        {% endif %}
+        {{ site.title }} - {{ site.subtitle }}
+    </title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +16,9 @@
 
     {% include 'og' with { og: page.meta.og } %}
 
-    <link rel="stylesheet" href="{{ site.url }}/build/css/site.css">
-    {% block stylesheets '' %}
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ site.url }}/build/css/site.css">
+    {% endblock %}
 
     {% for size in site.apple_touch_icon_sizes %}
         <link rel="apple-touch-icon" href="{{ site.favicon.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
