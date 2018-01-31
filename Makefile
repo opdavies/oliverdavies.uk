@@ -3,7 +3,7 @@ PORT := 8000
 
 .PHONY: test
 
-all: init build
+all: init generate-assets build
 
 clean:
 	rm -rf \
@@ -16,7 +16,6 @@ clean:
 init:
 	composer install
 	yarn install
-	generate-assets
 
 generate-assets:
 	yarn run encore dev
