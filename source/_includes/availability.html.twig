@@ -3,7 +3,7 @@
 
     <ul class="list-reset">
         {% for type, value in site.availability %}
-            <li>
+            <li class="block mb-1">
                 {% include 'availability/' ~ value %}
             </li>
         {% endfor %}
