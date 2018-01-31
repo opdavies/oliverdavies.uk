@@ -1,4 +1,5 @@
 {
+  "private": true,
   "devDependencies": {
     "@symfony/webpack-encore": "^0.17.1",
     "autoprefixer": "^7.2.4",
