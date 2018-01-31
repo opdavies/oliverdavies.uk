@@ -27,18 +27,20 @@ Encore.cleanupOutputBeforeBuild()
     })
     .enableSourceMaps(!Encore.isProduction());
 
-Encore.addPlugin(
-    new PurgecssPlugin({
-        paths: glob.sync([
-            path.join(__dirname, "output_*/**/*.html"),
-        ]),
-        extractors: [
-            {
-                extractor: TailwindExtractor,
-                extensions: ['twig', 'html', 'md']
-            }
-        ]
-    })
-);
+if (Encore.isProduction()) {
+    Encore.addPlugin(
+        new PurgecssPlugin({
+            paths: glob.sync([
+                path.join(__dirname, "output_*/**/*.html"),
+            ]),
+            extractors: [
+                {
+                    extractor: TailwindExtractor,
+                    extensions: ['twig', 'html', 'md']
+                }
+            ]
+        })
+    );
+}
 
 module.exports = Encore.getWebpackConfig();
