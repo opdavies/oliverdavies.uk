@@ -15,12 +15,12 @@
                 </div>
             </div>
 
-            <nav class="w-full md:w-2/3 lg:w-3/4 hidden sm:flex sm:flex-wrap sm:justify-end">
-                {% for link in site.nav_links %}
-                    <a href="{{ link.href }}" class="flex items-center sm:ml-4 p-4 sm:p-0 -mx-4 sm:mx-0 sm:border-b-3 {{ page.url matches '#^' ~ (link.pattern ?: link.href) ~ '/?#' ? 'bg-grey-light sm:bg-transparent sm:border-blue' : 'sm:border-transparent' }} {{ loop.first ? 'border-t border-grey-lighter sm:border-t-0' }}">
-                        {{- link.title -}}
-                    </a>
-                {% endfor %}
+            <nav class="nav hidden sm:flex">
+                <a href="/" class="nav-item {{ page.url == '/.' ? 'nav-item--active' }}">About</a>
+                <a href="/experience" class="nav-item {{ page.url matches '#^/experience/?#' ? 'nav-item--active' }}">Experience</a>
+                <a href="/talks" class="nav-item {{ page.url matches '#^/talks/?#' ? 'nav-item--active' }}">Talks</a>
+                <a href="/blog" class="nav-item {{ page.url matches '#^/blog/?#' ? 'nav-item--active' }}">Blog</a>
+                <a href="/contact" class="nav-item {{ page.url matches '#^/contact/?#' ? 'nav-item--active' }}">Contact</a>
             </nav>
         </div>
     </header>
