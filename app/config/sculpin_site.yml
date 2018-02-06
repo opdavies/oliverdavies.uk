@@ -187,6 +187,11 @@ events:
         location: London, UK
         website: http://drupalcamp.london
 
+    drupalcamp-london-18:
+        name: DrupalCamp London 2018
+        location: London, UK
+        website: http://drupalcamp.london
+
     drupalcamp-north-15:
         name: DrupalCamp North 2015
         location: Sunderland, UK
