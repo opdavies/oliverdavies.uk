@@ -1,4 +1,6 @@
 /node_modules/
 /output_*/
-/source/build/
+/source/assets/
 /vendor/
+mix-manifest.json
+mix.js.map

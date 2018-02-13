@@ -17,7 +17,8 @@
     {% include 'og' with { og: page.meta.og } %}
 
     {% block stylesheets %}
-        <link rel="stylesheet" href="{{ site.url }}/build/css/site.css">
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/vendor.css">
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
     {% endblock %}
 
     {% for size in site.apple_touch_icon_sizes %}
