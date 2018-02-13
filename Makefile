@@ -28,6 +28,3 @@ serve:
 
 watch:
 	vendor/bin/sculpin generate --server --env=$(ENV) --port=$(PORT) --watch
-
-test:
-	vendor/bin/phpunit

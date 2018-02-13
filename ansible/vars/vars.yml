@@ -131,6 +131,7 @@ nginx_vhosts:
       rewrite "^/talks/2016/11/17/goodbye-drush-make-hello-composer-drupal-bristol/?$" /talks/goodbye-drush-make-hello-composer permanent;
       rewrite "^/talks/2017/01/18/getting-your-data-into-drupal-8-drupal-bristol/?$" /talks/getting-your-data-into-drupal-8 permanent;
       rewrite "^/talks/2017/03/04/getting-your-data-into-drupal-8-drupalcamp-london-2017/?$" /talks/getting-your-data-into-drupal-8 permanent;
+      rewrite "^/talks/archive/?$" /talks permanent;
       rewrite '^/talks/deploying-php-applications-with-fabric/?$' /talks/deploying-php-fabric permanent;
       rewrite "^/talks/drupal-vm-generator-2/?$" /talks/drupal-vm-generator permanent;
       rewrite "^/talks/drupalorg-2015-2/?$" /talks/drupalorg-2015 permanent;
