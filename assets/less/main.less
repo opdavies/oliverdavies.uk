@@ -1,5 +1,5 @@
-@import (less) "~font-awesome/css/font-awesome.css";
-@import (less) "~highlightjs/styles/github-gist.css";
+// @import (less) "~font-awesome/css/font-awesome.css";
+// @import (less) "~highlightjs/styles/github-gist.css";
 
 @tailwind preflight;
 
@@ -61,16 +61,17 @@ svg {
     fill: currentColor;
 }
 
-.table-collapse { border-collapse: collapse }
+.table-collapse {
+    border-collapse: collapse;
+}
 
-@import 'components/listing';
-@import 'components/nav';
-@import 'components/post';
-@import 'components/post/about-author';
-@import 'components/post/code';
-@import 'components/table';
-@import 'components/talk/slides';
-@import 'components/talk/video';
-@import 'components/testimonial';
+@import 'components/listing.less';
+@import 'components/nav.less';
+@import 'components/post.less';
+@import 'components/post/about-author.less';
+@import 'components/post/code.less';
+@import 'components/table.less';
+@import 'components/talk/slides.less';
+@import 'components/talk/video.less';
 
 @tailwind utilities;

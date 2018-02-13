@@ -9,8 +9,7 @@ clean:
 	rm -rf \
 		node_modules \
 		output_* \
-		source/assets/css \
-		source/assets/fonts \
+		source/assets \
 		vendor
 
 init:
