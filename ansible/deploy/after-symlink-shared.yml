@@ -15,7 +15,7 @@
    chdir: "{{ ansistrano_release_path.stdout }}"
 
 - name: Install Webpack Encore assets
-  command: './node_modules/.bin/encore production'
+  command: yarn run production
   args:
    chdir: "{{ ansistrano_release_path.stdout }}"
 
