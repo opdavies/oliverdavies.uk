@@ -6,20 +6,29 @@ meta:
 use: [talks]
 ---
 {% block content %}
-    <p>I regularly speak at conferences and user groups about a range of subjects including Drupal, Sculpin and Git. If you would like to me to speak at your group or conference, please <a href="{{ site.url }}/contact">get in touch</a>.</p>
+    {% for talk in data.talks %}
+        <div class="flex flex-row-reverse -mx-2 mb-12">
+            <div class="flex-1 mx-2">
+                <h2>
+                    <a href="{{ talk.url }}">
+                        {{ talk.title }}
+                    </a>
+                </h2>
 
-    <h2>Upcoming Talks</h2>
+                <div>
+                    {{ talk.summary|markdown }}
+                </div>
+            </div>
 
-    {% set upcoming_talks = getUpcomingTalks(data.talks, site.events) %}
-    {% if upcoming_talks %}
-        {% include "talks-table" with { talks: upcoming_talks, upcoming: true } %}
-    {% else %}
-        <p>Nothing scheduled at the moment.</p>
-    {% endif %}
-
-    <h2>Last 5 Talks</h2>
-
-    {% include "talks-table" with { talks: getPastTalks(data.talks, site.events)|slice(0,5) } %}
-
-    <p>All previous talks can be found in the <a href="{{ site.url }}/talks/archive">talks archive</a>.</p>
+            {% if talk.image %}
+                <div class="w-1/4 mx-2">
+                    <img
+                        src="/assets/images/talks/{{ talk.image }}"
+                        alt="{{ talk.title }}"
+                        class="border border-solid p-1 bg-white"
+                    >
+                </div>
+            {% endif %}
+        </div>
+    {% endfor %}
 {% endblock %}

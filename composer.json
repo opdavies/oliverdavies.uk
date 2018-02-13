@@ -20,23 +20,5 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "autoload": {
-        "psr-4": {
-            "FormatTalksBundle\\": "src/FormatTalksBundle"
-        },
-        "files": ["src/helpers.php"]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests"
-        }
-    },
-    "extra": {
-        "merge-plugin": {
-            "include": [
-                "src/*/composer.json"
-            ]
-        }
     }
 }
