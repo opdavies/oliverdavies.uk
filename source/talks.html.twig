@@ -7,8 +7,8 @@ use: [talks]
 ---
 {% block content %}
     {% for talk in data.talks %}
-        <div class="flex flex-row-reverse -mx-2 mb-12">
-            <div class="flex-1 mx-2">
+        <div class="sm:flex sm:flex-row-reverse sm:-mx-2 mb-12 sm:mb-12">
+            <div class="sm:flex-1 sm:mx-2">
                 <h2>
                     <a href="{{ talk.url }}">
                         {{ talk.title }}
@@ -21,7 +21,7 @@ use: [talks]
             </div>
 
             {% if talk.image %}
-                <div class="w-1/4 mx-2">
+                <div class="hidden sm:block sm:w-1/5 md:w-1/4 sm:mx-2">
                     <img
                         src="/assets/images/talks/{{ talk.image }}"
                         alt="{{ talk.title }}"
