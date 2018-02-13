@@ -16,8 +16,6 @@
     ansistrano_deploy_via: git
     ansistrano_git_repo: https://github.com/opdavies/oliverdavies.uk.git
     ansistrano_git_branch: "{{ git_branch }}"
-    ansistrano_shared_paths:
-      - node_modules
     ansistrano_keep_releases: 3
     ansistrano_allow_anonymous_stats: false
     ansistrano_after_symlink_shared_tasks_file: "{{ playbook_dir }}/deploy/after-symlink-shared.yml"
