@@ -14,7 +14,7 @@
   args:
    chdir: "{{ ansistrano_release_path.stdout }}"
 
-- name: Install Webpack Encore assets
+- name: Install Laravel Mix assets
   command: yarn run production
   args:
    chdir: "{{ ansistrano_release_path.stdout }}"
