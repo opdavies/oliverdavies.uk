@@ -1,9 +1,8 @@
-{% if page.slides.embed %}
+{% if page.speakerdeck.id and page.speakerdeck.ratio %}
     <div class="mt-4">
         <h2>Slides</h2>
 
-        <div class="talk-slides">
-            {{ page.slides.embed|raw }}
-        </div>
+        <noscript>**Please enable JavaScript to view slides.**</noscript>
+        <script async class="speakerdeck-embed" data-id="{{ page.speakerdeck.id }}" data-ratio="{{ page.speakerdeck.ratio }}" src="//speakerdeck.com/assets/embed.js"></script>
     </div>
 {% endif %}

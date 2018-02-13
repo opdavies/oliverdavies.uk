@@ -1,9 +1,29 @@
-{% if page.video.embed %}
+{% if page.youtube.id or page.vimeo.id %}
     <div class="mt-4">
         <h2>Video</h2>
 
         <div class="talk-video">
-            {{ page.video.embed|raw }}
+            {% if page.youtube.id %}
+                <iframe
+                    width="678"
+                    height="408"
+                    src="//www.youtube.com/embed/{{ page.youtube.id }}"
+                    frameborder="0"
+                    allowfullscreen
+                >
+                </iframe>
+            {% elseif page.vimeo.id %}
+                <iframe
+                    src="https://player.vimeo.com/video/{{ page.vimeo.id }}"
+                    width="640"
+                    height="360"
+                    frameborder="0"
+                    webkitallowfullscreen
+                    mozallowfullscreen
+                    allowfullscreen
+                >
+                </iframe>
+            {% endif %}
         </div>
     </div>
 {% endif %}

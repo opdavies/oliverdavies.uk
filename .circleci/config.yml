@@ -15,11 +15,6 @@ jobs:
           paths:
             - ./vendor
           key: v1-dependencies-{{ checksum "composer.json" }}
-      - run: ./vendor/bin/phpunit --log-junit ~/phpunit/junit.xml
-      - store_test_results:
-          path: ~/phpunit
-      - store_artifacts:
-          path: ~/phpunit
 
   deploy:
     docker:
@@ -48,15 +43,3 @@ workflows:
       - deploy:
           requires:
             - build_and_test
-  nightly:
-    jobs:
-      - build_and_test
-      - deploy:
-          requires:
-            - build_and_test
-    triggers:
-      - schedule:
-          cron: "0 4 * * *"
-          filters:
-            branches:
-              only: master
