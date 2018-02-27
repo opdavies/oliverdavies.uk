@@ -10,8 +10,6 @@ use: [posts]
 {% endblock %}
 
 {% block content %}
-[Vagrant](http://www.vagrantup.com "About Vagrant") is a tool for managing virtual machines within [VirtualBox](https://www.virtualbox.org) from the command line. Here are some useful commands to know when using Vagrant:
-
 Command | Description
 :-|:-
 vagrant init {box} | Initialise a new VM in the current working directory. Specify a box name, or "base" will be used by default.

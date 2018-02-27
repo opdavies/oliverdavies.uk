@@ -11,8 +11,6 @@ How to install and configure the [Stage File Proxy](https://www.drupal.org/proje
 {% endblock %}
 
 {% block content %}
-Download the [Stage File Proxy](https://www.drupal.org/project/stage_file_proxy) module from Drupal.org and enable it on your site.
-
 As this module is only going to be needed on pre-production sites, it would be better to configure this within your settings.php or settings.local.php file. We do this using the `$conf` array which removes the need to configure the module through the UI and store the values in the database.
 
 ```language-php

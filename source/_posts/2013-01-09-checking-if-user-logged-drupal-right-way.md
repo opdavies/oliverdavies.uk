@@ -15,8 +15,6 @@ I see this regularly when working on Drupal sites when someone wants to check wh
 {% endblock %}
 
 {% block content %}
-I see this regularly when working on Drupal sites when someone wants to check whether the current user is logged in to Drupal (authenticated) or not (anonymous):
-
 ```language-php
 global $user;
 if ($user->uid) {

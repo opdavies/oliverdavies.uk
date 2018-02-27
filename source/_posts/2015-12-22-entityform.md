@@ -16,10 +16,6 @@ Here are the steps that I took to be able to load, render and embed the form.
 {% endblock %}
 
 {% block content %}
-I recently had my first experience using the [Entityform module](https://www.drupal.org/project/entityform) in a project. It was quite easy to configure with different form types, but then I needed to embed the form into an overlay. I was expecting to use the `drupal_get_form()` function and render it, but this didn’t work.
-
-Here are the steps that I took to be able to load, render and embed the form.
-
 ## Loading the Form
 
 The first thing that I needed to do to render the form was to load an empty instance of the entityform using `entityform_empty_load()`. In this example, `newsletter` is the name of my form type.

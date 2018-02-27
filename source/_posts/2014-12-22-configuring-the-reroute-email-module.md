@@ -14,8 +14,6 @@ use: [posts]
 {% endblock %}
 
 {% block content %}
-[Reroute Email](https://www.drupal.org/project/reroute_email) module uses `hook_mail_alter()` to prevent emails from being sent to users from non-production sites. It allows you to enter one or more email addresses that will receive the emails instead of delivering them to the original user.
-
 > This is useful in case where you do not want email sent from a Drupal site to reach the users. For example, if you copy a live site to a test site for the purpose of development, and you do not want any email sent to real users of the original site. Or you want to check the emails sent for uniform formatting, footers, ...etc.
 
 As we don't need the module configured on production (we don't need to reroute any emails there), it's best to do this in code using settings.local.php (if you have one) or the standard settings.php file.

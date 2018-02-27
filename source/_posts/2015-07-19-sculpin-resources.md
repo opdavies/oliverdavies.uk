@@ -16,8 +16,6 @@ Here’s a list of resources that I compiled whilst preparing for my [Sculpin an
 {% endblock %}
 
 {% block content %}
-Here’s a list of resources that I compiled whilst preparing for my [Sculpin and Twig talk](http://drupalcampnorth.org/session/test-drive-twig-sculpin) at [DrupalCamp North](http://drupalcampnorth.org).
-
 ## General Information
 
 * <https://sculpin.io>

@@ -12,8 +12,6 @@ These preferences ensure that the code is compliant with [Drupal coding standard
 {% endblock %}
 
 {% block content %}
-[Sublime Text 2](http://www.sublimetext.com/2) has been my text editor of choice for the past few months, and I use it at home, in work, and on any virtual machines that I run. So rather than having to manually re-enter my settings each time, I thought that I'd document them here for future reference. These preferences ensure that the code is compliant with [Drupal coding standards](http://drupal.org/coding-standards "Drupal coding standards on Drupal.org") - using two spaces instead of a tab, no trailing whitespace, blank line at the end of a file etc.
-
 ## Preferences
 
 These can be changed by going to Preferences > Settings - User.

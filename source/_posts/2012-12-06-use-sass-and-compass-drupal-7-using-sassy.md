@@ -17,8 +17,6 @@ I've recently started using [SASS](http://sass-lang.com) rather than LESS to do 
 {% endblock %}
 
 {% block content %}
-I've recently started using [SASS](http://sass-lang.com) rather than LESS to do my CSS preprocessing - namely due to its integration with [Compass](http://compass-style.org) and it's built-in CSS3 mixins. There are three modules that provide the ability to use SASS within Drupal:
-
 * [Sassy](http://drupal.org/project/sassy "Sassy module on drupal.org")
 * [Prepro](http://drupal.org/project/prepro "Prepro module on drupal.org")
 * [Libraries API](http://drupal.org/project/libraries "Libraries API module on drupal.org")
