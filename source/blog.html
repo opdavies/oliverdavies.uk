@@ -19,10 +19,12 @@ use: [posts]
 
                 {% include 'post/intro-image' with { page: post } %}
 
-                {% if post.excerpt %}
-                    {{ post.excerpt|markdown }}
+                {% if post.blocks.excerpt %}
+                    {{ post.blocks.excerpt|raw }}
+                {% elseif '<!-- split -->' in post.blocks.content %}
+                    {{ post.blocks.content|split('<!-- split -->')|first|raw }}
                 {% else %}
-                    {{ post.blocks.content|split('\n\n')|first|raw }}
+                    <p>{{ post.blocks.content|raw|striptags|split(' ')|slice(0,50)|join(' ')|replace({ 'h2': 'h3' }) }} &hellip;</p>
                 {% endif %}
 
                 <p><a href="{{ post.url }}">Read more &rarr;</a></p>
