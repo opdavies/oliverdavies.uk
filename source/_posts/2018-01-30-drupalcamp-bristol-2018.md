@@ -17,9 +17,11 @@ meta:
            height: 448
            type: image/img
 ---
+{% block excerpt %}
 It’s with heavy hearts that we are announcing there won’t be a DrupalCamp Bristol 2018. The committee have looked at the amount of work required to put the camp on and the capacity we all have and the two numbers are irreconcilable.
-<!-- split -->
+{% endblock %}
 
+{% block content %}
 Seeing Drupalists from all over the country and from overseas come to Bristol to share knowledge and ideas is something we take pride in. The past three camps have been fantastic, but as a trend we have left it later and later to organise.
 
 This year is the latest we have left to organise and we believe this is because we are all a bit fatigued right now, so it seems like a good place to stop and take stock.
@@ -33,3 +35,4 @@ We’ll take the gap this year to reevaluate who DrupalCamp Bristol is for and w
 The DrupalCamp Bristol organising committee
 
 Tom, Ollie, Emily, Sophie, Rob, Mark
+{% endblock %}
