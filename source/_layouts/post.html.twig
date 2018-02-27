@@ -24,7 +24,10 @@
     {% include 'post/header' %}
     {% include 'post/intro-image' %}
 
-    {% block content %}{% endblock %}
+    <div class="mb-6">
+        {% block excerpt %}{% endblock %}
+        {% block content %}{% endblock %}
+    </div>
 
     {% include 'post/twitter-link' %}
     {% include 'post/tags' %}
