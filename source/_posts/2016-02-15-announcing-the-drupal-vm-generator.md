@@ -13,8 +13,6 @@ For the past few weeks I’ve been working on a personal side project, based on 
 {% endblock %}
 
 {% block content %}
-For the past few weeks I’ve been working on a personal side project, based on Drupal VM. It’s called the [Drupal VM Generator][1], and over the weekend I’ve added the final features and fixed the remaining issues, and tagged the 1.0.0 release.
-
 ![](/assets/images/blog/drupalvm-generate-repo.png)
 
 ## What is Drupal VM?

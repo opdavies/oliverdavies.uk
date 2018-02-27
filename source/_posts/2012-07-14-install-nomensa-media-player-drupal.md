@@ -15,8 +15,6 @@ This week I released the first version of the Nomensa Accessible Media Player mo
 {% block content %}
 *The official documentation for this module is now located at <https://www.drupal.org/node/2383447>. This post was accurate at the time of writing, whereas the documentation page will be kept up to date with any future changes.*
 
-This week I released the first version of the Nomensa Accessible Media Player module for Drupal 7. Here's some instructions of how to install and configure it.
-
 ## Initial configuration
 
 ### Download the Library

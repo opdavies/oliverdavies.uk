@@ -13,10 +13,6 @@ To bootstrap Drupal, you would need to add some additional lines of code to the 
 {% endblock %}
 
 {% block content %}
-There are times when doing Drupal development when you need to run a custom PHP script, maybe moving data from one field to another, that doesn't warrant the time and effort to create a custom module. In this scenario, it would be quicker to write a .php script and bootstrap Drupal to gain access to functions like `node_load()` and `db_query()`.
-
-To bootstrap Drupal, you would need to add some additional lines of code to the stop of your script. Something like:
-
 ```language-php
 <?php
 

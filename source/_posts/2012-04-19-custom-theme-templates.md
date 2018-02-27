@@ -15,10 +15,6 @@ I have previously seen it done this way by adding this into in a node.tpl.php fi
 {% endblock %}
 
 {% block content %}
-Today, I had a situation where I was displaying a list of teasers for news article nodes. The article content type had several different fields assigned to it, including main and thumbnail images. In this case, I wanted to have different output and fields displayed when a teaser was displayed compared to when a complete node was displayed.
-
-I have previously seen it done this way by adding this into in a node.tpl.php file:
-
 ```language-php
 if ($teaser) {
   // The teaser output.

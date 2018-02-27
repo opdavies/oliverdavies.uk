@@ -10,8 +10,6 @@ Today was my last day working at [Precedent](http://www.precedent.com). Next wee
 {% endblock %}
 
 {% block content %}
-Today was my last day working at [Precedent](http://www.precedent.com). Next week, I'll be starting my [new job](https://assoc.drupal.org/node/18923 "Drupal.org Developer") at the [Drupal Association](http://assoc.drupal.org) working on Drupal's home - [Drupal.org](http://www.drupal.org).
-
 I was at Precedent for just over a year and had the opportunity to work on several Drupal projects from project leading to ad-hoc module and theme development, including my largest Drupal build to date.
 
 I was also lucky enough to go to [DrupalCon Prague](http://prague2013.drupal.org) as well as [DrupalCamp London](http://2014.drupalcamplondon.co.uk).

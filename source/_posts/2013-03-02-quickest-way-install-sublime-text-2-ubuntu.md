@@ -12,7 +12,7 @@ After reading numerous blog posts about how to install [Sublime Text 2](http://w
 {% endblock %}
 
 {% block content %}
-After reading numerous blog posts about how to install [Sublime Text 2](http://www.sublimetext.com/2 "Sublime Text 2") in [Ubuntu](http://www.ubuntu.com/2 "Ubuntu"), this is definitely the quickest way! Just paste the following lines into your Terminal:
+Just paste the following lines into your Terminal:
 
 ```language-bash
 $ sudo add-apt-repository ppa:webupd8team/sublime-text-2
