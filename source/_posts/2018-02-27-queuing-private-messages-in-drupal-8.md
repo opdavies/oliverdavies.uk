@@ -6,7 +6,11 @@ tags:
     - drupal-modules
     - drupal-planet
     - open-source
-draft: true
+meta:
+    og:
+        title: Queuing Private Messages in Drupal 8
+        description: How to queue private messages in Drupal 8 with the Private Message Queue module.
+        type: website
 ---
 {% block excerpt %}
 My current project at [Microserve][0] is a Drupal 8 website that uses the [Private Message][1] module for users to send messages to each other.
