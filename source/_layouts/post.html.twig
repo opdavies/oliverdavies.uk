@@ -24,6 +24,10 @@
     {% include 'post/header' %}
     {% include 'post/intro-image' %}
 
+    {% if page.excerpt %}
+        {{ page.excerpt|markdown }}
+    {% endif %}
+
     {% block content %}{% endblock %}
 
     {% include 'post/twitter-link' %}
