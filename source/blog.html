@@ -21,8 +21,6 @@ use: [posts]
 
                 {% if post.blocks.excerpt %}
                     {{ post.blocks.excerpt|raw }}
-                {% elseif '<!-- split -->' in post.blocks.content %}
-                    {{ post.blocks.content|split('<!-- split -->')|first|raw }}
                 {% else %}
                     <p>{{ post.blocks.content|raw|striptags|split(' ')|slice(0,50)|join(' ')|replace({ 'h2': 'h3' }) }} &hellip;</p>
                 {% endif %}

@@ -3,9 +3,11 @@ title: Nginx Redirects With Query String Arguments
 tags: [nginx]
 use: [posts]
 ---
+{% block excerpt %}
 This is an example of how my Nginx configuration looked to redirect from an old domain to a new one, and also to redirect from the root `example.com` domain to the canonical `www` subdomain.
-<!-- split -->
+{% endblock %}
 
+{% block content %}
 ```language-nginx
 server {
   listen 80;
@@ -44,3 +46,4 @@ Here is an demo of it working on this website:
 
 - [Query string](https://en.wikipedia.org/wiki/Query_string)
 - [Nginx ngx_http_core_module](http://nginx.org/en/docs/http/ngx_http_core_module.html)
+{% endblock %}
