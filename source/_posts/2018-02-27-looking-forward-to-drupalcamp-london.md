@@ -45,7 +45,7 @@ See everyone this weekend!
 
 [0]: {{site.url}}/blog/2014/02/09/drupalcamp-london-2014
 [1]: https://drupalcamp.london
-[2]: {{site.companies[site.work.company].url}}
+[2]: {{site.companies.microserve.url}}
 [3]: {{site.url}}/talks/git-flow
 [4]: {{site.url}}/talks/deploying-drupal-fabric
 [5]: http://ryanszrama.com
