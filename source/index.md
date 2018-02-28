@@ -2,10 +2,10 @@
 layout: default
 title: About
 meta:
-    description: 'The personal website and blog of Oliver Davies, a Drupal Developer and System Administrator from Wales, UK.'
+    description: 'The personal website and blog of Oliver Davies, a Full Stack Developer and System Administrator from Wales, UK.'
     og:
-        title: 'Oliver Davies - Drupal Developer'
-        description: 'The personal website and blog of Oliver Davies, a Drupal Developer and System Administrator from Wales, UK.'
+        title: 'Oliver Davies - Full Stack Developer, System Administrator, PHP and Drupal specialist'
+        description: 'The personal website and blog of Oliver Davies, a Full Stack Developer and System Administrator from Wales, UK.'
         type: website
 use:
     - posts
