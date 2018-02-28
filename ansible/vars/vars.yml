@@ -1,5 +1,6 @@
 ---
 server_name: www.oliverdavies.uk
+server_name: www.oliverdavi.es
 
 nginx_vhosts:
   - listen: 80
