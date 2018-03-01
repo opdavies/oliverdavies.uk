@@ -7,8 +7,11 @@ tags:
 slug: automating-sculpin-jenkins
 use: [posts]
 ---
+{% block excerpt %}
 As part of re-building this site with [Sculpin](http://sculpin.io), I wanted to automate the deployments, as in I wouldn't need to run a script like [publish.sh](https://raw.githubusercontent.com/sculpin/sculpin-blog-skeleton/master/publish.sh) locally and have that deploy my code onto my server. Not only did that mean that my local workflow was simpler (update, commit and push, rather than update, commit, push and deploy), but if I wanted to make a quick edit or hotfix, I could log into GitHub or Bitbucket (wherever I decided to host the source code) from any computer or my phone, make the change and have it deployed for me.
+{% endblock %}
 
+{% block content %}
 I'd started using [Jenkins CI](http://jenkins-ci.org) during my time at the Drupal Association, and had since built my own Jenkins server to handle deployments of Drupal websites, so that was the logical choice to use.
 
 ## Installing Jenkins and Sculpin
@@ -130,3 +133,4 @@ fi
 ```
 
 I've been working on a `redirects.php` script that generates redirects from a .csv file, after seeing similar things in the [Pantheon Documentation](https://github.com/pantheon-systems/documentation) and [That Podcast](https://github.com/thatpodcast/thatpodcast.io) repositories. This checks if that file exists, and if so, runs it and generates the source file containing each redirect.
+{% endblock %}

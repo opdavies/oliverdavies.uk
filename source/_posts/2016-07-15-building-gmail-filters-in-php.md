@@ -5,10 +5,13 @@ tags:
     - gmail
 use: [posts]
 ---
+{% block excerpt %}
 Earlier this week I wrote a small PHP library called [GmailFilterBuilder][0] that allows you to write Gmail filters in PHP and export them to XML.
 
 I was already aware of a Ruby library called [gmail-britta][1] that does the same thing, but a) I’m not that familiar with Ruby so the syntax wasn’t that natural to me - it’s been a while since I wrote any Puppet manifests, and b) it seemed like a interesting little project to work on one evening.
+{% endblock %}
 
+{% block content %}
 The library contains two classes - `GmailFilter` which is used to create each filter, and `GmailFilterBuilder` that parses the filters and generates the XML using a [Twig][2] template.
 
 ## Usage
@@ -72,6 +75,7 @@ For a working example, see my personal [gmail-filters][3] repository on GitHub.
 * [The GmailFilterBuilder library on Packagist][4]
 * [My Gmail filters on GitHub][3]
 * [My Twig Extensions on Packagist][5]
+{% endblock %}
 
 [0]: https://github.com/opdavies/gmail-filter-builder
 [1]: https://github.com/antifuchs/gmail-britta
