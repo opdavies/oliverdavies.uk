@@ -10,10 +10,13 @@ tags:
   - drupal
 use: [posts]
 ---
+{% block excerpt %}
 In this tutorial I'll be showing how to create an [Omega](http://drupal.org/project/omega) subtheme using the [Omega Tools](http://drupal.org/project/omega_tools) module, and have it working with the [LESS CSS preprocessor](http://lesscss.org).
 
 The first thing that I need to do is download the Omega theme and the Omega Tools and [LESS](http://drupal.org/project/less "LESS module on drupal.org") modules, and then to enable both modules. I'm doing this using Drush, but you can of course do this via the admin interface at admin/modules.
+{% endblock %}
 
+{% block content %}
 ```language-bash
 $ drush dl less omega omega_tools;
 $ drush en -y less omega_tools
@@ -40,3 +43,4 @@ $ drush cc all
 I tested my changes by making some quick additions to my global.less file and reloading the page.
 
 If your changes aren't applied, then confirm that your global.less file is enabled within your theme's configuration. I did this by going to admin/appearance/settings/oliverdavies, clicking on the Toggle styles tab within *Layout configuration* and finding global.less at the bottom of *Enable optional stylesheets*.
+{% endblock %}

@@ -10,10 +10,13 @@ tags:
   - imagefield
 use: [posts]
 ---
+{% block excerpt %}
 Whilst working on my own portfolio/testimonial website, I decided to have a portfolio page displaying the name of each site and a thumbnail image. For this Blog post, I'll be using a site called [Popcorn Strips](http://popcornstrips.com) which I built for a friend earlier this year as an example.
 
 I created a content type called 'Project' with a CCK ImageField called 'Screenshot'. I created a project called [Popcorn Strips](http://popcornstrips.com), used the [ScreenGrab](https://addons.mozilla.org/addon/1146) add-on for Mozilla Firefox to take a screenshot of the website, and uploaded it to the project node.
+{% endblock %}
 
+{% block content %}
 I created a View to display the published projects, and an ImageCache 
 preset to create the thumbnail image by scaling and cropping the image 
 to a size of 200x100 pixels. 
@@ -28,3 +31,4 @@ I then added a new 'Javascript crop' action with the following settings:
 * Height: 100px
 * xoffset: Left
 * yoffset: Top
+{% endblock %}

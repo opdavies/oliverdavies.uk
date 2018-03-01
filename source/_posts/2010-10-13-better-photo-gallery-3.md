@@ -5,10 +5,13 @@ tags:
   - drupal
 use: [posts]
 ---
+{% block excerpt %}
 The next part of the new gallery that I want to implement is to group the galleries by their respective categories. The first step is to edit my original photo_gallery view and add an additional display.
 
 I've called it 'Taxonomy', and it's similar to the original 'All Galleries' view. The differences are that I've added the taxonomy term as an argument, removed the header, and updated the path to be `gallery/%`. The other thing that I need to do is overwrite the output of the original 'All Galleries' View by creating a file called `views-view--photo-gallery--page-1.tpl.php` and placing it within my theme directory.
+{% endblock %}
 
+{% block content %}
 Within that file, I can remove the standard content output. This still outputs the heading information from the original View. I can now use the function called 'views_embed_view' to embed my taxonomy display onto the display. The views_embed_view function is as follows:
 
 ```language-php
@@ -32,3 +35,4 @@ while ($term = db_fetch_array($terms)) {
 }
 ?>
 ```
+{% endblock %}

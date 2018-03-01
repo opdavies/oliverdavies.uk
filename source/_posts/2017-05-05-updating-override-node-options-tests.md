@@ -12,8 +12,6 @@ draft: true
 Recently, I reviewed [a patch][1] in the [Override Node Options][2] module issue queue. For those not familiar with it, the module adds extra permissions for node options like "authored by" and "published on" which are normally only available to users with the `administer nodes` permission. What the patch does is to optionally add another set of permissions that enable options for all content types - e.g. "override published option for all node types", in addition to or instead of the content type specific ones.
 
 It was quite an old issue and the latest patch needed to be re-rolled due to merge conflicts, but the existing tests still passed. Though as no new tests were added for the new functionality, these needed to be added before I committed it.
-
-This post documents the steps that I took to update the tests to add the proposed functionality.
 {% endblock %}
 
 {% block content %}

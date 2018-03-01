@@ -10,13 +10,15 @@ tags:
   - sculpin
 use: [posts]
 ---
-{% block content %}
+{% block excerpt %}
 ## Sculpin
 
 People may or may not know, but this site runs on [Sculpin](https://sculpin.io/), a PHP based static site generator (this may be the first time that I've mentioned it on this site). The source code is hosted on [GitHub](https://github.com/opdavies/oliverdavies.uk), and I've listed the site on the [Community page](https://sculpin.io/community/) on the Sculpin website.
 
 To get it there, I forked the [main sculpin.io repository](https://github.com/sculpin/sculpin.io) so that I had [my own copy](https://github.com/opdavies/sculpin.io), created a branch, made my additions and submitted a pull request. Easy enough!
+{% endblock %}
 
+{% block content %}
 ## New Domain
 
 In the last week or so, I've changed this site URL from .co.uk to just .uk, and also updated the GitHub repo URL to match, so I wanted to update the Community page to use the correct URL.

@@ -11,8 +11,11 @@ tags:
   - content-types
 use: [posts]
 ---
+{% block excerpt %}
 In this post, I will be changing values within my Drupal 6 site's database to quickly change the content type of multiple nodes. I will be using a test development site with the core Blog module installed, and converting Blog posts to a custom content type called 'News article'.
+{% endblock %}
 
+{% block content %}
 **Before changing any values within the database, ensure that you have an up-to-date backup which you can restore if you encounter a problem!**
 
 To begin with, I created the 'News article' content type, and then used the Devel Generate module to generate some Blog nodes.
@@ -24,3 +27,4 @@ Using an SQL 'Update' command, I can change the type value from 'blog' to 'artic
 Now, when I query the database, the type is shown as 'article'.
 
 Now, when I go back into the administration section of my site and view the content, the content type now shows at 'News article'.
+{% endblock %}

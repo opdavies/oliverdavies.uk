@@ -6,8 +6,11 @@ tags:
   - php
 use: [posts]
 ---
+{% block excerpt %}
 Replace the $page_id value with your Page ID number (unless you want to show the number of fans for this site).You can find your Page ID by logging into your Facebook account, going to 'Adverts and Pages', clicking 'Edit page', and looking at the URL. 
+{% endblock %}
 
+{% block content %}
 For example, mine is <https://www.facebook.com/pages/edit/?id=143394365692197&amp;sk=basic>.
 
 I've also wrapped the output in a number_format() function so that it properly formatted with commas etc - like where I've used it within the [Gold Event listing](http://www.horseandcountry.tv/events/paid) on the Horse & Country TV website.
@@ -20,3 +23,4 @@ print number_format($fans);
 ```
 
 This code was originally found at <http://wp-snippets.com/display-number-facebook-fans>.
+{% endblock %}
