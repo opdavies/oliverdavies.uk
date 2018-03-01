@@ -1,5 +1,6 @@
 ---
 title: Building the new PHPSW Website
+layout: post
 tags:
     - phpsw
     - symfony
