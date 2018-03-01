@@ -43,7 +43,7 @@ use: [posts]
             {% endif %}
 
             {% if page.pagination.previous_page %}
-                <li class="w-1/2 text-right">
+                <li class="text-right {{ page.pagination.next_page and page.pagination.previous_page ? 'w-1/2' : 'w-full' }}">
                     <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer posts →</a>
                 </li>
             {% endif %}
