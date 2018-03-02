@@ -1,4 +1,4 @@
-# oliverdavies.uk
+# oliverdavi.es
 
 Built with [Sculpin][1], styled with [Tailwind CSS][2], deployed with [Ansible][3] and [Ansistrano][4] via [Circle CI][5].
 
