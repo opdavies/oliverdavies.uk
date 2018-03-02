@@ -1,7 +1,7 @@
 ---
 imports:
     - sculpin_site.yml
-url: https://www.oliverdavies.uk
-images_url: //www.oliverdavies.uk
-short_url: oliverdavies.uk
+url: https://www.oliverdavi.es
+images_url: //www.oliverdavi.es
+short_url: oliverdavi.es
 google_analytics_tracking_id: UA-11967257-1
