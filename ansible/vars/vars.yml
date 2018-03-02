@@ -1,8 +1,12 @@
 ---
-server_name: www.oliverdavies.uk
 server_name: www.oliverdavi.es
 
 nginx_vhosts:
+  - listen: 80
+    server_name: www.oliverdavies.uk
+    extra_parameters:
+        return 301 https://{{ server_name }}$request_uri;
+
   - listen: 80
     server_name: "{{ server_name }}"
     root: "/srv/{{ server_name }}/current/output_prod"
