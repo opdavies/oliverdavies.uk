@@ -20,10 +20,10 @@ generate-assets:
 	yarn run encore dev
 
 build:
-	vendor/bin/sculpin generate --env=$(ENV)
+	vendor/bin/sculpin generate --env=$(ENV) --clean --no-interaction
 
 serve:
-	vendor/bin/sculpin generate --server --env=$(ENV) --port=$(PORT)
+	vendor/bin/sculpin generate --server --env=$(ENV) --port=$(PORT) --clean --no-interaction
 
 watch:
-	vendor/bin/sculpin generate --server --env=$(ENV) --port=$(PORT) --watch
+	vendor/bin/sculpin generate --server --env=$(ENV) --port=$(PORT) --watch --clean --no-interaction
