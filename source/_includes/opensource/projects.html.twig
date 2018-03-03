@@ -15,9 +15,9 @@
                 {% if project.versions %}
                     <div class="mt-4 text-right">
                         {% for version in project.versions %}
-                            <span class="text-xs ml-1 px-1 py-1 bg-grey-light text-grey-dark rounded">
+                            <span class="text-xs ml-1 px-1 py-1 bg-grey-light text-grey-dark rounded">{% spaceless %}
                                 Drupal {{ version }}
-                            </span>
+                            {% endspaceless %}</span>
                         {% endfor %}
                     </div>
                 {% endif %}
