@@ -9,6 +9,8 @@ favicon_sizes: [ 160, 96, 32, 16 ]
 ansible_galaxy:
     url: https://galaxy.ansible.com/opdavies
 
+author: Oliver Davies
+
 availability:
     part: no
     full: no

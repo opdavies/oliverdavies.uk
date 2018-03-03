@@ -1,23 +1,30 @@
 ---
 generator: [posts_tag_index]
 ---
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>{{ site.title }}</title>
-    <link>{{ site.url }}</link>
-    <language>en</language>
-    {% if site.description %}<description>{{ site.description|raw }}</description>{% endif %}
-    <atom:link href="{{ site.url }}{{ page.url }}" rel="self" type="application/rss+xml" />
-    <lastBuildDate>{{ site.calculated_date|date('r') }}</lastBuildDate>
-      {% for post in page.tag_posts|slice(0, 10) %}
-      <item>
-        <title>{{ post.title }}</title>
-        <link>{{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-        <pubDate>{{ post.date|date('r') }}</pubDate>
-        <description>{{ post.blocks.excerpt|raw }}</description>
-      </item>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[{{ site.title }}]]></title>
+    <link href="{{ site.url }}{{ page.url }}" rel="self"/>
+    <link href="{{ site.url }}/"/>
+    <updated>{{ site.calculated_date|date('c') }}</updated>
+    <id>{{ site.url }}/</id>
+    {% if site.author or site.email %}
+        <author>
+            {% if site.author %}<name><![CDATA[{{ site.author }}]]></name>{% endif %}
+        </author>
+    {% endif %}
+    <generator uri="http://sculpin.io/">Sculpin</generator>
+    {% for post in page.tag_posts|slice(0, 10) %}
+        <entry>
+            <title type="html"><![CDATA[{{ post.title }}]]></title>
+            <link href="{{ site.url }}{{ post.url }}"/>
+            <updated>{{ post.date|date('c') }}</updated>
+            <id>{{ site.url }}{{ post.url }}</id>
+            {% if page.blocks.excerpt %}
+                <content type="html"><![CDATA[{{ post.blocks.excerpt|raw }}]]></content>
+            {% else %}
+                <content type="html"><![CDATA[{{ post.blocks.content|raw }}]]></content>
+            {% endif %}
+        </entry>
     {% endfor %}
-  </channel>
-</rss>
+</feed>
