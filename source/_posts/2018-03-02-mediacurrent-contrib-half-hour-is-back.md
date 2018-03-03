@@ -4,6 +4,7 @@ tags:
     - drupal
     - opensource
     - contribution
+has_tweets: true
 ---
 {% block excerpt %}
 Back in November, [Mediacurrent introduced][1] the contrib half hour - a weekly online meeting to provide guidance and assistance on contributing to Drupal and Drupal projects. A range of topics were covered in the first few sessions, including finding and testing bug fixes, Composer, Drush, and how to re-roll patches.
@@ -25,6 +26,10 @@ There is also an [updates blog post][3] that continues to show the latest inform
 I enjoyed watching the first few videos, as I’m always interested in contribution to Drupal and open-source and how to encourage it, but then no new videos were uploaded for a while and I hoped that it hadn’t faded away.
 
 I’m glad to see today that it’s back and that all of the previous videos have been uploaded and added to the [YouTube playlist][0], and that [on the update post][3] there are scheduled topics for the rest of this month including documentation and automated testing.
+
+<div class="mb-4">
+<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">All of the <a href="https://twitter.com/mediacurrent?ref_src=twsrc%5Etfw">@mediacurrent</a> <a href="https://twitter.com/hashtag/ContribHalfHour?src=hash&amp;ref_src=twsrc%5Etfw">#ContribHalfHour</a> videos have been uploaded to our Youtube channel: <a href="https://t.co/1sWZT5sRSN">https://t.co/1sWZT5sRSN</a><br>Note: I accidentally forgot to save the Feb 22nd video, sorry :-\</p>&mdash; Damien McKenna (@DamienMcKenna) <a href="https://twitter.com/DamienMcKenna/status/969668677980315649?ref_src=twsrc%5Etfw">March 2, 2018</a></blockquote>
+</div>
 
 I do enjoy watching these, and I like both the presentation and Q&A format that they alternate between. I’ll look forward to catching up over the next few days, and to hopefully seeing them continue to be uploaded after future meetings.
 
