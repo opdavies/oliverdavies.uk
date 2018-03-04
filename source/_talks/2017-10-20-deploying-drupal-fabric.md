@@ -16,4 +16,4 @@ meta:
 ---
 This talk will cover some introduction to Fabric and how to write your own fabfiles, to then covering some examples and demos of different use case deployments for your Drupal project.
 
-Presented at [DrupalCamp Dublin](http://2017.drupal.ie) and the Drupal Somerset user group in 2017, and [DrupalCamp London 2018](http://drupalcamp.london).
+Presented at [DrupalCamp Dublin](http://2017.drupal.ie) and the Drupal Somerset user group in 2017.
