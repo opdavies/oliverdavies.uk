@@ -13,7 +13,7 @@ meta:
         description: "How to write tests and follow TDD for Drupal applications."
         type: website
         image:
-            url: /assets/images/talks/test-driven-drupal-development.png
+            url: /build/static/images/talks/test-driven-drupal-development.png
             width: 2560
             height: 1440
             type: image/png

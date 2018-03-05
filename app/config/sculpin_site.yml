@@ -16,7 +16,7 @@ availability:
     full: no
 
 avatar:
-    url: /assets/images/me-precedent.jpg
+    url: /build/static/images/me-precedent.jpg
 
 drupalorg:
     name: opdavies

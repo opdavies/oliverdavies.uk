@@ -12,7 +12,7 @@ meta:
        description: 'It’s with heavy hearts that we are announcing there won’t be a DrupalCamp Bristol 2018.'
        type: website
        image:
-           url: /assets/images/blog/drupalcamp-bristol-17-logo.jpg
+           url: /build/static/images/blog/drupalcamp-bristol-17-logo.jpg
            width: 228
            height: 448
            type: image/img
