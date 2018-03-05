@@ -5,7 +5,7 @@ tags:
     - php
 ---
 {% block excerpt %}
-<p class="text-center" markdown="1">![](/assets/images/blog/drupal-meetups-twitterbot.png)</p>
+<p class="text-center" markdown="1">![](/build/static/images/blog/drupal-meetups-twitterbot.png)</p>
 
 The [Drupal Meetups Twitterbot][0] is a small project that I worked on a few months ago, but hadn't got around to promoting yet. It’s intention is to provide [one Twitter account][1] where people can get the up to date news from various Drupal meetups.
 {% endblock %}

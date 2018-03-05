@@ -1,6 +1,7 @@
 var Encore = require('@symfony/webpack-encore');
 var glob = require('glob-all');
 var path = require('path');
+var CopyWebpackPlugin = require('copy-webpack-plugin')
 var PurgecssPlugin = require('purgecss-webpack-plugin');
 
 class TailwindExtractor {
@@ -20,7 +21,10 @@ Encore.cleanupOutputBeforeBuild()
             path: 'postcss.config.js'
         };
     })
-    .enableSourceMaps(!Encore.isProduction());
+    .enableSourceMaps(!Encore.isProduction())
+    .addPlugin(new CopyWebpackPlugin([
+        { from: './assets/static', to: 'static' }
+    ]));
 
 if (Encore.isProduction()) {
     Encore.addPlugin(
