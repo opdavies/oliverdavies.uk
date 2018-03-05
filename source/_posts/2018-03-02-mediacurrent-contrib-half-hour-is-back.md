@@ -1,9 +1,9 @@
 ---
 title: Yay, the Mediacurrent Contrib Half Hour is Back!
 tags:
-    - drupal
-    - opensource
     - contribution
+    - drupal
+    - open-source
 has_tweets: true
 ---
 {% block excerpt %}
