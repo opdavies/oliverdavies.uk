@@ -113,6 +113,7 @@ nginx_vhosts:
       rewrite ^/blog/2018/02/27/queuing-private-messages-in-drupal-8/?$ /blog/queuing-private-messages-in-drupal-8 permanent;
       rewrite ^/blog/2018/02/28/building-the-new-phpsw-website/?$ /blog/building-the-new-phpsw-website permanent;
       rewrite ^/blog/2018/03/02/yay-the-mediacurrent-contrib-half-hour-is-back/?$ /blog/yay-the-mediacurrent-contrib-half-hour-is-back permanent;
+      rewrite ^/blog/2018/03/04/tweets-from-drupalcamp-london/?$ /blog/tweets-from-drupalcamp-london permanent;
       rewrite ^/blog/announcing-the-drupal-vm-generator/?$ /blog/announcing-the-drupal-vm-config-generator permanent;
       rewrite ^/consulting/?$ / permanent;
       rewrite ^/cv/?$ https://gitprint.com/opdavies/cv/blob/master/README.md permanent;
