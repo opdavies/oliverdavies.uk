@@ -99,6 +99,7 @@ nginx_vhosts:
       rewrite ^/blog/2015/12/22/programmatically-load-an-entityform-in-drupal-7/?$ /blog/programmatically-load-an-entityform-in-drupal-7 permanent;
       rewrite ^/blog/2016/02/15/announcing-the-drupal-vm-generator/?$ /blog/announcing-the-drupal-vm-generator permanent;
       rewrite ^/blog/2016/05/03/simplifying-drupal-migrations-with-xautoload/?$ /blog/simplifying-drupal-migrations-with-xautoload permanent;
+      rewrite ^/blog/2017/06/09/introducing-the-drupal-meetups-twitterbot/?$ /blog/introducing-the-drupal-meetups-twitterbot permanent;
       rewrite ^/blog/2016/07/15/building-gmail-filters-with-php/?$ /blog/building-gmail-filters-with-php permanent;
       rewrite ^/blog/2016/12/30/drupal-vm-generator-291-released/?$ /blog/drupal-vm-generator-291-released permanent;
       rewrite ^/blog/2017/01/07/easier-sculpin-commands-with-composer-and-npm-scripts/?$ /blog/easier-sculpin-commands-with-composer-and-npm-scripts permanent;
