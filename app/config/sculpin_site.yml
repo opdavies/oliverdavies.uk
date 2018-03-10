@@ -27,7 +27,7 @@ drupalorg:
 email: oliver+website@oliverdavies.uk
 
 favicon:
-    url: /assets/images/me-phpnw.png
+    url: /build/static/images/me-phpnw.png
 
 github:
     name: opdavies
