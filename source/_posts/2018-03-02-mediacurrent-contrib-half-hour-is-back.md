@@ -19,7 +19,7 @@ From Damien's [introductory blog post][2]:
 
 There is also an [updates blog post][3] that continues to show the latest information, and the video recordings are [uploaded to YouTube][0] after the session. Here is the first one from November:
 
-<div class="mb-4">
+<div class="talk-video mb-4">
 <iframe width="678" height="408" src="//www.youtube.com/embed/8xHE5y1rA1g" frameborder="0" allowfullscreen></iframe>
 </div>
 
