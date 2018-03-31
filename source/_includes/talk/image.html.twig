@@ -1,0 +1,9 @@
+{% if talk.speakerdeck.id %}
+    <div class="hidden sm:block sm:w-1/5 md:w-1/4 sm:mx-2">
+        <img
+            src="https://speakerd.s3.amazonaws.com/presentations/{{ talk.speakerdeck.id }}/slide_0.jpg"
+            alt="{{ talk.title }}"
+            class="border border-solid p-1 bg-white"
+        >
+    </div>
+{% endif %}
