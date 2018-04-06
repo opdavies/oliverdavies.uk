@@ -7,6 +7,7 @@ tags:
     - testing
     - simpletest
     - phpunit
+draft: true
 ---
 - [Writing Simple (Simpletest) Tests for Your D7 module
 ](https://www.mediacurrent.com/blog/writing-simple-simpletest-tests-your-d7-module)
