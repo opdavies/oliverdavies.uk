@@ -14,7 +14,7 @@
   vars:
     ansistrano_deploy_to: "/srv/{{ server_name }}"
     ansistrano_deploy_via: git
-    ansistrano_git_repo: https://github.com/opdavies/oliverdavies.uk.git
+    ansistrano_git_repo: https://github.com/opdavies/oliverdavi.es.git
     ansistrano_git_branch: "{{ git_branch }}"
     ansistrano_keep_releases: 3
     ansistrano_allow_anonymous_stats: false
