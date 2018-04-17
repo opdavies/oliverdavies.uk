@@ -1,25 +1,13 @@
 ---
-- hosts: web
+- hosts: all
   become: true
 
   vars_files:
-    - ./vars/vars.yml
+    - ./vars/main.yml
 
-  vars_prompt:
-    - name: git_branch
-      prompt: 'Enter a branch to deploy'
-      default: master
-      private: false
-
-  vars:
-    ansistrano_deploy_to: "/srv/{{ server_name }}"
-    ansistrano_deploy_via: git
-    ansistrano_git_repo: https://github.com/opdavies/oliverdavi.es.git
-    ansistrano_git_branch: "{{ git_branch }}"
-    ansistrano_keep_releases: 3
-    ansistrano_allow_anonymous_stats: false
-    ansistrano_after_symlink_shared_tasks_file: "{{ playbook_dir }}/deploy/after-symlink-shared.yml"
-    ansistrano_after_symlink_tasks_file: "{{ playbook_dir }}/deploy/after-symlink.yml"
-
-  roles:
-    - carlosbuenosvinos.ansistrano-deploy
+  tasks:
+    - synchronize:
+        src: ../output_prod/
+        dest: '/srv/{{ server_name }}'
+        delete: yes
+        recursive: yes
