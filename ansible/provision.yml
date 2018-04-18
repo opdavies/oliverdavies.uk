@@ -8,13 +8,30 @@
   vars:
     nginx_vhosts:
       - listen: 80
-        server_name_redirect: 'oliverdavi.es oliverdavies.uk www.oliverdavies.uk'
+        server_name: 'oliverdavi.es www.oliverdavi.es'
+        return: 301 https://{{ server_name }}$request_uri
+        filename: oliverdavi.es.80.conf
+
+      - listen: 443 ssl
+        server_name: oliverdavi.es
+        extra_parameters: |
+          ssl_certificate /etc/letsencrypt/live/oliverdavi.es/fullchain.pem;
+          ssl_certificate_key /etc/letsencrypt/live/oliverdavi.es/privkey.pem;
+          ssl_trusted_certificate /etc/letsencrypt/live/oliverdavi.es/fullchain.pem;
+        return: 301 https://{{ server_name }}$request_uri
+        filename: oliverdavi.es.443.conf
+
+      - listen: 443 ssl
         server_name: "{{ server_name }}"
         root: "/srv/{{ server_name }}"
         nginx_error_log: "/var/log/nginx/{{ server_name }}_error.log warn"
         nginx_access_log: "/var/log/nginx/{{ server_name }}_access.log warn"
         error_page: 404 /404.html
         extra_parameters: |
+          ssl_certificate /etc/letsencrypt/live/oliverdavi.es/fullchain.pem;
+          ssl_certificate_key /etc/letsencrypt/live/oliverdavi.es/privkey.pem;
+          ssl_trusted_certificate /etc/letsencrypt/live/oliverdavi.es/fullchain.pem;
+
           rewrite ^/(services|work)/?$ /experience permanent;
           rewrite ^/about/?$ / permanent;
           rewrite ^/blog/2010/04/05/style-drupal-6s-taxonomy-lists-php-css-and-jquery/?$ /blog/style-drupal-6s-taxonomy-lists-php-css-and-jquery permanent;
@@ -160,6 +177,7 @@
           rewrite ^/terms-and-conditions/?$ /terms permanent;
           rewrite ^/twitter/?$ https://twitter.com/opdavies permanent;
           rewrite ^/youtube/?$ https://www.youtube.com/channel/UC5QoKapQ4bXOVMvN_ng_TYw permanent;
+        filename: www.oliverdavi.es.443.conf
 
   roles:
     - name: geerlingguy.nginx
