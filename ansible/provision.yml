@@ -8,7 +8,7 @@
   vars:
     nginx_vhosts:
       - listen: 80
-        server_name_redirect: oliverdavi.es
+        server_name_redirect: 'oliverdavi.es oliverdavies.uk www.oliverdavies.uk'
         server_name: "{{ server_name }}"
         root: "/srv/{{ server_name }}"
         nginx_error_log: "/var/log/nginx/{{ server_name }}_error.log warn"
