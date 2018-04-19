@@ -1,3 +1,6 @@
 ---
+- src: geerlingguy.certbot
+  version: 3.0.0
+
 - src: geerlingguy.nginx
   version: 2.5.0
