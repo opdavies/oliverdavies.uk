@@ -22,4 +22,11 @@ Drupal 7 includes the SimpleTest module for unit and functional testing, whilst 
 
 In this talk, we’ll cover the methodology and terminology involved with automated testing, and then take a test driven approach to creating a new Drupal module.
 
-Presented at [DrupalCamp London](https://drupalcamp.london), [DrupalCamp Dublin](http://2017.drupal.ie) and the [Drupal Bristol](https://www.drupalbristol.org.uk) user group in 2017.
+Presented at [DrupalCamp London][1], [DrupalCamp Dublin][2] and the [Drupal Bristol][3] user group in 2017.
+
+The example code is available on [GitHub][0]. The 8.x-1.x branch contains the original code from the presentation which uses functional tests. The 8.x-2.x branch contains the refactored code that instead uses kernel tests.
+
+[0]: https://github.com/opdavies/drupal-module-tdd-dublin
+[1]: https://drupalcamp.london
+[2]: http://2017.drupal.ie
+[3]: https://www.drupalbristol.org.uk
