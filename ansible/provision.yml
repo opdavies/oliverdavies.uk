@@ -6,11 +6,35 @@
      - ./vars/main.yml
 
   vars:
+    certbot_create_if_missing: yes
+    certbot_admin_email: opdavies+https@gmail.com
+    certbot_certs:
+      - email: '{{ certbot_admin_email }}'
+        domains:
+          - oliverdavi.es
+          - www.oliverdavi.es
+      - domains:
+          - oliverdavies.uk
+          - www.oliverdavies.uk
     nginx_vhosts:
       - listen: 80
         server_name: 'oliverdavi.es www.oliverdavi.es'
         return: 301 https://{{ server_name }}$request_uri
         filename: oliverdavi.es.80.conf
+
+      - listen: 80
+        server_name: 'oliverdavies.uk www.oliverdavies.uk'
+        return: 301 https://{{ server_name }}$request_uri
+        filename: oliverdavies.uk.80.conf
+
+      - listen: 443 ssl
+        server_name: 'oliverdavies.uk www.oliverdavies.uk'
+        extra_parameters: |
+          ssl_certificate /etc/letsencrypt/live/oliverdavies.uk/fullchain.pem;
+          ssl_certificate_key /etc/letsencrypt/live/oliverdavies.uk/privkey.pem;
+          ssl_trusted_certificate /etc/letsencrypt/live/oliverdavies.uk/fullchain.pem;
+        return: 301 https://{{ server_name }}$request_uri
+        filename: oliverdavies.uk.443.conf
 
       - listen: 443 ssl
         server_name: oliverdavi.es
@@ -180,4 +204,7 @@
         filename: www.oliverdavi.es.443.conf
 
   roles:
+    - name: geerlingguy.certbot
+      tags: ['certbot']
     - name: geerlingguy.nginx
+      tags: ['nginx']
