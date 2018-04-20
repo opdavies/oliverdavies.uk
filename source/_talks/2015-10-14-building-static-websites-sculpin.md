@@ -10,11 +10,5 @@ speakerdeck:
 youtube:
     id: aN53arCKZAU
 image: static-websites-sculpin.png
-code: https://github.com/opdavies/sculpin-demo
 ---
-
-You can [view the full slides][1], including the embedded videos.
-
 Presented at the [PHPSW user group](https://phpsw.uk) in October 2015.
-
-[1]: https://opdavies.github.io/slides-phpsw-sculpin
