@@ -15,7 +15,6 @@ meta:
             type: 'image/png'
             height: 540
             width: 960
-code: https://github.com/opdavies/dclondon16-d8-module
 ---
 In this session, we’ll cover:
 
@@ -30,4 +29,9 @@ What we won’t be covering:
 * Automated testing in PHPUnit or Simpletest.
 * Adding third party libraries and external dependencies via Composer.
 
-Presented at [DrupalCamp London](http://drupalcamp.london) 2016.
+Presented at [DrupalCamp London][1] 2016.
+
+The source code is available on [GitHub][0].
+
+[0]: https://github.com/opdavies/dclondon16-d8-module
+[1]: http://drupalcamp.london

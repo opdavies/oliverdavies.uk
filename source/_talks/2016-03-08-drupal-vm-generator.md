@@ -7,6 +7,11 @@ speakerdeck:
 youtube:
     id: U1pbKAAO2Wo?t=1h1m37s
 image: drupal-vm-generator.png
-code: https://github.com/opdavies/drupal-vm-generator
 ---
-Presented at the [NWDUG](http://nwdrupal.org.uk) and [Drupal Bristol](https://www.drupalbristol.org.uk) user groups in 2016.
+Presented at the [NWDUG][1] and [Drupal Bristol][2] user groups in 2016.
+
+The source code for the project is available on [GitHub][0].
+
+[0]: https://github.com/opdavies/drupal-vm-generator
+[1]: http://nwdrupal.org.uk
+[2]: https://www.drupalbristol.org.uk
