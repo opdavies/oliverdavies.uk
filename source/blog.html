@@ -20,6 +20,7 @@ use: [posts]
                 {% include 'post/intro-image' with { page: post } %}
 
                 <div class="mb-4">
+                    {{ post.summary|markdown }}
                     {% if post.blocks.excerpt is defined %}
                         {{ post.blocks.excerpt|markdown }}
                     {% else %}
