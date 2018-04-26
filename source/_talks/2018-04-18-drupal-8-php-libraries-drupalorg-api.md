@@ -15,11 +15,23 @@ tags:
 youtube:
     id: JyDjC7gGDpU
 ---
-Presented at the [Drupal Bristol](https://www.drupalbristol.org.uk) user group in April 2018.
+Presented at the [Drupal Bristol][0] user group in April 2018.
 
 ## Links
 
-- [Joind.in](https://joind.in/talk/14851)
-- [Drupal.org API library](https://github.com/opdavies/drupalorg-api-php)
-- [Drupal.org API documentation](https://www.drupal.org/drupalorg/docs/api)
-- [Laravel Collections](https://laravel.com/docs/collections)
+- [Joind.in][1]
+- [Drupal.org API library][2]
+- [Drupal.org API documentation][3]
+- [Laravel Collections][4]
+- Example module: [Drupal.org project statistics][5]
+- Example module: [Drupalversary][6]
+- Talk: [Using Laravel Collections outside Laravel][7]
+
+[0]: https://www.drupalbristol.org.uk
+[1]: https://joind.in/talk/14851
+[2]: https://github.com/opdavies/drupalorg-api-php
+[3]: https://www.drupal.org/drupalorg/docs/api
+[4]: https://laravel.com/docs/collections
+[5]: https://github.com/opdavies/drupal-module-drupalorg-project-statistics
+[6]: https://github.com/opdavies/drupal-module-drupalversary
+[7]: /talks/using-laravel-collections-outside-laravel/
