@@ -16,48 +16,17 @@
             </div>
 
             {% set links = [
-                {
-                    title: 'About',
-                    href: '/',
-                    pattern: '^/.$'
-                },
-                {
-                    title: 'Experience',
-                    href: '/experience',
-                    pattern: '^/experience/?$'
-                },
-                {
-                    title: 'Talks',
-                    href: '/talks',
-                    pattern: '^/talks/?'
-                },
-                {
-                    title: 'Open Source',
-                    href: '/opensource',
-                    pattern: '^/opensource/?$'
-                },
-                {
-                    title: 'Blog',
-                    href: '/blog',
-                    pattern: '^/blog/?'
-                },
-                {
-                    title: 'Contact',
-                    href: '/contact',
-                    pattern: '^/contact/?'
-                }
+                { title: 'About', href: '/', pattern: '^/.$' },
+                { title: 'Experience', href: '/experience', pattern: '^/experience/?$' },
+                { title: 'Talks', href: '/talks', pattern: '^/talks/?' },
+                { title: 'Open Source', href: '/opensource', pattern: '^/opensource/?$' },
+                { title: 'Blog', href: '/blog', pattern: '^/blog/?' },
+                { title: 'Contact', href: '/contact', pattern: '^/contact/?' }
             ] %}
 
             <nav class="hidden w-full md:w-2/3 lg:w-3/4 sm:flex sm:flex-wrap sm:justify-end">
                 {% for link in links %}
-                    <a
-                        href="{{ link.href }}"
-                        class="
-                            flex items-center -mx-4 p-4 sm:border-b-3 sm:border-transparent sm:ml-4 sm:mr-0 sm:p-0
-                            {{ loop.first ? 'border-t border-grey-lighter sm:border-t-0 sm:border-transparent' }}
-                            {{ page.url matches '#' ~ link.pattern ~ '#' ? 'sm:bg-transparent sm:border-blue' }}
-                        "
-                    >
+                    <a href="{{ link.href }}" class="flex items-center -mx-4 p-4 sm:border-b-3 sm:border-transparent sm:ml-4 sm:mr-0 sm:p-0 {{ loop.first ? 'border-t border-grey-lighter sm:border-t-0 sm:border-transparent' }} {{ page.url matches '#' ~ link.pattern ~ '#' ? 'sm:bg-transparent sm:border-blue' }}">
                         {{ link.title }}
                     </a>
                 {% endfor %}
