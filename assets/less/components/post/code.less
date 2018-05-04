@@ -1,7 +1,7 @@
 p,
 li {
     code {
-        @apply .bg-grey-lighter .inline-block .font-mono;
+        @apply .bg-grey-lighter .inline-block .font-mono .text-xs;
         padding: 1px 3px;
     }
 }
@@ -14,15 +14,9 @@ pre code.hljs,
     @apply .border-grey-dark;
     @apply .border-l-4;
     @apply .font-mono;
+    @apply .leading-loose;
     @apply .overflow-x-scroll;
     @apply .p-4;
+    @apply .rounded;
     @apply .text-xs;
-}
-
-@screen sm {
-    pre code,
-    pre code.hljs,
-    .hljs {
-        @apply .text-sm;
-    }
 }
