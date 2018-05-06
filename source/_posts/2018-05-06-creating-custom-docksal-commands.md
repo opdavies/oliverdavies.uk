@@ -18,7 +18,7 @@ There was a [great talk][1] recently at Drupaldelphia about Docksal.
 
 One of the things that Docksal offers (and is covered in the talk) is the ability to add custom commands to the Docksal’s `fin` CLI, either globally or as part of your project.
 
-As an advocate of automated testing and TDD practitioner, I write a lot of tests and run PHPUnit numerous times a day. I’ve also given [talks][6] and have written other posts on this site relating to testing in Drupal.
+As an advocate of automated testing and TDD practitioner, I write a lot of tests and run PHPUnit numerous times a day. I’ve also given [talks][6] and have [written other posts][7] on this site relating to testing in Drupal.
 
 There are a couple of ways to run PHPUnit with Docksal. The first is to use `fin bash` to open a shell into the container, move into the docroot directory if needed, and run the `phpunit` command.
 
@@ -278,3 +278,4 @@ I think it’s a great way to shorten existing commands, or to group multiple co
 [4]: https://www.drupal.org/docs/8/phpunit
 [5]: https://github.com/docksal/docksal/blob/develop/examples/.docksal/commands/phpcs
 [6]: /talks/tdd-test-driven-drupal
+[7]: /blog/tags/testing
