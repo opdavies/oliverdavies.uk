@@ -274,7 +274,7 @@ I think it’s a great way to shorten existing commands, or to group multiple co
 [0]: {{site.companies.microserve.url}}
 [1]: https://youtu.be/1sjsvnx1P7g
 [2]: https://gist.github.com/opdavies/72611f198ffd2da13f363ea65264b2a5
-[3]: https://github.com/microserve-io
+[3]: {{site.companies.microserve.github}}
 [4]: https://www.drupal.org/docs/8/phpunit
 [5]: https://github.com/docksal/docksal/blob/develop/examples/.docksal/commands/phpcs
 [6]: /talks/tdd-test-driven-drupal
