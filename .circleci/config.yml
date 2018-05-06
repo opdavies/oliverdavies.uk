@@ -24,7 +24,7 @@ jobs:
     steps:
       - run:
           name: Install system packages.
-          command: pip install --upgrade pip && pip install ansible
+          command: pip install ansible
       - checkout
       - restore_cache:
           key: v1-{{ .Branch }}-{{ checksum "./ansible/requirements.yml" }}
