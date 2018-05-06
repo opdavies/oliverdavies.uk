@@ -105,6 +105,7 @@ companies:
         name: Microserve
         logo: microserve.png
         url: https://microserve.io
+        github: https://github.com/microserve-io
 
     nomensa:
         name: Nomensa
