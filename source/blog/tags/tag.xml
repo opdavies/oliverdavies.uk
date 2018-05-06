@@ -20,7 +20,9 @@ generator: [posts_tag_index]
             <link href="{{ site.url }}{{ post.url }}"/>
             <updated>{{ post.date|date('c') }}</updated>
             <id>{{ site.url }}{{ post.url }}</id>
-            {% if post.blocks.excerpt %}
+            {% if post.summary %}
+                <content type="html"><![CDATA[{{ post.summary|markdown }}]]></content>
+            {% elseif post.blocks.excerpt %}
                 <content type="html"><![CDATA[{{ post.blocks.excerpt|markdown }}]]></content>
             {% else %}
                 <content type="html"><![CDATA[{{ post.blocks.content|markdown }}]]></content>
