@@ -46,10 +46,10 @@
         filename: oliverdavi.es.443.conf
 
       - listen: 443 ssl
-        server_name: "{{ server_name }}"
-        root: "/srv/{{ server_name }}"
-        nginx_error_log: "/var/log/nginx/{{ server_name }}_error.log warn"
-        nginx_access_log: "/var/log/nginx/{{ server_name }}_access.log warn"
+        server_name: '{{ server_name }}'
+        root: '/srv/{{ server_name }}/{{ ansistrano_current_dir }}/output_prod'
+        nginx_error_log: '/var/log/nginx/{{ server_name }}_error.log warn'
+        nginx_access_log: '/var/log/nginx/{{ server_name }}_access.log warn'
         error_page: 404 /404.html
         extra_parameters: |
           ssl_certificate /etc/letsencrypt/live/oliverdavi.es/fullchain.pem;
