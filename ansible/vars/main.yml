@@ -1,2 +1,3 @@
 ---
 server_name: www.oliverdavi.es
+ansistrano_current_dir: current

@@ -1,0 +1,25 @@
+---
+- name: Install Composer dependencies
+  composer:
+    command: install
+    working_dir: "{{ ansistrano_release_path.stdout }}"
+
+- name: Generate the site once without assets
+  command: vendor/bin/sculpin generate -e prod
+  args:
+    chdir: '{{ ansistrano_release_path.stdout }}'
+
+- name: Install Node dependencies
+  command: yarn install
+  args:
+    chdir: '{{ ansistrano_release_path.stdout }}'
+
+- name: Generate assets
+  command: yarn build
+  args:
+    chdir: '{{ ansistrano_release_path.stdout }}'
+
+- name: Generate the site, including assets
+  command: ./vendor/bin/sculpin generate -e prod
+  args:
+    chdir: '{{ ansistrano_release_path.stdout }}'

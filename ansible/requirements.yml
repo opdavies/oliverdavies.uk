@@ -1,4 +1,7 @@
 ---
+- src: carlosbuenosvinos.ansistrano-deploy
+  version: 2.2.0
+
 - src: geerlingguy.certbot
   version: 3.0.0
 
