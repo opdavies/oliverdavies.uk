@@ -93,7 +93,7 @@ Any additional lines are used as help text with running `fin help phpunit`. Here
 ##
 ## Usage: fin phpunit <args>
 ##
-## If a core/phpunit.xml file does not exist, copy one from elsehwere.
+## If a core/phpunit.xml file does not exist, copy one from elsewhere.
 ## Then run the tests.
 ```
 
