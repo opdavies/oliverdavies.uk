@@ -12,7 +12,7 @@
       private: false
 
   vars:
-    ansistrano_deploy_to: "/srv/{{ server_name }}/{{ ansistrano_current_dir }}/output_prod"
+    ansistrano_deploy_to: "/srv/{{ server_name }}"
     ansistrano_deploy_via: git
     ansistrano_git_repo: https://github.com/opdavies/oliverdavi.es
     ansistrano_git_branch: "{{ git_branch }}"
