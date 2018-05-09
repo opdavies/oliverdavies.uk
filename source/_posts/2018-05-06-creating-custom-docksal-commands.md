@@ -261,7 +261,7 @@ I’ve also started to add other commands to projects such as `config-export` to
 
 I think it’s a great way to shorten existing commands, or to group multiple commands into one like in this case, and I can see a lot of other potential uses for it during local development and continuous integration. Also being able to run one command like `fin init` and have it set up everything for your project is very convenient and a big time saver!
 
-**Update:** I’ve submitted a [pull request][8] for this command to be added as a [Docksal add-on][9]. If accepted, it will be available to add to any project using `fin addon install phpunit`.
+**Update:** I’ve since submitted a [pull request][8] for this command to be added as a [Docksal add-on][9], which was accepted. In the next release of Docksal, this command will be available to add to any project using `fin addon install phpunit`.
 
 ## Resources
 
