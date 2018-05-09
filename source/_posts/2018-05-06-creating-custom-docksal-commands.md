@@ -272,6 +272,7 @@ I think it’s a great way to shorten existing commands, or to group multiple co
 - [Docksal: one tool to rule local and CI/CD environments][1] - Docksal talk from Drupaldelphia
 - [phpcs example custom command][5]
 - [phpunit command Gist][2]
+- [Dockal addons blog post][9]
 
 [0]: {{site.companies.microserve.url}}
 [1]: https://youtu.be/1sjsvnx1P7g
