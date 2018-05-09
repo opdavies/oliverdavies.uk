@@ -274,7 +274,8 @@ Since writing this post, I’ve had a [pull request][8] accepted for this comman
 - [Docksal: one tool to rule local and CI/CD environments][1] - Docksal talk from Drupaldelphia
 - [phpcs example custom command][5]
 - [phpunit command Gist][2]
-- [Dockal addons blog post][9]
+- [Docksal addons blog post][9]
+- [Docksal addons repository][10]
 
 [0]: {{site.companies.microserve.url}}
 [1]: https://youtu.be/1sjsvnx1P7g
@@ -286,3 +287,4 @@ Since writing this post, I’ve had a [pull request][8] accepted for this comman
 [7]: /blog/tags/testing
 [8]: https://github.com/docksal/addons/pull/15
 [9]: https://blog.docksal.io/installing-addons-in-a-docksal-project-172a6c2d8a5b
+[10]: https://github.com/docksal/addons
