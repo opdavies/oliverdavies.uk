@@ -6,17 +6,22 @@ fuzzy_date_format: F Y
 apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
 favicon_sizes: [ 160, 96, 32, 16 ]
 
+nav_links:
+    - { title: About, href: '/', pattern: '/\.' }
+    - { title: Experience, href: '/experience' }
+    - { title: Talks, href: '/talks' }
+    - { title: Blog, href: '/blog' }
+    - { title: Contact, href: '/contact' }
+
 ansible_galaxy:
     url: https://galaxy.ansible.com/opdavies
-
-author: Oliver Davies
 
 availability:
     part: no
     full: no
 
 avatar:
-    url: /build/static/images/me-precedent.jpg
+    url: /assets/images/me-precedent.jpg
 
 drupalorg:
     name: opdavies
@@ -27,7 +32,7 @@ drupalorg:
 email: oliver+website@oliverdavies.uk
 
 favicon:
-    url: /build/static/images/me-phpnw.png
+    url: /assets/images/me-phpnw.png
 
 github:
     name: opdavies
@@ -105,7 +110,6 @@ companies:
         name: Microserve
         logo: microserve.png
         url: https://microserve.io
-        github: https://github.com/microserve-io
 
     nomensa:
         name: Nomensa
