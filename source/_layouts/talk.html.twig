@@ -2,11 +2,8 @@
 
 {% block content_wrapper %}
     <div>
-        <div class="mb-4 text-grey">
-            {{ page.date|date('jS F Y') }}
-        </div>
-
         <div>
+            <h2>Abstract</h2>
             {{ page.summary|markdown }}
             {% block content %}{% endblock %}
         </div>
@@ -14,4 +11,5 @@
 
     {% include 'talk/slides' %}
     {% include 'talk/video' %}
+    {% include 'talk/events' %}
 {% endblock %}

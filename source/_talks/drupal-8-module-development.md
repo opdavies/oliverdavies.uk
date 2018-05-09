@@ -1,21 +1,28 @@
 ---
 title: Getting Started with Drupal 8 Module Development
-summary: New to object-orientated PHP, Symfony or YAML, and want to get started building modules in Drupal 8? This is the session for you!
+tags: [conference, php, drupal, drupalcamp, drupal-8]
+tweets: yes
+code: https://github.com/opdavies/dclondon16-d8-module
 speakerdeck:
     id: 0041804e52664d12a8e31cd118264813
-    ratio: 1.77777777777778
+    ratio: '1.77777777777778'
+    url: https://speakerdeck.com/opdavies/getting-started-with-drupal-8-module-development
 youtube:
     id: qO_Wh5WE3VA
-image: dclondon16.png
 meta:
     og:
         title: Getting Started with Drupal 8 Module Development
         image:
-            url: /build/static/images/talks/dclondon16.png
+            url: /assets/images/talks/dclondon16.png
             type: 'image/png'
             height: 540
             width: 960
+events:
+    - event: drupalcamp-london-16
+      date: '2016-03-05'
 ---
+New to object-orientated PHP, Symfony or YAML, and want to get started building modules in Drupal 8? This is the session for you!
+
 In this session, we’ll cover:
 
 * Where Drupal 8 modules are located, and how they are structured.
@@ -28,10 +35,3 @@ What we won’t be covering:
 
 * Automated testing in PHPUnit or Simpletest.
 * Adding third party libraries and external dependencies via Composer.
-
-Presented at [DrupalCamp London][1] 2016.
-
-The source code is available on [GitHub][0].
-
-[0]: https://github.com/opdavies/dclondon16-d8-module
-[1]: http://drupalcamp.london
