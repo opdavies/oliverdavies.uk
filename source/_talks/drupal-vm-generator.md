@@ -1,0 +1,20 @@
+---
+title: Drupal VM Generator
+type: Lightning talk
+code: https://github.com/opdavies/drupal-vm-generator
+tags: [drupal-vm, drupal-vm-generator, meetup, symfony]
+speakerdeck:
+    id: a27ee1d2bfed4a209dc395fa455acb41
+    ratio: '1.37081659973226'
+    url: https://speakerdeck.com/opdavies/bristol-dug-drupal-vm-generator
+youtube:
+    id: U1pbKAAO2Wo
+events:
+    - event: nwdug
+      date: '2016-03-08'
+    - event: drupal-bristol
+      date: '2016-04-02'
+---
+An short talk about the [Drupal VM Generator][1] project.
+
+[1]: https://github.com/opdavies/drupal-vm-generator

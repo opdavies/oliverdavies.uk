@@ -2,10 +2,16 @@
 title: Dancing for Drupal
 speakerdeck:
     id: ffa9b6dea6dc4a8eb207b9982ed6e1bd
-    ratio: 1.33333333333333
-summary: As part of their CMS Dance-Off event, I was selected to speak about Drupal alongside other speakers representing Umbraco, Sitecore and Episerver.
-image: dancing-for-drupal.png
+    ratio: '1.33333333333333'
+    url: https://speakerdeck.com/opdavies/umbristol-dancing-for-drupal
+tags: [meetup, umbristol, drupal]
+tweets: yes
+events:
+    - event: umbristol
+      date: '2015-08-25'
 ---
+As part of their [CMS Dance-Off][1], I was selected to speak about Drupal alongside other speakers representing Umbraco, Sitecore and Episerver.
+
 The points to cover were:
 
 * How does your CMS store configuration data, 'structure' and content?
@@ -18,4 +24,4 @@ The points to cover were:
 
 In each point, tried to cover the differences between Drupal core and developing a project using Drupal, as well as between Drupal 7 and Drupal 8, as things like source control and versioning would be approached differently.
 
-Presented at the [umBristol user group](http://umbristol.co.uk) in August 2015.
+[1]: http://www.meetup.com/umBristol/events/223807592
