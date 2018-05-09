@@ -1,5 +1,6 @@
 <?php
 
+use FormatTalksBundle\SculpinFormatTalksBundle;
 use Opdavies\Sculpin\Bundle\ContentGeneratorBundle\SculpinContentGeneratorBundle;
 use Opdavies\Sculpin\Bundle\GistEmbedBundle\SculpinGistEmbedBundle;
 use Opdavies\Sculpin\Bundle\TwigMarkdownBundle\SculpinTwigMarkdownBundle;
@@ -16,6 +17,8 @@ class SculpinKernel extends AbstractKernel
             SculpinContentGeneratorBundle::class,
             SculpinGistEmbedBundle::class,
             SculpinTwigMarkdownBundle::class,
+
+            SculpinFormatTalksBundle::class,
         ];
     }
 }
