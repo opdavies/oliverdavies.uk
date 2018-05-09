@@ -261,6 +261,8 @@ I’ve also started to add other commands to projects such as `config-export` to
 
 I think it’s a great way to shorten existing commands, or to group multiple commands into one like in this case, and I can see a lot of other potential uses for it during local development and continuous integration. Also being able to run one command like `fin init` and have it set up everything for your project is very convenient and a big time saver!
 
+**Update:** I’ve submitted a [pull request][8] for this command to be added as a Docksal add-on. If accepted, it will be available to add to any project using `fin addon install phpunit`.
+
 ## Resources
 
 - [PHPUnit](https://phpunit.de)
@@ -279,3 +281,4 @@ I think it’s a great way to shorten existing commands, or to group multiple co
 [5]: https://github.com/docksal/docksal/blob/develop/examples/.docksal/commands/phpcs
 [6]: /talks/tdd-test-driven-drupal
 [7]: /blog/tags/testing
+[8]: https://github.com/docksal/addons/pull/15
