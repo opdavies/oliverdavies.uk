@@ -1,17 +1,19 @@
 ---
 title: Building Static Websites with Sculpin
 type: Lightning talk
-slides:
+speakerdeck:
+    id: 6c9c4be1a1344f1291ff13a391674a66
+    ratio: '1.37081659973226'
     url: https://speakerdeck.com/opdavies/building-static-websites-with-sculpin
-    embed: <script async class="speakerdeck-embed" data-id="6c9c4be1a1344f1291ff13a391674a66" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
 code: https://github.com/opdavies/sculpin-demo
 tags: [meetups, phpsw, sculpin]
 tweets: yes
-video:
-    embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/aN53arCKZAU" frameborder="0" allowfullscreen></iframe>
-    url: https://www.youtube.com/watch?v=aN53arCKZAU
+youtube:
+    id: aN53arCKZAU
 events:
-    - { event: phpsw, date: '2015-10-14', feedback: https://joind.in/talk/view/15486 }
+    - event: phpsw
+      date: '2015-10-14'
+      feedback: https://joind.in/talk/view/15486
 ---
 [Sculpin][0] is a static site generator written in PHP. It converts Markdown files, Twig templates and standard HTML into a static HTML site that can be easily deployed.
 

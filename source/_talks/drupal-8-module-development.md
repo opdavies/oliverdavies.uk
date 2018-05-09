@@ -3,12 +3,12 @@ title: Getting Started with Drupal 8 Module Development
 tags: [conference, php, drupal, drupalcamp, drupal-8]
 tweets: yes
 code: https://github.com/opdavies/dclondon16-d8-module
-slides:
+speakerdeck:
+    id: 0041804e52664d12a8e31cd118264813
+    ratio: '1.77777777777778'
     url: https://speakerdeck.com/opdavies/getting-started-with-drupal-8-module-development
-    embed: <script async class="speakerdeck-embed" data-id="0041804e52664d12a8e31cd118264813" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-video:
-    url: https://www.youtube.com/watch?v=qO_Wh5WE3VA
-    embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/qO_Wh5WE3VA" frameborder="0" allowfullscreen></iframe>
+youtube:
+    id: qO_Wh5WE3VA
 meta:
     og:
         title: Getting Started with Drupal 8 Module Development
@@ -18,7 +18,8 @@ meta:
             height: 540
             width: 960
 events:
-    - { event: drupalcamp-london-16, date: '2016-03-05' }
+    - event: drupalcamp-london-16
+      date: '2016-03-05'
 ---
 New to object-orientated PHP, Symfony or YAML, and want to get started building modules in Drupal 8? This is the session for you!
 
