@@ -1,0 +1,8 @@
+<div class="mt-8">
+    <h2>Events</h2>
+
+    {% include "talks-table" with {
+        talks: getAllTalks([page], site.events),
+        talk_page: true
+    } %}
+</div>

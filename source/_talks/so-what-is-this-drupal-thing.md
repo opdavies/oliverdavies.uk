@@ -1,9 +1,10 @@
 ---
 title: So, what is this Drupal thing?
-video:
-    url: https://vimeo.com/49827006
-    embed: <iframe src="https://player.vimeo.com/video/49827006" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+vimeo:
+    id: 49827006
 tags: [meetup, drupal, unified-diff]
 events:
-    - { event: unifieddiff, date: '2012-09-05' }
+    - event: unifieddiff
+      date: '2012-09-05'
 ---
+My very first talk, where I talk about Drupal, what it is and what it can do.
