@@ -111,7 +111,7 @@ experiences:
         {% for experience in page.experiences|reverse %}
             {% set company = site.companies[experience.company] %}
 
-            <div class="listing-item">
+            <div class="mb-6">
                 {% if company.logo %}
                     <div class="float-right mt-1 mb-4 ml-4 w-16 sm:w-24 lg:w-32">
                         <img src="{{ site.images_url }}/build/static/images/experience/{{ company.logo }}" alt="{{ company.name }} logo">
@@ -119,22 +119,17 @@ experiences:
                 {% endif %}
 
                 <div>
-                    <h2 class="mv0">{{ company.name }}</h2>
+                    <h2 class="mb-0">{{ company.name }}</h2>
 
                     <div class="mb-4">
                         {% if company.url -%}
-                            <a class="inline-block text-blue mb-1"
-                               href="{{ company.url }}?utm_source={{ site.short_url }}&utm_medium=experience">
+                            <a class="inline-block text-blue mb-1" href="{{ company.url }}?utm_source={{ site.short_url }}&utm_medium=experience">
                                 {{- company.url -}}
                             </a>
                         {%- endif %}
 
                         <div class="text-grey-dark">
-                            {{- experience.role }}
-                            from
-                            {{ experience.start }}
-                            to
-                            {{ experience.end|default('Present') -}}
+                            {{- experience.role }} from {{ experience.start }} to {{ experience.end|default('Present') -}}
                             {%- if experience.location %} ({{ experience.location }}){% endif %}.
                         </div>
                     </div>
@@ -144,8 +139,7 @@ experiences:
                             {{ experience.description|markdown }}
                         </div>
                     {% endif %}
-
-                </div>{# /.inner #}
+                </div>
             </div>
         {% endfor %}
     </div>
