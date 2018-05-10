@@ -13,7 +13,7 @@ youtube:
 events:
     - event: drupal-bristol
       date: '2018-04-18'
-      feedback: https://joind.in/talk/14851
+      joindin: https://joind.in/talk/14851
 ---
 A demo of some of the open source projects that I’ve been working on lately that are based on information from the Drupal.org API, including a PHP library for the API itself as well as some Drupal 8 modules that use it.
 

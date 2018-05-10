@@ -22,11 +22,11 @@ events:
       type: 'Lightning talk'
     - event: phpsw
       date: '2017-09-13'
-      feedback: https://joind.in/talk/a5ff3
+      joindin: https://joind.in/talk/a5ff3
     - event: phpnw17
       date: '2017-10-01'
       time: '09:00 - 09:45'
-      feedback: https://joind.in/talk/4e35d
+      joindin: https://joind.in/talk/4e35d
 ---
 You’ve built your application, and now you just need to deploy it. There are various ways that this could be done – from (S)FTP, to SCP and rsync, to running commands like “git pull” and “composer install” directly on the server (not recommended).
 

@@ -47,8 +47,8 @@
 
     {% if not upcoming %}
         <td>
-            {% if row.event.feedback and row.event.date <= today %}
-                <a href="{{ row.event.feedback }}"
+            {% if row.event.joindin and row.event.date <= today %}
+                <a href="{{ row.event.joindin }}"
                    class="button"
                    title="Read or leave feedback for this talk">
                     <i class="fa fa-comment-o"></i> joind.in

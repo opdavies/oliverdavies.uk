@@ -13,7 +13,7 @@ youtube:
 events:
     - event: phpsw
       date: '2015-10-14'
-      feedback: https://joind.in/talk/view/15486
+      joindin: https://joind.in/talk/view/15486
 ---
 [Sculpin][0] is a static site generator written in PHP. It converts Markdown files, Twig templates and standard HTML into a static HTML site that can be easily deployed.
 
