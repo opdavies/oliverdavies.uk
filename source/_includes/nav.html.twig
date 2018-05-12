@@ -1,4 +1,4 @@
-<div class="navbar border-bottom border-b border-grey-lighter mb-6">
+<div class="navbar border-bottom border-b border-grey-lighter mb-6" role="banner">
     <header class="container mx-auto px-4">
         <div class="sm:flex">
             <div class="w-full sm:w-1/3 lg:w-1/4 flex items-center">
@@ -24,7 +24,7 @@
                 { title: 'Contact', href: '/contact', pattern: '^/contact/?' }
             ] %}
 
-            <nav class="hidden w-full md:w-2/3 lg:w-3/4 sm:flex sm:flex-wrap sm:justify-end">
+            <nav class="hidden w-full md:w-2/3 lg:w-3/4 sm:flex sm:flex-wrap sm:justify-end" role="navigation">
                 {% for link in links %}
                     <a href="{{ link.href }}" class="flex items-center -mx-4 p-4 sm:border-b-3 sm:border-transparent sm:ml-4 sm:mr-0 sm:p-0 {{ loop.first ? 'border-t border-grey-lighter sm:border-t-0 sm:border-transparent' }} {{ page.url matches '#' ~ link.pattern ~ '#' ? 'sm:bg-transparent sm:border-blue' }}">
                         {{ link.title }}
