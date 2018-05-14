@@ -294,4 +294,10 @@ module.exports = {
   packages: {
   },
 
+  options: {
+    important: true,
+    separator: ':',
+    prefix: ''
+  }
+
 }
