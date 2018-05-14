@@ -83,6 +83,11 @@ companies:
         logo: cti-digital.png
         url: https://www.ctidigital.com
 
+    develop_me:
+        name: Develop Me Training
+        logo: develop_me.svg
+        url: https://developme.training
+
     drupal_association:
         name: Drupal Association
         logo: drupal-association.png
