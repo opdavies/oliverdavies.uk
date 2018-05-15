@@ -158,6 +158,7 @@
           rewrite ^/blog/2018/03/04/tweets-from-drupalcamp-london/?$ /blog/tweets-from-drupalcamp-london permanent;
           rewrite ^/blog/2018/05/06/creating-a-custom-phpunit-command-for-docksal/?$ /blog/creating-a-custom-phpunit-command-for-docksal permanent;
           rewrite ^/blog/announcing-the-drupal-vm-generator/?$ /blog/announcing-the-drupal-vm-config-generator permanent;
+          rewrite ^/book/?$ /test-driven-drupal permanent;
           rewrite ^/consulting/?$ / permanent;
           rewrite ^/cv/?$ https://gitprint.com/opdavies/cv/blob/master/README.md permanent;
           rewrite ^/drupalgive/?$ https://www.drupal.org/u/opdavies permanent;

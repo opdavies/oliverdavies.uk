@@ -7,6 +7,7 @@ tags:
     - drupal-8
     - drupal-planet
     - phpunit
+    - testing
 ---
 ## What is Docksal?
 
