@@ -241,3 +241,6 @@ events:
         name: 'unified.diff'
         location: Cardiff, UK
         website: http://unifieddiff.co.uk
+
+imports:
+    - '../../data/navigation.yml'
