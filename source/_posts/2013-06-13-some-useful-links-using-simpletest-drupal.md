@@ -7,6 +7,7 @@ tags:
   - test-driven-development
   - drupal-planet
   - drupal
+  - testing
 use: [posts]
 ---
 {% block excerpt %}
