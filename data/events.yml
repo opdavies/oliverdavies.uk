@@ -1,0 +1,94 @@
+events:
+    drupal-bristol:
+        name: Drupal Bristol
+        location: Bristol, UK
+        website: https://www.drupalbristol.org.uk
+
+    drupal-somerset:
+        name: Drupal Somerset
+        location: Glastonbury, UK
+
+    drupalcamp-brighton-15:
+        name: DrupalCamp Brighton 2015
+        location: Brighton, UK
+
+    drupalcamp-bristol-16:
+        name: DrupalCamp Bristol 2016
+        location: Bristol, UK
+        website: https://2016.drupalcampbristol.org.uk
+
+    drupalcamp-dublin-17:
+        name: DrupalCamp Dublin 2017
+        location: Dublin, Ireland
+        website: http://2017.drupal.ie
+
+    drupalcamp-london-14:
+        name: DrupalCamp London 2014
+        location: London, UK
+
+    drupalcamp-london-15:
+        name: DrupalCamp London 2015
+        location: London, UK
+
+    drupalcamp-london-16:
+        name: DrupalCamp London 2016
+        location: London, UK
+
+    drupalcamp-london-17:
+        name: DrupalCamp London 2017
+        location: London, UK
+        website: http://drupalcamp.london
+
+    drupalcamp-london-18:
+        name: DrupalCamp London 2018
+        location: London, UK
+        website: http://drupalcamp.london
+
+    drupalcamp-north-15:
+        name: DrupalCamp North 2015
+        location: Sunderland, UK
+        website: http://drupalcampnorth.org
+
+    nomad-php:
+        name: Nomad PHP
+        location: Online
+        website: https://nomadphp.com
+
+    nwdug:
+        name: NWDUG
+        location: Manchester, UK
+        website: http://nwdrupal.org.uk
+
+    phpnw17:
+        name: PHP North West 2017
+        location: Manchester, UK
+        website: http://conference.phpnw.org.uk/phpnw17
+
+    phpsc16:
+        name: PHP South Coast 2016
+        location: Portsmouth, UK
+        website: http://2016.phpsouthcoast.co.uk
+
+    phpsw:
+        name: PHPSW
+        location: Bristol, UK
+        website: https://phpsw.uk
+
+    phpuk18:
+        name: PHP UK Conference 2018
+        location: London, UK
+        website: https://www.phpconference.co.uk
+
+    swdug:
+        name: SWDUG
+        location: Cardiff, UK
+
+    umbristol:
+        name: umBristol
+        location: Bristol, UK
+        website: http://umbristol.co.uk
+
+    unifieddiff:
+        name: 'unified.diff'
+        location: Cardiff, UK
+        website: http://unifieddiff.co.uk
