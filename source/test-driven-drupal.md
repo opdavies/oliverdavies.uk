@@ -39,11 +39,13 @@ If you have questions or would like to suggest something for me to include in th
 
 ## Mailing List
 
+Enter your email address to subscribe to the Test Driven Drupal mailing list.
+
 <div id="mc_embed_signup">
     <form action="{{ page.mailchimp_url }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate p-0" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
             <div class="mc-field-group w-full lg:w-1/2 pb-3 font-bold">
-                <label for="mce-EMAIL">Subscribe to the Test Driven Drupal mailing list  <span class="asterisk">*</span>
+                <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
                 </label>
                 <input type="email" value="" name="EMAIL" class="required email p-3" id="mce-EMAIL" style="text-indent: 0">
             </div>
