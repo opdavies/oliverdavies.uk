@@ -11,10 +11,13 @@ I’m still thinking about what use-cases to cover and examples to include, but 
 - What things to test, and what not to test
 - The different types of available tests, and when to use each
 - How to write testable code
+- What happens when I run a test?
 - How to run tests in the Drupal UI
 - How to run tests with the `run-tests.sh` script
 - How to install, configure and run tests with PHPUnit in Drupal 8
+- Viewing HTML from run tests
 - How to write your first test
+- Debugging tests
 - How to organise your test files
 - Selecting the right base class and using test traits
 - Writing your own base test classes, traits and assertions
