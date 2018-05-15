@@ -1,0 +1,24 @@
+navigation:
+    - title: About
+      href: '/'
+      pattern: '^/.$'
+
+    - title: Experience
+      href: '/experience'
+      pattern: '^/experience/?$'
+
+    - title: Talks
+      href: '/talks'
+      pattern: '^/talks/?'
+
+    - title: 'Open Source'
+      href: '/opensource'
+      pattern: '^/opensource/?$'
+
+    - title: Blog
+      href: '/blog'
+      pattern: '^/blog/?'
+
+    - title: Contact
+      href: '/contact'
+      pattern: '^/contact/?'
