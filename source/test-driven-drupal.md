@@ -47,7 +47,7 @@ Enter your email address to subscribe to the Test Driven Drupal mailing list.
             <div class="mc-field-group w-full lg:w-1/2 pb-3 font-bold">
                 <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
                 </label>
-                <input type="email" value="" name="EMAIL" class="required email p-3" id="mce-EMAIL" style="text-indent: 0">
+                <input type="email" value="" name="EMAIL" class="required email block w-full border border-grey p-3" id="mce-EMAIL" style="text-indent: 0">
             </div>
             <div id="mce-responses" class="clear p-0 m-0">
                 <div class="response p-0" id="mce-error-response" style="display: none"></div>
