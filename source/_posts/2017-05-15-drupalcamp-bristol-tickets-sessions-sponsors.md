@@ -16,7 +16,7 @@ meta:
 slug: drupalcamp-bristol-early-bird-tickets-sessions-sponsors
 ---
 {% block excerpt %}
-<p class="text-center" markdown="1">![DrupalCamp Bristol 2017 logo](/build/static/images/blog/drupalcamp-bristol-17-logo.jpg)</p>
+<p class="text-center" markdown="1">![DrupalCamp Bristol 2017 logo](/build/images/blog/drupalcamp-bristol-17-logo.jpg)</p>
 
 In less than two months time, [DrupalCamp Bristol][0] will be back for our third year! (July seems to come around quicker each year). This is this year’s schedule and venues:
 {% endblock %}

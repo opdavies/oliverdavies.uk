@@ -25,7 +25,7 @@ features[features_api][] = api:2
 
 After clearing the cache, the module is now visible in the Features list - and ready to have the appropriate configuration added to it.
 
-!['The features list showing the custom module'](/build/static/images/blog/custom-module-as-a-feature.png)
+!['The features list showing the custom module'](/build/images/blog/custom-module-as-a-feature.png)
 {% endblock %}
 
 [0]: https://www.drupal.org/project/features

@@ -1,0 +1,69 @@
+@import '~font-awesome/css/font-awesome.css'
+@import '~highlightjs/styles/github-gist.css'
+
+@tailwind preflight
+
+p,
+li,
+td
+    a
+        @apply .text-blue
+
+.button
+    @apply .bg-blue
+    @apply .inline-block
+    @apply .rounded
+    @apply .text-white
+    @apply .px-4
+    @apply .py-2
+
+    &:active,
+    &:hover
+        @apply .bg-blue-dark
+
+blockquote
+    @apply .border-l-4 .border-blue .pl-4
+
+img.with-border
+    @apply .border .border-solid .border-grey-light
+
+h1, h2, h3
+    @apply .mb-2
+
+.content
+    h2,
+    h3
+        @apply .mt-6
+
+p,
+ul,
+ol,
+table,
+pre,
+.note
+    @apply .mb-4
+
+a
+    @apply .text-grey-darkest
+    text-decoration: none
+
+main a:not(.button)
+    text-decoration: underline
+
+.bullets,
+main ul
+    list-style: disc
+    @apply .pl-4
+
+svg
+    fill: currentColor
+
+@import 'components/listing'
+@import 'components/table'
+@import 'components/talk/slides'
+@import 'components/talk/video'
+@import 'components/post'
+@import 'components/post/code'
+@import 'components/widget'
+
+@tailwind utilities
