@@ -9,13 +9,13 @@ meta:
         description: "How to write tests and follow TDD for Drupal applications."
         type: website
         image:
-            url: /build/static/images/talks/test-driven-drupal-development.png
+            url: /build/images/talks/test-driven-drupal-development.png
             width: 2560
             height: 1440
             type: image/png
 ---
 {% block excerpt %}
-<p class="text-center" markdown="1">![](/build/static/images/blog/drupalcamp-dublin.jpg)</p>
+<p class="text-center" markdown="1">![](/build/images/blog/drupalcamp-dublin.jpg)</p>
 
 I recently gave a [talk on automated testing in Drupal][0] talk at [DrupalCamp Dublin][1] and as a lunch and learn session for my colleagues at Microserve. As part of the talk, I gave an example of how to build a Drupal 8 module using a test driven approach. I’ve released the [module code on GitHub][2], and this post outlines the steps of the process.
 {% endblock %}
@@ -118,11 +118,11 @@ Now we can make it pass by adding the page. For this, I will use the Views modul
 
 To begin with, I will create a view showing all types of content with a default sort order of newest first. We will use further tests to ensure that only the correct content is returned and that it is ordered correctly.
 
-![](/build/static/images/blog/tdd-drupal-1.png) { .with-border }
+![](/build/images/blog/tdd-drupal-1.png) { .with-border }
 
 The only addition I will make to the view is to add a path at `pages`, as per the acceptance criteria.
 
-![](/build/static/images/blog/tdd-drupal-2.png) { .with-border }
+![](/build/images/blog/tdd-drupal-2.png) { .with-border }
 
 ### Exporting the View
 
@@ -457,7 +457,7 @@ Tests: 1, Assertions: 3, Failures: 1.
 
 We can fix this by adding another condition to the view, to only show content based on the node type - i.e. only return page nodes.
 
-![](/build/static/images/blog/tdd-drupal-3.png) { .with-border }
+![](/build/images/blog/tdd-drupal-3.png) { .with-border }
 
 Once the view is updated and the configuration is updated within the module, the test should then pass - and it does.
 
@@ -546,7 +546,7 @@ Tests: 1, Assertions: 2, Failures: 1.
 
 This can be fixed by removing the default sort criteria and adding a new one based on "Content: Title".
 
-![](/build/static/images/blog/tdd-drupal-4.png) { .with-border }
+![](/build/images/blog/tdd-drupal-4.png) { .with-border }
 
 Again, once the view has been updated and exported, the test should pass - and it does.
 
