@@ -32,7 +32,7 @@ As we don’t need any write access back to the repo, using the HTTP URL rather 
 
 Also, as I knew that I’d be working a lot with feature branches, I entered `*/master` as the only branch to build. This meant that pushing changes or making edits on any other branches would not trigger a build.
 
-![Defining the Git repository in Jenkins](/build/static/images/blog/oliverdavies-uk-jenkins-git-repo.png)
+![Defining the Git repository in Jenkins](/build/images/blog/oliverdavies-uk-jenkins-git-repo.png)
 
 I also checked the **Poll SCM** option so that Jenkins would be routinely checking for updated code. This essentially uses the same syntax as cron, specifying minutes, hours etc. I entered `* * * * *` so that Jenkins would poll each minute, knowing that I could make this less frequent if needed.
 
@@ -92,7 +92,7 @@ After originally thinking that I'd have to split the build steps into a separate
 
 I set this to `@daily` (the same `H H * * *` - `H` is a Jenkins thing), so that the build would be triggered automatically each day without a commit, and deploy any updates to the site.
 
-![Setting Jenkins to periodically build a new version of the site.](/build/static/images/blog/oliverdavies-uk-jenkins-git-timer.png)
+![Setting Jenkins to periodically build a new version of the site.](/build/images/blog/oliverdavies-uk-jenkins-git-timer.png)
 
 ## Next Steps
 

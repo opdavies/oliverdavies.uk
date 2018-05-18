@@ -31,7 +31,7 @@ This differs slightly different for each Drupal user, and the code can be found 
 
 If this is added to the end of the commit message, the resulting commit will show that it was committed by the maintainer but authored by a different user. This will then display on Drupal.org that you’ve made a commit to that project.
 
-![A screenshot of a commit that was authored by rli but committed by opdavies](/build/static/images/blog/git-format-patch.png)
+![A screenshot of a commit that was authored by rli but committed by opdavies](/build/images/blog/git-format-patch.png)
 
 The problem is that some project maintainers either don’t know about this option or occasionally forget to add it. [Dreditor](http://dreditor.org) can suggest a commit message and assign an author, but it is optional and, of course, not all maintainers use Dreditor (although they probably should).
 

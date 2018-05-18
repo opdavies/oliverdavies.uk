@@ -112,7 +112,7 @@ In this case, the new branch will be `8.x-1.x`.
 
 Here is a screenshot of example module that I’ve split and pushed to GitLab. Notice that there are multiple commits in the history, and each still attributed to it’s original author.
 
-![Screenshot of a split project repo on GitLab](/build/static/blog/subtree-split-drupal-module.png)
+![Screenshot of a split project repo on GitLab](/build/images/blog/subtree-split-drupal-module.png)
 
 Also, as this is standard Git functionality, you can follow the same process to extract PHP libraries, Symfony bundles, WordPress plugins or anything else.
 {% endblock %}

@@ -72,9 +72,11 @@ testimonials:
             <article class="listing-item">
                 {% if testimonial.image %}
                     <div class="float-right mb-4 ml-4">
-                        <img src="{{ site.url }}/build/static/images/testimonials/{{ testimonial.image }}"
-                             alt="{{ testimonial.name }}"
-                             class="testimonial-image">
+                        <img
+                            src="{{ site.url }}/build/images/testimonials/{{ testimonial.image }}"
+                            alt="{{ testimonial.name }}"
+                            class="rounded-full w-24 h-24"
+                        >
                     </div>
                 {% endif %}
 
