@@ -94,6 +94,11 @@ events:
         location: Bristol, UK
         website: https://www.drupalbristol.org.uk
 
+    drupal-dev-days-2018:
+        name: Drupal Dev Days 2018
+        location: Lisbon, Portugal
+        website: http://lisbon2018.drupaldays.org
+
     drupal-somerset:
         name: Drupal Somerset
         location: Glastonbury, UK
