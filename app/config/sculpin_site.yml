@@ -16,7 +16,7 @@ availability:
     full: no
 
 avatar:
-    url: /build/static/images/me-precedent.jpg
+    url: /build/images/me-precedent.jpg
 
 drupalorg:
     name: opdavies
@@ -27,7 +27,7 @@ drupalorg:
 email: oliver+website@oliverdavies.uk
 
 favicon:
-    url: /build/static/images/me-phpnw.png
+    url: /build/images/me-phpnw.png
 
 github:
     name: opdavies

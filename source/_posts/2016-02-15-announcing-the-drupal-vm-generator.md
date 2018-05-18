@@ -13,7 +13,7 @@ For the past few weeks I’ve been working on a personal side project, based on 
 {% endblock %}
 
 {% block content %}
-![](/build/static/images/blog/drupalvm-generate-repo.png)
+![](/build/images/blog/drupalvm-generate-repo.png)
 
 ## What is Drupal VM?
 
@@ -37,7 +37,7 @@ Based on the options passed to it and/or answers that you provide, it generates 
 
 Here’s an example of it in action:
 
-!['An animated gif showing the interaction process and the resulting config.yml file'](/build/static/images/blog/drupalvm-generate-example-2.gif)
+!['An animated gif showing the interaction process and the resulting config.yml file'](/build/images/blog/drupalvm-generate-example-2.gif)
 
 You can also define options when calling the command and skip any or all questions. Running the following would bypass all of the questions and create a new file with no interaction or additional steps.
 

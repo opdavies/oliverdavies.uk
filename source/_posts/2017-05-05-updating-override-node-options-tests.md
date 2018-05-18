@@ -192,7 +192,7 @@ Override node options 213 passes, 0 fails, 0 exceptions, and 60 debug messages
 Test run duration: 25 sec
 ```
 
-<img src="/build/static/images/blog/override-node-options-refactor-tests-new-passing.png" alt="">
+<img src="/build/images/blog/override-node-options-refactor-tests-new-passing.png" alt="">
 
 [Here][3] are my full changes from the previous patch, where I added the new tests as well as some small refactors.
 {% endblock %}
