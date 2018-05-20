@@ -19,6 +19,10 @@ navigation:
       href: '/blog'
       pattern: '^/blog/?'
 
+    - title: Book
+      href: '/test-driven-drupal'
+      pattern: '^/test-driven-drupal/?'
+
     - title: Contact
       href: '/contact'
       pattern: '^/contact/?'
