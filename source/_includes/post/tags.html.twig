@@ -1,13 +1,16 @@
 {% if page.tags %}
-    <div>
-        <p>
-            Tags:
-            {% for tag in page.tags|sort %}
-                <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}" class="blue">
+    <h2 class="element-invisible">Tags</h2>
+
+    <ul class="list-reset flex flex-wrap">
+        {% for tag in page.tags|sort %}
+            <li>
+                <a
+                    href="/blog/tags/{{ tag }}"
+                    class="text-xs py-1 px-2 mr-1 mb-1 bg-grey-lighter text-grey leading-none no-underline hover:underline focus:underline"
+                >
                     {{- tag -}}
                 </a>
-                {%- if not loop.last %},{% endif %}
-            {% endfor %}
-        </p>
-    </div>
+            </li>
+        {% endfor %}
+    </ul>
 {% endif %}
