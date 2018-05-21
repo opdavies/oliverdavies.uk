@@ -13,7 +13,4 @@ mix.disableNotifications()
         globs: [
             path.join(__dirname, 'output_*/**/*.html'),
         ]
-    })
-    .options({
-        processCssUrls: false,
     });
