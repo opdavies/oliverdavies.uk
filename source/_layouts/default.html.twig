@@ -1,8 +1,65 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-GB">
-    {% include 'head.html.twig' %}
+    <head>
+        <title>
+            {% if page.title is defined and page.url != '/.' %}
+                {{ page.title }} |
+            {% endif %}
+            {{ site.title }} - {{ site.subtitle }}
+        </title>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        {% if page.meta.description %}
+            <meta name="description" content="{{ page.meta.description|e('html') }}">
+        {% endif %}
+
+        {% include 'og' with { og: page.meta.og } %}
+
+        {% block stylesheets %}
+            <link rel="stylesheet" href="{{ site.url }}/build/css/site.css">
+        {% endblock %}
+
+        {% for size in site.apple_touch_icon_sizes %}
+            <link rel="apple-touch-icon" href="{{ site.favicon.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
+        {% endfor %}
+
+        {% for size in site.favicon_sizes %}
+            <link rel="icon" href="{{ site.favicon.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
+        {% endfor %}
+    </head>
     <body class="text-grey-darkest text-sm leading-normal">
-        {% include 'nav.html.twig' %}
+        <div class="navbar border-bottom border-b border-grey-light mb-6" role="banner">
+            <header class="container mx-auto px-4">
+                <div class="md:flex">
+                    <div class="w-full md:w-1/3 lg:w-1/4 flex items-center">
+                        <div class="w-3/4 py-5">
+                            <a href="/" title="Home">
+                                {{ site.title }}
+                            </a>
+                        </div>
+
+                        <div class="w-1/4 text-right md:hidden">
+                            <button type="button" class="nav-toggle appearance-none">
+                                <svg class="fill-current text-grey-dark w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M16.4 9H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zm0 4H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zM3.6 7h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1z"/></svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <nav class="hidden w-full md:w-2/3 lg:w-3/4 md:flex md:flex-wrap md:justify-end" role="navigation">
+                        {% for link in site.navigation %}
+                            <a href="{{ link.href }}" class="-mx-4 p-4 md:border-b-2 md:border-transparent md:ml-4 md:mr-0 md:p-0 {{ loop.first ? 'border-t border-grey-lighter md:border-t-0 md:border-transparent' }} {{ page.url matches '#' ~ link.pattern ~ '#' ? 'md:bg-transparent md:border-blue' }}">
+                                <span class="flex items-center h-full">
+                                    {{- link.title -}}
+                                </span>
+                            </a>
+                        {% endfor %}
+                    </nav>
+                </div>
+            </header>
+        </div>
 
         <div class="container mx-auto px-4">
             <div class="md:flex -mx-4">
@@ -12,12 +69,53 @@
                     {% block content_bottom %}{% endblock %}
                 </main>
 
-                {% include 'sidebar.html.twig' %}
+                {% block sidebar_wrapper %}
+                    <div class="md:w-1/4 px-4" role="complementary">
+                        {% block sidebar %}
+                            {% include 'availability' %}
+                            {% include 'posts/latest' %}
+                            {% include 'badges' %}
+                        {% endblock %}
+                    </div>
+                {% endblock %}
             </div>
 
-            {% include 'footer.html.twig' %}
+            <footer class="border-t border-grey-light pt-4 mt-4" role="contentinfo">
+                <p>
+                    &copy; 2010-{{ 'now'|date('Y') }} {{ site.title }}. Built with <a href="https://sculpin.io">Sculpin</a> and <a href="https://tailwindcss.com">Tailwind CSS</a>.
+                </p>
+
+                <div class="mt-2">
+                    <h2 class="mb-2">Things that I organise</h2>
+
+                    <ul class="list-reset flex">
+                        {% for meetup in site.meetups %}
+                            <li>
+                                <a href="{{ meetup.url }}" title="{{ meetup.name }}" class="dib mr-4">
+                                    <img src="{{ site.images_url }}/build/images/meetups/{{ meetup.logo }}" alt="{{ meetup.name }} logo" class="h-16">
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </footer>
         </div>
 
-        {% include 'scripts.html.twig' %}
+        <script>
+            document.querySelector('.nav-toggle').onclick = function() {
+                document.querySelector('.navbar nav').classList.toggle('hidden').toggle('block');
+                return false;
+            };
+        </script>
+
+        {% if site.google_analytics_tracking_id %}
+            <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', '{{ site.google_analytics_tracking_id }}', 'auto'); ga('send', 'pageview');</script>
+        {% endif %}
+
+        {% if page.has_tweets %}
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        {% endif %}
+
+        {% block scripts %}{% endblock %}
     </body>
 </html>
