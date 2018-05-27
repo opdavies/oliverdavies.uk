@@ -16,10 +16,68 @@
             </tr>
         </thead>
         <tbody>
-            {% for row in talks %}
-                {% include "talks-table-row" with {
-                    today: 'today'|date('Y-m-d')
-                } %}
+            {% for talk in talks %}
+                <tr>
+                    <td>
+                        {{ talk.event.date|date(talk.event.fuzzy_date ? 'F Y' : 'j F Y') }}
+
+                        {% if talk.event.time is defined %}
+                            <div class="text-xs text-grey-dark">
+                                {{ talk.event.time }}
+                            </div>
+                        {% endif %}
+                    </td>
+
+                    {% if not talk_page %}
+                        <td>
+                            {% if talk.talk.url is not empty %}
+                                <a href="{{ talk.talk.url }}">
+                                    {{ talk.talk.title }}
+                                </a>
+                            {% else %}
+                                {{  talk.talk.title }}
+                            {% endif %}
+
+                            <div class="text-xs text-grey-dark">
+                                {% if talk.talk.type %}
+                                    {{ talk.talk.type }}
+                                {% else %}
+                                    {{ talk.event.type|default('Talk') }}
+                                {% endif %}
+                            </div>
+                        </td>
+                    {% endif %}
+
+                    <td>
+                        {% if talk.event.website is not empty %}
+                            <a href="{{ talk.event.website }}">
+                                {{ talk.event.name }}
+                            </a>
+                        {% else %}
+                            {{ talk.event.name }}
+                        {% endif %}
+
+                        {% if talk.event.location is defined %}
+                            <div class="text-xs text-grey-dark">
+                                {{ talk.event.location }}
+                            </div>
+                        {% endif %}
+                    </td>
+
+                    {% if not upcoming %}
+                        <td>
+                            {% if talk.event.joindin and talk.event.date <= 'today'|date('Y-m-d') %}
+                                <a
+                                    href="{{ talk.event.joindin }}"
+                                    class="button"
+                                    title="Read or leave feedback for this talk"
+                                >
+                                    <i class="fa fa-comment-o"></i> joind.in
+                                </a>
+                            {% endif %}
+                        </td>
+                    {% endif %}
+                </tr>
             {% endfor %}
         </tbody>
     </table>
