@@ -11,37 +11,15 @@ var colors = {
   'grey-lightest': '#fafcfc',
   'white': '#ffffff',
 
-  'blue-darkest': '#05233b',
-  'blue-darker': '#103d60',
   'blue-dark': '#2779bd',
   'blue': '#0678be',
-  'blue-light': '#6cb2eb',
   'blue-lighter': '#bcdefa',
-  'blue-lightest': '#eff8ff',
 
-  'red-darkest': '#420806',
-  'red-darker': '#6a1b19',
   'red-dark': '#cc1f1a',
-  'red': '#e3342f',
-  'red-light': '#ef5753',
-  'red-lighter': '#f9acaa',
-  'red-lightest': '#fcebea',
 
-  'orange-darkest': '#542605',
-  'orange-darker': '#7f4012',
-  'orange-dark': '#de751f',
   'orange': '#f6993f',
-  'orange-light': '#faad63',
-  'orange-lighter': '#fcd9b6',
-  'orange-lightest': '#fff5eb',
 
-  'green-darkest': '#032d19',
-  'green-darker': '#0b4228',
   'green-dark': '#1f9d55',
-  'green': '#38c172',
-  'green-light': '#51d88a',
-  'green-lighter': '#a2f5bf',
-  'green-lightest': '#e3fcec',
 }
 
 module.exports = {
