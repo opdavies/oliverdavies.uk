@@ -4,7 +4,7 @@
     {% include 'post/header' %}
     {% include 'post/intro-image' %}
 
-    <div class="content mb-6">
+    <div class="markdown mb-6">
         {% set limit = 'now'|date_modify('-12 months')|date('U') %}
         {% if page.date|date('U') < limit %}
             <div class="border-2 border-blue p-4 mb-4">
@@ -19,7 +19,10 @@
         {% block content %}{% endblock %}
     </div>
 
-    {% include 'post/twitter-link' %}
+    <div class="mb-4 italic text-grey-dark">
+        <p>Questions? Comments? I’m <a href="https://twitter.com/{{ site.twitter.name }}" class="link">@{{ site.twitter.name }}</a> on Twitter.</p>
+    </div>
+
     {% include 'post/tags' %}
     {% include 'post/pager' %}
     {% include 'post/about-author' %}

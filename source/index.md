@@ -11,6 +11,7 @@ use:
     - posts
     - testimonials
 ---
+<div class="markdown" markdown="1">
 # About Me
 
 <div class="mb-4 w-1/3 sm:w-1/4 lg:w-1/6">
@@ -43,6 +44,7 @@ You can usually find me on Twitter ([@{{ site.twitter.name }}][21]) and IRC ({{ 
 - User group and conference organiser
 - Blogger and author
 - Speaker
+</div>
 
 [1]: https://www.google.com/#q=opdavies
 [2]: https://www.drupal.org

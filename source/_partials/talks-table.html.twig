@@ -31,11 +31,11 @@
                     {% if not talk_page %}
                         <td>
                             {% if talk.talk.url is not empty %}
-                                <a href="{{ talk.talk.url }}">
+                                <a href="{{ talk.talk.url }}" class="link">
                                     {{ talk.talk.title }}
                                 </a>
                             {% else %}
-                                {{  talk.talk.title }}
+                                {{ talk.talk.title }}
                             {% endif %}
 
                             <div class="text-xs text-grey-dark">
@@ -50,7 +50,7 @@
 
                     <td>
                         {% if talk.event.website is not empty %}
-                            <a href="{{ talk.event.website }}">
+                            <a href="{{ talk.event.website }}" class="link">
                                 {{ talk.event.name }}
                             </a>
                         {% else %}
@@ -69,7 +69,7 @@
                             {% if talk.event.joindin and talk.event.date <= 'today'|date('Y-m-d') %}
                                 <a
                                     href="{{ talk.event.joindin }}"
-                                    class="button"
+                                    class="button no-underline"
                                     title="Read or leave feedback for this talk"
                                 >
                                     <i class="fa fa-comment-o"></i> joind.in
