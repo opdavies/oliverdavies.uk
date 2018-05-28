@@ -1,0 +1,31 @@
+pre code,
+pre code.hljs,
+.hljs {
+    @apply .p-4;
+    @apply .text-sm;
+    @apply .border-l-4;
+    @apply .border-grey-dark;
+    @apply .block;
+    @apply .bg-grey-lighter;
+    @apply .overflow-x-scroll;
+    @apply .font-mono;
+}
+
+p,
+li {
+    code {
+        @apply .bg-grey-lighter .inline-block .font-mono;
+        padding: 1px 3px;
+    }
+}
+
+.note {
+    @apply .bg-blue-lighter;
+    @apply .p-4;
+    @apply .border-l-4;
+    @apply .border-blue;
+}
+
+.note > *:last-child {
+    @apply .mb-0;
+}
