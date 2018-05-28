@@ -1,0 +1,10 @@
+{% set classes = [
+    '-mx-4 p-4 md:border-b-2 md:border-transparent md:ml-4 md:mr-0 md:p-0',
+    loop.first ? 'border-t border-grey-lighter md:border-t-0 md:border-transparent',
+    page.url matches '#' ~ pattern ~ '#' ? 'md:bg-transparent md:border-blue',
+] %}
+<a href="{{ href }}" class="{{ classes|join(' ')|trim }}">
+    <span class="flex items-center h-full">
+        {{- title -}}
+    </span>
+</a>
