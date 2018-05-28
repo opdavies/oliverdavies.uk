@@ -49,13 +49,47 @@
                     </div>
 
                     <nav class="hidden w-full md:w-2/3 lg:w-3/4 md:flex md:flex-wrap md:justify-end" role="navigation">
-                        {% for link in site.navigation %}
-                            <a href="{{ link.href }}" class="-mx-4 p-4 md:border-b-2 md:border-transparent md:ml-4 md:mr-0 md:p-0 {{ loop.first ? 'border-t border-grey-lighter md:border-t-0 md:border-transparent' }} {{ page.url matches '#' ~ link.pattern ~ '#' ? 'md:bg-transparent md:border-blue' }}">
-                                <span class="flex items-center h-full">
-                                    {{- link.title -}}
-                                </span>
-                            </a>
-                        {% endfor %}
+                        {% include 'nav-item.html.twig' with {
+                            title: 'About',
+                            href: '/',
+                            pattern: '^/.$',
+                        } %}
+
+                        {% include 'nav-item.html.twig' with {
+                            title: 'Experience',
+                            href: '/experience',
+                            pattern: '^/experience/?$',
+                        } %}
+
+                        {% include 'nav-item.html.twig' with {
+                            title: 'Talks',
+                            href: '/talks',
+                            pattern: '^/talks/?',
+                        } %}
+
+                        {% include 'nav-item.html.twig' with {
+                            title: 'Open Source',
+                            href: '/opensource',
+                            pattern: '^/opensource/?$',
+                        } %}
+
+                        {% include 'nav-item.html.twig' with {
+                            title: 'Blog',
+                            href: '/blog',
+                            pattern: '^/blog/?',
+                        } %}
+
+                        {% include 'nav-item.html.twig' with {
+                            title: 'Book',
+                            href: '/test-driven-drupal',
+                            pattern: '^/test-driven-drupal/?$',
+                        } %}
+
+                        {% include 'nav-item.html.twig' with {
+                            title: 'Contact',
+                            href: '/contact',
+                            pattern: '^/contact/?',
+                        } %}
                     </nav>
                 </div>
             </header>
@@ -88,14 +122,24 @@
                 <div class="mt-2">
                     <h2 class="mb-2">Things that I organise</h2>
 
-                    <ul class="list-reset flex">
-                        {% for meetup in site.meetups %}
-                            <li>
-                                <a href="{{ meetup.url }}" title="{{ meetup.name }}" class="dib mr-4">
-                                    <img src="{{ site.images_url }}/build/images/meetups/{{ meetup.logo }}" alt="{{ meetup.name }} logo" class="h-16">
-                                </a>
-                            </li>
-                        {% endfor %}
+                    <ul class="list-reset inline-flex">
+                        {% include 'meetup.html.twig' with {
+                            name: 'Drupal Bristol',
+                            logo: 'drupal-bristol.jpeg',
+                            url: 'http://www.drupalbristol.org.uk',
+                        } %}
+
+                        {% include 'meetup.html.twig' with {
+                            name: 'DrupalCamp Bristol',
+                            logo: 'drupalcamp-bristol.png',
+                            url: 'http://www.drupalcampbristol.co.uk',
+                        } %}
+
+                        {% include 'meetup.html.twig' with {
+                            name: 'PHPSW',
+                            logo: 'phpsw.jpeg',
+                            url: 'http://phpsw.uk',
+                        } %}
                     </ul>
                 </div>
             </footer>
