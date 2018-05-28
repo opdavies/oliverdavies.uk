@@ -4,6 +4,7 @@ title: 'Test Driven Drupal: The Book'
 mailchimp_url: 'https://oliverdavi.us18.list-manage.com/subscribe/post?u=b4ac8dd177796d37b93f9c285&amp;id=033c84e0d5'
 contact_email: 'oliver@testdrivendrupal.com'
 ---
+<div class="markdown" markdown="1">
 Having [given talks][1] and [written blog posts][0] about automated testing in Drupal, I’m currently in the planning phase of a book and potentially some accompanying screencasts about it, focussing on Drupal 8.
 
 I’m still thinking about what use-cases to cover and examples to include, but here are some of the things I’m considering:
@@ -36,10 +37,10 @@ I’m still thinking about what use-cases to cover and examples to include, but 
 I’ll most likely be publishing it via Leanpub, and will be sending free chapters, early-bird discounts and links to screencasts and blog posts as I write the book to subscribers of the mailing list.
 
 If you have questions or would like to suggest something for me to include in the book, please <a href="mailto:{{ page.contact_email }}">contact me</a>.
-
 ## Mailing List
 
 Enter your email address to subscribe to the Test Driven Drupal mailing list.
+</div>
 
 <div id="mc_embed_signup">
     <form action="{{ page.mailchimp_url }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate p-0" target="_blank" novalidate>

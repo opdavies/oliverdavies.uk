@@ -2,8 +2,7 @@
 
 {% block content_wrapper %}
     <div>
-        <div>
-            <h2>Abstract</h2>
+        <div class="markdown">
             {{ page.summary|markdown }}
             {% block content %}{% endblock %}
         </div>

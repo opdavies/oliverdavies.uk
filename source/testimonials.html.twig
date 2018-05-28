@@ -69,19 +69,19 @@ testimonials:
 {% block content %}
     <div class="listing">
         {% for testimonial in page.testimonials|reverse %}
-            <article class="listing-item">
+            <article class="mb-12">
                 {% if testimonial.image %}
                     <div class="float-right mb-4 ml-4">
                         <img
                             src="{{ site.url }}/build/images/testimonials/{{ testimonial.image }}"
                             alt="{{ testimonial.name }}"
-                            class="rounded-full w-24 h-24"
+                            class="rounded-full w-16 h-16"
                         >
                     </div>
                 {% endif %}
 
-                <div class="mb-4">
-                    <h2>{{ testimonial.name }}</h2>
+                <div class="mb-2">
+                    <h2 class="mb-1 leading-none">{{ testimonial.name }}</h2>
 
                     {% if testimonial.role %}
                         <div class="text-grey-dark">

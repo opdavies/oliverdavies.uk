@@ -1,7 +1,7 @@
 <div class="clearfix mt-4">
     <h2>About the Author</h2>
 
-    <div class="flex items-center">
+    <div class="flex">
         <div class="mr-4 flex-none leading-none">
             <img
                 src="{{ site.images_url }}{{ site.avatar.url }}"
@@ -10,6 +10,9 @@
             >
         </div>
 
-        <p class="mb-0">Oliver Davies is a full-stack Web Developer and System Administrator based in the UK. He is a {{ site.work.role }} at <a href="{{ site.companies[site.work.company].url }}?utm_source={{ site.short_url }}&utm_medium=about-author">{{ site.companies[site.work.company].name }}</a> and a part-time freelancer specialising in Drupal, Symfony and Laravel development and Linux systems administration.</p>
+        <p class="mb-0">
+            Oliver Davies is a full-stack Web Developer and System Administrator based in the UK.
+            He is a {{ site.work.role }} at <a href="{{ site.companies[site.work.company].url }}?utm_source={{ site.short_url }}&amp;utm_medium=about-author" class="link">{{ site.companies[site.work.company].name }}</a> and a part-time freelancer specialising in Drupal, Symfony and Laravel development and Linux systems administration.
+        </p>
     </div>
 </div>

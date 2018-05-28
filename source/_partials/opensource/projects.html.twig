@@ -3,12 +3,12 @@
         <div class="md:w-1/2 md:px-2 mb-4 flex">
             <div class="border p-3 w-full flex flex-col {{ project.versions ? 'justify-between' }}">
                 <h3>
-                    <a href="{{ project.url }}">
+                    <a href="{{ project.url }}" class="text-black no-underline hover:underline focus:underline">
                         {{ project.name }}
                     </a>
                 </h3>
 
-                <div class="flex-1">
+                <div class="markdown flex-1">
                     {{ project.description }}
                 </div>
 
