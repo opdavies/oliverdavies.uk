@@ -1,7 +1,4 @@
-<a
-    href="{{ href }}"
-    class="block text-grey-darkest no-underline p-4 border-l-2 md:border-l-0 md:border-b-2 border-transparent md:ml-4 md:mr-0 md:p-0 hover:border-grey-light {{ loop.first ? 'border-t border-grey-lighter md:border-t-0 md:border-transparent' }} {{ page.url matches '#' ~ pattern ~ '#' ? 'border-blue' }}"
->
+<a href="{{ href }}" class="p-4 border-l-2 md:border-l-0 md:border-b-2 md:ml-4 md:mr-0 md:p-0 hover:no-underline {{ page.url matches '#' ~ pattern ~ '#' ? 'border-blue' : 'border-transparent hover:border-grey-light' }} {{ loop.first ? 'border-t border-grey-lighter md:border-t-0 md:border-transparent' }}">
     <span class="flex items-center h-full">
         {{- title -}}
     </span>
