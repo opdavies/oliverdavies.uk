@@ -5,7 +5,11 @@ require('laravel-mix-tailwind');
 
 mix.disableNotifications()
     .less('assets/less/site.less', 'source/build/css')
-    .js('assets/js/site.js', 'source/build/js')
+    .combine([
+        'node_modules/jquery/dist/jquery.js',
+        'node_modules/highlightjs/highlight.pack.js',
+        'assets/js/site.js',
+    ], 'source/build/js/all.js')
     .copyDirectory('assets/images', 'source/build/images')
     .copyDirectory('node_modules/font-awesome/fonts', 'source/build/fonts')
     .tailwind()

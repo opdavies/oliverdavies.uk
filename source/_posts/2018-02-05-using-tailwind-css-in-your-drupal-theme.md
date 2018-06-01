@@ -32,7 +32,7 @@ The installation and configuration steps are essentially the same as those outli
 
 Create a `postcss.config.js` file and add `tailwindcss` as a plugin, passing the path to the config file:
 
-```language-json
+```language-js
 module.exports = {
     plugins: [
         require('tailwindcss')('./tailwind.js'),
@@ -44,7 +44,7 @@ module.exports = {
 
 There are some configuration settings within `tailwind.js` that you’ll need to change to make things work nicely with Drupal. These are within the `options` section:
 
-```language-json
+```language-js
 options: {
     prefix: 'tw-',
     important: true,
