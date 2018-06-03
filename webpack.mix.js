@@ -4,7 +4,7 @@ require('laravel-mix-purgecss');
 require('laravel-mix-tailwind');
 
 mix.disableNotifications()
-    .less('assets/less/site.less', 'source/build/css')
+    .sass('assets/sass/site.sass', 'source/build/css')
     .combine([
         'node_modules/jquery/dist/jquery.js',
         'node_modules/highlightjs/highlight.pack.js',
