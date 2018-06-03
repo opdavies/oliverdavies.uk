@@ -1,0 +1,23 @@
+.table-collapse
+    border-collapse: collapse
+
+.table-responsive
+    @apply .mb-4 .border .w-full
+    overflow-x: auto
+    overflow-y: hidden
+
+    table
+        @apply .mb-0 .border-0 .whitespace-no-wrap
+
+.table
+    @apply .w-full
+    @apply .table-collapse
+
+    tr:nth-child(odd)
+        @apply .bg-grey-lighter
+
+    tr th
+        @apply .text-left .px-3 .py-2 .bg-white
+
+    td
+        @apply .px-3 .py-2 .border-t
