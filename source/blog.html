@@ -36,19 +36,5 @@ use: [posts]
         {% endfor %}
     </ul>
 
-    {% if page.pagination.previous_page or page.pagination.next_page %}
-        <ul class="list-reset flex">
-            {% if page.pagination.next_page %}
-                <li class="w-1/2">
-                    <a href="{{ site.url }}{{ page.pagination.next_page.url }}">← Older posts</a>
-                </li>
-            {% endif %}
-
-            {% if page.pagination.previous_page %}
-                <li class="text-right {{ page.pagination.next_page and page.pagination.previous_page ? 'w-1/2' : 'w-full' }}">
-                    <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer posts →</a>
-                </li>
-            {% endif %}
-        </ul>
-    {% endif %}
+    {% include 'post-pager.html.twig' %}
 {% endblock %}
