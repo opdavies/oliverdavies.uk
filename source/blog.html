@@ -25,9 +25,26 @@ use: [posts]
                 {% include 'post/intro-image' with { page: post } %}
 
                 <div class="markdown mb-4">
-                    {{ post.summary|markdown }}
-                    {% if post.blocks.excerpt is not empty %}
+                    {% if post.summary %}
+                        {{ post.summary|markdown }}
+                        <div>
+                            <a
+                                class="button text-grey-darker rounded-lg border border-grey-light bg-grey-lightest no-underline hover:underline focus:underline"
+                                href="{{ post.url }}"
+                            >
+                                Continue reading <span class="element-invisible">about {{ post.title }}
+                            </a>
+                        </div>
+                    {% elseif post.blocks.excerpt %}
                         {{ post.blocks.excerpt|markdown }}
+                        <div>
+                            <a
+                                class="button text-grey-darker rounded-lg border border-grey-light bg-grey-lightest no-underline hover:underline focus:underline"
+                                href="{{ post.url }}"
+                            >
+                                Continue reading <span class="element-invisible">about {{ post.title }}
+                            </a>
+                        </div>
                     {% else %}
                         {{ post.blocks.content|markdown }}
                     {% endif %}
