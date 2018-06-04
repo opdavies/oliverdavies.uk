@@ -26,7 +26,7 @@ use: [posts]
 
                 <div class="markdown mb-4">
                     {{ post.summary|markdown }}
-                    {% if post.blocks.excerpt is defined %}
+                    {% if post.blocks.excerpt is not empty %}
                         {{ post.blocks.excerpt|markdown }}
                     {% else %}
                         {{ post.blocks.content|markdown }}
