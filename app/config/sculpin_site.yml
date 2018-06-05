@@ -228,3 +228,6 @@ youtube:
 work:
     role: Senior Developer
     company: microserve
+
+imports:
+    - '../../data/talks.yml'

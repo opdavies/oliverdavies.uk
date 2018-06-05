@@ -11,9 +11,12 @@ use: [talks]
     <div>
         <h2>Upcoming Talks</h2>
 
-        {% set upcoming_talks = getUpcomingTalks(data.talks, site.events) %}
+        {% set upcoming_talks = getUpcomingTalks(data.talks|merge(site.talks), site.events) %}
         {% if not upcoming_talks.empty %}
-            {% include "talks-table" with { talks: upcoming_talks, upcoming: true } %}
+            {% include "talks-table" with {
+                talks: upcoming_talks,
+                upcoming: true,
+            } %}
         {% else %}
             <p>Nothing scheduled at the moment.</p>
         {% endif %}
@@ -22,7 +25,9 @@ use: [talks]
     <div>
         <h2>Last 5 Talks</h2>
 
-        {% include "talks-table" with { talks: getPastTalks(data.talks, site.events)|slice(0,5) } %}
+        {% include "talks-table" with {
+            talks: getPastTalks(data.talks|merge(site.talks), site.events)|slice(0,5),
+        } %}
 
         <p>All previous talks can be found in the <a href="/talks/archive" class="link">talks archive</a>.</p>
     </div>

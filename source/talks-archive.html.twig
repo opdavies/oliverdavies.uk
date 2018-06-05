@@ -3,16 +3,11 @@ layout: page
 title: Talk Archive
 permalink: talks/archive
 use: [talks]
-talks:
-    - title: 'Drupal and the LDAP module'
-      events:
-          - { date: '2013-07-10', event: swdug }
-    - title: 'About the Drupal Association'
-      events:
-          - { date: '2014-08-19', event: swdug }
 ---
 <p>Here are a list of my previous conference and user group talks:</p>
 
-{% include "talks-table" with { talks: getPastTalks(data.talks, site.events) } %}
+{% include "talks-table" with {
+    talks: getPastTalks(data.talks|merge(site.talks), site.events),
+} %}
 
 <p>Upcoming talks can be found on the <a href="{{ site.url }}/talks" class="link">talks page</a>.</p>
