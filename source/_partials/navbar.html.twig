@@ -1,0 +1,63 @@
+<div class="navbar border-bottom border-b border-grey-light mb-6" role="banner">
+    <header class="container mx-auto px-4">
+        <div class="md:flex">
+            <div class="w-full md:w-1/3 lg:w-1/4 flex items-center">
+                <div class="w-3/4 py-5">
+                    <a href="/" title="Home" class="text-grey-darkest no-underline hover:underline">
+                        {{ site.title }}
+                    </a>
+                </div>
+
+                <div class="w-1/4 text-right md:hidden">
+                    <button type="button" class="nav-toggle appearance-none">
+                        <svg class="fill-current text-grey-dark w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M16.4 9H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zm0 4H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zM3.6 7h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1z"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <nav class="hidden w-full -mx-4 md:w-2/3 lg:w-3/4 md:flex md:flex-wrap md:justify-end" role="navigation">
+                {% include 'nav-item.html.twig' with {
+                    title: 'About',
+                    href: '/',
+                    pattern: '^/.$',
+                } %}
+
+                {% include 'nav-item.html.twig' with {
+                    title: 'Experience',
+                    href: '/experience',
+                    pattern: '^/experience/?$',
+                } %}
+
+                {% include 'nav-item.html.twig' with {
+                    title: 'Talks',
+                    href: '/talks',
+                    pattern: '^/talks/?',
+                } %}
+
+                {% include 'nav-item.html.twig' with {
+                    title: 'Open Source',
+                    href: '/opensource',
+                    pattern: '^/opensource/?$',
+                } %}
+
+                {% include 'nav-item.html.twig' with {
+                    title: 'Blog',
+                    href: '/blog',
+                    pattern: '^/blog/?',
+                } %}
+
+                {% include 'nav-item.html.twig' with {
+                    title: 'Book',
+                    href: '/test-driven-drupal',
+                    pattern: '^/test-driven-drupal/?$',
+                } %}
+
+                {% include 'nav-item.html.twig' with {
+                    title: 'Contact',
+                    href: '/contact',
+                    pattern: '^/contact/?',
+                } %}
+            </nav>
+        </div>
+    </header>
+</div>
