@@ -16,7 +16,9 @@ mix.disableNotifications()
     .purgeCss({
         globs: [
             path.join(__dirname, 'output_*/**/*.html'),
-        ]
+        ],
+        whitelistPatterns: [/language/, /hljs/],
+        whitelistPatternsChildren: [/^markdown$/]
     })
     .options({
         processCssUrls: false
