@@ -19,7 +19,12 @@
             {% for talk in talks %}
                 <tr>
                     <td class="w-40 md:w-48 whitespace-no-wrap xl:whitespace-normal">
-                        {{ talk.event.date|date(talk.event.fuzzy_date ? 'F Y' : 'j F Y') }}
+                        <span class="block md:hidden">
+                            {{ talk.event.date|date(talk.event.fuzzy_date ? 'M Y' : 'j M Y') }}
+                        </span>
+                        <span class="hidden md:block">
+                            {{ talk.event.date|date(talk.event.fuzzy_date ? 'F Y' : 'j F Y') }}
+                        </span>
 
                         {% if talk.event.time is defined %}
                             <div class="text-xs text-grey-dark">
