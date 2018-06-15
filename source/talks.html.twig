@@ -23,12 +23,10 @@ use: [talks]
     </div>
 
     <div>
-        <h2>Last 5 Talks</h2>
+        <h2>Past Talks</h2>
 
         {% include "talks-table" with {
-            talks: getPastTalks(data.talks|merge(site.talks), site.events)|slice(0,5),
+            talks: getPastTalks(data.talks|merge(site.talks), site.events)
         } %}
-
-        <p>All previous talks can be found in the <a href="/talks/archive" class="link">talks archive</a>.</p>
     </div>
 {% endblock %}
