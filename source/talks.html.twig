@@ -8,7 +8,7 @@ use: [talks]
 {% block content %}
     <p>I regularly speak at conferences and user groups about a range of subjects including Drupal, Sculpin and Git. If you would like to me to speak at your group or conference, please <a href="/contact" class="link">get in touch</a>.</p>
 
-    <div>
+    <div class="mb-6">
         <h2>Upcoming Talks</h2>
 
         {% set upcoming_talks = getUpcomingTalks(data.talks|merge(site.talks), site.events) %}
