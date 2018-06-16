@@ -4,6 +4,17 @@ title: Talks
 meta:
     description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
 use: [talks]
+talks:
+    - title: 'Drupal and the LDAP module'
+      events:
+          - { event: swdug, date: '2013-07-10' }
+    - title: 'About the Drupal Association'
+      events:
+          - { event: swdug, date: '2014-08-19' }
+    - title: 'Automated testing with Drupal 8 and PHPUnit'
+      type: Workshop
+      events:
+            - { event: 'drupal-bristol', date: '2018-06-20' }
 ---
 {% block content %}
     <p>I regularly speak at conferences and user groups about a range of subjects including Drupal, Sculpin and Git. If you would like to me to speak at your group or conference, please <a href="/contact" class="link">get in touch</a>.</p>
@@ -11,7 +22,7 @@ use: [talks]
     <div class="mb-6">
         <h2>Upcoming Talks</h2>
 
-        {% set upcoming_talks = getUpcomingTalks(data.talks|merge(site.talks), site.events) %}
+        {% set upcoming_talks = getUpcomingTalks(data.talks|merge(page.talks), site.events) %}
         {% if not upcoming_talks.empty %}
             {% include "talks-table" with {
                 talks: upcoming_talks,
@@ -26,7 +37,7 @@ use: [talks]
         <h2>Past Talks</h2>
 
         {% include "talks-table" with {
-            talks: getPastTalks(data.talks|merge(site.talks), site.events)
+            talks: getPastTalks(data.talks|merge(page.talks), site.events)
         } %}
     </div>
 {% endblock %}
