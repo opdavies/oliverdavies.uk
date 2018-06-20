@@ -13,10 +13,10 @@ meta:
         description: "You've built your Drupal site, now learn how to deploy it with Fabric."
         type: website
 events:
-    - event: drupalcamp-dublin-17
+    - event: drupalcamp_dublin_17
       date: '2017-10-20'
       time: '15:00 - 15:40'
-    - event: drupal-somerset
+    - event: drupal_somerset
       date: '2017-10-26'
 ---
 You’ve built your website, and now you just need to deploy it. There are various ways that this could be done - from (S)FTP, to SCP and rsync, to running commands like “git pull” and “composer install” directly on the server (not recommended).

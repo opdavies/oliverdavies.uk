@@ -6,7 +6,7 @@ speakerdeck:
     ratio: '1.37081659973226'
     url: https://speakerdeck.com/opdavies/drupal-rejoining-the-herd
 events:
-    - event: phpsc16
+    - event: php_south_coast_16
       date: '2016-06-11'
       joindin: https://joind.in/talk/41d0f
 ---
