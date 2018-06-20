@@ -9,7 +9,7 @@ youtube:
 tags: [nomad-php, lightning-talk, laravel, collections]
 type: Lightning talk
 events:
-    - event: nomad-php
+    - event: nomad_php
       date: '2017-12-21'
       time: 19:00 CET
 ---

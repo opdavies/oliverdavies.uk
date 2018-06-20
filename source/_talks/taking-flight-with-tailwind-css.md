@@ -6,7 +6,7 @@ speakerdeck:
     url: https://speakerdeck.com/opdavies/taking-flight-with-tailwind-css
 tags: [css, tailwind, meetup]
 events:
-    - event: drupal-bristol
+    - event: drupal_bristol
       date: '2018-01-17'
       type: Lightning talk
 meta:

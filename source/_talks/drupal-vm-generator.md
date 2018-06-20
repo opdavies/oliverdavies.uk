@@ -12,7 +12,7 @@ youtube:
 events:
     - event: nwdug
       date: '2016-03-08'
-    - event: drupal-bristol
+    - event: drupal_bristol
       date: '2016-04-02'
 ---
 An short talk about the [Drupal VM Generator][1] project.

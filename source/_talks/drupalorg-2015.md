@@ -6,9 +6,9 @@ speakerdeck:
     ratio: "1.77777777777778"
     url: https://speakerdeck.com/opdavies/drupal-dot-org-in-15
 events:
-    - event: drupalcamp-brighton-15
+    - event: drupalcamp_brighton_15
       date: '2015-01-18'
-    - event: drupalcamp-london-15
+    - event: drupalcamp_london_15
       date: '2015-02-28'
 ---
 A retrospective of the Drupal Association’s work in 2014 and a look forward to what we’ll be working on in 2015.

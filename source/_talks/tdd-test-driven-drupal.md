@@ -20,17 +20,17 @@ meta:
             type: image/png
 use: [talks]
 events:
-    - event: drupalcamp-london-17
+    - event: drupalcamp_london_17
       date: '2017-03-04'
       time: '16:15 - 17:00'
-    - event: drupalcamp-dublin-17
+    - event: drupalcamp_dublin_17
       date: '2017-10-21'
       time: '12:00 - 12:40'
-    - event: drupal-bristol
+    - event: drupal_bristol
       date: '2017-11-22'
-    - event: drupal-somerset
+    - event: drupal_somerset
       date: '2018-06-14'
-    - event: drupal-dev-days-2018
+    - event: drupal_dev_days_18
       date: '2018-07-05'
       time: '12:15 - 13:00'
 ---

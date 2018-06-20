@@ -11,7 +11,7 @@ tags:
 youtube:
     id: JyDjC7gGDpU
 events:
-    - event: drupal-bristol
+    - event: drupal_bristol
       date: '2018-04-18'
       joindin: https://joind.in/talk/14851
 ---

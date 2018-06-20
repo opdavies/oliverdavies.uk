@@ -3,7 +3,7 @@ title: Getting (Your Data) Into Drupal 8
 speakerdeck:
     id: 63e5dfce996e46699e304d50e896477b
     ratio: '1.77777777777778'
-    url: 'https://speakerdeck.com/opdavies/getting-your-data-into-drupal-8-drupal-bristol'
+    url: 'https://speakerdeck.com/opdavies/getting-your-data-into-drupal-8-drupal_bristol'
 youtube:
     id: jtmARTuYhp8
 tags: [drupalcamp, migration, drupal-8]
@@ -19,9 +19,9 @@ meta:
             type: image/png
 use: [talks]
 events:
-    - event: drupal-bristol
+    - event: drupal_bristol
       date: '2017-01-18'
-    - event: drupalcamp-london-17
+    - event: drupalcamp_london_17
       date: '2017-03-04'
       time: '12:05 - 12:50'
 ---
