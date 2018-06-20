@@ -86,18 +86,18 @@ drupalorg:
     url: https://www.drupal.org/user/381388
     url_new: https://www.drupal.org/u/opdavies
 
-email: oliver+website@oliverdavies.uk
+email: oliver+url@oliverdavies.uk
 
 events:
     drupal-bristol:
         name: Drupal Bristol
         location: Bristol, UK
-        website: https://www.drupalbristol.org.uk
+        url: https://www.drupalbristol.org.uk
 
     drupal-dev-days-2018:
         name: Drupal Dev Days 2018
         location: Lisbon, Portugal
-        website: http://lisbon2018.drupaldays.org
+        url: http://lisbon2018.drupaldays.org
 
     drupal-somerset:
         name: Drupal Somerset
@@ -110,12 +110,12 @@ events:
     drupalcamp-bristol-16:
         name: DrupalCamp Bristol 2016
         location: Bristol, UK
-        website: https://2016.drupalcampbristol.org.uk
+        url: https://2016.drupalcampbristol.org.uk
 
     drupalcamp-dublin-17:
         name: DrupalCamp Dublin 2017
         location: Dublin, Ireland
-        website: http://2017.drupal.ie
+        url: http://2017.drupal.ie
 
     drupalcamp-london-14:
         name: DrupalCamp London 2014
@@ -132,47 +132,47 @@ events:
     drupalcamp-london-17:
         name: DrupalCamp London 2017
         location: London, UK
-        website: http://drupalcamp.london
+        url: http://drupalcamp.london
 
     drupalcamp-london-18:
         name: DrupalCamp London 2018
         location: London, UK
-        website: http://drupalcamp.london
+        url: http://drupalcamp.london
 
     drupalcamp-north-15:
         name: DrupalCamp North 2015
         location: Sunderland, UK
-        website: http://drupalcampnorth.org
+        url: http://drupalcampnorth.org
 
     nomad-php:
         name: Nomad PHP
         location: Online
-        website: https://nomadphp.com
+        url: https://nomadphp.com
 
     nwdug:
         name: NWDUG
         location: Manchester, UK
-        website: http://nwdrupal.org.uk
+        url: http://nwdrupal.org.uk
 
     phpnw17:
         name: PHP North West 2017
         location: Manchester, UK
-        website: http://conference.phpnw.org.uk/phpnw17
+        url: http://conference.phpnw.org.uk/phpnw17
 
     phpsc16:
         name: PHP South Coast 2016
         location: Portsmouth, UK
-        website: http://2016.phpsouthcoast.co.uk
+        url: http://2016.phpsouthcoast.co.uk
 
     phpsw:
         name: PHPSW
         location: Bristol, UK
-        website: https://phpsw.uk
+        url: https://phpsw.uk
 
     phpuk18:
         name: PHP UK Conference 2018
         location: London, UK
-        website: https://www.phpconference.co.uk
+        url: https://www.phpconference.co.uk
 
     swdug:
         name: SWDUG
@@ -181,12 +181,12 @@ events:
     umbristol:
         name: umBristol
         location: Bristol, UK
-        website: http://umbristol.co.uk
+        url: http://umbristol.co.uk
 
     unifieddiff:
         name: 'unified.diff'
         location: Cardiff, UK
-        website: http://unifieddiff.co.uk
+        url: http://unifieddiff.co.uk
 
 favicon:
     url: /build/images/me-phpnw.png

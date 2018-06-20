@@ -54,8 +54,8 @@
                     {% endif %}
 
                     <td>
-                        {% if talk.event.website is not empty %}
-                            <a href="{{ talk.event.website }}" class="link">
+                        {% if talk.event.url is not empty %}
+                            <a href="{{ talk.event.url }}" class="link">
                                 {{ talk.event.name }}
                             </a>
                         {% else %}
