@@ -1,0 +1,42 @@
+ansible_galaxy:
+    url: https://galaxy.ansible.com/opdavies
+
+drupalorg:
+    name: opdavies
+    uid: 381388
+    url: https://www.drupal.org/user/381388
+    url_new: https://www.drupal.org/u/opdavies
+
+github:
+    name: opdavies
+    url: http://github.com/opdavies
+
+gravatar:
+    url: //www.gravatar.com/avatar/e0f6adcd63d8393e689b327e978d0887.png
+
+joindin:
+    url: https://joind.in/user/opdavies
+
+lanyrd:
+    url: http://lanyrd.com/profile/opdavies
+
+linkedin:
+    url: http://uk.linkedin.com/in/opdavies
+
+packagist:
+    name: opdavies
+    url: https://packagist.org/users/opdavies
+
+speakerdeck:
+    url: https://speakerdeck.com/opdavies
+
+twitter:
+    name: opdavies
+    url: https://twitter.com/opdavies
+
+wordpress:
+    name: opdavies
+    url: https://profiles.wordpress.org/opdavies
+
+youtube:
+    channel_url: https://www.youtube.com/channel/UC5QoKapQ4bXOVMvN_ng_TYw
