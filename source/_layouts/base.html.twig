@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-GB">
+    <head>
+        <title>
+            {% if page.title is defined and page.url != '/.' %}
+                {{ page.title }} |
+            {% endif %}
+            {{ site.title }} - {{ site.subtitle }}
+        </title>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        {% if page.meta.description %}
+            <meta name="description" content="{{ page.meta.description|e('html') }}">
+        {% endif %}
+
+        {% include 'og' with { og: page.meta.og } %}
+
+        <link rel="stylesheet" href="/build/css/site.css">
+        {% block stylesheets %}{% endblock %}
+
+        {% for size in site.apple_touch_icon_sizes %}
+            <link rel="apple-touch-icon" href="{{ site.favicon.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
+        {% endfor %}
+
+        {% for size in site.favicon_sizes %}
+            <link rel="icon" href="{{ site.favicon.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
+        {% endfor %}
+    </head>
+    <body class="text-black text-sm leading-normal">
+        {% block body %}{% endblock %}
+
+        <script>
+            document.querySelector('.nav-toggle').onclick = function() {
+                document.querySelector('.navbar nav').classList.toggle('hidden').toggle('block');
+                return false;
+            };
+        </script>
+
+        {% if site.google_analytics_tracking_id %}
+            <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', '{{ site.google_analytics_tracking_id }}', 'auto'); ga('send', 'pageview');</script>
+        {% endif %}
+
+        {% if page.has_tweets %}
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        {% endif %}
+
+        <script src="/build/js/all.js"></script>
+        {% block scripts %}{% endblock %}
+    </body>
+</html>
