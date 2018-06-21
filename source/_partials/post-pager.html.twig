@@ -13,7 +13,7 @@
         </li>
 
         {% for i in range(1, page.pagination.total_pages) %}
-            <li>
+            <li class="{{ i > (page.pagination.page + 2) or i < (page.pagination.page - 2) ? 'hidden sm:block' }}">
                 {% if i == page.pagination.page %}
                     <span class="p-3 border border-grey text-white bg-blue -mr-px">
                         {{ i }}
