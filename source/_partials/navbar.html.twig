@@ -16,31 +16,31 @@
             </div>
 
             <nav class="hidden block w-full -mx-4 sm:w-2/3 lg:w-3/4 sm:flex sm:flex-wrap sm:justify-end" role="navigation">
-                {% include 'nav-item.html.twig' with {
+                {% include 'nav-item' with {
                     title: 'About',
                     href: '/',
                     pattern: '^/.$',
                 } %}
 
-                {% include 'nav-item.html.twig' with {
+                {% include 'nav-item' with {
                     title: 'Talks',
                     href: '/talks',
                     pattern: '^/talks/?',
                 } %}
 
-                {% include 'nav-item.html.twig' with {
+                {% include 'nav-item' with {
                     title: 'Blog',
                     href: '/blog',
                     pattern: '^/blog/?',
                 } %}
 
-                {% include 'nav-item.html.twig' with {
+                {% include 'nav-item' with {
                     title: 'Book',
                     href: '/test-driven-drupal',
                     pattern: '^/test-driven-drupal/?$',
                 } %}
 
-                {% include 'nav-item.html.twig' with {
+                {% include 'nav-item' with {
                     title: 'Contact',
                     href: '/contact',
                     pattern: '^/contact/?',
