@@ -6,7 +6,7 @@ use: [posts]
 {% block content %}
     <p>To send me an email, complete the form below.</p>
 
-    <form action="https://formspree.io/{{ site.email }}" method="POST">
+    <form method="POST" action="/contact/thanks" data-netlify="true">
         <label for="name" class="block mb-1">Name</label>
         <input type="text"
                class="w-full p-2 mb-4 border border--grey"
