@@ -13,13 +13,13 @@ mix.disableNotifications()
     .copyDirectory('assets/images', 'source/build/images')
     .copyDirectory('node_modules/font-awesome/fonts', 'source/build/fonts')
     .tailwind()
-    .purgeCss({
-        globs: [
-            path.join(__dirname, 'output_*/**/*.html'),
-        ],
-        whitelistPatterns: [/language/, /hljs/],
-        whitelistPatternsChildren: [/^markdown$/]
-    })
+    // .purgeCss({
+    //     globs: [
+    //         path.join(__dirname, 'output_*/**/*.html'),
+    //     ],
+    //     whitelistPatterns: [/language/, /hljs/],
+    //     whitelistPatternsChildren: [/^markdown$/]
+    // })
     .options({
         processCssUrls: false
     });
