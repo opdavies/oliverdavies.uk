@@ -173,7 +173,7 @@ class FormatTalksTest extends TestCase
 
         // Latest events should be returned first.
         $this->assertEquals(
-            [$eventB['date'], $eventF['date']],
+            [$eventA['date'], $eventF['date']],
             $this->extractDates($results)
         );
     }
