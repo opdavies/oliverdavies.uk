@@ -6,7 +6,7 @@ use: [posts]
 {% block content %}
     <p>To send me an email, complete the form below.</p>
 
-    <form method="POST" action="/contact/thanks" data-netlify="true">
+    <form method="POST" action="/contact/thanks" data-netlify="true" netlify-honeypot="bot-field">
         <label for="name" class="block mb-1">Name</label>
         <input type="text"
                class="w-full p-2 mb-4 border border--grey"
@@ -40,7 +40,7 @@ use: [posts]
                name="_next"
                value="{{ site.url }}/contact/thanks" />
 
-        <input type="text" name="_gotcha" style="display: none" />
+        <input type="text" name="bot-field" class="hidden" />
     </form>
 {% endblock %}
 
