@@ -74,6 +74,11 @@ events:
         location: Portsmouth, UK
         url: http://2016.phpsouthcoast.co.uk
 
+    php_south_wales:
+        name: PHP South Wales
+        location: Cardiff, UK
+        url: https://www.phpsouthwales.uk
+
     phpsw:
         name: PHPSW
         location: Bristol, UK
