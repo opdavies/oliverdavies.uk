@@ -1,5 +1,6 @@
 ---
 title: Taking Flight with Tailwind CSS
+type: Lightning talk
 speakerdeck:
     id: 10ca51f23560443d83b898a92929b4b3
     ratio: '1.77777777777778'
@@ -8,7 +9,8 @@ tags: [css, tailwind, meetup]
 events:
     - event: drupal_bristol
       date: '2018-01-17'
-      type: Lightning talk
+    - event: php_south_wales
+      date: '2018-07-31'
 meta:
     og:
         title: Taking Flight with Tailwind CSS
