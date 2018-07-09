@@ -5,7 +5,7 @@ speakerdeck:
     ratio: '1.77777777777778'
     url: 'https://speakerdeck.com/opdavies/tdd-test-driven-drupal'
 youtube:
-    id: fdbxXOi2HP4
+    id: 3AUhpkxZ7DQ
 tags: [drupalcamp, simpletest, phpunit, testing]
 has_tweets: true
 meta:
