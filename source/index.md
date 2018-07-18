@@ -24,7 +24,7 @@ I primarily work with Drupal and am an [Acquia certified Drupal Developer][41] b
 
 I’m a webmaster and documentation maintainer for [Drupal.org][42], and a provisional member of the [Drupal Security team][14]. [I speak at various user groups and conferences][40], and co-organise the [Drupal Bristol user group][15], [PHPSW][17] and [DrupalCamp Bristol][18].
 
-You can usually find me on Twitter ([@{{ site.twitter.name }}][21]) and IRC ({{ site.irc.name }}), and you can see my open source work on my [Drupal.org account][22] and [GitHub profile][23] as well as on [Packagist][24] and [Ansible Galaxy][25].
+You can usually find me on Twitter ([@{{ site.twitter.name }}][21]), and you can see my open source work on my [Drupal.org account][22] and [GitHub profile][23] as well as on [Packagist][24] and [Ansible Galaxy][25].
 
 ## Skills
 
