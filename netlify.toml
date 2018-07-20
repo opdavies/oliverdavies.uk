@@ -1,0 +1,3 @@
+[build]
+command = "./deploy.sh"
+publish = "output_prod"
