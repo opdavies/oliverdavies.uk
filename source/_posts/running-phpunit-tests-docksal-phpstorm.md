@@ -56,7 +56,7 @@ Now PhpStorm can connect to Docksal, I can configure it to do so by adding a new
 - Click 'Add' to configure a new deployment server.
 - Enter a name like 'Docksal', and select SFTP as the server type.
 
-![Adding a new deployment server](/assets/images/blog/phpstorm-phpunit-docksal/deployment-1.png){.with-border.max-w-sm}
+![Adding a new deployment server](/assets/images/blog/phpstorm-phpunit-docksal/deployment-1.png){.with-border .sm:max-w-sm}
 
 ### Connection settings
 
@@ -120,7 +120,7 @@ Any test failures are shown here too, and for some failures like differences bet
 
 ![Showing a failing test](/assets/images/blog/phpstorm-phpunit-docksal/test-failure-1.png){.with-border}
 
-![Displaying the difference between two arrays](/assets/images/blog/phpstorm-phpunit-docksal/test-failure-2.png){.with-border.max-w-md}
+![Displaying the difference between two arrays](/assets/images/blog/phpstorm-phpunit-docksal/test-failure-2.png){.with-border .sm:max-w-md}
 
 ### Keyboard shortcuts
 
