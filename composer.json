@@ -23,7 +23,8 @@
     },
     "autoload": {
         "psr-4": {
-            "FormatTalksBundle\\": "src/FormatTalksBundle"
+            "FormatTalksBundle\\": "src/FormatTalksBundle",
+            "WebsiteBundle\\": "src/WebsiteBundle"
         },
         "files": ["src/helpers.php"]
     },
