@@ -9,8 +9,3 @@ youtube:
 tags: []
 events: []
 ---
-{% block excerpt %}
-{% endblock %}
-
-{% block content %}
-{% endblock %}
