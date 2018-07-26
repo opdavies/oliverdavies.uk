@@ -17,7 +17,8 @@ class NewTalkCommand extends ContainerAwareCommand
      */
     protected function configure()
     {
-        $this->setName('content:new:talk')
+        $this->setName('website:new:talk')
+            ->setAliases(['new-talk'])
             ->setDescription('Create a new talk')
             ->addArgument('title', InputArgument::REQUIRED, 'The title of the post');
     }
