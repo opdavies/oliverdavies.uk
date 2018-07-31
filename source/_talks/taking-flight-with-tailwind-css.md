@@ -2,7 +2,7 @@
 title: Taking Flight with Tailwind CSS
 type: Lightning talk
 speakerdeck:
-    id: 10ca51f23560443d83b898a92929b4b3
+    id: 543e641baacb4185be37cfc68de05153
     ratio: '1.77777777777778'
     url: https://speakerdeck.com/opdavies/taking-flight-with-tailwind-css
 tags: [css, tailwind, meetup]
