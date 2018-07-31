@@ -16,7 +16,9 @@ class FormatTalksExtension extends Twig_Extension
 
     public function __construct()
     {
-        $this->today = (new \DateTime())->format('Y-m-d');
+        $this->today = (new \DateTime())
+          ->setTimezone(new \DateTimeZone('Europe/London'))
+          ->format('Y-m-d');
     }
 
     /**
