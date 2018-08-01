@@ -1,7 +1,7 @@
 <div class="{{ class }}">
     <blockquote
         class="twitter-tweet"
-        data-cards="hidden"
+        {% if not data_cards %}data-cards="hidden"{% endif %}
         data-conversation="none"
         lang="en"
     >
