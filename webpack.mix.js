@@ -19,7 +19,4 @@ mix.disableNotifications()
         ],
         whitelistPatterns: [/language/, /hljs/],
         whitelistPatternsChildren: [/^markdown$/]
-    })
-    .options({
-        processCssUrls: false
     });
