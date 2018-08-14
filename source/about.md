@@ -10,6 +10,7 @@ meta:
 use:
     - posts
     - testimonials
+permalink: /
 ---
 <div class="markdown" markdown="1">
 # About Me
