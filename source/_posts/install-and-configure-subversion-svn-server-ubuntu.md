@@ -101,8 +101,6 @@ sudo service apache2 restart
 
 I can now browse through my test repository by opening Firefox, and navigating to `http://127.0.0.1/svn/test`. Here, I can now see my three directories, although they are currently all empty.
 
-<img class="imagecache-blog imagecache image-caption caption" title="Viewing the test repository in Firefox" src="http://oliverdavies.co.uk/sites/default/files/imagecache/blog/images/blog/how-install-and-configure-subversion-svn-server-ubuntu/viewing-test-repository-firefox.png" alt="Image: Screenshot of the test SVN repository in Firefox">
-
 ## Securing my SVN repositories
 
 Before I start committing any files to the test repository, I want to ensure that only authorised users can view it - currently anyone can view the repository and it's contents, as well as being able to checkout and commit files. To do this, I'm going to require the user to enter a username and a password before viewing or performing any actions with the repository.
@@ -127,8 +125,6 @@ $ htpasswd -cm /etc/svn-auth oliver
 ```
 
 I'm prompted to enter and confirm my password, and then my details are saved. The Apache service will need to be restarted again, and then the user will need to authenticate themselves before viewing the repositories.
-
-<img class="imagecache-blog imagecache image-caption caption" title="Being prompted for authorisation" src="http://oliverdavies.co.uk/sites/default/files/imagecache/blog/images/blog/how-install-and-configure-subversion-svn-server-ubuntu/being-prompted-authorisation_0.png" alt="Image: Screenshot of the authorisation prompt when opening the repository">
 
 ## Checking out the repository and commiting files
 
