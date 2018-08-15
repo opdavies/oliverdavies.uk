@@ -78,5 +78,5 @@ private static function _specificAPIError($rbody, $rcode, $rheaders, $resp, $err
 
 ## Solution
 
-After confirming that it was the correct user ID, simply removing that row from the database allowed the new Stripe customer to be created and for the user to check out successfullly.
+After confirming that it was the correct user ID, simply removing that row from the database allowed the new Stripe customer to be created and for the user to check out successfully.
 {% endblock %}
