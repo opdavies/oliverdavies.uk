@@ -27,7 +27,7 @@ The additional events are provided by the [Hook Event Dispatcher module][0].
 
 ```yaml
 services:
-  Drupal\opdavies_blog\EventSubscriber\PostTomedium:
+  Drupal\opdavies_blog\EventSubscriber\PostToMedium:
     autowire: true
     tags:
       - { name: event_subscriber }
