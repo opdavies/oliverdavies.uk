@@ -5,6 +5,7 @@ tags:
     - drupal-7
     - drupal-8
     - drupal-modules
+    - drupal-planet
     - php
 ---
 {% block excerpt %}
