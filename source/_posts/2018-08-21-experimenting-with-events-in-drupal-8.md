@@ -8,7 +8,7 @@ tags:
     - symfony
 ---
 {% block excerpt %}
-I’ve been experiementing with moving some of the code to Drupal 8, and I’m quite intrigued by a different way that I’ve tried to structure it - building on some of the takeaways from Drupal Dev Days.
+I’ve been experimenting with moving some of the code to Drupal 8, and I’m quite intrigued by a different way that I’ve tried to structure it - building on some of the takeaways from Drupal Dev Days.
 {% endblock %}
 
 {% block content %}
