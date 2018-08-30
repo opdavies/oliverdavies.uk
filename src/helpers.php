@@ -1,8 +1,8 @@
 <?php
 
-function tap($value, $callback)
-{
-    $callback($value);
-
-    return $value;
-}
+//function tap($value, $callback)
+//{
+//    $callback($value);
+//
+//    return $value;
+//}
