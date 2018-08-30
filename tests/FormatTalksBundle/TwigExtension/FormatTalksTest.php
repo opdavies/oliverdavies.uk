@@ -56,11 +56,11 @@ class FormatTalksTest extends TestCase
             ],
         ];
 
-        $results = $this->extension->format($talks, $event_data)->all();
+        $results = $this->extension->format($talks, $event_data);
 
         $this->assertCount(3, $results);
 
-        tap($results[0], function ($result) {
+        tap($results->first(), function ($result) {
             $this->assertArrayHasKey('event', $result);
             $this->assertArrayHasKey('talk', $result);
 
@@ -76,7 +76,7 @@ class FormatTalksTest extends TestCase
             $this->assertEquals('Talk A', $result['talk']['title']);
         });
 
-        tap($results[1], function ($result) {
+        tap($results->get(1), function ($result) {
             $this->assertArrayHasKey('event', $result);
             $this->assertArrayHasKey('talk', $result);
 
