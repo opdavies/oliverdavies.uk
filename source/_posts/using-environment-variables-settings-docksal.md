@@ -30,13 +30,13 @@ We can improve this by using the environment variables within the settings file.
 {% endblock %}
 
 {% block content %}
-The relevant environment variables are `MYSQL_DB` for the database name, and `MYSQL_USER` and `MYSQL_PASSWORD` for the MySQL username and password. These can be set in `.docksal/docksal.env`, and will need to be present for this to work.
+The relevant environment variables are `MYSQL_DATABASE` for the database name, and `MYSQL_USER` and `MYSQL_PASSWORD` for the MySQL username and password. These can be set in `.docksal/docksal.env`, and will need to be present for this to work.
 
 For example:
 
 ```
 DOCKSAL_STACK=default
-MYSQL_DB=myproject_db
+MYSQL_DATABASE=myproject_db
 MYSQL_USER=myproject_user
 MYSQL_PASSWORD=myproject_pass
 ```
@@ -47,7 +47,7 @@ With these in place, they can be referenced within the settings file using the `
 $databases['default']['default'] = [
   'driver' => 'mysql',
   'host' => 'db',
-  'database' => getenv('MYSQL_DB'),
+  'database' => getenv('MYSQL_DATABASE'),
   'username' => getenv('MYSQL_USER'),
   'password' => getenv('MYSQL_PASSWORD'),
 ];
@@ -59,14 +59,14 @@ However, you may see a message like this when you try and load the site:
 
 > Drupal\Core\Database\DatabaseAccessDeniedException: SQLSTATE[HY000] [1045] Access denied for user ''@'172.19.0.4' (using password: NO) in /var/www/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php on line 156
 
-If you see this, the environment variables aren’t being passed into Docksal’s `cli` container, so the values are not being populated. To enable them, edit `.docksal/docksal.yml` and add `MYSQL_DB`, `MYSQL_PASSWORD` and `MYSQL_USER` to the `environment` section of the `cli` service.
+If you see this, the environment variables aren’t being passed into Docksal’s `cli` container, so the values are not being populated. To enable them, edit `.docksal/docksal.yml` and add `MYSQL_DATABASE`, `MYSQL_PASSWORD` and `MYSQL_USER` to the `environment` section of the `cli` service.
 
 ```language-yml
 version: '2.1'
 services:
   cli:
     environment:
-      - MYSQL_DB
+      - MYSQL_DATABASE
       - MYSQL_PASSWORD
       - MYSQL_USER
 ```
