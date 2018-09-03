@@ -2,9 +2,9 @@
 title: Goodbye Drush Make. Hello Composer!
 tags: ['meetup', 'drupal', 'composer']
 speakerdeck:
-    id: f7de07ae513f49798de78b6f8c3ef8cd
+    id: 1c1e0e129ab34816bd4c4edb5f6642c2
     ratio: '1.37081659973226'
-    url: http://bit.ly/slides-goodbye-drush-make-hello-composer2
+    url: https://speakerdeck.com/opdavies/goodbye-drush-make-hello-composer
 youtube:
     id: ZL2FtRTX9Y8
 events:
