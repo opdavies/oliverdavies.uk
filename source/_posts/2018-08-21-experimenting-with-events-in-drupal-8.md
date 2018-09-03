@@ -39,6 +39,10 @@ services:
       - { name: event_subscriber }
 ```
 
+<div class="note" markdown="1">
+Adding `autowire: true` is not required for the event subscriber to work. I’m using it to automatically inject any dependencies into the class rather than specifying them separately as arguments.
+</div>
+
 `src/EventSubscriber/SendTweet.php`:
 
 ```php
