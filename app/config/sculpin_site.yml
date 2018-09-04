@@ -13,12 +13,12 @@ availability:
     full: no
 
 avatar:
-    url: /build/images/me-precedent.jpg
+    url: /dist/images/me-precedent.jpg
 
 email: oliver+url@oliverdavies.uk
 
 favicon:
-    url: /build/images/me-phpnw.png
+    url: /dist/images/me-phpnw.png
 
 irc:
     name: opdavies

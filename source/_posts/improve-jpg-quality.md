@@ -18,5 +18,5 @@ To increase the quality of your images, change the setting in the two following 
 * admin/settings/imageapi/config
 * admin/settings/image-toolkit
 
-The first one is for ImageAPI. Primarily, this means Imagecache presets. The second one is for core's image.inc. This is used for resizing profile pictures in core, and some contrib modules. Once changed, I did have to flush each of the Imagecache presets (admin/build/imagecache) for the changes to take effect.
+The first one is for ImageAPI. Primarily, this means Imagecache presets. The second one is for core's image.inc. This is used for resizing profile pictures in core, and some contrib modules. Once changed, I did have to flush each of the Imagecache presets (admin/dist/imagecache) for the changes to take effect.
 {% endblock %}

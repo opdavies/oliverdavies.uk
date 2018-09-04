@@ -55,12 +55,12 @@ $ git push origin master
 This seems to have worked OK - the commits are still authored by the correct people and at the correct date and time - and I went ahead and created a new feature branch and pull request based on that master branch.
 
 <figure>
-  <img src="/build/images/blog/forked-github-repo-commits.png" alt="The commits on my master branch after rebasing">
+  <img src="/dist/images/blog/forked-github-repo-commits.png" alt="The commits on my master branch after rebasing">
   <figcaption>The commits on my forked master branch after rebasing and pushing. All good!</figcaption>
 </figure>
 
 <figure>
-  <img src="/build/images/blog/my-commit-to-the-rebased-branch.png" alt="The new feature branch with my additional commit.">
+  <img src="/dist/images/blog/my-commit-to-the-rebased-branch.png" alt="The new feature branch with my additional commit.">
   <figcaption>The new feature branch with the new commit.</figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ I believe that it will use an existing "upstream" remote if it exists, otherwise
 
 Once you’ve completed the rebase, you can then push your updated branch either from the terminal, or using the *Push* command from the same menu.
 
-![Rebasing a forked repository in PhpStorm using the VCS menu.](/build/images/blog/github-fork-rebase-phpstorm.png)
+![Rebasing a forked repository in PhpStorm using the VCS menu.](/dist/images/blog/github-fork-rebase-phpstorm.png)
 
 It would be great to see something similar added to [hub](https://hub.github.com) too (I’ve created [an issue](https://github.com/github/hub/issues/1047))!
 

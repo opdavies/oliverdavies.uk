@@ -41,7 +41,7 @@ return 301 https://www.example.com$uri$is_args$args;
 
 Here is an demo of it working on this website:
 
-![](/build/images/blog/nginx-redirect-with-args.gif)
+![](/dist/images/blog/nginx-redirect-with-args.gif)
 
 ## Resources
 

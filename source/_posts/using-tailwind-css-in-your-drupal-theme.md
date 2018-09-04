@@ -58,11 +58,11 @@ By adding a prefix like `tw-`, we can ensure that the Tailwind classes don’t c
 
 No prefix:
 
-![](/build/images/blog/using-tailwind-drupal/prefix-1.png){.with-border}
+![](/dist/images/blog/using-tailwind-drupal/prefix-1.png){.with-border}
 
 With prefix:
 
-![](/build/images/blog/using-tailwind-drupal/prefix-2.png){.with-border}
+![](/dist/images/blog/using-tailwind-drupal/prefix-2.png){.with-border}
 
 ### Important
 
@@ -78,11 +78,11 @@ For example: if I had this core markup then the left margin added by `tw-ml-4` w
 </div>
 ```
 
-![](/build/images/blog/using-tailwind-drupal/important-1.png){.with-border}
+![](/dist/images/blog/using-tailwind-drupal/important-1.png){.with-border}
 
 With the `!important` rule enabled though, the Tailwind’s class takes precedence and is applied.
 
-![](/build/images/blog/using-tailwind-drupal/important-2.png){.with-border}
+![](/dist/images/blog/using-tailwind-drupal/important-2.png){.with-border}
 
 ## Example
 
