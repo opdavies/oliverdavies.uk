@@ -17,6 +17,7 @@
     "laravel-mix": "^2.1.11",
     "laravel-mix-purgecss": "^2.1.2",
     "laravel-mix-tailwind": "^0.1.0",
-    "tailwindcss": "^0.6"
+    "tailwindcss": "^0.6",
+    "tailwindcss-visuallyhidden": "^1.0.1"
   }
 }

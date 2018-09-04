@@ -12,39 +12,25 @@ use: [posts]
     <ul class="list-reset">
         {% for post in page.pagination.items %}
             <li class="mb-12">
-                <h2 class="text-xl mb-1">
+                <h2 class="text-xl mb-2">
                     <a href="{{ post.url }}" class="no-underline hover:underline focus:underline text-black hover:text-grey-darker focus:text-grey-darker">
                         {{ post.title }}
                     </a>
                 </h2>
-
-                <div>
-                    <p class="text-grey-dark mb-2">{{ post.date|date('j F Y') }}</p>
-                </div>
 
                 {% include 'post/intro-image' with { page: post } %}
 
                 <div class="markdown mb-4">
                     {% if post.summary %}
                         {{ post.summary|markdown }}
-                        <div>
-                            <a
-                                class="button text-grey-darker rounded-lg border border-grey-light bg-grey-lightest no-underline hover:underline focus:underline"
-                                href="{{ post.url }}"
-                            >
-                                Continue reading <span class="element-invisible">about {{ post.title }}
-                            </a>
-                        </div>
                     {% elseif post.blocks.excerpt %}
                         {{ post.blocks.excerpt|markdown }}
-                        <div>
-                            <a
-                                class="button text-grey-darker rounded-lg border border-grey-light bg-grey-lightest no-underline hover:underline focus:underline"
-                                href="{{ post.url }}"
-                            >
-                                Continue reading <span class="element-invisible">about {{ post.title }}
-                            </a>
-                        </div>
+                        <a
+                            href="{{ post.url }}"
+                            class="inline-block bg-blue hover:bg-blue-dark focus:bg-blue-dark px-4 py-3 rounded no-underline hover:underline focus:underline text-white">
+                                Read more
+                                <span class="visuallyhidden">about {{ post.title }}</span>
+                        </a>
                     {% else %}
                         {{ post.blocks.content|markdown }}
                     {% endif %}
