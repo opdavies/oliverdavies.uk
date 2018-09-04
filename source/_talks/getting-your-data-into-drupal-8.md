@@ -13,7 +13,7 @@ meta:
         description: "How I migrated the Drupal Bristol website onto Drupal 8."
         type: website
         image:
-            url: /assets/images/talks/getting-your-data-into-drupal-8.png
+            url: /images/talks/getting-your-data-into-drupal-8.png
             width: 2560
             height: 1440
             type: image/png

@@ -17,7 +17,7 @@ Here is the original tweet and my initial response. I also have a lot of PhpStor
 
 On the PhpStorm welcome screen that displays when you first open it, your recent projects are displayed on the left-hand side of the screen, and are filterable. That means that I can start typing a project name, e.g. `oli`, and I will only see projects that start with that input.
 
-![The PhpStorm welcome screen with filters applied to the project list](/assets/images/blog/quick-project-switching-phpstorm/welcome-screen.png){.with-border .with-padding}
+![The PhpStorm welcome screen with filters applied to the project list](/images/blog/quick-project-switching-phpstorm/welcome-screen.png){.with-border .with-padding}
 
 That’s great when opening a project from scratch, but what about when we’re already within a project and just want to be able to switch to another?
 
@@ -29,19 +29,19 @@ There’s also a way to access this list once PhpStorm is open, by clicking 'Ope
 
 You can also access this list using the keyboard, though the 'Search everywhere' or 'Find action' panes, and these are filterable.
 
-![Using the 'find action' pane to find 'Open Recent'](/assets/images/blog/quick-project-switching-phpstorm/find-action.png){.with-border .with-padding}
+![Using the 'find action' pane to find 'Open Recent'](/images/blog/quick-project-switching-phpstorm/find-action.png){.with-border .with-padding}
 
 Once the 'Open Recent' option is selected, you see the same project list as on the welcome screen, which is filtered in the same way by starting to type potential project names.
 
-![The filtered project list](/assets/images/blog/quick-project-switching-phpstorm/open-recent.png){.with-border .with-padding}
+![The filtered project list](/images/blog/quick-project-switching-phpstorm/open-recent.png){.with-border .with-padding}
 
 ## Adding a Keyboard Shortcut
 
 We can make this easier by adding a new keyboard shortcut. Within the Keymap preferences, you can search for 'Open Recent' and right-click it to add a new keyboard shortcut and define the key combination.
 
-![Finding the 'Open Recent' shortcut in the Keymap preferences](/assets/images/blog/quick-project-switching-phpstorm/adding-keyboard-shortcut-1.png){.with-border .with-padding}
+![Finding the 'Open Recent' shortcut in the Keymap preferences](/images/blog/quick-project-switching-phpstorm/adding-keyboard-shortcut-1.png){.with-border .with-padding}
 
-![Assigning a keyboard shortcut](/assets/images/blog/quick-project-switching-phpstorm/adding-keyboard-shortcut-2.png){.with-border .with-padding}
+![Assigning a keyboard shortcut](/images/blog/quick-project-switching-phpstorm/adding-keyboard-shortcut-2.png){.with-border .with-padding}
 
 This this shortcut added, you can now use it to instantly bring up your recent projects list, filter it and switch project.
 {% endblock %}

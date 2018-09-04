@@ -10,7 +10,6 @@ mix.disableNotifications()
         'node_modules/highlightjs/highlight.pack.js',
         'assets/js/site.js',
     ], 'source/dist/js/all.js')
-    .copyDirectory('assets/images', 'source/dist/images')
     .copyDirectory('node_modules/font-awesome/fonts', 'source/dist/fonts')
     .tailwind()
     .purgeCss({
