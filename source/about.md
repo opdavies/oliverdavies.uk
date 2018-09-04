@@ -17,7 +17,7 @@ permalink: /
 
 <div class="mb-4 w-1/3 sm:w-1/4 lg:w-1/6">
     <img
-        src="{{ site.images_url }}{{ site.avatar.url }}"
+        src="{{ site.avatar.url }}"
         alt="Picture of Oliver"
         class="avatar"
     >
