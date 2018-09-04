@@ -11,7 +11,7 @@ meta:
         description: "You've built your PHP application, now learn how to deploy it with Fabric."
         type: website
         image:
-            url: /assets/images/talks/deploying-php-fabric.png
+            url: /images/talks/deploying-php-fabric.png
             width: 2560
             height: 1440
             type: image/png

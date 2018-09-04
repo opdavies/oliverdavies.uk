@@ -56,7 +56,7 @@ Now PhpStorm can connect to Docksal, I can configure it to do so by adding a new
 - Click 'Add' to configure a new deployment server.
 - Enter a name like 'Docksal', and select SFTP as the server type.
 
-![Adding a new deployment server](/assets/images/blog/phpstorm-phpunit-docksal/deployment-1.png){.with-border .sm:max-w-sm}
+![Adding a new deployment server](/images/blog/phpstorm-phpunit-docksal/deployment-1.png){.with-border .sm:max-w-sm}
 
 ### Connection settings
 
@@ -68,33 +68,33 @@ On the Connection tab:
 
 You should now be able to click "Test SFTP connection" and get a successfully connected confirmation message.
 
-![Configuring a new deployment server](/assets/images/blog/phpstorm-phpunit-docksal/deployment-2.png)
+![Configuring a new deployment server](/images/blog/phpstorm-phpunit-docksal/deployment-2.png)
 
 ### Mapping settings
 
 On the Mappings tab, add `/var/www` as the deployment path so that PhpStorm is looking in the correct place for the project code.
 
-![Add mappings to the deployment server](/assets/images/blog/phpstorm-phpunit-docksal/deployment-3.png){.with-border}
+![Add mappings to the deployment server](/images/blog/phpstorm-phpunit-docksal/deployment-3.png){.with-border}
 
 ## Configuring the PHP Interpreter
 
 In Preferences, search for 'PHP' within 'Languages & Frameworks', and add a new CLI interpreter.
 
-![The PHP preferences in PhpStorm](/assets/images/blog/phpstorm-phpunit-docksal/cli-interpreter-1.png){.with-border}
+![The PHP preferences in PhpStorm](/images/blog/phpstorm-phpunit-docksal/cli-interpreter-1.png){.with-border}
 
 In this case I’ve called it 'Docksal PHP 7.1', used the Docksal deployment configuration, and set the path to the PHP executable to `/usr/local/bin/php` (the same path that we would get if we ran `fin run which php`). You should see both the deployment host URL displayed as well as the remote PHP version and configuration filenames.
 
-![Configuring a new CLI interpreter](/assets/images/blog/phpstorm-phpunit-docksal/cli-interpreter-2.png){.with-border}
+![Configuring a new CLI interpreter](/images/blog/phpstorm-phpunit-docksal/cli-interpreter-2.png){.with-border}
 
 This can now be selected as the CLI interpreter for this project.
 
-![Selecting the new CLI interpreter in the PHP preferences](/assets/images/blog/phpstorm-phpunit-docksal/cli-interpreter-3.png){.with-border}
+![Selecting the new CLI interpreter in the PHP preferences](/images/blog/phpstorm-phpunit-docksal/cli-interpreter-3.png){.with-border}
 
 ## Set up PHPUnit in PhpStorm
 
 In Preferences, search for 'Test Frameworks' and add a new framework.
 
-![Adding a new test framework (PHPUnit) in PHPStorm](/assets/images/blog/phpstorm-phpunit-docksal/phpunit-1.png){.with-border}
+![Adding a new test framework (PHPUnit) in PHPStorm](/images/blog/phpstorm-phpunit-docksal/phpunit-1.png){.with-border}
 
 Select 'PHPUnit by Remote Interpreter' and then the 'Docksal PHP 7.1' that we created in the last step.
 
@@ -102,33 +102,33 @@ Select 'Use Composer autoloader' for the PHPUnit library setting so that PhpStor
 
 Also specify the path to the default (phpunit.xml) configration file. This will depend on how your project is structured, in this case it’s at `/var/www/web/core/phpunit.xml`.
 
-![Configuring PHPUnit in PHPstorm](/assets/images/blog/phpstorm-phpunit-docksal/phpunit-4.png){.with-border}
+![Configuring PHPUnit in PHPstorm](/images/blog/phpstorm-phpunit-docksal/phpunit-4.png){.with-border}
 
 ## Running tests
 
 With PHPUnit configured, next to each test class and method, you can see a green circle (or a red one if the test failed the last run). You can click the circle and select to run that test class or method. You can also right-click directories in the project sidebar to run all of the tests within that directory.
 
-![Running a test within PhpStorm](/assets/images/blog/phpstorm-phpunit-docksal/running-tests-1.png){.with-border}
+![Running a test within PhpStorm](/images/blog/phpstorm-phpunit-docksal/running-tests-1.png){.with-border}
 
 When the tests start running, a new tool window will open that shows you all of the selected tests, how long each test took to run and whether it passed or failed. You can also see the CLI output from PHPUnit itself next to it.
 
-![The tests results being displayed](/assets/images/blog/phpstorm-phpunit-docksal/running-tests-2.png){.with-border}
+![The tests results being displayed](/images/blog/phpstorm-phpunit-docksal/running-tests-2.png){.with-border}
 
 From here, you also have the ability to re-run all of the tests, as well as a single test method or a specific test class.
 
 Any test failures are shown here too, and for some failures like differences between two arrays you can use PhpStorm’s internal comparison tools to view the difference rather than needing to do so on the command line.
 
-![Showing a failing test](/assets/images/blog/phpstorm-phpunit-docksal/test-failure-1.png){.with-border}
+![Showing a failing test](/images/blog/phpstorm-phpunit-docksal/test-failure-1.png){.with-border}
 
-![Displaying the difference between two arrays](/assets/images/blog/phpstorm-phpunit-docksal/test-failure-2.png){.with-border .sm:max-w-md}
+![Displaying the difference between two arrays](/images/blog/phpstorm-phpunit-docksal/test-failure-2.png){.with-border .sm:max-w-md}
 
 ### Keyboard shortcuts
 
 As per the video, I’ve also added some keyboard shortcuts to my keymap, so I can press ⌘T to run the current test method or class that I’m in, and ⇧⌘T to re-run the last test.
 
-![Adding a keyboard shortcut to run the current test](/assets/images/blog/phpstorm-phpunit-docksal/keyboard-shortcuts-1.png){.with-border}
+![Adding a keyboard shortcut to run the current test](/images/blog/phpstorm-phpunit-docksal/keyboard-shortcuts-1.png){.with-border}
 
-![Adding a keyboard shortcut to re-run the last test](/assets/images/blog/phpstorm-phpunit-docksal/keyboard-shortcuts-2.png){.with-border}
+![Adding a keyboard shortcut to re-run the last test](/images/blog/phpstorm-phpunit-docksal/keyboard-shortcuts-2.png){.with-border}
 
 ### Database issues
 

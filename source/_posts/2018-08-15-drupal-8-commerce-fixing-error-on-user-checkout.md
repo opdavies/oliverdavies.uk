@@ -21,7 +21,7 @@ Logging in to the Stripe account, I was able to confirm that the specified custo
 
 After some investigation, I found a table in the database named `user__commerce_remote_id` which stores the remote customer ID for each payment method (again, the customer ID has been redacted).
 
-![A screenshot of a row in the user__commerce_remote_id table](/assets/images/blog/commerce-stripe-error/remote-id-table.png){.border.p-1}
+![A screenshot of a row in the user__commerce_remote_id table](/images/blog/commerce-stripe-error/remote-id-table.png){.border.p-1}
 
 The `entity_id` and `revision_id` values in this case refer to the user that the Stripe customer has been associated with.
 

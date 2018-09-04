@@ -14,7 +14,7 @@ I’ve been experimenting with moving some of the code to Drupal 8, and I’m qu
 {% block content %}
 Here is how this module is currently structured:
 
-![](/assets/images/blog/events-drupal-8/1.png){.border .p-1}
+![](/images/blog/events-drupal-8/1.png){.border .p-1}
 
 Note that there is no `opdavies_blog.module` file, and rather than calling actions from within a hook like `opdavies_blog_entity_update()`, each action becomes it’s own event subscriber class.
 

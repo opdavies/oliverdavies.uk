@@ -39,7 +39,7 @@ $queuer->queue($recipients, $message, $owner);
 
 These three pieces of data are then saved as part of the queued item. You can see these by checking the "queue" table in the database or by running `drush queue-list`.
 
-![](/dist/images/blog/private-message-queue.png)
+![](/images/blog/private-message-queue.png)
 
 ```
 $ drush queue-list

@@ -59,7 +59,7 @@ touch .docksal/commands/phpunit
 
 This will create a new, empty `.docksal/commands/phpunit` file, and now the `phpunit` command is now listed under "Custom commands" when we run `fin`.
 
-![](/dist/images/blog/docksal-phpunit-command/1.gif)
+![](/images/blog/docksal-phpunit-command/1.gif)
 
 You can write commands with any interpreter. I’m going to use bash, so I’ll add the shebang to the top of the file.
 
@@ -84,7 +84,7 @@ fin interprets lines starting with `##` as documentation - the first of which it
 
 Now when I run it, I see the new description.
 
-![](/dist/images/blog/docksal-phpunit-command/2.gif)
+![](/images/blog/docksal-phpunit-command/2.gif)
 
 Any additional lines are used as help text with running `fin help phpunit`. Here I’ll add an example command to demonstrate how to run it as well as some more in-depth text about what the command will do.
 
@@ -101,7 +101,7 @@ Any additional lines are used as help text with running `fin help phpunit`. Here
 
 Now when I run `fin help phpunit`, I see the new help text.
 
-![](/dist/images/blog/docksal-phpunit-command/3.gif)
+![](/images/blog/docksal-phpunit-command/3.gif)
 
 ## Adding some content
 

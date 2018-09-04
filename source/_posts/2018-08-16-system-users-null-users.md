@@ -33,7 +33,7 @@ A system user isn’t an account that we’d expect a person to log in with and 
 
 System User module adds a base field to Drupal’s User entity, which determines whether or not each user is a system user - i.e. if this field is `TRUE`, that user is a system user. This means that users can easily be queried to identify which are system users, without having to rely on magic, environment and site specific user IDs. This also means that we can have multiple system users, if needed.
 
-![](/assets/images/blog/null-users-system-users/drupal-8-users-field-data-table.png){.border .p-1}
+![](/images/blog/null-users-system-users/drupal-8-users-field-data-table.png){.border .p-1}
 
 In the Drupal 8 version of the module, a `SystemUser` is a custom entity, that contains it’s own `create` method for creating new system users. This is a essentially a wrapper around `User::create()` that automatically sets the value of the system user field as part of the creation.
 

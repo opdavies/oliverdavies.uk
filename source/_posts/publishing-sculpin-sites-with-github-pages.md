@@ -6,13 +6,13 @@ meta:
     description: 'How I moved my Sculpin site to GitHub Pages.'
     og:
         image:
-            url: '/dist/images/blog/jackson-octocat.png'
+            url: '/images/blog/jackson-octocat.png'
             type: 'image/png'
             height: 200
             width: 451
 ---
 {% block excerpt %}
-<p class="text-center" markdown="1">![](/dist/images/blog/jackson-octocat.png)</p>
+<p class="text-center" markdown="1">![](/images/blog/jackson-octocat.png)</p>
 
 Earlier this week I moved this site from my personal Linode server to [GitHub Pages][0].
 
@@ -25,7 +25,7 @@ I’ve seen different implementations of this, mostly where the Sculpin code is 
 This has been made simpler and tidier now that we can use a `docs` directory within the repository to serve content.
 
 <img
-    src="/dist/images/blog/github-pages.png"
+    src="/images/blog/github-pages.png"
     alt=""
     class="is-centered"
     style="margin-top: 20px; margin-bottom: 20px"
