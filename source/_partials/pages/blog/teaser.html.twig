@@ -1,0 +1,9 @@
+{% if post.summary %}
+    {{ post.summary|markdown }}
+    {% include 'pages/blog/read-more' %}
+{% elseif post.blocks.excerpt %}
+    {{ post.blocks.excerpt|markdown }}
+    {% include 'pages/blog/read-more' %}
+{% else %}
+    {{ post.blocks.content|markdown }}
+{% endif %}

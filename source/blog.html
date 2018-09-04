@@ -12,28 +12,12 @@ use: [posts]
     <ul class="list-reset">
         {% for post in page.pagination.items %}
             <li class="mb-12">
-                <h2 class="text-xl mb-2">
-                    <a href="{{ post.url }}" class="no-underline hover:underline focus:underline text-black hover:text-grey-darker focus:text-grey-darker">
-                        {{ post.title }}
-                    </a>
-                </h2>
+                <h2 class="text-xl mb-2">{{ post.title }}</h2>
 
                 {% include 'post/intro-image' with { page: post } %}
 
                 <div class="markdown mb-4">
-                    {% if post.summary %}
-                        {{ post.summary|markdown }}
-                    {% elseif post.blocks.excerpt %}
-                        {{ post.blocks.excerpt|markdown }}
-                        <a
-                            href="{{ post.url }}"
-                            class="inline-block bg-blue hover:bg-blue-dark focus:bg-blue-dark px-4 py-3 rounded no-underline hover:underline focus:underline text-white">
-                                Read more
-                                <span class="visuallyhidden">about {{ post.title }}</span>
-                        </a>
-                    {% else %}
-                        {{ post.blocks.content|markdown }}
-                    {% endif %}
+                    {% include 'pages/blog/teaser' %}
                 </div>
             </li>
         {% endfor %}
