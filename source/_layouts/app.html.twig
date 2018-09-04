@@ -31,7 +31,9 @@
         {% endfor %}
     </head>
     <body class="font-sans text-black text-sm leading-normal">
-        {% block body %}{% endblock %}
+        <div id="app">
+            {% block body %}{% endblock %}
+        </div>
 
         <script>
             document.querySelector('.nav-toggle').onclick = function() {
