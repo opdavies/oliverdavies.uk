@@ -2,7 +2,7 @@
     <blockquote
         class="twitter-tweet"
         {% if not data_cards %}data-cards="hidden"{% endif %}
-        data-conversation="none"
+        {% if no_parent %}data-conversation="none"{% endif %}
         lang="en"
     >
         {{ content|raw }}
