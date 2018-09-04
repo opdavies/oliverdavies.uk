@@ -1,5 +1,5 @@
 /mix-manifest.json
 /node_modules/
 /output_*/
-/source/build/
+/source/dist/
 /vendor/

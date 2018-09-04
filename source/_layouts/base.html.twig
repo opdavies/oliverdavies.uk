@@ -19,7 +19,7 @@
 
         {% include 'og' with { og: page.meta.og } %}
 
-        <link rel="stylesheet" href="/build/css/site.css">
+        <link rel="stylesheet" href="/dist/css/site.css">
         {% block stylesheets %}{% endblock %}
 
         {% for size in site.apple_touch_icon_sizes %}
@@ -48,7 +48,7 @@
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         {% endif %}
 
-        <script src="/build/js/all.js"></script>
+        <script src="/dist/js/all.js"></script>
         {% block scripts %}{% endblock %}
     </body>
 </html>
