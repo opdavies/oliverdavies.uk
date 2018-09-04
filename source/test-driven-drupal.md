@@ -42,7 +42,7 @@ If you have questions or would like to suggest something for me to include in th
 Enter your email address to subscribe to the Test Driven Drupal mailing list.
 </div>
 
-{% include 'pages/book/signup-form' %}
+<!-- {% include 'pages/book/signup-form' %} -->
 
 [0]: {{site.url}}/blog/tags/testing
 [1]: {{site.url}}/talks/tdd-test-driven-drupal
