@@ -13,6 +13,7 @@ mix.disableNotifications()
     .tailwind()
     .purgeCss({
         globs: [
+            path.join(__dirname, 'assets/js/**/*.{js,vue}'),
             path.join(__dirname, 'output_*/**/*.html'),
         ],
         whitelistPatterns: [/language/, /hljs/],
