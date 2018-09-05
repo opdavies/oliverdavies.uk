@@ -4,6 +4,7 @@ title: 'Test Driven Drupal: The Book'
 mailchimp_url: 'https://oliverdavi.us18.list-manage.com/subscribe/post?u=b4ac8dd177796d37b93f9c285&amp;id=033c84e0d5'
 contact_email: 'oliver@testdrivendrupal.com'
 ---
+{% block content %}
 <div class="markdown" markdown="1">
 Having [given talks][1] and [written blog posts][0] about automated testing in Drupal, I’m currently in the planning phase of a book and potentially some accompanying screencasts about it, focussing on Drupal 8.
 
@@ -42,8 +43,14 @@ If you have questions or would like to suggest something for me to include in th
 Enter your email address to subscribe to the Test Driven Drupal mailing list.
 </div>
 
-<!-- {% include 'pages/book/signup-form' %} -->
+{% include 'pages/book/signup-form' %}
+{% endblock %}
 
-[0]: {{site.url}}/blog/tags/testing
-[1]: {{site.url}}/talks/tdd-test-driven-drupal
-[2]: {{site.url}}/contact
+{% block scripts %}
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+{% endblock %}
+
+[0]: /blog/tags/testing
+[1]: /talks/tdd-test-driven-drupal
+[2]: /contact
