@@ -1,9 +1,8 @@
-(function ($) {
-    $('html.no-js').addClass('js').removeClass('no-js');
+window.Vue = require('vue');
 
-    $('.nav-toggle').on('click', function (e) {
-        e.preventDefault();
+import Navbar from './components/Navbar';
 
-        $(this).siblings('.nav-right').toggleClass('is-active');
-    });
-})(jQuery);
+const app = new Vue({
+  el: '#app',
+  components: { Navbar },
+})
