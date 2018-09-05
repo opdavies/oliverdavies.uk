@@ -7,6 +7,7 @@ mix.disableNotifications()
     .sass('assets/sass/app.sass', 'source/dist/css')
     .js([
         // 'node_modules/highlightjs/highlight.pack.js',
+        'node_modules/jquery/dist/jquery.js',
         'assets/js/app.js',
     ], 'source/dist/js/all.js')
     .copyDirectory('node_modules/font-awesome/fonts', 'source/dist/fonts')

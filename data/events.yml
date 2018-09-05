@@ -93,6 +93,11 @@ events:
         name: SWDUG
         location: Cardiff, UK
 
+    talking_drupal:
+        name: Talking Drupal
+        location: Online
+        url: https://www.talkingdrupal.com
+
     umbristol:
         name: umBristol
         location: Bristol, UK
