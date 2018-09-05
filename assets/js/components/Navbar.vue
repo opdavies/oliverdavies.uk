@@ -1,12 +1,10 @@
 <template>
-    <div class="navbar border-bottom border-b border-grey-light mb-6" role="banner">
+    <div role="banner">
         <header class="container mx-auto px-4">
             <div class="sm:flex">
                 <div class="w-full sm:w-1/3 lg:w-1/4 flex items-center">
                     <div class="w-3/4 py-5">
-                        <a href="/" title="Home" class="text-grey-darkest no-underline hover:underline">
-                            {{ siteName }}
-                        </a>
+                        {{ siteName }}
                     </div>
 
                     <div class="w-1/4 text-right sm:hidden">
