@@ -13,11 +13,11 @@
     "cross-env": "^5.1.5",
     "font-awesome": "^4.7.0",
     "highlightjs": "^9.10.0",
-    "jquery.2": "^1.0.0",
     "laravel-mix": "^2.1.11",
     "laravel-mix-purgecss": "^2.1.2",
     "laravel-mix-tailwind": "^0.1.0",
     "tailwindcss": "^0.6",
-    "tailwindcss-visuallyhidden": "^1.0.1"
+    "tailwindcss-visuallyhidden": "^1.0.1",
+    "vue": "^2.5.17"
   }
 }
