@@ -5,6 +5,8 @@
 
 {% if page.meta.description %}
     <meta name="description" content="{{ page.meta.description|e('html') }}">
+{% else %}
+    <meta name="description" content="Oliver Davies is a UK-based Web Developer and System Administrator. He is a {{ site.work.role }} at {{ site.companies[site.work.company].name }} and a part-time freelancer, specialising in Drupal and PHP.">
 {% endif %}
 
 {% include 'og' with { og: page.meta.og } %}
