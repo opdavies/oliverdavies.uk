@@ -6,7 +6,7 @@ contact_email: 'oliver@testdrivendrupal.com'
 ---
 {% block content %}
 <div class="markdown" markdown="1">
-Having [given talks][1] and [written blog posts][0] about automated testing in Drupal, I’m currently in the planning phase of a book and potentially some accompanying screencasts about it, focussing on Drupal 8.
+Having [given talks][1] and workshops, been a guest on podcasts and [written blog posts][0] about automated testing in Drupal, I’m currently in the planning phase of a book and potentially some accompanying screencasts about it, focussing on Drupal 8.
 
 I’m still thinking about what use-cases to cover and examples to include, but here are some of the things I’m considering:
 
