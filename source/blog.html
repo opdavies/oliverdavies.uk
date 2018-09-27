@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Blog
 generator: pagination
 pagination:
@@ -7,8 +7,6 @@ pagination:
 use: [posts]
 ---
 {% block content %}
-    <h1>Blog</h1>
-
     <ul class="list-reset">
         {% for post in page.pagination.items %}
             <li class="mb-12">
