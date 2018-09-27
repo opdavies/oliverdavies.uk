@@ -1,6 +1,6 @@
 ---
-layout: default
-title: About
+layout: page
+title: About Me
 meta:
     og:
         title: 'Oliver Davies - Full Stack Developer, System Administrator, PHP and Drupal specialist'
@@ -12,8 +12,6 @@ use:
 permalink: /
 ---
 <div class="markdown" markdown="1">
-# About Me
-
 <div class="mb-4 w-1/3 sm:w-1/4 lg:w-1/6">
     <img
         src="{{ site.avatar.url }}"

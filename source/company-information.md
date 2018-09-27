@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Company Information
 meta:
   description: 'Company information for Oliver Davies Ltd.'
