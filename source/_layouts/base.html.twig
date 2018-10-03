@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en-GB">
+<html class="no-js text-sm" lang="en-GB">
     <head>
         <title>
             {% if page.title is defined and page.url != '//' %}
@@ -21,12 +21,12 @@
             <link rel="icon" href="{{ site.favicon.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
         {% endfor %}
     </head>
-    <body class="font-sans text-black text-sm leading-normal">
+    <body class="font-sans leading-normal">
         <div id="app" v-cloak>
             {% include 'layout/navbar' %}
 
             <div class="container mx-auto px-4">
-                <div class="md:flex -mx-4">
+                <div class="text-grey-darkest md:flex -mx-4">
                     <main class="md:w-2/3 lg:w-3/4 px-4 mb-8 lg:mb-0" role="main">
                         {% block content_top %}{% endblock %}
                         {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
