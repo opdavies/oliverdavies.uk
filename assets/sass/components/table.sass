@@ -1,19 +1,17 @@
 .table-collapse
-  border-collapse: collapse
+  @apply border-collapse
 
 .table-responsive
-  @apply .mb-4 .border .w-full
-  overflow-x: auto
-  overflow-y: hidden
+  @apply mb-4 border w-full overflow-x-auto overflow-y-hidden
 
   table
-    @apply .mb-0 .border-0 .whitespace-no-wrap
+    @apply mb-0 border-0 whitespace-no-wrap
 
 .table
-  @apply .w-full .table-collapse
+  @apply w-full table-collapse
 
   tr:nth-child(odd)
-    @apply .bg-grey-lighter
+    @apply bg-grey-lighter
 
   tr th
     @apply text-left p-3 bg-white
