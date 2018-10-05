@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Development Terms
 use: [posts]
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 <div class="markdown" markdown="1">
 # Speaker Info
