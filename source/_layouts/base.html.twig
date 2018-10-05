@@ -27,10 +27,14 @@
 
             <div class="container mx-auto px-4">
                 <div class="text-grey-darkest md:flex -mx-4">
-                    <main class="md:w-2/3 lg:w-3/4 px-4 mb-8 lg:mb-0" role="main">
-                        {% block content_top %}{% endblock %}
-                        {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
-                        {% block content_bottom %}{% endblock %}
+                    <main class="md:w-2/3 lg:w-3/4 px-4 mb-8 lg:mb-0">
+                        {% block page_title %}
+                            <h1>{{ page.title }}</h1>
+                        {% endblock %}
+
+                        {% block content_wrapper %}
+                            {% block content %}{% endblock %}
+                        {% endblock %}
                     </main>
 
                     {% block sidebar_wrapper %}
@@ -44,7 +48,7 @@
                     {% endblock %}
                 </div>
 
-                <footer class="border-t border-grey-light pt-4 mt-4" role="contentinfo">
+                <footer class="border-t border-grey-light pt-4 mt-4">
                     <p>
                         &copy; 2010-{{ 'now'|date('Y') }} {{ site.title }}.
                         Built with <a class="link" href="https://sculpin.io">Sculpin</a> and <a class="link" href="https://tailwindcss.com">Tailwind CSS</a>.
