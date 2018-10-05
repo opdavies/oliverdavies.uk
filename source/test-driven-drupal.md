@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: 'Test Driven Drupal: The Book'
 mailchimp_url: 'https://oliverdavi.us18.list-manage.com/subscribe/post?u=b4ac8dd177796d37b93f9c285&amp;id=033c84e0d5'
 contact_email: 'oliver@testdrivendrupal.com'
