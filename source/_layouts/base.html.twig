@@ -1,13 +1,16 @@
+{% macro htmlTitle(site, page) -%}
+    {% if page.title is defined and page.url != '//' %}
+        {{ page.title }} |
+    {% endif %}
+    {{ site.title }} - {{ site.subtitle }}
+{%- endmacro %}
+
+{% import _self as helpers %}
+
 <!DOCTYPE html>
 <html class="no-js text-sm" lang="en-GB">
     <head>
-        <title>
-            {% if page.title is defined and page.url != '//' %}
-                {{ page.title }} |
-            {% endif %}
-            {{ site.title }} - {{ site.subtitle }}
-        </title>
-
+        <title>{{ helpers.htmlTitle(site, page) }}</title>
         {% include 'meta' %}
 
         <link rel="stylesheet" href="/dist/css/app.css">
