@@ -111,8 +111,6 @@ experiences:
           First Acquia certified Drupal 8 Developer and back-end specialist.
 ---
 {% block content %}
-    <h1>Experience</h1>
-
     <div class="listing">
         {% for experience in page.experiences|reverse %}
             {% set company = site.companies[experience.company] %}
