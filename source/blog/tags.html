@@ -5,7 +5,10 @@ title: Tags
 use:
   - posts_tags
 ---
-<h1>Blog Tags</h1>
+{% set rows = {} %}
+{% for tag, posts in data.posts_tags %}
+    {% set rows = rows|merge({ (tag): posts|length }) %}
+{% endfor %}
 
 <div class="table-responsive">
     <table class="table">
@@ -16,14 +19,12 @@ use:
             </tr>
         </thead>
         <tbody>
-            {% for tag, posts in data.posts_tags %}
+            {% for tag, post_count in rows|sort|reverse %}
                 <tr>
                     <td>
-                        <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}" class="link">
-                            {{ tag }}
-                        </a>
+                        <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}" class="link">{{ tag }}</a>
                     </td>
-                    <td>{{ posts|length }}</td>
+                    <td>{{ post_count }}</td>
                 </tr>
             {% endfor %}
         </tbody>
