@@ -17,6 +17,7 @@ talks:
 
     - title: 'Episode #175 - Automated Testing'
       type: Podcast
+      url: http://talkingdrupal.com/175
       events:
           - event: talking_drupal
             date: '2018-09-05'
