@@ -115,32 +115,34 @@ experiences:
         {% for experience in page.experiences|reverse %}
             {% set company = site.companies[experience.company] %}
 
-            <div class="mb-12">
-                {% if company.logo %}
-                    <div class="float-right mt-2 mb-4 ml-4 w-16 sm:w-24 lg:w-32">
-                        <img src="/images/experience/{{ company.logo }}" alt="{{ company.name }} logo">
-                    </div>
-                {% endif %}
+            <div class="mb-16">
+                <div class="flex flex-row justify-between">
+                    <div>
+                        <h2 class="mb-0">{{ company.name }}</h2>
 
-                <div>
-                    <h2 class="mb-0">{{ company.name }}</h2>
+                        <div class="mb-4">
+                            {% if company.url -%}
+                                <a class="inline-block text-blue mb-1" href="{{ company.url }}?utm_source={{ site.short_url }}&utm_medium=experience">
+                                    {{- company.url -}}
+                                </a>
+                            {%- endif %}
 
-                    <div class="mb-4">
-                        {% if company.url -%}
-                            <a class="inline-block text-blue mb-1" href="{{ company.url }}?utm_source={{ site.short_url }}&utm_medium=experience">
-                                {{- company.url -}}
-                            </a>
-                        {%- endif %}
-
-                        <div class="text-grey-dark">
-                            {{- experience.role }} from {{ experience.start }} to {{ experience.end|default('Present') -}}
-                            {%- if experience.location %} ({{ experience.location }}){% endif %}.
+                            <div class="text-grey-dark">
+                                {{- experience.role }} from {{ experience.start }} to {{ experience.end|default('Present') -}}
+                                {%- if experience.location %} ({{ experience.location }}){% endif %}.
+                            </div>
                         </div>
+
+                        {% if experience.description %}
+                            <div class="markdown">
+                                {{ experience.description|markdown }}
+                            </div>
+                        {% endif %}
                     </div>
 
-                    {% if experience.description %}
-                        <div class="markdown">
-                            {{ experience.description|markdown }}
+                    {% if company.logo %}
+                        <div class="flex-none mt-2 mb-4 ml-4 w-16 sm:w-24 lg:w-32">
+                            <img src="/images/experience/{{ company.logo }}" alt="{{ company.name }} logo">
                         </div>
                     {% endif %}
                 </div>

@@ -57,6 +57,11 @@
             pattern: '^/talks/?',
           },
           {
+            title: 'Experience',
+            href: '/experience',
+            pattern: '^/experience/?',
+          },
+          {
             title: 'Blog',
             href: '/blog',
             pattern: '^/blog/?',
