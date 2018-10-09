@@ -33,3 +33,4 @@ imports:
     - '../../data/companies.yml'
     - '../../data/events.yml'
     - '../../data/links.yml'
+    - '../../data/talks.yml'

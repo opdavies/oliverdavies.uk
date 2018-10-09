@@ -1,0 +1,14 @@
+---
+layout: default
+title: Talks Archive
+use: [talks]
+---
+{% block content %}
+    <p>Here are most of my previous conference and meetup talks, workshops and podcasts.</p>
+
+    {% include "talks-table" with {
+        talks: getPastTalks(data.talks|merge(site.talks), site.events)
+    } %}
+
+    <p>Upcoming talks can be found on the <a href="/talks" class="link">talks page</a>.</p>
+{% endblock %}
