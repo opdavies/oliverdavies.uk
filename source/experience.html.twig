@@ -110,7 +110,22 @@ experiences:
 
           First Acquia certified Drupal 8 Developer and back-end specialist.
 ---
+{% macro roleText(experience) %}
+    {{- experience.role }} from {{ experience.start }} to {{ experience.end|default('Present') -}}
+    {%- if experience.location %} ({{ experience.location }}){% endif %}.
+{% endmacro %}
+
+{% macro companyUrl(site, company) %}
+    {{ company.url ~ '?utm_source=' ~ site.short_url ~ '&utm_medium=experience' }}
+{% endmacro %}
+
+{% macro companyLogoUrl(company) %}
+    {{- '/images/experience/' ~ company.logo -}}
+{% endmacro %}
+
 {% block content %}
+    {% import _self as helpers %}
+
     <div class="listing">
         {% for experience in page.experiences|reverse %}
             {% set company = site.companies[experience.company] %}
@@ -122,14 +137,13 @@ experiences:
 
                         <div class="mb-4">
                             {% if company.url -%}
-                                <a class="inline-block text-blue mb-1" href="{{ company.url }}?utm_source={{ site.short_url }}&utm_medium=experience">
+                                <a class="inline-block text-blue mb-1" href="{{ helpers.companyUrl(site, company) }}">
                                     {{- company.url -}}
                                 </a>
                             {%- endif %}
 
                             <div class="text-grey-dark">
-                                {{- experience.role }} from {{ experience.start }} to {{ experience.end|default('Present') -}}
-                                {%- if experience.location %} ({{ experience.location }}){% endif %}.
+                                {{ helpers.roleText(experience) }}
                             </div>
                         </div>
 
@@ -142,7 +156,7 @@ experiences:
 
                     {% if company.logo %}
                         <div class="flex-none mt-2 mb-4 ml-4 w-16 sm:w-24 lg:w-32">
-                            <img src="/images/experience/{{ company.logo }}" alt="{{ company.name }} logo">
+                            <img src="{{ helpers.companyLogoUrl(company) }}" alt="{{ company.name }} logo">
                         </div>
                     {% endif %}
                 </div>
