@@ -1,0 +1,22 @@
+talks:
+    - title: 'Drupal and the LDAP module'
+      events:
+          - event: swdug
+            date: '2013-07-10'
+
+    - title: 'About the Drupal Association'
+      events:
+          - event: swdug
+            date: '2014-08-19'
+
+    - title: 'Automated testing with Drupal 8 and PHPUnit'
+      type: Workshop
+      events:
+          - event: drupal_bristol
+            date: '2018-06-27'
+
+    - title: 'Episode #175 - Automated Testing'
+      type: Podcast
+      events:
+          - event: talking_drupal
+            date: '2018-09-05'
