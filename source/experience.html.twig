@@ -111,8 +111,12 @@ experiences:
           First Acquia certified Drupal 8 Developer and back-end specialist.
 ---
 {% macro roleText(experience) %}
-    {{- experience.role }} from {{ experience.start }} to {{ experience.end|default('Present') -}}
-    {%- if experience.location %} ({{ experience.location }}){% endif %}.
+    {{- experience.role }}
+    from {{ experience.start }}
+    to {{ experience.end|default('Present') -}}
+    {%- if experience.location %}
+        ({{ experience.location }})
+    {%- endif %}.
 {% endmacro %}
 
 {% macro companyUrl(site, company) %}
