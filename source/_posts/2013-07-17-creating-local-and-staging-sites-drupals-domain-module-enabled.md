@@ -40,5 +40,4 @@ $databases['default']['default'] = array(
 ```
 
 Within each environment-specific domain table, update the subdomain column to contain the appropriate domain names.
-
-**Up{% endblock %}
+{% endblock %}

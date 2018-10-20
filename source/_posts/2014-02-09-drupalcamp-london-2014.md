@@ -18,5 +18,4 @@ I'm going as a volunteer, so I'm going to be helping with the registrations on t
 I'm looking forward to meeting some new people as well as catching up with some people that I met at [DrupalCon Prague](http://prague2013.drupal.org).
 
 If you're also coming, see you there!
-
-**Up{% endblock %}
+{% endblock %}
