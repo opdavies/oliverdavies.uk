@@ -6,6 +6,7 @@ summary: |
     I was having some issues this past weekend where, despite everything working fine locally, a server was showing a “500 Internal Server” after I pushed some changes to a site. In order to bring the site back online, I needed to revert the site files back to the previous version, but as part of a new commit.
 tags:
     - git
+slug: back-to-the-future-git-diff-apply
 ---
 The `git reset` commands removed the interim commits which meant that I couldn’t push to the remote (force pushing, quite rightly, isn’t allowed for the production branch), and using `git revert` was resulting in merge conflicts in `composer.lock` that I’d rather have avoided if possible.
 

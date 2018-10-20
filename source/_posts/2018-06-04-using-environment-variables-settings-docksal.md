@@ -1,5 +1,6 @@
 ---
 title: How to Use Environment Variables for your Drupal Settings with Docksal
+slug: using-environment-variables-settings-docksal
 tags:
     - drupal
     - drupal-planet

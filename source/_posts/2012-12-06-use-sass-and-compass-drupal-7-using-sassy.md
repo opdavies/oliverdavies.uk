@@ -1,5 +1,6 @@
 ---
 title: How to use SASS and Compass in Drupal 7 using Sassy
+slug: use-sass-and-compass-drupal-7-using-sassy
 tags:
   - compass
   - css
