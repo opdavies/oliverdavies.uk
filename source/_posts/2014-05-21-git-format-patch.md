@@ -1,6 +1,5 @@
 ---
 title: git format-patch is your Friend
-slug: git-format-patch
 tags:
   - patches
   - drupal

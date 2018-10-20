@@ -1,6 +1,5 @@
 ---
 title: The Quickest way to Install Sublime Text 2 in Ubuntu
-slug: quickest-way-install-sublime-text-2-ubuntu
 tags:
   - linux
   - sublime-text

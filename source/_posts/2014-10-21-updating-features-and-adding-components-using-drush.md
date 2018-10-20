@@ -1,6 +1,5 @@
 ---
 title: Updating Features and Adding Components Using Drush
-slug: updating-features-and-adding-components-using-drush
 tags:
   - drupal
   - drupal-planet
