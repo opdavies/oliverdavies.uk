@@ -1,5 +1,6 @@
 ---
 title: Add a Taxonomy Term to Multiple Nodes Using SQL
+slug: add-taxonomy-term-multiple-nodes-using-sql
 tags:
   - taxonomy
   - drupal-planet

@@ -1,5 +1,6 @@
 ---
 title: Include environment-specific settings files on Pantheon
+slug: pantheon-settings-files
 tags:
   - drupal
   - drupal-planet

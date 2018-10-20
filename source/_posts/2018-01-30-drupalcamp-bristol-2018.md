@@ -5,6 +5,7 @@ tags:
     - drupalcamp-bristol
 use:
     - posts
+slug: drupalcamp-bristol-2018
 meta:
    og:
        title: DrupalCamp Bristol 2018 Statement

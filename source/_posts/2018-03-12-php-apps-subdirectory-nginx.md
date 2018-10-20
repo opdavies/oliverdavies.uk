@@ -1,5 +1,6 @@
 ---
 title: How to put your PHP application in a subdirectory of another site with Nginx
+slug: php-apps-subdirectory-nginx
 tags:
     - nginx
     - php
