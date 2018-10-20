@@ -1,6 +1,5 @@
 ---
 title: Creating and using custom tokens in Drupal 7
-slug: creating-and-using-custom-tokens-drupal-7
 tags:
   - drupal
   - drupal-planet
