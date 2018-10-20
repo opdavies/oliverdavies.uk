@@ -3,7 +3,7 @@ sculpin:
 
 sculpin_content_types:
     posts:
-        permalink: blog/:slug_title/
+        permalink: blog/:basename/
         taxonomies: [tags]
     talks:
         permalink: talks/:basename/
