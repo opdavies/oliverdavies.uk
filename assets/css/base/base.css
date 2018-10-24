@@ -34,10 +34,3 @@ table,
 pre {
     @apply mb-6;
 }
-
-.element-invisible {
-    @apply absolute overflow-hidden break-normal;
-    clip: rect(1px, 1px, 1px, 1px);
-    height: 1px;
-    width: 1px;
-}
