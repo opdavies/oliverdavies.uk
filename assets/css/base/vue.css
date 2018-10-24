@@ -1,0 +1,27 @@
+[v-cloak] {
+    .v-cloak-block {
+        @apply block;
+    }
+
+    .v-cloak-inline {
+        @apply inline;
+    }
+
+    .v-cloak-inline-block {
+        @apply inline-block;
+    }
+
+    .v-cloak-hidden {
+        @apply hidden;
+    }
+
+    .v-cloak-invisible {
+        @apply invisible;
+    }
+}
+
+.v-cloak-block,
+.v-cloak-inline,
+.v-cloak-inline-b {
+    @apply hidden;
+}
