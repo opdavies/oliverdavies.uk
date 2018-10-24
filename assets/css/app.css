@@ -1,0 +1,10 @@
+@import 'font-awesome/css/font-awesome';
+@import 'highlightjs/styles/github-gist';
+
+@import 'tailwind-preflight';
+@import 'custom-preflight';
+
+@import 'tailwind-components';
+@import 'custom-components';
+
+@import 'tailwind-utilities';

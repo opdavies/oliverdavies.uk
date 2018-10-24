@@ -1,0 +1,8 @@
+.button {
+    @apply bg-blue inline-block rounded text-white px-4 py-2;
+
+    &:active,
+    &:hover {
+        @apply bg-blue-dark;
+    }
+}
