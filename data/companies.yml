@@ -17,7 +17,7 @@ companies:
     drupal_association:
         name: Drupal Association
         logo: drupal-association.png
-        url: https://assoc.drupal.org
+        url: https://www.drupal.org/association
 
     freelance:
         name: Freelance
