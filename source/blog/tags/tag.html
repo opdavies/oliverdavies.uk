@@ -1,9 +1,8 @@
 ---
 layout: default
-nav: blog
 title: Tag Archive
 generator:
-  - posts_tag_index
+    - posts_tag_index
 ---
 {% block head_meta %}
     <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/blog/tags/{{ page.tag|url_encode(true) }}.xml" title="{{ site.title }} '{{ page.tag }}' tag feed" />
