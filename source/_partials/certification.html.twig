@@ -1,0 +1,17 @@
+<div class="flex mb-2">
+    <div class="w-16 mr-2 flex-none">
+        <div class="flex flex-col items-center">
+            <img src="/images/badges/{{ image.filename }}" alt="{{ image.alt }}" />
+        </div>
+    </div>
+
+    <div class="flex items-center">
+        <p class="mb-0">
+            {% if url %}
+                <a class="link" href="{{ url }}">{{ title }}</a>
+            {% else %}
+                {{ title }}
+            {% endif %}
+        </p>
+    </div>
+</div>
