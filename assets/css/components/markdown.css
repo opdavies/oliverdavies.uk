@@ -7,22 +7,24 @@
       @apply text-black;
     }
 
+    p,
+    li {
+        a {
+            @apply link;
+        }
+
+        code {
+            @apply bg-grey-lighter inline-block font-mono text-sm px-1 py-px;
+        }
+    }
+
     p:last-child {
         @apply mb-0;
     }
 
-    p code,
-    li code {
-        @apply bg-grey-lighter inline-block font-mono text-sm px-1 py-px;
-    }
-
     pre code,
     .hljs {
-        @apply bg-grey-lighter block border-grey-dark border-l-4 font-mono leading-loose overflow-x-scroll p-6 rounded text-sm;
+        @apply bg-grey-lighter block border-grey-dark border-l-4 font-mono;
+        @apply leading-loose overflow-x-scroll p-6 rounded text-sm;
     }
-}
-
-.markdown p a,
-.markdown li a {
-  @apply link;
 }
