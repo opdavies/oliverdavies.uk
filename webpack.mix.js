@@ -23,7 +23,7 @@ mix.disableNotifications()
     .options({
         postCss: [
             require('postcss-import')(),
-            require('postcss-nesting')(),
+            require('postcss-nested')(),
         ],
         processCssUrls: false,
     });
