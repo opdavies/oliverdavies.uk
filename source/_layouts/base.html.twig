@@ -13,7 +13,7 @@
         <title>{{ helpers.htmlTitle(site, page) }}</title>
         {% include 'meta' %}
 
-        <link rel="stylesheet" href="/dist/css/app.css">
+        <link rel="stylesheet" href="/css/app.css">
         {% block stylesheets %}{% endblock %}
 
         {% for size in site.apple_touch_icon_sizes %}
@@ -71,7 +71,7 @@
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         {% endif %}
 
-        <script src="/dist/js/all.js"></script>
+        <script src="/js/all.js"></script>
         {% block scripts %}{% endblock %}
     </body>
 </html>
