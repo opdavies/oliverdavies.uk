@@ -20,33 +20,17 @@ permalink: /
     >
 </div>
 
-My name is Oliver Davies (aka [opdavies][1]) - a Full Stack Web Developer and System Administrator based in Wales, UK.
+My name is Oliver Davies (aka [opdavies][1]) - a Full Stack Web Developer and System Administrator based in Wales, UK. I’m a {{ site.work.role }} at [{{ site.companies[site.work.company].name }}][20], part-time freelancer, former Developer at the [{{ site.companies.drupal_association.name }}][39], open source contributor and advocate, mentor and conference speaker.
 
-I primarily work with Drupal and am an [Acquia certified Drupal Developer][41] but also work with Symfony, Laravel and Sculpin. I’m a {{ site.work.role }} at [{{ site.companies[site.work.company].name }}][20], part-time freelancer, former Developer at the [{{ site.companies.drupal_association.name }}][39], open source contributor and advocate, mentor and conference speaker.
+I primarily work with Drupal and am an [Acquia certified Drupal Grand Master][41], but also use Symfony, Laravel and Sculpin, and have some experience working with JavaScript frameworks including Vue.js and Angular.
 
 I’m a webmaster and documentation maintainer for [Drupal.org][42], and a provisional member of the [Drupal Security team][14]. [I speak at various user groups and conferences][40], and co-organise the [Drupal Bristol user group][15], [PHPSW][17] and [DrupalCamp Bristol][18].
 
-You can usually find me on Twitter ([@{{ site.twitter.name }}][21]), and you can see my open source work on my [Drupal.org account][22] and [GitHub profile][23] as well as on [Packagist][24] and [Ansible Galaxy][25].
-
-## Skills
-
-- PHP, Drupal (6, 7, 8), Symfony, Silex, Laravel, Sculpin, Jekyll.
-- PHPUnit, SimpleTest, Behat.
-- HTML, CSS, Sass, Less, Twig, JavaScript, jQuery, Gulp, Webpack.
-- Linux (Debian, Ubuntu, CentOS, Red Hat), Git, Jenkins, Fabric, Ansible, Puppet, Vagrant, Docker.
-
-## Community
-
-- Drupal 7 & 8 core contributor
-- Acquia certified Drupal 8 Grand Master
-- Open source project maintainer
-- Drupal.org webmaster
-- Drupal sprinter
-- DrupalCon sprint mentor
-- User group and conference organiser
-- Blogger and author
-- Speaker
+You can find me on [Twitter][21], and see my open source work on [Drupal.org][22] and [GitHub][23] as well as on [Packagist][24] and [Ansible Galaxy][25].
 </div>
+
+{% include 'availability' %}
+{% include 'posts/latest' %}
 
 [1]: https://www.google.com/#q=opdavies
 [2]: https://www.drupal.org

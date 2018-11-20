@@ -1,9 +1,9 @@
 <div class="widget">
     <h2>Availability</h2>
 
-    <ul class="list-reset">
+    <ul class="pl-5">
         {% for type, value in site.availability %}
-            <li class="block mb-1">
+            <li>
                 {% include 'availability/' ~ value %}
             </li>
         {% endfor %}
