@@ -1,7 +1,7 @@
 {% if post.summary %}
     {{ post.summary|markdown }}
     {% include 'pages/blog/read-more' %}
-{% elseif post.blocks.excerpt %}
+{% elseif post.blocks.excerpt is defined %}
     {{ post.blocks.excerpt|markdown }}
     {% include 'pages/blog/read-more' %}
 {% else %}
