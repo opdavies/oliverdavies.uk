@@ -1,4 +1,5 @@
-window.Vue = require('vue');
+window.hljs = require('highlightjs')
+window.Vue = require('vue')
 
 import Navbar from './components/Navbar';
 
