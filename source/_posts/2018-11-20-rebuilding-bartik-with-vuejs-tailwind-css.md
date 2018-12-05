@@ -17,6 +17,14 @@ Earlier this week, I built a clone of [Drupal][0]’s default theme, Bartik, wit
     data_cards: true,
 } %}
 
+## Why build a Bartik clone?
+
+I’m a big fan of utility based styling and Tailwind CSS in particular, I was and originally thinking of a way to more easily integrate Tailwind within Drupal - something like I’ve since done with the [Tailwind CSS starter kit theme][5]. Whilst thinking about that, I wondered about doing the opposite - rebuilding Drupal (or Bartik) with Tailwind.
+
+Others including [Adam Wathan](https://adamwathan.me) (one of the creators of Tailwind CSS) have rebuilt existing UIs like Netlify, YouTube, Twitter, Coinbase and Transistor.fm with Tailwind as an opportunity for learning and also to demonstrate using Tailwind - this was my opportunity to do the same.
+
+Whilst [Drupal itself has adoped React](https://dri.es/drupal-looking-to-adopt-react), I’ve personally been looking into Vue.js and have used it for some small personal projects, including some elements of the site. So I decided to use Vue for the interactive parts of my Bartik clone to create a fully functional clone rather than focussing only on the CSS.
+
 ## Building a static template with Tailwind
 
 The first stage was to build the desktop version, which was done as a simple HTML file with Tailwind CSS pulled in from it’s CDN. This stage took just over an hour to complete.
@@ -33,9 +41,9 @@ The second stage began with making the existing desktop version responsive - par
 <div class="bg-white pt-3 pb-4 lg:pb-12">
     ...
 </div>
-``` 
+```
 
-In this example, the `pb-4` class adds 1rem of bottom padding to the element by default, then increases it to 3rem at large screen sizes due to the `lg:pb-12` class. 
+In this example, the `pb-4` class adds 1rem of bottom padding to the element by default, then increases it to 3rem at large screen sizes due to the `lg:pb-12` class.
 
 ## Adding interactivity
 
@@ -47,11 +55,11 @@ The show and hide text appears next to a hamburger menu, and clicking it toggles
 
 The code for this was moved into a separate `MainMenu` component, which means that it was easier to have dedicated data properties for whether the menu was open or not, as well as computed properties for building the show/hide text. The `open` value can then be used to apply the appropriate classes to the main menu to toggle it.
 
-I also moved the links into `data` too - each link is it’s own object with it's `title` and `href` values. This means that I can use a `v-for` directive to loop over the data items and inject dynamic values, removing the duplication of markup which makes the component easier to read and maintain. 
+I also moved the links into `data` too - each link is it’s own object with it's `title` and `href` values. This means that I can use a `v-for` directive to loop over the data items and inject dynamic values, removing the duplication of markup which makes the component easier to read and maintain.
 
 ## The result
 
-The whole task took around two hours to complete, and although some of the colours and spacings are slightly different due to the decision to stick with the default Tailwind configuration values, I’m happy with the result.
+The whole task only took around two hours to complete, and although some of the colours and spacings are slightly different due to the decision to stick with the default Tailwind configuration values, I’m happy with the result.
 
 ### The original version
 
@@ -67,3 +75,4 @@ The whole task took around two hours to complete, and although some of the colou
 [2]: https://tailwindcss.com
 [3]: https://github.com/opdavies/rebuilding-bartik
 [4]: https://rebuilding-bartik.netlify.com
+[5]: https://www.drupal.org/project/tailwindcss
