@@ -4,9 +4,8 @@ require('laravel-mix-purgecss');
 require('laravel-mix-tailwind');
 
 mix.disableNotifications()
-    .postCss('assets/css/app.css', 'source/css')
+    .sass('assets/sass/app.sass', 'source/css')
     .js([
-        // 'node_modules/highlightjs/highlight.pack.js',
         'node_modules/jquery/src/jquery.js',
         'assets/js/app.js',
     ], 'source/js/all.js')
@@ -19,11 +18,4 @@ mix.disableNotifications()
         ],
         whitelistPatterns: [/language/, /hljs/],
         whitelistPatternsChildren: [/^markdown$/]
-    })
-    .options({
-        postCss: [
-            require('postcss-import')(),
-            require('postcss-nested')(),
-        ],
-        processCssUrls: false,
     });
