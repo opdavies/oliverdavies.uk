@@ -62,7 +62,8 @@ export default {
 
 `src/components/Welcome.vue`:
 
-```
+<div v-pre markdown="1">{% raw %}
+```vuejs
 <template>
   <div>
     <div class="bg-blue-dark">
@@ -93,7 +94,7 @@ export default {
             <div class="font-serif">
               <h1 class="font-normal">Welcome to {{ title }}</h1>
               <p>No front page content has been created yet.</p>
-              <p>Follow the <a href="#0" class="">User Guide</a> to start building your site.</p>
+              <p>Follow the <a href="#0" class="text-blue-dark hover:text-blue no-underline border-b border-blue border-dotted hover:bg-solid">User Guide</a> to start building your site.</p>
             </div>
 
             <div class="mt-10">
@@ -104,19 +105,22 @@ export default {
           </div>
 
           <div class="w-full md:w-1/3 lg:w-1/4 flex-none md:px-6">
-            <drupal-block>
-              <h2 class="font-serif font-normal text-base text-grey-darkest border-b border-solid border-grey-light mb-3">Search</h2>
+            <div class="w-full md:w-1/3 lg:w-1/4 flex-none md:px-6">
+                <div class="p-4" style="background-color: #f6f6f2">
+                  <h2 class="font-serif font-normal text-base text-grey-darkest border-b border-solid border-grey-light mb-3">Search</h2>
 
-              <div>
-                <form action="#" class="flex">
-                  <input type="text" class="border border-solid border-grey p-2 w-full xl:w-auto">
+                  <div>
+                    <form action="#" class="flex">
+                      <input type="text" class="border border-solid border-grey p-2 w-full xl:w-auto">
 
-                  <button type="submit" class="bg-grey-light px-3 rounded-full border-b border-solid border-grey-dark ml-2 flex-none" style="background-color: #f0f0f0">
-                    <img src="img/loupe.svg" class="block">
-                  </button>
-                </form>
+                      <button type="submit" class="bg-grey-light px-3 rounded-full border-b border-solid border-grey-dark ml-2 flex-none" style="background-color: #f0f0f0">
+                        <img src="img/loupe.svg" class="block">
+                      </button>
+                    </form>
+                  </div>
+                </div>
               </div>
-            </drupal-block>
+            </div>
           </div>
         </div>
       </div>
@@ -144,12 +148,10 @@ export default {
 </template>
 
 <script>
-import DrupalBlock from './DrupalBlock.vue'
 import MainMenu from './MainMenu.vue';
 
 export default {
   components: {
-      DrupalBlock,
       MainMenu,
   },
 
@@ -161,44 +163,8 @@ export default {
   }
 }
 </script>
-
-<style lang="sass">
-#header a
-  @apply text-white no-underline
-
-  &:hover,
-  &:focus
-    @apply underline
-
-#main a
-  @apply text-blue-dark no-underline border-b border-blue border-dotted
-
-  &:hover,
-  &:focus
-    @apply text-blue border-solid
-
-#footer a
-    @apply text-white no-underline border-b border-dotted border-white
-</style>
 ```
-
-`src/components/DrupalBlock.vue`:
-
-```
-<template>
-    <div class="drupal-block">
-        <slot></slot>
-    </div>
-</template>
-
-<style lang="sass" scoped>
-.drupal-block
-  @apply bg-grey-lightest p-4
-
-  &:not(:last-child)
-    @apply mb-4
-</style>
-```
+{% endraw %}</div>
 
 ## Making it responsive
 
