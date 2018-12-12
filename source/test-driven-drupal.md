@@ -38,9 +38,8 @@ I’m still thinking about what use-cases to cover and examples to include, but 
 I’ll most likely be publishing it via Leanpub, and will be sending free chapters, early-bird discounts and links to screencasts and blog posts as I write the book to subscribers of the mailing list.
 
 If you have questions or would like to suggest something for me to include in the book, please <a href="mailto:{{ page.contact_email }}">contact me</a>.
-## Mailing List
 
-Enter your email address to subscribe to the Test Driven Drupal mailing list.
+**Enter your email address to subscribe to the Test Driven Drupal mailing list and be notified of any updates.**
 </div>
 
 {% include 'pages/book/signup-form' %}
