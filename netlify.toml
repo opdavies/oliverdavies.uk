@@ -1,3 +1,3 @@
 [build]
-  command = "composer prod && yarn prod && cp -R source/{css,fonts,js} output_prod"
+  command = "composer prod && npm run prod && cp -R source/{css,fonts,js} output_prod"
   publish = "output_prod"
