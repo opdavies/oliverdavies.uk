@@ -5723,6 +5723,10 @@ tailwindcss-visuallyhidden@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/tailwindcss-visuallyhidden/-/tailwindcss-visuallyhidden-1.0.1.tgz#ed67ecf6ee48ea0313b5c3c27498467f350be206"
 
+tailwindcss-vuejs@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-vuejs/-/tailwindcss-vuejs-1.0.0.tgz#cbd1a61f9a45548cbde03d7a7c3e423c5808f372"
+
 tailwindcss@^0.6:
   version "0.6.5"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-0.6.5.tgz#f692f875c373721d65ccecba5eb16fa949bcbb97"
