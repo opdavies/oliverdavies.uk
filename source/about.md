@@ -26,7 +26,7 @@ I primarily work with Drupal and am an [Acquia certified Drupal Grand Master][41
 
 I’m a webmaster and documentation maintainer for [Drupal.org][42], and a provisional member of the [Drupal Security team][14]. [I speak at various user groups and conferences][40], and co-organise the [Drupal Bristol user group][15], [PHPSW][17] and [DrupalCamp Bristol][18].
 
-You can find me on [Twitter][21], and see my open source work on [Drupal.org][22] and [GitHub][23] as well as on [Packagist][24] and [Ansible Galaxy][25].
+You can find me on [Twitter][21], and see my open source work on [Drupal.org][22] and [GitHub][23] as well as on [Packagist][24], [npm](https://www.npmjs.com/~opdavies) and [Ansible Galaxy][25].
 </div>
 
 {% include 'availability' %}
