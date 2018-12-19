@@ -36,7 +36,16 @@
 
 <script>
 export default {
-  props: ['siteName', 'pageUrl'],
+  props: {
+    siteName: {
+      type: String,
+      required: true,
+    },
+    pageUrl: {
+      type: String,
+      required: true,
+    },
+  },
 
   methods: {
     isActive(item) {
