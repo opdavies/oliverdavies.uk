@@ -1,17 +1,16 @@
 a
-  color: inherit
-  text-decoration: none
+  @apply text-blue no-underline
 
   &:focus,
   &:hover
-    text-decoration: underline
+    @apply underline
 
 main a
-  text-decoration: underline
+  @apply underline
 
   &:focus,
   &:hover
-    text-decoration: none
+    @apply no-underline
 
 h1, h2, h3
   @apply mb-2
