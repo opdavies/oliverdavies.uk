@@ -333,6 +333,7 @@ module.exports = {
       padding: '1rem',
     }),
     require('tailwindcss-visuallyhidden')(),
+    require('tailwindcss-skip-link')(),
     require('tailwindcss-vuejs')(),
   ],
 

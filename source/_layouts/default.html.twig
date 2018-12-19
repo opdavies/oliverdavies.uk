@@ -1,11 +1,13 @@
 {% extends 'base' %}
 
 {% block body %}
+    <a href="#main-content" class="skip-link w-full text-center text-white bg-blue p-4 focus:outline-none">Skip to main content</a>
+
     {% include 'layout/navbar' %}
 
     <div class="container mx-auto px-4">
         <div class="md:flex -mx-4">
-            <main class="md:w-2/3 lg:w-3/4 px-4 mb-8 lg:mb-0">
+            <main id="main-content" class="md:w-2/3 lg:w-3/4 px-4 mb-8 lg:mb-0">
                 {% block page_title %}
                     <h1>{{ page.title }}</h1>
                 {% endblock %}
