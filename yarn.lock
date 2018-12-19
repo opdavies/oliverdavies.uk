@@ -5719,6 +5719,10 @@ svgo@^0.7.0:
     sax "~1.2.1"
     whet.extend "~0.9.9"
 
+tailwindcss-skip-link@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-skip-link/-/tailwindcss-skip-link-1.0.0.tgz#212090cdc5e6e9c71a5b5d3d638f280997f1e7f2"
+
 tailwindcss-visuallyhidden@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/tailwindcss-visuallyhidden/-/tailwindcss-visuallyhidden-1.0.1.tgz#ed67ecf6ee48ea0313b5c3c27498467f350be206"
