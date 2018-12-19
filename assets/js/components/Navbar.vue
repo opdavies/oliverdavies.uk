@@ -22,7 +22,7 @@
           :href="item.href"
           class="block text-black focus:text-white focus:no-underline focus-within:bg-blue p-4 border-l-3 sm:border-l-0 sm:border-b-3 border-transparent hover:border-grey-light sm:ml-4 sm:mr-0 sm:p-0 hover:no-underline"
           :class="{
-          'border-blue hover:border-blue': pageUrl.match(new RegExp(item.pattern)),
+            'border-blue hover:border-blue': isActive(item),
           }"
         >
           <span class="flex items-center h-full">
@@ -35,41 +35,47 @@
 </template>
 
 <script>
-  export default {
+export default {
   props: ['siteName', 'pageUrl'],
+
+  methods: {
+    isActive(item) {
+      return this.pageUrl.match(new RegExp(item.pattern))
+    }
+  },
 
   data() {
     return {
-    mobileNavHidden: true,
+      mobileNavHidden: true,
 
-    navItems: [
-      {
-      title: 'About',
-      href: '/',
-      pattern: '^/.$',
-      },
-      {
-      title: 'Talks',
-      href: '/talks',
-      pattern: '^/talks/?',
-      },
-      {
-      title: 'Blog',
-      href: '/blog',
-      pattern: '^/blog/?',
-      },
-      {
-      title: 'Book',
-      href: '/test-driven-drupal',
-      pattern: '^/test-driven-drupal/?$',
-      },
-      {
-      title: 'Contact',
-      href: '/contact',
-      pattern: '^/contact/?',
-      }
-    ]
-  }
+      navItems: [
+        {
+          title: 'About',
+          href: '/',
+          pattern: '^/.$',
+        },
+        {
+          title: 'Talks',
+          href: '/talks',
+          pattern: '^/talks/?',
+        },
+        {
+          title: 'Blog',
+          href: '/blog',
+          pattern: '^/blog/?',
+        },
+        {
+          title: 'Book',
+          href: '/test-driven-drupal',
+          pattern: '^/test-driven-drupal/?$',
+        },
+        {
+          title: 'Contact',
+          href: '/contact',
+          pattern: '^/contact/?',
+        }
+      ]
+    }
   }
 }
 </script>
