@@ -20,7 +20,7 @@
         <a
           v-for="item in navItems"
           :href="item.href"
-          class="block text-black p-4 border-l-3 sm:border-l-0 sm:border-b-3 border-transparent hover:border-grey-light sm:ml-4 sm:mr-0 sm:p-0 hover:no-underline"
+          class="block text-black focus:text-white focus:no-underline focus-within:bg-blue p-4 border-l-3 sm:border-l-0 sm:border-b-3 border-transparent hover:border-grey-light sm:ml-4 sm:mr-0 sm:p-0 hover:no-underline"
           :class="{
           'border-blue hover:border-blue': pageUrl.match(new RegExp(item.pattern)),
           }"
