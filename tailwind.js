@@ -1,4 +1,5 @@
 var colors = {
+  'inherit': 'inherit',
   'transparent': 'transparent',
 
   'black': '#222b2f',
