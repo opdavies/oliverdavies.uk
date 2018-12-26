@@ -15,6 +15,8 @@ In the [original post](/blog/rebuilding-bartik-with-vuejs-tailwind-css) I detail
 {% block content %}
 ## Customising Tailwind
 
+### Colours
+
 ```js
 let colors = {
   'transparent': 'transparent',
@@ -28,10 +30,24 @@ let colors = {
   'grey-lightest': '#F6F6F2',
   'white': '#ffffff',
 
+  'black-60': 'rgba(0, 0, 0, .6)',
+
   'blue-dark': '#2779bd',
   'blue': '#3490dc',
   'blue-light': '#bcdefa',
 }
+```
+
+### Plugins
+
+```js
+plugins: [
+  require('tailwindcss/plugins/container')({
+    // center: true,
+    // padding: '1rem',
+  }),
+  require('tailwindcss-skip-link')(),
+],
 ```
 
 ## Extracting Tailwind components for link styling
@@ -126,6 +142,25 @@ let colors = {
     </form>
   </div>
 </drupal-block>
+```
+
+## Adding the Skip to Main Content Link
+
+```html
+<a href="#0" class="skip-link text-white bg-black-60 py-1 px-2 rounded-b-lg focus:no-underline focus:outline-none">Skip to main content</a>
+```
+
+```vuejs
+<style lang="sass">
+@tailwind preflight
+@tailwind components
+
+.skip-link:focus
+  left: 50%
+  transform: translateX(-50%)
+
+@tailwind utilities
+</style>
 ```
 {% endblock %}
 
