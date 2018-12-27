@@ -30,7 +30,7 @@ use: [posts, talks]
 
   {% for post in data.posts %}
   <url>
-    <loc>{{ site.url }}{{ post.url }}/</loc>
+    <loc>{{ site.url }}{{ post.url }}</loc>
     <lastmod>{{ post.date|date('c') }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -39,7 +39,7 @@ use: [posts, talks]
 
   {% for talk in data.talks if not talk.hide_page %}
   <url>
-    <loc>{{ site.url }}{{ talk.url }}/</loc>
+    <loc>{{ site.url }}{{ talk.url }}</loc>
     <lastmod>{{ talk.date|date('c') }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
