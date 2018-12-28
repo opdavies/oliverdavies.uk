@@ -174,25 +174,45 @@ I added only the page-specific styling classes to the link (as well as the `skip
 
 ## Adding the DrupalMessage component
 
-I also added a version of Drupal’s status message. For readability, this is contained within it’s own component, `DrupalMessage.vue`, though it contains only a static template and has no `script` or any of it’s own data.
+I also added a version of Drupal’s status message as another Vue component. This also uses a slot to include the message contents and accepts a [prop](https://vuejs.org/v2/guide/components-props.html) for the message type.
 
 ```html
 <template>
-  <div class="bg-green pl-2 rounded-sm">
-    <div class="py-4 pl-3 pr-4 mb-4 border flex items-center border-green-light text-green-dark bg-green-lighter rounded-sm">
-      <svg class="fill-current w-4 h-4 text-green mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M6.464 13.676a.502.502 0 0 1-.707 0L.797 8.721a.502.502 0 0 1 0-.707l1.405-1.407a.5.5 0 0 1 .707 0l2.849 2.848a.504.504 0 0 0 .707 0l6.629-6.626a.502.502 0 0 1 .707 0l1.404 1.404a.504.504 0 0 1 0 .707l-8.741 8.736z"/></svg>
-
-      <p>
-        A Bartik clone, built with
-        <a href="https://vuejs.org" class="text-blue-dark hover:text-blue no-underline border-b border-dotted hover:border-solid border-blue-dark">Vue.js</a>
-        and <a href="https://tailwindcss.com" class="text-blue-dark hover:text-blue no-underline border-b border-dotted hover:border-solid border-blue-dark">Tailwind CSS</a>.
-      </p>
+    <div :class="[ wrapperClasses, wrapperClasses ? 'pl-2 rounded-sm' : '' ]">
+    <div class="py-4 pl-3 pr-4 mb-4 border flex items-center rounded-sm" :class="classes">
+      <svg v-if="type == 'status'" class="fill-current w-4 h-4 text-green mr-3" xmlns="http://www.w3.org/2000/svg"><path d="M6.464 13.676a.502.502 0 0 1-.707 0L.797 8.721a.502.502 0 0 1 0-.707l1.405-1.407a.5.5 0 0 1 .707 0l2.849 2.848a.504.504 0 0 0 .707 0l6.629-6.626a.502.502 0 0 1 .707 0l1.404 1.404a.504.504 0 0 1 0 .707l-8.741 8.736z"/></svg>
+      <slot></slot>
     </div>
   </div>
 </template>
 ```
 
-I did need to make one change to the `tailwind.js` file - within `modules` I needed to enable the `borderStyle` module for hover and focus states in order for Tailwind to generate the additional classes.
+The value of the `type` prop is then used within some computed properties to determine the type specific classes to add (e.g. green for success, and red for warning), as well as whether or not to include the checkmark SVG image.
+
+```js
+<script>
+export default {
+  props: {
+    type: String,
+  },
+
+  computed: {
+    classes: function () {
+      return {
+        status: 'border-green-light text-green-dark bg-green-lighter',
+      }[this.type]
+    },
+
+    wrapperClasses: function () {
+      return {
+        status: 'bg-green',
+      }[this.type]
+    },
+  }
+}
+</script>
+```
+I did need to make one change to the `tailwind.js` file in order to change the border on links when they are hovered over - within `modules` I needed to enable the `borderStyle` module for hover and focus states in order for Tailwind to generate the additional classes.
 
 ```js
 modules: {
