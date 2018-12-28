@@ -8,7 +8,7 @@ tags:
 has_tweets: true
 ---
 {% block excerpt %}
-In [the original post](/blog/rebuilding-bartik-with-vuejs-tailwind-css) I detailed how I built a clone of Drupal’s Bartik theme with [Vue.js][vuejs] and [Tailwind CSS][tailwind]. This follow-up post details some updates that I’ve made to it since then.
+In [the original post](/blog/rebuilding-bartik-with-vuejs-tailwind-css) I detailed how I built [a clone of Drupal’s Bartik theme][netlify] with [Vue.js][vuejs] and [Tailwind CSS][tailwind]. This follow-up post details some updates that I’ve made to it since then.
 {% endblock %}
 
 {% block content %}
