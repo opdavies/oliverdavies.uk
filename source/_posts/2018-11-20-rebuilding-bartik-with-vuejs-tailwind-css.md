@@ -289,6 +289,10 @@ The whole task only took around two hours to complete, and although some of the 
 ### The Vue.js and Tailwind CSS version
 
 ![The Vue.js/Tailwind CSS version, hosted on Netlify](/images/blog/rebuilding-bartik-vue-tailwind/rebuilt-desktop.png)
+
+<div class="note" markdown="1">
+I’ve also made some additional changes since this version, which are described in [this follow-up post](/blog/rebuilding-bartik-with-vuejs-tailwind-css-part-2).
+</div>
 {% endblock %}
 
 [0]: https://www.drupal.org
