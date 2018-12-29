@@ -36,6 +36,7 @@ module.exports = {
 
   fonts: {
     'sans': [
+      'Barlow',
       '-apple-system',
       'BlinkMacSystemFont',
       'Segoe UI',
