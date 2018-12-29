@@ -1,12 +1,9 @@
-<div class="border-bottom border-b border-grey-light mb-6">
-    <div class="container mx-auto">
+<div class="border-bottom border-b border-grey-light mb-6 fixed pin-t w-full bg-white">
+    <div class="px-4 md:px-8 mx-auto">
         <div class="block py-5 v-cloak-block">
-            {{ site.title }}
+            <div class="font-semibold">{{ site.title }}</div>
         </div>
 
-        <navbar
-            site-name="{{ site.title }}"
-            page-url="{{ page.url }}"
-        ></navbar>
+        <navbar site-title="{{ site.title }}" page-url="{{ page.url }}"></navbar>
     </div>
 </div>

@@ -238,6 +238,7 @@ module.exports = {
     '10': '2.5rem',
     '12': '3rem',
     '16': '4rem',
+    '24': '6rem',
   },
 
   negativeMargin: {
