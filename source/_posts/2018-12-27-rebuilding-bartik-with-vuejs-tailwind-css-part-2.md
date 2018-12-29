@@ -1,5 +1,8 @@
 ---
 title: Rebuilding Bartik (Drupal’s Default Theme) with Vue.js and Tailwind CSS - part 2
+meta:
+    description: How I rebuilt Drupal’s Bartik theme using Vue.js and Tailwind CSS.
+    image: ~
 tags:
     - drupal
     - tailwind-css
