@@ -2,7 +2,9 @@
   <div>
     <div class="sm:flex">
       <div class="w-full sm:w-1/3 lg:w-1/4 flex items-center">
-        <div class="w-3/4 py-5">{{ siteName }}</div>
+        <div class="w-3/4 py-5">
+          <div class="font-semibold">{{ siteTitle }}</div>
+        </div>
 
         <div class="w-1/4 text-right sm:hidden">
           <button type="button" class="nav-toggle appearance-none" @click="hidden = !hidden" aria-label="Toggle main menu">
@@ -32,14 +34,8 @@
 <script>
 export default {
   props: {
-    siteName: {
-      type: String,
-      required: true,
-    },
-    pageUrl: {
-      type: String,
-      required: true,
-    },
+    siteTitle: String,
+    pageUrl: String,
   },
 
   methods: {
