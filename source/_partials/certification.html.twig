@@ -6,9 +6,9 @@
     </div>
 
     <div class="flex items-center">
-        <p class="mb-0">
+        <p class="mb-0 text-sm">
             {% if url %}
-                <a class="link" href="{{ url }}">{{ title }}</a>
+                <a href="{{ url }}">{{ title }}</a>
             {% else %}
                 {{ title }}
             {% endif %}
