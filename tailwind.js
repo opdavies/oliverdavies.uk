@@ -62,6 +62,7 @@ module.exports = {
       'serif',
     ],
     'mono': [
+      'Roboto Mono',
       'Menlo',
       'Monaco',
       'Consolas',
