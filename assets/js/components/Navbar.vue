@@ -3,7 +3,7 @@
     <div class="sm:flex">
       <div class="w-full sm:w-1/3 lg:w-1/4 flex items-center">
         <div class="w-3/4 py-5">
-          <div class="font-semibold">{{ siteTitle }}</div>
+          <div class="font-semibold text-sm">{{ siteTitle }}</div>
         </div>
 
         <div class="w-1/4 text-right sm:hidden">
@@ -20,7 +20,7 @@
       >
         <a
           v-for="item in items"
-          class="block text-black focus:outline-none p-4 border-l-3 sm:border-l-0 sm:border-b-3 border-transparent hover:border-grey-light sm:ml-4 sm:mr-0 sm:p-0 hover:no-underline"
+          class="block text-black focus:outline-none p-4 border-l-3 sm:border-l-0 sm:border-b-3 border-transparent hover:border-grey-light sm:ml-4 sm:mr-0 sm:p-0 hover:no-underline text-sm"
           :class="{'border-blue hover:border-blue': isActive(item)}"
           :href="item.href"
         >
