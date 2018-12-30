@@ -1,22 +1,27 @@
-.markdown
+.markdown,
+.markup
+  @apply leading-normal
+
   h2
     @apply mt-8 mb-3 text-black
 
   h2, h3
     @apply text-black
 
+  code
+    @apply bg-grey-lighter font-mono text-xs
+
   p,
   li
     code
-      @apply bg-grey-lighter inline-block font-mono text-xs px-1 py-px border border-grey-light
+      @apply inline-block px-1 py-1 border border-grey-light font-semibold
 
   p:last-child
     @apply mb-0
 
   pre code,
   .hljs
-    @apply bg-grey-lighter block border-grey-dark border-l-4 font-mono
-    @apply leading-loose overflow-x-scroll p-6 rounded text-xs
+    @apply block leading-loose overflow-x-scroll p-6
 
   figure
     @apply block mb-8
