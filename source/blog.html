@@ -1,27 +1,28 @@
 ---
 layout: default
 title: Blog
-generator: pagination
-pagination:
-    max_per_page: 10
 use: [posts]
 ---
 {% block content %}
     <ul class="list-reset">
-        {% for post in page.pagination.items %}
+        {% for post in data.posts %}
             <li class="mb-12">
-                <h2 class="text-2xl mb-2">{{ post.title }}</h2>
+                <h2 class="text-2xl mb-1">{{ post.title }}</h2>
+                <p class="text-sm text-grey-dark mb-4">Posted on {{ post.date|date('jS F Y') }}</p>
 
                 {% include 'post/intro-image' with { page: post } %}
 
-                <div class="markdown mb-4">
-                    {% include 'pages/blog/teaser' %}
+                <div class="markup">
+                    <p>{{ post.excerpt }}</p>
+
+                    <a href="{{ post.url }}" class="button">
+                        Read more
+                        <span class="visuallyhidden">about {{ post.title }}</span>
+                    </a>
                 </div>
             </li>
         {% endfor %}
     </ul>
-
-    {% include 'post-pager' %}
 {% endblock %}
 
 {% block scripts %}
