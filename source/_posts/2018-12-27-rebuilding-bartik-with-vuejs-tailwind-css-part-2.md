@@ -8,11 +8,8 @@ tags:
     - vuejs
 has_tweets: true
 ---
-{% block excerpt %}
 In [the original post](/blog/rebuilding-bartik-with-vuejs-tailwind-css) I detailed how I built [a clone of Drupal’s Bartik theme][netlify] with [Vue.js][vuejs] and [Tailwind CSS][tailwind]. This follow-up post details some updates that I’ve made to it since then.
-{% endblock %}
 
-{% block content %}
 ## Customising Tailwind’s colours
 
 During the first version of the page, my thoughts were to not edit the Tailwind configuration, however I changed my mind on this whilst working on the subsequent updates and did make some changes and customisations to the `tailwind.js` file.
@@ -240,7 +237,6 @@ new Vue({
 ![The Bartik clone with the Drupal Message component visible](/images/blog/rebuilding-bartik-vue-tailwind-part-2/drupal-message.png){.border}
 
 __The updated version is [live on Netlify][netlify], and the [latest source code is available on GitHub][github].__
-{% endblock %}
 
 [github]: https://github.com/opdavies/rebuilding-bartik
 [netlify]: https://rebuilding-bartik.netlify.com

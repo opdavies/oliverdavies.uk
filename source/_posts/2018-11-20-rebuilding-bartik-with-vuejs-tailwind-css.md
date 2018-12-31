@@ -8,11 +8,8 @@ tags:
     - vuejs
 has_tweets: true
 ---
-{% block excerpt %}
 Earlier this week, I built a clone of [Drupal][0]’s default theme, Bartik, with [Vue.js][1] and [Tailwind CSS][2]. You can [view the code on GitHub][3] and the [site itself on Netlify][4].
-{% endblock %}
 
-{% block content %}
 {% include 'tweet' with {
     content: '<p lang="en" dir="ltr">I built a clone of Bartik, <a href="https://twitter.com/hashtag/Drupal?src=hash&amp;ref_src=twsrc%5Etfw">#Drupal</a>&#39;s default theme, with <a href="https://twitter.com/vuejs?ref_src=twsrc%5Etfw">@vuejs</a> and <a href="https://twitter.com/tailwindcss?ref_src=twsrc%5Etfw">@tailwindcss</a>. See the result at <a href="https://t.co/nPsTt2cawL">https://t.co/nPsTt2cawL</a>, and the code at <a href="https://t.co/Dn8eysV4gf">https://t.co/Dn8eysV4gf</a>.<br><br>Blog post coming soon... <a href="https://t.co/7BgqjmkCX0">pic.twitter.com/7BgqjmkCX0</a></p>&mdash; Oliver Davies (@opdavies) <a href="https://twitter.com/opdavies/status/1064906717392191488?ref_src=twsrc%5Etfw">November 20, 2018</a>',
     data_cards: true,
@@ -294,7 +291,6 @@ The whole task only took around two hours to complete, and although some of the 
 <div class="note" markdown="1">
 I’ve also made some additional changes since this version, which are described in [this follow-up post](/blog/rebuilding-bartik-with-vuejs-tailwind-css-part-2).
 </div>
-{% endblock %}
 
 [0]: https://www.drupal.org
 [1]: https://vuejs.org
