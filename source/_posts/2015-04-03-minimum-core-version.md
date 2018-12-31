@@ -11,13 +11,10 @@ meta:
     excerpt: 'How to define a minimum Drupal core version for your module or theme.'
     type: article
 ---
-{% block excerpt %}
 This week, my first code patch was [committed to Drupal core](https://www.drupal.org/node/2394517#comment-9773143). The patch adds the `user_has_role()` function to the user module, to simplify the way to check whether a user in Drupal has been assigned a specific role. This is something that I normally write a custom function for each project, but it's now available in Drupal core as of [7.36](https://www.drupal.org/drupal-7.36-release-notes).
 
 But what if someone is using a core version less than 7.36 and tries using the function? The site would return an error because that function wouldn't exist.
-{% endblock %}
 
-{% block content %}
 If you're building a new Drupal site, then I'd assume that you're using a latest version of core, or you have the opportunity to update it when needed. But what if you're writing a contrib module? How can you be sure that the correct minimum version of core?
 
 ## Setting Dependencies
@@ -71,4 +68,3 @@ Because we need to check for Drupal's core version, we're using the system modul
 ## External Links
 
 * [Writing module .info files (Drupal 7.x)](https://www.drupal.org/node/542202#dependencies)
-{% endblock %}

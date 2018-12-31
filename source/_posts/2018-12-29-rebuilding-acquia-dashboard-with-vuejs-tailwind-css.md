@@ -8,9 +8,6 @@ tags:
     - vuejs
 draft: true
 ---
-{% block excerpt %}{% endblock %}
-
-{% block content %}
 - https://rebuilding-acquia.netlify.com
 - https://github.com/opdavies/rebuilding-acquia
 
@@ -34,4 +31,3 @@ draft: true
   <img src="/images/blog/rebuilding-acquia-vue-tailwind/3-environment.png" alt="" class="border border-grey-light p-2">
   <figcaption>The rebuilt page for an environment within an application.</figcaption>
 </figure>
-{% endblock %}
