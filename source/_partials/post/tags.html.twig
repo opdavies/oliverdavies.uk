@@ -4,7 +4,7 @@
     <ul class="list-reset flex flex-wrap">
         {% for tag in page.tags|sort %}
             <li>
-                <a href="/blog/tags/{{ tag }}" class="text-sm py-1 px-2 mr-1 mb-1 bg-grey-lighter text-grey-darker leading-none no-underline hover:underline focus:bg-grey-darker focus:text-white">
+                <a href="/blog/tags/{{ tag }}" class="text-xs py-1 px-2 mr-1 mb-1 bg-grey-lighter text-grey-darker leading-none no-underline hover:underline focus:bg-grey-darker focus:text-white">
                     {{- tag -}}
                 </a>
             </li>
