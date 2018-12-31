@@ -1,20 +1,18 @@
 ---
 title: Tweets from DrupalCamp London
+excerpt: I wasn’t able to make it to DrupalCamp London, but here are some of the tweets that I saw.
 tags:
     - drupal
     - drupalcamp
     - drupalcamp-london
 has_tweets: true
 ---
-{% block excerpt %}
 In the end, I wasn’t able to make it to DrupalCamp London because of the heavy snow that’s hit the UK over the last few days. I did though keep a close eye on Twitter and still had good conversations with some of the attendees, so it did feel that in some ways I was still part of the conference.
 
 Thanks to [@ChandeepKhosa](https://twitter.com/ChandeepKhosa), [@OrangePunchUK](https://twitter.com/OrangePunchUK), [@hussainweb](https://twitter.com/hussainweb), [@littlepixiez](https://twitter.com/littlepixiez), [@cferthorney](https://twitter.com/cferthorney) and others for taking the time to tweet whilst enjoying the event.
 
 Here are some of my favourites that I saw, and no snow next year, please!
-{% endblock %}
 
-{% block content %}
 <div class="flex flex-wrap -mx-4">
     <div class="w-full md:w-1/2 lg:w-1/3 px-4 lg:pb-4"><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">View from outside <a href="https://twitter.com/hashtag/drupal?src=hash&amp;ref_src=twsrc%5Etfw">#drupal</a> <a href="https://t.co/b8wGe40Gem">pic.twitter.com/b8wGe40Gem</a></p>&mdash; DrupalCamp London (@DrupalCampLDN) <a href="https://twitter.com/DrupalCampLDN/status/969233707210104832?ref_src=twsrc%5Etfw">March 1, 2018</a></blockquote></div>
     <div class="w-full md:w-1/2 lg:w-1/3 px-4 lg:pb-4"><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This weekend at <a href="https://twitter.com/DrupalCampLDN?ref_src=twsrc%5Etfw">@DrupalCampLDN</a> will be 5 years since my 1st <a href="https://twitter.com/hashtag/Drupal?src=hash&amp;ref_src=twsrc%5Etfw">#Drupal</a> conference. It was life-changing, leading to travel across Europe learning, being inspired &amp; speaking at 25 others. Thanks everyone who helped shape my journey, see you soon! <a href="https://twitter.com/hashtag/DCLondon?src=hash&amp;ref_src=twsrc%5Etfw">#DCLondon</a> <a href="https://t.co/BeulE0XqET">pic.twitter.com/BeulE0XqET</a></p>&mdash; Chandeep Khosa (@ChandeepKhosa) <a href="https://twitter.com/ChandeepKhosa/status/969484539914604544?ref_src=twsrc%5Etfw">March 2, 2018</a></blockquote></div>
@@ -59,4 +57,3 @@ Here are some of my favourites that I saw, and no snow next year, please!
     <div class="w-full md:w-1/2 lg:w-1/3 px-4 lg:mb-4"><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Great <a href="https://twitter.com/hashtag/DCLondon?src=hash&amp;ref_src=twsrc%5Etfw">#DCLondon</a> event again, so rewarding to see everyone there. Until next year! <a href="https://twitter.com/hashtag/Drupal?src=hash&amp;ref_src=twsrc%5Etfw">#Drupal</a> @… <a href="https://t.co/DXCEaVzi9j">https://t.co/DXCEaVzi9j</a></p>&mdash; Paul (@Paul_Rowell) <a href="https://twitter.com/Paul_Rowell/status/970327065080758277?ref_src=twsrc%5Etfw">March 4, 2018</a></blockquote></div>
     <div class="w-full md:w-1/2 lg:w-1/3 px-4 lg:mb-4"><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">A huge huge huge thank you to all our sponsors, speakers, volunteers, attendees and everyone else involved in that Camp. It was a fantastic weekend! <br>Look out for the post Camp Survey and more! <a href="https://twitter.com/hashtag/DCLondon?src=hash&amp;ref_src=twsrc%5Etfw">#DCLondon</a></p>&mdash; DrupalCamp London (@DrupalCampLDN) <a href="https://twitter.com/DrupalCampLDN/status/970319584904523777?ref_src=twsrc%5Etfw">March 4, 2018</a></blockquote></div>
 </div>
-{% endblock %}

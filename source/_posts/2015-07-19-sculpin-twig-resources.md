@@ -1,19 +1,14 @@
 ---
 title: Sculpin and Twig Resources
-meta:
-    description: A compiled list of resources relating to Sculpin and Twig.
+excerpt: A list of resources that I compiled whilst preparing for my Sculpin and Twig talk at DrupalCamp North.
 tags:
     - sculpin
     - drupalcamp
     - drupalcamp-north
     - twig
-use: [posts]
 ---
-{% block excerpt %}
 Here’s a list of resources that I compiled whilst preparing for my [Sculpin and Twig talk](http://drupalcampnorth.org/session/test-drive-twig-sculpin) at [DrupalCamp North](http://drupalcampnorth.org).
-{% endblock %}
 
-{% block content %}
 ## General Information
 
 * <https://sculpin.io>
@@ -47,4 +42,3 @@ Here’s a list of resources that I compiled whilst preparing for my [Sculpin an
 * <http://twig.sensiolabs.org/>
 * <http://twig.sensiolabs.org/doc/templates.html> - variables, filters, functions, template inheritance, expressions etc.
 * Go to http://twig.sensiolabs.org/{foo} to search for a tag, filter, test or function.
-{% endblock %}

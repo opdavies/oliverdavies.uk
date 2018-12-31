@@ -1,16 +1,14 @@
 ---
 title: Yay, the Mediacurrent Contrib Half Hour is Back!
+excerpt: Mediacurrent’s "contrib half hour sessions" are back.
 tags:
     - contribution
     - drupal
     - open-source
 has_tweets: true
 ---
-{% block excerpt %}
 Back in November, [Mediacurrent introduced][1] the contrib half hour - a weekly online meeting to provide guidance and assistance on contributing to Drupal and Drupal projects. A range of topics were covered in the first few sessions, including finding and testing bug fixes, Composer, Drush, and how to re-roll patches.
-{% endblock %}
 
-{% block content %}
 From Damien's [introductory blog post][2]:
 
 > Not sure what this whole "patch" thing is? Have a core change that you can't quite finish? Running into a problem with a contrib module, or a theme, or a 3rd party library, and not sure how to fix it? New to maintaining a module and unsure of what to do next? Wondering how to get your module through the security opt-in process? Is your project's issue queue getting you down? Join us every Thursday at noon EST for the Mediacurrent Contrib Half Hour where we'll be available to help solve contrib challenges.
@@ -19,9 +17,9 @@ From Damien's [introductory blog post][2]:
 
 There is also an [updates blog post][3] that continues to show the latest information, and the video recordings are [uploaded to YouTube][0] after the session. Here is the first one from November:
 
-<div class="talk-video mb-4">
+<!-- <div class="talk-video mb-4">
 <iframe width="678" height="408" src="//www.youtube.com/embed/8xHE5y1rA1g" frameborder="0" allowfullscreen></iframe>
-</div>
+</div> -->
 
 I enjoyed watching the first few videos, as I’m always interested in contribution to Drupal and open-source and how to encourage it, but then no new videos were uploaded for a while and I hoped that it hadn’t faded away.
 
@@ -34,7 +32,6 @@ I’m glad to see today that it’s back and that all of the previous videos hav
 I do enjoy watching these, and I like both the presentation and Q&A format that they alternate between. I’ll look forward to catching up over the next few days, and to hopefully seeing them continue to be uploaded after future meetings.
 
 Thanks Damien and Mediacurrent!
-{% endblock %}
 
 [0]: https://www.youtube.com/playlist?list=PLu-MxhbnjI9rHroPvZO5LEUhr58Yl0j_F
 [1]: https://www.mediacurrent.com/blog/introducing-mediacurrent-contrib-half-hour

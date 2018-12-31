@@ -1,18 +1,15 @@
 ---
 title: Announcing the Drupal VM Generator
+excerpt: For the past few weeks, I’ve been working on a personal side project based on Drupal VM - the Drupal VM Generator.
 tags:
     - drupal
     - drupal-planet
     - drupal-vm
     - drupal-vm-generator
     - symfony
-use: [posts]
 ---
-{% block excerpt %}
-For the past few weeks I’ve been working on a personal side project, based on Drupal VM. It’s called the [Drupal VM Generator][1], and over the weekend I’ve added the final features and fixed the remaining issues, and tagged the 1.0.0 release.
-{% endblock %}
+For the past few weeks, I’ve been working on a personal side project based on Drupal VM. It’s called the [Drupal VM Generator][1], and over the weekend I’ve added the final features and fixed the remaining issues, and tagged the 1.0.0 release.
 
-{% block content %}
 ![](/images/blog/drupalvm-generate-repo.png)
 
 ## What is Drupal VM?
@@ -56,7 +53,6 @@ Please log any bugs or feature requests in the [GitHub issue tracker][11], and I
 If you’re interested in contributing, please feel free to fork the repository and start doing so, or contact me with any questions.
 
 __Update 17/02/16:__ The autoloading issue is now fixed if you require the package via Composer, and this has been tagged as the [1.0.1 release][12]
-{% endblock %}
 
 [1]: https://github.com/opdavies/drupal-vm-generator
 [2]: http://www.drupalvm.com

@@ -1,11 +1,11 @@
 ---
 title: How to Use Environment Variables for your Drupal Settings with Docksal
+excerpt: How to leverage environment variables with Drupal and Docksal.
 tags:
     - drupal
     - drupal-planet
     - docksal
 ---
-{% block excerpt %}
 Within the [Docksal documentation for Drupal settings][0], the example database settings include hard-coded credentials to connect to the Drupal database. For example, within a `settings.php` file, you could add this:
 
 ```language-php
@@ -25,9 +25,7 @@ Also if one of these values were to change, then Drupal wouldn't be aware of tha
 It also means that the file can’t simply be re-used on another project as it contains project-specific credentials.
 
 We can improve this by using the environment variables within the settings file.
-{% endblock %}
 
-{% block content %}
 The relevant environment variables are `MYSQL_DATABASE` for the database name, and `MYSQL_USER` and `MYSQL_PASSWORD` for the MySQL username and password. These can be set in `.docksal/docksal.env`, and will need to be present for this to work.
 
 For example:
@@ -70,6 +68,5 @@ services:
 ```
 
 After changing this file, run `fin start` to rebuild the project containers and try to load the site again.
-{% endblock %}
 
 [0]: https://docksal.readthedocs.io/en/master/advanced/drupal-settings

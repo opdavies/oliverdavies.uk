@@ -1,5 +1,6 @@
 ---
 title: How to split a new Drupal contrib project from within another repository
+excerpt: How to use Git to split a directory from within an existing repository into it’s own.
 tags:
     - drupal
     - drupal-7
@@ -8,13 +9,10 @@ tags:
     - git
     - open-source
 ---
-{% block excerpt %}
 Yay! You’ve written a new Drupal module, theme or installation profile as part of your site, and now you’ve decided to open source it and upload it to Drupal.org as a new contrib project. But how do you split it from the main site repository into it’s own?
 
 Well, there are a couple of options.
-{% endblock %}
 
-{% block content %}
 ## Does it need to be part of the site repository?
 
 An interesting thing to consider is, does it _need_ to be a part of the site repository in the first place?
@@ -114,7 +112,6 @@ Here is a screenshot of example module that I’ve split and pushed to GitLab. N
 ![Screenshot of a split project repo on GitLab](/images/blog/subtree-split-drupal-module.png)
 
 Also, as this is standard Git functionality, you can follow the same process to extract PHP libraries, Symfony bundles, WordPress plugins or anything else.
-{% endblock %}
 
 [0]: https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt
 [1]: https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt#L101-L108

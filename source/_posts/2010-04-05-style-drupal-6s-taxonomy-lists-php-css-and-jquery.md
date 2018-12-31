@@ -1,21 +1,18 @@
 ---
 title: Style Drupal 6's Taxonomy Lists with PHP, CSS and jQuery
+excerpt: Getting started with Drupal theming by styling Drupal’s taxonomy lists.
 tags:
   - drupal-6
   - drupal-planet
   - drupal-theming
   - taxonomy
-use: [posts]
 ---
-{% block excerpt %}
-Whilst developing this, and other Drupal websites for clients, I decided that I wanted to categorise content using the taxonomy system. However, I wasn't happy with the way that Drupal displayed the terms lists by default, and I started comparing this to other websites that I look at. 
+Whilst developing this, and other Drupal websites for clients, I decided that I wanted to categorise content using the taxonomy system. However, I wasn't happy with the way that Drupal displayed the terms lists by default, and I started comparing this to other websites that I look at.
 
 To start with, I wanted to have something that described what the list was displaying - like in the second example above. I wanted to have the words 'Posted in' displayed before the list of terms. To do this, I had to edit the node template file that exists within my theme folder (sites/all/themes). As I only wanted this change to affect my Blog posts, the file that I needed to change is **node-blog.tpl.php**
 
 I scrolled down until I found the piece of code that displayed the terms list:
-{% endblock %}
 
-{% block content %}
 ```language-php
 <?php if ($terms): ?>
   <div class="terms terms-inline">
@@ -60,4 +57,3 @@ This code finds the last item in the list, uses **.prev** to select the one befo
   content: " and";
 }
 ```
-{% endblock %}

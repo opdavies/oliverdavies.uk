@@ -1,5 +1,6 @@
 ---
 title: Examples of using Laravel Collections in Drupal
+excerpt: Some examples of using Laravel’s Illuminate Collections within Drupal projects.
 tags:
     - drupal
     - drupal-7
@@ -10,15 +11,12 @@ tags:
     - php
 has_tweets: true
 ---
-{% block excerpt %}
 Since starting to work with Laravel as well as Drupal and Symfony, watching Adam Wathan’s [Refactoring to Collections][0] course as well as [lessons on Laracasts][6], I’ve become a fan of [Laravel’s Illuminate Collections][1] and the object-orientated pipeline approach for interacting with PHP arrays.
 
 In fact I’ve given a talk on [using Collections outside Laravel][2] and have written a [Collection class module][3] for Drupal 7.
 
 I’ve also tweeted several examples of code that I’ve written within Drupal that use Collections, and I thought it would be good to collate them all here for reference.
-{% endblock %}
 
-{% block content %}
 Thanks again to [Tighten][4] for releasing and maintaining the [tightenco/collect library][5] that makes it possible to pull in Collections via Composer.
 
 <div class="lg:flex lg:flex-wrap lg:-mx-4">
@@ -52,7 +50,6 @@ Thanks again to [Tighten][4] for releasing and maintaining the [tightenco/collec
         content: '<p lang="en" dir="ltr">Some more <a href="https://twitter.com/hashtag/Drupal?src=hash&amp;ref_src=twsrc%5Etfw">#Drupal</a> 8 fun with Laravel Collections. Loading the tags for a post and generating a formatted string of tweetable hashtags. <a href="https://t.co/GbyiRPzIRo">pic.twitter.com/GbyiRPzIRo</a></p>&mdash; Oliver Davies (@opdavies) <a href="https://twitter.com/opdavies/status/1032544228029673472?ref_src=twsrc%5Etfw">August 23, 2018</a>',
     } %}
 </div>
-{% endblock %}
 
 [0]: https://adamwathan.me/refactoring-to-collections
 [1]: https://laravel.com/docs/collections

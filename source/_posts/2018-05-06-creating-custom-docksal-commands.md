@@ -1,6 +1,6 @@
 ---
 title: Creating a Custom PHPUnit Command for Docksal
-summary: This week I’ve started writing some custom commands for my Drupal projects that use Docksal, including one to easily run PHPUnit tests in Drupal 8. This is the process of how I created this command.
+excerpt: How to write custom commands for Docksal, including one to easily run PHPUnit tests in Drupal 8.
 tags:
     - docksal
     - drupal
@@ -9,6 +9,8 @@ tags:
     - phpunit
     - testing
 ---
+This week I’ve started writing some custom commands for my Drupal projects that use Docksal, including one to easily run PHPUnit tests in Drupal 8. This is the process of how I created this command.
+
 ## What is Docksal?
 
 Docksal is a local Docker-based development environment for Drupal projects and other frameworks and CMSes. It is our standard tool for local environments for projects at [Microserve][0].

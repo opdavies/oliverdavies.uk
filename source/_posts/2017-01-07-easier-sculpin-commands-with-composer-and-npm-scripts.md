@@ -1,13 +1,10 @@
 ---
 title: Easier Sculpin Commands with Composer and NPM Scripts
+excerpt: In this video, I show you how I've simplied my Sculpin and Gulp workflow using custom Composer and NPM scripts.
 tags: [composer, gulp, sculpin]
-use: [posts]
 ---
-{% block excerpt %}
 In this video, I show you how I've simplied my Sculpin and Gulp workflow using custom Composer and NPM scripts.
-{% endblock %}
 
-{% block content %}
 My website includes several various command line tools - e.g. [Sculpin][4], [Gulp][5] and [Behat][6] - each needing different arguments and options, depending on the command being run. For example, for Sculpin, I normally include several additional options when viewing the site locally - the full command that I use is `./vendor/bin/sculpin generate --watch --server --clean --no-interaction`. Typing this repeatedly is time consuming and could be easily mis-typed, forgotten or confused with other commands.
 
 In this video, I show you how I've simplied my Sculpin and Gulp workflow using custom Composer and NPM scripts.
@@ -51,7 +48,6 @@ You can also take a look at the full [composer.json][1] and [package.json][2] fi
 - [Composer scripts][7]
 - [oliverdavies.uk composer.json][1]
 - [oliverdavies.uk package.json][2]
-{% endblock %}
 
 [0]: https://github.com/paxtonhare/demo-magic
 [1]: https://github.com/opdavies/oliverdavies.uk/blob/master/composer.json

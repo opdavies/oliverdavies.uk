@@ -1,5 +1,6 @@
 ---
 title: Create a Better Photo Gallery in Drupal - Part 1
+excerpt: How I started converting and migrating a Coppermine photo gallery into Drupal.
 tags:
   - drupal-planet
   - drupal-6
@@ -10,15 +11,11 @@ tags:
   - cck
   - views-attach
   - drupal
-use: [posts]
 ---
-{% block excerpt %}
 Recently, I converted a client's static HTML website, along with their Coppermine Photo Gallery, into a Drupal-powered website.
 
 Over the next few posts, I'll be replicating the process that I used during the conversion, and how I added some additional features to my Drupal gallery.
-{% endblock %}
 
-{% block content %}
 To begin with, I created my photo gallery as described by [Jeff Eaton](http://www.lullabot.com/about/team/jeff-eaton) in [this screencast](http://www.lullabot.com/articles/photo-galleries-views-attach), downloaded all my client's previous photos via FTP,  and quickly added them into the new gallery using the [Imagefield Import](http://drupal.org/project/imagefield_import) module (which I mentioned [previously](/blog/quickly-import-multiples-images-using-imagefieldimport-module/)).
 
 When I compare this to the previous gallery, I can see several  differences which I'd like to include. The first of which is the number  of photos in each gallery, and the date that the most recent photo was added.
@@ -112,8 +109,8 @@ You will notice that the returned date value for the latest photo  added is disp
 
 ```language-php
 <?php
-if ($selected_gallery_total != 0) { 
-  $output = '<i>There are currently ' . $selected_gallery_total . ' photos in this gallery.'; 
+if ($selected_gallery_total != 0) {
+  $output = '<i>There are currently ' . $selected_gallery_total . ' photos in this gallery.';
   $output .= 'Last one added on ' . date("l, jS F, Y", $latest_photo) . '.</i>';
   print $output;
 }
@@ -123,4 +120,3 @@ if ($selected_gallery_total != 0) {
 The values that I've entered are from [this page](http://php.net/manual/en/function.date.php) on PHP.net, and can be changed according on how you want the date to be displayed.
 
 As I've added all of these photos today, then the correct dates are  being displayed. However, on the client's original website, the majority  of these photos were pubished several months or years ago, and I'd like  the new website to still reflect the original created dates. As opposed  to modifying each individual photograph, I'll be doing this in bulk in  my next post.
-{% endblock %}

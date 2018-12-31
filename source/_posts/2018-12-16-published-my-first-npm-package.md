@@ -1,15 +1,13 @@
 ---
 title: Published my first NPM package
+excerpt: Yesterday I published my first module onto NPM, and it’s a plugin for Tailwind CSS to be used alongside Vue.js.
 tags:
     - npm
     - tailwind-css
     - vuejs
 ---
-{% block excerpt %}
 Yesterday I published my first module onto NPM, and it’s a plugin for [Tailwind CSS][tailwind] to be used alongside [Vue.js](https://vuejs.org).
-{% endblock %}
 
-{% block content %}
 The plugin adds classes for showing and hiding elements in different display variations in combination with Vue's [v-cloak directive](https://vuejs.org/v2/api/#v-cloak), which I originally saw in [the first 'Building Kitetail' video](https://youtu.be/XUXpcbYQ_iQ?t=2360). These are useful for when you want an element to be visible whilst Vue is compiling, and hidden afterwards.
 
 Here is the compiled CSS that is added by the plugin:
@@ -88,7 +86,6 @@ Within my `navbar.html.twig` partial, I have a placeholder div that also contain
 I was originally surprised that these classes weren’t included as part of Tailwind or as part of an existing plugin, but as I’ve already used these styles on several projects that include Vue.js with Symfony or Sculpin, it made sense to extract it into a plugin and make it available as a npm package which I can easily add to any project - as well as making it easier to maintain if I need to add additional variations at a later point.
 
 **You can view [the package on npmjs.com][npm], and [the code repository on GitHub][github].**
-{% endblock %}
 
 [github]: https://github.com/opdavies/tailwindcss-vuejs
 [npm]: https://www.npmjs.com/package/tailwindcss-vuejs

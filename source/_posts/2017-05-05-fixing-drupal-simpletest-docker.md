@@ -1,22 +1,17 @@
 ---
 title: Fixing Drupal SimpleTest issues inside Docker Containers
+excerpt: How I managed to get my Drupal SimpleTest tests to run and pass within Docker containers.
 tags:
     - docker
     - drupal
     - drupal-planet
     - simpletest
     - testing
-meta:
-    og:
-        description: How I managed to get my Drupal SimpleTest tests to run and pass within Docker containers.
 ---
-{% block excerpt %}
 I’ve been a Drupal VM user for a long time, but lately I’ve been using a combination Drupal VM and Docker for my local development environment. There were a couple of issues preventing me from completely switching to Docker - one of which being that when I tried running of my Simpletest tests, a lot of them would fail where they would pass when run within Drupal VM.
 
 Here’s an excerpt from my `docker-compose.yml` file:
-{% endblock %}
 
-{% block content %}
 **TL;DR** You need to include the name of your web server container as the `--url` option to `run-scripts.php`.
 
 I’ve been a [Drupal VM][1] user for a long time, but lately I’ve been using a combination Drupal VM and [Docker][0] for my local development environment. There were a couple of issues preventing me from completely switching to Docker - one of which being that when I tried running of my Simpletest tests, a lot of them would fail where they would pass when run within Drupal VM.
@@ -101,7 +96,6 @@ Test run duration: 2 min 31 sec
 **Note:** In this example I have separate `nginx` and `php` containers, but I've tried and had the same issue when running Nginx and PHP-FPM in the same container - e.g. called `app` - and still needed to add `--url http://app` in order for the tests to run successfully.
 
 I don’t know if this issue is macOS specfic (I know that [Drupal CI][2] is based on Docker, and I don’t know if it’s an issue) but I’m going to test also on my Ubuntu Desktop environment and investigate further and also compare the test run times for Docker in macOS, Docker in Ubuntu and within Drupal VM. I’m also going to test this with PHPUnit tests with Drupal 8.
-{% endblock %}
 
 [0]: https://www.docker.com
 [1]: https://www.drupalvm.com

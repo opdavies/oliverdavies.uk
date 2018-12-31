@@ -1,18 +1,15 @@
 ---
 title: Forward one domain to another using mod_rewrite and .htaccess
+excerpt: How to use the .htaccess file to forward to a different domain.
 tags:
   - .htaccess
   - code
   - drupal
   - apache
   - mod_rewrite
-use: [posts]
 ---
-{% block excerpt %}
 How to use the .htaccess file to forward to a different domain.
-{% endblock %}
 
-{% block content %}
 Within the mod_rewrite section of your .htaccess file, add the following lines:
 
 ```language-apacheconf
@@ -31,4 +28,3 @@ RewriteRule (.*) http://yoursite.com/$1 [R=301,L]
 ```
 
 If any of the RewriteCond conditions apply, then the RewriteRule is executed.
-{% endblock %}

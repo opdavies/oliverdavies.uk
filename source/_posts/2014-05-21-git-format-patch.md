@@ -1,17 +1,14 @@
 ---
 title: git format-patch is your Friend
+excerpt: An explanation of the "git format-patch" command, and how it could be used in Drupal's Git workflow.
 tags:
   - patches
   - drupal
   - drupal-planet
   - git
-use: [posts]
 ---
-{% block excerpt %}
 An explanation of the "git format-patch" command, and how it could be used in Drupal's Git workflow.
-{% endblock %}
 
-{% block content %}
 ## The Problem
 
 As an active contributor to the [Drupal](http://drupal.org) project, I spend a lot of time working with other peoples’ modules and themes, and occassionally have to fix a bug or add some new functionality.
@@ -49,7 +46,6 @@ From 80c8fa14de7f4a83c2e70367aab0aedcadf4f3b0 Mon Sep 17 00:00:00 2001
 From: Oliver Davies &lt;oliver@oliverdavies.co.uk&gt;
 Subject: [PATCH] Exclude comment entities when checking if this is the page,
  otherwise comment_fragment.module will break metatag
-
 ---
 ```
 
@@ -97,4 +93,3 @@ Applying: #2272799 Replaced URL
 Each line is the commit message associated with that patch.
 
 Assuming that there are no errors, you can go ahead and push your updated code into your remote repository.
-{% endblock %}

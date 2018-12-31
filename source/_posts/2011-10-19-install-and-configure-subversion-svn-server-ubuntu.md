@@ -1,18 +1,15 @@
 ---
 title: How to Install and Configure Subversion (SVN) Server on Ubuntu
+excerpt: How to install and configure your own SVN server.
 tags:
   - svn
   - ubuntu
   - version-control
-use: [posts]
 ---
-{% block excerpt %}
 Recently, I needed to set up a Subversion (SVN) server on a Ubuntu Linux server. This post is going to outline the steps taken, and the commands used, to install and configure the service.
 
 Note: As I was using Ubuntu, I was using the 'apt-get' command to download and install the software packages. If you're using a different distribution of Linux, then this command may be different. I'm also assuming that Apache is already installed.
-{% endblock %}
 
-{% block content %}
 Firstly, I'm going to ensure that all of my installed packages are up to date, and install any available updates.
 
 ```language-bash
@@ -144,4 +141,3 @@ $ svn add *
 ```
 
 With all the required files added, they can be committed using `svn commit -m 'commit message'` command, and the server can be updated using the svn up command.
-{% endblock %}

@@ -1,21 +1,14 @@
 ---
 title: Looking forward to DrupalCamp London
+excerpt: This weekend is DrupalCamp London 2018. I’ll be there along with a number of my Microserve colleagues.
 tags:
     - drupal
     - drupalcamp
     - drupalcamp-london
     - speaking
-meta:
-    og:
-        title: Looking forward to DrupalCamp London
-        description: ''
-        type: website
 ---
-{% block excerpt %}
 This weekend is [DrupalCamp London 2018][1]. I’ll be there along with a number of my [Microserve][2] colleagues.
-{% endblock %}
 
-{% block content %}
 I look forward to DrupalCamp London every year, partly because it was the first DrupalCamp that I attended back in 2014. It was also the first DrupalCamp that I [gave a talk][3] at, when I presented a session about Git Flow having given only one user group talk before.
 
 I’ve presented sessions at every DrupalCamp London since (including two last year), and I’m lucky enough to be [speaking again this year][4] due to one of the originally announced speakers no longer being able to make it to the event.
@@ -41,7 +34,6 @@ I’m also looking forward to catching up with former colleagues, spending some 
 For nostalgia, [here’s the blog post][0] that I wrote before I attended my first DrupalCamp London.
 
 See everyone this weekend!
-{% endblock %}
 
 [0]: {{site.url}}/blog/2014/02/09/drupalcamp-london-2014
 [1]: https://drupalcamp.london

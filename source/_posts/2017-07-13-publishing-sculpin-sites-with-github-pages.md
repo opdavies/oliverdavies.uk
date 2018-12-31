@@ -1,24 +1,20 @@
 ---
 title: Publishing Sculpin Sites with GitHub Pages
+excerpt: How I moved my website to GitHub pages.
 tags: [sculpin, php, github]
 meta:
-    description: 'How I moved my Sculpin site to GitHub Pages.'
-    og:
-        image:
-            url: '/images/blog/jackson-octocat.png'
-            type: 'image/png'
-            height: 200
-            width: 451
+    image:
+        url: '/images/blog/jackson-octocat.png'
+        type: 'image/png'
+        height: 200
+        width: 451
 ---
-{% block excerpt %}
 <p class="text-center" markdown="1">![](/images/blog/jackson-octocat.png)</p>
 
 Earlier this week I moved this site from my personal Linode server to [GitHub Pages][0].
 
 This made sense as I already kept the source code in [on GitHub][1], the issue was that GitHub Pages doesn’t know how to dynamically parse and generate a Sculpin site like it does with some other static site generators. It can though parse and serve HTML files, which is what Sculpin generates. It’s just a case of how those files are added to GitHub.
-{% endblock %}
 
-{% block content %}
 I’ve seen different implementations of this, mostly where the Sculpin code is on one branch, and the generated HTML code is on a separate `gh-pages` or `master` branch (depending on your repository name). I’m not fond of this approach as it means automatically checking out and merging branches which can get messy, and also it’s weird to look at a repo’s branches page and see one branch maybe tens or hundreds of commits both ahead and behind the default branch.
 
 This has been made simpler and tidier now that we can use a `docs` directory within the repository to serve content.
@@ -76,7 +72,6 @@ As the site was previously using HTTPS, I didn’t want to have to go back to HT
 - [Publishing your GitHub Pages site from a /docs folder on your master branch][2]
 - [Bypassing Jekyll on GitHub Pages][5]
 - [Secure and fast GitHub Pages with CloudFlare][6]
-{% endblock %}
 
 [0]: https://pages.github.com
 [1]: https://github.com/opdavies/oliverdavies.uk

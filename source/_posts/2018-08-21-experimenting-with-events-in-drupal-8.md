@@ -1,5 +1,6 @@
 ---
 title: Experimenting with events in Drupal 8
+excerpt: Trying a different way of structuring Drupal modules, using event subscribers and autowiring.
 tags:
     - drupal
     - drupal-8
@@ -7,11 +8,8 @@ tags:
     - php
     - symfony
 ---
-{% block excerpt %}
-I’ve been experimenting with moving some of the code to Drupal 8, and I’m quite intrigued by a different way that I’ve tried to structure it - building on some of the takeaways from Drupal Dev Days.
-{% endblock %}
+I’ve been experimenting with moving some code to Drupal 8, and I’m quite intrigued by a different way that I’ve tried to structure it - using event subscribers, building on some of the takeaways from Drupal Dev Days.
 
-{% block content %}
 Here is how this module is currently structured:
 
 ![](/images/blog/events-drupal-8/1.png){.border .p-1}
@@ -20,7 +18,7 @@ Note that there is no `opdavies_blog.module` file, and rather than calling actio
 
 This means that there are no long `hook_entity_update` functions, and instead there are descriptive, readable event subscriber class names, simpler action code that is responsibile only for performing one task, and you’re able to inject and autowire dependencies into the event subscriber classes as services - making it easier and cleaner to use dependency injection, and simpler write tests to mock dependencies when needed.
 
-The additional events are provided by the [Hook Event Dispatcher module][0].
+The additional events are provided by the [Hook Event Dispatcher module](https://www.drupal.org/project/hook_event_dispatcher).
 
 ## Code
 
@@ -68,6 +66,3 @@ class SendTweet implements EventSubscriberInterface {
 
 }
 ```
-{% endblock %}
-
-[0]: https://www.drupal.org/project/hook_event_dispatcher

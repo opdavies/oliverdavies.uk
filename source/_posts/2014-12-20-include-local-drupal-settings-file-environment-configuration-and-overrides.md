@@ -1,5 +1,6 @@
 ---
 title: Include a Local Drupal Settings file for Environment Configuration and Overrides
+excerpt: How to create and include a local settings file to define and override environment-specific variables.
 tags:
   - drupal
   - drupal-6
@@ -7,13 +8,9 @@ tags:
   - drupal-8
   - drupal-planet
   - settings.php
-use: [posts]
 ---
-{% block excerpt %}
 How to create and include a local settings file to define and override environment-specific variables, and keep sensitive things like your database credentials and API keys safe.
-{% endblock %}
 
-{% block content %}
 At the bottom of settings.php, add the following code:
 
 ```language-php
@@ -45,4 +42,3 @@ sites/*/private
 ```
 
 This will allow for settings.php to be added to Git and committed, but not settings.local.php.
-{% endblock %}

@@ -1,26 +1,20 @@
 ---
 title: DrupalCamp Bristol 2018 Statement
+excerpt: Unfortunately, we won’t be running DrupalCamp Bristol this year.
 tags:
     - drupal-planet
     - drupalcamp-bristol
 use:
     - posts
 meta:
-   og:
-       title: DrupalCamp Bristol 2018 Statement
-       description: 'It’s with heavy hearts that we are announcing there won’t be a DrupalCamp Bristol 2018.'
-       type: website
-       image:
-           url: /images/blog/drupalcamp-bristol-17-logo.jpg
-           width: 228
-           height: 448
-           type: image/img
+   image:
+       url: /images/blog/drupalcamp-bristol-17-logo.jpg
+       width: 228
+       height: 448
+       type: image/img
 ---
-{% block excerpt %}
 It’s with heavy hearts that we are announcing there won’t be a DrupalCamp Bristol 2018. The committee have looked at the amount of work required to put the camp on and the capacity we all have and the two numbers are irreconcilable.
-{% endblock %}
 
-{% block content %}
 Seeing Drupalists from all over the country and from overseas come to Bristol to share knowledge and ideas is something we take pride in. The past three camps have been fantastic, but as a trend we have left it later and later to organise.
 
 This year is the latest we have left to organise and we believe this is because we are all a bit fatigued right now, so it seems like a good place to stop and take stock.
@@ -34,4 +28,3 @@ We’ll take the gap this year to reevaluate who DrupalCamp Bristol is for and w
 The DrupalCamp Bristol organising committee
 
 Tom, Ollie, Emily, Sophie, Rob, Mark
-{% endblock %}

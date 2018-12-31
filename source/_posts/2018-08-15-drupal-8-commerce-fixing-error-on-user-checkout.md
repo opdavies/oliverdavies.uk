@@ -1,18 +1,16 @@
 ---
 title: "Drupal 8 Commerce: Fixing 'No Such Customer' error on checkout"
+excerpt: Fixing a Drupal Commerce error when a user tries to complete a checkout.
 tags:
     - drupal
     - drupal-8
     - drupal-commerce
     - stripe
 ---
-{% block excerpt %}
 Recently I was experiencing an issue on the Drupal 8 website I’m working on, where a small number of users were not able to complete the checkout process and instead got a generic `The site has encountered an unexpected error` message.
 
 Looking at the log, I was able to see the error being thrown (the customer ID has been redacted):
-{% endblock %}
 
-{% block content %}
 > Stripe\Error\InvalidRequest: No such customer: cus_xxxxxxxxxxxxxx in Stripe\ApiRequestor::_specificAPIError() (line 124 of /var/www/vendor/stripe/stripe-php/lib/ApiRequestor.php).
 
 Logging in to the Stripe account, I was able to confirm that the specified customer ID did not exist. So where was it coming from, and why was Drupal trying to retrieve a non-existent customer?
@@ -79,4 +77,3 @@ private static function _specificAPIError($rbody, $rcode, $rheaders, $resp, $err
 ## Solution
 
 After confirming that it was the correct user ID, simply removing that row from the database allowed the new Stripe customer to be created and for the user to check out successfully.
-{% endblock %}

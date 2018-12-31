@@ -1,5 +1,6 @@
 ---
 title: How to use SASS and Compass in Drupal 7 using Sassy
+excerpt: Use PHPSass and the Sassy module to use Sass and Compass in your Drupal theme.
 tags:
   - compass
   - css
@@ -9,13 +10,9 @@ tags:
   - less
   - preprocessing
   - sass
-use: [posts]
 ---
-{% block excerpt %}
 I've recently started using [SASS](http://sass-lang.com) rather than LESS to do my CSS preprocessing - namely due to its integration with [Compass](http://compass-style.org) and it's built-in CSS3 mixins. Here are three modules that provide the ability to use SASS within Drupal.
-{% endblock %}
 
-{% block content %}
 * [Sassy](http://drupal.org/project/sassy "Sassy module on drupal.org")
 * [Prepro](http://drupal.org/project/prepro "Prepro module on drupal.org")
 * [Libraries API](http://drupal.org/project/libraries "Libraries API module on drupal.org")
@@ -64,4 +61,3 @@ Personally, in development, I'd set caching to 'uncached' and the error reportin
 ## Adding SASS files into your theme
 
 With this done, you can now add SASS and SCSS files by adding a line like `stylesheets[all][] = css/base.scss` in your theme's .info file.
-{% endblock %}
