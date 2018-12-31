@@ -1,20 +1,17 @@
 ---
 title: Create a Slideshow of Multiple Images Using Fancy Slide
+excerpt: How to create a slideshow of images using Drupal’s Fancy Slide module.
 tags:
   - drupal-planet
   - drupal
   - drupal-6
   - fancy-slide
   - slideshow
-use: [posts]
 ---
-{% block excerpt %}
 Whilst updating my About page, I thought about creating a slideshow of several images instead of just the one static image. When I looking on Drupal.org, the only slideshow modules were to create slideshows of images that were attached to different nodes - not multiple images attached to one node. Then, I found the [Fancy Slide](http://drupal.org/project/fancy_slide) module. It's a jQuery Slideshow module with features that include integration with the [CCK](http://drupal.org/project/cck), [ImageCache](http://drupal.org/project/imagecache) and [Nodequeue](http://drupal.org/project/nodequeue) modules.
 
 I added an CCK Image field to my Page content type, and set the number of values to 3, then uploaded my images to the Page.
-{% endblock %}
 
-{% block content %}
 Whilst updating my About page, I thought about creating a slideshow of several images instead of just the one static image. When I looking on Drupal.org, the only slideshow modules were to create slideshows of images that were attached to different nodes - not multiple images attached to one node. Then, I found the [Fancy Slide](http://drupal.org/project/fancy_slide) module. It's a jQuery Slideshow module with features that include integration with the [CCK](http://drupal.org/project/cck), [ImageCache](http://drupal.org/project/imagecache) and [Nodequeue](http://drupal.org/project/nodequeue) modules.
 Once the Images were added, I went to the Fancy Slide settings page and created the slideshow.
 
@@ -27,4 +24,3 @@ I added the following code into my About page, as described in the Fancy Slide r
 ```
 
 In my opinion, this adds a nice effect to the About page. I like it because it's easy to set up, and easy to add additional images later on if required.
-{% endblock %}

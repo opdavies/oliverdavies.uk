@@ -1,5 +1,6 @@
 ---
 title: Null Users and System Users in Drupal
+excerpt: wwww
 tags:
     - drupal
     - drupal-7
@@ -8,15 +9,12 @@ tags:
     - drupal-planet
     - php
 ---
-{% block excerpt %}
 Have you ever needed to have a 'special user' to perform tasks on your Drupal site, such as performing actions based on an API request, or for sending an internal site message?
 
 If you just create a new user, how do you identify that user going forward? Do you hard-code the 'magic' user ID in your custom code? What if the user has a different ID on different environments of your site? You could declare it in each environment’s settings file and retrieve it from there, but what then if you need to do the same on another site? That would mean some duplication of code - and something that could have been abstracted and re-used.
 
 I had to do this recently, and rather than just duplicate the code I decided to make it into it’s own module - which then became two modules.
-{% endblock %}
 
-{% block content %}
 ## System users
 
 The [System User module][1] provides a re-usable, generic way to denote users as 'system users', which is not specific to a certain site or environment as this is value is stored against each individual user in the database.
@@ -102,7 +100,6 @@ System User module is the only one that I’m aware of that makes use of Null Us
 - [Null object pattern][3]
 - [Null User module][2]
 - [System User module][1]
-{% endblock %}
 
 [1]: https://www.drupal.org/project/system_user
 [2]: https://www.drupal.org/project/null_user

@@ -1,14 +1,12 @@
 ---
 title: Quick Project Switching in PhpStorm
+excerpt: How to quickly switch between projects in PhpStorm.
 tags:
     - phpstorm
 has_tweets: true
 ---
-{% block excerpt %}
 Following a recent conversation on Twitter with [socketwench](https://twitter.com/socketwench) about project switching in PhpStorm, I thought I’d document my workflow here.
-{% endblock %}
 
-{% block content %}
 Here is the original tweet and my initial response. I also have a lot of PhpStorm projects, and as I’m always working on multiple projects I regularly need to switch between them.
 
 {% include 'tweet' with {
@@ -44,4 +42,3 @@ We can make this easier by adding a new keyboard shortcut. Within the Keymap pre
 ![Assigning a keyboard shortcut](/images/blog/quick-project-switching-phpstorm/adding-keyboard-shortcut-2.png){.with-border .with-padding}
 
 This this shortcut added, you can now use it to instantly bring up your recent projects list, filter it and switch project.
-{% endblock %}

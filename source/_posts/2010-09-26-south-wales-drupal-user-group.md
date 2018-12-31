@@ -1,13 +1,13 @@
 ---
 title: The Inaugural Meetup for the South Wales Drupal User Group
+excerpt: If you do Drupal and you're in the area, come and join us for the first SWDUG meetup!
 tags:
   - drupal
   - drupal-planet
   - swdug
   - meetups
-use: [posts]
 ---
-If you do Drupal, and you're in the area, come and join us for the first South Wales Drupal User Group Meetup!
+If you do Drupal and you're in the area, come and join us for the first SWDUG meetup!
 
 We'll be meeting in the communal area just outside of the [SubHub](http://www.subhub.com) HQ, at:
 

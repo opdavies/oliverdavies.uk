@@ -1,9 +1,9 @@
 ---
 title: Imagefield Import Archive
+excerpt: I've finally uploaded my first module onto Drupal.org!
 tags:
   - drupal-planet
   - imagefield-import
-use: [posts]
 ---
 I've finally uploaded my first module onto Drupal.org!
 

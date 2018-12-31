@@ -1,14 +1,11 @@
 ---
 title: Drupal Bristol Testing Workshop
+excerpt: Yesterday evening, I did my first workshop, held at the Drupal Bristol user group.
 tags: [composer, docksal, drupal, drupal-8, drupal-bristol, php, phpunit, testing]
 ---
-{% block excerpt %}
 Yesterday evening, I did [my first workshop][16] (and I believe, the first workshop) held at the [{{ site.events['drupal_bristol'].name }}][14] user group. The subject was automated testing with PHPUnit in Drupal 8, in preparation for my talk at [{{ site.events['drupal_dev_days_18'].name }}][12] next week and to help process some ideas for my [testing book][15].
 
 Here are some details about what we covered, and some of my thoughts in review.
-{% endblock %}
-
-{% block content %}
 
 ## Local Environment
 
@@ -46,7 +43,6 @@ I was very happy with how my first workshop went, it was a great experience for 
 A couple of people mentioned about providing handouts to refer the code examples whilst working on the exercises, rather than relying on the slides and avoiding the need to sometimes switch back and forth between slides. I’ve found that I can export the slide deck as PNGs or JPGs from Deckset, so I’ll definitely do that next time.
 
 I’m giving the [Test Driven Drupal][9] talk at the [Drupal Dev Days conference][12] next week, and I’m hoping to give it again at other meetups and events in the UK. If you’d like me to do either at your meetup or event, [get in touch][13].
-{% endblock %}
 
 [0]: https://github.com/opdavies/drupal-testing-workshop
 [1]: https://github.com/drupal-composer/drupal-project

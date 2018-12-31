@@ -1,17 +1,14 @@
 ---
 title: Install and Configure the Nomensa Accessible Media Player in Drupal
+excerpt: This week I released the first version of the Nomensa Accessible Media Player module for Drupal 7. Here's some instructions of how to install and configure it.
 tags:
   - accessibility
   - drupal
   - drupal-planet
   - nomensa
-use: [posts]
 ---
-{% block excerpt %}
 This week I released the first version of the Nomensa Accessible Media Player module for Drupal 7. Here's some instructions of how to install and configure it.
-{% endblock %}
 
-{% block content %}
 *The official documentation for this module is now located at <https://www.drupal.org/node/2383447>. This post was accurate at the time of writing, whereas the documentation page will be kept up to date with any future changes.*
 
 ## Initial configuration
@@ -75,4 +72,3 @@ For example:
         allowfullscreen>
     </iframe>
 </div>
-{% endblock %}

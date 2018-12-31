@@ -1,18 +1,15 @@
 ---
 title: Simplifying Drupal Migrations with xautoload
+excerpt: How to use the xautoload module to autoload migration classes within your Drupal 7 migration modules.
 tags:
     - autoloading
     - drupal
     - drupal-planet
     - drupal-7
     - php
-use: [posts]
 ---
-{% block excerpt %}
 How to use the [xautoload][1] module to autoload migration classes within your Drupal 7 migration modules.
-{% endblock %}
 
-{% block content %}
 ## What is xautoload?
 
 [xautoload][1] is a Drupal module that enables the autoloading of PHP classes, in the same way that you would do so in a [Composer][2] based project such as Drupal 8 or Symfony.
@@ -103,8 +100,6 @@ $node_arguments['ArticleNode'] = array(
 * [migrate_d2d module][6]
 * [PSR-0][3]
 * [PSR-4][4]
-
-{% endblock %}
 
 [1]: https://www.drupal.org/project/xautoload
 [2]: http://getcomposer.org

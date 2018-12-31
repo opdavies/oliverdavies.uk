@@ -1,14 +1,11 @@
 ---
 title: Some Useful Git Aliases
+excerpt: Here are some bash aliases that I use and find helpful for quickly writing Git and Git Flow commands.
 tags:
   - git
-use: [posts]
 ---
-{% block excerpt %}
 Here are some bash aliases that I use and find helpful for quickly writing Git and Git Flow commands.
-{% endblock %}
 
-{% block content %}
 These should be placed within your `~/.bashrc` or `~/.bash_profile` file:
 
 ```language-bash
@@ -32,4 +29,3 @@ alias gff="git flow feature"
 alias gfr="git flow release"
 alias gfh="git flow hotfix"
 ```
-{% endblock %}

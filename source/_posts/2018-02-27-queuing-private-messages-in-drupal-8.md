@@ -1,24 +1,17 @@
 ---
 title: Queuing Private Messages in Drupal 8
+excerpt: Introducing the Private Message Queue module for Drupal 8.
 tags:
     - drupal
     - drupal-8
     - drupal-modules
     - drupal-planet
     - open-source
-meta:
-    og:
-        title: Queuing Private Messages in Drupal 8
-        description: How to queue private messages in Drupal 8 with the Private Message Queue module.
-        type: website
 ---
-{% block excerpt %}
 My current project at [Microserve][0] is a Drupal 8 website that uses the [Private Message][1] module for users to send messages to each other.
 
 In some cases though, the threads could contain hundreds of recipients so I decided that it would be good to queue the message requests so that they can be processed as part of a background process for better performance. The Private Message module does not include this, so I've written and released a separate [Private Message Queue][2] module.
-{% endblock %}
 
-{% block content %}
 ## Queuing a Message
 
 The module provices a `PrivateMessageQueuer` service (`private_message_queue.queuer`) which queues the items via the `queue()` method.
@@ -60,7 +53,6 @@ You can also process the queue manually with Drush using the `drush queue-run <q
 $ drush queue-run private_message_queue
 Processed 19 items from the private_message_queue queue in 3.34 sec.
 ```
-{% endblock %}
 
 [0]: {{site.companies.microserve.url}}
 [1]: https://www.drupal.org/project/private_message

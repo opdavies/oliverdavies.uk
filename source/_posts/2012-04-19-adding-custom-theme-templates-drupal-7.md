@@ -1,11 +1,10 @@
 ---
 title: Adding Custom Theme Templates in Drupal 7
-description: >
+excerpt: >
   Today, I had a situation where I was displaying a list of teasers for news article nodes. The article content type had several different fields assigned to it, including main and thumbnail images. In this case, I wanted to have different output and fields displayed when a teaser was displayed compared to when a complete node was displayed.
 tags:
   - drupal-planet
   - drupal
-use: [posts]
 ---
 {% block excerpt %}
 Today, I had a situation where I was displaying a list of teasers for news article nodes. The article content type had several different fields assigned to it, including main and thumbnail images. In this case, I wanted to have different output and fields displayed when a teaser was displayed compared to when a complete node was displayed.

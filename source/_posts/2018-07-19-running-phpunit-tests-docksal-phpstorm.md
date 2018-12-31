@@ -1,5 +1,6 @@
 ---
 title: How to run Drupal 8 PHPUnit Tests within Docksal from PhpStorm
+excerpt: How to configure PhpStorm to run automated tests within Docksal.
 tags:
     - docksal
     - drupal
@@ -8,13 +9,10 @@ tags:
     - phpunit
     - testing
 ---
-{% block excerpt %}
 I’ve recently re-watched [A Clean PHPUnit Workflow in PHPStorm][0] on [Laracasts][1], where Jeffrey configures PhpStorm to run tests from within the IDE. With Drupal 8 using PHPUnit too, I decided to try and do the same with a local D8 site.
 
 Though because I’m using [Docksal][4] for my local development environment which, at least on a Mac, runs Docker containers within a virtual machine, there were some additional steps needed to achieve this and to have the tests run within the Docksal virtual machine and using the correct containers.
-{% endblock %}
 
-{% block content %}
 In this post, I’ll be using my [Drupal Testing Workshop codebase][2] as an example, which is based on the [Drupal Composer project][3] with some pre-configured Docksal configuration.
 
 This post is separated into a few different sections:
@@ -155,7 +153,6 @@ if (file_exists('/.dockerenv') && file_exists(__DIR__ . '/docksal.settings.php')
 With this extra condition, the database credentials are loaded correctly and the functional tests run properly.
 
 Happy testing!
-{% endblock %}
 
 [0]: https://laracasts.com/series/php-bits/episodes/2
 [1]: https://laracasts.com

@@ -1,16 +1,14 @@
 ---
 title: Croeso PHP South Wales!
+excerpt: Last night was the first meetup of Cardiff’s PHP South Wales user group.
 tags:
     - php
     - php-south-wales
     - meetups
 has_tweets: true
 ---
-{% block excerpt %}
 Last night was the first meetup of Cardiff’s [PHP South Wales user group][0]! It was a great first event, and it was great to meet a lot of new people as well as catch up some familiars within the 36 (according to meetup.com) attendees - including some [PHP South West][9] regulars.
-{% endblock %}
 
-{% block content %}
 Organised by Steve and Amy McDougall, it was held in Barclays’ [Eagle Lab][1] which was a great space, and it was cool to be back in Brunel House having worked in that building previously whilst at Appnovation.
 
 {% include 'tweet' with {
@@ -48,7 +46,6 @@ Thanks again to Steve and Amy for organising, Eagle Labs for hosting, the sponso
 It would be great to see even more people at the next one. If you’re interested, take a look at the [group’s website][0], [meetup.com group][7] and [Twitter profile][8]. Alternatively, get in touch with myself or one of the organisers for more information.
 
 **Croeso ac iechyd da PHP South Wales!**
-{% endblock %}
 
 [0]: https://www.phpsouthwales.uk
 [1]: https://labs.uk.barclays/locations/cardiff-en

@@ -1,12 +1,12 @@
 ---
 title: Review of the Admin:hover Module
+excerpt: My review of Drupal’s admin:hover module.
 tags:
   - drupal-planet
   - drupal-6
   - drupal-modules
   - admin:hover
   - administration
-use: [posts]
 ---
 {% block excerpt %}
 Sorry for the lack of Blog posts lately, but [my new job](http://horseandcountry.tv) that I started a few weeks ago has certainly been keeping me busy! I've got a few more posts that I'm preparing content for, and I'll hopefully be back into my weekly-post routine before too long!

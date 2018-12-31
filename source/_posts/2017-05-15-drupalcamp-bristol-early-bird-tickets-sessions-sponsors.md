@@ -1,26 +1,22 @@
 ---
 title: DrupalCamp Bristol 2017 - Early Bird Tickets, Call for Sessions, Sponsors
+excerpt: In less than two months time, DrupalCamp Bristol will be back for our third year.
 tags:
     - drupal
     - drupal-planet
     - drupalcamp
     - drupalcamp-bristol
 meta:
-    og:
-        image:
-            url: /assets/image/blog/drupalcamp-bristol-17-logo.jpg
-            height: 228
-            width: 448
-            type: image/jpg
-        type: website
+    image:
+        url: /assets/image/blog/drupalcamp-bristol-17-logo.jpg
+        height: 228
+        width: 448
+        type: image/jpg
 ---
-{% block excerpt %}
 <p class="text-center" markdown="1">![DrupalCamp Bristol 2017 logo](/images/blog/drupalcamp-bristol-17-logo.jpg)</p>
 
 In less than two months time, [DrupalCamp Bristol][0] will be back for our third year! (July seems to come around quicker each year). This is this year’s schedule and venues:
-{% endblock %}
 
-{% block content %}
 + 30th June - CXO (Business) day - [Watershed][1]
 + 1st July - Developer conference - [University of Bristol, School of Chemistry][2]
 + 2nd July - Contribution sprints - Venue TBC
@@ -36,7 +32,6 @@ Not bought your tickets yet? [Early bird tickets][10] for the CXO and conference
 We still have [sponsorships opportunities][6] available (big thanks to [Microserve][7], [Deeson][8] and [Proctors][9]) who have already signed up), but be quick if you want to be included in our brochure so that we can get you added before our print deadline! Without our sponsors, putting on this event each year would not be possible.
 
 Any other questions? Take a look at [our website][0] or get in touch via [Twitter][5] or [email][11].
-{% endblock %}
 
 [0]: https://2017.drupalcampbristol.co.uk
 [1]: http://www.watershed.co.uk

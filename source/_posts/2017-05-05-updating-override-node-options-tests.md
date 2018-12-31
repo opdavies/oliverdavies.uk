@@ -1,5 +1,6 @@
 ---
 title: Updating Override Node Options Tests
+excerpt: ~
 tags:
     - drupal
     - drupal-modules
@@ -7,13 +8,10 @@ tags:
     - testing
 draft: true
 ---
-{% block excerpt %}
 Recently, I reviewed [a patch][1] in the [Override Node Options][2] module issue queue. For those not familiar with it, the module adds extra permissions for node options like "authored by" and "published on" which are normally only available to users with the `administer nodes` permission. What the patch does is to optionally add another set of permissions that enable options for all content types - e.g. "override published option for all node types", in addition to or instead of the content type specific ones.
 
 It was quite an old issue and the latest patch needed to be re-rolled due to merge conflicts, but the existing tests still passed. Though as no new tests were added for the new functionality, these needed to be added before I committed it.
-{% endblock %}
 
-{% block content %}
 ## Reviewing the Existing Tests
 
 The first thing to do was to run the existing tests and check that they still passed. I do this on the command line by typing `php scripts/run-tests.sh --class OverrideNodeOptionsTestCase`.
@@ -194,7 +192,6 @@ Test run duration: 25 sec
 <img src="/images/blog/override-node-options-refactor-tests-new-passing.png" alt="">
 
 [Here][3] are my full changes from the previous patch, where I added the new tests as well as some small refactors.
-{% endblock %}
 
 [1]: https://www.drupal.org/node/974730
 [2]: https://www.drupal.org/project/override_node_options

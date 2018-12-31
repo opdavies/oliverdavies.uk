@@ -1,23 +1,20 @@
 ---
 title: Updating Forked Repositories on GitHub
-meta:
-  description: I just had to update a repo that I forked on GitHub. This is how I did it. Did I do it the correct way?
+excerpt: I just had to update a repo that I forked on GitHub. This is how I did it. Did I do it the correct way?
 tags:
   - git
   - github
   - phpstorm
   - sculpin
-use: [posts]
 ---
-{% block excerpt %}
+I just had to update a repo that I forked on GitHub. This is how I did it. Did I do it the correct way?
+
 ## Sculpin
 
 People may or may not know, but this site runs on [Sculpin](https://sculpin.io/), a PHP based static site generator (this may be the first time that I've mentioned it on this site). The source code is hosted on [GitHub](https://github.com/opdavies/oliverdavies.uk), and I've listed the site on the [Community page](https://sculpin.io/community/) on the Sculpin website.
 
 To get it there, I forked the [main sculpin.io repository](https://github.com/sculpin/sculpin.io) so that I had [my own copy](https://github.com/opdavies/sculpin.io), created a branch, made my additions and submitted a pull request. Easy enough!
-{% endblock %}
 
-{% block content %}
 ## New Domain
 
 In the last week or so, I've changed this site URL from .co.uk to just .uk, and also updated the GitHub repo URL to match, so I wanted to update the Community page to use the correct URL.
@@ -83,4 +80,3 @@ It would be great to see something similar added to [hub](https://hub.github.com
 * [PhpStorm - Advanced GitHub Integration: Rebase My GitHub Fork (blog post)](http://blog.jetbrains.com/idea/2011/02/advanced-github-integration-rebase-my-github-fork/)
 * [Rebasing a GitHub fork inside PhpStorm (video)](https://www.youtube.com/watch?v=Twy-dhVgN4k)
 * [hub](https://hub.github.com) - makes Git better with GitHub
-{% endblock %}

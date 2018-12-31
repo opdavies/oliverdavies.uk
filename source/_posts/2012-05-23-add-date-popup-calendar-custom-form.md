@@ -1,5 +1,6 @@
 ---
 title: How to add a date popup calendar onto a custom form
+excerpt: How to use a date popup calendar within your custom module.
 tags:
   - forms
   - form-api
@@ -8,13 +9,9 @@ tags:
   - drupal-7
   - drupal-planet
   - drupal
-use: [posts]
 ---
-{% block excerpt %}
 How to use a date popup calendar within your custom module.
-{% endblock %}
 
-{% block content %}
 First, I need to download the [Date](http://drupal.org/project/date "Date module on Drupal.org") module, and make my module dependent on date_popup by adding the following line into my module's .info file.
 
 ```language-ini
@@ -40,4 +37,3 @@ $form['date'] = array(
   '#default_value' => date('Y-m-d', time()),
 );
 ```
-{% endblock %}

@@ -1,19 +1,15 @@
 ---
 title: 'DrupalCamp London: What is Git Flow?'
-description: Slides and notes from my talk, "What is Git Flow?", that I presented at DrupalCamp London 2014.
+excerpt: Here are my slides from my "What is Git Flow?" session at DrupalCamp London.
 tags:
   - git
   - git-flow
   - drupalcamp-london
   - talks
 tweets: true
-use: [posts]
 ---
-{% block excerpt %}
 Here are my slides from my "What is Git Flow?" session at [DrupalCamp London](http://2014.drupalcamplondon.co.uk).
-{% endblock %}
 
-{% block content %}
 {% include 'speakerdeck' with { data_id: '201559e0f103013198dd5a5f6f23ab67' } %}
 
 ## Take aways
@@ -44,4 +40,3 @@ I've had some great feedback via Twitter:
 {% include 'tweet' with {
   content: '<p>Great talk on git flow <a href="https://twitter.com/opdavies">@opdavies</a> <a href="https://twitter.com/search?q=%23dclondon&amp;src=hash">#dclondon</a></p>&mdash; Curve Agency (@CurveAgency) <a href="https://twitter.com/CurveAgency/statuses/440095250775035904">March 2, 2014</a>'
 } %}
-{% endblock %}

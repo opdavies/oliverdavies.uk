@@ -1,5 +1,6 @@
 ---
 title: Quickly Create Zen Subthemes Using Zenophile
+excerpt: How to use the Zenophile module to create a Zen subtheme.
 tags:
   - drupal-planet
   - drupal-6
@@ -7,7 +8,6 @@ tags:
   - drupal-theming
   - zen
   - zenophile
-use: [posts]
 ---
 If you use the [Zen](http://drupal.org/project/zen) theme, then you should also be using the [Zenophile](http://drupal.org/project/zenophile) module!
 

@@ -1,5 +1,6 @@
 ---
 title: Debugging Drupal Commerce Promotions and Adjustments using Illuminate Collections (Drupal 8)
+excerpt: Using Laravel’s Illuminate Collections to debug an issue with a Drupal Commerce promotion.
 tags:
   - drupal
   - drupal-8
@@ -9,11 +10,8 @@ tags:
   - laravel-collections
   - php
 ---
-{% block excerpt %}
 Today I found another instance where I decided to use [Illuminate Collections][0] within my Drupal 8 code; whilst I was debugging an issue where a [Drupal Commerce][1] promotion was incorrectly being applied to an order.
-{% endblock %}
 
-{% block content %}
 No adjustments were showing in the Drupal UI for that order, so after some initial investigation and finding that `$order->getAdjustments()` was empty, I determined that I would need to get the adjustments from each order item within the order.
 
 If the order were an array, this is how it would be structured in this situation:
@@ -113,7 +111,6 @@ collect($order->getItems())
 This returns a Collection containing just the relevant promotion IDs being applied to the order that I can use for debugging.
 
 Now just to find out why the incorrect promotion was applying!
-{% endblock %}
 
 [0]: https://laravel.com/docs/collections
 [1]: https://drupalcommerce.org

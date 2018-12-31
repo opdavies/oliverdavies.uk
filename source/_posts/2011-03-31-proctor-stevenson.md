@@ -1,8 +1,8 @@
 ---
 title: Proctor & Stevenson
+excerpt: I’m moving jobs.
 tags:
   - personal
-use: [posts]
 ---
 2 weeks ago, I handed in my notice of resignation to [Horse & Country TV](http://horseandcountry.tv)because I've been offered a new role at [Proctor & Stevenson](http://proctors.co.uk) - a Marketing Design and Communications agency in Bristol.
 

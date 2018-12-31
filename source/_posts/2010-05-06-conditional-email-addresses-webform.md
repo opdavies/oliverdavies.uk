@@ -1,11 +1,11 @@
 ---
 title: Conditional Email Addresses in a Webform
+excerpt: How to send webform emails to a different email address based on another field.
 tags:
   - drupal-planet
   - drupal-6
   - conditional-email
   - webform
-use: [posts]
 ---
 I created a new Webform to serve as a simple Contact form, but left the main configuration until after I created the form components. I added 'Name', 'Email', 'Subject' and 'Message' fields, as well as a 'Category' select list. Below 'Options', I entered each of my desired options in the following format:
 

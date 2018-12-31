@@ -1,5 +1,6 @@
 ---
 title: Add a Taxonomy Term to Multiple Nodes Using SQL
+excerpt: How to add a new taxonomy term to multiple nodes in Drupal using SQL.
 tags:
   - taxonomy
   - drupal-planet
@@ -7,14 +8,9 @@ tags:
   - sql
   - sequal-pro
   - database
-use: [posts]
 ---
-{% block excerpt %}
-**Up
 In preparation for my Blog posts being added to [Drupal Planet](http://drupal.org/planet), I needed to create a new Taxonomy term (or, in this case, tag) called 'Drupal Planet', and assign it to new content to imported into their aggregator. After taking a quick look though my previous posts, I decided that 14 of my previous posts were relevant, and thought that it would be useful to also assign these the 'Drupal Planet' tag.
-{% endblock %}
 
-{% block content %}
 I didn't want to manually open each post and add the new tag, so I decided to make the changes myself directly into the database using SQL, and as a follow-up to a previous post - [Quickly Change the Content Type of Multiple Nodes using SQL](/blog/change-content-type-multiple-nodes-using-sql/).
 
 **Again, before changing any values within the database, ensure that you have an up-to-date backup which you can restore if you encounter a problem!**
@@ -50,4 +46,3 @@ SELECT nid, tid FROM term_node WHERE nid = 216;
 Once the query had confirmed the correct tid value, I began to write the SQL Insert statement that would be needed to add the new term to the required nodes. The nid and vid values were the same on each node, and the value of my taxonomy term would need to be 84.
 
 Once this had completed with no errors, I returned to the administration area of my Drupal site to confirm whether or not the nodes had been assigned the new term.
-{% endblock %}
