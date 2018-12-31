@@ -1,6 +1,6 @@
 ---
 title: Null Users and System Users in Drupal
-excerpt: wwww
+excerpt: Announcing the Null User and System User modules.
 tags:
     - drupal
     - drupal-7
