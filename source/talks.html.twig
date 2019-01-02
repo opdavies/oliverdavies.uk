@@ -2,8 +2,30 @@
 layout: default
 title: Talks
 meta:
-    description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
+  description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
 use: [talks]
+talks:
+  - title: 'Drupal and the LDAP module'
+    events:
+      - event: swdug
+        date: '2013-07-10'
+  - title: 'About the Drupal Association'
+    events:
+      - event: swdug
+        date: '2014-08-19'
+
+  - title: 'Automated testing with Drupal 8 and PHPUnit'
+    type: Workshop
+    events:
+      - event: drupal_bristol
+        date: '2018-06-27'
+
+  - title: 'Episode #175 - Automated Testing'
+    type: Podcast
+    url: http://talkingdrupal.com/175
+    events:
+      - event: talking_drupal
+        date: '2018-09-05'
 ---
 {% block content %}
     <p>
@@ -14,7 +36,7 @@ use: [talks]
     <div class="mb-6">
         <h2>Upcoming Talks</h2>
 
-        {% set upcoming_talks = getUpcomingTalks(data.talks|merge(site.talks), site.events) %}
+        {% set upcoming_talks = getUpcomingTalks(data.talks|merge(page.talks), site.events) %}
         {% if not upcoming_talks.empty %}
             {% include "talks-table" with {
                 talks: upcoming_talks,
@@ -29,7 +51,7 @@ use: [talks]
         <h2>Previous Talks</h2>
 
         {% include "talks-table" with {
-            talks: getPastTalks(data.talks|merge(site.talks), site.events)
+            talks: getPastTalks(data.talks|merge(page.talks), site.events)
         } %}
     </div>
 {% endblock %}
