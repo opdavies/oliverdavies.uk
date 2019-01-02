@@ -89,6 +89,11 @@ events:
         location: London, UK
         url: https://www.phpconference.co.uk
 
+    ssdc:
+        name: Swansea Software Development Meetup (SSDC)
+        location: Swansea, UK
+        url: https://www.meetup.com/Swansea-Software-Development-Meetup
+
     swdug:
         name: SWDUG
         location: Cardiff, UK
