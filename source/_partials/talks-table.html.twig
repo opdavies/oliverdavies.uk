@@ -2,23 +2,16 @@
     <table class="table">
         <thead>
             <tr>
-                <th class="w-40 md:w-48 block">Date</th>
-
-                {% if not talk_page %}
-                    <th>Talk</th>
-                {% endif %}
-
+                <th class="w-1/5">Date</th>
+                {% if not talk_page %}<th class="w-1/3">Talk</th>{% endif %}
                 <th>Event</th>
-
-                {% if not upcoming %}
-                    <th class="w-32">Feedback</th>
-                {% endif %}
+                {% if not upcoming %}<th class="w-1/6">Feedback</th>{% endif %}
             </tr>
         </thead>
         <tbody>
             {% for talk in talks %}
                 <tr>
-                    <td class="w-40 md:w-48 whitespace-no-wrap xl:whitespace-normal">
+                    <td>
                         <span class="block md:hidden">
                             {{ talk.event.date|date(talk.event.fuzzy_date ? 'M Y' : 'j M Y') }}
                         </span>
@@ -53,7 +46,7 @@
                         </td>
                     {% endif %}
 
-                    <td>
+                    <td class="whitespace-no-wrap xl:whitespace-normal">
                         {% if talk.event.url is not empty %}
                             <a href="{{ talk.event.url }}" class="link">
                                 {{ talk.event.name }}
