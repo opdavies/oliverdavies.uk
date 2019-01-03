@@ -29,7 +29,7 @@
                     {% if not talk_page %}
                         <td class="whitespace-no-wrap xl:whitespace-normal">
                             {% if talk.talk.url is not empty %}
-                                <a href="{{ talk.talk.url }}" class="link">
+                                <a href="{{ talk.talk.url }}">
                                     {{ talk.talk.title }}
                                 </a>
                             {% else %}
@@ -48,7 +48,7 @@
 
                     <td class="whitespace-no-wrap xl:whitespace-normal">
                         {% if talk.event.url is not empty %}
-                            <a href="{{ talk.event.url }}" class="link">
+                            <a href="{{ talk.event.url }}">
                                 {{ talk.event.name }}
                             </a>
                         {% else %}
