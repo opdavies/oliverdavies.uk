@@ -22,7 +22,7 @@ use:
             {% for tag, post_count in rows|sort|reverse %}
                 <tr>
                     <td>
-                        <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}" class="link">{{ tag }}</a>
+                        <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
                     </td>
                     <td>{{ post_count }}</td>
                 </tr>
