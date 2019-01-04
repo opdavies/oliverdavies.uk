@@ -1,11 +1,8 @@
 {% extends 'default' %}
 
 {% block content_wrapper %}
-    <div>
-        <div class="markdown">
-            {{ page.summary|markdown }}
-            {% block content %}{% endblock %}
-        </div>
+    <div class="markdown">
+        {% block content %}{% endblock %}
     </div>
 
     {% include 'talk/slides' %}
