@@ -36,7 +36,6 @@ module.exports = {
 
   fonts: {
     'sans': [
-      'Barlow',
       '-apple-system',
       'BlinkMacSystemFont',
       'Segoe UI',
@@ -85,11 +84,9 @@ module.exports = {
   },
 
   fontWeights: {
-    'light': 300,
     'normal': 400,
     'medium': 500,
-    'semibold': 600,
-    'bold': 600,
+    'bold': 700,
   },
 
   leading: {

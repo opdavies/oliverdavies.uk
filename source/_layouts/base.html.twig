@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js text-base md:text-lg" lang="en-GB">
+<html class="no-js text-sm md:text-base" lang="en-GB">
     <head>
         <title>{% if page.title is defined and page.url != '//' %}{{ page.title }} | {% endif %}{{ site.title }} - {{ site.subtitle }}</title>
         {% include 'meta' %}
@@ -15,8 +15,6 @@
         {% for size in site.favicon_sizes %}
             <link rel="icon" href="{{ site.favicon.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
         {% endfor %}
-
-        <link href="https://fonts.googleapis.com/css?family=Barlow:400,600,700" rel="stylesheet">
     </head>
     <body class="font-sans text-black leading-normal">
         <div id="app" v-cloak>
