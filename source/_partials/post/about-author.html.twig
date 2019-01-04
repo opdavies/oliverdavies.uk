@@ -1,17 +1,13 @@
-<div class="clearfix mt-4">
+<div class="mt-4">
     <h2>About the Author</h2>
 
-    <div class="flex">
+    <div class="flex items-center">
         <div class="mr-4 flex-none leading-none">
-            <img
-                src="{{ site.avatar.url }}"
-                alt="Picture of Oliver"
-                class="avatar w-16"
-            >
+            <img src="{{ site.avatar.url }}" alt="Picture of Oliver" class="avatar w-16">
         </div>
 
-        <p class="mb-0">
-            Oliver Davies is a full-stack Web Developer and System Administrator based in the UK.
+        <p class="text-sm mb-0">
+            Oliver Davies is a Web Developer and System Administrator based in the UK.
             He is a {{ site.work.role }} at <a href="{{ site.companies[site.work.company].url }}?utm_source={{ site.short_url }}&amp;utm_medium=about-author" class="link">{{ site.companies[site.work.company].name }}</a> and a part-time freelancer specialising in Drupal, Symfony and Laravel development and Linux systems administration.
         </p>
     </div>
