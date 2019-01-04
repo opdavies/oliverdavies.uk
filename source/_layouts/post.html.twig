@@ -17,13 +17,14 @@
 
     <div class="markdown mb-6">
         {% include 'post/old-post-message' %}
-        {{ page.summary|markdown }}
-        {% block excerpt %}{% endblock %}
         {% block content %}{% endblock %}
     </div>
 
-    {% include 'post/questions-comments' %}
-    {% include 'post/tags' %}
+    <div class="mb-6">
+        {% include 'post/questions-comments' %}
+        {% include 'post/tags' %}
+    </div>
+
     {% include 'post/about-author' %}
 {% endblock %}
 
