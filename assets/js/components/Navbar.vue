@@ -20,7 +20,7 @@
       >
         <a
           v-for="item in items"
-          class="block text-black focus:outline-none p-4 border-l-3 sm:border-l-0 sm:border-b-3 border-transparent hover:border-grey-light sm:ml-4 sm:mr-0 sm:p-0 hover:no-underline text-sm"
+          class="block text-black no-underline focus:outline-none p-4 border-l-3 sm:border-l-0 sm:border-b-3 border-transparent hover:border-grey-light sm:ml-4 sm:mr-0 sm:p-0 hover:no-underline text-sm"
           :class="{'border-blue hover:border-blue': isActive(item)}"
           :href="item.href"
         >

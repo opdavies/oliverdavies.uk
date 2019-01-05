@@ -27,7 +27,7 @@
                     </td>
 
                     {% if not talk_page %}
-                        <td class="whitespace-no-wrap xl:whitespace-normal">
+                        <td class="markup whitespace-no-wrap xl:whitespace-normal">
                             {% if talk.talk.url is not empty %}
                                 <a href="{{ talk.talk.url }}">
                                     {{ talk.talk.title }}
@@ -46,7 +46,7 @@
                         </td>
                     {% endif %}
 
-                    <td class="whitespace-no-wrap xl:whitespace-normal">
+                    <td class="markup whitespace-no-wrap xl:whitespace-normal">
                         {% if talk.event.url is not empty %}
                             <a href="{{ talk.event.url }}">
                                 {{ talk.event.name }}
@@ -67,7 +67,7 @@
                             {% if talk.event.joindin and talk.event.date <= 'today'|date('Y-m-d') %}
                                 <a
                                     href="{{ talk.event.joindin }}"
-                                    class="button no-underline"
+                                    class="button"
                                     title="Read or leave feedback for this talk"
                                 >
                                     <i class="fa fa-comment-o"></i> joind.in

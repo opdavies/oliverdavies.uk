@@ -34,13 +34,12 @@ talks:
         date: '2019-01-28'
 ---
 {% block content %}
-    <p>
-        I regularly speak at conferences and user groups about a range of subjects including PHP, Drupal, automated testing, Git and systems administration.
-        If you would like to me to speak at your group or conference, please <a href="/contact">get in touch</a>.
-    </p>
+    <div class="markup mb-6">
+        <p>I regularly speak at conferences and user groups about a range of subjects including PHP, Drupal, automated testing, Git and systems administration.</p>
+    </div>
 
     <div class="mb-6">
-        <h2>Upcoming Talks</h2>
+        <h2 class="mb-2">Upcoming Talks</h2>
 
         {% set upcoming_talks = getUpcomingTalks(data.talks|merge(page.talks), site.events) %}
         {% if not upcoming_talks.empty %}
@@ -54,7 +53,7 @@ talks:
     </div>
 
     <div>
-        <h2>Previous Talks</h2>
+        <h2 class="mb-2">Previous Talks</h2>
 
         {% include "talks-table" with {
             talks: getPastTalks(data.talks|merge(page.talks), site.events)

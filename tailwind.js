@@ -3,24 +3,20 @@ var colors = {
   'transparent': 'transparent',
 
   'black': '#222b2f',
-  'grey-darkest': '#364349',
-  'grey-darker': '#596a73',
-  'grey-dark': '#70818a',
+  'blue': '#0678be',
+  'blue-dark': '#2779bd',
+  'blue-lighter': '#bcdefa',
+  'green-dark': '#1f9d55',
   'grey': '#9babb4',
+  'grey-dark': '#70818a',
+  'grey-darker': '#596a73',
+  'grey-darkest': '#364349',
   'grey-light': '#dae4e9',
   'grey-lighter': '#f2f2f2',
   'grey-lightest': '#fafcfc',
-  'white': '#ffffff',
-
-  'blue-dark': '#2779bd',
-  'blue': '#0678be',
-  'blue-lighter': '#bcdefa',
-
-  'red-dark': '#cc1f1a',
-
   'orange': '#f6993f',
-
-  'green-dark': '#1f9d55',
+  'red-dark': '#cc1f1a',
+  'white': '#ffffff',
 }
 
 module.exports = {
