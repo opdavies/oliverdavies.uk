@@ -4,22 +4,10 @@ title: Blog
 use: [posts]
 ---
 {% block content %}
-    <ul class="list-reset -mx-4">
+    <ul class="list-reset -mt-2 -mx-4">
         {% for post in data.posts %}
             <li class="p-4 mb-12 {{ post.draft ? 'bg-blue-lighter' }}">
-                <h2 class="text-2xl mb-1">{{ post.draft ? 'Draft: '|upper }}{{ post.title }}</h2>
-                <p class="text-sm text-grey-dark mb-4">Posted on {{ post.date|date('jS F Y') }}</p>
-
-                {% include 'post/intro-image' with { page: post } %}
-
-                <div class="markup">
-                    <p>{{ post.excerpt }}</p>
-
-                    <a href="{{ post.url }}" class="button">
-                        Read more
-                        <span class="visuallyhidden">about {{ post.title }}</span>
-                    </a>
-                </div>
+                {% include 'blog/post-summary' %}
             </li>
         {% endfor %}
     </ul>

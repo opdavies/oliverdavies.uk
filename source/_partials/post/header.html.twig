@@ -1,8 +1,7 @@
-{% set title_tag = title_tag ?: 'h1' %}
-<{{ title_tag }} class="leading-tight mb-1">
-    {{ page.title }}
-</{{ title_tag }}>
+<div class="mb-8 bg-blue-light">
+    <h1 class="leading-tight mb-2">{{ page.title }}</h1>
 
-<p class="text-grey-dark">
-    <span class="visuallyhidden">Posted on </span>{{ page.date|date('jS F Y') }}
-</p>
+    <p class="text-grey-dark">
+        <span class="visuallyhidden">Posted on </span>{{ page.date|date('jS F Y') }}
+    </p>
+</div>
