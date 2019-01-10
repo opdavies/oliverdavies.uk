@@ -1,7 +1,9 @@
 <div class="markup">
-    <a href="{{ post.url }}" class="text-black focus:text-white inline-block">
-        <h2 class="text-inherit text-xl mt-0 mb-1">{{ post.draft ? 'Draft: '|upper }}{{ post.title }}</h2>
-    </a>
+    <h2 class="text-inherit text-xl m-0">
+        <a href="{{ post.url }}" class="text-black focus:text-white inline-block">
+            {{ post.draft ? 'Draft: '|upper }}{{ post.title }}
+        </a>
+    </h2>
 
     <p class="text-sm text-grey-dark mb-4">Posted on {{ post.date|date('jS F Y') }}</p>
 </div>
