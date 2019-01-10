@@ -6,7 +6,7 @@ use: [posts]
 {% block content %}
     <ul class="list-reset -mt-4 -mx-4">
         {% for post in data.posts %}
-            <li class="p-4 mb-10 {{ post.draft ? 'bg-blue-lighter' }}">
+            <li class="p-4 mb-6 {{ post.draft ? 'bg-blue-lighter' }}">
                 {% include 'blog/post-summary' %}
             </li>
         {% endfor %}
