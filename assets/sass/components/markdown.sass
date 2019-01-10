@@ -29,14 +29,13 @@
 
   a,
   .link
-    @apply text-blue underline
+    @apply text-blue no-underline
 
-    &:focus,
     &:hover
-      @apply no-underline
+      @apply underline
 
     &:focus
-      @apply text-white bg-blue outline-none px-px -mx-px
+      @apply text-white bg-blue outline-none px-px -mx-px no-underline
 
   pre code,
   .hljs
