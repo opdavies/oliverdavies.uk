@@ -1,9 +1,6 @@
 ---
 title: Deploying PHP applications with Ansible, Ansible Vault and Ansistrano
-events:
-    - event: php_south_wales
-      date: '2019-01-29'
-      joindin: ~
+events: []
 speakerdeck:
     id: ~
     ratio: ~
