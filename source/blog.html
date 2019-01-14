@@ -3,6 +3,12 @@ layout: default
 title: Blog
 use: [posts]
 ---
+{% block page_title_wrapper %}
+    <h1 class="leading-tight mb-8">
+        {% block page_title %}{{ page.title }}{% endblock %}
+    </h1>
+{% endblock %}
+
 {% block content %}
     <ul class="list-reset -mt-4 -mx-4">
         {% for post in data.posts %}
