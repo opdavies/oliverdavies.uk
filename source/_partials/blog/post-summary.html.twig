@@ -8,8 +8,6 @@
     <p class="text-sm text-grey-dark">Posted on {{ post.date|date('jS F Y') }}</p>
 </div>
 
-{% include 'post/intro-image' with { page: post } %}
-
 <div class="markup">
     <p>{{ post.excerpt }}</p>
 </div>
