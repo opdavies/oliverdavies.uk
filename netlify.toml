@@ -1,4 +1,4 @@
 [build]
-command = "composer prod && yarn prod && cp -R source/{css,fonts,js} output_prod"
+command = "composer prod && yarn prod && cp -R source/dist output_prod"
 publish = "output_prod"
 environment = { PHP_VERSION = "7.2" }
