@@ -4,12 +4,12 @@ require('laravel-mix-purgecss');
 require('laravel-mix-tailwind');
 
 mix.disableNotifications()
-    .sass('assets/sass/app.sass', 'source/css')
+    .sass('assets/sass/app.sass', 'source/dist/css')
     .js([
         'node_modules/jquery/src/jquery.js',
         'assets/js/app.js',
-    ], 'source/js/all.js')
-    .copyDirectory('node_modules/font-awesome/fonts', 'source/fonts')
+    ], 'source/dist/js/all.js')
+    .copyDirectory('node_modules/font-awesome/fonts', 'source/dist/fonts')
     .tailwind()
     .purgeCss({
         globs: [
