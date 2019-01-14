@@ -1,11 +1,11 @@
-<div class="markup">
-    <h2 class="text-inherit text-xl m-0">
+<div class="markup mb-2">
+    <h2 class="text-inherit text-lg m-0">
         <a href="{{ post.url }}" class="text-black focus:text-white inline-block">
             {{ post.draft ? 'Draft: '|upper }}{{ post.title }}
         </a>
     </h2>
 
-    <p class="text-sm text-grey-dark mb-4">Posted on {{ post.date|date('jS F Y') }}</p>
+    <p class="text-sm text-grey-dark">Posted on {{ post.date|date('jS F Y') }}</p>
 </div>
 
 {% include 'post/intro-image' with { page: post } %}
