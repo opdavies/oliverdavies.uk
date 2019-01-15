@@ -1,0 +1,14 @@
+---
+layout: default
+title: Articles
+use: [posts]
+---
+{% for post in data.posts if post.favourite %}
+    <div class="mb-10">
+        {% include 'blog/post-summary' %}
+    </div>
+{% endfor %}
+
+<div class="markup">
+    <a href="/articles/archive">Archive</a>
+</div>
