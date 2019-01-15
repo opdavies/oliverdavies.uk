@@ -4,7 +4,7 @@ excerpt: How to use PHP to generate and export filters for Gmail.
 tags:
     - php
     - gmail
-favourite: true
+promoted: true
 ---
 Earlier this week I wrote a small PHP library called [GmailFilterBuilder][0] that allows you to write Gmail filters in PHP and export them to XML.
 

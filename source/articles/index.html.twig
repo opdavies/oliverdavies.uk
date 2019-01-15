@@ -4,7 +4,7 @@ title: Articles
 use: [posts]
 ---
 <div class="mb-10 spaced-y-10">
-    {% for post in data.posts if post.favourite %}
+    {% for post in data.posts if post.promoted %}
         <div>
             {% include 'blog/post-summary' %}
         </div>
