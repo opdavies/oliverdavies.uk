@@ -22,7 +22,7 @@ use: [posts, talks]
     {% endfor %}
 
   <url>
-    <loc>{{ site.url }}/blog</loc>
+    <loc>{{ site.url }}/articles</loc>
     <lastmod>{{ site.calculated_date|date('Y-m-d') }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

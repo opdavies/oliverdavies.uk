@@ -50,8 +50,8 @@ I’m giving the [Test Driven Drupal][9] talk at the [Drupal Dev Days conference
 [3]: {{site.companies['microserve'].url}}
 [4]: https://github.com/drupal-composer/drupal-project
 [5]: https://www.drupal.org/project/examples
-[6]: /blog/creating-a-custom-phpunit-command-for-docksal
-[7]: /blog/using-environment-variables-settings-docksal
+[6]: /articles/creating-a-custom-phpunit-command-for-docksal
+[7]: /articles/using-environment-variables-settings-docksal
 [8]: https://github.com/opdavies/drupal-testing-workshop-exercises
 [9]: /talks/tdd-test-driven-drupal
 [10]: https://www.drupal.org/project/private_message_queue

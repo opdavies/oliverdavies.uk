@@ -325,6 +325,7 @@ module.exports = {
       center: true,
       padding: '1rem',
     }),
+    require('tailwindcss-spaced-items')(),
     require('tailwindcss-visuallyhidden')(),
     require('tailwindcss-skip-link')(),
     require('tailwindcss-vuejs')(),
