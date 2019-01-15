@@ -50,6 +50,6 @@ If you have questions or would like to suggest something for me to include in th
 <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 {% endblock %}
 
-[0]: /blog/tags/testing
+[0]: /articles/tags/testing
 [1]: /talks/tdd-test-driven-drupal
 [2]: /contact
