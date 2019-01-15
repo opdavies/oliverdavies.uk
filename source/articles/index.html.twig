@@ -3,11 +3,13 @@ layout: default
 title: Articles
 use: [posts]
 ---
-{% for post in data.posts if post.favourite %}
-    <div class="mb-10">
-        {% include 'blog/post-summary' %}
-    </div>
-{% endfor %}
+<div class="mb-10 spaced-y-10">
+    {% for post in data.posts if post.favourite %}
+        <div>
+            {% include 'blog/post-summary' %}
+        </div>
+    {% endfor %}
+</div>
 
 <div class="markup">
     <a href="/articles/archive">Archive</a>

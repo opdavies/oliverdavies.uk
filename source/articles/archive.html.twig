@@ -10,9 +10,9 @@ use: [posts]
 {% endblock %}
 
 {% block content %}
-    <ul class="list-reset -mt-4 -mx-4">
+    <ul class="list-reset -mt-4 -mx-4 spaced-y-4">
         {% for post in data.posts %}
-            <li class="p-4 mb-6 {{ post.draft ? 'bg-blue-lighter' }}">
+            <li class="p-4 {{ post.draft ? 'bg-blue-lighter' }}">
                 {% include 'blog/post-summary' %}
             </li>
         {% endfor %}
