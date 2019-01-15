@@ -9,6 +9,7 @@ tags:
   - illuminate-collections
   - laravel-collections
   - php
+favourite: true
 ---
 Today I found another instance where I decided to use [Illuminate Collections][0] within my Drupal 8 code; whilst I was debugging an issue where a [Drupal Commerce][1] promotion was incorrectly being applied to an order.
 
