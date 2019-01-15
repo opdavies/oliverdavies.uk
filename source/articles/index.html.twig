@@ -4,20 +4,20 @@ title: Articles
 use: [posts]
 ---
 <div class="spaced-y-10">
-    <div class="text-lg spaced-y-4">
+    <header class="text-lg spaced-y-4">
         <p>I enjoy writing articles, and have written a number of them so far during my career, both to document my own learning as well to act as resources for others.</p>
         <p>Here are some of my favourites.</p>
-    </div>
+    </header>
 
-    <div class="spaced-y-10">
+    <div class="spaced-y-12">
         {% for post in data.posts if post.promoted %}
-            <div>
+            <article>
                 {% include 'blog/post-summary' %}
-            </div>
+            </article>
         {% endfor %}
     </div>
 
-    <div class="markup">
+    <footer class="markup">
         <p>Read the rest of my articles in the <a href="/articles/archive">archives</a>.</p>
-    </div>
+    </footer>
 </div>
