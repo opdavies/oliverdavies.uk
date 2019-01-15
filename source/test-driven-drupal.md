@@ -5,7 +5,7 @@ mailchimp_url: 'https://oliverdavi.us18.list-manage.com/subscribe/post?u=b4ac8dd
 contact_email: 'oliver@testdrivendrupal.com'
 ---
 {% block content %}
-<div class="markdown mb-6" markdown="1">
+<div class="markup spaced-y-4 mb-6" markup="1">
 Having [given talks][1] and workshops, been a guest on podcasts and [written blog posts][0] about automated testing in Drupal, I’m currently in the planning phase of a book and potentially some accompanying screencasts about it, focussing on Drupal 8.
 
 I’m still thinking about what use-cases to cover and examples to include, but here are some of the things I’m considering:
@@ -50,6 +50,6 @@ If you have questions or would like to suggest something for me to include in th
 <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 {% endblock %}
 
-[0]: /blog/tags/testing
+[0]: /articles/tags/testing
 [1]: /talks/tdd-test-driven-drupal
 [2]: /contact

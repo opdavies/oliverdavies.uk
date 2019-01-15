@@ -7,6 +7,7 @@ tags:
     - tweet
     - vuejs
 has_tweets: true
+promoted: true
 ---
 Earlier this week, I built a clone of [Drupal][0]’s default theme, Bartik, with [Vue.js][1] and [Tailwind CSS][2]. You can [view the code on GitHub][3] and the [site itself on Netlify][4].
 

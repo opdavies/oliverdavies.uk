@@ -60,9 +60,9 @@ export default {
           pattern: '^/talks/?',
         },
         {
-          title: 'Blog',
-          href: '/blog',
-          pattern: '^/blog/?',
+          title: 'Articles',
+          href: '/articles',
+          pattern: '^/articles/?',
         },
         {
           title: 'Book',

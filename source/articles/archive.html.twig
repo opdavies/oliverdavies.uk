@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Archive
 use: [posts]
 ---
 {% block page_title_wrapper %}
@@ -10,13 +10,13 @@ use: [posts]
 {% endblock %}
 
 {% block content %}
-    <ul class="list-reset -mt-4 -mx-4">
+    <div class="-mt-4 -mx-4 spaced-y-4">
         {% for post in data.posts %}
-            <li class="p-4 mb-6 {{ post.draft ? 'bg-blue-lighter' }}">
+            <article class="p-4 {{ post.draft ? 'bg-blue-lighter' }}">
                 {% include 'blog/post-summary' %}
-            </li>
+            </article>
         {% endfor %}
-    </ul>
+    </div>
 {% endblock %}
 
 {% block scripts %}

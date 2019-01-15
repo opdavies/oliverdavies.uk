@@ -6550,6 +6550,10 @@ tailwindcss-skip-link@^1.0.0:
   resolved "https://registry.yarnpkg.com/tailwindcss-skip-link/-/tailwindcss-skip-link-1.0.1.tgz#b965624ed0b007ddd33f0326f2719d9a88b857c7"
   integrity sha512-Hxivkqu7UEluZY+ZPv+aQv4dreqTfYRgniEtux4qb9yJPjyR4dXiHMIWk7LgNqsyCPKpoRL8FJq55uIQN4ms+w==
 
+"tailwindcss-spaced-items@https://github.com/opdavies/tailwindcss-spaced-items.git#fix-margin-auto":
+  version "0.1.0"
+  resolved "https://github.com/opdavies/tailwindcss-spaced-items.git#70df16b772d6dda8f9bf4b23768142d54a3e815b"
+
 tailwindcss-visuallyhidden@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/tailwindcss-visuallyhidden/-/tailwindcss-visuallyhidden-1.0.1.tgz#ed67ecf6ee48ea0313b5c3c27498467f350be206"
