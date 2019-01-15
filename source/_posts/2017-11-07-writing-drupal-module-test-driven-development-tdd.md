@@ -8,6 +8,7 @@ meta:
         width: 2560
         height: 1440
         type: image/png
+favourite: true
 ---
 <p class="text-center" markdown="1">![](/images/blog/drupalcamp-dublin.jpg)</p>
 

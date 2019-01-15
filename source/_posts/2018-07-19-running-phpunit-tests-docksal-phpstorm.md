@@ -8,6 +8,7 @@ tags:
     - phpstorm
     - phpunit
     - testing
+favourite: true
 ---
 I’ve recently re-watched [A Clean PHPUnit Workflow in PHPStorm][0] on [Laracasts][1], where Jeffrey configures PhpStorm to run tests from within the IDE. With Drupal 8 using PHPUnit too, I decided to try and do the same with a local D8 site.
 

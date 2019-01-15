@@ -7,6 +7,7 @@ tags:
     - drupal-planet
     - php
     - symfony
+favourite: true
 ---
 I’ve been experimenting with moving some code to Drupal 8, and I’m quite intrigued by a different way that I’ve tried to structure it - using event subscribers, building on some of the takeaways from Drupal Dev Days.
 
