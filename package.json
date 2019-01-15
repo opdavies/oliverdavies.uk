@@ -20,5 +20,8 @@
     "tailwindcss-visuallyhidden": "^1.0.1",
     "tailwindcss-vuejs": "^1.0.0",
     "vue": "^2.5.17"
+  },
+  "dependencies": {
+    "tailwindcss-spaced-items": "https://github.com/opdavies/tailwindcss-spaced-items.git#fix-margin-auto"
   }
 }
