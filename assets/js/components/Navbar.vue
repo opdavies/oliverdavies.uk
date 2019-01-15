@@ -55,14 +55,14 @@ export default {
           pattern: '^/.$',
         },
         {
-          title: 'Talks',
-          href: '/talks',
-          pattern: '^/talks/?',
-        },
-        {
           title: 'Articles',
           href: '/articles',
           pattern: '^/articles/?',
+        },
+        {
+          title: 'Talks',
+          href: '/talks',
+          pattern: '^/talks/?',
         },
         {
           title: 'Book',
