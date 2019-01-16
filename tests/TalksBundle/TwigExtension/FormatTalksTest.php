@@ -22,10 +22,8 @@ class FormatTalksTest extends TestCase
         $this->extension = new TalksExtension();
     }
 
-    /**
-     * @covers \TalksBundle\TwigExtension\TalksExtension::format()
-     */
-    public function testFormat()
+    /** @test */
+    public function format_events()
     {
         $event_data = [
             'event-a' => [
@@ -97,10 +95,8 @@ class FormatTalksTest extends TestCase
         });
     }
 
-    /**
-     * @covers \TalksBundle\TwigExtension\TalksExtension::getAll()
-     */
-    public function testGetAll()
+    /** @test */
+    public function get_all_events()
     {
         $eventA = ['date' => (new DateTime('+1 week'))->format('Y-m-d')];
         $eventB = ['date' => (new DateTime('-2 weeks'))->format('Y-m-d')];
@@ -122,10 +118,8 @@ class FormatTalksTest extends TestCase
         );
     }
 
-    /**
-     * @covers \TalksBundle\TwigExtension\TalksExtension::getUpcoming()
-     */
-    public function testGetUpcoming()
+    /** @test */
+    public function get_upcoming_events()
     {
         $eventA = ['date' => (new DateTime('+1 week'))->format('Y-m-d')];
         $eventB = ['date' => (new DateTime('-2 weeks'))->format('Y-m-d')];
@@ -149,10 +143,8 @@ class FormatTalksTest extends TestCase
         );
     }
 
-    /**
-     * @covers \TalksBundle\TwigExtension\TalksExtension::getPast()
-     */
-    public function testGetPast()
+    /** @test */
+    public function get_past_events()
     {
         $eventA = ['date' => (new DateTime('+1 week'))->format('Y-m-d')];
         $eventB = ['date' => (new DateTime('-2 weeks'))->format('Y-m-d')];
@@ -178,13 +170,6 @@ class FormatTalksTest extends TestCase
         );
     }
 
-    /**
-     * Extract the returned dates from the results.
-     *
-     * @param Collection $results The results returned from the filter.
-     *
-     * @return array An array of dates.
-     */
     private function extractDates(Collection $results)
     {
         return $results->pluck('event.date')->all();
