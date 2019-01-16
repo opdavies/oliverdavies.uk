@@ -3,14 +3,14 @@
 namespace Tests\FormatTalksBundle\TwigExtension;
 
 use DateTime;
-use FormatTalksBundle\TwigExtension\FormatTalksExtension;
+use TalksBundle\TwigExtension\TalksExtension;
 use Illuminate\Support\Collection;
 use PHPUnit\Framework\TestCase;
 
 class FormatTalksTest extends TestCase
 {
     /**
-     * @var FormatTalksExtension
+     * @var TalksExtension
      */
     private $extension;
 
@@ -19,11 +19,11 @@ class FormatTalksTest extends TestCase
      */
     public function setUp()
     {
-        $this->extension = new FormatTalksExtension();
+        $this->extension = new TalksExtension();
     }
 
     /**
-     * @covers FormatTalksExtension::format()
+     * @covers \TalksBundle\TwigExtension\TalksExtension::format()
      */
     public function testFormat()
     {
@@ -98,7 +98,7 @@ class FormatTalksTest extends TestCase
     }
 
     /**
-     * @covers FormatTalksExtension::getAll()
+     * @covers \TalksBundle\TwigExtension\TalksExtension::getAll()
      */
     public function testGetAll()
     {
@@ -123,7 +123,7 @@ class FormatTalksTest extends TestCase
     }
 
     /**
-     * @covers FormatTalksExtension::getUpcoming()
+     * @covers \TalksBundle\TwigExtension\TalksExtension::getUpcoming()
      */
     public function testGetUpcoming()
     {
@@ -150,7 +150,7 @@ class FormatTalksTest extends TestCase
     }
 
     /**
-     * @covers FormatTalksExtension::getPast()
+     * @covers \TalksBundle\TwigExtension\TalksExtension::getPast()
      */
     public function testGetPast()
     {

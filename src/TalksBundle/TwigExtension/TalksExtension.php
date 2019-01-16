@@ -1,13 +1,13 @@
 <?php
 
-namespace FormatTalksBundle\TwigExtension;
+namespace TalksBundle\TwigExtension;
 
 use Illuminate\Support\Collection;
 use Sculpin\Contrib\ProxySourceCollection\ProxySourceCollection;
 use Twig_Extension;
 use Twig_SimpleFunction;
 
-class FormatTalksExtension extends Twig_Extension
+class TalksExtension extends Twig_Extension
 {
     /**
      * @var string The current date.
@@ -112,6 +112,6 @@ class FormatTalksExtension extends Twig_Extension
      */
     public function getName()
     {
-        return 'format_talks';
+        return 'talks';
     }
 }
