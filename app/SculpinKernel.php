@@ -20,7 +20,6 @@ class SculpinKernel extends AbstractKernel
             SculpinTwigMarkdownBundle::class,
 
             SculpinFormatTalksBundle::class,
-            SculpinWebsiteBundle::class,
         ];
     }
 }
