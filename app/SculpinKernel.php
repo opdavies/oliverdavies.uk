@@ -5,6 +5,7 @@ use Opdavies\Sculpin\Bundle\ContentGeneratorBundle\SculpinContentGeneratorBundle
 use Opdavies\Sculpin\Bundle\GistEmbedBundle\SculpinGistEmbedBundle;
 use Opdavies\Sculpin\Bundle\TwigMarkdownBundle\SculpinTwigMarkdownBundle;
 use Sculpin\Bundle\SculpinBundle\HttpKernel\AbstractKernel;
+use TalksBundle\SculpinTalksBundle;
 use WebsiteBundle\SculpinWebsiteBundle;
 
 class SculpinKernel extends AbstractKernel
@@ -19,7 +20,7 @@ class SculpinKernel extends AbstractKernel
             SculpinGistEmbedBundle::class,
             SculpinTwigMarkdownBundle::class,
 
-            SculpinFormatTalksBundle::class,
+            SculpinTalksBundle::class,
         ];
     }
 }

@@ -1,5 +1,5 @@
 services:
     twig.format_talks:
-        class: 'FormatTalksBundle\TwigExtension\FormatTalksExtension'
+        class: 'TalksBundle\TwigExtension\TalksExtension'
         tags:
             - { name: twig.extension }
