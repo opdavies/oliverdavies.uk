@@ -61,11 +61,9 @@ class TalksExtension extends Twig_Extension
    */
     public function getUpcoming($talks, array $eventData = [])
     {
-        return $this->format($talks, $eventData)
-            ->filter(function ($talk) {
-                return $talk['event']['date'] >= $this->today;
-            })
-            ->sortBy('event.date');
+         return $this->getAll($talks)->filter(function ($talk) {
+            return collect($talk['events'])->pluck('date')->sort()->last() >= $this->today;
+        })->values();
     }
 
     /**
@@ -80,7 +78,7 @@ class TalksExtension extends Twig_Extension
     {
         return $this->getAll($talks)->filter(function ($talk) {
             return collect($talk['events'])->pluck('date')->sort()->last() < $this->today;
-        });
+        })->values();
     }
 
   /**
