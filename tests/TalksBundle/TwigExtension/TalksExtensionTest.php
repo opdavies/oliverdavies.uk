@@ -25,7 +25,22 @@ class TalksExtensionTest extends TestCase
     /** @test */
     public function talks_given_multiple_times_are_only_returned_once()
     {
-        $this->markTestIncomplete();
+        $talkA = [
+            'title' => 'Talk A',
+            'events' => [
+                ['event' => 'event_a', 'date' => (new DateTime('-1 days'))->format(TalksExtension::DATE_FORMAT)],
+                ['event' => 'event_b', 'date' => (new DateTime('+1 days'))->format(TalksExtension::DATE_FORMAT)],
+            ],
+        ];
+
+        $talkB = [
+            'title' => 'Talk B',
+            'events' => [
+                ['event' => 'event_a', 'date' => (new DateTime('-3 days'))->format(TalksExtension::DATE_FORMAT)],
+            ],
+        ];
+
+        $this->assertCount(2, $this->extension->getAll([$talkA, $talkB]));
     }
 
     /** @test */

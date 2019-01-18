@@ -9,6 +9,8 @@ use Twig_SimpleFunction;
 
 class TalksExtension extends Twig_Extension
 {
+    const DATE_FORMAT = 'Y-m-d';
+
     /**
      * @var string The current date.
      */
@@ -34,17 +36,17 @@ class TalksExtension extends Twig_Extension
         ];
     }
 
-  /**
-   * Get all upcoming and previous talks.
-   *
-   * @param ProxySourceCollection|array $talks All talk nodes.
-   * @param array $eventData Shared event data.
-   *
-   * @return Collection A sorted collection of talks.
-   */
-    public function getAll($talks, array $eventData = [])
+    /**
+     * Get all upcoming and previous talks.
+     *
+     * @param ProxySourceCollection|array $talks All talk nodes.
+     * @param array $eventData Shared event data.
+     *
+     * @return Collection A sorted collection of talks.
+     */
+    public function getAll($talks, array $eventData = []): Collection
     {
-        return $this->format($talks, $eventData)->sortBy('event.date');
+        return collect($talks);
     }
 
   /**
