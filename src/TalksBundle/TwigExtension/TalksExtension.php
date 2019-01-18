@@ -78,11 +78,9 @@ class TalksExtension extends Twig_Extension
      */
     public function getPast($talks, array $eventData = [])
     {
-        return $this->format($talks, $eventData)
-            ->filter(function ($talk) {
-                return $talk['event']['date'] < $this->today;
-            })
-            ->sortByDesc('event.date');
+        return $this->getAll($talks)->filter(function ($talk) {
+            return collect($talk['events'])->pluck('date')->sort()->last() < $this->today;
+        });
     }
 
   /**
