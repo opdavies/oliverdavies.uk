@@ -102,4 +102,10 @@ class TalksExtensionTest extends TestCase
     {
         $this->markTestIncomplete();
     }
+
+    /** @test */
+    public function if_a_talk_is_both_upcoming_and_past_then_it_is_only_shown_as_upcoming()
+    {
+        $this->markTestIncomplete();
+    }
 }
