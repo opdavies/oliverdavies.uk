@@ -80,14 +80,14 @@ class TalksExtensionTest extends TestCase
         $pastTalk = [
             'title' => 'Past talk',
             'events' => [
-              'date' => (new DateTime('-1 day'))->format(TalksExtension::DATE_FORMAT),
+                ['date' => (new DateTime('-1 day'))->format(TalksExtension::DATE_FORMAT)],
             ]
         ];
 
         $futureTalk = [
             'title' => 'Future talk',
             'events' => [
-              ['date' => (new DateTime('+1 day'))->format(TalksExtension::DATE_FORMAT)],
+                ['date' => (new DateTime('+1 day'))->format(TalksExtension::DATE_FORMAT)],
             ],
         ];
 
@@ -103,21 +103,21 @@ class TalksExtensionTest extends TestCase
         $pastTalk = [
             'title' => 'Past talk',
             'events' => [
-              'date' => (new DateTime('-1 day'))->format(TalksExtension::DATE_FORMAT),
+                ['date' => (new DateTime('-1 day'))->format(TalksExtension::DATE_FORMAT)],
             ]
         ];
 
         $todayTalk = [
             'title' => 'A talk that it happening today',
             'events' => [
-              ['date' => (new DateTime('now'))->format(TalksExtension::DATE_FORMAT)],
+                ['date' => (new DateTime('now'))->format(TalksExtension::DATE_FORMAT)],
             ],
         ];
 
         $futureTalk = [
             'title' => 'Future talk',
             'events' => [
-              ['date' => (new DateTime('+1 day'))->format(TalksExtension::DATE_FORMAT)],
+                ['date' => (new DateTime('+1 day'))->format(TalksExtension::DATE_FORMAT)],
             ],
         ];
 
