@@ -98,9 +98,33 @@ class TalksExtensionTest extends TestCase
     }
 
     /** @test */
-    public function only_future_events_can_be_retrieved()
+    public function only_current_and_future_talks_can_be_retrieved()
     {
-        $this->markTestIncomplete();
+        $pastTalk = [
+            'title' => 'Past talk',
+            'events' => [
+              'date' => (new DateTime('-1 day'))->format(TalksExtension::DATE_FORMAT),
+            ]
+        ];
+
+        $todayTalk = [
+            'title' => 'A talk that it happening today',
+            'events' => [
+              ['date' => (new DateTime('now'))->format(TalksExtension::DATE_FORMAT)],
+            ],
+        ];
+
+        $futureTalk = [
+            'title' => 'Future talk',
+            'events' => [
+              ['date' => (new DateTime('+1 day'))->format(TalksExtension::DATE_FORMAT)],
+            ],
+        ];
+
+        $result = $this->extension->getUpcoming([$pastTalk, $todayTalk, $futureTalk]);
+
+        $this->assertCount(2, $result);
+        $this->assertSame([$todayTalk, $futureTalk], $result->toArray());
     }
 
     /** @test */
