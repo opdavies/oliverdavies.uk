@@ -81,33 +81,6 @@ class TalksExtension extends Twig_Extension
         })->values();
     }
 
-  /**
-   * Format the talk data into the required format.
-   *
-   * @param ProxySourceCollection|array $talks All talk nodes.
-   * @param array $eventData Shared event data.
-   *
-   * @return Collection The combined event and talk data.
-   */
-    public function format($talks, array $eventData)
-    {
-        $eventData = collect($eventData);
-
-        return collect($talks)->flatMap(function ($talk) use ($eventData) {
-            // Build an associative array with the talk, as well as the
-            // specified event data (e.g. date and time) as well as the shared
-            // event data (e.g. event name and website).
-            return collect($talk['events'])
-                ->map(function ($event) use ($talk, $eventData) {
-
-                    $event = collect($event);
-                    $event = $event->merge($eventData->get($event->get('event')))->all();
-
-                    return compact('event', 'talk');
-                });
-        });
-    }
-
     /**
      * {@inheritdoc}
      */
