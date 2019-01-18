@@ -47,7 +47,7 @@ class TalksExtension extends Twig_Extension
     public function getAll($talks, array $eventData = []): Collection
     {
         return collect($talks)->sortBy(function ($talk) {
-            return collect($talk['events'])->pluck('date')->sort()->last();
+            return $this->getLastDate($talk);
         });
     }
 
@@ -59,10 +59,10 @@ class TalksExtension extends Twig_Extension
    *
    * @return Collection A sorted collection of talks.
    */
-    public function getUpcoming($talks, array $eventData = [])
+    public function getUpcoming($talks, array $eventData = []): Collection
     {
          return $this->getAll($talks)->filter(function ($talk) {
-            return collect($talk['events'])->pluck('date')->sort()->last() >= $this->today;
+            return $this->getLastDate($talk) >= $this->today;
         })->values();
     }
 
@@ -74,10 +74,10 @@ class TalksExtension extends Twig_Extension
      *
      * @return Collection A sorted collection of talks.
      */
-    public function getPast($talks, array $eventData = [])
+    public function getPast($talks, array $eventData = []): Collection
     {
         return $this->getAll($talks)->filter(function ($talk) {
-            return collect($talk['events'])->pluck('date')->sort()->last() < $this->today;
+            return $this->getLastDate($talk) < $this->today;
         })->values();
     }
 
@@ -99,6 +99,7 @@ class TalksExtension extends Twig_Extension
             // event data (e.g. event name and website).
             return collect($talk['events'])
                 ->map(function ($event) use ($talk, $eventData) {
+
                     $event = collect($event);
                     $event = $event->merge($eventData->get($event->get('event')))->all();
 
@@ -113,5 +114,10 @@ class TalksExtension extends Twig_Extension
     public function getName()
     {
         return 'talks';
+    }
+
+    private function getLastDate($talk): string
+    {
+        return (string) collect($talk['events'])->pluck('date')->sort()->last();
     }
 }
