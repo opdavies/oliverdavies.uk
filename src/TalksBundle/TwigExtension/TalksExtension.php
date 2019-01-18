@@ -46,7 +46,9 @@ class TalksExtension extends Twig_Extension
      */
     public function getAll($talks, array $eventData = []): Collection
     {
-        return collect($talks);
+        return collect($talks)->sortBy(function ($talk) {
+            return collect($talk['events'])->pluck('date')->sort()->last();
+        });
     }
 
   /**

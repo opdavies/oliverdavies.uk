@@ -46,7 +46,32 @@ class TalksExtensionTest extends TestCase
     /** @test */
     public function talks_are_ordered_by_the_most_recent_event_date()
     {
-        $this->markTestIncomplete();
+        $talkA = [
+            'title' => 'Talk A',
+            'events' => [
+                ['event' => 'event_a', 'date' => (new DateTime('-5 days'))->format(TalksExtension::DATE_FORMAT)],
+            ],
+        ];
+
+        $talkB = [
+            'title' => 'Talk B',
+            'events' => [
+                ['event' => 'event_a', 'date' => (new DateTime('-20 days'))->format(TalksExtension::DATE_FORMAT)],
+            ],
+        ];
+
+        $talkC = [
+            'title' => 'Talk C',
+            'events' => [
+                ['event' => 'event_a', 'date' => (new DateTime('-3 days'))->format(TalksExtension::DATE_FORMAT)],
+                ['event' => 'event_b', 'date' => (new DateTime('-10 days'))->format(TalksExtension::DATE_FORMAT)],
+            ],
+        ];
+
+        $unorderedTalks = [$talkC, $talkA, $talkB];
+        $orderedTalks = $this->extension->getAll($unorderedTalks);
+
+        $this->assertEquals([$talkC, $talkA, $talkB], $orderedTalks->toArray());
     }
 
     /** @test */
