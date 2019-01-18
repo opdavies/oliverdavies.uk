@@ -130,6 +130,15 @@ class TalksExtensionTest extends TestCase
     /** @test */
     public function if_a_talk_is_both_upcoming_and_past_then_it_is_only_shown_as_upcoming()
     {
-        $this->markTestIncomplete();
+        $talk = [
+            'title' => 'An upcoming talk that has been given before',
+            'events' => [
+                ['date' => (new DateTime('-1 week'))->format(TalksExtension::DATE_FORMAT)],
+                ['date' => (new DateTime('+1 week'))->format(TalksExtension::DATE_FORMAT)],
+            ],
+        ];
+
+        $this->assertCount(1, $this->extension->getUpcoming([$talk]));
+        $this->assertEmpty($this->extension->getPast([$talk]));
     }
 }
