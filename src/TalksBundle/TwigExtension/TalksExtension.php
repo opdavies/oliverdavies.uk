@@ -40,11 +40,10 @@ class TalksExtension extends Twig_Extension
      * Get all upcoming and previous talks.
      *
      * @param ProxySourceCollection|array $talks All talk nodes.
-     * @param array $eventData Shared event data.
      *
      * @return Collection A sorted collection of talks.
      */
-    public function getAll($talks, array $eventData = []): Collection
+    public function getAll($talks): Collection
     {
         return collect($talks)->sortBy(function ($talk) {
             return $this->getLastDate($talk);
@@ -55,11 +54,10 @@ class TalksExtension extends Twig_Extension
    * Get all upcoming talks.
    *
    * @param ProxySourceCollection|array $talks All talk nodes.
-   * @param array $eventData Shared event data.
    *
    * @return Collection A sorted collection of talks.
    */
-    public function getUpcoming($talks, array $eventData = []): Collection
+    public function getUpcoming($talks): Collection
     {
          return $this->getAll($talks)->filter(function ($talk) {
             return $this->getLastDate($talk) >= $this->today;
@@ -70,11 +68,10 @@ class TalksExtension extends Twig_Extension
      * Get all past talks.
      *
      * @param ProxySourceCollection|array $talks All talk nodes.
-     * @param array $eventData Shared event data.
      *
      * @return Collection A sorted collection of talks.
      */
-    public function getPast($talks, array $eventData = []): Collection
+    public function getPast($talks): Collection
     {
         return $this->getAll($talks)->filter(function ($talk) {
             return $this->getLastDate($talk) < $this->today;
