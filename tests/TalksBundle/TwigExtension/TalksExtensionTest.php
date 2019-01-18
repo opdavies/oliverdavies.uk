@@ -75,9 +75,26 @@ class TalksExtensionTest extends TestCase
     }
 
     /** @test */
-    public function only_past_events_can_be_retrieved()
+    public function only_past_talks_can_be_retrieved()
     {
-        $this->markTestIncomplete();
+        $pastTalk = [
+            'title' => 'Past talk',
+            'events' => [
+              'date' => (new DateTime('-1 day'))->format(TalksExtension::DATE_FORMAT),
+            ]
+        ];
+
+        $futureTalk = [
+            'title' => 'Future talk',
+            'events' => [
+              ['date' => (new DateTime('+1 day'))->format(TalksExtension::DATE_FORMAT)],
+            ],
+        ];
+
+        $result = $this->extension->getPast([$pastTalk, $futureTalk]);
+
+        $this->assertCount(1, $result);
+        $this->assertSame($pastTalk, $result->first());
     }
 
     /** @test */
