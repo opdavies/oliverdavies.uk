@@ -35,7 +35,13 @@ talks:
             <div class="spaced-y-8">
                 {% for talk in getUpcomingTalks(page.talks|merge(data.talks)) %}
                     <div class="bg-blue-lighter">
-                        <h3>{{ talk.title }}</h3>
+                        <h3>
+                            {% if talk.url %}
+                                <a href="{{ talk.url }}">{{ talk.title }}</a>
+                            {% else %}
+                                {{ talk.title }}
+                            {% endif %}
+                        </h3>
                     </div>
                 {% else %}
                     <p>sdf</p>
@@ -49,7 +55,13 @@ talks:
             <div class="spaced-y-8">
                 {% for talk in getPastTalks(page.talks|merge(data.talks))|reverse %}
                     <div class="bg-blue-lighter">
-                        <h3>{{ talk.title }}</h3>
+                        <h3>
+                            {% if talk.url %}
+                                <a href="{{ talk.url }}">{{ talk.title }}</a>
+                            {% else %}
+                                {{ talk.title }}
+                            {% endif %}
+                        </h3>
                     </div>
                 {% endfor %}
             </div>
