@@ -42,10 +42,13 @@ events:
     drupalcamp_london_17:
         name: DrupalCamp London 2017
         location: London, UK
-        url: http://drupalcamp.london
 
     drupalcamp_london_18:
         name: DrupalCamp London 2018
+        location: London, UK
+
+    drupalcamp_london_19:
+        name: DrupalCamp London 2019
         location: London, UK
         url: http://drupalcamp.london
 
