@@ -35,18 +35,22 @@ talks:
 {% block content %}
     <div class="spaced-y-10">
         <div>
-            <h2 class="mb-4">Upcoming Talks</h2>
+            <h2 class="font-extrabold mb-4">Upcoming Talks</h2>
 
-            <div class="spaced-y-8">
+            <div class="spaced-y-12">
                 {% for talk in getUpcomingTalks(page.talks|merge(data.talks)) %}
-                    <div class="bg-blue-lighter">
-                        <h3>
+                    <div>
+                        <h3 class="text-lg text-black mb-1">
                             {% if talk.url %}
-                                <a href="{{ talk.url }}">{{ talk.title }}</a>
+                                <a class="text-inherit" href="{{ talk.url }}">{{ talk.title }}</a>
                             {% else %}
                                 {{ talk.title }}
                             {% endif %}
                         </h3>
+
+                        <div class="text-sm text-grey-darkest">
+                            <p>{{ talk.excerpt }}</p>
+                        </div>
                     </div>
                 {% else %}
                     <p>sdf</p>
@@ -55,18 +59,22 @@ talks:
         </div>
 
         <div>
-            <h2 class="mb-4">Previous Talks</h2>
+            <h2 class="font-extrabold mb-4">Previous Talks</h2>
 
-            <div class="spaced-y-8">
+            <div class="spaced-y-12">
                 {% for talk in getPastTalks(page.talks|merge(data.talks))|reverse %}
-                    <div class="bg-blue-lighter">
-                        <h3>
+                    <div>
+                        <h3 class="text-lg text-black mb-1">
                             {% if talk.url %}
-                                <a href="{{ talk.url }}">{{ talk.title }}</a>
+                                <a class="text-inherit" href="{{ talk.url }}">{{ talk.title }}</a>
                             {% else %}
                                 {{ talk.title }}
                             {% endif %}
                         </h3>
+
+                        <div class="text-sm text-grey-darkest">
+                            <p>{{ talk.excerpt }}</p>
+                        </div>
                     </div>
                 {% endfor %}
             </div>
