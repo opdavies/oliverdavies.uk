@@ -1,5 +1,6 @@
 ---
 title: It All Started With A Patch
+excerpt: A lightning talk on how and why to get involved with open source.
 type: Lightning talk
 tags: [meetup, phpsw, open-source]
 speakerdeck:
