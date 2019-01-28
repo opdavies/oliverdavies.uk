@@ -6,6 +6,10 @@ speakerdeck:
 tags:
     - meetup
     - php
+meta:
+    og:
+        image:
+            url: /images/talks/things-you-should-know-about-php.png
 events:
     - event: ssdc
       date: '2019-01-28'
