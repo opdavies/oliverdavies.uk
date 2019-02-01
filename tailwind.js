@@ -1,3 +1,5 @@
+const _ = require('lodash')
+
 let defaultConfig = require('tailwindcss/defaultConfig')()
 
 var colors = {
@@ -36,11 +38,7 @@ const config = {
       'monospace',
     ]
   },
-  fontWeights: {
-    'normal': 400,
-    'medium': 500,
-    'bold': 700,
-  },
+  fontWeights: _.pick(defaultConfig.fontWeights, ['normal', 'medium', 'bold']),
   borderWidths: {
     ...defaultConfig.borderWidths,
     '3': '3px',
