@@ -25,7 +25,8 @@ module.exports = {
   ...defaultConfig,
   colors: colors,
   textColors: colors,
-  borderColors: colors,
+  backgroundColors: colors,
+  borderColors: Object.assign({ default: colors['grey-light'] }, colors),
   fonts: {
     ...defaultConfig.fonts,
     'mono': [
