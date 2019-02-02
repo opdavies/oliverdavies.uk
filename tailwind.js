@@ -21,7 +21,7 @@ var colors = {
   'red-dark': '#cc1f1a',
 }
 
-const config = {
+module.exports = {
   ...defaultConfig,
   colors: colors,
   textColors: colors,
@@ -67,5 +67,3 @@ const config = {
     important: true,
   }
 }
-
-module.exports = config
