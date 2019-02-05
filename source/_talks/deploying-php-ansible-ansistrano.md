@@ -1,9 +1,9 @@
 ---
 title: Deploying PHP applications with Ansible, Ansible Vault and Ansistrano
 speakerdeck:
-    id: ~
-    ratio: ~
-    url: ~
+    id: c11fe635ed8f4741b35bf3ebe53e8323
+    ratio: "1.77777777777778"
+    url: https://speakerdeck.com/opdavies/deploying-php-applications-with-ansible-ansible-vault-and-ansistrano
 tags: [meetup, php, ansible, ansistrano]
 events:
     -
