@@ -45,11 +45,6 @@ If you have questions or would like to suggest something for me to include in th
 {% include 'pages/book/signup-form' %}
 {% endblock %}
 
-{% block scripts %}
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-{% endblock %}
-
 [0]: /articles/tags/testing
 [1]: /talks/tdd-test-driven-drupal
 [2]: /contact
