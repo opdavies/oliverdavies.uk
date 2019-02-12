@@ -48,15 +48,19 @@ It’s a simple filter that accepts a boolean and returns `true` or `false` as a
 
 Before:
 
+<div v-pre markdown="1">
 ```language-twig
 {% raw %}{{ filter.isArchive ? 'true' : 'false' }}{% endraw %}
 ```
+</div>
 
 After:
 
+<div v-pre markdown="1">
 ```language-twig
 {% raw %}{{ filter.isArchive|boolean_string }}{% endraw %}
 ```
+</div>
 
 This can then be used to generate output like this, whereas having blank values would have resulted in errors when importing to Gmail.
 
