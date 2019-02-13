@@ -39,19 +39,7 @@ talks:
 
             <div class="spaced-y-12">
                 {% for talk in getUpcomingTalks(page.talks|merge(data.talks)) %}
-                    <div>
-                        <h3 class="text-lg text-black mb-1">
-                            {% if talk.url %}
-                                <a class="text-inherit" href="{{ talk.url }}">{{ talk.title }}</a>
-                            {% else %}
-                                {{ talk.title }}
-                            {% endif %}
-                        </h3>
-
-                        <div class="text-sm text-grey-darkest">
-                            <p>{{ talk.excerpt }}</p>
-                        </div>
-                    </div>
+                    {% include 'talks/talk' %}
                 {% else %}
                     <p>sdf</p>
                 {% endfor %}
@@ -63,28 +51,7 @@ talks:
 
             <div class="spaced-y-12">
                 {% for talk in getPastTalks(page.talks|merge(data.talks))|reverse %}
-                    <article>
-                        <h3 class="text-lg text-black mb-1">
-                            {% if talk.url %}
-                                <a class="text-inherit" href="{{ talk.url }}">{{ talk.title }}</a>
-                            {% else %}
-                                {{ talk.title }}
-                            {% endif %}
-                        </h3>
-
-                        <div class="text-sm text-grey-darkest">
-                            <p>{{ talk.excerpt }}</p>
-                        </div>
-
-                        {% if talk.url %}
-                            <footer class="mt-1">
-                                <a href="{{ talk.url }}" class="text-grey-dark text-sm">
-                                    Find out more
-                                    <span class="visuallyhidden">about {{ talk.title }}</span>
-                                </a>
-                            </footer>
-                        {% endif %}
-                    </article>
+                    {% include 'talks/talk' %}
                 {% endfor %}
             </div>
         </div>
