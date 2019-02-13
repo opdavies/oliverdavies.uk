@@ -6,7 +6,17 @@
     @apply text-black mb-3
 
   h2
-    @apply mt-8
+    @apply mt-10
+
+  p,
+  ul,
+  ol,
+  table,
+  figure,
+  pre,
+  [v-pre]
+    &:not(:last-child)
+      @apply mb-6
 
   code
     @apply bg-grey-lighter font-mono text-sm
@@ -20,7 +30,8 @@
   .hljs
     @apply block leading-loose overflow-x-scroll p-6
 
-  figure
+  figure,
+  img
     @apply block
 
   figcaption
