@@ -2,6 +2,16 @@
 @import '~highlightjs/styles/github-gist'
 
 @tailwind preflight
+
+a
+  @apply text-blue no-underline
+
+  &:hover
+    @apply underline
+
+  &:focus
+    @apply text-white bg-blue outline-none px-px -mx-px no-underline
+
 @tailwind components
 
 @import 'components/blockquote'
