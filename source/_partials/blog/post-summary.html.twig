@@ -1,4 +1,4 @@
-<div class="markup mb-2">
+<div class="mb-2">
     <h2 class="text-inherit text-lg m-0">
         <a href="{{ post.url }}" class="text-black focus:text-white inline-block">
             {{ post.draft ? 'Draft: '|upper }}{{ post.title }}
@@ -8,6 +8,6 @@
     <p class="text-sm text-grey-dark">Posted on {{ post.date|date('jS F Y') }}</p>
 </div>
 
-<div class="markup">
+<div>
     <p class="text-sm">{{ post.excerpt }}</p>
 </div>
