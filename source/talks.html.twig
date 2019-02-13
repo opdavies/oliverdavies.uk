@@ -63,7 +63,7 @@ talks:
 
             <div class="spaced-y-12">
                 {% for talk in getPastTalks(page.talks|merge(data.talks))|reverse %}
-                    <div>
+                    <article>
                         <h3 class="text-lg text-black mb-1">
                             {% if talk.url %}
                                 <a class="text-inherit" href="{{ talk.url }}">{{ talk.title }}</a>
@@ -75,7 +75,16 @@ talks:
                         <div class="text-sm text-grey-darkest">
                             <p>{{ talk.excerpt }}</p>
                         </div>
-                    </div>
+
+                        {% if talk.url %}
+                            <footer class="mt-1">
+                                <a href="{{ talk.url }}" class="text-grey-dark text-sm">
+                                    Find out more
+                                    <span class="visuallyhidden">about {{ talk.title }}</span>
+                                </a>
+                            </footer>
+                        {% endif %}
+                    </article>
                 {% endfor %}
             </div>
         </div>
