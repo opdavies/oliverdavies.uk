@@ -19,7 +19,7 @@ class TalksExtension extends Twig_Extension
         $this->today = (new \DateTime())
           ->modify('today')
           ->setTimezone(new \DateTimeZone('Europe/London'))
-          ->format('Y-m-d');
+          ->getTimestamp();
     }
 
     /**

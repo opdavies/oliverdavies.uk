@@ -19,7 +19,7 @@ meta:
             width: 960
 events:
     - event: drupalcamp_london_16
-      date: '2016-03-05'
+      date: 2016-03-05
 ---
 New to object-orientated PHP, Symfony or YAML, and want to get started building modules in Drupal 8? This is the session for you!
 

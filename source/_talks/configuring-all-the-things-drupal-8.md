@@ -10,6 +10,7 @@ tags:
     - drupal
     - drupal-8
 events:
-    - { event: drupal_bristol, date: '2018-07-25' }
+    - event: drupal_bristol
+      date: 2018-07-25
 ---
 A short notice talk on configuration management in Drupal 8, and things I’ve learned working on my current Drupal 8 project.

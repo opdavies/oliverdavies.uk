@@ -9,7 +9,7 @@ tags: [conference, drupalcamp, drupalcamp-north, sculpin, twig]
 tweets: yes
 events:
     - event: drupalcamp_north_15
-      date: '2015-07-25'
+      date: 2015-07-25
 ---
 [Sculpin][1] is a static site generator written in PHP, and based on [Symfony components][2]. It uses [YAML][3] and [Twig][4], which makes it very appealing to Drupal people wanting to learn these in preparation for Drupal 8.
 

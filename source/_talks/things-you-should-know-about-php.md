@@ -12,6 +12,6 @@ meta:
             url: /images/talks/things-you-should-know-about-php.png
 events:
     - event: ssdc
-      date: '2019-01-28'
+      date: 2019-01-28
 ---
 An introduction to PHP, presented to the Swansea Software Development Community (SSDC).

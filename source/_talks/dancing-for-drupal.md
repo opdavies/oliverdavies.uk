@@ -8,7 +8,7 @@ tags: [meetup, umbristol, drupal]
 tweets: yes
 events:
     - event: umbristol
-      date: '2015-08-25'
+      date: 2015-08-25
 ---
 As part of their [CMS Dance-Off][1], I was selected to speak about Drupal alongside other speakers representing Umbraco, Sitecore and Episerver.
 

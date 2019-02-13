@@ -17,14 +17,14 @@ meta:
             type: image/png
 events:
     - event: nomad_php
-      date: '2017-04-20'
+      date: 2017-04-20
       time: '19:00 (CET)'
       type: 'Lightning talk'
     - event: phpsw
-      date: '2017-09-13'
+      date: 2017-09-13
       joindin: https://joind.in/talk/a5ff3
     - event: phpnw_17
-      date: '2017-10-01'
+      date: 2017-10-01
       time: '09:00 - 09:45'
       joindin: https://joind.in/talk/4e35d
 ---

@@ -21,20 +21,20 @@ meta:
 use: [talks]
 events:
     - event: drupalcamp_london_17
-      date: '2017-03-04'
+      date: 2017-03-04
       time: '16:15 - 17:00'
     - event: drupalcamp_dublin_17
-      date: '2017-10-21'
+      date: 2017-10-21
       time: '12:00 - 12:40'
     - event: drupal_bristol
-      date: '2017-11-22'
+      date: 2017-11-22
     - event: drupal_somerset
-      date: '2018-06-14'
+      date: 2018-06-14
     - event: drupal_dev_days_18
-      date: '2018-07-05'
+      date: 2018-07-05
       time: '12:15 - 13:00'
     - event: drupalcamp_london_19
-      date: '2019-03-01'
+      date: 2019-03-01
       fuzzy_date: true
 ---
 {% block content %}

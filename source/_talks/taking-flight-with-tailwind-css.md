@@ -8,9 +8,9 @@ speakerdeck:
 tags: [css, tailwind, meetup]
 events:
     - event: drupal_bristol
-      date: '2018-01-17'
+      date: 2018-01-17
     - event: php_south_wales
-      date: '2018-07-31'
+      date: 2018-07-31
 meta:
     og:
         title: Taking Flight with Tailwind CSS

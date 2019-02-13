@@ -42,14 +42,14 @@ class FormatTalksTest extends TestCase
             [
                 'title' => 'Talk A',
                 'events' => [
-                    ['event' => 'event-a', 'date' => '2018-01-01', 'time' => '09:00'],
-                    ['event' => 'event-b', 'date' => '2018-01-30', 'time' => '12:00'],
+                    ['event' => 'event-a', 'date' => strtotime('2018-01-01'), 'time' => '09:00'],
+                    ['event' => 'event-b', 'date' => strtotime('2018-01-30'), 'time' => '12:00'],
                 ],
             ],
             [
                 'title' => 'Talk B',
                 'events' => [
-                    ['event' => 'event-b', 'date' => '2018-01-31', 'time' => '17:00'],
+                    ['event' => 'event-b', 'date' => strtotime('2018-01-31'), 'time' => '17:00'],
                 ],
             ],
         ];
@@ -63,7 +63,7 @@ class FormatTalksTest extends TestCase
             $this->assertArrayHasKey('talk', $result);
 
             $this->assertEquals([
-                'date' => '2018-01-01',
+                'date' => '1514764800',
                 'event' => 'event-a',
                 'location' => 'Somewhere',
                 'name' => 'Event A',
@@ -79,7 +79,7 @@ class FormatTalksTest extends TestCase
             $this->assertArrayHasKey('talk', $result);
 
             $this->assertEquals([
-                'date' => '2018-01-30',
+                'date' => 1517270400,
                 'event' => 'event-b',
                 'location' => 'Somewhere else',
                 'name' => 'Event B',
@@ -98,9 +98,9 @@ class FormatTalksTest extends TestCase
     /** @test */
     public function get_all_events()
     {
-        $eventA = ['date' => (new DateTime('+1 week'))->format('Y-m-d')];
-        $eventB = ['date' => (new DateTime('-2 weeks'))->format('Y-m-d')];
-        $eventC = ['date' => (new DateTime('today'))->format('Y-m-d')];
+        $eventA = ['date' => (new DateTime('+1 week'))->getTimestamp()];
+        $eventB = ['date' => (new DateTime('-2 weeks'))->getTimestamp()];
+        $eventC = ['date' => (new DateTime('today'))->getTimestamp()];
 
         $talks = [
             ['events' => [$eventA, $eventB]],
@@ -121,11 +121,11 @@ class FormatTalksTest extends TestCase
     /** @test */
     public function get_upcoming_events()
     {
-        $eventA = ['date' => (new DateTime('+1 week'))->format('Y-m-d')];
-        $eventB = ['date' => (new DateTime('-2 weeks'))->format('Y-m-d')];
-        $eventC = ['date' => (new DateTime('today'))->format('Y-m-d')];
-        $eventD = ['date' => (new DateTime('+1 day'))->format('Y-m-d')];
-        $eventE = ['date' => (new DateTime('+2 weeks'))->format('Y-m-d')];
+        $eventA = ['date' => (new DateTime('+1 week'))->getTimestamp()];
+        $eventB = ['date' => (new DateTime('-2 weeks'))->getTimestamp()];
+        $eventC = ['date' => (new DateTime('today'))->getTimestamp()];
+        $eventD = ['date' => (new DateTime('+1 day'))->getTimestamp()];
+        $eventE = ['date' => (new DateTime('+2 weeks'))->getTimestamp()];
 
         $talks = [
             ['events' => [$eventA, $eventC]],
@@ -146,12 +146,12 @@ class FormatTalksTest extends TestCase
     /** @test */
     public function get_past_events()
     {
-        $eventA = ['date' => (new DateTime('+1 week'))->format('Y-m-d')];
-        $eventB = ['date' => (new DateTime('-2 weeks'))->format('Y-m-d')];
-        $eventC = ['date' => (new DateTime('today'))->format('Y-m-d')];
-        $eventD = ['date' => (new DateTime('+1 day'))->format('Y-m-d')];
-        $eventE = ['date' => (new DateTime('-2 days'))->format('Y-m-d')];
-        $eventF = ['date' => (new DateTime('-2 months'))->format('Y-m-d')];
+        $eventA = ['date' => (new DateTime('+1 week'))->getTimestamp()];
+        $eventB = ['date' => (new DateTime('-2 weeks'))->getTimestamp()];
+        $eventC = ['date' => (new DateTime('today'))->getTimestamp()];
+        $eventD = ['date' => (new DateTime('+1 day'))->getTimestamp()];
+        $eventE = ['date' => (new DateTime('-2 days'))->getTimestamp()];
+        $eventF = ['date' => (new DateTime('-2 months'))->getTimestamp()];
 
         $talks = [
             ['events' => [$eventD]],

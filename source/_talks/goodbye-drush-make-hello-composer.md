@@ -9,9 +9,9 @@ youtube:
     id: ZL2FtRTX9Y8
 events:
     - event: drupal_bristol
-      date: '2016-11-17'
+      date: 2016-11-17
     - event: php_uk_18
-      date: '2018-02-16'
+      date: 2018-02-16
       time: '14:40 - 15:40'
       joindin: https://joind.in/talk/650ab
 ---
