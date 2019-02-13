@@ -28,15 +28,15 @@ class TalksExtensionTest extends TestCase
         $talkA = [
             'title' => 'Talk A',
             'events' => [
-                ['event' => 'event_a', 'date' => (new DateTime('-1 days'))->format(TalksExtension::DATE_FORMAT)],
-                ['event' => 'event_b', 'date' => (new DateTime('+1 days'))->format(TalksExtension::DATE_FORMAT)],
+                ['event' => 'event_a', 'date' => (new DateTime('-1 days'))->getTimestamp()],
+                ['event' => 'event_b', 'date' => (new DateTime('+1 days'))->getTimestamp()],
             ],
         ];
 
         $talkB = [
             'title' => 'Talk B',
             'events' => [
-                ['event' => 'event_a', 'date' => (new DateTime('-3 days'))->format(TalksExtension::DATE_FORMAT)],
+                ['event' => 'event_a', 'date' => (new DateTime('-3 days'))->getTimestamp()],
             ],
         ];
 
@@ -49,22 +49,22 @@ class TalksExtensionTest extends TestCase
         $talkA = [
             'title' => 'Talk A',
             'events' => [
-                ['event' => 'event_a', 'date' => (new DateTime('-5 days'))->format(TalksExtension::DATE_FORMAT)],
+                ['event' => 'event_a', 'date' => (new DateTime('-5 days'))->getTimestamp()],
             ],
         ];
 
         $talkB = [
             'title' => 'Talk B',
             'events' => [
-                ['event' => 'event_a', 'date' => (new DateTime('-20 days'))->format(TalksExtension::DATE_FORMAT)],
+                ['event' => 'event_a', 'date' => (new DateTime('-20 days'))->getTimestamp()],
             ],
         ];
 
         $talkC = [
             'title' => 'Talk C',
             'events' => [
-                ['event' => 'event_a', 'date' => (new DateTime('-3 days'))->format(TalksExtension::DATE_FORMAT)],
-                ['event' => 'event_b', 'date' => (new DateTime('-10 days'))->format(TalksExtension::DATE_FORMAT)],
+                ['event' => 'event_a', 'date' => (new DateTime('-3 days'))->getTimestamp()],
+                ['event' => 'event_b', 'date' => (new DateTime('-10 days'))->getTimestamp()],
             ],
         ];
 
@@ -80,14 +80,14 @@ class TalksExtensionTest extends TestCase
         $pastTalk = [
             'title' => 'Past talk',
             'events' => [
-                ['date' => (new DateTime('-1 day'))->format(TalksExtension::DATE_FORMAT)],
+                ['date' => (new DateTime('-1 day'))->getTimestamp()],
             ]
         ];
 
         $futureTalk = [
             'title' => 'Future talk',
             'events' => [
-                ['date' => (new DateTime('+1 day'))->format(TalksExtension::DATE_FORMAT)],
+                ['date' => (new DateTime('+1 day'))->getTimestamp()],
             ],
         ];
 
@@ -103,21 +103,21 @@ class TalksExtensionTest extends TestCase
         $pastTalk = [
             'title' => 'Past talk',
             'events' => [
-                ['date' => (new DateTime('-1 day'))->format(TalksExtension::DATE_FORMAT)],
+                ['date' => (new DateTime('-1 day'))->getTimestamp()],
             ]
         ];
 
         $todayTalk = [
             'title' => 'A talk that it happening today',
             'events' => [
-                ['date' => (new DateTime('now'))->format(TalksExtension::DATE_FORMAT)],
+                ['date' => (new DateTime('now'))->getTimestamp()],
             ],
         ];
 
         $futureTalk = [
             'title' => 'Future talk',
             'events' => [
-                ['date' => (new DateTime('+1 day'))->format(TalksExtension::DATE_FORMAT)],
+                ['date' => (new DateTime('+1 day'))->getTimestamp()],
             ],
         ];
 
@@ -133,8 +133,8 @@ class TalksExtensionTest extends TestCase
         $talk = [
             'title' => 'An upcoming talk that has been given before',
             'events' => [
-                ['date' => (new DateTime('-1 week'))->format(TalksExtension::DATE_FORMAT)],
-                ['date' => (new DateTime('+1 week'))->format(TalksExtension::DATE_FORMAT)],
+                ['date' => (new DateTime('-1 week'))->getTimestamp()],
+                ['date' => (new DateTime('+1 week'))->getTimestamp()],
             ],
         ];
 
