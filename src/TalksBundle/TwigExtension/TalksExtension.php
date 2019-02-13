@@ -9,8 +9,6 @@ use Twig_SimpleFunction;
 
 class TalksExtension extends Twig_Extension
 {
-    const DATE_FORMAT = 'Y-m-d';
-
     /**
      * @var string The current date.
      */
