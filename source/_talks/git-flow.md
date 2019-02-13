@@ -10,6 +10,6 @@ tags: [conference, drupalcamp, drupalcamp-london, git, git-flow]
 tweets: yes
 events:
     - event: drupalcamp_london_14
-      date: '2014-03-01'
+      date: 2014-03-01
 ---
 An introduction to the Git Flow branching model and the git-flow plugin, and how I’ve used them to manage a Drupal development project.

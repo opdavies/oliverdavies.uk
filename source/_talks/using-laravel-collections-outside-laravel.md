@@ -10,9 +10,9 @@ tags: [nomad-php, lightning-talk, laravel, collections]
 type: Lightning talk
 events:
     - event: nomad_php
-      date: '2017-12-21'
+      date: 2017-12-21
       time: 19:00 CET
     - event: php_south_wales
-      date: '2018-08-28'
+      date: 2018-08-28
 ---
 Laravel Collections are a powerful object-orientated way of interacting with PHP arrays, but did you know that they can be used outside of Laravel, in any PHP project? This short talk shows how we can use Composer to include Laravel Collections within a non-Laravel project and put them to use within your own code.

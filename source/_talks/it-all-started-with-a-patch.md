@@ -10,6 +10,6 @@ youtube:
     id: 5FYMRR61sdo
 events:
     - event: phpsw
-      date: '2017-02-08'
+      date: 2017-02-08
 ---
 A crash course of why and how to get involved with open source.

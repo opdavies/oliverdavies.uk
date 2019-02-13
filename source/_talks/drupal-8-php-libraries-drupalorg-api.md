@@ -12,10 +12,10 @@ youtube:
     id: JyDjC7gGDpU
 events:
     - event: drupal_bristol
-      date: '2018-04-18'
+      date: 2018-04-18
       joindin: https://joind.in/talk/14851
     - event: drupalcamp_london_19
-      date: '2019-03-01'
+      date: 2019-03-01
       fuzzy_date: true
 ---
 A demo of some of the open source projects that I’ve been working on lately that are based on information from the Drupal.org API, including a PHP library for the API itself as well as some Drupal 8 modules that use it.

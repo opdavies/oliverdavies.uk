@@ -7,7 +7,7 @@ speakerdeck:
     url: https://speakerdeck.com/opdavies/drupal-rejoining-the-herd
 events:
     - event: php_south_coast_16
-      date: '2016-06-11'
+      date: 2016-06-11
       joindin: https://joind.in/talk/41d0f
 ---
 [Drupal 8][0] was (finally) released on November 19th 2015, after almost 4 years of work and code commits by over 3,200 different contributors. Whilst it’s pretty much the same as the Drupal that we know and, hopefully, love, a lot has changed behind the scenes and under the hood!

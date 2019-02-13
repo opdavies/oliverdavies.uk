@@ -11,9 +11,9 @@ youtube:
     id: U1pbKAAO2Wo
 events:
     - event: nwdug
-      date: '2016-03-08'
+      date: 2016-03-08
     - event: drupal_bristol
-      date: '2016-04-02'
+      date: 2016-04-02
 ---
 An short talk about the [Drupal VM Generator][1] project.
 

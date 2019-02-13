@@ -7,6 +7,6 @@ speakerdeck:
 tags: [meetup, drupal, drupal_bristol, drush, drush-make]
 events:
     - event: drupal_bristol
-      date: '2014-08-19'
+      date: 2014-08-19
 ---
 An introduction to Drush Make and how to use it to build reusable custom installation profiles or entire websites.

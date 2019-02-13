@@ -8,7 +8,7 @@ tags: [meetup, php, ansible, ansistrano]
 events:
     -
         event: drupal_bristol
-        date: '2019-01-23'
+        date: 2019-01-23
 ---
 Great! You’ve built your website, and now you just need to deploy it. There are various ways that this could be done - from (S)FTP, to SCP and rsync, to running commands like `git pull` and `composer install` directly on the server which is not ideal.
 
