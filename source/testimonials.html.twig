@@ -19,7 +19,7 @@ testimonials:
       role: 'Brand & Web Specialist'
       text: |
           Oliver is a great guy and really easy to work with. He really goes the extra mile to make sure the project is done properly. I would recommend him and will not hesitate to use him again in future.
- 
+
     - name: Brian Hartwell
       role: Interactive Creative Director
       text: |
@@ -67,9 +67,9 @@ testimonials:
           Oliver is an amazing colleague, he's professional, full of knowledge and I could not recommend him more.
 ---
 {% block content %}
-    <div class="listing">
+    <div class="spaced-y-12">
         {% for testimonial in page.testimonials|reverse %}
-            <article class="flex flex-row-reverse items-center mb-12">
+            <article class="flex flex-row-reverse items-center">
                 {% if testimonial.image %}
                     <div class="flex-none">
                         <img
@@ -81,11 +81,11 @@ testimonials:
                 {% endif %}
 
                 <div class="flex-1">
-                    <div class="mb-2">
+                    <div class="mb-3">
                         <h2 class="mb-1 leading-none">{{ testimonial.name }}</h2>
 
                         {% if testimonial.role %}
-                            <div class="text-grey-dark">
+                            <div class="text-grey-dark text-sm">
                                 {{ testimonial.role|raw }}
                             </div>
                         {% endif %}
