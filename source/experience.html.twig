@@ -130,11 +130,11 @@ experiences:
 {% block content %}
     {% import _self as helpers %}
 
-    <div class="listing">
+    <div class="spaced-y-12">
         {% for experience in page.experiences|reverse %}
             {% set company = site.companies[experience.company] %}
 
-            <div class="mb-16">
+            <div>
                 <div class="flex flex-row justify-between">
                     <div>
                         <h2 class="mb-0">{{ company.name }}</h2>
@@ -146,7 +146,7 @@ experiences:
                                 </a>
                             {%- endif %}
 
-                            <div class="text-grey-dark">
+                            <div class="text-sm text-grey-dark">
                                 {{ helpers.roleText(experience) }}
                             </div>
                         </div>
