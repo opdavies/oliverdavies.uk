@@ -29,15 +29,7 @@ module.exports = {
   borderColors: Object.assign({ default: colors['grey-light'] }, colors),
   fonts: {
     ...defaultConfig.fonts,
-    'mono': [
-      'Roboto Mono',
-      'Menlo',
-      'Monaco',
-      'Consolas',
-      'Liberation Mono',
-      'Courier New',
-      'monospace',
-    ]
+    'mono': ['Roboto Mono', ...defaultConfig.fonts.mono],
   },
   fontWeights: _.pick(defaultConfig.fontWeights, ['normal', 'medium', 'bold']),
   borderWidths: {
