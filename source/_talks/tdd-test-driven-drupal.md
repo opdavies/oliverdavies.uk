@@ -34,8 +34,8 @@ events:
       date: 2018-07-05
       time: '12:15 - 13:00'
     - event: drupalcamp_london_19
-      date: 2019-03-01
-      fuzzy_date: true
+      date: 2019-03-02
+      time: '14:00 - 14:45'
 ---
 {% block content %}
 Testing is important. Why? It allows developers to add new features and edit and refactor existing code without the worry of adding regressions, reduces the reliance on manual testing to discover bugs, and by taking a test driven approach, your implementation code is leaner as you only write what is needed for your tests to pass.
