@@ -13,7 +13,6 @@ var colors = {
   'grey': '#9babb4',
   'grey-dark': '#70818a',
   'grey-darker': '#596a73',
-  'grey-darkest': '#364349',
   'grey-light': 'hsl(203, 25%, 88%)',
   'grey-lighter': 'hsl(203, 22%, 95%)',
   'grey-lightest': '#fafcfc',
