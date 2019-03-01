@@ -6,3 +6,5 @@ realpath() {
 
 SCRIPTPATH=$(realpath "$0")
 SCRIPTDIR=$(dirname $SCRIPTPATH)
+
+SCULPIN="$SCRIPTDIR/../vendor/bin/sculpin"
