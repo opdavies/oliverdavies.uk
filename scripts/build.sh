@@ -2,4 +2,4 @@
 
 . scripts/common.sh
 
-${SCRIPTDIR}/../vendor/bin/sculpin generate --clean --no-interaction $@
+$SCULPIN generate --clean --no-interaction $@
