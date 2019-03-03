@@ -22,6 +22,6 @@
     "vue": "^2.5.17"
   },
   "dependencies": {
-    "tailwindcss-spaced-items": "^0.1.0"
+    "tailwindcss-spaced-items": "https://github.com/n1kk/tailwindcss-spaced-items#master"
   }
 }
