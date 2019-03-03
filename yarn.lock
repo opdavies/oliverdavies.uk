@@ -6550,10 +6550,9 @@ tailwindcss-skip-link@^1.0.0:
   resolved "https://registry.yarnpkg.com/tailwindcss-skip-link/-/tailwindcss-skip-link-1.0.1.tgz#b965624ed0b007ddd33f0326f2719d9a88b857c7"
   integrity sha512-Hxivkqu7UEluZY+ZPv+aQv4dreqTfYRgniEtux4qb9yJPjyR4dXiHMIWk7LgNqsyCPKpoRL8FJq55uIQN4ms+w==
 
-tailwindcss-spaced-items@^0.1.0:
+"tailwindcss-spaced-items@https://github.com/n1kk/tailwindcss-spaced-items#master":
   version "0.1.0"
-  resolved "https://registry.yarnpkg.com/tailwindcss-spaced-items/-/tailwindcss-spaced-items-0.1.0.tgz#e7f381e5c780a034bcdbc38a6a2cfb31f828a020"
-  integrity sha512-YiT1h89fp13r6I+EBM8wS1RWfsTwzHSi4BAnHoTXXQK1GQ53DUCPeFNmiksYSdx2aQLMdp/DTPvErqBVfTALiQ==
+  resolved "https://github.com/n1kk/tailwindcss-spaced-items#00aeaa1b37b6a6c2614b1f656bd9120b3839a089"
 
 tailwindcss-visuallyhidden@^1.0.1:
   version "1.0.1"
