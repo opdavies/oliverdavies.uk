@@ -22,6 +22,6 @@
     "vue": "^2.5.17"
   },
   "dependencies": {
-    "tailwindcss-spaced-items": "https://github.com/opdavies/tailwindcss-spaced-items.git#fix-margin-auto"
+    "tailwindcss-spaced-items": "^0.1.0"
   }
 }
