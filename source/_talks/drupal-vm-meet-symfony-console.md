@@ -1,5 +1,6 @@
 ---
 title: Drupal VM, Meet Symfony Console
+excerpt: How to develop command line applications using Symfony Console, using the Drupal VM CLI as an example.
 tags: [conference, php, drupal-vm, symfony]
 speakerdeck:
     id: 56c79770f73f4e47a542a30243437c49

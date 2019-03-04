@@ -1,5 +1,6 @@
 ---
 title: Building Static Websites with Sculpin
+excerpt: A lightning talk on how to use Sculpin to generate static HTML websites.
 type: Lightning talk
 speakerdeck:
     id: 6c9c4be1a1344f1291ff13a391674a66
