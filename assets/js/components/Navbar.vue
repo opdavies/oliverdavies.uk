@@ -64,16 +64,16 @@ export default {
           href: '/talks',
           pattern: '^/talks/?',
         },
-        {
-          title: 'Experience',
-          href: '/experience',
-          pattern: '^/experience/?$',
-        },
-        {
-          title: 'Testimonials',
-          href: '/testimonials',
-          pattern: '^/testimonials/?$',
-        },
+        // {
+        //   title: 'Experience',
+        //   href: '/experience',
+        //   pattern: '^/experience/?$',
+        // },
+        // {
+        //   title: 'Testimonials',
+        //   href: '/testimonials',
+        //   pattern: '^/testimonials/?$',
+        // },
         {
           title: 'Book',
           href: '/test-driven-drupal',
