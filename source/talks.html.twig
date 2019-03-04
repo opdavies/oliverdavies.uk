@@ -41,7 +41,7 @@ talks:
                 {% for talk in getUpcomingTalks(page.talks|merge(data.talks)) %}
                     {% include 'talks/talk' %}
                 {% else %}
-                    <p>sdf</p>
+                    <p>Nothing scheduled at the moment.</p>
                 {% endfor %}
             </div>
         </div>
