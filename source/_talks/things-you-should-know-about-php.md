@@ -1,6 +1,6 @@
 ---
 title: Things you should know about PHP
-excerpt: An introduction to PHP, presented to the Swansea Software Development Community (SSDC) meetup.
+description: An introduction to PHP, presented to the Swansea Software Development Community (SSDC) meetup.
 speakerdeck:
     id: fe360f1030f34bdb9eb14cdab907bb3c
     ratio: '1.37081659973226'

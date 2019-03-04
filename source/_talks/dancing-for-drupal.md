@@ -1,6 +1,6 @@
 ---
 title: Dancing for Drupal
-excerpt: A talk on Drupal, presented alongside others representing Umbraco, Sitecore and Episerver.
+description: A talk on Drupal, presented alongside others representing Umbraco, Sitecore and Episerver.
 speakerdeck:
     id: ffa9b6dea6dc4a8eb207b9982ed6e1bd
     ratio: '1.33333333333333'

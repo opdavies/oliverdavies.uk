@@ -1,6 +1,6 @@
 ---
 title: 'Deploying Drupal with Fabric'
-excerpt: How to use Fabric, a Python command line based library, to deploy your Drupal applications.
+description: How to use Fabric, a Python command line based library, to deploy your Drupal applications.
 speakerdeck:
     id: 40d1eca4bd484afc86295924fff5dd41
     ratio: '1.77777777777778'
