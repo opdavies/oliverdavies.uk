@@ -9,16 +9,11 @@ youtube:
     id: 3AUhpkxZ7DQ
 tags: [drupalcamp, simpletest, phpunit, testing]
 has_tweets: true
-meta:
-    og:
-        title: TDD - Test Driven Drupal
-        description: "How to write tests and follow TDD for Drupal applications."
-        type: website
-        image:
-            url: /images/talks/test-driven-drupal-development.png
-            width: 2560
-            height: 1440
-            type: image/png
+image:
+    url: /images/talks/test-driven-drupal-development.png
+    width: 2560
+    height: 1440
+    type: image/png
 use: [talks]
 events:
     - event: drupalcamp_london_17
