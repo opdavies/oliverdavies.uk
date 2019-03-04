@@ -1,5 +1,6 @@
 ---
 title: Deploying PHP Applications with Fabric
+excerpt: How to use Fabric, a Python command line based library, to deploy your PHP applications.
 speakerdeck:
     id: c147618ce07546ca92f92983c52d6a41
     ratio: '1.77777777777778'
