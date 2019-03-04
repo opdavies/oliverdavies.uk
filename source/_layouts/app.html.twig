@@ -3,7 +3,7 @@
     <head>
         <title>{% if page.title is defined and page.url != '//' %}{{ page.title }} | {% endif %}{{ site.title }} - {{ site.subtitle }}</title>
         {% include 'meta' %}
-        {% block metaTags %}{% endblock %}
+        {% block metas %}{% endblock %}
 
         <link rel="stylesheet" href="/dist/css/app.css">
         {% block stylesheets %}{% endblock %}
