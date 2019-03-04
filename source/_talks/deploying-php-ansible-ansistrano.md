@@ -1,5 +1,6 @@
 ---
 title: Deploying PHP applications with Ansible, Ansible Vault and Ansistrano
+description: How to use Ansible and Ansistrano to perform robust, secure deployments of your PHP applications.
 speakerdeck:
     id: c11fe635ed8f4741b35bf3ebe53e8323
     ratio: "1.77777777777778"
