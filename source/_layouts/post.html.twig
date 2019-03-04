@@ -2,13 +2,10 @@
 
 {% block page_title_wrapper %}{% endblock %}
 
-{% block metaTags %}
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@{{ site.twitter.name }}">
-<meta name="twitter:title" content="{{ page.title }}">
-<meta name="twitter:creator" content="@{{ site.twitter.name }}">
-<meta name="twitter:image" content="{{ site.url ~ site.avatar.url }}">
-<meta name="twitter:description" content="{{ page.excerpt }}">
+{% block metas %}
+    {{ parent() }}
+    <meta name="og:description" content="{{ page.excerpt }}">
+    <meta name="twitter:description" content="{{ page.excerpt }}">
 {% endblock %}
 
 {% block content_wrapper %}

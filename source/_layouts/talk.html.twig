@@ -1,5 +1,13 @@
 {% extends 'default' %}
 
+{% block metas %}
+    {{ parent() }}
+    <meta name="og:description" content="{{ page.description }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="{{ page.description }}">
+{% endblock %}
+
 {% block content_wrapper %}
     <div class="markup spaced-y-4">
         {% block content %}{% endblock %}

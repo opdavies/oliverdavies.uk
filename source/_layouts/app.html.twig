@@ -3,7 +3,11 @@
     <head>
         <title>{% if page.title is defined and page.url != '//' %}{{ page.title }} | {% endif %}{{ site.title }} - {{ site.subtitle }}</title>
         {% include 'meta' %}
-        {% block metaTags %}{% endblock %}
+        {% block metas %}
+            <meta name="twitter:site" content="@{{ site.twitter.name }}">
+            <meta name="twitter:title" content="{{ page.title }}">
+            <meta name="twitter:creator" content="@{{ site.twitter.name }}">
+        {% endblock %}
 
         <link rel="stylesheet" href="/dist/css/app.css">
         {% block stylesheets %}{% endblock %}
