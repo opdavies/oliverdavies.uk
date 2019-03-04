@@ -59,7 +59,6 @@ events:
 
     nomad_php:
         name: Nomad PHP
-        location: Online
         url: https://nomadphp.com
 
     nwdug:

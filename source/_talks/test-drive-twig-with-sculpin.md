@@ -1,5 +1,6 @@
 ---
 title: Test Drive Twig with Sculpin
+description: With Drupal 8 just around the corner, see how you can develop your Twig skills with Sculpin - a static site generator based on Symfony components and Twig.
 speakerdeck:
     id: 54589d2e50a3476a9a75aed809e9edf1
     ratio: '1.77777777777778'

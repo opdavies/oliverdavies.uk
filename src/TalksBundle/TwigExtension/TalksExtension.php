@@ -34,77 +34,46 @@ class TalksExtension extends Twig_Extension
         ];
     }
 
-  /**
-   * Get all upcoming and previous talks.
-   *
-   * @param ProxySourceCollection|array $talks All talk nodes.
-   * @param array $eventData Shared event data.
-   *
-   * @return Collection A sorted collection of talks.
-   */
-    public function getAll($talks, array $eventData = [])
+    /**
+     * Get all upcoming and previous talks.
+     *
+     * @param ProxySourceCollection|array $talks All talk nodes.
+     *
+     * @return Collection A sorted collection of talks.
+     */
+    public function getAll($talks): Collection
     {
-        return $this->format($talks, $eventData)->sortBy('event.date');
+        return collect($talks)->sortBy(function ($talk) {
+            return $this->getLastDate($talk);
+        });
     }
 
   /**
    * Get all upcoming talks.
    *
    * @param ProxySourceCollection|array $talks All talk nodes.
-   * @param array $eventData Shared event data.
    *
    * @return Collection A sorted collection of talks.
    */
-    public function getUpcoming($talks, array $eventData = [])
+    public function getUpcoming($talks): Collection
     {
-        return $this->format($talks, $eventData)
-            ->filter(function ($talk) {
-                return $talk['event']['date'] >= $this->today;
-            })
-            ->sortBy('event.date');
+         return $this->getAll($talks)->filter(function ($talk) {
+            return $this->getLastDate($talk) >= $this->today;
+        })->values();
     }
 
     /**
      * Get all past talks.
      *
      * @param ProxySourceCollection|array $talks All talk nodes.
-     * @param array $eventData Shared event data.
      *
      * @return Collection A sorted collection of talks.
      */
-    public function getPast($talks, array $eventData = [])
+    public function getPast($talks): Collection
     {
-        return $this->format($talks, $eventData)
-            ->filter(function ($talk) {
-                return $talk['event']['date'] < $this->today;
-            })
-            ->sortByDesc('event.date');
-    }
-
-  /**
-   * Format the talk data into the required format.
-   *
-   * @param ProxySourceCollection|array $talks All talk nodes.
-   * @param array $eventData Shared event data.
-   *
-   * @return Collection The combined event and talk data.
-   */
-    public function format($talks, array $eventData)
-    {
-        $eventData = collect($eventData);
-
-        return collect($talks)->flatMap(function ($talk) use ($eventData) {
-            // Build an associative array with the talk, as well as the
-            // specified event data (e.g. date and time) as well as the shared
-            // event data (e.g. event name and website).
-            return collect($talk['events'])
-                ->map(function ($event) use ($talk, $eventData) {
-                    $event = collect($event);
-                    $event = $event->merge($eventData->get($event->get('event')))->all();
-
-                    return compact('event', 'talk');
-                });
-        });
+        return $this->getAll($talks)->filter(function ($talk) {
+            return $this->getLastDate($talk) < $this->today;
+        })->values();
     }
 
     /**
@@ -113,5 +82,10 @@ class TalksExtension extends Twig_Extension
     public function getName()
     {
         return 'talks';
+    }
+
+    private function getLastDate($talk): string
+    {
+        return (string) collect($talk['events'])->pluck('date')->sort()->last();
     }
 }

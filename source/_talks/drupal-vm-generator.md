@@ -1,5 +1,6 @@
 ---
 title: Drupal VM Generator
+description: Announcing the Drupal VM Generator CLI tool.
 type: Lightning talk
 code: https://github.com/opdavies/drupal-vm-generator
 tags: [drupal-vm, drupal-vm-generator, meetup, symfony]

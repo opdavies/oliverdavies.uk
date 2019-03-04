@@ -6,21 +6,26 @@ meta:
 use: [talks]
 talks:
   - title: 'Drupal and the LDAP module'
+    description: A review and demonstration of some of the recent single sign-on work that I did using Drupal’s LDAP module.
     events:
       - event: swdug
         date: 2013-07-10
+
   - title: 'About the Drupal Association'
+    description: An impromptu talk about what the Drupal Association is, and what work I’ve been doing since I joined the Association staff.
     events:
       - event: swdug
         date: 2014-08-19
 
   - title: 'Automated testing with Drupal 8 and PHPUnit'
+    description: A workshop that I gave to teach others about automated testing in Drupal 8.
     type: Workshop
     events:
       - event: drupal_bristol
         date: 2018-06-27
 
   - title: 'Episode #175 - Automated Testing'
+    description: I joined the Talking Drupal team to discuss automated testing.
     type: Podcast
     url: http://talkingdrupal.com/175
     events:
@@ -28,29 +33,27 @@ talks:
         date: 2018-09-05
 ---
 {% block content %}
-    <div class="mb-8">
-        <p>I regularly speak at conferences and user groups about a range of subjects including PHP, Drupal, automated testing, Git and systems administration.</p>
-    </div>
+    <div class="spaced-y-10">
+        <div>
+            <h2 class="font-extrabold mb-4">Upcoming Talks</h2>
 
-    <div class="mb-8">
-        <h2 class="mb-2">Upcoming Talks</h2>
+            <div class="spaced-y-10">
+                {% for talk in getUpcomingTalks(page.talks|merge(data.talks)) %}
+                    {% include 'talks/talk' %}
+                {% else %}
+                    <p>sdf</p>
+                {% endfor %}
+            </div>
+        </div>
 
-        {% set upcoming_talks = getUpcomingTalks(data.talks|merge(page.talks), site.events) %}
-        {% if not upcoming_talks.empty %}
-            {% include "talks/table" with {
-                talks: upcoming_talks,
-                upcoming: true,
-            } %}
-        {% else %}
-            <p>Nothing scheduled at the moment.</p>
-        {% endif %}
-    </div>
+        <div>
+            <h2 class="font-extrabold mb-4">Previous Talks</h2>
 
-    <div>
-        <h2 class="mb-2">Previous Talks</h2>
-
-        {% include "talks/table" with {
-            talks: getPastTalks(data.talks|merge(page.talks), site.events)
-        } %}
+            <div class="spaced-y-10">
+                {% for talk in getPastTalks(page.talks|merge(data.talks))|reverse %}
+                    {% include 'talks/talk' %}
+                {% endfor %}
+            </div>
+        </div>
     </div>
 {% endblock %}

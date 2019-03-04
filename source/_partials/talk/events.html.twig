@@ -1,11 +1,21 @@
-{% set talks = getAllTalks([page], site.events) %}
-{% if talks is not empty %}
+{% if page.events %}
     <div class="mt-8">
-        <h2 class="mb-2">Events</h2>
+        <h2 class="mb-2">Presented at</h2>
 
-        {% include "talks/table" with {
-            talks: talks|reverse,
-            talk_page: true
-        } %}
+        <ul class="markup">
+            {% for event in page.events %}
+                <li>
+                    {% set eventData = site.events[event.event] %}
+                    {% if eventData.url %}
+                        <a href="{{ eventData.url }}">{{ eventData.name }}</a>
+                    {% else %}
+                        {{ eventData.name }}
+                    {% endif %}
+                    {% if eventData.location %}
+                        in {{ eventData.location }}
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
     </div>
 {% endif %}

@@ -1,5 +1,6 @@
 ---
 title: Getting (Your Data) Into Drupal 8
+description: An overview of Drupal’s Migrate functionality, and a look at how to write your own migrations.
 speakerdeck:
     id: 63e5dfce996e46699e304d50e896477b
     ratio: '1.77777777777778'
