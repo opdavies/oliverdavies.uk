@@ -10,7 +10,7 @@ mix.disableNotifications()
         'assets/js/app.js',
     ], 'source/dist/js/all.js')
     .copyDirectory('node_modules/font-awesome/fonts', 'source/dist/fonts')
-    .tailwind()
+    .tailwind('tailwind.config.js')
     .purgeCss({
         globs: [
             path.join(__dirname, 'assets/js/**/*.{js,vue}'),
