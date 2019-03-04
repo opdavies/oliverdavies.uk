@@ -13,7 +13,9 @@ use: [posts]
     <div class="-mt-4 -mx-4 spaced-y-4">
         {% for post in data.posts %}
             <article class="p-4 {{ post.draft ? 'bg-blue-lighter' }}">
-                {% include 'blog/post-summary' %}
+                {% include 'blog/post-summary' with {
+                    show_date: true,
+                } %}
             </article>
         {% endfor %}
     </div>
