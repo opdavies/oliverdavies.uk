@@ -1,6 +1,6 @@
 ---
 title: drush make drupalbristol
-excerpt: How to Drush Make to build your Drupal websites.
+description: How to Drush Make to build your Drupal websites.
 speakerdeck:
     id: 42605700f102013198de5a5f6f23ab67
     ratio: '1.29456384323641'

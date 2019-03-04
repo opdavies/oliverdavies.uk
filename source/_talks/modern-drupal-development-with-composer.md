@@ -1,6 +1,6 @@
 ---
 title: Modern Drupal Development with Composer
-excerpt: A lightning talk on how to use Composer to manage your Drupal projects.
+description: A lightning talk on how to use Composer to manage your Drupal projects.
 type: Lightning talk
 tags: ['meetups', 'phpsw', 'drupal', 'composer']
 speakerdeck:

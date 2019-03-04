@@ -1,6 +1,6 @@
 ---
 title: Having Fun with Drupal 8, PHP libraries and the Drupal.org API
-excerpt: A crash course in developing PHP packages and Drupal 8 modules, based on the Drupal.org API.
+description: A crash course in developing PHP packages and Drupal 8 modules, based on the Drupal.org API.
 speakerdeck:
     id: 6e42ae9620bb4e91b3955f8c30d66934
     ratio: '1.77777777777778'
