@@ -1,11 +1,13 @@
-<div class="mb-2">
+<div class="mb-1">
     <h2 class="text-inherit text-lg m-0">
         <a href="{{ post.url }}" class="text-black inline-block">
             {{ post.draft ? 'Draft: '|upper }}{{ post.title }}
         </a>
     </h2>
 
-    <p class="text-sm text-grey-dark">Posted on {{ post.date|date('jS F Y') }}</p>
+    {% if show_date %}
+        <p class="text-sm text-grey-dark mb-1">Posted on {{ post.date|date('jS F Y') }}</p>
+    {% endif %}
 </div>
 
 <div>
