@@ -1,5 +1,5 @@
 ---
-permalink: /feed.xml
+permalink: /feed
 use: [posts]
 ---
 <?xml version="1.0" encoding="utf-8"?>
