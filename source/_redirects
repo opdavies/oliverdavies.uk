@@ -104,6 +104,7 @@
 /articles/system-users-null-users /articles/null-users-and-system-users-in-drupal
 /articles/tweets-from-drupalcamp-london /articles/tweets-drupalcamp-london
 /blog /articles
+/blog.xml /feed
 /blog/* /articles/:splat
 /book /test-driven-drupal
 /consulting /

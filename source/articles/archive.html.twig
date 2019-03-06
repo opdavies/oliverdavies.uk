@@ -10,7 +10,12 @@ use: [posts]
 {% endblock %}
 
 {% block content %}
-    <div class="-mt-4 -mx-4 spaced-y-4">
+    <header class="spaced-y-4 mb-6">
+        <p class="text-lg">Everything I've ever published on my site, in reverse chronological order.</p>
+        <p class="text-lg">You can also subscribe via <a href="/feed">the RSS feed</a>.</p>
+    </header>
+
+    <div class="-mx-4 spaced-y-4">
         {% for post in data.posts %}
             <article class="p-4 {{ post.draft ? 'bg-blue-lighter' }}">
                 {% include 'blog/post-summary' %}
