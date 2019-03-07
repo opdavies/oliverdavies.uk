@@ -31,6 +31,10 @@ module.exports = {
     'mono': ['Roboto Mono', ...defaultConfig.fonts.mono],
   },
   fontWeights: _.pick(defaultConfig.fontWeights, ['normal', 'medium', 'bold']),
+  margin: {
+    ...defaultConfig.margin,
+    '2px': '2px',
+  },
   borderWidths: {
     ...defaultConfig.borderWidths,
     '3': '3px',
