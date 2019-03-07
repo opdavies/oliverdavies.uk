@@ -2,6 +2,6 @@
     <h1 class="leading-tight mb-2">{{ page.title }}</h1>
 
     <p class="text-grey-dark">
-        <span class="visuallyhidden">Posted on </span>{{ page.date|date('jS F Y') }}
+        {% include 'posts/post-date' %}
     </p>
 </div>
