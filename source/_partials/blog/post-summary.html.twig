@@ -1,11 +1,11 @@
-<div class="spaced-y-1">
-    <div class="spaced-y-px">
+<div class="spaced-y-2">
+    <div class="spaced-y-2px">
         <h2 class="text-inherit text-lg m-0">
             {{ post.draft ? 'Draft: '|upper }}{{ post.title }}
         </h2>
 
         {% if show_date %}
-            <time class="text-sm mb-1 block" datetime="{{ post.date|date('Y-m-d') }}">{{ post.date|date('jS F Y') }}</time>
+            {% include 'posts/post-date' with { class: 'text-sm block mb-1' } %}
         {% endif %}
     </div>
 
