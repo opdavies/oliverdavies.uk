@@ -64,11 +64,11 @@ export default {
           href: '/talks',
           pattern: '^/talks/?',
         },
-        // {
-        //   title: 'Experience',
-        //   href: '/experience',
-        //   pattern: '^/experience/?$',
-        // },
+        {
+          title: 'Experience',
+          href: '/experience',
+          pattern: '^/experience/?$',
+        },
         // {
         //   title: 'Testimonials',
         //   href: '/testimonials',
