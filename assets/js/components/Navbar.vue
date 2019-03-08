@@ -55,6 +55,11 @@ export default {
           pattern: '^/.$',
         },
         {
+          title: 'Experience',
+          href: '/experience',
+          pattern: '^/experience/?$',
+        },
+        {
           title: 'Articles',
           href: '/articles',
           pattern: '^/articles/?',
@@ -63,11 +68,6 @@ export default {
           title: 'Talks',
           href: '/talks',
           pattern: '^/talks/?',
-        },
-        {
-          title: 'Experience',
-          href: '/experience',
-          pattern: '^/experience/?$',
         },
         // {
         //   title: 'Testimonials',
