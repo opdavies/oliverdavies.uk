@@ -75,6 +75,11 @@ export default {
         //   pattern: '^/testimonials/?$',
         // },
         {
+          title: 'Podcasts',
+          href: '/podcasts',
+          pattern: '^/podcasts/?',
+        },
+        {
           title: 'Book',
           href: '/test-driven-drupal',
           pattern: '^/test-driven-drupal/?$',
