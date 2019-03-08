@@ -28,7 +28,7 @@ episodes:
             <p>{{ episode.description }}</p>
 
             <a href="{{ episode.url }}" class="inline-block mt-2 text-sm text-grey-dark hover:text-grey-darker focus:text-grey-darker">
-                View this
+                {{ episode.video ? 'Watch' : 'Listen to' }} this
                 <span class="visuallyhidden">{{ podcast.name }}</span>
                 episode &rarr;
             </a>
