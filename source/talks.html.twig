@@ -26,8 +26,8 @@ talks:
 ---
 {% block content %}
     <div class="spaced-y-10">
-        <div>
-            <h2 class="font-extrabold mb-4">Upcoming Talks</h2>
+        <div class="spaced-y-4">
+            <h2 class="font-bold">Upcoming Talks</h2>
 
             <div class="spaced-y-10">
                 {% for talk in getUpcomingTalks(page.talks|merge(data.talks)) %}
@@ -38,8 +38,8 @@ talks:
             </div>
         </div>
 
-        <div>
-            <h2 class="font-extrabold mb-4">Previous Talks</h2>
+        <div class="spaced-y-4">
+            <h2 class="font-bold">Previous Talks</h2>
 
             <div class="spaced-y-10">
                 {% for talk in getPastTalks(page.talks|merge(data.talks))|reverse %}
