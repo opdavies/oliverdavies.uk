@@ -12,10 +12,7 @@ trim_trailing_whitespace = true
 indent_size = 4
 indent_style = space
 
-[*.sass]
-indent_size = 2
-
-[*.vue]
+[*.{css,js,vue}]
 indent_size = 2
 
 # Markdown customizations
