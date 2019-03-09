@@ -1,0 +1,20 @@
+@tailwind preflight;
+
+a {
+  @apply text-blue no-underline;
+
+  &:hover {
+    @apply underline;
+  }
+}
+
+@tailwind components;
+
+@import 'components/blockquote.css';
+@import 'components/button.css';
+@import 'components/markup.css';
+@import 'components/note.css';
+@import 'components/talks/video.css';
+@import 'components/widget.css';
+
+@tailwind utilities;

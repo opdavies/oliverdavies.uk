@@ -1,12 +1,14 @@
-.markup
-  @apply leading-normal
+.markup {
+  @apply leading-normal;
 
   h2,
-  h3
+  h3 {
     @apply text-black mb-3
+  }
 
-  h2
+  h2 {
     @apply mt-6 mb-2
+  }
 
   p,
   ul,
@@ -14,25 +16,34 @@
   table,
   figure,
   pre,
-  [v-pre]
-    &:not(:last-child)
+  [v-pre] {
+    &:not(:last-child) {
       @apply mb-6
+    }
+  }
 
-  code
+  code {
     @apply bg-grey-lighter font-mono text-sm
+  }
 
   p,
-  li
-    code
+  li {
+    code {
       @apply inline-block border border-grey-light font-bold mx-px p-1 leading-none
+    }
+  }
 
   pre code,
-  .hljs
+  .hljs {
     @apply block leading-loose overflow-x-scroll p-6
+  }
 
   figure,
-  img
+  img {
     @apply block
+  }
 
-  figcaption
+  figcaption {
     @apply italic text-sm text-grey-darker text-center mb-0 mt-1
+  }
+}

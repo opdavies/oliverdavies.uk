@@ -1,4 +1,6 @@
-.talk-video
+.talk-video {
   iframe,
-  embed
+  embed {
     @apply absolute h-full pin-l pin-t w-full
+  }
+}
