@@ -13,7 +13,7 @@ He regularly blogs and gives talks about web development and systems administrat
 ## Photos
 
 - <https://www.dropbox.com/s/den3ww3lpve08fa/precedent_thumb.jpg>
-- <https://www.dropbox.com/s/y14uhcktu3r2ti7/phpnw17.jpg>
+- <https://www.dropbox.com/s/etrahx3hq2vpqcb/phpnw17.png>
 
 ## Some Events I’ve Spoken At
 
