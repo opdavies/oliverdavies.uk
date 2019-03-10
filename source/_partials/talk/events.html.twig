@@ -14,6 +14,7 @@
                     {% if eventData.location %}
                         in {{ eventData.location }}
                     {% endif %}
+                    <span class="text-grey-darker">- {{ event.date|date('jS F Y') }}</span>
                 </li>
             {% endfor %}
         </ul>
