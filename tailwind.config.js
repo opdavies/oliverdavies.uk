@@ -19,7 +19,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        mono: [ 'Roboto Mono', ...defaultTheme.fontFamily.mono ],
+        mono: ['Roboto Mono', ...defaultTheme.fontFamily.mono],
       },
       spacing: {
         '2px': '2px',
