@@ -1,3 +1,4 @@
+let defaultConfig = require('tailwindcss/defaultConfig')()
 let defaultTheme = require('tailwindcss/defaultTheme')()
 
 module.exports = {
@@ -36,7 +37,7 @@ module.exports = {
     require('tailwindcss-vuejs')(),
   ],
   variants: {
-    borderStyle: ['responsive', 'hover', 'focus'],
-    borderWidths: ['responsive', 'hover', 'focus'],
+    borderStyle: [...defaultConfig.variants.borderStyle, 'hover', 'focus'],
+    borderWidth: [...defaultConfig.variants.borderStyle, 'hover', 'focus'],
   },
 }
