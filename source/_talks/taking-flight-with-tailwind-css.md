@@ -12,6 +12,8 @@ events:
       date: 2018-01-17
     - event: php_south_wales
       date: 2018-07-31
+    - event: wordcamp_bristol_2019
+      date: 2019-05-18
 meta:
     og:
         title: Taking Flight with Tailwind CSS
