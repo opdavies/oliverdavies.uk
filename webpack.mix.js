@@ -10,7 +10,7 @@ mix.disableNotifications()
   .js([
     'node_modules/jquery/src/jquery.js',
     'assets/js/app.js',
-  ], 'source/dist/js/all.js')
+  ], 'source/dist/js/app.js')
   .purgeCss({
     globs: [
       path.join(__dirname, 'assets/js/**/*.{js,vue}'),
