@@ -1,0 +1,36 @@
+---
+layout: default
+title: About Me
+meta:
+    og:
+        title: 'Oliver Davies - Full Stack Developer, System Administrator, PHP and Drupal specialist'
+        description: 'The personal website and blog of Oliver Davies, a Full Stack Developer and System Administrator from Wales, UK.'
+        type: website
+permalink: /
+wide: true
+---
+{% block content %}
+<div class="md:flex -mx-6">
+    <div class="w-auto md:flex-1 px-6 mb-12 md:mb-0">
+        <div class="markup spaced-y-4 mb-8">
+            <div class="mb-4 w-32"><img src="/images/me-precedent.jpg" alt="Picture of Oliver" class="rounded-full border border-gray"/></div>
+
+            <p>Hi, I’m Oliver Davies (aka <a href="https://www.google.com/#q=opdavies">opdavies</a>) - a Full Stack Web Developer and System Administrator based in Wales, UK.</p>
+
+            <p>I’m a {{ site.work.role }} at <a href="{{ site.companies[site.work.company].url }}?utm_source=oliverdavies.uk&amp;utm_medium=about-bio">{{ site.companies[site.work.company].name }}</a> and part-time freelancer, former Developer at the <a href="https://www.drupal.org/association">Drupal Association</a>, open source contributor and advocate, mentor and conference speaker.</p>
+
+            <p>I primarily work with Drupal and am an <a href="https://certification.acquia.com/user/1647756">Acquia certified Drupal Grand Master</a>, but also use Symfony, Laravel and Sculpin, and have some experience working with JavaScript frameworks including Vue.js and Angular.</p>
+
+            <p>I’m a webmaster and documentation maintainer for <a href="https://www.drupal.org">Drupal.org</a>, and a provisional member of the <a href="https://www.drupal.org/security-team">Drupal Security team</a>. <a href="/talks">I speak at various user groups and conferences</a>, and co-organise the <a href="https://www.drupalbristol.org.uk">Drupal Bristol user group</a>, <a href="https://phpsw.uk">PHPSW</a> and <a href="https://www.drupalcampbristol.co.uk">DrupalCamp Bristol</a>.</p>
+
+            <p>You can find me on <a href="https://twitter.com/opdavies">Twitter</a>, and see my open source work on <a href="https://www.drupal.org/u/opdavies">Drupal.org</a> and <a href="http://github.com/opdavies">GitHub</a> as well as on <a href="https://packagist.org/users/opdavies">Packagist</a>, <a href="https://www.npmjs.com/~opdavies">npm</a> and <a href="https://galaxy.ansible.com/opdavies">Ansible Galaxy</a>.</p>
+        </div>
+
+        {% include 'about/availability' %}
+    </div>
+
+    <div class="w-full md:w-2/5 lg:w-1/3 px-6">
+        {% include 'about/badges' %}
+    </div>
+</div>
+{% endblock %}
