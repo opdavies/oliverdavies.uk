@@ -361,13 +361,6 @@ babel-core@^6.24.1, babel-core@^6.26.0:
     slash "^1.0.0"
     source-map "^0.5.7"
 
-babel-extract-comments@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/babel-extract-comments/-/babel-extract-comments-1.0.0.tgz#0a2aedf81417ed391b85e18b4614e693a0351a21"
-  integrity sha512-qWWzi4TlddohA91bFwgt6zO/J0X+io7Qp184Fw0m2JYRSTZnJbFR8+07KmzudHCZgOiKRCrjhylwv9Xd8gfhVQ==
-  dependencies:
-    babylon "^6.18.0"
-
 babel-generator@^6.26.0:
   version "6.26.1"
   resolved "https://registry.yarnpkg.com/babel-generator/-/babel-generator-6.26.1.tgz#1844408d3b8f0d35a404ea7ac180f087a601bd90"
@@ -6528,14 +6521,6 @@ strip-bom@^3.0.0:
   resolved "https://registry.yarnpkg.com/strip-bom/-/strip-bom-3.0.0.tgz#2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3"
   integrity sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=
 
-strip-comments@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/strip-comments/-/strip-comments-1.0.2.tgz#82b9c45e7f05873bee53f37168af930aa368679d"
-  integrity sha512-kL97alc47hoyIQSV165tTt9rG5dn4w1dNnBhOQ3bOU1Nc1hel09jnXANaHJ7vzHLd4Ju8kseDGzlev96pghLFw==
-  dependencies:
-    babel-extract-comments "^1.0.0"
-    babel-plugin-transform-object-rest-spread "^6.26.0"
-
 strip-eof@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/strip-eof/-/strip-eof-1.0.0.tgz#bb43ff5598a6eb05d89b59fcd129c983313606bf"
@@ -6626,9 +6611,10 @@ tailwindcss-vuejs@^1.0.0:
   resolved "https://registry.yarnpkg.com/tailwindcss-vuejs/-/tailwindcss-vuejs-1.1.2.tgz#1c7b6de4ad8b8c841e9e3fc3d7565e6a09819f7b"
   integrity sha512-6P5EXM9XW6qprbEuh26pNLM2lj1nbgHT9oeSqsAcrrVx5u0uxywch86x5Bq/VRNqieNbdCZht5zC/3QNW4nE+w==
 
-"tailwindcss@https://github.com/tailwindcss/tailwindcss.git#next":
-  version "0.7.3"
-  resolved "https://github.com/tailwindcss/tailwindcss.git#483d9382929928a4cbc35a1df81d7847aa18ec7a"
+tailwindcss@^1.0.0-beta.1:
+  version "1.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.0.0-beta.1.tgz#24070d3784db13cc67cbea21482e74f0080c3318"
+  integrity sha512-ivn3MGIgSdVyIXMEwuHvwOo0n7PUDGSDhdJQZ57pTjD8ouzAL3JsJIlLuiuyfRG7SG5XIYv1bFI/YcOq6MPVSw==
   dependencies:
     autoprefixer "^9.4.5"
     bytes "^3.0.0"
@@ -6644,7 +6630,6 @@ tailwindcss-vuejs@^1.0.0:
     postcss-nested "^4.1.1"
     postcss-selector-parser "^6.0.0"
     pretty-hrtime "^1.0.3"
-    strip-comments "^1.0.2"
 
 tapable@^0.2.7:
   version "0.2.9"
