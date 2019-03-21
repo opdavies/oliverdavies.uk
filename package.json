@@ -14,7 +14,7 @@
     "laravel-mix": "^2.1.11",
     "laravel-mix-purgecss": "^2.1.2",
     "postcss-nested": "^4.1.2",
-    "tailwindcss": "https://github.com/tailwindcss/tailwindcss.git#next",
+    "tailwindcss": "^1.0.0-beta.3",
     "tailwindcss-skip-link": "^1.0.0",
     "tailwindcss-visuallyhidden": "^1.0.1",
     "tailwindcss-vuejs": "^1.0.0",
