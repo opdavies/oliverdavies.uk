@@ -4,7 +4,7 @@ let defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   theme: {
     extend: {
-      color: {
+      colors: {
         blue: {
           dark: '#2779bd',
           default: 'hsl(203, 94%, 38%)',
