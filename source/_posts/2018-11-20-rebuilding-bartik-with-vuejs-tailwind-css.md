@@ -93,7 +93,7 @@ export default {
             <div class="font-serif">
               <h1 class="font-normal">Welcome to {{ title }}</h1>
               <p>No front page content has been created yet.</p>
-              <p>Follow the <a href="#0" class="text-blue-dark hover:text-blue no-underline border-b border-blue border-dotted hover:bg-solid">User Guide</a> to start building your site.</p>
+              <p>Follow the <a href="#0" class="text-blue-dark hover:text-blue-600 no-underline border-b border-blue-600 border-dotted hover:bg-solid">User Guide</a> to start building your site.</p>
             </div>
 
             <div class="mt-10">

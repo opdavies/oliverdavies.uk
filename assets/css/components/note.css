@@ -1,5 +1,5 @@
 .note {
-  @apply bg-blue-lighter border-blue border-l-4 mb-4 p-4 rounded;
+  @apply bg-blue-lighter border-blue-600 border-l-4 mb-4 p-4 rounded;
 
   > *:not(:first-child) {
     @apply mt-6
