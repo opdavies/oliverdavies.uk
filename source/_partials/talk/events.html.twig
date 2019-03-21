@@ -2,7 +2,7 @@
     <div class="mt-8">
         <h2 class="mb-2">Presented at</h2>
 
-        <ul class="markup">
+        <ul class="markup list-disc ml-5">
             {% for event in page.events %}
                 <li>
                     {% set eventData = site.events[event.event] %}
@@ -14,7 +14,7 @@
                     {% if eventData.location %}
                         in {{ eventData.location }}
                     {% endif %}
-                    <span class="text-grey-darker">- {{ event.date|date('jS F Y') }}</span>
+                    <span class="text-gray-800">- {{ event.date|date('jS F Y') }}</span>
                 </li>
             {% endfor %}
         </ul>

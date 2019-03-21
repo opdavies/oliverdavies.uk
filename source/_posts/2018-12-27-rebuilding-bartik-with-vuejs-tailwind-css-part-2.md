@@ -59,7 +59,7 @@ I added a `style` section within `Welcome.vue`, and added some default styling f
 
   <div id="footer" class="text-xs text-white">
     <div class="container mx-auto px-4 pt-16 pb-4">
-      <div class="border-t border-solid border-grey-darkest pt-6 -mb-6">
+      <div class="border-t border-solid border-gray-900 pt-6 -mb-6">
         <div class="mb-6">
           <p><a href="#0">Contact</a></p>
         </div>
@@ -114,7 +114,7 @@ As well as being able to extract re-usable components within Tailwind, the same 
 // src/components/Sidebar.vue
 
 <template>
-  <div class="bg-grey-lighter p-4 mb-4">
+  <div class="bg-gray-200 p-4 mb-4">
     <slot></slot>
   </div>
 </template>

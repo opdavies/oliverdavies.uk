@@ -108,21 +108,21 @@ This was the first page that I rebuilt - the Environments page for an applicatio
 Vue Router is configured to show the 
 
 <figure>
-  <img src="/images/blog/rebuilding-acquia-vue-tailwind/2-environments.png" alt="A screenshot of the rebuilt Environments page." class="border border-grey-light p-2">
+  <img src="/images/blog/rebuilding-acquia-vue-tailwind/2-environments.png" alt="A screenshot of the rebuilt Environments page." class="border border-gray-300 p-2">
   <figcaption>The rebuilt Environments page for an application.</figcaption>
 </figure>
 
 ## The applications page
 
 <figure>
-  <img src="/images/blog/rebuilding-acquia-vue-tailwind/1-applications.png" alt="A screenshot of the rebuilt Applications page." class="border border-grey-light p-2">
+  <img src="/images/blog/rebuilding-acquia-vue-tailwind/1-applications.png" alt="A screenshot of the rebuilt Applications page." class="border border-gray-300 p-2">
   <figcaption>The rebuilt Applications page.</figcaption>
 </figure>
 
 ## An environment page
 
 <figure>
-  <img src="/images/blog/rebuilding-acquia-vue-tailwind/3-environment.png" alt="A screenshot of the rebuilt page for an environment within an application." class="border border-grey-light p-2">
+  <img src="/images/blog/rebuilding-acquia-vue-tailwind/3-environment.png" alt="A screenshot of the rebuilt page for an environment within an application." class="border border-gray-300 p-2">
   <figcaption>The rebuilt page for an environment within an application.</figcaption>
 </figure>
 

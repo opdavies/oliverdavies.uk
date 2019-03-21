@@ -2,11 +2,11 @@
     <ul class="list-reset inline-flex">
         <li>
             {% if page.pagination.page == 1 %}
-                <span class="rounded-l-lg p-3 border border-grey text-grey -mr-px cursor-not-allowed">
+                <span class="rounded-l-lg p-3 border border-gray text-gray -mr-px cursor-not-allowed">
                     Previous
                 </span>
             {% else %}
-                <a href="{{ page.pagination.previous_page.url }}" class="rounded-l-lg link no-underline hover:underline hover:bg-grey-lighter focus:underline p-3 border border-grey -mr-px">
+                <a href="{{ page.pagination.previous_page.url }}" class="rounded-l-lg link no-underline hover:underline hover:bg-gray-200 focus:underline p-3 border border-gray -mr-px">
                     Previous
                 </a>
             {% endif %}
@@ -15,11 +15,11 @@
         {% for i in range(1, page.pagination.total_pages) %}
             <li class="{{ i > (page.pagination.page + 2) or i < (page.pagination.page - 2) ? 'hidden sm:block' }}">
                 {% if i == page.pagination.page %}
-                    <span class="p-3 border border-grey text-white bg-blue-600 -mr-px">
+                    <span class="p-3 border border-gray text-white bg-blue-600 -mr-px">
                         {{ i }}
                     </span>
                 {% else %}
-                    <a href="{{ i == 1 ? '/blog' : '/blog/page/' ~ i ~ '.html' }}" class="link no-underline hover:underline hover:bg-grey-lighter focus:underline p-3 border border-grey -mr-px">
+                    <a href="{{ i == 1 ? '/blog' : '/blog/page/' ~ i ~ '.html' }}" class="link no-underline hover:underline hover:bg-gray-200 focus:underline p-3 border border-gray -mr-px">
                         {{ i }}
                     </a>
                 {% endif %}
@@ -28,11 +28,11 @@
 
         <li>
             {% if page.pagination.next_page.url %}
-                <a href="{{ page.pagination.next_page.url }}" class="rounded-r-lg link no-underline hover:underline hover:bg-grey-lighter focus:underline p-3 border border-grey">
+                <a href="{{ page.pagination.next_page.url }}" class="rounded-r-lg link no-underline hover:underline hover:bg-gray-200 focus:underline p-3 border border-gray">
                     Next
                 </a>
             {% else %}
-                <span class="rounded-r-lg p-3 border border-grey text-grey cursor-not-allowed">
+                <span class="rounded-r-lg p-3 border border-gray text-gray cursor-not-allowed">
                     Next
                 </span>
             {% endif %}

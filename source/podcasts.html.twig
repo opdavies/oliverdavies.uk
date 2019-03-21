@@ -24,13 +24,13 @@ episodes:
         <article>
             <h2 class="text-lg">{{ podcast.name }}: {{ episode.title }}</h2>
 
-            <time class="text-sm text-grey-darker block mt-px mb-2" datetime="{{ episode.date|date('Y-m-d') }}">
+            <time class="text-sm text-gray-800 block mt-px mb-2" datetime="{{ episode.date|date('Y-m-d') }}">
                 {{ episode.date|date('jS F Y') }}
             </time>
 
             <p>{{ episode.description }}</p>
 
-            <a href="{{ episode.url }}" class="inline-block mt-2 text-sm text-grey-dark hover:text-grey-darker focus:text-grey-darker">
+            <a href="{{ episode.url }}" class="inline-block mt-2 text-sm text-gray-600 hover:text-gray-800 focus:text-gray-800">
                 {{ episode.video ? 'Watch' : 'Listen to' }} this
                 <span class="visuallyhidden">{{ podcast.name }}</span>
                 episode &rarr;
