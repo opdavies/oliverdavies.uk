@@ -1,6 +1,6 @@
 .talk-video {
   iframe,
   embed {
-    @apply absolute h-full pin-l pin-t w-full
+    @apply absolute h-full left-0 top-0 w-full
   }
 }

@@ -22,14 +22,18 @@
     }
   }
 
+  ul {
+    @apply list-disc ml-5
+  }
+
   code {
-    @apply bg-grey-lighter font-mono text-sm
+    @apply bg-gray-200 font-mono text-sm
   }
 
   p,
   li {
     code {
-      @apply inline-block border border-grey-light font-bold mx-px p-1 leading-none
+      @apply inline-block border border-gray-300 font-bold mx-px p-1 leading-none
     }
   }
 
@@ -44,6 +48,6 @@
   }
 
   figcaption {
-    @apply italic text-sm text-grey-darker text-center mb-0 mt-1
+    @apply italic text-sm text-gray-800 text-center mb-0 mt-1
   }
 }
