@@ -90,11 +90,11 @@ Within the `style` section, I’m able to use Tailwind’s custom `@apply` direc
     @apply underline
 
 #main a
-  @apply text-blue-dark no-underline border-b border-blue border-dotted
+  @apply text-blue-dark no-underline border-b border-blue-600 border-dotted
 
   &:hover,
   &:focus
-    @apply text-blue border-solid
+    @apply text-blue-600 border-solid
 
 #footer a
   @apply text-white no-underline border-b border-dotted border-white

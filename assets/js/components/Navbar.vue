@@ -21,7 +21,7 @@
         <a
           v-for="item in items"
           class="block text-black no-underline focus:outline-none p-4 border-l-3 sm:border-l-0 sm:border-b-3 border-transparent hover:border-grey-light focus:border-grey-light focus:bg-white sm:ml-4 sm:mr-0 sm:p-0 hover:no-underline text-sm -mb-px"
-          :class="{'border-blue hover:border-blue': isActive(item)}"
+          :class="{'border-blue-600 hover:border-blue-600': isActive(item)}"
           :href="item.href"
         >
           <span class="flex items-center h-full">{{ item.title }}</span>
