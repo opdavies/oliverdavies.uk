@@ -19,7 +19,7 @@ img {
 }
 
 a {
-  @apply text-blue no-underline;
+  @apply text-blue-600 no-underline;
 
   &:hover {
     @apply underline
