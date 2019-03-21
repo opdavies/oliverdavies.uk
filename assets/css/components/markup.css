@@ -22,6 +22,10 @@
     }
   }
 
+  ul {
+    @apply list-disc ml-5
+  }
+
   code {
     @apply bg-grey-lighter font-mono text-sm
   }
