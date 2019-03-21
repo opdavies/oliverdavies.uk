@@ -1,5 +1,5 @@
-let defaultConfig = require('tailwindcss/defaultConfig')()
-let defaultTheme = require('tailwindcss/defaultTheme')()
+let defaultConfig = require('tailwindcss/defaultConfig')
+let defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   theme: {
