@@ -1,13 +1,15 @@
 <article>
-    <h3 class="text-lg text-black mb-1">{{ talk.title }}</h3>
+    <h3 class="text-lg text-black mb-1">
+        {{ talk.title }}
+    </h3>
 
-    <div class="text-grey-darkest">
+    <div>
         <p>{{ talk.description }}</p>
     </div>
 
     {% if talk.url %}
         <footer class="mt-1">
-            <a href="{{ talk.url }}" class="text-sm text-grey-dark hover:text-grey-darkest focus:text-grey-darkest no-underline hover:underline">
+            <a href="{{ talk.url }}" class="text-sm text-gray-600 hover:text-gray-900 focus:text-gray-900 no-underline hover:underline">
                 Find out more
                 <span class="visuallyhidden">about {{ talk.title }}</span>
                 &rarr;

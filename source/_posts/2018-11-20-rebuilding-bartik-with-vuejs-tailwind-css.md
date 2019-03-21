@@ -106,13 +106,13 @@ export default {
           <div class="w-full md:w-1/3 lg:w-1/4 flex-none md:px-6">
             <div class="w-full md:w-1/3 lg:w-1/4 flex-none md:px-6">
                 <div class="p-4" style="background-color: #f6f6f2">
-                  <h2 class="font-serif font-normal text-base text-grey-darkest border-b border-solid border-grey-light mb-3">Search</h2>
+                  <h2 class="font-serif font-normal text-base text-gray-900 border-b border-solid border-gray-300 mb-3">Search</h2>
 
                   <div>
                     <form action="#" class="flex">
-                      <input type="text" class="border border-solid border-grey p-2 w-full xl:w-auto">
+                      <input type="text" class="border border-solid border-gray p-2 w-full xl:w-auto">
 
-                      <button type="submit" class="bg-grey-light px-3 rounded-full border-b border-solid border-grey-dark ml-2 flex-none" style="background-color: #f0f0f0">
+                      <button type="submit" class="bg-gray-300 px-3 rounded-full border-b border-solid border-gray-600 ml-2 flex-none" style="background-color: #f0f0f0">
                         <img src="img/loupe.svg" class="block">
                       </button>
                     </form>
@@ -127,7 +127,7 @@ export default {
 
     <div id="footer" class="text-xs text-white">
       <div class="container mx-auto px-4 pt-16 pb-4">
-        <div class="border-t border-solid border-grey-darkest pt-6 -mb-6">
+        <div class="border-t border-solid border-gray-900 pt-6 -mb-6">
           <div class="mb-6">
             <p><a href="#0">Contact</a></p>
           </div>
@@ -197,7 +197,7 @@ I also moved the links into `data` too - each link is it’s own object with it'
   <div>
     <button
       type="button"
-      class="w-full p-3 block sm:hidden bg-blue-light text-sm text-grey-darker text-left focus:outline-none"
+      class="w-full p-3 block sm:hidden bg-blue-light text-sm text-gray-800 text-left focus:outline-none"
       @click="open = !open"
     >
       <div class="flex items-center justify-between">
