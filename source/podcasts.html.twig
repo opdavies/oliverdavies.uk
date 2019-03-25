@@ -28,7 +28,11 @@ episodes:
         {% set podcast = page.podcasts[episode.podcast] %}
 
         <article>
-            <h2 class="text-lg">{{ podcast.name }}: {{ episode.title }}</h2>
+            <h2 class="text-lg">
+                <a href="{{ episode.url }}" class="text-inherit" tabindex="-1">
+                    {{ podcast.name }}: {{ episode.title }}
+                </a>
+            </h2>
 
             <time class="text-sm text-gray-800 block mt-px mb-2" datetime="{{ episode.date|date('Y-m-d') }}">
                 {{ episode.date|date('jS F Y') }}

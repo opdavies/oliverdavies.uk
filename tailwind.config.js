@@ -4,6 +4,9 @@ let defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   theme: {
     extend: {
+      colors: {
+        inherit: 'inherit',
+      },
       fontFamily: {
         mono: ['Roboto Mono', ...defaultTheme.fontFamily.mono],
       },
@@ -12,17 +15,17 @@ module.exports = {
       },
       borderWidth: {
         3: '3px',
-      },
-    },
+      }
+    }
   },
   plugins: [
     require('tailwindcss-spaced-items')({ values: defaultTheme.spacing }),
     require('tailwindcss-visuallyhidden')(),
     require('tailwindcss-skip-link')(),
-    require('tailwindcss-vuejs')(),
+    require('tailwindcss-vuejs')()
   ],
   variants: {
     borderStyle: [...defaultConfig.variants.borderStyle, 'hover', 'focus'],
-    borderWidth: [...defaultConfig.variants.borderStyle, 'hover', 'focus'],
-  },
+    borderWidth: [...defaultConfig.variants.borderStyle, 'hover', 'focus']
+  }
 }
