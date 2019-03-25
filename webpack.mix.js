@@ -15,10 +15,7 @@ mix.js([
 ], 'source/dist/js/app.js')
 
 mix.purgeCss({
-  globs: [
-    path.join(__dirname, 'assets/js/**/*.{js,vue}'),
-    path.join(__dirname, 'output_*/**/*.html'),
-  ],
+  folders: ['assets', 'output_*'],
   whitelistPatterns: [/language/, /hljs/],
   whitelistPatternsChildren: [/^markdown$/]
 });
