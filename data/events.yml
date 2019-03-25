@@ -109,3 +109,8 @@ events:
         name: 'unified.diff'
         location: Cardiff, UK
         url: http://unifieddiff.co.uk
+
+    wordcamp_bristol_2019:
+        name: 'WordCamp Bristol 2019'
+        location: Bristol, UK
+        url: https://2019.bristol.wordcamp.org
