@@ -1,6 +1,6 @@
-let mix = require('laravel-mix');
+let mix = require('laravel-mix')
 
-require('laravel-mix-purgecss');
+require('laravel-mix-purgecss')
 
 mix.disableNotifications()
 
@@ -18,4 +18,4 @@ mix.purgeCss({
   folders: ['assets', 'output_*'],
   whitelistPatterns: [/language/, /hljs/],
   whitelistPatternsChildren: [/^markdown$/]
-});
+})
