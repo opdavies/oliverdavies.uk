@@ -3,7 +3,11 @@
     <div class="sm:flex">
       <div class="w-full sm:w-1/3 lg:w-1/4 flex items-center">
         <div class="w-3/4 py-5">
-          <div class="font-semibold text-sm">{{ siteTitle }}</div>
+          <div class="text-sm">
+            <a :href="siteUrl" class="text-black" tabindex="-1">
+              {{ siteTitle }}
+            </a>
+          </div>
         </div>
 
         <div class="w-1/4 text-right sm:hidden">
@@ -34,6 +38,7 @@
 <script>
 export default {
   props: {
+    siteUrl: String,
     siteTitle: String,
     pageUrl: String,
   },
