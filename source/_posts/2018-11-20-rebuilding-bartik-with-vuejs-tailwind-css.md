@@ -52,10 +52,10 @@ export default {
 }
 </script>
 
-<style lang="sass">
-@tailwind preflight
-@tailwind components
-@tailwind utilities
+<style lang="postcss">
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
 </style>
 ```
 
