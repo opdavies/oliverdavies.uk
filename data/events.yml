@@ -114,3 +114,8 @@ events:
         name: 'WordCamp Bristol 2019'
         location: Bristol, UK
         url: https://2019.bristol.wordcamp.org
+
+    wpchelt:
+        name: Cheltenham WordPress Meetup
+        location: Cheltenham, UK
+        url: https://www.meetup.com/Cheltenham-WordPress-Meetup
