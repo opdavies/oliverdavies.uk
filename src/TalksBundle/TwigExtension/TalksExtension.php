@@ -48,16 +48,16 @@ class TalksExtension extends Twig_Extension
         });
     }
 
-  /**
-   * Get all upcoming talks.
-   *
-   * @param ProxySourceCollection|array $talks All talk nodes.
-   *
-   * @return Collection A sorted collection of talks.
-   */
+    /**
+     * Get all upcoming talks.
+     *
+     * @param ProxySourceCollection|array $talks All talk nodes.
+     *
+     * @return Collection A sorted collection of talks.
+     */
     public function getUpcoming($talks): Collection
     {
-         return $this->getAll($talks)->filter(function ($talk) {
+        return $this->getAll($talks)->filter(function ($talk) {
             return $this->getLastDate($talk) >= $this->today;
         })->values();
     }
