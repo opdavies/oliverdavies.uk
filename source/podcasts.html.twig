@@ -25,6 +25,12 @@ episodes:
       date: 2019-03-08
       url: ~
 ---
+{% macro episodeTitle(podcast, episode) -%}
+    {{ podcast.name }}: {{ episode.title }}
+{%- endmacro %}
+
+{% import _self as helpers %}
+
 <!-- <header class="mb-6">
     <p class="text-lg">
         I’m an occasional guest on podcasts such as Talking Drupal.
@@ -37,9 +43,13 @@ episodes:
 
         <article>
             <h2 class="text-lg">
-                <a href="{{ episode.url }}" class="text-inherit" tabindex="-1">
-                    {{ podcast.name }}: {{ episode.title }}
-                </a>
+                {% if episode.url %}
+                    <a href="{{ episode.url }}" class="text-inherit" tabindex="-1">
+                        {{ helpers.episodeTitle(podcast, episode) }}
+                    </a>
+                {% else %}
+                    {{ helpers.episodeTitle(podcast, episode) }}
+                {% endif %}
             </h2>
 
             <time class="text-sm text-gray-800 block mt-px mb-2" datetime="{{ episode.date|date('Y-m-d') }}">
@@ -48,11 +58,13 @@ episodes:
 
             <p>{{ episode.description }}</p>
 
-            <a href="{{ episode.url }}" class="inline-block mt-2 text-sm text-gray-600 hover:text-gray-800 focus:text-gray-800">
-                {{ episode.video ? 'Watch' : 'Listen to' }} this
-                <span class="visuallyhidden">{{ podcast.name }}</span>
-                episode &rarr;
-            </a>
+            {% if episode.url %}
+                <a href="{{ episode.url }}" class="inline-block mt-2 text-sm text-gray-600 hover:text-gray-800 focus:text-gray-800">
+                    {{ episode.video ? 'Watch' : 'Listen to' }} this
+                    <span class="visuallyhidden">{{ podcast.name }}</span>
+                    episode &rarr;
+                </a>
+            {% endif %}
         </article>
     {% endfor %}
 </div>
