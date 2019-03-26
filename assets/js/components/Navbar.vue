@@ -4,15 +4,30 @@
       <div class="w-full sm:w-1/3 lg:w-1/4 flex items-center">
         <div class="w-3/4 py-5">
           <div class="text-sm">
-            <a :href="siteUrl" class="text-black" tabindex="-1">
+            <a
+              href="siteUrl"
+              class="text-black"
+              tabindex="-1"
+            >
               {{ siteTitle }}
             </a>
           </div>
         </div>
 
         <div class="w-1/4 text-right sm:hidden">
-          <button type="button" class="nav-toggle appearance-none" @click="hidden = !hidden" aria-label="Toggle main menu">
-            <svg class="fill-current text-gray-600 w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M16.4 9H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zm0 4H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zM3.6 7h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1z"/></svg>
+          <button
+            type="button"
+            class="nav-toggle appearance-none"
+            aria-label="Toggle main menu"
+            @click="hidden = !hidden"
+          >
+            <svg
+              class="fill-current text-gray-600 w-6 h-6"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path d="M16.4 9H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zm0 4H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zM3.6 7h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1z" />
+            </svg>
           </button>
         </div>
       </div>
@@ -23,7 +38,8 @@
         role="navigation"
       >
         <a
-          v-for="item in items"
+          v-for="(index, item) in items"
+          :key="index"
           class="block text-black no-underline focus:outline-none p-4 border-l-3 sm:border-l-0 sm:border-b-3 border-transparent hover:border-gray-300 focus:border-gray-300 focus:bg-white sm:ml-4 sm:mr-0 sm:p-0 hover:no-underline text-sm -mb-px"
           :class="{'border-blue-600 hover:border-blue-600': isActive(item)}"
           :href="item.href"
@@ -38,14 +54,17 @@
 <script>
 export default {
   props: {
-    siteUrl: String,
-    siteTitle: String,
-    pageUrl: String,
-  },
-
-  methods: {
-    isActive(item) {
-      return this.pageUrl.match(new RegExp(item.pattern))
+    siteUrl: {
+      type: String,
+      required: true
+    },
+    siteTitle: {
+      type: String,
+      required: true
+    },
+    pageUrl: {
+      type: String,
+      required: true
     }
   },
 
@@ -97,5 +116,12 @@ export default {
       ],
     }
   },
+
+
+  methods: {
+    isActive(item) {
+      return this.pageUrl.match(new RegExp(item.pattern))
+    }
+  }
 }
 </script>
