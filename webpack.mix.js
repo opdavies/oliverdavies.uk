@@ -9,10 +9,7 @@ mix.postCss('assets/css/app.css', 'source/dist/css', [
   require('tailwindcss')('tailwind.config.js'),
 ])
 
-mix.js([
-  'node_modules/jquery/src/jquery.js',
-  'assets/js/app.js',
-], 'source/dist/js/app.js')
+mix.js('assets/js/app.js', 'source/dist/js')
 
 mix.browserSync({
   proxy: 'localhost:8000',
