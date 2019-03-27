@@ -3,11 +3,11 @@ let mix = require('laravel-mix')
 require('laravel-mix-purgecss')
 
 mix.disableNotifications()
-  .postCss('assets/css/app.css', 'source/dist/css', [
+  .postCss('resources/css/app.css', 'source/dist/css', [
     require('postcss-nested'),
     require('tailwindcss')('tailwind.config.js'),
   ])
-  .js('assets/js/app.js', 'source/dist/js')
+  .js('resources/js/app.js', 'source/dist/js')
   .browserSync({
     proxy: 'localhost:8000',
     files: [
@@ -16,7 +16,7 @@ mix.disableNotifications()
     notify: false,
   })
   .purgeCss({
-    folders: ['assets', 'output_*'],
+    folders: ['resources', 'output_*'],
     whitelistPatterns: [/language/, /hljs/],
     whitelistPatternsChildren: [/^markdown$/]
   })
