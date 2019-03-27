@@ -14,6 +14,14 @@ mix.js([
   'assets/js/app.js',
 ], 'source/dist/js/app.js')
 
+mix.browserSync({
+  proxy: 'localhost:8000',
+  files: [
+    'source/**/*.{html,md,twig}',
+  ],
+  notify: false,
+})
+
 mix.purgeCss({
   folders: ['assets', 'output_*'],
   whitelistPatterns: [/language/, /hljs/],
