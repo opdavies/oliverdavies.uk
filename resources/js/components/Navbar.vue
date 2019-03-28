@@ -5,7 +5,7 @@
         <div class="w-3/4 py-5">
           <div class="text-sm">
             <a
-              href="siteUrl"
+              :href="siteUrl"
               class="text-black"
               tabindex="-1"
             >
