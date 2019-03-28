@@ -11,6 +11,7 @@ mix.disableNotifications()
   .browserSync({
     proxy: 'localhost:8000',
     files: [
+      'resources/**/*.{css,js,vue}',
       'source/**/*.{html,md,twig}',
     ],
     notify: false,
