@@ -32,8 +32,9 @@ An introduction to utility class and component based styling, and how to soar wi
 Things we’ll cover:
 
 - Advantages and disadvantages to utility based styling and Tailwind.
-- How to install Tailwind and add it to your build process.
-- How to customise Tailwind.
-- How to promote repeating classes into re-usable components.
+- How to install Tailwind and add it to your build process using tools such as Symfony Encore and Laravel Mix.
+- How to configure and customise Tailwind for your project.
+- How to promote repeating classes into re-usable components for better maintainability.
+- Strategies to control the file size, and using external tools like PurgeCSS.
 
 [1]: https://tailwindcss.com
