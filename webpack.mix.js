@@ -7,6 +7,7 @@ mix.disableNotifications()
     require('postcss-nested'),
     require('tailwindcss')('tailwind.config.js'),
   ])
+  .extract(['vue'])
   .js('resources/js/app.js', 'source/dist/js')
   .browserSync({
     proxy: 'localhost:8000',
