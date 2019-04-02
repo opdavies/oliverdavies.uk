@@ -9,12 +9,14 @@
 {% endblock %}
 
 {% block content_wrapper %}
-    <div class="markup spaced-y-4">
-        {% block content %}{% endblock %}
-    </div>
+    <div class="spaced-y-8">
+        <div class="markup spaced-y-4">
+            {% block content %}{% endblock %}
+        </div>
 
-    {% include 'talk/slides' %}
-    {% include 'talk/video' %}
-    {% include 'talk/tweets' %}
-    {% include 'talk/events' %}
+        {% include 'talk/slides' %}
+        {% include 'talk/video' %}
+        {% include 'talk/tweets' %}
+        {% include 'talk/events' %}
+    </div>
 {% endblock %}
