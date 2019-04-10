@@ -1,4 +1,9 @@
 [build]
-command = "yarn lint && composer prod && yarn prod && cp -R source/dist output_prod"
+command = """
+yarn lint
+composer prod
+yarn prod
+cp -R source/dist output_prod
+"""
 publish = "output_prod"
 environment = { PHP_VERSION = "7.2", YARN_VERSION = "1.13.0" }
