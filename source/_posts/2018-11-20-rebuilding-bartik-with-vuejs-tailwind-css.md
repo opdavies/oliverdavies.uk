@@ -61,7 +61,7 @@ export default {
 
 `src/components/Welcome.vue`:
 
-<div v-pre markdown="1">{% raw %}
+<div v-pre markdown="1">{% verbatim %}
 ```vuejs
 <template>
   <div>
@@ -163,7 +163,7 @@ export default {
 }
 </script>
 ```
-{% endraw %}</div>
+{% endverbatim %}</div>
 
 ## Making it responsive
 
@@ -191,7 +191,7 @@ I also moved the links into `data` too - each link is it’s own object with it'
 
 `src/components/MainMenu.vue`:
 
-{% raw %}<div v-pre markdown="1">
+{% verbatim %}<div v-pre markdown="1">
 ```vuejs
 <template>
   <div>
@@ -275,7 +275,7 @@ I also moved the links into `data` too - each link is it’s own object with it'
   }
 </script>
 ```
-</div>{% endraw %}
+</div>{% endverbatim %}
 
 ## The result
 
