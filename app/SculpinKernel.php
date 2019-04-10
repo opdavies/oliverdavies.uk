@@ -13,7 +13,7 @@ class SculpinKernel extends AbstractKernel
     /**
      * {@inheritdoc}
      */
-    protected function getAdditionalSculpinBundles()
+    protected function getAdditionalSculpinBundles(): array
     {
         return [
             SculpinContentGeneratorBundle::class,
