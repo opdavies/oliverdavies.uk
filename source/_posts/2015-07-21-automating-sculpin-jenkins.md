@@ -69,7 +69,7 @@ talks:
 The Twig layout:
 
 ```language-twig
-{% raw -%}
+{% verbatim -%}
 {% for talk in talks|reverse if talk.date >= now %}
     {# Upcoming talks #}
 {% endfor %}
@@ -77,7 +77,7 @@ The Twig layout:
 {% for talk in talks if talk.date < now %}
     {# Previous talks #}
 {% endfor%}
-{%- endraw %}
+{%- endverbatim %}
 ```
 
 I also didn’t want to have to push an empty commit or manually trigger a job in Jenkins after doing a talk in order for it to be positioned in the correct place on the page, so I also wanted Jenkins to schedule a regular build regardless of whether or not code had been pushed, so ensure that my talks page would be up to date.

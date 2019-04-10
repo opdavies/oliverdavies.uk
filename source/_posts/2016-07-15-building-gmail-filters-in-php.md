@@ -50,7 +50,7 @@ Before:
 
 <div v-pre markdown="1">
 ```language-twig
-{% raw %}{{ filter.isArchive ? 'true' : 'false' }}{% endraw %}
+{% verbatim %}{{ filter.isArchive ? 'true' : 'false' }}{% endverbatim %}
 ```
 </div>
 
@@ -58,7 +58,7 @@ After:
 
 <div v-pre markdown="1">
 ```language-twig
-{% raw %}{{ filter.isArchive|boolean_string }}{% endraw %}
+{% verbatim %}{{ filter.isArchive|boolean_string }}{% endverbatim %}
 ```
 </div>
 
