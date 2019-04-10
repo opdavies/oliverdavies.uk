@@ -52,7 +52,7 @@ In the first version, every link was individually styled which resulted in a lot
 
 I added a `style` section within `Welcome.vue`, and added some default styling for links based on their location on the page - [extracting some Tailwind components](https://tailwindcss.com/docs/extracting-components).
 
-<div v-pre markdown="1">{% raw %}
+<div v-pre markdown="1">{% verbatim %}
 ```vuejs
 <template>
   ...
@@ -104,7 +104,7 @@ Within the `style` section, I’m able to use Tailwind’s custom `@apply` direc
     @apply border-none
 </style>
 ```
-{% endraw %}</div>
+{% endverbatim %}</div>
 
 ## Extracting a Vue component for Drupal blocks
 
