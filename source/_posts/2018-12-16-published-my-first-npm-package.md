@@ -54,7 +54,7 @@ The `v-cloak` directive exists on an element until Vue finishes compiling, after
 
 In my `base.html.twig` template, I’ve added `v-cloak` to the wrapper div within the `body`.
 
-{% raw %}<div v-pre markdown="1">
+{% verbatim %}<div v-pre markdown="1">
 ```twig
 <body class="font-sans leading-normal">
     <div id="app" v-cloak>
@@ -62,11 +62,11 @@ In my `base.html.twig` template, I’ve added `v-cloak` to the wrapper div withi
     </div>
 </body>
 ```
-</div>{% endraw %}
+</div>{% endverbatim %}
 
 Within my `navbar.html.twig` partial, I have a placeholder div that also contains the site name, which is instantly visible but has the `v-cloak-block` class so it’s hidden once Vue has compiled and the `Navbar` Vue component is visible instead.
 
-{% raw %}<div v-pre markdown="1">
+{% verbatim %}<div v-pre markdown="1">
 ```twig
 <div class="border-bottom border-b border-gray-300 mb-6">
     <div class="container mx-auto">
@@ -81,7 +81,7 @@ Within my `navbar.html.twig` partial, I have a placeholder div that also contain
     </div>
 </div>
 ```
-</div>{% endraw %}
+</div>{% endverbatim %}
 
 I was originally surprised that these classes weren’t included as part of Tailwind or as part of an existing plugin, but as I’ve already used these styles on several projects that include Vue.js with Symfony or Sculpin, it made sense to extract it into a plugin and make it available as a npm package which I can easily add to any project - as well as making it easier to maintain if I need to add additional variations at a later point.
 
