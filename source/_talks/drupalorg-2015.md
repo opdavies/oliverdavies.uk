@@ -1,5 +1,5 @@
 ---
-title: Drupal.org in 2015: What's Coming Next
+title: "Drupal.org in 2015: What's Coming Next"
 description: A retrospective of the Drupal Association’s work in 2014 and a look forward to what we’ll be working on in 2015.
 tags: [conference, drupalcamp, drupalcamp-london, drupal-association]
 speakerdeck:
