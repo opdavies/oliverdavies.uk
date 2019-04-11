@@ -1,4 +1,17 @@
 {
+    "name": "opdavies/oliverdavies.uk",
+    "description": "Oliver Davies personal website",
+    "type": "project",
+    "keywords": ["sculpin"],
+    "homepage": "https://github.com/opdavies/oliverdavies.uk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oliver Davies",
+            "homepage": "https://www.oliverdavies.uk",
+            "role": "Developer"
+        }
+    ],
     "scripts": {
         "dev": "composer run-script generate",
         "generate": "sculpin generate --clean --no-interaction",
