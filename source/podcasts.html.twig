@@ -64,7 +64,11 @@ episodes:
 
             {% if episode.url %}
                 <a href="{{ episode.url }}" class="inline-block mt-2 text-sm text-gray-600 hover:text-gray-800 focus:text-gray-800">
-                    {{ episode.video ? 'Watch' : 'Listen to' }} this
+                    {% if episode.video %}
+                        Watch {{ episode.video and episode.audio ? 'or listen to' }}
+                    {% elseif episode.audio %}
+                        Listen to
+                    {% endif %} this
                     <span class="visuallyhidden">{{ podcast.name }}</span>
                     episode &rarr;
                 </a>
