@@ -1,12 +1,10 @@
 <?php
 
-use FormatTalksBundle\SculpinFormatTalksBundle;
+use App\Talks\SculpinTalksBundle;
 use Opdavies\Sculpin\Bundle\ContentGeneratorBundle\SculpinContentGeneratorBundle;
 use Opdavies\Sculpin\Bundle\GistEmbedBundle\SculpinGistEmbedBundle;
 use Opdavies\Sculpin\Bundle\TwigMarkdownBundle\SculpinTwigMarkdownBundle;
 use Sculpin\Bundle\SculpinBundle\HttpKernel\AbstractKernel;
-use TalksBundle\SculpinTalksBundle;
-use WebsiteBundle\SculpinWebsiteBundle;
 
 class SculpinKernel extends AbstractKernel
 {
