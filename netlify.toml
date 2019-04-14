@@ -1,6 +1,7 @@
 [build]
 command = """
 yarn lint
+composer test
 composer prod
 yarn prod
 cp -R source/dist output_prod
