@@ -1,7 +1,7 @@
 [build]
 command = """
 composer lint -- --dry-run
-yarn lint
+yarn lint --fix-dry-run
 composer test
 composer prod
 yarn prod
