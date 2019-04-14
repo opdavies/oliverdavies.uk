@@ -1,6 +1,6 @@
 <?php
 
-namespace TalksBundle;
+namespace App\Talks;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

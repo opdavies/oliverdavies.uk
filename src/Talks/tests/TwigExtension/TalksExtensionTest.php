@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\FormatTalksBundle\TwigExtension;
+namespace App\Tests\Talks\TwigExtension;
 
 use DateTime;
-use TalksBundle\TwigExtension\TalksExtension;
+use App\Talks\TwigExtension\TalksExtension;
 use Illuminate\Support\Collection;
 use PHPUnit\Framework\TestCase;
 

@@ -38,12 +38,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TalksBundle\\": "src/TalksBundle"
+            "App\\Talks\\": "src/Talks/src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests"
+            "App\\Tests\\Talks\\": "src/Talks/tests"
         }
     },
     "extra": {
