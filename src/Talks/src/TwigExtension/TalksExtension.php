@@ -1,6 +1,6 @@
 <?php
 
-namespace TalksBundle\TwigExtension;
+namespace App\Talks\TwigExtension;
 
 use Illuminate\Support\Collection;
 use Sculpin\Contrib\ProxySourceCollection\ProxySourceCollection;
