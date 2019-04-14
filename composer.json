@@ -22,6 +22,7 @@
     "require": {
         "php": "^7.2",
         "dflydev/embedded-composer": "^1.0@dev",
+        "friendsofphp/php-cs-fixer": "^2.14",
         "josephlavin/tap": "^1.0",
         "opdavies/sculpin-gist-embed-bundle": "^0.1",
         "opdavies/sculpin-twig-markdown-bundle": "^0.1",
