@@ -6,8 +6,8 @@
          convertWarningsToExceptions="true"
          stopOnFailure="true">
     <testsuites>
-        <testsuite name="Bundles">
-            <directory suffix="Test.php">tests</directory>
+        <testsuite name="Talks">
+            <directory suffix="Test.php">src/Talks/tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>
