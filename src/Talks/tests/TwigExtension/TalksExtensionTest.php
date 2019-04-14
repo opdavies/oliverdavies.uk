@@ -2,8 +2,8 @@
 
 namespace App\Tests\Talks\TwigExtension;
 
-use DateTime;
 use App\Talks\TwigExtension\TalksExtension;
+use DateTime;
 use Illuminate\Support\Collection;
 use PHPUnit\Framework\TestCase;
 
