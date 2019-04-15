@@ -37,4 +37,9 @@ Things we’ll cover:
 - How to promote repeating classes into re-usable components for better maintainability.
 - Strategies to control the file size, and using external tools like PurgeCSS.
 
+Also, if time allows:
+
+- How to extend Tailwind and add extra classes with community written plugins.
+- How to write and test your own custom plugins.
+
 [1]: https://tailwindcss.com
