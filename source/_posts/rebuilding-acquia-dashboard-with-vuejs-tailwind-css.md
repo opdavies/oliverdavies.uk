@@ -127,6 +127,6 @@ Vue Router is configured to show the
 </figure>
 
 [github]: https://github.com/opdavies/rebuilding-acquia
-[netlify]: https://rebuilding-acquia.netlify.com
+[netlify]: https://rebuilding-acquia.oliverdavies.uk
 [tailwind]: https://tailwindcss.com
 [vue]: https://vuejs.org
