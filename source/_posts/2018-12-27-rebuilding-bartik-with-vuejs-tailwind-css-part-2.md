@@ -239,6 +239,6 @@ new Vue({
 __The updated version is [live on Netlify][netlify], and the [latest source code is available on GitHub][github].__
 
 [github]: https://github.com/opdavies/rebuilding-bartik
-[netlify]: https://rebuilding-bartik.netlify.com
+[netlify]: https://rebuilding-bartik.oliverdavies.uk
 [tailwind]: https://tailwindcss.com
 [vuejs]: https://vuejs.org

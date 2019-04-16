@@ -297,5 +297,5 @@ I’ve also made some additional changes since this version, which are described
 [1]: https://vuejs.org
 [2]: https://tailwindcss.com
 [3]: https://github.com/opdavies/rebuilding-bartik
-[4]: https://rebuilding-bartik.netlify.com
+[4]: https://rebuilding-bartik.oliverdavies.uk
 [5]: https://www.drupal.org/project/tailwindcss
