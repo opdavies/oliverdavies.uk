@@ -33,6 +33,7 @@ a {
 @import 'components/markup.css';
 @import 'components/note.css';
 @import 'components/talks/video.css';
+@import 'components/table.css';
 @import 'components/widget.css';
 
 @tailwind utilities;
