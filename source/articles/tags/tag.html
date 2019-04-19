@@ -9,13 +9,13 @@ generator:
     <meta name="robots" content="noindex, follow">
 {% endblock %}
 
-{% block title %}{{ page.title }} "{{ page.tag }}"{% endblock %}
+{% block page_title %}
+    {{ page.title }}: "{{ page.tag }}"
+{% endblock %}
 
 {% block content %}
-    <h1>Tag: {{ page.tag }}</h1>
-
     <div class="table-responsive">
-        <table class="table">
+        <table class="table is-striped">
             <thead>
                 <tr>
                     <th>Post Title</th>
