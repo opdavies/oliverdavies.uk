@@ -2,13 +2,14 @@
 title: Contact
 layout: default
 use: [posts]
+honeypot_field: Qr4W7oB25C
 ---
 {% block content %}
     <div class="mt-2 mb-6">
         <p>To send me an email, complete the form below.</p>
     </div>
 
-    <form name="contact" method="POST" netlify-honeypot="Qr4W7oB25C" data-netlify="true" class="spaced-y-4">
+    <form name="contact" method="POST" netlify-honeypot="{{ page.honeypot_field }}" data-netlify="true" class="spaced-y-4">
         <div class="spaced-y-1">
             <label for="name" class="block">Name</label>
             <input type="text" class="w-full p-2 border border--grey" id="name" name="name" required />
@@ -30,7 +31,7 @@ use: [posts]
         </div>
 
         <p class="hidden">
-            <label>Don’t fill this out if you're human: <input name="Qr4W7oB25C" /></label>
+            <label>Don’t fill this out if you're human: <input name="{{ page.honeypot_field }}" /></label>
         </p>
 
         <div>
