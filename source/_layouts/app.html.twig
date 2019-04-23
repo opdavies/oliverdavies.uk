@@ -4,9 +4,9 @@
         <title>{% if page.title is defined and page.url != '//' %}{{ page.title }} | {% endif %}{{ site.title }} - {{ site.subtitle }}</title>
         {% include 'meta' %}
         {% block metas %}
-            <meta name="twitter:site" content="@{{ site.twitter.name }}">
+            <meta name="twitter:site" content="@{{ site.twitter.user }}">
             <meta name="twitter:title" content="{{ page.title }}">
-            <meta name="twitter:creator" content="@{{ site.twitter.name }}">
+            <meta name="twitter:creator" content="@{{ site.twitter.user }}">
         {% endblock %}
 
         <link rel="stylesheet" href="/dist/css/app.css">

@@ -2,11 +2,8 @@ title: Oliver Davies
 subtitle: Full Stack Web Developer (Drupal, Symfony, Laravel, Linux)
 description: 'Oliver Davies, Drupal Developer'
 email: oliver+website@oliverdavies.uk
-default_date_format: 'jS F, Y'
-fuzzy_date_format: F Y
 apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
 favicon_sizes: [ 160, 96, 32, 16 ]
-latest_posts: 5
 
 ansible_galaxy:
     url: https://galaxy.ansible.com/opdavies
@@ -214,20 +211,14 @@ favicon:
     url: /images/me-phpnw.png
 
 github:
-    name: opdavies
     url: https://github.com/opdavies
+    user: opdavies
 
 gravatar:
     url: //www.gravatar.com/avatar/e0f6adcd63d8393e689b327e978d0887.png
 
-irc:
-    name: opdavies
-
 joindin:
     url: https://joind.in/user/opdavies
-
-lanyrd:
-    url: http://lanyrd.com/profile/opdavies
 
 linkedin:
     url: http://uk.linkedin.com/in/opdavies
@@ -236,19 +227,19 @@ npm:
     url: https://www.npmjs.com/~opdavies
 
 packagist:
-    name: opdavies
+    user: opdavies
     url: https://packagist.org/users/opdavies
 
 speakerdeck:
     url: https://speakerdeck.com/opdavies
 
 twitter:
-    name: opdavies
     url: https://twitter.com/opdavies
+    user: opdavies
 
 wordpress:
-    name: opdavies
     url: https://profiles.wordpress.org/opdavies
+    user: opdavies
 
 work:
     role: Senior Developer
