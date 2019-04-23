@@ -93,11 +93,6 @@ export default {
           href: '/talks',
           pattern: '^/talks/?',
         },
-        // {
-        //   title: 'Testimonials',
-        //   href: '/testimonials',
-        //   pattern: '^/testimonials/?$',
-        // },
         {
           title: 'Podcasts',
           href: '/podcasts',
