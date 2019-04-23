@@ -8,25 +8,25 @@ use: [posts]
         <p>To send me an email, complete the form below.</p>
     </div>
 
-    <form name="contact" method="POST" action="/contact/thanks" data-netlify="true">
-        <div>
-            <label for="name" class="block mb-1">Name</label>
-            <input type="text" class="w-full p-2 mb-4 border border--grey" id="name" name="name" required />
+    <form name="contact" method="POST" action="/contact/thanks" data-netlify="true" class="spaced-y-4">
+        <div class="spaced-y-1">
+            <label for="name" class="block">Name</label>
+            <input type="text" class="w-full p-2 border border--grey" id="name" name="name" required />
         </div>
 
-        <div>
-            <label for="email" class="block mb-1">Email</label>
-            <input type="email" class="w-full p-2 mb-4 border border--grey" id="email" name="email" required />
+        <div class="spaced-y-1">
+            <label for="email" class="block">Email</label>
+            <input type="email" class="w-full p-2 border border--grey" id="email" name="email" required />
         </div>
 
-        <div>
-            <label for="subject" class="block mb-1">Subject</label>
-            <input type="text" class="w-full p-2 mb-4 border border--grey" id="subject" name="subject" required />
+        <div class="spaced-y-1">
+            <label for="subject" class="block">Subject</label>
+            <input type="text" class="w-full p-2 border border--grey" id="subject" name="subject" required />
         </div>
 
-        <div>
-            <label for="message" class="block mb-1">Message</label>
-            <textarea id="message" class="w-full p-2 mb-4 border border--grey" rows="5" name="message" required></textarea>
+        <div class="spaced-y-1">
+            <label for="message" class="block">Message</label>
+            <textarea id="message" class="w-full p-2 border border--grey" rows="5" name="message" required></textarea>
         </div>
 
         <div data-netlify-recaptcha="true"></div>
