@@ -62,7 +62,7 @@ This seems to have worked OK - the commits are still authored by the correct peo
 
 ## Is There a Better Way?
 
-Did I miss something? Is there a recommended and/or better way to update your forked repos, maybe through the UI? Please <a href="https://twitter.com/?status=Rebasing GitHub Forks: @{{ site.twitter.name }}">send me a tweet</a> with any comments.
+Did I miss something? Is there a recommended and/or better way to update your forked repos, maybe through the UI? Please <a href="https://twitter.com/?status=Rebasing GitHub Forks: @{{ site.twitter.user }}">send me a tweet</a> with any comments.
 
 ## Up
 __December 2015:__ I’ve found that PhpStorm has an option available to rebase a fork from within the IDE. This is within the *VCS* > *Git* menu.
