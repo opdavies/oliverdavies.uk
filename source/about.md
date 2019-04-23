@@ -1,0 +1,22 @@
+---
+layout: front
+title: About Me
+meta:
+    og:
+        title: 'Oliver Davies - Full Stack Developer, System Administrator, PHP and Drupal specialist'
+        description: 'The personal website and blog of Oliver Davies, a Full Stack Developer and System Administrator from Wales, UK.'
+        type: website
+permalink: /
+wide: true
+---
+<div class="mb-4 w-32"><img src="/images/me-precedent.jpg" alt="Picture of Oliver" class="rounded-full border border-gray"/></div>
+
+Hi, I’m Oliver Davies (aka <a href="https://www.google.com/#q=opdavies">opdavies</a>) - a Web Developer based in Wales, UK. I specialise in PHP, front-end development and systems administration.
+
+I’m a Senior Developer at <a href="https://microserve.io?utm_source=oliverdavies.uk&amp;utm_medium=about-bio">Microserve</a>, part-time freelancer, former Developer at the <a href="https://www.drupal.org/association">Drupal Association</a>, open source contributor and advocate, mentor and conference speaker.
+
+I primarily work with Drupal and am an <a href="https://certification.acquia.com/user/1647756">Acquia certified Drupal Grand Master</a>, but also use Symfony, Laravel and Sculpin, and have some experience working with JavaScript frameworks including Vue.js and Angular.
+
+I’m a webmaster and documentation maintainer for <a href="https://www.drupal.org">Drupal.org</a>, and a co-organiser of the <a href="{{ site.events.php_south_wales.url }}">PHP South Wales user group</a> and <a href="https://www.drupalcampbristol.co.uk">DrupalCamp Bristol</a>. I was also previously an organiser of the PHPSW and Drupal Bristol user groups.
+
+You can find me on <a href="https://twitter.com/opdavies">Twitter</a>, and see my open source work on <a href="https://www.drupal.org/u/opdavies">Drupal.org</a> and <a href="http://github.com/opdavies">GitHub</a> as well as on <a href="https://packagist.org/users/opdavies">Packagist</a>, <a href="https://www.npmjs.com/~opdavies">npm</a> and <a href="https://galaxy.ansible.com/opdavies">Ansible Galaxy</a>.
