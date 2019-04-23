@@ -7,255 +7,255 @@ apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
 favicon_sizes: [ 160, 96, 32, 16 ]
 
 ansible_galaxy:
-    url: https://galaxy.ansible.com/opdavies
+  url: https://galaxy.ansible.com/opdavies
 
 author: Oliver Davies
 
 availability:
-    part: no
-    full: no
+  part: no
+  full: no
 
 avatar:
-    url: /images/me-precedent.jpg
+  url: /images/me-precedent.jpg
 
 companies:
-    appnovation:
-        name: Appnovation
-        logo: appnovation.png
-        url: https://www.appnovation.com
+  appnovation:
+    name: Appnovation
+    logo: appnovation.png
+    url: https://www.appnovation.com
 
-    cti:
-        name: CTI Digital
-        logo: cti-digital.png
-        url: https://www.ctidigital.com
+  cti:
+    name: CTI Digital
+    logo: cti-digital.png
+    url: https://www.ctidigital.com
 
-    develop_me:
-        name: Develop Me Training
-        logo: develop_me.svg
-        url: https://developme.training
+  develop_me:
+    name: Develop Me Training
+    logo: develop_me.svg
+    url: https://developme.training
 
-    drupal_association:
-        name: Drupal Association
-        logo: drupal-association.png
-        url: https://www.drupal.org/association
+  drupal_association:
+    name: Drupal Association
+    logo: drupal-association.png
+    url: https://www.drupal.org/association
 
-    freelance:
-        name: Freelance
+  freelance:
+    name: Freelance
 
-    horse_country:
-        name: 'Horse & Country TV'
-        logo: horse-and-country.jpg
-        url: http://www.horseandcountry.tv
+  horse_country:
+    name: 'Horse & Country TV'
+    logo: horse-and-country.jpg
+    url: http://www.horseandcountry.tv
 
-    lab_class:
-        name: Lab Class
-        logo: lab-class.png
-        url: http://labclass.co.uk
+  lab_class:
+    name: Lab Class
+    logo: lab-class.png
+    url: http://labclass.co.uk
 
-    microserve:
-        name: Microserve
-        logo: microserve.png
-        url: https://microserve.io
-        github: https://github.com/microserve-io
+  microserve:
+    name: Microserve
+    logo: microserve.png
+    url: https://microserve.io
+    github: https://github.com/microserve-io
 
-    nomensa:
-        name: Nomensa
-        logo: nomensa.png
-        url: http://www.nomensa.com
+  nomensa:
+    name: Nomensa
+    logo: nomensa.png
+    url: http://www.nomensa.com
 
-    precedent:
-        name: Precedent
-        logo: precedent.jpg
-        url: http://precedent.com
+  precedent:
+    name: Precedent
+    logo: precedent.jpg
+    url: http://precedent.com
 
-    proctors:
-        name: 'Proctor & Stevenson'
-        logo: proctors.jpg
-        url: http://www.proctors.co.uk
+  proctors:
+    name: 'Proctor & Stevenson'
+    logo: proctors.jpg
+    url: http://www.proctors.co.uk
 
-    trent:
-        name: Trent Design
-        url: http://www.trentdesign.net
+  trent:
+    name: Trent Design
+    url: http://www.trentdesign.net
 
-    zooba:
-        name: Zooba Ltd
+  zooba:
+    name: Zooba Ltd
 
 drupalorg:
-    name: opdavies
-    uid: 381388
-    url: https://www.drupal.org/user/381388
-    url_new: https://www.drupal.org/u/opdavies
+  name: opdavies
+  uid: 381388
+  url: https://www.drupal.org/user/381388
+  url_new: https://www.drupal.org/u/opdavies
 
 email: oliver+website@oliverdavies.uk
 
 events:
-    drupal_bristol:
-        name: Drupal Bristol
-        location: Bristol, UK
-        url: https://www.drupalbristol.org.uk
+  drupal_bristol:
+    name: Drupal Bristol
+    location: Bristol, UK
+    url: https://www.drupalbristol.org.uk
 
-    drupal_dev_days_18:
-        name: Drupal Developer Days 2018
-        location: Lisbon, Portugal
-        url: http://lisbon2018.drupaldays.org
+  drupal_dev_days_18:
+    name: Drupal Developer Days 2018
+    location: Lisbon, Portugal
+    url: http://lisbon2018.drupaldays.org
 
-    drupal_somerset:
-        name: Drupal Somerset
-        location: Glastonbury, UK
+  drupal_somerset:
+    name: Drupal Somerset
+    location: Glastonbury, UK
 
-    drupalcamp_brighton_15:
-        name: DrupalCamp Brighton 2015
-        location: Brighton, UK
+  drupalcamp_brighton_15:
+    name: DrupalCamp Brighton 2015
+    location: Brighton, UK
 
-    drupalcamp_bristol_16:
-        name: DrupalCamp Bristol 2016
-        location: Bristol, UK
-        url: https://2016.drupalcampbristol.org.uk
+  drupalcamp_bristol_16:
+    name: DrupalCamp Bristol 2016
+    location: Bristol, UK
+    url: https://2016.drupalcampbristol.org.uk
 
-    drupalcamp_dublin_17:
-        name: DrupalCamp Dublin 2017
-        location: Dublin, Ireland
-        url: http://2017.drupal.ie
+  drupalcamp_dublin_17:
+    name: DrupalCamp Dublin 2017
+    location: Dublin, Ireland
+    url: http://2017.drupal.ie
 
-    drupalcamp_london_14:
-        name: DrupalCamp London 2014
-        location: London, UK
+  drupalcamp_london_14:
+    name: DrupalCamp London 2014
+    location: London, UK
 
-    drupalcamp_london_15:
-        name: DrupalCamp London 2015
-        location: London, UK
+  drupalcamp_london_15:
+    name: DrupalCamp London 2015
+    location: London, UK
 
-    drupalcamp_london_16:
-        name: DrupalCamp London 2016
-        location: London, UK
+  drupalcamp_london_16:
+    name: DrupalCamp London 2016
+    location: London, UK
 
-    drupalcamp_london_17:
-        name: DrupalCamp London 2017
-        location: London, UK
+  drupalcamp_london_17:
+    name: DrupalCamp London 2017
+    location: London, UK
 
-    drupalcamp_london_18:
-        name: DrupalCamp London 2018
-        location: London, UK
+  drupalcamp_london_18:
+    name: DrupalCamp London 2018
+    location: London, UK
 
-    drupalcamp_london_19:
-        name: DrupalCamp London 2019
-        location: London, UK
-        url: http://drupalcamp.london
+  drupalcamp_london_19:
+    name: DrupalCamp London 2019
+    location: London, UK
+    url: http://drupalcamp.london
 
-    drupalcamp_north_15:
-        name: DrupalCamp North 2015
-        location: Sunderland, UK
-        url: http://drupalcampnorth.org
+  drupalcamp_north_15:
+    name: DrupalCamp North 2015
+    location: Sunderland, UK
+    url: http://drupalcampnorth.org
 
-    nomad_php:
-        name: Nomad PHP
-        url: https://nomadphp.com
+  nomad_php:
+    name: Nomad PHP
+    url: https://nomadphp.com
 
-    nwdug:
-        name: NWDUG
-        location: Manchester, UK
-        url: http://nwdrupal.org.uk
+  nwdug:
+    name: NWDUG
+    location: Manchester, UK
+    url: http://nwdrupal.org.uk
 
-    phpnw_17:
-        name: PHP North West 2017
-        location: Manchester, UK
-        url: http://conference.phpnw.org.uk/phpnw17
+  phpnw_17:
+    name: PHP North West 2017
+    location: Manchester, UK
+    url: http://conference.phpnw.org.uk/phpnw17
 
-    php_south_coast_16:
-        name: PHP South Coast 2016
-        location: Portsmouth, UK
-        url: http://2016.phpsouthcoast.co.uk
+  php_south_coast_16:
+    name: PHP South Coast 2016
+    location: Portsmouth, UK
+    url: http://2016.phpsouthcoast.co.uk
 
-    php_south_wales:
-        name: PHP South Wales
-        location: Cardiff, UK
-        url: https://www.phpsouthwales.uk
+  php_south_wales:
+    name: PHP South Wales
+    location: Cardiff, UK
+    url: https://www.phpsouthwales.uk
 
-    phpsw:
-        name: PHPSW
-        location: Bristol, UK
-        url: https://phpsw.uk
+  phpsw:
+    name: PHPSW
+    location: Bristol, UK
+    url: https://phpsw.uk
 
-    php_uk_18:
-        name: PHP UK Conference 2018
-        location: London, UK
-        url: https://www.phpconference.co.uk
+  php_uk_18:
+    name: PHP UK Conference 2018
+    location: London, UK
+    url: https://www.phpconference.co.uk
 
-    ssdc:
-        name: Swansea Software Development Meetup (SSDC)
-        location: Swansea, UK
-        url: https://www.meetup.com/Swansea-Software-Development-Meetup
+  ssdc:
+    name: Swansea Software Development Meetup (SSDC)
+    location: Swansea, UK
+    url: https://www.meetup.com/Swansea-Software-Development-Meetup
 
-    swdug:
-        name: SWDUG
-        location: Cardiff, UK
+  swdug:
+    name: SWDUG
+    location: Cardiff, UK
 
-    umbristol:
-        name: umBristol
-        location: Bristol, UK
-        url: http://umbristol.co.uk
+  umbristol:
+    name: umBristol
+    location: Bristol, UK
+    url: http://umbristol.co.uk
 
-    unified_diff:
-        name: 'unified.diff'
-        location: Cardiff, UK
-        url: http://unifieddiff.co.uk
+  unified_diff:
+    name: 'unified.diff'
+    location: Cardiff, UK
+    url: http://unifieddiff.co.uk
 
-    wordcamp_bristol_2019:
-        name: 'WordCamp Bristol 2019'
-        location: Bristol, UK
-        url: https://2019.bristol.wordcamp.org
+  wordcamp_bristol_2019:
+    name: 'WordCamp Bristol 2019'
+    location: Bristol, UK
+    url: https://2019.bristol.wordcamp.org
 
-    wpchelt:
-        name: Cheltenham WordPress Meetup
-        location: Cheltenham, UK
-        url: https://www.meetup.com/Cheltenham-WordPress-Meetup
+  wpchelt:
+    name: Cheltenham WordPress Meetup
+    location: Cheltenham, UK
+    url: https://www.meetup.com/Cheltenham-WordPress-Meetup
 
 favicon:
-    url: /images/me-phpnw.png
+  url: /images/me-phpnw.png
 
 github:
-    name: opdavies
-    url: https://github.com/opdavies
+  name: opdavies
+  url: https://github.com/opdavies
 
 gravatar:
-    url: //www.gravatar.com/avatar/e0f6adcd63d8393e689b327e978d0887.png
+  url: //www.gravatar.com/avatar/e0f6adcd63d8393e689b327e978d0887.png
 
 irc:
-    name: opdavies
+  name: opdavies
 
 joindin:
-    url: https://joind.in/user/opdavies
+  url: https://joind.in/user/opdavies
 
 lanyrd:
-    url: http://lanyrd.com/profile/opdavies
+  url: http://lanyrd.com/profile/opdavies
 
 latest_posts: 5
 
 linkedin:
-    url: http://uk.linkedin.com/in/opdavies
+  url: http://uk.linkedin.com/in/opdavies
 
 npm:
-    url: https://www.npmjs.com/~opdavies
+  url: https://www.npmjs.com/~opdavies
 
 packagist:
-    name: opdavies
-    url: https://packagist.org/users/opdavies
+  name: opdavies
+  url: https://packagist.org/users/opdavies
 
 speakerdeck:
-    url: https://speakerdeck.com/opdavies
+  url: https://speakerdeck.com/opdavies
 
 twitter:
-    name: opdavies
-    url: https://twitter.com/opdavies
+  name: opdavies
+  url: https://twitter.com/opdavies
 
 wordpress:
-    name: opdavies
-    url: https://profiles.wordpress.org/opdavies
+  name: opdavies
+  url: https://profiles.wordpress.org/opdavies
 
 work:
-    role: Senior Developer
-    company: microserve
+  role: Senior Developer
+  company: microserve
 
 youtube:
-    channel:
-        url: https://www.youtube.com/channel/UC5QoKapQ4bXOVMvN_ng_TYw
+  channel:
+    url: https://www.youtube.com/channel/UC5QoKapQ4bXOVMvN_ng_TYw
