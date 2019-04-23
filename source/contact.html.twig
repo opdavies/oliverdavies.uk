@@ -8,7 +8,7 @@ use: [posts]
         <p>To send me an email, complete the form below.</p>
     </div>
 
-    <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="spaced-y-4">
+    <form name="contact" method="POST" netlify-honeypot="Qr4W7oB25C" data-netlify="true" class="spaced-y-4">
         <div class="spaced-y-1">
             <label for="name" class="block">Name</label>
             <input type="text" class="w-full p-2 border border--grey" id="name" name="name" required />
@@ -29,7 +29,9 @@ use: [posts]
             <textarea id="message" class="w-full p-2 border border--grey" rows="5" name="message" required></textarea>
         </div>
 
-        <div data-netlify-recaptcha="true"></div>
+        <p class="hidden">
+            <label>Don’t fill this out if you're human: <input name="Qr4W7oB25C" /></label>
+        </p>
 
         <div>
             <button class="button" type="submit">Send email</button>
