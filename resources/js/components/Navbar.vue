@@ -79,11 +79,6 @@ export default {
           pattern: '^/.$',
         },
         {
-          title: 'Experience',
-          href: '/experience',
-          pattern: '^/experience/?$',
-        },
-        {
           title: 'Projects',
           href: '/projects',
           pattern: '^/projects/?$',
