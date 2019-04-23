@@ -1,10 +1,12 @@
 title: Oliver Davies
 subtitle: Full Stack Web Developer (Drupal, Symfony, Laravel, Linux)
 description: 'Oliver Davies, Drupal Developer'
+email: oliver+website@oliverdavies.uk
 default_date_format: 'jS F, Y'
 fuzzy_date_format: F Y
 apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
 favicon_sizes: [ 160, 96, 32, 16 ]
+latest_posts: 5
 
 ansible_galaxy:
     url: https://galaxy.ansible.com/opdavies
@@ -85,8 +87,6 @@ drupalorg:
     uid: 381388
     url: https://www.drupal.org/user/381388
     url_new: https://www.drupal.org/u/opdavies
-
-email: oliver+website@oliverdavies.uk
 
 events:
     drupal_bristol:
@@ -228,8 +228,6 @@ joindin:
 
 lanyrd:
     url: http://lanyrd.com/profile/opdavies
-
-latest_posts: 5
 
 linkedin:
     url: http://uk.linkedin.com/in/opdavies
