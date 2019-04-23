@@ -23,6 +23,9 @@ lanyrd:
 linkedin:
     url: http://uk.linkedin.com/in/opdavies
 
+npm:
+    url: https://www.npmjs.com/~opdavies
+
 packagist:
     name: opdavies
     url: https://packagist.org/users/opdavies
