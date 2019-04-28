@@ -46,6 +46,11 @@ companies:
         logo: horse-and-country.jpg
         url: http://www.horseandcountry.tv
 
+    inviqa:
+        name: Inviqa
+        logo: inviqa.jpg
+        url: https://inviqa.com
+
     lab_class:
         name: Lab Class
         logo: lab-class.png
@@ -242,8 +247,8 @@ wordpress:
     user: opdavies
 
 work:
-    role: Senior Developer
-    company: microserve
+    role: Senior Software Engineer
+    company: inviqa
 
 youtube:
     channel:

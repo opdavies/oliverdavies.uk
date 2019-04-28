@@ -13,7 +13,7 @@ wide: true
 
 Hi, I’m Oliver Davies (aka <a href="https://www.google.com/#q=opdavies">opdavies</a>) - a Web Developer based in Wales, UK. I specialise in PHP, front-end development and systems administration.
 
-I’m a Senior Developer at <a href="https://microserve.io?utm_source=oliverdavies.uk&amp;utm_medium=about-bio">Microserve</a>, part-time freelancer, former Developer at the <a href="https://www.drupal.org/association">Drupal Association</a>, open source contributor and advocate, mentor and conference speaker.
+I’m a {{ site.work.role }} at <a href="{{ site.companies[site.work.company].url }}?utm_source=oliverdavies.uk&amp;utm_medium=about-bio">{{ site.companies[site.work.company].name }}</a>, part-time freelancer, former Developer at the <a href="https://www.drupal.org/association">Drupal Association</a>, open source contributor and advocate, mentor and conference speaker.
 
 I primarily work with Drupal and am an <a href="https://certification.acquia.com/user/1647756">Acquia certified Drupal Grand Master</a>, but also use Symfony, Laravel and Sculpin, and have some experience working with JavaScript frameworks including Vue.js and Angular.
 
