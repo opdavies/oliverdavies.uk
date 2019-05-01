@@ -54,7 +54,7 @@ We do this by generating the plugin’s CSS, and asserting that it matches the e
 
 ```js
 test('it generates the list reset class', () => {
-  return generatePluginCss().then(css => {
+  generatePluginCss().then(css => {
     expect(css).toMatchCss(`
       .list-reset {
         list-style: none;
@@ -162,7 +162,7 @@ Now we can add another test that generates the variant classes too, to ensure th
 
 ```js
 test('it generates the list reset class with variants', () => {
-  return generatePluginCss({ variants: ['hover', 'focus'] }).then(css => {
+  generatePluginCss({ variants: ['hover', 'focus'] }).then(css => {
     expect(css).toMatchCss(`
       .list-reset {
         list-style: none;
