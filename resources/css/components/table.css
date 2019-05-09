@@ -1,4 +1,6 @@
 .table {
+  @apply w-full;
+
   th {
     @apply bg-gray-200 text-left;
   }
