@@ -3,7 +3,7 @@ command = """
 composer lint -- --dry-run
 yarn lint --fix-dry-run
 composer test
-composer prod
+composer prod -- --url ${DEPLOY_URL}
 yarn prod
 cp -R source/dist output_prod
 """
