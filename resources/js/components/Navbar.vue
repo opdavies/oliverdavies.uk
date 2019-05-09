@@ -5,7 +5,7 @@
         <div class="w-3/4 py-5">
           <div class="text-sm">
             <a
-              :href="siteUrl"
+              href="/"
               class="text-black"
               tabindex="-1"
             >
@@ -54,10 +54,6 @@
 <script>
 export default {
   props: {
-    siteUrl: {
-      type: String,
-      required: true
-    },
     siteTitle: {
       type: String,
       required: true
