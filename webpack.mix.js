@@ -15,6 +15,7 @@ mix.disableNotifications()
       'output_*/**/*'
     ],
     notify: false,
+    open: false
   })
   .purgeCss({
     folders: ['resources', 'output_*'],
