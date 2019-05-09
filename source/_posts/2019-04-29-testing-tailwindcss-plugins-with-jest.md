@@ -4,7 +4,7 @@ excerpt: How to write tests for Tailwind CSS plugins using Jest.
 tags:
     - javascript
     - jest
-    - tailwindcss
+    - tailwind-css
     - testing
 promoted: true
 ---
