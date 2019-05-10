@@ -8,6 +8,7 @@ tags:
     - tweet
     - vuejs
 draft: true
+promoted: true
 ---
 After [rebuilding Drupal’s Bartik theme](/blog/rebuilding-bartik-with-vuejs-tailwind-css), I’ve now used [Vue.js][vue] and [Tailwind CSS][tailwind] to rebuild another Drupal related UI - this time it’s [Acquia’s](https://www.acquia.com) web hosting dashboard. Again, you can [view the site on Netlify][netlify] and [the code on GitHub][github].
 
@@ -107,8 +108,9 @@ This was the first page that I rebuilt - the Environments page for an applicatio
 
 Vue Router is configured to show the 
 
+
 <figure>
-  <img src="/images/blog/rebuilding-acquia-vue-tailwind/2-environments.png" alt="A screenshot of the rebuilt Environments page." class="border border-gray-300 p-2">
+  <img src="/images/blog/rebuilding-acquia-vue-tailwind/3-environments.png" alt="A screenshot of the rebuilt Environments page." class="border border-grey-light p-1">
   <figcaption>The rebuilt Environments page for an application.</figcaption>
 </figure>
 
@@ -116,6 +118,11 @@ Vue Router is configured to show the
 
 <figure>
   <img src="/images/blog/rebuilding-acquia-vue-tailwind/1-applications.png" alt="A screenshot of the rebuilt Applications page." class="border border-gray-300 p-2">
+  <figcaption>The rebuilt Applications page.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/blog/rebuilding-acquia-vue-tailwind/2-applications-list.png" alt="A screenshot of the rebuilt Applications page as a list." class="border border-grey-light p-1">
   <figcaption>The rebuilt Applications page.</figcaption>
 </figure>
 
