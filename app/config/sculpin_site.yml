@@ -91,6 +91,11 @@ drupalorg:
     url_new: https://www.drupal.org/u/opdavies
 
 events:
+    blue_conf_19:
+        name: Blue Conf 2019
+        location: Cardiff, UK
+        url: https://blueconf.co.uk
+
     drupal_bristol:
         name: Drupal Bristol
         location: Bristol, UK
