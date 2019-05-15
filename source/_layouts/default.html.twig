@@ -7,8 +7,8 @@
 
     {% include 'layout/navbar' %}
 
-    <div class="mt-24 px-4 mx-auto {{ page.wide ? 'max-w-5xl' : 'max-w-3xl' }}">
-        <main id="main-content">
+    <div class="container mt-24 px-4 mx-auto">
+        <main id="main-content" class="wrap {{ page.layout == 'front' ? 'is-wide' : '' }}">
             {% block page_title_wrapper %}
                 <h1 class="leading-tight mb-4">
                     {% block page_title %}{{ page.title }}{% endblock %}

@@ -7,7 +7,6 @@ meta:
         description: 'The personal website and blog of Oliver Davies, a Full Stack Developer and System Administrator from Wales, UK.'
         type: website
 permalink: /
-wide: true
 ---
 <div class="mb-4 w-32"><img src="/images/me-precedent.jpg" alt="Picture of Oliver" class="rounded-full border border-gray"/></div>
 
