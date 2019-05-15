@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="sm:flex">
-      <div class="w-full sm:w-1/3 lg:w-1/4 flex items-center">
+    <div class="md:flex">
+      <div class="w-full md:w-1/3 lg:w-1/4 flex items-center">
         <div class="w-3/4 py-5">
           <div class="text-sm">
             <a
@@ -14,7 +14,7 @@
           </div>
         </div>
 
-        <div class="w-1/4 text-right sm:hidden">
+        <div class="w-1/4 text-right md:hidden">
           <button
             type="button"
             class="nav-toggle appearance-none"
@@ -33,14 +33,14 @@
       </div>
 
       <nav
-        class="w-full -mx-4 mt-px sm:mt-0 sm:mx-0 block sm:flex sm:flex-wrap sm:flex-1 sm:justify-end bg-white absolute sm:relative border-b sm:border-b-0"
+        class="w-full -mx-4 mt-px md:mt-0 md:mx-0 block md:flex md:flex-wrap md:flex-1 md:justify-end bg-white absolute md:relative border-b md:border-b-0"
         :class="{hidden: hidden}"
         role="navigation"
       >
         <a
           v-for="(item, index) in items"
           :key="index"
-          class="block text-black no-underline focus:outline-none p-4 border-l-3 sm:border-l-0 sm:border-b-3 border-transparent hover:border-gray-300 focus:border-gray-300 focus:bg-white sm:ml-4 sm:mr-0 sm:p-0 hover:no-underline text-sm -mb-px"
+          class="block text-black no-underline focus:outline-none p-4 border-l-3 md:border-l-0 md:border-b-3 border-transparent hover:border-gray-300 focus:border-gray-300 focus:bg-white md:ml-4 md:mr-0 md:p-0 hover:no-underline text-sm -mb-px"
           :class="{'border-blue-600 hover:border-blue-600': isActive(item)}"
           :href="item.href"
         >
