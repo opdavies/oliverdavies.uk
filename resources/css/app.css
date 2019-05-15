@@ -28,6 +28,14 @@ a {
 
 @tailwind components;
 
+.wrap {
+  @apply w-full max-w-3xl mx-auto;
+
+  &.is-wide {
+    @apply max-w-5xl
+  }
+}
+
 @import 'components/blockquote.css';
 @import 'components/button.css';
 @import 'components/markup.css';
