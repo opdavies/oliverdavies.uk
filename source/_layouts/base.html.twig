@@ -22,7 +22,27 @@
     </head>
     <body class="antialiased font-sans text-gray-800 leading-relaxed">
         <div id="app" v-cloak>
-            {% block body %}{% endblock %}
+            <a href="#main-content" class="skip-link absolute top-0 left-0 text-white bg-blue-600 p-4 focus:outline-none">
+                Skip to main content
+            </a>
+
+            {% include 'layout/navbar' %}
+
+            <div class="container mt-24 px-4 mx-auto">
+                <main id="main-content" class="wrap {{ page.layout == 'front' ? 'is-wide' : '' }}">
+                    {% block page_title_wrapper %}
+                        <h1 class="leading-tight mb-4">
+                            {% block page_title %}{{ page.title }}{% endblock %}
+                        </h1>
+                    {% endblock %}
+
+                    {% block content_wrapper %}
+                        {% block content %}{% endblock %}
+                    {% endblock %}
+                </main>
+
+                {% include 'layout/footer' %}
+            </div>
         </div>
 
         {% if site.google_analytics.id %}
