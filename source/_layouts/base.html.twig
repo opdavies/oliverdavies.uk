@@ -21,15 +21,15 @@
         {% endfor %}
     </head>
     <body class="antialiased font-sans text-gray-800 leading-relaxed">
-        <div id="app" v-cloak>
+        <div id="app" class="min-h-screen flex flex-col" v-cloak>
             <a href="#main-content" class="skip-link absolute top-0 left-0 text-white bg-blue-600 p-4 focus:outline-none">
                 Skip to main content
             </a>
 
             {% include 'layout/navbar' %}
 
-            <div class="container mt-24 px-4 mx-auto">
-                <main id="main-content" class="wrap {{ page.layout == 'front' ? 'is-wide' : '' }}">
+            <div class="container mt-24 px-4 mx-auto flex flex-col flex-1">
+                <main id="main-content" class="flex-1 wrap {{ page.layout == 'front' ? 'is-wide' : '' }}">
                     {% block page_title_wrapper %}
                         <h1 class="leading-tight mb-4">
                             {% block page_title %}{{ page.title }}{% endblock %}
