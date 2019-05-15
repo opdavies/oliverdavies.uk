@@ -15,6 +15,9 @@ events:
       date: 2019-04-17
     - event: wordcamp_bristol_2019
       date: 2019-05-18
+    - event: blue_conf_19
+      date: 2019-06-07
+---
 meta:
     og:
         title: Taking Flight with Tailwind CSS
