@@ -141,4 +141,26 @@ class TalksExtensionTest extends TestCase
         $this->assertCount(1, $this->extension->getUpcoming([$talk]));
         $this->assertEmpty($this->extension->getPast([$talk]));
     }
+
+    /** @test */
+    public function get_events_from_talks()
+    {
+        $talkA = [
+            'title' => 'Talk A',
+            'events' => [
+                ['event' => 'event_a', 'date' => (new DateTime('-1 days'))->getTimestamp()],
+                ['event' => 'event_b', 'date' => (new DateTime('+1 days'))->getTimestamp()],
+            ],
+        ];
+
+        $talkB = [
+            'title' => 'Talk B',
+            'events' => [
+                ['event' => 'event_a', 'date' => (new DateTime('-3 days'))->getTimestamp()],
+            ],
+        ];
+
+        $talks = collect([$talkA, $talkB]);
+        $this->assertCount(3, $this->extension->getEvents($talks));
+    }
 }
