@@ -5,6 +5,8 @@ namespace App\Talks\TwigExtension;
 use Illuminate\Support\Collection;
 use Sculpin\Contrib\ProxySourceCollection\ProxySourceCollection;
 use Twig_Extension;
+use Tightenco\Collect\Support\Collection;
+use Twig\TwigFilter;
 use Twig_SimpleFunction;
 
 class TalksExtension extends Twig_Extension
@@ -31,6 +33,13 @@ class TalksExtension extends Twig_Extension
             new Twig_SimpleFunction('getAllTalks', [$this, 'getAll']),
             new Twig_SimpleFunction('getUpcomingTalks', [$this, 'getUpcoming']),
             new Twig_SimpleFunction('getPastTalks', [$this, 'getPast']),
+        ];
+    }
+
+    public function getFilters()
+    {
+        return [
+            new TwigFilter('events', [$this, 'getEvents']),
         ];
     }
 
@@ -87,5 +96,12 @@ class TalksExtension extends Twig_Extension
     private function getLastDate($talk): string
     {
         return (string) collect($talk['events'])->pluck('date')->sort()->last();
+    }
+
+    public function getEvents(Collection $talks): Collection
+    {
+        return $talks->flatMap(function ($talk): array {
+            return $talk['events'];
+        });
     }
 }
