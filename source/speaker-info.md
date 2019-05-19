@@ -30,6 +30,7 @@ He regularly blogs and gives talks about web development and systems administrat
 - PHP North West 2017 (10 year anniversary)
 - PHP South Coast 2016
 - PHP UK Conference 2018
+- WordCamp Bristol 2019
 </div>
 
 [1]: {{site.url}}
