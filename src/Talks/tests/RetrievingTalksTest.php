@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Tests\Talks\TwigExtension;
+namespace App\Tests\Talks;
 
 use App\Talks\TwigExtension\TalksExtension;
 use DateTime;
 use PHPUnit\Framework\TestCase;
 use Tightenco\Collect\Support\Collection;
 
-class TalksExtensionTest extends TestCase
+class RetrievingTalksTest extends TestCase
 {
     /**
      * @var TalksExtension
