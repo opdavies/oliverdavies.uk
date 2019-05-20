@@ -23,38 +23,6 @@ class RetrievingEventsTest extends TestCase
     }
 
     /** @test */
-    public function getting_all_events()
-    {
-        $talkA = [
-            'title' => 'Talk A',
-            'events' => [
-                [
-                    'event' => 'event_a',
-                    'date' => (new DateTime('-1 days'))->getTimestamp()
-                ],
-                [
-                    'event' => 'event_b',
-                    'date' => (new DateTime('+1 days'))->getTimestamp()
-                ],
-            ],
-        ];
-
-        $talkB = [
-            'title' => 'Talk B',
-            'events' => [
-                [
-                    'event' => 'event_a',
-                    'date' => (new DateTime('-3 days'))->getTimestamp()
-                ],
-            ],
-        ];
-
-        $talks = $this->extension->getTalks([$talkA, $talkB]);
-        $this->assertInstanceOf(Collection::class, $talks);
-        $this->assertCount(3, $this->extension->getEvents($talks));
-    }
-
-    /** @test */
     public function get_past_events()
     {
         $talkA = [
@@ -82,12 +50,12 @@ class RetrievingEventsTest extends TestCase
         ];
 
         $talks = $this->extension->getTalks([$talkA, $talkB]);
-        $events = $this->extension->getEvents($talks);
+        $events = $this->extension->filterPastEvents($talks);
 
         $this->assertInstanceOf(Collection::class, $talks);
-        $this->assertInstanceOf(Collection::class, $events);
+        $this->assertTrue(is_array($events));
 
-        $this->assertCount(2, $this->extension->filterPastEvents($events));
+        $this->assertCount(2, $events);
     }
     /** @test */
     public function get_current_or_upcoming_events()
@@ -118,11 +86,11 @@ class RetrievingEventsTest extends TestCase
 
 
         $talks = $this->extension->getTalks([$talkA, $talkB]);
-        $events = $this->extension->getEvents($talks);
+        $events = $this->extension->filterUpcomingEvents($talks);
 
         $this->assertInstanceOf(Collection::class, $talks);
-        $this->assertInstanceOf(Collection::class, $events);
+        $this->assertTrue(is_array($events));
 
-        $this->assertCount(2, $this->extension->filterUpcomingEvents($events));
+        $this->assertCount(2, $events);
     }
 }
