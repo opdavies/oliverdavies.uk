@@ -37,6 +37,8 @@ class TalksExtension extends AbstractExtension
     {
         return [
             new TwigFilter('events', [$this, 'getEvents']),
+            new TwigFilter('past', [$this, 'filterPast']),
+            new TwigFilter('upcoming', [$this, 'filterUpcoming']),
         ];
     }
 
