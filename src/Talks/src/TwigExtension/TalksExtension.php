@@ -29,9 +29,7 @@ class TalksExtension extends AbstractExtension
     public function getFunctions()
     {
         return [
-            new TwigFunction('getAllTalks', [$this, 'getAll']),
-            new TwigFunction('getUpcomingTalks', [$this, 'getUpcoming']),
-            new TwigFunction('getPastTalks', [$this, 'getPast']),
+            new TwigFunction('getTalks', [$this, 'getTalks']),
         ];
     }
 
@@ -43,50 +41,27 @@ class TalksExtension extends AbstractExtension
     }
 
     /**
-     * Get all upcoming and previous talks.
-     *
-     * @param ProxySourceCollection|array $talks All talk nodes.
-     *
-     * @return Collection A sorted collection of talks.
-     */
-    public function getAll($talks): Collection
-    {
-        return collect($talks)->sortBy(function ($talk) {
-            return $this->getLastDate($talk);
-        });
-    }
-
-    /**
-     * Get all upcoming talks.
-     *
-     * @param ProxySourceCollection|array $talks All talk nodes.
-     *
-     * @return Collection A sorted collection of talks.
-     */
-    public function getUpcoming($talks): Collection
-    {
-        return $this->getAll($talks);
-    }
-
-    /**
-     * Get all past talks.
-     *
-     * @param ProxySourceCollection|array $talks All talk nodes.
-     *
-     * @return Collection A sorted collection of talks.
-     */
-    public function getPast($talks): Collection
-    {
-        return $this->getAll($talks);
-    }
-
-    /**
      * {@inheritdoc}
      */
     public function getName()
     {
         return 'app.talks';
     }
+
+    /**
+     * Get all upcoming and previous talks.
+     *
+     * @param ProxySourceCollection|array $talks All talk nodes.
+     *
+     * @return Collection A sorted collection of talks.
+     */
+    public function getTalks($talks): Collection
+    {
+        return collect($talks)->sortBy(function ($talk) {
+            return $this->getLastDate($talk);
+        });
+    }
+
 
     public function getEvents(Collection $talks): Collection
     {
