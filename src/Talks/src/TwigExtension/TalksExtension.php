@@ -85,13 +85,7 @@ class TalksExtension extends AbstractExtension
      */
     public function getName()
     {
-        return 'talks';
-    }
-
-    private function getLastDate($talk): string
-    {
-        return $this->getEvents(collect([$talk]))
-            ->pluck('date')->max();
+        return 'app.talks';
     }
 
     public function getEvents(Collection $talks): Collection
@@ -99,5 +93,25 @@ class TalksExtension extends AbstractExtension
         return $talks->flatMap(function ($talk): array {
             return $talk['events'];
         });
+    }
+
+    public function filterUpcoming(Collection $talks)
+    {
+        return $talks->filter(function ($talk) {
+            return $this->getLastDate($talk) >= $this->today;
+        })->values();
+    }
+
+    public function filterPast(Collection $talks)
+    {
+        return $talks->filter(function ($talk) {
+            return $this->getLastDate($talk) < $this->today;
+        })->values();
+    }
+
+    private function getLastDate($talk): string
+    {
+        return $this->getEvents(collect([$talk]))
+            ->pluck('date')->max();
     }
 }

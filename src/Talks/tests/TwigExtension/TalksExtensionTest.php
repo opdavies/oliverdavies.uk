@@ -91,10 +91,11 @@ class TalksExtensionTest extends TestCase
             ],
         ];
 
-        $result = $this->extension->getPast([$pastTalk, $futureTalk]);
+        $talks = $this->extension->getAll([$pastTalk, $futureTalk]);
+        $filtered = $this->extension->filterPast($talks);
 
-        $this->assertCount(1, $result);
-        $this->assertSame($pastTalk, $result->first());
+        $this->assertCount(1, $filtered);
+        $this->assertSame($pastTalk, $filtered->first());
     }
 
     /** @test */
@@ -121,10 +122,11 @@ class TalksExtensionTest extends TestCase
             ],
         ];
 
-        $result = $this->extension->getUpcoming([$pastTalk, $todayTalk, $futureTalk]);
+        $talks = $this->extension->getAll([$pastTalk, $todayTalk, $futureTalk]);
+        $filtered = $this->extension->filterUpcoming($talks);
 
-        $this->assertCount(2, $result);
-        $this->assertSame([$todayTalk, $futureTalk], $result->toArray());
+        $this->assertCount(2, $filtered);
+        $this->assertSame([$todayTalk, $futureTalk], $filtered->toArray());
     }
 
     /** @test */
@@ -138,8 +140,10 @@ class TalksExtensionTest extends TestCase
             ],
         ];
 
-        $this->assertCount(1, $this->extension->getUpcoming([$talk]));
-        $this->assertEmpty($this->extension->getPast([$talk]));
+        $talks = $this->extension->getAll([$talk]);
+
+        $this->assertCount(1, $this->extension->filterUpcoming($talks));
+        $this->assertEmpty($this->extension->filterPast($talks));
     }
 
     /** @test */
