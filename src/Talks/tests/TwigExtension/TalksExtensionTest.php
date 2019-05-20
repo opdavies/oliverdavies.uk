@@ -164,6 +164,10 @@ class TalksExtensionTest extends TestCase
 
         tap($this->extension->getEvents($talks), function (Collection $events) {
             $this->assertCount(3, $events);
+
+            $this->assertSame(
+                ['event_a', 'event_b', 'event_a'],
+                $events->pluck('event')->toArray()
             );
         });
     }
