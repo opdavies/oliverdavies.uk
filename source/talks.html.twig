@@ -26,26 +26,12 @@ talks:
 ---
 {% block content %}
     <div class="spaced-y-10">
-        <div class="spaced-y-4">
-            <h2 class="font-bold">Upcoming Talks</h2>
+        {% include 'talks/upcoming' with {
+            talks: getTalks(page.talks|merge(data.talks))|upcoming,
+        } %}
 
-            <div class="spaced-y-10">
-                {% for talk in getTalks(page.talks|merge(data.talks))|upcoming %}
-                    {% include 'talks/talk' %}
-                {% else %}
-                    <p>Nothing scheduled at the moment.</p>
-                {% endfor %}
-            </div>
-        </div>
-
-        <div class="spaced-y-4">
-            <h2 class="font-bold">Previous Talks</h2>
-
-            <div class="spaced-y-10">
-                {% for talk in getTalks(page.talks|merge(data.talks))|past|reverse %}
-                    {% include 'talks/talk' %}
-                {% endfor %}
-            </div>
-        </div>
+        {% include 'talks/past' with {
+            talks: getTalks(page.talks|merge(data.talks))|past,
+        } %}
     </div>
 {% endblock %}
