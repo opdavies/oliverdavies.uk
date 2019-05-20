@@ -161,6 +161,10 @@ class TalksExtensionTest extends TestCase
         ];
 
         $talks = collect([$talkA, $talkB]);
-        $this->assertCount(3, $this->extension->getEvents($talks));
+
+        tap($this->extension->getEvents($talks), function (Collection $events) {
+            $this->assertCount(3, $events);
+            );
+        });
     }
 }
