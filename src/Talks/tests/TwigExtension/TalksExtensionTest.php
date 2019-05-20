@@ -169,6 +169,8 @@ class TalksExtensionTest extends TestCase
                 ['event_a', 'event_b', 'event_a'],
                 $events->pluck('event')->toArray()
             );
+
+            $this->assertSame(3, $events->pluck('date')->unique()->count());
         });
     }
 }
