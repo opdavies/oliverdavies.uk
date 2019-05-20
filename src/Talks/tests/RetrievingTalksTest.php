@@ -92,10 +92,10 @@ class RetrievingTalksTest extends TestCase
         ];
 
         $talks = $this->extension->getTalks([$pastTalk, $futureTalk]);
-        $filtered = $this->extension->filterPast($talks);
+        $filtered = $this->extension->filterPastTalks($talks);
 
         $this->assertCount(1, $filtered);
-        $this->assertSame($pastTalk, $filtered->first());
+        $this->assertSame($pastTalk, $filtered[0]);
     }
 
     /** @test */
@@ -123,10 +123,10 @@ class RetrievingTalksTest extends TestCase
         ];
 
         $talks = $this->extension->getTalks([$pastTalk, $todayTalk, $futureTalk]);
-        $filtered = $this->extension->filterUpcoming($talks);
+        $filtered = $this->extension->filterUpcomingTalks($talks);
 
         $this->assertCount(2, $filtered);
-        $this->assertSame([$todayTalk, $futureTalk], $filtered->toArray());
+        $this->assertSame([$todayTalk, $futureTalk], $filtered);
     }
 
     /** @test */
@@ -142,8 +142,8 @@ class RetrievingTalksTest extends TestCase
 
         $talks = $this->extension->getTalks([$talk]);
 
-        $this->assertCount(1, $this->extension->filterUpcoming($talks));
-        $this->assertEmpty($this->extension->filterPast($talks));
+        $this->assertCount(1, $this->extension->filterUpcomingTalks($talks));
+        $this->assertEmpty($this->extension->filterPastTalks($talks));
     }
 
     /** @test */
@@ -166,7 +166,9 @@ class RetrievingTalksTest extends TestCase
 
         $talks = collect([$talkA, $talkB]);
 
-        tap($this->extension->getEvents($talks), function (Collection $events) {
+        tap($this->extension->getAllEvents($talks), function (array $events) {
+            $events = collect($events);
+
             $this->assertCount(3, $events);
 
             $this->assertSame(

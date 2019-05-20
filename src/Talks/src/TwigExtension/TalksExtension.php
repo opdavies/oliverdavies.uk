@@ -105,4 +105,9 @@ class TalksExtension extends AbstractExtension
             return $talk['events'];
         });
     }
+
+    public function getAllEvents($talks): array
+    {
+        return $this->eventsFromTalks($talks)->toArray();
+    }
 }
