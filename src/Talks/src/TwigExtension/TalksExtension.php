@@ -30,14 +30,12 @@ class TalksExtension extends AbstractExtension
     {
         return [
             new TwigFunction('getTalks', [$this, 'getTalks']),
-            new TwigFunction('getEvents', [$this, 'getEvents']),
         ];
     }
 
     public function getFilters()
     {
         return [
-            new TwigFilter('events', [$this, 'getEvents']),
             new TwigFilter('pastEvents', [$this, 'filterPastEvents']),
             new TwigFilter('pastTalks', [$this, 'filterPastTalks']),
             new TwigFilter('upcomingEvents', [$this, 'filterUpcomingEvents']),
@@ -67,13 +65,6 @@ class TalksExtension extends AbstractExtension
         });
     }
 
-    public function getEvents($talks): Collection
-    {
-        return collect($talks)->flatMap(function ($talk): array {
-            return $talk['events'];
-        });
-    }
-
     public function filterUpcomingTalks(Collection $talks): array
     {
         return $talks->filter(function ($talk): bool {
@@ -90,21 +81,28 @@ class TalksExtension extends AbstractExtension
 
     private function getLastDate($talk): string
     {
-        return $this->getEvents(collect([$talk]))
+        return $this->eventsFromTalks(collect([$talk]))
             ->pluck('date')->max();
     }
 
-    public function filterUpcomingEvents(Collection $events): array
+    public function filterUpcomingEvents($talks): array
     {
-        return $events->filter(function ($event): bool {
+        return $this->eventsFromTalks($talks)->filter(function ($event): bool {
             return $event['date'] >= $this->today;
         })->sortBy('date')->toArray();
     }
 
-    public function filterPastEvents(Collection $events): array
+    public function filterPastEvents($talks): array
     {
-        return $events->filter(function ($event): bool {
+        return $this->eventsFromTalks($talks)->filter(function ($event): bool {
             return $event['date'] < $this->today;
         })->sortBy('date')->toArray();
+    }
+
+    private function eventsFromTalks($talks): Collection
+    {
+        return collect($talks)->flatMap(function ($talk): array {
+            return $talk['events'];
+        });
     }
 }
