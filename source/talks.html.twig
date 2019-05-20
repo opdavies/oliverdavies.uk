@@ -30,7 +30,7 @@ talks:
             <h2 class="font-bold">Upcoming Talks</h2>
 
             <div class="spaced-y-10">
-                {% for talk in getUpcomingTalks(page.talks|merge(data.talks)) %}
+                {% for talk in getTalks(page.talks|merge(data.talks))|upcoming %}
                     {% include 'talks/talk' %}
                 {% else %}
                     <p>Nothing scheduled at the moment.</p>
@@ -42,7 +42,7 @@ talks:
             <h2 class="font-bold">Previous Talks</h2>
 
             <div class="spaced-y-10">
-                {% for talk in getPastTalks(page.talks|merge(data.talks))|reverse %}
+                {% for talk in getTalks(page.talks|merge(data.talks))|past|reverse %}
                     {% include 'talks/talk' %}
                 {% endfor %}
             </div>
