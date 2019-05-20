@@ -32,6 +32,10 @@ blockquote {
 
 @tailwind components;
 
+p.lead {
+  @apply text-lg
+}
+
 .wrap {
   @apply w-full max-w-3xl mx-auto;
 
