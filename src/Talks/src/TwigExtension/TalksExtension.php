@@ -30,13 +30,13 @@ class TalksExtension extends AbstractExtension
     {
         return [
             new TwigFunction('getTalks', [$this, 'getTalks']),
+            new TwigFunction('getEvents', [$this, 'getEvents']),
         ];
     }
 
     public function getFilters()
     {
         return [
-            new TwigFilter('events', [$this, 'getEvents']),
             new TwigFilter('past', [$this, 'filterPast']),
             new TwigFilter('upcoming', [$this, 'filterUpcoming']),
         ];
@@ -65,9 +65,9 @@ class TalksExtension extends AbstractExtension
     }
 
 
-    public function getEvents(Collection $talks): Collection
+    public function getEvents($talks): Collection
     {
-        return $talks->flatMap(function ($talk): array {
+        return collect($talks)->flatMap(function ($talk): array {
             return $talk['events'];
         });
     }
