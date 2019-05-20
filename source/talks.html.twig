@@ -28,7 +28,7 @@ talks:
     {% set talks = getTalks(page.talks|merge(data.talks)) %}
 
     <header class="mb-6">
-        <p class="text-lg">After giving my first talk in September 2012, I have now given {{ pastTalks|events|length }} presentations at various conferences and meetups, on topics including PHP, Drupal, Git, CSS and systems administration.</p>
+        <p class="text-lg">After giving my first talk in September 2012, I have now given {{ talks|events|pastEvents|length }} presentations at various conferences and meetups, on topics including PHP, Drupal, Git, CSS and systems administration.</p>
     </header>
 
     <div class="spaced-y-10">
