@@ -37,8 +37,11 @@ class TalksExtension extends AbstractExtension
     public function getFilters()
     {
         return [
-            new TwigFilter('past', [$this, 'filterPast']),
-            new TwigFilter('upcoming', [$this, 'filterUpcoming']),
+            new TwigFilter('events', [$this, 'getEvents']),
+            new TwigFilter('pastEvents', [$this, 'filterPastEvents']),
+            new TwigFilter('pastTalks', [$this, 'filterPastTalks']),
+            new TwigFilter('upcomingEvents', [$this, 'filterUpcomingEvents']),
+            new TwigFilter('upcomingTalks', [$this, 'filterUpcomingTalks']),
         ];
     }
 
@@ -64,7 +67,6 @@ class TalksExtension extends AbstractExtension
         });
     }
 
-
     public function getEvents($talks): Collection
     {
         return collect($talks)->flatMap(function ($talk): array {
@@ -72,23 +74,37 @@ class TalksExtension extends AbstractExtension
         });
     }
 
-    public function filterUpcoming(Collection $talks)
+    public function filterUpcomingTalks(Collection $talks): array
     {
-        return $talks->filter(function ($talk) {
+        return $talks->filter(function ($talk): bool {
             return $this->getLastDate($talk) >= $this->today;
-        })->values();
+        })->values()->toArray();
     }
 
-    public function filterPast(Collection $talks)
+    public function filterPastTalks(Collection $talks): array
     {
-        return $talks->filter(function ($talk) {
+        return $talks->filter(function ($talk): bool {
             return $this->getLastDate($talk) < $this->today;
-        })->values();
+        })->values()->toArray();
     }
 
     private function getLastDate($talk): string
     {
         return $this->getEvents(collect([$talk]))
             ->pluck('date')->max();
+    }
+
+    public function filterUpcomingEvents(Collection $events): array
+    {
+        return $events->filter(function ($event): bool {
+            return $event['date'] >= $this->today;
+        })->sortBy('date')->toArray();
+    }
+
+    public function filterPastEvents(Collection $events): array
+    {
+        return $events->filter(function ($event): bool {
+            return $event['date'] < $this->today;
+        })->sortBy('date')->toArray();
     }
 }
