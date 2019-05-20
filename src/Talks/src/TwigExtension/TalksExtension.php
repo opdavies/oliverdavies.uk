@@ -2,14 +2,13 @@
 
 namespace App\Talks\TwigExtension;
 
-use Illuminate\Support\Collection;
 use Sculpin\Contrib\ProxySourceCollection\ProxySourceCollection;
-use Twig_Extension;
 use Tightenco\Collect\Support\Collection;
+use Twig\Extension\AbstractExtension;
 use Twig\TwigFilter;
-use Twig_SimpleFunction;
+use Twig\TwigFunction;
 
-class TalksExtension extends Twig_Extension
+class TalksExtension extends AbstractExtension
 {
     /**
      * @var string The current date.
@@ -30,9 +29,9 @@ class TalksExtension extends Twig_Extension
     public function getFunctions()
     {
         return [
-            new Twig_SimpleFunction('getAllTalks', [$this, 'getAll']),
-            new Twig_SimpleFunction('getUpcomingTalks', [$this, 'getUpcoming']),
-            new Twig_SimpleFunction('getPastTalks', [$this, 'getPast']),
+            new TwigFunction('getAllTalks', [$this, 'getAll']),
+            new TwigFunction('getUpcomingTalks', [$this, 'getUpcoming']),
+            new TwigFunction('getPastTalks', [$this, 'getPast']),
         ];
     }
 
