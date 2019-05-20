@@ -1,57 +1,21 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en-GB">
-    <head>
-        <title>{% if page.title is defined and page.url != '//' %}{{ page.title }} | {% endif %}{{ site.title }} - {{ site.subtitle }}</title>
-        {% include 'meta' %}
-        {% block metas %}
-            <meta name="twitter:site" content="@{{ site.twitter.user }}">
-            <meta name="twitter:title" content="{{ page.title }}">
-            <meta name="twitter:creator" content="@{{ site.twitter.user }}">
-        {% endblock %}
+{% extends 'app' %}
 
-        <link rel="stylesheet" href="/dist/css/app.css">
-        {% block stylesheets %}{% endblock %}
+{% block body %}
+    {% include 'layout/navbar' %}
 
-        {% for size in site.apple_touch_icon_sizes %}
-            <link rel="apple-touch-icon" href="{{ site.favicon.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
-        {% endfor %}
+    <div class="container mt-24 px-4 mx-auto flex flex-col flex-1">
+        <main id="main-content" class="flex-1 wrap {{ page.layout == 'front' ? 'is-wide' : '' }}">
+            {% block page_title_wrapper %}
+                <h1 class="leading-tight mb-4">
+                    {% block page_title %}{{ page.title }}{% endblock %}
+                </h1>
+            {% endblock %}
 
-        {% for size in site.favicon_sizes %}
-            <link rel="icon" href="{{ site.favicon.url }}?s={{ size }}" sizes="{{ size }}x{{ size }}">
-        {% endfor %}
-    </head>
-    <body class="antialiased font-sans text-gray-800 leading-relaxed">
-        <div id="app" class="min-h-screen flex flex-col" v-cloak>
-            <a href="#main-content" class="skip-link absolute top-0 left-0 text-white bg-blue-600 p-4 focus:outline-none">
-                Skip to main content
-            </a>
+            {% block content_wrapper %}
+                {% block content %}{% endblock %}
+            {% endblock %}
+        </main>
 
-            {% include 'layout/navbar' %}
-
-            <div class="container mt-24 px-4 mx-auto flex flex-col flex-1">
-                <main id="main-content" class="flex-1 wrap {{ page.layout == 'front' ? 'is-wide' : '' }}">
-                    {% block page_title_wrapper %}
-                        <h1 class="leading-tight mb-4">
-                            {% block page_title %}{{ page.title }}{% endblock %}
-                        </h1>
-                    {% endblock %}
-
-                    {% block content_wrapper %}
-                        {% block content %}{% endblock %}
-                    {% endblock %}
-                </main>
-
-                {% include 'layout/footer' %}
-            </div>
-        </div>
-
-        {% if site.google_analytics.id %}
-            <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', '{{ site.google_analytics_tracking_id }}', 'auto'); ga('send', 'pageview');</script>
-        {% endif %}
-
-        <script src="/dist/js/manifest.js"></script>
-        <script src="/dist/js/vendor.js"></script>
-        <script src="/dist/js/app.js"></script>
-        {% block scripts %}{% endblock %}
-    </body>
-</html>
+        {% include 'layout/footer' %}
+    </div>
+{% endblock %}
