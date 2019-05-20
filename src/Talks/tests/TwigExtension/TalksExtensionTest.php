@@ -4,8 +4,8 @@ namespace App\Tests\Talks\TwigExtension;
 
 use App\Talks\TwigExtension\TalksExtension;
 use DateTime;
-use Illuminate\Support\Collection;
 use PHPUnit\Framework\TestCase;
+use Tightenco\Collect\Support\Collection;
 
 class TalksExtensionTest extends TestCase
 {
