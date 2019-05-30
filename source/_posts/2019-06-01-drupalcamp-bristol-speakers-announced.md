@@ -4,7 +4,13 @@ excerpt: DrupalCamp Bristol is returning next month, and we have just announced 
 tags: [drupalcamp, dcbristol]
 draft: true
 ---
-
-<div class="video-full">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/honnav4YlAA" frameborder="0" allowfullscreen></iframe>
-</div>
+{% include 'video-embed' with {
+    classes: 'video-full',
+    video: {
+        id: 'honnav4YlAA',
+        attr: {
+            height: '315',
+            width: '560',
+        }
+    }
+} %}
