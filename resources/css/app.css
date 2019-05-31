@@ -33,7 +33,9 @@ blockquote {
 @tailwind components;
 
 p.lead {
-  @apply text-lg
+  @screen md {
+    @apply text-lg
+  }
 }
 
 .wrap {
