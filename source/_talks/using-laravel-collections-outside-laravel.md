@@ -1,5 +1,5 @@
 ---
-title: Using Laravel Collections... Outside Laravel
+title: Using Illuminate Collections... Outside Laravel
 description: How to include and use Laravel’s Illuminate Collections in your non-Laravel PHP projects.
 speakerdeck:
     id: 76f1718a75a74940b0b028aac8b9f78b
@@ -16,4 +16,6 @@ events:
     - event: php_south_wales
       date: 2018-08-28
 ---
-Laravel Collections are a powerful object-orientated way of interacting with PHP arrays, but did you know that they can be used outside of Laravel, in any PHP project? This short talk shows how we can use Composer to include Laravel Collections within a non-Laravel project and put them to use within your own code.
+Laravel's Illuminate Collections are a powerful object-orientated way of interacting with PHP arrays, but did you know that they can be used outside of Laravel, in any PHP project?
+
+This short talk shows how we can use Composer to include Illuminate Collections within a non-Laravel project and put them to use within your own code.
