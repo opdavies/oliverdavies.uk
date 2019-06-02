@@ -10,11 +10,12 @@ permalink: /
 ---
 <div class="mb-4 w-32"><img src="/images/me-precedent.jpg" alt="Picture of Oliver" class="rounded-full border border-gray"/></div>
 
-Hi, I’m Oliver Davies (aka <a href="https://www.google.com/#q=opdavies">opdavies</a>) - a Web Developer based in Wales, UK. I specialise in PHP, front-end development and systems administration.
+Hi, I’m Oliver Davies (aka <a href="https://www.google.com/#q=opdavies">opdavies</a>), a Web Developer and Drupal specialist based in Wales, UK.
+I’ve been building websites with Drupal for {{ now|date('Y') - 2008 }} years, and am an <a href="https://certification.acquia.com/user/1647756">Acquia certified Drupal 8 Grand Master</a>.
 
 I’m a {{ site.work.role }} at <a href="{{ site.companies[site.work.company].url }}?utm_source=oliverdavies.uk&amp;utm_medium=about-bio">{{ site.companies[site.work.company].name }}</a>, part-time freelancer, former Developer at the <a href="https://www.drupal.org/association">Drupal Association</a>, open source contributor and advocate, mentor and conference speaker.
 
-I primarily work with Drupal and am an <a href="https://certification.acquia.com/user/1647756">Acquia certified Drupal Grand Master</a>, but also use Symfony, Laravel and Sculpin, and have some experience working with JavaScript frameworks including Vue.js and Angular.
+I primarily use Drupal but also use the Symfony and Laravel frameworks, Sculpin for static sites, and have some experience working with JavaScript frameworks including Vue.js and Angular.
 
 I’m a webmaster and documentation maintainer for <a href="https://www.drupal.org">Drupal.org</a>, and a co-organiser of the <a href="{{ site.events.php_south_wales.url }}">PHP South Wales user group</a> and <a href="https://www.drupalcampbristol.co.uk">DrupalCamp Bristol</a>. I was also previously an organiser of the PHPSW and Drupal Bristol user groups.
 
