@@ -1,6 +1,6 @@
 ---
 title: Test Driven Ansible Role Development with Molecule
-excerpt: ~
+excerpt: Some resources that I found for testing Ansible roles with a tool called Molecule.
 tags: [ansible, molecule, testing, video]
 ---
 I used to maintain a number of [Ansible roles][roles], and I recently wrote one for automatically generating `settings.php` files for Drupal projects that I use for some client projects as part of the [Ansible and Ansistrano deployment process][talk], as it can populate these files with credentials stored in Ansible Vault.
