@@ -15,11 +15,13 @@
         <p>{{ post.excerpt }}</p>
     </div>
 
-    <div>
-        <a href="{{ post.url }}" class="text-sm text-gray-600 hover:text-gray-800">
-            Read more
-            <span class="visuallyhidden">about '{{ post.title }}'</span>
-            &rarr;
-        </a>
-    </div>
+    {% if not post.type == 'tweet' %}
+        <div>
+            <a href="{{ post.url }}" class="text-sm text-gray-600 hover:text-gray-800">
+                Read more
+                <span class="visuallyhidden">about '{{ post.title }}'</span>
+                &rarr;
+            </a>
+        </div>
+    {% endif %}
 </div>
