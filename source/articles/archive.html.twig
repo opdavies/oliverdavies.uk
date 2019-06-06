@@ -13,6 +13,7 @@ use: [posts]
         {% for post in data.posts %}
             <article class="p-4 {{ post.draft ? 'bg-blue-200' }}">
                 {% include 'blog/post-summary' with {
+                    post: post,
                     show_date: true,
                 } %}
             </article>
