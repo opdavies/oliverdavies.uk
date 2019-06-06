@@ -157,5 +157,5 @@ use: [posts]
 /youtube {{ site.youtube.channel.url }}
 
 {% for post in data.posts if post.external_url %}
-/{{ post.url }} {{ post.external_url }}
+{{ post.url|trim('/', 'right') }} {{ post.external_url }}
 {% endfor %}
