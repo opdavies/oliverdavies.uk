@@ -1,7 +1,7 @@
 <div class="spaced-y-2">
     <div class="spaced-y-2px">
         <h2 class="text-inherit text-lg m-0">
-            <a href="{{ post.url }}" class="text-inherit" tabindex="-1">
+            <a href="{{ post.external_url ?: post.url }}" class="text-inherit" tabindex="-1">
                 {{ post.draft ? 'Draft: '|upper }}{{ post.title }}
             </a>
         </h2>
