@@ -26,7 +26,7 @@
 {% endblock %}
 
 {% block scripts %}
-    {% if page.has_tweets %}
+    {% if page.has_tweets or page.type == 'tweet' %}
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     {% endif %}
 
