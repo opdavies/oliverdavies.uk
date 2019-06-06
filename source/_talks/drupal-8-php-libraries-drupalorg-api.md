@@ -24,7 +24,16 @@ events:
       date: 2019-03-03
       time: '12:05 - 12:50'
 ---
-A demo of some of the open source projects that I’ve been working on lately that are based on information from the Drupal.org API, including a PHP library for the API itself as well as some Drupal 8 modules that use it.
+A overview and demo of some of the open source projects that I’ve been working on lately that are based on information from the Drupal.org API, including a PHP library for the API itself as well as some Drupal 8 modules that use it.
+
+This session will cover various topics including:
+
+- Why would you want to separate your code into reusable packages
+- An overview of how to structure a PHP package (e.g. an API for interacting with Drupal.org)
+- How to add a PHP package as a dependency for a Drupal module using Composer
+- How to create routes and services, and use dependency injection in Drupal 8
+- How to use Drupal to configure the packages
+- How to increase performance and reliability by using Drupal's cache system to store API results
 
 ## Links
 
