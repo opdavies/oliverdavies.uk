@@ -1,4 +1,5 @@
 ---
+use: [posts]
 ---
 /about /
 /articles/2010/04/05/style-drupal-6s-taxonomy-lists-php-css-and-jquery /articles/style-drupal-6s-taxonomy-lists-php-css-and-jquery
@@ -154,3 +155,7 @@
 /twitter {{ site.twitter.url }}
 /work /experience
 /youtube {{ site.youtube.channel.url }}
+
+{% for post in data.posts if post.external_url %}
+/{{ post.url }} {{ post.external_url }}
+{% endfor %}
