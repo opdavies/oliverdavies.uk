@@ -1,6 +1,10 @@
 ---
 title: Decoupling Drupal with Vue.js
 description: Decoupling Drupal with Vue.js.
+speakerdeck:
+    id: 60c8b7abdf194946b7a78a1bb74a0982
+    ratio: '1.77777777777778'
+    url: https://speakerdeck.com/opdavies/decoupling-drupal-with-vue-dot-js
 events:
     - event: blue_conf_19
       date: 2019-06-07
