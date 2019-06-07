@@ -1,60 +1,8 @@
-@import '~highlightjs/styles/github-gist.css';
+@import 'tailwindcss/base';
+@import 'custom-base';
 
-@tailwind base;
+@import 'tailwindcss/components';
+@import 'highlightjs/styles/github-gist';
+@import 'custom-components';
 
-h1, h2, h3 {
-  @apply font-bold
-}
-
-h1 {
-  @apply text-3xl
-}
-
-h2 {
-  @apply text-2xl
-}
-
-img {
-  @apply max-w-full h-auto
-}
-
-a {
-  @apply text-blue-600 no-underline;
-
-  &:hover {
-    @apply underline
-  }
-}
-
-blockquote {
-  @apply border-l-4 border-blue-600 pl-4 px-6 py-2
-}
-
-@tailwind components;
-
-.container {
-  @apply w-full max-w-5xl px-4 mx-auto
-}
-
-p.lead {
-  @screen md {
-    @apply text-lg
-  }
-}
-
-.wrap {
-  @apply w-full max-w-3xl mx-auto;
-
-  &.is-wide {
-    @apply max-w-5xl
-  }
-}
-
-@import 'components/button.css';
-@import 'components/markup.css';
-@import 'components/note.css';
-@import 'components/table.css';
-@import 'components/video.css';
-@import 'components/widget.css';
-
-@tailwind utilities;
+@import 'tailwindcss/utilities';
