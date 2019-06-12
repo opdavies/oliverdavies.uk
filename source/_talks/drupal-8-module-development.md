@@ -8,7 +8,8 @@ speakerdeck:
     id: 0041804e52664d12a8e31cd118264813
     ratio: '1.77777777777778'
     url: https://speakerdeck.com/opdavies/getting-started-with-drupal-8-module-development
-youtube:
+video:
+    type: youtube
     id: qO_Wh5WE3VA
 meta:
     og:

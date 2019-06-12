@@ -7,7 +7,8 @@ speakerdeck:
     id: 5862bdecb7a24cfaa5fc844696fafa0c
     ratio: '1.37081659973226'
     url: https://speakerdeck.com/opdavies/it-all-started-with-a-patch-phpsw
-youtube:
+video:
+    type: youtube
     id: 5FYMRR61sdo
 events:
     - event: phpsw

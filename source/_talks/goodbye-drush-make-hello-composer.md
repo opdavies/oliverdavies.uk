@@ -6,7 +6,8 @@ speakerdeck:
     id: 1c1e0e129ab34816bd4c4edb5f6642c2
     ratio: '1.37081659973226'
     url: https://speakerdeck.com/opdavies/goodbye-drush-make-hello-composer
-youtube:
+video:
+    type: youtube
     id: ZL2FtRTX9Y8
 events:
     - event: drupal_bristol

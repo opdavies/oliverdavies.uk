@@ -5,7 +5,8 @@ speakerdeck:
     id: 76f1718a75a74940b0b028aac8b9f78b
     ratio: '1.77777777777778'
     url: https://speakerdeck.com/opdavies/using-laravel-collections-dot-dot-dot-outside-laravel-php-south-wales-august-2018
-youtube:
+video:
+    type: youtube
     id: 1l0kO-iaN_o
 tags: [nomad-php, lightning-talk, laravel, collections]
 type: Lightning talk

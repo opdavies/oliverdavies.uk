@@ -9,7 +9,8 @@ speakerdeck:
 code: https://github.com/opdavies/sculpin-demo
 tags: [meetups, phpsw, sculpin]
 tweets: yes
-youtube:
+video:
+    type: youtube
     id: aN53arCKZAU
 events:
     - event: phpsw

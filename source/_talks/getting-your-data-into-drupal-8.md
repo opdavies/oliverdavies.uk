@@ -5,7 +5,8 @@ speakerdeck:
     id: 63e5dfce996e46699e304d50e896477b
     ratio: '1.77777777777778'
     url: 'https://speakerdeck.com/opdavies/getting-your-data-into-drupal-8-drupal_bristol'
-youtube:
+video:
+    type: youtube
     id: jtmARTuYhp8
 tags: [drupalcamp, migration, drupal-8]
 meta:
