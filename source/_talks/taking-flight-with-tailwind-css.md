@@ -5,6 +5,9 @@ speakerdeck:
     id: 10ca51f23560443d83b898a92929b4b3
     ratio: '1.77777777777778'
     url: https://speakerdeck.com/opdavies/taking-flight-with-tailwind-css
+video:
+    type: videopress
+    id: fVDoXOZB
 tags: [css, tailwind, meetup]
 events:
     - event: drupal_bristol
