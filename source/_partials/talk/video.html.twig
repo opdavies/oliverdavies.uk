@@ -1,29 +1,45 @@
-{% if page.youtube.id or page.vimeo.id %}
+{% macro videoSrc(talk) %}
+    {# TODO: Cleanup once videos have been added to talks properly. #}
+    {% if talk.youtube %}
+        {% set videoType = 'youtube' %}
+        {% set videoId = talk.youtube.id %}
+    {% endif %}
+
+    {% if talk.vimeo %}
+        {% set videoType = 'vimeo' %}
+        {% set videoId = talk.vimeo.id %}
+    {% endif %}
+
+    {% if talk.video %}
+        {% set videoType = talk.video.type %}
+        {% set videoId = talk.video.id %}
+    {% endif %}
+
+    {% set srcUrls = {
+        youtube: '//www.youtube.com/embed',
+        videopress: 'https://videopress.com/embed',
+        vimeo: 'https://player.vimeo.com/video',
+    } %}
+
+    {{ srcUrls[videoType] ~ '/' ~ videoId }}
+{% endmacro %}
+
+{% from _self import videoSrc %}
+
+{# TODO: Cleanup once videos have been added to talks properly. #}
+{% if page.youtube.id or page.vimeo.id or page.video %}
     <div class="mt-4">
         <h2 class="mb-2">Video</h2>
 
         <div class="video-full">
-            {% if page.youtube.id %}
-                <iframe
-                    width="678"
-                    height="408"
-                    src="//www.youtube.com/embed/{{ page.youtube.id }}"
-                    frameborder="0"
-                    allowfullscreen
-                >
-                </iframe>
-            {% elseif page.vimeo.id %}
-                <iframe
-                    src="https://player.vimeo.com/video/{{ page.vimeo.id }}"
-                    width="640"
-                    height="360"
-                    frameborder="0"
-                    webkitallowfullscreen
-                    mozallowfullscreen
-                    allowfullscreen
-                >
-                </iframe>
-            {% endif %}
+            <iframe
+                width="678"
+                height="408"
+                src="{{ videoSrc(page) }}"
+                frameborder="0"
+                allowfullscreen
+            >
+            </iframe>
         </div>
     </div>
 {% endif %}
