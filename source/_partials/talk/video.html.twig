@@ -1,31 +1,16 @@
-{% macro videoSrc(talk) %}
-    {# TODO: Cleanup once videos have been added to talks properly. #}
-    {% set videoType = talk.video.type %}
-    {% set videoId = talk.video.id %}
-
-    {% if talk.youtube %}
-        {% set videoType = 'youtube' %}
-        {% set videoId = talk.youtube.id %}
-    {% endif %}
-
-    {% if talk.vimeo %}
-        {% set videoType = 'vimeo' %}
-        {% set videoId = talk.vimeo.id %}
-    {% endif %}
-
+{% macro videoSrc(video) %}
     {% set srcUrls = {
         youtube: '//www.youtube.com/embed',
         videopress: 'https://videopress.com/embed',
         vimeo: 'https://player.vimeo.com/video',
     } %}
 
-    {{ srcUrls[videoType] ~ '/' ~ videoId }}
+    {{ srcUrls[video.type] ~ '/' ~ video.id }}
 {% endmacro %}
 
 {% from _self import videoSrc %}
 
-{# TODO: Cleanup once videos have been added to talks properly. #}
-{% if page.youtube.id or page.vimeo.id or page.video %}
+{% if page.video.id %}
     <div class="mt-4">
         <h2 class="mb-2">Video</h2>
 
@@ -33,7 +18,7 @@
             <iframe
                 width="678"
                 height="408"
-                src="{{ videoSrc(page) }}"
+                src="{{ videoSrc(page.video) }}"
                 frameborder="0"
                 allowfullscreen
             >
