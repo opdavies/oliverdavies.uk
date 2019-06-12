@@ -1,5 +1,8 @@
 {% macro videoSrc(talk) %}
     {# TODO: Cleanup once videos have been added to talks properly. #}
+    {% set videoType = talk.video.type %}
+    {% set videoId = talk.video.id %}
+
     {% if talk.youtube %}
         {% set videoType = 'youtube' %}
         {% set videoId = talk.youtube.id %}
@@ -8,11 +11,6 @@
     {% if talk.vimeo %}
         {% set videoType = 'vimeo' %}
         {% set videoId = talk.vimeo.id %}
-    {% endif %}
-
-    {% if talk.video %}
-        {% set videoType = talk.video.type %}
-        {% set videoId = talk.video.id %}
     {% endif %}
 
     {% set srcUrls = {
