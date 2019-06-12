@@ -7,7 +7,8 @@ speakerdeck:
     id: 7a1358502526425a9cfd288f85fb32f3
     ratio: '1.37081659973226'
     url: https://speakerdeck.com/opdavies/modern-drupal-development-with-composer
-youtube:
+video:
+    type: youtube
     id: Yi_FPI3xHwc
 events:
     - event: phpsw

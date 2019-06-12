@@ -5,7 +5,8 @@ speakerdeck:
     id: 6de3fe8947a34727b79eb9d9dcc66bf2
     ratio: "1.37081659973226"
     url: https://speakerdeck.com/opdavies/configuring-all-the-things-in-drupal-8
-youtube:
+video:
+    type: ~
     id: ~
 tags:
     - drupal

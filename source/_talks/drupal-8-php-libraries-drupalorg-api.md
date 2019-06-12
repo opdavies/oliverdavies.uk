@@ -14,7 +14,8 @@ tags:
     - drupal-8
     - drupalorg
     - php
-youtube:
+video:
+    type: youtube
     id: JyDjC7gGDpU
 events:
     - event: drupal_bristol

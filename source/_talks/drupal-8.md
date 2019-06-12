@@ -5,7 +5,8 @@ speakerdeck:
     url: https://speakerdeck.com/opdavies/drupal-8
     id: 46ba4ba577d94a32b7abdade610ceb69
     ratio: "1.29456384323641"
-youtube:
+video:
+    type: youtube
     id: 36zCxPrOOzM
 tags: [meetup, phpsw, drupal, drupal-8]
 tweets: yes

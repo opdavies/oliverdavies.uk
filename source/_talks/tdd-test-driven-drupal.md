@@ -5,7 +5,8 @@ speakerdeck:
     id: 088cb18033064f5cb18d1079795294a1
     ratio: '1.77777777777778'
     url: 'https://speakerdeck.com/opdavies/tdd-test-driven-drupal'
-youtube:
+video:
+    type: youtube
     id: 3AUhpkxZ7DQ
 tags: [drupalcamp, simpletest, phpunit, testing]
 has_tweets: true

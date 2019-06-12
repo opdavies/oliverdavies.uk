@@ -1,7 +1,8 @@
 ---
 title: So, what is this Drupal thing?
 description: My first talk, where I talk about Drupal, what it is and what it can do.
-vimeo:
+video:
+    type: vimeo
     id: 49827006
 tags: [meetup, drupal, unified-diff]
 events:

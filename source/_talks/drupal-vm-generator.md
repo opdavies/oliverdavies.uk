@@ -8,7 +8,8 @@ speakerdeck:
     id: a27ee1d2bfed4a209dc395fa455acb41
     ratio: '1.37081659973226'
     url: https://speakerdeck.com/opdavies/bristol-dug-drupal-vm-generator
-youtube:
+video:
+    type: youtube
     id: U1pbKAAO2Wo
 events:
     - event: nwdug
