@@ -14,25 +14,35 @@
           </div>
         </div>
 
-        <div class="w-1/4 text-right md:hidden">
+        <div class="w-1/4 text-right flex items-center justify-end md:hidden">
           <button
             type="button"
-            class="nav-toggle appearance-none"
+            class="nav-toggle appearance-none text-white hover:text-gray-300 focus:outline-none"
             aria-label="Toggle main menu"
             @click="hidden = !hidden"
           >
             <svg
-              class="fill-current text-white w-6 h-6"
+              v-if="hidden"
+              class="fill-current text-inherit w-6 h-6"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
             ><path d="M16.4 9H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zm0 4H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zM3.6 7h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1z" /></svg>
+
+            <svg
+              v-if="!hidden"
+              class="fill-current text-inherit w-5 h-5"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            ><path
+              d="M10 8.586L2.929 1.515 1.515 2.929 8.585 10l-7.07 7.071 1.414 1.414L10 11.415l7.071 7.07 1.414-1.414L11.415 10l7.07-7.071-1.414-1.414L10 8.585z"
+              fill-rule="evenodd"
+            /></svg>
           </button>
         </div>
       </div>
 
       <nav
         class="block w-full absolute py-4 -mx-4 mt-2px bg-blue-700 border-b md:mt-0 md:mx-0 md:relative md:flex md:flex-wrap md:flex-1 md:justify-end md:bg-blue-500 md:border-b-0"
-        style="margin-top: 3px"
         :class="{ hidden: hidden }"
         role="navigation"
       >
