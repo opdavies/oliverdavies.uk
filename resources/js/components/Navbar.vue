@@ -19,17 +19,17 @@
             type="button"
             class="nav-toggle appearance-none text-white hover:text-gray-300 focus:outline-none"
             aria-label="Toggle main menu"
-            @click="hidden = !hidden"
+            @click="isOpen = !isOpen"
           >
             <svg
-              v-if="hidden"
+              v-if="!isOpen"
               class="fill-current text-inherit w-6 h-6"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
             ><path d="M16.4 9H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zm0 4H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zM3.6 7h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1z" /></svg>
 
             <svg
-              v-if="!hidden"
+              v-if="isOpen"
               class="fill-current text-inherit w-5 h-5"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@
 
       <nav
         class="block w-full absolute py-4 -mx-4 mt-2px bg-blue-700 border-b md:mt-0 md:mx-0 md:relative md:flex md:flex-wrap md:flex-1 md:justify-end md:bg-blue-500 md:border-b-0"
-        :class="{ hidden: hidden }"
+        :class="{ hidden: !isOpen }"
         role="navigation"
       >
         <a
@@ -75,7 +75,7 @@ export default {
 
   data() {
     return {
-      hidden: true,
+      isOpen: false,
 
       items: [
         {
