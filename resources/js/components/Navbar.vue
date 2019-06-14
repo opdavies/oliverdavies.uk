@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="md:flex">
-      <div class="w-full md:w-1/3 lg:w-1/4 flex items-center">
+      <div class="w-full flex items-center md:w-1/3 lg:w-1/4">
         <div class="w-3/4 py-6">
           <div class="text-sm">
             <a
@@ -27,7 +27,7 @@
       </div>
 
       <nav
-        class="w-full py-4 -mx-4 mt-2px md:mt-0 md:mx-0 block md:flex md:flex-wrap md:flex-1 md:justify-end bg-blue-700 md:bg-blue-500 absolute md:relative border-b md:border-b-0"
+        class="block w-full absolute py-4 -mx-4 mt-2px bg-blue-700 border-b md:mt-0 md:mx-0 md:relative md:flex md:flex-wrap md:flex-1 md:justify-end md:bg-blue-500 md:border-b-0"
         style="margin-top: 3px"
         :class="{ hidden: hidden }"
         role="navigation"
@@ -35,8 +35,8 @@
         <a
           v-for="(item, index) in items"
           :key="index"
-          class="block text-white no-underline focus:outline-none py-3 md:py-2 md:py-1 px-4 md:px-2 mx-4 md:mx-2 mt-1 md:mt-0 rounded md:mr-0 hover:underline text-sm -mb-px"
-          :class="{'bg-blue-500 md:bg-blue-700 hover:border-blue-600 hover:no-underline cursor-default': isActive(item)}"
+          class="block py-3 px-4 mx-4 mt-1 -mb-px rounded text-sm text-white no-underline hover:underline focus:outline-none md:py-1 md:px-2 md:mx-2 md:mt-0 md:mr-0"
+          :class="{ 'cursor-default bg-blue-500 hover:border-blue-600 hover:no-underline md:bg-blue-700': isActive(item) }"
           :href="item.href"
         >
           <span class="flex items-center h-full">{{ item.title }}</span>
