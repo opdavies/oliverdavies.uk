@@ -103,9 +103,8 @@ export default {
     }
   },
 
-
   methods: {
-    isActive(item) {
+    isActive (item) {
       return this.pageUrl.match(new RegExp(item.pattern))
     }
   }
