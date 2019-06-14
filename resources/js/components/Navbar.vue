@@ -21,7 +21,11 @@
             aria-label="Toggle main menu"
             @click="hidden = !hidden"
           >
-            <svg class="fill-current text-white w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M16.4 9H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zm0 4H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zM3.6 7h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1z"/></svg>
+            <svg
+              class="fill-current text-white w-6 h-6"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            ><path d="M16.4 9H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zm0 4H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1zM3.6 7h12.8c.552 0 .6-.447.6-1 0-.553-.048-1-.6-1H3.6c-.552 0-.6.447-.6 1 0 .553.048 1 .6 1z" /></svg>
           </button>
         </div>
       </div>
@@ -67,38 +71,38 @@ export default {
         {
           title: 'About',
           href: '/',
-          pattern: '^/.$',
+          pattern: '^/.$'
         },
         {
           title: 'Projects',
           href: '/projects',
-          pattern: '^/projects/?$',
+          pattern: '^/projects/?$'
         },
         {
           title: 'Articles',
           href: '/articles',
-          pattern: '^/articles/?',
+          pattern: '^/articles/?'
         },
         {
           title: 'Talks',
           href: '/talks',
-          pattern: '^/talks/?',
+          pattern: '^/talks/?'
         },
         {
           title: 'Podcasts',
           href: '/podcasts',
-          pattern: '^/podcasts/?',
+          pattern: '^/podcasts/?'
         },
         {
           title: 'Book',
           href: '/test-driven-drupal',
-          pattern: '^/test-driven-drupal/?$',
+          pattern: '^/test-driven-drupal/?$'
         },
         {
           title: 'Contact',
           href: '/contact',
-          pattern: '^/contact/?',
-        },
+          pattern: '^/contact/?'
+        }
       ],
     }
   },
