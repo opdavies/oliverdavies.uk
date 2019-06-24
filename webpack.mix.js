@@ -6,7 +6,7 @@ mix.disableNotifications()
   .postCss('resources/css/app.css', 'source/dist/css', [
     require('postcss-import')(),
     require('tailwindcss')('tailwind.config.js'),
-    require('postcss-nested'),
+    require('postcss-nested')(),
   ])
   .extract(['highlightjs', 'vue'])
   .js('resources/js/app.js', 'source/dist/js')
