@@ -18,9 +18,9 @@ class TalksExtension extends AbstractExtension
     public function __construct()
     {
         $this->today = (new \DateTime())
-          ->modify('today')
-          ->setTimezone(new \DateTimeZone('Europe/London'))
-          ->getTimestamp();
+            ->modify('today')
+            ->setTimezone(new \DateTimeZone('Europe/London'))
+            ->getTimestamp();
     }
 
     /**
