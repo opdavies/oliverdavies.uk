@@ -1,0 +1,67 @@
+companies:
+    appnovation:
+        name: Appnovation
+        logo: appnovation.png
+        url: https://www.appnovation.com
+
+    cti:
+        name: CTI Digital
+        logo: cti-digital.png
+        url: https://www.ctidigital.com
+
+    develop_me:
+        name: Develop Me Training
+        logo: develop_me.svg
+        url: https://developme.training
+
+    drupal_association:
+        name: Drupal Association
+        logo: drupal-association.png
+        url: https://www.drupal.org/association
+
+    freelance:
+        name: Freelance
+
+    horse_country:
+        name: 'Horse & Country TV'
+        logo: horse-and-country.jpg
+        url: http://www.horseandcountry.tv
+
+    inviqa:
+        name: Inviqa
+        logo: inviqa.jpg
+        url: https://inviqa.com
+
+    lab_class:
+        name: Lab Class
+        logo: lab-class.png
+        url: http://labclass.co.uk
+
+    microserve:
+        name: Microserve
+        logo: microserve.png
+        url: https://microserve.io
+        github: https://github.com/microserve-io
+
+    nomensa:
+        name: Nomensa
+        logo: nomensa.png
+        url: http://www.nomensa.com
+
+    precedent:
+        name: Precedent
+        logo: precedent.jpg
+        url: http://precedent.com
+
+    proctors:
+        name: 'Proctor & Stevenson'
+        logo: proctors.jpg
+        url: http://www.proctors.co.uk
+
+    trent:
+        name: Trent Design
+        url: http://www.trentdesign.net
+
+    zooba:
+        name: Zooba Ltd
+
