@@ -52,6 +52,7 @@
           class="block py-3 px-4 mx-4 mt-1 -mb-px rounded text-sm text-white no-underline hover:underline focus:outline-none md:py-1 md:px-2 md:mx-2 md:mt-0 md:mr-0"
           :class="{ 'cursor-default bg-blue-500 hover:border-blue-600 hover:no-underline md:bg-blue-700': isActive(item) }"
           :href="item.href"
+          :aria-current="isActive(item) ? 'page' : false"
         >
           <span class="flex items-center h-full">{{ item.title }}</span>
         </a>
