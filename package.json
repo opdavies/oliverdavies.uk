@@ -20,7 +20,7 @@
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^5.2.2",
     "highlightjs": "^9.10.0",
-    "laravel-mix": "^2.1.11",
+    "laravel-mix": "^4.1.2",
     "laravel-mix-purgecss": "^4.1.0",
     "postcss-nested": "^4.1.2",
     "tailwindcss": "^1.0.0",
