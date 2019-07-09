@@ -11,27 +11,27 @@
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "browser-sync-webpack-plugin": "2.0.1",
-    "cross-env": "^5.1.5",
     "eslint": "^5.15.3",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-vue": "^5.2.2",
+    "eslint-plugin-vue": "^5.2.2"
+  },
+  "dependencies": {
+    "cross-env": "^5.1.5",
     "highlightjs": "^9.10.0",
     "laravel-mix": "^4.1.2",
     "laravel-mix-purgecss": "^4.1.0",
+    "postcss-import": "^12.0.1",
     "postcss-nested": "^4.1.2",
+    "sugarss": "^2.0.0",
     "tailwindcss": "^1.0.0",
     "tailwindcss-skip-link": "^1.0.0",
     "tailwindcss-spaced-items": "https://github.com/n1kk/tailwindcss-spaced-items#master",
     "tailwindcss-visuallyhidden": "^1.0.1",
     "tailwindcss-vuejs": "^1.0.0",
     "vue": "^2.5.17"
-  },
-  "dependencies": {
-    "postcss-import": "^12.0.1",
-    "sugarss": "^2.0.0"
   }
 }
