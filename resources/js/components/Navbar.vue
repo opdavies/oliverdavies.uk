@@ -85,11 +85,6 @@ export default {
           pattern: '^/.$'
         },
         {
-          title: 'Projects',
-          href: '/projects',
-          pattern: '^/projects/?$'
-        },
-        {
           title: 'Articles',
           href: '/articles',
           pattern: '^/articles/?'
@@ -103,6 +98,11 @@ export default {
           title: 'Podcasts',
           href: '/podcasts',
           pattern: '^/podcasts/?'
+        },
+        {
+          title: 'Projects',
+          href: '/projects',
+          pattern: '^/projects/?$'
         },
         {
           title: 'Book',
