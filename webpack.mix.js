@@ -3,7 +3,7 @@ let mix = require('laravel-mix')
 require('laravel-mix-purgecss')
 
 mix.disableNotifications()
-  .postCss('resources/css/app.sss', 'source/dist/css', [
+  .postCss('resources/css/app.css', 'source/dist/css', [
     require('postcss-import')(),
     require('tailwindcss')('tailwind.config.js'),
     require('postcss-nested')(),
@@ -23,14 +23,3 @@ mix.disableNotifications()
     whitelistPatterns: [/language/, /hljs/],
     whitelistPatternsChildren: [/^markdown$/]
   })
-
-mix.webpackConfig({
-  module: {
-    rules: [
-      {
-        test: /\.sss?$/,
-        loader: 'postcss-loader'
-      }
-    ]
-  }
-})
