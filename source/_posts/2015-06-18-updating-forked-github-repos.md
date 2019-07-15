@@ -50,15 +50,21 @@ $ git push origin master
 
 This seems to have worked OK - the commits are still authored by the correct people and at the correct date and time - and I went ahead and created a new feature branch and pull request based on that master branch.
 
-<figure>
-  <img src="/images/blog/forked-github-repo-commits.png" alt="The commits on my master branch after rebasing">
-  <figcaption>The commits on my forked master branch after rebasing and pushing. All good!</figcaption>
-</figure>
+{% include 'figure' with {
+    image: {
+        src: '/images/blog/forked-github-repo-commits.png',
+        alt: 'The commits on my master branch after rebasing',
+    },
+    caption: 'The commits on my forked master branch after rebasing and pushing. All good!',
+} %}
 
-<figure>
-  <img src="/images/blog/my-commit-to-the-rebased-branch.png" alt="The new feature branch with my additional commit.">
-  <figcaption>The new feature branch with the new commit.</figcaption>
-</figure>
+{% include 'figure' with {
+    image: {
+        src: '/images/blog/my-commit-to-the-rebased-branch.png',
+        alt: 'The new feature branch with my additional commit',
+    },
+    caption: 'The new feature branch with the new commit.',
+} %}
 
 ## Is There a Better Way?
 
