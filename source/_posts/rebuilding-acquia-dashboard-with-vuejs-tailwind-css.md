@@ -108,30 +108,41 @@ This was the first page that I rebuilt - the Environments page for an applicatio
 
 Vue Router is configured to show the 
 
-
-<figure>
-  <img src="/images/blog/rebuilding-acquia-vue-tailwind/3-environments.png" alt="A screenshot of the rebuilt Environments page." class="border border-grey-light p-1">
-  <figcaption>The rebuilt Environments page for an application.</figcaption>
-</figure>
+{% include 'figure' with {
+    image: {
+        src: '/images/blog/rebuilding-acquia-vue-tailwind/3-environments.png',
+        alt: 'A screenshot of the rebuilt Environments page.',
+    },
+    caption: 'The rebuilt Environments page for an application.',
+} %}
 
 ## The applications page
 
-<figure>
-  <img src="/images/blog/rebuilding-acquia-vue-tailwind/1-applications.png" alt="A screenshot of the rebuilt Applications page." class="border border-gray-300 p-2">
-  <figcaption>The rebuilt Applications page.</figcaption>
-</figure>
+{% include 'figure' with {
+    image: {
+        src: '/images/blog/rebuilding-acquia-vue-tailwind/1-applications-grid.png',
+        alt: 'The rebuild Applications page, with applications displayed in a grid.',
+    },
+    caption: 'The rebuilt Applications page - grid view',
+} %}
 
-<figure>
-  <img src="/images/blog/rebuilding-acquia-vue-tailwind/2-applications-list.png" alt="A screenshot of the rebuilt Applications page as a list." class="border border-grey-light p-1">
-  <figcaption>The rebuilt Applications page.</figcaption>
-</figure>
+{% include 'figure' with {
+    image: {
+        src: '/images/blog/rebuilding-acquia-vue-tailwind/2-applications-list.png',
+        alt: 'The rebuild Applications page, with applications displayed as a list.',
+    },
+    caption: 'The rebuilt Applications page - list view',
+} %}
 
 ## An environment page
 
-<figure>
-  <img src="/images/blog/rebuilding-acquia-vue-tailwind/3-environment.png" alt="A screenshot of the rebuilt page for an environment within an application." class="border border-gray-300 p-2">
-  <figcaption>The rebuilt page for an environment within an application.</figcaption>
-</figure>
+{% include 'figure' with {
+    image: {
+        src: '/images/blog/rebuilding-acquia-vue-tailwind/4-environment.png',
+        alt: 'A screenshot of the rebuilt Environment page.',
+    },
+    caption: 'The rebuilt page for an environment within an application.',
+} %}
 
 [github]: https://github.com/opdavies/rebuilding-acquia
 [netlify]: https://rebuilding-acquia.oliverdavies.uk
