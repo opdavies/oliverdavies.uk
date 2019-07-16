@@ -10,13 +10,17 @@ permalink: /
 ---
 <div class="mb-4 w-32"><img src="/images/me-precedent.jpg" alt="Picture of Oliver" class="rounded-full border border-gray"/></div>
 
-Hi, I’m Oliver Davies (aka <a href="https://www.google.com/#q=opdavies">opdavies</a>), a Web Developer and Drupal specialist based in Wales, UK.
-I’ve been building websites with Drupal for {{ now|date('Y') - 2008 }} years, and am an <a href="https://certification.acquia.com/user/1647756">Acquia certified Drupal 8 Grand Master</a>.
+Hi, I'm Oliver Davies (aka [opdavies](https://www.google.com/#q=opdavies)).
+I’m a {{ site.work.role }} at [{{site.companies[site.work.company].name}}]({{site.companies[site.work.company].url}}) and a part-time freelance Web Developer based in Wales, UK.
 
-I’m a {{ site.work.role }} at <a href="{{ site.companies[site.work.company].url }}?utm_source=oliverdavies.uk&amp;utm_medium=about-bio">{{ site.companies[site.work.company].name }}</a>, part-time freelancer, former Developer at the <a href="https://www.drupal.org/association">Drupal Association</a>, open source contributor and advocate, mentor and conference speaker.
+I’ve been a Developer since 2007 and specialise in using Drupal, Symfony and Vue.js, though I also use other technologies including Laravel and Sculpin.
+I use Ansible for server provisioning and application deployments.
 
-I primarily use Drupal but also use the Symfony and Laravel frameworks, Sculpin for static sites, and have some experience working with JavaScript frameworks including Vue.js and Angular.
+I’m an [Acquia certified](https://certification.acquia.com/user/1647756) Drupal 8 Grand Master, and Webmaster and Documentation Maintainer on [Drupal.org](https://www.drupal.org).
+I was previously a Developer for the [{{site.companies.drupal_association.name}}]({{site.companies.drupal_association.url}}).
 
-I’m a webmaster and documentation maintainer for <a href="https://www.drupal.org">Drupal.org</a>, and a co-organiser of the <a href="{{ site.events.php_south_wales.url }}">PHP South Wales user group</a> and <a href="https://www.drupalcampbristol.co.uk">DrupalCamp Bristol</a>. I was also previously an organiser of the PHPSW and Drupal Bristol user groups.
+I regularly [give talks](/talks) at user groups and conferences,
+and am an organiser of the [{{site.events.php_south_wales.name}}]({{site.events.php_south_wales.url}}) user group.
 
-You can find me on <a href="{{ site.twitter.url }}">Twitter</a>, and see my open source work on <a href="{{ site.drupalorg.url_new }}">Drupal.org</a> and <a href="{{ site.github.url }}">GitHub</a> as well as on <a href="{{ site.packagist.url }}">Packagist</a>, <a href="{{ site.npm.url }}">npm</a> and <a href="{{ site.ansible_galaxy.url }}">Ansible Galaxy</a>.
+I enjoy contributing to open source, and maintain a variety of different projects.
+You can see these on my [Drupal.org]({{site.drupalorg.url}}) and [GitHub]({{site.github.url}}) accounts.
