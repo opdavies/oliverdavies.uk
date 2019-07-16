@@ -4,9 +4,9 @@ require('laravel-mix-purgecss')
 
 mix.disableNotifications()
   .postCss('resources/css/app.css', 'source/dist/css', [
-    require('postcss-import')(),
-    require('tailwindcss')('tailwind.config.js'),
-    require('postcss-nested')(),
+    require('postcss-import'),
+    require('tailwindcss'),
+    require('postcss-nested'),
   ])
   .extract()
   .js('resources/js/app.js', 'source/dist/js')
