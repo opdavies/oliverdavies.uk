@@ -37,6 +37,15 @@ episodes:
       date: 2019-07-01
       url: https://thatpodcast.io/episodes/episode-60-the-one-where-we-talk-twig-drupal-and-sculpin-with-oliver-davies
       audio: true
+
+    - title: Static Site Generators
+      description: |
+        Talking again with Peter Fisher, this time about static site generators. We talk about what they are, when you should and shouldn’t use them, and how to use them with a content management system like Drupal.
+      podcast: howtocodewell
+      date: 2019-07-19
+      url: https://howtocodewell.fm/episode/29-what-are-static-site-generators-oliver-davies
+      audio: true
+      video: true
 ---
 {% macro episodeTitle(podcast, episode) -%}
     {{ podcast.name }}: {{ episode.title }}
@@ -69,7 +78,9 @@ episodes:
                 {{ episode.date|date('jS F Y') }}
             </time>
 
-            <p>{{ episode.description }}</p>
+            <div class="markup">
+                {{ episode.description|markdown }}
+            </div>
 
             {% if episode.url %}
                 <a href="{{ episode.url }}" class="inline-block mt-2 text-sm text-gray-600 hover:text-gray-800 focus:text-gray-800">
