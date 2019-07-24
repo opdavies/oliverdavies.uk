@@ -18,4 +18,5 @@ imports:
     - ../../data/companies.yml
     - ../../data/events.yml
     - ../../data/links.yml
+    - ../../data/menus.yml
     - ../../data/work.yml
