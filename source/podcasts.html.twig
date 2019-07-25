@@ -4,10 +4,13 @@ title: Podcasts
 podcasts:
     howtocodewell:
         name: How to Code Well
+        url: https://howtocodewell.fm
     talking_drupal:
         name: Talking Drupal
+        url: http://talkingdrupal.com
     thatpodcast:
         name: That Podcast
+        url: https://thatpodcast.io
 episodes:
     - title: 'Episode #175 - Automated Testing'
       description: I joined the Talking Drupal team to discuss automated testing.
@@ -53,13 +56,12 @@ episodes:
 
 {% import _self as helpers %}
 
-<!-- <header class="mb-6">
-    <p class="text-lg">
-        I’m an occasional guest on podcasts such as Talking Drupal.
-    </p>
-</header> -->
+<header class="markup">
+    <p class="text-lg">As well as <a href="{{ site.menus.main.articles.href }}">writing posts</a> and <a href="{{ site.menus.main.talks.href }}">giving talks</a>, I also enjoy being on podcasts and speaking about interesting topics.</p>
+    <p class="text-lg">Here are the podcasts that I’ve been on, including <a href="{{ page.podcasts.talking_drupal.url }}">{{ page.podcasts.talking_drupal.name }}</a> and <a href="{{ page.podcasts.howtocodewell.url }}">{{ page.podcasts.howtocodewell.name }}</a>.</p>
+</header>
 
-<div class="spaced-y-10">
+<div class="mt-10 spaced-y-10">
     {% for episode in page.episodes|reverse %}
         {% set podcast = page.podcasts[episode.podcast] %}
 
