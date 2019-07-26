@@ -44,19 +44,21 @@ In this talk, we’ll cover the methodology and terminology involved with automa
 
 {% block tweets %}
 <div class="flex flex-wrap -mx-2">
-    {% include 'tweet' with {
-        class: 'w-full sm:w-1/2 lg:w-1/3 px-2 flex flex-col',
-        content: '<p lang="en" dir="ltr">An informative session on <a href="https://twitter.com/hashtag/TDD?src=hash&amp;ref_src=twsrc%5Etfw">#TDD</a> <a href="https://twitter.com/hashtag/Drupal?src=hash&amp;ref_src=twsrc%5Etfw">#Drupal</a> <br>&quot;Test Driven Drupal Development with SimpleTest and PHPUnit - Oliver Davies&quot;<a href="https://twitter.com/opdavies?ref_src=twsrc%5Etfw">@opdavies</a> Thanks ! :) <a href="https://t.co/xQNaq8e0zU">https://t.co/xQNaq8e0zU</a></p>&mdash; जयदीप सिंह कण्डारी (@JayKandari) <a href="https://twitter.com/JayKandari/status/939598826087706624?ref_src=twsrc%5Etfw">December 9, 2017</a>',
-    } %}
-
-    {% include 'tweet' with {
-        class: 'w-full sm:w-1/2 lg:w-1/3 px-2 flex flex-col',
-        content: '<p lang="en" dir="ltr">Really motivational and well delivered talk from <a href="https://twitter.com/opdavies?ref_src=twsrc%5Etfw">@opdavies</a> tonight. Structured brilliantly - I don&#39;t think anybody left not wanting to write tests! &quot;Test Driven Drupal&quot; 💧 <a href="https://twitter.com/hashtag/Drupal8?src=hash&amp;ref_src=twsrc%5Etfw">#Drupal8</a> <a href="https://twitter.com/hashtag/testing?src=hash&amp;ref_src=twsrc%5Etfw">#testing</a> <a href="https://twitter.com/hashtag/drupal?src=hash&amp;ref_src=twsrc%5Etfw">#drupal</a> <a href="https://t.co/bvQf7WFwdy">pic.twitter.com/bvQf7WFwdy</a></p>&mdash; Drupal Somerset (@drupalsomerset) <a href="https://twitter.com/drupalsomerset/status/1007413440875565056?ref_src=twsrc%5Etfw">June 15, 2018</a>',
-    } %}
-
-    {% include 'tweet' with {
-        class: 'w-full sm:w-1/2 lg:w-1/3 px-2 flex flex-col',
-        content: '<p lang="en" dir="ltr">Terrible quality photo but the talk drove me to test and it&#39;s great so far, it&#39;s really helped give me peace of mind and helped me uncover a bug I wouldn&#39;t have otherwise :) so thank you 😁</p>&mdash; Tawny Bartlett (@littlepixiez) <a href="https://twitter.com/littlepixiez/status/1009189555600273409?ref_src=twsrc%5Etfw">June 19, 2018</a>',
-    } %}
+    <div class="w-full sm:w-1/2 lg:w-1/3 px-2 flex flex-col">
+        {% include 'tweet' with {
+            content: '<p lang="en" dir="ltr">An informative session on <a href="https://twitter.com/hashtag/TDD?src=hash&amp;ref_src=twsrc%5Etfw">#TDD</a> <a href="https://twitter.com/hashtag/Drupal?src=hash&amp;ref_src=twsrc%5Etfw">#Drupal</a> <br>&quot;Test Driven Drupal Development with SimpleTest and PHPUnit - Oliver Davies&quot;<a href="https://twitter.com/opdavies?ref_src=twsrc%5Etfw">@opdavies</a> Thanks ! :) <a href="https://t.co/xQNaq8e0zU">https://t.co/xQNaq8e0zU</a></p>&mdash; जयदीप सिंह कण्डारी (@JayKandari) <a href="https://twitter.com/JayKandari/status/939598826087706624?ref_src=twsrc%5Etfw">December 9, 2017</a>',
+        } %}
+    </div>
+    <div class="w-full sm:w-1/2 lg:w-1/3 px-2 flex flex-col">
+        {% include 'tweet' with {
+            content: '<p lang="en" dir="ltr">Really motivational and well delivered talk from <a href="https://twitter.com/opdavies?ref_src=twsrc%5Etfw">@opdavies</a> tonight. Structured brilliantly - I don&#39;t think anybody left not wanting to write tests! &quot;Test Driven Drupal&quot; 💧 <a href="https://twitter.com/hashtag/Drupal8?src=hash&amp;ref_src=twsrc%5Etfw">#Drupal8</a> <a href="https://twitter.com/hashtag/testing?src=hash&amp;ref_src=twsrc%5Etfw">#testing</a> <a href="https://twitter.com/hashtag/drupal?src=hash&amp;ref_src=twsrc%5Etfw">#drupal</a> <a href="https://t.co/bvQf7WFwdy">pic.twitter.com/bvQf7WFwdy</a></p>&mdash; Drupal Somerset (@drupalsomerset) <a href="https://twitter.com/drupalsomerset/status/1007413440875565056?ref_src=twsrc%5Etfw">June 15, 2018</a>',
+        } %}
+    </div>
+    <div class="w-full sm:w-1/2 lg:w-1/3 px-2 flex flex-col">
+        {% include 'tweet' with {
+            content: '<p lang="en" dir="ltr">Terrible quality photo but the talk drove me to test and it&#39;s great so far, it&#39;s really helped give me peace of mind and helped me uncover a bug I wouldn&#39;t have otherwise :) so thank you 😁</p>&mdash; Tawny Bartlett (@littlepixiez) <a href="https://twitter.com/littlepixiez/status/1009189555600273409?ref_src=twsrc%5Etfw">June 19, 2018</a>',
+            no_parent: true,
+        } %}
+    </div>
 </div>
 {% endblock %}
