@@ -24,11 +24,3 @@
 
     {% include 'post/about-author' %}
 {% endblock %}
-
-{% block scripts %}
-    {% if page.has_tweets or page.type == 'tweet' %}
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    {% endif %}
-
-    <script>hljs.initHighlightingOnLoad();</script>
-{% endblock %}
