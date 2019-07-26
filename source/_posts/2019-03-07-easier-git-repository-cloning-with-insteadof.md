@@ -1,7 +1,6 @@
 ---
 title: Easier Git Repository Cloning with insteadOf
 excerpt: How to simplify 'git clone' commands by using the insteadOf configuration option within your .gitconfig file.
-date: 2019-03-07
 tags: [git]
 ---
 When working on client or open source projects, I clone a lot of [Git](https://git-scm.com) repositories - either from GitHub, GitLab, Bitbucket or Drupal.org.
