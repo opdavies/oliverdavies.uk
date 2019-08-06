@@ -64,7 +64,7 @@ events:
 
     drupalcon_eu_19:
         name: DrupalCon Europe 2019
-        location: Amsterdam, Netherlands
+        location: Amsterdam, NL
         url: https://events.drupal.org/amsterdam2019
 
     nomad_php:
