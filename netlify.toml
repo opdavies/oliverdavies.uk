@@ -1,10 +1,10 @@
 [build]
 command = """
-composer test
-composer prod
-yarn lint --fix-dry-run
-yarn prod
-cp -R source/dist output_prod
+composer test \
+  && composer prod \
+  && yarn lint --fix-dry-run \
+  && yarn prod \
+  && cp -R source/dist output_prod
 """
 publish = "output_prod"
 environment = { PHP_VERSION = "7.2", YARN_VERSION = "1.13.0" }
