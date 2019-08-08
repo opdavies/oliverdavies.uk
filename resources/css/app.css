@@ -1,8 +1,8 @@
 @import 'tailwindcss/base';
-@import 'custom-base';
+@import 'base';
 
 @import 'tailwindcss/components';
 @import 'highlightjs/styles/github-gist';
-@import 'custom-components';
+@import 'components';
 
 @import 'tailwindcss/utilities';
