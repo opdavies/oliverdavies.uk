@@ -1,9 +1,11 @@
-@import 'components/button';
-@import 'components/container';
-@import 'components/lead';
-@import 'components/markup';
-@import 'components/note';
-@import 'components/table';
-@import 'components/video';
-@import 'components/widget';
-@import 'components/wrap';
+@import 'highlightjs/styles/github-gist';
+
+@import './components/button.css';
+@import './components/container.css';
+@import './components/lead.css';
+@import './components/markup.css';
+@import './components/note.css';
+@import './components/table.css';
+@import './components/video.css';
+@import './components/widget.css';
+@import './components/wrap.css';
