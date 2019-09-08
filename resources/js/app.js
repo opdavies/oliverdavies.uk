@@ -5,9 +5,9 @@ window.hljs = require('highlightjs')
 new Vue({
   el: '#app',
 
-  methods: {
-    toggle () {
-      this.isOpen = !this.isOpen
+  data () {
+    return {
+      isOpen: false
     }
   },
 
@@ -16,9 +16,9 @@ new Vue({
     this.$el.classList.add('js')
   },
 
-  data () {
-    return {
-      isOpen: false
+  methods: {
+    toggle () {
+      this.isOpen = !this.isOpen
     }
   }
 })
