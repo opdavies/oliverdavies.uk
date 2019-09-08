@@ -2,8 +2,8 @@
 command = """
 composer test \
   && composer prod \
-  && yarn lint --fix-dry-run \
-  && yarn prod \
+  && npm run lint --fix-dry-run \
+  && npm run prod \
   && cp -R source/dist output_prod
 """
 publish = "output_prod"
