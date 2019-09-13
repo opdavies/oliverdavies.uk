@@ -160,4 +160,4 @@ Notifier
 
 ## Envelope
 
-* 
+* Stamps for metadata
