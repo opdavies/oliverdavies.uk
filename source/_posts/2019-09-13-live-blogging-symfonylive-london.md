@@ -129,3 +129,5 @@ Notifier
 
 * Can leverage Middleware with a command bus
 * Queues as a service (RabbitMQ)
+* Work queue - one producer, multiple consumers
+* Queues should be durable - messages are also stored on disk, consumers should acknowledge a message once a message is handled
