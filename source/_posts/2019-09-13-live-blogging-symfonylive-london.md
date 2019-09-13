@@ -521,4 +521,12 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
     - Installed on the same server with it's own vhost but not publicly accessible
     - Deployed independently of legacy app
 
+### Apache proxy rules
+
+Proxy `/public` to symfony app
+
+### Legacy app
+
+* Shared cookie for single login between apps
+
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
