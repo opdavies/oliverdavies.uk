@@ -575,3 +575,4 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
 * 256 numbers in Windows-1252 (character sets). Each country had their own set.
 * It's legacy. 0.2% for Windows-1252. 88.8% for UTF-8 (Feb 2017)
 * Unicode: 130k characters, 135 scripts (alphabets)
+* 
