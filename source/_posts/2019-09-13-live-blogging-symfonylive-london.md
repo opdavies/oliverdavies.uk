@@ -495,7 +495,8 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 * Business part applies to all context. Start talking about what needs to be done, start communicating
 * Implement contexts for UI and API
 * 12716 steps, 1175 scenarios, 8 min 8 sec, 2.4 scenarios /sec
-* 12x faster than JS
+* 12x faster than JS (17 min 48 sec, 0.19 scenario / sec)
+* 
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
