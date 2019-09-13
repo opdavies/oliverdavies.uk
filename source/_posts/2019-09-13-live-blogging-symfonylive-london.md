@@ -593,14 +593,14 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
 * 
 ### unicode fundamentals
 
-uppercase lowercase folding
+uppercase, lowercase, folding
 compositions, ligatures
-comparistions - nromalisations and collations
-segmentation: characters, wods sendtenances and hyphens
+comparistions - normalisations and collations
+segmentation: characters, words, sentences and hyphens
 locales: cultural conventions, translitterations
 identifiers & security, confusables
 display: direction, width
 
-### unicode in practive
+### unicode in practice
 
 - MySQL - `utf*_*`. `SET NAMES utf8mb4` for security and storing emojis
