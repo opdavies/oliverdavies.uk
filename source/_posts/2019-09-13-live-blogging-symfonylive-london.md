@@ -468,6 +468,7 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
     * Translating rules into examples
         - Add a new scenario for each rule - e.g. don't allow over booking
             + "And the flight should be no longer available..."
+
 ## Migrating to Symfony one route at a time (Steve Winter)
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
