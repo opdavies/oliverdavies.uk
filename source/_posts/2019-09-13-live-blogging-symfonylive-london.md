@@ -192,23 +192,25 @@ Notifier
 * Remove boilerplate - use `toArray()`
 * Options as third argument - array of headers, similar to Guzzle
 
-* What can we do with the Response?
-    * getStatusCode(): int
-    * getHeaders(): array
-    * getContent(): string
-    * toArray(): array
-    * cancel(): void
-    * getInfo(): array - metadata
+### What can we do with the Response?
+* `getStatusCode(): int`
+* `getHeaders(): array`
+* `getContent(): string`
+* `toArray(): array`
+* `cancel(): void`
+* `getInfo(): array` - metadata
 * Everything is lazy!
 * 80% of use-cases covered
-* What about PSR-18?
-    * Decorator/adapter to change to PSR compatible
-    * Same for Httplug
-* What about the remaining 20%?
-    * Options are part of the abstraction, not the implementation
-        * `timeout` - control inactivity periods
-        * `proxy` - get through a http proxy
-        * `on_progress` - display a progress bar / build a scoped client
-        * `base_url` - resolve relative URLS / build a scoped client
-        * `resolve` - protect webhooks against calls to internal endpoints
-        * `max_redirects` - disable or limit redirects
+
+### What about PSR-18?
+* Decorator/adapter to change to PSR compatible
+* Same for Httplug
+
+### What about the remaining 20%?
+* Options are part of the abstraction, not the implementation
+    * `timeout` - control inactivity periods
+    * `proxy` - get through a http proxy
+    * `on_progress` - display a progress bar / build a scoped client
+    * `base_url` - resolve relative URLS / build a scoped client
+    * `resolve` - protect webhooks against calls to internal endpoints
+    * `max_redirects` - disable or limit redirects
