@@ -333,6 +333,7 @@ A way on the front-end JS, CSS, images at the beginning of the request, sends a 
 - Blurred responsibilities == tightly coupled teams
 - harder to debug, bugs fall between systems and teams. Huge gap between front-end and back-end, passing responsibilites.
 - You can fix these problems in SPAs, but is it worth it?
+    + Examples of good SPAs - Trello, Flickr
 
 ## Using Twig as an alternative to an SPA?
 
