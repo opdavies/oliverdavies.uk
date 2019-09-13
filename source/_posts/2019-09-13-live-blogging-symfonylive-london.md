@@ -106,5 +106,6 @@ Notifier
 
 ## Queues, busses and the Messenger component (Tobias Nyholm)
 
-* Stach is Last-in, first-out
-* Queue in back and front - last in, first out
+* Stack is top and buttom - Last-in, first-out
+* Queue is back and front - last in, first out
+* 
