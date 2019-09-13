@@ -429,7 +429,9 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 * 2 years since release of Sylius (Symfony 2 alpha)
 * The business part is more important than the code part
 * Behaviour driven development. Combines TDD and DDD, into an agile methodology
-* 
+* Envourages communication
+* Creates shared understanding
+* Living, executable documentation
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
