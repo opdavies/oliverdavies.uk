@@ -151,3 +151,4 @@ Notifier
 ### Issues
 
 * Transformers, takes an object and transforms into an array - `FooTransformer implements TransformerInterface`.
+* Don't break other apps by changing the payload.
