@@ -248,7 +248,7 @@ foreach ($client->stream($responses) as $response => $chunk) {
 
 ### The components
 
-* `NativeHttpClient` and `CurlHttpCleent`
+* `NativeHttpClient` and `CurlHttpClient`
      - both provide 100% contracts
      - secure directs
      - extended (time) info
