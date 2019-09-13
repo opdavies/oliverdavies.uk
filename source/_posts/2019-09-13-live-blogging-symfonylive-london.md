@@ -37,3 +37,5 @@ Building flexible high-level abstractions on top of low-level ones
 * Always trying to keep flexible, so things can be overidden and customised
 
 ### Sending SMS messages
+
+* new `Texter` class for sending SMS messages
