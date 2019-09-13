@@ -447,6 +447,10 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
     - Then I should be on '/flight/LTN-WAW'
     - Add I should see "Your flight has been booked." in "#result"
 * In the BDD way - what is the business logic? What is the value for this scenario? What is the reason 'why', and who benefits from this?
+    * We just need to know that there are 5 seats left on a flight
+    * Talk and communicate about how the feature is going to work - not just developers
+    * BDD aids communication
+    * Can we get a different outcome when the context changes?
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
