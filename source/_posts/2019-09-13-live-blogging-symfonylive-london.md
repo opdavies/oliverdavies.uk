@@ -342,7 +342,7 @@ A way on the front-end JS, CSS, images at the beginning of the request, sends a 
 If you're trying to speed things up, find out where the problem is.
 
 * Browser tools
-* Web debug toolbar
+* Web Debug Toolbar
 * Blackfire
 * Optimise and monitor
 
