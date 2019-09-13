@@ -304,5 +304,7 @@ framework:
 
 ## Symfony Checker is coming (Valentine Boineau)
 
+* Static analysis tool
 * insight.symfony.com
 * @symfonyinsight
+* Released soon
