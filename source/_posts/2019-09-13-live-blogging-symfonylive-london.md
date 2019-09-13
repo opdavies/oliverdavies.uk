@@ -172,4 +172,6 @@ Notifier
 * What if two users registered at the same tiem? Use uuids rather than IDs.
 * Symfony validation - can be used on messages, not just forms.
 
-* PR pending
+* Cache everything
+    - Option 1: HTTP request -> Thin app (gets responses from Redis) -> POST to queue. Every GET request would warm cache
+    - Option 2: HTTP request -> Thin app -> return 200 response -> pass to workers
