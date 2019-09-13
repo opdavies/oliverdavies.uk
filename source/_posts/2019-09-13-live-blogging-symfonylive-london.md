@@ -10,9 +10,10 @@ Inspired by [Matt Stauffer](https://twitter.com/stauffermatt)'s [live blogging o
 
 ## Keynote (Back to the basics)
 
+**Embrace the Linux philosophy**
+
 How we grow the Symfony ecosystem. Built abstracts.
 HttpFoundation, HttpKernel
 Moved to infrastructure
 A few abstractions on top of PHP. Improved versions of PHP functions (`dump`)
 Started a add higher level abstractions (e.g. Mailer), built on the lower ones.
-**Embrace the Linux philosophy**
