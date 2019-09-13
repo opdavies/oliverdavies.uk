@@ -288,3 +288,6 @@ framework:
         # ...
 ```
 #### HttpBrowser
+
+* HttpClient + DomCrawler + CssSelector + HttpKernel + BrowserKit
+* RIP Goutte!
