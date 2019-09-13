@@ -500,8 +500,7 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
     - Turn off debug settings, add caching
     - Enable OPcache
 
-### How to organise contexts?
-
+Write features in a natural way
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
