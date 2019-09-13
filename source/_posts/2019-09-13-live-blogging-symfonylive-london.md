@@ -527,6 +527,13 @@ Proxy `/public` to symfony app
 
 ### Legacy app
 
-* Shared cookie for single login between apps
+* Shared cookie for single login between apps - user account details (name etc), session details (login time)
+
+## Added functionality
+
+* Built in Symfony
+* new proxy rules for new routes
+* Add menu links to legacy app menu
+* 
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
