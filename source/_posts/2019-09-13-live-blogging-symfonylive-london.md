@@ -500,7 +500,9 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
     - Turn off debug settings, add caching
     - Enable OPcache
 
-Write features in a natural way
+* Write features in a natural way
+* Too many setup steps - merge steps. less visual debt. e.g. Create currency, zone and locale when creating a store
+* Avoid scenarios that are too detailed
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
