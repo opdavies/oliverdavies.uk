@@ -10,4 +10,4 @@ Inspired by [Matt Stauffer](https://twitter.com/stauffermatt)'s [live blogging o
 
 ## Keynote (Back to the basics)
 
-Coming soon.
+How we grow the Symfony ecosystem. Built abstracts.
