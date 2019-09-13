@@ -142,4 +142,5 @@ Notifier
 * Handler is a normal PHP class which is invokable
 * `messenger:message_hander` tag in config
 * Autowire with `MessageHandlerInterface`
-* What if it takes 20 seconds to send a message? Uses asyncronus
+* What if it takes 20 seconds to send a message? Use asynchronous.
+* Transports as middleware (needs sender, receiver, configurable with DSN, encode/decode)
