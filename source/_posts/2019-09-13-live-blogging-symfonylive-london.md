@@ -326,7 +326,7 @@ A way on the front-end JS, CSS, images at the beginning of the request, sends a 
 - 'Right tool for the job' - JS on the front-end, PHP on the back-end
 - Division of responsibility == faster development
 - Reusable API - Api -> Mobile App and SPA - easy to add another consumer
-- Easier to debug
+- Easier to debug?
 
 ### Why not SPAs?
 - Lots of HTTP requests (400 to load the initial page on one project) == slow front end
