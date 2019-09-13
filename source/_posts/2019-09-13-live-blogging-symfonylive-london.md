@@ -604,3 +604,13 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
 ### unicode in practice
 
 - MySQL - `utf*_*`. `SET NAMES utf8mb4` for security and storing emojis. Cannot store emojis with `utf8`
+
+### in php
+
+* `mb_*()`
+* `iconv_*()`
+* `preg_*()`
+* `grapheme_*()` `normalizer_*()`
+* `symfony/polyfill-*` - pure PHP implementation
+* Made a component - **symfony/string**
+* 
