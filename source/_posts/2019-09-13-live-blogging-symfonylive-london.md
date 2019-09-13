@@ -475,6 +475,7 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 * maps steps to PHP code
 * Given a context, when an event, then an outcome
 * Domain Context, API context
+* class implements `Context`, annotations for `@Given`, `@When`, `@Then`. allows for arguments and regular expressions
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
