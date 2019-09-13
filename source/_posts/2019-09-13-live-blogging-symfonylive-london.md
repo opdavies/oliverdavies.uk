@@ -314,3 +314,11 @@ framework:
 ### Differences
 * Specialise in Symfony - can see more relevant things
 * Different interface to other services
+
+## Feeling unfulfilled by SPA promises? Go back to Twig. (Dan Blows)
+
+## BDD Your Symfony Application (Kamil Kokot)
+
+## Migrating to Symfony one route at a time (Steve Winter)
+
+## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
