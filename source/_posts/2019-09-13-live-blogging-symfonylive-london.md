@@ -483,7 +483,7 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
     - Zero configuration
 
 ### Domain context
-* Given verb matches `@Given` annotation
+* `Given` verb matches `@Given` annotation. Same for `When` and `Then`.
 * Transformers, type hint name string, return Client instance
 
 ## Migrating to Symfony one route at a time (Steve Winter)
