@@ -425,6 +425,9 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 
 ## BDD Your Symfony Application (Kamil Kokot)
 
+- Applying BDD with Sylius
+- 
+
 ## Migrating to Symfony one route at a time (Steve Winter)
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
