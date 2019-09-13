@@ -514,5 +514,7 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
     - Minor template and design changes were fine
     - Modifiy features, add new dependencies.
 * Solution attempt 2: Upgrade to the latest version - same outcome due to multiple BC breaks (no semver), lots of manual steps
+* Solution attempt 3:
+    - Semver!
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
