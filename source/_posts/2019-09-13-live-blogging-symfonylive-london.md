@@ -158,6 +158,10 @@ Notifier
 * Command bus, query bus, event bus
 * Separate actions from reactions
 
-## Envelope
+### Envelope
 
 * Stamps for metadata - has the item been on the queue already?
+
+### Failures
+
+* 
