@@ -446,8 +446,7 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
     - When I visit '/flight/LTN-WAW'
     - Then I should be on '/flight/LTN-WAW'
     - Add I should see "Your flight has been booked." in "#result"
-
-In the BDD way - what is the business logic? What is the value for this scenario?
+* In the BDD way - what is the business logic? What is the value for this scenario? What is the reason 'why', and who benefits from this?
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
