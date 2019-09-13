@@ -117,3 +117,5 @@ Notifier
 * Controllers are 'comfortable'
 * Tried adding `CurrentUserProvider` service to core, should be passed as an argument. Cannot test.
 * 'Having Symfony all over the place wasn't the best thing' - when to framework (Matthias Noback)
+    - Hexagonal architecture
+    - Keep your kernel away from infrastructure. Let the framework handle the infrastructure.
