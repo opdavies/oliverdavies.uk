@@ -304,7 +304,7 @@ framework:
 
 ## Symfony Checker is coming (Valentine Boineau)
 
-* Static analysis tool
+* Static analysis tool for Symfony
     - Does a method exist?
     - Is it deprecated?
 * insight.symfony.com
