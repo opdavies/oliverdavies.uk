@@ -510,6 +510,6 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 * Subscription based index of suppliers
 * New requirements to implement by the client
 * Our requirements: Needed a deployment process, make it testable, fix the build chain
-* Option 1: Migrate to a new version of the current framework
+* Solution attempt 1: Migrate to a new version of the current framework
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
