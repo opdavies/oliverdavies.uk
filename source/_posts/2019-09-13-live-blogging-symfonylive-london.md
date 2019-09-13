@@ -137,3 +137,4 @@ Notifier
 
 * `composer req symfony/messager` - best MessageBus implementation
 * Message -> Message bus -> Message handler
+* Message is a plain PHP class
