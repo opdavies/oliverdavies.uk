@@ -31,3 +31,4 @@ Building flexible high-level abstractions on top of low-level ones
     - Zurb Foundation for Emails CSS stylesheet
     - Twig `cssinliner-extra` package (Twig 1.12+)
     - Optimised Twig layouts
+* `SystemEmail` class extends template email
