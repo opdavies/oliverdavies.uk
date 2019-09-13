@@ -450,7 +450,12 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
     * We just need to know that there are 5 seats left on a flight
     * Talk and communicate about how the feature is going to work - not just developers
     * BDD aids communication
+* Questions we can ask
     * Can we get a different outcome when the context changes?
+        - When there was only one seat available
+        - When there were no available seats
+    * Can we get the same outcome when the event changes? Can we change 'When' and 'Then stays the same'
+        - 
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
