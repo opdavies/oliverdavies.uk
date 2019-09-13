@@ -435,7 +435,7 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 * Living, executable documentation that non-programmers understand. Always correct.
 * Feature file
     - Feature
-    - Scenario
+    - Scenario - example of the behaviour for this feature. Simple, atomic.
     - In order to...
     - Who gets the benefit?
 
