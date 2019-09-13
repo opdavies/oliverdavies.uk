@@ -292,7 +292,7 @@ framework:
 * HttpClient + DomCrawler + CssSelector + HttpKernel + BrowserKit
 * RIP Goutte!
 
-### In 4.4
+### Coming in 4.4...
 
 - `max_duration`
 - `buffer` based on a callable
