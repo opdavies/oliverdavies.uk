@@ -620,3 +620,4 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
     * `BinaryString`
 + AbstractString - Methods to serialize, get length, to binary or grapheme or utf8
     * Methods for starts with, ends with, is empty, join, prepend, split, trim, title etc
+
