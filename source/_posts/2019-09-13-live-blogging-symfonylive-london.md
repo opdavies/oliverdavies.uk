@@ -13,3 +13,4 @@ Inspired by [Matt Stauffer](https://twitter.com/stauffermatt)'s [live blogging o
 How we grow the Symfony ecosystem. Built abstracts.
 HttpFoundation, HttpKernel
 Moved to infrastructure
+A few abstractions on top of PHP. Improved versions of PHP functions (`dump`)
