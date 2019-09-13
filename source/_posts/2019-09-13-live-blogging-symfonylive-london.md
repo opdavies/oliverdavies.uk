@@ -579,4 +579,7 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
 * 17 plans, each square is 255 code points
 * Emojis are characters, not images
 * Gliph is a visual representation of a character
-* 
+* code points to bytes
+    - UTF-8: 1,2,3 or 4 bytes
+    - UTF16: 2 or 4 bytes
+    - UTF-32: 4 bytes
