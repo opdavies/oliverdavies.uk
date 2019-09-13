@@ -472,6 +472,9 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 ### Behat
 
 * Used to automate and execute BDD tests, also SpecDDD
+* maps steps to PHP code
+* Given a context, when an event, then an outcome
+* Domain Context, API context
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
