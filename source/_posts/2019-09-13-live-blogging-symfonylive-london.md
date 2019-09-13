@@ -408,7 +408,7 @@ If you're trying to speed things up, find out where the problem is.
     * Separate UI tests from back-end tests. Different layers for different teams. People don't need to run everything if they are only changing certain things.
 - Help your front end
     + Webpack - Encore
-    + Type hinting in functions and filters
+    + Type hinting in functions and filters, easier to debug
     + Logging
     + Friendly exceptions - help front-end devs by returning meaningful, readbale errors
     + Web Debug Toolbar and Profiler
