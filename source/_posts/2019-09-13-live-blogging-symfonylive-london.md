@@ -552,4 +552,9 @@ Proxy `/public` to symfony app
 - Both apps using the same data with different credentials
 - Some shared tables, some tables are specific to each app
 
+### Remaining challenges
+
+* User session management, still handled by legacy app
+* 
+
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
