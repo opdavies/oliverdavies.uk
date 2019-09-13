@@ -346,6 +346,64 @@ If you're trying to speed things up, find out where the problem is.
 * Blackfire
 * Optimise and monitor
 
+### Speed up Twig
+
+- Speeding up Symfony
+- ext/twig (PHP5 only, not PHP 7)
+- Store compiled templates in Opcache, make sure it's enabled
+- Render assets though the webserver (assetic not running all the time)
+
+### Edge side includes
+
+- Component cached differently to the rest of the page
+- Varnish/Nginx
+- `render_esi`
+- News block that caches frequently, rest of the page 
+
+### HTTP/2 with Weblink
+
+- slow finding CSS files to load - 'push' over CSS files, doesn't need to wait
+- `preload()` - https://symfony.com/doc/current/web_link.html
+
+### Live updating pages
+- Instantly update when sports results are updated, news articles are added
+- Mercure - https://github.com/symfony/mercure
+- LiveTwig - whole block or whole section, and live update `render_live`
+- Turbolinks - replace whole body, keeps CSS and JS in memory. Merges new stuff in. `helthe/turbolinks`
+- ReactPHP - shares kernel between requests
+
+### Writing better code with Twig
+
+- Keep templates simple. Avoid spaghetti code, only about UI. HTML or small amounts of Twig.
+- Avoid delimeter chains
+    - Bad:`blog_post.authors.first.user_account.email_address`
+    - Good `{{ blog_post.authors_email_address }}`
+    - Less brittle, slow
+* Filters
+    - Use filters to be precise
+    - Custom filters
+    - Avoid chains. Can cause odd results. Create a new filter in PHP
+* Functions
+    - Write your own functions
+    - Simpler templates
+    - Get data, can use boolean statements
+* Components
+    - Break a page into components rather than one large page
+    - `include()`
+    - Use `only` to only pass that data. less tightenly coupled.
+    * `render` calls the whole of Symfony, boots Kernel, can be expensive and slow
+    * Loosely couple templates and controllers
+        - Keep responses simple
+        - What makes sense
+        - if you need extra data in the template, get it in the template
+    * View models
+        - Mixed results
+        - `BlogPostViewModel`
+        - Can result in boilerplate code
+        - Can be useful if the view model is different to the Entity
+    * DRY
+        - "Don't repeat yourself"
+
 ## BDD Your Symfony Application (Kamil Kokot)
 
 ## Migrating to Symfony one route at a time (Steve Winter)
