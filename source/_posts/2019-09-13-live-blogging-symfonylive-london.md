@@ -577,4 +577,4 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
 * Unicode: 130k characters, 135 scripts (alphabets)
 * Validation errors using native alphabet - e.g. invalid last name when submitting a form
 * 17 plans, each square is 255 code points
-* 
+* Emojis are characters, not images
