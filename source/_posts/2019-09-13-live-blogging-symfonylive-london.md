@@ -486,6 +486,11 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 * `Given` verb matches `@Given` annotation. Same for `When` and `Then`.
 * Transformers, type hint name string, return Client instance
 
+### API context
+* inject `FlightBookingService` and `KernelBrowser`
+* Use `$this->kernelBrowser->request()`
+* Use `assert()` function wuthin `@Then`
+
 ## Migrating to Symfony one route at a time (Steve Winter)
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
