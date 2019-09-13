@@ -45,3 +45,5 @@ Building flexible high-level abstractions on top of low-level ones
 * Extend the `SystemEmail` and do what you want
 
 ### Sending Messages
+
+* Create `ChatMessage`
