@@ -443,9 +443,9 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 * Feature: booking flight tickets
 * Scenario: booking flight ticket for one person
     - Given there are the following flights...
-    - When I visit 
-    - Then I should be on 
-    - Add
+    - When I visit '/flight/LTN-WAW'
+    - Then I should be on '/flight/LTN-WAW'
+    - Add I should see "Your flight has been booked." in "#result"
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
