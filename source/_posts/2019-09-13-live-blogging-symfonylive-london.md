@@ -319,7 +319,7 @@ framework:
 
 A way on the front-end JS, CSS, images at the beginning of the request, sends a HTTP request (XHR/AJAX) to the back-end
 
-## Why SPAs?
+### Why SPAs?
 - A way on the front-end JS, CSS, images at the beginning of the request, sends a HTTP request (XHR/AJAX) to the back-end
 - no full page refresh
 - Supposed to be much quicker
@@ -328,14 +328,14 @@ A way on the front-end JS, CSS, images at the beginning of the request, sends a 
 - Reusable API - Api -> Mobile App and SPA - easy to add another consumer
 - Easier to debug
 
-## Why not SPAs?
+### Why not SPAs?
 - Lots of HTTP requests (400 to load the initial page on one project) == slow front end
 - Blurred responsibilities == tightly coupled teams
 - harder to debug, bugs fall between systems and teams. Huge gap between front-end and back-end, passing responsibilites.
 - You can fix these problems in SPAs, but is it worth it?
     + Examples of good SPAs - Trello, Flickr
 
-## Using Twig as an alternative to an SPA?
+### Using Twig as an alternative to an SPA?
 
 ## BDD Your Symfony Application (Kamil Kokot)
 
