@@ -136,3 +136,4 @@ Notifier
 * New intern. Understand everything, 'just PHP'. Plain PHP application, not 'scary Symfony'
 
 * `composer req symfony/messager` - best MessageBus implementation
+* Message -> Message bus -> Message handler
