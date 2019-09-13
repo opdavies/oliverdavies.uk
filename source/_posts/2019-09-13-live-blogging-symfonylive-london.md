@@ -587,4 +587,4 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
 * Case sensitivity - 1k characters are concerned. One uppercase letter, two lower case variants. Turkish exception (similar looking letters that are different letters with different meanings). Full case folding.
 * Collations - ordering is depends on the language. 'ch' in Spanish is a single character.
 * Single number in unicode to represent accents. Combining characters.
-
+* Composed and decomposed forms - normalisation for comparison
