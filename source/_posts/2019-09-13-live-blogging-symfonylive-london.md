@@ -540,5 +540,6 @@ Proxy `/public` to symfony app
 ### Migrating routes
 
 * Rebuilt or extend in Symfony app
+* Test and deploy, then update the apache config to add new proxy rules
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
