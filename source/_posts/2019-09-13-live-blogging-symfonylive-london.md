@@ -442,9 +442,9 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 ### BDD in practice
 * Feature: booking flight tickets
 * Scenario: booking flight ticket for one person
-    - Given
-    - When
-    - Then
+    - Given there are the following flights...
+    - When I visit 
+    - Then I should be on 
     - Add
 
 ## Migrating to Symfony one route at a time (Steve Winter)
