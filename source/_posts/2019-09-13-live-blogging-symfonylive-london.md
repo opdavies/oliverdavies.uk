@@ -337,6 +337,15 @@ A way on the front-end JS, CSS, images at the beginning of the request, sends a 
 
 ### Using Twig as an alternative to an SPA?
 
+### Faster UI - Try and figure out where the problem is.
+
+If you're trying to speed things up, find out where the problem is.
+
+* Browser tools
+* Web debug toolbar
+* Blackfire
+* Optimise and monitor
+
 ## BDD Your Symfony Application (Kamil Kokot)
 
 ## Migrating to Symfony one route at a time (Steve Winter)
