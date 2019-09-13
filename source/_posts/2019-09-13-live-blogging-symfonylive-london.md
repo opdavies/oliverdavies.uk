@@ -515,7 +515,10 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
     - Modifiy features, add new dependencies.
 * Solution attempt 2: Upgrade to the latest version - same outcome due to multiple BC breaks (no semver), lots of manual steps
 * Solution attempt 3: Symfony!
-    - Semver! BC promise
-    - 
+    - Semver! Backwards compatibility promise
+    - Symfony app to run in parallel, Apache proxy rules and minor changes to the legacy app, added data transfer mechanisms
+    - Anything new done in Symfony
+    - Installed on the same server with it's own vhost but not publicly accessible
+    - Deployed independently of legacy app
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
