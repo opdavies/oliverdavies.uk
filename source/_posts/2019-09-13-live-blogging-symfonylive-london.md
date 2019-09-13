@@ -144,4 +144,4 @@ Notifier
 * Autowire with `MessageHandlerInterface`
 * What if it takes 20 seconds to send a message? Use asynchronous.
 * Transports as middleware (needs sender, receiver, configurable with DSN, encode/decode). `MESSENGER_DSN` added to `.env`
-* Start consumer with `bin/console messager:consume-messages`
+* Start consumer with `bin/console messager:consume-messages`. Time limit with `--time-limit 300`
