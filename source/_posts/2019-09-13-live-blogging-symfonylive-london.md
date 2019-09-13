@@ -583,3 +583,4 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
     - UTF-8: 1,2,3 or 4 bytes
     - UTF16: 2 or 4 bytes
     - UTF-32: 4 bytes
+* UTF-8 is compatible with ASCII
