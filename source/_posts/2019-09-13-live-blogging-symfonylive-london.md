@@ -14,3 +14,5 @@ How we grow the Symfony ecosystem. Built abstracts.
 HttpFoundation, HttpKernel
 Moved to infrastructure
 A few abstractions on top of PHP. Improved versions of PHP functions (`dump`)
+Started a add higher level abstractions (e.g. Mailer)
+**Embrace the Linux philosophy**
