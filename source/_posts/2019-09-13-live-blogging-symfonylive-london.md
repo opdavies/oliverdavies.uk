@@ -303,3 +303,11 @@ framework:
 `composer req symfony/http-client`
 
 ## Symfony Checker is coming (Valentine Boineau)
+
+### What is Symfony checker?
+
+- Extension of Insights, changes 
+    - is a method called?
+    - checks deprecations
+* insight.symfony.com
+* @symfonyinsight
