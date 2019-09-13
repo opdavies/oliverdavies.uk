@@ -291,3 +291,11 @@ framework:
 
 * HttpClient + DomCrawler + CssSelector + HttpKernel + BrowserKit
 * RIP Goutte!
+
+### In 4.4
+
+- `max_duration`
+- `buffer` based on a callable
+- `$chunk->isInformational()`
+- `$response->toStream()`
+- Async-compatible extensibility, when decoration is not enough
