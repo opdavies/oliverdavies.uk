@@ -506,6 +506,6 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
-* 
+* New client with an old application
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
