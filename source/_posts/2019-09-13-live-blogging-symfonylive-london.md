@@ -588,3 +588,4 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
 * Collations - ordering is depends on the language. 'ch' in Spanish is a single character.
 * Single number in unicode to represent accents. Combining characters.
 * Composed (NFC) and decomposed (NFD) forms - normalisation for comparison
+* Grapheme cluster - multiple characters, but one letter as you write it (separate characters for letters and accent)
