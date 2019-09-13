@@ -439,7 +439,7 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
     - In order to...
     - Who gets the benefit?
 
-### BDD practice
+### BDD in practice
 
 
 ## Migrating to Symfony one route at a time (Steve Winter)
