@@ -590,17 +590,17 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
 * Composed (NFC) and decomposed (NFD) forms - normalisation for comparison
 * Grapheme clusters - multiple characters, but one letter as you write it (separate characters for letters and accent)
 * Emjois - combining characters. e.g. Combine face with colour. Different codes and character names. Also applies to ligatures. A way to combine several images together into one single visual representation.
-* 
+
 ### unicode fundamentals
 
-uppercase, lowercase, folding
-compositions, ligatures
-comparistions - normalisations and collations
-segmentation: characters, words, sentences and hyphens
-locales: cultural conventions, translitterations
-identifiers & security, confusables
-display: direction, width
+* uppercase, lowercase, folding
+* compositions, ligatures
+* comparistions - normalisations and collations
+* segmentation: characters, words, sentences and hyphens
+* locales: cultural conventions, translitterations
+* identifiers & security, confusables
+* display: direction, width
 
 ### unicode in practice
 
-- MySQL - `utf*_*`. `SET NAMES utf8mb4` for security and storing emojis
+- MySQL - `utf*_*`. `SET NAMES utf8mb4` for security and storing emojis. Cannot store emojis with `utf8`
