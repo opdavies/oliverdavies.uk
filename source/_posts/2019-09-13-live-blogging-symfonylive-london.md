@@ -556,5 +556,6 @@ Proxy `/public` to symfony app
 
 * User session management, still handled by legacy app
 * Templating/CSS - two versions of everything
+    - Next step: move all CSS to Symfony
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
