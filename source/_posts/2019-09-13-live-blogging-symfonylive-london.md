@@ -457,7 +457,7 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
     * Can we get the same outcome when the event changes? Can we change 'When' and 'Then stays the same'
         - When it is booked for an adult and a child
         - When it is booked for an adult
-    * Does anything else happen that is not mentioned?
+    * Does anything else happen that is not mentioned? Generate an invoice if a seat is booked, a pilot would like to get a notification that a seat was booked.
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
