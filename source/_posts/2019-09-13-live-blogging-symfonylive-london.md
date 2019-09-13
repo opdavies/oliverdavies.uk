@@ -240,3 +240,4 @@ foreach ($client->stream($responses) as $response => $chunk) {
     }
 }
 ```
+* 379 request completed in 0.4s!
