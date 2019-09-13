@@ -278,11 +278,13 @@ foreach ($client->stream($responses) as $response => $chunk) {
 ### Combining
 #### FrameworkBundle/Autowiring
 
-    framework:
-        http_cloent:
-            max_host_connections: 4
-            deault_options:
-                # ....
-        scoped_client:
-
+```yml
+framework:
+    http_client:
+        max_host_connections: 4
+        deault_options:
+            # ....
+    scoped_client:
+        # ...
+```
 #### HttpBrowser
