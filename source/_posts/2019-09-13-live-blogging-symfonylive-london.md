@@ -574,3 +574,4 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
 * ASCII. Still used today. Map between the first 128 numbers to characters. OK for UK and US.
 * 256 numbers in Windows-1252 (character sets). Each country had their own set.
 * It's legacy. 0.2% for Windows-1252. 88.8% for UTF-8 (Feb 2017)
+* Unicode: 130k characters, 135 scripts
