@@ -476,6 +476,8 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 * Given a context, when an event, then an outcome
 * Domain Context, API context
 * class implements `Context`, annotations for `@Given`, `@When`, `@Then`. allows for arguments and regular expressions
+* Suites: change what code is executed, and what scenarios are executed. context and tags
+* 
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
