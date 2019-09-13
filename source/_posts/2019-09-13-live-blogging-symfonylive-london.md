@@ -440,7 +440,12 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
     - Who gets the benefit?
 
 ### BDD in practice
-
+* Feature: booking flight tickets
+* Scenario: booking flight ticket for one person
+    - Given
+    - When
+    - Then
+    - Add
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
