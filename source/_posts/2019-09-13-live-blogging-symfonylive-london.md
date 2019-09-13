@@ -612,7 +612,7 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
 * `preg_*()`
 * `grapheme_*()` `normalizer_*()`
 * `symfony/polyfill-*` - pure PHP implementation
-* Made a component - **symfony/string**
+* Made a component - **symfony/string** - https://github.com/symfony/symfony/pull/33553
 * Object orientated api for strings. Immutable value objects
 * `AbstractString`
     * `GraphemeString`
