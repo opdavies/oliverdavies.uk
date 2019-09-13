@@ -40,3 +40,4 @@ Building flexible high-level abstractions on top of low-level ones
 
 * new `Texter` and `SmsMessage` class for sending SMS messages
 * Same abstraction as emails, but for SMS messages
+* Based on HttpClient
