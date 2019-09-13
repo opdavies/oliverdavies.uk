@@ -47,3 +47,4 @@ Building flexible high-level abstractions on top of low-level ones
 ### Sending Messages
 
 * Create `ChatMessage`
+* Telegram and Slack
