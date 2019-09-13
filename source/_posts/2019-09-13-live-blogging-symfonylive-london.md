@@ -545,6 +545,6 @@ Proxy `/public` to symfony app
 ### A gotcha
 
 - Legacy app uses CSRF
-- Needed to track the token, added to shared cookie
+- Needed to track the token, added to shared cookie and pass through to the Symfony side
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
