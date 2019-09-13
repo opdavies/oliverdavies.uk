@@ -433,6 +433,11 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 * Behaviour driven development. Combines TDD and DDD, into an agile methodology
 * Encourages communication and creates shared understanding
 * Living, executable documentation that non-programmers understand. Always correct.
+* Feature file
+    - Feature
+    - Scenario
+    - In order to...
+    - Who gets the benefit?
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
