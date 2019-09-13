@@ -133,3 +133,4 @@ Notifier
 * Queues should be durable - messages are also stored on disk, consumers should acknowledge a message once a message is handled
 * Publish/subscribe
     - Producer -> Fanout/direct with routing (multiple queues) -> multiple consumers
+* Topics - wildcards
