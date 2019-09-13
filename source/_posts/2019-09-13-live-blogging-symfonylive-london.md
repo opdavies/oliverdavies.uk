@@ -299,3 +299,5 @@ framework:
 - `$chunk->isInformational()`
 - `$response->toStream()`
 - Async-compatible extensibility, when decoration is not enough
+
+`composer req symfony/http-client`
