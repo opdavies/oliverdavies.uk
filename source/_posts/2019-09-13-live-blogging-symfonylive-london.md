@@ -270,7 +270,17 @@ foreach ($client->stream($responses) as $response => $chunk) {
 
 - ScopingHttpClient - auto-configure options based on request URL
 - MockHttpClient - for testing, doesn't make actual HTTP requests
-- CachingHttpClient
+- CachingHttpClient - adds caching on a HTTP request
 - Psr18Client
 - HttplugClient
 - TraceableHttpClient
+
+### Combining
+#### FrameworkBundle/Autowiring
+
+    framework:
+        http_cloent:
+            max_host_connections: 4
+            deault_options:
+                # ....
+        scoped_client:
