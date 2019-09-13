@@ -217,3 +217,5 @@ Notifier
 * `base_url` - resolve relative URLS / build a scoped client
 * `resolve` - protect webhooks against calls to internal endpoints
 * `max_redirects` - disable or limit redirects
+
+* Robust and failsafe by default
