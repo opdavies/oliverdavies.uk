@@ -547,4 +547,9 @@ Proxy `/public` to symfony app
 - Legacy app uses CSRF
 - Needed to track the token, added to shared cookie and pass through to the Symfony side
 
+### Storing data
+
+- Both apps using the same data with different credentials
+- Some shared tables, some tables are specific to each app
+
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
