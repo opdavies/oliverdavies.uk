@@ -506,7 +506,8 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
-* New client with an old application, built in an old version of another framework with unusual dependency management, no tests, no version control and deploying via FTP.
+* New client with an old application, built in an old version of another framework with unusual dependency management, no tests, no version control and deploying via FTP. Done over a ~3 month period.
+
 * Subscription based index of suppliers
 * New requirements to implement by the client
 * Our requirements: Needed a deployment process, make it testable, fix the build chain
