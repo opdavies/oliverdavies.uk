@@ -182,6 +182,9 @@ Notifier
 
 * new symfony component, released in may
 * Httpclient contracts, separate package that contains interfaces
+    * Symfony
+    * PHP-FIG
+    * Httplug
 * `HttpClient::create()`. `$client->get()`
 * JSON decoded with error handling
 * Used on symfony.com website (#1391). Replaces Guzzle `Client` for `HttpClientInterface`
