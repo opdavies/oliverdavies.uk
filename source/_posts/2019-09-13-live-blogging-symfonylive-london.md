@@ -455,7 +455,8 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
         - When there was only one seat available
         - When there were no available seats
     * Can we get the same outcome when the event changes? Can we change 'When' and 'Then stays the same'
-        - 
+        - When it is booked for an adult and a child
+        - When it is booked for an adult
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
