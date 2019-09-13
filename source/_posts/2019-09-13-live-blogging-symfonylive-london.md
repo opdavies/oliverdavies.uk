@@ -534,6 +534,7 @@ Proxy `/public` to symfony app
 * Built in Symfony
 * new proxy rules for new routes
 * Add menu links to legacy app menu
-* 
+* How do we show how many reminders are active?
+    - Symfony based API called from the front-end
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
