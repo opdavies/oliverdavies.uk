@@ -315,7 +315,7 @@ framework:
 * Specialise in Symfony - can see more relevant things
 * Different interface to other services
 
-## Feeling unfulfilled by SPA promises? Go back to Twig. (Dan Blows)
+## Feeling unfulfilled by SPA promises? Go back to Twig (Dan Blows)
 
 A way on the front-end JS, CSS, images at the beginning of the request, sends a HTTP request (XHR/AJAX) to the back-end
 
