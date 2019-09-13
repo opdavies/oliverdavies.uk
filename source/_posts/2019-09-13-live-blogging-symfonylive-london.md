@@ -431,7 +431,7 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 
 ### What is BDD?
 * Behaviour driven development. Combines TDD and DDD, into an agile methodology
-* Encourages communicatio
+* Encourages communication
 * Creates shared understanding
 * Living, executable documentation
 
