@@ -17,4 +17,8 @@ Inspired by [Matt Stauffer](https://twitter.com/stauffermatt)'s [live blogging o
 * Moved to infrastructure
 * A few abstractions on top of PHP. Improved versions of PHP functions (`dump`)
 * Started a add higher level abstractions (e.g. Mailer), built on the lower ones.
-* Recently worked on PHPUnit assertions
+* Recently worked on PHPUnit assertions. Mailer in Symony 4.4. Can test if an email is sent or queued
+
+### What's next?
+
+
