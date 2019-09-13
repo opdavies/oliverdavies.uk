@@ -585,5 +585,5 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
     - UTF-32: 4 bytes
 * UTF-8 is compatible with ASCII
 * Case sensitivity - 1k characters are concerned. One uppercase letter, two lower case variants. Turkish exception (similar looking letters that are different letters with different meanings). Full case folding.
-* 
+* Collations - ordering is language dependent.
 
