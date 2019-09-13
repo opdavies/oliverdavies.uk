@@ -177,3 +177,26 @@ Notifier
     - Option 2: HTTP request -> Thin app -> return 200 response -> pass to workers
 
 * Tip: put Command and CommandHandlers in the same directory
+
+## HttpClient
+
+* new symfony component, released in may
+* Httpclient contracts, separate package that contains interfaces
+* `HttpClient::create()`. `$client->get()`
+* JSON decoded with error handling
+* Used on symfony.com website (#1391). Replaces Guzzle `Client` for `HttpClientInterface`
+* Object is stateless, Guzzle is not. Doesn't handle cookies, cookies are state
+* Remove boilerplate - use `toArray()`
+* Options as third argument - array of headers, similar to Guzzle
+
+* What can we do with the Response?
+    * getStatusCode(): int
+    * getHeaders(): array
+    * getContent(): string
+    * toArray(): array
+    * cancel(): void
+    * getInfo(): array - metadata
+* Everything is lazy!
+* 80% of use-cases covered
+* What about PSR-18?
+    * Decorator/adapter to change to PSR compatible
