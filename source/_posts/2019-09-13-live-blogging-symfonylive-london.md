@@ -249,12 +249,19 @@ foreach ($client->stream($responses) as $response => $chunk) {
 ### The components
 
 * `NativeHttpClient` and `CurlHttpClient`
-     - both provide 100% contracts
-     - secure directs
-     - extended (time) info
-     - transparent HTTP compression and (de)chunking
-     - automatic HTTP proxy configuration via env vars
-* `NativeHttpClient` is most portable, works for everyone
-    - based on HTTP stream wrapper with fixed redirect logic
-    - blocking until response headers arrive
-    - 
+     - both provide
+         + 100% contracts
+         + secure directs
+         + extended (time) info
+         + transparent HTTP compression and (de)chunking
+         + automatic HTTP proxy configuration via env vars
+#### `NativeHttpClient`
+- is most portable, works for everyone
+- based on HTTP stream wrapper with fixed redirect logic
+- blocking until response headers arrive
+
+#### `CurlHttpClient`
+-  Requires ext-curl with fixed redirection logic
+-  Multiplexing response headers and bodies
+-  Leverages HTTP/2 and PUSH when available
+- Keeps connections open also between synchronous requests, no DNS resolution so things are faster
