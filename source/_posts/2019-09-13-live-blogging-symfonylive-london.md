@@ -24,5 +24,5 @@ Building flexible high-level abstractions on top of low-level ones
 ### What's next?
 
 * Mailer announced in London last year. New component.
-* System emails?
+* System emails? e.g. new customer, new invoice.
 * 
