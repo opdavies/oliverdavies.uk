@@ -404,6 +404,16 @@ If you're trying to speed things up, find out where the problem is.
     * DRY
         - "Don't repeat yourself"
 
++ Faster development
+    * Separate UI tests from back-end tests. Different layers for different teams. People don't need to run everything if they are only changing certain things.
+- Help your front end
+    + Webpack
+    + Type hinting in functions and filters
+    + Logging
+    + Friendly exceptions - help front-end devs by returning meaningful, readbale errors
+    + Web Debug Toolbar and Profiler
+    + Twig-friendly development environment
+
 ## BDD Your Symfony Application (Kamil Kokot)
 
 ## Migrating to Symfony one route at a time (Steve Winter)
