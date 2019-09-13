@@ -245,3 +245,16 @@ foreach ($client->stream($responses) as $response => $chunk) {
 * `Stream` has second argument, max number of seconds to wait before yielding a timeout chunk
 * `ResponseInterface::getInfo()` - get response headers, redirect count and URL, start time, HTTP method and code, user data and URL
     * `getInfo('debug')` - displays debug information
+
+### The components
+
+* `NativeHttpClient` and `CurlHttpCleint`
+     - both provide 100% contracts
+     - secure directs
+     - extended (time) info
+     - transparent HTTP compression and (de)chunking
+     - automatic HTTP proxy configuration via env vars
+* NativeHttpClient is most portable, works for everyone
+    - based on HTTP stream wrapper with fixed redirect logic
+    - blocking until response headers arrive
+    - 
