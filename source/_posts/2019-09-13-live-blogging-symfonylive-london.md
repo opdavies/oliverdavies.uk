@@ -178,7 +178,7 @@ Notifier
 
 * Tip: put Command and CommandHandlers in the same directory
 
-## HttpClient
+## HttpClient (Nicolas Grekas)
 
 * new symfony component, released in may
 * Httpclient contracts, separate package that contains interfaces
