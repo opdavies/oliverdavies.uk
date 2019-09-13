@@ -421,6 +421,7 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 - Profile, identidy, optimise, monitor
 - Loosely couple templates to your app code
 - Help your front ends - put your front end developers first
+- You don't need to use a SPA for single pages, use JavaScript for that one page. It doesn't need to be all or nothing.
 
 ## BDD Your Symfony Application (Kamil Kokot)
 
