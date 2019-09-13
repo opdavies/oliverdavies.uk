@@ -265,3 +265,12 @@ foreach ($client->stream($responses) as $response => $chunk) {
 -  Multiplexing response headers and bodies
 -  Leverages HTTP/2 and PUSH when available
 - Keeps connections open also between synchronous requests, no DNS resolution so things are faster
+
+#### Decorators
+
+- ScopingHttpClient - auto-configure options based on request URL
+- MockHttpClient - for testing, doesn't make actual HTTP requests
+- CachingHttpClient
+- Psr18Client
+- HttplugClient
+- TraceableHttpClient
