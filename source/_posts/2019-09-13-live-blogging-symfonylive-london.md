@@ -153,16 +153,23 @@ Notifier
 * Transformers, takes an object and transforms into an array - `FooTransformer implements TransformerInterface`.
 * Don't break other apps by changing the payload.
 
-### Multiple buses
+#### Multiple buses
 
 * Command bus, query bus, event bus
 * Separate actions from reactions
 
-### Envelope
+#### Envelope
 
 * Stamps for metadata - has the item been on the queue already?
 
-### Failures
+#### Failures
 
 * Requeue, different queue or same queue after a period of time
 * Failed queue 1 every minute, failed queue 2 every hour - temporary glitches or a bug?
+
+#### Creating entities
+
+* What if two users registered at the same tiem? Use uuids rather than IDs.
+* Symfony validation - can be used on messages, not just forms.
+
+* PR pending
