@@ -204,3 +204,5 @@ Notifier
 * What about PSR-18?
     * Decorator/adapter to change to PSR compatible
     * Same for Httplug
+* What about the remaining 20%?
+    
