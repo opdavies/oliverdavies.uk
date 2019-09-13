@@ -435,9 +435,12 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 * Living, executable documentation that non-programmers understand. Always correct.
 * Feature file
     - Feature
-    - Scenario - example of the behaviour for this feature. Simple, atomic.
+    - Scenario - example of the behaviour for this feature. Simple, atomic. (e.g. I need a product in order to add it to a cart)
     - In order to...
     - Who gets the benefit?
+
+### BDD practice
+
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
