@@ -431,8 +431,7 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 
 ### What is BDD?
 * Behaviour driven development. Combines TDD and DDD, into an agile methodology
-* Encourages communication
-* Creates shared understanding
+* Encourages communication and creates shared understanding
 * Living, executable documentation
 
 ## Migrating to Symfony one route at a time (Steve Winter)
