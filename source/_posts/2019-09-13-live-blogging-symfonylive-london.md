@@ -26,3 +26,8 @@ Building flexible high-level abstractions on top of low-level ones
 * Mailer announced in London last year. New component.
 * System emails? e.g. new customer, new invoice.
 * Symfony Mailer = Built-in responsive, flexible, and generic system emails
+    - Twig with TwigExtraBundle
+    - Twig `inky-extra` package (Twig 1.12+)
+    - Zurb Foundation for Emails CSS stylesheet
+    - Twig `cssinliner-extra` package (Twig 1.12+)
+    - Optimised Twig layouts
