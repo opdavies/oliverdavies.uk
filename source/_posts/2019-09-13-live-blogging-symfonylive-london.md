@@ -139,3 +139,5 @@ Notifier
 * Message -> Message bus -> Message handler
 * Message is a plain PHP class
 * Handler is a normal PHP class which is invokable
+* `messenger:message_hander` tag in config
+* Autowire with `MessageHandlerInterface`
