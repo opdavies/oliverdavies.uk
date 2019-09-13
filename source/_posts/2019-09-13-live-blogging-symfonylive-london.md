@@ -115,3 +115,4 @@ Notifier
 * Used to copy and paste, duplicate a lot of code
 * Testing your controllers - controllers as services?
 * Controllers are 'comfortable'
+* Tried adding `CurrentUserProvider` service to core, should be passed as an argument. Cannot test.
