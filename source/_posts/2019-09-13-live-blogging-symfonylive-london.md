@@ -564,4 +564,8 @@ _ Add Symfony app, Apache proxy rules for routes
 - User transfer mechanisms
 - New functionality added in Symfony
 
+### Is this right for you?
+
+It depends.
+
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
