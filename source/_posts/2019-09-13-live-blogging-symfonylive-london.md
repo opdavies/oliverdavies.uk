@@ -480,6 +480,11 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 * FriendsOfBehat SymfonyExtension - integrates Behat with Symfony
     - Contexts registered as Symfony services - inject dependencies, service as a context in Behat. Need to be 'public' for it to work
     - Reduces boilerplate code. Supports autowiring.
+    - Zero configuration
+
+### Domain context
+* Given verb matches `@Given` annotation
+* Transformers, type hint name string, return Client instance
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
