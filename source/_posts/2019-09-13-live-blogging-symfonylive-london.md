@@ -32,3 +32,4 @@ Building flexible high-level abstractions on top of low-level ones
     - Twig `cssinliner-extra` package (Twig 1.12+)
     - Optimised Twig layouts
 * `SystemEmail` class extends template email
+* Can set importance, 
