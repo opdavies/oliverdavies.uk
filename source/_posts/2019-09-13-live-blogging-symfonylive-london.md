@@ -244,3 +244,4 @@ foreach ($client->stream($responses) as $response => $chunk) {
 * 379 request completed in 0.4s!
 * `Stream` has second argument, max number of seconds to wait before yielding a timeout chunk
 * `ResponseInterface::getInfo()` - get response headers, redirect count and URL, start time, HTTP method and code, user data and URL
+    * `getInfo('debug')` - displays debug information 
