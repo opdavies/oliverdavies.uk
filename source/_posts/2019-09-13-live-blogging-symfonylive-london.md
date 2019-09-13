@@ -220,4 +220,13 @@ Notifier
 
 * Robust and failsafe by default
 
-Streamable uploads - `$mimeParts->toIterable()`.
+* Streamable uploads - `$mimeParts->toIterable()`.
+* donwload a file
+
+    ```php
+    foreach ($client->stream($response) as $chunk) {
+        // ... 
+    }
+    ```
+
+- Responses are lazy, requests are concurrent
