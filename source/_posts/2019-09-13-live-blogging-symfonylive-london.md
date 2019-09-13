@@ -38,4 +38,4 @@ Building flexible high-level abstractions on top of low-level ones
 
 ### Sending SMS messages
 
-* new `Texter` and `SmsMessages` class for sending SMS messages
+* new `Texter` and `SmsMessage` class for sending SMS messages
