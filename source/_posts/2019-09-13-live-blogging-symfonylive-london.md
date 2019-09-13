@@ -23,4 +23,4 @@ Building flexible high-level abstractions on top of low-level ones
 
 ### What's next?
 
-New component
+Mailer announced in London last year. New component.
