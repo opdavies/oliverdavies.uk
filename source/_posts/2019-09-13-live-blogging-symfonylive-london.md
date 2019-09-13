@@ -208,9 +208,12 @@ Notifier
 
 ### What about the remaining 20%?
 * Options are part of the abstraction, not the implementation
-    * `timeout` - control inactivity periods
-    * `proxy` - get through a http proxy
-    * `on_progress` - display a progress bar / build a scoped client
-    * `base_url` - resolve relative URLS / build a scoped client
-    * `resolve` - protect webhooks against calls to internal endpoints
-    * `max_redirects` - disable or limit redirects
+
+#### Some of the options
+
+* `timeout` - control inactivity periods
+* `proxy` - get through a http proxy
+* `on_progress` - display a progress bar / build a scoped client
+* `base_url` - resolve relative URLS / build a scoped client
+* `resolve` - protect webhooks against calls to internal endpoints
+* `max_redirects` - disable or limit redirects
