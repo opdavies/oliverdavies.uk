@@ -427,6 +427,8 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 
 - Applying BDD with Sylius
 - 2 years since release of Sylius (Symfony 2 alpha)
+* The business part is more important than the code part
+* Behaviour driven development
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
