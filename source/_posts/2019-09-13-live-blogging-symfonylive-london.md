@@ -116,3 +116,4 @@ Notifier
 * Testing your controllers - controllers as services?
 * Controllers are 'comfortable'
 * Tried adding `CurrentUserProvider` service to core, should be passed as an argument. Cannot test.
+* 'Having Symfony all over the place wasn't the best thing' - when to framework (Matthias Noback)
