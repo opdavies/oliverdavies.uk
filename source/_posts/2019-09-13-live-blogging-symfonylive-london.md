@@ -566,6 +566,6 @@ _ Add Symfony app, Apache proxy rules for routes
 
 ### Is this right for you?
 
-It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, use different servers with database replication
+It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, use different servers with database replication.
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
