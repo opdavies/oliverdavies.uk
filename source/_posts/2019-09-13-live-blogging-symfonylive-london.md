@@ -254,7 +254,7 @@ foreach ($client->stream($responses) as $response => $chunk) {
      - extended (time) info
      - transparent HTTP compression and (de)chunking
      - automatic HTTP proxy configuration via env vars
-* NativeHttpClient is most portable, works for everyone
+* `NativeHttpClient` is most portable, works for everyone
     - based on HTTP stream wrapper with fixed redirect logic
     - blocking until response headers arrive
     - 
