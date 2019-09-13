@@ -571,4 +571,5 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
 
-* There is ASCII. Still used today. Map between the first 128 numbers to characters.
+* ASCII. Still used today. Map between the first 128 numbers to characters.
+* 
