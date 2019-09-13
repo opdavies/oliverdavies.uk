@@ -310,4 +310,7 @@ framework:
 * insight.symfony.com
 * @symfonyinsight
 * Released soon
-* Specialise in Symfony - can see more relevant things, different interface
+
+### Differences
+* Specialise in Symfony - can see more relevant things
+* Different interface to other services
