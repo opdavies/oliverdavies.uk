@@ -471,7 +471,7 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 
 ### Behat
 
-* Used to automate and execute BDD tests
+* Used to automate and execute BDD tests, also SpecDDD
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
