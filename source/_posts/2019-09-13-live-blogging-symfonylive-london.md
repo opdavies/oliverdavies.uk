@@ -11,3 +11,4 @@ Inspired by [Matt Stauffer](https://twitter.com/stauffermatt)'s [live blogging o
 ## Keynote (Back to the basics)
 
 How we grow the Symfony ecosystem. Built abstracts.
+HttpFoundation, HttpKernel
