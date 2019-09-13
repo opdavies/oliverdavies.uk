@@ -155,4 +155,9 @@ Notifier
 
 ### Multiple buses
 
+* Command bus, query bus, event bus
+* Separate actions from reactions
+
+## Envelope
+
 * 
