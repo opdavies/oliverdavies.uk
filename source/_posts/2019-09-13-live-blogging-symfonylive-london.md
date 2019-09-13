@@ -301,3 +301,5 @@ framework:
 - Async-compatible extensibility, when decoration is not enough
 
 `composer req symfony/http-client`
+
+## Symfony Checker is coming (Valentine Boineau)
