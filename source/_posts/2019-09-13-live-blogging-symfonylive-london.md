@@ -103,3 +103,6 @@ Notifier
 * Can't in in 4.4 as it's a LTS version
 * First time an experimental component is added
 * Stable in 5.1
+
+## Queues, busses and the Messenger component (Tobias Nyholm)
+
