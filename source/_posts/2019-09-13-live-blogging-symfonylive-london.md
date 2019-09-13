@@ -165,4 +165,4 @@ Notifier
 ### Failures
 
 * Requeue, different queue or same queue after a period of time
-* Failed queue 1 every minute, failed queue 2 every hour - temporary glitches
+* Failed queue 1 every minute, failed queue 2 every hour - temporary glitches or a bug?
