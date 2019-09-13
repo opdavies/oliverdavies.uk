@@ -34,3 +34,4 @@ Building flexible high-level abstractions on top of low-level ones
 * `SystemEmail` class extends templated email
 * Can set importance, 
 * Customisable
+* Always trying to keep flexible, so things can be overidden and customised
