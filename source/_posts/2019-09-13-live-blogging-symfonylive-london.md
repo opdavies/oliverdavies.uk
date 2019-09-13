@@ -203,3 +203,4 @@ Notifier
 * 80% of use-cases covered
 * What about PSR-18?
     * Decorator/adapter to change to PSR compatible
+    * Same for Httplug
