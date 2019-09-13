@@ -589,5 +589,5 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
 * Single number in unicode to represent accents. Combining characters.
 * Composed (NFC) and decomposed (NFD) forms - normalisation for comparison
 * Grapheme clusters - multiple characters, but one letter as you write it (separate characters for letters and accent)
-* Emjois - combining characters. e.g. Combine face with colour. Different codes and character names. Also applies to ligatures.
+* Emjois - combining characters. e.g. Combine face with colour. Different codes and character names. Also applies to ligatures. A way to combine several images together into one single visual representation.
 * 
