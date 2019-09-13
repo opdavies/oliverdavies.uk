@@ -19,6 +19,8 @@ Inspired by [Matt Stauffer](https://twitter.com/stauffermatt)'s [live blogging o
 * Started a add higher level abstractions (e.g. Mailer), built on the lower ones.
 * Recently worked on PHPUnit assertions. Mailer in Symony 4.4. Can test if an email is sent or queued
 
+Building flexible high-level abstractions on top of low-level ones
+
 ### What's next?
 
-
+New component
