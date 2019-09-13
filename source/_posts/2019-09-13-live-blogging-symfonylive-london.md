@@ -284,3 +284,5 @@ foreach ($client->stream($responses) as $response => $chunk) {
             deault_options:
                 # ....
         scoped_client:
+
+#### HttpBrowser
