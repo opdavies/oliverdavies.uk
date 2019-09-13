@@ -555,7 +555,6 @@ Proxy `/public` to symfony app
 ### Remaining challenges
 
 * User session management, still handled by legacy app
-* Users esce
 * Templating/CSS - two versions of everything
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
