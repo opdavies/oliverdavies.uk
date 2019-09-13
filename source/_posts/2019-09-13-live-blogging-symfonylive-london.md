@@ -529,12 +529,16 @@ Proxy `/public` to symfony app
 
 * Shared cookie for single login between apps - user account details (name etc), session details (login time)
 
-## Added functionality
+### Added functionality
 
 * Built in Symfony
 * new proxy rules for new routes
 * Add menu links to legacy app menu
 * How do we show how many reminders are active?
     - Symfony based API called from the front-end
+
+### Migrating routes
+
+* Rebuilt or extend in Symfony app
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
