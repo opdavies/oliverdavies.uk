@@ -48,3 +48,4 @@ Building flexible high-level abstractions on top of low-level ones
 
 * Create `ChatMessage`
 * Telegram and Slack
+* `$message->setTransport('telegram')`, `$bus->dispatch($message)`
