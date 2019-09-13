@@ -33,3 +33,4 @@ Building flexible high-level abstractions on top of low-level ones
     - Optimised Twig layouts
 * `SystemEmail` class extends templated email
 * Can set importance, 
+* Customisable
