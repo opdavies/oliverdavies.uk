@@ -428,6 +428,8 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 * Applying BDD to Sylius
 * 2 years since release of Sylius (Symfony 2 alpha)
 * The business part is more important than the code part
+
+### What is BDD?
 * Behaviour driven development. Combines TDD and DDD, into an agile methodology
 * Envourages communication
 * Creates shared understanding
