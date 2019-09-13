@@ -120,3 +120,7 @@ Notifier
     - Hexagonal architecture
     - Keep your kernel away from infrastructure. Let the framework handle the infrastructure.
 * Controller -> Command -> Command Bus -> Command Handler
+
+### 2016
+
+* New intern. Understand everything, 'just PHP'. Plain PHP application, not 'scary Symfony'
