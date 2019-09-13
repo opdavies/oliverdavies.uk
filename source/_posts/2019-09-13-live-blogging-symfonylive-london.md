@@ -175,3 +175,5 @@ Notifier
 * Cache everything
     - Option 1: HTTP request -> Thin app (gets responses from Redis) -> POST to queue. Every GET request would warm cache
     - Option 2: HTTP request -> Thin app -> return 200 response -> pass to workers
+
+* Tip: put Command and CommandHandlers in the same directory
