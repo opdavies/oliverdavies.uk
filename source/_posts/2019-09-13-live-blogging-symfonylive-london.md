@@ -234,10 +234,9 @@ Notifier
 ```
 foreach ($client->stream($responses) as $response => $chunk) {
     if ($chunk->isLast()) {
-
+        // a $response completed
     } else {
-            
+        // a $response's got network activity or timeout
     }
 }
 ```
-
