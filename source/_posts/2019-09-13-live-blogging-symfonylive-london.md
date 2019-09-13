@@ -500,6 +500,9 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
     - Turn off debug settings, add caching
     - Enable OPcache
 
+### How to organise contexts?
+
+
 ## Migrating to Symfony one route at a time (Steve Winter)
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
