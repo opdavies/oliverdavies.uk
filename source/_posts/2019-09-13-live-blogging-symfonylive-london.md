@@ -114,3 +114,4 @@ Notifier
 * Using Symfony, used 40 or 50 bundles in a project - too much information!
 * Used to copy and paste, duplicate a lot of code
 * Testing your controllers - controllers as services?
+* Controllers are 'comfortable'
