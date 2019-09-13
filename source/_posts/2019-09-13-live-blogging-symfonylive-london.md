@@ -219,3 +219,5 @@ Notifier
 * `max_redirects` - disable or limit redirects
 
 * Robust and failsafe by default
+
+Streamable uploads - `$mimeParts->toIterable()`.
