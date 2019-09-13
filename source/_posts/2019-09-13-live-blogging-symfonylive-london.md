@@ -579,3 +579,4 @@ It depends. Fine for a 'modest' size. Use a real proxy for larger scale apps, us
 * 17 plans, each square is 255 code points
 * Emojis are characters, not images
 * Gliph is a visual representation of a character
+* 
