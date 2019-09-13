@@ -128,3 +128,4 @@ Notifier
 ### What did we win?
 
 * Can leverage Middleware with a command bus
+* Queues as a service (RabbitMQ)
