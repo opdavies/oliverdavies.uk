@@ -19,7 +19,7 @@ Inspired by [Matt Stauffer](https://twitter.com/stauffermatt)'s [live blogging o
 * Started a add higher level abstractions (e.g. Mailer), built on the lower ones.
 * Recently worked on PHPUnit assertions. Mailer in Symony 4.4. Can test if an email is sent or queued
 
-Building flexible high-level abstractions on top of low-level ones
+**Building flexible high-level abstractions on top of low-level ones**
 
 ### What's next?
 
@@ -43,9 +43,63 @@ Building flexible high-level abstractions on top of low-level ones
 * Based on HttpClient + Symfony Messenger and third-party providers (Twilio and Nexmo) `twilio://` and `nemxo://`
 * Can set via transport `$sms->setTransport('nexmo')`
 * Extend the `SystemEmail` and do what you want
+* Failover
 
 ### Sending Messages
 
 * Create `ChatMessage`
 * Telegram and Slack
 * `$message->setTransport('telegram')`, `$bus->dispatch($message)`
+* Send to Slack **and** Telegram
+* `SlackOptions` and `TelegramOptions` for adding emojis etc
+* Common transport layer `TransportInterface`, `MessageInterface`
+* Failover - e.g. if Twilio is down, send to Telegram
+
+### New component - SymfonyNotifier
+
+* Channels - email, SMS, chat
+* Transport, slack, telegram, twilio
+* Create a notification, arguments are message and transports (array)
+* Receiver
+* Customise notifications, `InvoiceNotification` extends `Notification`. `getChannels`
+    * Override default rendering
+    * `ChatNotificationInterface` - `asChatMessage()`
+* Semantic configuration
+    * `composer req twilio-notifier telegram-notifier`
+* Channels
+    - Mailer
+    - Chatter
+    - Texter
+    - Browser
+    - Pusher (iOS, Android, Desktop native notifications)
+    - Database (web notification centre)
+    - **A unified way to notify Users via a unified Transport layer**
+* Each integration is only 40 lines of code
+
+### What about a SystemNotification?
+
+* Autoconfigured channels
+* `new SystemNotification`, `Notifier::getSystemReceivers`
+* Importance, automatically configures channels
+* Different channels based on importance
+* `ExceptionNotification` - get email with stack trace attached
+
+Notifier
+* send messages via a unified api
+* send to one or many receivers
+* Default configu or custom one
+
+
+### How can we leverage this new infrastructure?
+
+* `Monolog NotifierHandler` - triggered on `Error` level logs
+* Uses notified channel configuration
+* Converts Error level logs to importance levels
+* Configurablelike other Notifications
+* 40 lines of code
+* Failed Messages Listener - 10 lines of glue code
+
+* **Experimental component in 5.0**
+* Can't in in 4.4 as it's a LTS version
+* First time an experimental component is added
+* Stable in 5.1
