@@ -119,7 +119,7 @@ Notifier
 * 'Having Symfony all over the place wasn't the best thing' - when to framework (Matthias Noback)
     - Hexagonal architecture
     - Keep your kernel away from infrastructure. Let the framework handle the infrastructure.
-* Controller -> Command -> Command Bus -> z
+* Controller -> Command -> Command Bus -> `CommandHandler`
 
 ### 2016
 
