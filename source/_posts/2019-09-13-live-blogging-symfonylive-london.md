@@ -160,4 +160,4 @@ Notifier
 
 ## Envelope
 
-* Stamps for metadata
+* Stamps for metadata - has the item been on the queue already?
