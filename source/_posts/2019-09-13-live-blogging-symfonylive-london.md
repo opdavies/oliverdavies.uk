@@ -411,8 +411,16 @@ If you're trying to speed things up, find out where the problem is.
     + Type hinting in functions and filters, easier to debug
     + Logging
     + Friendly exceptions - help front-end devs by returning meaningful, readbale errors
-    + Web Debug Toolbar and Profiler
-    + Twig-friendly development environment
+    + Web Debug Toolbar and Profiler, provide training for toolbar and profilers
+    + Twig-friendly development environment - Twig support in IDEs and text editors
+
+SPAs are sometimes teh right solution. Why do they want to use it, can the same benefits be met with Twig?
+
+3 most important points:
+
+- Profile, identidy, optimise, monitor
+- Loosely couple templates to your app code
+- Help your front ends
 
 ## BDD Your Symfony Application (Kamil Kokot)
 
