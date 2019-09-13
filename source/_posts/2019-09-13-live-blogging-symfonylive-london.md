@@ -121,11 +121,7 @@ Notifier
     - Keep your kernel away from infrastructure. Let the framework handle the infrastructure.
 * Controller -> Command -> Command Bus -> `CommandHandler`
 
-### 2016
-
-* New intern. Understand everything, 'just PHP'. Plain PHP application, not 'scary Symfony'
-
-### What did we win?
+#### What did we win?
 
 * Can leverage Middleware with a command bus
 * Queues as a service (RabbitMQ)
@@ -134,3 +130,9 @@ Notifier
 * Publish/subscribe
     - Producer -> Fanout/direct with routing (multiple queues) -> multiple consumers
 * Topics - wildcards
+
+### 2016
+
+* New intern. Understand everything, 'just PHP'. Plain PHP application, not 'scary Symfony'
+
+* `composer req symfony/messager` - best MessageBus implementation
