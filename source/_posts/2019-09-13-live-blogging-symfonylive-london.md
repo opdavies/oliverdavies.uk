@@ -42,3 +42,5 @@ Building flexible high-level abstractions on top of low-level ones
 * Same abstraction as emails, but for SMS messages
 * Based on HttpClient + Symfony Messenger and third-party providers (Twilio and Nexmo) `twilio://` and `nemxo://`
 * Can set via transport `$sms->setTransport('nexmo')`
+
+Pause due to projector issues...
