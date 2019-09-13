@@ -337,7 +337,7 @@ A way on the front-end JS, CSS, images at the beginning of the request, sends a 
 
 ### Using Twig as an alternative to an SPA?
 
-### Faster UI - Try and figure out where the problem is.
+#### Faster UI - Try and figure out where the problem is.
 
 If you're trying to speed things up, find out where the problem is.
 
@@ -346,26 +346,26 @@ If you're trying to speed things up, find out where the problem is.
 * Blackfire
 * Optimise and monitor
 
-### Speed up Twig
+#### Speed up Twig
 
 - Speeding up Symfony
 - ext/twig (PHP5 only, not PHP 7)
 - Store compiled templates in Opcache, make sure it's enabled
 - Render assets though the webserver (assetic not running all the time)
 
-### Edge side includes
+#### Edge side includes
 
 - Component cached differently to the rest of the page
 - Varnish/Nginx
 - `render_esi`
-- News block that caches frequently, rest of the page 
+- News block that caches frequently, rest of the page
 
-### HTTP/2 with Weblink
+#### HTTP/2 with Weblink
 
 - slow finding CSS files to load - 'push' over CSS files, doesn't need to wait
 - `preload()` - https://symfony.com/doc/current/web_link.html
 
-### Live updating pages
+#### Live updating pages
 - Instantly update when sports results are updated, news articles are added
 - Mercure - https://github.com/symfony/mercure
 - LiveTwig - whole block or whole section, and live update `render_live`
