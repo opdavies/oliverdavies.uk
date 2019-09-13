@@ -447,6 +447,8 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
     - Then I should be on '/flight/LTN-WAW'
     - Add I should see "Your flight has been booked." in "#result"
 
+In the BDD way - what is the business logic? What is the value for this scenario?
+
 ## Migrating to Symfony one route at a time (Steve Winter)
 
 ## Closing Keynote: The fabulous World of Emojis and other Unicode symbols (Nicolas Grekas)
