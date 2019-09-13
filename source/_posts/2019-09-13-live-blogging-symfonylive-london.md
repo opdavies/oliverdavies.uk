@@ -230,3 +230,14 @@ Notifier
     ```
 
 - Responses are lazy, requests are concurrent
+- Asychronus requests. Reading in network order
+```
+foreach ($client->stream($responses) as $response => $chunk) {
+    if ($chunk->isLast()) {
+
+    } else {
+            
+    }
+}
+```
+
