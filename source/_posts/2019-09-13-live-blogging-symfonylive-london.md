@@ -561,7 +561,7 @@ Proxy `/public` to symfony app
 
 ### Summary
 
-_ Add Symfony app, Apache proxy rules for routes
+- Add Symfony app, Apache proxy rules for routes
 - User transfer mechanisms
 - New functionality added in Symfony
 
