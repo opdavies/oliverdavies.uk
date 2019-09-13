@@ -41,3 +41,4 @@ Building flexible high-level abstractions on top of low-level ones
 * new `Texter` and `SmsMessage` class for sending SMS messages
 * Same abstraction as emails, but for SMS messages
 * Based on HttpClient + Symfony Messenger and third-party providers (Twilio and Nexmo) `twilio://` and `nemxo://`
+* Can set via transport `$sms->setTransport('nexmo')`
