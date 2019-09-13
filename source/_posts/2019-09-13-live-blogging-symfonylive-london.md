@@ -420,7 +420,7 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 
 - Profile, identidy, optimise, monitor
 - Loosely couple templates to your app code
-- Help your front ends
+- Help your front ends - put your front end developers first
 
 ## BDD Your Symfony Application (Kamil Kokot)
 
