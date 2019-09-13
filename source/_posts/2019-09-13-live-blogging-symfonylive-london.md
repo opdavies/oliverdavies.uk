@@ -496,7 +496,9 @@ SPAs are sometimes teh right solution. Why do they want to use it, can the same 
 * Implement contexts for UI and API
 * 12716 steps, 1175 scenarios, 8 min 8 sec, 2.4 scenarios /sec
 * 12x faster than JS (17 min 48 sec, 0.19 scenario / sec)
-* 
+* Treat test CI environment like production
+    - Turn off debug settings, add caching
+    - Enable OPcache
 
 ## Migrating to Symfony one route at a time (Steve Winter)
 
