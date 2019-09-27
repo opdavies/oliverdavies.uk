@@ -65,18 +65,18 @@ class TalksExtension extends AbstractExtension
         });
     }
 
-    public function filterUpcomingTalks(Collection $talks): array
+    public function filterUpcomingTalks(Collection $talks): Collection
     {
         return $talks->filter(function ($talk): bool {
             return $this->getLastDate($talk) >= $this->today;
-        })->values()->toArray();
+        })->values();
     }
 
-    public function filterPastTalks(Collection $talks): array
+    public function filterPastTalks(Collection $talks): Collection
     {
         return $talks->filter(function ($talk): bool {
             return $this->getLastDate($talk) < $this->today;
-        })->values()->toArray();
+        })->values();
     }
 
     private function getLastDate($talk): string
@@ -85,18 +85,18 @@ class TalksExtension extends AbstractExtension
             ->pluck('date')->max();
     }
 
-    public function filterUpcomingEvents($talks): array
+    public function filterUpcomingEvents($talks): Collection
     {
         return $this->eventsFromTalks($talks)->filter(function ($event): bool {
             return $event['date'] >= $this->today;
-        })->sortBy('date')->toArray();
+        })->sortBy('date');
     }
 
-    public function filterPastEvents($talks): array
+    public function filterPastEvents($talks): Collection
     {
         return $this->eventsFromTalks($talks)->filter(function ($event): bool {
             return $event['date'] < $this->today;
-        })->sortBy('date')->toArray();
+        })->sortBy('date');
     }
 
     private function eventsFromTalks($talks): Collection
@@ -106,8 +106,8 @@ class TalksExtension extends AbstractExtension
         });
     }
 
-    public function getAllEvents($talks): array
+    public function getAllEvents($talks): Collection
     {
-        return $this->eventsFromTalks($talks)->toArray();
+        return $this->eventsFromTalks($talks);
     }
 }
