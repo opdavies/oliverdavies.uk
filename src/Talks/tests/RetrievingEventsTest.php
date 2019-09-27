@@ -53,7 +53,7 @@ class RetrievingEventsTest extends TestCase
         $events = $this->extension->filterPastEvents($talks);
 
         $this->assertInstanceOf(Collection::class, $talks);
-        $this->assertTrue(is_array($events));
+        $this->assertInstanceOf(Collection::class, $events);
 
         $this->assertCount(2, $events);
     }
@@ -89,7 +89,7 @@ class RetrievingEventsTest extends TestCase
         $events = $this->extension->filterUpcomingEvents($talks);
 
         $this->assertInstanceOf(Collection::class, $talks);
-        $this->assertTrue(is_array($events));
+        $this->assertInstanceOf(Collection::class, $events);
 
         $this->assertCount(2, $events);
     }
