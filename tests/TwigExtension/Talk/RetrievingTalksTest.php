@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Tests\Talks;
+namespace App\Tests\Talk;
 
-use App\Talks\TwigExtension\TalksExtension;
+use App\TwigExtension\Talk\TalksExtension;
 use DateTime;
 use PHPUnit\Framework\TestCase;
 use Tightenco\Collect\Support\Collection;
@@ -164,7 +164,7 @@ class RetrievingTalksTest extends TestCase
             ],
         ];
 
-        $talks = collect([$talkA, $talkB]);
+        $talks = new Collection([$talkA, $talkB]);
 
         tap($this->extension->getAllEvents($talks), function (Collection $events) {
             $this->assertCount(3, $events);
