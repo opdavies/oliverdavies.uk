@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Tests\Talks;
+namespace App\Tests\Event;
 
-use App\Talks\TwigExtension\TalksExtension;
+use App\TwigExtension\Talk\TalksExtension;
 use DateTime;
 use PHPUnit\Framework\TestCase;
 use Tightenco\Collect\Support\Collection;

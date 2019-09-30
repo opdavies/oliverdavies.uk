@@ -8,3 +8,8 @@ sculpin_content_types:
     talks:
         permalink: talks/:basename/
         taxonomies: [tags]
+
+services:
+    App\TwigExtension\Talk\TalksExtension:
+        tags:
+            - { name: twig.extension }
