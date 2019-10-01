@@ -42,3 +42,5 @@ wordpress:
 youtube:
     channel:
         url: https://www.youtube.com/channel/UCkeK0qF9HHUPQH_fvn4ghqQ
+    stream:
+        url: '%youtube.channel.url%/live'
