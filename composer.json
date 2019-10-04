@@ -13,9 +13,9 @@
         }
     ],
     "scripts": {
+        "build": "composer run-script generate -- --env prod",
         "dev": "composer run-script generate",
         "generate": "sculpin generate --clean --no-interaction",
-        "prod": "composer run-script generate -- --env prod",
         "watch": [
             "Composer\\Config::disableProcessTimeout",
             "composer run-script generate -- --watch --server"
