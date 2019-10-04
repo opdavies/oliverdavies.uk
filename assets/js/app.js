@@ -1,4 +1,5 @@
-import Vue from 'vue'
+import '../css/tailwind.css'
+import Vue from 'vue';
 
 window.hljs = require('highlightjs')
 
