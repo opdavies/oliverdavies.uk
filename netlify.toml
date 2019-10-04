@@ -1,10 +1,9 @@
 [build]
 command = """
-composer test \
-  && composer prod \
-  && npm run lint --fix-dry-run \
-  && npm run prod \
-  && cp -R source/dist output_prod
+composer test && \
+  npm run lint --fix-dry-run && \
+  npm run build && \
+  composer build
 """
 publish = "output_prod"
 environment = { PHP_VERSION = "7.2", YARN_VERSION = "1.13.0" }
