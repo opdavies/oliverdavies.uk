@@ -13,12 +13,11 @@
         }
     ],
     "scripts": {
-        "build": "composer run-script generate -- --env prod",
-        "dev": "composer run-script generate",
-        "generate": "sculpin generate --clean --no-interaction",
+        "build": "sculpin generate --clean --no-interaction --env prod",
+        "dev": "sculpin generate --clean --no-interaction",
         "watch": [
             "Composer\\Config::disableProcessTimeout",
-            "composer run-script generate -- --watch --server"
+            "sculpin generate --clean --no-interaction --watch --server"
         ],
         "test-phpunit": "phpunit",
         "test-phpstan": "phpstan analyze",
