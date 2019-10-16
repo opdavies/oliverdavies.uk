@@ -165,16 +165,10 @@ class RetrievingTalksTest extends TestCase
         ];
 
         $talks = new Collection([$talkA, $talkB]);
+        $events = $this->extension->getAllEvents($talks);
 
-        tap($this->extension->getAllEvents($talks), function (Collection $events) {
-            $this->assertCount(3, $events);
-
-            $this->assertSame(
-                ['event_a', 'event_b', 'event_a'],
-                $events->pluck('event')->toArray()
-            );
-
-            $this->assertSame(3, $events->pluck('date')->unique()->count());
-        });
+        $this->assertCount(3, $events);
+        $this->assertSame(['event_a', 'event_b', 'event_a'], $events->pluck('event')->toArray());
+        $this->assertSame(3, $events->pluck('date')->unique()->count());
     }
 }
