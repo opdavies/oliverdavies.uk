@@ -14,9 +14,9 @@ favicon:
     url: /images/me-phpnw.png
 
 imports:
-    - ../../data/availability.yml
-    - ../../data/companies.yml
-    - ../../data/events.yml
-    - ../../data/links.yml
-    - ../../data/menus.yml
-    - ../../data/work.yml
+    - data/availability.yml
+    - data/companies.yml
+    - data/events.yml
+    - data/links.yml
+    - data/menus.yml
+    - data/work.yml
