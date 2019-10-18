@@ -1,6 +1,6 @@
 parameters:
   level: 7
   paths:
-    - src
+    - app/src
 includes:
   - vendor/phpstan/phpstan-deprecation-rules/rules.neon
