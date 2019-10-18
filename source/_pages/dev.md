@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Developing this Website (WIP)
 ---
 This site is built with [Sculpin][], a static site generator written in PHP, that generates a static HTML website from Markdown files and Twig templates. You can see the [source code on GitHub].

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Live Streaming
 ---
 I like try and do some live coding when I can, whether I’m working on a side project, my own website or some open source code. You can find my [stream link on YouTube][0], or view some previous streams below:
