@@ -2,6 +2,8 @@ sculpin:
     ignore: ['**/.DS*', '**/*.swp']
 
 sculpin_content_types:
+    pages:
+        permalink: /:basename/
     posts:
         permalink: articles/:basename/
         taxonomies: [tags]

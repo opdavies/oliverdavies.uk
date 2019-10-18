@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Thanks!
 permalink: contact/thanks/
 use: [posts]

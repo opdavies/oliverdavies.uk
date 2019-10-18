@@ -1,5 +1,4 @@
 ---
-layout: default
 ---
 <div class="markup" markdown="1">
 # Speaker Info
