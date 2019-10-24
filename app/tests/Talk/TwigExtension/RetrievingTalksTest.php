@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Tests\Talk;
+namespace App\Tests\Talk\TwigExtension;
 
 use App\Talk\TwigExtension\TalksExtension;
 use DateTime;
