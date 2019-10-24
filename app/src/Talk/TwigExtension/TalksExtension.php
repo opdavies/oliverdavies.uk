@@ -1,6 +1,6 @@
 <?php
 
-namespace App\TwigExtension\Talk;
+namespace App\Talk\TwigExtension;
 
 use Sculpin\Contrib\ProxySourceCollection\ProxySourceCollection;
 use Tightenco\Collect\Support\Collection;
