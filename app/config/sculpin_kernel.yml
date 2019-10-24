@@ -12,6 +12,6 @@ sculpin_content_types:
         taxonomies: [tags]
 
 services:
-    App\TwigExtension\Talk\TalksExtension:
+    App\Talk\TwigExtension\TalksExtension:
         tags:
             - { name: twig.extension }

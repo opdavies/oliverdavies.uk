@@ -2,7 +2,7 @@
 
 namespace App\Tests\Talk;
 
-use App\TwigExtension\Talk\TalksExtension;
+use App\Talk\TwigExtension\TalksExtension;
 use DateTime;
 use PHPUnit\Framework\TestCase;
 use Tightenco\Collect\Support\Collection;
