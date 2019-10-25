@@ -13,13 +13,15 @@ Encore
   .enableSourceMaps(!Encore.isProduction())
 
 if (Encore.isProduction()) {
-  Encore.addPlugin(new PurgecssPlugin({
-    defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
-    paths: () => glob.sync([
-      'assets/**/*.vue',
-      'source/**/*.{md,twig}'
-    ])
-  }))
+  Encore
+    .enableVersioning()
+    .addPlugin(new PurgecssPlugin({
+      defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
+      paths: () => glob.sync([
+        'assets/**/*.vue',
+        'source/**/*.{md,twig}'
+      ])
+    }))
 }
 
 module.exports = Encore.getWebpackConfig()
