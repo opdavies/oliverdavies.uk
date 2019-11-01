@@ -1,3 +1,5 @@
+{% import 'helpers' as helpers %}
+
 {% if page.events %}
     <div>
         <h2 class="mb-2">Presented at</h2>
@@ -11,9 +13,7 @@
                     {% else %}
                         {{ eventData.name }}
                     {% endif %}
-                    {% if eventData.location %}
-                        in {{ eventData.location }}
-                    {% endif %}
+                    {{ helpers.talkEventLocation(eventData, event) }}
                     <span class="text-gray-800">- {{ event.date|date('jS F Y') }}</span>
                 </li>
             {% endfor %}
