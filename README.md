@@ -1,7 +1,8 @@
-# oliverdavies.uk
+# [oliverdavies.uk][]
 
-Built with [Sculpin][1], [Vue.js][3] and [Tailwind CSS][2].
+Built with [Sculpin][], [Vue.js][] and [Tailwind CSS][].
 
-[1]: https://sculpin.io
-[2]: https://tailwindcss.com
-[3]: https://vuejs.org
+[oliverdavies.uk]: https://www.oliverdavies.uk
+[Sculpin]: https://sculpin.io
+[Tailwind CSS]: https://tailwindcss.com
+[Vue.js]: https://vuejs.org
