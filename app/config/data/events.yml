@@ -14,6 +14,10 @@ events:
         location: Lisbon, Portugal
         url: http://lisbon2018.drupaldays.org
 
+    drupal_edinburgh:
+        name: Drupal Edinburgh
+        url: https://www.meetup.com/Drupal-Edinburgh
+
     drupal_somerset:
         name: Drupal Somerset
         location: Glastonbury, UK
