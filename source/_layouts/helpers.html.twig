@@ -1,0 +1,5 @@
+{% macro talkEventLocation(eventData, event) %}
+    {% if eventData.location %}
+        in {{ eventData.location }}
+    {% endif %}
+{% endmacro %}
