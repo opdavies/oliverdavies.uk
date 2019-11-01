@@ -2,4 +2,8 @@
     {% if eventData.location %}
         in {{ eventData.location }}
     {% endif %}
+
+    {% if event.online %}
+        (online)
+    {% endif %}
 {% endmacro %}
