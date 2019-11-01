@@ -1,9 +1,4 @@
 {% macro talkEventLocation(eventData, event) %}
-    {% if eventData.location %}
-        in {{ eventData.location }}
-    {% endif %}
-
-    {% if event.online %}
-        (online)
-    {% endif %}
+    {{ eventData.location ? 'in ' ~ eventData.location }}
+    {{ event.online ? ' (online)' }}
 {% endmacro %}
