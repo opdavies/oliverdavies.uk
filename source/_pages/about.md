@@ -11,7 +11,7 @@ permalink: /
 <div class="mb-4 w-32"><img src="/images/me-precedent.jpg" alt="Picture of Oliver" class="rounded-full border border-gray"/></div>
 
 Hi, I'm Oliver Davies (aka [opdavies](https://www.google.com/#q=opdavies)).
-I’m a {{ site.work.role }} at [{{site.companies[site.work.company].name}}]({{site.companies[site.work.company].url}}) and a part-time freelance Web Developer based in Wales, UK.
+I’m a {{ site.work.role }} at [{{site.companies[site.work.company].name}}]({{site.companies[site.work.company].url}}) and a part-time freelance Web Developer, based in Wales, UK.
 
 I’ve been a Developer since 2007 and specialise in using Drupal, Symfony and Vue.js, though I also use other technologies including Laravel and Sculpin.
 I use Ansible for server provisioning and application deployments.
