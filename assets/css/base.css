@@ -1,20 +1,27 @@
-h1, h2, h3
+h1, h2, h3 {
   @apply font-bold
+}
 
-h1
+h1 {
   @apply text-3xl
+}
 
-h2
+h2 {
   @apply text-2xl
+}
 
-img
+img {
   @apply max-w-full h-auto
+}
 
-a
-  @apply text-blue-700 no-underline
+a {
+  @apply text-blue-700 no-underline;
 
-  &:hover
+  &:hover {
     @apply underline
+  }
+}
 
-blockquote
+blockquote {
   @apply border-l-4 border-blue-600 pl-4 px-6 py-2
+}

@@ -1,5 +1,7 @@
-.wrap
-  @apply w-full max-w-3xl mx-auto
+.wrap {
+  @apply w-full max-w-3xl mx-auto;
 
-  &.is-wide
+  &.is-wide {
     @apply max-w-5xl
+  }
+}
