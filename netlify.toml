@@ -7,4 +7,4 @@ composer test && \
   cp -R source/build output_prod
 """
 publish = "output_prod"
-environment = { PHP_VERSION = "7.2", YARN_VERSION = "1.13.0" }
+environment = { PHP_VERSION = "7.2" }
