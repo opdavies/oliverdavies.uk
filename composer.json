@@ -13,19 +13,21 @@
         }
     ],
     "scripts": {
-        "build": "sculpin generate --clean --no-interaction --env prod",
-        "dev": "sculpin generate --clean --no-interaction",
+        "dev": "@development",
+        "development": "sculpin generate --clean --no-interaction",
+        "prod": "@production",
+        "production": "sculpin generate --clean --no-interaction --env prod",
+        "test": [
+            "@test-phpcs",
+            "@test-phpstan",
+            "@test-phpunit"
+        ],
+        "test-phpcs": "php-cs-fixer fix --dry-run",
+        "test-phpstan": "phpstan analyze",
+        "test-phpunit": "phpunit",
         "watch": [
             "Composer\\Config::disableProcessTimeout",
             "sculpin generate --clean --no-interaction --watch --server"
-        ],
-        "test-phpunit": "phpunit",
-        "test-phpstan": "phpstan analyze",
-        "test-phpcs": "php-cs-fixer fix --dry-run",
-        "test": [
-            "@test-phpunit",
-            "@test-phpstan",
-            "@test-phpcs"
         ]
     },
     "require": {
