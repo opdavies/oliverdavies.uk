@@ -1,10 +1,9 @@
 [build]
 command = """
 composer test && \
-  composer build && \
   npm run lint --fix-dry-run && \
   npm run production && \
-  cp -R source/build output_prod
+  composer production
 """
 publish = "output_prod"
 environment = { PHP_VERSION = "7.2" }

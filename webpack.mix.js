@@ -20,8 +20,8 @@ mix.browserSync({
 })
 
 mix.purgeCss({
-  extensions: ['html', 'twig', 'vue'],
-  folders: ['assets/js', 'output_*'],
+  extensions: ['html', 'md', 'twig', 'vue'],
+  folders: ['assets/js', 'source'],
   whitelistPatterns: [],
   whitelistPatternsChildren: []
 })
