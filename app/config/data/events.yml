@@ -4,6 +4,11 @@ events:
         location: Cardiff, UK
         url: https://blueconf.co.uk
 
+    bristol_devops:
+        name: Bristol Cloud Native & DevOps
+        location: Bristol, UK
+        url: https://www.meetup.com/Bristol-Cloud-Native-DevOps
+
     drupal_bristol:
         name: Drupal Bristol
         location: Bristol, UK
