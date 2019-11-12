@@ -1,18 +1,18 @@
-@import 'tailwindcss/base'
-@import './base.css'
+@import 'tailwindcss/base';
+@import './base.css';
 
-@import 'tailwindcss/components'
-@import './components/button.css'
-@import './components/container.css'
-@import './components/lead.css'
-@import './components/markup.css'
-@import './components/note.css'
-@import './components/table.css'
-@import './components/video.css'
-@import './components/widget.css'
-@import './components/wrap.css'
+@import 'tailwindcss/components';
+@import './components/button.css';
+@import './components/container.css';
+@import './components/lead.css';
+@import './components/markup.css';
+@import './components/note.css';
+@import './components/table.css';
+@import './components/video.css';
+@import './components/widget.css';
+@import './components/wrap.css';
 
-@import 'highlightjs/styles/github-gist'
+@import 'highlightjs/styles/github-gist';
 
-@import 'tailwindcss/utilities'
-@import './utilities.css'
+@import 'tailwindcss/utilities';
+@import './utilities.css';
