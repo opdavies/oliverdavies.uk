@@ -6,4 +6,6 @@ composer test && \
   composer run production
 """
 publish = "output_prod"
-environment = { PHP_VERSION = "7.2" }
+
+[build.environment]
+PHP_VERSION = "7.2"
