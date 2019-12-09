@@ -1,6 +1,6 @@
-const Encore = require('@symfony/webpack-encore')
-const glob = require('glob-all')
-const PurgecssPlugin = require('purgecss-webpack-plugin')
+let Encore = require('@symfony/webpack-encore')
+let PurgecssConfig = require('./purgecss.config')
+let PurgecssPlugin = require('purgecss-webpack-plugin')
 
 Encore
   .disableSingleRuntimeChunk()
@@ -13,13 +13,7 @@ Encore
   .enableSourceMaps(!Encore.isProduction())
 
 if (Encore.isProduction()) {
-  Encore.addPlugin(new PurgecssPlugin({
-    defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
-    paths: () => glob.sync([
-      'assets/**/*.vue',
-      'source/**/*.{md,twig}'
-    ])
-  }))
+  Encore.addPlugin(new PurgecssPlugin(PurgecssConfig))
 }
 
 module.exports = Encore.getWebpackConfig()
