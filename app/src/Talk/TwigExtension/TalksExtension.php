@@ -99,6 +99,8 @@ class TalksExtension extends AbstractExtension
     {
         return (new Collection($talks))->flatMap(function ($talk): array {
             return $talk['events'];
+        })->filter(function ($event): bool {
+            return !empty($event['date']);
         });
     }
 }

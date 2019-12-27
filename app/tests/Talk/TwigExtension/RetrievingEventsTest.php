@@ -57,4 +57,30 @@ class RetrievingEventsTest extends TestCase
 
         $this->assertCount(2, $events);
     }
+
+    /** @test */
+    public function events_with_no_date_are_not_returned()
+    {
+        $talks = [
+            [
+                'title' => 'Deploying PHP applications with Ansible, Ansible Vault and Ansistrano',
+                'events' => [
+                    [
+                        'event' => 'php_south_wales',
+                        'date' => (new DateTime('-1 days'))->getTimestamp(),
+                    ],
+                    [
+                        'event' => 'drupal_edinburgh',
+                        'date' => '',
+                    ],
+                ],
+            ],
+        ];
+
+        $this->assertSame(1, $this->extension->getPastTalkCount($talks));
+
+        $pastEvents = $this->extension->getPastEvents($talks);
+        $this->assertCount(1, $pastEvents);
+        $this->assertSame('php_south_wales', $pastEvents[0]['event']);
+    }
 }
