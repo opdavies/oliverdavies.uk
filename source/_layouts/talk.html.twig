@@ -17,6 +17,6 @@
         {% include 'talk/slides' %}
         {% include 'talk/video' %}
         {% include 'talk/tweets' %}
-        {% include 'talk/events' %}
+        {% include 'talk/events' with { events: get_events_for_talk(page, site.events) } only %}
     </div>
 {% endblock %}

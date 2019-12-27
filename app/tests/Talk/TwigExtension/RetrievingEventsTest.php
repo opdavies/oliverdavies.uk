@@ -83,4 +83,71 @@ class RetrievingEventsTest extends TestCase
         $this->assertCount(1, $pastEvents);
         $this->assertSame('php_south_wales', $pastEvents[0]['event']);
     }
+
+    /** @test */
+    public function get_all_of_the_events_for_a_talk()
+    {
+        $talk = [
+            'title' => 'TDD - Test Driven Drupal',
+            'events' => [
+                [
+                    'event' => 'drupal_developer_days_2018',
+                    'date' => (new DateTime('-1 day'))->getTimestamp(),
+                ],
+                [
+                    'event' => 'drupalcamp_london_2019',
+                    'date' => (new DateTime('+1 day'))->getTimestamp(),
+                ],
+            ],
+        ];
+
+        $eventData = [
+            'drupal_developer_days_2018' => [
+                'name' => 'Drupal Developer Days, Lisbon 2018',
+            ],
+            'drupalcamp_london_2019' => [
+                'name' => 'DrupalCamp London 2019',
+            ],
+        ];
+
+        $events = $this->extension->getEventsForTalk($talk, $eventData);
+
+        $this->assertCount(2, $events);
+        $this->assertSame(
+            ['drupal_developer_days_2018', 'drupalcamp_london_2019'],
+            $events->pluck('event')->toArray()
+        );
+    }
+
+    /** @test */
+    public function events_with_no_date_are_not_returned_for_an_event()
+    {
+        $talk = [
+            'title' => 'TDD - Test Driven Drupal',
+            'events' => [
+                [
+                    'event' => 'drupal_developer_days_2018',
+                    'date' => (new DateTime('-2 days'))->getTimestamp(),
+                ],
+                [
+                    'event' => 'drupalcamp_london_2019',
+                    'date' => '',
+                ],
+            ],
+        ];
+
+        $eventData = [
+            'drupal_developer_days_2018' => [
+                'name' => 'Drupal Developer Days, Lisbon 2018',
+            ],
+            'drupalcamp_london_2019' => [
+                'name' => 'DrupalCamp London 2019',
+            ],
+        ];
+
+        $events = $this->extension->getEventsForTalk($talk, $eventData);
+
+        $this->assertCount(1, $events);
+        $this->assertSame('drupal_developer_days_2018', $events->pluck('event')->first());
+    }
 }
