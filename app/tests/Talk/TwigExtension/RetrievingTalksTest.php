@@ -40,7 +40,7 @@ class RetrievingTalksTest extends TestCase
             ],
         ];
 
-        $this->assertCount(2, $this->extension->getTalks([$talkA, $talkB]));
+        $this->assertCount(2, $this->extension->getAllTalks([$talkA, $talkB]));
     }
 
     /** @test */
@@ -69,7 +69,7 @@ class RetrievingTalksTest extends TestCase
         ];
 
         $unorderedTalks = [$talkC, $talkA, $talkB];
-        $orderedTalks = $this->extension->getTalks($unorderedTalks);
+        $orderedTalks = $this->extension->getAllTalks($unorderedTalks);
 
         $this->assertEquals([$talkC, $talkA, $talkB], $orderedTalks->toArray());
     }
@@ -91,7 +91,7 @@ class RetrievingTalksTest extends TestCase
             ],
         ];
 
-        $talks = $this->extension->getTalks([$pastTalk, $futureTalk]);
+        $talks = $this->extension->getAllTalks([$pastTalk, $futureTalk]);
         $filtered = $this->extension->filterPastTalks($talks);
 
         $this->assertCount(1, $filtered);
@@ -122,7 +122,7 @@ class RetrievingTalksTest extends TestCase
             ],
         ];
 
-        $talks = $this->extension->getTalks([$pastTalk, $todayTalk, $futureTalk]);
+        $talks = $this->extension->getAllTalks([$pastTalk, $todayTalk, $futureTalk]);
         $filtered = $this->extension->filterUpcomingTalks($talks);
 
         $this->assertSame(2, $filtered->count());
@@ -140,7 +140,7 @@ class RetrievingTalksTest extends TestCase
             ],
         ];
 
-        $talks = $this->extension->getTalks([$talk]);
+        $talks = $this->extension->getAllTalks([$talk]);
 
         $this->assertCount(1, $this->extension->filterUpcomingTalks($talks));
         $this->assertEmpty($this->extension->filterPastTalks($talks));

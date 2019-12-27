@@ -24,7 +24,7 @@ talks:
         date: 2018-06-27
 ---
 {% block content %}
-    {% set talks = getTalks(page.talks|merge(data.talks)) %}
+    {% set talks = get_all_talks(page.talks|merge(data.talks)) %}
 
     <header>
         <p class="lead">

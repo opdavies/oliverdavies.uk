@@ -49,7 +49,7 @@ class RetrievingEventsTest extends TestCase
             ],
         ];
 
-        $talks = $this->extension->getTalks([$talkA, $talkB]);
+        $talks = $this->extension->getAllTalks([$talkA, $talkB]);
         $events = $this->extension->filterPastEvents($talks);
 
         $this->assertInstanceOf(Collection::class, $talks);
@@ -85,7 +85,7 @@ class RetrievingEventsTest extends TestCase
         ];
 
 
-        $talks = $this->extension->getTalks([$talkA, $talkB]);
+        $talks = $this->extension->getAllTalks([$talkA, $talkB]);
         $events = $this->extension->filterUpcomingEvents($talks);
 
         $this->assertInstanceOf(Collection::class, $talks);
