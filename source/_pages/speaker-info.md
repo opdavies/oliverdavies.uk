@@ -6,11 +6,11 @@
 ## Bio
 
 [Oliver Davies][website] ([@opdavies][twitter]) has been building websites since 2007, and speaking at meetups and conferences since 2012. He is a Full Stack Developer and an Acquia certified Drupal Grand Master, who also has
-experience with DevOps and systems administration as well as development with Symfony, Laravel, Sculpin and Vue.js.
+experience developing with Symfony, Laravel, Sculpin and Vue.js, as well as with DevOps and systems administration.
 
 He is a {{ site.work.role }} at [{{ site.companies[site.work.company].name }}][work], a Drupal core contributor and mentor, and an open source and contribution advocate.
 
-He regularly blogs and gives talks about web development and systems administration, maintains and contributes to various open source projects, and co-organises DrupalCamp Bristol as well as the Drupal Bristol, PHP South West and PHP South Wales user groups.
+He regularly blogs and gives talks on various topics, maintains and contributes to various open source projects, and co-organises the PHP South Wales user group.
 
 [twitter]: {{site.twitter.url}}
 [website]: {{site.url}}
