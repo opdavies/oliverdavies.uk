@@ -30,16 +30,9 @@ class TalksExtension extends AbstractExtension
     {
         return [
             new TwigFunction('get_all_talks', [$this, 'getAllTalks']),
-        ];
-    }
-
-    public function getFilters()
-    {
-        return [
-            new TwigFilter('pastEvents', [$this, 'filterPastEvents']),
-            new TwigFilter('pastTalks', [$this, 'filterPastTalks']),
-            new TwigFilter('upcomingEvents', [$this, 'filterUpcomingEvents']),
-            new TwigFilter('upcomingTalks', [$this, 'filterUpcomingTalks']),
+            new TwigFunction('get_upcoming_talks', [$this, 'getUpcomingTalks']),
+            new TwigFunction('get_past_talks', [$this, 'getPastTalks']),
+            new TwigFunction('get_past_talk_count', [$this, 'getPastTalkCount']),
         ];
     }
 
@@ -65,18 +58,35 @@ class TalksExtension extends AbstractExtension
         });
     }
 
-    public function filterUpcomingTalks(Collection $talks): Collection
+    public function getUpcomingTalks(array $talks): Collection
     {
-        return $talks->filter(function ($talk): bool {
+        return $this->getAllTalks($talks)->filter(function ($talk): bool {
             return $this->getLastDate($talk) >= $this->today;
         })->values();
     }
 
-    public function filterPastTalks(Collection $talks): Collection
+    public function getPastTalks(array $talks): Collection
     {
-        return $talks->filter(function ($talk): bool {
+        return $this->getAllTalks($talks)->filter(function ($talk): bool {
             return $this->getLastDate($talk) < $this->today;
         })->values();
+    }
+
+    public function getAllEvents($talks): Collection
+    {
+        return $this->eventsFromTalks($talks);
+    }
+
+    public function getPastEvents($talks): Collection
+    {
+        return $this->eventsFromTalks($talks)->filter(function ($event): bool {
+            return $event['date'] < $this->today;
+        })->sortBy('date');
+    }
+
+    public function getPastTalkCount($talks): int
+    {
+        return $this->getPastEvents($talks)->count();
     }
 
     private function getLastDate($talk): string
@@ -85,29 +95,10 @@ class TalksExtension extends AbstractExtension
             ->pluck('date')->max();
     }
 
-    public function filterUpcomingEvents($talks): Collection
-    {
-        return $this->eventsFromTalks($talks)->filter(function ($event): bool {
-            return $event['date'] >= $this->today;
-        })->sortBy('date');
-    }
-
-    public function filterPastEvents($talks): Collection
-    {
-        return $this->eventsFromTalks($talks)->filter(function ($event): bool {
-            return $event['date'] < $this->today;
-        })->sortBy('date');
-    }
-
     private function eventsFromTalks($talks): Collection
     {
         return (new Collection($talks))->flatMap(function ($talk): array {
             return $talk['events'];
         });
-    }
-
-    public function getAllEvents($talks): Collection
-    {
-        return $this->eventsFromTalks($talks);
     }
 }

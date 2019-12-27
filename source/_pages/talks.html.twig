@@ -24,22 +24,22 @@ talks:
         date: 2018-06-27
 ---
 {% block content %}
-    {% set talks = get_all_talks(page.talks|merge(data.talks)) %}
+    {% set talks = page.talks|merge(data.talks) %}
 
     <header>
         <p class="lead">
-            After giving my first talk in September 2012, I have now given {{ talks|pastEvents|length }} presentations at various conferences and meetups,
+            After giving my first talk in September 2012, I have now given {{ get_past_talk_count(talks) }} presentations at various conferences and meetups,
             on topics including PHP, Drupal, Git, CSS and systems administration.
         </p>
     </header>
 
     <div class="spaced-y-10 mt-6">
         {% include 'talks/upcoming' with {
-            talks: talks|upcomingTalks,
-        } %}
+            talks: get_upcoming_talks(talks),
+        } only %}
 
         {% include 'talks/past' with {
-            talks: talks|pastTalks,
-        } %}
+            talks: get_past_talks(talks),
+        } only %}
     </div>
 {% endblock %}
