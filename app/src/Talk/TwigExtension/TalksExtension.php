@@ -33,6 +33,7 @@ class TalksExtension extends AbstractExtension
             new TwigFunction('get_upcoming_talks', [$this, 'getUpcomingTalks']),
             new TwigFunction('get_past_talks', [$this, 'getPastTalks']),
             new TwigFunction('get_past_talk_count', [$this, 'getPastTalkCount']),
+            new TwigFunction('get_events_for_talk', [$this, 'getEventsForTalk']),
         ];
     }
 
@@ -87,6 +88,18 @@ class TalksExtension extends AbstractExtension
     public function getPastTalkCount($talks): int
     {
         return $this->getPastEvents($talks)->count();
+    }
+
+    public function getEventsForTalk(array $talk, array $eventData): Collection
+    {
+        return (new Collection($talk['events']))
+            ->map(function (array $event) use ($eventData): Collection {
+                return (new Collection($event))->merge($eventData[$event['event']]);
+            })
+            ->filter(function (Collection $event): bool {
+                return !empty($event->get('date'));
+            })
+            ->sortBy('date');
     }
 
     private function getLastDate($talk): string
