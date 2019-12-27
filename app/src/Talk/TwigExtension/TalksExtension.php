@@ -29,7 +29,7 @@ class TalksExtension extends AbstractExtension
     public function getFunctions()
     {
         return [
-            new TwigFunction('getTalks', [$this, 'getTalks']),
+            new TwigFunction('get_all_talks', [$this, 'getAllTalks']),
         ];
     }
 
@@ -58,7 +58,7 @@ class TalksExtension extends AbstractExtension
      *
      * @return Collection A sorted collection of talks.
      */
-    public function getTalks($talks): Collection
+    public function getAllTalks($talks): Collection
     {
         return (new Collection($talks))->sortBy(function ($talk) {
             return $this->getLastDate($talk);
