@@ -7,13 +7,7 @@
         <ul class="markup list-disc ml-5">
             {% for event in page.events if not event.date is empty %}
                 <li>
-                    {% set eventData = site.events[event.event] %}
-                    {% if eventData.url %}
-                        <a href="{{ eventData.url }}">{{ eventData.name }}</a>
-                    {% else %}
-                        {{ eventData.name }}
-                    {% endif %}
-                    {{ helpers.talkEventLocation(eventData, event) }}
+                    {{ helpers.talkEventName(event) }}
                     <span class="text-gray-800">- {{ event.date|date('jS F Y') }}</span>
                 </li>
             {% endfor %}
