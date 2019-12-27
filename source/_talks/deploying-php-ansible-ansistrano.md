@@ -17,7 +17,7 @@ events:
     - event: drupalcon_eu_19
       date: 2019-10-30
     - event: drupal_edinburgh
-      date: 2019-12-12
+      date: ~
       online: true
     - event: bristol_devops
       date: 2020-01-30
