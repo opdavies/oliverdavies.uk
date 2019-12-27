@@ -5,7 +5,7 @@
         <h2 class="mb-2">Presented at</h2>
 
         <ul class="markup list-disc ml-5">
-            {% for event in page.events %}
+            {% for event in page.events if not event.date is empty %}
                 <li>
                     {% set eventData = site.events[event.event] %}
                     {% if eventData.url %}
