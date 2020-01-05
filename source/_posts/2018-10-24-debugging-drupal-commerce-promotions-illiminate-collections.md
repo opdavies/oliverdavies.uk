@@ -73,7 +73,7 @@ collect($order->getItems())
 
 There are a couple of refactors that we can do here though:
 
-- Use `flatMap()` to comine the `flatten()` and `map()` methods.
+- Use `flatMap()` to combine the `flatten()` and `map()` methods.
 - Use [higher order messages][3] to delegate straight to the `getAdjustments()` method on the order, rather than having to create a closure and call the method within it.
 
 ```php

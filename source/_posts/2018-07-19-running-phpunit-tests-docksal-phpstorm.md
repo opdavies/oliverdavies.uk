@@ -97,7 +97,7 @@ Select 'PHPUnit by Remote Interpreter' and then the 'Docksal PHP 7.1' that we cr
 
 Select 'Use Composer autoloader' for the PHPUnit library setting so that PhpStorm uses the version required by Drupal core, and set the path to `/var/www/vendor/autoload.php`.
 
-Also specify the path to the default (phpunit.xml) configration file. This will depend on how your project is structured, in this case it’s at `/var/www/web/core/phpunit.xml`.
+Also specify the path to the default (phpunit.xml) configuration file. This will depend on how your project is structured, in this case it’s at `/var/www/web/core/phpunit.xml`.
 
 ![Configuring PHPUnit in PHPstorm](/images/blog/phpstorm-phpunit-docksal/phpunit-4.png){.with-border}
 
