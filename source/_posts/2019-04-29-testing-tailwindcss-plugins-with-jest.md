@@ -65,7 +65,7 @@ test('it generates the list reset class', () => {
 })
 ```
 
-However, there are some additonal steps needed to get this working.
+However, there are some additional steps needed to get this working.
 
 ### Generating the plugin’s CSS
 
