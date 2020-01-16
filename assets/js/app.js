@@ -1,25 +1,8 @@
+import 'alpinejs'
 import '../css/tailwind.css'
-import Vue from 'vue';
 
 window.hljs = require('highlightjs')
 
-new Vue({
-  el: '#app',
-
-  data () {
-    return {
-      isOpen: false
-    }
-  },
-
-  mounted: function () {
-    this.$el.classList.remove('no-js')
-    this.$el.classList.add('js')
-  },
-
-  methods: {
-    toggle () {
-      this.isOpen = !this.isOpen
-    }
-  }
-})
+let html = document.documentElement
+html.classList.remove('no-js')
+html.classList.add('js')
