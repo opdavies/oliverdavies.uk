@@ -9,7 +9,6 @@ Encore
   .setPublicPath('/build')
   .addEntry('app', './assets/js/app.js')
   .enablePostCssLoader()
-  .enableVueLoader()
   .enableSourceMaps(!Encore.isProduction())
 
 if (Encore.isProduction()) {

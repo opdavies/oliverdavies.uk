@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en-GB" class="no-js">
     <head>
         <title>{% if page.title is defined and page.url != '//' %}{{ page.title }} | {% endif %}{{ site.title }} - {{ site.subtitle }}</title>
         {% include 'meta' %}
@@ -21,7 +21,7 @@
         {% endfor %}
     </head>
     <body class="antialiased font-sans text-gray-800 leading-relaxed">
-        <div id="app" class="min-h-screen flex flex-col no-js">
+        <div class="min-h-screen flex flex-col">
             {% block body %}{% endblock %}
         </div>
 

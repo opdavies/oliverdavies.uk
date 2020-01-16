@@ -27,8 +27,7 @@ module.exports = {
   plugins: [
     require('tailwindcss-spaced-items')({ values: spacing }),
     require('tailwindcss-visuallyhidden')(),
-    require('tailwindcss-skip-link')(),
-    require('tailwindcss-vuejs')()
+    require('tailwindcss-skip-link')()
   ],
   variants: {
     borderStyle: [...variants.borderStyle, 'hover', 'focus'],
