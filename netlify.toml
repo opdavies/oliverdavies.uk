@@ -1,8 +1,8 @@
 [build]
 command = """
 composer test && \
-  yarn lint --fix-dry-run && \
-  yarn run production && \
+  npm run lint --fix-dry-run && \
+  npm run production && \
   composer run production
 """
 publish = "output_prod"
