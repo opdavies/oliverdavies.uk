@@ -23,6 +23,7 @@ He regularly blogs and gives talks on various topics, maintains and contributes 
 
 ## Some Events I’ve Spoken At
 
+- BlueConf 2019
 - DrupalCamp Brighton 2015
 - DrupalCamp Bristol 2016
 - DrupalCamp Dublin 2017
