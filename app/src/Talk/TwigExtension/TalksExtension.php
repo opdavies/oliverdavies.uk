@@ -94,7 +94,7 @@ class TalksExtension extends AbstractExtension
     {
         return (new Collection($talk['events']))
             ->map(function (array $event) use ($eventData): Collection {
-                return (new Collection($event))->merge($eventData[$event['event']]);
+                return (new Collection($eventData[$event['event']]))->merge($event);
             })
             ->filter(function (Collection $event): bool {
                 return !empty($event->get('date'));

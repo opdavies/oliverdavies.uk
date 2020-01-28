@@ -16,11 +16,13 @@ events:
       date: 2019-07-23
     - event: drupalcon_eu_19
       date: 2019-10-30
+    - event: bristol_devops
+      date: 2020-01-30
+      url: https://www.meetup.com/Bristol-Cloud-Native-DevOps/events/266609627
     - event: drupal_edinburgh
       date: 2020-03-12
       online: true
-    - event: bristol_devops
-      date: 2020-01-30
+      url: https://www.meetup.com/Drupal-Edinburgh/events/267905594
 ---
 Great! You’ve built your website, and now you just need to deploy it. There are various ways that this could be done - from (S)FTP, to SCP and rsync, to running commands like `git pull` and `composer install` directly on the server which is not ideal.
 
