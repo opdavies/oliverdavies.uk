@@ -150,4 +150,10 @@ class RetrievingEventsTest extends TestCase
         $this->assertCount(1, $events);
         $this->assertSame('drupal_developer_days_2018', $events->pluck('event')->first());
     }
+
+    /** @test */
+    public function specific_event_urls_override_global_urls()
+    {
+        $this->markTestSkipped();
+    }
 }
