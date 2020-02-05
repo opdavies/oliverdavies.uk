@@ -10,11 +10,9 @@ lead_image:
 
 <p>{{ page.excerpt }}</p>
 
-The workshop will be on automated testing and test driven development in Drupal 8.
+The subject will be automated testing and test driven development in Drupal 8, and it will be on Friday 13th March 2020, between 9am and 1pm.
 
 In the workshop, I’ll cover the methodology, approaches and terminology involved with automated testing, look at some examples and work through some exercises, and then take a test driven development approach to creating a new Drupal module.
-
-The workshop is on Friday 13th March 2020, between 9am and 1pm.
 
 There are also other workshops on topics including Composer, Drupal Commerce, profiling, and chatbots.
 
