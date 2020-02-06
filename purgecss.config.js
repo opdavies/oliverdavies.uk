@@ -5,5 +5,5 @@ module.exports = {
   paths: () => glob.sync([
     'source/**/*.{md,twig}'
   ]),
-  whitelistPatterns: [/hljs/, /language/]
+  whitelistPatterns: [/(code|kbd|pre|samp)/, /hljs/, /language/]
 }
