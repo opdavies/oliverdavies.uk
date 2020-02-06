@@ -1,59 +1,107 @@
 .markup {
-  @apply leading-normal;
+  a {
+    @apply underline;
 
-  h2,
-  h3,
-  h4 {
-    @apply text-black font-bold mb-3
-  }
-
-  h2 {
-    @apply mt-8 mb-3
-  }
-
-  h3 {
-    @apply text-lg mt-8
-  }
-
-  p,
-  ul,
-  ol,
-  blockquote,
-  table,
-  figure,
-  pre,
-  [v-pre] {
-    &:not(:last-child) {
-      @apply mb-6
+    &:hover {
+      @apply no-underline
     }
+
+    &:focus {
+      @apply p-px -m-px bg-blue-700 text-white outline-none
+    }
+  }
+
+  p {
+    @apply leading-relaxed;
+
+    + p {
+      @apply mt-4
+    }
+  }
+
+  ol {
+    @apply list-decimal
   }
 
   ul {
-    @apply list-disc ml-5
+    @apply list-disc;
   }
 
-  code {
-    @apply bg-gray-200 font-mono text-sm
-  }
+  ol,
+  ul {
+    @apply pl-5;
 
-  p,
-  li {
-    code {
-      @apply inline-block border border-gray-300 font-bold mx-px p-1 leading-none
+    li + li {
+      @apply mt-4
     }
   }
 
-  pre code,
-  .hljs {
-    @apply block leading-loose overflow-x-scroll p-6
+  p {
+    + blockquote,
+    + ol,
+    + ul,
+    + div[v-pre] {
+      @apply mt-4
+    }
   }
 
-  figure,
-  img {
-    @apply block
+  code {
+    @apply -my-px px-1 py-px border border-gray-400 text-sm bg-gray-200
   }
 
-  figcaption {
-    @apply italic text-sm text-gray-800 text-center mb-0 mt-1
+  pre {
+    @apply border-l-3 border-gray-500 text-sm bg-gray-200;
+
+    code {
+      @apply p-6 block border-none leading-loose text-sm overflow-x-scroll
+    }
+  }
+
+  * + pre,
+  * + div[v-pre] {
+    @apply my-4
+  }
+
+  img,
+  figure {
+    @apply my-8
+  }
+
+  figure {
+    img {
+      @apply m-0
+    }
+
+    figcaption {
+      @apply mt-3
+    }
+  }
+
+  h2 {
+    @apply leading-tight
+  }
+
+  * + h2 {
+    @apply mt-8
+  }
+
+  h2 + * {
+    @apply mt-4
+  }
+
+  h3 {
+    @apply text-xl font-bold leading-tight
+  }
+
+  * + h3 {
+    @apply mt-6
+  }
+
+  h3 + * {
+    @apply mt-2
+  }
+
+  h2 + h3 {
+    @apply mt-4
   }
 }
