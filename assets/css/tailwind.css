@@ -5,6 +5,7 @@
 @import './custom-components.css';
 
 @import 'highlightjs/styles/github-gist';
+@import './libraries/hljs.css';
 
 @import 'tailwindcss/utilities';
 @import './custom-utilities.css';
