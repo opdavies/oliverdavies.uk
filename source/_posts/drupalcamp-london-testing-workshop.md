@@ -10,7 +10,7 @@ lead_image:
 
 <p>{{ page.excerpt }}</p>
 
-The subject will be automated testing and test driven development in Drupal 8, and it will be on Friday 13th March 2020, between 9am and 1pm.
+The subject will be automated testing and test driven development in Drupal 8, and it will be on Friday 13th March 2020, between 1pm and 5pm.
 
 In the workshop, I’ll cover the methodology, approaches and terminology involved with automated testing, look at some examples and work through some exercises, and then take a test driven development approach to creating a new Drupal module.
 
