@@ -54,7 +54,7 @@
   }
 
   pre {
-    @apply border-l-3 border-gray-500 text-sm bg-gray-200;
+    @apply border-l-3 border-gray-400 text-sm bg-gray-200;
 
     code {
       @apply p-6 block border-none leading-loose text-sm overflow-x-scroll
