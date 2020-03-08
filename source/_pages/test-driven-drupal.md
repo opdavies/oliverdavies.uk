@@ -6,6 +6,7 @@ contact_email: 'oliver@testdrivendrupal.com'
 
 {% block content %}
 
+<!-- prettier-ignore -->
 <div class="markup spaced-y-4 mb-6" markdown="1">
 Having [given talks][1] and workshops, been a guest on podcasts and [written articles][0] about automated testing in Drupal, I’m currently in the planning phase of a book and potentially some accompanying screencasts about it, focussing on Drupal 8.
 
@@ -49,7 +50,10 @@ and be notified of any updates.**
 
 </div>
 
-{% include 'pages/book/signup-form' %} {% endblock %}
+{% include 'pages/book/signup-form' %}
+
+<!-- prettier-ignore -->
+{% endblock %}
 
 [0]: /articles/tags/testing
 [1]: /talks/tdd-test-driven-drupal

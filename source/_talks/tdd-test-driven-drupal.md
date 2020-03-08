@@ -37,11 +37,14 @@ events:
     time: '14:00 - 14:45'
 ---
 
-{% block content %} Testing is important. Why? It allows developers to add new
-features and edit and refactor existing code without the worry of adding
-regressions, reduces the reliance on manual testing to discover bugs, and by
-taking a test driven approach, your implementation code is leaner as you only
-write what is needed for your tests to pass.
+{% block content %}
+
+<!-- prettier-ignore -->
+Testing is important. Why? It allows developers to add new features and edit and
+refactor existing code without the worry of adding regressions, reduces the
+reliance on manual testing to discover bugs, and by taking a test driven
+approach, your implementation code is leaner as you only write what is needed
+for your tests to pass.
 
 Drupal 7 includes the SimpleTest module for unit and functional testing, whilst
 Drupal 8 also includes and supports PHPUnit - the defacto PHP testing framework,
@@ -53,10 +56,14 @@ to core, or when working on your own projects.
 
 In this talk, we’ll cover the methodology and terminology involved with
 automated testing, and then take a test driven approach to creating a new Drupal
-module. {% endblock %}
+module.
+
+<!-- prettier-ignore -->
+{% endblock %}
 
 {% block tweets %}
 
+<!-- prettier-ignore -->
 <div class="flex flex-wrap -mx-2">
     <div class="w-full sm:w-1/2 lg:w-1/3 px-2 flex flex-col">
         {% include 'tweet' with {
