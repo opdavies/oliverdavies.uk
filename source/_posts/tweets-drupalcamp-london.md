@@ -1,16 +1,27 @@
 ---
 title: Tweets from DrupalCamp London
 date: 2018-03-04
-excerpt: I wasn’t able to make it to DrupalCamp London, but here are some of the tweets that I saw.
+excerpt:
+  I wasn’t able to make it to DrupalCamp London, but here are some of the tweets
+  that I saw.
 tags:
-    - drupal
-    - drupalcamp
-    - drupalcamp-london
+  - drupal
+  - drupalcamp
+  - drupalcamp-london
 has_tweets: true
 ---
-In the end, I wasn’t able to make it to DrupalCamp London because of the heavy snow that’s hit the UK over the last few days. I did though keep a close eye on Twitter and still had good conversations with some of the attendees, so it did feel that in some ways I was still part of the conference.
 
-Thanks to [@ChandeepKhosa](https://twitter.com/ChandeepKhosa), [@OrangePunchUK](https://twitter.com/OrangePunchUK), [@hussainweb](https://twitter.com/hussainweb), [@littlepixiez](https://twitter.com/littlepixiez), [@cferthorney](https://twitter.com/cferthorney) and others for taking the time to tweet whilst enjoying the event.
+In the end, I wasn’t able to make it to DrupalCamp London because of the heavy
+snow that’s hit the UK over the last few days. I did though keep a close eye on
+Twitter and still had good conversations with some of the attendees, so it did
+feel that in some ways I was still part of the conference.
+
+Thanks to [@ChandeepKhosa](https://twitter.com/ChandeepKhosa),
+[@OrangePunchUK](https://twitter.com/OrangePunchUK),
+[@hussainweb](https://twitter.com/hussainweb),
+[@littlepixiez](https://twitter.com/littlepixiez),
+[@cferthorney](https://twitter.com/cferthorney) and others for taking the time
+to tweet whilst enjoying the event.
 
 Here are some of my favourites that I saw, and no snow next year, please!
 

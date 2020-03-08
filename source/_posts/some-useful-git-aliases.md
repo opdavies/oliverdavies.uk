@@ -1,11 +1,15 @@
 ---
 title: Some Useful Git Aliases
 date: 2014-01-15
-excerpt: Here are some bash aliases that I use and find helpful for quickly writing Git and Git Flow commands.
+excerpt:
+  Here are some bash aliases that I use and find helpful for quickly writing Git
+  and Git Flow commands.
 tags:
   - git
 ---
-Here are some bash aliases that I use and find helpful for quickly writing Git and Git Flow commands.
+
+Here are some bash aliases that I use and find helpful for quickly writing Git
+and Git Flow commands.
 
 These should be placed within your `~/.bashrc` or `~/.bash_profile` file:
 

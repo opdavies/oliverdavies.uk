@@ -8,9 +8,13 @@ tags:
   - fonts
   - sass
 ---
-How to use an @each loop in SASS to quickly include multiple font files within your stylesheet.
 
-Using a file structure similar to this, organise your font files into directories, using the the font name for both the directory name and for the file names.
+How to use an @each loop in SASS to quickly include multiple font files within
+your stylesheet.
+
+Using a file structure similar to this, organise your font files into
+directories, using the the font name for both the directory name and for the
+file names.
 
 ```language-bash
 .
@@ -36,7 +40,9 @@ Using a file structure similar to this, organise your font files into directorie
 │   └── FuturaItalic.woff
 ```
 
-Within your SASS file, start an `@each` loop, listing the names of the fonts. In the same way as PHP's `foreach` loop, each font name will get looped through using the `$family` variable and then compiled into CSS.
+Within your SASS file, start an `@each` loop, listing the names of the fonts. In
+the same way as PHP's `foreach` loop, each font name will get looped through
+using the `$family` variable and then compiled into CSS.
 
 ```language-scss
 @each $family in FuturaBook, FuturaBold, FuturaBoldItalic, FuturaItalic {
@@ -53,7 +59,8 @@ Within your SASS file, start an `@each` loop, listing the names of the fonts. In
 }
 ```
 
-When the CSS has been compiled, you can then use in your CSS in the standard way.
+When the CSS has been compiled, you can then use in your CSS in the standard
+way.
 
 ```language-scss
 font-family: "FuturaBook";

@@ -1,40 +1,47 @@
 ---
 title: Having Fun with Drupal 8, PHP libraries and the Drupal.org API
-description: A crash course in developing PHP packages and Drupal 8 modules, based on the Drupal.org API.
+description:
+  A crash course in developing PHP packages and Drupal 8 modules, based on the
+  Drupal.org API.
 speakerdeck:
-    id: 6e42ae9620bb4e91b3955f8c30d66934
-    ratio: '1.77777777777778'
+  id: 6e42ae9620bb4e91b3955f8c30d66934
+  ratio: '1.77777777777778'
 image:
-    url: /images/talks/having-fun-drupalorg-api.png
-    width: 2000
-    height: 1125
-    type: image/png
+  url: /images/talks/having-fun-drupalorg-api.png
+  width: 2000
+  height: 1125
+  type: image/png
 tags:
-    - drupal
-    - drupal-8
-    - drupalorg
-    - php
+  - drupal
+  - drupal-8
+  - drupalorg
+  - php
 video:
-    type: youtube
-    id: JyDjC7gGDpU
+  type: youtube
+  id: JyDjC7gGDpU
 events:
-    - event: drupal_bristol
-      date: 2018-04-18
-      joindin: https://joind.in/talk/14851
-    - event: drupalcamp_london_19
-      date: 2019-03-03
-      time: '12:05 - 12:50'
+  - event: drupal_bristol
+    date: 2018-04-18
+    joindin: https://joind.in/talk/14851
+  - event: drupalcamp_london_19
+    date: 2019-03-03
+    time: '12:05 - 12:50'
 ---
-A overview and demo of some of the open source projects that I’ve been working on lately that are based on information from the Drupal.org API, including a PHP library for the API itself as well as some Drupal 8 modules that use it.
+
+A overview and demo of some of the open source projects that I’ve been working
+on lately that are based on information from the Drupal.org API, including a PHP
+library for the API itself as well as some Drupal 8 modules that use it.
 
 This session will cover various topics including:
 
 - Why would you want to separate your code into reusable packages
-- An overview of how to structure a PHP package (e.g. an API for interacting with Drupal.org)
+- An overview of how to structure a PHP package (e.g. an API for interacting
+  with Drupal.org)
 - How to add a PHP package as a dependency for a Drupal module using Composer
 - How to create routes and services, and use dependency injection in Drupal 8
 - How to use Drupal to configure the packages
-- How to increase performance and reliability by using Drupal's cache system to store API results
+- How to increase performance and reliability by using Drupal's cache system to
+  store API results
 
 ## Links
 

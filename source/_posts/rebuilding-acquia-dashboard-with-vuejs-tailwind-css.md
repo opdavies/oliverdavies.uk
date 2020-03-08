@@ -2,33 +2,45 @@
 title: Rebuilding Acquia’s Dashboard with Vue.js and Tailwind CSS
 excerpt: How I rebuilt Acquia’s dashboard using Vue.js and Tailwind CSS.
 tags:
-    - drupal
-    - tailwind-css
-    - tweet
-    - vuejs
+  - drupal
+  - tailwind-css
+  - tweet
+  - vuejs
 draft: true
 promoted: true
 ---
-After [rebuilding Drupal’s Bartik theme](/blog/rebuilding-bartik-with-vuejs-tailwind-css), I’ve now used [Vue.js][vue] and [Tailwind CSS][tailwind] to rebuild another Drupal related UI - this time it’s [Acquia’s](https://www.acquia.com) web hosting dashboard. Again, you can [view the site on Netlify][netlify] and [the code on GitHub][github].
+
+After
+[rebuilding Drupal’s Bartik theme](/blog/rebuilding-bartik-with-vuejs-tailwind-css),
+I’ve now used [Vue.js][vue] and [Tailwind CSS][tailwind] to rebuild another
+Drupal related UI - this time it’s [Acquia’s](https://www.acquia.com) web
+hosting dashboard. Again, you can [view the site on Netlify][netlify] and [the
+code on GitHub][github].
 
 ## Why?
 
-The same as the Bartik rebuild, this was a good opportunity for me to gain more experience with new technologies - Vue in particular - and to provide another demonstration of how Tailwind CSS can be used.
+The same as the Bartik rebuild, this was a good opportunity for me to gain more
+experience with new technologies - Vue in particular - and to provide another
+demonstration of how Tailwind CSS can be used.
 
-Like the Bartik clone, this was originally going to be another single page rebuild, however after completing the first page I decided to expand it to include three pages which also gave me the opportunity to use [Vue Router](https://router.vuejs.org) - something that I had not used previously - and to organise a multi-page Vue application.
+Like the Bartik clone, this was originally going to be another single page
+rebuild, however after completing the first page I decided to expand it to
+include three pages which also gave me the opportunity to use
+[Vue Router](https://router.vuejs.org) - something that I had not used
+previously - and to organise a multi-page Vue application.
 
 ## Configuring Vue Router
 
 `src/router/index.js`:
 
 ```js
-import Vue from 'vue'
-import Router from 'vue-router'
-import Applications from '@/views/Applications'
-import Environment from '@/views/Environment'
-import Environments from '@/views/Environments'
+import Vue from 'vue';
+import Router from 'vue-router';
+import Applications from '@/views/Applications';
+import Environment from '@/views/Environment';
+import Environments from '@/views/Environments';
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
@@ -48,9 +60,9 @@ export default new Router({
       name: 'environment',
       component: Environment,
       props: true,
-    }
-  ]
-})
+    },
+  ],
+});
 ```
 
 ## Passing in data
@@ -103,9 +115,10 @@ export default new Router({
 
 ## The Environments page
 
-This was the first page that I rebuilt - the Environments page for an application that shows the information of the different configured environments.
+This was the first page that I rebuilt - the Environments page for an
+application that shows the information of the different configured environments.
 
-Vue Router is configured to show the 
+Vue Router is configured to show the
 
 {% include 'figure' with {
     image: {

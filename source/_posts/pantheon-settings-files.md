@@ -8,9 +8,14 @@ tags:
   - pantheon
   - settings.php
 ---
-I was recently doing some work on a site hosted on [Pantheon](http://getpantheon.com) and came across an issue, for which part of the suggested fix was to ensure that the `$base_url` variable was explicitly defined within settings.php (this is also best practice on all Drupal sites).
 
-The way that was recommended was by using a `switch()` function based on Pantheon's environment variable. For example:
+I was recently doing some work on a site hosted on
+[Pantheon](http://getpantheon.com) and came across an issue, for which part of
+the suggested fix was to ensure that the `$base_url` variable was explicitly
+defined within settings.php (this is also best practice on all Drupal sites).
+
+The way that was recommended was by using a `switch()` function based on
+Pantheon's environment variable. For example:
 
 ```language-php
 switch ($_SERVER['PANTHEON_ENVIRONMENT']) {
@@ -33,9 +38,13 @@ switch ($_SERVER['PANTHEON_ENVIRONMENT']) {
 }
 ```
 
-Whilst this works, it doesn't conform to the DRY (don't repeat yourself) principle and means that you also might get a rather long and complicated settings file, especially when you start using multiple switches and checking for the value of the environment multiple times.
+Whilst this works, it doesn't conform to the DRY (don't repeat yourself)
+principle and means that you also might get a rather long and complicated
+settings file, especially when you start using multiple switches and checking
+for the value of the environment multiple times.
 
-My alternative solution to this is to include an environment-specific settings file.
+My alternative solution to this is to include an environment-specific settings
+file.
 
 To do this, add the following code to the bottom of settings.php:
 
@@ -55,11 +64,20 @@ if (isset($_SERVER['PANTHEON_ENVIRONMENT'])) {
 }
 ```
 
-This means that rather than having one long file, each environment has it's own dedicated settings file that contains it's own additional configuration. This is much easier to read and make changes to, and also means that less code is loaded and parsed by PHP. Settings that apply to all environments are still added to settings.php.
+This means that rather than having one long file, each environment has it's own
+dedicated settings file that contains it's own additional configuration. This is
+much easier to read and make changes to, and also means that less code is loaded
+and parsed by PHP. Settings that apply to all environments are still added to
+settings.php.
 
-Below this, I also include a [similar piece of code](/blog/include-local-drupal-settings-file-environment-configuration-and-overrides/) to include a settings.local.php file. The settings.php file then gets committed into the [Git](http://git-scm.com) repository.
+Below this, I also include a
+[similar piece of code](/blog/include-local-drupal-settings-file-environment-configuration-and-overrides/)
+to include a settings.local.php file. The settings.php file then gets committed
+into the [Git](http://git-scm.com) repository.
 
-Within the sites/default directory, I also include an example file (example.settings.env.php) for reference. This is duplicated, renamed and populated accordingly.
+Within the sites/default directory, I also include an example file
+(example.settings.env.php) for reference. This is duplicated, renamed and
+populated accordingly.
 
 ```language-php
 <?php
@@ -78,4 +96,5 @@ Within the sites/default directory, I also include an example file (example.sett
 $base_url = '';
 ```
 
-The environment specific files are also committed into Git and pushed to Pantheon, and are then included automatically on each environment.
+The environment specific files are also committed into Git and pushed to
+Pantheon, and are then included automatically on each environment.

@@ -9,6 +9,7 @@ tags:
   - apache
   - mod_rewrite
 ---
+
 How to use the .htaccess file to forward to a different domain.
 
 Within the mod_rewrite section of your .htaccess file, add the following lines:
@@ -18,7 +19,8 @@ RewriteCond %{HTTP_HOST} ^yoursite\.co\.uk$
 RewriteRule (.*) http://yoursite.com/$1 [R=301,L]
 ```
 
-This automatically forwards any users from http://yoursite.co.uk to http://yoursite.com. This can also be used to forward multiple domains:
+This automatically forwards any users from http://yoursite.co.uk to
+http://yoursite.com. This can also be used to forward multiple domains:
 
 ```language-apacheconf
 RewriteCond %{HTTP_HOST} ^yoursite\.co\.uk$ [OR]

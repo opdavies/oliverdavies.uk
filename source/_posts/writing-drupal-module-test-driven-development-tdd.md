@@ -2,35 +2,43 @@
 title: Writing a new Drupal 8 Module using Test Driven Development (TDD)
 date: 2017-11-07
 tags: [drupal, testing, tdd, simpletest, phpunit]
-excerpt: How to write automated tests and follow test driven development for Drupal modules.
+excerpt:
+  How to write automated tests and follow test driven development for Drupal
+  modules.
 meta:
-    image:
-        url: /images/talks/test-driven-drupal-development.png
-        width: 2560
-        height: 1440
-        type: image/png
+  image:
+    url: /images/talks/test-driven-drupal-development.png
+    width: 2560
+    height: 1440
+    type: image/png
 promoted: true
 ---
+
 <p class="text-center" markdown="1">![](/images/blog/drupalcamp-dublin.jpg)</p>
 
-I recently gave a [talk on automated testing in Drupal][0] talk at [DrupalCamp Dublin][1] and as a lunch and learn session for my colleagues at Microserve. As part of the talk, I gave an example of how to build a Drupal 8 module using a test driven approach. I’ve released the [module code on GitHub][2], and this post outlines the steps of the process.
+I recently gave a [talk on automated testing in Drupal][0] talk at [DrupalCamp
+Dublin][1] and as a lunch and learn session for my colleagues at Microserve. As
+part of the talk, I gave an example of how to build a Drupal 8 module using a
+test driven approach. I’ve released the [module code on GitHub][2], and this
+post outlines the steps of the process.
 
 ## Prerequisites
 
-You have created a `core/phpunit.xml` file based on `core/phpunit.xml.dist`, and populated it with your database credentials so that PHPUnit can bootstrap the Drupal database as part of the tests. [Here is an example][5].
+You have created a `core/phpunit.xml` file based on `core/phpunit.xml.dist`, and
+populated it with your database credentials so that PHPUnit can bootstrap the
+Drupal database as part of the tests. [Here is an example][5].
 
 ## Acceptance Criteria
 
 For the module, we are going to satisfy this example acceptance criteria:
 
-> As a site visitor,<br>
-> I want to see all published pages at /pages<br>
-> Ordered alphabetically by title
+> As a site visitor,<br> I want to see all published pages at /pages<br> Ordered
+> alphabetically by title
 
 ## Initial Setup
 
-Let’s start by writing the minimal code needed in order for the new module to
-be enabled. In Drupal 8, this is the `.info.yml` file.
+Let’s start by writing the minimal code needed in order for the new module to be
+enabled. In Drupal 8, this is the `.info.yml` file.
 
 ```language-yaml
 # tdd_dublin.info.yml
@@ -41,7 +49,11 @@ core: 8.x
 type: module
 ```
 
-We can also add the test file structure at this point too. We’ll call it `PageTestTest.php` and put it within a `tests/src/Functional` directory. As this is a functional test, it extends the `BrowserTestBase` class, and we need to ensure that the tdd_dublin module is enabled by adding it to the `$modules` array.
+We can also add the test file structure at this point too. We’ll call it
+`PageTestTest.php` and put it within a `tests/src/Functional` directory. As this
+is a functional test, it extends the `BrowserTestBase` class, and we need to
+ensure that the tdd_dublin module is enabled by adding it to the `$modules`
+array.
 
 ```language-php
 // tests/src/Functional/PageListTest.php
@@ -63,9 +75,12 @@ With this in place, we can now start adding test methods.
 
 ### Writing the First Test
 
-Let’s start by testing that the listing page exists at /pages. We can do this by loading the page and checking the status code. If the page exists, the code will be 200, otherwise it will be 404.
+Let’s start by testing that the listing page exists at /pages. We can do this by
+loading the page and checking the status code. If the page exists, the code will
+be 200, otherwise it will be 404.
 
-I usually like to write comments first within the test method, just to outline the steps that I'm going to take and then replace it with code.
+I usually like to write comments first within the test method, just to outline
+the steps that I'm going to take and then replace it with code.
 
 ```language-php
 public function testListingPageExists() {
@@ -74,19 +89,24 @@ public function testListingPageExists() {
 }
 ```
 
-We can use the `drupalGet()` method to browse to the required path, i.e. `/pages`, and then write an assertion for the response code value.
+We can use the `drupalGet()` method to browse to the required path, i.e.
+`/pages`, and then write an assertion for the response code value.
 
 ```language-php
 public function testListingPageExists() {
   $this->drupalGet('pages');
-  
+
   $this->assertSession()->statusCodeEquals(200);
 }
 ```
 
 ### Running the Test
 
-In order to run the tests, you either need to include `-c core` or be inside the `core` directory when running the command, to ensure that the test classes are autoloaded so can be found, though the path to the `vendor` directory may be different depending on your project structure. You can also specify a path within which to run the tests - e.g. within the module’s `test` directory.
+In order to run the tests, you either need to include `-c core` or be inside the
+`core` directory when running the command, to ensure that the test classes are
+autoloaded so can be found, though the path to the `vendor` directory may be
+different depending on your project structure. You can also specify a path
+within which to run the tests - e.g. within the module’s `test` directory.
 
 ```language-plain
 $ vendor/bin/phpunit -c core modules/custom/tdd_dublin/tests
@@ -104,23 +124,34 @@ FAILURES!
 Tests: 1, Assertions: 1, Errors: 1.
 ```
 
-Because the route does not yet exist, the response code returned is 404, so the test fails.
+Because the route does not yet exist, the response code returned is 404, so the
+test fails.
 
-Now we can make it pass by adding the page. For this, I will use the Views module, though you could achieve the same result with a custom route and a Controller.
+Now we can make it pass by adding the page. For this, I will use the Views
+module, though you could achieve the same result with a custom route and a
+Controller.
 
 ### Building the View
 
-To begin with, I will create a view showing all types of content with a default sort order of newest first. We will use further tests to ensure that only the correct content is returned and that it is ordered correctly.
+To begin with, I will create a view showing all types of content with a default
+sort order of newest first. We will use further tests to ensure that only the
+correct content is returned and that it is ordered correctly.
 
 ![](/images/blog/tdd-drupal-1.png) { .with-border }
 
-The only addition I will make to the view is to add a path at `pages`, as per the acceptance criteria.
+The only addition I will make to the view is to add a path at `pages`, as per
+the acceptance criteria.
 
 ![](/images/blog/tdd-drupal-2.png) { .with-border }
 
 ### Exporting the View
 
-With the first version of the view built, it needs to be incldued within the module so that it can be enabled when the test is run. To do this, we need to export the configuration for the view, and place it within the module’s `config/install` directory. This can be done using the `drush config-export` command or from within the Drupal UI. In either case, the `uid` line at the top of the file needs to be removed so the configuration can be installed.
+With the first version of the view built, it needs to be incldued within the
+module so that it can be enabled when the test is run. To do this, we need to
+export the configuration for the view, and place it within the module’s
+`config/install` directory. This can be done using the `drush config-export`
+command or from within the Drupal UI. In either case, the `uid` line at the top
+of the file needs to be removed so the configuration can be installed.
 
 Here is the exported view configuration:
 
@@ -313,7 +344,8 @@ display:
       tags: {  }
 ```
 
-When the test is run again, we see a different error that leads us to the next step.
+When the test is run again, we see a different error that leads us to the next
+step.
 
 ```language-plain
 1) Drupal\Tests\tdd_dublin\Functional\PageListTest::testListingPageExists
@@ -323,7 +355,10 @@ FAILURES!
 Tests: 1, Assertions: 0, Errors: 1.
 ```
 
-This error is identifying unmet dependencies within the module’s configuration. In this case, the view that we’ve added depends on the node and views modules, but these aren’t enabled. To fix this, we can add the extra modules as dependencies of tdd_dublin so they will be enabled too.
+This error is identifying unmet dependencies within the module’s configuration.
+In this case, the view that we’ve added depends on the node and views modules,
+but these aren’t enabled. To fix this, we can add the extra modules as
+dependencies of tdd_dublin so they will be enabled too.
 
 ```language-yaml
 # tdd_dublin.info.yml
@@ -341,7 +376,10 @@ FAILURES!
 Tests: 1, Assertions: 0, Errors: 1.
 ```
 
-With the modules enabled, we can see one more unmet dependency for `node.type.page`. This means that we need a page content type to be able to install the view. We can fix this in the same way as before, by exporting the configuration and copying it into the `config/install` directory.
+With the modules enabled, we can see one more unmet dependency for
+`node.type.page`. This means that we need a page content type to be able to
+install the view. We can fix this in the same way as before, by exporting the
+configuration and copying it into the `config/install` directory.
 
 With this in place, the test should now pass - and it does.
 
@@ -357,12 +395,14 @@ We now have a test to ensure that the listing page exists.
 
 ### Writing the Test
 
-Now that we have a working page, we can now move on to checking that the correct content is returned. Again, I’ll start by writing comments and then translate that into code.
+Now that we have a working page, we can now move on to checking that the correct
+content is returned. Again, I’ll start by writing comments and then translate
+that into code.
 
 The objectives of this test are:
 
-* To ensure that only page nodes are returned.
-* To ensure that only published nodes are returned.
+- To ensure that only page nodes are returned.
+- To ensure that only published nodes are returned.
 
 ```language-php
 public function testOnlyPublishedPagesAreShown() {
@@ -375,12 +415,14 @@ public function testOnlyPublishedPagesAreShown() {
 }
 ```
 
-In order to test the different scenarios, I will create an additional "article" content type, create a node of this type as well as one published and one unpublished page. From this combination, I only expect one node to be visible.
+In order to test the different scenarios, I will create an additional "article"
+content type, create a node of this type as well as one published and one
+unpublished page. From this combination, I only expect one node to be visible.
 
 ```language-php
 public function testOnlyPublishedPagesAreShown() {
   $this->drupalCreateContentType(['type' => 'article']);
-  
+
   $this->drupalCreateNode(['type' => 'page', 'status' => TRUE]);
   $this->drupalCreateNode(['type' => 'article']);
   $this->drupalCreateNode(['type' => 'page', 'status' => FALSE]);
@@ -391,45 +433,57 @@ public function testOnlyPublishedPagesAreShown() {
 }
 ```
 
-We could use `drupalGet()` again to browse to the page and write assertions based on the rendered HTML, though I’d rather do this against the data returned from the view itself. This is so that the test isn’t too tightly coupled to the presentation logic, and we won’t be in a situation where at a later date the test fails because of changes made to how the data is displayed.
+We could use `drupalGet()` again to browse to the page and write assertions
+based on the rendered HTML, though I’d rather do this against the data returned
+from the view itself. This is so that the test isn’t too tightly coupled to the
+presentation logic, and we won’t be in a situation where at a later date the
+test fails because of changes made to how the data is displayed.
 
-Rather, I’m going to use `views_get_view_result()` to programmatically get the result of the view. This returns an array of `Drupal\views\ResultRow` objects, which contain the nodes. I can use `array_column` to extract the node IDs from the view result into an array.
+Rather, I’m going to use `views_get_view_result()` to programmatically get the
+result of the view. This returns an array of `Drupal\views\ResultRow` objects,
+which contain the nodes. I can use `array_column` to extract the node IDs from
+the view result into an array.
 
 ```language-php
 public function testOnlyPublishedPagesAreShown() {
   $this->drupalCreateContentType(['type' => 'article']);
-  
+
   $this->drupalCreateNode(['type' => 'page', 'status' => TRUE]);
   $this->drupalCreateNode(['type' => 'article']);
   $this->drupalCreateNode(['type' => 'page', 'status' => FALSE]);
-  
+
   $result = views_get_view_result('pages');
   $nids = array_column($result, 'nid');
-  
+
   // Then I should only see the published pages.
 }
 ```
 
-From the generated nodes, I can use `assertEquals()` to compare the returned node IDs from the view against an array of expected node IDs - in this case, I expect only node 1 to be returned.
+From the generated nodes, I can use `assertEquals()` to compare the returned
+node IDs from the view against an array of expected node IDs - in this case, I
+expect only node 1 to be returned.
 
 ```language-php
 public function testOnlyPublishedPagesAreShown() {
   $this->drupalCreateContentType(['type' => 'article']);
-  
+
   $this->drupalCreateNode(['type' => 'page', 'status' => TRUE]);
   $this->drupalCreateNode(['type' => 'article']);
   $this->drupalCreateNode(['type' => 'page', 'status' => FALSE]);
-  
+
   $result = views_get_view_result('pages');
   $nids = array_column($result, 'nid');
-  
+
   $this->assertEquals([1], $nids);
 }
 ```
 
 ### Running the Test
 
-The test fails as no extra conditions have been added to the view, though the default "Content: Published" filter is already excluding one of the page nodes. We can see from the output from the test that node 1 (a page) and node 2 (the article) are both being returned.
+The test fails as no extra conditions have been added to the view, though the
+default "Content: Published" filter is already excluding one of the page nodes.
+We can see from the output from the test that node 1 (a page) and node 2 (the
+article) are both being returned.
 
 ```language-plain
 1) Drupal\Tests\tdd_dublin\Functional\PageListTest::testOnlyPublishedPagesAreShown
@@ -449,11 +503,13 @@ Tests: 1, Assertions: 3, Failures: 1.
 
 ### Updating the Test
 
-We can fix this by adding another condition to the view, to only show content based on the node type - i.e. only return page nodes.
+We can fix this by adding another condition to the view, to only show content
+based on the node type - i.e. only return page nodes.
 
 ![](/images/blog/tdd-drupal-3.png) { .with-border }
 
-Once the view is updated and the configuration is updated within the module, the test should then pass - and it does.
+Once the view is updated and the configuration is updated within the module, the
+test should then pass - and it does.
 
 ```language-plain
 Time: 24.76 seconds, Memory: 6.00MB
@@ -465,7 +521,9 @@ OK (1 test, 3 assertions)
 
 ### Writing the Test
 
-As we know that the correct content is being returned, we can now focus on displaying it in the correct order. We’ll start again by adding a new test method and filling out the comments.
+As we know that the correct content is being returned, we can now focus on
+displaying it in the correct order. We’ll start again by adding a new test
+method and filling out the comments.
 
 ```language-php
 public function testResultsAreOrderedAlphabetically() {
@@ -477,7 +535,10 @@ public function testResultsAreOrderedAlphabetically() {
 }
 ```
 
-To begin with this time, I’ll create a number of different nodes and specify the title for each. These are intentionally in the incorrect order alphabetically so that we can see the test fail initially and then see it pass after making a change so we know that the change worked.
+To begin with this time, I’ll create a number of different nodes and specify the
+title for each. These are intentionally in the incorrect order alphabetically so
+that we can see the test fail initially and then see it pass after making a
+change so we know that the change worked.
 
 ```language-php
 public function testResultsAreOrderedAlphabetically() {
@@ -485,14 +546,17 @@ public function testResultsAreOrderedAlphabetically() {
   $this->drupalCreateNode(['title' => 'Page D']);
   $this->drupalCreateNode(['title' => 'Page C']);
   $this->drupalCreateNode(['title' => 'Page B']);
- 
+
   // When I view the pages list.
- 
+
   // Then I should see pages in the correct order.
 }
 ```
 
-We can use the same method as the previous test to get the returned IDs, using `views_get_view_result()` and `array_column()`, and assert that the returned node IDs match the expected node IDs in the specified order. Based on the defined titles, the order should be 1, 4, 3, 2.
+We can use the same method as the previous test to get the returned IDs, using
+`views_get_view_result()` and `array_column()`, and assert that the returned
+node IDs match the expected node IDs in the specified order. Based on the
+defined titles, the order should be 1, 4, 3, 2.
 
 ```language-php
 public function testResultsAreOrderedAlphabetically() {
@@ -500,20 +564,24 @@ public function testResultsAreOrderedAlphabetically() {
   $this->drupalCreateNode(['title' => 'Page D']);
   $this->drupalCreateNode(['title' => 'Page C']);
   $this->drupalCreateNode(['title' => 'Page B']);
-  
+
   $nids = array_column(views_get_view_result('pages'), 'nid');
-  
+
   $this->assertEquals([1, 4, 3, 2], $nids);
 }
 ```
 
 ### Running the Test
 
-As expected the test fails, as the default sort criteria in the view orders the results by their created date.
+As expected the test fails, as the default sort criteria in the view orders the
+results by their created date.
 
-In the test output, we can see the returned results are in sequential order so the results array does not match the expected one.
+In the test output, we can see the returned results are in sequential order so
+the results array does not match the expected one.
 
-This would be particularly more complicated to test if I was using `drupalGet()` and having to parse the HTML, compared to getting the results as an array from the view programmatically.
+This would be particularly more complicated to test if I was using `drupalGet()`
+and having to parse the HTML, compared to getting the results as an array from
+the view programmatically.
 
 ```language-plain
 1) Drupal\Tests\tdd_dublin\Functional\PageListTest::testResultsAreOrderedAlphabetically
@@ -538,11 +606,13 @@ Tests: 1, Assertions: 2, Failures: 1.
 
 ### Updating the Test
 
-This can be fixed by removing the default sort criteria and adding a new one based on "Content: Title".
+This can be fixed by removing the default sort criteria and adding a new one
+based on "Content: Title".
 
 ![](/images/blog/tdd-drupal-4.png) { .with-border }
 
-Again, once the view has been updated and exported, the test should pass - and it does.
+Again, once the view has been updated and exported, the test should pass - and
+it does.
 
 ```language-plain
 Time: 27.55 seconds, Memory: 6.00MB
@@ -552,7 +622,9 @@ OK (1 test, 2 assertions)
 
 ## Ensure all Tests Still Pass
 
-Now we know that all the tests pass individually, all of the module tests should now be run to ensure that they all still pass and that there have been no regressions due to any of the changes.
+Now we know that all the tests pass individually, all of the module tests should
+now be run to ensure that they all still pass and that there have been no
+regressions due to any of the changes.
 
 ```language-plain
 docker@cli:/var/www$ vendor/bin/phpunit -c core modules/custom/tdd_dublin/tests
@@ -565,11 +637,18 @@ Time: 1.27 minutes, Memory: 6.00MB
 OK (3 tests, 6 assertions)
 ```
 
-They all pass, so we be confident that the code works as expected, we can continue to refactor if needed, and if any changes are made to this module at a later date, we have the tests to ensure that any regressions are caught and fixed before deployment.
+They all pass, so we be confident that the code works as expected, we can
+continue to refactor if needed, and if any changes are made to this module at a
+later date, we have the tests to ensure that any regressions are caught and
+fixed before deployment.
 
 ## Next Steps
 
-I’ve started looking into whether some of the tests can be rewritten as kernel tests, which should result in quicker test execution. I will post any updated code to the [GitHub repository][3], and will also do another blog post highlighting the differences between functional and kernel tests and the steps taken to do the conversion.
+I’ve started looking into whether some of the tests can be rewritten as kernel
+tests, which should result in quicker test execution. I will post any updated
+code to the [GitHub repository][3], and will also do another blog post
+highlighting the differences between functional and kernel tests and the steps
+taken to do the conversion.
 
 [0]: {{site.url}}/talks/tdd-test-driven-drupal
 [1]: http://2017.drupal.ie
