@@ -1,5 +1,5 @@
 ---
-title: Using Drupal 8.8 with Symfony Local Server
+title: Running Drupal 8.8 with the Symfony Local Server
 date: ~
 tags: [drupal, drupal-8, symfony]
 draft: true
@@ -11,36 +11,49 @@ https://symfony.com/doc/current/setup/symfony_server.html
 
 ## Installation
 
+The Symfony server is bundled as part of the `symfony` binary that is available to download from <https://symfony.com/download>.
+
+To install it, run this command:
+
+```bash
+curl -sS https://get.symfony.com/cli/installer | bash
+```
+
+It works with any project, not just Symfony.
+
 ## Different PHP Versions
 
-One of the most interesting features of the Symfony server is that it [supports multiple versions of PHP](https://symfony.com/doc/current/setup/symfony_server.html#different-php-settings-per-project) if you have them installed (e.g. via Homebrew), and setting different versions on any directory.
-
-As I work on different projects with have different requirements, this is a must for me.
+One of the most useful features of the Symfony server is that it [supports multiple versions of PHP](https://symfony.com/doc/current/setup/symfony_server.html#different-php-settings-per-project) if you have them installed (e.g. via Homebrew on macOS), and a different version can be selected per directory.
 
 This is done simply by adding a `.php-version` file to the root of the project that contains the PHP version to use - e.g. `7.3`.
 
+Next time the server is started, this file will be read and the correct version of PHP will be used.
+
 [Further PHP customisations can be made per project](https://symfony.com/doc/current/setup/symfony_server.html#overriding-php-config-options-per-project)  by adding a `php.ini` file.
 
-## Secure Sites Locally
+## Securing Sites Locally
 
-`symfony server:ca:install`
+The Symfony server allows for serving sites via HTTPS by installing its own local certificate authority.
 
-`symfony serve --no-tls`
+To install it, run this command:
 
-## Custom Domain Names
+```
+symfony server:ca:install
+```
 
-https://symfony.com/doc/current/setup/symfony_server.html#local-domain-names
+Any HTTP traffic will be automatically redirected to HTTPS.
 
-`symfony proxy:domain:attach dransible`
+If you then need to run a site with just HTTP, add the `--no-tls` option to the `server:start` command.
 
 ## Adding Databases with Docker
 
-The Symfony server has an integration with Docker for providing extra services such as databases that we’ll need for Drupal.
+The Symfony server has an integration with Docker for providing extra services - such as databases that we’ll need for Drupal.
 
 This is my `docker-compose.yaml` file which defines a `database` service for MySQL:
 
 ```yaml
 version: '2.1'
+
 services:
   database:
     image: mysql:5.7
@@ -49,11 +62,14 @@ services:
       MYSQL_ROOT_PASSWORD: secret
     volumes:
       - mysql-data:/var/lib/mysql
+
 volumes:
   mysql-data:
 ```
 
-Because port 3306 is exposed, the server recognises it as a database service and automatically creates environment variables prefixed with `DATABASE_`. These can be seen by running `symfony var:export`.
+ Because port 3306 is exposed, the server recognises it as a database service and automatically creates environment variables prefixed with `DATABASE_`.
+ 
+ A list of all the environment variables can be seen by running `symfony var:export`:
 
 ```dotenv
 DATABASE_DATABASE=main
@@ -100,3 +116,9 @@ if ($_SERVER['SYMFONY_DOCKER_ENV']) {
 > Error: Class 'Drush\Sql\Sql' not found in Drush\Sql\SqlBase::getInstance()
 
 `symfony php ../vendor/bin/drush st`
+
+## Custom Domain Names
+
+https://symfony.com/doc/current/setup/symfony_server.html#local-domain-names
+
+`symfony proxy:domain:attach dransible`
