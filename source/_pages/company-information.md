@@ -9,6 +9,6 @@ use: [posts]
 
 Company name : Oliver Davies Ltd (previously Oliver Davies Web Development Ltd)
 
-Registered address : 106 Rowan Way, Malpas, Newport, NP20 6JN
+Registered address : 3 Westfield Close, Caerleon, Newport, NP18 3ED
 
 Company number : 8017706
