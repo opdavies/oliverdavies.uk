@@ -1,13 +1,25 @@
 ---
 title: My Sublime Text 2 settings
 date: 2012-10-25
-excerpt: <a href="http://www.sublimetext.com/2" title="Sublime Text 2">Sublime Text 2</a> has been my text editor of choice for the past few months, and I use it at home, in work, and on any virtual machines that I run. So rather than having to manually re-enter my settings each time, I thought that I'd document them here for future reference.
+excerpt:
+  <a href="http://www.sublimetext.com/2" title="Sublime Text 2">Sublime Text
+  2</a> has been my text editor of choice for the past few months, and I use it
+  at home, in work, and on any virtual machines that I run. So rather than
+  having to manually re-enter my settings each time, I thought that I'd document
+  them here for future reference.
 tags:
   - sublime-text
 ---
-[Sublime Text 2](http://www.sublimetext.com/2) has been my text editor of choice for the past few months, and I use it at home, in work, and on any virtual machines that I run. So rather than having to manually re-enter my settings each time, I thought that I'd document them here for future reference.
 
-These preferences ensure that the code is compliant with [Drupal coding standards](http://drupal.org/coding-standards "Drupal coding standards on Drupal.org") - using two spaces instead of a tab, no trailing whitespace, blank line at the end of a file etc.
+[Sublime Text 2](http://www.sublimetext.com/2) has been my text editor of choice
+for the past few months, and I use it at home, in work, and on any virtual
+machines that I run. So rather than having to manually re-enter my settings each
+time, I thought that I'd document them here for future reference.
+
+These preferences ensure that the code is compliant with
+[Drupal coding standards](http://drupal.org/coding-standards 'Drupal coding standards on Drupal.org') -
+using two spaces instead of a tab, no trailing whitespace, blank line at the end
+of a file etc.
 
 ## Preferences
 
@@ -91,9 +103,9 @@ These can be changed by going to Preferences > Key Bindings - User.
 
 These are the packages that I currently have installed.
 
-* [DocBlockr](https://github.com/spadgos/sublime-jsdocs "DocBlockr on GitHub")
-* [Drupal API](https://github.com/BrianGilbert/Sublime-Text-2-Goto-Drupal-API)
-* [LESS](https://github.com/danro/LESS-sublime)
-* [Package Control](http://wbond.net/sublime_packages/package_control)
-* [Sublime CodeIntel](http://github.com/Kronuz/SublimeCodeIntel)
-* [Theme - Soda](https://github.com/buymeasoda/soda-theme)
+- [DocBlockr](https://github.com/spadgos/sublime-jsdocs 'DocBlockr on GitHub')
+- [Drupal API](https://github.com/BrianGilbert/Sublime-Text-2-Goto-Drupal-API)
+- [LESS](https://github.com/danro/LESS-sublime)
+- [Package Control](http://wbond.net/sublime_packages/package_control)
+- [Sublime CodeIntel](http://github.com/Kronuz/SublimeCodeIntel)
+- [Theme - Soda](https://github.com/buymeasoda/soda-theme)

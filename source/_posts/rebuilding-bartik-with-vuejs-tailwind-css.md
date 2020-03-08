@@ -3,13 +3,16 @@ title: Rebuilding Bartik (Drupal’s Default Theme) with Vue.js and Tailwind CSS
 date: 2018-11-20
 excerpt: How I rebuilt Drupal’s Bartik theme using Vue.js and Tailwind CSS.
 tags:
-    - drupal
-    - tailwind-css
-    - tweet
-    - vuejs
+  - drupal
+  - tailwind-css
+  - tweet
+  - vuejs
 has_tweets: true
 ---
-Earlier this week, I built a clone of [Drupal][0]’s default theme, Bartik, with [Vue.js][1] and [Tailwind CSS][2]. You can [view the code on GitHub][3] and the [site itself on Netlify][4].
+
+Earlier this week, I built a clone of [Drupal][0]’s default theme, Bartik, with
+[Vue.js][1] and [Tailwind CSS][2]. You can [view the code on GitHub][3] and the
+[site itself on Netlify][4].
 
 {% include 'tweet' with {
     content: '<p lang="en" dir="ltr">I built a clone of Bartik, <a href="https://twitter.com/hashtag/Drupal?src=hash&amp;ref_src=twsrc%5Etfw">#Drupal</a>&#39;s default theme, with <a href="https://twitter.com/vuejs?ref_src=twsrc%5Etfw">@vuejs</a> and <a href="https://twitter.com/tailwindcss?ref_src=twsrc%5Etfw">@tailwindcss</a>. See the result at <a href="https://t.co/nPsTt2cawL">https://t.co/nPsTt2cawL</a>, and the code at <a href="https://t.co/Dn8eysV4gf">https://t.co/Dn8eysV4gf</a>.<br><br>Blog post coming soon... <a href="https://t.co/7BgqjmkCX0">pic.twitter.com/7BgqjmkCX0</a></p>&mdash; Oliver Davies (@opdavies) <a href="https://twitter.com/opdavies/status/1064906717392191488?ref_src=twsrc%5Etfw">November 20, 2018</a>',
@@ -18,19 +21,43 @@ Earlier this week, I built a clone of [Drupal][0]’s default theme, Bartik, wit
 
 ## Why build a Bartik clone?
 
-I’m a big fan of utility based styling and Tailwind CSS in particular, I was and originally thinking of a way to more easily integrate Tailwind within Drupal - something like I’ve since done with the [Tailwind CSS starter kit theme][5]. Whilst thinking about that, I wondered about doing the opposite - rebuilding Drupal (or Bartik) with Tailwind.
+I’m a big fan of utility based styling and Tailwind CSS in particular, I was and
+originally thinking of a way to more easily integrate Tailwind within Drupal -
+something like I’ve since done with the [Tailwind CSS starter kit theme][5].
+Whilst thinking about that, I wondered about doing the opposite - rebuilding
+Drupal (or Bartik) with Tailwind.
 
-Others including [Adam Wathan](https://adamwathan.me) (one of the creators of Tailwind CSS) have rebuilt existing UIs like Netlify, YouTube, Twitter, Coinbase and Transistor.fm with Tailwind as an opportunity for learning and also to demonstrate using Tailwind - this was my opportunity to do the same.
+Others including [Adam Wathan](https://adamwathan.me) (one of the creators of
+Tailwind CSS) have rebuilt existing UIs like Netlify, YouTube, Twitter, Coinbase
+and Transistor.fm with Tailwind as an opportunity for learning and also to
+demonstrate using Tailwind - this was my opportunity to do the same.
 
-Whilst [Drupal itself has adoped React](https://dri.es/drupal-looking-to-adopt-react), I’ve personally been looking into Vue.js and have used it for some small personal projects, including some elements of the site. So I decided to use Vue for the interactive parts of my Bartik clone to create a fully functional clone rather than focussing only on the CSS.
+Whilst
+[Drupal itself has adoped React](https://dri.es/drupal-looking-to-adopt-react),
+I’ve personally been looking into Vue.js and have used it for some small
+personal projects, including some elements of the site. So I decided to use Vue
+for the interactive parts of my Bartik clone to create a fully functional clone
+rather than focussing only on the CSS.
 
 ## Building a static template with Tailwind
 
-The first stage was to build the desktop version, which was done as a simple HTML file with Tailwind CSS pulled in from it’s CDN. This stage took just over an hour to complete.
+The first stage was to build the desktop version, which was done as a simple
+HTML file with Tailwind CSS pulled in from it’s CDN. This stage took just over
+an hour to complete.
 
-As Tailwind was added via a CDN, there was no opportunity to customise it’s configuration, so I needed to use to Tailwind’s default configuration for colours, padding, spacing, fonts, breakpoints etc. The page is built entirely with classes provided by Tailwind and uses no custom CSS, except for one inline style that is used to add the background colour for the Search block, as there wasn’t a suitable Tailwind option.
+As Tailwind was added via a CDN, there was no opportunity to customise it’s
+configuration, so I needed to use to Tailwind’s default configuration for
+colours, padding, spacing, fonts, breakpoints etc. The page is built entirely
+with classes provided by Tailwind and uses no custom CSS, except for one inline
+style that is used to add the background colour for the Search block, as there
+wasn’t a suitable Tailwind option.
 
-When I decided that I was going to later add some interactivity onto the mobile navigation menu, the existing code was ported into a new Vue.js application generated by the Vue CLI, with the majority of the markup within a `Welcome` component. This meant that Tailwind was also added as a dependency with it’s own configuration file, though although I had the opportunity to customise it I decided not to and made no changes to it and continued with the default values.
+When I decided that I was going to later add some interactivity onto the mobile
+navigation menu, the existing code was ported into a new Vue.js application
+generated by the Vue CLI, with the majority of the markup within a `Welcome`
+component. This meant that Tailwind was also added as a dependency with it’s own
+configuration file, though although I had the opportunity to customise it I
+decided not to and made no changes to it and continued with the default values.
 
 `src/App.vue`:
 
@@ -143,6 +170,7 @@ export default {
         </div>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -162,7 +190,8 @@ export default {
   }
 }
 </script>
-```
+
+````
 {% endverbatim %}</div>
 
 ## Making it responsive
@@ -173,9 +202,11 @@ The second stage began with making the existing desktop version responsive - par
 <div class="bg-white pt-3 pb-4 lg:pb-12">
     ...
 </div>
-```
+````
 
-In this example, the `pb-4` class adds 1rem of bottom padding to the element by default, then increases it to 3rem at large screen sizes due to the `lg:pb-12` class.
+In this example, the `pb-4` class adds 1rem of bottom padding to the element by
+default, then increases it to 3rem at large screen sizes due to the `lg:pb-12`
+class.
 
 ## Adding interactivity
 
@@ -183,15 +214,25 @@ This is how the main navigation menu works on mobile:
 
 ![The main navigation menu on mobile.](/images/blog/rebuilding-bartik-vue-tailwind/rebuilt-mobile.png)
 
-The show and hide text appears next to a hamburger menu, and clicking it toggles the visiblity of the menu links which are stacked below, as well as the wording of the text itself.
+The show and hide text appears next to a hamburger menu, and clicking it toggles
+the visiblity of the menu links which are stacked below, as well as the wording
+of the text itself.
 
-The code for this was moved into a separate `MainMenu` component, which means that it was easier to have dedicated data properties for whether the menu was open or not, as well as computed properties for building the show/hide text. The `open` value can then be used to apply the appropriate classes to the main menu to toggle it.
+The code for this was moved into a separate `MainMenu` component, which means
+that it was easier to have dedicated data properties for whether the menu was
+open or not, as well as computed properties for building the show/hide text. The
+`open` value can then be used to apply the appropriate classes to the main menu
+to toggle it.
 
-I also moved the links into `data` too - each link is it’s own object with it's `title` and `href` values. This means that I can use a `v-for` directive to loop over the data items and inject dynamic values, removing the duplication of markup which makes the component easier to read and maintain.
+I also moved the links into `data` too - each link is it’s own object with it's
+`title` and `href` values. This means that I can use a `v-for` directive to loop
+over the data items and inject dynamic values, removing the duplication of
+markup which makes the component easier to read and maintain.
 
 `src/components/MainMenu.vue`:
 
 {% verbatim %}<div v-pre markdown="1">
+
 ```vuejs
 <template>
   <div>
@@ -275,11 +316,14 @@ I also moved the links into `data` too - each link is it’s own object with it'
   }
 </script>
 ```
+
 </div>{% endverbatim %}
 
 ## The result
 
-The whole task only took around two hours to complete, and although some of the colours and spacings are slightly different due to the decision to stick with the default Tailwind configuration values, I’m happy with the result.
+The whole task only took around two hours to complete, and although some of the
+colours and spacings are slightly different due to the decision to stick with
+the default Tailwind configuration values, I’m happy with the result.
 
 ### The original version
 

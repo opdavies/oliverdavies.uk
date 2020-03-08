@@ -1,7 +1,11 @@
 ---
-title: Debugging Drupal Commerce Promotions and Adjustments using Illuminate Collections (Drupal 8)
+title:
+  Debugging Drupal Commerce Promotions and Adjustments using Illuminate
+  Collections (Drupal 8)
 date: 2018-10-24
-excerpt: Using Laravel’s Illuminate Collections to debug an issue with a Drupal Commerce promotion.
+excerpt:
+  Using Laravel’s Illuminate Collections to debug an issue with a Drupal
+  Commerce promotion.
 tags:
   - drupal
   - drupal-8
@@ -12,11 +16,18 @@ tags:
   - php
 promoted: true
 ---
-Today I found another instance where I decided to use [Illuminate Collections][0] within my Drupal 8 code; whilst I was debugging an issue where a [Drupal Commerce][1] promotion was incorrectly being applied to an order.
 
-No adjustments were showing in the Drupal UI for that order, so after some initial investigation and finding that `$order->getAdjustments()` was empty, I determined that I would need to get the adjustments from each order item within the order.
+Today I found another instance where I decided to use [Illuminate
+Collections][0] within my Drupal 8 code; whilst I was debugging an issue where a
+[Drupal Commerce][1] promotion was incorrectly being applied to an order.
 
-If the order were an array, this is how it would be structured in this situation:
+No adjustments were showing in the Drupal UI for that order, so after some
+initial investigation and finding that `$order->getAdjustments()` was empty, I
+determined that I would need to get the adjustments from each order item within
+the order.
+
+If the order were an array, this is how it would be structured in this
+situation:
 
 ```php
 $order = [
@@ -25,8 +36,8 @@ $order = [
     [
       'id' => 1,
       'adjustments' => [
-        ['name' => 'Adjustment 1'], 
-        ['name' => 'Adjustment 2'], 
+        ['name' => 'Adjustment 1'],
+        ['name' => 'Adjustment 2'],
         ['name' => 'Adjustment 3'],
       ]
     ],
@@ -39,7 +50,7 @@ $order = [
     [
       'id' => 3,
       'adjustments' => [
-        ['name' => 'Adjustment 5'], 
+        ['name' => 'Adjustment 5'],
         ['name' => 'Adjustment 6'],
       ]
     ],
@@ -49,7 +60,9 @@ $order = [
 
 ## Getting the order items
 
-I started by using `$order->getItems()` to load the order’s items, converted them into a Collection, and used the Collection’s `pipe()` method and the `dump()` function provided by the [Devel module][2] to output the order items.
+I started by using `$order->getItems()` to load the order’s items, converted
+them into a Collection, and used the Collection’s `pipe()` method and the
+`dump()` function provided by the [Devel module][2] to output the order items.
 
 ```php
 collect($order->getItems())
@@ -60,9 +73,13 @@ collect($order->getItems())
 
 ## Get the order item adjustments
 
-Now we have a Collection of order items, for each item we need to get it’s adjustments. We can do this with `map()`, then call `getAdjustments()` on the order item.
+Now we have a Collection of order items, for each item we need to get it’s
+adjustments. We can do this with `map()`, then call `getAdjustments()` on the
+order item.
 
-This would return a Collection of arrays, with each array containing it’s own adjustments, so we can use `flatten()` to collapse all the adjustments into one single-dimensional array.
+This would return a Collection of arrays, with each array containing it’s own
+adjustments, so we can use `flatten()` to collapse all the adjustments into one
+single-dimensional array.
 
 ```php
 collect($order->getItems())
@@ -75,7 +92,9 @@ collect($order->getItems())
 There are a couple of refactors that we can do here though:
 
 - Use `flatMap()` to combine the `flatten()` and `map()` methods.
-- Use [higher order messages][3] to delegate straight to the `getAdjustments()` method on the order, rather than having to create a closure and call the method within it.
+- Use [higher order messages][3] to delegate straight to the `getAdjustments()`
+  method on the order, rather than having to create a closure and call the
+  method within it.
 
 ```php
 collect($order->getItems())
@@ -84,8 +103,10 @@ collect($order->getItems())
 
 ## Filtering
 
-In this scenario, each order item had three adjustments - the correct promotion, the incorrect one and the standard VAT addition.
-I wasn’t concerned about the VAT adjustment for debugging, so I used `filter()` to remove it based on the result of the adjustment’s `getSourceId()` method.
+In this scenario, each order item had three adjustments - the correct promotion,
+the incorrect one and the standard VAT addition. I wasn’t concerned about the
+VAT adjustment for debugging, so I used `filter()` to remove it based on the
+result of the adjustment’s `getSourceId()` method.
 
 ```php
 collect($order->getItems())
@@ -97,9 +118,11 @@ collect($order->getItems())
 
 ## Conclusion
 
-Now I have just the relevant adjustments, I want to be able to load each one to load it and check it’s conditions. To do this, I need just the source IDs.
+Now I have just the relevant adjustments, I want to be able to load each one to
+load it and check it’s conditions. To do this, I need just the source IDs.
 
-Again, I can use a higher order message to directly call `getSourceId()` on the adjustment and return it’s value to `map()`.
+Again, I can use a higher order message to directly call `getSourceId()` on the
+adjustment and return it’s value to `map()`.
 
 ```php
 collect($order->getItems())
@@ -110,7 +133,8 @@ collect($order->getItems())
   ->map->getSourceId();
 ```
 
-This returns a Collection containing just the relevant promotion IDs being applied to the order that I can use for debugging.
+This returns a Collection containing just the relevant promotion IDs being
+applied to the order that I can use for debugging.
 
 Now just to find out why the incorrect promotion was applying!
 

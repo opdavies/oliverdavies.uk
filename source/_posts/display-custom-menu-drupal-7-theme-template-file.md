@@ -9,7 +9,9 @@ tags:
   - php
   - aria
 ---
-For reference, this is the code needed to display a menu in a Drupal 7 template file, including the navigation ARIA role.
+
+For reference, this is the code needed to display a menu in a Drupal 7 template
+file, including the navigation ARIA role.
 
 ```language-php
 $menu_name = 'menu-footer-menu';

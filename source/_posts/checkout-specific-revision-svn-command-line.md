@@ -6,6 +6,7 @@ tags:
   - svn
   - version-control
 ---
+
 How to checkout a specific revision from a SVN (Subversion) repository.
 
 If you're checking out the repository for the first time:

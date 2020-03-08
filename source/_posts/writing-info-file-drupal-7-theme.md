@@ -8,6 +8,7 @@ tags:
   - drupal
   - code
 ---
+
 ```language-ini
 name = My Theme
 description = A description of my theme
@@ -23,7 +24,7 @@ regions[content] = Content
 regions[sidebar] = Sidebar
 regions[footer] = Footer
 
-# Define which features are available. If none are specified, all the default 
+# Define which features are available. If none are specified, all the default
 # features will be available.
 features[] = logo
 features[] = name
