@@ -69,7 +69,7 @@ volumes:
 
  Because port 3306 is exposed, the server recognises it as a database service and automatically creates environment variables prefixed with `DATABASE_`.
  
- A list of all the environment variables can be seen by running `symfony var:export`:
+ A list of all the environment variables can be seen by running `symfony var:export` (add `| tr " " "\n"` if you want to view each one on a new line):
 
 ```dotenv
 DATABASE_DATABASE=main
@@ -117,8 +117,42 @@ if ($_SERVER['SYMFONY_DOCKER_ENV']) {
 
 `symfony php ../vendor/bin/drush st`
 
+This will ensure that the correct PHP version and configuration is used, and that the appropriate environment variables are available.
+
 ## Custom Domain Names
+
+Good for multisites.
 
 https://symfony.com/doc/current/setup/symfony_server.html#local-domain-names
 
-`symfony proxy:domain:attach dransible`
+```
+cp web/sites/default web/sites/umami
+```
+
+`symfony proxy:domain:attach umami`
+
+> The proxy is now configured with the following domains for this directory:
+> * http://umami.wip
+
+```php
+// web/sites/sites.php
+
+$sites['umami.wip'] = 'umami';
+```
+
+labels:
+
+```yaml
+labels:
+  com.symfony.server.service-prefix: 'DATABASE_UMAMI'
+```
+
+symfony-server-drupal-test_database_1
+symfony-server-drupal-test_database_umami_1
+
+
+```bash
+symfony php ../vendor/bin/drush si demo_umami \
+  -l umami \
+  --no-interaction
+```
