@@ -1,5 +1,5 @@
 import 'alpinejs'
-import '../css/tailwind.pcss'
+import '../css/app.pcss'
 
 window.hljs = require('highlightjs')
 
