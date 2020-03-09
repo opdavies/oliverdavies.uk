@@ -1,6 +1,6 @@
 ---
 title: Running Drupal 8.8 with the Symfony Local Server
-excerpt: Running Drupal 8.8 with the Symfony Local Server
+excerpt: How to use Symfony's local web server to run a Drupal 8.8 website.
 date: 2020-03-09
 tags:
   - drupal
