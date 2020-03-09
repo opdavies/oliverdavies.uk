@@ -66,6 +66,11 @@ events:
         location: London, UK
         url: http://drupalcamp.london
 
+    drupalcamp_london_20:
+        name: DrupalCamp London 2020
+        location: London, UK
+        url: http://drupalcamp.london
+
     drupalcamp_north_15:
         name: DrupalCamp North 2015
         location: Sunderland, UK

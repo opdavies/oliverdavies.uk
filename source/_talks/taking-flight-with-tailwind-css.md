@@ -22,6 +22,9 @@ events:
     date: 2019-05-18
   - event: blue_conf_19
     date: 2019-06-07
+  - event: drupalcamp_london_20
+    date: 2020-03-15
+    time: '12:05 - 12:50'
 meta:
   og:
     title: Taking Flight with Tailwind CSS
