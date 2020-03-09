@@ -9,6 +9,9 @@ Encore
     .setPublicPath('/build')
     .addEntry('app', './assets/js/app.js')
     .enablePostCssLoader()
+    .configureLoaderRule('css', loaderRule => {
+        loaderRule.test = /\.(css|postcss|pcss)$/
+    })
     .enableSourceMaps(!Encore.isProduction())
 
 if (Encore.isProduction()) {
