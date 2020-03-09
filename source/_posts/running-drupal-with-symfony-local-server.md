@@ -1,19 +1,25 @@
 ---
 title: Running Drupal 8.8 with the Symfony Local Server
 excerpt: Running Drupal 8.8 with the Symfony Local Server
-date: ~
+date: 2020-03-09
 tags:
   - drupal
   - drupal-8
   - symfony
-draft: true
 ---
 
 ![A screenshot of a terminal window running a Drupal project with the Symfony local server](/images/blog/running-drupal-with-symfony-local-server/terminal.png)
 
+<!--
+## Why use the Symfony server?
+
+- performance
+- reusable knowledge
+-->
+
 ## Installation
 
-https://symfony.com/doc/current/setup/symfony_server.html
+<https://symfony.com/doc/current/setup/symfony_server.html>
 
 The Symfony server is bundled as part of the `symfony` binary that is available
 to download from <https://symfony.com/download>.
@@ -25,9 +31,11 @@ curl -sS https://get.symfony.com/cli/installer | bash
 ```
 
 Even though it’s by Symfony, the local webserver works with any type of
-project - including Drupal 8 and Drupal 7.
+project - including Drupal 8 (and 9) and Drupal 7.
 
 ## Getting started
+
+Here are the basic commands to start and stop the server:
 
 ```bash
 # Alias for server:start, starts the server
@@ -43,9 +51,16 @@ symfony server:status
 symfony server:stop
 ```
 
-`web` and `docroot` directories are automatically used as the document root for
-the server, so files are served from there if you run the `serve` command within
-the project’s root directory.
+If your Drupal files are within a `web` or `docroot` directory, it will
+automatically be used as the document root for the server, so files are served
+from there if you run the serve command.
+
+If you use a different subdirectory name - one that isn't loaded automatically -
+you can use the `--document-root` option:
+
+```bash
+symfony serve --document-root www
+```
 
 ## Different PHP Versions
 
@@ -77,8 +92,8 @@ by adding a `php.ini` file.
 
 ## Securing Sites Locally
 
-The Symfony server allows for serving sites via HTTPS by installing its own
-local certificate authority.
+The Symfony server allows for serving sites via HTTPS locally by installing its
+own local certificate authority.
 
 If it’s not installed automatically, run this command to install it:
 
@@ -87,15 +102,15 @@ symfony server:ca:install
 ```
 
 Now any site will be served via HTTPS by default, and any HTTP requests will be
-automatically redirected to HTTPS.
+automatically redirected.
 
 If you need to run a site with just HTTP, add the `--no-tls` option to the
 `serve` command.
 
-## Adding Databases with Docker
+## Adding Databases (and other services) with Docker
 
 The Symfony server has an integration with Docker for providing extra services -
-such as databases that we’ll need for Drupal.
+such as databases that we’ll need to install Drupal.
 
 This is my `docker-compose.yaml` file which defines a `database` service for
 MySQL:
@@ -139,13 +154,13 @@ SYMFONY_TUNNEL=
 SYMFONY_TUNNEL_ENV=
 ```
 
-Now I can use these environment variables within my `settings.php` file to allow
-Drupal to connect to the database service.
+Now these environment variables can be used within `settings.php` file to allow
+configure Drupal’s database connection settings:
 
 ```php
 // web/sites/default/settings.php
 
-if ($_SERVER['SYMFONY_DOCKER_ENV']) {
+if ($_SERVER['SYMFONY_DEFAULT_ROUTE_URL']) {
   $databases['default']['default'] = [
     'driver' => $_SERVER['DATABASE_DRIVER'],
     'host' => $_SERVER['DATABASE_HOST'],
@@ -160,16 +175,30 @@ if ($_SERVER['SYMFONY_DOCKER_ENV']) {
 }
 ```
 
+To keep things organised, I usually like to split these settings into their own
+file and include it:
+
+```php
+if ($_SERVER['SYMFONY_DEFAULT_ROUTE_URL'] && file_exists(__DIR__ . '/settings.symfony.php')) {
+  require_once __DIR__ . '/settings.symfony.php';
+}
+```
+
 ## Installing Drupal
 
-Drush is added as a dependency via Composer.
+Now that Drupal can connect to the (empty) database, we can install the site. I
+usually do this using Drush, which is added as a dependency via Composer.
+
+The command that I’d usually run is:
 
 ```bash
+cd web
+
 ../vendor/bin/drush site-install
 ```
 
 However, this will cause an error like this because Drupal cannot connect to the
-database.
+database when Drush is run in this way.
 
 > Error: Class 'Drush\Sql\Sql' not found in Drush\Sql\SqlBase::getInstance()
 
@@ -185,40 +214,110 @@ This also applies to all other Drush commands.
 
 ## Custom Domain Names
 
-Good for multisites.
+Currently we can only access the site via the localhost URL with a specific
+port. The port is determined automatically when the server is started so it can
+change if you have multiple projects running.
 
-https://symfony.com/doc/current/setup/symfony_server.html#local-domain-names
+Symfony server also allows for
+[adding local domain names through a proxy](https://symfony.com/doc/current/setup/symfony_server.html#local-domain-names).
+This is useful if you always want to access the site from the same URL, or if
+the site relies on using a specific URL such as a multisite setup (multiple
+domains served from the same codebase).
 
-TODO: add proxy image
+{% include 'figure' with {
+  image: {
+    src: '/images/blog/running-drupal-with-symfony-local-server/proxy.png',
+    alt: 'A screenshot of the proxy overview screen, showing three local projects with their local domains, ports and directories.',
+  },
+  caption: 'The proxy overview screen'
+} only %}
 
+### Setting up a multisite
+
+Here’s an example of how I would use local domains to configure a multisite
+Drupal installation (taken from
+<https://github.com/opdavies/symfony-server-drupal-test>).
+
+The first thing is to add the subdomain to the proxy. In this example, I’m going
+to set up a version of the Umami demo installation profile at
+`https://umami.wip`.
+
+```bash
+# Add umami.wip to the proxy and attach it to this directory
+symfony proxy:domain:attach umami
 ```
-cp web/sites/default web/sites/umami
-```
 
-`symfony proxy:domain:attach umami`
-
-> The proxy is now configured with the following domains for this directory:
->
-> - http://umami.wip
+Now we can add it to Drupal’s `sites.php` file to route requests to the correct
+site directory:
 
 ```php
 // web/sites/sites.php
 
+// This maps https://umami.wip to the sites/umami directory
 $sites['umami.wip'] = 'umami';
 ```
 
-labels:
+To create the directory, we can duplicate the `default` site directory and its
+contents.
 
-```yaml
-labels:
-  com.symfony.server.service-prefix: 'DATABASE_UMAMI'
+```
+cp -R web/sites/default web/sites/umami
 ```
 
-symfony-server-drupal-test_database_1
-symfony-server-drupal-test_database_umami_1
+To create a separate database, we add a new service to the `docker-compose.yaml`
+file and a new MySQL volume to store the data. We can use labels to generate
+site specific environment variables.
+
+```diff
+ version: '2.1'
+
+ services:
+   database:
+     image: mysql:5.7
+     ports: [3306]
+     environment:
+       MYSQL_ROOT_PASSWORD: secret
+     volumes:
+       - mysql-data:/var/lib/mysql
+
++  database_umami:
++    image: mysql:5.7
++    ports: [3306]
++    environment:
++      MYSQL_ROOT_PASSWORD: secret
++    volumes:
++      - mysql-data-umami:/var/lib/mysql
++    labels:
++      com.symfony.server.service-prefix: 'UMAMI_DATABASE'
+
+ volumes:
+   mysql-data:
++  mysql-data-umami:
+```
+
+These can then be added to `sites/umami/settings.php`:
+
+```php
+$databases['default']['default'] = [
+  'driver' => $_SERVER['UMAMI_DATABASE_DRIVER'],
+  'host' => $_SERVER['UMAMI_DATABASE_HOST'],
+  'database' => $_SERVER['UMAMI_DATABASE_NAME'],
+  'username' => $_SERVER['UMAMI_DATABASE_USER'],
+  'password' => $_SERVER['UMAMI_DATABASE_PASSWORD'],
+  'port' => $_SERVER['UMAMI_DATABASE_PORT'],
+  'prefix' => '',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'collation' => 'utf8mb4_general_ci',
+];
+```
+
+Now that the Umami site is able to connect to its own database, we can install
+Drupal - specifying the installation profile to use and also the site directory
+to target.
 
 ```bash
-symfony php ../vendor/bin/drush si demo_umami \
+symfony php ../vendor/bin/drush site-install \
+  demo_umami \
   -l umami \
   --no-interaction
 ```
