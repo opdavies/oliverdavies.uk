@@ -10,7 +10,7 @@ Encore
     .addEntry('app', './assets/js/app.js')
     .enablePostCssLoader()
     .configureLoaderRule('css', loaderRule => {
-        loaderRule.test = /\.(css|postcss|pcss)$/
+        loaderRule.test = /\.(css|p(ost)?css)$/
     })
     .enableSourceMaps(!Encore.isProduction())
 
