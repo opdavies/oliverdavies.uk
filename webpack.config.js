@@ -1,5 +1,5 @@
 let Encore = require('@symfony/webpack-encore')
-let PurgecssConfig = require('./purgecss.config')
+let purgecssConfig = require('./purgecss.config')
 let PurgecssPlugin = require('purgecss-webpack-plugin')
 
 Encore
@@ -15,7 +15,7 @@ Encore
     .enableSourceMaps(!Encore.isProduction())
 
 if (Encore.isProduction()) {
-    Encore.addPlugin(new PurgecssPlugin(PurgecssConfig))
+    Encore.addPlugin(new PurgecssPlugin(purgecssConfig))
 }
 
 module.exports = Encore.getWebpackConfig()
