@@ -4,7 +4,7 @@ use PhpCsFixer\Config;
 use Symfony\Component\Finder\Finder;
 
 $finder = new Finder();
-$finder->files()->in('app/src')->in('app/tests');
+$finder->files()->in(['src', 'tests']);
 
 return Config::create()
     ->setRules([
