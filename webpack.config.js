@@ -15,7 +15,9 @@ Encore
     .enableSourceMaps(!Encore.isProduction())
 
 if (Encore.isProduction()) {
-    Encore.addPlugin(new PurgecssPlugin(purgecssConfig))
+    Encore
+        .enableVersioning()
+        .addPlugin(new PurgecssPlugin(purgecssConfig))
 }
 
 module.exports = Encore.getWebpackConfig()
