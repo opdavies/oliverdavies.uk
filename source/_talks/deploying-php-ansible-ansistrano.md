@@ -23,7 +23,7 @@ events:
     url: https://www.meetup.com/Bristol-Cloud-Native-DevOps/events/266609627
   - event: drupal_edinburgh
     date: 2020-03-12
-    online: true
+    remote: true
     url: https://www.meetup.com/Drupal-Edinburgh/events/267905594
 ---
 
