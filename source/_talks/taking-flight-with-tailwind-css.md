@@ -25,6 +25,7 @@ events:
   - event: drupalcamp_london_20
     date: 2020-03-15
     time: '12:05 - 12:50'
+    location: ~
     remote: true
 meta:
   og:
