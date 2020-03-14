@@ -8,5 +8,5 @@
 
 {% macro talkEventLocation(event) %}
     {{ event.location ? 'in ' ~ event.location }}
-    {{ event.online ? ' (online)' }}
+    {{ event.remote ? ' (Remote)' }}
 {% endmacro %}
