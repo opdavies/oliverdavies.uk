@@ -5,7 +5,7 @@ date: 2020-04-01
 tags: [webpack, encore, postcss, symfony]
 ---
 
-I’ve been watching Christopher Pitt ([assertchris][assertchris-twitter])’s [streams on Twitch][assertchris-twitch] over the last few months, in one of which he was doing some Tailwind CSS work and using a `.pcss` file extension for his PostCSS files.
+I’ve been watching Christopher Pitt ([assertchris][assertchris-twitter])’s [streams on Twitch][assertchris-twitch] over the last few months, in one of which he was doing some work with Tailwind CSS and using a `.pcss` file extension for his PostCSS files.
 
 I couldn’t remember seeing this extension before, but this made a lot of sense to me compared to the standard `.css` extension - both to make it clear that it’s a PostCSS file and features like nesting can be used, and also for better integration and highlighting with IDEs and text editors such as PhpStorm.
 
