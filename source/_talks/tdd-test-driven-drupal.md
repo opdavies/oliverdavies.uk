@@ -35,6 +35,9 @@ events:
   - event: drupalcamp_london_19
     date: 2019-03-02
     time: '14:00 - 14:45'
+  - event: nwdug
+    date: 2020-05-13
+    remote: true
 ---
 
 {% block content %}
