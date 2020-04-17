@@ -36,7 +36,7 @@ events:
     date: 2019-03-02
     time: '14:00 - 14:45'
   - event: nwdug
-    date: 2020-05-13
+    date: 2020-05-12
     remote: true
 ---
 
