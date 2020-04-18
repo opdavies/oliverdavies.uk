@@ -9,6 +9,11 @@ events:
         location: Bristol, UK
         url: https://www.meetup.com/Bristol-Cloud-Native-DevOps
 
+    cms_philly_20:
+        name: CMS Philly
+        location: Philadelphia, USA
+        url: https://cmsphilly.org
+
     drupal_bristol:
         name: Drupal Bristol
         location: Bristol, UK

@@ -25,6 +25,9 @@ events:
     date: 2020-03-12
     remote: true
     url: https://www.meetup.com/Drupal-Edinburgh/events/267905594
+  - event: cms_philly_20
+    date: 2020-05-01
+    remote: true
 ---
 
 Great! You’ve built your website, and now you just need to deploy it. There are
