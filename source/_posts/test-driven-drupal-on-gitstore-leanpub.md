@@ -4,7 +4,6 @@ excerpt: The work-in-progress codebase for the example application is now on Git
 date: 2020-04-22s
 tags: [drupal, drupal-8, drupal-association, drupalcares, testing, test-driven-drupal]
 has_tweets: true
-draft: true
 ---
 
 Some time ago, I announced that I was planning on writing a book on automated testing and test driven development with Drupal. I [created a landing page][landing page] and set up a mailing list, but I wasn't sure at that point what I was going to cover or create as part of the book.
