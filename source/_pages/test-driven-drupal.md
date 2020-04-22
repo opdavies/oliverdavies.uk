@@ -8,7 +8,7 @@ contact_email: 'oliver@testdrivendrupal.com'
 
 <!-- prettier-ignore -->
 <div class="markup spaced-y-4 mb-6" markdown="1">
-Having [given talks][1] and workshops, been a guest on podcasts and [written articles][0] about automated testing in Drupal, I’m currently in the planning phase of a book and potentially some accompanying screencasts about it, focussing on Drupal 8.
+Having [given talks][1] and [workshops][workshop], been a guest on podcasts and [written articles][0] about automated testing in Drupal, I’m currently in the planning phase of a book and potentially some accompanying screencasts about it, focussing on Drupal 8.
 
 I’m still thinking about what use-cases to cover and examples to include, but
 here are some of the things I’m considering:
@@ -58,3 +58,4 @@ and be notified of any updates.**
 [0]: /articles/tags/testing
 [1]: /talks/tdd-test-driven-drupal
 [2]: /contact
+[workshop]: https://web.archive.org/web/20200422110605/https://drupalcamp.london/training/Automated-Testing-and-Test-Driven-Development-in-Drupal-8
