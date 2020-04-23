@@ -2,7 +2,7 @@
 title: Test Driven Drupal on Gitstore and Leanpub
 excerpt: The work-in-progress codebase for the example application is now on Gitstore.
 date: 2020-04-22
-tags: [drupal, drupal-8, drupal-association, drupalcares, testing, test-driven-drupal]
+tags: [drupal, drupal-8, drupal-association, drupal-planet, drupalcares, testing, test-driven-drupal]
 has_tweets: true
 ---
 
