@@ -32,6 +32,11 @@ events:
         name: Drupal Somerset
         location: Glastonbury, UK
 
+    drupal_yorkshire:
+        name: Drupal Yorkshire
+        location: Leeds, UK
+        url: https://www.meetup.com/DrupalYorkshire
+
     drupalcamp_brighton_15:
         name: DrupalCamp Brighton 2015
         location: Brighton, UK
