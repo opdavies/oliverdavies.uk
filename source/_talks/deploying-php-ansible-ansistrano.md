@@ -28,6 +28,9 @@ events:
   - event: cms_philly_20
     date: 2020-05-01
     remote: true
+  - event: drupal_yorkshire
+    date: 2020-05-21
+    remote: true
 ---
 
 Great! You’ve built your website, and now you just need to deploy it. There are
