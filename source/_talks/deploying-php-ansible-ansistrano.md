@@ -9,7 +9,7 @@ speakerdeck:
   url: https://speakerdeck.com/opdavies/deploying-php-applications-with-ansible-ansible-vault-and-ansistrano
 video:
   type: youtube
-  id: uxXLNdNZu30
+  id: TmS0FIVwKQg
 tags: [meetup, php, ansible, ansistrano]
 events:
   - event: drupal_bristol
