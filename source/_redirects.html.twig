@@ -292,6 +292,7 @@ use: [posts]
 /speakerdeck                      https://speakerdeck.com/opdavies
 /talks                            https://www.oliverdavies.uk/talks
 /twitter                          https://twitter.com/opdavies
+/tags/*                           https://www.oliverdavies.uk/articles/tags/:splat
 
 {% for post in data.posts if post.external_url %}
 {{ post.url|trim('/', 'right') }} {{ post.external_url }}
