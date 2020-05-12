@@ -297,6 +297,9 @@ use: [posts]
 /tags/*                           https://www.oliverdavies.uk/articles/tags/:splat
 /talks/ansible-ansistrano         https://www.oliverdavies.uk/talks/deploying-php-ansible-ansistrano
 
+/testing-drupal https://www.oliverdavies.uk/talks/tdd-test-driven-drupal
+/testing-drupal-intro https://inviqa.com/blog/drupal-automated-testing-introduction
+
 {% for post in data.posts if post.external_url %}
 {{ post.url|trim('/', 'right') }} {{ post.external_url }}
 {% endfor %}
