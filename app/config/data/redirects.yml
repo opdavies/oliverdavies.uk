@@ -314,6 +314,9 @@ redirects:
   - { from: 'automatically-updating-talk-created-date', to: 'https://gist.github.com/opdavies/4e75e1753d8603113f07f8264bb783d6' }
   - { from: 'speaking-videos', to: 'https://www.youtube.com/playlist?list=PLHn41Ay7w7kfAzczswrANch5oHAPZBlvu' }
   - { from: 'talks-offer-tweet', to: 'https://twitter.com/opdavies/status/1250870367712935938' }
+  - { from: testing-drupal, to: https://www.oliverdavies.uk/talks/tdd-test-driven-drupal }
+  - { from: testing-drupal-intro, to: https://inviqa.com/blog/drupal-automated-testing-introduction }
+  - { from: talks/ansible-ansistrano, to: https://www.oliverdavies.uk/talks/deploying-php-ansible-ansistrano }
 
   # Moved from opdavi.es
   - { from: 2PxmyqP,                          to: /articles/examples-of-laravel-collections-in-drupal }
