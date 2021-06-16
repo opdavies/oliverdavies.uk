@@ -4,10 +4,12 @@ description: My first talk, where I talk about Drupal, what it is and what it ca
 video:
   type: vimeo
   id: 49827006
-tags: [meetup, drupal, unified-diff]
 events:
-  - event: unified_diff
+  - name: unified.diff
+    location: Cardiff, UK
+    url: http://unifieddiff.co.uk
     date: 2012-09-05
+sortable_date: 2012-09-05
 ---
 
 My very first talk, where I talk about Drupal, what it is and what it can do.
