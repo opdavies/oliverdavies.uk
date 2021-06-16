@@ -1,0 +1,39 @@
+version: '2.4'
+
+services:
+  app:
+    image: opdavies/sculpin-serve
+    volumes:
+      - assets:/app/output_dev/build
+      - html:/app/output_dev
+      - .:/app
+    ports:
+      - 8000:8000
+    depends_on:
+      node:
+        condition: service_started
+
+  node:
+    build:
+      context: .
+      dockerfile: tools/docker/node/Dockerfile
+    volumes:
+      - assets:/node/build
+      - node_modules:/node/node_modules
+      - ./assets:/node/assets
+      - ./postcss.config.js:/node/postcss.config.js
+      - ./source:/node/source
+      - ./tailwind-colours.js:/node/tailwind-colours.js
+      - ./tailwind-plugin-focus-visible.js:/node/tailwind-plugin-focus-visible.js
+      - ./tailwind-safelist-classes.txt:/node/tailwind-safelist-classes.txt
+      - ./tailwind.config.js:/node/tailwind.config.js
+      - ./webpack.config.js:/node/webpack.config.js
+    entrypoint:
+      - npm
+      - run
+      - watch
+
+volumes:
+  assets:
+  html:
+  node_modules:
