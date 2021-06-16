@@ -1,1 +1,18 @@
-{% extends "default" %}
+{% extends "page.html.twig" %}
+
+{% block body %}
+    {{ parent() }}
+
+    {% include 'talk/slides' with {
+        speakerdeck: page.speakerdeck,
+    } only %}
+
+    {% include 'talk/video' with {
+        video: page.video,
+    } only %}
+
+    {% include 'talk/events' with {
+        events: page.events|reverse,
+    } only %}
+
+{% endblock %}
