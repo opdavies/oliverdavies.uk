@@ -1,16 +1,17 @@
 {% extends 'app' %}
 
 {% block body %}
-    <a class="sr-only focus:not-sr-only" href="#main-content">Skip to main content</a>
+    <div class="font-sans text-lg font-light text-gray-900">
+        <a class="sr-only focus:not-sr-only" href="#main-content">Skip to main content</a>
 
-    {% include 'navbar' %}
+        {% include 'navbar' %}
 
-
-    <div class="my-8">
-        <div id="main-content" class="max-w-xl mx-auto">
-            {% block content_wrapper %}
-                {% block content %}{% endblock %}
-            {% endblock %}
+        <div class="my-16">
+            <div id="main-content" class="max-w-2xl px-4 mx-auto">
+                {% block content_wrapper %}
+                    {% block content %}{% endblock %}
+                {% endblock %}
+            </div>
         </div>
     </div>
 {% endblock %}
