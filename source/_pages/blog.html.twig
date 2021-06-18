@@ -4,19 +4,19 @@ use:
   - posts
 ---
 
-<p class="mt-4 text-xl">I enjoy writing articles and have written a number of them so far during my career, both to document my own learning as well to act as resources for others.</p>
+<p class="mt-4 md:text-xl">I enjoy writing articles and have written a number of them so far during my career, both to document my own learning as well to act as resources for others.</p>
 
 <div class="mt-6">
     <div class="space-y-6">
         {% for talk in data.posts %}
             <article>
-                <h2 class="text-xl">
+                <h2>
                     <a class="text-blue-700 dark:text-blue-400" href="{{ talk.url }}">
                         {{ talk.title }}
                     </a>
                 </h2>
 
-                <p class="mt-1 text-xl leading-7">{{ talk.excerpt }}</p>
+                <p class="mt-1 leading-6">{{ talk.excerpt }}</p>
             </article>
         {% endfor %}
     </div>
