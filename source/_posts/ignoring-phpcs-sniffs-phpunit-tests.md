@@ -1,6 +1,6 @@
 ---
 title: Ignoring PHPCS sniffs for PHPUnit tests
-description: How to exclude certain PHPCS sniffs within your PHPUnit tests, so that you can write your tests methods how you'd like without getting coding standards errors.
+excerpt: How to exclude certain PHPCS sniffs within your PHPUnit tests, so that you can write your tests methods how you'd like without getting coding standards errors.
 tags: [Drupal, Drupal Planet, PHP, PHPUnit]
 date: 2021-01-04
 ---

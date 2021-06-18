@@ -1,6 +1,6 @@
 ---
 title: 'Migrating to Drupal 8: Introduction'
-description: An introduction to the 'Migrating to Drupal 8' blog post series.
+excerpt: An introduction to the 'Migrating to Drupal 8' blog post series.
 date: 2020-08-12
 tags: [Drupal, Drupal 8, Drupal Planet]
 ---

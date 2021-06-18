@@ -1,6 +1,6 @@
 ---
 title: Interview with a Drupal Expert (with Code Enigma)
-description: I recently did an interview with Code Enigma for their blog.
+excerpt: I recently did an interview with Code Enigma for their blog.
 tags: [Drupal, Interview, Personal]
 date: 2020-08-31
 ---

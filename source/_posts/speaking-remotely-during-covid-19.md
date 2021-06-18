@@ -1,6 +1,6 @@
 ---
 title: Speaking remotely during COVID-19
-description: I've been quite busy during this lockdown, giving talks remotely at conferences and user groups.
+excerpt: I've been quite busy during this lockdown, giving talks remotely at conferences and user groups.
 date: 2020-07-07
 tags: [Speaking]
 ---

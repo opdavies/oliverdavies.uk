@@ -1,6 +1,6 @@
 ---
 title: Cleanly retrieving user profile data using an Entity Metadata Wrapper
-description: How to use Drupal 7's EntityMetadataWrapper to cleanly retrieve user profile field data.
+excerpt: How to use Drupal 7's EntityMetadataWrapper to cleanly retrieve user profile field data.
 tags: [Drupal, Drupal 7, Drupal Planet, PHP]
 date: 2021-02-23
 ---

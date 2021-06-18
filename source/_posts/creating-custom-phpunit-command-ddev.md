@@ -1,6 +1,6 @@
 ---
 title: Creating a custom PHPUnit command for DDEV
-description: How to create a custom command to run PHPUnit commands in DDEV.
+excerpt: How to create a custom command to run PHPUnit commands in DDEV.
 tags: [DDEV, Drupal, Drupal Planet, PHP]
 date: 2020-08-28
 ---

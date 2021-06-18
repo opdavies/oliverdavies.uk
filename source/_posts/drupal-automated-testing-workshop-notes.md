@@ -1,6 +1,6 @@
 ---
 title: Drupal automated testing workshop notes
-description: If you attended my automated testing with Drupal workshop this weekend, here are the links.
+excerpt: If you attended my automated testing with Drupal workshop this weekend, here are the links.
 tags: [Drupal]
 date: 2020-11-15
 ---

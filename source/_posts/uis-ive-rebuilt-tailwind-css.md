@@ -1,6 +1,6 @@
 ---
 title: UIs that I've Rebuilt with Tailwind CSS
-description: A collection of all of the UIs that I've rebuilt using Tailwind CSS for talk demos etc.
+excerpt: A collection of all of the UIs that I've rebuilt using Tailwind CSS for talk demos etc.
 tags: [CSS, Tailwind CSS]
 date: 2020-11-02
 ---
