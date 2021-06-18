@@ -8,7 +8,7 @@ use:
 
 <div class="mt-6">
     <div class="space-y-6">
-        {% for talk in data.posts %}
+        {% for talk in data.posts|sort((a, b) => a.date < b.date) %}
             <article>
                 <h2>
                     <a class="text-blue-700 dark:text-blue-400" href="{{ talk.url }}">
