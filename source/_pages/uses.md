@@ -2,6 +2,7 @@
 title: Uses
 ---
 
+<div class="markdown" markdown="1">
 ## Hardware
 
 * My personal computer is a [Lenovo ThinkPad X390](https://www.lenovo.com/gb/en/laptops/thinkpad/x-series/X390/p/22TP2TX3900) laptop, on which I've installed the [Pop!_OS](https://pop.system76.com) Linux distribution.
@@ -17,3 +18,4 @@ title: Uses
 * I use [Kdenlive](https://kdenlive.org) for editing meetup videos.
 * I use Spotify Premium and Pocket Casts for listening to music and podcasts.
 * I use [Todoist](https://todoist.com) for to-do lists, and [Obsidian](https://obsidian.md) for note-taking.
+</div>
