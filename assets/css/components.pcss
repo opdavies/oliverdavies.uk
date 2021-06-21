@@ -1,4 +1,16 @@
 @layer components {
+  .link {
+    @apply text-blue-700 dark:text-blue-400;
+    text-decoration-color: theme('colors.blue.700');
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.1em;
+
+    @media (prefers-color-scheme: dark) {
+      text-decoration-color: theme('colors.blue.400');
+    }
+  }
+
   .markdown {
     * + * {
       @apply mt-4;
@@ -22,6 +34,10 @@
 
     li {
       @apply mt-0;
+    }
+
+    a {
+      @apply link;
     }
   }
 
