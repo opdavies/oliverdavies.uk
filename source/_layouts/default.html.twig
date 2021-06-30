@@ -1,5 +1,9 @@
 {% extends 'app' %}
 
 {% block body %}
-    {% block content %}{% endblock %}
+    {% include 'navbar' %}
+
+    {% block content_wrapper %}
+        {% block content %}{% endblock %}
+    {% endblock %}
 {% endblock %}
