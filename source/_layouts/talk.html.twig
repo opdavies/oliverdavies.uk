@@ -20,6 +20,9 @@
             } only %}
         </div>
 
-        {% include 'about-author' %}
+        {% include 'about-author' with {
+            avatar: site.avatar,
+            work: site.work,
+        } only %}
     </div>
 {% endblock %}

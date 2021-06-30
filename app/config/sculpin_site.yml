@@ -63,6 +63,9 @@ twitter:
     url: 'https://twitter.com/%twitter.name%'
 
 work:
+    company:
+        name: Transport for Wales
+        url: https://trc.cymru
     role: Lead Software Developer
 
 youtube:

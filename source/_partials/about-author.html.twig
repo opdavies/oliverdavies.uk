@@ -3,13 +3,13 @@
 
   <div class="flex mt-4 space-x-4">
     <div class="flex-shrink-0">
-      <img src="/sites/default/files/images/social-avatar.jpg" alt="Picture of Oliver" class="w-16 h-16 border rounded-full border-gray">
+        <img src="{{ avatar.url }}" alt="Picture of Oliver" class="w-16 h-16 border rounded-full border-gray">
     </div>
 
     <div>
       <p>
         Oliver Davies is a PHP Developer and Linux Systems Administrator based in the UK.
-        He is a Lead Software Developer at <a href="https://trc.cymru?utm_source=oliverdavies.uk&amp;utm_medium=about-author" class="link">Transport for Wales</a> and a part-time freelancer specialising in Drupal and Symfony application development.
+        He is a {{ work.role }} at <a href="{{ work.company.url }}?utm_source=oliverdavies.uk&amp;utm_medium=about-author" class="link">{{ work.company.name }}</a> and a part-time freelancer specialising in Drupal and Symfony application development.
       </p>
     </div>
   </div>
