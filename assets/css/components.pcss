@@ -1,10 +1,16 @@
 @layer components {
   .link {
-    @apply text-blue-800 dark:text-blue-400;
-    @apply text-decoration-blue-800 dark:text-decoration-blue-400;
-    text-decoration-line: underline;
+    @apply underline text-blue-800 hover:text-blue-900 dark:text-blue-400 dark:hover:text-white;
     text-decoration-thickness: 1px;
     text-underline-offset: 0.1em;
+
+
+    &:focus {
+      @apply no-underline;
+      outline-color: currentColor;
+      outline-offset: 2px;
+      outline-style: solid;
+    }
   }
 
   .markdown {
