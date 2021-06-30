@@ -3,3 +3,16 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% set metaDescription = null %}
+{% if page.meta.description %}
+    {% set metaDescription = page.meta.description|e('html') %}
+{% elseif page.description %}
+    {% set metaDescription = page.description|e('html') %}
+{% elseif page.excerpt %}
+    {% set metaDescription = page.excerpt|e('html') %}
+{% endif %}
+
+{% if metaDescription %}
+    <meta name="description" content="{{ metaDescription }}">
+{% endif %}
