@@ -58,6 +58,9 @@ menus:
             href: /talks
             is_active: '^/talks/?'
 
+plausible:
+    domain: ~
+
 twitter:
     name: opdavies
     url: 'https://twitter.com/%twitter.name%'

@@ -6,6 +6,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
 
         {% include 'meta' with { page, site } only %}
+
+        {% include 'plausible' with {
+            plausible: site.plausible,
+        } only %}
     </head>
     <body>
         {% block body %}{% endblock %}
