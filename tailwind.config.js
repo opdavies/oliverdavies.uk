@@ -36,8 +36,11 @@ module.exports = {
           'sans-serif',
         ],
         mono: [
-          'Operator Mono',
-          'Roboto Mono',
+          'ui-monospace',
+          'SFMono-Regular',
+          'SF Mono',
+          'Consolas',
+          'Liberation Mono',
           ...fontFamily.mono
         ]
       },
