@@ -4,7 +4,7 @@ let path = require('path')
 Encore
     .disableSingleRuntimeChunk()
     .cleanupOutputBeforeBuild()
-    .setOutputPath('build/')
+    .setOutputPath('source/build/')
     .setPublicPath('/build')
     .setManifestKeyPrefix('build/')
 

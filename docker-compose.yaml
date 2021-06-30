@@ -4,7 +4,7 @@ services:
   app:
     image: opdavies/sculpin-serve
     volumes:
-      - assets:/app/output_dev/build
+      - assets:/app/source/build
       - /app/output_dev
       - .:/app
     ports:
@@ -15,7 +15,7 @@ services:
       context: .
       dockerfile: tools/docker/node/Dockerfile
     volumes:
-      - assets:/node/build
+      - assets:/node/source/build
       - /node/node_modules
       - ./assets:/node/assets
       - ./package.json:/node/package.json
