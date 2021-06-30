@@ -1,6 +1,6 @@
 ---
 title: 'Weeknotes: June 5th'
-description: Starting at Transport for Wales.
+excerpt: Starting at Transport for Wales.
 tag: [personal]
 ---
 

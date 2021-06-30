@@ -1,6 +1,6 @@
 ---
 title: Speaking at DrupalCon Europe 2020
-description: I'm excited to be speaking again at DrupalCon, this time online at DrupalCon Europe.
+excerpt: I'm excited to be speaking again at DrupalCon, this time online at DrupalCon Europe.
 tags: [Drupal, Conferences, Speaking]
 date: 2020-07-30
 ---

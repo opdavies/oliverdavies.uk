@@ -1,6 +1,6 @@
 ---
 title: Survey results from my DrupalCon Europe session (Test Driven Drupal)
-description: Here are the results from the session survey for my DrupalCon session (Test Driven Drupal) on Drupal automated testing and test-driven development.
+excerpt: Here are the results from the session survey for my DrupalCon session (Test Driven Drupal) on Drupal automated testing and test-driven development.
 tags: [DrupalCon, Speaking]
 date: 2021-01-22
 ---

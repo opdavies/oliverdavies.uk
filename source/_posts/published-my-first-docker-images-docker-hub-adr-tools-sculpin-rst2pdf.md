@@ -1,6 +1,6 @@
 ---
 title: Published my first Docker images on Docker Hub (ADR Tools, Sculpin, rst2pdf)
-description: I recently released my first images to the Docker Hub, for ADR Tools, the Sculpin site generator, and rst2pdf.
+excerpt: I recently released my first images to the Docker Hub, for ADR Tools, the Sculpin site generator, and rst2pdf.
 date: 2021-04-20
 ---
 

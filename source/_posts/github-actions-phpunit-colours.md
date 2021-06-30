@@ -1,6 +1,6 @@
 ---
 title: Coloured output with PHPUnit and GitHub Actions
-description: How to have colours in your PHPUnit output when running with GitHub Actions.
+excerpt: How to have colours in your PHPUnit output when running with GitHub Actions.
 date: 2020-08-12
 tags: [PHPUnit, Testing, GitHub Actions]
 ---
