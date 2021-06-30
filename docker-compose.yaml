@@ -10,7 +10,7 @@ services:
     ports:
       - 8000:8000
 
-  node:
+  assets:
     build:
       context: .
       dockerfile: tools/docker/node/Dockerfile
