@@ -11,8 +11,11 @@ video:
   type: youtube
   id: Yi_FPI3xHwc
 events:
-  - event: phpsw
+  - name: PHP South West
+    location: Bristol, UK
+    url: https://phpsw.uk
     date: 2016-11-09
+sortable_date: 2016-11-09
 ---
 
 Building a Drupal application? You no longer need to download archives to add new modules or update core, or deal with Drupal specific tools to manage your codebase.

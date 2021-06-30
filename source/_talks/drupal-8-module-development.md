@@ -20,8 +20,10 @@ meta:
       height: 540
       width: 960
 events:
-  - event: drupalcamp_london_16
+  - name: DrupalCamp London 2016
+    location: London, UK
     date: 2016-03-05
+sortable_date: 2016-03-05
 ---
 
 New to object-orientated PHP, Symfony or YAML, and want to get started building modules in Drupal 8? This is the session for you!
