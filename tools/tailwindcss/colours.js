@@ -1,9 +1,9 @@
-let { warmGray } = require('tailwindcss/colors')
+let { gray } = require('tailwindcss/colors')
 
 module.exports = {
   black: '#000',
   current: 'currentColor',
-  gray: warmGray,
+  gray,
   inherit: 'inherit',
   transparent: 'transparent',
   white: '#fff'
