@@ -1,9 +1,14 @@
 {% extends 'app' %}
 
 {% block body %}
+    <a class="sr-only focus:not-sr-only" href="#main-content">Skip to main content</a>
+
     {% include 'navbar' %}
 
-    {% block content_wrapper %}
-        {% block content %}{% endblock %}
-    {% endblock %}
+
+    <div id="main-content" class="max-w-xl mx-auto">
+        {% block content_wrapper %}
+            {% block content %}{% endblock %}
+        {% endblock %}
+    </div>
 {% endblock %}
