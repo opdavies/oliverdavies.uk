@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Oliver Davies - UK based PHP Developer and Drupal specialist
 permalink: /
 ---
 
