@@ -11,6 +11,10 @@ github:
 
 menus:
   footer:
+    - title: Test Driven Drupal
+      href: /test-driven-drupal
+      is_active: '^/test-driven-drupal/?'
+
     - title: Uses
       href: /uses
 
