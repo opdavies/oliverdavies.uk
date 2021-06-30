@@ -4,19 +4,19 @@ use:
   - talks
 ---
 
-<p class="mt-4 text-xl">After giving my first talk in September 2012, I have now given 81 presentations and workshops at various conferences and meetups, in-person and remotely, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.</p>
+<p class="mt-4">After giving my first talk in September 2012, I have now given 81 presentations and workshops at various conferences and meetups, in-person and remotely, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.</p>
 
 <div class="mt-6">
     <div class="space-y-6">
         {% for talk in data.talks|sort((a,b) => a.sortable_date < b.sortable_date) %}
             <article>
-                <h2 class="text-xl">
+                <h2>
                     <a class="text-blue-700 dark:text-blue-400" href="{{ talk.url }}">
                         {{ talk.title }}
                     </a>
                 </h2>
 
-                <p class="mt-1 text-xl leading-7">{{ talk.description }}</p>
+                <p class="mt-1 leading-6">{{ talk.description }}</p>
             </article>
         {% endfor %}
     </div>
