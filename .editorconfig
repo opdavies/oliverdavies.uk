@@ -15,3 +15,15 @@ indent_style = space
 # Markdown customizations
 [*.md]
 trim_trailing_whitespace = false
+
+[docker-compose.yaml,Dockerfile]
+indent_size = 2
+
+[*.pcss]
+indent_size = 2
+
+[{postcss,tailwind,webpack}.config.js]
+indent_size = 2
+
+[tools/tailwindcss/**/*.js]
+indent_size = 2
