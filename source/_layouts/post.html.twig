@@ -2,7 +2,13 @@
 
 {% block content_wrapper %}
     <div class="space-y-10">
-        <div>
+        <div class="space-y-6">
+            <header>
+                <time datetime="{{ page.date|date('Y-m-d') }}">
+                    {{- page.date|date('jS F Y') -}}
+                </time>
+            </header>
+
             <div class="markdown">
                 {{ parent() }}
             </div>
