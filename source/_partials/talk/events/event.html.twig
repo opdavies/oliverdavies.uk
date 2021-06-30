@@ -1,0 +1,10 @@
+<li>
+    {% if url %}
+        <a href="{{ url }}">{{ name }}</a>
+    {% else %}
+        {{ name }}
+    {% endif %}
+    {% if location %}in {{ location }}{% endif %}
+    {{ is_online ? '(Online)' }}
+    - {{ date|date('jS F Y') }}
+</li>

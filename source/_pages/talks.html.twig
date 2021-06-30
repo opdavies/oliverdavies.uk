@@ -1,0 +1,17 @@
+---
+title: Talks and Workshops
+use:
+  - talks
+---
+
+{% for talk in data.talks|sort((a,b) => a.sortable_date < b.sortable_date) %}
+    <article>
+        <h2>
+            <a href="{{ talk.url }}">
+                {{ talk.title }}
+            </a>
+        </h2>
+
+        <p>{{ talk.description }}</p>
+    </article>
+{% endfor %}
