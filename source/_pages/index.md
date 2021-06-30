@@ -1,5 +1,5 @@
 ---
-title: Oliver Davies - UK based PHP Developer and Drupal specialist
+title: Oliver Davies - UK-based Lead Software Developer, PHP and Drupal specialist
 permalink: /
 is_front: true
 ---
