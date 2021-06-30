@@ -19,57 +19,17 @@ module.exports = {
     extend: {
       typography: (theme) => ({
         DEFAULT: {
-          css: {
-            a: {
-              color: theme('colors.blue.700')
-            },
-            code: {
-              backgroundColor: theme('colors.gray.150'),
-              fontWeight: theme('fontWeight.normal'),
-              paddingBottom: theme('spacing.px'),
-              paddingLeft: theme('spacing.1'),
-              paddingRight: theme('spacing.1'),
-              paddingTop: theme('spacing.px')
-            },
-            h2: {
-              marginBottom: theme('spacing.2'),
-              marginTop: theme('spacing.8')
-            },
-            pre: {
-              backgroundColor: theme('colors.gray.150'),
-              borderRadius: '0',
-              color: theme('colors.gray.800'),
-              padding: theme('spacing.6')
-            },
-            'code::before': false,
-            'code::after': false,
-            'pre code::before': false,
-            'pre code::after': false
-          }
-        },
-        dark: {
-          css: {
-            color: theme('colors.gray.200'),
-
-            code: {
-              backgroundColor: theme('colors.gray.750'),
-              color: theme('colors.gray.200')
-            },
-
-            'blockquote, h2, h3': {
-              color: theme('colors.white')
-            },
-
-            strong: {
-              color: theme('colors.gray.200')
+            css: {
+                p: {
+                    lineHeight: 400
+                }
             }
-          }
         }
       }),
       colors,
       fontFamily: {
         sans: [
-          'Inter',
+          'Roboto Condensed',
           'Arial',
           'Helvetica Neue',
           'Helvetica',
