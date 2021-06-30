@@ -1,1 +1,9 @@
 {% extends 'base' %}
+
+{% block content_wrapper %}
+    {% if page.intro_text %}
+        <p class="max-w-lg">{{ page.intro_text }}</p>
+    {% endif %}
+
+    {{ parent() }}
+{% endblock %}
