@@ -17,12 +17,12 @@ As well as Drupal, I’ve worked with other PHP projects like Symfony (which Dru
 - Acquia certified Back-End Specialist - Drupal 8 (2017)
 - Acquia certified Front-End Specialist - Drupal 8 (2017)
 - Acquia certified Cloud Pro (2018)
-- Platform.sh Gold partner certification (2021)
+- Platform.sh Gold partner certification (2021, for Inviqa)
 
 ## Community contributions
 
 * I wrote an article for Linux Journal's Drupal issue.
-* Previous organiser of Drupal Bristol and PHP South West (PHPSW) user groups and DrupalCamp Bristol conference.
+* Previous organiser of Drupal Bristol and PHP South West (PHPSW) user groups, and the DrupalCamp Bristol conference.
 * Current organiser of the PHP South Wales user group.
 * Board member for the [Drupal England and Wales Association](https://drupal-england-wales.github.io) (2020 to present).
 
