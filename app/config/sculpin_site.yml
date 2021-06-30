@@ -14,54 +14,58 @@ github:
     url: 'https://github.com/%github.name%'
 
 menus:
-  footer:
-    - title: Test Driven Drupal
-      href: /test-driven-drupal
-      is_active: '^/test-driven-drupal/?'
-
-    - title: RSS
-      href: \#
-
-    - title: Uses
-      href: /uses
-
-    - title: Speaker information
-      href: /speaker-information
-
-    - title: Drupal.org
-      href: '%drupalorg.url%'
-      is_active: false
-
-    - title: GitHub
-      href: '%github.url%'
-      is_active: false
-
-    - title: Twitter
-      href: '%twitter.url%'
-      is_active: false
-
-    - title: YouTube
-      href: '%youtube.url%'
-      is_active: false
-
-  main:
-  - title: About
-    href: /
-    is_active: '^//$'
-
-  - title: Blog
-    href: /blog
-    is_active: '^/blog/?'
-
-  - title: Talks
-    href: /talks
-    is_active: '^/talks/?'
+    footer:
+        -
+            title: Test Driven Drupal
+            href: /test-driven-drupal
+            is_active: '^/test-driven-drupal/?'
+        -
+            title: RSS
+            href: \#
+        -
+            title: Uses
+            href: /uses
+        -
+            title: Speaker information
+            href: /speaker-information
+        -
+            title: Drupal.org
+            href: '%drupalorg.url%'
+            is_active: false
+        -
+            title: GitHub
+            href: '%github.url%'
+            is_active: false
+        -
+            title: Twitter
+            href: '%twitter.url%'
+            is_active: false
+        -
+            title: YouTube
+            href: '%youtube.url%'
+            is_active: false
+    main:
+        -
+            title: About
+            href: /
+            is_active: '^//$'
+        -
+            title: Blog
+            href: /blog
+            is_active: '^/blog/?'
+        -
+            title: Talks
+            href: /talks
+            is_active: '^/talks/?'
 
 twitter:
-  name: opdavies
-  url: 'https://twitter.com/%twitter.name%'
+    name: opdavies
+    url: 'https://twitter.com/%twitter.name%'
+
+work:
+    role: Lead Software Developer
 
 youtube:
-  channel:
-      id: UCkeK0qF9HHUPQH_fvn4ghqQ
-  url: 'https://www.youtube.com/channel/%youtube.channel.id%'
+    channel:
+        id: UCkeK0qF9HHUPQH_fvn4ghqQ
+        url: 'https://www.youtube.com/channel/%youtube.channel.id%'
