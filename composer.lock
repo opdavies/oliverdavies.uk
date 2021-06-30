@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "31df69ba1277f0fbdb5e4773b6180c94",
+    "content-hash": "7f7c39b49ce875663ec830ec506fc764",
     "packages": [
         {
             "name": "dflydev/ant-path-matcher",
@@ -614,6 +614,53 @@
                 "wiki": "https://github.com/textile/php-textile/wiki"
             },
             "time": "2020-01-08T21:13:37+00:00"
+        },
+        {
+            "name": "opdavies/sculpin-gist-embed-bundle",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opdavies/sculpin-gist-embed-bundle.git",
+                "reference": "1e7246d52638a7c80ace2272d93d9cffd6fcc3b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opdavies/sculpin-gist-embed-bundle/zipball/1e7246d52638a7c80ace2272d93d9cffd6fcc3b8",
+                "reference": "1e7246d52638a7c80ace2272d93d9cffd6fcc3b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "sculpin/sculpin": "@stable"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Opdavies\\Sculpin\\Bundle\\GistEmbedBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oliver Davies",
+                    "email": "oliver@oliverdavies.uk",
+                    "homepage": "https://www.oliverdavies.uk"
+                }
+            ],
+            "description": "Allows for embedding GitHub Gists into a Sculpin site.",
+            "keywords": [
+                "sculpin"
+            ],
+            "support": {
+                "issues": "https://github.com/opdavies/sculpin-gist-embed-bundle/issues",
+                "source": "https://github.com/opdavies/sculpin-gist-embed-bundle/tree/master"
+            },
+            "time": "2016-04-05T19:57:22+00:00"
         },
         {
             "name": "psr/container",
