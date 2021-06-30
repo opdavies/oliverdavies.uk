@@ -4,7 +4,7 @@ description: An update on Drupal’s "out of the box" initiative, and core’s n
 speakerdeck:
     id: 3f66c48653f44ed4867fc3cc05c1db06
     ratio: '1.77777777777778'
-  url: https://speakerdeck.com/opdavies/out-of-the-box-initiative-update
+    url: https://speakerdeck.com/opdavies/out-of-the-box-initiative-update
 video:
     type: youtube
     id: ~
