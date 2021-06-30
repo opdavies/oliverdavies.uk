@@ -1,21 +1,23 @@
 {% extends 'base' %}
 
 {% block content_wrapper %}
-    <div class="markdown">
-        {{ parent() }}
+    <div class="space-y-6">
+        <div class="markdown">
+            {{ parent() }}
+        </div>
+
+        {% include 'talk/slides' with {
+            speakerdeck: page.speakerdeck,
+        } only %}
+
+        {% include 'talk/video' with {
+            video: page.video,
+        } only %}
+
+        {% include 'talk/events' with {
+            events: page.events|reverse,
+        } only %}
     </div>
-
-    {% include 'talk/slides' with {
-        speakerdeck: page.speakerdeck,
-    } only %}
-
-    {% include 'talk/video' with {
-        video: page.video,
-    } only %}
-
-    {% include 'talk/events' with {
-        events: page.events|reverse,
-    } only %}
 
     {% include 'about-author' %}
 {% endblock %}
