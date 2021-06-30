@@ -3,14 +3,15 @@ title: Decoupling Drupal with Vue.js
 description: Decoupling Drupal with Vue.js.
 code: https://github.com/opdavies/blue-conf-2019
 speakerdeck:
-  id: 60c8b7abdf194946b7a78a1bb74a0982
-  ratio: '1.77777777777778'
-  url: https://speakerdeck.com/opdavies/decoupling-drupal-with-vue-dot-js
+    id: 60c8b7abdf194946b7a78a1bb74a0982
+    ratio: '1.77777777777778'
+    url: https://speakerdeck.com/opdavies/decoupling-drupal-with-vue-dot-js
 events:
-  - name: Blue Conf 2019
-    location: Cardiff, UK
-    url: https://blueconf.co.uk
-    date: 2019-06-07
+    -
+        name: Blue Conf 2019
+        location: Cardiff, UK
+        url: https://blueconf.co.uk
+        date: 2019-06-07
 sortable_date: 2019-06-07
 ---
 

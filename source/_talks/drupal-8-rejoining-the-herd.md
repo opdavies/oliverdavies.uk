@@ -3,15 +3,16 @@ title: 'Drupal 8: Rejoining the Herd'
 description: A talk highlighting some of the recent technical and non-technical changes in Drupal 8.
 tags: [conference, php, drupal, drupal-8]
 speakerdeck:
-  id: 440fd6592f474741bc606c96bc32c104
-  ratio: '1.37081659973226'
-  url: https://speakerdeck.com/opdavies/drupal-rejoining-the-herd
+    id: 440fd6592f474741bc606c96bc32c104
+    ratio: '1.37081659973226'
+    url: https://speakerdeck.com/opdavies/drupal-rejoining-the-herd
 events:
-  - name: PHP South Coast 2016
-    location: Portsmouth, UK
-    url: http://2016.phpsouthcoast.co.uk
-    date: 2016-06-11
-    joindin: https://joind.in/talk/41d0f
+    -
+        name: PHP South Coast 2016
+        location: Portsmouth, UK
+        url: http://2016.phpsouthcoast.co.uk
+        date: 2016-06-11
+        joindin: https://joind.in/talk/41d0f
 sortable_date: 2016-06-11
 ---
 
