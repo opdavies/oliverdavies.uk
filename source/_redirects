@@ -581,3 +581,6 @@ wp-tailwind-repo https://github.com/opdavies/wordcamp-bristol-2019
 wp-tailwind-starter https://github.com/opdavies/wordpress-tailwindcss-startker-kit
 wp-tailwind-static https://wp-tailwind.oliverdavies.uk
 yXhoS /talks/things-you-should-know-about-php
+
+https://oliverdavies.uk/* https://www.oliverdavies.uk/:splat 301!
+https://romantic-williams-0ab86a.netlify.com/* https://www.oliverdavies.uk/:splat 301!
