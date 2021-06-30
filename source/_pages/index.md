@@ -1,6 +1,7 @@
 ---
 title: Oliver Davies - UK based PHP Developer and Drupal specialist
 permalink: /
+is_front: true
 ---
 
 <div class="markdown" markdown="1">

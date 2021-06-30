@@ -1,5 +1,9 @@
 name: Oliver Davies
+description: Lead Software Developer. Freelancer. Drupal and PHP specialist.
 locale: en-GB
+
+avatar:
+    url: '/sites/default/files/images/me-precedent.jpg'
 
 drupalorg:
     name: opdavies
