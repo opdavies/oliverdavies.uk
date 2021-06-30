@@ -1,9 +1,5 @@
-const aspectRatio = require('@tailwindcss/aspect-ratio')
-const colors = require('./tailwind-colours')
+const colors = require('./tools/tailwindcss/colours')
 const defaultTheme = require('tailwindcss/defaultTheme')
-const focusVisible = require('./tailwind-plugin-focus-visible')
-const forms = require('@tailwindcss/forms')
-const typography = require('@tailwindcss/typography')
 const { fontFamily } = defaultTheme
 
 module.exports = {
@@ -11,7 +7,7 @@ module.exports = {
   important: true,
   purge: {
     content: [
-      'tailwind-safelist-classes.txt',
+      'tools/tailwindcss/safelist-classes.txt',
       'source/**/*.{md,twig}',
     ],
   },
@@ -59,9 +55,9 @@ module.exports = {
     container: false
   },
   plugins: [
-    aspectRatio,
-    focusVisible,
-    forms,
-    typography
+    require('./tools/tailwindcss/plugins/focus-visible'),
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography')
   ]
 }
