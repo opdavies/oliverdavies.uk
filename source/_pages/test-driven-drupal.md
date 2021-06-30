@@ -2,8 +2,7 @@
 title: 'Test Driven Drupal: The Book'
 ---
 
-<div class="markup spaced-y-4 mb-6">
-
+<div class="markdown spaced-y-4 mb-6">
 <p>Having <a href="/talks/tdd-test-driven-drupal">given talks</a> and <a href="https://web.archive.org/web/20200422110605/https://drupalcamp.london/training/Automated-Testing-and-Test-Driven-Development-in-Drupal-8">workshops</a>, been a guest on podcasts and <a href="/articles/tags/testing">written articles</a> about automated testing in Drupal, I’m currently in the planning phase of a book and potentially some accompanying screencasts about it, focussing on Drupal 8.</p>
 
 <p>I’m still thinking about what use-cases to cover and examples to include, but
