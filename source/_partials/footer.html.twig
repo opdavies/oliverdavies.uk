@@ -1,7 +1,7 @@
-<footer class="mt-10">
+<footer class="mt-20">
     <nav class="flex flex-wrap justify-center space-x-3">
         {% for link in site.menus.footer %}
-            <a class="link" href="{{ link.href }}">{{ link.title }}</a>
+            <a class="text-lg dark:text-white dark:text-decoration-white link" href="{{ link.href }}">{{ link.title }}</a>
         {% endfor %}
     </nav>
 </footer>
