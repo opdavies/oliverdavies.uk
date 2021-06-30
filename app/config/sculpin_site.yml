@@ -20,7 +20,7 @@ menus:
             href: /test-driven-drupal
             is_active: '^/test-driven-drupal/?'
         -
-            title: RSS
+            title: RSS feed
             href: \#
         -
             title: Uses
