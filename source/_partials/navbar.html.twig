@@ -19,9 +19,10 @@
 
             <div>
                 <nav class="flex flex-col items-center mt-4 md:mt-0 md:flex-row md:space-x-4">
-                    <a class="text-black" href="/">About</a>
-                    <a class="text-black" href="/blog">Blog</a>
-                    <a class="text-black" href="/talks">Talks</a>
+                    {% for item in site.menus.main %}
+                        {% set is_active = page.url matches '#' ~ item.is_active ~ '#' %}
+                        <a class="text-black border-b-3 py-2 {{ is_active ? 'border-blue-700' : 'border-transparent' }}" href="{{ item.href }}">{{ item.title }}</a>
+                    {% endfor %}
                 </nav>
             </div>
         </div>

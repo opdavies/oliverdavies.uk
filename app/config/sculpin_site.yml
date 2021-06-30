@@ -1,2 +1,16 @@
 name: Oliver Davies
 locale: en-GB
+
+menus:
+  main:
+    - title: About
+      href: /
+      is_active: '^//$'
+
+    - title: Blog
+      href: /blog
+      is_active: '^/blog/?'
+
+    - title: Talks
+      href: /talks
+      is_active: '^/talks/?'
