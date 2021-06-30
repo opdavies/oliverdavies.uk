@@ -7,7 +7,7 @@ const typography = require('@tailwindcss/typography')
 const { fontFamily } = defaultTheme
 
 module.exports = {
-  darkMode: false,
+  darkMode: 'media',
   important: true,
   purge: {
     content: [
