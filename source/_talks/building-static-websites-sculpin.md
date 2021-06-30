@@ -3,21 +3,22 @@ title: Building Static Websites with Sculpin
 description: A lightning talk on how to use Sculpin to generate static HTML websites.
 type: Lightning talk
 speakerdeck:
-  id: 6c9c4be1a1344f1291ff13a391674a66
-  ratio: '1.37081659973226'
-  url: https://speakerdeck.com/opdavies/building-static-websites-with-sculpin
+    id: 6c9c4be1a1344f1291ff13a391674a66
+    ratio: '1.37081659973226'
+    url: https://speakerdeck.com/opdavies/building-static-websites-with-sculpin
 code: https://github.com/opdavies/sculpin-demo
 tags: [meetups, phpsw, sculpin]
 tweets: yes
 video:
-  type: youtube
-  id: aN53arCKZAU
+    type: youtube
+    id: aN53arCKZAU
 events:
-  - name: PHP South West
-    location: Bristol, UK
-    date: 2015-10-14
-    url: https://phpsw.uk/events/2015-10-lightning-talks
-    joindin: https://joind.in/talk/view/15486
+    -
+        name: PHP South West
+        location: Bristol, UK
+        date: 2015-10-14
+        url: https://phpsw.uk/events/2015-10-lightning-talks
+        joindin: https://joind.in/talk/view/15486
 sortable_date: 2015-10-14
 ---
 

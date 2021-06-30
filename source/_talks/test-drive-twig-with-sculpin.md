@@ -2,16 +2,17 @@
 title: Test Drive Twig with Sculpin
 description: With Drupal 8 just around the corner, see how you can develop your Twig skills with Sculpin - a static site generator based on Symfony components and Twig.
 speakerdeck:
-  id: 54589d2e50a3476a9a75aed809e9edf1
-  ratio: '1.77777777777778'
-  url: https://speakerdeck.com/opdavies/test-drive-twig-with-sculpin
+    id: 54589d2e50a3476a9a75aed809e9edf1
+    ratio: '1.77777777777778'
+    url: https://speakerdeck.com/opdavies/test-drive-twig-with-sculpin
 code: https://github.com/opdavies/sculpin-demo
 tweets: yes
 events:
-  - name: DrupalCamp North 2015
-    location: Sunderland, UK
-    url: http://drupalcampnorth.org
-    date: 2015-07-25
+    -
+        name: DrupalCamp North 2015
+        location: Sunderland, UK
+        url: http://drupalcampnorth.org
+        date: 2015-07-25
 sortable_date: 2015-07-25
 ---
 

@@ -4,17 +4,18 @@ description: A lightning talk on how to use Composer to manage your Drupal proje
 type: Lightning talk
 tags: ['meetups', 'phpsw', 'drupal', 'composer']
 speakerdeck:
-  id: 7a1358502526425a9cfd288f85fb32f3
-  ratio: '1.37081659973226'
-  url: https://speakerdeck.com/opdavies/modern-drupal-development-with-composer
+    id: 7a1358502526425a9cfd288f85fb32f3
+    ratio: '1.37081659973226'
+    url: https://speakerdeck.com/opdavies/modern-drupal-development-with-composer
 video:
-  type: youtube
-  id: Yi_FPI3xHwc
+    type: youtube
+    id: Yi_FPI3xHwc
 events:
-  - name: PHP South West
-    location: Bristol, UK
-    url: https://phpsw.uk
-    date: 2016-11-09
+    -
+        name: PHP South West
+        location: Bristol, UK
+        url: https://phpsw.uk
+        date: 2016-11-09
 sortable_date: 2016-11-09
 ---
 
