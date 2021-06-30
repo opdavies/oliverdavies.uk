@@ -1,6 +1,6 @@
 ---
 title: 'Weeknotes: June 12th'
-description: Developing on Windows, organising dotfiles, and helping organise DrupalCon.
+excerpt: Developing on Windows, organising dotfiles, and helping organise DrupalCon.
 date: 2021-06-12
 tags: [personal]
 ---
