@@ -6,9 +6,11 @@
     {% include 'navbar' %}
 
 
-    <div id="main-content" class="max-w-xl mx-auto">
-        {% block content_wrapper %}
-            {% block content %}{% endblock %}
-        {% endblock %}
+    <div class="my-8">
+        <div id="main-content" class="max-w-xl mx-auto">
+            {% block content_wrapper %}
+                {% block content %}{% endblock %}
+            {% endblock %}
+        </div>
     </div>
 {% endblock %}
