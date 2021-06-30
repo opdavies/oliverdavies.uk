@@ -1,0 +1,23 @@
+{% extends 'app' %}
+
+{% block body %}
+    <div class="min-h-screen font-sans text-base font-light text-gray-900 md:text-lg dark:bg-gray-900 dark:text-white">
+        <a class="sr-only focus:not-sr-only" href="#main-content">Skip to main content</a>
+
+        {% include 'navbar' %}
+
+        <div class="max-w-2xl px-4 py-16 mx-auto">
+            <div id="main-content">
+                <h1 class="text-xl font-bold md:text-2xl">{{ page.title }}</h1>
+
+                <div class="mt-4">
+                    {% block content_wrapper %}
+                        {% block content %}{% endblock %}
+                    {% endblock %}
+                </div>
+            </div>
+
+            {% include 'footer' %}
+        </div>
+    </div>
+{% endblock %}
