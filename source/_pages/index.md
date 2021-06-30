@@ -3,7 +3,8 @@ title: Home
 permalink: /
 ---
 
-<div class="mb-4 w-32"><img src="/sites/default/files/images/me-precedent.jpg" alt="Picture of Oliver" class="rounded-full border border-gray"></div>
+<div class="markdown" markdown="1">
+<div class="mb-4 w-32"><img src="/sites/default/files/images/me-precedent.jpg" alt="Picture of Oliver" class="border rounded-full border-gray"></div>
 
 Hi, I'm Oliver Davies (aka <a href="https://www.google.com/#q=opdavies">opdavies</a>). I’m a Lead Software Developer at <a href="https://trc.cymru?utm_source=oliverdavies.uk&amp;utm_medium=about">Transport for Wales</a> and a part-time freelance Web Developer and System Administrator, based in Wales, UK.
 
@@ -19,3 +20,4 @@ I enjoy contributing to open source, and maintain a variety of different project
 
 - No full-time availability
 - No part-time availability
+</div>

@@ -1,7 +1,9 @@
 {% extends 'base' %}
 
 {% block content_wrapper %}
-    {{ parent() }}
+    <div class="markdown">
+        {{ parent() }}
+    </div>
 
     {% include 'about-author' %}
 {% endblock %}

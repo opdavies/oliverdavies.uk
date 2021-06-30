@@ -2,6 +2,7 @@
 title: Oliver Davies - PHP Developer and Drupal Specialist
 ---
 
+<div class="markdown" markdown="1">
 I'm a long-time Web Developer and consultant. I’ve led, delivered, and maintained PHP, Drupal, and Drupal Commerce based websites, have worked for some of the UK’s largest and well-known PHP and Drupal agencies, and even for the Drupal Association - the nonprofit organisation behind the Drupal project - where I was employed to work on and improve the Drupal.org websites.
 
 ## My Drupal Experience
@@ -31,3 +32,4 @@ As well as Drupal, I’ve worked with other PHP projects like Symfony (which Dru
 * How to Code Well
 * That Podcast
 * Voices of the ElePHPant
+</div>
