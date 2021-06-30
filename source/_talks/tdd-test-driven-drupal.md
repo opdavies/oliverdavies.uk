@@ -7,7 +7,7 @@ speakerdeck:
   url: 'https://speakerdeck.com/opdavies/tdd-test-driven-drupal'
 video:
   type: youtube
-  id: 3AUhpkxZ7DQ
+  id: r41dkD2EOo8
 image:
   url: /images/talks/test-driven-drupal-development.png
   width: 2560
@@ -15,25 +15,54 @@ image:
   type: image/png
 use: [talks]
 events:
-  - event: drupalcamp_london_17
+  - name: DrupalCamp London 2017
+    location: London, UK
     date: 2017-03-04
     time: '16:15 - 17:00'
-  - event: drupalcamp_dublin_17
+
+  - name: DrupalCamp Dublin 2017
+    location: Dublin, Ireland
     date: 2017-10-21
     time: '12:00 - 12:40'
-  - event: drupal_bristol
+    url: http://2017.drupal.ie
+
+  - name: Drupal Bristol
     date: 2017-11-22
-  - event: drupal_somerset
+    location: Bristol, UK
+    url: https://www.drupalbristol.org.uk
+
+  - name: Drupal Somerset
     date: 2018-06-14
-  - event: drupal_dev_days_18
+    location: Glastonbury, UK
+
+  - name: Drupal Developer Days 2018
     date: 2018-07-05
     time: '12:15 - 13:00'
-  - event: drupalcamp_london_19
+    location: Lisbon, Portugal
+    url: http://lisbon2018.drupaldays.org
+
+  - name: DrupalCamp London 2019
     date: 2019-03-02
     time: '14:00 - 14:45'
-  - event: nwdug
+    location: London, UK
+    url: http://drupalcamp.london
+
+  - name: NWDUG
     date: 2020-05-12
-    remote: true
+    location: Manchester, UK
+    url: http://nwdrupal.org.uk
+    online: true
+
+  - name: Bay Area Drupal Camp (BADCamp)
+    date: 2020-10-14
+    url: https://2020.badcamp.org/session/tdd-test-driven-drupal
+    online: true
+
+  - name: DrupalCon Europe 2020
+    date: 2020-12-08
+    url: https://events.drupal.org/europe2020/sessions/tdd-test-driven-drupal
+    online: true
+sortable_date: 2020-12-08
 ---
 
 {% block content %}

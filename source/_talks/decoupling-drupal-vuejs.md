@@ -7,8 +7,11 @@ speakerdeck:
   ratio: '1.77777777777778'
   url: https://speakerdeck.com/opdavies/decoupling-drupal-with-vue-dot-js
 events:
-  - event: blue_conf_19
+  - name: Blue Conf 2019
+    location: Cardiff, UK
+    url: https://blueconf.co.uk
     date: 2019-06-07
+sortable_date: 2019-06-07
 ---
 
 Decoupled or headless Drupal has been a trend for a number of years, with modules like RESTful Web Services available for Drupal 7 to expose data, and Drupal 8 becoming more API-first with JSON:API module now included as part of core. This makes it easier for third party systems or alternative front-end applications to consume and work with the data provided by Drupal.

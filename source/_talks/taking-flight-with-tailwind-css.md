@@ -7,22 +7,82 @@ speakerdeck:
   url: https://speakerdeck.com/opdavies/taking-flight-with-tailwind-css
 video:
   type: youtube
-  id: A-EUdvSAi_I
+  id: lgsvKtpQp3U
 tags: [css, tailwind, meetup]
 events:
-  - event: drupal_bristol
+  - name: Drupal Bristol
+    location: Bristol, UK
     date: 2018-01-17
-  - event: php_south_wales
+    url: https://www.drupalbristol.org.uk
+
+  - name: PHP South Wales
+    location: Cardiff, UK
     date: 2018-07-31
-  - event: wpchelt
+    url: https://www.phpsouthwales.uk
+
+  - name: Cheltenham WordPress Meetup
+    location: Cheltenham, UK
     date: 2019-04-17
-  - event: wordcamp_bristol_2019
+    url: https://www.meetup.com/Cheltenham-WordPress-Meetup
+
+  - name: WordCamp Bristol 2019
+    location: Bristol, UK
     date: 2019-05-18
-  - event: blue_conf_19
+    url: https://2019.bristol.wordcamp.org
+
+  - name: Blue Conf 2019
+    location: Cardiff, UK
     date: 2019-06-07
-  - event: cms_philly_20
+    url: https://blueconf.co.uk
+
+  - name: CMS Philly
+    location: Philadelphia, USA
     date: 2020-05-01
-    remote: true
+    url: https://cmsphilly.org
+    online: true
+
+  - name: PHP Hampshire
+    location: Portsmouth, UK
+    date: 2020-07-08
+    url: https://www.meetup.com/meetup-group-yzpbvTYv/events/271430269
+    online: true
+
+  - name: Drupal Yorkshire
+    location: Leeds, UK
+    date: 2020-08-20
+    url: https://www.meetup.com/DrupalYorkshire/events/zwzsfpybclbbc
+    online: true
+
+  - name: DigitalCamp Atlanta 2020
+    location: Atlanta, GA
+    date: 2020-09-11
+    url: https://www.drupalcampatlanta.com/2020/sessions/taking-flight-tailwind-css
+    online: true
+
+  - name: Bristol JS
+    location: Bristol, UK
+    date: 2020-09-30
+    url: https://techtalks.io/events/f8e26038-2561-484e-8a74-7a1e3a0369b8
+    online: true
+
+  - name: 'Drupal Virtual Cafe #3'
+    location: Kyiv, Ukraine
+    date: 2020-10-15
+    url: https://groups.drupal.org/ukraine
+    online: true
+
+  - name: PHP Cambridge
+    location: Cambridge, UK
+    date: 2021-01-19
+    url: https://www.meetup.com/phpcambridge
+    online: true
+
+  - name: Nashville PHP
+    location: Nashville, TN, USA
+    date: 2021-02-09
+    url: https://www.meetup.com/nashvillephp/events/kzkdwryccdbmb
+    online: true
+sortable_date: 2021-02-09
 meta:
   og:
     title: Taking Flight with Tailwind CSS

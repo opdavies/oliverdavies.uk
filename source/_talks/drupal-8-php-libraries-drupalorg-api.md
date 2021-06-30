@@ -9,21 +9,22 @@ image:
   width: 2000
   height: 1125
   type: image/png
-tags:
-  - drupal
-  - drupal-8
-  - drupalorg
-  - php
 video:
   type: youtube
   id: JyDjC7gGDpU
 events:
-  - event: drupal_bristol
+  - name: Drupal Bristol
+    location: Bristol, UK
+    url: https://www.drupalbristol.org.uk
     date: 2018-04-18
     joindin: https://joind.in/talk/14851
-  - event: drupalcamp_london_19
+
+  - name: DrupalCamp London 2019
+    location: London, UK
+    url: http://drupalcamp.london
     date: 2019-03-03
     time: '12:05 - 12:50'
+sortable_date: 2019-03-03
 ---
 
 A overview and demo of some of the open source projects that I’ve been working on lately that are based on information from the Drupal.org API, including a PHP library for the API itself as well as some Drupal 8 modules that use it.

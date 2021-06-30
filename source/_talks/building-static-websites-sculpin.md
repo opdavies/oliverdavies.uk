@@ -13,9 +13,12 @@ video:
   type: youtube
   id: aN53arCKZAU
 events:
-  - event: phpsw
+  - name: PHP South West
+    location: Bristol, UK
     date: 2015-10-14
+    url: https://phpsw.uk/events/2015-10-lightning-talks
     joindin: https://joind.in/talk/view/15486
+sortable_date: 2015-10-14
 ---
 
 [Sculpin][0] is a static site generator written in PHP. It converts Markdown files, Twig templates and standard HTML into a static HTML site that can be easily deployed.

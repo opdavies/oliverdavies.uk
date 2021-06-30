@@ -10,11 +10,13 @@ speakerdeck:
 video:
   type: youtube
   id: 36zCxPrOOzM
-tags: [meetup, phpsw, drupal, drupal-8]
 tweets: yes
 events:
-  - event: phpsw
+  - name: PHP South West
+    location: Bristol, UK
+    url: https://phpsw.uk
     date: 2015-04-08
+sortable_date: 2015-04-08
 ---
 
 This was a ten minute lightning talk, designed to highlight the major changes
