@@ -42,7 +42,7 @@ menus:
             is_active: false
         -
             title: YouTube
-            href: '%youtube.url%'
+            href: '%youtube.channel.url%'
             is_active: false
     main:
         -
