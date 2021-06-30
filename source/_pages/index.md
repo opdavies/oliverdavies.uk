@@ -1,4 +1,22 @@
 ---
 layout: default
+title: Home
+permalink: /
 ---
-Hello, World!
+
+<div class="mb-4 w-32"><img src="https://www.oliverdavies.uk/sites/default/files/images/me-precedent.jpg" alt="Picture of Oliver" class="rounded-full border border-gray"></div>
+
+Hi, I'm Oliver Davies (aka <a href="https://www.google.com/#q=opdavies">opdavies</a>). I’m a Lead Software Developer at <a href="https://trc.cymru?utm_source=oliverdavies.uk&amp;utm_medium=about">Transport for Wales</a> and a part-time freelance Web Developer and System Administrator, based in Wales, UK.
+
+I’ve been a Developer since 2007 and specialise in using Drupal, Symfony and Vue.js. I use Ansible for server provisioning and application deployments.
+
+I’m an <a href="https://certification.acquia.com/user/1647756">Acquia certified</a> Drupal 8 Grand Master, and was a Developer for the <a href="https://www.drupal.org/association">Drupal Association</a> working on <a href="https://www.drupal.org">Drupal.org</a> where I'm still a Webmaster and Documentation Maintainer.
+
+I regularly <a href="/talks">give talks</a> at user groups and conferences, and am an organiser of the <a href="https://www.phpsouthwales.uk">PHP South Wales</a> user group.
+
+I enjoy contributing to open source, and maintain a variety of different projects. You can see these on my <a href="https://www.drupal.org/u/opdavies">Drupal.org</a> and <a href="https://github.com/opdavies">GitHub</a> accounts.
+
+## Availability
+
+- No full-time availability
+- No part-time availability
