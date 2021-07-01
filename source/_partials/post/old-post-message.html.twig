@@ -1,6 +1,9 @@
 {% macro shouldDisplayOldPostMessage(post) %}
     {% set cutOffDate = 'today -1 year'|date('U') %}
-    {{ post.date <= cutOffDate }}
+
+    {% if post.date is not empty %}
+        {{ post.date <= cutOffDate }}
+    {% endif %}
 {% endmacro %}
 
 {% import _self as helpers %}
