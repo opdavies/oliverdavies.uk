@@ -585,3 +585,4 @@ yXhoS /talks/things-you-should-know-about-php
 
 https://oliverdavies.uk/* https://www.oliverdavies.uk/:splat 301!
 https://romantic-williams-0ab86a.netlify.com/* https://www.oliverdavies.uk/:splat 301!
+https://www.oliverdavies.uk/articles/* https://www.oliverdavies.uk/blog/:splat 301!
