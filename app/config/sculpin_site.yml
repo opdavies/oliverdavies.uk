@@ -10,8 +10,11 @@ drupalorg:
     url: 'https://www.drupal.org/u/%drupalorg.name%'
 
 github:
+    gist:
+        url: 'https://gist.github.com/%github.name%'
     name: opdavies
     url: 'https://github.com/%github.name%'
+
 
 menus:
     footer:
@@ -19,9 +22,9 @@ menus:
             title: Test Driven Drupal
             href: /test-driven-drupal
             is_active: '^/test-driven-drupal/?'
-        -
-            title: RSS feed
-            href: \#
+        #-
+        #    title: RSS feed
+        #    href: \#
         -
             title: Uses
             href: /uses
