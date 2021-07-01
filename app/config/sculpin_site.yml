@@ -37,6 +37,10 @@ menus:
             href: '%github.url%'
             is_active: false
         -
+            title: GitHub gists
+            href: '%github.gist.url%'
+            is_active: false
+        -
             title: Twitter
             href: '%twitter.url%'
             is_active: false
