@@ -1,0 +1,23 @@
+workspace('oliverdavies-uk'):
+  description: Sculpin website for oliverdavies.uk.
+
+command('disable'):
+  env:
+    COMPOSE_PROJECT_NAME: = @('namespace')
+  exec: |
+    #!bash(workspace:/)
+    run docker-compose down
+
+command('enable'):
+  env:
+    COMPOSE_PROJECT_NAME: = @('namespace')
+  exec: |
+    #!bash(workspace:/)
+    passthru docker-compose up -d --build
+
+command('ps'):
+  env:
+    COMPOSE_PROJECT_NAME: = @('namespace')
+  exec: |
+    #!bash(workspace:/)
+    passthru docker-compose ps
