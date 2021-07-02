@@ -13,7 +13,7 @@ services:
   assets:
     build:
       context: .
-      dockerfile: tools/docker/node/Dockerfile
+      dockerfile: tools/docker/images/node/Dockerfile
     volumes:
       - assets:/node/source/build
       - /node/node_modules
