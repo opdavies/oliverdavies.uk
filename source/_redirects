@@ -235,6 +235,7 @@ articles/yay-the-mediacurrent-contrib-half-hour-is-back /blog/yay-the-mediacurre
 atNOQ https://youtu.be/r41dkD2EOo8
 automatically-updating-talk-created-date https://gist.github.com/opdavies/4e75e1753d8603113f07f8264bb783d6
 blog.xml /feed
+blog/10-useful-drupal-6-modules /blog/useful-drupal-6-modules
 blog/10-years-working-full-time-drupal /blog/10-years-working-full-time-drupal-php
 blog/2010/04/05/style-drupal-6s-taxonomy-lists-php-css-and-jquery /blog/style-drupal-6s-taxonomy-lists-php-css-and-jquery
 blog/2010/04/05/styling-drupal-6s-taxonomy-lists-with-php-css-and-jquery /blog/style-drupal-6s-taxonomy-lists-php-css-jquery
@@ -350,9 +351,11 @@ blog/2018/04/23/back-to-the-future-git-diff-apply /blog/back-future-gits-diff-ap
 blog/2018/05/06/creating-a-custom-phpunit-command-for-docksal /blog/creating-a-custom-phpunit-command-for-docksal
 blog/add-date-popup-calendar-custom-form /blog/how-add-date-popup-calendar-custom-form
 blog/adding-methods-decorating-entity-metadata-wrapper /blog/decorating-entity-metadata-wrapper-add-refactor-methods
+blog/announcing-drupal-vm-generator /blog/announcing-the-drupal-vm-generator
 blog/announcing-the-drupal-vm-config-generator /blog/announcing-the-drupal-vm-generator
 blog/back-to-the-future-git-diff-apply /blog/back-future-gits-diff-apply-commands
 blog/building-gmail-filters-in-php /blog/building-gmail-filters-php
+blog/building-new-phpsw-website /blog/building-the-new-phpsw-website
 blog/building-presentation-slides-reveal-js-tailwind-css /blog/building-presentation-slides-rst2pdf
 blog/building-speaker-leaderboard-php-south-wales-using-drupal-symfony /blog/building-speaker-leaderboard-php-south-wales-drupal-symfony
 blog/create-and-apply-patches /blog/how-create-apply-patches
@@ -363,8 +366,10 @@ blog/creating-custom-docksal-commands /blog/creating-custom-phpunit-command-dock
 blog/debugging-drupal-commerce-promotions-illiminate-collections /blog/debugging-drupal-commerce-illuminate-collections
 blog/decorating-entity-metadata-wrapper-add-add-refactor-methods /blog/decorating-entity-metadata-wrapper-add-refactor-methods
 blog/dev-book-club-refactoring-chapter-1 /blog/dev-book-club-notes-refactoring-chapter-1
+blog/dividing-drupals-process-preprocess-functions-separate-files /blog/dividing-drupals-process-and-preprocess-functions-separate-files
 blog/drupal-8-commerce-fixing-no-such-customer-error-checkout /blog/drupal-8-commerce-fixing-error-on-user-checkout
 blog/drupal-8-commerce-fixing-no-such-customer-error-on-checkout /blog/drupal-8-commerce-fixing-no-such-customer-error-checkout
+blog/drupal-vm-generator-291-released /blog/drupal-vm-generator-updates
 blog/drupalcamp-london-2019-tickets /blog/drupalcamp-london-2019-tickets-available-call-sessions
 blog/drush-make-drupalbristol /talks/drush-make-drupalbristol
 blog/easier-git-repository-cloning-with-insteadof /blog/easier-git-repository-cloning-insteadof
@@ -379,6 +384,7 @@ blog/fixing-drupal-simpletest-docker /blog/fixing-drupal-simpletest-issues-insid
 blog/forward-one-domain-another-using-modrewrite-and-htaccess /blog/forward-one-domain-another-using-modrewrite-htaccess
 blog/git-format-patch /blog/git-format-patch-your-friend
 blog/how-easily-embed-typekit-fonts-your-drupal-website /blog/easily-embed-typekit-fonts-your-drupal-website
+blog/how-split-new-drupal-contrib-project-within-another-repository /blog/splitting-new-drupal-project-from-repo
 blog/how-style-drupal-6s-taxonomy-lists-php-css-and-jquery /blog/style-drupal-6s-taxonomy-lists-php-css-jquery
 blog/install-and-configure-subversion-svn-server-ubuntu /blog/how-install-configure-subversion-svn-server-ubuntu
 blog/live-blogging-symfonylive-london /blog/live-blogging-symfonylive-london-2019
@@ -390,7 +396,9 @@ blog/pantheon-settings-files /blog/include-environment-specific-settings-files-p
 blog/pdfpc-pdf-presenter-console-notes /blog/presenting-pdf-slides-using-pdfpc-pdf-presenter-console
 blog/php-apps-subdirectory-nginx /blog/how-put-your-php-application-subdirectory-another-site-nginx
 blog/php-apps-subdirectory-nginx /blog/how-put-your-php-application-subdirectory-another-site-nginx
+blog/presenting-tailwind-css-ansible-cms-philly /blog/presenting-on-tailwind-css-and-ansible-at-cms-philly
 blog/published-my-first-docker-images-docker-hub /blog/published-my-first-docker-images-docker-hub-adr-tools-sculpin-rst2pdf
+blog/publishing-sculpin-sites-github-pages /blog/publishing-sculpin-sites-with-github-pages
 blog/publishing-sculpin-sites-with-github-pages /blog/publishing-sculpin-sites-github-pages
 blog/queuing-private-messages-in-drupal-8 /blog/queuing-private-messages-drupal-8
 blog/quick-project-switching-in-phpstorm /blog/quick-project-switching-phpstorm
@@ -409,14 +417,17 @@ blog/speaking-during-lockdown /blog/speaking-remotely-during-covid-19
 blog/speaking-remotely-during-lockdown /blog/speaking-remotely-during-covid-19
 blog/survey-results-my-drupalcon-europe-session /blog/survey-results-my-drupalcon-europe-session-test-driven-drupal
 blog/system-users-null-users /blog/null-users-and-system-users-in-drupal
+blog/test-driven-drupal-gitstore-leanpub /blog/test-driven-drupal-on-gitstore-leanpub
 blog/test-driven-drupal-presentation-drupalcon-europe-0 /blog/test-driven-drupal-presentation-drupalcon-europe
 blog/test-driven-drupal-session-drupalcon-europe /blog/test-driven-drupal-presentation-drupalcon-europe
 blog/test-driven-drupal-session-video-drupalcon-europe /blog/test-driven-drupal-presentation-drupalcon-europe
 blog/testing-tailwind-css-plugins-with-jest /blog/testing-tailwind-css-plugins-jest
 blog/tweets-from-drupalcamp-london /blog/tweets-drupalcamp-london
 blog/updating-features-and-adding-components-using-drush /blog/updating-features-adding-components-using-drush
+blog/updating-forked-repositories-github /blog/updating-forked-github-repos
 blog/use-regular-expressions-search-and-replace-coda-or-textmate /blog/use-regular-expressions-search-replace-coda-or-textmate
 blog/using-environment-variables-settings-docksal /blog/how-use-environment-variables-your-drupal-settings-docksal
+blog/using-psr-4-autoloading-your-drupal-7-test-cases /blog/psr4-autoloading-test-cases-drupal-7
 blog/using-tailwind-css-in-your-drupal-theme /blog/using-tailwind-css-your-drupal-theme
 blog/using-the-pcss-extension-postcss-webpack-encore /blog/using-pcss-extension-postcss-webpack-encore
 blog/weeknotes-june-5th /blog/weeknotes-2021-06-05
