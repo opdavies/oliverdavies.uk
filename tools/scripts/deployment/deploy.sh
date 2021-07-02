@@ -2,7 +2,7 @@
 
 set -e -o pipefail
 
-GIT_ARTIFACT_REPOSITORY="git@github.com:opdavies/oliverdavies-uk-sculpin-built"
+GIT_ARTIFACT_REPOSITORY="git@github.com:opdavies/oliverdavies.uk-built"
 GIT_COMMIT_SHA="$(git rev-parse HEAD | cut -c 1-8)"
 GIT_LOCAL_BRANCH="$(git current-branch)"
 
