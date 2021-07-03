@@ -2,28 +2,7 @@ version: '2.4'
 
 services:
   web:
-    build:
-      context: .
-      dockerfile: tools/docker/images/nginx/Dockerfile
-    volumes:
-      - html:/app
+    image: oliverdavies-uk-web
     ports:
       - 80:80
-    depends_on:
-      - app
-      - assets
     restart: always
-
-  app:
-    volumes:
-      - assets:/app/source/build
-      - html:/app/output_prod
-      - .:/app
-    command: generate -e prod
-
-  assets:
-    entrypoint: npm
-    command: run production
-
-volumes:
-  html:
