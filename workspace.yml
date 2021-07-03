@@ -8,6 +8,15 @@ command('disable'):
     #!bash(workspace:/)
     run docker-compose down
 
+command('docker image build <git_commit>'):
+  env:
+    COMPOSE_PROJECT_NAME: = @('namespace')
+    GIT_COMMIT_SHA: = input.argument('git_commit')
+  exec: |
+    #!bash(workspace:/)
+    docker image build -f tools/docker/images/Dockerfile -t ${COMPOSE_PROJECT_NAME}-web:latest --target=nginx .
+    docker image build -f tools/docker/images/Dockerfile -t ${COMPOSE_PROJECT_NAME}-web:${GIT_COMMIT_SHA} --target=nginx .
+
 command('enable'):
   env:
     COMPOSE_PROJECT_NAME: = @('namespace')
