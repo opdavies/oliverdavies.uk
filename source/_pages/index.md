@@ -9,7 +9,7 @@ is_front: true
 
 Hi, I'm Oliver Davies (aka <a href="https://www.google.com/#q=opdavies">opdavies</a>). I’m a {{ site.work.role }} at <a href="{{ site.work.company.url }}?utm_source=oliverdavies.uk&amp;utm_medium=about">{{ site.work.company.name }}</a> and a freelance Web Developer and System Administrator, based in Wales, UK.
 
-I’ve been a Developer since 2007 and specialise in using Drupal, Symfony and Vue.js. I use Ansible for server provisioning and application deployments.
+I’ve been a Developer since 2007 and specialise in using Drupal, Symfony and Vue.js. I use Ansible and Docker for server provisioning and application deployments.
 
 I’m an <a href="https://certification.acquia.com/user/1647756">Acquia certified</a> Drupal 8 Grand Master, and was a Developer for the <a href="https://www.drupal.org/association">Drupal Association</a> working on <a href="https://www.drupal.org">Drupal.org</a> where I'm still a Webmaster and Documentation Maintainer.
 
