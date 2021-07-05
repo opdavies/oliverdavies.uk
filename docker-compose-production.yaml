@@ -2,7 +2,7 @@ version: '2.4'
 
 services:
   web:
-    image: oliverdavies-uk-web
+    image: ghcr.io/opdavies/oliverdavies-uk-web
     ports:
       - 80:80
     restart: always
