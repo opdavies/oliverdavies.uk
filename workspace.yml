@@ -1,6 +1,9 @@
 workspace('oliverdavies-uk'):
   description: Sculpin website for oliverdavies.uk.
 
+attribute('docker'):
+  repository: ghcr.io/opdavies/oliverdavies-uk-web
+
 command('disable'):
   env:
     COMPOSE_PROJECT_NAME: = @('namespace')
@@ -13,9 +16,20 @@ command('docker image build <git_commit>'):
     COMPOSE_PROJECT_NAME: = @('namespace')
     GIT_COMMIT_SHA: = input.argument('git_commit')
   exec: |
-    #!bash(workspace:/)
-    docker image build -f tools/docker/images/Dockerfile -t ${COMPOSE_PROJECT_NAME}-web:latest --target=nginx .
-    docker image build -f tools/docker/images/Dockerfile -t ${COMPOSE_PROJECT_NAME}-web:${GIT_COMMIT_SHA} --target=nginx .
+    #!bash(workspace:/)|@
+    run docker image build -f tools/docker/images/Dockerfile --target=production -t @('docker.repository'):${GIT_COMMIT_SHA} .
+    run docker image build -f tools/docker/images/Dockerfile --target=production -t @('docker.repository'):latest .
+
+command('docker image push <git_commit>'):
+  env:
+    COMPOSE_PROJECT_NAME: = @('namespace')
+    GIT_COMMIT_SHA: = input.argument('git_commit')
+  exec: |
+    #!bash(workspace:/)|@
+    ws docker image build $GIT_COMMIT_SHA
+
+    run docker push @('docker.repository'):${GIT_COMMIT_SHA}
+    run docker push @('docker.repository'):latest
 
 command('enable'):
   env:

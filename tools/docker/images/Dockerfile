@@ -14,7 +14,7 @@ RUN npm ci
 COPY . .
 RUN npm run production
 
-FROM nginx AS nginx
+FROM nginx AS production
 COPY tools/docker/images/nginx/root /
 WORKDIR /app
 COPY --from=app /app/output_prod ./
