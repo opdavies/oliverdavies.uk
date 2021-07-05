@@ -20,6 +20,15 @@ command('docker image build <git_commit>'):
     run docker image build -f tools/docker/images/Dockerfile --target=production -t @('docker.repository'):${GIT_COMMIT_SHA} .
     run docker image build -f tools/docker/images/Dockerfile --target=production -t @('docker.repository'):latest .
 
+command('docker image pull <git_commit>'):
+  env:
+    COMPOSE_PROJECT_NAME: = @('namespace')
+    GIT_COMMIT_SHA: = input.argument('git_commit')
+  exec: |
+    #!bash(workspace:/)|@
+    run docker image pull @('docker.repository'):${GIT_COMMIT_SHA}
+    run docker image pull @('docker.repository'):latest
+
 command('docker image push <git_commit>'):
   env:
     COMPOSE_PROJECT_NAME: = @('namespace')
