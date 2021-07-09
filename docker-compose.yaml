@@ -28,7 +28,7 @@ services:
       - --port
       - '80'
       - --url
-      - oliverdavies.localhost
+      - http://oliverdavies.localhost
     volumes:
       - assets:/app/source/build
       - /app/output_dev
