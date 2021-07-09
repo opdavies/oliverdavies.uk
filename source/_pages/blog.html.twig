@@ -8,16 +8,8 @@ intro_text: |
 
 <div class="mt-10">
     <div class="space-y-8">
-        {% for talk in data.posts|sort((a, b) => a.date < b.date) %}
-            <article>
-                <h2>
-                    <a class="text-blue-800 dark:text-blue-400" href="{{ talk.url }}">
-                        {{ talk.title }}
-                    </a>
-                </h2>
-
-                <p class="mt-1">{{ talk.excerpt }}</p>
-            </article>
+        {% for post in data.posts|sort((a, b) => a.date < b.date) %}
+            {% include 'post/post-teaser' with { post } only %}
         {% endfor %}
     </div>
 </div>
