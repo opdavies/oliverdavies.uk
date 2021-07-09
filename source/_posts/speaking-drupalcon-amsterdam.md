@@ -1,10 +1,11 @@
 ---
 title: Speaking at DrupalCon Amsterdam
 date: 2019-07-25
-excerpt:
-  I’m going to be attending DrupalCon Europe again this year, but for the first
-  time as a speaker.
-tags: [speaking, drupalcon, personal]
+excerpt: I’m going to be attending DrupalCon Europe again this year, but for the first time as a speaker.
+tags:
+    - drupalcon
+    - personal
+    - speaking
 has_tweets: true
 ---
 

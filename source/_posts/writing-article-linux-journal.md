@@ -1,15 +1,13 @@
 ---
 title: Writing an Article for Linux Journal
 date: 2012-07-27
-excerpt:
-  I'm absolutely delighted to announce that I'm going to be writing an article
-  for Linux Journal magazine's upcoming Drupal special.
+excerpt: I'm absolutely delighted to announce that I'm going to be writing an article for Linux Journal magazine's upcoming Drupal special.
 tags:
-  - drupal
-  - distributions
-  - installation-profiles
-  - writing
-  - linux-journal
+    - distributions
+    - drupal
+    - installation-profiles
+    - linux-journal
+    - writing
 ---
 
 I'm absolutely delighted to announce that I'm going to be writing an article for

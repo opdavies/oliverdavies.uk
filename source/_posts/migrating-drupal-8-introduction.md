@@ -2,7 +2,10 @@
 title: 'Migrating to Drupal 8: Introduction'
 excerpt: An introduction to the 'Migrating to Drupal 8' blog post series.
 date: 2020-08-12
-tags: [Drupal, Drupal 8, Drupal Planet]
+tags:
+    - drupal
+    - drupal-8
+    - drupal-planet
 ---
 
 I recently finished porting this website from a static site generator to Drupal 8, meaning that this site has now been powered by three different major versions of Drupal (6, 7 and 8) as well as by two static site generators since it was first launched in early 2010.

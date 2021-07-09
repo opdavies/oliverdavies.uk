@@ -1,18 +1,14 @@
 ---
-title:
-  Include a Local Drupal Settings file for Environment Configuration and
-  Overrides
+title: Include a Local Drupal Settings file for Environment Configuration and Overrides
 date: 2014-12-20
-excerpt:
-  How to create and include a local settings file to define and override
-  environment-specific variables.
+excerpt: How to create and include a local settings file to define and override environment-specific variables.
 tags:
-  - drupal
-  - drupal-6
-  - drupal-7
-  - drupal-8
-  - drupal-planet
-  - settings.php
+    - drupal
+    - drupal-6
+    - drupal-7
+    - drupal-8
+    - drupal-planet
+    - settings.php
 ---
 
 How to create and include a local settings file to define and override

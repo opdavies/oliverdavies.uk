@@ -1,13 +1,11 @@
 ---
 title: Leaving Nomensa, Joining Precedent
 date: 2013-04-20
-excerpt:
-  Yesterday was my last day working at Nomensa. Next week, I'll be starting as a
-  Senior Developer at Precedent.
+excerpt: Yesterday was my last day working at Nomensa. Next week, I'll be starting as a Senior Developer at Precedent.
 tags:
-  - nomensa
-  - precedent
-  - personal
+    - nomensa
+    - personal
+    - precedent
 ---
 
 Yesterday was my last day working at

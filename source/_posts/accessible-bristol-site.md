@@ -5,9 +5,9 @@ excerpt:
   I'm happy to report that the Accessible Bristol was launched this week, on
   Drupal 7.
 tags:
-  - accessibility
-  - accessible-bristol
-  - nomensa
+    - accessibility
+    - accessible-bristol
+    - nomensa
 ---
 
 I'm happy to announce that the

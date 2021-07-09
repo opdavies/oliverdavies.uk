@@ -2,7 +2,11 @@
 title: Using the pcss extension for PostCSS with Webpack Encore
 excerpt: How to use the .pcss file extension for PostCSS files with Webpack Encore.
 date: 2020-04-01
-tags: [webpack, encore, postcss, symfony]
+tags:
+    - encore
+    - postcss
+    - symfony
+    - webpack
 ---
 
 I’ve been watching Christopher Pitt ([assertchris][assertchris-twitter])’s [streams on Twitch][assertchris-twitch] over the last few months, in one of which he was doing some work with Tailwind CSS and using a `.pcss` file extension for his PostCSS files.

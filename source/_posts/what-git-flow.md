@@ -1,13 +1,12 @@
 ---
 title: 'DrupalCamp London: What is Git Flow?'
 date: 2014-03-03
-excerpt:
-  Here are my slides from my "What is Git Flow?" session at DrupalCamp London.
+excerpt: Here are my slides from my "What is Git Flow?" session at DrupalCamp London.
 tags:
-  - git
-  - git-flow
-  - drupalcamp-london
-  - talks
+    - git
+    - git-flow
+    - drupalcamp-london
+    - talks
 tweets: true
 ---
 

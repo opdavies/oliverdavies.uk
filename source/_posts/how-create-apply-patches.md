@@ -3,10 +3,10 @@ title: How to Create and Apply Patches
 date: 2010-10-10
 excerpt: How to create and apply patches, ready for the Drupal.org issue queues.
 tags:
-  - drupal-planet
-  - drupal-6
-  - modules
-  - patches
+    - drupal-6
+    - drupal-planet
+    - modules
+    - patches
 ---
 
 Earlier this year, I posted a solution to

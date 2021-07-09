@@ -1,10 +1,11 @@
 ---
 title: Speakers and sessions announced for DrupalCamp Bristol 2019
 date: 2019-05-31
-excerpt:
-  DrupalCamp Bristol is returning next month, and the accepted speakers and
-  sessions have just been announced.
-tags: [drupalcamp, drupalcamp-bristol, dcbristol]
+excerpt: DrupalCamp Bristol is returning next month, and the accepted speakers and sessions have just been announced.
+tags:
+    - dcbristol
+    - drupalcamp
+    - drupalcamp-bristol
 ---
 
 <p class="lead" markdown="1">DrupalCamp Bristol is returning next month for a one-day, single-track conference, and we have just finished announcing the accepted sessions and speakers. It includes a mixture of new and returning speakers, presenting sessions including **Drupal in a microservice architecture**, **Automate to manage repetitive tasks with Ansible** and **Doing good with Drupal**.</p>

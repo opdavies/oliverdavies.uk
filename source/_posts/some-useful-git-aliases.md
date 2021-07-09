@@ -1,11 +1,9 @@
 ---
 title: Some Useful Git Aliases
 date: 2014-01-15
-excerpt:
-  Here are some bash aliases that I use and find helpful for quickly writing Git
-  and Git Flow commands.
+excerpt: Here are some bash aliases that I use and find helpful for quickly writing Git and Git Flow commands.
 tags:
-  - git
+    - git
 ---
 
 Here are some bash aliases that I use and find helpful for quickly writing Git

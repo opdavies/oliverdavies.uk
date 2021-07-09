@@ -1,16 +1,19 @@
 ---
 title: Writing a new Drupal 8 Module using Test Driven Development (TDD)
 date: 2017-11-07
-tags: [drupal, testing, tdd, simpletest, phpunit]
-excerpt:
-  How to write automated tests and follow test driven development for Drupal
-  modules.
+tags:
+    - drupal
+    - phpunit
+    - simpletest
+    - tdd
+    - testing
+excerpt: How to write automated tests and follow test driven development for Drupal modules.
 meta:
-  image:
-    url: /images/talks/test-driven-drupal-development.png
-    width: 2560
-    height: 1440
-    type: image/png
+    image:
+        url: /images/talks/test-driven-drupal-development.png
+        width: 2560
+        height: 1440
+        type: image/png
 promoted: true
 ---
 

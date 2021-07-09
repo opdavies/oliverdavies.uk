@@ -1,16 +1,14 @@
 ---
 title: How to split a new Drupal contrib project from within another repository
 date: 2018-03-10
-excerpt:
-  How to use Git to split a directory from within an existing repository into
-  it’s own.
+excerpt: How to use Git to split a directory from within an existing repository into it’s own.
 tags:
-  - drupal
-  - drupal-7
-  - drupal-8
-  - drupal-planet
-  - git
-  - open-source
+    - drupal
+    - drupal-7
+    - drupal-8
+    - drupal-planet
+    - git
+    - open-source
 ---
 
 Yay! You’ve written a new Drupal module, theme or installation profile as part

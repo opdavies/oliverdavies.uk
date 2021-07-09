@@ -3,13 +3,13 @@ title: Quickly Import Multiples Images Using the Imagefield_Import Module
 date: 2010-05-29
 excerpt: How to use the Imagefield Import module.
 tags:
-  - drupal-planet
-  - imagefield-import
-  - drupal
-  - drupal-6
-  - photo-gallery
-  - cck
-  - imagefield
+    - cck
+    - drupal
+    - drupal-6
+    - drupal-planet
+    - imagefield
+    - imagefield-import
+    - photo-gallery
 ---
 
 **Thanks to Bob at [Mustardseed Media](http://mustardseedmedia.com) for

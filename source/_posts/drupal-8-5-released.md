@@ -3,8 +3,8 @@ title: 'Drupal 8.5.0 Released'
 date: 2018-03-09
 excerpt: This week, the latest version of Drupal 8 was released.
 tags:
-  - drupal
-  - drupal-core
+    - drupal
+    - drupal-core
 ---
 
 This week the latest minor version of Drupal 8, 8.5.0, was released.

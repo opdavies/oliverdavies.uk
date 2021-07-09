@@ -1,13 +1,12 @@
 ---
 title: 10 Useful Drupal 6 Modules
 date: 2010-06-25
-excerpt:
-  A list of 10 contributed modules that I currently use on each Drupal project.
+excerpt: A list of 10 contributed modules that I currently use on each Drupal project.
 tags:
-  - drupal-planet
-  - drupal-6
-  - drupal
-  - drupal-modules
+    - drupal
+    - drupal-6
+    - drupal-modules
+    - drupal-planet
 ---
 
 Aside from the obvious candidates such as Views, CCK etc, here are a list of 10

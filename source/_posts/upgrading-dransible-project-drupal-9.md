@@ -1,7 +1,13 @@
 ---
 title: Upgrading the Dransible project to Drupal 9
 excerpt: How I recently upgraded the Dransible example project from Drupal 8.8 to 9.0.
-tags: [Composer, Dransible, Drupal, Drupal 9, Drupal Planet, PHP]
+tags:
+    - composer
+    - dransible
+    - drupal
+    - drupal-9
+    - drupal-planet
+    - php
 date: 2020-09-05
 ---
 

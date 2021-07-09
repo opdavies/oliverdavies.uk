@@ -2,10 +2,10 @@
 title: Live Blogging From SymfonyLive London 2019
 date: 2019-09-13
 tags:
-  - conference
-  - symfony
-  - symfonylive
-  - php
+    - conference
+    - php
+    - symfony
+    - symfonylive
 ---
 
 Inspired by [Matt Stauffer](https://twitter.com/stauffermatt)'s

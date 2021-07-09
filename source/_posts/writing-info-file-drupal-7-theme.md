@@ -3,10 +3,10 @@ title: Writing a .info file for a Drupal 7 theme
 date: 2012-05-23
 excerpt: An example .info file for a Drupal 7 theme.
 tags:
-  - theming
-  - drupal-theming
-  - drupal
-  - code
+    - code
+    - drupal
+    - drupal-theming
+    - theming
 ---
 
 ```language-ini

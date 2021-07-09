@@ -2,12 +2,12 @@
 title: Conditional Email Addresses in a Webform
 date: 2010-05-06
 excerpt:
-  How to send webform emails to a different email address based on another
-  field.
+    How to send webform emails to a different email address based on another
+    field.
 tags:
-  - drupal-planet
-  - drupal-6
   - conditional-email
+  - drupal-6
+  - drupal-planet
   - webform
 ---
 

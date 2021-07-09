@@ -3,12 +3,12 @@ title: How to run Drupal 8 PHPUnit Tests within Docksal from PhpStorm
 date: 2018-07-19
 excerpt: How to configure PhpStorm to run automated tests within Docksal.
 tags:
-  - docksal
-  - drupal
-  - drupal-8
-  - phpstorm
-  - phpunit
-  - testing
+    - docksal
+    - drupal
+    - drupal-8
+    - phpstorm
+    - phpunit
+    - testing
 promoted: true
 ---
 

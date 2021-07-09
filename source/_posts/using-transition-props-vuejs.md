@@ -2,10 +2,9 @@
 title: Using Transition Class Props in Vue.js
 date: 2019-06-06
 type: tweet
-excerpt:
-  Adam Wathan shows a more Tailwind-esque approach to writing Vue.js
-  transitions.
-tags: [vuejs]
+excerpt: Adam Wathan shows a more Tailwind-esque approach to writing Vue.js transitions.
+tags:
+    - vuejs
 external_url: https://twitter.com/adamwathan/status/1118670393030537217
 ---
 

@@ -1,13 +1,11 @@
 ---
 title: Tweets from DrupalCamp London
 date: 2018-03-04
-excerpt:
-  I wasn’t able to make it to DrupalCamp London, but here are some of the tweets
-  that I saw.
+excerpt: I wasn’t able to make it to DrupalCamp London, but here are some of the tweets that I saw.
 tags:
-  - drupal
-  - drupalcamp
-  - drupalcamp-london
+    - drupal
+    - drupalcamp
+    - drupalcamp-london
 has_tweets: true
 ---
 

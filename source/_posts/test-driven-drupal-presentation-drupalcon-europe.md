@@ -1,7 +1,11 @@
 ---
 title: Test Driven Drupal presentation from DrupalCon Europe
 excerpt: Links to the video and slides from my automated testing session from DrupalCon Europe.
-tags: [Drupal, Drupal 8, DrupalCon, Speaking]
+tags:
+    - drupal
+    - drupal-8
+    - drupalcon
+    - speaking
 date: 2021-01-12
 ---
 

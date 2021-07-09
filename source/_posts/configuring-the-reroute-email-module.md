@@ -2,14 +2,14 @@
 title: Configuring the Reroute Email Module
 date: 2014-12-22
 excerpt:
-  How to configure the Reroute Email module, to prevent sending emails to real
-  users from your pre-production sites!
+    How to configure the Reroute Email module, to prevent sending emails to real
+    users from your pre-production sites!
 tags:
-  - drupal
-  - drupal-6
-  - drupal-7
-  - drupal-planet
-  - email
+    - drupal
+    - drupal-6
+    - drupal-7
+    - drupal-planet
+    - email
 draft: true
 ---
 

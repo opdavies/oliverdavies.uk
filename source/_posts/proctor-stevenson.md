@@ -3,7 +3,7 @@ title: Proctor & Stevenson
 date: 2011-03-31
 excerpt: I’m moving jobs.
 tags:
-  - personal
+    - personal
 ---
 
 2 weeks ago, I handed in my notice of resignation to

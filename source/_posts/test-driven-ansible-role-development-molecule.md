@@ -1,10 +1,12 @@
 ---
 title: Test Driven Ansible Role Development with Molecule
 date: 2019-06-02
-excerpt:
-  Some resources that I found for testing Ansible roles with a tool called
-  Molecule.
-tags: [ansible, molecule, testing, video]
+excerpt: Some resources that I found for testing Ansible roles with a tool called Molecule.
+tags:
+    - ansible
+    - molecule
+    - testing
+    - video
 ---
 
 I used to maintain a number of [Ansible roles][roles], and I recently wrote one

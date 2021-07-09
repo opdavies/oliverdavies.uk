@@ -1,20 +1,18 @@
 ---
 title: DrupalCamp Bristol 2017 - Early Bird Tickets, Call for Sessions, Sponsors
 date: 2017-05-15
-excerpt:
-  In less than two months time, DrupalCamp Bristol will be back for our third
-  year.
+excerpt: In less than two months time, DrupalCamp Bristol will be back for our third year.
 tags:
-  - drupal
-  - drupal-planet
-  - drupalcamp
-  - drupalcamp-bristol
+    - drupal
+    - drupal-planet
+    - drupalcamp
+    - drupalcamp-bristol
 meta:
-  image:
-    url: /assets/image/blog/drupalcamp-bristol-17-logo.jpg
-    height: 228
-    width: 448
-    type: image/jpg
+    image:
+        url: /assets/image/blog/drupalcamp-bristol-17-logo.jpg
+        height: 228
+        width: 448
+        type: image/jpg
 ---
 
 <p class="text-center" markdown="1">![DrupalCamp Bristol 2017 logo](/images/blog/drupalcamp-bristol-17-logo.jpg)</p>

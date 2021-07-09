@@ -3,11 +3,11 @@ title: Checking if a user is logged into Drupal (the right way)
 date: 2013-01-09
 excerpt: How to check if a user is logged in by using Drupal core API functions.
 tags:
-  - drupal
-  - drupal-6
-  - drupal-7
-  - drupal-planet
-  - php
+    - drupal
+    - drupal-6
+    - drupal-7
+    - drupal-planet
+    - php
 ---
 
 I see this regularly when working on Drupal sites when someone wants to check

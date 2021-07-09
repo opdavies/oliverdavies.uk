@@ -1,7 +1,8 @@
 ---
 title: Docker resources
 excerpt: A list of Docker resources that I've compiled.
-tags: [Docker]
+tags:
+    - docker
 date: 2021-04-13
 ---
 

@@ -1,16 +1,14 @@
 ---
 title: Some useful links for using SimpleTest in Drupal
 date: 2013-06-13
-excerpt:
-  Here are some useful links that I've found when researching about unit testing
-  in Drupal using SimpleTest.
+excerpt: Here are some useful links that I've found when researching about unit testing in Drupal using SimpleTest.
 tags:
-  - simpletest
-  - tdd
-  - test-driven-development
-  - drupal-planet
-  - drupal
-  - testing
+    - drupal
+    - drupal-planet
+    - simpletest
+    - tdd
+    - test-driven-development
+    - testing
 ---
 
 - [An Introduction to Unit Testing in Drupal](http://www.lullabot.com/blog/articles/introduction-unit-testing-drupal 'An Introduction to Unit Testing in Drupal')

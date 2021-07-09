@@ -1,7 +1,8 @@
 ---
 title: 'Weeknotes: June 5th'
 excerpt: Starting at Transport for Wales.
-tag: [personal]
+tags:
+    - personal
 ---
 
 After the Bank Holiday weekend, I started working this week as a Lead Developer at [Transport for Wales](https://trc.cymru). I really enjoyed working at Inviqa, but felt that moving again to an in-house team would offer some new types of challenges whilst also getting to lead and manage a team.

@@ -3,8 +3,8 @@ title: Drupal Association
 date: 2014-05-03
 excerpt: Next week, I'll be working for the Drupal Association.
 tags:
-  - drupal
-  - personal
+    - drupal
+    - personal
 ---
 
 Today was my last day working at [Precedent](http://www.precedent.com). Next

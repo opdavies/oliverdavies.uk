@@ -1,12 +1,11 @@
 ---
 title: Thanks
 date: 2014-05-06
-excerpt:
-  Thanks everyone for their comments about my move to the Drupal Association.
+excerpt: Thanks everyone or their comments about my move to the Drupal Association.
 tags:
-  - drupal
-  - drupal-association
-  - personal
+    - drupal
+    - drupal-association
+    - personal
 ---
 
 This is just a quick post to thank everyone for their comments and

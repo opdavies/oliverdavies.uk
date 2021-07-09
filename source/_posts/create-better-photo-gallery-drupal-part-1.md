@@ -2,17 +2,17 @@
 title: Create a Better Photo Gallery in Drupal - Part 1
 date: 2010-08-11
 excerpt:
-  How I started converting and migrating a Coppermine photo gallery into Drupal.
+    How I started converting and migrating a Coppermine photo gallery into Drupal.
 tags:
-  - drupal-planet
-  - drupal-6
-  - photo-gallery
-  - sql
-  - views
-  - sequel-pro
-  - cck
-  - views-attach
-  - drupal
+    - cck
+    - drupal
+    - drupal-6
+    - drupal-planet
+    - photo-gallery
+    - sequel-pro
+    - sql
+    - views
+    - views-attach
 ---
 
 Recently, I converted a client's static HTML website, along with their

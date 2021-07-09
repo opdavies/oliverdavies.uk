@@ -3,10 +3,10 @@ title: Turning Your Custom Drupal Module into a Feature
 date: 2017-05-20
 excerpt: How to turn a custom Drupal module into a Feature.
 tags:
-  - drupal
-  - drupal-7
-  - drupal-planet
-  - features
+    - drupal
+    - drupal-7
+    - drupal-planet
+    - features
 ---
 
 Yesterday I was fixing a bug in an inherited Drupal 7 custom module, and I

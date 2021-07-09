@@ -1,12 +1,10 @@
 ---
 title: Going to DrupalCon
 date: 2013-07-26
-excerpt:
-  Precedent are sending myself and two of our other Drupal Developers to
-  Drupalcon Prague.
+excerpt: Precedent are sending myself and two of our other Drupal Developers to Drupalcon Prague.
 tags:
-  - drupalcon
-  - precedent
+    - drupalcon
+    - precedent
 ---
 
 [Precedent](http://www.precedent.co.uk) are sending myself and two of our other

@@ -3,8 +3,8 @@ title: Introducing the Drupal Meetups Twitterbot
 date: 2017-06-09
 excerpt: I’ve written a twitterbot for promoting Drupal meetups.
 tags:
-  - twitter
-  - php
+    - php
+    - twitter
 ---
 
 <p class="text-center" markdown="1">![](/images/blog/drupal-meetups-twitterbot.png)</p>

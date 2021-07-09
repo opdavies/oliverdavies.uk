@@ -1,10 +1,13 @@
 ---
 title: Testing Workshop at DrupalCamp London 2020
 excerpt: This year, I’m teaching a workshop at DrupalCamp London.
-tags: [drupal, drupalcamp, testing]
+tags:
+    - drupal
+    - drupalcamp
+    - testing
 date: 2020-02-05
 lead_image:
-  url: /images/blog/testing-workshop-drupalcamp-london/lead.jpg
+    url: /images/blog/testing-workshop-drupalcamp-london/lead.jpg
 ---
 
 ![]({{page.lead_image.url}}){.p-1 .border}

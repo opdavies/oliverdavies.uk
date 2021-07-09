@@ -3,10 +3,10 @@ title: Review of the Teleport Module
 date: 2010-07-12
 excerpt: My review of Drupal’s Teleport module.
 tags:
-  - drupal-planet
-  - drupal-6
-  - drupal-modules
-  - teleport
+    - drupal-planet
+    - drupal-6
+    - drupal-modules
+    - teleport
 ---
 
 As a heavily-reliant

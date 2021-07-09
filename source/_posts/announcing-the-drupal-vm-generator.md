@@ -1,15 +1,13 @@
 ---
 title: Announcing the Drupal VM Generator
 date: 2016-02-15
-excerpt:
-  For the past few weeks, I’ve been working on a personal side project based on
-  Drupal VM - the Drupal VM Generator.
+excerpt: For the past few weeks, I’ve been working on a personal side project based on Drupal VM - the Drupal VM Generator.
 tags:
-  - drupal
-  - drupal-planet
-  - drupal-vm
-  - drupal-vm-generator
-  - symfony
+    - drupal
+    - drupal-planet
+    - drupal-vm
+    - drupal-vm-generator
+    - symfony
 ---
 
 For the past few weeks, I’ve been working on a personal side project based on

@@ -1,11 +1,16 @@
 ---
 title: Drupal Bristol Testing Workshop
 date: 2018-06-28
-excerpt:
-  Yesterday evening, I did my first workshop, held at the Drupal Bristol user
-  group.
+excerpt: Yesterday evening, I did my first workshop, held at the Drupal Bristol user group.
 tags:
-  [composer, docksal, drupal, drupal-8, drupal-bristol, php, phpunit, testing]
+    - composer
+    - docksal
+    - drupal
+    - drupal-8
+    - drupal-bristol
+    - php
+    - phpunit
+    - testing
 ---
 
 Yesterday evening, I did [my first workshop][16] (and I believe, the first

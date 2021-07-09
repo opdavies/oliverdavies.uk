@@ -1,13 +1,11 @@
 ---
 title: The Quickest way to Install Sublime Text 2 in Ubuntu
 date: 2013-03-02
-excerpt:
-  After reading numerous blog posts about how to install Sublime Text 2 in
-  Ubuntu, this is definitely the quickest way!
+excerpt: After reading numerous blog posts about how to install Sublime Text 2 in Ubuntu, this is definitely the quickest way!
 tags:
-  - linux
-  - sublime-text
-  - ubuntu
+    - linux
+    - sublime-text
+    - ubuntu
 ---
 
 After reading numerous blog posts about how to install

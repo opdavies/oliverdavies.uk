@@ -2,16 +2,16 @@
 title: Create Multigroups in Drupal 7 using Field Collections
 date: 2011-08-28
 excerpt:
-  How to replicate CCK’s multigroups in Drupal 7 using the Field Collections
-  module.
+    How to replicate CCK’s multigroups in Drupal 7 using the Field Collections
+    module.
 tags:
-  - drupal-7
-  - drupal-planet
-  - cck
-  - fields
-  - field-collection
-  - entity-api
-  - multigroup
+    - cck
+    - drupal-7
+    - drupal-planet
+    - entity-api
+    - field-collection
+    - fields
+    - multigroup
 ---
 
 One of my favourite things lately in Drupal 6 has been CCK 3, and more

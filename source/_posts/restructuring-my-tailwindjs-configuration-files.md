@@ -1,12 +1,10 @@
 ---
 title: Restructuring my tailwind.js configuration files
 date: 2019-03-08
-excerpt:
-  How I’ve started structuring my tailwind.js configuration files in preparation
-  for Tailwind 1.0.
+excerpt: How I’ve started structuring my tailwind.js configuration files in preparation for Tailwind 1.0.
 tags:
-  - laravel-mix
-  - tailwind-css
+    - laravel-mix
+    - tailwind-css
 ---
 
 After watching Adam Wathan’s recent

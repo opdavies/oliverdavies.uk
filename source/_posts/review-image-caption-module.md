@@ -3,11 +3,11 @@ title: Review of the Image Caption Module
 date: 2010-08-20
 excerpt: My review of Drupal’s Image Caption module.
 tags:
-  - drupal-planet
-  - drupal
-  - drupal-6
-  - imagefield
-  - image-caption
+    - drupal
+    - drupal-6
+    - drupal-planet
+    - image-caption
+    - imagefield
 ---
 
 Up until as recent as last week, whenever I added an image into one of my Blog

@@ -3,9 +3,9 @@ title: Download Different Versions of Drupal with Drush
 date: 2013-12-31
 excerpt: How to download different versions of Drupal core using Drush.
 tags:
-  - drupal
-  - drupal-planet
-  - drush
+    - drupal
+    - drupal-planet
+    - drush
 ---
 
 If you use

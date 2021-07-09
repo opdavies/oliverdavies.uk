@@ -3,11 +3,11 @@ title: Forward one domain to another using mod_rewrite and .htaccess
 date: 2012-05-23
 excerpt: How to use the .htaccess file to forward to a different domain.
 tags:
-  - .htaccess
-  - code
-  - drupal
-  - apache
-  - mod_rewrite
+    - .htaccess
+    - apache
+    - code
+    - drupal
+    - mod_rewrite
 ---
 
 How to use the .htaccess file to forward to a different domain.

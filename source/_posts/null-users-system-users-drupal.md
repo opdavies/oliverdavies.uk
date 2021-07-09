@@ -3,12 +3,12 @@ title: Null Users and System Users in Drupal
 date: 2018-08-16
 excerpt: Announcing the Null User and System User modules.
 tags:
-  - drupal
-  - drupal-7
-  - drupal-8
-  - drupal-modules
-  - drupal-planet
-  - php
+    - drupal
+    - drupal-7
+    - drupal-8
+    - drupal-modules
+    - drupal-planet
+    - php
 ---
 
 Have you ever needed to have a 'special user' to perform tasks on your Drupal

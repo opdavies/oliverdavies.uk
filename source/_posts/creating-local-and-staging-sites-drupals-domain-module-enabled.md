@@ -3,11 +3,11 @@ title: Creating Local and Staging sites with Drupal's Domain Module Enabled
 date: 2013-07-17
 excerpt: How to use aliases within Domain module for pre-production sites.
 tags:
-  - drupal
-  - drupal-planet
-  - databases
-  - domain
-  - table-prefixing
+    - databases
+    - domain
+    - drupal
+    - drupal-planet
+    - table-prefixing
 ---
 
 The

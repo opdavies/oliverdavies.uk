@@ -1,10 +1,9 @@
 ---
 title: Back to the future with Git’s diff and apply commands
 date: 2018-04-23
-excerpt:
-  How to revert files using Git, but as a new commit to prevent force pushing.
+excerpt: How to revert files using Git, but as a new commit to prevent force pushing.
 tags:
-  - git
+    - git
 ---
 
 This is one of those “there’s probably already a better way to do this”

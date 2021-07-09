@@ -3,12 +3,12 @@ title: Use Regular Expressions to Search and Replace in Coda or TextMate
 date: 2010-11-04
 excerpt: How to perform searches using regular expressions.
 tags:
-  - taxonomy
-  - sequel-pro
-  - database
-  - coda
-  - regular-expression
-  - textmate
+    - coda
+    - database
+    - regular-expression
+    - sequel-pro
+    - taxonomy
+    - textmate
 ---
 
 As in

@@ -3,12 +3,12 @@ title: My new Drupal modules
 date: 2012-07-12
 excerpt: After a busy few days, I've released two new contrib Drupal modules.
 tags:
+    - accessibility
   - drupal
-  - drupal-modules
   - drupal-6
   - drupal-7
+  - drupal-modules
   - drupal-planet
-  - accessibility
 ---
 
 After a busy few days, I've released two new contrib Drupal modules.

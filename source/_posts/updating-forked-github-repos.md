@@ -1,14 +1,12 @@
 ---
 title: Updating Forked Repositories on GitHub
 date: 2015-06-18
-excerpt:
-  I just had to update a repo that I forked on GitHub. This is how I did it. Did
-  I do it the correct way?
+excerpt: I just had to update a repo that I forked on GitHub. This is how I did it. Did I do it the correct way?
 tags:
-  - git
-  - github
-  - phpstorm
-  - sculpin
+    - git
+    - github
+    - phpstorm
+    - sculpin
 ---
 
 I just had to update a repo that I forked on GitHub. This is how I did it. Did I

@@ -3,11 +3,11 @@ title: Create a Better Photo Gallery in Drupal - Part 2
 date: 2010-08-17
 excerpt: Updating the galleries’ created and modified dates.
 tags:
-  - drupal-planet
-  - drupal-6
-  - photo-gallery
-  - sql
-  - sequel-pro
+    - drupal-6
+    - drupal-planet
+    - photo-gallery
+    - sequel-pro
+    - sql
 ---
 
 At the end of my last post, I'd finished creating the first part of the new

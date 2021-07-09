@@ -3,9 +3,9 @@ title: Yay, the Mediacurrent Contrib Half Hour is Back!
 date: 2018-03-02
 excerpt: Mediacurrent’s "contrib half hour sessions" are back.
 tags:
-  - contribution
-  - drupal
-  - open-source
+    - contribution
+    - drupal
+    - open-source
 has_tweets: true
 ---
 

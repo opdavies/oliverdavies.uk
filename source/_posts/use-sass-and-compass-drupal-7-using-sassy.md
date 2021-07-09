@@ -1,17 +1,16 @@
 ---
 title: How to use SASS and Compass in Drupal 7 using Sassy
 date: 2012-12-06
-excerpt:
-  Use PHPSass and the Sassy module to use Sass and Compass in your Drupal theme.
+excerpt: Use PHPSass and the Sassy module to use Sass and Compass in your Drupal theme.
 tags:
-  - compass
-  - css
-  - drupal
-  - drupal-7
-  - drupal-planet
-  - less
-  - preprocessing
-  - sass
+    - compass
+    - css
+    - drupal
+    - drupal-7
+    - drupal-planet
+    - less
+    - preprocessing
+    - sass
 ---
 
 I've recently started using [SASS](http://sass-lang.com) rather than LESS to do

@@ -2,7 +2,9 @@
 title: Finding the last commit that a patch applies to
 excerpt: How to find the last commit in a Git repository that a patch applies to.
 date: 2020-03-26
-tags: [bash, git]
+tags:
+    - bash
+    - git
 draft: true
 ---
 

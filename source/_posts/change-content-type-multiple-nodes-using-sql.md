@@ -2,16 +2,15 @@
 title: Change the Content Type of Multiple Nodes Using SQL
 date: 2010-07-01
 excerpt:
-  In this post, I will be changing values within my Drupal 6 site's database to
-  quickly change the content type of multiple nodes.
+    In this post, I will be changing values within my Drupal 6 site's database to quickly change the content type of multiple nodes.
 tags:
-  - drupal-planet
-  - drupal-6
-  - drupal
-  - sql
-  - sequel-pro
-  - database
-  - content-types
+    - content-types
+    - database
+    - drupal
+    - drupal-6
+    - drupal-planet
+    - sequel-pro
+    - sql
 ---
 
 In this post, I will be changing values within my Drupal 6 site's database to

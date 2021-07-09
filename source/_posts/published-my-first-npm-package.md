@@ -1,9 +1,7 @@
 ---
 title: Published my first NPM package
 date: 2018-12-16
-excerpt:
-  Yesterday I published my first module onto NPM, and it’s a plugin for Tailwind
-  CSS to be used alongside Vue.js.
+excerpt: Yesterday I published my first module onto NPM, and it’s a plugin for Tailwind CSS to be used alongside Vue.js.
 tags:
   - npm
   - tailwind-css

@@ -1,13 +1,11 @@
 ---
 title: Using Remote Files when Developing Locally with Stage File Proxy Module
 date: 2014-11-20
-excerpt:
-  How to install and configure the Stage File Proxy module to serve remote
-  images on your local Drupal site.
+excerpt: How to install and configure the Stage File Proxy module to serve remote images on your local Drupal site.
 tags:
-  - drupal
-  - drupal-planet
-  - servers
+    - drupal
+    - drupal-planet
+    - servers
 ---
 
 How to install and configure the

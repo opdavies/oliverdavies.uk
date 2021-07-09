@@ -1,10 +1,9 @@
 ---
 title: Reflections on speaking at UnifiedDiff
 date: 2012-09-06
-excerpt:
-  Yesterday evening I went along and spoke at the UnifiedDiff meetup in Cardiff.
+excerpt: Yesterday evening I went along and spoke at the UnifiedDiff meetup in Cardiff.
 tags:
-  - talks
+    - speaking
 ---
 
 Yesterday evening I went along and spoke at the

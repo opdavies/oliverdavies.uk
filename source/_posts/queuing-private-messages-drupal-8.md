@@ -3,11 +3,11 @@ title: Queuing Private Messages in Drupal 8
 date: 2018-02-27
 excerpt: Introducing the Private Message Queue module for Drupal 8.
 tags:
-  - drupal
-  - drupal-8
-  - drupal-modules
-  - drupal-planet
-  - open-source
+    - drupal
+    - drupal-8
+    - drupal-modules
+    - drupal-planet
+    - open-source
 ---
 
 My current project at [Microserve][0] is a Drupal 8 website that uses the

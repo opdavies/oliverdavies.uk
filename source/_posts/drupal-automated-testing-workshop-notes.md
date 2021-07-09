@@ -1,7 +1,8 @@
 ---
 title: Drupal automated testing workshop notes
 excerpt: If you attended my automated testing with Drupal workshop this weekend, here are the links.
-tags: [Drupal]
+tags:
+    - drupal
 date: 2020-11-15
 ---
 

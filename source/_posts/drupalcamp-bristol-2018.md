@@ -3,16 +3,14 @@ title: DrupalCamp Bristol 2018 Statement
 date: 2018-01-30
 excerpt: Unfortunately, we won’t be running DrupalCamp Bristol this year.
 tags:
-  - drupal-planet
-  - drupalcamp-bristol
-use:
-  - posts
+    - drupal-planet
+    - drupalcamp-bristol
 meta:
-  image:
-    url: /images/blog/drupalcamp-bristol-17-logo.jpg
-    width: 228
-    height: 448
-    type: image/img
+    image:
+        url: /images/blog/drupalcamp-bristol-17-logo.jpg
+        width: 228
+        height: 448
+        type: image/img
 ---
 
 It’s with heavy hearts that we are announcing there won’t be a DrupalCamp

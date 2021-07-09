@@ -1,7 +1,8 @@
 ---
 title: Presenting from PDF slides using pdfpc (PDF Presenter Console)
 excerpt: My notes from using pdfpc (PDF Presenter Console).
-tags: [Speaking]
+tags:
+    - speaking
 date: 2021-04-23
 ---
 

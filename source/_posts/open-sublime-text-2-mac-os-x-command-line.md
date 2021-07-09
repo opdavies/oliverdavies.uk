@@ -3,9 +3,9 @@ title: Open Sublime Text 2 from the Mac OS X Command Line
 date: 2012-11-17
 excerpt: How to open Sublime Text from the command line.
 tags:
-  - sublime-text
-  - mac-os-x
-  - terminal
+    - mac-os-x
+    - sublime-text
+    - terminal
 ---
 
 How to open Sublime Text from the command line.

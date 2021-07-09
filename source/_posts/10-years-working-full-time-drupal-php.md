@@ -1,7 +1,10 @@
 ---
 title: 10 years working full time with Drupal and PHP
 excerpt: 10 years ago today, I started working for Horse & Country TV in what was my full-time Drupal development role.
-tags: []
+tags:
+    - drupal
+    - personal
+    - php
 date: 2020-07-19
 ---
 

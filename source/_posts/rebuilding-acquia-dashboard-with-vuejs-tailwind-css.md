@@ -2,10 +2,10 @@
 title: Rebuilding Acquia’s Dashboard with Vue.js and Tailwind CSS
 excerpt: How I rebuilt Acquia’s dashboard using Vue.js and Tailwind CSS.
 tags:
-  - drupal
-  - tailwind-css
-  - tweet
-  - vuejs
+    - drupal
+    - tailwind-css
+    - tweet
+    - vuejs
 draft: true
 promoted: true
 ---

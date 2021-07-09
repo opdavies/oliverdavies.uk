@@ -3,10 +3,10 @@ title: Using Tailwind CSS in your Drupal Theme
 date: 2018-02-05
 excerpt: What is Tailwind CSS, and how do I use it in Drupal theme?
 tags:
-  - drupal
-  - drupal-planet
-  - drupal-theming
-  - tailwind-css
+    - drupal
+    - drupal-planet
+    - drupal-theming
+    - tailwind-css
 ---
 
 ## What is Tailwind?

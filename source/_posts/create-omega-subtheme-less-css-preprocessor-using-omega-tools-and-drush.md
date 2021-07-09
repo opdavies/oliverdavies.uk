@@ -1,16 +1,14 @@
 ---
-title:
-  Create an Omega Subtheme with LESS CSS Preprocessor using Omega Tools and
-  Drush
+title: Create an Omega Subtheme with LESS CSS Preprocessor using Omega Tools and Drush
 date: 2012-04-16
 excerpt: How to create an Omega subtheme on the command line using Drush.
 tags:
-  - drupal-7
-  - omega
-  - theming
-  - less
-  - drupal-planet
-  - drupal
+    - drupal
+    - drupal-7
+    - drupal-planet
+    - less
+    - omega
+    - theming
 ---
 
 In this tutorial I'll be showing how to create an

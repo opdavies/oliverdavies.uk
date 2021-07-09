@@ -1,16 +1,12 @@
 ---
 title: Dividing Drupal's process and preprocess functions into separate files
 date: 2012-05-24
-excerpt:
-  If you use a lot of process and preprocess functions within your Drupal theme,
-  then your template.php can get very long and it can become difficult to find a
-  certain piece of code. Following the example of the Omega theme, I've started
-  separating my process and preprocess functions into their own files.
+excerpt: If you use a lot of process and preprocess functions within your Drupal theme, then your template.php can get very long and it can become difficult to find a certain piece of code. Following the example of the Omega theme, I've started separating my process and preprocess functions into their own files.
 tags:
-  - drupal
-  - code
-  - theming
-  - preprocessing
+    - code
+    - drupal
+    - preprocessing
+    - theming
 ---
 
 If you use a lot of process and preprocess functions within your Drupal theme,

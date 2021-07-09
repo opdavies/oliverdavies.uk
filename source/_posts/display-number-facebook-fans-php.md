@@ -3,7 +3,7 @@ title: Display the Number of Facebook fans in PHP
 date: 2011-03-15
 excerpt: How to use PHP to display the number of fans of a Facebook page.
 tags:
-  - php
+    - php
 ---
 
 Replace the \$page_id value with your Page ID number (unless you want to show

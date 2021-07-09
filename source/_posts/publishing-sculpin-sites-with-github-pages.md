@@ -2,13 +2,16 @@
 title: Publishing Sculpin Sites with GitHub Pages
 date: 2017-07-13
 excerpt: How I moved my website to GitHub pages.
-tags: [sculpin, php, github]
+tags:
+    - github
+    - php
+    - sculpin
 meta:
-  image:
-    url: '/images/blog/jackson-octocat.png'
-    type: 'image/png'
-    height: 200
-    width: 451
+    image:
+      url: '/images/blog/jackson-octocat.png'
+      type: 'image/png'
+      height: 200
+      width: 451
 ---
 
 <p class="text-center" markdown="1">![](/images/blog/jackson-octocat.png)</p>

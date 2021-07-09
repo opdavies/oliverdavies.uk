@@ -3,11 +3,11 @@ title: Review of the Admin:hover Module
 date: 2010-08-10
 excerpt: My review of Drupal’s admin:hover module.
 tags:
-  - drupal-planet
-  - drupal-6
-  - drupal-modules
-  - admin:hover
-  - administration
+    - admin:hover
+    - administration
+    - drupal-6
+    - drupal-modules
+    - drupal-planet
 ---
 
 Sorry for the lack of Blog posts lately, but
