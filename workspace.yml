@@ -2,6 +2,10 @@ workspace('oliverdavies-uk'):
   description: Sculpin website for oliverdavies.uk.
 
 attribute('docker'):
+  registry:
+    password: "= env('DOCKER_REGISTRY_PASSWORD') ?: ''"
+    url: ghcr.io
+    username: "= env('DOCKER_REGISTRY_USERNAME') ?: ''"
   repository: ghcr.io/opdavies/oliverdavies-uk-web
 
 command('disable'):
@@ -35,10 +39,14 @@ command('docker image push <git_commit>'):
     GIT_COMMIT_SHA: = input.argument('git_commit')
   exec: |
     #!bash(workspace:/)|@
+    echo '@("docker.registry.password")' | run docker login --username='@("docker.registry.username")' --password-stdin '@("docker.registry.url")'
+
     ws docker image build $GIT_COMMIT_SHA
 
     run docker push @('docker.repository'):${GIT_COMMIT_SHA}
     run docker push @('docker.repository'):latest
+
+    run docker logout '@("docker.registry.url")'
 
 command('enable'):
   env:

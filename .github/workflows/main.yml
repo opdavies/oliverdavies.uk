@@ -1,0 +1,35 @@
+name: Main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Build and push Docker images
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
+
+      - name: Install Workspace
+        run: |
+          curl \
+            --output ws \
+            --location https://github.com/my127/workspace/releases/download/0.1.3/ws
+          chmod +x ws
+          sudo mv ws /usr/local/bin/ws
+
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build and push Docker images
+        run: ws docker image push $GITHUB_SHA
+        env:
+          DOCKER_REGISTRY_PASSWORD: ${{ secrets.DOCKER_REGISTRY_PASSWORD }}
+          DOCKER_REGISTRY_USERNAME: ${{ secrets.DOCKER_REGISTRY_USERNAME }}
+
+# vim: sw=2 ts=2
