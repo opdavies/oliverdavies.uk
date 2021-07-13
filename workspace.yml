@@ -8,6 +8,13 @@ attribute('docker'):
     username: "= env('DOCKER_REGISTRY_USERNAME') ?: ''"
   repository: ghcr.io/opdavies/oliverdavies-uk-web
 
+command('deploy'):
+  env:
+    COMPOSE_PROJECT_NAME: = @('namespace')
+  exec: |
+    #!bash(workspace:/tools/deployment)
+    passthru ansible-playbook deploy.yml
+
 command('disable'):
   env:
     COMPOSE_PROJECT_NAME: = @('namespace')
