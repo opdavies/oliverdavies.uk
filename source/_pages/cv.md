@@ -7,9 +7,9 @@ title: Oliver Paul Davies (opdavies)
 ## Technical skills
 
 - Languages: PHP, SQL, HTML, CSS, JavaScript, Bash
-- CMSes and Frameworks: Drupal (6-9), Symfony (2-5), Silex, Sculpin, Tailwind CSS, Vue.js
+- CMSes and Frameworks: Drupal (6-9), Symfony (2-5), Sculpin, Tailwind CSS, Vue.js
 - Tools: Git, PHPUnit, PHPStan, Behat, Jest, Docker, Ansible, Puppet, Apache, Nginx, MySQL, Jenkins, GitHub Actions
-- Platforms: Acquia, Platform.sh, Pantheon, Netlify, Amazon AWS, DigitalOcean, Linode
+- Platforms: Acquia, Platform.sh, Pantheon, DigitalOcean, Linode
 
 ## Projects
 
@@ -78,14 +78,12 @@ title: Oliver Paul Davies (opdavies)
 ### Senior Drupal Developer at Appnovation (Cardiff, UK) - 2016 to 2017
 
 - Co-developed various Drupal 7 and 8 projects for UK, US and Canadian clients, including custom modules and themes.
-- Provided technical input to pre-sales opportunities, including the company’s first UK Drupal 8 project and first FTSE 100 client.
 - Link: <https://www.appnovation.com>
 
 ### Lead Drupal Developer at CTI Digital (Remote) - 2015 to 2016
 
 - Contributed to and helped support various existing Drupal 7 projects.
 - Improved my Drupal 8 knowledge via self-guided learning, focussing on custom module development and data migration.
-- Developed a prototype of a command-line application to generate and audit codebases, to reduce the onboarding time for Developers and ensure consistency across projects.
 - Link: <https://www.ctidigital.com>
 
 ### Senior Drupal Developer at Microserve (Bristol, UK) - 2015
@@ -105,7 +103,6 @@ title: Oliver Paul Davies (opdavies)
 
 - Led a development team consisting of colleagues in other offices as well as an off-site client contractor.
 - Completed an in-progress Drupal 7 project, adding missing functionality and fixing bugs.
-- Created and shared a Vagrant and Puppet based development environment to ensure consistency for Developers.
 
 ### Application Developer & System Administrator at Nomensa (Bristol, UK) - 2012 to 2013
 
@@ -120,14 +117,12 @@ title: Oliver Paul Davies (opdavies)
 - Developed and co-developed new websites, including the agency’s first Drupal 7 client project.
 - Provided ongoing support and maintenance of websites for existing clients.
 - Architected and developed a Drupal 6 and Ubertcart project for a water services company, which processed residential and commercial property transactions until September 2020.
-- Performed Linux server provisioning and configuration tasks for client websites.
 - Link: <https://www.proctors.co.uk>
 
 ### Web Developer (PHP, Drupal) at Horse & Country TV (Cwmbran, UK) - 2010 to 2011
 
 - Maintained and supported the company’s Drupal 6 website as part of a two-person team.
 - Re-architected and re-developed the Events section, adding Ubercart for paid events which added a new revenue stream for the company.
-- Developed custom modules including the 'Now & Next' module which displayed the current and subsequent programmes being shown on the channel.
 - Link: <https://horseandcountry.tv>
 
 ## Certifications and Qualifications
