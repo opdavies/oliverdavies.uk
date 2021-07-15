@@ -140,4 +140,13 @@ title: Oliver Paul Davies (opdavies)
 - 2017: Acquia certified Developer - Drupal 8
 - 2007-2009: HNC Computing (End User Support)
 
+## Community
+
+- Organiser of the PHP South Wales user group.
+- Past organiser of the PHP South West, and Drupal Bristol user groups.
+- Co-founder of the DrupalCamp Bristol conference.
+- Open source contributor and maintainer.
+- Drupal core contributor, and contribution mentor.
+- Coding Fellowship Bootcamp mentor.
+
 </div>
