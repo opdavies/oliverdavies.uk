@@ -5,33 +5,23 @@ on:
     branches:
       - main
 
+env:
+  DOCKER_TAG: ${{ github.sha }}
+
 jobs:
-  deploy:
-    name: Build and push Docker images
+  build-and-push-images:
     runs-on: ubuntu-latest
     steps:
-      - name: Configure PHP
-        uses: shivammathur/setup-php@v2
+      - uses: actions/checkout@v2
+
+      - name: Login to the Docker registry
+        uses: docker/login-action@v1
         with:
-          php-version: '7.4'
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Install Workspace
-        run: |
-          curl \
-            --output ws \
-            --location https://github.com/my127/workspace/releases/download/0.1.3/ws
-          chmod +x ws
-          sudo mv ws /usr/local/bin/ws
-
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Build and push Docker images
-        run: |
-          ws docker image build $GITHUB_SHA
-          ws docker image push $GITHUB_SHA
-        env:
-          DOCKER_REGISTRY_PASSWORD: ${{ secrets.DOCKER_REGISTRY_PASSWORD }}
-          DOCKER_REGISTRY_USERNAME: ${{ secrets.DOCKER_REGISTRY_USERNAME }}
+      - run: make build-images
+      - run: make push-images
 
 # vim: sw=2 ts=2
