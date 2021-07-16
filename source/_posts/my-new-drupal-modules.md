@@ -4,11 +4,11 @@ date: 2012-07-12
 excerpt: After a busy few days, I've released two new contrib Drupal modules.
 tags:
     - accessibility
-  - drupal
-  - drupal-6
-  - drupal-7
-  - drupal-modules
-  - drupal-planet
+    - drupal
+    - drupal-6
+    - drupal-7
+    - drupal-modules
+    - drupal-planet
 ---
 
 After a busy few days, I've released two new contrib Drupal modules.
