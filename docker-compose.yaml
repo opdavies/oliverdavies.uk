@@ -42,6 +42,7 @@ services:
       - assets:/node/source/build
       - /node/node_modules
       - ./assets:/node/assets
+      - ./Makefile:/node/Makefile
       - ./package.json:/node/package.json
       - ./package-lock.json:/node/package-lock.json
       - ./postcss.config.js:/node/postcss.config.js
@@ -49,8 +50,10 @@ services:
       - ./tailwind.config.js:/node/tailwind.config.js
       - ./tools/tailwindcss:/node/tools/tailwindcss
       - ./webpack.config.js:/node/webpack.config.js
-    entrypoint: npm
-    command: run watch
+    working_dir: /node
+    entrypoint: make
+    command:
+      - assets-watch
     labels:
       - "traefik.enable=false"
 
