@@ -6,28 +6,30 @@ assets-watch:
 	npm run watch
 
 build-images:
-	docker image build \
+	docker image build . \
 		--file tools/docker/images/Dockerfile \
-		--target=production \
-		--tag $(DOCKER_IMAGE_NAME):latest \
 		--tag $(DOCKER_IMAGE_NAME):$(DOCKER_TAG) \
-		.
+		--tag $(DOCKER_IMAGE_NAME):latest \
+		--target=production
 
 deploy:
 	cd tools/deployment && ansible-playbook deploy.yml
+
+destroy:
+	COMPOSE_PROJECT_NAME=$(COMPOSE_PROJECT_NAME) docker-compose down --volumes --remove-orphans
 
 disable:
 	COMPOSE_PROJECT_NAME=$(COMPOSE_PROJECT_NAME) docker-compose down
 
 enable:
-	COMPOSE_PROJECT_NAME=$(COMPOSE_PROJECT_NAME) docker-compose up -d --build
+	COMPOSE_PROJECT_NAME=$(COMPOSE_PROJECT_NAME) docker-compose up --detach --build
 
 ps:
 	COMPOSE_PROJECT_NAME=$(COMPOSE_PROJECT_NAME) docker-compose ps
 
 push-images:
-	docker image push $(DOCKER_IMAGE_NAME):latest
 	docker image push $(DOCKER_IMAGE_NAME):$(DOCKER_TAG)
+	docker image push $(DOCKER_IMAGE_NAME):latest
 
 .PHONY: *
 
