@@ -25,9 +25,9 @@ menus:
         -
             title: Recommendations
             href: /recommendations
-        #-
-        #    title: RSS feed
-        #    href: \#
+        -
+            title: RSS feed
+            href: /rss.xml
         -
             title: Uses
             href: /uses
