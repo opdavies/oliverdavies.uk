@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f7c39b49ce875663ec830ec506fc764",
+    "content-hash": "42fe481e464bda17a24a8178e30bdfd6",
     "packages": [
         {
             "name": "dflydev/ant-path-matcher",
@@ -661,6 +661,54 @@
                 "source": "https://github.com/opdavies/sculpin-gist-embed-bundle/tree/master"
             },
             "time": "2016-04-05T19:57:22+00:00"
+        },
+        {
+            "name": "opdavies/sculpin-twig-markdown-bundle",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opdavies/sculpin-twig-markdown-bundle.git",
+                "reference": "da9b055a1981419a0e7d5b5e8e1de517d1d9d91e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opdavies/sculpin-twig-markdown-bundle/zipball/da9b055a1981419a0e7d5b5e8e1de517d1d9d91e",
+                "reference": "da9b055a1981419a0e7d5b5e8e1de517d1d9d91e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "sculpin/sculpin": "@stable"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Opdavies\\Sculpin\\Bundle\\TwigMarkdownBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oliver Davies",
+                    "email": "oliver@oliverdavies.uk",
+                    "homepage": "https://www.oliverdavies.uk"
+                }
+            ],
+            "keywords": [
+                "markdown",
+                "sculpin",
+                "twig"
+            ],
+            "support": {
+                "issues": "https://github.com/opdavies/sculpin-twig-markdown-bundle/issues",
+                "source": "https://github.com/opdavies/sculpin-twig-markdown-bundle/tree/master"
+            },
+            "time": "2019-11-11T15:04:02+00:00"
         },
         {
             "name": "psr/container",
