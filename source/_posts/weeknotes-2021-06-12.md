@@ -4,6 +4,7 @@ excerpt: Developing on Windows, organising dotfiles, and helping organise Drupal
 date: 2021-06-12
 tags:
     - personal
+    - week-notes
 ---
 
 ## Local development with Windows and WSL 2
