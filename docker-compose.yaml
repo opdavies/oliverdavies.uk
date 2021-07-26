@@ -2,17 +2,11 @@ version: '2.4'
 
 services:
   proxy:
-    image: traefik:v2.0-alpine
-    command:
-      - --api.insecure=true
-      - --providers.docker
+    image: nginxproxy/nginx-proxy:alpine
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
+      - /var/run/docker.sock:/tmp/docker.sock:ro
     ports:
       - 80:80
-      - 8080:8080
-    labels:
-      - "traefik.enable=false"
 
   app:
     build:
@@ -33,8 +27,8 @@ services:
       - assets:/app/source/build
       - /app/output_dev
       - .:/app
-    labels:
-      - "traefik.http.routers.oliverdavies.rule=Host(`oliverdavies.localhost`)"
+    environment:
+      VIRTUAL_HOST: oliverdavies.localhost
 
   assets:
     image: node:14
@@ -54,8 +48,6 @@ services:
     entrypoint: make
     command:
       - assets-watch
-    labels:
-      - "traefik.enable=false"
 
 volumes:
   assets:
