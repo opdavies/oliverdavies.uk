@@ -46,6 +46,10 @@ menus:
             href: '%github.gist.url%'
             is_active: false
         -
+            title: SpeakerDeck
+            href: '%speakerdeck.url%'
+            is_active: false
+        -
             title: Twitter
             href: '%twitter.url%'
             is_active: false
@@ -69,6 +73,10 @@ menus:
 
 plausible:
     domain: ~
+
+speakerdeck:
+    name: opdavies
+    url: 'https://speakerdeck.com/%speakerdeck.name%'
 
 twitter:
     name: opdavies
