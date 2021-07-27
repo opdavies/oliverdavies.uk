@@ -19,10 +19,10 @@ destroy:
 	COMPOSE_PROJECT_NAME=$(COMPOSE_PROJECT_NAME) docker-compose down --volumes --remove-orphans
 
 disable:
-	COMPOSE_PROJECT_NAME=$(COMPOSE_PROJECT_NAME) docker-compose down
+	COMPOSE_PROJECT_NAME=$(COMPOSE_PROJECT_NAME) docker-compose down --remove-orphans
 
 enable:
-	COMPOSE_PROJECT_NAME=$(COMPOSE_PROJECT_NAME) docker-compose up --detach --build
+	COMPOSE_PROJECT_NAME=$(COMPOSE_PROJECT_NAME) docker-compose up --detach --build --remove-orphans
 
 ps:
 	COMPOSE_PROJECT_NAME=$(COMPOSE_PROJECT_NAME) docker-compose ps
