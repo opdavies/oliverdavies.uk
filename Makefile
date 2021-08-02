@@ -31,6 +31,9 @@ push-images:
 	docker image push $(DOCKER_WEB_IMAGE_NAME):$(DOCKER_TAG)
 	docker image push $(DOCKER_WEB_IMAGE_NAME):latest
 
+run-production:
+	docker-compose --file docker-compose-production.yaml up --detach --remove-orphans
+
 .PHONY: *
 
 # vim: noexpandtab filetype=make
