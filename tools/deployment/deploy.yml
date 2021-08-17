@@ -5,6 +5,7 @@
   tasks:
     - name: Pull the latest images and restart the services
       shell: |
+        git pull
         docker-compose --file docker-compose-production.yaml pull
         docker-compose --file docker-compose-production.yaml up --detach
       args:
