@@ -6,6 +6,9 @@ on:
       - main
     paths-ignore:
       - 'README.md'
+  schedule:
+    - cron: '0 12 15 * *'
+  workflow_dispatch:
 
 env:
   DOCKER_TAG: ${{ github.sha }}
