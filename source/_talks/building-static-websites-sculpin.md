@@ -19,7 +19,13 @@ events:
         date: 2015-10-14
         url: https://phpsw.uk/events/2015-10-lightning-talks
         joindin: https://joind.in/talk/view/15486
-sortable_date: 2015-10-14
+    -
+        name: Drupal Yorkshire
+        date: 2021-08-19
+        location: Leeds, UK
+        url: https://www.meetup.com/DrupalYorkshire/events/280100968
+        is_online: true
+sortable_date: 2021-08-19
 ---
 
 [Sculpin][0] is a static site generator written in PHP. It converts Markdown files, Twig templates and standard HTML into a static HTML site that can be easily deployed.
