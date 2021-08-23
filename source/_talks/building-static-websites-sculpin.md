@@ -4,7 +4,7 @@ description: A lightning talk on how to use Sculpin to generate static HTML webs
 type: Lightning talk
 speakerdeck:
     id: 6c9c4be1a1344f1291ff13a391674a66
-    ratio: '1.37081659973226'
+    ratio: '1.77777777777778'
     url: https://speakerdeck.com/opdavies/building-static-websites-with-sculpin
 code: https://github.com/opdavies/sculpin-demo
 tags: [meetups, phpsw, sculpin]
