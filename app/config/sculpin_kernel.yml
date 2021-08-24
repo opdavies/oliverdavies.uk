@@ -6,3 +6,8 @@ sculpin_content_types:
         taxonomies: [tags]
     talks:
         permalink: talks/:basename/
+
+services:
+    App\TwigExtension\TalkExtension:
+        tags:
+            - { name: twig.extension }
