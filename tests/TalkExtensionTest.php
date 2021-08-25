@@ -17,7 +17,7 @@ final class TalkExtensionTest extends TestCase
     /** @test */
     public function it_returns_zero_if_there_are_no_talks(): void
     {
-        $this->assertSame(0, $this->subject->getPastTalkCount([]));
+        $this->assertSame(0, $this->subject->getPastTalkCount());
     }
 
     /** @test */

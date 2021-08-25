@@ -6,6 +6,7 @@ COPY composer.* ./
 RUN composer install --no-dev
 COPY app app
 COPY source source
+COPY src src
 RUN sculpin generate --env prod
 
 FROM node:14 AS assets
