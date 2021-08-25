@@ -11,6 +11,7 @@
     ],
     "require": {
         "illuminate/collections": "^8.55",
+        "nesbot/carbon": "^2.52",
         "opdavies/sculpin-gist-embed-bundle": "^0.1.0",
         "opdavies/sculpin-twig-markdown-bundle": "^0.2.0",
         "sculpin/sculpin": "^3.0"

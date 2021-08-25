@@ -3,6 +3,7 @@
 namespace App\Tests;
 
 use App\TwigExtension\TalkExtension;
+use Carbon\Carbon;
 use PHPUnit\Framework\TestCase;
 
 final class TalkExtensionTest extends TestCase
@@ -27,7 +28,7 @@ final class TalkExtensionTest extends TestCase
             [
                 'title' => 'Building static sites with Sculpin',
                 'events' => [
-                    '',
+                    ['date' => Carbon::today()->subDay()->format('Y-m-d')],
                 ]
             ],
         ];
@@ -42,8 +43,8 @@ final class TalkExtensionTest extends TestCase
             [
                 'title' => 'Building static sites with Sculpin',
                 'events' => [
-                    '',
-                    '',
+                    ['date' => Carbon::today()->subDay()->format('Y-m-d')],
+                    ['date' => Carbon::today()->subDay()->format('Y-m-d')],
                 ]
             ],
         ];
@@ -58,13 +59,13 @@ final class TalkExtensionTest extends TestCase
             [
                 'title' => 'Building static sites with Sculpin',
                 'events' => [
-                    '',
+                    ['date' => Carbon::today()->subDay()->format('Y-m-d')],
                 ]
             ],
             [
                 'title' => 'TDD - Test Driven Drupal',
                 'events' => [
-                    '',
+                    ['date' => Carbon::today()->subDay()->format('Y-m-d')],
                 ]
             ],
         ];
@@ -75,6 +76,29 @@ final class TalkExtensionTest extends TestCase
     /** @test */
     public function it_excludes_future_talks(): void
     {
-        $this->markTestIncomplete();
+        $talks = [
+            [
+                'title' => 'Building static sites with Sculpin',
+                'events' => [
+                    [
+                        'date' => Carbon::today()
+                            ->subDay()
+                            ->format('Y-m-d'),
+                    ],
+                ],
+            ],
+            [
+                'title' => 'TDD - Test Driven Drupal',
+                'events' => [
+                    [
+                        'date' => Carbon::today()
+                            ->addDay()
+                            ->format('Y-m-d'),
+                    ],
+                ],
+            ],
+        ];
+
+        $this->assertSame(1, $this->subject->getPastTalkCount($talks));
     }
 }
