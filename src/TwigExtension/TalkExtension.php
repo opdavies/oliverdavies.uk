@@ -17,10 +17,16 @@ final class TalkExtension extends AbstractExtension
         ];
     }
 
-    public function getPastTalkCount(array $talks = []): int
+    public function getPastTalkCount(iterable $talks = []): int
+    {
+        return $this->getEventsFromTalks($talks)->count();
+    }
+
+    private function getEventsFromTalks(iterable $talks): Collection
     {
         $talkCollection = new Collection($talks);
 
-        return $talkCollection->count();
+        return $talkCollection
+            ->flatMap(fn($talk): array => (array) $talk['events']);
     }
 }
