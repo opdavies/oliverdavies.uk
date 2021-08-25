@@ -27,7 +27,7 @@ final class TalkExtensionTest extends TestCase
             [
                 'title' => 'Building static sites with Sculpin',
                 'events' => [
-                    '',
+                    'title' => 'Building static websites with Sculpin',
                 ]
             ],
         ];
