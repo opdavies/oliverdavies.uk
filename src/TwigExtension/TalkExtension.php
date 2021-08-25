@@ -7,7 +7,6 @@ namespace App\TwigExtension;
 use Illuminate\Support\Collection;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
-use Webmozart\Assert\Assert;
 
 final class TalkExtension extends AbstractExtension
 {
@@ -28,16 +27,6 @@ final class TalkExtension extends AbstractExtension
         $talkCollection = new Collection($talks);
 
         return $talkCollection
-            ->map(fn($talk): array => (array) $talk['events'])
-            ->filter(function (array $event): bool {
-                try {
-                    Assert::keyExists($event, 'title');
-
-                    return true;
-                }
-                catch (\RuntimeException $e) {
-                    return false;
-                }
-            });
+            ->flatMap(fn($talk): array => (array) $talk['events']);
     }
 }
