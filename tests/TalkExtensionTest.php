@@ -38,13 +38,38 @@ final class TalkExtensionTest extends TestCase
     /** @test */
     public function it_counts_multiple_events_from_a_single_talk(): void
     {
-        $this->markTestIncomplete();
+        $talks = [
+            [
+                'title' => 'Building static sites with Sculpin',
+                'events' => [
+                    '',
+                    '',
+                ]
+            ],
+        ];
+
+        $this->assertSame(2, $this->subject->getPastTalkCount($talks));
     }
 
     /** @test */
     public function it_counts_multiple_events_from_multiple_talks(): void
     {
-        $this->markTestIncomplete();
+        $talks = [
+            [
+                'title' => 'Building static sites with Sculpin',
+                'events' => [
+                    '',
+                ]
+            ],
+            [
+                'title' => 'TDD - Test Driven Drupal',
+                'events' => [
+                    '',
+                ]
+            ],
+        ];
+
+        $this->assertSame(2, $this->subject->getPastTalkCount($talks));
     }
 
     /** @test */
