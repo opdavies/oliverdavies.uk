@@ -28,7 +28,9 @@ final class TalkExtensionTest extends TestCase
             [
                 'title' => 'Building static sites with Sculpin',
                 'events' => [
-                    ['date' => Carbon::today()->subDay()->format('Y-m-d')],
+                    [
+                        'date' => Carbon::today()->subDay()->format('Y-m-d'),
+                    ],
                 ]
             ],
         ];
@@ -43,8 +45,12 @@ final class TalkExtensionTest extends TestCase
             [
                 'title' => 'Building static sites with Sculpin',
                 'events' => [
-                    ['date' => Carbon::today()->subDay()->format('Y-m-d')],
-                    ['date' => Carbon::today()->subDay()->format('Y-m-d')],
+                    [
+                        'date' => Carbon::today()->subDay()->format('Y-m-d'),
+                    ],
+                    [
+                        'date' => Carbon::today()->subDay()->format('Y-m-d'),
+                    ],
                 ]
             ],
         ];
@@ -59,13 +65,17 @@ final class TalkExtensionTest extends TestCase
             [
                 'title' => 'Building static sites with Sculpin',
                 'events' => [
-                    ['date' => Carbon::today()->subDay()->format('Y-m-d')],
+                    [
+                        'date' => Carbon::today()->subDay()->format('Y-m-d'),
+                    ],
                 ]
             ],
             [
                 'title' => 'TDD - Test Driven Drupal',
                 'events' => [
-                    ['date' => Carbon::today()->subDay()->format('Y-m-d')],
+                    [
+                        'date' => Carbon::today()->subDay()->format('Y-m-d'),
+                    ],
                 ]
             ],
         ];
@@ -81,9 +91,7 @@ final class TalkExtensionTest extends TestCase
                 'title' => 'Building static sites with Sculpin',
                 'events' => [
                     [
-                        'date' => Carbon::today()
-                            ->subDay()
-                            ->format('Y-m-d'),
+                        'date' => Carbon::today()->subDay()->format('Y-m-d'),
                     ],
                 ],
             ],
@@ -91,9 +99,7 @@ final class TalkExtensionTest extends TestCase
                 'title' => 'TDD - Test Driven Drupal',
                 'events' => [
                     [
-                        'date' => Carbon::today()
-                            ->addDay()
-                            ->format('Y-m-d'),
+                        'date' => Carbon::today()->addDay()->format('Y-m-d'),
                     ],
                 ],
             ],
