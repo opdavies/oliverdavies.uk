@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace App\TwigExtension;
 
-use Carbon\Carbon;
-use Illuminate\Support\Collection;
+use App\Collection\TalkCollection;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 
@@ -23,15 +22,13 @@ final class TalkExtension extends AbstractExtension
         return $this->getEventsFromTalks($talks)->count();
     }
 
-    private function getEventsFromTalks(iterable $talks): Collection
+    private function getEventsFromTalks(iterable $talks): TalkCollection
     {
-        $talkCollection = new Collection($talks);
-
-        $today = Carbon::today()->format('Y-m-d');
+        $talkCollection = new TalkCollection($talks);
 
         return $talkCollection
-            ->flatMap(fn($talk): array => (array) $talk['events'])
-            ->filter(fn(array $event): bool => $event['date'] < $today);
+            ->getEvents()
+            ->onlyPastTalks();
     }
 }
 
