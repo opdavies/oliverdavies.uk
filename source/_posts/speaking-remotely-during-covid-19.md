@@ -77,3 +77,7 @@ How to update your site to Drupal 9, and why it's much different to any major Dr
 ## Soaring with utility CSS and Tailwind (workshop)
 
 - [DrupalCamp Florida 2021](https://www.fldrupal.camp/training/soaring-utility-css-and-tailwind) - Feburary 18th 2021
+
+## Building static websites with Sculpin
+
+- [Drupal Yorkshire](https://www.meetup.com/DrupalYorkshire/events/280100968) - 19th August 2021
