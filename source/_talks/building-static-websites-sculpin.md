@@ -25,6 +25,12 @@ events:
         location: Leeds, UK
         url: https://www.meetup.com/DrupalYorkshire/events/280100968
         is_online: true
+    -
+        name: PHP North West (PHPNW)
+        date: 2021-09-07
+        location: Manchester, UK
+        url: ~
+        is_online: true
 sortable_date: 2021-08-19
 ---
 
