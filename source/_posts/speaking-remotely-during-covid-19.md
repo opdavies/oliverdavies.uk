@@ -65,20 +65,20 @@ How to update your site to Drupal 9, and why it's much different to any major Dr
 - [PHP South West](https://www.meetup.com/php-sw/events/272787346) - 9th September (lightning talk)
 - PHP North West - 2nd February 2021
 
-## Automated testing and test-driven development in Drupal 8 (workshop)
+## Automated Testing and Test-Driven Development in Drupal 8 (workshop)
 
 - [DrupalCamp London](https://drupalcamp.london/training/Automated-Testing-and-Test-Driven-Development-in-Drupal-8) - 13th March (in-person, just before UK lockdown)
 - [DrupalCamp NYC](https://2020.drupalcamp.nyc/training/automated-testing-and-test-driven-development-drupal-8) - 14th November
 
-## Building slides and presenting with rst2pdf
+## Building Slides and Presenting with rst2pdf
 
 - [PHP South Wales](https://www.meetup.com/PHP-South-Wales/events/275625320) - January 28th 2021
 
-## Soaring with utility CSS and Tailwind (workshop)
+## Soaring with Utility CSS and Tailwind (workshop)
 
 - [DrupalCamp Florida 2021](https://www.fldrupal.camp/training/soaring-utility-css-and-tailwind) - Feburary 18th 2021
 
-## Building static websites with Sculpin
+## Building Static Websites with Sculpin
 
 - [Drupal Yorkshire](https://www.meetup.com/DrupalYorkshire/events/280100968) - 19th August 2021
 - PHP North West - 7th September
