@@ -81,3 +81,4 @@ How to update your site to Drupal 9, and why it's much different to any major Dr
 ## Building static websites with Sculpin
 
 - [Drupal Yorkshire](https://www.meetup.com/DrupalYorkshire/events/280100968) - 19th August 2021
+- PHP North West - 7th September
