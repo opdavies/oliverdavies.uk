@@ -26,7 +26,6 @@ events:
         url: https://midwestphp.org/talks/7C0m4I87vq72cDoXvsHFRp/Upgrading_your_site_to_Drupal_9
         date: 2021-04-22
         online: true
-sortable_date: 2021-04-22
 ---
 
 For most Drupal Developers and users, the idea of moving a project from one major version of Drupal to another can be daunting, with modules and themes having to being changed significantly or rebuilt completely, and data being migrated from the old site to the new one.

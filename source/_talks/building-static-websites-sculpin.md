@@ -30,7 +30,6 @@ events:
         location: Manchester, UK
         url: ~
         is_online: true
-sortable_date: 2021-09-07
 ---
 
 [Sculpin][0] is a static site generator written in PHP. It converts Markdown files, Twig templates and standard HTML into a static HTML site that can be easily deployed.

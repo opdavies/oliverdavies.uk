@@ -17,5 +17,4 @@ events:
         url: https://2020.drupalcamp.nyc/training/automated-testing-and-test-driven-development-drupal-8
         date: 2020-11-14
         online: true
-sortable_date: 2020-11-14
 ---

@@ -10,7 +10,6 @@ events:
         location: Cardiff, UK
         url: http://unifieddiff.co.uk
         date: 2012-09-05
-sortable_date: 2012-09-05
 ---
 
 My very first talk, where I talk about Drupal, what it is and what it can do.

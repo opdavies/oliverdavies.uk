@@ -13,7 +13,6 @@ events:
         location: Bristol, UK
         url: http://umbristol.co.uk
         date: 2015-08-25
-sortable_date: 2015-08-25
 ---
 
 As part of their [CMS Dance-Off][1], I was selected to speak about Drupal alongside other speakers representing Umbraco, Sitecore and Episerver.

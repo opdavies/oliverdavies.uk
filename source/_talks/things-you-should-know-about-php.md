@@ -14,7 +14,6 @@ events:
         location: Swansea, UK
         url: https://www.meetup.com/Swansea-Software-Development-Meetup
         date: 2019-01-28
-sortable_date: 2019-01-28
 ---
 
 An introduction to PHP, presented to the Swansea Software Development Community (SSDC) meetup.

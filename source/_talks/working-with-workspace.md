@@ -26,7 +26,6 @@ events:
         url: https://www.phpnw.org.uk
         date: 2021-02-02
         online: true
-sortable_date: 2021-02-02
 ---
 
 [Workspace](https://github.com/my127/workspace) is an open source tool developed by [Inviqa](https://inviqa.com), as a way to create custom commands for your project environments, and an alternative to a bash script or a Makefile.

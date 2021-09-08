@@ -83,7 +83,6 @@ events:
         date: 2021-02-09
         url: https://www.meetup.com/nashvillephp/events/kzkdwryccdbmb
         online: true
-sortable_date: 2021-02-09
 meta:
     og:
         title: Taking Flight with Tailwind CSS

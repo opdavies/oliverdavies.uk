@@ -15,7 +15,6 @@ events:
         name: DrupalCamp London 2015
         location: London, UK
         date: 2015-02-28
-sortable_date: 2015-02-28
 ---
 
 A retrospective of the Drupal Association’s work in 2014 and a look forward to what we’ll be working on in 2015.

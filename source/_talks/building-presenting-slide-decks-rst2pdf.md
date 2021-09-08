@@ -14,7 +14,6 @@ events:
         url: https://www.meetup.com/PHP-South-Wales/events/275625320
         date: 2021-01-28
         online: true
-sortable_date: 2021-01-28
 ---
 
 I've recently used [rst2pdf](https://rst2pdf.org) for building presentation slides. This short talk will show some examples of how I built and presented a slide deck using reStructuredText and rst2pdf.

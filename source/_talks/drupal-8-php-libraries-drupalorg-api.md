@@ -25,7 +25,6 @@ events:
         url: http://drupalcamp.london
         date: 2019-03-03
         time: '12:05 - 12:50'
-sortable_date: 2019-03-03
 ---
 
 A overview and demo of some of the open source projects that I’ve been working on lately that are based on information from the Drupal.org API, including a PHP library for the API itself as well as some Drupal 8 modules that use it.

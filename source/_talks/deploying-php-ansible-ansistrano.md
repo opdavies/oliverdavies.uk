@@ -89,7 +89,6 @@ events:
         location: New York, USA
         url: https://ti.to/drupalnyc/lunch-learn-2021-06-15
         is_online: true
-sortable_date: 2021-06-15
 ---
 
 Great! You’ve built your website, and now you just need to deploy it. There are various ways that this could be done - from (S)FTP, to SCP and rsync, to running commands like `git pull` and `composer install` directly on the server which is not ideal.

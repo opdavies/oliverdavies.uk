@@ -107,4 +107,24 @@ final class TalkExtensionTest extends TestCase
 
         $this->assertSame(1, $this->subject->getPastTalkCount($talks));
     }
+
+    /** @test */
+    public function should_get_the_last_event_date_for_a_talk(): void
+    {
+        $talkA = [
+            'events' => [
+                ['date' => '2015-10-14'],
+                ['date' => '2021-09-07'],
+                ['date' => '2021-08-19'],
+            ],
+        ];
+
+        $talkB = [
+            'events' => [],
+        ];
+
+        $this->assertSame('2021-09-07', $this->subject->getLastEventDate($talkA));
+
+        $this->assertNull($this->subject->getLastEventDate($talkB));
+    }
 }

@@ -21,7 +21,6 @@ events:
     -
         name: Drupal Somerset
         date: 2017-10-26
-sortable_date: 2017-10-26
 ---
 
 You’ve built your website, and now you just need to deploy it. There are various ways that this could be done - from (S)FTP, to SCP and rsync, to running commands like “git pull” and “composer install” directly on the server (not recommended).

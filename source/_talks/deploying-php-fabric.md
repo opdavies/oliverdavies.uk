@@ -36,7 +36,6 @@ events:
         time: '09:00 - 09:45'
         url: http://conference.phpnw.org.uk/phpnw17
         joindin: https://joind.in/talk/4e35d
-sortable_date: 2017-10-01
 ---
 
 You’ve built your application, and now you just need to deploy it. There are various ways that this could be done – from (S)FTP, to SCP and rsync, to running commands like “git pull” and “composer install” directly on the server (not recommended).

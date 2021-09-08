@@ -22,7 +22,6 @@ events:
         location: Bristol, UK
         url: https://www.drupalbristol.org.uk
         date: 2016-04-02
-sortable_date: 2016-04-02
 ---
 
 An short talk about the [Drupal VM Generator][1] project.

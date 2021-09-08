@@ -63,7 +63,6 @@ events:
         date: 2020-12-08
         url: https://events.drupal.org/europe2020/sessions/tdd-test-driven-drupal
         online: true
-sortable_date: 2020-12-08
 ---
 
 {% block content %}

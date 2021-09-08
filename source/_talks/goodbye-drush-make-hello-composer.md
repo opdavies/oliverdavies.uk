@@ -22,7 +22,6 @@ events:
         time: '14:40 - 15:40'
         url: https://www.phpconference.co.uk
         joindin: https://joind.in/talk/650ab
-sortable_date: 2018-02-16
 ---
 
 One of the main outcomes of Drupal 8 was “getting off the island” with third-party code included in core and adopting modern best practices from the wider PHP ecosystem - including [Composer][1], PHP’s dependency manager.
