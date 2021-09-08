@@ -2,3 +2,4 @@
 /output_*/
 /source/build/
 /vendor/
+/.phpunit.cache
