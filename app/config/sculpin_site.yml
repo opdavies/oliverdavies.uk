@@ -38,6 +38,10 @@ menus:
             href: '%drupalorg.url%'
             is_active: false
         -
+            title: Packagist
+            href: '%packagist.url%'
+            is_active: false
+        -
             title: GitHub
             href: '%github.url%'
             is_active: false
@@ -70,6 +74,10 @@ menus:
             title: Talks
             href: /talks
             is_active: '^/talks/?'
+
+packagist:
+    name: opdavies
+    url: 'https://packagist.org/packages/%packagist.name%'
 
 plausible:
     domain: ~
