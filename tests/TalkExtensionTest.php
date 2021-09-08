@@ -16,13 +16,13 @@ final class TalkExtensionTest extends TestCase
     }
 
     /** @test */
-    public function it_returns_zero_if_there_are_no_talks(): void
+    public function should_return_zero_if_there_are_no_talks(): void
     {
         $this->assertSame(0, $this->subject->getPastTalkCount());
     }
 
     /** @test */
-    public function it_counts_a_single_event_from_a_single_talk(): void
+    public function should_count_a_single_event_from_a_single_talk(): void
     {
         $talks = [
             [
@@ -39,7 +39,7 @@ final class TalkExtensionTest extends TestCase
     }
 
     /** @test */
-    public function it_counts_multiple_events_from_a_single_talk(): void
+    public function should_count_multiple_events_from_a_single_talk(): void
     {
         $talks = [
             [
@@ -59,7 +59,7 @@ final class TalkExtensionTest extends TestCase
     }
 
     /** @test */
-    public function it_counts_multiple_events_from_multiple_talks(): void
+    public function should_count_multiple_events_from_multiple_talks(): void
     {
         $talks = [
             [
@@ -84,7 +84,7 @@ final class TalkExtensionTest extends TestCase
     }
 
     /** @test */
-    public function it_excludes_future_talks(): void
+    public function should_exclude_future_talks(): void
     {
         $talks = [
             [
