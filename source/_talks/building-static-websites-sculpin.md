@@ -1,7 +1,6 @@
 ---
 title: Building Static Websites with Sculpin
-description: A lightning talk on how to use Sculpin to generate static HTML websites.
-type: Lightning talk
+description: How to use Sculpin to generate static HTML websites.
 speakerdeck:
     id: 6c9c4be1a1344f1291ff13a391674a66
     ratio: '1.77777777777778'
@@ -11,7 +10,7 @@ tags: [meetups, phpsw, sculpin]
 tweets: yes
 video:
     type: youtube
-    id: aN53arCKZAU
+    id: xRTiWR9nBSA
 events:
     -
         name: PHP South West
@@ -31,14 +30,12 @@ events:
         location: Manchester, UK
         url: ~
         is_online: true
-sortable_date: 2021-08-19
+sortable_date: 2021-09-07
 ---
 
 [Sculpin][0] is a static site generator written in PHP. It converts Markdown files, Twig templates and standard HTML into a static HTML site that can be easily deployed.
 
 This talk will cover a little of the background to Sculpin and what it is, and then will move into some demonstrations of how to build a Sculpin site and what it can do!
-
-You can [view the full slides][1], including the embedded videos.
 
 [0]: http://sculpin.io
 [1]: https://opdavies.github.io/slides-phpsw-sculpin
