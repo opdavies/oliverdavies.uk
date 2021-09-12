@@ -9,6 +9,10 @@ use Illuminate\Support\Collection;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 
+/**
+ * @template TKey of array-key
+ * @template TValue
+ */
 final class TalkExtension extends AbstractExtension
 {
     public function getFunctions()
@@ -19,6 +23,9 @@ final class TalkExtension extends AbstractExtension
         ];
     }
 
+    /**
+     * @param TValue $talk
+     */
     public function getLastEventDate($talk): ?string
     {
         $events = new Collection($talk['events']);
@@ -26,11 +33,19 @@ final class TalkExtension extends AbstractExtension
         return $events->pluck('date')->sort()->last();
     }
 
+    /**
+     * @param iterable<int, TValue> $talks
+     */
     public function getPastTalkCount(iterable $talks = []): int
     {
         return $this->getEventsFromTalks($talks)->count();
     }
 
+    /**
+     * @param iterable<int, TValue> $talks
+     *
+     * @return TalkCollection<int, TValue>
+     */
     private function getEventsFromTalks(iterable $talks): TalkCollection
     {
         $talkCollection = new TalkCollection($talks);
