@@ -50,10 +50,6 @@ menus:
             href: '%github.gist.url%'
             is_active: false
         -
-            title: SpeakerDeck
-            href: '%speakerdeck.url%'
-            is_active: false
-        -
             title: Twitter
             href: '%twitter.url%'
             is_active: false
