@@ -111,7 +111,7 @@ final class TalkExtensionTest extends TestCase
     /** @test */
     public function should_get_the_last_event_date_for_a_talk(): void
     {
-        $talkA = [
+        $talk = [
             'events' => [
                 ['date' => '2015-10-14'],
                 ['date' => '2021-09-07'],
@@ -119,12 +119,16 @@ final class TalkExtensionTest extends TestCase
             ],
         ];
 
-        $talkB = [
+        $this->assertSame('2021-09-07', $this->subject->getLastEventDate($talk));
+    }
+
+    /** @test */
+    public function should_return_null_for_the_latest_date_if_a_talk_has_no_events(): void
+    {
+        $talk = [
             'events' => [],
         ];
 
-        $this->assertSame('2021-09-07', $this->subject->getLastEventDate($talkA));
-
-        $this->assertNull($this->subject->getLastEventDate($talkB));
+        $this->assertNull($this->subject->getLastEventDate($talk));
     }
 }
