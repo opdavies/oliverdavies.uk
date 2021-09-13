@@ -84,7 +84,7 @@ final class TalkExtensionTest extends TestCase
     }
 
     /** @test */
-    public function should_exclude_future_talks(): void
+    public function should_not_count_future_talks(): void
     {
         $talks = [
             [
