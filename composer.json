@@ -38,5 +38,13 @@
         "psr-4": {
             "App\\Tests\\": "tests/"
         }
+    },
+    "extra": {
+        "violinist": {
+            "one_pull_request_per_package": 1,
+            "run_scripts": 0,
+            "bundled_packages": {},
+            "blacklist": []
+        }
     }
 }
