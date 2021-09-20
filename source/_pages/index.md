@@ -4,6 +4,7 @@ permalink: /
 is_front: true
 exclude_from_sitemap: true
 meta:
+    description: Oliver Davies is a UK-based Lead Software Developer, specialising in Drupal, PHP, and JavaScript.
     title: Lead Drupal and PHP Software Developer | Oliver Davies
 ---
 
