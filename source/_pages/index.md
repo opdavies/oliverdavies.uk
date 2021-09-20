@@ -3,6 +3,8 @@ title: Oliver Davies - UK-based Lead Software Developer, PHP and Drupal speciali
 permalink: /
 is_front: true
 exclude_from_sitemap: true
+meta:
+    title: Lead Drupal and PHP Software Developer | Oliver Davies
 ---
 
 <div class="markdown" markdown="1">

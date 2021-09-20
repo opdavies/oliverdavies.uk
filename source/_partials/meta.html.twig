@@ -6,6 +6,10 @@
     {% set pageTitle = [page.title, '-', site.name]|join(' ') %}
 {% endif %}
 
+{% if page.meta.title %}
+    {% set pageTitle = page.meta.title %}
+{% endif %}
+
 {% set metaDescription = site.description %}
 {% if page.meta.description %}
     {% set metaDescription = page.meta.description|e('html') %}
