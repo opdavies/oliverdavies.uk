@@ -6,8 +6,13 @@ avatar:
     url: '/sites/default/files/images/social-avatar.jpg'
 
 calendars:
+    consultation:
+        id: 83087702
+        name: Book a consultation
+        url: '%savvycal.url%/%calendars.consultation.id%'
     pairing:
         id: 416f80ad
+        name: Book a pairing session
         url: '%savvycal.url%/%calendars.pairing.id%'
 
 drupalorg:
@@ -22,6 +27,10 @@ github:
 
 menus:
     footer:
+        -
+            title: Calendars
+            href: /calendars
+            is_active: '^/calendars/?'
         -
             title: Pair with me
             href: /pair-with-me
