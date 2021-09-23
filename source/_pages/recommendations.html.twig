@@ -115,7 +115,7 @@ recommendations:
 ---
 
 <div class="space-y-8">
-    {% for recommendation in page.recommendations|reverse %}
+    {% for recommendation in page.recommendations|reverse|slice(0, 10) %}
         <article>
             <h2>{{ recommendation.name }}</h2>
             <header>{{ recommendation.tagline }}</header>
