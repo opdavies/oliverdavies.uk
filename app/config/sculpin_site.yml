@@ -7,9 +7,8 @@ avatar:
 
 calendars:
     consultation:
-        id: 83087702
         name: Book a consultation
-        url: '%savvycal.url%/%calendars.consultation.id%'
+        url: https://savvycal.com/opdavies/consulting
     mentoring:
         name: Book a mentoring check-in
         url: https://savvycal.com/opdavies/mentoring
