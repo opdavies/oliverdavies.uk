@@ -10,6 +10,9 @@ calendars:
         id: 83087702
         name: Book a consultation
         url: '%savvycal.url%/%calendars.consultation.id%'
+    mentoring:
+        name: Book a mentoring check-in
+        url: https://savvycal.com/opdavies/mentoring
     pairing:
         name: Book a pairing session
         url: https://savvycal.com/opdavies/pairing
