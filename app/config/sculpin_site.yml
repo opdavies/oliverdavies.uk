@@ -11,9 +11,8 @@ calendars:
         name: Book a consultation
         url: '%savvycal.url%/%calendars.consultation.id%'
     pairing:
-        id: 416f80ad
         name: Book a pairing session
-        url: '%savvycal.url%/%calendars.pairing.id%'
+        url: https://savvycal.com/opdavies/pairing
 
 drupalorg:
     name: opdavies
