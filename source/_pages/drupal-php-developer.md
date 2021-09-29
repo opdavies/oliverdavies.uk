@@ -23,7 +23,7 @@ As well as Drupal, I’ve worked with other PHP projects like Symfony (which Dru
 
 * I wrote an article for Linux Journal's Drupal issue.
 * Previous organiser of Drupal Bristol and PHP South West (PHPSW) user groups, and the DrupalCamp Bristol conference.
-* Current organiser of the PHP South Wales user group.
+* Current organiser and sponsor of the [PHP South Wales user group](https://www.phpsouthwales.uk).
 * Board member for the [Drupal England and Wales Association](https://drupal-england-wales.github.io) (2020 to present).
 * Community mentor (volunteer) for DrupalEasy's "Drupal Career Online" course (2021 to present).
 
