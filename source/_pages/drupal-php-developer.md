@@ -7,7 +7,7 @@ I'm a long-time Web Developer and consultant. I’ve led, delivered, and maintai
 
 ## My Drupal Experience
 
-I have contributed code to Drupal core and to various other Drupal modules, and maintain modules and themes like Override Node Options which is used on over 30,000 Drupal sites according to Drupal.org. I’ve been a mentor at various in-person events, helping new contributors to the Drupal project, and regularly write blog posts, give talks, and create videos and live streams.
+I have contributed code to Drupal core and to various other Drupal modules, and maintain modules and themes like Override Node Options which is used on over 30,000 Drupal sites according to Drupal.org. I’ve been a mentor at various in-person events, helping new contributors to the Drupal project, and regularly write blog posts, present talks and workshops, and create videos and live streams.
 
 As well as Drupal, I’ve worked with other PHP projects like Symfony and Laravel, static site generators like Sculpin and Jekyll, and JavaScript frameworks such as Vue.js and Angular.
 
