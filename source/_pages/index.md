@@ -24,9 +24,4 @@ I’m an <a href="https://certification.acquia.com/user/1647756">Acquia certifie
 I regularly <a href="/talks">give talks</a> at user groups and conferences, and am the current organiser of the <a href="https://www.phpsouthwales.uk">PHP South Wales</a> user group.
 
 I contribute to open source and maintain a variety of different projects. You can see these on my <a href="https://www.drupal.org/u/opdavies">Drupal.org</a> and <a href="https://github.com/opdavies">GitHub</a> accounts.
-
-## Availability
-
-- No full-time availability
-- No part-time availability
 </div>
