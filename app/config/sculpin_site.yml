@@ -22,6 +22,9 @@ drupalorg:
 
 email: oliver+website@oliverdavies.uk
 
+experience:
+  start_year: 2007
+
 github:
     gist:
         url: 'https://gist.github.com/%github.name%'
