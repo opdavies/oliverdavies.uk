@@ -21,7 +21,7 @@
                 <nav class="flex items-center mt-4 space-x-6 md:mt-0 md:flex-row">
                     {% for item in site.menus.main %}
                         {% set is_active = page.url matches '#' ~ item.is_active ~ '#' %}
-                        <a class="text-black dark:text-white border-b-3 py-2 hover:border-gray-300 {{ is_active ? 'border-blue-primary dark:border-blue-400' : 'border-transparent' }}" href="{{ item.href }}">{{ item.title }}</a>
+                        <a class="text-black dark:text-white border-b-3 py-2 hover:border-gray-300 focus:border-gray-300 {{ is_active ? 'border-blue-primary dark:border-blue-400' : 'border-transparent' }}" href="{{ item.href }}">{{ item.title }}</a>
                     {% endfor %}
                 </nav>
             </div>
