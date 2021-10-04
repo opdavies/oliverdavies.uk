@@ -28,6 +28,10 @@ github:
     name: opdavies
     url: 'https://github.com/%github.name%'
 
+linkedin:
+    name: opdavies
+    url: 'https://www.linkedin.com/in/%linkedin.name%'
+
 menus:
     footer:
         - title: Calendars
