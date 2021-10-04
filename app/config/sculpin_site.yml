@@ -20,6 +20,8 @@ drupalorg:
     name: opdavies
     url: 'https://www.drupal.org/u/%drupalorg.name%'
 
+email: oliver+website@oliverdavies.uk
+
 github:
     gist:
         url: 'https://gist.github.com/%github.name%'
