@@ -1,6 +1,7 @@
 FROM opdavies/sculpin-serve AS app
 
 FROM app AS build
+ENV PATH=$PATH:/app/vendor/bin/phpunit
 WORKDIR /app
 COPY composer.* ./
 RUN composer install --no-dev
