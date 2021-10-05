@@ -13,7 +13,7 @@ meta:
 
 <div class="markdown" markdown="1">
 <div class="w-32 mb-4"><img src="/sites/default/files/images/social-avatar.jpg" alt="Picture of Oliver" class="border rounded-full border-gray"></div>
-Hi, I'm Oliver Davies (aka <a href="https://www.google.com/#q=opdavies">opdavies</a>). I’m a {{ site.work.role }} at <a href="{{ site.work.company.url }}?utm_source=oliverdavies.uk&amp;utm_medium=about">{{ site.work.company.name }}</a> and a freelance Web Developer and System Administrator, based in Wales, UK.
+Hi, I'm Oliver Davies (aka <a href="https://www.google.com/#q=opdavies">opdavies</a>). I’m a {{ site.work.role }} at <a href="{{ site.work.company.url }}?utm_source=oliverdavies.uk&amp;utm_medium=about">{{ site.work.company.name }}</a> and a Full Stack Software Consultant, based in Wales, UK.
 
 I have {{ yearsOfExperience }} years of software development experience and have worked on various agency and in-house teams, on-site and remotely.
 
