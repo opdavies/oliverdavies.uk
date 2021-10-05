@@ -30,6 +30,15 @@ services:
     environment:
       VIRTUAL_HOST: oliverdavies.localhost
 
+  phpunit:
+    build:
+      context: .
+      dockerfile: tools/docker/images/Dockerfile
+      target: app
+    volumes:
+      - .:/app
+    entrypoint: ["phpunit"]
+
   assets:
     image: node:14
     volumes:
