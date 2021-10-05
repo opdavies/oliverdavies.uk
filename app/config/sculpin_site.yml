@@ -45,7 +45,7 @@ menus:
           href: /pair-with-me
           is_active: '^/pair-with-me/?'
 
-        - title: Test Driven Drupal
+        - title: Test-Driven Drupal
           href: /test-driven-drupal
           is_active: '^/test-driven-drupal/?'
 

@@ -28,7 +28,7 @@ As well as Drupal, I’ve worked with other PHP projects like Symfony and Larave
 * Board member for the [Drupal England and Wales Association](https://drupal-england-wales.github.io) (2020 to present).
 * DrupalCon track team member, selecting sessions for DrupalCon Europe 2021.
 * Community mentor (volunteer) for DrupalEasy's [Drupal Career Online](https://www.drupaleasy.com/academy/dco/course-information) course (2021 to present).
-* Currently writing "Test Driven Drupal", an eBook about automated testing and test-driven development in Drupal.
+* Currently writing "Test-Driven Drupal", an eBook about automated testing and test-driven development in Drupal.
 
 ## Podcasts
 

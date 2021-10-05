@@ -1,5 +1,5 @@
 ---
-title: 'Test Driven Drupal: The Book'
+title: 'Test-Driven Drupal: The Book'
 ---
 
 <div class="markdown spaced-y-4 mb-6">

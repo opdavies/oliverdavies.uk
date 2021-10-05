@@ -1,5 +1,5 @@
 ---
-title: Automated testing and Test Driven Development in Drupal 8
+title: Automated testing and Test-Driven Development in Drupal 8
 description: A workshop that I gave about automated testing and test driven development in Drupal 8.
 events:
     -

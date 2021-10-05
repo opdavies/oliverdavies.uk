@@ -1,5 +1,5 @@
 ---
-title: Test Driven Drupal presentation from DrupalCon Europe
+title: Test-Driven Drupal presentation from DrupalCon Europe
 excerpt: Links to the video and slides from my automated testing session from DrupalCon Europe.
 tags:
     - drupal

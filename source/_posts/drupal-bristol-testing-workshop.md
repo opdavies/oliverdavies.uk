@@ -52,7 +52,7 @@ The completed code that I wrote beforehand for these is available in their own
 code.
 
 Once these exercises were completed, we looked at creating a blog page using
-test driven development - the example that I use in the [TDD - Test Driven
+test driven development - the example that I use in the [TDD - Test-Driven
 Drupal talk][9], to give a more real-word scenario. It would have been good to
 have gone through this as an exercise too, if we’d have had more time.
 
@@ -89,7 +89,7 @@ the need to sometimes switch back and forth between slides. I’ve found that I
 can export the slide deck as PNGs or JPGs from Deckset, so I’ll definitely do
 that next time.
 
-I’m giving the [Test Driven Drupal][9] talk at the [Drupal Dev Days
+I’m giving the [Test-Driven Drupal][9] talk at the [Drupal Dev Days
 conference][12] next week, and I’m hoping to give it again at other meetups and
 events in the UK. If you’d like me to do either at your meetup or event, [get in
 touch][13].

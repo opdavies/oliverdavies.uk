@@ -71,7 +71,7 @@ final class TalkExtensionTest extends TestCase
                 ]
             ],
             [
-                'title' => 'TDD - Test Driven Drupal',
+                'title' => 'TDD - Test-Driven Drupal',
                 'events' => [
                     [
                         'date' => Carbon::today()->subDay()->format('Y-m-d'),
@@ -96,7 +96,7 @@ final class TalkExtensionTest extends TestCase
                 ],
             ],
             [
-                'title' => 'TDD - Test Driven Drupal',
+                'title' => 'TDD - Test-Driven Drupal',
                 'events' => [
                     [
                         'date' => Carbon::today()->addDay()->format('Y-m-d'),

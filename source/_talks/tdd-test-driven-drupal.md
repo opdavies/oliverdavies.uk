@@ -1,5 +1,5 @@
 ---
-title: TDD - Test Driven Drupal
+title: TDD - Test-Driven Drupal
 description: How to write automated tests for Drupal, and how to create a new Drupal module using test driven development.
 speakerdeck:
     id: 088cb18033064f5cb18d1079795294a1

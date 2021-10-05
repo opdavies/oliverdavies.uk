@@ -1,5 +1,5 @@
 ---
-title: Writing a new Drupal 8 Module using Test Driven Development (TDD)
+title: Writing a new Drupal 8 Module using Test-Driven Development (TDD)
 date: 2017-11-07
 tags:
     - drupal
