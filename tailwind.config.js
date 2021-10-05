@@ -13,6 +13,10 @@ module.exports = {
     ],
   },
   theme: {
+    outline: {
+      black: '1px solid black',
+      white: '1px solid white'
+    },
     extend: {
       typography: (theme) => ({
         DEFAULT: {
