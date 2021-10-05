@@ -23,19 +23,20 @@ As well as Drupal, I’ve worked with other PHP projects like Symfony and Larave
 
 ## Community contributions
 
-* Author for Linux Journal's Drupal issue, writing an article about Drupal development using distributions.
-* DrupalCon contribution day mentor, assisting new contributors to Drupal core.
-* Previous organiser of Drupal Bristol and PHP South West (PHPSW) user groups, and the DrupalCamp Bristol conference.
-* Current organiser and sponsor of the [PHP South Wales user group](https://www.phpsouthwales.uk).
-* Board member for the [Drupal England and Wales Association](https://drupal-england-wales.github.io) (2020 to present).
-* DrupalCon track team member, selecting sessions for DrupalCon Europe 2021.
-* Community mentor (volunteer) for DrupalEasy's [Drupal Career Online](https://www.drupaleasy.com/academy/dco/course-information) course (2021 to present).
-* Currently writing "Test-Driven Drupal", an eBook about automated testing and test-driven development in Drupal.
+- Author for Linux Journal's Drupal issue, writing an article about Drupal development using distributions.
+- DrupalCon contribution day mentor, assisting new contributors to Drupal core.
+- Previous organiser of Drupal Bristol and PHP South West (PHPSW) user groups, and the DrupalCamp Bristol conference.
+- Current organiser and sponsor of the [PHP South Wales user group](https://www.phpsouthwales.uk).
+- Board member for the [Drupal England and Wales Association](https://drupal-england-wales.github.io) (2020 to present).
+- DrupalCon track team member, selecting sessions for DrupalCon Europe 2021.
+- Community mentor (volunteer) for DrupalEasy's [Drupal Career Online](https://www.drupaleasy.com/academy/dco/course-information) course (2021 to present).
+- Currently writing "Test-Driven Drupal", an eBook about automated testing and test-driven development in Drupal.
 
 ## Podcasts
 
-* Talking Drupal
-* How to Code Well
-* That Podcast
-* Voices of the ElePHPant
+- Talking Drupal
+- How to Code Well
+- That Podcast
+- Voices of the ElePHPant
+
 </div>

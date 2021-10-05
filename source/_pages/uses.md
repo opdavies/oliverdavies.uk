@@ -17,4 +17,5 @@ title: Uses
 * I use [Kdenlive](https://kdenlive.org) for editing meetup videos.
 * I use Spotify and Pocket Casts for listening to music and podcasts.
 * I use [Todoist](https://todoist.com) for to-do lists, and [Evernote](https://evernote.com) for note-taking.
+
 </div>

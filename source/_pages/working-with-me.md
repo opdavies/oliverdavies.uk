@@ -12,7 +12,7 @@ draft: true
 
 - **Thinking out of the box.**
 
-  I try and 
+  I try and
 
 - **Communicating.**
 
@@ -28,7 +28,7 @@ draft: true
 
 ## What I'm not good at
 
-- 
+-
 
 ## How to work with me
 
@@ -39,4 +39,5 @@ draft: true
 - **Give me timely, direct feedback.**
 
   Good or bad, I'd rather know and can address things if needed, and I always appreciate good feedback!
+
 </div>
