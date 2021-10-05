@@ -5,6 +5,8 @@ title: Oliver Davies - PHP Developer and Drupal Specialist
 <div class="markdown" markdown="1">
 I'm a long-time Web Developer and consultant. I’ve led, delivered, and maintained PHP, Drupal, and Drupal Commerce based websites, have worked for some of the UK’s largest and well-known PHP and Drupal agencies, and even for the Drupal Association - the nonprofit organisation behind the Drupal project - where I was employed to work on and improve the Drupal.org websites.
 
+<a href="mailto:{{ site.email }}">Send me an email</a> to discuss your project.
+
 ## My Drupal Experience
 
 I have contributed code to Drupal core and to various other Drupal modules, and maintain modules and themes like Override Node Options which is used on over 30,000 Drupal sites according to Drupal.org. I’ve been a mentor at various in-person events, helping new contributors to the Drupal project, and regularly write blog posts, present talks and workshops, and create videos and live streams.
