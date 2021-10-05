@@ -20,11 +20,11 @@ module.exports = {
     extend: {
       typography: (theme) => ({
         DEFAULT: {
-            css: {
-                p: {
-                    lineHeight: 400
-                }
+          css: {
+            p: {
+              lineHeight: 400
             }
+          }
         }
       }),
       colors,
