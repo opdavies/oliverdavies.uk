@@ -5,5 +5,9 @@
         </a>
     </h2>
 
+    <time class="text-base" datetime="{{ post.date|date('Y-m-d') }}">
+        {{ post.date|date('jS F Y') }}
+    </time>
+
     <p class="mt-1">{{ post.excerpt }}</p>
 </article>
