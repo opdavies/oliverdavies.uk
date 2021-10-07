@@ -18,6 +18,13 @@
             <div class="markdown">
                 {{ parent() }}
             </div>
+
+            {% include 'post/comments-questions' with {
+                twitter: {
+                    name: site.twitter.name,
+                    url: site.twitter.url
+                }
+            } only %}
         </div>
 
         {% include 'about-author' with {
