@@ -20,9 +20,10 @@ Inspired by other Drupal distributions like [LocalGov](https://www.drupal.org/pr
 
 This also means that any new functionality can be added straight to the distribution and immediately available for everyone.
 
-I've created a [Drupal Meetup organisation on GitHub][github] which contains repositories for the distribution as well as a project template, and these repositories are pushed to [Packagist][packagist] to that they can be installed with Composer - e.g. `composer create-project --stability dev drupal-meetup/drupal-meetup-project my-new-meetup`.
+I've created a [project page on Drupal.org][drupalorg] and a [Drupal Meetup organisation on GitHub][github] which contains repositories for the distribution as well as a project template that are pushed to [Packagist][packagist] to that they can be installed with Composer - e.g. `composer create-project --stability dev drupal-meetup/drupal-meetup-project my-new-meetup`.
 
 This seems like a good opportunity to do some more Drupal contribution and may benefit others too who want to build their own meetup group websites.
 
+[drupalorg]: https://www.drupal.org/project/meetup
 [github]: https://github.com/drupal-meetup
 [packagist]: https://packagist.org/packages/opdavies/?query=drupal-meetup
