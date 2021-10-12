@@ -13,15 +13,15 @@ meta:
 
 <div class="markdown" markdown="1">
 <div class="w-32 mb-4"><img src="/sites/default/files/images/social-avatar.jpg" alt="Picture of Oliver" class="border rounded-full border-gray"></div>
-Hi, I'm Oliver Davies (aka <a href="https://www.google.com/#q=opdavies">opdavies</a>). I’m a {{ site.work.role }} at <a href="{{ site.work.company.url }}?utm_source=oliverdavies.uk&amp;utm_medium=about">{{ site.work.company.name }}</a> and a Full Stack Software Consultant, based in Wales, UK.
+Hi, I’m Oliver. I’m a {{ site.work.role }} for <a href="{{ site.work.company.url }}?utm_source=oliverdavies.uk&amp;utm_medium=about">{{ site.work.company.name }}</a> and a Full Stack Software Consultant based in South Wales in the UK.
 
-I have {{ yearsOfExperience }} years of software development experience and have worked on various agency and in-house teams, on-site and remotely.
+I work with organisations, agencies, and freelance Developers to deliver high-quality websites and web applications, utilising tools and workflows such as continuous integration and deployment, automated testing, and static analysis.
 
-I specialise in developing with Drupal, Symfony, and Vue.js, and I use Ansible and Docker for server provisioning and application deployments.
+I have {{ yearsOfExperience }} years of software development experience and am an <a href="https://certification.acquia.com/user/4540">Acquia certified</a> Drupal Grand Master, and work mostly, but not exclusively, with the Drupal content management system.
 
-I’m an <a href="https://certification.acquia.com/user/1647756">Acquia certified</a> Drupal 8 Grand Master, and was a Developer for the <a href="https://www.drupal.org/association">Drupal Association</a> working on the <a href="https://www.drupal.org">Drupal.org</a> websites.
+I have also built projects with Symfony, Laravel, Sculpin, Vue.js, Angular, and TypeScript. I use Docker for local development and Ansible for server provisioning and application deployments.
 
-I regularly <a href="/talks">give talks</a> at user groups and conferences, and am the current organiser of the <a href="https://www.phpsouthwales.uk">PHP South Wales</a> user group.
+I regularly <a href="/talks">present talks and workshops</a> at user groups and conferences and am the organiser of the <a href="https://www.phpsouthwales.uk">PHP South Wales</a> user group.
 
-I contribute to open source and maintain a variety of different projects. You can see these on my <a href="https://www.drupal.org/u/opdavies">Drupal.org</a> and <a href="https://github.com/opdavies">GitHub</a> accounts.
+<a href="/contact">Contact me</a> if you’d like any more information or to discuss a project.
 </div>

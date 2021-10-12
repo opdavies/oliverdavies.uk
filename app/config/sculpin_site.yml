@@ -20,7 +20,7 @@ drupalorg:
     name: opdavies
     url: 'https://www.drupal.org/u/%drupalorg.name%'
 
-email: oliver+website@oliverdavies.uk
+email: oliver@oliverdavies.uk
 
 experience:
   start_year: 2007
