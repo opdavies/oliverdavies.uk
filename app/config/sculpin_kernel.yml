@@ -4,6 +4,9 @@ sculpin_content_types:
     posts:
         permalink: blog/:basename/
         taxonomies: [tags]
+    projects:
+        layout: default
+        permalink: projects/:basename/
     talks:
         permalink: talks/:basename/
 
