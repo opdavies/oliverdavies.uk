@@ -11,9 +11,16 @@ if [[ ! -t 1 ]]; then
   TTY="-T"
 fi
 
+DC="${DC:-exec}"
+
 function cmd {
   # Run any command in the app container.
   _dc app "${@}"
+}
+
+function composer {
+  DC=run
+  _dc --entrypoint composer app "${@}"
 }
 
 function deploy {
@@ -45,8 +52,23 @@ function run-production {
   docker-compose --file docker-compose-production.yaml up --detach --remove-orphans
 }
 
+function sh {
+  DC=run
+  _dc --entrypoint sh app
+}
+
+function test:quality {
+  DC=run
+  _dc --entrypoint phpstan app "${@}" analyze --memory-limit=-1
+}
+
+function test:unit {
+  DC=run
+  _dc --entrypoint phpunit app "${@}"
+}
+
 function _dc {
-  docker-compose exec ${TTY} "${@}"
+  docker-compose ${DC} ${TTY} "${@}"
 }
 
 eval "${@:-help}"
