@@ -6,7 +6,7 @@ services:
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
     ports:
-      - 80:80
+      - "${DOCKER_WEB_PORT_FORWARD:-80}:80"
 
   app:
     build:
