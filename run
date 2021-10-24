@@ -4,8 +4,6 @@ set -e
 
 . .env
 
-DOCKER_WEB_IMAGE_NAME="ghcr.io/opdavies/${COMPOSE_PROJECT_NAME}-web"
-
 TTY=""
 if [[ ! -t 1 ]]; then
   TTY="-T"
@@ -21,16 +19,11 @@ function deploy {
 }
 
 function docker:build-images {
-  docker image build . \
-    --file tools/docker/images/Dockerfile \
-    --tag ${DOCKER_WEB_IMAGE_NAME}:${DOCKER_TAG} \
-    --tag ${DOCKER_WEB_IMAGE_NAME}:latest \
-    --target=production
+  docker-compose build --file docker-compose-production.yaml
 }
 
 function docker:push-images {
-  docker image push ${DOCKER_WEB_IMAGE_NAME}:${DOCKER_TAG}
-  docker image push ${DOCKER_WEB_IMAGE_NAME}:latest
+  docker-compose push --file docker-compose-production.yaml
 }
 
 function help {
