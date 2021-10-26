@@ -27,8 +27,7 @@ linkedin:
 menus:
     footer:
         - title: Calendars
-          href: /calendars
-          is_active: '^/calendars/?'
+          href: '%savvycal.url%'
 
         - title: Pair with me
           href: /pair-with-me
