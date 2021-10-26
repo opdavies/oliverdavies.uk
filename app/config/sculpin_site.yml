@@ -5,17 +5,6 @@ locale: en-GB
 avatar:
     url: '/sites/default/files/images/social-avatar.jpg'
 
-calendars:
-    consultation:
-        name: Book a consultation
-        url: https://savvycal.com/opdavies/consulting
-    mentoring:
-        name: Book a mentoring check-in
-        url: https://savvycal.com/opdavies/mentoring
-    pairing:
-        name: Book a pairing session
-        url: https://savvycal.com/opdavies/pairing
-
 drupalorg:
     name: opdavies
     url: 'https://www.drupal.org/u/%drupalorg.name%'
