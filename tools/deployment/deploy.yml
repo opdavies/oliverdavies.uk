@@ -3,10 +3,9 @@
   gather_facts: false
 
   tasks:
-    - name: Pull the latest images and restart the services
+    - name: Pull the latest images and re-generate the site.
       shell: |
         git pull
-        docker-compose --file docker-compose-production.yaml pull
-        docker-compose --file docker-compose-production.yaml up --detach
+        docker-compose up --detach
       args:
-        chdir: oliverdavies.uk
+        chdir: /var/www/oliverdavies.uk
