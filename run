@@ -67,6 +67,19 @@ function artifact:build {
   docker container rm oliverdavies-uk-web
 }
 
+function markdownlint:build {
+  docker image build . \
+    -f markdownlint.Dockerfile \
+    -t markdownlint
+}
+
+function markdownlint:run {
+  docker container run --rm \
+    -v $(pwd)/.markdownlint.yaml:/root/.markdownlint.yaml \
+    -v $(pwd)/source:/data \
+    markdownlint
+}
+
 function sh {
   DC=run
   _dc --entrypoint sh app
