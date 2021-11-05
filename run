@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -eu
 
 . .env
 
@@ -48,8 +48,23 @@ function help {
   printf "\nExtended help:\n  Each task has comments for general usage\n"
 }
 
-function run-production {
-  docker-compose --file docker-compose-production.yaml up --detach --remove-orphans
+function artifact:build {
+  DESTINATION_PATH="${2:-/var/www/oliverdavies.uk}"
+  GIT_COMMIT_HASH=$1
+
+  # Clean up any old containers or files within the artifact directory.
+  rm -fr ${DESTINATION_PATH}/* || true
+
+  docker image pull ghcr.io/opdavies/oliverdavies-uk-web:${GIT_COMMIT_HASH}
+
+  docker container run \
+    --entrypoint sh \
+    --name oliverdavies-uk-web \
+    ghcr.io/opdavies/oliverdavies-uk-web:${GIT_COMMIT_HASH}
+
+  docker container cp oliverdavies-uk-web:/code ${DESTINATION_PATH}
+
+  docker container rm oliverdavies-uk-web
 }
 
 function sh {
