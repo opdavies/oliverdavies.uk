@@ -11,4 +11,4 @@ I also offer free sessions for open source projects.
 To arrange a pairing session, [find an available time on my calendar][1].
 
 [0]: /drupal-php-developer
-[1]: {{site.calendars.pairing.url}}
+[1]: {{site.savvycal.url}}
