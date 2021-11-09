@@ -28,9 +28,10 @@ final class TalkExtension extends AbstractExtension
      */
     public function getLastEventDate($talk): ?string
     {
-        $events = new Collection($talk['events']);
-
-        return $events->pluck('date')->sort()->last();
+        return Collection::make($talk['events'])
+            ->pluck('date')
+            ->sort()
+            ->last();
     }
 
     /**
