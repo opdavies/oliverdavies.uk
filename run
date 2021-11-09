@@ -13,6 +13,19 @@ fi
 
 DC="${DC:-exec}"
 
+function ci:build-images {
+  docker image build . \
+    --file tools/docker/images/Dockerfile \
+    --tag ${DOCKER_WEB_IMAGE_NAME}:${DOCKER_TAG} \
+    --tag ${DOCKER_WEB_IMAGE_NAME}:latest \
+    --target=production
+}
+
+function ci:push-images {
+  docker image push ${DOCKER_WEB_IMAGE_NAME}:${DOCKER_TAG}
+  docker image push ${DOCKER_WEB_IMAGE_NAME}:latest
+}
+
 function cmd {
   # Run any command in the app container.
   _dc app "${@}"
@@ -25,19 +38,6 @@ function composer {
 
 function deploy {
   cd tools/deployment && ansible-playbook deploy.yml
-}
-
-function docker:build-images {
-  docker image build . \
-    --file tools/docker/images/Dockerfile \
-    --tag ${DOCKER_WEB_IMAGE_NAME}:${DOCKER_TAG} \
-    --tag ${DOCKER_WEB_IMAGE_NAME}:latest \
-    --target=production
-}
-
-function docker:push-images {
-  docker image push ${DOCKER_WEB_IMAGE_NAME}:${DOCKER_TAG}
-  docker image push ${DOCKER_WEB_IMAGE_NAME}:latest
 }
 
 function help {
