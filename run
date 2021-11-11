@@ -51,7 +51,7 @@ function help {
 
 function artifact:build {
   DESTINATION_PATH="${2:-/var/www/oliverdavies.uk}"
-  GIT_COMMIT_HASH=$1
+  GIT_COMMIT_HASH="${1:-latest}"
 
   # Clean up any old containers or files within the artifact directory.
   rm -fr ${DESTINATION_PATH}/* || true
