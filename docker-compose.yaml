@@ -17,7 +17,10 @@ services:
       - assets
 
   assets:
-    image: node:14-alpine
+    build:
+      context: .
+      dockerfile: tools/docker/images/Dockerfile
+      target: assets
     volumes:
       - assets:/node/source/build
       - /node/node_modules

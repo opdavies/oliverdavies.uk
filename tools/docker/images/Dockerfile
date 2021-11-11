@@ -20,7 +20,9 @@ RUN sculpin generate --env prod
 
 #
 
-FROM node:14 AS assets
+FROM node:14-alpine AS assets
+
+RUN apk add --no-cache make
 
 WORKDIR /app
 
