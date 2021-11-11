@@ -12,8 +12,7 @@ RUN sculpin generate --env prod
 
 FROM node:14 AS assets
 WORKDIR /app
-COPY package.json .
-COPY package-lock.json .
+COPY package*.json ./
 RUN npm ci
 COPY . .
 RUN npm run production
