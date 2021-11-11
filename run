@@ -74,7 +74,7 @@ function run-production {
     --name oliverdavies-uk-web \
     ghcr.io/opdavies/oliverdavies-uk-web:${GIT_COMMIT_HASH}
 
-  docker container cp oliverdavies-uk-web:/code ${DESTINATION_PATH}
+  docker container cp oliverdavies-uk-web:/code/. ${DESTINATION_PATH}
 
   docker container rm oliverdavies-uk-web
 }
