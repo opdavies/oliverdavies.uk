@@ -3,9 +3,12 @@
   gather_facts: false
 
   tasks:
+    - name: Update the code
+      git:
+        repo: https://github.com/opdavies/oliverdavies.uk
+        dest: ~/oliverdavies.uk
+
     - name: Pull the latest images and re-generate the site.
-      shell: |
-        git pull
-        docker-compose up --detach
+      shell: ./run run-production
       args:
-        chdir: /var/www/oliverdavies.uk
+        chdir: ~/oliverdavies.uk
