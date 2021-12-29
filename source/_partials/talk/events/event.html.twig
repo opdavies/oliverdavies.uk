@@ -5,6 +5,6 @@
         {{ name }}
     {% endif %}
     {% if location %}in {{ location }}{% endif %}
-    {{ is_online ? '(Online)' }}
     - {{ date|date('jS F Y') }}
+    {{ is_online ? '(online)' }}
 </li>
