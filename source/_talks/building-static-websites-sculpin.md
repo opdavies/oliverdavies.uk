@@ -28,7 +28,13 @@ events:
         name: PHP North West (PHPNW)
         date: 2021-09-07
         location: Manchester, UK
-        url: ~
+        url: https://www.phpnw.org.uk
+        is_online: true
+    -
+        name: GroningenPHP
+        date: 2021-12-09
+        location: Groningen, Netherlands
+        url: https://www.meetup.com/GroningenPHP/events/281648855
         is_online: true
 ---
 
