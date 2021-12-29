@@ -1,43 +1,13 @@
-x-build-args: &default-build-args
-  context: .
-
 services:
   app:
     build:
-      <<: *default-build-args
-      target: app
-    command: generate --port "${SCULPIN_PORT:-80}" --url "${SCULPIN_URL:-http://localhost}" --env "${SCULPIN_ENV:-dev}" "${SCULPIN_GENERATE_ARGS}"
+      context: .
+      target: build
+    command: sculpin generate --clean --port "${SCULPIN_PORT:-80}" --url "${SCULPIN_URL:-http://localhost}" --env "${SCULPIN_ENV:-dev}" "${SCULPIN_GENERATE_ARGS}" --output-dir output --no-interaction
     volumes:
-      - assets:/app/source/build
       - .:/app
-      - "${DOCKER_OUTPUT_VOLUME:-./output_prod:/app/output_prod}"
     ports:
       - "${SCULPIN_PORT:-80}:${SCULPIN_PORT:-80}"
     env_file:
       - .env
-    depends_on:
-      - assets
-
-  assets:
-    build:
-      <<: *default-build-args
-      target: assets
-    volumes:
-      - assets:/node/source/build
-      - /node/node_modules
-      - ./assets:/node/assets
-      - ./Makefile:/node/Makefile
-      - ./package.json:/node/package.json
-      - ./package-lock.json:/node/package-lock.json
-      - ./postcss.config.js:/node/postcss.config.js
-      - ./source:/node/source
-      - ./tailwind.config.js:/node/tailwind.config.js
-      - ./tools/tailwindcss:/node/tools/tailwindcss
-      - ./webpack.config.js:/node/webpack.config.js
-    working_dir: /node
-    entrypoint: make
-    command:
-      - assets-watch
-
-volumes:
-  assets: {}
+    tty: true

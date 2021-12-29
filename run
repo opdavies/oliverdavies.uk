@@ -93,6 +93,24 @@ function test:unit {
   _dc --entrypoint phpunit app "${@}"
 }
 
+function yarn:build:css {
+  # Build CSS assets, this is meant to be run from within the assets container.
+  local args=()
+
+  if [ "${SCULPIN_ENV}" == "prod" ]; then
+    args=(--minify)
+  elif [ "${NODE_ENV}" == "development" ]; then
+    args=(--watch)
+  fi
+
+  tailwindcss --postcss -i assets/css/tailwind.pcss -o build/app.css "${args[@]}"
+}
+
+function yarn:build:js {
+  # Build JS assets, this is meant to be run from within the assets container.
+  node esbuild.config.js
+}
+
 function _dc {
   docker-compose ${DC} ${TTY} "${@}"
 }

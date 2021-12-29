@@ -1,0 +1,20 @@
+x-assets: &default-assets
+  build:
+    context: "."
+    target: "assets"
+  env_file:
+    - ".env"
+  restart: "${DOCKER_RESTART_POLICY:-unless-stopped}"
+  stop_grace_period: "3s"
+  tty: true
+  volumes:
+    - ".:/app"
+
+services:
+  css:
+    <<: *default-assets
+    command: "./run yarn:build:css"
+
+  js:
+    <<: *default-assets
+    command: "./run yarn:build:js"

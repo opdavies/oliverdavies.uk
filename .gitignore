@@ -1,7 +1,7 @@
-/build/
-/node_modules/
-/output_*/
-/source/build/
-/vendor/
 /.env
 /.phpunit.cache
+/build/
+/docker-compose.override.yaml
+/output/
+/source/build/
+/vendor/
