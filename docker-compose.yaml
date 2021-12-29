@@ -1,6 +1,5 @@
 x-build-args: &default-build-args
   context: .
-  dockerfile: tools/docker/images/Dockerfile
 
 services:
   app:

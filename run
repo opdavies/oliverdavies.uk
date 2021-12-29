@@ -13,7 +13,6 @@ DC="${DC:-exec}"
 
 function ci:build-images {
   docker image build . \
-    --file tools/docker/images/Dockerfile \
     --tag ${DOCKER_WEB_IMAGE_NAME}:${DOCKER_TAG} \
     --tag ${DOCKER_WEB_IMAGE_NAME}:latest \
     --target=production
