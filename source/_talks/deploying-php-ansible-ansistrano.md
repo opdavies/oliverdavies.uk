@@ -25,6 +25,8 @@ events:
       date: 2019-10-30
       location: Amsterdam, NL
       url: https://events.drupal.org/amsterdam2019
+
+    - name: Bristol Cloud Native & DevOps
       date: 2020-01-30
       location: Bristol, UK
       url: https://www.meetup.com/Bristol-Cloud-Native-DevOps/events/266609627
@@ -33,7 +35,7 @@ events:
       date: 2020-03-12
       location: Edinburgh, UK
       url: https://www.meetup.com/Drupal-Edinburgh/events/267905594
-        is_online: true
+      is_online: true
 
     - name: CMS Philly
       date: 2020-05-01
