@@ -6,3 +6,13 @@ excerpt: |
 tags: [sculpin]
 draft: true
 ---
+
+Based on <https://github.com/opdavies/sculpin-skeleton>.
+
+Uses <https://github.com/opdavies/docker-image-sculpin-serve>.
+
+`app/config/sculpin_kernel.yml`:
+
+`app/config/sculpin_site.yml`:
+
+`app/config/sculpin_site_prod.yml`:
