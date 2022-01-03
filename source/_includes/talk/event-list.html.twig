@@ -4,7 +4,7 @@
 
         <ul>
             {% for event in events|sort((a, b) => a.date > b.date) %}
-                {% include 'talk/events/event.html.twig' with {
+                {% include 'talk/event-list-event.html.twig' with {
                     date: event.date,
                     is_online: event.is_online ?? false,
                     location: event.location,
