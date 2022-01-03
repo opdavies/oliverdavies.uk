@@ -3,7 +3,7 @@ services:
     build:
       context: .
       target: build
-    command: sculpin generate --clean --port "${SCULPIN_PORT:-80}" --url "${SCULPIN_URL:-http://localhost}" --env "${SCULPIN_ENV:-dev}" "${SCULPIN_GENERATE_ARGS}" --output-dir output --no-interaction
+    command: "sculpin generate --clean --port ${SCULPIN_PORT:-80} --url ${SCULPIN_URL:-http://localhost} --env ${SCULPIN_ENV:-dev} ${SCULPIN_GENERATE_ARGS}"
     volumes:
       - .:/app
     ports:
