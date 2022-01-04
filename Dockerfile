@@ -34,7 +34,8 @@ FROM opdavies/sculpin-serve AS app
 WORKDIR /app
 
 RUN adduser --disabled-password sculpin \
-  && chown sculpin:sculpin -R /app
+  && mkdir /output \
+  && chown sculpin:sculpin -R /app /output
 
 ###
 
