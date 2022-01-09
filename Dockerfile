@@ -87,6 +87,6 @@ USER nginx
 WORKDIR /code
 
 COPY --chown=nginx --from=build /app/output_prod ./
-COPY --chown=nginx --from=assets /app/source/build build
+COPY --chown=nginx --from=assets /app/build build
 
 EXPOSE 8080
