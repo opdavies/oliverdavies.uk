@@ -128,14 +128,14 @@ recommendations:
             <header>{{ recommendation.tagline }}</header>
 
             <div class="mt-4">
-                <div class="flex flex-col-reverse md:flex-row space-y-3 space-y-reverse md:space-y-0 md:space-x-6">
+                <div class="flex flex-col-reverse space-y-3 space-y-reverse md:flex-row md:space-y-0 md:space-x-6">
                     <div class="markdown">
                         {{ recommendation.text|raw }}
                     </div>
 
                     {% if recommendation.image.path %}
                         <div class="flex-shrink-0">
-                            <img class="w-16 md:w-24 border border-gray rounded-full bg-white" src="{{ recommendation.image.path }}">
+                            <img class="w-16 bg-white rounded-full border md:w-24 border-gray" src="{{ recommendation.image.path }}">
                         </div>
                     {% endif %}
                 </div>

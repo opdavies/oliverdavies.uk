@@ -1,11 +1,11 @@
 <div>
-    <div class="max-w-2xl px-4 py-4 mx-auto">
-        <div class="flex flex-col items-center justify-between md:flex-row">
+    <div class="py-4 px-4 mx-auto max-w-2xl">
+        <div class="flex flex-col justify-between items-center md:flex-row">
             <div>
                 <a href="/">
                     <svg
                       aria-hidden="true"
-                      class="w-16 h-16 text-blue-primary fill-current dark:text-blue-400 md:w-18 md:h-18"
+                      class="w-16 h-16 fill-current dark:text-blue-400 text-blue-primary md:w-18 md:h-18"
                       viewBox="0 0 706 504"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -18,7 +18,7 @@
             </div>
 
             <div>
-                <nav class="flex items-center mt-4 space-x-6 md:mt-0 md:flex-row">
+                <nav class="flex items-center mt-4 space-x-6 md:flex-row md:mt-0">
                     {% for item in site.menus.main %}
                         {% set is_active = page.url matches '#' ~ item.is_active ~ '#' %}
                         <a class="text-black dark:text-white border-b-3 py-2 hover:border-gray-300 {{ is_active ? 'border-blue-primary dark:border-blue-400' : 'border-transparent' }}" href="{{ item.href }}">{{ item.title }}</a>
