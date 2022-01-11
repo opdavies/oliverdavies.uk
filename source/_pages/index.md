@@ -12,7 +12,7 @@ meta:
 {% set yearsOfExperience = thisYear - site.experience.start_year %}
 
 <div class="markdown" markdown="1">
-<div class="w-32 mb-4"><img src="/sites/default/files/images/social-avatar.jpg" alt="Picture of Oliver" class="border rounded-full border-gray"></div>
+<div class="w-32 mb-4"><img src="{{ site.avatar.path }}" alt="Picture of Oliver" class="border rounded-full border-gray"></div>
 Hi, I’m Oliver. I’m a {{ site.work.role }} for <a href="{{ site.work.company.url }}?utm_source=oliverdavies.uk&amp;utm_medium=about">{{ site.work.company.name }}</a> and a Full Stack Software Consultant based in South Wales in the UK.
 
 I work with organisations, agencies, and freelance Developers to deliver high-quality websites and web applications, utilising tools and workflows such as continuous integration and deployment, automated testing, and static analysis.
