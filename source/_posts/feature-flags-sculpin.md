@@ -3,6 +3,7 @@ title: "Using Feature Flags with Sculpin"
 excerpt: |
     How I've started using feature flags within a client's Sculpin website.
 tags: [sculpin]
+date: "2022-01-09"
 ---
 
 ## Background
