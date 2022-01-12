@@ -6,6 +6,10 @@ tags: [sculpin]
 date: "2022-01-09"
 ---
 
+<div class="flex justify-center">
+  <img class="h-auto mb-4 w-[150px]" src="/images/sculpin-jackson.png" />
+</div>
+
 ## Background
 
 I was asked last week to add a new feature, a Facebook pixel for measuring and
