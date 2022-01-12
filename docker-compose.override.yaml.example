@@ -23,3 +23,10 @@ services:
   js:
     <<: *default-assets
     command: "./run yarn:build:js"
+
+  markdownlint:
+    build:
+      context: "."
+      target: "markdownlint"
+    volumes:
+      - "./source:/data/source"

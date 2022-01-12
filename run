@@ -46,17 +46,8 @@ function help {
   printf "\nExtended help:\n  Each task has comments for general usage\n"
 }
 
-function markdownlint:build {
-  docker image build . \
-    -f markdownlint.Dockerfile \
-    -t markdownlint
-}
-
-function markdownlint:run {
-  docker container run --rm \
-    -v $(pwd)/.markdownlint.yaml:/root/.markdownlint.yaml \
-    -v $(pwd)/source:/data \
-    markdownlint
+function lint:markdown {
+  docker-compose run --rm markdownlint "${@}"
 }
 
 function run-production {
