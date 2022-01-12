@@ -11,6 +11,11 @@ x-assets: &default-assets
     - ".:/app"
 
 services:
+  adr-tools:
+    image: "opdavies/adr-tools"
+    volumes:
+      - "./:/adr"
+
   css:
     <<: *default-assets
     command: "./run yarn:build:css"
