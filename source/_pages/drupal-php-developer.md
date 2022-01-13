@@ -34,17 +34,22 @@ as Vue.js and Angular.
 
 ## Community contributions
 
--   Author for Linux Journal's Drupal issue, writing an article about Drupal
-    development using distributions.
--   DrupalCon contribution day mentor, assisting new contributors to Drupal core.
--   Previous organiser of Drupal Bristol and PHP South West (PHPSW) user groups,
-    and the DrupalCamp Bristol conference.
--   Current organiser and sponsor of the [PHP South Wales user group](https://www.phpsouthwales.uk).
--   Board member for the [Drupal England and Wales Association](https://drupal-england-wales.github.io)
+-   Authored an article on Drupal development using distributions for Linux
+    Journal's Drupal issue.
+-   Mentored new contributors at DrupalCon contribution days with their first
+    patches to Drupal core.
+-   Organised the Drupal Bristol and PHP South West (PHPSW) user groups, and
+    the DrupalCamp Bristol conference.
+-   Currently organise and sponsor the
+    [PHP South Wales user group](https://www.phpsouthwales.uk).
+-   Board member for the
+    [Drupal England and Wales Association](https://drupal-england-wales.github.io)
     (2020 to present).
--   DrupalCon track team member, selecting sessions for DrupalCon Europe 2021.
--   Community mentor (volunteer) for DrupalEasy's [Drupal Career Online](https://www.drupaleasy.com/academy/dco/course-information)
-    course (2021 to present).
+-   Selecting sessions for DrupalCon Europe 2021 as part of the DrupalCon track
+    team.
+-   Mentored students on the DrupalEasy
+    [Drupal Career Online](https://www.drupaleasy.com/academy/dco/course-information)
+    course.
 -   Currently writing "Test-Driven Drupal", an eBook about automated testing and
     test-driven development in Drupal.
 
