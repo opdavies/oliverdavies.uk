@@ -55,9 +55,10 @@ as Vue.js and Angular.
 
 ## Podcasts
 
--   Talking Drupal
--   How to Code Well
--   That Podcast
--   Voices of the ElePHPant
+I've been a guest on a number of podcasts, including [Talking Drupal](https://talkingdrupal.com),
+[How to Code Well](https://howtocodewell.fm), [That Podcast](https://thatpodcast.io),
+and [Voices of the ElePHPant](https://voicesoftheelephpant.com), where I've
+discussed topics including PHP, Drupal, CSS frameworks, and automated
+testing.
 
 </div>
