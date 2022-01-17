@@ -43,9 +43,6 @@ menus:
         - title: RSS feed
           href: /rss.xml
 
-        - title: Uses
-          href: /uses
-
         - title: Speaker information
           href: /speaker-information
 
