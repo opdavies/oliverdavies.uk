@@ -2,6 +2,14 @@
 title: 'Test-Driven Drupal: The Book'
 ---
 
+<div class="p-6 my-10 border border-gray-300 dark:bg-gray-800 dark:border-gray-700">
+    <p>I'm currently (in January 2022) working on this book again, and will
+    update this page in due course.</p>
+    <p class="mt-4">For now, bookmark the <a href="https://leanpub.com/test-driven-drupal">book's page on LeanPub</a> or take a look at the
+    <a href="https://github.com/opdavies/test-driven-drupal-app">example
+    application that I'm building</a> on GitHub.</p>
+</div>
+
 <div class="markdown spaced-y-4 mb-6">
 <p>Having <a href="/talks/tdd-test-driven-drupal">given talks</a> and <a href="https://web.archive.org/web/20200422110605/https://drupalcamp.london/training/Automated-Testing-and-Test-Driven-Development-in-Drupal-8">workshops</a>, been a guest on podcasts and <a href="/articles/tags/testing">written articles</a> about automated testing in Drupal, I’m currently in the planning phase of a book and potentially some accompanying screencasts about it, focussing on Drupal 8.</p>
 
