@@ -77,28 +77,3 @@ COPY --chown=sculpin:sculpin --from=assets /app/build /build
 ENTRYPOINT ["/usr/bin/docker-entrypoint.sh"]
 
 CMD ["bash"]
-
-###
-
-FROM nginx:1 AS production
-
-COPY tools/docker/images/nginx/root/ /
-
-RUN mkdir -p /code && \
-  chown -R nginx:nginx /code && \
-  chmod -R 755 /code && \
-  chown -R nginx:nginx /var/cache/nginx && \
-  chown -R nginx:nginx /var/log/nginx && \
-  chown -R nginx:nginx /etc/nginx/conf.d
-
-RUN touch /var/run/nginx.pid && \
-  chown -R nginx:nginx /var/run/nginx.pid
-
-USER nginx
-
-WORKDIR /code
-
-COPY --chown=nginx --from=build /app/output_prod ./
-COPY --chown=nginx --from=assets /app/build build
-
-EXPOSE 8080
