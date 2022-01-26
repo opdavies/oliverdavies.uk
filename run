@@ -2,8 +2,6 @@
 
 set -eu
 
-DOCKER_WEB_IMAGE_NAME="ghcr.io/opdavies/${COMPOSE_PROJECT_NAME:-oliverdavies.uk}-web"
-
 TTY=""
 if [[ ! -t 1 ]]; then
   TTY="-T"
@@ -12,15 +10,17 @@ fi
 DC="${DC:-exec}"
 
 function ci:build-images {
-  docker image build . \
-    --tag ${DOCKER_WEB_IMAGE_NAME}:${DOCKER_TAG} \
-    --tag ${DOCKER_WEB_IMAGE_NAME}:latest \
-    --target=production
+  services=(app)
+
+  DOCKER_TAG="$1" docker-compose build "${services[@]}"
+  DOCKER_TAG="latest" docker-compose build "${services[@]}"
 }
 
 function ci:push-images {
-  docker image push ${DOCKER_WEB_IMAGE_NAME}:${DOCKER_TAG}
-  docker image push ${DOCKER_WEB_IMAGE_NAME}:latest
+  services=(app)
+
+  DOCKER_TAG="$1" docker-compose push "${services[@]}"
+  DOCKER_TAG="latest" docker-compose push "${services[@]}"
 }
 
 function cmd {
