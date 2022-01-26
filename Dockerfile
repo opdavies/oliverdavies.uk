@@ -77,3 +77,11 @@ COPY --chown=sculpin:sculpin --from=assets /app/build /build
 ENTRYPOINT ["/usr/bin/docker-entrypoint.sh"]
 
 CMD ["bash"]
+
+###
+
+FROM alpine AS production
+
+COPY --from=build /output/html /app
+
+CMD ["sh"]
