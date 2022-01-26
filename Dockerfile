@@ -69,7 +69,7 @@ COPY --chown=sculpin:sculpin app app
 COPY --chown=sculpin:sculpin source source
 COPY --chown=sculpin:sculpin src src
 
-RUN sculpin generate --env prod
+RUN sculpin generate --env prod --output-dir /output/html
 
 COPY --chown=sculpin:sculpin . .
 COPY --chown=sculpin:sculpin --from=assets /app/build /build
