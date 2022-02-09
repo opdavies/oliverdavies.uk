@@ -6,20 +6,11 @@ title: Speaker Information
 <div class="markdown" markdown="1">
 ## Bio
 
-<a href="https://www.oliverdavies.uk">Oliver Davies</a>
-(<a href="{{ site.twitter.url }}">@{{ site.twitter.name }}</a>) has been
-building websites since 2007, and speaking at meetups and conferences since
-2012. He is a Full Stack Developer and an Acquia certified Drupal Grand Master,
-who also has experience developing with Symfony, Laravel, Sculpin and Vue.js,
-as well as with DevOps and systems administration.
+<a href="https://www.oliverdavies.uk">Oliver Davies</a> (<a href="{{ site.twitter.url }}">@{{ site.twitter.name }}</a>) has been building websites since 2007, and speaking at meetups and conferences since 2012. He is a Full Stack Developer and an Acquia certified Drupal Grand Master, who also has experience developing with Symfony, Laravel, Sculpin and Vue.js, as well as with DevOps and systems administration.
 
-He is a {{ site.work.role}} at <a href="{{ site.work.company.url }}?
-utm_source=oliverdavies.uk&amp;utm_medium=speaker-information">
-{{ site.work.company.name }}</a>, a Drupal core contributor and mentor, and an
-open source and contribution advocate.
+He is a {{ site.work.role}} at <a href="{{ site.work.company.url }}? utm_source=oliverdavies.uk&amp;utm_medium=speaker-information"> {{ site.work.company.name }}</a>, a Drupal core contributor and mentor, and an open source and contribution advocate.
 
-He regularly blogs and gives talks on various topics, maintains and contributes
-to various open source projects, and organises the PHP South Wales user group.
+He regularly blogs and gives talks on various topics, maintains and contributes to various open source projects, and organises the PHP South Wales user group.
 
 ## Photos
 
@@ -41,6 +32,5 @@ to various open source projects, and organises the PHP South Wales user group.
 - PHP UK Conference 2018 (London, UK)
 - WordCamp Bristol 2019
 
-I also [gave a number of talks remotely](/blog/speaking-remotely-during-lockdown)
-for various user groups and conferences during COVID-19.
+I also [gave a number of talks remotely](/blog/speaking-remotely-during-lockdown) for various user groups and conferences during COVID-19.
 </div>
