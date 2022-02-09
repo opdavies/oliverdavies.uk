@@ -17,7 +17,7 @@ Hi, I’m Oliver. I’m a {{ site.work.role }} for <a href="{{ site.work.company
 
 I work with organisations, agencies, and freelance Developers to deliver high-quality websites and web applications, utilising tools and workflows such as continuous integration and deployment, automated testing, and static analysis.
 
-I have {{ yearsOfExperience }} years of software development experience and am an <a href="https://certification.acquia.com/user/4540">Acquia certified</a> Drupal Grand Master, and work mostly, but not exclusively, with the Drupal content management system.
+I have {{ yearsOfExperience }} years of software development experience and am an <a href="https://certification.acquia.com/user/4540">Acquia certified Drupal expert</a>, and work mostly, but not exclusively, with the Drupal content management system.
 
 I have also built projects with Symfony, Laravel, Sculpin, Vue.js, Angular, and TypeScript. I use Docker for local development and Ansible for server provisioning and application deployments.
 
