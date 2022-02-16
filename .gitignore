@@ -3,5 +3,6 @@
 /build/
 /docker-compose.override.yaml
 /output/
+/output_*/
 /source/build/
 /vendor/
