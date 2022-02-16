@@ -22,7 +22,7 @@
 {% set metaImage = [
     site.url,
     '/',
-    page.meta.image ?? site.avatar.url,
+    page.meta.image ?? site.avatar.path,
 ]|join %}
 
 <title>{{ pageTitle }}</title>
