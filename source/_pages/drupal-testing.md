@@ -9,7 +9,7 @@ next_date: 2022-04-04
 testimonials:
     -
         name: Scott Euser, Head of Web Development
-        image: /images/scott-euser.jpg
+        image: /files/images/scott-euser.jpg
         text: |
             Oliver really knows his stuff. Whether you are just starting out or looking to take your knowledge to the next level, his patient and clear way of explaining will help get you there.
 ---
