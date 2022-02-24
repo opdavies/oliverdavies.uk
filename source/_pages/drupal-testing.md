@@ -26,6 +26,7 @@ I offer an interactive full-day workshop (previously presented in-person for Dru
 * What types of tests are available in Drupal?
 * Outside-in vs. inside-out testing.
 * Exercise: learn to writing tests by testing existing Drupal core functionality.
+* Exercise: adding tests to an existing custom module.
 * What is test-driven development?
 * Exercise: writing a new Drupal module from scratch with tests.
 * Q&A
