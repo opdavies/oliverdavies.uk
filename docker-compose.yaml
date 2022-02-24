@@ -4,11 +4,11 @@ services:
       context: .
       target: build
     image: "ghcr.io/opdavies/oliverdavies.uk-web:${DOCKER_TAG:-latest}"
-    command: "sculpin generate --clean --port ${SCULPIN_PORT:-80} --url ${SCULPIN_URL:-http://localhost} --env ${SCULPIN_ENV:-dev} ${SCULPIN_GENERATE_ARGS}"
+    command: "sculpin generate --clean --port ${SCULPIN_PORT:-8000} --url ${SCULPIN_URL:-http://localhost} --env ${SCULPIN_ENV:-dev} ${SCULPIN_GENERATE_ARGS}"
     volumes:
       - .:/app
     ports:
-      - "${SCULPIN_PORT:-80}:${SCULPIN_PORT:-80}"
+      - "8000:8000"
     env_file:
       - .env
     tty: true
