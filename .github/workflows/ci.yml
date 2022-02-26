@@ -30,13 +30,4 @@ jobs:
       - run: ./run ci:build-images
       - run: ./run ci:push-images
 
-      - name: Add the deployment SSH key
-        uses: shimataro/ssh-key-action@6f350ca8484d8d55c2e361e74d17e638dabe713a # 2.1.0
-        with:
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          name: id_rsa
-          known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
-
-      - run: ./run deploy
-
 # vim: sw=2 ts=2
