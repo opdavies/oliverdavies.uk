@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -eu
+set -eux
 
 TTY=""
 if [[ ! -t 1 ]]; then
@@ -10,17 +10,13 @@ fi
 DC="${DC:-exec}"
 
 function ci:build-images {
-  services=(app)
-
-  DOCKER_TAG="$1" docker-compose build "${services[@]}"
-  DOCKER_TAG="latest" docker-compose build "${services[@]}"
+  docker build --target production -t ghcr.io/opdavies/oliverdavies.uk-build:latest .
+  docker build --target production -t ghcr.io/opdavies/oliverdavies.uk-build:$(git rev-parse HEAD) .
 }
 
 function ci:push-images {
-  services=(app)
-
-  DOCKER_TAG="$1" docker-compose push "${services[@]}"
-  DOCKER_TAG="latest" docker-compose push "${services[@]}"
+  docker push ghcr.io/opdavies/oliverdavies.uk-build:latest
+  docker push ghcr.io/opdavies/oliverdavies.uk-build:$(git rev-parse HEAD)
 }
 
 function cmd {
