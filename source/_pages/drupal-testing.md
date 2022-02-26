@@ -18,7 +18,7 @@ Are you a Drupal Developer who wants to learn about automated testing and test-d
 
 I've delivered large Drupal projects using automated tests and test-driven development for custom functionality, and maintain Drupal modules with thousands of installations whilst using their tests to ensure working code and prevent regressions.
 
-I offer an interactive full-day workshop (previously presented in-person for DrupalCamp London, and remotely for DrupalCamp NYC) that provides an introduction to automated testing in Drupal and how to utilise test-driven development - which I've updated specifically for Drupal {{ page.drupal_versions|join(' and ') }}.
+I offer an interactive full-day workshop (previously presented at DrupalCamp London, and remotely for DrupalCamp NYC) that provides an introduction to automated testing in Drupal and how to utilise test-driven development - which I've updated specifically for Drupal {{ page.drupal_versions|join(' and ') }}.
 
 ## Contents
 
