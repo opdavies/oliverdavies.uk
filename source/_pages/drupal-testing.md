@@ -28,7 +28,7 @@ I offer an interactive full-day workshop (previously presented in-person for Dru
 * Exercise: writing tests for existing Drupal core functionality.
 * Exercise: adding tests to an existing custom module.
 * What is test-driven development?
-* Exercise: writing a new Drupal module from scratch with tests.
+* Exercise: writing a new Drupal module from scratch with test-driven development.
 * Q&A
 
 <hr class="my-12 border-t border-gray-50"/>
