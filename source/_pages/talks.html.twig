@@ -13,7 +13,7 @@ Drupal, automated testing, Git, CSS, and systems administration.</p>
         {% for talk in data.talks|sort((a, b) => get_last_event_date_for_talk(a) < get_last_event_date_for_talk(b)) %}
             <article>
                 <h2>
-                    <a class="dark:text-blue-400 text-blue-primary" href="{{ talk.url }}">
+                    <a class="dark:text-blue-400 text-blue-primary" href="{{ talk.url|trim('/', 'right') }}">
                         {{ talk.title }}
                     </a>
                 </h2>

@@ -1,6 +1,6 @@
 <article>
     <h2>
-        <a class="dark:text-blue-400 text-blue-primary" href="{{ post.url }}">
+        <a class="dark:text-blue-400 text-blue-primary" href="{{ post.url|trim('/', 'right') }}">
             {{ post.title }}
         </a>
     </h2>
