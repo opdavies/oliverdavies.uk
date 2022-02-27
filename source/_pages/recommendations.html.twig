@@ -7,6 +7,7 @@ recommendations:
         text: |
             <p>Oliver was great to work with, he has a solid knowledge of the various aspects of web development and never minded helping me out with Linux commands!</p>
         image: ed-welsby.png
+        hidden: true
     -
         name: Brian Healy
         tagline: Director of Business Development at Tincan
@@ -65,6 +66,7 @@ recommendations:
         text: |
             <p>Oliver is an amazing colleague, he's professional, full of knowledge and I could not recommend him more.</p>
         image: chris-jarvis.jpg
+        hidden: true
     -
         name: Owen Phillips
         tagline: Director at Operation Fitness Ltd
@@ -106,20 +108,21 @@ recommendations:
         tagline: Marketing Strategist
         text: |
             <p>We have only worked together for a short while but I can see Oliver is a Drupal expert.</p>
-
             <p>His technical knowledge means we have been able to make improvements to the sites we manage quickly and efficiently.</p>
-
             <p>If we have complex issues to contend with in the future I feel confident he will be able to deal with them.</p>
     -
         name: "Huw Davies"
         tagline: "Web Dev Manager / DevOps / Team Manager at Admiral Group Plc"
         text: |
-            <p>I had the pleasure of working with Oliver whilst building the first version of our drupal based intranet. His knowledge of Drupal and the wider infrastructure required to run a site was really invaluable. At the time, we were very new to Drupal, so it gave us a great platform to learn from and expand our own knowledge. He's the only external contractor that we've kept in touch with over the years, which goes to show how much we valued his input.</p>
+            <p>I had the pleasure of working with Oliver whilst building the first version of our drupal based intranet. His knowledge of Drupal and the wider infrastructure required to run a site was really invaluable.</p>
+            <p>At the time, we were very new to Drupal, so it gave us a great platform to learn from and expand our own knowledge.</p>
+            <p>He's the only external contractor that we've kept in touch with over the years, which goes to show how much we valued his input.</p>
         image: huw.jpeg
 ---
 
+
 <div class="space-y-8">
-    {% for recommendation in page.recommendations|reverse|slice(0, 10) %}
+    {% for recommendation in page.recommendations|reverse if not recommendation.hidden %}
         <article>
             <h2>{{ recommendation.name }}</h2>
             <header>{{ recommendation.tagline }}</header>
