@@ -29,50 +29,6 @@ linkedin:
 
 menus:
     footer:
-        - title: Calendars
-          href: '%savvycal.url%'
-
-        - title: Pair with me
-          href: /pair-with-me
-          is_active: '^/pair-with-me/?'
-
-        - title: Test-Driven Drupal
-          href: /test-driven-drupal
-          is_active: '^/test-driven-drupal/?'
-
-        - title: Recommendations
-          href: /recommendations
-
-        - title: RSS feed
-          href: /rss.xml
-
-        - title: Speaker information
-          href: /speaker-information
-
-        - title: Drupal.org
-          href: '%drupalorg.url%'
-          is_active: false
-
-        - title: Packagist
-          href: '%packagist.url%'
-          is_active: false
-
-        - title: GitHub
-          href: '%github.url%'
-          is_active: false
-
-        - title: GitHub gists
-          href: '%github.gist.url%'
-          is_active: false
-
-        - title: Twitter
-          href: '%twitter.url%'
-          is_active: false
-
-        - title: YouTube
-          href: '%youtube.channel.url%'
-          is_active: false
-    main:
         - title: About
           href: /
           is_active: '^//$'
@@ -84,6 +40,12 @@ menus:
         - title: Talks
           href: /talks
           is_active: '^/talks/?'
+        - title: Recommendations
+          href: /recommendations
+
+        - title: RSS feed
+          href: /rss.xml
+    main: []
 
 packagist:
     name: opdavies
