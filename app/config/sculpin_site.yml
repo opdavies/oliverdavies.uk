@@ -3,7 +3,7 @@ description: Drupal Developer and Consultant
 locale: en-GB
 
 avatar:
-    path: "/files/images/social-avatar.jpg"
+    path: "/images/social-avatar.jpg"
 
 drupalorg:
     name: opdavies
