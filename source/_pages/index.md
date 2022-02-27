@@ -16,7 +16,7 @@ Hi, I’m Oliver. I’m a {{ site.work.role }} for <a href="{{ site.work.company
 
 I architect, develop, and consult on large web applications, and work with organisations, agencies, and freelance Developers to improve their code quality by using tools and workflows such as continuous integration and deployment, automated testing, test-driven development, and static analysis.
 
-I have {{ yearsOfExperience }} years of software development and Drupal experience and am an <a href="https://certification.acquia.com/user/4540">Acquia-certified Drupal expert</a>. I also work with complementary technologies such as Symfony, Vue.js, TypeScript, Docker, and Ansible.
+I have {{ yearsOfExperience }} years of software development and Drupal experience, have worked for the Drupal Association, and am an <a href="https://certification.acquia.com/user/4540">Acquia-certified Drupal expert</a>. I also work with complementary technologies such as Symfony, Vue.js, TypeScript, Docker, and Ansible.
 
 I regularly <a href="/talks">present talks and workshops</a> at user groups and conferences and am the organiser of the <a href="https://www.phpsouthwales.uk">PHP South Wales</a> user group.
 
