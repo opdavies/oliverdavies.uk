@@ -6,15 +6,13 @@ recommendations:
         tagline: Senior Developer at Proctor & Stevenson
         text: |
             <p>Oliver was great to work with, he has a solid knowledge of the various aspects of web development and never minded helping me out with Linux commands!</p>
-        image:
-            path: /images/testimonials/ed-welsby.png
+        image: ed-welsby.png
     -
         name: Brian Healy
         tagline: Director of Business Development at Tincan
         text: |
             <p>Oliver was fantastic to work with - pro-active and highly responsive, he worked well remotely and as part of a project team. His understanding of the project requirement(s) and ability to translate it into working code was essential and he delivered.</p>
-        image:
-            path: /images/testimonials/brian-healy.png
+        image: brian-healy.png
     -
         name: Marlon Duncanson
         tagline: 'Brand & Web Specialist'
@@ -38,15 +36,13 @@ recommendations:
         tagline: Director at Development Done Right
         text: |
             <p>We used Oliver on a number of occasions throughout 2012 and I have to say we've been delighted with his work. His skills working with Drupal are excellent particularly with custom module development and we wouldn’t hesitate to recommend him others.</p>
-        image:
-            path: /images/testimonials/james-chapman.png
+        image: james-chapman.png
     -
         name: Léonie Watson
         tagline: Director of Accessibility at Nomensa
         text: |
             <p>Oliver is a flexible and hardworking developer, with a terrific knowledge of Drupal. He promotes accessibility best practice within the Drupal community, and is always happy to share his knowledge with other people.</p>
-        image:
-            path: /images/testimonials/leonie-watson.png
+        image: leonie-watson.jpg
     -
         name: Holly Ross
         tagline: Executive Director at Drupal Association
@@ -54,8 +50,7 @@ recommendations:
             <p>Oliver has been an outstanding contributor to the Drupal Association team. He is a talented developer who writes great code and applies his curiosity and love of learning to every project. He is also a fantastic team member, who gives to the team as much as he gets.</p>
 
             <p>Oliver is the embodiment of everything good about the Drupal community.</p>
-        image:
-            path: /images/testimonials/holly-ross.png
+        image: holly-ross.png
     -
         name: Josh Mitchell
         tagline: CTO at Drupal Association
@@ -63,57 +58,49 @@ recommendations:
             <p>Oliver is a skilled Drupal developer with a passion for the Drupal community. As his direct supervisor, I was able to watch Oliver grow with the Drupal Association and contribute an amazing amount of effort and integrity to all of his work.</p>
 
             <p>Everything we have thrown at Oliver, he has approached with an open and flexible mind that has allowed him to work on a wide range of projects and features for Drupal products.</p>
-        image:
-            path: /images/testimonials/josh-mitchell.png
+        image: josh-mitchell.png
     -
         name: Chris Jarvis
         tagline: Developer at Microserve
         text: |
             <p>Oliver is an amazing colleague, he's professional, full of knowledge and I could not recommend him more.</p>
-        image:
-            path: /images/testimonials/chris-jarvis.jpg
+        image: chris-jarvis.jpg
     -
         name: Owen Phillips
         tagline: Director at Operation Fitness Ltd
         text: |
             <p>I have been working to build and develop my website with Oliver over the last year and I couldn't recommend higher. His ideas, knowledge and completion are to a very high standard and I look forward to continuing my build with him.</p>
-        image:
-            path: /images/testimonials/owen-phillips.jpeg
+        image: owen-phillips.jpeg
     -
         name: Chris Knox
         tagline: Creative Director
         text: |
             <p>Oliver is a skilled and enthusiastic developer, always putting the clients interests first. His approach to work is diligent and confident and this makes working with him a pleasure!</p>
-        image:
-            path: /images/testimonials/chris-knox.jpeg
+        image: chris-knox.jpeg
     -
         name: Jon Hallett
         tagline: Senior Systems Administrator at the University of Bristol
         text: |
             <p>We use Oliver for maintaining a couple of Drupal sites for which we no longer have the skills ourselves. We became aware of Oliver through his work in the Drupal community, and about a year ago we approached him to help us with the deep dive aspects of maintaining and developing Drupal sites. He's been really helpful and very responsive. Much appreciated!</p>
-        image:
-            path: /images/testimonials/jon-hallett.jpeg
+        image: jon-hallett.jpeg
     -
         name: Alan Hatch
         tagline: Senior Drupal Developer at Microserve
         text: |
             <p>I have had the pleasure of working with Oliver on several projects at Microserve. He is a natural innovator and a great mentor who inspires others to explore new technologies and approaches. He is a highly knowledgeable professional with a passion for all things Drupal and the tenacity required to get the job done well.</p>
-        image:
-            path: /images/recommendations/alan.jpeg
+        image: alan.jpeg
     -
         name: Adam Cuddihy
         tagline: Web Development Manager
         text: |
             <p>A fantastic and highly knowledgeable Drupal Developer. Oliver saved a struggling Drupal project with his wealth of Drupal experience.</p>
-        image:
-            path: /images/recommendations/adam.jpeg
+        image: adam.jpeg
     -
         name: Duncan Davidson
         tagline: Director at Rohallion
         text: |
             <p>Oliver is a pleasure to work with, and I would engage him again without hesitation. He communicates regularly, ensures that he meets requirements, and suggests improvements to the potential solutions to the brief.</p>
-        image:
-            path: /images/recommendations/duncan.jpeg
+        image: duncan.jpeg
     -
         name: Anonymous client
         tagline: Marketing Strategist
@@ -128,8 +115,7 @@ recommendations:
         tagline: "Web Dev Manager / DevOps / Team Manager at Admiral Group Plc"
         text: |
             <p>I had the pleasure of working with Oliver whilst building the first version of our drupal based intranet. His knowledge of Drupal and the wider infrastructure required to run a site was really invaluable. At the time, we were very new to Drupal, so it gave us a great platform to learn from and expand our own knowledge. He's the only external contractor that we've kept in touch with over the years, which goes to show how much we valued his input.</p>
-        image:
-            path: /images/recommendations/huw.jpeg
+        image: huw.jpeg
 ---
 
 <div class="space-y-8">
@@ -144,9 +130,9 @@ recommendations:
                         {{ recommendation.text|raw }}
                     </div>
 
-                    {% if recommendation.image.path %}
+                    {% if recommendation.image %}
                         <div class="flex-shrink-0">
-                            <img class="w-16 h-16 bg-white rounded-full border md:w-24 md:h-24 border-gray" src="{{ recommendation.image.path }}">
+                            <img class="w-16 h-16 bg-white rounded-full border md:w-24 md:h-24 border-gray" src="/images/recommendations/{{ recommendation.image }}">
                         </div>
                     {% endif %}
                 </div>
