@@ -40,7 +40,11 @@ The workshop is currently only available remotely, and the next available date i
 Seats are available at {% if page.early %}an <span class="font-bold">early bird price of £{{ page.prices.early }}</span>{% else %}<span class="font-bold">£{{ page.prices.full }}</span>{% endif %}, with a 10% discount for bulk orders of 5 or more seats.
 
 <div class="mt-6">
-    <a class="inline-flex items-center px-6 py-3 text-base font-medium rounded-md bg-blue-primary text-white no-underline hover:bg-white hover:text-blue-primary focus:bg-white focus:text-blue-primary transition-color ease-in-out duration-200" href="mailto:{{ site.email }}?subject=Drupal testing workshop">Contact me to book</a>
+    {% embed 'link-button' with {
+        href: 'mailto:' ~ site.email ~ '?subject=Drupal testing workshop',
+    } only %}
+        {% block text 'Contact me to book' %}
+    {% endembed %}
 </div>
 
 <hr class="my-12 border-t border-gray-50"/>
