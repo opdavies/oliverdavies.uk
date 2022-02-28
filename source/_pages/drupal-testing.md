@@ -25,6 +25,7 @@ I offer an interactive full-day workshop (previously presented at DrupalCamp Lon
 * What is automated testing, and why write tests?
 * What types of tests are available in Drupal?
 * Outside-in vs. inside-out testing.
+* Configuring Drupal and PHPUnit to run tests locally.
 * Exercise: writing tests for existing Drupal core functionality.
 * Exercise: adding tests to an existing custom module.
 * What is test-driven development?
