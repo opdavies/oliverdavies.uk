@@ -90,7 +90,9 @@ function yarn:build:css {
     args=(--watch)
   fi
 
-  tailwindcss --postcss -i assets/css/tailwind.pcss -o build/app.css "${args[@]}"
+  tailwindcss --postcss \
+    -i assets/css/tailwind.pcss \
+    -o source/build/app.css "${args[@]}"
 }
 
 function yarn:build:js {
