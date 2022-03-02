@@ -32,7 +32,7 @@ I offer an interactive full-day workshop (previously presented at DrupalCamp Lon
 * Exercise: writing a new Drupal module from scratch with test-driven development.
 * Q&A
 
-<hr class="my-12 border-t border-gray-50"/>
+{% include "horizontal-rule" %}
 
 ## Dates and prices
 
@@ -48,7 +48,7 @@ Seats are available at {% if page.early %}an <span class="font-bold">early bird 
     {% endembed %}
 </div>
 
-<hr class="my-12 border-t border-gray-50"/>
+{% include "horizontal-rule" %}
 
 ## Testimonials
 
