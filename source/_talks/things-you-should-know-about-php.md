@@ -14,6 +14,11 @@ events:
         location: Swansea, UK
         url: https://www.meetup.com/Swansea-Software-Development-Meetup
         date: 2019-01-28
+    -
+        name: PHP South West
+        location: Bristol, UK
+        url: https://www.meetup.com/php-sw/events/284341510
+        date: 2022-03-09
 ---
 
 An introduction to PHP, presented to the Swansea Software Development Community (SSDC) meetup.
