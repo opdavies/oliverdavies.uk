@@ -4,11 +4,19 @@ services:
       context: .
       target: build
     image: "ghcr.io/opdavies/oliverdavies.uk-web:${DOCKER_TAG:-latest}"
-    command: "sculpin generate --clean --port ${SCULPIN_PORT:-8000} --url ${SCULPIN_URL:-http://localhost} --env ${SCULPIN_ENV:-dev} ${SCULPIN_GENERATE_ARGS}"
+    command: "sculpin generate --clean --no-interaction --url ${SCULPIN_URL:-http://localhost} --env ${SCULPIN_ENV:-dev} ${SCULPIN_GENERATE_ARGS}"
     volumes:
       - .:/app
-    ports:
-      - "${DOCKER_COMPOSE_WEB_FORWARD:-127.0.0.1:80}:8000"
-    env_file:
-      - .env
     tty: true
+    expose:
+      - 8000
+    networks:
+      - web
+    labels:
+      - "traefik.docker.network=traefik_proxy"
+      - "traefik.http.routers.oliverdavies.rule=Host(`oliverdavies.docker.localhost`)"
+
+networks:
+  web:
+    external:
+      name: traefik_proxy
