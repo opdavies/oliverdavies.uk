@@ -4,6 +4,9 @@ description: An introduction to PHP, presented to the Swansea Software Developme
 speakerdeck:
     id: fe360f1030f34bdb9eb14cdab907bb3c
     ratio: '1.78343949044586'
+video:
+    id: NH1mVSwCzWs
+    type: youtube
 meta:
     og:
         image:
