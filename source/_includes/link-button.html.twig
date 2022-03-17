@@ -1,5 +1,9 @@
 <a
-    class="inline-flex items-center px-6 py-3 text-base font-medium rounded-md bg-blue-primary text-white no-underline hover:bg-white hover:text-blue-primary focus:bg-white focus:text-blue-primary transition-color ease-in-out duration-200"
+    class="
+        inline-flex items-center px-6 py-3 font-medium rounded-md bg-blue-primary text-white no-underline hover:bg-white hover:text-blue-primary focus:bg-white focus:text-blue-primary transition-color ease-in-out duration-200
+        {{ size == 'normal' ? 'text-base' }}
+        {{ size == 'large' ? 'text-lg' }}
+    "
     href="{{ href }}"
 >
     {% block text '' %}

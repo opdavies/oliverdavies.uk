@@ -2,7 +2,11 @@
 title: Things you should know about PHP
 ---
 
-Thanks for attending my talk on [Things you should know about PHP](/talks/things-you-should-know-about-php).
+Thanks for attending my [Things you should know about PHP](/talks/things-you-should-know-about-php) talk.
+
+I hope that you learned some things about PHP, its ecosystem, and its communities, and if you haven't tried using PHP yet, I'd encourage you to do so.
+
+Here are links to the resources that I mention in the talk, plus a couple of extras.
 
 ## Resources
 
@@ -41,3 +45,18 @@ Thanks for attending my talk on [Things you should know about PHP](/talks/things
 - [The Laravel Podcast](https://laravelpodcast.com)
 - [The PHP Roundtable](https://phproundtable.com)
 - [Voices of the elePHPant](https://voicesoftheelephpant.com)
+
+{% include "horizontal-rule" %}
+
+## Can I help?
+
+Do you want to introduce PHP to your company or team, or add one of these tools to your existing PHP application?
+
+I offer consulting calls and services to reduce your onboarding time and get you up and running quicker and easier.
+
+<div class="mt-6">
+    {% set href = "mailto:" ~ site.email ~ "?subject=Book in my call" %}
+    {% embed "link-button" with { href: href, size: "normal" } only %}
+        {% block text "Book in your call →" %}
+    {% endembed %}
+</div>
