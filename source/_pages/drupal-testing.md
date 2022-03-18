@@ -42,9 +42,11 @@ Seats are available at {% if page.early %}an <span class="font-bold">early bird 
 
 <div class="mt-6">
     {% embed 'link-button' with {
-        href: 'mailto:' ~ site.email ~ '?subject=Drupal testing workshop',
+        arrow: true,
+        href: 'https://buy.stripe.com/6oE3cW4Su7DA1t6144',
+        size: 'normal',
     } only %}
-        {% block text 'Contact me to book' %}
+        {% block text 'Book your seat' %}
     {% endembed %}
 </div>
 
