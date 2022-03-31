@@ -2,6 +2,8 @@ const colors = require('./tools/tailwindcss/colours')
 const defaultTheme = require('tailwindcss/defaultTheme')
 const { fontFamily } = defaultTheme
 
+let colors = require('tailwindcss/colors')
+
 module.exports = {
   content: ['tools/tailwindcss/safelist-classes.txt', 'source/**/*.{md,twig}'],
   theme: {
@@ -32,6 +34,9 @@ module.exports = {
       width: {
         96: '24rem',
       },
+      colors: {
+        green: colors.emerald,
+      },
     },
   },
   plugins: [
@@ -40,8 +45,8 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
   ],
+  important: true,
   corePlugins: {
     container: false,
   },
-  important: true,
 }
