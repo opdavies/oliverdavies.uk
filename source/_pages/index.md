@@ -18,7 +18,12 @@ I architect, develop, and consult on large web applications, and work with organ
 
 I have {{ yearsOfExperience }} years of software development and Drupal experience, have worked for the Drupal Association, and am an <a href="https://certification.acquia.com/user/4540">Acquia-certified Drupal expert</a>. I also work with complementary technologies such as Symfony, Vue.js, TypeScript, Docker, and Ansible.
 
+I enjoy writing and contributing open-source code which you can find on my [Drupal.org] and [GitHub] profiles.
+
 I regularly <a href="/talks">present talks and workshops</a> at user groups and conferences and am the organiser of the <a href="https://www.phpsouthwales.uk">PHP South Wales</a> user group.
 
 <a href="/contact">Contact me</a> if you’d like any more information or to discuss a project.
 </div>
+
+[drupal.org]: {{site.drupalorg.url}}
+[github]: {{site.github.url}}
