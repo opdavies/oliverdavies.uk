@@ -12,7 +12,7 @@ meta:
 
 <div class="markdown" markdown="1">
 <div class="mb-4 w-32"><img src="{{ site.avatar.path }}" alt="Picture of Oliver" class="rounded-full border border-gray"></div>
-Hi, I’m Oliver. I’m a {{ site.work.role }} for <a href="{{ site.work.company.url }}?utm_source=oliverdavies.uk&amp;utm_medium=about">{{ site.work.company.name }}</a> and a Full Stack Software Consultant based in South Wales in the UK.
+Hi, I’m Oliver. I’m a Full Stack Software Consultant based in South Wales in the UK.
 
 I architect, develop, and consult on large web applications, and work with organisations, agencies, and freelance Developers to improve their code quality by using tools and workflows such as continuous integration and deployment, automated testing, test-driven development, and static analysis.
 
