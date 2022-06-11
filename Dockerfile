@@ -1,15 +1,3 @@
-FROM node:14-alpine AS markdownlint
-
-RUN npm install -g markdownlint-cli
-
-USER node
-
-ENTRYPOINT ["markdownlint"]
-
-CMD ["/data"]
-
-###
-
 FROM node:14-alpine AS assets
 
 ARG NODE_ENV="production"

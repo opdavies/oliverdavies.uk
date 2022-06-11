@@ -42,10 +42,6 @@ function help {
   printf "\nExtended help:\n  Each task has comments for general usage\n"
 }
 
-function lint:markdown {
-  docker-compose run --rm markdownlint "${@}"
-}
-
 function run-production {
   DESTINATION_PATH="${2:-/var/www/oliverdavies.uk}"
   GIT_COMMIT_HASH="${1:-latest}"
