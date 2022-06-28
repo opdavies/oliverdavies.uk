@@ -7,8 +7,6 @@
 
         {% include 'meta' with { page, site } only %}
 
-        <script src="https://cdn.usefathom.com/script.js" data-site="{{ site.fathom.id }}" defer></script>
-
         {% include 'plausible' with {
             plausible: site.plausible,
         } only %}

@@ -14,9 +14,6 @@ email: oliver@oliverdavies.uk
 experience:
   start_year: 2007
 
-fathom:
-    id: ~
-
 github:
     gist:
         url: 'https://gist.github.com/%github.name%'

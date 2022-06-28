@@ -2,9 +2,6 @@
 imports:
     - sculpin_site.yml
 
-fathom:
-    id: NYZEZAKS
-
 plausible:
     domain: 'oliverdavies.uk'
 
