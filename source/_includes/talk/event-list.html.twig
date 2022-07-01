@@ -3,7 +3,7 @@
         <h2>Events</h2>
 
         <ul>
-            {% for event in events|sort((a, b) => a.date > b.date) %}
+            {% for event in events|sort((a, b) => a.date <=> b.date) %}
                 {% include 'talk/event-list-event.html.twig' with {
                     date: event.date,
                     is_online: event.is_online ?? false,
