@@ -1,5 +1,6 @@
 ---
 title: Exporting Drupal body classes to use with Tailwind CSS
+date: 2022-07-02
 tags:
     - drupal
     - tailwind-css
