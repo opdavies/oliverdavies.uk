@@ -27,7 +27,11 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - run: cp .env.example .env
-      - run: ./run ci:build-images
-      - run: ./run ci:push-images
+        working-directory: ./website
 
+      - run: ./run ci:build-images
+        working-directory: ./website
+
+      - run: ./run ci:push-images
+        working-directory: ./website
 # vim: sw=2 ts=2
