@@ -4,13 +4,18 @@ excerpt: |
     How I've started using feature flags within a client's Sculpin website.
 tags: [sculpin]
 date: "2022-01-09"
+toc:
+    - Background
+    - Introducing feature flags
+    - Feature flags in Sculpin
+    - Using the Facebook pixel feature flag
 ---
 
 <div class="flex justify-center">
   <img class="h-auto mb-4 w-[150px]" src="/images/sculpin-jackson.png" />
 </div>
 
-## Background
+{% include "post/heading-with-anchor" with { text: page.toc.0 } only %}
 
 I was asked last week to add a new feature, a Facebook pixel for measuring and
 building advertising campaigns, to a client's website which I built using the
@@ -36,7 +41,7 @@ facebook:
         id: ~
 ```
 
-## Introducing feature flags
+{% include "post/heading-with-anchor" with { text: page.toc.1 } only %}
 
 A technique that I like to use on other projects is using
 [feature flags](https://www.atlassian.com/continuous-delivery/principles/feature-flags)
@@ -47,7 +52,7 @@ toggling a feature - a static site will need to be re-generated and deployed -
 I thought that there was value in being able to easily toggle a feature without
 changing its configuration or removing code within the site's templates.
 
-## Feature flags in Sculpin
+{% include "post/heading-with-anchor" with { text: page.toc.2 } only %}
 
 My Sculpin feature flag implementation was to add a `feature_flags` key within
 `sculpin_site.yml`, with each feature's name as the key and a boolean value to
@@ -61,7 +66,7 @@ feature_flags:
     add_facebook_pixel: true
 ```
 
-## Using the Facebook pixel feature flag
+{% include "post/heading-with-anchor" with { text: page.toc.3 } only %}
 
 The Facebook pixel code is stored within it's own partial that I can include
 from my `source/_layouts/app.html.twig` layout, including the pixel ID and

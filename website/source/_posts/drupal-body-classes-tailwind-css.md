@@ -5,6 +5,10 @@ date: 2022-07-02
 tags:
     - drupal
     - tailwind-css
+toc:
+    - Adding classes to a safelist
+    - Extracting the safelist to a file
+    - Creating a safelist file automatically with Drush
 ---
 
 I was recently [asked a question](https://www.drupal.org/project/tailwindcss/issues/3271487) in the issue queue for my [Tailwind starter kit Drupal theme](https://www.drupal.org/project/tailwindcss), about how to use classes within content with Tailwind CSS.
@@ -13,7 +17,7 @@ The 5.x version of the theme has the JIT (just in time) compiler enabled by defa
 
 This is something that I've needed to solve in some of my own projects before too so there are a few options but I'd not recommend turning off the JIT compiler or PurgeCSS.
 
-## Adding classes to a safelist
+{% include "post/heading-with-anchor" with { text: page.toc.0 } only %}
 
 The first option is to use the `safelist` option within the `tailwind.config.js` file:
 
@@ -36,7 +40,7 @@ This is refered to within the Tailwind CSS documentation for [safelisting classe
 
 > One example of where this can be useful is if your site displays user-generated content and you want users to be able to use a constrained set of Tailwind classes in their content that might not exist in your own site’s source files.
 
-## Extracting the safelist to a file
+{% include "post/heading-with-anchor" with { text: page.toc.1 } only %}
 
 In some projects, I found that I was adding a lot of classes to the safelist so I extracted the classes into a file instead.
 
@@ -59,7 +63,7 @@ module.exports = {
 }
 ```
 
-## Creating a safelist file automatically with Drush
+{% include "post/heading-with-anchor" with { text: page.toc.2 } only %}
 
 What we could also do is create the safelist file automatically based on the contents of the database using a custom Drush command.
 
