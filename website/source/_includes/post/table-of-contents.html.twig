@@ -1,0 +1,9 @@
+{% if toc %}
+    <ul>
+        {% for title in toc %}
+            <li>
+                <a href="#{{ title|lower|replace({ ' ': '-' }) }}">{{ title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}

@@ -16,6 +16,8 @@
             </div>
 
             <div class="markdown">
+                {% include "post/table-of-contents" with { toc: page.toc } only %}
+
                 {{ parent() }}
             </div>
 
