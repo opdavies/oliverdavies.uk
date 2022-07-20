@@ -1,9 +1,15 @@
 {% if toc %}
-    <ul>
-        {% for title in toc %}
-            <li>
-                <a href="#{{ title|lower|replace({ ' ': '-' }) }}">{{ title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
+    <div class="p-6 my-6 border border-gray-300 dark:bg-gray-800 dark:border-gray-700">
+        <p>Quick jump:</p>
+
+        <div class="mt-2">
+            <ul>
+                {% for title in toc %}
+                    <li>
+                        <a href="#{{ title|lower|replace({ ' ': '-' }) }}">{{ title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
 {% endif %}
