@@ -16,6 +16,8 @@
             </div>
 
             <div class="markdown">
+                <b>{{ page.excerpt }}</b>
+
                 {% include "post/table-of-contents" with { toc: page.toc } only %}
 
                 {{ parent() }}
