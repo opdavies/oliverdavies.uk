@@ -23,9 +23,11 @@ If you don’t find the call valuable, I’ll refund 100% of the cost.
 -   Help to fix a bug or some broken code.
 -   Reviewing your code and providing advice and suggestions.
 
-## Ready to book your call?
+<aside class="p-6 my-8 border border-gray-300 dark:bg-gray-800 dark:border-gray-700" markdown="1">
+<h2 class="mt-0">Ready to book your call?</h2>
 
-<a class="my-4 py-2 px-5 inline-block rounded-lg border-2 border-blue-primary text-lg bg-blue-primary text-white no-underline transition-colors duration-200 hover:bg-white hover:text-blue-primary" href="{{ page.link }}">Book now for £{{ page.price }} &rarr;</a>
+<a class="mt-4 py-2 px-5 inline-block rounded-lg border-2 border-blue-primary text-lg bg-blue-primary text-white no-underline transition-colors duration-200 hover:bg-white hover:text-blue-primary" href="{{ page.link }}">Book now for £{{ page.price }} &rarr;</a>
+</aside>
 
 {% include 'about-author' with {
     avatar: site.avatar,
