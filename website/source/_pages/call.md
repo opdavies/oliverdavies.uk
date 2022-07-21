@@ -26,3 +26,8 @@ If you don’t find the call valuable, I’ll refund 100% of the cost.
 ## Ready to book your call?
 
 <a class="my-4 py-2 px-5 inline-block rounded-lg border-2 border-blue-primary text-lg bg-blue-primary text-white no-underline transition-colors duration-200 hover:bg-white hover:text-blue-primary" href="{{ page.link }}">Book now for £{{ page.price }} &rarr;</a>
+
+{% include 'about-author' with {
+    avatar: site.avatar,
+    work: site.work,
+} only %}
