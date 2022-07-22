@@ -4,25 +4,26 @@ ARG NODE_ENV="production"
 ARG SCULPIN_ENV="prod"
 ENV NODE_ENV="${NODE_ENV}" \
     PATH="${PATH}:/node_modules/.bin" \
-    SCULPIN_ENV="${SCULPIN_ENV}"
+    SCULPIN_ENV="${SCULPIN_ENV}" \
+    USER="node"
 
 RUN apk add --no-cache bash
 
-WORKDIR /app
+WORKDIR /app/assets
 
 RUN mkdir -p /node_modules \
   && chown node:node -R /app /node_modules
 
 USER node
 
-COPY --chown=node:node *yarn* package.json ./
+COPY --chown=node:node assets/*yarn* assets/package.json ./
 
 RUN yarn install && yarn cache clean
 
-COPY --chown=node:node . .
+COPY --chown=node:node . ..
 
 RUN if [ "${NODE_ENV}" != "development" ]; then \
-  ./run yarn:build:css && ./run yarn:build:js; \
+  ../run yarn:build:css && ../run yarn:build:js; \
   else mkdir -p /app/build; fi
 
 CMD ["bash"]

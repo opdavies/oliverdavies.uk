@@ -13,8 +13,8 @@ x-assets: &default-assets
 services:
   css:
     <<: *default-assets
-    command: "./run yarn:build:css"
+    command: "../run yarn:build:css"
 
   js:
     <<: *default-assets
-    command: "./run yarn:build:js"
+    command: "../run yarn:build:js"
