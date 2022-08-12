@@ -1,6 +1,6 @@
 sculpin_content_types:
     daily_emails:
-        permalink: archives/:year/:month/:day/:basename/
+        permalink: archive/:year/:month/:day/:basename/
     pages:
         permalink: /:basename/
     posts:
