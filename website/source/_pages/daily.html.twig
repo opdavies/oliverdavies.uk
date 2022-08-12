@@ -5,11 +5,11 @@ use:
 ---
 
 <ul>
-    {% for i in data.daily_emails|reverse %}
+    {% for email in data.daily_emails|reverse %}
         <li>
-            <a href="{{ site.url }}{{ i.url }}">
-                {{ i.date|date('jS F Y') }}
-                - {{ i.title }}
+            <a href="{{ site.url }}{{ email.url|trim('/', 'right') }}">
+                {{ email.date|date('jS F Y') }}
+                - {{ email.title }}
             </a>
         </li>
     {% endfor %}
