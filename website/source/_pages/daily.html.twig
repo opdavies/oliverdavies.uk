@@ -1,0 +1,16 @@
+---
+title: Daily emails
+use:
+    - daily_emails
+---
+
+<ul>
+    {% for i in data.daily_emails|reverse %}
+        <li>
+            <a href="{{ site.url }}{{ i.url }}">
+                {{ i.date|date('jS F Y') }}
+                - {{ i.title }}
+            </a>
+        </li>
+    {% endfor %}
+</ul>
