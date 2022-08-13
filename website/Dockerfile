@@ -71,5 +71,6 @@ CMD ["bash"]
 FROM alpine AS production
 
 COPY --from=build /output/html /app
+COPY --from=assets /app/build /app/build
 
 CMD ["sh"]
