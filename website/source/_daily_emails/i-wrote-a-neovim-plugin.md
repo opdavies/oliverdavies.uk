@@ -43,4 +43,4 @@ As it's my first Neovim plugin, I decided to keep it simple.
 
 The main `toggle-checkbox.lua` file is currently only 41 lines of code, and whilst there is an existing Vim plugin that I could have used, I was excited to write my own plugin for Neovim, to start contributing to the Neovim ecosystem, and add a Neovim plugin to my portfolio of open-source projects.
 
-You can view the plugin at https://github.com/opdavies/toggle-checkbox.nvim, as well as my Neovim configuration (which is also written in Lua) as part of [my Dotfiles repository](https://github.com/opdavies/dotfiles/tree/main/roles/neovim/files).
+You can view the plugin at <https://github.com/opdavies/toggle-checkbox.nvim>, as well as my Neovim configuration (which is also written in Lua) as part of [my Dotfiles repository](https://github.com/opdavies/dotfiles/tree/main/roles/neovim/files).
