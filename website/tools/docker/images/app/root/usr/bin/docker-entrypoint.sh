@@ -2,6 +2,6 @@
 
 set -e
 
-cp -r /build /app/source
+cp -r /app/build /app/source
 
 exec "$@"
