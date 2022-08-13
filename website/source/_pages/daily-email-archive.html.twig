@@ -6,7 +6,7 @@ use:
 ---
 
 <ul>
-    {% for email in data.daily_emails|reverse %}
+    {% for email in data.daily_emails %}
         <li>
             <a href="{{ site.url }}{{ email.url|trim('/', 'right') }}">
                 {{ email.date|date('jS F Y') }}
