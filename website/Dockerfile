@@ -60,7 +60,7 @@ COPY --chown=sculpin:sculpin src src
 RUN sculpin generate --env prod --output-dir /output/html
 
 COPY --chown=sculpin:sculpin . .
-COPY --chown=sculpin:sculpin --from=assets /app/source/build /build
+COPY --chown=sculpin:sculpin --from=assets /app/build /build
 
 ENTRYPOINT ["/usr/bin/docker-entrypoint.sh"]
 

@@ -20,7 +20,7 @@ console.log(watch);
 
 esbuild.build({
     entryPoints: ["./js/app.js"],
-    outfile: "../source/build/app.js",
+    outfile: "/app/build/app.js",
     bundle: true,
     minify: minify,
     sourcemap: sourcemap,

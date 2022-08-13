@@ -88,7 +88,7 @@ function yarn:build:css {
 
   tailwindcss --postcss \
     -i css/tailwind.pcss \
-    -o source/build/app.css "${args[@]}"
+    -o /app/build/app.css "${args[@]}"
 }
 
 function yarn:build:js {
