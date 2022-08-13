@@ -47,7 +47,4 @@ write the book to subscribers of the mailing list.</p>
 
 <p>If you have questions or would like to suggest something for me to include in
 the book, please <a href="mailto:oliver@testdrivendrupal.com">contact me</a>.</p>
-
-{% include 'test-driven-drupal-subscribe-form.html.twig' %}
-
 </div>
