@@ -4,7 +4,7 @@ tags: [testing]
 date: 2022-08-14
 ---
 
-In February 2012, I saw a tweet from Tim Millwood aking if anyone wanted to maintain or co-maintain a Drupal module called [Override Node Options](https://www.drupal.org/project/override_node_options).
+In February 2012, I saw a tweet from Tim Millwood asking if anyone wanted to maintain or co-maintain a Drupal module called [Override Node Options](https://www.drupal.org/project/override_node_options).
 
 It had more than 9,200 active installations at that time, with versions for Drupal 5, 6 and 7.
 
