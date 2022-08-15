@@ -1,7 +1,6 @@
 ---
 title: "Why I write automated tests"
 tags: [testing]
-date: 2022-08-14
 ---
 
 In February 2012, I saw a tweet from Tim Millwood asking if anyone wanted to maintain or co-maintain a Drupal module called [Override Node Options](https://www.drupal.org/project/override_node_options).

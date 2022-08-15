@@ -1,6 +1,5 @@
 ---
 title: I wrote a Neovim plugin
-date: 2022-08-13
 tags:
     - neovim
     - open-source

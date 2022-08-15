@@ -1,6 +1,5 @@
 ---
 title: Git Worktrees and Docker Compose
-date: 2022-08-12
 ---
 
 I've recently started trialing Git worktrees again as part of my development workflow.
