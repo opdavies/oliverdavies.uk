@@ -1,8 +1,14 @@
 {% extends "default" %}
 
-
 {% block content_wrapper %}
     <div class="markdown">
         {% block content %}{% endblock %}
     </div>
+
+    <footer class="mt-6">
+        <ul>
+            <li><a class="text-sm link" href="http://twitter.com/intent/tweet?text={{ page.title|url_encode }}%20by%20@{{ site.twitter.name }}+%0A%0A{{ site.url }}{{ page.url|trim('/', 'right') }}">Share this page on Twitter</a></li>
+            <li><a class="text-sm link" href="/archive">Browse the archive</a></li>
+        </ul>
+    </footer>
 {% endblock %}
