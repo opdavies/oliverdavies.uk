@@ -1,0 +1,15 @@
+---
+title: Daily emails
+drip:
+    form_id: 842254618
+---
+
+{% block content %}
+    {% embed "daily-email-form" with {
+      form_id: page.drip.form_id,
+    } %}
+        {% block description %}
+                <p>Sign up for my daily emails on software engineering and DevOps.</div></p>
+        {% endblock %}
+    {% endembed %}
+{% endblock %}

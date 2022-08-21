@@ -1,0 +1,29 @@
+<div>
+    <form action="https://www.getdrip.com/forms/{{ page.drip.form_id }}/submissions" method="post" data-drip-embedded-form="{{ page.drip.form_id }}" id="{{ page.drip.form_id }}">
+  <div data-drip-attribute="description">
+            {% block description %}{% endblock %}
+        </div>
+
+  <div class="mx-auto mt-8 max-w-md">
+    <div>
+      <label class="block font-bold text-center" for="drip-email">What's your best email address?</label>
+      <input class="block mt-1 w-full dark:text-gray-900" type="email" id="drip-email" name="fields[email]" value="">
+    </div>
+
+    <div style="display: none;" aria-hidden="true">
+      <label for="website">Website</label>
+      <input class="block mt-2" type="text" id="website" name="website" tabindex="-1" autocomplete="false" value="">
+    </div>
+
+    <div class="mt-4">
+      <button type="submit" class="inline-flex justify-center items-center py-3 px-6 w-full font-medium text-white no-underline rounded-md border duration-200 ease-in-out hover:bg-white focus:bg-white border-blue-primary bg-blue-primary transition-color hover:text-blue-primary focus:text-blue-primary" data-drip-attribute="sign-up-button">
+        Get daily emails →
+      </button>
+    </div>
+  </div>
+</form>
+
+<footer class="px-4 mt-4 text-center">
+  <p>Not sure? <a class="link" href="/archive">Browse the archive →</a></p>
+</footer>
+</div>
