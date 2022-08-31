@@ -40,8 +40,8 @@ menus:
         - title: Recommendations
           href: /recommendations
 
-        - title: RSS feed
-          href: /rss.xml
+        - title: Daily list
+          href: /daily
     main: []
 
 packagist:
