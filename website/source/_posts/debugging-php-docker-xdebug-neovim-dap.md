@@ -8,6 +8,7 @@ tags:
     - xdebug
     - php
     - drupal
+draft: true
 ---
 
 I've been a full-time Neovim user for a year at the time of writing this post and whilst I was a semi-regular Xdebug user, it's something that I've managed to work around and have mostly resorted to `var_dump()`, `dump()`, or `dd()` instead for debugging.
