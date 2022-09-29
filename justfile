@@ -12,11 +12,11 @@ create-daily:
   touch "${filepath}/${filename}"
   eval "${EDITOR}" "${filepath}/${filename}"
 
-deploy:
+deploy sha:
   rm -fr _deploy
   docker container rm oliverdavies.uk-build || true
 
-  docker image pull ghcr.io/opdavies/oliverdavies.uk-build
+  docker image pull ghcr.io/opdavies/oliverdavies.uk-build:{{ sha }}
   docker container run --entrypoint sh --name oliverdavies.uk-build ghcr.io/opdavies/oliverdavies.uk-build
   docker container cp oliverdavies.uk-build:/app/ _deploy
 
@@ -24,7 +24,7 @@ deploy:
 
   tree -L 2 _deploy
 
-  rsync -r -avhP --delete _deploy/* 104.248.165.137:/srv/oliverdavies.uk
+  rsync -r -avhP --delete _deploy/* opdavies@104.248.165.137:/srv/oliverdavies.uk
 
 build-images sha:
   docker image build \

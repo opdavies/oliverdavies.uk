@@ -14,7 +14,7 @@ env:
   DOCKER_TAG: ${{ github.sha }}
 
 jobs:
-  build-and-push-images:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
@@ -32,5 +32,23 @@ jobs:
 
       - run: |
           just push-images ${{ github.sha }}
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs:
+      - build
+    steps:
+      - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
+      - uses: extractions/setup-just@95b912dc5d3ed106a72907f2f9b91e76d60bdb76 # 1.5.0
+
+      - name: Add the deployment SSH key
+        uses: shimataro/ssh-key-action@3c9b0fc6f2d223b8450b02a0445f526350fc73e0 # 2.3.1
+        with:
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          name: id_rsa
+          known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
+
+      - run: |
+          just deploy ${{ github.sha }}
 
 # vim: sw=2 ts=2
