@@ -9,16 +9,6 @@ fi
 
 DC="${DC:-exec}"
 
-function ci:build-images {
-  docker build --target production -t ghcr.io/opdavies/oliverdavies.uk-build:latest .
-  docker build --target production -t ghcr.io/opdavies/oliverdavies.uk-build:$(git rev-parse HEAD) .
-}
-
-function ci:push-images {
-  docker push ghcr.io/opdavies/oliverdavies.uk-build:latest
-  docker push ghcr.io/opdavies/oliverdavies.uk-build:$(git rev-parse HEAD)
-}
-
 function cmd {
   # Run any command in the app container.
   _dc app "${@}"
@@ -29,36 +19,12 @@ function composer {
   _dc --entrypoint composer app "${@}"
 }
 
-function deploy {
-  cd tools/deployment
-  ansible-playbook deploy.yml "${@}"
-}
-
 function help {
   printf "%s <task> [args]\n\nTasks:\n" "${0}"
 
   compgen -A function | grep -v "^_" | cat -n
 
   printf "\nExtended help:\n  Each task has comments for general usage\n"
-}
-
-function run-production {
-  DESTINATION_PATH="${2:-/var/www/oliverdavies.uk}"
-  GIT_COMMIT_HASH="${1:-latest}"
-
-  # Clean up any old containers or files within the artifact directory.
-  rm -fr ${DESTINATION_PATH}/* || true
-
-  docker image pull ghcr.io/opdavies/oliverdavies-uk-web:${GIT_COMMIT_HASH}
-
-  docker container run \
-    --entrypoint sh \
-    --name oliverdavies-uk-web \
-    ghcr.io/opdavies/oliverdavies-uk-web:${GIT_COMMIT_HASH}
-
-  docker container cp oliverdavies-uk-web:/code/. ${DESTINATION_PATH}
-
-  docker container rm oliverdavies-uk-web
 }
 
 function sh {

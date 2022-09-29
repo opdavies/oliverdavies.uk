@@ -5,9 +5,9 @@ on:
     branches:
       - main
     paths-ignore:
-      - 'README.md'
+      - "README.md"
   schedule:
-    - cron: '0 12 15 * *'
+    - cron: "0 12 15 * *"
   workflow_dispatch:
 
 env:
@@ -18,6 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
+      - uses: extractions/setup-just@95b912dc5d3ed106a72907f2f9b91e76d60bdb76 # 1.5.0
 
       - name: Login to the Docker registry
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9 # v1.10.0
@@ -29,9 +30,7 @@ jobs:
       - run: cp .env.example .env
         working-directory: ./website
 
-      - run: ./run ci:build-images
-        working-directory: ./website
+      - run: |
+          just push-images ${{ github.sha }}
 
-      - run: ./run ci:push-images
-        working-directory: ./website
 # vim: sw=2 ts=2
