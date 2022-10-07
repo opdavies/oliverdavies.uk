@@ -27,9 +27,6 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: cp .env.example .env
-        working-directory: ./website
-
       - run: |
           just push-images ${{ github.sha }}
 

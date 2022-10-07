@@ -1,0 +1,17 @@
+---
+---
+
+<script>
+  import Alpine from 'alpinejs';
+
+  window.Alpine = Alpine;
+  Alpine.start();
+</script>
+
+<div x-data="{ term: '' }">
+  <form :action="`https://www.google.com/search?q=site%3Aoliverdavies.uk+%22` + term + `%22`">
+
+    <input type="text" x-model="term" />
+    <button>Search</button>
+  </form>
+</div>

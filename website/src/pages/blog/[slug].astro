@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro'
+
+export async function getStaticPaths() {
+  const posts = await Astro.glob('../../posts/*.md')
+
+  return posts
+    .map(post => {
+      const parts = post.file.replace('.md', '').split('/')
+      const slug = parts[parts.length - 1]
+
+      return {
+        params: { slug },
+        props: { post },
+      }
+    })
+}
+
+const { Content } = Astro.props.post
+const { title } = Astro.props.post.frontmatter
+---
+
+<Layout title={title}>
+  <div class="space-y-6">
+    <div class="markdown">
+      <Content />
+    </div>
+  </div>
+</Layout>

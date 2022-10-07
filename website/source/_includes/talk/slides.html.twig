@@ -1,9 +1,0 @@
-{% if speakerdeck.id and speakerdeck.ratio %}
-    <div>
-        <h2 class="mb-2">Slides</h2>
-
-        {% include 'speakerdeck' with {
-            data: speakerdeck,
-        } only %}
-    </div>
-{% endif %}

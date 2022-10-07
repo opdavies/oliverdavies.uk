@@ -1,0 +1,76 @@
+---
+layout: ../layouts/PageLayout.astro
+title: Introduction to Automated Testing and Test-Driven Development with Drupal
+---
+
+import { chain as _ } from 'lodash'
+
+export const drupalVersions = '9 and 10'
+
+export const prices = {
+  early: "395.00",
+  full: "495.00",
+}
+
+export const isEarlyBird = true
+
+export const nextDate = '2022-04-04'
+
+export const testimonials = [
+  {
+    name: 'Scott Euser, Head of Web Development',
+    image: '/images/scott-euser.jpg',
+    text: 'Oliver really knows his stuff. Whether you are just starting out or looking to take your knowledge to the next level, his patient and clear way of explaining will help get you there.',
+  },
+]
+
+Are you a Drupal Developer who wants to learn about automated testing and test-driven development, or do you manage a development team that you'd like to train?
+
+I've delivered large Drupal projects using automated tests and test-driven development for custom functionality, and maintain Drupal modules with thousands of installations whilst using their tests to ensure working code and prevent regressions.
+
+I offer an interactive full-day workshop (previously presented at DrupalCamp London, and remotely for DrupalCamp NYC) that provides an introduction to automated testing in Drupal and how to utilise test-driven development - which I've updated specifically for Drupal {drupalVersions}.
+
+## Contents
+
+* What is automated testing, and why write tests?
+* What types of tests are available in Drupal?
+* Outside-in vs. inside-out testing.
+* Configuring Drupal and PHPUnit to run tests locally.
+* Exercise: writing tests for existing Drupal core functionality.
+* Exercise: adding tests to an existing custom module.
+* What is test-driven development?
+* Exercise: writing a new Drupal module from scratch with test-driven development.
+* Q&A
+
+<hr />
+
+## Dates and prices
+
+The workshop is currently only available remotely, and the next available date is <span class="font-bold">{new Date(nextDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', })}</span>.
+
+Seats are available at <span class="font-bold">{isEarlyBird ? `an early bird price of £${prices.early}` : `a price of £${prices.full}`}</span>, with a 10% discount for bulk orders of 5 or more seats.
+
+<div class="mt-6">
+  <a class="inline-flex items-center px-6 py-3 font-medium rounded-md bg-blue-primary text-white no-underline hover:bg-white hover:text-blue-primary focus:bg-white focus:text-blue-primary transition-color ease-in-out duration-200 text-base" href="https://buy.stripe.com/6oE3cW4Su7DA1t6144">
+    Book your seat &rarr;
+  </a>
+</div>
+
+<hr />
+
+## Testimonials
+
+{testimonials.map(testimonial => (
+  <div>
+    <blockquote class="mt-4">
+      {testimonial.text}
+    </blockquote>
+
+    <footer class="flex items-center space-x-4 space-x-reverse">
+      <span class="text-base">{testimonial.name}</span>
+      <span class="order-first">
+        <img width="40" height="40" class="w-10 h-10 rounded-full border" src={testimonial.image} />
+      </span>
+    </footer>
+  </div>
+))}

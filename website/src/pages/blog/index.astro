@@ -1,0 +1,50 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro'
+
+const posts = await Astro.glob("../../posts/*.md")
+
+// TODO: show all posts when running locally.
+const filteredPosts = posts
+  .filter(post => !post.frontmatter.draft)
+  .filter(post => post.frontmatter.date)
+
+const sortedPosts = filteredPosts
+  .map(post => {
+    const parts = post.file.replace('.md', '').split('/')
+    const slug = parts[parts.length - 1]
+
+    return { post, slug }
+  })
+  .sort((a, b) =>
+    new Date(b.post.frontmatter.date).valueOf() -
+      new Date(a.post.frontmatter.date).valueOf()
+  )
+---
+
+<PageLayout title="Blog">
+  <p>This is where I publish my personal blog posts as well as technical posts and tutorials on topics such as Drupal, PHP, Tailwind CSS, automated testing, and systems administration. </p>
+
+  <div>
+    {sortedPosts.map((post) => (
+      <article>
+        <a href=`/blog/${post.slug}`>
+          <h2>{post.post.frontmatter.title}</h2>
+        </a>
+
+        {post.post.frontmatter.date && (
+          <time class="text-base" datetime={post.post.frontmatter.date}>
+            {new Date(post.post.frontmatter.date).toLocaleDateString('en-GB', {
+              day: 'numeric',
+              month: 'long',
+              year: 'numeric',
+            })}
+          </time>
+        )}
+
+        <div class="mt-1">
+          <p>{post.post.frontmatter.excerpt}</p>
+        </div>
+      </article>
+    ))}
+  </div>
+</PageLayout>

@@ -1,0 +1,61 @@
+---
+import Layout from '../../layouts/Layout.astro'
+
+export async function getStaticPaths() {
+  const talks = await Astro.glob('../../talks/*.md')
+
+  return talks.map(talk => {
+    const parts = talk.file.replace('.md', '').split('/')
+    const slug = parts[parts.length - 1]
+
+    return {
+      params: { slug },
+      props: { talk } 
+    }
+  })
+}
+
+const { Content } = Astro.props.talk
+const { title, speakerdeck, video } = Astro.props.talk.frontmatter
+---
+
+<Layout title={title}>
+  <div class="space-y-6">
+    <div class="markdown">
+      <Content />
+    </div>
+
+    {speakerdeck && speakerdeck.id && (
+      <div>
+        <h2 class="mb-2">Slides</h2>
+
+        <div class="slides">
+          <noscript>**Please enable JavaScript to view slides.**</noscript>
+          <script
+            class="speakerdeck-embed"
+            data-id={speakerdeck.id}
+            data-ratio={speakerdeck.ratio ?? '1.29456384323641'}
+            src="//speakerdeck.com/assets/embed.js"
+          ></script>
+        </div>
+      </div>
+    )}
+
+    {video && video.type == "youtube" && (
+      <div>
+        <h2 class="mb-2">Video</h2>
+
+        <div class="video-full">
+          <iframe
+            width="678"
+            height="408"
+            src={`https://www.youtube.com/embed/${video.id}?rel=0&iv_load_policy=3`}
+            frameborder="0"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+    )}
+  </div>
+</Layout>
