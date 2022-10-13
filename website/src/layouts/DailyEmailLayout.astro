@@ -1,15 +1,16 @@
 ---
 import BaseLayout from './PageLayout.astro'
 import DailyEmailForm from '../components/DailyEmailForm.astro'
+import Markdown from '../components/Markdown.astro'
 
 const { title } = Astro.props.frontmatter || Astro.props;
 ---
 
 <BaseLayout title={title}>
   <div class="space-y-16">
-    <div class="markdown">
+    <Markdown>
       <slot />
-    </div>
+    </Markdown>
 
     <DailyEmailForm />
   </div>

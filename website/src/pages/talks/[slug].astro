@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro'
+import Markdown from '../../components/Markdown.astro'
 
 export async function getStaticPaths() {
   const talks = await Astro.glob('../../talks/*.md')
@@ -21,9 +22,9 @@ const { title, speakerdeck, video } = Astro.props.talk.frontmatter
 
 <Layout title={title}>
   <div class="space-y-6">
-    <div class="markdown">
+    <Markdown>
       <Content />
-    </div>
+    </Markdown>
 
     {speakerdeck && speakerdeck.id && (
       <div>
