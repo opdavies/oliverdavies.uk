@@ -16,8 +16,17 @@ export async function getStaticPaths() {
   })
 }
 
+interface Event {
+  date: string
+  location: string
+  name: string
+  online?: boolean
+  time: string
+  url?: string
+}
+
 const { Content } = Astro.props.talk
-const { title, speakerdeck, video } = Astro.props.talk.frontmatter
+const { events, title, speakerdeck, video }: { events: Event[] } = Astro.props.talk.frontmatter
 ---
 
 <Layout title={title}>
@@ -58,5 +67,26 @@ const { title, speakerdeck, video } = Astro.props.talk.frontmatter
         </div>
       </div>
     )}
+
+    <div>
+      <h2>Events</h2>
+      
+      <div>
+        <ul class="ml-4 list-disc">
+          {events.map((event) => (
+            <li>
+              {event.url ? (<a class="link" href={event.url}>{event.name}</a>) : event.name}
+              {event.location && `in ${event.location}`}
+              - {new Date(event.date).toLocaleDateString('en-GB', {
+                day: 'numeric',
+                month: 'long',
+                year: 'numeric',
+              })}
+              {event.online && '(online)'}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
   </div>
 </Layout>
