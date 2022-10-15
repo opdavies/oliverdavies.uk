@@ -1,4 +1,5 @@
 ---
+import AboutMe from '../../components/AboutMe.astro'
 import Layout from '../../layouts/Layout.astro'
 import Markdown from '../../components/Markdown.astro'
 
@@ -26,5 +27,7 @@ const { title } = Astro.props.post.frontmatter
     <Markdown>
       <Content />
     </Markdown>
+
+    <AboutMe />
   </div>
 </Layout>

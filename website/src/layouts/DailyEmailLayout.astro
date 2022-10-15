@@ -1,4 +1,5 @@
 ---
+import AboutMe from '../components/AboutMe.astro'
 import BaseLayout from './PageLayout.astro'
 import DailyEmailForm from '../components/DailyEmailForm.astro'
 import Markdown from '../components/Markdown.astro'
@@ -13,5 +14,7 @@ const { title } = Astro.props.frontmatter || Astro.props;
     </Markdown>
 
     <DailyEmailForm />
+
+    <AboutMe />
   </div>
 </BaseLayout>
