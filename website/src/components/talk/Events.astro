@@ -1,0 +1,42 @@
+---
+interface Event {
+  date: string
+  location: string
+  name: string
+  online?: boolean
+  time: string
+  url?: string
+}
+
+interface Props {
+  events: Event[]
+}
+
+const { events } = Astro.props
+---
+
+{events && (
+  <div>
+    <h2>Events</h2>
+    
+    <div>
+      <ul class="ml-4 list-disc">
+        {events.map((event) => (
+          <li>
+            {event.url ? (<a class="link" href={event.url}>{event.name}</a>) : event.name}
+
+            {event.location && `in ${event.location}`}
+
+            - {new Date(event.date).toLocaleDateString('en-GB', {
+              day: 'numeric',
+              month: 'long',
+              year: 'numeric',
+            })}
+
+            {event.online && '(online)'}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+)}

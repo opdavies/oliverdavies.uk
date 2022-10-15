@@ -1,6 +1,9 @@
 ---
+import Events from '../../components/talk/Events.astro'
 import Layout from '../../layouts/Layout.astro'
 import Markdown from '../../components/Markdown.astro'
+import Slides from '../../components/talk/Slides.astro'
+import Video from '../../components/talk/Video.astro'
 
 export async function getStaticPaths() {
   const talks = await Astro.glob('../../talks/*.md')
@@ -16,17 +19,8 @@ export async function getStaticPaths() {
   })
 }
 
-interface Event {
-  date: string
-  location: string
-  name: string
-  online?: boolean
-  time: string
-  url?: string
-}
-
 const { Content } = Astro.props.talk
-const { events, title, speakerdeck, video }: { events: Event[] } = Astro.props.talk.frontmatter
+const { events, speakerdeck, title, video } = Astro.props.talk.frontmatter
 ---
 
 <Layout title={title}>
@@ -35,58 +29,14 @@ const { events, title, speakerdeck, video }: { events: Event[] } = Astro.props.t
       <Content />
     </Markdown>
 
-    {speakerdeck && speakerdeck.id && (
-      <div>
-        <h2 class="mb-2">Slides</h2>
-
-        <div class="slides">
-          <noscript>**Please enable JavaScript to view slides.**</noscript>
-          <script
-            class="speakerdeck-embed"
-            data-id={speakerdeck.id}
-            data-ratio={speakerdeck.ratio ?? '1.29456384323641'}
-            src="//speakerdeck.com/assets/embed.js"
-          ></script>
-        </div>
-      </div>
+    {speakerdeck && (
+      <Slides id={speakerdeck.id} ratio={speakerdeck.ratio} />
     )}
 
-    {video && video.type == "youtube" && (
-      <div>
-        <h2 class="mb-2">Video</h2>
-
-        <div class="video-full">
-          <iframe
-            width="678"
-            height="408"
-            src={`https://www.youtube.com/embed/${video.id}?rel=0&iv_load_policy=3`}
-            frameborder="0"
-            allowfullscreen
-          >
-          </iframe>
-        </div>
-      </div>
+    {video && (
+      <Video id={video.id} type={video.type} />
     )}
 
-    <div>
-      <h2>Events</h2>
-      
-      <div>
-        <ul class="ml-4 list-disc">
-          {events.map((event) => (
-            <li>
-              {event.url ? (<a class="link" href={event.url}>{event.name}</a>) : event.name}
-              {event.location && `in ${event.location}`}
-              - {new Date(event.date).toLocaleDateString('en-GB', {
-                day: 'numeric',
-                month: 'long',
-                year: 'numeric',
-              })}
-              {event.online && '(online)'}
-            </li>
-          ))}
-        </ul>
-      </div>
-    </div>
+    <Events events={events} />
   </div>
 </Layout>

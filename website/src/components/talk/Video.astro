@@ -1,0 +1,25 @@
+---
+interface Props {
+  id: string
+  type: string
+}
+
+const { id, type }: Props = Astro.props
+---
+
+{type == "youtube" && (
+  <div>
+    <h2 class="mb-2">Video</h2>
+
+    <div class="video-full">
+      <iframe
+        width="678"
+        height="408"
+        src={`https://www.youtube.com/embed/${id}?rel=0&iv_load_policy=3`}
+        frameborder="0"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+  </div>
+)}
