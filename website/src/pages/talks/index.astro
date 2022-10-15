@@ -1,7 +1,14 @@
 ---
+import _ from 'lodash'
 import PageLayout from '../../layouts/PageLayout.astro'
 
 const talks = await Astro.glob("../../talks/*.md")
+
+const talkCount = _(talks)
+  .map((talk) => talk.frontmatter.events)
+  .flatten()
+  .value()
+  .length
 
 const sortedTalks = talks
   .map(talk => {
@@ -22,7 +29,7 @@ const sortedTalks = talks
 ---
 
 <PageLayout title="Talks and workshops">
-  <p>Starting with my first talk in September 2012, I have given 85 presentations and workshops at various conferences and meetups, in-person and remotely, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.</p>
+  <p>Starting with my first talk in September 2012, I have given {talkCount} presentations and workshops at various conferences and meetups, in-person and remotely, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.</p>
 
   <div>
     {sortedTalks.map((talk) => (
