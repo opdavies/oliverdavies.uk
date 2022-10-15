@@ -22,19 +22,19 @@ events:
     date: "2021-08-19"
     location: Leeds, UK
     url: https://www.meetup.com/DrupalYorkshire/events/280100968
-    is_online: true
+    online: true
 
   - name: PHP North West (PHPNW)
     date: "2021-09-07"
     location: Manchester, UK
     url: https://www.phpnw.org.uk
-    is_online: true
+    online: true
 
   - name: GroningenPHP
     date: "2021-12-09"
     location: Groningen, Netherlands
     url: https://www.meetup.com/GroningenPHP/events/281648855
-    is_online: true
+    online: true
 ---
 
 [Sculpin][0] is a static site generator written in PHP. It converts Markdown

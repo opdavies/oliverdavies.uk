@@ -35,61 +35,61 @@ events:
     date: "2020-03-12"
     location: Edinburgh, UK
     url: https://www.meetup.com/Drupal-Edinburgh/events/267905594
-    is_online: true
+    online: true
 
   - name: CMS Philly
     date: "2020-05-01"
     location: Philadelphia, USA
     url: https://cmsphilly.org
-    is_online: true
+    online: true
 
   - name: Drupal Yorkshire
     date: "2020-05-21"
     location: Leeds, UK
     url: https://www.meetup.com/DrupalYorkshire/events/zwzsfpybchbcc
-    is_online: true
+    online: true
 
   - name: PHP London
     date: "2020-06-04"
     location: London, UK
     url: https://www.meetup.com/phplondon/events/270930524
-    is_online: true
+    online: true
 
   - name: PHP North East
     date: "2020-06-16"
     location: Newcastle Upon Tyne, UK
     url: https://www.meetup.com/phpnortheast
-    is_online: true
+    online: true
 
   - name: PHP Sussex
     date: "2020-07-01"
     location: Brighton, UK
     url: https://www.meetup.com/PHP-Sussex/events/271472628
-    is_online: true
+    online: true
 
   - name: Midwest PHP
     date: "2021-04-23"
     location: ~
     url: https://midwestphp.org/talks/1q5XUF2tTdXXLYOoujMkpF/Deploying_PHP_applications_with_Ansible_Ansible_Vault_and_Ansistrano
-    is_online: true
+    online: true
 
   - name: PHP Oxford
     date: "2021-04-28"
     location: Oxford, UK
     url: https://www.meetup.com/PHP-Oxford/events/qmbkfsyccgblc
-    is_online: true
+    online: true
 
   - name: Ansible London
     date: "2021-05-25"
     location: London, UK
     url: https://www.meetup.com/Ansible-London/events/278093392
-    is_online: true
+    online: true
 
   - name: DrupalNYC
     date: "2021-06-15"
     location: New York, USA
     url: https://ti.to/drupalnyc/lunch-learn-2021-06-15
-    is_online: true
+    online: true
 ---
 
 Great! You’ve built your website, and now you just need to deploy it. There are various ways that this could be done - from (S)FTP, to SCP and rsync, to running commands like `git pull` and `composer install` directly on the server which is not ideal.
