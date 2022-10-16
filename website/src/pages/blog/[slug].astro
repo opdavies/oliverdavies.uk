@@ -2,14 +2,14 @@
 import AboutMe from '../../components/AboutMe.astro'
 import Layout from '../../layouts/Layout.astro'
 import Markdown from '../../components/Markdown.astro'
+import { getSlugFromFile } from '../../utils.ts'
 
 export async function getStaticPaths() {
   const posts = await Astro.glob('../../posts/*.md')
 
   return posts
     .map(post => {
-      const parts = post.file.replace('.md', '').split('/')
-      const slug = parts[parts.length - 1]
+      const slug = getSlugFromFile(post.file)
 
       return {
         params: { slug },

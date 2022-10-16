@@ -1,5 +1,6 @@
 ---
 import PageLayout from '../../layouts/PageLayout.astro'
+import { getSlugFromFile } from '../../utils.ts'
 
 const posts = await Astro.glob("../../posts/*.md")
 
@@ -10,8 +11,7 @@ const filteredPosts = posts
 
 const sortedPosts = filteredPosts
   .map(post => {
-    const parts = post.file.replace('.md', '').split('/')
-    const slug = parts[parts.length - 1]
+    const slug = getSlugFromFile(post.file)
 
     return { post, slug }
   })

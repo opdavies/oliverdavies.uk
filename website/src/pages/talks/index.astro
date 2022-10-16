@@ -1,6 +1,6 @@
 ---
-import _ from 'lodash'
 import PageLayout from '../../layouts/PageLayout.astro'
+import { getSlugFromFile } from '../../utils.ts'
 
 const talks = await Astro.glob("../../talks/*.md")
 
@@ -10,8 +10,7 @@ const talkCount = _(talks)
 
 const sortedTalks = talks
   .map(talk => {
-    const parts = talk.file.replace('.md', '').split('/')
-    const slug = parts[parts.length - 1]
+    const slug = getSlugFromFile(talk.file)
 
     return { slug, talk }
   })

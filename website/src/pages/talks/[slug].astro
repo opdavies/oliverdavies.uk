@@ -5,13 +5,13 @@ import Layout from '../../layouts/Layout.astro'
 import Markdown from '../../components/Markdown.astro'
 import Slides from '../../components/talk/Slides.astro'
 import Video from '../../components/talk/Video.astro'
+import { getSlugFromFile } from '../../utils.ts'
 
 export async function getStaticPaths() {
   const talks = await Astro.glob('../../talks/*.md')
 
   return talks.map(talk => {
-    const parts = talk.file.replace('.md', '').split('/')
-    const slug = parts[parts.length - 1]
+    const slug = getSlugFromFile(talk.file)
 
     return {
       params: { slug },
