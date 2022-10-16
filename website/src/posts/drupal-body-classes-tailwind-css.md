@@ -115,7 +115,8 @@ public function __construct(Connection $database) {
 ### Completing the handle method
 
 As well as the database, I've added some properties to contain the table names to query as well as the name of the file to output:
-```
+
+```php
 private static array $tableNames = [
   'block_content__body',
   'node__body',
