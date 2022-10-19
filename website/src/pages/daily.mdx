@@ -5,8 +5,33 @@ title: Oliver's Daily List
 
 import AboutMe from '../components/AboutMe.astro';
 import DailyEmailForm from '../components/DailyEmailForm.astro';
+import Markdown from '../components/Markdown.astro';
+
+export const testimonials = [
+  {
+    name: "Patty O'Callaghan",
+    text: "<p>Just wanted to say that your blog is amazing <3 I absolutely love it and usually share it with colleagues and some of the kids at my Code Club.</p><p>Thanks for contributing to the community with your amazing content! :)</p>",
+  },
+]
 
 A daily newsletter on software development, DevOps, community, and open-source. 
 
 <DailyEmailForm />
+
+{false && testimonials && (
+  <section>
+    <h2 class="sr-only">Testimonials</h2>
+
+    <div>
+      {testimonials.map(testimonial => (
+        <article>
+          {testimonial.name}
+
+          <Markdown set:html={testimonial.text} />
+        </article>
+      ))}
+    </div>
+  </section>
+)}
+
 <AboutMe />
