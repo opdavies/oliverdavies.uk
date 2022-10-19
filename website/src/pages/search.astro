@@ -1,17 +1,11 @@
 ---
+import PageLayout from '../layouts/PageLayout.astro'
 ---
 
-<script>
-  import Alpine from 'alpinejs';
-
-  window.Alpine = Alpine;
-  Alpine.start();
-</script>
-
-<div x-data="{ term: '' }">
-  <form :action="`https://www.google.com/search?q=site%3Aoliverdavies.uk+%22` + term + `%22`">
-
-    <input type="text" x-model="term" />
-    <button>Search</button>
+<PageLayout title="Search">
+  <form action="https://www.google.com/search" method="get">
+    <input type="hidden" name="q" value="site:https://www.oliverdavies.uk">
+    <input type="text" name="q" alt="search">
+    <input type="submit" value="Search">
   </form>
-</div>
+</PageLayout>
