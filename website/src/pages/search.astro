@@ -1,11 +1,35 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro'
+
+const commonSearches = [
+  'Drupal',
+  'Test-Driven Development',
+  'Tailwind CSS',
+  'Ansible',
+  'Ansistrano',
+]
 ---
 
 <PageLayout title="Search">
-  <form action="https://www.google.com/search" method="get">
-    <input type="hidden" name="q" value="site:https://www.oliverdavies.uk">
-    <input type="text" name="q" alt="search">
-    <input type="submit" value="Search">
-  </form>
+  <div>
+    <form action="https://www.google.com/search" method="get">
+      <input type="hidden" name="q" value="site:https://www.oliverdavies.uk">
+      <input type="text" name="q" alt="search">
+      <input type="submit" value="Search">
+    </form>
+  </div>
+
+  <aside>
+    <h2>Common searches</h2>
+
+    <ul>
+      {commonSearches.map(search => (
+        <li>
+          <a href=`https://www.google.com/search?q=site%3Awww.oliverdavies.uk+%22${search}%22`>
+            {search}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </aside>
 </PageLayout>
