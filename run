@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+
+set -e
+set -o pipefail
+
+# Create a new daily email post for the next subsequent date.
+# args:
+#   - date:
+#     - "next" for the next subsequent date based on the existing files.
+#     - Any other value, e.g. a date, will be used explicitly.
+#   - title: The title to use for the post.
+function task:daily {
+  # Find the next post date based on the last post in the directory.
+  local next_date
+  if [[ "${1}" == "next" ]]; then
+    next_date=$(ls -1 website/src/daily-emails  | tail -n 1 | tr -d '.md' | xargs -I {} date +%Y-%m-%d -d '{} +1 day')
+  else
+    next_date="${1}"
+  fi
+
+  local filepath="website/src/daily-emails/${next_date}.md"
+
+  shift 1
+
+  # Generate the title and slug.
+  local title="${*}"
+  local slug
+  slug=$(echo "${title}" | awk '{print tolower($0)}' | tr ' ' '-')
+
+  # Create the file.
+  cp -vf --no-clobber stub.md "${filepath}"
+
+  local day
+  local month
+  local year
+  date=$(date -d "${next_date}" +%Y-%m-%d)
+  day=$(date -d "${next_date}" +%d)
+  month=$(date -d "${next_date}" +%m)
+  year=$(date -d "${next_date}" +%Y)
+
+  # Replace the placeholders.
+  sed -i "s/{{ date }}/${date}/" "${filepath}"
+  sed -i "s/{{ title }}/${title}/" "${filepath}"
+  sed -i "s#{{ permalink }}#archive/${year}/${month}/${day}/${slug}#" "${filepath}"
+
+  echo "${filepath}"
+}
+
+function task:help {
+  echo "task:help"
+}
+
+eval "task:${*:-help}"
