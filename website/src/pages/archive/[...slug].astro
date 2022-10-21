@@ -5,14 +5,18 @@ import Layout from '../../layouts/DailyEmailLayout.astro'
 export async function getStaticPaths() {
   const emails = await Astro.glob('../../daily-emails/*.md')
 
-  return emails.map(email => ({
-    params: {
-      slug: email.frontmatter.permalink.replace('archive/', ''),
-    },
-    props: {
-      email,
+  return emails.map(email => {
+    return {
+      params: {
+        slug: email.frontmatter.permalink
+          .replace('archive/', '')
+          .replace('\n', ''),
+      },
+      props: {
+        email,
+      } 
     } 
-  }))
+  })
 }
 
 const { Content } = Astro.props.email
