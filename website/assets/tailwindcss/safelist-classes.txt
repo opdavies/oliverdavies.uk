@@ -1,9 +1,9 @@
 bg-blue-600
-bg-gray-200
+bg-grey-200
 block
 block-opdavies-branding
 border
-border-gray
+border-grey
 border-l-0
 flex
 flex-col
