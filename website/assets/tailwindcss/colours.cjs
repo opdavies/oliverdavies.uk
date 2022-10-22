@@ -1,4 +1,4 @@
-let { gray } = require('tailwindcss/colors')
+let colours = require('tailwindcss/colors')
 
 module.exports = {
   black: '#000',
@@ -6,7 +6,7 @@ module.exports = {
     primary: '#24608A',
   },
   current: 'currentColor',
-  gray,
+  gray: colours.stone,
   inherit: 'inherit',
   transparent: 'transparent',
   white: '#fff'
