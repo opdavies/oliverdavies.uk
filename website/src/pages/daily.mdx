@@ -6,32 +6,58 @@ title: Oliver's Daily List
 import AboutMe from '../components/AboutMe.astro';
 import DailyEmailForm from '../components/DailyEmailForm.astro';
 import Markdown from '../components/Markdown.astro';
+import _ from 'lodash'
 
 export const testimonials = [
   {
     name: "Patty O'Callaghan",
     text: "<p>Just wanted to say that your blog is amazing <3 I absolutely love it and usually share it with colleagues and some of the kids at my Code Club.</p><p>Thanks for contributing to the community with your amazing content! :)</p>",
+    image: "patty-ocallaghan.jpg"
   },
+  {
+    name: "Stephen Mulvihill",
+    text: "I like the \"$ git log -S\" and \"$ git log --grep\" commands, will definitely be using these, thanks!",
+    image: "stephen-mulvihill.jpg"
+  }
 ]
+
+export const sortedTestimonials = _.reverse(testimonials)
 
 A daily newsletter on software development, DevOps, community, and open-source. 
 
-<DailyEmailForm />
+<div class="space-y-12">
+  <div class="space-y-20">
+    <DailyEmailForm />
 
-{false && testimonials && (
-  <section>
-    <h2 class="sr-only">Testimonials</h2>
+    {sortedTestimonials && (
+      <section>
+        <h2 class="sr-only">Testimonials</h2>
 
-    <div>
-      {testimonials.map(testimonial => (
-        <article>
-          {testimonial.name}
+        <div class="space-y-12">
+          {testimonials.map(testimonial => (
+            <article class="flex space-x-10">
+              <div>
+                <blockquote class="m-0">
+                  <Markdown set:html={testimonial.text} />
+                </blockquote>
+  
+                <figcaption class="mt-6">{testimonial.name}</figcaption>
+              </div>
 
-          <Markdown set:html={testimonial.text} />
-        </article>
-      ))}
-    </div>
-  </section>
-)}
+              <div class="flex-shrink-0 hidden sm:block">
+                <img
+                  alt={testimonial.name}
+                  class="border border-grey rounded-full"
+                  src={`/images/daily/${testimonial.image}`}
+                  width="75"
+                />
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
 
-<AboutMe />
+  <AboutMe />
+</div>
