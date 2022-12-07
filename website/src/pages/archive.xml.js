@@ -11,7 +11,7 @@ export const get = () => rss({
     title: 'Daily email list',
     description: 'A daily newsletter on software development, DevOps, community, and open-source.',
     site: import.meta.env.SITE,
-    items: emails.map((email) => ({
+    items: emails.slice(0, 1).map((email) => ({
       description: email.compiledContent(),
       link: `${import.meta.env.SITE}${email.frontmatter.permalink}`,
       title: email.frontmatter.title,
