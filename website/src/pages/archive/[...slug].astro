@@ -1,0 +1,28 @@
+---
+import DailyEmailForm from '../../components/DailyEmailForm.astro'
+import Layout from '../../layouts/DailyEmailLayout.astro'
+
+export async function getStaticPaths() {
+  const emails = await Astro.glob('../../daily-emails/*.md')
+
+  return emails.map(email => {
+    return {
+      params: {
+        slug: email.frontmatter.permalink
+          .replace('archive/', '')
+          .replace('\n', ''),
+      },
+      props: {
+        email,
+      } 
+    } 
+  })
+}
+
+const { Content } = Astro.props.email
+const { title } = Astro.props.email.frontmatter
+---
+
+<Layout title={title}>
+  <Content />
+</Layout>
