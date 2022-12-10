@@ -1,6 +1,6 @@
 ---
 import DailyEmailForm from '../../components/DailyEmailForm.astro'
-import Layout from '../../layouts/PageLayout.astro'
+import Layout from '../../layouts/DailyEmailLayout.astro'
 
 export async function getStaticPaths({ paginate }) {
   const emails = await Astro.glob('../../daily-emails/*.md')
