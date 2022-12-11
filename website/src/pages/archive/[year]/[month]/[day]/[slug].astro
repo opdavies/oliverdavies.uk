@@ -11,7 +11,7 @@ export async function getStaticPaths() {
     const slug = email.frontmatter.permalink
       .replace('archive/', '')
       .replace('\n', '')
-      .split('/')[3]
+      .split('/')[3] as string
 
     return {
       params: {
