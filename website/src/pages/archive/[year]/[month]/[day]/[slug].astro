@@ -11,13 +11,13 @@ export async function getStaticPaths() {
     const slug = email.frontmatter.permalink
       .replace('archive/', '')
       .replace('\n', '')
-      .split('/')[3] as string
+    const slugParts = slug.split('/')
 
     return {
       params: {
         day: pubDate[2],
         month: pubDate[1],
-        slug, 
+        slug: slugParts.reverse()[0], 
         year: pubDate[0],
       },
       props: {
