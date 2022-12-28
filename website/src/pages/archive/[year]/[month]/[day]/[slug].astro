@@ -3,7 +3,7 @@ import DailyEmailForm from '../../../../../components/DailyEmailForm.astro'
 import Layout from '../../../../../layouts/DailyEmailLayout.astro'
 
 export async function getStaticPaths() {
-  const emails = await Astro.glob('../../../../../daily-emails/*.md')
+  const emails = await Astro.glob('../../../../../daily-emails/*.{md,mdx}')
 
   return emails.map(email => {
     const pubDate = email.frontmatter.pubDate.split('T')[0].split('-')

@@ -3,7 +3,7 @@ import DailyEmailForm from '../../components/DailyEmailForm.astro'
 import Layout from '../../layouts/DailyEmailLayout.astro'
 
 export async function getStaticPaths({ paginate }) {
-  const emails = await Astro.glob('../../daily-emails/*.md')
+  const emails = await Astro.glob('../../daily-emails/*.{md,mdx}')
   const sortedEmails = emails
     .sort((a, b) =>
       new Date(b.frontmatter.pubDate).valueOf() -
