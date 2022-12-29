@@ -84,6 +84,11 @@ events:
     date: "2021-02-09"
     url: https://www.meetup.com/nashvillephp/events/kzkdwryccdbmb
     online: true
+
+  - name: Norfolk Developers Conference
+    location: Norwich, UK
+    date: "2023-02-23"
+    url: https://nordevcon.com
 meta:
   og:
     title: Taking Flight with Tailwind CSS
