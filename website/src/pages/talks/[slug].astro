@@ -1,11 +1,11 @@
 ---
-import AboutMe from '../../components/AboutMe.astro'
-import Events from '../../components/talk/Events.astro'
-import Layout from '../../layouts/Layout.astro'
-import Markdown from '../../components/Markdown.astro'
-import Slides from '../../components/talk/Slides.astro'
-import Video from '../../components/talk/Video.astro'
-import { getSlugFromFile } from '../../utils.ts'
+import AboutMe from '~/components/AboutMe.astro'
+import Events from '~/components/talk/Events.astro'
+import Layout from '~/layouts/Layout.astro'
+import Markdown from '~/components/Markdown.astro'
+import Slides from '~/components/talk/Slides.astro'
+import Video from '~/components/talk/Video.astro'
+import { getSlugFromFile } from '~/utils.ts'
 
 export async function getStaticPaths() {
   const talks = await Astro.glob('../../talks/*.md')

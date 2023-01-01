@@ -1,8 +1,8 @@
 ---
-import AboutMe from '../../components/AboutMe.astro'
-import Layout from '../../layouts/Layout.astro'
-import Markdown from '../../components/Markdown.astro'
-import { getSlugFromFile } from '../../utils.ts'
+import AboutMe from '~/components/AboutMe.astro'
+import Layout from '~/layouts/Layout.astro'
+import Markdown from '~/components/Markdown.astro'
+import { getSlugFromFile } from '~/utils.ts'
 
 export async function getStaticPaths() {
   const posts = await Astro.glob('../../posts/*.md')

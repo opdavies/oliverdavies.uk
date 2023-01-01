@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/PageLayout.astro
+layout: ~/layouts/PageLayout.astro
 title: Oliver Davies - Software Developer and Consultant, PHP and Drupal specialist
 ---
 
