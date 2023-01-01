@@ -1,13 +1,29 @@
 'use strict';
 
-/* Create a new Fractal instance and export it for use elsewhere if required */
 const fractal = module.exports = require('@frctl/fractal').create();
+const mandelbrot = require("@frctl/mandelbrot")
 
-/* Set the title of the project */
 fractal.set('project.title', 'oliverdavies.uk');
 
-/* Tell Fractal where the components will live */
 fractal.components.set('path', __dirname + '/src/components');
+fractal.components.engine(require('@frctl/nunjucks'));
+fractal.components.set('ext', '.njk');
 
-/* Tell Fractal where the documentation pages will live */
 fractal.docs.set('path', __dirname + '/src/docs');
+
+fractal.web.theme(
+  mandelbrot({
+    information: [
+      {
+        label: 'Built on',
+        value: new Date(),
+        type: 'time',
+        format: (value) => {
+          return value.toLocaleDateString('en');
+        },
+      },
+    ],
+    format: "yaml",
+    skin: "black",
+  })
+);
