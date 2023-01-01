@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@frctl/fractal": "^1.5.14",
+    "@frctl/nunjucks": "^2.0.15",
     "tailwindcss": "^3.2.4"
   }
 }

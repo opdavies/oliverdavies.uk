@@ -83,6 +83,16 @@
     js-beautify "^1.13.13"
     lodash "^4.17.21"
 
+"@frctl/nunjucks@^2.0.15":
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/@frctl/nunjucks/-/nunjucks-2.0.15.tgz#e7086ce931a73b110c771f47d37af1040b8f0b4e"
+  integrity sha512-h7HMAJu645fUmxftTi3d5+dkEdrwk90D/nPVlcd7Pfh89e5ALlzzaGLTPN0gpN7tF6FlOABDt7RJRX+N19xVWg==
+  dependencies:
+    "@frctl/core" "^0.3.5"
+    bluebird "^3.7.2"
+    lodash "^4.17.21"
+    nunjucks "^3.2.3"
+
 "@frctl/web@^0.1.12":
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/@frctl/web/-/web-0.1.12.tgz#4c074324e71dea27d2b64fb8a4bfc031c112a250"
