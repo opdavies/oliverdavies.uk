@@ -12,13 +12,12 @@ const { id, type }: Props = Astro.props;
     <div>
       <h2 class="mb-2">Video</h2>
 
-      <div class="video-full">
+      <div>
         <iframe
-          width="678"
-          height="408"
-          src={`https://www.youtube.com/embed/${id}?rel=0&iv_load_policy=3`}
-          frameborder="0"
           allowfullscreen
+          class="w-full aspect-video"
+          frameborder="0"
+          src={`https://www.youtube.com/embed/${id}?rel=0&iv_load_policy=3`}
         />
       </div>
     </div>
