@@ -1,34 +1,34 @@
 ---
-import DailyEmailForm from '~/components/DailyEmailForm.astro'
-import Layout from '~/layouts/DailyEmailLayout.astro'
+import DailyEmailForm from "~/components/DailyEmailForm.astro";
+import Layout from "~/layouts/DailyEmailLayout.astro";
 
 export async function getStaticPaths() {
-  const emails = await Astro.glob('../../../../../daily-emails/*.{md,mdx}')
+  const emails = await Astro.glob("../../../../../daily-emails/*.{md,mdx}");
 
-  return emails.map(email => {
-    const pubDate = email.frontmatter.pubDate.split('T')[0].split('-')
+  return emails.map((email) => {
+    const pubDate = email.frontmatter.pubDate.split("T")[0].split("-");
 
     const slug = email.frontmatter.permalink
-      .replace('archive/', '')
-      .replace('\n', '')
-    const slugParts = slug.split('/')
+      .replace("archive/", "")
+      .replace("\n", "");
+    const slugParts = slug.split("/");
 
     return {
       params: {
         day: pubDate[2],
         month: pubDate[1],
-        slug: slugParts.reverse()[0], 
+        slug: slugParts.reverse()[0],
         year: pubDate[0],
       },
       props: {
         email,
-      }
-    } 
-  })
+      },
+    };
+  });
 }
 
-const { Content } = Astro.props.email
-const { title } = Astro.props.email.frontmatter
+const { Content } = Astro.props.email;
+const { title } = Astro.props.email.frontmatter;
 ---
 
 <Layout title={title}>

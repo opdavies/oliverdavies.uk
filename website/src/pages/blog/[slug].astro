@@ -1,25 +1,24 @@
 ---
-import AboutMe from '~/components/AboutMe.astro'
-import Layout from '~/layouts/Layout.astro'
-import Markdown from '~/components/Markdown.astro'
-import { getSlugFromFile } from '~/utils.ts'
+import AboutMe from "~/components/AboutMe.astro";
+import Layout from "~/layouts/Layout.astro";
+import Markdown from "~/components/Markdown.astro";
+import { getSlugFromFile } from "~/utils.ts";
 
 export async function getStaticPaths() {
-  const posts = await Astro.glob('../../posts/*.md')
+  const posts = await Astro.glob("../../posts/*.md");
 
-  return posts
-    .map(post => {
-      const slug = getSlugFromFile(post.file)
+  return posts.map((post) => {
+    const slug = getSlugFromFile(post.file);
 
-      return {
-        params: { slug },
-        props: { post },
-      }
-    })
+    return {
+      params: { slug },
+      props: { post },
+    };
+  });
 }
 
-const { Content } = Astro.props.post
-const { title } = Astro.props.post.frontmatter
+const { Content } = Astro.props.post;
+const { title } = Astro.props.post.frontmatter;
 ---
 
 <Layout title={title}>

@@ -1,12 +1,12 @@
 ---
-import BaseLayout from './Layout.astro'
-import Markdown from '../components/Markdown.astro'
+import BaseLayout from "./Layout.astro";
+import Markdown from "../components/Markdown.astro";
 
 const { title } = Astro.props.frontmatter || Astro.props;
 ---
 
 <BaseLayout title={title}>
   <Markdown>
-    <slot/>
+    <slot />
   </Markdown>
 </BaseLayout>

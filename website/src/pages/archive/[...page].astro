@@ -1,39 +1,41 @@
 ---
-import DailyEmailForm from '~/components/DailyEmailForm.astro'
-import Layout from '~/layouts/DailyEmailLayout.astro'
+import DailyEmailForm from "~/components/DailyEmailForm.astro";
+import Layout from "~/layouts/DailyEmailLayout.astro";
 
 export async function getStaticPaths({ paginate }) {
-  const emails = await Astro.glob('../../daily-emails/*.{md,mdx}')
-  const sortedEmails = emails
-    .sort((a, b) =>
+  const emails = await Astro.glob("../../daily-emails/*.{md,mdx}");
+  const sortedEmails = emails.sort(
+    (a, b) =>
       new Date(b.frontmatter.pubDate).valueOf() -
       new Date(a.frontmatter.pubDate).valueOf()
-    )
-  
-  return paginate(sortedEmails, { pageSize: 20 })
+  );
+
+  return paginate(sortedEmails, { pageSize: 20 });
 }
 
-const { page } = Astro.props
+const { page } = Astro.props;
 ---
 
-<Layout title={'Daily email archive'}>
+<Layout title={"Daily email archive"}>
   <ul>
-    {page.data.map(email => (
-      <li>
-        <a href={`/${email.frontmatter.permalink}`}>
-          {new Date(email.frontmatter.pubDate).toLocaleDateString('en-GB', {
-            day: 'numeric',
-            month: 'long',
-            year: 'numeric',
-          })}:
-          {email.frontmatter.title}
-        </a>
-      </li>
-    ))}
+    {
+      page.data.map((email) => (
+        <li>
+          <a href={`/${email.frontmatter.permalink}`}>
+            {new Date(email.frontmatter.pubDate).toLocaleDateString("en-GB", {
+              day: "numeric",
+              month: "long",
+              year: "numeric",
+            })}
+            :{email.frontmatter.title}
+          </a>
+        </li>
+      ))
+    }
   </ul>
 
-    <nav class="flex justify-center pt-10 space-x-6">
-      { page.url.prev ? <a href={ page.url.prev }>&larr; Newer emails</a> : null }
-      { page.url.next ? <a href={ page.url.next }>Older emails &rarr;</a> : null }
-    </nav>
+  <nav class="flex justify-center pt-10 space-x-6">
+    {page.url.prev ? <a href={page.url.prev}>&larr; Newer emails</a> : null}
+    {page.url.next ? <a href={page.url.next}>Older emails &rarr;</a> : null}
+  </nav>
 </Layout>

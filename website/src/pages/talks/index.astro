@@ -1,43 +1,50 @@
 ---
-import PageLayout from '~/layouts/PageLayout.astro'
-import _ from 'lodash'
-import { getSlugFromFile } from '~/utils.ts'
+import PageLayout from "~/layouts/PageLayout.astro";
+import _ from "lodash";
+import { getSlugFromFile } from "~/utils.ts";
 
-const talks = await Astro.glob("../../talks/*.md")
+const talks = await Astro.glob("../../talks/*.md");
 
 const talkCount = _(talks)
   .flatMap((talk) => talk.frontmatter.events)
-  .size()
+  .size();
 
 const sortedTalks = talks
-  .map(talk => {
-    const slug = getSlugFromFile(talk.file)
+  .map((talk) => {
+    const slug = getSlugFromFile(talk.file);
 
-    return { slug, talk }
+    return { slug, talk };
   })
   .sort((b, a) => {
     const events = [
       a.talk.frontmatter.events[a.talk.frontmatter.events.length - 1],
       b.talk.frontmatter.events[b.talk.frontmatter.events.length - 1],
-    ]
+    ];
 
-    return new Date(events[0].date).valueOf() -
-      new Date(events[1].date).valueOf()
-  })
+    return (
+      new Date(events[0].date).valueOf() - new Date(events[1].date).valueOf()
+    );
+  });
 ---
 
 <PageLayout title="Talks and workshops">
-  <p>Starting with my first talk in September 2012, I have given {talkCount} presentations and workshops at various conferences and meetups, in-person and remotely, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.</p>
+  <p>
+    Starting with my first talk in September 2012, I have given {talkCount} presentations
+    and workshops at various conferences and meetups, in-person and remotely, on
+    topics including PHP, Drupal, automated testing, Git, CSS, and systems administration~
 
-  <div>
-    {sortedTalks.map((talk) => (
-      <article>
-        <a href=`/talks/${talk.slug}`>
-          <h2>{talk.talk.frontmatter.title}</h2>
-        </a>
+    <div>
+      {
+        sortedTalks.map((talk) => (
+          <article>
+            <a href={`/talks/${talk.slug}`}>
+              <h2>{talk.talk.frontmatter.title}</h2>
+            </a>
 
-        {talk.talk.frontmatter.description}
-      </article>
-    ))}
-  </div>
+            {talk.talk.frontmatter.description}
+          </article>
+        ))
+      }
+    </div>
+  </p>
 </PageLayout>

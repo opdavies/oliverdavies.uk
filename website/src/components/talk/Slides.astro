@@ -1,10 +1,10 @@
 ---
 interface Props {
-  id: string
-  ratio?: string
+  id: string;
+  ratio?: string;
 }
 
-const { id, ratio }: Props = Astro.props
+const { id, ratio }: Props = Astro.props;
 ---
 
 <div>
@@ -15,7 +15,7 @@ const { id, ratio }: Props = Astro.props
     <script
       class="speakerdeck-embed"
       data-id={id}
-      data-ratio={ratio ?? '1.29456384323641'}
+      data-ratio={ratio ?? "1.29456384323641"}
       src="//speakerdeck.com/assets/embed.js"
     ></script>
   </div>

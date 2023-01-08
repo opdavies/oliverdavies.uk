@@ -1,27 +1,27 @@
 ---
-import AboutMe from '~/components/AboutMe.astro'
-import Events from '~/components/talk/Events.astro'
-import Layout from '~/layouts/Layout.astro'
-import Markdown from '~/components/Markdown.astro'
-import Slides from '~/components/talk/Slides.astro'
-import Video from '~/components/talk/Video.astro'
-import { getSlugFromFile } from '~/utils.ts'
+import AboutMe from "~/components/AboutMe.astro";
+import Events from "~/components/talk/Events.astro";
+import Layout from "~/layouts/Layout.astro";
+import Markdown from "~/components/Markdown.astro";
+import Slides from "~/components/talk/Slides.astro";
+import Video from "~/components/talk/Video.astro";
+import { getSlugFromFile } from "~/utils.ts";
 
 export async function getStaticPaths() {
-  const talks = await Astro.glob('../../talks/*.md')
+  const talks = await Astro.glob("../../talks/*.md");
 
-  return talks.map(talk => {
-    const slug = getSlugFromFile(talk.file)
+  return talks.map((talk) => {
+    const slug = getSlugFromFile(talk.file);
 
     return {
       params: { slug },
-      props: { talk } 
-    }
-  })
+      props: { talk },
+    };
+  });
 }
 
-const { Content } = Astro.props.talk
-const { events, speakerdeck, title, video } = Astro.props.talk.frontmatter
+const { Content } = Astro.props.talk;
+const { events, speakerdeck, title, video } = Astro.props.talk.frontmatter;
 ---
 
 <Layout title={title}>
@@ -30,13 +30,9 @@ const { events, speakerdeck, title, video } = Astro.props.talk.frontmatter
       <Content />
     </Markdown>
 
-    {speakerdeck && (
-      <Slides id={speakerdeck.id} ratio={speakerdeck.ratio} />
-    )}
+    {speakerdeck && <Slides id={speakerdeck.id} ratio={speakerdeck.ratio} />}
 
-    {video && (
-      <Video id={video.id} type={video.type} />
-    )}
+    {video && <Video id={video.id} type={video.type} />}
 
     <Events events={events} />
 
