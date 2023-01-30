@@ -1,8 +1,10 @@
 import { defineConfig } from 'astro/config';
 import alpinejs from "@astrojs/alpinejs";
 import tailwind from "@astrojs/tailwind";
-
 import mdx from "@astrojs/mdx";
+
+// https://astro.build/config
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,6 +12,6 @@ export default defineConfig({
     config: {
       applyBaseStyles: false
     }
-  }), mdx()],
-  site: 'https://www.oliverdavies.uk',
+  }), mdx(), sitemap()],
+  site: 'https://www.oliverdavies.uk'
 });
