@@ -31,7 +31,7 @@ const { events } = Astro.props;
               ) : (
                 event.name
               )}
-              {event.location && `in ${event.location}`}-{" "}
+              {event.location && `in ${event.location} -`}
               {new Date(event.date).toLocaleDateString("en-GB", {
                 day: "numeric",
                 month: "long",

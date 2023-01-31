@@ -31,20 +31,20 @@ const sortedTalks = talks
   <p>
     Starting with my first talk in September 2012, I have given {talkCount} presentations
     and workshops at various conferences and meetups, in-person and remotely, on
-    topics including PHP, Drupal, automated testing, Git, CSS, and systems administration~
-
-    <div>
-      {
-        sortedTalks.map((talk) => (
-          <article>
-            <a href={`/talks/${talk.slug}`}>
-              <h2>{talk.talk.frontmatter.title}</h2>
-            </a>
-
-            {talk.talk.frontmatter.description}
-          </article>
-        ))
-      }
-    </div>
+    topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.
   </p>
+
+  <div>
+    {
+      sortedTalks.map((talk) => (
+        <article>
+          <a href={`/talks/${talk.slug}`}>
+            <h2>{talk.talk.frontmatter.title}</h2>
+          </a>
+
+          {talk.talk.frontmatter.description}
+        </article>
+      ))
+    }
+  </div>
 </PageLayout>
