@@ -2,6 +2,7 @@
 import PageLayout from "~/layouts/PageLayout.astro";
 import _ from "lodash";
 import { getSlugFromFile } from "~/utils.ts";
+import ListingPage from "~/components/ListingPage.astro";
 
 const talks = await Astro.glob("../../talks/*.md");
 
@@ -11,14 +12,14 @@ const talkCount = _(talks)
 
 const sortedTalks = talks
   .map((talk) => {
-    const slug = getSlugFromFile(talk.file);
+    const slug = `/talks/${getSlugFromFile(talk.file)}`;
 
-    return { slug, talk };
+    return { slug, item: talk };
   })
   .sort((b, a) => {
     const events = [
-      a.talk.frontmatter.events[a.talk.frontmatter.events.length - 1],
-      b.talk.frontmatter.events[b.talk.frontmatter.events.length - 1],
+      a.item.frontmatter.events[a.item.frontmatter.events.length - 1],
+      b.item.frontmatter.events[b.item.frontmatter.events.length - 1],
     ];
 
     return (
@@ -27,24 +28,10 @@ const sortedTalks = talks
   });
 ---
 
-<PageLayout title="Talks and workshops">
-  <p>
+<ListingPage items={sortedTalks} title="Talks and workshops">
+  <p slot="intro">
     Starting with my first talk in September 2012, I have given {talkCount} presentations
     and workshops at various conferences and meetups, in-person and remotely, on
     topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.
   </p>
-
-  <div>
-    {
-      sortedTalks.map((talk) => (
-        <article>
-          <a href={`/talks/${talk.slug}`}>
-            <h2>{talk.talk.frontmatter.title}</h2>
-          </a>
-
-          {talk.talk.frontmatter.description}
-        </article>
-      ))
-    }
-  </div>
-</PageLayout>
+</ListingPage>

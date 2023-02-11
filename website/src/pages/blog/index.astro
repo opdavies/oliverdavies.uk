@@ -1,4 +1,5 @@
 ---
+import ListingPage from "~/components/ListingPage.astro";
 import PageLayout from "~/layouts/PageLayout.astro";
 import { getSlugFromFile } from "~/utils.ts";
 
@@ -11,50 +12,21 @@ const filteredPosts = posts
 
 const sortedPosts = filteredPosts
   .map((post) => {
-    const slug = getSlugFromFile(post.file);
+    const slug = `/blog/${getSlugFromFile(post.file)}`;
 
-    return { post, slug };
+    return { item: post, slug };
   })
   .sort(
     (a, b) =>
-      new Date(b.post.frontmatter.date).valueOf() -
-      new Date(a.post.frontmatter.date).valueOf()
+      new Date(b.item.frontmatter.date).valueOf() -
+      new Date(a.item.frontmatter.date).valueOf()
   );
 ---
 
-<PageLayout title="Blog">
-  <p>
+<ListingPage items={sortedPosts} title="Blog">
+  <p slot="intro">
     This is where I publish my personal blog posts as well as technical posts
     and tutorials on topics such as Drupal, PHP, Tailwind CSS, automated
     testing, and systems administration.
   </p>
-
-  <div>
-    {
-      sortedPosts.map((post) => (
-        <article>
-          <a href={`/blog/${post.slug}`}>
-            <h2>{post.post.frontmatter.title}</h2>
-          </a>
-
-          {post.post.frontmatter.date && (
-            <time class="text-base" datetime={post.post.frontmatter.date}>
-              {new Date(post.post.frontmatter.date).toLocaleDateString(
-                "en-GB",
-                {
-                  day: "numeric",
-                  month: "long",
-                  year: "numeric",
-                }
-              )}
-            </time>
-          )}
-
-          <div class="mt-1">
-            <p>{post.post.frontmatter.excerpt}</p>
-          </div>
-        </article>
-      ))
-    }
-  </div>
-</PageLayout>
+</ListingPage>
