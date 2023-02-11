@@ -85,6 +85,11 @@ events:
     url: https://www.meetup.com/nashvillephp/events/kzkdwryccdbmb
     online: true
 
+  - name: Bristol Software Development Meetup
+    location: Bristol, UK
+    date: "2023-02-16"
+    url: https://www.meetup.com/south-wales-tech/events/291092930
+
   - name: Norfolk Developers Conference
     location: Norwich, UK
     date: "2023-02-23"
