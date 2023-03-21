@@ -6,7 +6,7 @@ default:
 create-daily:
   #!/usr/bin/env bash
   date="$(date +%Y-%m-%d)"
-  filepath="website/source/_daily_emails"
+  filepath="source/_daily_emails"
   filename="${date}.md"
 
   touch "${filepath}/${filename}"
@@ -27,15 +27,11 @@ deploy sha:
   rsync -r -avhP --delete _deploy/* opdavies@104.248.165.137:/srv/oliverdavies.uk
 
 build-images sha:
-  docker image build \
-    website \
-    -f website/Dockerfile \
+  docker image build . \
     --target production \
     -t ghcr.io/opdavies/oliverdavies.uk-build:latest
 
-  docker image build \
-    website \
-    -f website/Dockerfile \
+  docker image build . \
     --target production \
     -t ghcr.io/opdavies/oliverdavies.uk-build:{{ sha }}
 
