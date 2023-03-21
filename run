@@ -13,12 +13,12 @@ function task:daily {
   # Find the next post date based on the last post in the directory.
   local next_date
   if [[ "${1}" == "next" ]]; then
-    next_date=$(ls -1 website/src/daily-emails  | tail -n 1 | tr -d '.md' | xargs -I {} date +%Y-%m-%d -d '{} +1 day')
+    next_date=$(ls -1 src/daily-emails  | tail -n 1 | tr -d '.md' | xargs -I {} date +%Y-%m-%d -d '{} +1 day')
   else
     next_date="${1}"
   fi
 
-  local filepath="website/src/daily-emails/${next_date}.md"
+  local filepath="src/daily-emails/${next_date}.md"
 
   shift 1
 
