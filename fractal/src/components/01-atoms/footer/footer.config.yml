@@ -1,9 +1,0 @@
-name: Footer
-
-context:
-  links:
-    - About
-    - Blog
-    - Talks
-    - Daily list
-    - Search
