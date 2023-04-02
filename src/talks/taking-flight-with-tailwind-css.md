@@ -8,8 +8,8 @@ speakerdeck:
   ratio: "1.77777777777778"
   url: https://speakerdeck.com/opdavies/taking-flight-with-tailwind-css
 video:
+  id: C20QZbGlmZ8
   type: youtube
-  id: lgsvKtpQp3U
 tags: [css, tailwind, meetup]
 events:
   - name: Drupal Bristol
