@@ -1,21 +1,17 @@
 {
-  inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/master";
-    flake-utils.url = "github:numtide/flake-utils";
-  };
+  inputs.devshell.url = "github:numtide/devshell";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
-  outputs = { self, nixpkgs, flake-utils }:
-    flake-utils.lib.eachDefaultSystem (system:
-      let
-        pkgs = nixpkgs.legacyPackages.${system};
-      in
-      {
-        devShell = with pkgs; pkgs.mkShell {
-          buildInputs = [
-            just
-            nodejs-19_x
-            yarn
-          ];
+  outputs = inputs@{ flake-parts, ... }:
+    flake-parts.lib.mkFlake { inherit inputs; } {
+      imports = [ inputs.devshell.flakeModule ];
+
+      systems = [ "x86_64-linux" ];
+
+      perSystem = { config, self', inputs', pkgs, system, ... }: {
+        devshells.default = {
+          packages = with pkgs; [ just nodejs-19_x yarn ];
         };
-      });
+      };
+    };
 }
