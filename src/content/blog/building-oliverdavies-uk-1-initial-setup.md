@@ -5,6 +5,7 @@ excerpt: |
     Sculpin setup and configuration.
 tags: [sculpin]
 draft: true
+date: ~
 ---
 
 Based on <https://github.com/opdavies/sculpin-skeleton>.

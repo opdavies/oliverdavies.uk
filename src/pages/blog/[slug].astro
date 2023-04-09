@@ -2,23 +2,21 @@
 import AboutMe from "~/components/AboutMe.astro";
 import Layout from "~/layouts/Layout.astro";
 import Markdown from "~/components/Markdown.astro";
-import { getSlugFromFile } from "~/utils.ts";
+import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const posts = await Astro.glob("../../posts/*.md");
+  const posts = await getCollection('blog');
 
   return posts.map((post) => {
-    const slug = getSlugFromFile(post.file);
-
     return {
-      params: { slug },
+      params: { slug: post.slug },
       props: { post },
     };
   });
 }
 
-const { Content } = Astro.props.post;
-const { title } = Astro.props.post.frontmatter;
+const { Content } = await Astro.props.post.render();
+const { title } = Astro.props.post.data;
 ---
 
 <Layout title={title}>

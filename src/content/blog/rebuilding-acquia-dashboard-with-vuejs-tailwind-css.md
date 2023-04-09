@@ -7,6 +7,7 @@ tags:
     - tweet
     - vuejs
 draft: true
+date: ~
 promoted: true
 ---
 

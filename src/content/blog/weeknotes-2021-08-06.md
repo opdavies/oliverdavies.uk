@@ -5,6 +5,7 @@ tags:
     - personal
     - week-notes
 draft: true
+date: ~
 ---
 
 ## Vim

@@ -4,6 +4,7 @@ excerpt: Windows utilities, continuous integration and delivery, and writing tes
 tags:
     - personal
     - week-notes
+date: ~
 ---
 
 ## Using PowerToys and FancyZones
