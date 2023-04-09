@@ -1,4 +1,4 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection, z } from "astro:content";
 
 const blogCollection = defineCollection({
   schema: z.object({
@@ -23,27 +23,34 @@ const dailyEmailCollection = defineCollection({
 const talkCollection = defineCollection({
   schema: z.object({
     description: z.string(),
-    events: z.array(z.object({
-      date: z.string(),
-      location: z.string().optional(),
-      name: z.string(),
-      online: z.boolean().optional(),
-    })),
-    speakerdeck: z.object({
-      id: z.string(),
-      ratio: z.string(),
-      url: z.string(),
-    }).optional(),
+    events: z.array(
+      z.object({
+        date: z.string(),
+        location: z.string().optional(),
+        name: z.string(),
+        online: z.boolean().optional(),
+      })
+    ),
+    speakerdeck: z
+      .object({
+        id: z.string(),
+        ratio: z.string(),
+        url: z.string(),
+      })
+      .optional(),
     title: z.string(),
-    video: z.object({
-      id: z.string(),
-      type: z.enum(['vimeo', 'youtube']),
-    }).or(z.null()).optional(),
+    video: z
+      .object({
+        id: z.string(),
+        type: z.enum(["vimeo", "youtube"]),
+      })
+      .or(z.null())
+      .optional(),
   }),
 });
 
 export const collections = {
-  'daily-email': dailyEmailCollection,
+  "daily-email": dailyEmailCollection,
   blog: blogCollection,
   talk: talkCollection,
 };
