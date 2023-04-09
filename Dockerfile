@@ -1,4 +1,4 @@
-FROM node:14-bullseye-slim AS base
+FROM node:18-bullseye-slim AS base
 
 ARG NODE_ENV="production"
 ARG SCULPIN_ENV="prod"
