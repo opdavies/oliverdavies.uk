@@ -1,5 +1,6 @@
 ---
 title: An introduction to mob programming
+description: ''
 speakerdeck:
   id: f37b16f915d64bc0b4a20f9f965e5353
   ratio: 1.77725118483412

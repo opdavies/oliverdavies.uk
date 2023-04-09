@@ -6,8 +6,7 @@ interface ItemProps {
   title: string;
 }
 
-const { date, description, excerpt, title } = Astro.props.item.item
-  .frontmatter as ItemProps;
+const { date, description, excerpt, title } = Astro.props.item.item.data as ItemProps;
 const { slug } = Astro.props.item;
 ---
 

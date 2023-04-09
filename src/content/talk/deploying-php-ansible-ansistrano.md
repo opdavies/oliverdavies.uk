@@ -69,7 +69,6 @@ events:
 
   - name: Midwest PHP
     date: "2021-04-23"
-    location: ~
     url: https://midwestphp.org/talks/1q5XUF2tTdXXLYOoujMkpF/Deploying_PHP_applications_with_Ansible_Ansible_Vault_and_Ansistrano
     online: true
 

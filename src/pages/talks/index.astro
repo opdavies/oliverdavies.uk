@@ -1,25 +1,24 @@
 ---
-import PageLayout from "~/layouts/PageLayout.astro";
-import _ from "lodash";
-import { getSlugFromFile } from "~/utils.ts";
 import ListingPage from "~/components/ListingPage.astro";
+import _ from "lodash";
+import { getCollection } from 'astro:content';
 
-const talks = await Astro.glob("../../talks/*.md");
+const talks = await getCollection('talk');
 
 const talkCount = _(talks)
-  .flatMap((talk) => talk.frontmatter.events)
+  .flatMap((talk) => talk.data.events)
   .size();
 
 const sortedTalks = talks
   .map((talk) => {
-    const slug = `/talks/${getSlugFromFile(talk.file)}`;
+    const slug = `/talks/${talk.slug}`
 
     return { slug, item: talk };
   })
   .sort((b, a) => {
     const events = [
-      a.item.frontmatter.events[a.item.frontmatter.events.length - 1],
-      b.item.frontmatter.events[b.item.frontmatter.events.length - 1],
+      a.item.data.events[a.item.data.events.length - 1],
+      b.item.data.events[b.item.data.events.length - 1],
     ];
 
     return (

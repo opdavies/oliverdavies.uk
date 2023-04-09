@@ -21,6 +21,7 @@ events:
     time: "15:00 - 15:40"
 
   - name: Drupal Somerset
+    location: Glastonbury, UK
     date: "2017-10-26"
 ---
 
