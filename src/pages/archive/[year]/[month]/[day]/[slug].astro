@@ -1,8 +1,8 @@
 ---
 import DailyEmailForm from "~/components/DailyEmailForm.astro";
 import Layout from "~/layouts/DailyEmailLayout.astro";
+import { format } from 'date-fns'
 import { getCollection } from 'astro:content';
-import { format, formatDistance, formatRelative, subDays } from 'date-fns'
 
 export async function getStaticPaths() {
   const emails = await getCollection('daily-email');
