@@ -1,13 +1,15 @@
 ---
 import DailyEmailForm from "~/components/DailyEmailForm.astro";
 import Layout from "~/layouts/DailyEmailLayout.astro";
+import { getCollection } from 'astro:content';
 
 export async function getStaticPaths({ paginate }) {
-  const emails = await Astro.glob("../../daily-emails/*.{md,mdx}");
+  const emails = await getCollection('daily-email');
+
   const sortedEmails = emails.sort(
     (a, b) =>
-      new Date(b.frontmatter.pubDate).valueOf() -
-      new Date(a.frontmatter.pubDate).valueOf()
+      new Date(b.data.pubDate).valueOf() -
+      new Date(a.data.pubDate).valueOf()
   );
 
   return paginate(sortedEmails, { pageSize: 20 });
@@ -21,13 +23,13 @@ const { page } = Astro.props;
     {
       page.data.map((email) => (
         <li>
-          <a href={`/${email.frontmatter.permalink}`}>
-            {new Date(email.frontmatter.pubDate).toLocaleDateString("en-GB", {
+          <a href={`/${email.data.permalink}`}>
+            {new Date(email.data.pubDate).toLocaleDateString("en-GB", {
               day: "numeric",
               month: "long",
               year: "numeric",
             })}:
-            {email.frontmatter.title}
+            {email.data.title}
           </a>
         </li>
       ))

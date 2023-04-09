@@ -1,20 +1,29 @@
+import MarkdownIt from 'markdown-it';
 import rss from '@astrojs/rss';
+import sanitizeHtml from 'sanitize-html';
+import { getCollection } from 'astro:content';
 
-const emailImportResult = import.meta.glob('../daily-emails/*.md', { eager: true });
-const emails = Object.values(emailImportResult)
-  .sort((a, b) =>
-    new Date(b.frontmatter.pubDate).valueOf() -
-    new Date(a.frontmatter.pubDate).valueOf()
-  )
+export async function get() {
+  const emails = await getCollection('daily-email');
 
-export const get = () => rss({
+  const sortedEmails = Object.values(emails)
+    .sort((a, b) =>
+      new Date(b.data.pubDate).valueOf() -
+      new Date(a.data.pubDate).valueOf()
+    );
+
+  const parser = new MarkdownIt();
+
+  return rss({
     title: 'Daily email list',
     description: 'A daily newsletter on software development, DevOps, community, and open-source.',
     site: import.meta.env.SITE,
-    items: emails.slice(0, 1).map((email) => ({
-      description: `<div style="max-width: 550px;">${email.compiledContent()}</div>`,
-      link: `${import.meta.env.SITE}${email.frontmatter.permalink}`,
-      title: email.frontmatter.title,
-      pubDate: email.frontmatter.pubDate,
+
+    items: sortedEmails.slice(0, 1).map((email) => ({
+      description: `<div style="max-width: 550px;">${sanitizeHtml(parser.render(email.body))}</div>`,
+      link: `${import.meta.env.SITE}/${email.data.permalink}`,
+      pubDate: email.data.pubDate,
+      title: email.data.title,
     }))
   });
+};

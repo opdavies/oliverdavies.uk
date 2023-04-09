@@ -1324,6 +1324,1002 @@ declare module 'astro:content' {
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] },
 },
+"daily-email": {
+"2022-08-12.md": {
+  id: "2022-08-12.md",
+  slug: "2022-08-12",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-13.md": {
+  id: "2022-08-13.md",
+  slug: "2022-08-13",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-14.md": {
+  id: "2022-08-14.md",
+  slug: "2022-08-14",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-15.md": {
+  id: "2022-08-15.md",
+  slug: "2022-08-15",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-16.md": {
+  id: "2022-08-16.md",
+  slug: "2022-08-16",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-17.md": {
+  id: "2022-08-17.md",
+  slug: "2022-08-17",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-18.md": {
+  id: "2022-08-18.md",
+  slug: "2022-08-18",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-19.md": {
+  id: "2022-08-19.md",
+  slug: "2022-08-19",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-20.md": {
+  id: "2022-08-20.md",
+  slug: "2022-08-20",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-21.md": {
+  id: "2022-08-21.md",
+  slug: "2022-08-21",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-22.md": {
+  id: "2022-08-22.md",
+  slug: "2022-08-22",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-23.md": {
+  id: "2022-08-23.md",
+  slug: "2022-08-23",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-24.md": {
+  id: "2022-08-24.md",
+  slug: "2022-08-24",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-25.md": {
+  id: "2022-08-25.md",
+  slug: "2022-08-25",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-26.md": {
+  id: "2022-08-26.md",
+  slug: "2022-08-26",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-27.md": {
+  id: "2022-08-27.md",
+  slug: "2022-08-27",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-28.md": {
+  id: "2022-08-28.md",
+  slug: "2022-08-28",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-29.md": {
+  id: "2022-08-29.md",
+  slug: "2022-08-29",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-30.md": {
+  id: "2022-08-30.md",
+  slug: "2022-08-30",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-08-31.md": {
+  id: "2022-08-31.md",
+  slug: "2022-08-31",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-01.md": {
+  id: "2022-09-01.md",
+  slug: "2022-09-01",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-02.md": {
+  id: "2022-09-02.md",
+  slug: "2022-09-02",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-03.md": {
+  id: "2022-09-03.md",
+  slug: "2022-09-03",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-04.md": {
+  id: "2022-09-04.md",
+  slug: "2022-09-04",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-05.md": {
+  id: "2022-09-05.md",
+  slug: "2022-09-05",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-06.md": {
+  id: "2022-09-06.md",
+  slug: "2022-09-06",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-07.md": {
+  id: "2022-09-07.md",
+  slug: "2022-09-07",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-08.md": {
+  id: "2022-09-08.md",
+  slug: "2022-09-08",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-09.md": {
+  id: "2022-09-09.md",
+  slug: "2022-09-09",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-10.md": {
+  id: "2022-09-10.md",
+  slug: "2022-09-10",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-11.md": {
+  id: "2022-09-11.md",
+  slug: "2022-09-11",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-12.md": {
+  id: "2022-09-12.md",
+  slug: "2022-09-12",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-14.md": {
+  id: "2022-09-14.md",
+  slug: "2022-09-14",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-16.md": {
+  id: "2022-09-16.md",
+  slug: "2022-09-16",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-17.md": {
+  id: "2022-09-17.md",
+  slug: "2022-09-17",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-19.md": {
+  id: "2022-09-19.md",
+  slug: "2022-09-19",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-20.md": {
+  id: "2022-09-20.md",
+  slug: "2022-09-20",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-21.md": {
+  id: "2022-09-21.md",
+  slug: "2022-09-21",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-22.md": {
+  id: "2022-09-22.md",
+  slug: "2022-09-22",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-23.md": {
+  id: "2022-09-23.md",
+  slug: "2022-09-23",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-25.md": {
+  id: "2022-09-25.md",
+  slug: "2022-09-25",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-26.md": {
+  id: "2022-09-26.md",
+  slug: "2022-09-26",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-27.md": {
+  id: "2022-09-27.md",
+  slug: "2022-09-27",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-28.md": {
+  id: "2022-09-28.md",
+  slug: "2022-09-28",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-09-30.md": {
+  id: "2022-09-30.md",
+  slug: "2022-09-30",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-01.md": {
+  id: "2022-10-01.md",
+  slug: "2022-10-01",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-02.md": {
+  id: "2022-10-02.md",
+  slug: "2022-10-02",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-03.md": {
+  id: "2022-10-03.md",
+  slug: "2022-10-03",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-08.md": {
+  id: "2022-10-08.md",
+  slug: "2022-10-08",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-09.md": {
+  id: "2022-10-09.md",
+  slug: "2022-10-09",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-10.md": {
+  id: "2022-10-10.md",
+  slug: "2022-10-10",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-11.md": {
+  id: "2022-10-11.md",
+  slug: "2022-10-11",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-12.md": {
+  id: "2022-10-12.md",
+  slug: "2022-10-12",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-17.md": {
+  id: "2022-10-17.md",
+  slug: "2022-10-17",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-18.md": {
+  id: "2022-10-18.md",
+  slug: "2022-10-18",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-19.md": {
+  id: "2022-10-19.md",
+  slug: "2022-10-19",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-20.md": {
+  id: "2022-10-20.md",
+  slug: "2022-10-20",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-21.md": {
+  id: "2022-10-21.md",
+  slug: "2022-10-21",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-24.md": {
+  id: "2022-10-24.md",
+  slug: "2022-10-24",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-25.md": {
+  id: "2022-10-25.md",
+  slug: "2022-10-25",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-26.md": {
+  id: "2022-10-26.md",
+  slug: "2022-10-26",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-27.md": {
+  id: "2022-10-27.md",
+  slug: "2022-10-27",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-28.md": {
+  id: "2022-10-28.md",
+  slug: "2022-10-28",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-29.md": {
+  id: "2022-10-29.md",
+  slug: "2022-10-29",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-10-30.md": {
+  id: "2022-10-30.md",
+  slug: "2022-10-30",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-08.md": {
+  id: "2022-11-08.md",
+  slug: "2022-11-08",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-09.md": {
+  id: "2022-11-09.md",
+  slug: "2022-11-09",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-11.md": {
+  id: "2022-11-11.md",
+  slug: "2022-11-11",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-12.md": {
+  id: "2022-11-12.md",
+  slug: "2022-11-12",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-13.md": {
+  id: "2022-11-13.md",
+  slug: "2022-11-13",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-14.md": {
+  id: "2022-11-14.md",
+  slug: "2022-11-14",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-15.md": {
+  id: "2022-11-15.md",
+  slug: "2022-11-15",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-16.md": {
+  id: "2022-11-16.md",
+  slug: "2022-11-16",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-17.md": {
+  id: "2022-11-17.md",
+  slug: "2022-11-17",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-18.md": {
+  id: "2022-11-18.md",
+  slug: "2022-11-18",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-19.md": {
+  id: "2022-11-19.md",
+  slug: "2022-11-19",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-20.md": {
+  id: "2022-11-20.md",
+  slug: "2022-11-20",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-21.md": {
+  id: "2022-11-21.md",
+  slug: "2022-11-21",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-22.md": {
+  id: "2022-11-22.md",
+  slug: "2022-11-22",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-23.md": {
+  id: "2022-11-23.md",
+  slug: "2022-11-23",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-24.md": {
+  id: "2022-11-24.md",
+  slug: "2022-11-24",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-25.md": {
+  id: "2022-11-25.md",
+  slug: "2022-11-25",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-11-30.md": {
+  id: "2022-11-30.md",
+  slug: "2022-11-30",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-01.md": {
+  id: "2022-12-01.md",
+  slug: "2022-12-01",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-02.md": {
+  id: "2022-12-02.md",
+  slug: "2022-12-02",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-03.md": {
+  id: "2022-12-03.md",
+  slug: "2022-12-03",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-04.md": {
+  id: "2022-12-04.md",
+  slug: "2022-12-04",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-05.md": {
+  id: "2022-12-05.md",
+  slug: "2022-12-05",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-06.md": {
+  id: "2022-12-06.md",
+  slug: "2022-12-06",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-07.md": {
+  id: "2022-12-07.md",
+  slug: "2022-12-07",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-08.md": {
+  id: "2022-12-08.md",
+  slug: "2022-12-08",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-09.md": {
+  id: "2022-12-09.md",
+  slug: "2022-12-09",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-10.md": {
+  id: "2022-12-10.md",
+  slug: "2022-12-10",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-15.md": {
+  id: "2022-12-15.md",
+  slug: "2022-12-15",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-20.md": {
+  id: "2022-12-20.md",
+  slug: "2022-12-20",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-21.md": {
+  id: "2022-12-21.md",
+  slug: "2022-12-21",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-22.md": {
+  id: "2022-12-22.md",
+  slug: "2022-12-22",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-23.md": {
+  id: "2022-12-23.md",
+  slug: "2022-12-23",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-28.md": {
+  id: "2022-12-28.md",
+  slug: "2022-12-28",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-29.md": {
+  id: "2022-12-29.md",
+  slug: "2022-12-29",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-30.md": {
+  id: "2022-12-30.md",
+  slug: "2022-12-30",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2022-12-31.md": {
+  id: "2022-12-31.md",
+  slug: "2022-12-31",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-01.md": {
+  id: "2023-01-01.md",
+  slug: "2023-01-01",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-02.md": {
+  id: "2023-01-02.md",
+  slug: "2023-01-02",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-03.md": {
+  id: "2023-01-03.md",
+  slug: "2023-01-03",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-04.md": {
+  id: "2023-01-04.md",
+  slug: "2023-01-04",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-05.md": {
+  id: "2023-01-05.md",
+  slug: "2023-01-05",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-06.md": {
+  id: "2023-01-06.md",
+  slug: "2023-01-06",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-07.md": {
+  id: "2023-01-07.md",
+  slug: "2023-01-07",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-16.md": {
+  id: "2023-01-16.md",
+  slug: "2023-01-16",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-17.md": {
+  id: "2023-01-17.md",
+  slug: "2023-01-17",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-18.md": {
+  id: "2023-01-18.md",
+  slug: "2023-01-18",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-19.md": {
+  id: "2023-01-19.md",
+  slug: "2023-01-19",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-20.md": {
+  id: "2023-01-20.md",
+  slug: "2023-01-20",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-21.md": {
+  id: "2023-01-21.md",
+  slug: "2023-01-21",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-22.md": {
+  id: "2023-01-22.md",
+  slug: "2023-01-22",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-23.md": {
+  id: "2023-01-23.md",
+  slug: "2023-01-23",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-24.md": {
+  id: "2023-01-24.md",
+  slug: "2023-01-24",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-01-25.md": {
+  id: "2023-01-25.md",
+  slug: "2023-01-25",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-02-07.md": {
+  id: "2023-02-07.md",
+  slug: "2023-02-07",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-02-08.md": {
+  id: "2023-02-08.md",
+  slug: "2023-02-08",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-02-09.md": {
+  id: "2023-02-09.md",
+  slug: "2023-02-09",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-02-16.md": {
+  id: "2023-02-16.md",
+  slug: "2023-02-16",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-02-17.md": {
+  id: "2023-02-17.md",
+  slug: "2023-02-17",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-02-18.md": {
+  id: "2023-02-18.md",
+  slug: "2023-02-18",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-02-19.md": {
+  id: "2023-02-19.md",
+  slug: "2023-02-19",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-02-20.md": {
+  id: "2023-02-20.md",
+  slug: "2023-02-20",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-03-01.md": {
+  id: "2023-03-01.md",
+  slug: "2023-03-01",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-03-02.md": {
+  id: "2023-03-02.md",
+  slug: "2023-03-02",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-03-03.md": {
+  id: "2023-03-03.md",
+  slug: "2023-03-03",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-03-04.md": {
+  id: "2023-03-04.md",
+  slug: "2023-03-04",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-03-05.md": {
+  id: "2023-03-05.md",
+  slug: "2023-03-05",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-03-08.md": {
+  id: "2023-03-08.md",
+  slug: "2023-03-08",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-03-09.md": {
+  id: "2023-03-09.md",
+  slug: "2023-03-09",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-03-13.md": {
+  id: "2023-03-13.md",
+  slug: "2023-03-13",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-03-14.md": {
+  id: "2023-03-14.md",
+  slug: "2023-03-14",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-03-15.md": {
+  id: "2023-03-15.md",
+  slug: "2023-03-15",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-03-21.md": {
+  id: "2023-03-21.md",
+  slug: "2023-03-21",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-03-22.md": {
+  id: "2023-03-22.md",
+  slug: "2023-03-22",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-03-27.md": {
+  id: "2023-03-27.md",
+  slug: "2023-03-27",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-04-07.md": {
+  id: "2023-04-07.md",
+  slug: "2023-04-07",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+"2023-04-08.md": {
+  id: "2023-04-08.md",
+  slug: "2023-04-08",
+  body: string,
+  collection: "daily-email",
+  data: InferEntrySchema<"daily-email">
+} & { render(): Render[".md"] },
+},
 "talk": {
 "about-drupal-association.md": {
   id: "about-drupal-association.md",
