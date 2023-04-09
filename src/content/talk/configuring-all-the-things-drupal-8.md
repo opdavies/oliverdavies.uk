@@ -7,9 +7,7 @@ speakerdeck:
   ratio: "1.37081659973226"
   url: https://speakerdeck.com/opdavies/configuring-all-the-things-in-drupal-8
 
-video:
-  type: ~
-  id: ~
+video: ~
 
 events:
   - name: Drupal Bristol

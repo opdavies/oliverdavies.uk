@@ -4,6 +4,7 @@ description: An introduction to PHP, presented to the Swansea Software Developme
 speakerdeck:
   id: fe360f1030f34bdb9eb14cdab907bb3c
   ratio: "1.78343949044586"
+  url: https://speakerdeck.com/opdavies/things-you-should-know-about-php-a58cd83b-e10c-40df-9ab4-3ed5d55827e7
 video:
   id: NH1mVSwCzWs
   type: youtube

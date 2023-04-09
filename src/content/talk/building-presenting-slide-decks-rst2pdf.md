@@ -5,6 +5,7 @@ description: A short talk on using reStructuredText and rst2pdf to build present
 speakerdeck:
   id: 80498c7b5e7448f194091461cb14f1c1
   ratio: "1.77777777777778"
+  url: https://speakerdeck.com/opdavies/building-and-presenting-slide-decks-with-rst2pdf
 
 video:
   id: KZ89tGG-p6M

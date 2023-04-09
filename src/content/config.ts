@@ -29,9 +29,16 @@ const talkCollection = defineCollection({
       name: z.string(),
       online: z.boolean().optional(),
     })),
+    speakerdeck: z.object({
+      id: z.string(),
+      ratio: z.string(),
+      url: z.string(),
+    }).optional(),
     title: z.string(),
-    // TODO: add SpeakerDeck
-    // TODO: add Video
+    video: z.object({
+      id: z.string(),
+      type: z.enum(['vimeo', 'youtube']),
+    }).or(z.null()).optional(),
   }),
 });
 

@@ -4,6 +4,7 @@ description: A crash course in developing PHP packages and Drupal 8 modules, bas
 speakerdeck:
   id: 6e42ae9620bb4e91b3955f8c30d66934
   ratio: "1.77777777777778"
+  url: https://speakerdeck.com/opdavies/having-fun-with-drupal-8-php-libraries-and-the-drupal-dot-org-api
 image:
   url: /images/talks/having-fun-drupalorg-api.png
   width: 2000
