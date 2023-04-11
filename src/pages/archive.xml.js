@@ -23,7 +23,7 @@ export async function get() {
       description: `<div style="max-width: 550px;">${sanitizeHtml(parser.render(email.body))}</div>`,
       link: `${import.meta.env.SITE}/${email.data.permalink}`,
       pubDate: email.data.pubDate,
-      title: email.data.title,
+      title: `${email.data.title} ${email.data.tags.map(tag => `#${tag}`).join(' ')}`,
     }))
   });
 };
