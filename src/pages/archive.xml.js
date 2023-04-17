@@ -1,8 +1,8 @@
 import MarkdownIt from 'markdown-it';
+import _ from 'lodash';
 import rss from '@astrojs/rss';
 import sanitizeHtml from 'sanitize-html';
 import { getCollection } from 'astro:content';
-import * as _ from 'lodash';
 
 export async function get() {
   const emails = await getCollection('daily-email');
