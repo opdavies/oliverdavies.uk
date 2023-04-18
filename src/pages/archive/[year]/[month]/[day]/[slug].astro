@@ -29,9 +29,13 @@ export async function getStaticPaths() {
 }
 
 const { Content } = await Astro.props.email.render();
-const { title } = Astro.props.email.data;
+const { pubDate, title } = Astro.props.email.data;
 ---
 
 <Layout title={title}>
-  <Content />
+  <time datetime={format(pubDate, 'yyyy-MM-dd')}>
+    {format(pubDate, 'PPP')}
+  </time>
+
+  <Content class="mt-6" />
 </Layout>
