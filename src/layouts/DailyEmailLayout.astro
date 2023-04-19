@@ -13,7 +13,9 @@ const { title } = Astro.props.frontmatter || Astro.props;
       <slot />
     </Markdown>
 
-    <DailyEmailForm />
+    <DailyEmailForm
+      intro='Was this useful? Sign up here and get more like this delivered straight to your inbox every day.'
+    />
 
     <AboutMe />
   </div>
