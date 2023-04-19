@@ -7,7 +7,7 @@ date: 2022-01-09
 ---
 
 <div class="flex justify-center">
-  <img class="h-auto mb-4 w-[150px]" src="/images/sculpin-jackson.png" />
+  <img class="mb-4 h-auto w-[150px]" src="/images/sculpin-jackson.png" />
 </div>
 
 ## Background

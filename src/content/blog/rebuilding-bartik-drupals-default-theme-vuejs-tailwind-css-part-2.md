@@ -76,8 +76,8 @@ for links based on their location on the page -
   ...
 
   <div id="footer" class="text-xs text-white">
-    <div class="container mx-auto px-4 pt-16 pb-4">
-      <div class="border-t border-solid border-gray-900 pt-6 -mb-6">
+    <div class="container px-4 pt-16 pb-4 mx-auto">
+      <div class="pt-6 -mb-6 border-t border-gray-900 border-solid">
         <div class="mb-6">
           <p><a href="#0">Contact</a></p>
         </div>
@@ -139,7 +139,7 @@ around the block’s contents.
 // src/components/Sidebar.vue
 
 <template>
-  <div class="bg-gray-200 p-4 mb-4">
+  <div class="p-4 mb-4 bg-gray-200">
     <slot></slot>
   </div>
 </template>
@@ -174,7 +174,7 @@ Here is the markup that I used, which is placed directly after the opening
 ```html
 <a
   href="#0"
-  class="skip-link text-white bg-black-60 py-1 px-2 rounded-b-lg focus:no-underline focus:outline-none"
+  class="py-1 px-2 text-white rounded-b-lg focus:no-underline focus:outline-none skip-link bg-black-60"
 >
   Skip to main content
 </a>
@@ -226,12 +226,12 @@ also uses a slot to include the message contents and accepts a
 <template>
   <div :class="[ wrapperClasses, wrapperClasses ? 'pl-2 rounded-sm' : '' ]">
     <div
-      class="py-4 pl-3 pr-4 mb-4 border flex items-center rounded-sm"
+      class="flex items-center py-4 pr-4 pl-3 mb-4 rounded-sm border"
       :class="classes"
     >
       <svg
         v-if="type == 'status'"
-        class="fill-current w-4 h-4 text-green mr-3"
+        class="mr-3 w-4 h-4 fill-current text-green"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path

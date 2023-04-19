@@ -6,7 +6,8 @@ interface ItemProps {
   title: string;
 }
 
-const { date, description, excerpt, title } = Astro.props.item.item.data as ItemProps;
+const { date, description, excerpt, title } = Astro.props.item.item
+  .data as ItemProps;
 const { slug } = Astro.props.item;
 ---
 
@@ -15,7 +16,7 @@ const { slug } = Astro.props.item;
 
   {
     date && (
-      <time class="mt-0 mb-2 block text-base" datetime={date}>
+      <time class="block mt-0 mb-2 text-base" datetime={date}>
         {new Date(date).toLocaleDateString("en-GB", {
           day: "numeric",
           month: "long",

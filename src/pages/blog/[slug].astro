@@ -2,10 +2,10 @@
 import AboutMe from "~/components/AboutMe.astro";
 import Layout from "~/layouts/Layout.astro";
 import Markdown from "~/components/Markdown.astro";
-import { getCollection } from 'astro:content';
+import { getCollection } from "astro:content";
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  const posts = await getCollection("blog");
 
   return posts.map((post) => {
     return {

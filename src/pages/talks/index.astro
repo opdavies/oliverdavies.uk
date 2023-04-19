@@ -1,9 +1,9 @@
 ---
 import ListingPage from "~/components/ListingPage.astro";
 import _ from "lodash";
-import { getCollection } from 'astro:content';
+import { getCollection } from "astro:content";
 
-const talks = await getCollection('talk');
+const talks = await getCollection("talk");
 
 const talkCount = _(talks)
   .flatMap((talk) => talk.data.events)
@@ -11,7 +11,7 @@ const talkCount = _(talks)
 
 const sortedTalks = talks
   .map((talk) => {
-    const slug = `/talks/${talk.slug}`
+    const slug = `/talks/${talk.slug}`;
 
     return { slug, item: talk };
   })

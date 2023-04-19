@@ -94,7 +94,7 @@ export default {
   <div>
     <div class="bg-blue-dark">
       <div class="py-4 text-white">
-        <div id="header" class="container mx-auto px-4 relative">
+        <div id="header" class="container relative px-4 mx-auto">
           <div class="flex flex-col-reverse">
             <div class="flex items-center">
               <img src="img/logo.svg" alt="" class="mr-4">
@@ -103,7 +103,7 @@ export default {
               </div>
             </div>
 
-            <div class="text-sm flex justify-end">
+            <div class="flex justify-end text-sm">
               <a href="#0">Log in</a>
             </div>
           </div>
@@ -113,14 +113,14 @@ export default {
       <main-menu></main-menu>
     </div>
 
-    <div class="bg-white pt-3 pb-4 lg:pb-12">
-      <div class="container mx-auto px-4">
-        <div class="flex flex-col md:flex-row-reverse md:-mx-8 my-6">
-          <div id="main" class="w-full md:w-auto md:flex-1 md:px-6 mb-8 md:mb-0">
+    <div class="pt-3 pb-4 bg-white lg:pb-12">
+      <div class="container px-4 mx-auto">
+        <div class="flex flex-col my-6 md:flex-row-reverse md:-mx-8">
+          <div id="main" class="mb-8 w-full md:flex-1 md:px-6 md:mb-0 md:w-auto">
             <div class="font-serif">
               <h1 class="font-normal">Welcome to {{ title }}</h1>
               <p>No front page content has been created yet.</p>
-              <p>Follow the <a href="#0" class="text-blue-dark hover:text-blue-600 no-underline border-b border-blue-600 border-dotted hover:bg-solid">User Guide</a> to start building your site.</p>
+              <p>Follow the <a href="#0" class="no-underline border-b border-blue-600 border-dotted hover:text-blue-600 text-blue-dark hover:bg-solid">User Guide</a> to start building your site.</p>
             </div>
 
             <div class="mt-10">
@@ -130,16 +130,16 @@ export default {
             </div>
           </div>
 
-          <div class="w-full md:w-1/3 lg:w-1/4 flex-none md:px-6">
-            <div class="w-full md:w-1/3 lg:w-1/4 flex-none md:px-6">
+          <div class="flex-none w-full md:px-6 md:w-1/3 lg:w-1/4">
+            <div class="flex-none w-full md:px-6 md:w-1/3 lg:w-1/4">
                 <div class="p-4" style="background-color: #f6f6f2">
-                  <h2 class="font-serif font-normal text-base text-gray-900 border-b border-solid border-gray-300 mb-3">Search</h2>
+                  <h2 class="mb-3 font-serif text-base font-normal text-gray-900 border-b border-gray-300 border-solid">Search</h2>
 
                   <div>
                     <form action="#" class="flex">
-                      <input type="text" class="border border-solid border-gray p-2 w-full xl:w-auto">
+                      <input type="text" class="p-2 w-full border border-solid xl:w-auto border-gray">
 
-                      <button type="submit" class="bg-gray-300 px-3 rounded-full border-b border-solid border-gray-600 ml-2 flex-none" style="background-color: #f0f0f0">
+                      <button type="submit" class="flex-none px-3 ml-2 bg-gray-300 rounded-full border-b border-gray-600 border-solid" style="background-color: #f0f0f0">
                         <img src="img/loupe.svg" class="block">
                       </button>
                     </form>
@@ -153,8 +153,8 @@ export default {
     </div>
 
     <div id="footer" class="text-xs text-white">
-      <div class="container mx-auto px-4 pt-16 pb-4">
-        <div class="border-t border-solid border-gray-900 pt-6 -mb-6">
+      <div class="container px-4 pt-16 pb-4 mx-auto">
+        <div class="pt-6 -mb-6 border-t border-gray-900 border-solid">
           <div class="mb-6">
             <p><a href="#0">Contact</a></p>
           </div>
@@ -199,7 +199,7 @@ export default {
 The second stage began with making the existing desktop version responsive - particularly making the navigation menu behave and appear differently on mobile and tablet screens, and stacking the main content area and the sidebar on mobile screens. This was all achieved using Tailwind’s responsive variants.
 
 ```html
-<div class="bg-white pt-3 pb-4 lg:pb-12">
+<div class="pt-3 pb-4 bg-white lg:pb-12">
     ...
 </div>
 ````
@@ -238,10 +238,10 @@ markup which makes the component easier to read and maintain.
   <div>
     <button
       type="button"
-      class="w-full p-3 block sm:hidden bg-blue-light text-sm text-gray-800 text-left focus:outline-none"
+      class="block p-3 w-full text-sm text-left text-gray-800 sm:hidden focus:outline-none bg-blue-light"
       @click="open = !open"
     >
-      <div class="flex items-center justify-between">
+      <div class="flex justify-between items-center">
         <div>
           {{ navText }} - Main navigation
         </div>
@@ -251,17 +251,17 @@ markup which makes the component easier to read and maintain.
       </div>
     </button>
 
-    <div class="container mx-auto px-4 sm:block" :class="[ open ? 'block' : 'hidden' ]">
+    <div class="container px-4 mx-auto sm:block" :class="[ open ?'block' : 'hidden' ]">
       <div class="mt-2 sm:mt-0">
-        <nav class="flex flex-wrap pb-1 md:p-0 -mx-3 sm:-mx-0">
+        <nav class="flex flex-wrap pb-1 -mx-3 sm:-mx-0 md:p-0">
           <div
-            class="px-1 sm:pl-0 mb-1 md:mb-0 inline-block w-full sm:w-1/3 md:w-auto"
+            class="inline-block px-1 mb-1 w-full sm:pl-0 sm:w-1/3 md:mb-0 md:w-auto"
             :key="link.title"
             v-for="(link, index) in links"
           >
             <a
-              class="block text-sm no-underline text-black px-3 py-2 rounded-lg md:rounded-none md:rounded-t-lg sm:text-center"
-              :class="[ index == activeTab ? 'bg-white' : 'bg-blue-light hover:bg-white' ]"
+              class="block py-2 px-3 text-sm text-black no-underline rounded-lg sm:text-center md:rounded-none md:rounded-t-lg"
+              :class="[ index == ? activeTab'bg-white' : 'bg-blue-light hover:bg-white' ]"
               :href="link.href"
             >
               {{ link.title }}

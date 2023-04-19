@@ -86,7 +86,7 @@ visible instead.
 <div v-pre markdown="1">
 
 ```twig
-<div class="border-bottom border-b border-gray-300 mb-6">
+<div class="mb-6 border-b border-gray-300 border-bottom">
     <div class="container mx-auto">
         <div class="block py-5 v-cloak-block">
             {{ site.title }}
