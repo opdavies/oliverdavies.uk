@@ -38,3 +38,7 @@ build-images sha:
 push-images sha: (build-images sha)
   docker image push ghcr.io/opdavies/oliverdavies.uk-build:latest
   docker image push ghcr.io/opdavies/oliverdavies.uk-build:{{ sha }}
+
+format:
+  yarn prettier --write src/**/*.{astro,mdx}
+  yarn rustywind src
