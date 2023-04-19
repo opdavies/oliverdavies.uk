@@ -4,26 +4,33 @@ title: Links
 ---
 
 export const links = [
-  { title: 'My daily email list', url: '/daily' },
-  { title: 'Twitter', url: 'https://twitter.com/opdavies' },
-  { title: 'YouTube', url: 'https://www.youtube.com/channel/UCkeK0qF9HHUPQH_fvn4ghqQ' },
-  { title: 'LinkedIn', url: 'https://www.linkedin.com/in/opdavies' },
-  { title: 'Drupal.org', url: 'https://www.drupal.org/u/opdavies' },
-  { title: 'GitHub', url: 'https://github.com/opdavies' },
-  { title: 'GitHub Gists', url: 'https://gist.github.com/opdavies' },
-  { title: 'Packagist', url: 'https://packagist.org/packages/opdavies' },
-  { title: 'Speakerdeck', url: 'https://speakerdeck.com/opdavies' },
-  { title: 'PHP South Wales', url: 'https://www.phpsouthwales.uk' },
+  { title: "My daily email list", url: "/daily" },
+  { title: "Twitter", url: "https://twitter.com/opdavies" },
+  {
+    title: "YouTube",
+    url: "https://www.youtube.com/channel/UCkeK0qF9HHUPQH_fvn4ghqQ",
+  },
+  { title: "LinkedIn", url: "https://www.linkedin.com/in/opdavies" },
+  { title: "Drupal.org", url: "https://www.drupal.org/u/opdavies" },
+  { title: "GitHub", url: "https://github.com/opdavies" },
+  { title: "GitHub Gists", url: "https://gist.github.com/opdavies" },
+  { title: "Packagist", url: "https://packagist.org/packages/opdavies" },
+  { title: "Speakerdeck", url: "https://speakerdeck.com/opdavies" },
+  { title: "PHP South Wales", url: "https://www.phpsouthwales.uk" },
 ];
 
 <div class="mx-auto max-w-md">
-    <ul class="p-0 space-y-4 list-none">
-      {links && links.map(link => (
+  <ul class="p-0 space-y-4 list-none">
+    {links &&
+      links.map((link) => (
         <li>
-          <a class="block p-2 w-full text-center text-black no-underline border transition duration-200 ease-in-out dark:text-white hover:text-white focus:text-white dark:hover:text-black dark:focus:text-black dark:hover:bg-white dark:focus:bg-white hover:bg-blue-primary focus:bg-blue-primary" href={link.url}>
+          <a
+            class="block p-2 w-full text-center text-black no-underline border transition duration-200 ease-in-out dark:text-white hover:text-white focus:text-white dark:hover:text-black dark:focus:text-black dark:hover:bg-white dark:focus:bg-white hover:bg-blue-primary focus:bg-blue-primary"
+            href={link.url}
+          >
             {link.title}
           </a>
         </li>
       ))}
-    </ul>
+  </ul>
 </div>
