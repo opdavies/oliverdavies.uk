@@ -38,7 +38,10 @@ export async function get() {
       link: `${import.meta.env.SITE}/${email.data.permalink}`,
       pubDate: email.data.pubDate,
       title: `${email.data.title}`,
-      customData: `<tags>${email.data.tags.map(tag => `<tag>#${tag}</tag>`)}</tags>`,
+      customData: `
+        <tags>
+          ${email.data.tags.map(tag => `<tag>#${tag}</tag>`).join('')}
+        </tags>`,
     }))
   });
 };
