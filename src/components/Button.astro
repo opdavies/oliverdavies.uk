@@ -1,0 +1,16 @@
+---
+interface Props {
+  href: string;
+  text: string;
+};
+
+const { href, text } = Astro.props as Props;
+---
+<div class="mt-6">
+  <a
+    class="inline-flex items-center py-3 px-6 text-base font-medium text-white no-underline rounded-md duration-200 ease-in-out hover:bg-white focus:bg-white bg-blue-primary transition-color hover:text-blue-primary focus:text-blue-primary"
+    href={href}
+  >
+    {text} &rarr;
+  </a>
+</div>
