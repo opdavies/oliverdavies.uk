@@ -2,6 +2,7 @@
 import ListingPage from "~/components/ListingPage.astro";
 import _ from "lodash";
 import { getCollection } from "astro:content";
+import Markdown from "~/components/Markdown.astro";
 
 const talks = await getCollection("talk");
 
@@ -28,9 +29,11 @@ const sortedTalks = talks
 ---
 
 <ListingPage items={sortedTalks} title="Talks and workshops">
-  <p slot="intro">
-    Starting with my first talk in September 2012, I have given {talkCount} presentations
-    and workshops at various conferences and meetups, in-person and remotely, on
-    topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.
-  </p>
+  <Markdown>
+    <p slot="intro">
+      Starting with my first talk in September 2012, I have given {talkCount} presentations
+      and workshops at various conferences and meetups, in-person and remotely, on
+      topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.
+    </p>
+  </Markdown>
 </ListingPage>

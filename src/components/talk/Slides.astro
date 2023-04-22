@@ -1,4 +1,6 @@
 ---
+import Markdown from '../Markdown.astro';
+
 interface Props {
   id: string;
   ratio?: string;
@@ -7,7 +9,7 @@ interface Props {
 const { id, ratio }: Props = Astro.props;
 ---
 
-<div>
+<Markdown>
   <h2 class="mb-2">Slides</h2>
 
   <div class="slides">
@@ -19,4 +21,4 @@ const { id, ratio }: Props = Astro.props;
       src="//speakerdeck.com/assets/embed.js"
     ></script>
   </div>
-</div>
+</Markdown>

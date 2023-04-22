@@ -7,22 +7,13 @@ module.exports = {
   mode: "jit",
   darkMode: "media",
   important: true,
-	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
     outline: {
       black: "1px solid black",
       white: "1px solid white",
     },
     extend: {
-      typography: (theme) => ({
-        DEFAULT: {
-          css: {
-            p: {
-              lineHeight: 400,
-            },
-          },
-        },
-      }),
       colors,
       fontFamily: {
         sans: [

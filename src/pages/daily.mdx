@@ -16,19 +16,22 @@ export const testimonials = [
   },
   {
     name: "Stephen Mulvihill",
-    text: 'I like the "$ git log -S" and "$ git log --grep" commands, will definitely be using these, thanks!',
+    text: '<p>I like the "$ git log -S" and "$ git log --grep" commands, will definitely be using these, thanks!</p>',
     image: "stephen-mulvihill.jpg",
   },
   {
     name: "Marcos Duran",
-    text: "<p>    I am a big fan of your git approaches. I especially remember pairing with you and watching how many commands you run to solve many problems and how fast you were. It's a skill I believe not many have, particularly those who are used to working with a GUI like me, and personally I think it is quite valuable.</p>",
+    text: "<p>I am a big fan of your git approaches. I especially remember pairing with you and watching how many commands you run to solve many problems and how fast you were. It's a skill I believe not many have, particularly those who are used to working with a GUI like me, and personally I think it is quite valuable.</p>",
     image: "marcos-duran.jpg",
   },
 ];
 
 export const sortedTestimonials = _.reverse(testimonials);
 
-A daily newsletter on software development, DevOps, community, and open-source.
+<p>
+  A daily newsletter on software development, DevOps, community, and
+  open-source.
+</p>
 
 <div class="space-y-12">
   <div class="space-y-20">
@@ -42,11 +45,11 @@ A daily newsletter on software development, DevOps, community, and open-source.
           {testimonials.map(testimonial => (
             <article class="flex space-x-10">
               <div>
-                <blockquote class="m-0">
-                  <Markdown set:html={testimonial.text} />
-                </blockquote>
+                <Markdown>
+                  <blockquote class="m-0"set:html={testimonial.text} />
 
-                <figcaption class="mt-6">{testimonial.name}</figcaption>
+                  <figcaption class="mt-6">{testimonial.name}</figcaption>
+                </Markdown>
               </div>
 
               <div class="hidden flex-shrink-0 sm:block">

@@ -1,4 +1,6 @@
 ---
+import Markdown from "../Markdown.astro";
+
 interface Event {
   date: string;
   location: string;
@@ -17,15 +19,15 @@ const { events } = Astro.props;
 
 {
   events && (
-    <div>
+    <Markdown>
       <h2>Events</h2>
 
       <div>
-        <ul class="ml-4 list-disc">
+        <ul>
           {events.map((event) => (
             <li>
               {event.url ? (
-                <a class="link" href={event.url}>
+                <a class="inline-block" href={event.url}>
                   {event.name}
                 </a>
               ) : (
@@ -42,6 +44,6 @@ const { events } = Astro.props;
           ))}
         </ul>
       </div>
-    </div>
+    </Markdown>
   )
 }

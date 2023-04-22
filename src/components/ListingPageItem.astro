@@ -1,4 +1,6 @@
 ---
+import Markdown from "./Markdown.astro";
+
 interface ItemProps {
   date: string;
   description?: string;
@@ -12,20 +14,22 @@ const { slug } = Astro.props.item;
 ---
 
 <article>
-  <a href={slug} class="mb-2"><h2>{title}</h2></a>
+  <Markdown overrideLinkColours={true}>
+    <a href={slug}><h2>{title}</h2></a>
 
-  {
-    date && (
-      <time class="block mt-0 mb-2 text-base" datetime={date}>
-        {new Date(date).toLocaleDateString("en-GB", {
-          day: "numeric",
-          month: "long",
-          year: "numeric",
-        })}
-      </time>
-    )
-  }
+    {
+      date && (
+        <time class="block mt-0 mb-2 text-base" datetime={date}>
+          {new Date(date).toLocaleDateString("en-GB", {
+            day: "numeric",
+            month: "long",
+            year: "numeric",
+          })}
+        </time>
+      )
+    }
 
-  {description && <p>{description}</p>}
-  {excerpt && <p>{excerpt}</p>}
+    {description && <p>{description}</p>}
+    {excerpt && <p>{excerpt}</p>}
+  </Markdown>
 </article>
