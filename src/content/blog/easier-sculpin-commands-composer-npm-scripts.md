@@ -37,7 +37,7 @@ watch session was also ending the script process.
 
 ### composer.json
 
-```language-json
+```json
 "scripts": {
     "clean": "rm -rf output_*/",
     "dev": "sculpin generate --clean --no-interaction --server --watch",
@@ -49,7 +49,7 @@ Run with `composer run <name>`, e.g. `composer run dev`.
 
 ### package.json
 
-```language-json
+```json
 "scripts": {
     "init": "yarn && bower install",
     "dev": "gulp watch",

@@ -52,7 +52,7 @@ to it and push it.
 
 For example:
 
-```language-bash
+```bash
 cd web/modules/custom/my_new_module
 
 # Create a new Git repository.

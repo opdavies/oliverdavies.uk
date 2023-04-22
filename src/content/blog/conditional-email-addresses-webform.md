@@ -16,7 +16,7 @@ configuration until after I created the form components. I added 'Name',
 'Email', 'Subject' and 'Message' fields, as well as a 'Category' select list.
 Below 'Options', I entered each of my desired options in the following format:
 
-```language-ini
+```ini
 Email address|Visible name
 ```
 

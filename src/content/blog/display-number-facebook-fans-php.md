@@ -19,7 +19,7 @@ formatted with commas etc - like where I've used it within the
 [Gold Event listing](http://www.horseandcountry.tv/events/paid) on the Horse &
 Country TV website.
 
-```language-php
+```php
 $page_id = "143394365692197";
 $xml = @simplexml_load_file("http://api.facebook.com/restserver.php?method=facebook.fql.query&amp;query=SELECT%20fan_count%20FROM%20page%20WHERE%20page_id=".$page_id."") or die ("a lot");
 $fans = $xml->page->fan_count;

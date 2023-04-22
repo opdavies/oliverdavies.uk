@@ -32,7 +32,7 @@ database. Then, using [Sequel Pro](http://www.sequelpro.com), I ran the
 following SQL query to give me a list of Blog posts on my site - showing just
 their titles and nid values.
 
-```language-sql
+```sql
 SELECT title, nid FROM node WHERE TYPE = 'blog' ORDER BY title ASC;
 ```
 
@@ -40,7 +40,7 @@ I made a note of the nid's of the returned nodes, and kept them for later. I
 then ran a similar query against the term_data table. This returned a list of
 Taxonomy terms - showing the term's name, and it's unique tid value.
 
-```language-sql
+```sql
 SELECT NAME, tid FROM term_data ORDER BY NAME ASC;
 ```
 
@@ -50,7 +50,7 @@ query against the database. I'm using aliases within this query to link the
 node, term_node and term_data tables. For more information on SQL aliases, take
 a look at <http://w3schools.com/sql/sql_alias.asp>.
 
-```language-sql
+```sql
 SELECT * FROM node n, term_data td, term_node tn WHERE td.tid = 84 AND n.nid = tn.nid AND tn.tid = td.tid;
 ```
 
@@ -65,7 +65,7 @@ To confirm everything, I ran a simple query against an old post. I know that the
 only taxonomy term associated with this post is 'Personal', which has a tid
 value of 44.
 
-```language-sql
+```sql
 SELECT nid, tid FROM term_node WHERE nid = 216;
 ```
 

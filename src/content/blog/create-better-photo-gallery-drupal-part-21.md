@@ -14,7 +14,7 @@ that I'd include it in
 [Part 3](/blog/create-better-photo-gallery-drupal-part-3/ 'Create a Better Photo Gallery in Drupal - Part 3'),
 but I forgot). So, here it is:
 
-```language-php
+```php
 <?php
 
 // Queries the database and returns a list of nids of published galleries.

@@ -33,7 +33,7 @@ The first thing to do is download the PHPSass library from
 a requirement of the Sassy module and we can't enable it without the library.
 So, in a Terminal window:
 
-```language-bash
+```bash
 $ mkdir -p sites/all/libraries;
 $ cd sites/all/libraries;
 $ wget https://github.com/richthegeek/phpsass/archive/master.tar.gz;
@@ -44,7 +44,7 @@ $ mv phpsass-master/ phpsass
 
 Or, if you're using Drush Make files:
 
-```language-ini
+```ini
 libraries[phpsass][download][type] = "get"
 libraries[phpsass][download][url] = "https://github.com/richthegeek/phpsass/archive/master.tar.gz"
 ```
@@ -55,7 +55,7 @@ The PHPSass library should now be located at `sites/all/libraries/phpsass`.
 
 This is easy if you use [Drush](http://drupal.org/project/drush):
 
-```language-bash
+```bash
 $ drush dl libraries prepro sassy
 $ drush en -y libraries prepro sassy sassy_compass
 ```

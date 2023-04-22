@@ -17,7 +17,7 @@ credentials and API keys safe.
 
 At the bottom of settings.php, add the following code:
 
-```language-php
+```php
 $local_settings = __DIR__ . '/settings.local.php';
 if (file_exists($local_settings)) {
   include $local_settings;
@@ -42,14 +42,14 @@ won't show up as a file available to be committed. There are two ways to fix
 this. The first is to use the `--force` option when adding the file which
 overrides the ignore file:
 
-```language-bash
+```bash
 git add --force sites/default/settings.php
 ```
 
 The other option is to update the .gitignore file itself so that settings.php is
 no longer ignored. An updated .gitignore file could look like:
 
-```language-bash
+```bash
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings.local*.php
 

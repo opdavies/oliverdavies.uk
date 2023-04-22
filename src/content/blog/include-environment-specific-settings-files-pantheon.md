@@ -17,7 +17,7 @@ defined within settings.php (this is also best practice on all Drupal sites).
 The way that was recommended was by using a `switch()` function based on
 Pantheon's environment variable. For example:
 
-```language-php
+```php
 switch ($_SERVER['PANTHEON_ENVIRONMENT']) {
   case 'dev':
     // Development environment.
@@ -48,7 +48,7 @@ file.
 
 To do this, add the following code to the bottom of settings.php:
 
-```language-php
+```php
 if (isset($_SERVER['PANTHEON_ENVIRONMENT'])) {
   if ($_SERVER['PANTHEON_ENVIRONMENT'] != 'live') {
     // You can still add things here, for example to apply to all sites apart
@@ -79,7 +79,7 @@ Within the sites/default directory, I also include an example file
 (example.settings.env.php) for reference. This is duplicated, renamed and
 populated accordingly.
 
-```language-php
+```php
 <?php
 
 /**

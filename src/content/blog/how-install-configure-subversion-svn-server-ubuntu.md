@@ -20,14 +20,14 @@ already installed.
 Firstly, I'm going to ensure that all of my installed packages are up to date,
 and install any available updates.
 
-```language-bash
+```bash
 $ sudo apt-get update
 ```
 
 Now, I need to download the subversion, subversion-tools and libapache2
 packages.
 
-```language-bash
+```bash
 $ sudo apt-get install subversion subversion-tools libapache2-svn
 ```
 
@@ -39,7 +39,7 @@ Now, I need to create the directory where my repositories are going to sit. I've
 chosen this directory as I know that it's one that is accessible to my managed
 backup service.
 
-```language-bash
+```bash
 $ sudo mkdir /home/svn
 ```
 
@@ -48,7 +48,7 @@ $ sudo mkdir /home/svn
 First, I'll create a new folder in which I'll create my test project, and then
 I'll create a repository for it.
 
-```language-bash
+```bash
 $ sudo mkdir ~/test
 $ sudo svnadmin create /home/svn/test -m 'initial project structure'
 ```
@@ -57,14 +57,14 @@ This will create a new repository containing the base file structure.
 
 ## Adding files into the test project
 
-```language-bash
+```bash
 $ cd ~/test 
 $ mkdir trunk tags branches
 ```
 
 I can now import these new directories into the test repository.
 
-```language-bash
+```bash
 $ sudo svn import ~/test file:///home/svn/test -m 'Initial project directories'
 ```
 
@@ -75,7 +75,7 @@ needs to be owned by the same user and group that Apache runs as. In Ubuntu,
 this is usually www-data. To change the owner of a directory, use the chown
 command.
 
-```language-bash
+```bash
 $ sudo chown -R www-data:www-data /home/svn
 ```
 
@@ -84,13 +84,13 @@ $ sudo chown -R www-data:www-data /home/svn
 The first thing that I need to do is enable the dav_svn Apache module, using the
 a2enmod command.
 
-```language-bash
+```bash
 $ sudo a2enmod dav_svn
 ```
 
 With this enabled, now I need to modify the Apache configuration file.
 
-```language-bash
+```bash
 $ cd /etc/apache2
 $ sudo nano apache2.conf
 ```
@@ -98,7 +98,7 @@ $ sudo nano apache2.conf
 At the bottom of the file, add the following lines, and then save the file by
 pressing Ctrl+X.
 
-```language-apacheconf
+```
 <Location "/svn">
   DAV svn
   SVNParentPath /home/svn
@@ -107,7 +107,7 @@ pressing Ctrl+X.
 
 With this saved, restart the Apache service for the changes to be applied.
 
-```language-bash
+```bash
 sudo service apache2 restart
 ```
 
@@ -125,7 +125,7 @@ password before viewing or performing any actions with the repository.
 
 Re-open apache2.conf, and replace the SVN Location information with this:
 
-```language-apacheconf
+```
 <Location "/svn">
   DAV svn
   SVNParentPath /home/svn
@@ -138,7 +138,7 @@ Re-open apache2.conf, and replace the SVN Location information with this:
 
 Now I need to create the password file.
 
-```language-bash
+```bash
 $ htpasswd -cm /etc/svn-auth oliver
 ```
 
@@ -152,7 +152,7 @@ For example, now want to checkout the files within my repository into a new
 directory called 'test2' within my home directory. Firstly, I need to create the
 new directory, and then I can issue the checkout command.
 
-```language-bash
+```bash
 $ cd ~
 $ mkdir test2
 $ svn checkout http://127.0.0.1/svn/test/trunk test2
@@ -168,7 +168,7 @@ Now you can start adding files into the directory. Once you've created your
 files, perform a svn add command, passing in individual filenames as further
 arguments.
 
-```language-bash
+```bash
 $ svn add index.php
 $ svn add *
 ```

@@ -29,7 +29,7 @@ The first thing to do was to run the existing tests and check that they still
 passed. I do this on the command line by typing
 `php scripts/run-tests.sh --class OverrideNodeOptionsTestCase`.
 
-```language-markup
+```
 Drupal test run
 ---------------
 
@@ -52,7 +52,7 @@ what could be re-used.
 
 This is one of the original tests:
 
-```language-php
+```php
 /**
  * Test the 'Authoring information' fieldset.
  */
@@ -94,7 +94,7 @@ called `$generalUser` and run the first part of the tests in a loop.
 
 With the tests passing, I was able to start refactoring.
 
-```language-php
+```php
 // Create a new user with content type specific permissions.
 $specificUser = $this->drupalCreateUser(array(
   'create page content',
@@ -123,7 +123,7 @@ After that change, I ran the tests again to check that everything still worked.
 
 The next step is to start testing the new permissions.
 
-```language-php
+```php
 ...
 
 $generalUser = $this->drupalCreateUser(array());
@@ -139,7 +139,7 @@ I added a new `$generalUser` to test the general permissions and added to the
 loop, but in order to see the tests failing intially I assigned it no
 permissions. When running the tests again, 6 tests have failed.
 
-```language-markup
+```
 Test summary
 ------------
 
@@ -163,7 +163,7 @@ that the
 
 This was fixed by adding the extra code into `override_node_options.module`.
 
-```language-diff
+```diff
 - $form['comment_settings']['#access'] |= user_access('override ' . $node->type . ' comment setting option');
 + $form['comment_settings']['#access'] |= user_access('override ' . $node->type . ' comment setting option') || user_access('override all comment setting option');
 ```
@@ -177,7 +177,7 @@ Note: You can get more verbose output from `run-tests.sh` by adding the
 
 > Node vid was updated to '3', expected 2.
 
-```language-diff
+```diff
 - $fields = array(
 -   'revision' => TRUE,
 - );
@@ -223,7 +223,7 @@ version of the node was loaded during each loop.
 With the refactoring complete, the number of passing tests increased from 142
 to 213.
 
-```language-markup
+```
 Override node options 213 passes, 0 fails, 0 exceptions, and 60 debug messages
 
 Test run duration: 25 sec

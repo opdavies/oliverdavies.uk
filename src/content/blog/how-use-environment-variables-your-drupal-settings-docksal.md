@@ -12,7 +12,7 @@ Within the [Docksal documentation for Drupal settings][0], the example database
 settings include hard-coded credentials to connect to the Drupal database. For
 example, within a `settings.php` file, you could add this:
 
-```language-php
+```php
 $databases['default']['default'] = [
   'driver' => 'mysql',
   'host' => 'db',
@@ -76,7 +76,7 @@ If you see this, the environment variables aren’t being passed into Docksal’
 `.docksal/docksal.yml` and add `MYSQL_DATABASE`, `MYSQL_PASSWORD` and
 `MYSQL_USER` to the `environment` section of the `cli` service.
 
-```language-yml
+```yaml
 version: '2.1'
 services:
   cli:

@@ -31,7 +31,7 @@ have one) or the standard settings.php file.
 The first thing that we need to do is to enable rerouting. Without doing this,
 nothing will happen.
 
-```language-php
+```php
 $conf['reroute_email_enable'] = TRUE;
 ```
 
@@ -39,14 +39,14 @@ The next option is to whether to show rerouting description in mail body. I
 usually have this enabled. Set this to TRUE or FALSE depending on your
 preference.
 
-```language-php
+```php
 $conf['reroute_email_enable_message'] = TRUE;
 ```
 
 The last setting is the email address to use. If you're entering a single
 address, you can add it as a simple string.
 
-```language-php
+```php
 $conf['reroute_email_address'] = 'person1@example.com';
 ```
 
@@ -57,7 +57,7 @@ If you want to add multiple addresses, these should be added in a
 semicolon-delimited list. Whilst you could add these also as a string, I prefer
 to use an array of addresses and the `implode()` function.
 
-```language-php
+```php
 $conf['reroute_email_address'] = implode(';', array(
   'person1@example.com',
   'person2@example.com',

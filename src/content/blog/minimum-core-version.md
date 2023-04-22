@@ -41,7 +41,7 @@ file.
 You can define a simple dependency for your module by adding a line this this to
 your project's .info file:
 
-```language-bash
+```bash
 dependencies[] = views
 ```
 
@@ -55,13 +55,13 @@ In the previous example, our module would enable if _any_ version of Views was
 enabled, but we need to specify a specific version. We can do this by including
 version numbers within the dependencies field in the following format:
 
-```language-bash
+```bash
 dependencies[] = modulename (major.minor)
 ```
 
 This can be a for a specific module release or a branch name:
 
-```language-bash
+```bash
 dependencies[] = modulename (1.0)
 dependencies[] = modulename (1.x)
 ```
@@ -79,7 +79,7 @@ In the original scenario, we want to specify that the module can only be enabled
 on Drupal core 7.36 or later. To do this, we can use the "greater than or equal
 to" option.
 
-```language-ini
+```ini
 dependencies[] = system (>=7.36)
 ```
 

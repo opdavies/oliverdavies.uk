@@ -21,7 +21,7 @@ when a complete node was displayed.
 I have previously seen it done this way by adding this into in a node.tpl.php
 file:
 
-```language-php
+```php
 if ($teaser) {
   // The teaser output.
 }
@@ -40,7 +40,7 @@ looks for and attempts to use when displaying a node, and this is where I'll be
 adding a new suggestion for my teaser-specific template. Using the `debug()`
 function, I can easily see what's already there.
 
-```language-php
+```php
 array (
   0 => 'node__article',
   1 => 'node__343',
@@ -51,7 +51,7 @@ array (
 
 So, within my theme's template.php file:
 
-```language-php
+```php
 /**
  * Implementation of hook_preprocess_HOOK().
  */
@@ -67,7 +67,7 @@ function mytheme_preprocess_node(&$variables) {
 
 After adding the new suggestion:
 
-```language-php
+```php
 array (
   0 => 'node__article',
   1 => 'node__343',

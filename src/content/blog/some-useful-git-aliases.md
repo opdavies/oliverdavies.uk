@@ -11,7 +11,7 @@ and Git Flow commands.
 
 These should be placed within your `~/.bashrc` or `~/.bash_profile` file:
 
-```language-bash
+```bash
 alias gi="git init"
 alias gcl="git clone"
 alias gco="git checkout"

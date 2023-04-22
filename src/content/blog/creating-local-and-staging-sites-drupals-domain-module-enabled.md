@@ -23,7 +23,7 @@ best solution I think is to use table prefixes and create a different domain
 table per environment. With a live, staging and local domains, the tables would
 be named as follows:
 
-```language-bash
+```bash
 live_domain
 local_domain
 staging_domain
@@ -33,7 +33,7 @@ Within each site's settings.php file, define the prefix for the domain table
 within the databases array so that each site is looking at the correct table for
 its environment.
 
-```language-php
+```php
 $databases['default']['default'] = array(
   'driver' => 'mysql',
   'database' => 'foobar',

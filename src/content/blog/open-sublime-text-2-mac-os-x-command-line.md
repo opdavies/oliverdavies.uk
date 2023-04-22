@@ -13,7 +13,7 @@ How to open Sublime Text from the command line.
 Paste the following code into the Mac OS X Terminal, assuming that you've
 installed Sublime Text 2 into the /Applications folder.
 
-```language-bash
+```bash
 $ ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/sublime
 ```
 

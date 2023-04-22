@@ -9,7 +9,7 @@ tags:
     - theming
 ---
 
-```language-ini
+```ini
 name = My Theme
 description = A description of my theme
 core = 7.x

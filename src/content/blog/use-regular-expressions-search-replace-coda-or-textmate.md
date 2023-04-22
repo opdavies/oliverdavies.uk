@@ -17,7 +17,7 @@ I'd generated a list of node ID values, and needed to add structure the SQL
 update statment formatted in a certain way. However, I changed my inital query
 slightly to out put the same nid value twice.
 
-```language-sql
+```sql
 SELECT nid, nid FROM node WHERE TYPE = 'blog' ORDER BY nid ASC;
 ```
 
@@ -26,7 +26,7 @@ into Coda:
 
 As before, I needed my SQL update statement to be in the following format:
 
-```language-sql
+```sql
 INSERT INTO term_node VALUE (nid, vid, tid), (nid2, vid2, tid);
 ```
 

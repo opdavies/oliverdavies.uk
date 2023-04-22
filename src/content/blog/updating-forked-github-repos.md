@@ -44,7 +44,7 @@ I had a quick look for a _Update my fork_ button or something, but couldn't see
 one to I added the main repository as an additional remote called `upstream` and
 fetched the changes.
 
-```language-bash
+```bash
 $ git remote add upstream https://github.com/sculpin/sculpin.io.git
 
 $ git fetch upstream
@@ -60,7 +60,7 @@ Now my local site knows about the upstream repo, and I could rebase the changes
 (`git pull upstream master` should have worked too) and push them back to
 origin.
 
-```language-bash
+```bash
 $ git rebase upstream/master
 First, rewinding head to replay your work on top of it...
 ...

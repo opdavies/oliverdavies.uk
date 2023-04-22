@@ -12,13 +12,13 @@ file from the source, and then you run a separate command to apply it.
 
 You can save time and typing by running the two commands on one line:
 
-```language-bash
+```bash
 $ curl http://drupal.org/files/[patch-name].patch | git apply -v
 ```
 
 Or, if you don't have curl installed, you can use wget:
 
-```language-bash
+```bash
 $ wget -q -O - http://drupal.org/files/[patch-name].patch | git apply -v
 ```
 

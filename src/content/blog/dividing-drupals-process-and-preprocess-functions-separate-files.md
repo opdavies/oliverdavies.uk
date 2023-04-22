@@ -21,7 +21,7 @@ process/page.inc.
 The first step is to use the default mytheme_process() and mytheme_preprocess()
 functions to utilise my custom function. So within my template.php file:
 
-```language-php
+```php
 <?php
 
 /**
@@ -45,7 +45,7 @@ function mytheme_process(&$variables, $hook) {
 
 Now, to write the `mytheme_invoke()` function:
 
-```language-php
+```php
 <?php
 
 /**

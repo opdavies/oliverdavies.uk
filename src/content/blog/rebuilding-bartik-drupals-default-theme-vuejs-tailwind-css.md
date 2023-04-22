@@ -89,7 +89,7 @@ export default {
 `src/components/Welcome.vue`:
 
 <div v-pre markdown="1">
-```vuejs
+```vue-html
 <template>
   <div>
     <div class="bg-blue-dark">
@@ -233,7 +233,7 @@ markup which makes the component easier to read and maintain.
 
 <div v-pre markdown="1">
 
-```vuejs
+```vue-html
 <template>
   <div>
     <button

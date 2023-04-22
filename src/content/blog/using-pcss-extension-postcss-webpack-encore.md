@@ -27,7 +27,7 @@ console.log(Encore.getWebpackConfig().module.rules)
 
 There I can see the the test for PostCSS supports the `.css` and `.postcss` file extensions, but not `.pcss`.
 
-```plain
+```
 test: /\.(css|postcss)$/,
 ```
 

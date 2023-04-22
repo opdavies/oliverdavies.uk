@@ -26,7 +26,7 @@ need to download that as well.
 By declarding the core version of Drupal, such as "drupal-6", Drush will
 download that instead.
 
-```language-bash
+```bash
 $ drush dl drupal-6
 ```
 
@@ -34,20 +34,20 @@ This downloads the most recent stable version of Drupal 6. If you don't want
 that, you can add the --select and additionally the --all options to be
 presented with an entire list to chose from.
 
-```language-bash
+```bash
 $ drush dl drupal-6 --select
 $ drush dl drupal-6 --select --all
 ```
 
 If you want the most recent development version, just type:
 
-```language-bash
+```bash
 $ drush dl drupal-6.x
 ```
 
 The same can be done for other core versions of Drupal, from Drupal 5 upwards.
 
-```language-bash
+```bash
 # This will download Drupal 5
 $ drush dl drupal-5
 # This will download Drupal 8

@@ -14,7 +14,7 @@ After reading numerous blog posts about how to install
 
 Just paste the following lines into your Terminal:
 
-```language-bash
+```bash
 $ sudo add-apt-repository ppa:webupd8team/sublime-text-2
 $ sudo apt-get update
 $ sudo apt-get install sublime-text

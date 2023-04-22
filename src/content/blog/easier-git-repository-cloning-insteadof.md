@@ -16,7 +16,7 @@ necessary command every time.
 For example, here is the command provided to clone Drupal’s
 [Override Node Options module](https://www.drupal.org/project/override_node_options):
 
-```plain
+```
 git clone --branch 8.x-2.x https://git.drupal.org/project/override_node_options.git
 ```
 
@@ -51,7 +51,7 @@ patches to.
 
 Again, here is the provided command to clone the Override Node Options module:
 
-```plain
+```
 git clone --branch 8.x-2.x https://git.drupal.org/project/override_node_options.git
 ```
 

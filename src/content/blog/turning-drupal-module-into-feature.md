@@ -23,7 +23,7 @@ To do this, I needed to expose the module to the Features API.
 
 All that’s needed is to add this line to the `mymodule.info` file:
 
-```language-ini
+```ini
 features[features_api][] = api:2
 ```
 

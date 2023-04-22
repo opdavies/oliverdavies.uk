@@ -19,13 +19,13 @@ First, I need to download the
 make my module dependent on date_popup by adding the following line into my
 module's .info file.
 
-```language-ini
+```ini
 dependencies[] = date_popup
 ```
 
 Within my form builder function:
 
-```language-php
+```php
 $form['date'] = array(
   '#title' => t('Arrival date'),
 

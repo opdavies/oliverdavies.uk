@@ -39,7 +39,7 @@ have a list of all the galleries on my site which are published, and what
 they're unique node ID values are. To do this, I opened Sequel Pro and entered
 the following code:
 
-```language-sql
+```sql
 SELECT title
 AS title, nid
 AS gallery_idFROM node
@@ -55,7 +55,7 @@ For example, using [aliasing](http://www.w3schools.com/sql/sql_alias.asp) within
 my SQL statement, I can retrieve a list of all the published photos within the
 'British Squad 2008' gallery by using the following code:
 
-```language-sql
+```sql
 SELECT n.title, n.nid, p.field_gallery_nid
 FROM node n, content_type_photo p
 WHERE p.field_gallery_nid = 105
@@ -66,7 +66,7 @@ AND n.nid = p.nid;
 I can easily change this to count the number of published nodes by changing the
 first line of the query to read SELECT COUNT(\*).
 
-```language-sql
+```sql
 SELECT COUNT(*)
 FROM node n, content_type_photo p
 WHERE p.field_gallery_nid = 105
@@ -80,7 +80,7 @@ to each gallery by creating a custom node-gallery.tpl.php file within my theme.
 I can then use the following PHP code to retrieve the node ID for that specific
 gallery:
 
-```language-php
+```php
 <?php
 $selected_gallery = db_result(db_query("
 SELECT nid
@@ -94,7 +94,7 @@ AND title = '$title'
 I can then use this variable as part of my next query to count the number of
 photos within that gallery, similar to what I did earlier.
 
-```language-php
+```php
 <?php
 $gallery_total = db_result(db_query("
 SELECT COUNT(*)
@@ -109,7 +109,7 @@ album. This was done by using a similar query that also sorted the results in a
 descending order, and limited it to one result - effectively only returning the
 created date for the newest photo.
 
-```language-php
+```php
 <?php
 $latest_photo = db_result(db_query("
 SELECT n.created
@@ -124,7 +124,7 @@ ORDER BY n.created DESC LIMIT 1
 This was all then added into a 'print' statement which displayed it into the
 page.
 
-```language-php
+```php
 <?php
 if ($selected_gallery_total != 0) {
   $output = '<i>There are currently ' . $selected_gallery_total . ' photos in this gallery.';
@@ -140,7 +140,7 @@ You will notice that the returned date value for the latest photo added is
 displaying the UNIX timestamp instead of in a more readable format. This can be
 changed by altering the 'print' statement to include a PHP 'date' function:
 
-```language-php
+```php
 <?php
 if ($selected_gallery_total != 0) {
   $output = '<i>There are currently ' . $selected_gallery_total . ' photos in this gallery.';

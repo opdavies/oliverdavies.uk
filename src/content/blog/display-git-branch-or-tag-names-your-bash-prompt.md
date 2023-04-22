@@ -18,7 +18,7 @@ Here's how to do it.
 
 For example (with some slight modifications):
 
-```language-bash
+```bash
 oliver@oliver-mbp:~/Development/drupal(master) $
 oliver@oliver-mbp:~/Development/a11y_checklist(7.x-1.0) $
 ```
@@ -27,13 +27,13 @@ Here's how to do it.
 
 To begin with, create a new file to contain the functions,
 
-```language-bash
+```bash
 vim ~/.bash/git-prompt
 ```
 
 Paste the following code into the file, and save it.
 
-```language-bash
+```bash
 parse_git_branch () {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
@@ -53,13 +53,13 @@ parse_git_branch_or_tag() {
 
 Edit your `.bashrc` or `.bash_profile` file to override the PS1 value.
 
-```language-bash
+```bash
 vim ~/.bashrc
 ```
 
 Add the following code at the bottom of the file, and save it.
 
-```language-bash
+```bash
 source ~/.bash/git-prompt
 PS1="\u@\h:\w\$(parse_git_branch_or_tag) $ "
 ```

@@ -26,7 +26,7 @@ To use it, download and enable it from Drupal.org as you would for any other
 module, and then add it as a dependency within your module. The xautoload
 project page suggests including a minimum version in this format:
 
-```language-ini
+```ini
 dependencies[] = xautoload (>= 7.x-5.0)
 ```
 
@@ -38,7 +38,7 @@ This will ensure that the version of xautoload is 7.x-5.0 or newer.
 
 Here is an example .info file for a migrate module.
 
-```language-ini
+```ini
 ; foo_migrate.info
 
 name = Foo Migration
@@ -58,7 +58,7 @@ One thing that the xautoload module does to enable for the use of wildcards
 within this syntax. By using wildcards, the module file can be simplified as
 follows:
 
-```language-ini
+```ini
 files[] = includes/**/*.inc
 ```
 
@@ -93,7 +93,7 @@ In order to do so, you’ll need to complete the following steps:
 
 Now your class may look something like this:
 
-```language-php
+```php
 <?php
 
 namespace Drupal\foo_migrate\Node;
@@ -111,7 +111,7 @@ they are no longer needed and any classes will be loaded automatically.
 Within `foo_migrate.migrate.inc`, I can now reference any class names using
 their full namespace:
 
-```language-php
+```php
 $node_arguments['ArticleNode'] = array(
   'class_name' => 'Drupal\foo_migrate\Node\FooArticleNodeMigration',
   'source_type' => 'story',

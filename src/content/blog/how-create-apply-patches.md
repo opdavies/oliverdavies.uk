@@ -22,7 +22,7 @@ original user.pages.inc file. Within the duplicate file, I made the same changes
 to the function that I did in earlier code, and saved the changes. Now, within
 my Terminal, I can navigate to Drupal's root directory and create the patch.
 
-```language-bash
+```bash
 diff -rup modules/user/user.pages.inc modules/user/user.pages2.inc > /Users/oliver/Desktop/different_messages_for_blocked_users.patch
 ```
 
@@ -32,13 +32,13 @@ specified patch file.
 To apply the patch to my Drupal installation, I go back to Terminal and run the
 following code:
 
-```language-bash
+```bash
 patch -p0 < /Users/oliver/Desktop/different_messages_for_blocked_users.patch
 ```
 
 If, for some reason, I need to reverse the patch, I can run this code:
 
-```language-bash
+```bash
 patch -p0 -R < /Users/oliver/Desktop/different_messages_for_blocked_users.patch
 ```
 

@@ -17,7 +17,7 @@ to write a .php script and bootstrap Drupal to gain access to functions like
 To bootstrap Drupal, you would need to add some additional lines of code to the
 stop of your script. Here is an alternative way.
 
-```language-php
+```php
 <?php
 
 // Bootstrap Drupal.
@@ -36,14 +36,14 @@ http://example.com/foo.php to execute it. This is where the "drush php-script"
 command (or "drush scr" for short) is useful, and can be used to execute the
 script from the command line.
 
-```language-bash
+```bash
 $ drush scr foo.php
 ```
 
 It also means that I no longer need to manually bootstrap Drupal, so my script
 is much cleaner.
 
-```language-php
+```php
 // Just do stuff.
 $node = node_load(1);
 ```
@@ -56,14 +56,14 @@ can now run the following command to go up one level, into the scripts directory
 and then execute the script. Note that you do not need to include the file
 extension.
 
-```language-bash
+```bash
 $ drush scr ../scripts/foo
 ```
 
 Or, if you're using
 [Drush aliases](http://deeson-online.co.uk/labs/drupal-drush-aliases-and-how-use-them 'Drupal, Drush aliases, and how to use them'):
 
-```language-bash
+```bash
 $ drush @mysite.local scr foo
 ```
 

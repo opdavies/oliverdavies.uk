@@ -40,7 +40,7 @@ your custom theme's directory (e.g. `sites/all/themes/custom/mytheme` for Drupal
 Create a `postcss.config.js` file and add `tailwindcss` as a plugin, passing the
 path to the config file:
 
-```language-js
+```js
 module.exports = {
     plugins: [
         require('tailwindcss')('./tailwind.js'),
@@ -54,7 +54,7 @@ There are some configuration settings within `tailwind.js` that you’ll need to
 change to make things work nicely with Drupal. These are within the `options`
 section:
 
-```language-js
+```js
 options: {
     prefix: 'tw-',
     important: true,
@@ -85,7 +85,7 @@ rules.
 For example: if I had this core markup then the left margin added by `tw-ml-4`
 would be overridden by core’s `.item-list ul` styling.
 
-```language-html
+```html
 <div class="item-list">
   <ul class="tw-ml-4">
     ...

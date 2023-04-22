@@ -67,7 +67,7 @@ Within the **Builds** section of the item, I added an _Execute Shell_ step,
 where I could enter a command to execute. Here, I pasted a modified version of
 the original publish.sh script.
 
-```language-bash
+```bash
 #!/bin/bash
 
 set -uex
@@ -94,7 +94,7 @@ or greater than the time of the build.
 
 The YAML front matter:
 
-```language-yaml
+```yaml
 ---
 ...
 talks:
@@ -105,7 +105,7 @@ talks:
 
 The Twig layout:
 
-```language-twig
+```twig
 
 {% for talk in talks|reverse if talk.date >= now %}
     {# Upcoming talks #}
@@ -155,7 +155,7 @@ script.
 
 ### Updating Composer
 
-```language-bash
+```bash
 if [ -f composer.json ]; then
     /usr/local/bin/composer install
 fi
@@ -167,7 +167,7 @@ composer.json exists.
 
 ### Updating Sculpin Dependencies
 
-```language-bash
+```bash
 if [ -f sculpin.json ]; then
   sculpin install
 fi
@@ -178,7 +178,7 @@ that the required custom bundles and dependencies are installed.
 
 ### Managing Redirects
 
-```language-bash
+```bash
 if [ -f scripts/redirects.php ]; then
     /usr/bin/php scripts/redirects.php
 fi

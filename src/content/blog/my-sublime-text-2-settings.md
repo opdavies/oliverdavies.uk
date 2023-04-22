@@ -20,7 +20,7 @@ of a file etc.
 
 These can be changed by going to Preferences > Settings - User.
 
-```language-json
+```json
 {
   "color_scheme": "Packages/Theme - Aqua/Color Schemes/Tomorrow Night Aqua.tmTheme",
   "default_line_ending": "unix",
@@ -87,7 +87,7 @@ These can be changed by going to Preferences > Settings - User.
 
 These can be changed by going to Preferences > Key Bindings - User.
 
-```language-json
+```json
 [
   { "keys": ["alt+s"], "command": "toggle_side_bar" },
   { "keys": ["alt+r"], "command": "reindent" }

@@ -23,7 +23,7 @@ change is **node-blog.tpl.php**
 
 I scrolled down until I found the piece of code that displayed the terms list:
 
-```language-php
+```php
 <?php if ($terms): ?>
   <div class="terms terms-inline">
     <?php print t('Posted in') . $terms; ?>
@@ -37,7 +37,7 @@ outputing the terms.
 I then added some CSS to re-size the spacing between the items, and then add the
 commas between them to seperate them:
 
-```language-css
+```css
 .terms ul.links li {
   margin-right: 1px;
   padding: 0;
@@ -56,7 +56,7 @@ I created a file named **script.js** in my theme folder with the following code
 in it. After clearing Drupal's caches, this file is automatically recognised by
 Drupal 6.
 
-```language-js
+```js
 if (Drupal.jsEnabled) {
   $(document).ready(function() {
     $('.terms ul.links li.last').prev().addClass('test');
@@ -68,7 +68,7 @@ This code finds the last item in the list, uses **.prev** to select the one
 before it, and then uses **.addClass** to assign it the HTML class of "test". We
 can then use this class to target it with specific CSS.
 
-```language-css
+```css
 .terms ul.links li.test:after {
   content: " and";
 }

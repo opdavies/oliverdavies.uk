@@ -42,7 +42,7 @@ feature name and the component names.
 
 For example:
 
-```language-bash
+```bash
 $ drush features-export -y myfeature field_base:field_foo field_instance:user-field_foo
 ```
 

@@ -40,7 +40,7 @@ itself, along with it's descriptive text. To view the existing tokens and types,
 use `dpm(token_get_info());`, assuming that you have the
 [Devel module](http://drupal.org/project/devel) installed.
 
-```language-php
+```php
 /**
  * Implements hook_token_info().
  */
@@ -66,7 +66,7 @@ Now that the Token module is aware of our new token, we now need to determine
 what the token is replaced with. This is done using `hook_tokens()`. Here is the
 basic code needed for an implementation:
 
-```language-php
+```php
 /**
  * Implements hook_tokens().
  */
@@ -88,7 +88,7 @@ available tokens using a `switch()`. For each token, you can perform some logic
 to work out the replacement text and then add it into the replacements array
 using `$replacements[$original] = $new;`.
 
-```language-php
+```php
 /**
  * Implements hook_tokens().
  */
@@ -123,7 +123,7 @@ function foo_tokens($type, $tokens, array $data = array(), array $options = arra
 
 An example from Copyright Block module:
 
-```language-php
+```php
 /**
  * Implements hook_tokens().
  */
@@ -153,7 +153,7 @@ With everything defined, all that we now need to do is pass some text through
 the `token_replace()` function to replace it with the values defined within
 `hook_token()`.
 
-```language-php
+```php
 $a = t('Something');
 // This would use any token type - node, user etc.
 $b = token_replace($a);

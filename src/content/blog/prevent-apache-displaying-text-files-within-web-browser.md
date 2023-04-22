@@ -17,7 +17,7 @@ running and could therefore have security implications.
 Rather than delete these files or change the file permissions manually for each
 file, I can add the following lines into my VirtualHost configuration.
 
-```language-apacheconf
+```
 <Files ~ "\.txt$">
     Order deny,allow
     Deny from all

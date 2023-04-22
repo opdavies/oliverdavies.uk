@@ -24,7 +24,7 @@ using a [Twig][2] template.
 
 For example:
 
-```language-php
+```php
 # test.php
 
 require __DIR__ '/vendor/autoload.php';
@@ -64,7 +64,7 @@ and replace them with the `boolean_string` filter.
 Before:
 
 <div v-pre markdown="1">
-```language-twig
+```twig
 {{ filter.isArchive ? 'true' : 'false' }}
 ```
 </div>
@@ -72,7 +72,7 @@ Before:
 After:
 
 <div v-pre markdown="1">
-```language-twig
+```twig
 {{ filter.isArchive|boolean_string }}
 ```
 </div>
@@ -80,7 +80,7 @@ After:
 This can then be used to generate output like this, whereas having blank values
 would have resulted in errors when importing to Gmail.
 
-```language-xml
+```xml
 <apps:property name='shouldArchive' value='true'/>
 ```
 

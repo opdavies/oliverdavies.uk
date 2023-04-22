@@ -21,7 +21,7 @@ Tools and [LESS](http://drupal.org/project/less 'LESS module on drupal.org')
 modules, and then to enable both modules. I'm doing this using Drush, but you
 can of course do this via the admin interface at admin/modules.
 
-```language-bash
+```bash
 $ drush dl less omega omega_tools;
 $ drush en -y less omega_tools
 ```
@@ -30,14 +30,14 @@ With the Omega Tools module enabled I get the drush omega-subtheme command that
 creates my Omega subtheme programatically. Using this command, I'm creating a
 new subtheme, enabling it and setting it as the default theme on my site.
 
-```language-bash
+```bash
 $ drush omega-subtheme "Oliver Davies" --machine_name="oliverdavies" --enable --set-default
 ```
 
 By default, four stylesheets are created within the subtheme's css directory.
 The first thing that I'm going to do is rename `global.css` to `global.less`.
 
-```language-bash
+```bash
 $ mv css/global.css css/global.less
 ```
 
@@ -48,7 +48,7 @@ then `Ctrl+R` to replace, entering `global.css` as the search phrase, and then
 oliverdavies.info, I need to clear Drupal's caches for the changes to be
 applied.
 
-```language-bash
+```bash
 $ drush cc all
 ```
 

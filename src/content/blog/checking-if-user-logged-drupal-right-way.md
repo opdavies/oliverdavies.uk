@@ -14,7 +14,7 @@ I see this regularly when working on Drupal sites when someone wants to check
 whether the current user is logged in to Drupal (authenticated) or not
 (anonymous).
 
-```language-php
+```php
 global $user;
 if ($user->uid) {
   // The user is logged in.
@@ -23,7 +23,7 @@ if ($user->uid) {
 
 or
 
-```language-php
+```php
 global $user;
 if (!$user->uid) {
   // The user is not logged in.
@@ -34,7 +34,7 @@ The better way to do this is to use the
 [user_is_logged_in()](http://api.drupal.org/api/drupal/modules!user!user.module/function/user_is_logged_in/7)
 function.
 
-```language-php
+```php
 if (user_is_logged_in()) {
   // Do something.
 }
@@ -47,7 +47,7 @@ load the global variable.
 A great use case for this is within a `hook_menu()` implementation within a
 custom module.
 
-```language-php
+```php
 /**
  * Implements hook_menu().
  */

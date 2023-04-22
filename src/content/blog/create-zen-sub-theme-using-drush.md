@@ -16,13 +16,13 @@ sub-theme of [Zen](https://drupal.org/project/zen).
 First, download the [Zen](https://drupal.org/project/zen 'The Zen theme') theme
 if you haven't already done so.
 
-```language-bash
+```bash
 $ drush dl zen
 ```
 
 This will now enable you to use the "drush zen" command.
 
-```language-bash
+```bash
 $ drush zen "Oliver Davies" oliverdavies --description="A Zen sub-theme for oliverdavies.co.uk" --without-rtl
 ```
 

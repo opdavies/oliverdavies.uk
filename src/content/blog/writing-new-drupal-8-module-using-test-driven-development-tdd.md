@@ -43,7 +43,7 @@ For the module, we are going to satisfy this example acceptance criteria:
 Let’s start by writing the minimal code needed in order for the new module to be
 enabled. In Drupal 8, this is the `.info.yml` file.
 
-```language-yaml
+```yaml
 # tdd_dublin.info.yml
 
 name: 'TDD Dublin'
@@ -58,7 +58,7 @@ is a functional test, it extends the `BrowserTestBase` class, and we need to
 ensure that the tdd_dublin module is enabled by adding it to the `$modules`
 array.
 
-```language-php
+```php
 // tests/src/Functional/PageListTest.php
 
 namespace Drupal\Tests\tdd_dublin\Functional;
@@ -85,7 +85,7 @@ be 200, otherwise it will be 404.
 I usually like to write comments first within the test method, just to outline
 the steps that I'm going to take and then replace it with code.
 
-```language-php
+```php
 public function testListingPageExists() {
   // Go to /pages and check that it is accessible by checking the status
   // code.
@@ -95,7 +95,7 @@ public function testListingPageExists() {
 We can use the `drupalGet()` method to browse to the required path, i.e.
 `/pages`, and then write an assertion for the response code value.
 
-```language-php
+```php
 public function testListingPageExists() {
   $this->drupalGet('pages');
 
@@ -111,7 +111,7 @@ autoloaded so can be found, though the path to the `vendor` directory may be
 different depending on your project structure. You can also specify a path
 within which to run the tests - e.g. within the module’s `test` directory.
 
-```language-plain
+```
 $ vendor/bin/phpunit -c core modules/custom/tdd_dublin/tests
 ```
 
@@ -119,7 +119,7 @@ $ vendor/bin/phpunit -c core modules/custom/tdd_dublin/tests
 Note: I’m using Docksal, and I’ve noticed that I need to run the tests from within the CLI container. You can do this by running the `fin bash` command.
 </div>
 
-```language-plain
+```
 1) Drupal\Tests\tdd_dublin\Functional\PageListTest::testListingPageExists
 Behat\Mink\Exception\ExpectationException: Current response status code is 404, but 200 expected.
 
@@ -158,7 +158,7 @@ of the file needs to be removed so the configuration can be installed.
 
 Here is the exported view configuration:
 
-```language-yaml
+```yaml
 langcode: en
 status: true
 dependencies:
@@ -350,7 +350,7 @@ display:
 When the test is run again, we see a different error that leads us to the next
 step.
 
-```language-plain
+```
 1) Drupal\Tests\tdd_dublin\Functional\PageListTest::testListingPageExists
 Drupal\Core\Config\UnmetDependenciesException: Configuration objects provided by <em class="placeholder">tdd_dublin</em> have unmet dependencies: <em class="placeholder">node.type.page (node), views.view.pages (node, views)</em>
 
@@ -363,7 +363,7 @@ In this case, the view that we’ve added depends on the node and views modules,
 but these aren’t enabled. To fix this, we can add the extra modules as
 dependencies of tdd_dublin so they will be enabled too.
 
-```language-yaml
+```yaml
 # tdd_dublin.info.yml
 
 dependencies:
@@ -371,7 +371,7 @@ dependencies:
   - drupal:views
 ```
 
-```language-plain
+```
 1) Drupal\Tests\tdd_dublin\Functional\PageListTest::testListingPageExists
 Drupal\Core\Config\UnmetDependenciesException: Configuration objects provided by <em class="placeholder">tdd_dublin</em> have unmet dependencies: <em class="placeholder">views.view.pages (node.type.page)</em>
 
@@ -386,7 +386,7 @@ configuration and copying it into the `config/install` directory.
 
 With this in place, the test should now pass - and it does.
 
-```language-plain
+```
 Time: 26.04 seconds, Memory: 6.00MB
 
 OK (1 test, 1 assertion)
@@ -407,7 +407,7 @@ The objectives of this test are:
 - To ensure that only page nodes are returned.
 - To ensure that only published nodes are returned.
 
-```language-php
+```php
 public function testOnlyPublishedPagesAreShown() {
   // Given that a have a mixture of published and unpublished pages, as well
   // as other types of content.
@@ -422,7 +422,7 @@ In order to test the different scenarios, I will create an additional "article"
 content type, create a node of this type as well as one published and one
 unpublished page. From this combination, I only expect one node to be visible.
 
-```language-php
+```php
 public function testOnlyPublishedPagesAreShown() {
   $this->drupalCreateContentType(['type' => 'article']);
 
@@ -447,7 +447,7 @@ result of the view. This returns an array of `Drupal\views\ResultRow` objects,
 which contain the nodes. I can use `array_column` to extract the node IDs from
 the view result into an array.
 
-```language-php
+```php
 public function testOnlyPublishedPagesAreShown() {
   $this->drupalCreateContentType(['type' => 'article']);
 
@@ -466,7 +466,7 @@ From the generated nodes, I can use `assertEquals()` to compare the returned
 node IDs from the view against an array of expected node IDs - in this case, I
 expect only node 1 to be returned.
 
-```language-php
+```php
 public function testOnlyPublishedPagesAreShown() {
   $this->drupalCreateContentType(['type' => 'article']);
 
@@ -488,7 +488,7 @@ default "Content: Published" filter is already excluding one of the page nodes.
 We can see from the output from the test that node 1 (a page) and node 2 (the
 article) are both being returned.
 
-```language-plain
+```
 1) Drupal\Tests\tdd_dublin\Functional\PageListTest::testOnlyPublishedPagesAreShown
 Failed asserting that two arrays are equal.
 --- Expected
@@ -514,7 +514,7 @@ based on the node type - i.e. only return page nodes.
 Once the view is updated and the configuration is updated within the module, the
 test should then pass - and it does.
 
-```language-plain
+```
 Time: 24.76 seconds, Memory: 6.00MB
 
 OK (1 test, 3 assertions)
@@ -528,7 +528,7 @@ As we know that the correct content is being returned, we can now focus on
 displaying it in the correct order. We’ll start again by adding a new test
 method and filling out the comments.
 
-```language-php
+```php
 public function testResultsAreOrderedAlphabetically() {
   // Given I have multiple nodes with different titles.
 
@@ -543,7 +543,7 @@ title for each. These are intentionally in the incorrect order alphabetically so
 that we can see the test fail initially and then see it pass after making a
 change so we know that the change worked.
 
-```language-php
+```php
 public function testResultsAreOrderedAlphabetically() {
   $this->drupalCreateNode(['title' => 'Page A']);
   $this->drupalCreateNode(['title' => 'Page D']);
@@ -561,7 +561,7 @@ We can use the same method as the previous test to get the returned IDs, using
 node IDs match the expected node IDs in the specified order. Based on the
 defined titles, the order should be 1, 4, 3, 2.
 
-```language-php
+```php
 public function testResultsAreOrderedAlphabetically() {
   $this->drupalCreateNode(['title' => 'Page A']);
   $this->drupalCreateNode(['title' => 'Page D']);
@@ -586,7 +586,7 @@ This would be particularly more complicated to test if I was using `drupalGet()`
 and having to parse the HTML, compared to getting the results as an array from
 the view programmatically.
 
-```language-plain
+```
 1) Drupal\Tests\tdd_dublin\Functional\PageListTest::testResultsAreOrderedAlphabetically
 Failed asserting that two arrays are equal.
 --- Expected
@@ -617,7 +617,7 @@ based on "Content: Title".
 Again, once the view has been updated and exported, the test should pass - and
 it does.
 
-```language-plain
+```
 Time: 27.55 seconds, Memory: 6.00MB
 
 OK (1 test, 2 assertions)
@@ -629,7 +629,7 @@ Now we know that all the tests pass individually, all of the module tests should
 now be run to ensure that they all still pass and that there have been no
 regressions due to any of the changes.
 
-```language-plain
+```
 docker@cli:/var/www$ vendor/bin/phpunit -c core modules/custom/tdd_dublin/tests
 
 Testing modules/custom/tdd_dublin/tests

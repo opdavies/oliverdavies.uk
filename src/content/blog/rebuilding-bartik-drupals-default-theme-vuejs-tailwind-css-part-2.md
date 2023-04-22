@@ -71,7 +71,7 @@ for links based on their location on the page -
 [extracting some Tailwind components](https://tailwindcss.com/docs/extracting-components).
 
 <div v-pre markdown="1">
-```vuejs
+```html
 <template>
   ...
 
@@ -101,7 +101,7 @@ Within the `style` section, I’m able to use Tailwind’s custom `@apply` direc
 to inject it’s rules into more traditional CSS, rather than needing to add them
 onto every link.
 
-```vuejs
+```vue-html
 <style lang="sass">
 #header a
   @apply text-white no-underline
@@ -135,7 +135,7 @@ can be done within Vue. As the page could potentially have multiple sidebar
 blocks, I extracted a `SidebarBlock` component which would act as a wrapper
 around the block’s contents.
 
-```vuejs
+```vue-html
 // src/components/Sidebar.vue
 
 <template>
@@ -201,7 +201,7 @@ I added only the page-specific styling classes to the link (as well as the
 `skip-link` class that the plugin requires) as well as my own focus state to the
 skip link that I did within the `style` section of `App.vue`.
 
-```vuejs
+```vue-html
 <style lang="sass">
 @tailwind preflight
 @tailwind components

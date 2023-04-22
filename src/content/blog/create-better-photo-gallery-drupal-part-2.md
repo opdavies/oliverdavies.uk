@@ -19,7 +19,7 @@ before, and create something different that also displays the created and
 modified dates. Picking the node ID of the required gallery, I used the
 following SQL query to display a list of photos.
 
-```language-sql
+```sql
 SELECT n.title, n.nid, n.created, n.changed, p.field_gallery_nid
 FROM node n, content_type_photo pWHERE n.type = 'photo'
 AND p.field_gallery_nid = 103AND n.nid = p.nid
@@ -36,7 +36,7 @@ gallery to the same time.
 The result that I'm given is '1217149200'. I can now use an UPDATE statement
 within another SQL query to update the created and modified dates.
 
-```language-sql
+```sql
 UPDATE node
 INNER JOIN content_type_photo
 ON node.nid = content_type_photo.nid

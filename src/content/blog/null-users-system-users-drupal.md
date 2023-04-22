@@ -98,7 +98,7 @@ for users in Drupal 8. In this case, a [NullUser][4] is an extension of Drupalâ€
 for a non-existent User. Though, through inheritance, the `id`, `getRoles` and
 `hasPermission` methods are overridden to return relevant values.
 
-```language-php
+```php
 use Drupal\Core\Session\AnonymousUserSession;
 
 class NullUser extends AnonymousUserSession {
@@ -111,7 +111,7 @@ user is found from the `getFirst()` method, a `NullUser` is returned. Whilst I
 could alternatively have returned `NULL` or `FALSE`, we then would need to check
 if the returned value was an object or not before calling methods on it.
 
-```language-php
+```php
 $system_user = $this->systemUserManager->getFirst(); // Returns NULL or FALSE.
 
 // Need to check if a user was returned or not.
@@ -129,7 +129,7 @@ has the same methods and properties as a regular user, there is no need to do
 the additional check as you will always receive a relevant object, and the
 expected methods will always be present.
 
-```language-php
+```php
 $system_user = $this->systemUserManager->getFirst(); // Returns a NullUser.
 
 if ($system_user->isActive()) {

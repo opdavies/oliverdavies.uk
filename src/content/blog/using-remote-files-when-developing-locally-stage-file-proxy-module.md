@@ -17,7 +17,7 @@ better to configure this within your settings.php or settings.local.php file. We
 do this using the `$conf` array which removes the need to configure the module
 through the UI and store the values in the database.
 
-```language-php
+```php
 // File proxy to the live site.
 $conf['stage_file_proxy_origin'] = 'http://www.example.com';
 
@@ -32,6 +32,6 @@ If the origin site is not publicly accessible yet, maybe it's a pre-live or
 staging site, and protected with a basic access authentication, you can include
 the username and password within the origin URL.
 
-```language-php
+```php
 $conf['stage_file_proxy_origin'] = 'http://user:password@prelive.example.com';
 ```

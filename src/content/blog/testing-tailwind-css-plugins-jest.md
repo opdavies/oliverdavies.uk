@@ -44,7 +44,7 @@ generates.
 We also need to add `tailwindcss` and `postcss` so that we can use them within
 the tests.
 
-```plain
+```
 yarn add -D jest jest-matcher-css postcss tailwindcss@next
 ```
 
@@ -242,7 +242,7 @@ time new commits are pushed.
 This is done by adding a `.travis-ci.yml` file to the repository, like this one
 which is based on the [JavaScript and Node.js example][travis-nodejs-example]:
 
-```yml
+```yaml
 language: node_js
 
 node_js:

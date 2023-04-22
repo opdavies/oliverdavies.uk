@@ -312,7 +312,7 @@ foreach ($client->stream($responses) as $response => $chunk) {
 
 #### FrameworkBundle/Autowiring
 
-```yml
+```yaml
 framework:
   http_client:
     max_host_connections: 4

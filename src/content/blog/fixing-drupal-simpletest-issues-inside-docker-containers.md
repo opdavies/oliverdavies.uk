@@ -29,7 +29,7 @@ lot of them would fail where they would pass when run within Drupal VM.
 
 Here’s an excerpt from my `docker-compose.yml` file:
 
-```language-yaml
+```yaml
 services:
   php:
     image: wodby/drupal-php:5.6
@@ -53,7 +53,7 @@ across both and the Nginx backend is set to use the `php` container.
 
 This is the command that I was using to run the tests:
 
-```language-bash
+```bash
 $ docker-compose run --rm \
   -w /var/www/html/web \
   php \
@@ -71,7 +71,7 @@ the `--rm` option.
 This resulted in 60 of the 112 tests failing, whereas they all passed when run
 within a Drupal VM instance.
 
-```language-markup
+```
 Test summary
 ------------
 
@@ -95,7 +95,7 @@ site, I got this error message:
 Whereas `curl http://nginx` returns the HTML for the page, so included it with
 the `--url` option to `run-tests.sh`, and this resulted in my tests all passing.
 
-```language-bash
+```bash
 $ docker-compose run --rm \
   -w /var/www/html/web \
   php \
@@ -105,7 +105,7 @@ $ docker-compose run --rm \
     --class OverrideNodeOptionsTestCase
 ```
 
-```language-markup
+```
 Test summary
 ------------
 

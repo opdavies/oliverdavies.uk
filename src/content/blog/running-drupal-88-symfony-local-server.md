@@ -138,7 +138,7 @@ A list of all the environment variables can be seen by running
 `symfony var:export` (add `| tr " " "\n"` if you want to view each one on a new
 line, and `| sort` if you want to list them alphabetically):
 
-```dotenv
+```
 DATABASE_DATABASE=main
 DATABASE_DRIVER=mysql
 DATABASE_HOST=127.0.0.1

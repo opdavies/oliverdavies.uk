@@ -22,14 +22,14 @@ the heading information from the original View. I can now use the function
 called 'views_embed_view' to embed my taxonomy display onto the display. The
 views_embed_view function is as follows:
 
-```language-php
+```php
 <?php views_embed_view('my_view', 'block_1', $arg1, $arg2); ?>
 ```
 
 So, to display the galleries that are assigned the taxonomy of 'tournaments', I
 can use the following:
 
-```language-php
+```php
 <?php print views_embed_view('photo_gallery', 'page_2', 'tournaments'); ?>
 ```
 
@@ -38,7 +38,7 @@ generate the same code for each taxonomy term. It dynamically retrieves the
 relevant taxonomy terms from the database, and uses each name as the argument
 for the view.
 
-```language-php
+```php
 <?php
 $terms = db_query("SELECT * FROM {term_data} WHERE vid = 1");
 while ($term = db_fetch_array($terms)) {

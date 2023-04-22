@@ -10,7 +10,7 @@ This is an example of how my Nginx configuration looked to redirect from an old
 domain to a new one, and also to redirect from the root `example.com` domain to
 the canonical `www` subdomain.
 
-```language-nginx
+```nginx
 server {
   listen 80;
 
@@ -33,13 +33,13 @@ This was fixed by making a small change to my `return` statement.
 
 Before:
 
-```language-nginx
+```nginx
 return 301 https://www.example.com$uri;
 ```
 
 After:
 
-```language-nginx
+```nginx
 return 301 https://www.example.com$uri$is_args$args;
 ```
 

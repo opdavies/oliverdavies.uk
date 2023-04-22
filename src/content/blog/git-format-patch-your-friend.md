@@ -29,7 +29,7 @@ message.
 
 For example:
 
-```language-bash
+```bash
 --author="opdavies <opdavies@381388.no-reply.drupal.org>"
 ```
 
@@ -61,7 +61,7 @@ From the [manual page](http://git-scm.com/docs/git-format-patch):
 Here is a section of a patch that I created for the
 [Metatag module](http://drupal.org/project/metatag) using `git format-patch`:
 
-```language-bash
+```bash
 From 80c8fa14de7f4a83c2e70367aab0aedcadf4f3b0 Mon Sep 17 00:00:00 2001
 From: Oliver Davies &lt;oliver@oliverdavies.co.uk&gt;
 Subject: [PATCH] Exclude comment entities when checking if this is the page,
@@ -116,14 +116,14 @@ best command to do this with is the `git am` command.
 
 For example, within your repository, run:
 
-```language-bash
+```bash
 $ git am /path/to/file
 $ git am ~/Code/metatag-comment-fragment-conflict-2265447-4.patch
 ```
 
 You should end up with some output similar to the following:
 
-```language-bash
+```bash
 Applying: #2272799 Added supporters section
 Applying: #2272799 Added navigation tabs
 Applying: #2272799 Fixed indentation

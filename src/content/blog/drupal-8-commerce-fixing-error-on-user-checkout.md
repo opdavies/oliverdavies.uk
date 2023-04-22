@@ -43,7 +43,7 @@ the site went live).
 
 This I believe is the Drupal code where the error was being triggered:
 
-```language-php
+```php
 // modules/contrib/commerce_stripe/src/Plugin/Commerce/PaymentGateway/Stripe.php
 
 public function createPayment(PaymentInterface $payment, $capture = TRUE) {
@@ -70,7 +70,7 @@ public function createPayment(PaymentInterface $payment, $capture = TRUE) {
 
 I can also see in the Stripe library where the original error is generated.
 
-```language-php
+```php
 private static function _specificAPIError($rbody, $rcode, $rheaders, $resp, $errorData)
 {
     $msg = isset($errorData['message']) ? $errorData['message'] : null;

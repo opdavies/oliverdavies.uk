@@ -25,7 +25,7 @@ changes._
 The library can be downloaded directly from GitHub, and should be placed within
 you _sites/all/libraries/nomensa_amp_ directory.
 
-```language-bash
+```bash
 drush dl libraries nomensa_amp
 git clone https://github.com/nomensa/Accessible-Media-Player sites/all/libraries/nomensa_amp
 cd sites/all/libraries/nomensa_amp
@@ -44,13 +44,13 @@ Within your content add links to your videos. For example:
 
 ### YouTube
 
-```language-html
+```html
 <a href="http://www.youtube.com/watch?v=Zi31YMGmQC4">Checking colour contrast</a>
 ```
 
 ### Vimeo
 
-```language-html
+```html
 <a href="http://vimeo.com/33729937">Screen readers are strange, when you're a stranger by Leonie Watson</a>
 ```
 
@@ -66,7 +66,7 @@ captions file:
 
 For example:
 
-```language-html
+```html
 <a href="http://www.youtube.com/watch?v=Zi31YMGmQC4">Checking colour contrast</a> <a class="captions" href="http://oliverdavies.co.uk/sites/default/files/checking-colour-contrast-captions.xml">Captions for Checking Colour Contrast</a>
 ```
 

@@ -16,7 +16,7 @@ Using a file structure similar to this, organise your font files into
 directories, using the the font name for both the directory name and for the
 file names.
 
-```language-bash
+```bash
 .
 ├── FuturaBold
 │   ├── FuturaBold.eot
@@ -44,7 +44,7 @@ Within your SASS file, start an `@each` loop, listing the names of the fonts. In
 the same way as PHP's `foreach` loop, each font name will get looped through
 using the `$family` variable and then compiled into CSS.
 
-```language-scss
+```scss
 @each $family in FuturaBook, FuturaBold, FuturaBoldItalic, FuturaItalic {
   @font-face {
     font-family: #{$family};
@@ -62,6 +62,6 @@ using the `$family` variable and then compiled into CSS.
 When the CSS has been compiled, you can then use in your CSS in the standard
 way.
 
-```language-scss
+```scss
 font-family: "FuturaBook";
 ```

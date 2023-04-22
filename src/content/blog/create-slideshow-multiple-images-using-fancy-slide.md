@@ -42,7 +42,7 @@ page.
 I added the following code into my About page, as described in the Fancy Slide
 readme.txt file - the number representing the ID of the slideshow.
 
-```language-php
+```php
 <?php print theme('fancy_slide', 1); ?>
 ```
 

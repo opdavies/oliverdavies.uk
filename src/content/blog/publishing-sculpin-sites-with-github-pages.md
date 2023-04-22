@@ -47,7 +47,7 @@ perform a merge.
 To simplify this, I’ve added a new [publish.sh script][3] into my repository to
 automate the sites. This is how it currently looks:
 
-```language-bash
+```bash
 #!/usr/bin/env bash
 
 SITE_ENV="prod"
