@@ -3,6 +3,9 @@
 default:
   just --list
 
+start:
+  nix develop --command yarn astro dev --open
+
 create-daily:
   #!/usr/bin/env bash
   date="$(date +%Y-%m-%d)"
