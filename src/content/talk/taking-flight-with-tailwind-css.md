@@ -1,8 +1,7 @@
 ---
 title: Taking Flight with Tailwind CSS
 description:
-  An introduction to the utility-first approach to writing CSS with a focus
-  on the Tailwind CSS framework.
+  An introduction to the utility-first approach to writing CSS with a focus on the Tailwind CSS framework.
 speakerdeck:
   id: 10ca51f23560443d83b898a92929b4b3
   ratio: "1.77777777777778"
