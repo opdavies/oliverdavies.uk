@@ -22,6 +22,17 @@ export async function get() {
     ]);
   };
 
+  const convertTag = (tag) => {
+    const words = tag.split("-");
+    const wordCount = words.length;
+
+    if (wordCount > 1) {
+      return _.upperFirst(_.camelCase(tag));
+    }
+
+    return _.lowerCase(tag);
+  }
+
   return rss({
     title: 'Daily email list',
     description: 'A daily newsletter on software development, DevOps, community, and open-source.',
@@ -37,10 +48,10 @@ export async function get() {
       `,
       link: `${import.meta.env.SITE}/${email.data.permalink}`,
       pubDate: email.data.pubDate,
-      title: `${email.data.title}`,
+      title: `${email.data.title.trim()}`,
       customData: `
         <tags>
-          ${email.data.tags.map(tag => `<tag>#${tag}</tag>`).join('')}
+          ${email.data.tags.map(tag => `#${convertTag(tag)}`).join(' ')}
         </tags>`,
     }))
   });
