@@ -15,8 +15,12 @@ export async function get() {
 
   const parser = new MarkdownIt();
 
-  const callToAction = () => {
-    return _.sample([
+  const callToAction = (emailBody) => {
+    if (emailBody.includes('P.S.')) {
+      return '';
+    }
+
+    return '<br />P.S. ' + _.sample([
       'Are you still using Drupal 7 and don’t know what’s involved to upgrade to Drupal 10? <a href="https://www.oliverdavies.uk/call">Book a Drupal 7 upgrade consultation call</a>.',
       'Need help or want another pair of eyes on your code? Book a <a href="https://www.oliverdavies.uk/call">1-on-1 consulting call</a> or an <a href="https://www.oliverdavies.uk/pair">online pair programming session</a> with a 100% money-back guarantee.',
       'If you\'re creating a new Drupal module, try my <a href="https://github.com/opdavies/drupal-module-template">free Drupal module template</a>.',
@@ -43,8 +47,7 @@ export async function get() {
       description: `
         <div style="max-width: 550px;">
           ${sanitizeHtml(parser.render(email.body))}
-          <hr />
-          <p>P.S. ${callToAction()}</p>
+          ${callToAction(email.body)}
         </div>
       `,
       link: `${import.meta.env.SITE}/${email.data.permalink}`,
