@@ -1,5 +1,6 @@
 ---
 import Markdown from '../Markdown.astro';
+import YouTubeVideo from '../YouTubeVideo.astro';
 
 interface Props {
   id: string;
@@ -15,12 +16,7 @@ const { id, type }: Props = Astro.props;
       <h2 class="mb-2">Video</h2>
 
       <div>
-        <iframe
-          allowfullscreen
-          class="w-full aspect-[16/9]"
-          frameborder="0"
-          src={`https://www.youtube.com/embed/${id}?rel=0&iv_load_policy=3`}
-        />
+        <YouTubeVideo id={id} />
       </div>
     </Markdown>
   )
