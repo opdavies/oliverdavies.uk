@@ -3,9 +3,7 @@ layout: ~/layouts/PageLayout.astro
 title: Oliver Davies - Software Developer and Drupal Expert
 ---
 
-import { differenceInYears } from 'date-fns';
-
-export const numberOfYears = differenceInYears(new Date(), new Date(2007, 0, 1));
+import { numberOfYears } from '~/utils';
 
 <div class="mb-4 w-32">
   <img src="/images/social-avatar.jpg" alt="Picture of Oliver" class="rounded-full border border-gray" />
