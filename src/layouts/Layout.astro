@@ -33,7 +33,7 @@ const footerLinks = [
   },
 ];
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString().replace(/\/$/, "");
 ---
 
 <!DOCTYPE html>
