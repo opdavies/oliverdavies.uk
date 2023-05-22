@@ -11,11 +11,6 @@ events:
     location: Cardiff, Wales
     date: '2022-09-28'
     url: https://www.meetup.com/php-south-wales/events/288359737
-
-  - name: The UK Symfony Meetup
-    location: London, England
-    date: '2023-05-11'
-    url: https://www.meetup.com/symfony/events/293153957
 ---
 
 Pair and mob programming are collaborative approaches to software development where tasks are completed in small groups instead of by individuals.
