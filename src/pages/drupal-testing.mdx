@@ -1,9 +1,12 @@
 ---
 layout: ~/layouts/PageLayout.astro
 title: Introduction to Automated Testing and Test-Driven Development with Drupal
+testimonials:
+  - scott-euser
 ---
 
 import Button from "~/components/Button.astro";
+import Testimonials from "~/components/Testimonials.astro";
 
 export const drupalVersions = "9 and 10";
 
@@ -17,11 +20,6 @@ export const isEarlyBird = true;
 export const nextDate = "2022-04-04";
 
 export const testimonials = [
-  {
-    name: "Scott Euser, Head of Web Development",
-    image: "/images/scott-euser.jpg",
-    text: "Oliver really knows his stuff. Whether you are just starting out or looking to take your knowledge to the next level, his patient and clear way of explaining will help get you there.",
-  },
 ];
 
 Are you a Drupal Developer who wants to learn about automated testing and test-driven development, or do you manage a development team that you'd like to train?
@@ -57,24 +55,7 @@ Seats are available at <span class="font-bold">{isEarlyBird ? `an early bird pri
 
 <hr />
 
-## Testimonials
-
-{testimonials.map(testimonial => (
-
-  <div>
-    <blockquote class="mt-4">
-      {testimonial.text}
-    </blockquote>
-
-    <footer class="flex items-center space-x-4 space-x-reverse">
-      <span class="text-base">{testimonial.name}</span>
-      <span class="order-first">
-        <img width="40" height="40" class="w-10 h-10 rounded-full border" src={testimonial.image} />
-      </span>
-    </footer>
-
-  </div>
-))}
+<Testimonials names={frontmatter.testimonials} />
 
 {/*
 ## Not 100% sure?

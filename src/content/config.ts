@@ -50,8 +50,21 @@ const talkCollection = defineCollection({
   }),
 });
 
+const testimonialCollection = defineCollection({
+  type: 'data',
+  schema: z.object({
+    image: z.string().or(z.null()),
+    name: z.string(),
+    tagline: z.string(),
+    text: z.string(),
+    url: z.string().or(z.null()),
+  }),
+});
+
+
 export const collections = {
   "daily-email": dailyEmailCollection,
   blog: blogCollection,
   talk: talkCollection,
+  testimonial: testimonialCollection,
 };

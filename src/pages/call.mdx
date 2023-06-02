@@ -3,9 +3,16 @@ layout: ~/layouts/PageLayout.astro
 title: Book a 1-on-1 consulting call
 link: https://savvycal.com/opdavies/consulting-call
 price: 499
+testimonials:
+  - anonymous
+  - mick-felton
+  - michael-itkoff
+  - huw-davies
+  - scott-euser
 ---
 
 import Button from "~/components/Button.astro";
+import Testimonials from "~/components/Testimonials.astro";
 
 ## How it works
 
@@ -31,3 +38,5 @@ If you don’t find the call valuable, I’ll refund 100% of the cost.
 
   <Button href={frontmatter.link} text={`Book now for £${frontmatter.price}`} />
 </aside>
+
+<Testimonials names={frontmatter.testimonials} />
