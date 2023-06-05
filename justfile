@@ -6,14 +6,9 @@ default:
 start:
   nix develop --command yarn astro dev --open
 
-create-daily:
+create-daily date title:
   #!/usr/bin/env bash
-  date="$(date +%Y-%m-%d)"
-  filepath="source/_daily_emails"
-  filename="${date}.md"
-
-  touch "${filepath}/${filename}"
-  eval "${EDITOR}" "${filepath}/${filename}"
+  ./tools/scripts/create-daily.sh {{ date }} {{ title }}
 
 deploy sha:
   rm -fr _deploy
