@@ -31,6 +31,8 @@ sed -i "s#{{ permalink }}#archive/${year}/${month}/${day}/${slug}#" "${filepath}
 
 # Create a commit with the appropriate date in the message
 git add "${filepath}"
-git commit -m "daily-email: add ${date}"
+git commit -m "daily-email: add ${date}
+
+${title}"
 
 echo "${filepath}"
