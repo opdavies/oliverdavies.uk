@@ -1,15 +1,13 @@
-import aspectRatioPlugin from "@tailwindcss/aspect-ratio";
-import colors from "./assets/tailwindcss/colours.cjs";
-import focusVisiblePlugin from "./assets/tailwindcss/plugins/focus-visible.cjs";
-import formsPlugin from "@tailwindcss/forms";
-import nestingPlugin from "@tailwindcss/nesting";
-import type { Config } from "tailwindcss";
-import typographyPlugin from "@tailwindcss/typography";
-import { fontFamily } from "tailwindcss/defaultTheme";
+const colors = require("./assets/tailwindcss/colours.cjs");
+const defaultTheme = require("tailwindcss/defaultTheme");
+const { fontFamily } = defaultTheme;
 
-const config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  mode: "jit",
+  darkMode: "media",
   important: true,
-  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
     outline: {
       black: "1px solid black",
@@ -49,12 +47,10 @@ const config = {
     container: false,
   },
   plugins: [
-    aspectRatioPlugin,
-    focusVisiblePlugin,
-    formsPlugin,
-    nestingPlugin,
-    typographyPlugin,
+    require("./assets/tailwindcss/plugins/focus-visible.cjs"),
+    require("@tailwindcss/nesting"),
+    require("@tailwindcss/aspect-ratio"),
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/typography"),
   ],
-} satisfies Config;
-
-export default config;
+};
