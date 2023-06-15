@@ -22,5 +22,5 @@ export default defineConfig({
       }
     }),
   ],
-  site: "https://www.oliverdavies.dev"
+  site: "https://www.oliverdavies.uk"
 });
