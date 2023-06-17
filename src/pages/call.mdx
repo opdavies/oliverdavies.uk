@@ -1,6 +1,6 @@
 ---
 layout: ~/layouts/PageLayout.astro
-title: Book a 1-on-1 consulting call
+title: Book a 1-on-1 call
 link: https://savvycal.com/opdavies/consulting-call
 price: 499
 testimonials:
@@ -13,25 +13,33 @@ testimonials:
 
 import Button from "~/components/Button.astro";
 import Testimonials from "~/components/Testimonials.astro";
+import { numberOfYears } from '~/utils';
 
-## How it works
+{/*
+## Who is this for?
+*/}
 
-- You book a 60 minute consulting call with me.
-- Once payment is received, you’ll obtain a link to schedule a meeting in my calendar.
-- The meeting will take place over Zoom.
+## What I can help you with
+
+- How to approach a new project or task.
+- Writing your first automated tests or starting with test-driven development.
+- Introducing static analysis or other code quality tools to your project.
+- Automating tasks with Docker or Ansible.
+- Help to fix a bug or some broken code.
+- Reviewing your code and providing advice and suggestions.
+
+In this 1-on-1 video call, I can help you answer questions in these areas or any others you may have.
+
+Price: £{frontmatter.price}
 
 <Button href={frontmatter.link} text="Book your call now" />
 
-If you don’t find the call valuable, I’ll refund 100% of the cost.
+## Who am I?
 
-### Typical subjects of interest include
-
-- How to approach a new project or task.
-- Help writing your first automated test or starting with test-driven development.
-- Introducing static analysis or other code quality tools to your project.
-- Automating tasks with Docker and/or Ansible.
-- Help to fix a bug or some broken code.
-- Reviewing your code and providing advice and suggestions.
+- I'm an Acquia-certified Drupal expert with over {numberOfYears} years of development experience.
+- I'm a former Drupal Association employee who was responsible for improving and maintaining Drupal.org.
+- I'm a Drupal core contributor and maintain numerous Drupal projects, including the Override Node Options module, which is used on over 35,000 websites.
+- I'm a multiple-time DrupalCon speaker who regularly presents talks and workshops at conferences and meetups.
 
 <aside class="p-6 my-8 border border-gray-300 dark:bg-gray-800 dark:border-gray-700" markdown="1">
   <h2 class="mt-0">Ready to book your call?</h2>
@@ -39,4 +47,14 @@ If you don’t find the call valuable, I’ll refund 100% of the cost.
   <Button href={frontmatter.link} text={`Book now for £${frontmatter.price}`} />
 </aside>
 
+## 100% money back guarantee!
+
+If you don’t find the call valuable, just let me know and I’ll refund 100% of the cost.
+
 <Testimonials names={frontmatter.testimonials} />
+
+## Availability is limited
+
+I’m only available for a few 1-on-1 calls per month.
+
+Scheduling is first come, first served, so the sooner you book your call, the sooner you will have the answers you need to move your project forward.
