@@ -12,6 +12,7 @@ testimonials:
 ---
 
 import Button from "~/components/Button.astro";
+import Callout from "~/components/Callout.astro";
 import Testimonials from "~/components/Testimonials.astro";
 import { numberOfYears } from '~/utils';
 
@@ -41,11 +42,9 @@ Price: £{frontmatter.price}
 - I'm a Drupal core contributor and maintain numerous Drupal projects, including the Override Node Options module, which is used on over 35,000 websites.
 - I'm a multiple-time DrupalCon speaker who regularly presents talks and workshops at conferences and meetups.
 
-<aside class="p-6 my-8 border border-gray-300 dark:bg-gray-800 dark:border-gray-700" markdown="1">
-  <h2 class="mt-0">Ready to book your call?</h2>
-
+<Callout title="Ready to book your call?">
   <Button href={frontmatter.link} text={`Book now for £${frontmatter.price}`} />
-</aside>
+</Callout>
 
 ## 100% money back guarantee!
 
