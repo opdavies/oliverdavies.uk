@@ -1,6 +1,6 @@
 ---
 layout: ~/layouts/PageLayout.astro
-title: Book a 1-on-1 call
+title: Book a 1-on-1 consulting call
 link: https://savvycal.com/opdavies/consulting-call
 price: 499
 testimonials:
@@ -44,6 +44,8 @@ Price: £{frontmatter.price}
 
 <Callout title="Ready to book your call?">
   <Button href={frontmatter.link} text={`Book now for £${frontmatter.price}`} />
+
+  <p class="mb-0">You can pay and reserve your time slot straight away. There are a few open slots each month. If, after this call, you decide to do a longer engagement with me, the cost of this call will be deducted from that engagement.</p>
 </Callout>
 
 ## 100% money back guarantee!
@@ -51,6 +53,12 @@ Price: £{frontmatter.price}
 If you don’t find the call valuable, just let me know and I’ll refund 100% of the cost.
 
 <Testimonials names={frontmatter.testimonials} />
+
+<Callout title="Ready to book your call?">
+  <Button href={frontmatter.link} text={`Book now for £${frontmatter.price}`} />
+
+  <p class="mb-0">You can pay and reserve your time slot straight away. There are a few open slots each month. If, after this call, you decide to do a longer engagement with me, the cost of this call will be deducted from that engagement.</p>
+</Callout>
 
 ## Availability is limited
 
