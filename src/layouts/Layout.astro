@@ -59,7 +59,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString().replace(
   </head>
   <body>
     <div
-      class="min-h-screen font-sans text-base font-light md:text-xl dark:text-white text-grey-900 dark:bg-grey-900"
+      class="min-h-screen font-sans text-base font-light md:text-xl dark:text-white text-grey-900 selection:bg- dark:bg-grey-900 selection:bg-blue-primary selection:text-white dark:selection:bg-blue-primary dark:selection:text-white"
     >
       {false && (
         <Banner text={"<a href='/drupal-testing'>Register now for my Drupal automated testing workshop &rarr;</a>"} />
