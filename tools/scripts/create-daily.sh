@@ -14,7 +14,7 @@ shift 1
 
 # Generate the title and slug.
 title="${*}"
-slug=$(echo "${title}" | awk '{print tolower($0)}' | tr ' ' '-')
+slug=$(echo "${title}" | awk '{print tolower($0)}' | tr ' ' '-' | awk '{ gsub("?", ""); print }')
 
 # Create the file.
 cp -f --no-clobber stub.md "${filepath}"
