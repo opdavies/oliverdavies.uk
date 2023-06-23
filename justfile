@@ -8,7 +8,7 @@ start:
 
 create-daily date title:
   #!/usr/bin/env bash
-  ./tools/scripts/create-daily.sh {{ date }} {{ title }}
+  vim $(./tools/scripts/create-daily.sh {{ date }} {{ title }})
 
 deploy sha:
   rm -fr _deploy
