@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@astrojs/alpinejs": "^0.2.1",
-    "@astrojs/markdoc": "^0.3.3",
     "@astrojs/mdx": "^0.18.3",
     "@astrojs/rss": "^2.3.2",
     "@astrojs/sitemap": "^1.2.2",
@@ -23,7 +22,7 @@
     "@tailwindcss/typography": "^0.5.8",
     "@types/alpinejs": "^3.0.0",
     "alpinejs": "^3.0.0",
-    "astro": "^2.6.3",
+    "astro": "^2.2.1",
     "astro-compress": "^1.1.39",
     "date-fns": "^2.29.3",
     "lodash": "^4.17.21",
