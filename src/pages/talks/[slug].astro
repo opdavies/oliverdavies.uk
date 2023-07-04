@@ -5,8 +5,10 @@ import Layout from "~/layouts/Layout.astro";
 import Markdown from "~/components/Markdown.astro";
 import Slides from "~/components/talk/Slides.astro";
 import Video from "~/components/talk/Video.astro";
-import { getSlugFromFile } from "~/utils.ts";
+import _ from "lodash";
+import type { Event } from "~/components/talk/Events";
 import { getCollection } from "astro:content";
+import { getSlugFromFile } from "~/utils.ts";
 
 export async function getStaticPaths() {
   const talks = await getCollection("talk");
@@ -21,6 +23,13 @@ export async function getStaticPaths() {
 
 const { Content } = await Astro.props.talk.render();
 const { events, speakerdeck, title, video } = Astro.props.talk.data;
+
+const getOrderedEvents = (events: Record<number, Event>) => {
+  return _(events)
+    .sortBy((event: Event) => new Date(event.date))
+    .reverse()
+    .value();
+};
 ---
 
 <Layout title={title}>
@@ -33,7 +42,7 @@ const { events, speakerdeck, title, video } = Astro.props.talk.data;
 
     {video && <Video id={video.id} type={video.type} />}
 
-    <Events events={events} />
+    <Events events={getOrderedEvents(events)} />
 
     <AboutMe />
   </div>
