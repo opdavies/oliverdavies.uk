@@ -62,6 +62,12 @@ events:
     date: "2020-12-08"
     url: https://events.drupal.org/europe2020/sessions/tdd-test-driven-drupal
     online: true
+
+  - name: DrupalCon Lille 2023
+    location: Lille, France
+    date: "2023-10-17"
+    time: "15:00 - 15:45"
+    url: https://events.drupal.org/lille2023/session/tdd-test-driven-drupal-introduction-automated-testing-and-test-driven-development
 ---
 
 Testing is important.
