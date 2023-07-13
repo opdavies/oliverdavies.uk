@@ -1,5 +1,5 @@
 ---
-import { getCollection, getEntries, getEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 import _ from "lodash";
 
 interface Props {
@@ -8,23 +8,26 @@ interface Props {
 
 const names = _(Astro.props.names);
 const testimonials = await getCollection('testimonial', ({ id }) => names.includes(id));
-const reversedTestimonials = _(testimonials).reverse()
+const sortedTestimonials = _(testimonials)
+  .sort((a, b) => new Date(a.date) < new Date(b.date))
+  .reverse()
+  .value();
 ---
 
 {testimonials && (
   <h2>What others have said</h2>
 
   <div class="mt-6 space-y-14">
-    {reversedTestimonials.map(testimonial => (
+    {_(sortedTestimonials).map(({ data: { image, name, tagline, text } }) => (
       <article>
-        <blockquote class="mt-4" set:html={testimonial.data.text} />
+        <blockquote class="mt-4" set:html={text} />
 
         <footer class="flex items-center space-x-4 space-x-reverse">
-          <span class="text-base">{testimonial.data.name} - {testimonial.data.tagline}</span>
+          <span class="text-base">{name}{tagline && (<> - {tagline}</>)}</span>
 
-          {testimonial.data.image && (
+          {image && (
             <span class="order-first not-prose">
-              <img width="50" height="50" class="rounded-full border w-15 h-15" src={`/images/recommendations/${testimonial.data.image}`} />
+              <img width="50" height="50" class="rounded-full border w-15 h-15" src={`/images/recommendations/${image}`} />
             </span>
           )}
         </footer>

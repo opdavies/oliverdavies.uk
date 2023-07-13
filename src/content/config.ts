@@ -53,9 +53,10 @@ const talkCollection = defineCollection({
 const testimonialCollection = defineCollection({
   type: 'data',
   schema: z.object({
+    date: z.string().optional(),
     image: z.string().or(z.null()),
     name: z.string(),
-    tagline: z.string(),
+    tagline: z.string().or(z.null()),
     text: z.string(),
     url: z.string().or(z.null()),
   }),

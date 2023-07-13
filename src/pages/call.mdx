@@ -2,13 +2,10 @@
 layout: ~/layouts/PageLayout.astro
 title: Book a 1-on-1 consulting call
 link: https://savvycal.com/opdavies/consulting-call
-price: 350
+price: £350
 testimonials:
-  - anonymous
-  - mick-felton
-  - michael-itkoff
-  - huw-davies
-  - scott-euser
+  - michael-itkoff2
+  - tom-evans
 ---
 
 import Button from "~/components/Button.astro";
@@ -20,20 +17,33 @@ import { numberOfYears } from '~/utils';
 ## Who is this for?
 */}
 
-## What I can help you with
+As a professional Software Developer and Consultant with over {numberOfYears} years of Drupal and PHP experience, I have a lot of knowledge that I use to help customers and their projects.
+
+## Some things I can help you with
 
 - How to approach a new project or task.
-- Writing your first automated tests or starting with test-driven development.
+- PHP and Drupal fundamentals and best practices.
+- Adding eCommerce functionality with Drupal Commerce.
+- Upgrading Drupal websites from unsupported versions.
+- Writing your first automated tests with PHPUnit or starting with test-driven development.
 - Introducing static analysis or other code quality tools to your project.
+- Adopting a utility-first CSS approach, e.g. Tailwind CSS, within a new or existing theme.
+- Configuring continuous integration (CI) pipelines with GitHub Actions, GitLab CI or Bitbucket Pipelines.
 - Automating tasks with Docker or Ansible.
-- Help to fix a bug or some broken code.
+- Help fixing a bug or some broken code.
 - Reviewing your code and providing advice and suggestions.
 
 In this 1-on-1 video call, I can help you answer questions in these areas or any others you may have.
 
-Price: £{frontmatter.price}
+Price: {frontmatter.price}
 
 <Button href={frontmatter.link} text="Book your call now" />
+
+## 100% money back guarantee!
+
+If you don’t find the call valuable, just let me know and I’ll refund 100% of the cost.
+
+<Testimonials names={frontmatter.testimonials} />
 
 ## Who am I?
 
@@ -43,25 +53,13 @@ Price: £{frontmatter.price}
 - I'm a multiple-time DrupalCon speaker who regularly presents talks and workshops at conferences and meetups.
 
 <Callout title="Ready to book your call?">
-  <Button href={frontmatter.link} text={`Book now for £${frontmatter.price}`} />
+  <Button href={frontmatter.link} text={`Book now for ${frontmatter.price}`} />
 
-  <p class="mb-0">You can pay and reserve your time slot straight away. There are a few open slots each month. If, after this call, you decide to do a longer engagement with me, the cost of this call will be deducted from that engagement.</p>
-</Callout>
-
-## 100% money back guarantee!
-
-If you don’t find the call valuable, just let me know and I’ll refund 100% of the cost.
-
-<Testimonials names={frontmatter.testimonials} />
-
-<Callout title="Ready to book your call?">
-  <Button href={frontmatter.link} text={`Book now for £${frontmatter.price}`} />
-
-  <p class="mb-0">You can pay and reserve your time slot straight away. There are a few open slots each month. If, after this call, you decide to do a longer engagement with me, the cost of this call will be deducted from that engagement.</p>
+  <p class="mb-0">You can pay and reserve your time slot straight away. There are a limited number of available slots each month. If, after the call, you decide to do a longer engagement with me, the cost of this call will be deducted from that engagement.</p>
 </Callout>
 
 ## Availability is limited
 
 I’m only available for a few 1-on-1 calls per month.
 
-Scheduling is first come, first served, so the sooner you book your call, the sooner you will have the answers you need to move your project forward.
+Scheduling is first come, first served, so the sooner you book your time slot, the sooner you will have the answers you need to move your project forward.
