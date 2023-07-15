@@ -6,8 +6,19 @@ interface Props {
   names: string[];
 }
 
-const names = _(Astro.props.names);
+const defaultNames = [
+  'adam-cuddihy',
+  'anonymous',
+  'huw-davies',
+  'michael-itkoff',
+  'mick-felton',
+  'scott-euser',
+];
+
+const names = _(Astro.props.names || defaultNames);
+
 const testimonials = await getCollection('testimonial', ({ id }) => names.includes(id));
+
 const sortedTestimonials = _(testimonials)
   .sort((a, b) => new Date(a.date) < new Date(b.date))
   .reverse()
