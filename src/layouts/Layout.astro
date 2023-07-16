@@ -81,7 +81,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString().replace(
                 footerLinks &&
                   footerLinks.map((link) => (
                     <a
-                      class="mx-3 mb-3 text-sm underline md:text-lg dark:text-white hover:no-underline link dark:hover:text-blue-400 hover:text-grey-900"
+                      class="mx-3 mb-3 text-base underline md:text-lg dark:text-white hover:no-underline link dark:hover:text-blue-400 hover:text-grey-900"
                       href={link.href}
                     >
                       {link.title}
