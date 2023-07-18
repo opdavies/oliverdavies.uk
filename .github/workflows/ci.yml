@@ -26,6 +26,11 @@ jobs:
 
       - run: nix --version
 
+      - run: |
+          nix develop --command yarn
+          nix develop --command yarn build
+          ls
+
       - name: Login to the Docker registry
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9 # v1.10.0
         with:
