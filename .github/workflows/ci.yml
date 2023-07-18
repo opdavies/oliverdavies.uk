@@ -20,6 +20,12 @@ jobs:
       - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
       - uses: extractions/setup-just@95b912dc5d3ed106a72907f2f9b91e76d60bdb76 # 1.5.0
 
+      - uses: cachix/install-nix-action@6ed004b9ccb68dbc28e7c85bee15fa93dbd214ac # v22
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+
+      - run: nix --version
+
       - name: Login to the Docker registry
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9 # v1.10.0
         with:
