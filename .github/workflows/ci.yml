@@ -10,9 +10,6 @@ on:
     - cron: "0 12 15 * *"
   workflow_dispatch:
 
-env:
-  DOCKER_TAG: ${{ github.sha }}
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,12 +21,9 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixos-unstable
 
-      - run: nix --version
-
       - run: |
           nix develop --command yarn
           nix develop --command yarn build
-          ls
 
       - uses: actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce # v3.1.2
         with:
