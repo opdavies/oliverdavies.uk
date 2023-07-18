@@ -31,15 +31,10 @@ jobs:
           nix develop --command yarn build
           ls
 
-      - name: Login to the Docker registry
-        uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9 # v1.10.0
+      - uses: actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce # v3.1.2
         with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-
-      - run: |
-          just push-images ${{ github.sha }}
+          name: dist
+          path: dist
 
   deploy:
     runs-on: ubuntu-latest
@@ -47,7 +42,6 @@ jobs:
       - build
     steps:
       - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
-      - uses: extractions/setup-just@95b912dc5d3ed106a72907f2f9b91e76d60bdb76 # 1.5.0
 
       - name: Add the deployment SSH key
         uses: shimataro/ssh-key-action@3c9b0fc6f2d223b8450b02a0445f526350fc73e0 # 2.3.1
@@ -55,6 +49,11 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           name: id_rsa
           known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
+
+      - uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
+        with:
+          name: dist
+          path: dist
 
       - run: |
           just deploy ${{ github.sha }}
