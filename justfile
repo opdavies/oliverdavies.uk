@@ -8,7 +8,7 @@ start:
 
 create-daily date title:
   #!/usr/bin/env bash
-  vim $(./tools/scripts/create-daily.sh {{ date }} {{ title }})
+  vim $(./tools/scripts/create-daily.sh {{ date }} "{{ title }}")
 
 deploy sha:
   rsync -r -avhP --delete dist/* opdavies@104.248.165.137:/srv/oliverdavies.uk
