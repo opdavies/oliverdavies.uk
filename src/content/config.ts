@@ -29,7 +29,7 @@ const talkCollection = defineCollection({
         location: z.string().optional(),
         name: z.string(),
         online: z.boolean().optional(),
-        url: z.string().optional(),
+        url: z.string().or(z.null()).optional(),
       })
     ),
     speakerdeck: z
