@@ -1,16 +1,17 @@
 ---
 import ListingPage from "~/components/ListingPage.astro";
+import Markdown from "~/components/Markdown.astro";
 import _ from "lodash";
 import { getCollection } from "astro:content";
-import Markdown from "~/components/Markdown.astro";
 
 const talks = await getCollection("talk");
 
+const today = new Date().valueOf();
+
 const talkCount = _(talks)
   .flatMap((talk) => talk.data.events)
+  .filter((event): boolean => new Date(event.date).valueOf() <= today)
   .size();
-
-const today = new Date().valueOf();
 
 const sortedTalks = talks
   .map((talk) => {
