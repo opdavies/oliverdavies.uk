@@ -55,7 +55,7 @@ export async function get() {
       title: `${email.data.title.trim()}`,
       customData: `
         <tags>
-          ${email.data.tags.map(tag => `#${convertTag(tag)}`).join(' ')}
+          #dev ${email.data.tags.map(tag => `#${convertTag(tag)}`).join(' ')}
         </tags>`,
     }))
   });
