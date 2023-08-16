@@ -1,5 +1,5 @@
 ---
-title: Community and contribution
+title: Communities and contribution
 description: Why I mentor, why I've organised meetups and conferences, why I give talks, and why I maintain and contribute to open-source software.
 events:
   - name: TechConnect London
