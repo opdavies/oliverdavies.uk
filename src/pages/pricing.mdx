@@ -1,0 +1,31 @@
+---
+layout: ~/layouts/PageLayout.astro
+title: Products and Services
+---
+
+import ListingPage from "~/components/ListingPage.astro";
+import _ from "lodash";
+import products from "~/products.json";
+
+export const priceFormatter = new Intl.NumberFormat('en-GB', {
+  currency: 'GBP',
+  maximumSignificantDigits: 2,
+  style: 'currency',
+});
+
+<div class="space-y-6">
+  {products && products.map(product => (
+    <article class="space-y-4">
+      <h2>
+        {product.title} - {priceFormatter.format(product.price)}
+        {product.perMonth && (<> per month</>)}
+      </h2>
+
+      <div>{product.description}</div>
+
+      <footer>
+        <a href={product.link.href}>{product.link.text} &rarr;</a>
+      </footer>
+    </article>
+  ))}
+</div>
