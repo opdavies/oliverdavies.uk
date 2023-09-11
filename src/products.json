@@ -29,7 +29,7 @@
   },
   {
     "title": "1-on-1 consulting call",
-    "description": "Book a 1-on-1 video call and I can help you answer questions in areas such as software development, architecture, testing, and automation.",
+    "description": "Book a 1-on-1 video call, and I can help you by answering questions about software development, architecture and automation, helping you write your first automated test, or reviewing some of your code and giving advice and suggestions.",
     "price": 350,
     "link": {
       "text": "Book your call now",
