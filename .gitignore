@@ -4,6 +4,7 @@ dist/
 .output/
 
 # dependencies
+.direnv/
 node_modules/
 
 # logs
