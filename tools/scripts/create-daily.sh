@@ -14,7 +14,11 @@ shift 1
 
 # Generate the title and slug.
 title="${*}"
-slug=$(echo "${title}" | awk '{print tolower($0)}' | tr ' ' '-' | awk '{ gsub("?", ""); print }')
+slug=$(echo "${title}" | \
+    tr '[:upper:]' '[:lower:]' | \
+    sed 's/[^a-z0-9]/-/g' | \
+    sed 's/\-\-+/-/g' | \
+    sed 's/^\-//;s/\-$//')
 
 # Create the file.
 cp -f --no-clobber stub.md "${filepath}"
