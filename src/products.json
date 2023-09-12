@@ -52,5 +52,13 @@
       "text": "Register now",
       "href": "https://forms.gle/9fGwMgaWcWjNDjdAA"
     }
+  },
+  {
+    "title": "Drupal module template",
+    "description": "If you're creating a new Drupal module, try starting with my free module template for Drupal 9 and 10.",
+    "link": {
+      "text": "Download",
+      "href": "https://github.com/opdavies/drupal-module-template"
+    }
   }
 ]

@@ -17,12 +17,15 @@ export const priceFormatter = new Intl.NumberFormat('en-GB', {
   {products && products.map(product => (
     <article class="space-y-4">
       <h2>
-        {product.title}
-        {product.price && (
-          <> - {priceFormatter.format(product.price)}
-          {product.perMonth && (<> per month</>)}
-          </>
-        )}
+        {product.title} - <> </>
+        {product.price
+          ? (
+              <>{priceFormatter.format(product.price)}
+              {product.perMonth && (<> per month</>)}
+              </>
+            )
+          : 'Free!'
+        }
       </h2>
 
       <div>{product.description}</div>
