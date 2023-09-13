@@ -28,6 +28,16 @@
     }
   },
   {
+    "title": "1-on-1 development coaching",
+    "description": "The same as development team coaching, but for individual Developers and soloists.",
+    "perMonth": true,
+    "price": 1000,
+    "link": {
+      "text": "Apply now",
+      "href": "https://forms.gle/SX5fGtXXKVDcftpTA"
+    }
+  },
+  {
     "title": "1-on-1 consulting call",
     "description": "Book a 1-on-1 video call, and I can help you by answering questions about software development, architecture and automation, helping you write your first automated test, or reviewing some of your code and giving advice and suggestions.",
     "price": 350,
