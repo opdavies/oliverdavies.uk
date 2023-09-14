@@ -13,31 +13,66 @@ export const priceFormatter = new Intl.NumberFormat('en-GB', {
   style: 'currency',
 });
 
-<div class="space-y-6">
-  {products && products.map(product => (
-    <article class="space-y-4">
-      <h2>
-        {product.title} - <> </>
-        {product.price
-          ? (
-              <>{priceFormatter.format(product.price)}
-              {product.perMonth && (<> per month</>)}
-              </>
-            )
-          : 'Free!'
-        }
-      </h2>
+<div class="space-y-4">
+  <div>
+    <h2>For companies</h2>
 
-      <div>
-        <p>
-          {product.description}
-          {product.isLimited && (<> <strong>Limited places available!</strong></>)}
-        </p>
-      </div>
+    {products && products.company.map(product => (
+      <article class="space-y-4">
+        <h3>
+          {product.title} - <> </>
+          {product.price
+            ? (
+                <>{priceFormatter.format(product.price)}
+                {product.perMonth && (<> per month</>)}
+                </>
+              )
+            : 'Free!'
+          }
+        </h3>
 
-      <footer>
-        <a href={product.link.href}>{product.link.text} &rarr;</a>
-      </footer>
-    </article>
-  ))}
+        <div>
+          <p>
+            {product.description}
+            {product.isLimited && (<> <strong>Limited places available!</strong></>)}
+          </p>
+        </div>
+
+        <footer>
+          <a href={product.link.href}>{product.link.text} &rarr;</a>
+        </footer>
+      </article>
+    ))}
+  </div>
+
+  <div>
+    <h2>For individuals</h2>
+
+    {products && products.individuals.map(product => (
+      <article class="space-y-4">
+        <h3>
+          {product.title} - <> </>
+          {product.price
+            ? (
+                <>{priceFormatter.format(product.price)}
+                {product.perMonth && (<> per month</>)}
+                </>
+              )
+            : 'Free!'
+          }
+        </h3>
+
+        <div>
+          <p>
+            {product.description}
+            {product.isLimited && (<> <strong>Limited places available!</strong></>)}
+          </p>
+        </div>
+
+        <footer>
+          <a href={product.link.href}>{product.link.text} &rarr;</a>
+        </footer>
+      </article>
+    ))}
+  </div>
 </div>
