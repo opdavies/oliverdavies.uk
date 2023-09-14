@@ -28,7 +28,12 @@ export const priceFormatter = new Intl.NumberFormat('en-GB', {
         }
       </h2>
 
-      <div>{product.description}</div>
+      <div>
+        <p>
+          {product.description}
+          {product.isLimited && (<> <strong>Limited places available!</strong></>)}
+        </p>
+      </div>
 
       <footer>
         <a href={product.link.href}>{product.link.text} &rarr;</a>

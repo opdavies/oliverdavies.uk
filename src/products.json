@@ -21,6 +21,7 @@
     "title": "Development team coaching",
     "description": "Do you want to upskill your in-house team or have someone provide oversight and guidance as they deliver a project? Get unlimited 1-on-1 private Slack access to me and regular check-in calls to ensure things are on track.",
     "perMonth": true,
+    "isLimited": true,
     "price": 5000,
     "link": {
       "text": "Apply now",
@@ -40,6 +41,7 @@
     "title": "1-on-1 development coaching",
     "description": "The same as development team coaching, but for individual Developers and soloists.",
     "perMonth": true,
+    "isLimited": true,
     "price": 1000,
     "link": {
       "text": "Apply now",
