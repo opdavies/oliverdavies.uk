@@ -1,5 +1,14 @@
 [
   {
+    "title": "Diagnosis",
+    "description": "An in-depth investigation into a single issue where I'll provide a report with my findings and advice on the next steps. Once you've purchased, you can book a Zoom call with me to discuss what you want me to investigate.",
+    "price": 2500,
+    "link": {
+      "text": "Book now",
+      "href": "https://buy.stripe.com/00gbJs84G2jg8Vy9AJ"
+    }
+  },
+  {
     "title": "Drupal upgrade roadmap",
     "description": "Are you stuck on an already or soon-to-be unsupported version of Drupal? Get a personalised roadmap of your Drupal website, including details and actionable steps to upgrade it.",
     "price": 5000,
