@@ -7,23 +7,29 @@ interface Props {
 }
 
 const defaultNames = [
-  'adam-cuddihy',
-  'brian-hartwell',
-  'anonymous',
-  'huw-davies',
   'joe-howell',
   'michael-itkoff',
   'mick-felton',
+  'duncan-davidson',
+  'adam-cuddihy',
+  'huw-davies',
   'scott-euser',
+  'brian-hartwell',
+  'alan-hatch',
+  'holly-ross',
+  'josh-mitchell',
+  'brian-healy',
+  'chris-jarvis',
+  'daniel-easterbrook',
+  'anonymous',
 ];
 
 const names = _(Astro.props.names || defaultNames);
 
 const testimonials = await getCollection('testimonial', ({ id }) => names.includes(id));
 
-const sortedTestimonials = _(testimonials)
-  .sort((a, b) => new Date(a.date) < new Date(b.date))
-  .reverse()
+const sortedTestimonials = _(names)
+  .flatMap(name => testimonials.filter(testimonial => testimonial.id === name))
   .value();
 ---
 
