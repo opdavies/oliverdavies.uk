@@ -1,5 +1,6 @@
 ---
 import Markdown from '../Markdown.astro';
+import VimeoVideo from '../VimeoVideo.astro';
 import YouTubeVideo from '../YouTubeVideo.astro';
 
 interface Props {
@@ -17,6 +18,17 @@ const { id, type }: Props = Astro.props;
 
       <div>
         <YouTubeVideo id={id} />
+      </div>
+    </Markdown>
+  )
+}
+{
+  type == "vimeo" && (
+    <Markdown>
+      <h2 class="mb-2">Video</h2>
+
+      <div>
+        <VimeoVideo id={id} />
       </div>
     </Markdown>
   )
