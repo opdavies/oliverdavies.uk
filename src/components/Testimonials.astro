@@ -38,12 +38,17 @@ const sortedTestimonials = _(names)
   <h2>What others have said</h2>
 
   <div class="mt-6 space-y-14">
-    {_(sortedTestimonials).map(({ data: { image, name, tagline, text } }) => (
+    {_(sortedTestimonials).map(({ data: { image, name, tagline, text, url } }) => (
       <article>
         <blockquote class="mt-4" set:html={text} />
 
         <footer class="flex items-center space-x-4 space-x-reverse">
-          <span class="text-base">{name}{tagline && (<> - {tagline}</>)}</span>
+          <span class="text-base">
+            {url
+              ? <a href={url}>{name}{tagline && (<> - {tagline}</>)}</a>
+              : <>{name}{tagline && (<> - {tagline}</>)}</>
+            }
+          </span>
 
           {image && (
             <span class="order-first not-prose">
