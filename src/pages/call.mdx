@@ -7,6 +7,18 @@ testimonials:
   - tawny-bartlett
   - tom-evans
   - michael-itkoff2
+faqs:
+  - - What happens after I pay?
+    - Your call is scheduled at the time you pay. So after payment is received, we're all set!
+
+  - - Can my colleague or business partner join the call?
+    - No. This is a 1-on-1 call. You are welcome to record the conversation to share it after the fact.
+
+  - - Do you offer something more hands-on?
+    - Sure! <a href="/pair">Book a pair programming session</a> instead and we’ll work on your code together.
+
+  - - I still have questions!
+    - No problem. Send me an email at <a href="mailto:oliver@oliverdavies.uk">oliver@oliverdavies.uk</a>.
 ---
 
 import Button from "~/components/Button.astro";
@@ -56,6 +68,15 @@ In this 1-on-1 video call, I can help you answer questions in these areas or any
 
 If you don't find the call valuable, just let me know, and I'll refund 100% of the cost.
 
+## Frequently asked questions
+
+{frontmatter.faqs.map((faq) => (
+  <li class="list-none">
+    <h3 class="mt-0 text-lg">{faq[0]}</h3>
+    <p set:html={faq[1]} />
+  </li>
+))}
+
 {/* Uniqueness */}
 
 ## Who am I?
@@ -80,7 +101,3 @@ If you don't find the call valuable, just let me know, and I'll refund 100% of t
 I’m only available for a few 1-on-1 calls per month.
 
 Scheduling is first come, first served, so the sooner you book your time slot, the sooner you will have the answers you need to move your project forward.
-
-## Want something more hands-on?
-
-[Book a pair programming session](/pair) instead and we'll work on your code together.
