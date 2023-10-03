@@ -1,32 +1,17 @@
 ---
 layout: ~/layouts/PageLayout.astro
 title: Oliver's Daily List
+testimonials:
+  - mike-karthauser
+  - marcos-duran
+  - stephen-mulvihill
+  - patty-ocallaghan
 ---
 
 import AboutMe from "~/components/AboutMe.astro";
 import DailyEmailForm from "~/components/DailyEmailForm.astro";
 import Markdown from "~/components/Markdown.astro";
-import _ from "lodash";
-
-export const testimonials = [
-  {
-    name: "Patty O'Callaghan",
-    text: "<p>Just wanted to say that your blog is amazing <3 I absolutely love it and usually share it with colleagues and some of the kids at my Code Club.</p><p>Thanks for contributing to the community with your amazing content! :)</p>",
-    image: "patty-ocallaghan.jpg",
-  },
-  {
-    name: "Stephen Mulvihill",
-    text: '<p>I like the "$ git log -S" and "$ git log --grep" commands, will definitely be using these, thanks!</p>',
-    image: "stephen-mulvihill.jpg",
-  },
-  {
-    name: "Marcos Duran",
-    text: "<p>I am a big fan of your git approaches. I especially remember pairing with you and watching how many commands you run to solve many problems and how fast you were. It's a skill I believe not many have, particularly those who are used to working with a GUI like me, and personally I think it is quite valuable.</p>",
-    image: "marcos-duran.jpg",
-  },
-];
-
-export const sortedTestimonials = _.reverse(testimonials);
+import Testimonials from "~/components/Testimonials.astro";
 
 <p>
   A daily newsletter for software professionals on software development, DevOps, community, and open-source.
@@ -34,37 +19,13 @@ export const sortedTestimonials = _.reverse(testimonials);
 
 <div class="space-y-12">
   <div class="space-y-20">
-    <DailyEmailForm />
+    <div>
+      <DailyEmailForm />
+    </div>
 
-    {sortedTestimonials && (
-      <section>
-        <h2 class="sr-only">Testimonials</h2>
-
-        <div class="space-y-12">
-          {testimonials.map(testimonial => (
-            <article class="flex space-x-10">
-              <div>
-                <Markdown>
-                  <blockquote class="m-0"set:html={testimonial.text} />
-
-                  <figcaption class="mt-6">{testimonial.name}</figcaption>
-                </Markdown>
-              </div>
-
-              <div class="hidden flex-shrink-0 sm:block">
-                <img
-                  alt={testimonial.name}
-                  class="rounded-full border border-grey"
-                  src={`/images/daily/${testimonial.image}`}
-                  width="75"
-                />
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
-    )}
-
+    <div>
+      <Testimonials names={frontmatter.testimonials} />
+    </div>
   </div>
 
   <AboutMe />
