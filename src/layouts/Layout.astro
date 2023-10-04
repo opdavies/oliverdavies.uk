@@ -5,6 +5,7 @@ import Banner from "../components/Banner.astro";
 import Navbar from "../components/Navbar.astro";
 
 export interface Props {
+  isFront: boolean;
   title: string;
 }
 
@@ -39,6 +40,7 @@ const footerLinks = [
 ];
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString().replace(/\/$/, "");
+const isFrontPage = Astro.props.isFront;
 ---
 
 <!DOCTYPE html>
@@ -54,7 +56,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString().replace(
       rel="stylesheet"
     />
     <link rel="canonical" href={canonicalURL} />
-    <title>{title}</title>
+    <title>{isFrontPage ? title : `${title} | Oliver Davies`}</title>
     <script
       defer
       data-domain="oliverdavies.uk"

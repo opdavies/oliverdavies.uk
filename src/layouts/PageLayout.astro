@@ -2,10 +2,10 @@
 import BaseLayout from "./Layout.astro";
 import Markdown from "~/components/Markdown.astro";
 
-const { title } = Astro.props.frontmatter || Astro.props;
+const { isFront, title } = Astro.props.frontmatter || Astro.props;
 ---
 
-<BaseLayout title={title}>
+<BaseLayout isFront={isFront || false} title={title}>
   <Markdown>
     <slot />
   </Markdown>
