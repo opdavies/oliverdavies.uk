@@ -6,6 +6,5 @@ flake:
   devshell:
     packages:
       - awscli
-      - just
       - nodejs_20
       - yarn

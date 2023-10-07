@@ -16,7 +16,6 @@
         devshells.default = {
           packages = with pkgs; [
             "awscli"
-            "just"
             "nodejs_20"
             "yarn"
           ];
