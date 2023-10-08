@@ -58,7 +58,7 @@ function create-daily {
   git add "${filepath}"
   git commit --quiet -m "daily-email: add ${date}
 
-  ${title}"
+${title}"
 
   echo "${filepath}"
 }
