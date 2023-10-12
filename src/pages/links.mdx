@@ -19,15 +19,12 @@ export const links = [
   { title: "PHP South Wales", url: "https://www.phpsouthwales.uk" },
 ];
 
-<div class="mx-auto max-w-md">
-  <ul class="p-0 space-y-4 list-none">
+<div>
+  <ul>
     {links &&
       links.map((link) => (
         <li>
-          <a
-            class="block p-2 w-full text-center text-black no-underline border transition duration-200 ease-in-out dark:text-white hover:text-white focus:text-white dark:hover:text-black dark:focus:text-black dark:hover:bg-white dark:focus:bg-white hover:bg-blue-primary focus:bg-blue-primary"
-            href={link.url}
-          >
+          <a href={link.url} >
             {link.title}
           </a>
         </li>
