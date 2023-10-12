@@ -71,6 +71,10 @@ const isFrontPage = Astro.props.isFront;
         <Banner text={"<a href='/drupal-testing'>Register now for my Drupal automated testing workshop &rarr;</a>"} />
       )}
 
+      {true && (
+        <Banner text={"Drupal 9 will be unsupported in November 2023. If you're stuck on Drupal 8 or 9, get unstuck with a <a href='/drupal-upgrade'>Drupal upgrade roadmap</a>."} />
+      )}
+
       <Navbar />
 
       <div class="py-10 px-6 mx-auto max-w-xl md:py-10">

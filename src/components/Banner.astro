@@ -6,6 +6,10 @@ interface Props {
 const { text } = Astro.props as Props;
 ---
 
-<div class="text-center p-3 bg-[#ffc82c] text-black text-base mb-4 dark:text-white dark:bg-[#856200]">
-  <p class="font-normal" set:html={text} />
+<div class="p-3 bg-[#ffc82c] text-black text-base mb-4 dark:text-white dark:bg-[#856200]">
+  <div class="min-w-full mx-auto px-6">
+    <div class="mx-auto max-w-xl prose prose-p:text-black prose:a:font-normal dark:prose-p:text-white dark:prose-a:text-white text-center">
+      <p set:html={text} />
+    </div>
+  </div>
 </div>
