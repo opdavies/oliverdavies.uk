@@ -4,6 +4,7 @@ import _ from "lodash";
 
 interface Props {
   names: string[];
+  title?: string;
 }
 
 const defaultNames = [
@@ -26,6 +27,7 @@ const defaultNames = [
   'anonymous',
 ];
 
+const { title } = Astro.props as Props;
 const names = _(Astro.props.names || defaultNames);
 
 const testimonials = await getCollection('testimonial', ({ id }) => names.includes(id));
@@ -36,7 +38,7 @@ const sortedTestimonials = _(names)
 ---
 
 {testimonials && (
-  <h2>What others have said</h2>
+  <h2>{title ?? 'What others have said'}</h2>
 
   <div class="mt-6 space-y-14">
     {_(sortedTestimonials).map(({ data: { image, name, tagline, text, url } }) => (
