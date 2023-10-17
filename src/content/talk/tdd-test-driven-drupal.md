@@ -77,3 +77,7 @@ Why? It allows developers to add new features and edit and refactor existing cod
 Drupal 7 includes the SimpleTest module for unit and functional testing, whilst Drupal 8 onwards uses PHPUnit - the defacto PHP testing framework, used by other PHP projects including Symfony and Laravel - making it easier for people to test their code. And with testing being one of the Drupal core gates with tests needing to be included with every new feature or bug fix, and core’s 100% pass rate policy, testing has become an essential skill when contributing to core, or when working on your own projects.
 
 In this talk, we’ll cover the methodology and terminology involved with automated testing, and then take a test driven approach to creating a new Drupal module.
+
+P.S. If you want to learn more about automated testing and test-driven development in Drupal, [register for my free 7-day email course][course].
+
+[course]: /atdc
