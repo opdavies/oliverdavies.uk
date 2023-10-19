@@ -4,12 +4,21 @@ import rss from '@astrojs/rss';
 import sanitizeHtml from 'sanitize-html';
 import { getCollection } from 'astro:content';
 
+/**
+ * Determines if a post should be shown based on its tags.
+ */
+const isDrupalPost = (email) => {
+  if (email.data.tags?.includes('drupal-planet')) {
+    return true;
+  }
+
+  return email.data.tags?.includes('drupal');
+};
+
 export async function get() {
   const emails = await getCollection('daily-email');
 
-  const filteredEmails = Object.values(emails).filter(e => {
-    return e.data.tags?.includes('drupal');
-  });
+  const filteredEmails = Object.values(emails).filter(e => isDrupalPost(e));
 
   const sortedEmails = filteredEmails
     .sort((a, b) =>
