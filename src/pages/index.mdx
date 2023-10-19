@@ -4,6 +4,7 @@ title: Oliver Davies - Software Developer and Drupal Expert
 isFront: true
 ---
 
+import DailyEmailForm from '~/components/DailyEmailForm.astro';
 import { numberOfYears } from '~/utils';
 
 <div class="mb-4 w-32">
@@ -34,9 +35,13 @@ Are you stuck on an unsupported version of Drupal and don't know what's involved
 
 Book a [1-on-1 consultation call][call] or an [online pair programming session][pair] with me, with a 100% money-back guarantee.
 
+<aside>
 ## Interested in software development?
 
-[Register for my email list][daily] and get daily emails about Drupal, PHP and software development.
+Register for my email list and get daily emails about Drupal, PHP and software development.
+
+<DailyEmailForm />
+</aside>
 
 [call]: /call
 [daily]: /daily
