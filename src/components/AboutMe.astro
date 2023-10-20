@@ -1,4 +1,5 @@
 ---
+import { numberOfYears } from "~/utils";
 import Markdown from "./Markdown.astro";
 ---
 
@@ -16,14 +17,8 @@ import Markdown from "./Markdown.astro";
       </div>
 
       <Markdown>
-        <p>
-          Oliver Davies is a PHP Developer and Linux Systems Administrator based
-          in the UK. He is a Full Stack Software Consultant specialising in
-          Drupal application development, and a Lead Developer at <a
-            href="https://tfw.wales"
-            class="link">Transport for Wales</a
-          >.
-        </p>
+        <p>I help Drupal website owners upgrade from unsupported versions and development teams write better software.</p>
+        <p>I'm an Acquia-certified Drupal Triple Expert with {numberOfYears} years of professional experience, an open-source software maintainer and a public speaker.</p>
       </Markdown>
     </div>
   </Markdown>
