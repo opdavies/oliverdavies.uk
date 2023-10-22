@@ -5,13 +5,8 @@ title: Products and Services
 
 import ListingPage from "~/components/ListingPage.astro";
 import _ from "lodash";
+import priceFormatter from "~/price-formatter";
 import products from "~/products.json";
-
-export const priceFormatter = new Intl.NumberFormat('en-GB', {
-  currency: 'GBP',
-  maximumSignificantDigits: 2,
-  style: 'currency',
-});
 
 <div class="space-y-12">
   {products.map((product) => (
