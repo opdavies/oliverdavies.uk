@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection } from "astro:content";
 import _ from "lodash";
 
 interface Props {
@@ -9,58 +9,83 @@ interface Props {
 }
 
 const defaultNames = [
-  'mike-karthauser',
-  'tawny-bartlett',
-  'joe-howell',
-  'michael-itkoff',
-  'mick-felton',
-  'duncan-davidson',
-  'adam-cuddihy',
-  'huw-davies',
-  'scott-euser',
-  'brian-hartwell',
-  'alan-hatch',
-  'holly-ross',
-  'josh-mitchell',
-  'brian-healy',
-  'chris-jarvis',
-  'daniel-easterbrook',
-  'anonymous',
+  "mike-karthauser",
+  "tawny-bartlett",
+  "joe-howell",
+  "michael-itkoff",
+  "mick-felton",
+  "duncan-davidson",
+  "adam-cuddihy",
+  "huw-davies",
+  "scott-euser",
+  "brian-hartwell",
+  "alan-hatch",
+  "holly-ross",
+  "josh-mitchell",
+  "brian-healy",
+  "chris-jarvis",
+  "daniel-easterbrook",
+  "anonymous",
 ];
 
 const { title, titleClasses } = Astro.props as Props;
 const names = _(Astro.props.names || defaultNames);
 
-const testimonials = await getCollection('testimonial', ({ id }) => names.includes(id));
+const testimonials = await getCollection("testimonial", ({ id }) =>
+  names.includes(id)
+);
 
 const sortedTestimonials = _(names)
-  .flatMap(name => testimonials.filter(testimonial => testimonial.id === name))
+  .flatMap((name) =>
+    testimonials.filter((testimonial) => testimonial.id === name)
+  )
   .value();
 ---
 
-{testimonials && (
-  <h2 class={titleClasses ? titleClasses.join(' ') : null}>{title ?? 'What others have said'}</h2>
+{
+  testimonials && (
+    <section>
+      <h2 class={titleClasses ? titleClasses.join(" ") : null}>
+        {title ?? "What others have said"}
+      </h2>
 
-  <div class="mt-6 space-y-14">
-    {_(sortedTestimonials).map(({ data: { image, name, tagline, text, url } }) => (
-      <article>
-        <blockquote class="mt-4" set:html={text} />
+      <div class="mt-8 space-y-10">
+        {_(sortedTestimonials).map(
+          ({ data: { image, name, tagline, text, url } }) => (
+            <article>
+              <blockquote class="mt-4" set:html={text} />
 
-        <footer class="flex items-center space-x-4 space-x-reverse">
-          <span class="text-base">
-            {url
-              ? <a href={url}>{name}{tagline && (<> - {tagline}</>)}</a>
-              : <>{name}{tagline && (<> - {tagline}</>)}</>
-            }
-          </span>
+              <footer class="flex items-center space-x-4 space-x-reverse">
+                <span class="text-base">
+                  {url ? (
+                    <a href={url}>
+                      {name}
+                      {tagline && <> - {tagline}</>}
+                    </a>
+                  ) : (
+                    <>
+                      {name}
+                      {tagline && <> - {tagline}</>}
+                    </>
+                  )}
+                </span>
 
-          {image && (
-            <span class="order-first not-prose">
-              <img width="50" height="50" class="rounded-full border w-15 h-15" alt={`Photo of ${name}`} src={`/images/recommendations/${image}`} />
-            </span>
-          )}
-        </footer>
-      </article>
-    ))}
-  </div>
-)}
+                {image && (
+                  <span class="order-first not-prose">
+                    <img
+                      alt={`Photo of ${name}`}
+                      class="rounded-full border"
+                      height="50px"
+                      src={`/images/recommendations/${image}`}
+                      width="50px"
+                    />
+                  </span>
+                )}
+              </footer>
+            </article>
+          )
+        )}
+      </div>
+    </section>
+  )
+}
