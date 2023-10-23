@@ -43,8 +43,13 @@ const footerLinks = [
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString().replace(/\/$/, "");
 const isFrontPage = Astro.props.isFront;
 
-const showDrupalAssociationMessage = ['diagnostic', 'drupal-upgrade', 'dto', 'pricing']
-  .includes(Astro.url.pathname.slice(1));
+const showDrupalAssociationMessage = [
+  "diagnostic",
+  "drupal-upgrade",
+  "dto",
+  "pricing",
+  "team-coaching",
+].includes(Astro.url.pathname.slice(1));
 ---
 
 <!DOCTYPE html>
@@ -82,11 +87,11 @@ const showDrupalAssociationMessage = ['diagnostic', 'drupal-upgrade', 'dto', 'pr
       <Navbar />
 
       <div class="py-10 px-6 mx-auto max-w-xl md:py-10">
-        {false && showDrupalAssociationMessage && (
+        {showDrupalAssociationMessage && (
           <Message>
             <p>
               <strong>Work with me and support Drupal.</strong>
-              10% of any Drupal-related product or service is donated to the <a href="https://www.drupal.org/association">Drupal Association</a>.
+              5% from any Drupal-related product or service is donated to the <a href="https://www.drupal.org/association">Drupal Association</a>.
             </p>
           </Message>
         )}
