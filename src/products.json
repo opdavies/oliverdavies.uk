@@ -1,11 +1,14 @@
 [
   {
-    "title": "Diagnosis",
-    "description": "An in-depth investigation into a single issue where I'll provide a report with my findings and advice on the next steps. Once you've purchased, you can book a Zoom call with me to discuss what you want me to investigate.",
-    "price": 2500,
+    "title": "Development team coaching",
+    "description": "Do you want to upskill your in-house team or have someone provide oversight and guidance as they deliver a project? Does your company want to learn to contribute to open-source software? Get unlimited 1-on-1 private Slack access to me and regular check-in calls to ensure things are on track.",
+    "perMonth": true,
+    "isFrom": true,
+    "isLimited": true,
+    "price": 10000,
     "link": {
-      "text": "Book now",
-      "href": "https://buy.stripe.com/00gbJs84G2jg8Vy9AJ"
+      "text": "Apply now",
+      "href": "/team-coaching"
     }
   },
   {
@@ -18,15 +21,12 @@
     }
   },
   {
-    "title": "Development team coaching",
-    "description": "Do you want to upskill your in-house team or have someone provide oversight and guidance as they deliver a project? Does your company want to learn to contribute to open-source software? Get unlimited 1-on-1 private Slack access to me and regular check-in calls to ensure things are on track.",
-    "perMonth": true,
-    "isFrom": true,
-    "isLimited": true,
-    "price": 5000,
+    "title": "Diagnosis",
+    "description": "An in-depth investigation into a single issue where I'll provide a report with my findings and advice on the next steps. Once you've purchased, you can book a Zoom call with me to discuss what you want me to investigate.",
+    "price": 2500,
     "link": {
-      "text": "Apply now",
-      "href": "https://forms.gle/HGEC3uqkUSqPsoK79"
+      "text": "Book now",
+      "href": "https://buy.stripe.com/00gbJs84G2jg8Vy9AJ"
     }
   },
   {
