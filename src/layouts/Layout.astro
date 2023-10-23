@@ -49,7 +49,7 @@ const showDrupalAssociationMessage = [
   "dto",
   "pricing",
   "team-coaching",
-].includes(Astro.url.pathname.slice(1));
+].includes(Astro.url.pathname.replace(/^\/+|\/+$/g, ''),)
 ---
 
 <!DOCTYPE html>
