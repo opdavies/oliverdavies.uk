@@ -42,7 +42,6 @@
     "title": "1-on-1 development coaching",
     "description": "The same as development team coaching, but for individual Developers and soloists.",
     "perMonth": true,
-    "isFrom": true,
     "isLimited": true,
     "price": 1000,
     "link": {
