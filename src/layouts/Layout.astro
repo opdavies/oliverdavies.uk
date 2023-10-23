@@ -65,6 +65,10 @@ const showDrupalAssociationMessage = [
       rel="stylesheet"
     />
     <link rel="canonical" href={canonicalURL} />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content={`${Astro?.site.origin}/images/od-logo.jpg`} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="twitter:image" content={`${Astro?.site.origin}/images/od-logo.jpg`} />
     <title>{isFrontPage ? title : `${title} | Oliver Davies`}</title>
     <script
       defer
