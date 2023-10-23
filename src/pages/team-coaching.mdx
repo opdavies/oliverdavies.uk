@@ -12,7 +12,7 @@ import { numberOfYears } from "~/utils";
 export const formUrl = "https://forms.gle/zd3Lnwe2J1sF13qJ7";
 export const price = 10000;
 
-<div class="space-y-12">
+<div class="space-y-16">
 <div>
 {/*Pain*/}
 
@@ -25,15 +25,12 @@ Do you want to gain exposure by contributing to open-source software, like Drupa
 {/* Fix */}
 
 I offer team coaching on an ongoing monthly basis. You can sign up for as long as you need, and pause or cancel at any time.
-</div>
 
 {/* 1st call to action */}
-
-<section>
-<h2 class="sr-only">Apply now</h2>
-
-<Button href={formUrl} position="centre" text={"Apply now"} />
-</section>
+<div class="mt-8">
+  <Button href={formUrl} position="centre" text={"Apply now"} />
+</div>
+</div>
 
 <section>
 ## What is included?
@@ -67,7 +64,9 @@ I offer team coaching on an ongoing monthly basis. You can sign up for as long a
 - I'll review your application, usually within one working day.
 - If successful, you make your first payment and book your onboarding call where we can define some key objectives and metrics.
 
+<div class="my-8">
 <Button href={formUrl} position="centre" text={"Apply now"} />
+</div>
 
 If you need lighter-touch guidance and advice, I also offer one-time consulting calls and pair programming sessions.
 </section>
