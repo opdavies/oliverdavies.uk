@@ -17,7 +17,7 @@
           packages = with pkgs; [
             "awscli"
             "nodejs_20"
-            "yarn"
+            "nodePackages.pnpm"
           ];
         };
       };
