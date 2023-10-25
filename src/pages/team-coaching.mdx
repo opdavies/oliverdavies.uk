@@ -1,6 +1,14 @@
 ---
 layout: ~/layouts/PageLayout.astro
 title: Team Coaching
+faqs:
+  - - Do you only work with Drupal development teams?
+    - No. While most of my background and experience is with PHP and Drupal, many things I can help with aren't specific to any language or framework.
+
+  # - - TODO: money-back guarantee
+
+  - - I have another question.
+    - No problem! Send me an email at <a href="mailto:oliver@oliverdavies.uk">oliver@oliverdavies.uk</a>.
 ---
 
 import AboutMe from "~/components/AboutMe.astro";
@@ -83,6 +91,17 @@ If you need lighter-touch guidance and advice, I also offer one-time consulting 
 />
 
 {/* Uniqueness */}
+
+<section>
+## Frequently Asked Questions
+
+{frontmatter.faqs.map((faq) => (
+  <li class="list-none">
+    <h3 class="mt-0 text-lg">{faq[0]}</h3>
+    <p set:html={faq[1]} />
+  </li>
+))}
+</section>
 
 <section>
 ## Who am I?
