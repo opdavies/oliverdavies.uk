@@ -65,10 +65,16 @@ const showDrupalAssociationMessage = [
       rel="stylesheet"
     />
     <link rel="canonical" href={canonicalURL} />
-    <meta name="twitter:card" content="summary_large_image">
     <meta property="og:image" content={`${Astro?.site.origin}/images/od-logo.jpg`} />
+    <meta property="og:site_name" content="Oliver Davies" />
+    <meta property="og:title" content={isFrontPage ? title : `${title} | Oliver Davies`} />
+    <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalURL} />
-    <meta property="twitter:image" content={`${Astro?.site.origin}/images/od-logo.jpg`} />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@opdavies">
+    <meta name="twitter:site" content="@opdavies">
+    <meta name="twitter:image" content={`${Astro?.site.origin}/images/od-logo.jpg`} />
+    <meta property="twitter:title" content={isFrontPage ? title : `${title} | Oliver Davies`} />
     <title>{isFrontPage ? title : `${title} | Oliver Davies`}</title>
     <script
       defer
