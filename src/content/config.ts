@@ -25,7 +25,7 @@ const talkCollection = defineCollection({
     description: z.string(),
     events: z.array(
       z.object({
-        date: z.string(),
+        date: z.string().or(z.date()),
         location: z.string().optional(),
         name: z.string(),
         online: z.boolean().optional(),
@@ -38,7 +38,7 @@ const talkCollection = defineCollection({
         ratio: z.string(),
         url: z.string(),
       })
-      .optional(),
+      .optional().or(z.null()),
     title: z.string(),
     video: z
       .object({
