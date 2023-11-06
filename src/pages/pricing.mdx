@@ -3,10 +3,8 @@ layout: ~/layouts/PageLayout.astro
 title: Products and Services
 ---
 
-import ListingPage from "~/components/ListingPage.astro";
-import _ from "lodash";
 import priceFormatter from "~/price-formatter";
-import products from "~/products.json";
+import products from "~/products.yaml";
 
 <div class="space-y-12">
   {products.map((product) => (

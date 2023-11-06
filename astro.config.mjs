@@ -1,8 +1,8 @@
 import mdx from "@astrojs/mdx";
-import tailwind from "@astrojs/tailwind";
-import { defineConfig } from "astro/config";
-
 import sitemap from "@astrojs/sitemap";
+import tailwind from "@astrojs/tailwind";
+import yaml from "@rollup/plugin-yaml";
+import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
@@ -22,5 +22,8 @@ export default defineConfig({
       }
     }),
   ],
-  site: "https://www.oliverdavies.uk"
+  site: "https://www.oliverdavies.uk",
+  vite: {
+    plugins: [yaml()],
+  },
 });
