@@ -20,6 +20,15 @@ const dailyEmailCollection = defineCollection({
   }),
 });
 
+const podcastEpisodeCollection = defineCollection({
+  schema: z.object({
+    date: z.date(),
+    draft: z.boolean().optional(),
+    guests: z.array(z.string()),
+    topic: z.string(),
+  }),
+});
+
 const talkCollection = defineCollection({
   schema: z.object({
     description: z.string(),
@@ -65,6 +74,7 @@ const testimonialCollection = defineCollection({
 
 export const collections = {
   "daily-email": dailyEmailCollection,
+  "podcast-episode": podcastEpisodeCollection,
   blog: blogCollection,
   talk: talkCollection,
   testimonial: testimonialCollection,

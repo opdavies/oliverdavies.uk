@@ -1,0 +1,40 @@
+---
+import _ from "lodash";
+import Markdown from "~/components/Markdown.astro";
+import MarkdownIt from "markdown-it";
+import PageLayout from "~/layouts/PageLayout.astro";
+import sanitizeHtml from "sanitize-html";
+import type { Episode } from "~/types";
+import { format } from "date-fns";
+import { getCollection } from "astro:content";
+
+let episodes: Episode[];
+episodes = await getCollection("podcast-episode");
+
+const filteredEpisodes = _(episodes).filter(episode => !episode.data.draft ?? false);
+const sortedEpisodes = _(filteredEpisodes).reverse();
+
+const parser = new MarkdownIt();
+---
+
+<PageLayout title="The Beyond Blocks podcast">
+  {filteredEpisodes.isEmpty() ? (
+    <p>Coming soon...</p>
+  ) : (
+    <>
+      <h2>Episodes</h2>
+
+      {sortedEpisodes.map((episode: Episode) => (
+        <article>
+          <h3>Episode {episode.id.match(/^[\d+]/)} - {`${episode.data.topic} with ${episode.data.guests}`}</h3>
+          
+          <time datetime={format(episode.data.date, 'Y-MM-dd')}>
+            {format(episode.data.date, 'PPP')}
+          </time>
+
+          <Markdown set:html={sanitizeHtml(parser.render(episode.body))} />
+        </article>
+      ))}
+    </>
+  )}
+</PageLayout>
