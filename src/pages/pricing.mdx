@@ -26,7 +26,11 @@ import products from "~/products.yaml";
       <div>
         <p>
           {product.description}
-          {product.isLimited && (<> <strong>Limited places available!</strong></>)}
+
+          {product.remainingPlaces
+            ? (<> <strong>{product.remainingPlaces} places remaining!</strong></>)
+            : product.isLimited && (<> <strong>Limited places available!</strong></>)
+          }
         </p>
       </div>
 

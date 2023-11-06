@@ -5,6 +5,7 @@
   perMonth: true
   isLimited: true
   price: 10000
+  remainingPlaces: 2
   link:
     text: Apply now
     href: /team-coaching
