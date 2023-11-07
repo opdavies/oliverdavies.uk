@@ -25,6 +25,7 @@ const podcastEpisodeCollection = defineCollection({
     date: z.date(),
     draft: z.boolean().optional(),
     guests: z.array(z.string()),
+    links: z.array(z.array(z.string())),
     topic: z.string(),
   }),
 });

@@ -3,6 +3,27 @@ date: 2023-11-06
 topic: Retrofit
 guests:
   - Matt Glaman
+links:
+  - - Retrofit
+    - https://retrofit-drupal.com
+
+  - - Retrofit on GitHub
+    - https://github.com/retrofit-drupal/retrofit
+
+  - - "Blog post: Running legacy Drupal 7 code on your Drupal 10 site"
+    - https://mglaman.dev/blog/retrofit-running-legacy-drupal-7-code-your-drupal-10-site
+
+  - - Matt on GitHub
+    - https://github.com/mglaman
+
+  - - Matt on Drupal.org
+    - https://www.drupal.org/u/mglaman
+
+  - - Matt on YouTube
+    - https://www.youtube.com/@nmdmatt
+
+  - - Matt on Twitch
+    - https://www.twitch.tv/mglaman
 draft: true
 ---
 

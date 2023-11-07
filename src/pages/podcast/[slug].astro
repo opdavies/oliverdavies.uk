@@ -1,0 +1,41 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import Markdown from "~/components/Markdown.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const episodes = await getCollection("podcast-episode");
+  const publishedEpisodes = episodes.filter((episode) => !episode.data.draft);
+  
+  return publishedEpisodes.map((episode) => {
+    return {
+      params: { slug: episode.slug },
+      props: { episode },
+    };
+  });
+}
+
+const { Content } = await Astro.props.episode.render();
+const { id } = Astro.props.episode;
+const { guests, links, title, topic } = Astro.props.episode.data;
+---
+
+
+<Layout title={`Episode ${id.match(/^[\d+]/)} - ${topic} with ${guests}`}>
+  <Markdown>
+    <Content />
+
+    {links && (
+      <div>
+        <h2>Links</h2>
+        <ul>
+          {links.map((link: {0: string, 1: string}) => (
+            <li>
+              <a href={link[1]}>{link[0]}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </Markdown>
+</Layout>
