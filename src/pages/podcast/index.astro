@@ -15,10 +15,13 @@ const filteredEpisodes = _(episodes).filter(episode => !episode.data.draft ?? fa
 const sortedEpisodes = _(filteredEpisodes).reverse();
 
 const parser = new MarkdownIt();
+
+const feedUrl = "https://feeds.transistor.fm/beyond-blocks";
 ---
 
 <PageLayout title="The Beyond Blocks podcast">
   <p>A weekly podcast about Drupal, open-source, and related software development topics.</p>
+  <p>Subscribe at <a href={feedUrl}>{feedUrl}</a>.</p>
 
   {filteredEpisodes && (
     <>
