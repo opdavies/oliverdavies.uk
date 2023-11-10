@@ -18,9 +18,9 @@ const parser = new MarkdownIt();
 ---
 
 <PageLayout title="The Beyond Blocks podcast">
-  {filteredEpisodes.isEmpty() ? (
-    <p>Coming soon...</p>
-  ) : (
+  <p>A weekly podcast about Drupal, open-source, and related software development topics.</p>
+
+  {filteredEpisodes && (
     <>
       <h2>Episodes</h2>
 
@@ -33,6 +33,10 @@ const parser = new MarkdownIt();
           </time>
 
           <Markdown set:html={sanitizeHtml(parser.render(episode.body))} />
+
+          <footer class="mt-4">
+            <a href={`/podcast/${episode.slug}`}>Listen now &rarr;</a>
+          </footer>
         </article>
       ))}
     </>

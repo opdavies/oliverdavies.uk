@@ -1,5 +1,5 @@
 ---
-date: 2023-11-06
+date: 2023-11-10
 topic: Retrofit
 guests:
   - Matt Glaman
@@ -24,7 +24,6 @@ links:
 
   - - Matt on Twitch
     - https://www.twitch.tv/mglaman
-draft: true
 ---
 
 In this episode, Oliver is joined by Matt Glaman to discuss Retrofit. A tool that makes it easier to upgrade Drupal websites by allowing legacy Drupal code to run on any version of Drupal.
