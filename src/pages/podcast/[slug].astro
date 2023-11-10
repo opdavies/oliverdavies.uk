@@ -17,11 +17,13 @@ export async function getStaticPaths() {
 
 const { Content } = await Astro.props.episode.render();
 const { id } = Astro.props.episode;
-const { guests, links, title, topic } = Astro.props.episode.data;
+const { guests, links, title, topic, transistor } = Astro.props.episode.data;
 ---
 
-
-<Layout title={`Episode ${id.match(/^[\d+]/)} - ${topic} with ${guests}`}>
+<Layout
+  episodeUrl={transistor?.id ? `https://share.transistor.fm/e/${transistor.id}` : null}
+  title={`Episode ${id.match(/^[\d+]/)} - ${topic} with ${guests}`}
+>
   <Markdown>
     <Content />
 

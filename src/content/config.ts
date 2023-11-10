@@ -27,6 +27,7 @@ const podcastEpisodeCollection = defineCollection({
     guests: z.array(z.string()),
     links: z.array(z.array(z.string())),
     topic: z.string(),
+    transistor: z.object({ id: z.string() }).optional(),
   }),
 });
 
