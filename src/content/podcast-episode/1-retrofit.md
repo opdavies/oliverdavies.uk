@@ -10,8 +10,20 @@ links:
   - - Retrofit on GitHub
     - https://github.com/retrofit-drupal/retrofit
 
-  - - "Blog post: Running legacy Drupal 7 code on your Drupal 10 site"
+  - - Running legacy Drupal 7 code on your Drupal 10 site
     - https://mglaman.dev/blog/retrofit-running-legacy-drupal-7-code-your-drupal-10-site
+
+  - - PHPStan
+    - https://phpstan.org
+
+  - - phpstan-drupal
+    - https://github.com/mglaman/phpstan-drupal
+
+  - - Centarro
+    - https://www.centarro.io
+
+  - - Drupal Commerce
+    - https://drupalcommerce.org
 
   - - Matt on GitHub
     - https://github.com/mglaman
