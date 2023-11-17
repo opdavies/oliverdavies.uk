@@ -4,14 +4,14 @@ import BaseLayout from "./PageLayout.astro";
 import DailyEmailForm from "../components/DailyEmailForm.astro";
 import Markdown from "../components/Markdown.astro";
 
-const { title } = Astro.props.frontmatter || Astro.props;
+const { episodeUrl, title } = Astro.props.frontmatter || Astro.props;
 ---
 
 <BaseLayout title={title}>
   <div class="space-y-16">
     <div class="space-y-8">
       <div>
-        <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/7d728873"></iframe>
+        <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src={episodeUrl}></iframe>
       </div>
 
       <Markdown>
