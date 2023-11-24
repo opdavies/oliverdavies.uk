@@ -1,5 +1,5 @@
 ---
-date: 2023-11-17
+date: 2023-11-24
 topic: Community engagement for non-technical Drupal enthusiasts
 guests:
   - Niklas Franke
