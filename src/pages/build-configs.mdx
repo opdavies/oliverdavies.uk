@@ -1,6 +1,6 @@
 ---
 layout: ~/layouts/PageLayout.astro
-title: "Configuration files as a service"
+title: "Build Configs - configuration files as a service"
 ---
 
 import AboutMe from "~/components/AboutMe.astro";
@@ -24,23 +24,23 @@ export const products = [
 
 All of my projects contain similar build configuration files, such as Docker and Docker Compose files, PHPUnit and PHPStan configuration, and CI/CD pipeline workflows. I used to maintain these manually which was time-intensive and there was no guarantee that the same features or options were available from project to project.
 
-“Build Configs” is a tool I've written to maintain a canonical set of templates and generate them for each project based on a per-project configuration file.
+Build Configs is a tool I've written to maintain a canonical set of templates and generate them for each project based on a per-project configuration file.
 
 This makes it quicker and easier for me to create or onboard new projects to work on and, as all of the base files are centralised, when I fix something or add a new feature, the changes can be pushed to every project that uses it.
 
-I've been using this on personal projects such as my [Docker Drupal](https://github.com/opdavies/docker-example-drupal) and [Docker LocalGov Drupal](https://github.com/opdavies/docker-example-drupal-localgov) example projects and for various client projects.
+I've been using this on personal projects such as my [Drupal](https://github.com/opdavies/docker-example-drupal), [LocalGov Drupal](https://github.com/opdavies/docker-example-drupal-localgov) and [Drupal Commerce Kickstart](https://github.com/opdavies/docker-example-drupal-commerce-kicksart) Docker examples and for various client projects.
 
 ## How does it work?
 
 - I create a `build.yaml` file for the project that contains its configuration - what version of PHP it needs, which web server to use, which paths to run automated tests from or static analysis on, etc.
-- I run the `build-configs` tool which generates the required files, such as a Dockerfile, Docker Compose file, PHPStan and PHPUnit configuration files, and a justfile for automating project commands.
+- I run the `build-configs` tool which generates the required files, such as a Dockerfile, Docker Compose file, PHPStan and PHPUnit configuration files, and a `run` script for automating project commands.
 - The files are committed to version control and pushed to your code repository (GitHub, GitLab, Bitbucket, etc).
 - As I add new features or make changes, I will re-run the process to re-generate the files and push any changes - ensuring you’re always up to date.
 
 ## What are some of the recent new features?
 
 * Adding additional databases for working with migrations or multi-site projects.
-* Adding additional `justfile` recipes.
+* Adding additional `run` tasks.
 * Adding CI pipelines with GitHub Actions to run automated quality checks.
 * Creating and running Git hooks to run automated checks before changes are pushed.
 
