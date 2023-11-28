@@ -7,7 +7,7 @@ speakerdeck:
   url: "https://speakerdeck.com/opdavies/tdd-test-driven-drupal"
 video:
   type: youtube
-  id: r41dkD2EOo8
+  id: 81J0dPvqG-g
 image:
   url: /images/talks/test-driven-drupal-development.png
   width: 2560
