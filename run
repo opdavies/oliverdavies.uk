@@ -72,5 +72,9 @@ function help {
   printf "\nExtended help:\n  Each task has comments for general usage\n"
 }
 
+function start {
+  astro dev
+}
+
 TIMEFORMAT=$'\nTask completed in %3lR'
 time "${@:-help}"
