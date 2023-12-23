@@ -89,8 +89,12 @@ const showDrupalAssociationMessage = [
         <Banner text={"<a href='/dto'>Register now for my Drupal automated testing workshop &rarr;</a>"} />
       )}
 
-      {true && (
+      {false && (
         <Banner text={"Drupal 9 is now end of life and unsupported. If you're stuck on Drupal 7, 8 or 9, get unstuck with a <a href='/drupal-upgrade'>Drupal upgrade roadmap and upgrade to Drupal 10</a>."} />
+      )}
+
+      {true && (
+        <Banner text={"Is your New Year's resolution to deliver better software, faster? I have availability for <a href='/team-coaching'>team coaching starting in January 2024</a>."} />
       )}
 
       <Navbar />
