@@ -13,6 +13,7 @@ const blogCollection = defineCollection({
 
 const dailyEmailCollection = defineCollection({
   schema: z.object({
+    snippet: z.string().optional(),
     pubDate: z.date(),
     permalink: z.string(),
     tags: z.array(z.string()).optional(),

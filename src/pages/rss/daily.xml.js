@@ -54,6 +54,7 @@ export async function get() {
       pubDate: email.data.pubDate,
       title: `${email.data.title.trim()}`,
       customData: `
+        <snippet>${email.data.snippet}</snippet>
         <tags>
           #dev ${email.data.tags.map(tag => `#${convertTag(tag)}`).join(' ')}
         </tags>`,
