@@ -1,56 +1,57 @@
 ---
 layout: ~/layouts/PageLayout.astro
-title: Oliver Davies - Software Developer and Certified Drupal Expert
+title: Do you need a certified Drupal expert, core contributor and module maintainer?
 isFront: true
 ---
 
+import AboutMe from '~/components/AboutMe.astro';
 import DailyEmailForm from '~/components/DailyEmailForm.astro';
 import Testimonials from '~/components/Testimonials.astro';
-import { numberOfYears } from '~/utils';
 
-<div class="mb-4 w-32">
-  <img src="/images/social-avatar.jpg" alt="Picture of Oliver" class="rounded-full border border-gray" />
-</div>
+<div class="space-y-16">
+  {/*
+  <div>
+  ### Do you want to learn about automated testing with Drupal?
 
-**I help Drupal website owners upgrade from unsupported versions and development teams deliver better software.**
-
-I’m Oliver, a Software Developer and Consultant with {numberOfYears} years of professional Drupal development experience.
-
-I'm an [Acquia Triple Certified Drupal Expert](https://certification.acquia.com/user/4540) who has worked on Drupal.org for the Drupal Association, spoken and mentored at DrupalCons and DrupalCamps, and maintain several popular Drupal modules and themes.
-
-I organise the [PHP South Wales](https://www.phpsouthwales.uk) user group and present [talks and workshops](/talks) at other user groups and conferences.
-
-I write and contribute to open-source code, including Drupal core. You can see my projects and contributions on my [Drupal.org] and [GitHub] profiles.
-
-{/*
-### Do you want to learn about automated testing with Drupal?
-
-Sign up for my free 7-day email course, "Automated Testing for Drupal Developers" or book to attend my next online workshop.
-*/}
-
-## Are you stuck on Drupal 7, 8 or 9?
-
-Are you stuck on an unsupported version of Drupal and don't know what's involved to upgrade to Drupal 10? Book a [Drupal upgrade consultation call][call] or a [roadmap for your website][upgrade-roadmap].
-
-## Need help or another pair of eyes on your Drupal code?
-
-Book a [1-on-1 consultation call][call] or an [online pair programming session][pair] with me, with a 100% money-back guarantee.
-
-<aside>
-## Interested in software development?
-
-Register for my email list and get daily emails about Drupal, PHP and software development.
-
-<DailyEmailForm>
-  <div class="mt-10">
-    <Testimonials names={["adam-nuttall"]} titleClasses={["sr-only"]} />
+  Sign up for my free 7-day email course, "Automated Testing for Drupal Developers" or book to attend my next online workshop.
   </div>
-</DailyEmailForm>
-</aside>
+  */}
+
+  <div>
+    ## What can I help you with?
+
+    If you are stuck on an unsupported version of Drupal, such as 7, 8 or 9, and don't know what's involved in upgrading, book a [Drupal upgrade consultation call][call] or a [roadmap for your website][upgrade-roadmap].
+
+    If you need help or another pair of eyes on your code, book a [1-on-1 consultation call][call] or an [online pair programming session][pair] with me, with a 100% money-back guarantee.
+
+    If you want to learn to write better software faster, I'm available for [development team coaching][team coaching].
+
+    ### Looking for something else?
+
+    Here are all of my <a href="/services">products and services</a>. If you still can't find what you need, <a href="mailto:oliver+website@oliverdavies.uk">send me an email</a>, and I'll see what I can do.
+  </div>
+
+  {/* <aside>
+    ## Register for daily software development emails
+
+    Receive daily emails from me about software development, automated testing, clean code, and best practices for delivering better software.
+
+    <DailyEmailForm>
+      <div class="mt-10">
+        <Testimonials names={["adam-nuttall"]} titleClasses={["sr-only"]} />
+      </div>
+    </DailyEmailForm>
+  </aside> */}
+
+  <Testimonials title="Kind words from clients, subscribers, and past colleagues" />
+
+  <AboutMe />
+</div>
 
 [call]: /call
 [daily]: /daily
 [drupal.org]: https://drupal.org/u/opdavies
 [github]: https://github.com/opdavies
 [pair]: /pair
+[team coaching]: /team-coaching
 [upgrade-roadmap]: /drupal-upgrade
