@@ -1,5 +1,7 @@
 sculpin_content_types:
   pages:
     permalink: /:basename/
+  podcast_episode:
+    permalink: /podcast/:basename/
   posts:
     enabled: false
