@@ -25,7 +25,9 @@
       data-stacked="false"
       class="seva-fields formkit-fields"
     >
-      <!-- {intro && <p class="mb-8 text-center">{intro}</p>} -->
+      {% if intro %}
+        <p class="mb-8 text-center">{{ intro }}</p>
+      {% endif %}
 
       <div class="formkit-field">
         <input
