@@ -79,7 +79,7 @@ faqs:
 
 {% block content %}
 
- In less time than it takes to post on a job board, and for a fraction of the cost, get access to a certified Drupal development expert, core contributor and multiple-time DrupalCon speaker for a fixed monthly fee. No surprises. Cancel anytime.
+ In less time than it takes to post on a job board, and for a fraction of the cost, get unlimited access to a certified Drupal development expert, core contributor and multiple-time DrupalCon speaker for a fixed monthly fee. No surprises. Cancel anytime.
 
 ## You're already running my code in production
 
@@ -162,4 +162,8 @@ Great software is an iterative process. I'll keep iterating with you until you'r
   } %}
 
   {% include 'about-me.html.twig' %}
+{% endblock %}
+
+{% block content_top %}
+  {% include 'message.html.twig' %}
 {% endblock %}
