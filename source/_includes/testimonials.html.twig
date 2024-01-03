@@ -1,25 +1,27 @@
 <section>
   <h2>Testimonials</h2>
 
-  <div>
+  <div class="space-y-8">
     {% for testimonial in site.testimonials %}
-    <blockquote>
-        {{ testimonial.text|markdown }}
+      <div>
+        <blockquote>
+          {{ testimonial.text|markdown }}
 
-        {% if testimonial.image %}
-          <img class="size-20 rounded-full" alt="Photo of {{ testimonial.name }}" src="{{ testimonial.image.url }}" />
-        {% endif %}
-
-        <footer>
-          {% if testimonial.url %}
-            <a href="{{ testimonial.url }}">
-              {{ testimonial.name }}, {{ testimonial.title }}
-            </a>
-          {% else %}
-            {{ testimonial.name }}, {{ testimonial.title }}
+          {% if testimonial.image %}
+            <img class="size-20 rounded-full" alt="Photo of {{ testimonial.name }}" src="{{ testimonial.image.url }}" />
           {% endif %}
-        </footer>
-      </blockquote>
+
+          <footer>
+            {% if testimonial.url %}
+              <a href="{{ testimonial.url }}">
+                {{ testimonial.name }}, {{ testimonial.title }}
+              </a>
+            {% else %}
+              {{ testimonial.name }}, {{ testimonial.title }}
+            {% endif %}
+          </footer>
+        </blockquote>
+      </div>
     {% endfor %}
   </div>
 </section>
