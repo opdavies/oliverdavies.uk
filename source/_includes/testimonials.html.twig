@@ -1,3 +1,25 @@
+{% set defaultNames = [
+  "Mike Karthauser",
+  "Tawny Bartlett",
+  "Joe Howell",
+  "Jon Hallett",
+  "Michael Itkoff",
+  "Mick Felton",
+  "Duncan Davidson",
+  "Adam Cuddihy",
+  "Huw Davies",
+  "Scott Euser",
+  "Brian Hartwell",
+  "Alan Hatch",
+  "Holly Ross",
+  "Josh Mitchell",
+  "Brian Healy",
+  "Chris Jarvis",
+  "Daniel Easterbrook",
+  "Anonymous",
+] %}
+
+{% set names = names|default(defaultNames) %}
 <section>
   <h2 class="text-xl font-bold">{{ title|default('Testimonials') }}</h2>
 
