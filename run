@@ -4,12 +4,10 @@ set -o nounset
 set -o pipefail
 
 function clean {
-  rm -fr node_modules/ output_*/ source/build/ vendor/
+  rm -fr output_*/ source/build/
 }
 
 function generate {
-  rm -rf output_*/
-
   local args=()
 
   if [[ "${APP_ENV:-}" == "production" ]]; then
@@ -41,6 +39,22 @@ function npm:build:css {
   npx tailwindcss \
     --config assets/tailwind.config.ts \
     --output source/build/tailwind.css "${args[@]}"
+}
+
+function publish {
+  export NODE_ENV=production
+  export APP_ENV=production
+
+  git stash
+
+  clean
+  npm:build:css
+  generate
+
+  rsync --archive --verbose --compress --update --delete \
+    output_prod/ ssh.oliverdavies.uk:/srv/oliverdavies.uk-sculpin
+
+  git stash pop
 }
 
 TIMEFORMAT="Task completed in %3lR"
