@@ -1,0 +1,34 @@
+---
+title: Glossary
+terms:
+  -
+    - Automated Testing
+  -
+    - CI pipeline
+  -
+    - Continuous integration
+    - |
+      The process of continuously integrating your code with other people's code, i.e. at least once a day. 
+      This is done by regularly pulling and merging everyone else's code with yours and pushing yours so it's available for others to do the same. This can also refer to CI pipelines and tools like GitHub Actions and GitLab CI.
+  -
+    - Continuous Delivery and Deployment
+  -
+    - Git
+  -
+    - PHPStan
+  -
+    - Static analysis
+  -
+    - Test-Driven Development
+  -
+    - Trunk-based Development
+  -
+    - Version control
+---
+
+<dl>
+  {% for term in page.terms if term.1 %}
+    <dt>{{ term.0 }}</dt>
+    <dd>{{ term.1 }}</dd>
+  {% endfor %}
+</dl>
