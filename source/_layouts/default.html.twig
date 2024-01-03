@@ -10,12 +10,12 @@
       rel="stylesheet"
     />
     <link href="/build/tailwind.css?v={{ site.assets_version }}" rel="stylesheet">
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url|trim('/', 'right') }}" />
     <meta name="og:image" content="{{ site.url }}/images/od-logo.jpg" />
     <meta property="og:site_name" content="Oliver Davies" />
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url|trim('/', 'right') }}" />
     <meta name="twitter:card" content="summary">
     <meta name="twitter:creator" content="@opdavies">
     <meta name="twitter:site" content="@opdavies">
