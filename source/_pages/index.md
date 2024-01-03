@@ -3,6 +3,8 @@ title: Do you need a certified Drupal expert, core contributor and module mainta
 permalink: /
 ---
 
+{% block meta_title %}Certified Drupal expert, Developer and Consultant | {{ site.name }}{% endblock %}
+
 {% block content %}
 
 Hi, I'm Oliver. I'm an Acquia-certified Drupal Triple Expert and Software Development Consultant with {{ site.yearsExperience }} years of experience.

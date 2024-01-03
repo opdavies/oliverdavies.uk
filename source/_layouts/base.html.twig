@@ -18,7 +18,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ site.url }}{{ page.url|trim('/', 'right') }}" />
     <meta property="twitter:title" content="{{ page.title }} | {{ site.name }}" />
-    <title>{{ page.title }} | {{ site.name }}</title>
+    <title>{% block meta_title %}{{ page.title }} | {{ site.name }}{% endblock %}</title>
   </head>
   <body>
     {% block body %}{% endblock %}
