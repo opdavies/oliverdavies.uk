@@ -21,5 +21,5 @@ title: Register for daily software development emails
     title: 'What subscribers have said',
   } %}
 
-  {% include 'about-me.html.twig' %}
+  {{ parent() }}
 {% endblock %}

@@ -18,6 +18,6 @@ title: Introduction to Automated Testing in Drupal email course
       ]
     } %}
 
-    {% include 'about-me.html.twig' %}
+    {{ parent() }}
   </div>
 {% endblock %}
