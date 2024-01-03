@@ -3,7 +3,7 @@ sculpin_content_types:
     permalink: /archive/:year/:month/:day/:basename/
   pages:
     permalink: /:basename/
-  podcast_episode:
+  podcast_episodes:
     permalink: /podcast/:basename/
   posts:
     enabled: false
