@@ -1,0 +1,5 @@
+<nav>
+  {% for link in site.menu_links %}
+    <a href="{{ link.url }}">{{ link.title }}</a>
+  {% endfor %}
+</nav>

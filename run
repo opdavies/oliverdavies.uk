@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+set -o nounset
+set -o pipefail
+
+function clean {
+  rm -fr output_*/ vendor/
+}
+
+function generate {
+  rm -rf output_*/
+
+  local args=()
+
+  if [[ "${APP_ENV:-}" == "production" ]]; then
+    args=(--env="prod")
+  else
+    args=(--server --watch)
+  fi
+
+  sculpin generate "${args[@]}"
+}
+
+function help {
+  printf "%s <task> [args]\n\nTasks:\n" "${0}"
+
+  compgen -A function | grep -v "^_" | cat -n
+
+  printf "\nExtended help:\n  Each task has comments for general usage\n"
+}
+
+TIMEFORMAT="Task completed in %3lR"
+time "${@:-help}"

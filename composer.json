@@ -1,0 +1,11 @@
+{
+    "require": {
+        "sculpin/sculpin": "^3.2",
+        "opdavies/sculpin-twig-markdown-bundle": "^0.2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "sculpin/sculpin-theme-composer-plugin": true
+        }
+    }
+}
