@@ -99,7 +99,9 @@ products:
       <p>
         {{ product.description }}
 
-        {% if product.remainingPlaces %}
+        {% if product.remainingPlaces == 1 %}
+          <strong>1 place remaining!</strong>
+        {% elseif product.remainingPlaces > 1 %}
           <strong>{{ product.remainingPlaces }} places remaining!</strong>
         {% elseif product.isLimited %}
           <strong>Limited places available!</strong>
