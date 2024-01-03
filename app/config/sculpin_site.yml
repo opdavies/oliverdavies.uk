@@ -26,7 +26,7 @@ testimonials:
     name: Mike Karthauser
     title: Senior Software Engineer
     image:
-      url: https://www.oliverdavies.uk/images/recommendations/mike-karthauser.jpg
+      url: /assets/images/recommendations/mike-karthauser.jpg
   -
     text: |-
       I've wanted to explore testing for a while, but as a PHP developer with 10 years of Drupal experience who'd written next to no tests, I really needed guidance. Oliver's expertise in testing and TDD motivated me to seek his help.
@@ -40,7 +40,7 @@ testimonials:
     title: Senior Drupal Developer
     url: https://www.playingwithpixels.co.uk
     image:
-      url: https://www.oliverdavies.uk/images/recommendations/tawny.jpg
+      url: /assets/images/recommendations/tawny.jpg
   -
     text: |-
       I've worked with Oliver for a number of years on B2C and B2B web projects and he has always demonstrated himself to be an expert in his field.
@@ -52,7 +52,7 @@ testimonials:
     title: Director, Bastion Insurance
     url: https://www.bastioninsurance.co.uk
     image:
-      url: https://www.oliverdavies.uk/images/recommendations/joe-howell.jpg
+      url: /assets/images/recommendations/joe-howell.jpg
   -
     text: |-
       We use Oliver for maintaining a couple of Drupal sites for which we no longer have the skills ourselves. We became aware of Oliver through his work in the Drupal community, and about a year ago we approached him to help us with the deep dive aspects of maintaining and developing Drupal sites. He's been really helpful and very responsive. Much appreciated!
@@ -60,7 +60,7 @@ testimonials:
     title: Senior Systems Administrator at the University of Bristol
     url: https://bristol.ac.uk
     image:
-      url: https://www.oliverdavies.uk/images/recommendations/jon-hallett.jpeg
+      url: /assets/images/recommendations/jon-hallett.jpeg
   -
     text: |-
       For over a decade we have worked with Oliver on a number of different projects. Initially our collaboration consisted of web maintenance and troubleshooting but we soon tapped Oliver to design, build and maintain a custom awards site which includes both submission and judging functionality. Oliver has deep and wide-ranging skills and I would certainly recommend his services!
@@ -83,7 +83,7 @@ testimonials:
     title: Publisher at Poetry Wales Press Ltd (Seren Books)
     url: https://www.serenbooks.com
     image:
-      url: https://www.oliverdavies.uk/images/recommendations/mick-felton.jpg
+      url: /assets/images/recommendations/mick-felton.jpg
   -
     text: |-
       Oliver is a pleasure to work with, and I would engage him again without hesitation. He communicates regularly, ensures that he meets requirements, and suggests improvements to the potential solutions to the brief.
@@ -91,7 +91,7 @@ testimonials:
     title: Director at Rohallion
     url: https://rohallion.agency
     image:
-      url: https://www.oliverdavies.uk/images/recommendations/duncan.jpeg
+      url: /assets/images/recommendations/duncan.jpeg
   -
     text: |-
       A fantastic and highly knowledgeable Drupal Developer. Oliver saved a struggling Drupal project with his wealth of Drupal experience.
@@ -99,7 +99,7 @@ testimonials:
     title: Web Development Manager
     url: ~
     image:
-      url: https://www.oliverdavies.uk/images/recommendations/adam.jpeg
+      url: /assets/images/recommendations/adam.jpeg
   -
     text: |-
       I had the pleasure of working with Oliver whilst building the first version of our drupal based intranet. His knowledge of Drupal and the wider infrastructure required to run a site was really invaluable.
@@ -111,7 +111,7 @@ testimonials:
     title: Web Dev Manager / DevOps / Team Manager at Admiral Group Plc
     url: https://admiral.com
     image:
-      url: https://www.oliverdavies.uk/images/recommendations/huw.jpeg
+      url: /assets/images/recommendations/huw.jpeg
   -
     text: |-
       Oliver really knows his stuff. Whether you are just starting out or looking to take your knowledge to the next level, his patient and clear way of explaining will help get you there.
@@ -119,7 +119,7 @@ testimonials:
     title: Head of Web Development
     url: ~
     image:
-      url: https://www.oliverdavies.uk/images/recommendations/scott-euser.jpg
+      url: /assets/images/recommendations/scott-euser.jpg
   -
     text: |-
       Oliver was great to work with. He has expert knowledge with Drupal and delivered exactly what we were looking for on time. He's understanding, friendly and easy to get along with. I would enjoy working with him again in the future.
@@ -134,7 +134,7 @@ testimonials:
     title: Senior Drupal Developer at Microserve
     url: ~
     image:
-      url: https://www.oliverdavies.uk/images/recommendations/alan.jpeg
+      url: /assets/images/recommendations/alan.jpeg
   -
     text: |-
       Oliver has been an outstanding contributor to the Drupal Association team. He is a talented developer who writes great code and applies his curiosity and love of learning to every project. He is also a fantastic team member, who gives to the team as much as he gets.
@@ -144,7 +144,7 @@ testimonials:
     title: Executive Director at the Drupal Association
     url: https://www.drupal.org/association
     image:
-      url: https://www.oliverdavies.uk/images/recommendations/holly-ross.png
+      url: /assets/images/recommendations/holly-ross.png
 
   -
     text: |-
@@ -155,7 +155,7 @@ testimonials:
     title: CTO at Drupal Association
     url: https://joshuami.com
     image:
-      url: https://www.oliverdavies.uk/images/recommendations/josh-mitchell.png
+      url: /assets/images/recommendations/josh-mitchell.png
   -
     text: |-
       Oliver was fantastic to work with - pro-active and highly responsive, he worked well remotely and as part of a project team. His understanding of the project requirement(s) and ability to translate it into working code was essential and he delivered.
@@ -163,7 +163,7 @@ testimonials:
     title: Director of Business Development at Tincan
     url: ~
     image:
-      url: https://www.oliverdavies.uk/images/recommendations/brian-healy.png
+      url: /assets/images/recommendations/brian-healy.png
   -
     text: |-
       Oliver is an amazing colleague, he's professional, full of knowledge and I could not recommend him more.
@@ -171,7 +171,7 @@ testimonials:
     title: Developer at Microserve
     url: ~
     image:
-      url: https://www.oliverdavies.uk/images/recommendations/chris-jarvis.jpg
+      url: /assets/images/recommendations/chris-jarvis.jpg
   -
     text: |-
       Oliver is seasoned Drupal and all round highly skilled and experienced web developer. I have worked with Oliver on an important project where he was reliable, prompt and ensured strict client deadline delivery and confidentiality at all times.
@@ -186,3 +186,4 @@ testimonials:
       If we have complex issues to contend with in the future I feel confident he will be able to deal with them.
     name: Anonymous
     title: Marketing Strategist
+url: http://localhost:8000
