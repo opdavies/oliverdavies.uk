@@ -1,59 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap"
-      rel="stylesheet"
-    />
-    <link href="/build/tailwind.css?v={{ site.assets_version }}" rel="stylesheet">
-    <link rel="canonical" href="{{ site.url }}{{ page.url|trim('/', 'right') }}" />
-    <meta name="og:image" content="{{ site.url }}/images/od-logo.jpg" />
-    <meta property="og:site_name" content="Oliver Davies" />
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ site.url }}{{ page.url|trim('/', 'right') }}" />
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@opdavies">
-    <meta name="twitter:site" content="@opdavies">
-    <meta name="twitter:image" content="{{ site.url }}/images/od-logo.jpg" />
-  <meta property="twitter:title" content="{{ page.title }} | {{ site.name }}" />
-    <title>{{ page.title }} | {{ site.name }}</title>
-  </head>
-  <body>
-    <div class="min-h-screen font-sans text-base font-light md:text-xl dark:text-white text-grey-900 selection:bg-blue-primary selection:text-white dark:bg-grey-900 dark:selection:bg-blue-primary dark:selection:text-white">
-      {% include 'banner.html.twig' %}
+{% extends 'base' %}
 
-      <div class="py-4 px-4 mx-auto max-w-xl">
-        <header class="flex flex-col justify-between items-center md:flex-row">
-          {% include 'logo.html.twig' %}
-        </header>
+{% block body %}
+  <div class="min-h-screen font-sans text-base font-light md:text-xl dark:text-white text-grey-900 selection:bg-blue-primary selection:text-white dark:bg-grey-900 dark:selection:bg-blue-primary dark:selection:text-white">
+    {% include 'banner.html.twig' %}
+
+    <div class="py-4 px-4 mx-auto max-w-xl">
+      <header class="flex flex-col justify-between items-center md:flex-row">
+        {% include 'logo.html.twig' %}
+      </header>
+    </div>
+
+    <div class="py-10 px-6 mx-auto max-w-xl md:py-10">
+      <div class="space-y-10">
+        {% block content_top %}{% endblock %}
+
+        <main>
+          <h1 class="mb-4 text-xl font-bold md:text-2xl">{{ page.title }}</h1>
+
+          <div class="prose prose-p:text-black prose-a:font-light prose-a:text-blue-primary prose-p:text-lg prose-blockquote:border-blue-primary prose-li:my-1 prose-li:text-lg prose-figcaption:text-white prose-li:text-black marker:text-black prose-h2:text-xl prose-code:font-normal prose-h2:mb-4 prose-ul:my-3 prose-code:before:content-[ dark:marker:text-white dark:prose-p:text-white dark:prose-invert dark:prose-a:text-blue-400 dark:prose-blockquote:border-blue-400 dark:prose-li:text-white dark:prose-hr:border-grey-400 hover:prose-a:no-underline''] prose-code:after:content-['']">
+            {% block content %}{% endblock %}
+          </div>
+        </main>
+
+        {% block content_bottom %}{% endblock %}
       </div>
 
-      <div class="py-10 px-6 mx-auto max-w-xl md:py-10">
-        <div class="space-y-10">
-          {% block content_top %}{% endblock %}
-
-          <main>
-            <h1 class="mb-4 text-xl font-bold md:text-2xl">{{ page.title }}</h1>
-
-            <div class="prose prose-p:text-black prose-a:font-light prose-a:text-blue-primary prose-p:text-lg prose-blockquote:border-blue-primary prose-li:my-1 prose-li:text-lg prose-figcaption:text-white prose-li:text-black marker:text-black prose-h2:text-xl prose-code:font-normal prose-h2:mb-4 prose-ul:my-3 prose-code:before:content-[ dark:marker:text-white dark:prose-p:text-white dark:prose-invert dark:prose-a:text-blue-400 dark:prose-blockquote:border-blue-400 dark:prose-li:text-white dark:prose-hr:border-grey-400 hover:prose-a:no-underline''] prose-code:after:content-['']">
-              {% block content %}{% endblock %}
-            </div>
-          </main>
-
-          {% block content_bottom %}
-            {% include 'about-me.html.twig' %}
-          {% endblock %}
-        </div>
-
-        <footer class="mt-16 mb-6">
-          {% include 'main-menu.html.twig' %}
-        </footer>
-      <div>
-    </div>
-  </body>
-</html>
+      <footer class="mt-16 mb-6">
+        {% include 'main-menu.html.twig' %}
+      </footer>
+    <div>
+  </div>
+{% endblock %}
