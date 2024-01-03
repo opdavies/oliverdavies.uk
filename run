@@ -38,7 +38,8 @@ function npm:build:css {
     args=(--watch)
   fi
 
-  npx tailwindcss --content "source/**/*.html.twig" \
+  npx tailwindcss \
+    --config assets/tailwind.config.ts \
     --output source/build/tailwind.css "${args[@]}"
 }
 
