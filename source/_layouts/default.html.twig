@@ -1,15 +1,17 @@
 <link rel="stylesheet" href="/build/tailwind.css" />
 
-<div>
-  <main>
-    <h1>{{ page.title }}</h1>
+<div class="px-4 md:px-6 max-w-4xl mx-auto">
+  <div class="space-y-10">
+    <main>
+      <h1>{{ page.title }}</h1>
 
-    {% block content %}{% endblock %}
-  </main>
+      {% block content %}{% endblock %}
+    </main>
 
-  {% block content_bottom %}{% endblock %}
+    {% block content_bottom %}{% endblock %}
 
-  <footer>
-    {% include 'main-menu.html.twig' %}
-  </footer>
+    <footer>
+      {% include 'main-menu.html.twig' %}
+    </footer>
+  <div>
 <div>

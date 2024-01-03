@@ -7,7 +7,7 @@
         {{ testimonial.text|markdown }}
 
         {% if testimonial.image %}
-          <img alt="Photo of {{ testimonial.name }}" src="{{ testimonial.image.url }}" />
+          <img class="size-20 rounded-full" alt="Photo of {{ testimonial.name }}" src="{{ testimonial.image.url }}" />
         {% endif %}
 
         <footer>
