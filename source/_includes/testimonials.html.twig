@@ -2,7 +2,7 @@
   <h2 class="text-xl font-bold">{{ title|default('Testimonials') }}</h2>
 
   <div class="mt-4 space-y-12">
-    {% for testimonial in site.testimonials %}
+    {% for testimonial in site.testimonials|filter(testimonial => names is null or testimonial.name in names) %}
       <div>
         <blockquote>
           <div class="pl-4 border-l-[3px] border-blue-primary dark:border-blue-400">
@@ -15,10 +15,10 @@
             <span class="text-base">
               {% if testimonial.url %}
                 <a href="{{ testimonial.url }}">
-                  {{ testimonial.name }}, {{ testimonial.title }}
+                  {{ testimonial.name }} - {{ testimonial.title }}
                 </a>
               {% else %}
-                {{ testimonial.name }}, {{ testimonial.title }}
+                {{ testimonial.name }} - {{ testimonial.title }}
               {% endif %}
             </span>
 
