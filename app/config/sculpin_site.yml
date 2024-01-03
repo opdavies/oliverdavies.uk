@@ -1,8 +1,13 @@
 ---
 name: Oliver Davies
+slogan: Certified Drupal expert, Developer and Consultant
 email: oliver+website@oliverdavies.uk
 yearsExperience: 16
 assets_version: 3
+
+meta:
+  description: |-
+    Oliver is an Acquia-certified Triple Drupal expert, core contributor, Developer, Consultant and multiple-time DrupalCon speaker.
 
 menu_links:
   -

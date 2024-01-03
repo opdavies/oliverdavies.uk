@@ -14,11 +14,24 @@
     <meta name="twitter:image" content="{{ site.url }}/images/od-logo.jpg" />
     <meta name="twitter:site" content="@opdavies">
     <meta property="og:site_name" content="Oliver Davies" />
-    <meta property="og:title" content="{{ page.title }} | {{ site.name }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ site.url }}{{ page.url|trim('/', 'right') }}" />
-    <meta property="twitter:title" content="{{ page.title }} | {{ site.name }}" />
-    <title>{% block meta_title %}{{ page.title }} | {{ site.name }}{% endblock %}</title>
+
+    {% if page.meta.description %}
+      <meta name="description" content="{{ page.meta.description }}" />
+    {% else %}
+      <meta name="description" content="{{ site.meta.description }}" />
+    {% endif %}
+
+    {% if page.meta.title %}
+      <title>{{ page.meta.title }}</title>
+      <meta property="og:title" content="{{ page.meta.title }}" />
+      <meta property="twitter:title" content="{{ page.meta.title }}" />
+    {% else %}
+      <title>{{ page.title }} | {{ site.name }}</title>
+      <meta property="og:title" content="{{ page.title }} | {{ site.name }}" />
+      <meta property="twitter:title" content="{{ page.title }} | {{ site.name }}" />
+    {% endif %}
   </head>
   <body>
     {% block body %}{% endblock %}
