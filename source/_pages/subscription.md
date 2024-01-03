@@ -111,7 +111,12 @@ Great software is an iterative process. I'll keep iterating with you until you'r
       {% endfor %}
     </ul>
 
-    <a href="{{ plan.url }}">Register now for the {{ plan.name|lower }} plan</a>
+    <footer class="mt-6">
+      {% include 'button.html.twig' with {
+        text: 'Register now for the ' ~ plan.name|lower ~ ' plan',
+        url: plan.url,
+      } %}
+    </footer>
   </div>
 {% endfor %}
 
