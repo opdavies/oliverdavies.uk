@@ -8,8 +8,10 @@ button:
 {# Pain #}
 
 Drupal 7 will be unsupported on the **5th of January 2025**.
-Drupal 8 has been unsupported since **November 2021**.
-Drupal 9 has been unsupported in **November 2023**.
+
+Drupal 8 has been unsupported since **November 2021**, and Drupal 9 since **November 2023**.
+
+Are you stuck on any of these versions?
 
 * Do you need to upgrade your website before it reaches its end-of-life date and is no longer supported?
 * Are you worried about rebuilding your website and migrating your data to Drupal 10?
