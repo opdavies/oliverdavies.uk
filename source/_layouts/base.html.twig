@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/build/tailwind.css?v={{ site.assets_version }}" rel="stylesheet">
+    <link rel="canonical" href="{{ site.url }}{{ page.url|trim('/', 'right') }}" />
+    <meta name="og:image" content="{{ site.url }}/images/od-logo.jpg" />
+    <meta property="og:site_name" content="Oliver Davies" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url|trim('/', 'right') }}" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@opdavies">
+    <meta name="twitter:site" content="@opdavies">
+    <meta name="twitter:image" content="{{ site.url }}/images/od-logo.jpg" />
+  <meta property="twitter:title" content="{{ page.title }} | {{ site.name }}" />
+    <title>{{ page.title }} | {{ site.name }}</title>
+  </head>
+  <body>
+    {% block body %}{% endblock %}
+  </body>
+</html>
