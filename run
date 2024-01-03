@@ -3,19 +3,6 @@
 set -o nounset
 set -o pipefail
 
-function build:css {
-  local args=()
-
-  if [[ "${NODE_ENV:-}" == "production" ]]; then
-    args=(--minify)
-  else
-    args=(--watch)
-  fi
-
-  npx tailwindcss --content "source/**/*.html.twig" \
-    --output source/build/tailwind.css "${args[@]}"
-}
-
 function clean {
   rm -fr node_modules/ output_*/ source/build/ vendor/
 }
@@ -40,6 +27,19 @@ function help {
   compgen -A function | grep -v "^_" | cat -n
 
   printf "\nExtended help:\n  Each task has comments for general usage\n"
+}
+
+function npm:build:css {
+  local args=()
+
+  if [[ "${NODE_ENV:-}" == "production" ]]; then
+    args=(--minify)
+  else
+    args=(--watch)
+  fi
+
+  npx tailwindcss --content "source/**/*.html.twig" \
+    --output source/build/tailwind.css "${args[@]}"
 }
 
 TIMEFORMAT="Task completed in %3lR"
