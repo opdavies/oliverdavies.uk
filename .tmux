@@ -3,7 +3,7 @@
 set -o errexit
 set -o nounset
 
-session_name="${1:-oliverdavies_sculpin}"
+session_name="${1:-oliverdavies-uk-sculpin}"
 session_path="${2:-$(pwd)}"
 
 if tmux has-session -t="${session_name}" 2> /dev/null; then
@@ -15,7 +15,8 @@ tmux new-session -d -s "${session_name}" -n vim -c "${session_path}"
 
 # 1. Main window: Vim
 tmux send-keys -t "${session_name}:vim" "nvim +GoToFile" Enter
-# vendor/bin/sculpin generate --server --watch
+tmux split-pane -t "${session_name}:vim" -h -c "${session_path}" -p 40
+tmux send-keys -t "${session_name}:vim.right" "vendor/bin/sculpin generate --server --watch" Enter
 
 # 2. General shell use.
 tmux new-window -t "${session_name}" -c "${session_path}"
