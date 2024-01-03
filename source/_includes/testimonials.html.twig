@@ -37,10 +37,16 @@
               <span class="text-base">
                 {% if testimonial.url %}
                   <a href="{{ testimonial.url }}">
-                    {{ testimonial.name }} - {{ testimonial.title }}
+                    {{ testimonial.name }}
+                    {% if testimonial.title %}
+                      - {{ testimonial.title }}
+                    {% endif %}
                   </a>
                 {% else %}
-                  {{ testimonial.name }} - {{ testimonial.title }}
+                  {{ testimonial.name }}
+                  {% if testimonial.title %}
+                    - {{ testimonial.title }}
+                  {% endif %}
                 {% endif %}
               </span>
 
