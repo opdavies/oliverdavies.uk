@@ -11,5 +11,5 @@ events:
   - name: PHP London
     location: London, UK
     url: https://www.meetup.com/phplondon/events/292657869
-    date: "2023-04-06"
+    date: 2023-04-06
 ---

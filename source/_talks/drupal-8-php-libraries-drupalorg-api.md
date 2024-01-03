@@ -17,13 +17,13 @@ events:
   - name: Drupal Bristol
     location: Bristol, UK
     url: https://www.drupalbristol.org.uk
-    date: "2018-04-18"
+    date: 2018-04-18
     joindin: https://joind.in/talk/14851
 
   - name: DrupalCamp London 2019
     location: London, UK
     url: http://drupalcamp.london
-    date: "2019-03-03"
+    date: 2019-03-03
     time: "12:05 - 12:50"
 ---
 

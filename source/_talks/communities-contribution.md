@@ -10,7 +10,7 @@ speakerdeck:
 events:
   - name: TechConnect London
     location: London, UK
-    date: "2023-09-28"
+    date: 2023-09-28
     url: https://www.eventbrite.co.uk/e/techconnect-london-tickets-698416712187
 ---
 

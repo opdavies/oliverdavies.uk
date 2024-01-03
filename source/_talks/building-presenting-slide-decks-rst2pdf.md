@@ -15,7 +15,7 @@ events:
   - name: PHP South Wales
     location: Cardiff, UK
     url: https://www.meetup.com/PHP-South-Wales/events/275625320
-    date: "2021-01-28"
+    date: 2021-01-28
     online: true
 ---
 

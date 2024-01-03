@@ -17,12 +17,12 @@ events:
   - name: DrupalCamp Dublin 2017
     location: Dublin, Ireland
     url: http://2017.drupal.ie
-    date: "2017-10-20"
+    date: 2017-10-20
     time: "15:00 - 15:40"
 
   - name: Drupal Somerset
     location: Glastonbury, UK
-    date: "2017-10-26"
+    date: 2017-10-26
 ---
 
 You’ve built your website, and now you just need to deploy it. There are various ways that this could be done - from (S)FTP, to SCP and rsync, to running commands like “git pull” and “composer install” directly on the server (not recommended).

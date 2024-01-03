@@ -10,7 +10,7 @@ events:
   - name: Drupal Bristol
     location: Bristol, UK
     url: https://www.drupalbristol.org.uk
-    date: "2019-03-27"
+    date: 2019-03-27
 ---
 
 From the [DrupalCamp London website](https://drupalcamp.london/session/out-box-initiative-update):

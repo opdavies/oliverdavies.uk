@@ -9,7 +9,7 @@ image: drupal-vm-meet-symfony-console.png
 events:
   - name: DrupalCamp Bristol 2016
     location: Bristol, UK
-    date: "2016-07-23"
+    date: 2016-07-23
 ---
 
 _TL;DR - Come and learn about Symfony Console, with examples from a real-world
