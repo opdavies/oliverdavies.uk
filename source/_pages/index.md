@@ -29,6 +29,11 @@ Here are all of my [products and services][pricing]. If you still can't find wha
     title: 'Kind words from clients, subscribers, and past colleagues',
   } %}
 
+  {% include 'daily-email-form.html.twig' with {
+    title: 'Register for daily software development emails',
+    intro: 'Sign up and get daily emails about Drupal, PHP and software development.',
+  } %}
+
   {% include 'about-me.html.twig' %}
 {% endblock %}
 
