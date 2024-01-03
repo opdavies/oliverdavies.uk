@@ -34,7 +34,7 @@ Here are all of my [products and services][pricing]. If you still can't find wha
     intro: 'Sign up and get daily emails about Drupal, PHP and software development.',
   } %}
 
-  {% include 'about-me.html.twig' %}
+  {{ parent() }}
 {% endblock %}
 
 [call]: {{site.url}}/call

@@ -160,7 +160,7 @@ Great software is an iterative process. I'll keep iterating with you until you'r
     ],
   } %}
 
-  {% include 'about-me.html.twig' %}
+  {{ parent() }}
 {% endblock %}
 
 {% block content_top %}
