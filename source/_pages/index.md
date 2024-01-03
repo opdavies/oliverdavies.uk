@@ -16,7 +16,7 @@ If you want to learn to write better software faster, I'm available for [develop
 
 ## Looking for something else?
 
-Here are all of my [products and services][services]. If you still can't find what you need, [send me an email](mailto:oliver+website@oliverdavies.uk), and I'll see what I can do.
+Here are all of my [products and services][pricing]. If you still can't find what you need, [send me an email](mailto:oliver+website@oliverdavies.uk), and I'll see what I can do.
 {% endblock %}
 
 {% block content_bottom %}
@@ -30,5 +30,5 @@ Here are all of my [products and services][services]. If you still can't find wh
 [call]: {{site.url}}/call
 [pair]: {{site.url}}/pair
 [roadmap]: {{site.url}}/roadmap
-[services]: {{site.url}}/services
+[pricing]: {{site.url}}/pricing
 [team coaching]: {{site.url}}/team-coaching
