@@ -6,6 +6,8 @@ permalink: /
 
 {% block content %}
 
+Hi, I'm Oliver. I'm an Acquia-certified Drupal Triple Expert and Software Development Consultant with {{ site.yearsExperience }} years of experience.
+
 ## What I can help you with
 
 Register for a [monthly Drupal development subscription][subscription] and have an expert Drupal developer working on your application. Get unlimited requests for a fixed monthly price.
