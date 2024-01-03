@@ -1,0 +1,50 @@
+---
+title: Search
+common_searches:
+  - Drupal
+  - Test-Driven Development
+  - Automated testing
+  - Refactoring
+  - PHP
+  - Tailwind CSS
+  - Ansible
+  - Ansistrano
+  - Neomvim
+  - Git
+  - Linux
+---
+
+<div>
+  <form
+    class="flex items-center space-x-6"
+    action="https://www.google.com/search"
+    method="get"
+  >
+    <div class="flex-1">
+      <input
+        type="hidden"
+        name="q"
+        value="site:https://www.oliverdavies.uk"
+      />
+      <input class="w-full" type="text" name="q" alt="search" />
+    </div>
+
+    <div>
+      <input class="cursor-pointer button" type="submit" value="Search" />
+    </div>
+  </form>
+</div>
+
+<aside>
+  <h2>Common searches</h2>
+
+  <ul>
+    {% for term in page.common_searches %}
+      <li>
+        <a href="https://www.google.com/search?q=site%3Awww.oliverdavies.uk+%22{{ term }}%22">
+          {{ term }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
