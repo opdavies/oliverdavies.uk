@@ -1,0 +1,25 @@
+<section>
+  <h2>Testimonials</h2>
+
+  <div>
+    {% for testimonial in site.testimonials %}
+    <blockquote>
+        {{ testimonial.text|markdown }}
+
+        {% if testimonial.image %}
+          <img alt="Photo of {{ testimonial.name }}" src="{{ testimonial.image.url }}" />
+        {% endif %}
+
+        <footer>
+          {% if testimonial.url %}
+            <a href="{{ testimonial.url }}">
+              {{ testimonial.name }}, {{ testimonial.title }}
+            </a>
+          {% else %}
+            {{ testimonial.name }}, {{ testimonial.title }}
+          {% endif %}
+        </footer>
+      </blockquote>
+    {% endfor %}
+  </div>
+</section>

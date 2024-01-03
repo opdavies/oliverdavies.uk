@@ -1,0 +1,42 @@
+menu_links:
+  -
+    title: About
+    url: /
+  -
+    title: Press Info
+    url: /press
+  -
+    title: Services
+    url: /services
+  -
+    title: Talks
+    url: /talks
+  -
+    title: Podcast
+    url: /podcast
+  -
+    title: Daily list
+    url: /daily
+
+testimonials:
+  -
+    text: |-
+      Oliver's approach to testing is a continual reminder of his commitment to delivering high-quality, bug-free, software.
+    name: Mike Karthauser
+    title: Senior Software Engineer
+    image:
+      url: https://www.oliverdavies.uk/images/recommendations/mike-karthauser.jpg
+  -
+    text: |-
+      I've wanted to explore testing for a while, but as a PHP developer with 10 years of Drupal experience who'd written next to no tests, I really needed guidance. Oliver's expertise in testing and TDD motivated me to seek his help.
+
+      Before our call, I'd started writing tests for my modules but needed direction, understanding the code to a degree but needing help with approach. Oliver clarified both unit and integration testing, providing solutions for my challenges, and shared his code for inspiration and help. He also gave me ideas on how to utilise contrib code to help me further.
+
+      Consulting with an expert, I gained the clarity and confidence I needed in tackling testing with structured, maintainable practices. Oliver's adaptability and tailored services make him highly recommendable.
+
+      Thanks, Oliver - I feel empowered and know exactly what approach to take now!
+    name: Tawny Bartlett
+    title: Senior Drupal Developer
+    url: https://www.playingwithpixels.co.uk
+    image:
+      url: https://www.oliverdavies.uk/images/recommendations/tawny.jpg
