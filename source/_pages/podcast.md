@@ -1,6 +1,7 @@
 ---
 title: The Beyond Blocks podcast
-use: [podcast_episode]
+use:
+  - podcast_episodes
 ---
 
 {% block content_bottom %}{% endblock %}
@@ -12,7 +13,7 @@ Subscribe at <https://feeds.transistor.fm/beyond-blocks>.
 
 ## Episodes
 
-{% for episode in data.podcast_episode|reverse %}
+{% for episode in data.podcast_episodes|reverse %}
   {% set episodeNumber = episode.url|trim('/')|split('/')|last|split('-')|first %}
 
   <h3>
