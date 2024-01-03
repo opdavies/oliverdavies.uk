@@ -11,7 +11,7 @@ use:
   {% endfor %}
 {% endfor %}
 
-Starting with my first talk in September 2012, I have given {{ talkCount }} public presentations and workshops at various conferences and meetups, in-person and remotely, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.
+Since September 2012, I have given {{ talkCount }} public presentations and workshops at various conferences and meetups, in-person and remotely, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.
 
 {% for talk in data.talks|sort((a, b) => a.events|last.date|date('U') > b.events|last.date|date('U') ? -1 : 1) %}
   <article>
