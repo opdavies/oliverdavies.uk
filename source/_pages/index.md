@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Do you need a certified Drupal expert, core contributor and module maintainer?
+permalink: /
 ---
 
 {% block content %}
