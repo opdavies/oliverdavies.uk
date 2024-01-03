@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Drupal Development Subscription
 supported_version: 10
 plans:
