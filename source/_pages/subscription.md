@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Drupal Development Subscription
+supported_version: 10
 plans:
   -
     name: Standard
@@ -22,6 +23,18 @@ features:
   - Easy credit card or BACS payments.
   - Cancel at any time.
 faqs:
+  -
+    - Which versions of Drupal do you work on?
+    - |-
+      I only work on the latest supported version of Drupal core, which is currently Drupal %supported_version%.
+
+      If you have an application that uses an older version, I'm happy to give you a custom fixed-price proposal to upgrade to Drupal %supported_version%.
+  -
+    - Does this include maintenance tasks, such as updating Drupal core and contrib modules and themes?
+    - |-
+      Yes, updates are included and will need to be prioritised along with other requests.
+
+      My suggestion is to do them regularly to reduce the risk of an update breaking your application.
   -
     - Is there a limit to how many requests I can have?
     - |-
