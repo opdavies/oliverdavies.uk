@@ -13,11 +13,11 @@ events:
   - name: Drupal Bristol
     location: Bristol, UK
     url: https://www.drupalbristol.org.uk
-    date: "2016-11-17"
+    date: 2016-11-17
 
   - name: PHP UK Conference 2018
     location: London, UK
-    date: "2018-02-16"
+    date: 2018-02-16
     time: "14:40 - 15:40"
     url: https://www.phpconference.co.uk
     joindin: https://joind.in/talk/650ab

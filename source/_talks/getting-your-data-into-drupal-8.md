@@ -21,12 +21,12 @@ meta:
       type: image/png
 events:
   - name: Drupal Bristol
-    date: "2017-01-18"
+    date: 2017-01-18
     location: Bristol, UK
     url: https://www.drupalbristol.org.uk
 
   - name: DrupalCamp London 2017
-    date: "2017-03-04"
+    date: 2017-03-04
     time: "12:05 - 12:50"
     location: London, UK
 ---

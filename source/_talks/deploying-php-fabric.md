@@ -18,7 +18,7 @@ meta:
       type: image/png
 events:
   - name: Nomad PHP
-    date: "2017-04-20"
+    date: 2017-04-20
     time: "19:00 (CET)"
     url: https://nomadphp.com
     online: true
@@ -26,12 +26,12 @@ events:
   - name: PHP South West
     location: Bristol, UK
     url: https://phpsw.uk
-    date: "2017-09-13"
+    date: 2017-09-13
     joindin: https://joind.in/talk/a5ff3
 
   - name: PHP North West 2017
     location: Manchester, UK
-    date: "2017-10-01"
+    date: 2017-10-01
     time: "09:00 - 09:45"
     url: http://conference.phpnw.org.uk/phpnw17
     joindin: https://joind.in/talk/4e35d

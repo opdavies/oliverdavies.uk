@@ -10,7 +10,7 @@ events:
   - name: PHP South Coast 2016
     location: Portsmouth, UK
     url: http://2016.phpsouthcoast.co.uk
-    date: "2016-06-11"
+    date: 2016-06-11
     joindin: https://joind.in/talk/41d0f
 ---
 

@@ -12,7 +12,7 @@ events:
   - name: PHP South West
     location: Bristol, UK
     url: https://phpsw.uk
-    date: "2017-02-08"
+    date: 2017-02-08
 ---
 
 A crash course of why and how to get involved with open source.

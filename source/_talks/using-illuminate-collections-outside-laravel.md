@@ -14,12 +14,12 @@ events:
   - name: Nomad PHP
     url: https://nomadphp.com
     online: true
-    date: "2017-12-21"
+    date: 2017-12-21
     time: 19:00 CET
   - name: PHP South Wales
     location: Cardiff, UK
     url: https://www.phpsouthwales.uk
-    date: "2018-08-28"
+    date: 2018-08-28
 ---
 
 Laravel's Illuminate Collections are a powerful object-orientated way of interacting with PHP arrays, but did you know that they can be used outside of Laravel, in any PHP project?
