@@ -80,9 +80,13 @@ faqs:
 
  In less time than it takes to post on a job board, and for a fraction of the cost, get unlimited access to a certified Drupal development expert, core contributor and multiple-time DrupalCon speaker for a fixed monthly fee. No surprises. Cancel anytime.
 
+---
+
 ## You're already running my code in production
 
 I've contributed code to Drupal core and written popular contributed Drupal modules and themes, PHP and JavaScript libraries, and Tailwind CSS plugins.
+
+---
 
 ## How it works
 
@@ -102,7 +106,25 @@ I work on one active request at a time, and start shipping code in days. Bigger 
 
 Great software is an iterative process. I'll keep iterating with you until you're completely happy with the results.
 
-## How I can help
+---
+
+## Subscription benefits
+
+When you subscribe, you gain access to a number of unique benefits.
+
+### Fixed monthly rate
+
+No surprises. No missed quotes. No surprise invoices. Pay the same price each month.
+
+### Speedy delivery
+
+I work in small increments, so you'll begin seeing valuable code changes in mere days.
+
+### Quality guaranteed
+
+High quality code that just works. Or I fix it, for free!
+
+---
 
 ## Subscription plans
 
@@ -132,6 +154,8 @@ Great software is an iterative process. I'll keep iterating with you until you'r
   </div>
 {% endfor %}
 
+---
+
 ## Frequently asked questions
 
 {% for faq in page.faqs %}
@@ -139,28 +163,27 @@ Great software is an iterative process. I'll keep iterating with you until you'r
 
   {{ faq.1|markdown }}
 {% endfor %}
-{% endblock %}
 
-{% block content_bottom %}
-  {% include 'testimonials.html.twig' with {
-    names: [
-      'Joe Howell',
-      'Jon Hallett',
-      'Michael Itkoff',
-      'Mick Felton',
-      'Duncan Davidson',
-      'Adam Cuddihy',
-      'Huw Davies',
-      'Brian Hartwell',
-      'Holly Ross',
-      'Josh Mitchell',
-      'Brian Healy',
-      'Daniel Easterbrook',
-      'Anonymous',
-    ],
-  } %}
+---
 
-  {{ parent() }}
+{% include 'testimonials.html.twig' with {
+  names: [
+    'Joe Howell',
+    'Jon Hallett',
+    'Michael Itkoff',
+    'Mick Felton',
+    'Duncan Davidson',
+    'Adam Cuddihy',
+    'Huw Davies',
+    'Brian Hartwell',
+    'Holly Ross',
+    'Josh Mitchell',
+    'Brian Healy',
+    'Daniel Easterbrook',
+    'Anonymous',
+  ],
+} %}
+
 {% endblock %}
 
 {% block content_top %}
