@@ -1,0 +1,54 @@
+---
+layout: feed
+title: Oliver's daily email list
+description: |-
+  A daily email newsletter about software development, DevOps, community, and open-source.
+permalink: /rss/daily.xml
+use:
+  - daily_emails
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ page.title }}</title>
+    <description>{{ page.description }}</description>
+    <link>{{ site.url }}</link>
+    {% for email in data.daily_emails[:1] %}
+      {% set tags = [] %}
+      {%- for tag in ['dev']|merge(email.tags|default([])) -%}
+        {% set words = tag|split('-') -%}
+        {% if words|length == 1 %}
+          {% set tags = tags|merge(['#' ~ tag]) %}
+        {% else %}
+          {% set tags = tags|merge(['#' ~ tag|title|replace({ '-': '' })]) %}
+        {% endif %}
+      {% endfor %}
+      <item>
+        <title>{{ email.title }}</title>
+        <link>{{ site.url }}{{ email.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ email.url }}</guid>
+        <description>
+          {{- email.blocks.content -}}
+
+          {% if 'P.S.' not in email.blocks.content %}
+            {% set ctas = [
+              'Are you still using Drupal 7 and don’t know what’s involved to upgrade to Drupal 10? <a href="https://www.oliverdavies.uk/call">Book a Drupal 7 upgrade consultation call</a> or <a href="https://www.oliverdavies.uk/drupal-upgrade">an upgrade roadmap</a>.',
+              'Need help or want another pair of eyes on your code? Book a <a href="https://www.oliverdavies.uk/call">1-on-1 consulting call</a> or an <a href="https://www.oliverdavies.uk/pair">online pair programming session</a> with a 100% money-back guarantee.',
+              'If you\'re creating a new Drupal module, try my <a href="https://github.com/opdavies/drupal-module-template">free Drupal module template</a>.',
+            ] %}
+
+            <p>P.S. {{ random(ctas) }}</p>
+          {% endif %}
+        </description>
+        <pubDate>{{ email.date|date('D, d M Y H:i:s') }} GMT</pubDate>
+        <snippet>{{ email.snippet }}</snippet>
+        {% if tags is not empty -%}
+          <tags>
+            {{- tags|join(' ') -}}
+          </tags>
+        {% endif %}
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
