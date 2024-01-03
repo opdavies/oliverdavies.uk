@@ -8,7 +8,7 @@ products:
     perMonth: true
     isLimited: true
     price: 10000
-    remainingPlaces: 2
+    remainingPlaces: 1
     link:
       text: Apply now
       url: /team-coaching
