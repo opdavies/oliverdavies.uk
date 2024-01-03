@@ -8,6 +8,8 @@ permalink: /
 
 Hi, I'm Oliver. I'm an Acquia-certified Drupal Triple Expert and Software Development Consultant with {{ site.yearsExperience }} years of experience.
 
+I'm a Drupal core contributor, module and theme maintainer, former Drupal Association staff member, and multiple-time DrupalCon speaker.
+
 ## What I can help you with
 
 If you have a Drupal application, register for a [Drupal development subscription][subscription] and have unlimited access to an expert Drupal developer for a fixed monthly price.
