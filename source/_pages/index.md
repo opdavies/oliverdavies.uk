@@ -8,6 +8,8 @@ permalink: /
 
 ## What I can help you with
 
+Register for a [monthly Drupal development subscription][subscription] and have an expert Drupal developer working on your application. Get unlimited requests for a fixed monthly price.
+
 If you are stuck on an unsupported version of Drupal, such as 7, 8 or 9, and don't know what's involved in upgrading, [book a Drupal upgrade consultation call][call] or [roadmap for your website][roadmap].
 
 If you need help or another pair of eyes on your code, book a [1-on-1 consultation call][call] or an [online pair programming session][pair] with me, with a 100% money-back guarantee.
@@ -31,4 +33,5 @@ Here are all of my [products and services][pricing]. If you still can't find wha
 [pair]: {{site.url}}/pair
 [roadmap]: {{site.url}}/roadmap
 [pricing]: {{site.url}}/pricing
+[subscription]: {{site.url}}/subscription
 [team coaching]: {{site.url}}/team-coaching
