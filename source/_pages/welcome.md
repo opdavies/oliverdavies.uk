@@ -17,7 +17,7 @@ The first might be later today!
 
 Every email is sent from my personal email address, so if you have a question about any email, press reply, send it to me, and I'll personally respond.
 
-In the meantime, why not [go to the archive](/archive) and read some of my previous daily emails?
+In the meantime, why not [go to the archive](/archive) and read some of my previous dailies?
 
 Found this page by accident? [Consider joining the list](/daily).
 {% endblock %}
