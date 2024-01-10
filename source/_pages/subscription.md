@@ -71,6 +71,10 @@ faqs:
     - |-
       If you discover a bug in any code I delivered, for up to 6 months after the end of your subscription, I will fix it for free.
   -
+    - Will you attend our daily stand-ups, or other recurring meetings?
+    - |-
+      No. To guard your time and mine, and to make your subscription as effective as possible, all communication is handled asynchronously via task requests, email, and/or Slack. If an occasional task requires some synchronous planning, we can schedule such calls on an as-needed basis.
+  -
     - Do you have a refund policy?
     - |-
       Yes, of course. If you're unhappy with my work for any reason during your first month of service, just say the word, and I'll give you a full refund. No questions asked.
