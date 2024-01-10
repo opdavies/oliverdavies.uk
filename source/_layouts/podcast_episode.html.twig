@@ -8,6 +8,12 @@
   with {{ page.guests.0 }}
 {% endblock %}
 
+{% block head_title %}
+  <title>{{ block('page_title') }} | Beyond Blocks podcast | {{ site.name }}</title>
+  <meta property="og:title" content="{{ block('page_title') }} | Beyond Blocks podcast | {{ site.name }}" />
+  <meta property="twitter:title" content="{{ block('page_title') }} | Beyond Blocks podcast | {{ site.name }}" />
+{% endblock %}
+
 {% block content_wrapper %}
   {% if page.transistor.id %}
     <div>
