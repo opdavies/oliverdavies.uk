@@ -1,23 +1,25 @@
 <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
 
+{% set formId = 5734493 %}
+{% set uid = '0b8a47053e' %}
 <form
-  action="https://app.convertkit.com/forms/3546728/subscriptions"
+  action="https://app.convertkit.com/forms/{{ formId }}/subscriptions"
   class="seva-form formkit-form"
   method="post"
-  data-sv-form="3546728"
-  data-uid="f0c1d2b57f"
+  data-sv-form="{{ formId }}"
+  data-uid="{{ uid }}"
   data-format="inline"
   data-version="5"
   data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&utm_content=form&utm_medium=referral&utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}'
   min-width="400 500 600 700 800"
 >
   <div data-style="clean">
-    {# <ul
+    <ul
       class="formkit-alert formkit-alert-error"
       data-element="errors"
       data-group="alert"
     >
-    </ul> #}
+    </ul>
 
     <div
       data-element="fields"
@@ -26,7 +28,7 @@
     >
       <div class="formkit-field">
         <input
-          class="formkit-input"
+          class="block mt-1 w-full"
           name="email_address"
           style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400; --darkreader-inline-color: #e8e6e3; --darkreader-inline-border-top: #383d3f; --darkreader-inline-border-right: #383d3f; --darkreader-inline-border-bottom: #383d3f; --darkreader-inline-border-left: #383d3f;"
           aria-label="Email Address"
@@ -39,9 +41,12 @@
           data-darkreader-inline-border-bottom=""
           data-darkreader-inline-border-left=""
         />
-      </div><button
+      </div>
+
+      <div class="mt-4">
+      <button
         data-element="submit"
-        class="formkit-submit formkit-submit"
+        class="inline-flex justify-center items-center py-3 px-6 w-full font-medium text-white no-underline rounded-md border duration-200 ease-in-out hover:bg-white focus:bg-white border-blue-primary bg-blue-primary transition-color hover:text-blue-primary focus:text-blue-primary"
         style="color: rgb(255, 255, 255); background-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400; --darkreader-inline-color: #e8e6e3; --darkreader-inline-bgcolor: #125f98;"
         data-darkreader-inline-color=""
         data-darkreader-inline-bgcolor=""
@@ -49,6 +54,7 @@
           <div></div><div></div><div></div>
         </div><span class="">Subscribe</span></button>
     </div>
+      </div>
     </div><style>
     .formkit-form[data-uid="f0c1d2b57f"] * {
       box-sizing: border-box;
