@@ -1,6 +1,6 @@
 ---
 date: 2023-12-19
-topic: 'PHP: TUIs, CLIs and open-source'
+topic: 'TUIs, CLIs and open-source'
 guests:
   - Dan Leech
 transistor:
