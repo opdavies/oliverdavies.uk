@@ -9,16 +9,18 @@
 {% endblock %}
 
 {% block content_wrapper %}
-  <div>
-    <iframe
-      width="100%"
-      height="180"
-      frameborder="no"
-      scrolling="no"
-      seamless=""
-      src="https://share.transistor.fm/e/{{ page.transistor.id }}">
-    </iframe>
-  </div>
+  {% if transistor.id %}
+    <div>
+      <iframe
+        width="100%"
+        height="180"
+        frameborder="no"
+        scrolling="no"
+        seamless=""
+        src="https://share.transistor.fm/e/{{ page.transistor.id }}">
+      </iframe>
+    </div>
+  {% endif %}
 
   {{ parent() }}
 
