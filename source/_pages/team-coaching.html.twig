@@ -15,6 +15,8 @@ meta:
 ---
 
 {% block content %}
+  {% import 'macros' as macros %}
+
   <div class="space-y-16">
     <div>
       {# Pain #}
@@ -109,7 +111,7 @@ meta:
       <h2 class="text-lg font-bold">Who am I?</h2>
 
       <ul>
-        <li>I'm an Acquia-certified Drupal expert with over {{ site.yearsExperience }} years of professional development experience.</li>
+        <li>I'm an Acquia-certified Drupal expert with {{ macros.yearsExperience }} years of professional development experience.</li>
         <li>I'm a former Drupal Association employee who was responsible for improving and maintaining Drupal.org.</li>
         <li>I'm a Drupal core contributor and maintain numerous Drupal projects, including the Override Node Options module, which is used on over 38,000 websites.</li>
         <li>I'm a multiple-time DrupalCon speaker who regularly presents talks and workshops at conferences and meetups.</li>

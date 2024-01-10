@@ -2,13 +2,15 @@
 title: Press Info
 ---
 
+{% import 'macros' as macros %}
+
 The following information is provided as a cut-and-paste resource for conference organisers, media professionals, podcast hosts, and other interested parties.
 
 Please feel free to use anything here as-is without checking with me first. If you have additional questions, you can <a href="mailto:{{ site.email }}">email me directly</a>.
 
 ## Short Bio
 
-Oliver is a Software Developer and Drupal expert with over {{ site.yearsExperience }} years experience. He specialises in code quality, automated testing and test-driven development.
+Oliver is a Software Developer and Drupal expert with {{ macros.yearsExperience }} years experience. He specialises in code quality, automated testing and test-driven development.
 
 ## Sample Topics
 

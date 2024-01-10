@@ -9,7 +9,9 @@ meta:
 
 {% block content %}
 
-Hi, I'm Oliver. I'm an Acquia-certified Drupal Triple Expert and Software Development Consultant with {{ site.yearsExperience }} years of experience.
+{% import 'macros' as macros %}
+
+Hi, I'm Oliver. I'm an Acquia-certified Drupal Triple Expert and Software Development Consultant with {{ macros.yearsExperience }} years of experience.
 
 I'm a Drupal core contributor, module and theme maintainer, former Developer for the Drupal Association, and multiple-time DrupalCon speaker.
 
