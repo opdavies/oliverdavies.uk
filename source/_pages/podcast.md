@@ -22,7 +22,6 @@ Subscribe at <https://feeds.transistor.fm/beyond-blocks>.
     with {{ episode.guests.0 }}
   </h3>
 
-  
   <time datetime="{{ episode.date|date('Y-m-d') }}">{{ episode.date|date('F jS, Y') }}</time>
 
   {{ episode.blocks.content|markdown }}
