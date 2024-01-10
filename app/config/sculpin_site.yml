@@ -125,7 +125,8 @@ testimonials:
     name: Michael Itkoff
     title: Cofounder
     url: https://www.daylightbooks.org
-    image: ~
+    image:
+      url: /assets/images/recommendations/michael-itkoff.jpg
   -
     text: |
       Working with Oliver on the Seren website has been easy and beneficial.
