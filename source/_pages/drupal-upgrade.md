@@ -5,6 +5,8 @@ button:
   url: https://buy.stripe.com/aEU4h0gBc4ro0p27sz
 ---
 
+{% import 'macros' as macros %}
+
 {# Pain #}
 
 Drupal 7 will be unsupported on the **5th of January 2025**.
@@ -66,7 +68,7 @@ An upgrade roadmap is a personalised audit of your Drupal website and includes d
 
 ## Who am I?
 
-* I'm an Acquia-certified Drupal expert with over {numberOfYears} years of professional development experience.
+* I'm an Acquia-certified Drupal expert with {{ macros.yearsExperience }} years of professional development experience.
 * I'm a former Drupal Association employee who was responsible for improving and maintaining Drupal.org.
 * I'm a Drupal core contributor and maintain numerous Drupal projects, including the Override Node Options module, which is used on over 38,000 websites.
 * I'm a multiple-time DrupalCon speaker who regularly presents talks and workshops at conferences and meetups.
