@@ -151,12 +151,24 @@ High quality code that just works. Or I fix it, for free!
 
     <footer class="mt-6">
       {% include 'button.html.twig' with {
-        text: 'Register now for the ' ~ plan.name|lower ~ ' plan',
+        text: 'Register now for the ' ~ plan.name|lower ~ ' plan &rarr;',
         url: plan.url,
       } %}
     </footer>
   </div>
 {% endfor %}
+
+---
+
+## Book a free call
+
+And we'll figure out what's best for you.
+
+{% include 'button' with {
+  text: 'Get in touch &rarr;',
+  type: 'secondary',
+  url: 'https://savvycal.com/opdavies/subscription',
+} %}
 
 ---
 
