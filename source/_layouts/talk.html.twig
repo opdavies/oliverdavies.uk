@@ -3,53 +3,15 @@
 {% block content_wrapper %}
   {{ parent() }}
 
-  {% if page.speakerdeck.id %}
-    <section>
-      <h2>Slides</h2>
+  {% include 'talk/slides' with {
+    speakerdeck: page.speakerdeck,
+  } %}
 
-     <div>
-       <noscript>**Please enable JavaScript to view slides.**</noscript>
-       <script
-         class="speakerdeck-embed"
-         data-id="{{ page.speakerdeck.id }}"
-         data-ratio="{{ page.speakerdeck.ratio ?? '1.29456384323641' }}"
-         src="//speakerdeck.com/assets/embed.js"
-       ></script>
-      </div>
-    </section>
-  {% endif %}
+  {% include 'talk/video' with {
+    video: page.video,
+  } %}
 
-  {% if page.video.type == 'youtube' and page.video.id %}
-    <section>
-      <h2>Video</h2>
-
-      {% include 'youtube-video.html.twig' with { id: page.video.id } %}
-    </section>
-  {% endif %}
-
-  {% if page.events %}
-    <section>
-      <h2>Events</h2>
-
-      <ul>
-        {% for event in page.events|reverse %}
-          <li>
-            {% if event.url %}
-              <a href="{{ event.url }}">{{ event.name }}</a>
-            {% else %}
-              {{ event.name }}
-            {% endif %}
-
-            {% if event.location %}
-              in {{ event.location }}
-            {% endif %}
-
-            - {{ event.date|date('F jS, Y') }}
-
-            {{ event.online ? '(online)' }}          
-          </li>
-        {% endfor %}
-      </ul>
-    </section>
-  {% endif %}
+  {% include 'talk/events' with {
+    events: page.events,
+  } %}
 {% endblock %}
