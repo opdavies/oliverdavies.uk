@@ -1,0 +1,25 @@
+{% if events %}
+  <section>
+    <h2>Events</h2>
+
+    <ul>
+      {% for event in events|reverse %}
+        <li>
+          {% if event.url %}
+            <a href="{{ event.url }}">{{ event.name }}</a>
+          {% else %}
+            {{ event.name }}
+          {% endif %}
+
+          {% if event.location %}
+            in {{ event.location }}
+          {% endif %}
+
+          - {{ event.date|date('F jS, Y') }}
+
+          {{ event.online ? '(online)' }}
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}
