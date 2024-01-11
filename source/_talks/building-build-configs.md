@@ -18,6 +18,11 @@ events:
     location: Oxford, UK
     date: 2024-01-25
     url: https://www.meetup.com/php-oxford/events/297556113
+  -
+    name: PHP UserGroup Munich
+    date: 2024-02-23
+    url: https://www.meetup.com/phpugmunich/events/298411540
+    online: true
 ---
 
 [Build Configs](/build-configs) is a tool I've created for creating and managing customised per-project configuration files, such as Docker, Docker Compose, Nix Flakes, and PHPUnit and PHPStan configuration.
