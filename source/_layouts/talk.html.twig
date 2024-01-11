@@ -40,7 +40,10 @@
               {{ event.name }}
             {% endif %}
 
-            in {{ event.location }}
+            {% if event.location %}
+              in {{ event.location }}
+            {% endif %}
+
             - {{ event.date|date('F jS, Y') }}
 
             {{ event.online ? '(online)' }}          
