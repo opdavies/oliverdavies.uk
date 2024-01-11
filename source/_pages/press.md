@@ -36,7 +36,7 @@ Oliver is a Software Developer and Drupal expert with {{ macros.yearsExperience 
 
 ## Photo
 
-![](/assets/images/social-avatar.jpg)
+![]({{site.assets_url}}/assets/images/social-avatar.jpg)
 
 [drupal]: https://www.drupal.org/u/opdavies
 [github]: https://github.com/opdavies

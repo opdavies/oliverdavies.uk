@@ -6,7 +6,7 @@ speakerdeck:
   ratio: "1.77777777777778"
   url: https://speakerdeck.com/opdavies/having-fun-with-drupal-8-php-libraries-and-the-drupal-dot-org-api
 image:
-  url: /images/talks/having-fun-drupalorg-api.png
+  url: '%site.assets_url%/assets/images/talks/having-fun-drupalorg-api.png'
   width: 2000
   height: 1125
   type: image/png

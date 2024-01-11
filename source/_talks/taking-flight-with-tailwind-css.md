@@ -99,7 +99,7 @@ meta:
     description: An introduction to utility CSS and Tailwind.
     type: website
     image:
-      url: "/images/talks/taking-flight-tailwind.jpg"
+      url: '%site.assets_url%/assets/images/talks/taking-flight-tailwind.jpg'
       width: 2560
       height: 1440
       type: "image/png"
