@@ -23,7 +23,7 @@ If you have any further questions, let me know.
 
 ## While you're here
 
-Why not join my [daily email list](/daily) or register for my upcoming [free email course](/atdc) on automated testing in Drupal?
+Why not join my [daily email list](/daily) or register for my [free email course](/atdc) on automated testing in Drupal?
 
 Oliver
 {% endblock %}
