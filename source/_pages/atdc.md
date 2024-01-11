@@ -3,7 +3,7 @@ title: Introduction to Automated Testing in Drupal email course
 ---
 
 {% block content %}
-  Register below for my free upcoming 7-day email course on automated testing in Drupal:
+  Register below for my free 7-day email course on automated testing in Drupal:
 
   {% include 'email-course-form.html.twig' %}
 {% endblock %}
