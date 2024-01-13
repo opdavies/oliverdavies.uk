@@ -32,6 +32,15 @@ menu_links:
 testimonials:
   -
     text: |
+      Following your "Automated tests" emails and they are great! Such a pleasant reading. I love how you start from the very beginning and keeping things simple, step by step.
+
+      Looking forward to more content!
+    name: Matthieu Scarset
+    title: Drupal Expert
+    image:
+      url: '%site.assets_url%/assets/images/recommendations/matthieu-scarset.jpg'
+  -
+    text: |
       Hi Oliver, we met briefly at the Tech Connect event in London last month. Been reading through a few of your latest posts and have found the messages valuable, especially as we spent the week learning about unit, integration and e2e testing. I have signed up to your mailing list to keep the good advice flowing!
     name: Alexander Carr
     title: Full Stack Software Engineer at School of Code
