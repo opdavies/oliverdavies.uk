@@ -37,6 +37,7 @@ testimonials:
       Looking forward to more content!
     name: Matthieu Scarset
     title: Drupal Expert
+    url: https://matthieuscarset.com
     image:
       url: '%site.assets_url%/assets/images/recommendations/matthieu-scarset.jpg'
   -
