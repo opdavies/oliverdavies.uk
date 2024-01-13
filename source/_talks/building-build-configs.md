@@ -20,7 +20,7 @@ events:
     url: https://www.meetup.com/php-oxford/events/297556113
   -
     name: PHP UserGroup Munich
-    date: 2024-02-23
+    date: 2024-01-23
     url: https://www.meetup.com/phpugmunich/events/298411540
     online: true
 ---
