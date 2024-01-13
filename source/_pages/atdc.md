@@ -22,6 +22,7 @@ Learn to test things like:
   <div class="space-y-12">
    {% include 'testimonials.html.twig' with {
     names: [
+      "Matthieu Scarset",
       "Mike Karthauser",
       "Tawny Bartlett",
       "Scott Euser",
