@@ -1,5 +1,5 @@
 ---
-title: Hi, PHP Oxford!
+title: Hi, PHP UserGroup Munich!
 ---
 
 {% block head_meta %}
@@ -7,7 +7,7 @@ title: Hi, PHP Oxford!
 {% endblock %}
 
 {% block content %}
-Thanks for attending my lighting talk on [Build Configs](/build-configs).
+Thanks for attending my talk on [Build Configs](/build-configs).
 
 [These are the slides](/talks/building-build-configs) I presented and the example video:
 
