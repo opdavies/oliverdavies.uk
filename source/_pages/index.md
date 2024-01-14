@@ -27,7 +27,7 @@ If your team wants to write better software faster, I'm available for [developme
 
 ## Looking for something else?
 
-Here are all of my [products and services][pricing]. If you still can't find what you need, [send me an email](mailto:oliver+website@oliverdavies.uk), and I'll see what I can do.
+Here are [all my products and services][pricing]. If you still can't find what you need, [send me an email](mailto:oliver+website@oliverdavies.uk), and I'll see what I can do.
 {% endblock %}
 
 {% block content_bottom %}
