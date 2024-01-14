@@ -33,6 +33,8 @@ Here are all of my [products and services][pricing]. If you still can't find wha
 {% block content_bottom %}
   {% include 'testimonials.html.twig' with {
     title: 'Kind words from clients, subscribers, and past colleagues',
+    merge: true,
+    names: ["Matthieu Scarset"],
   } %}
 
   {% include 'daily-email-form.html.twig' with {
