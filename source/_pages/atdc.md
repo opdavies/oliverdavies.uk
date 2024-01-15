@@ -20,7 +20,7 @@ Learn to test things like:
 
 {% block content_bottom %}
   <div class="space-y-12">
-    {% include 'testimonials' with { tag: 'subscription' } %}
+    {% include 'testimonials' with { tag: 'testing' } %}
 
     {{ parent() }}
   </div>
