@@ -147,6 +147,16 @@ testimonials:
     tags: [subscription, coaching]
   -
     text: |
+      We have only worked together for a short while but I can see Oliver is a Drupal expert.
+
+      His technical knowledge means we have been able to make improvements to the sites we manage quickly and efficiently.
+
+      If we have complex issues to contend with in the future I feel confident he will be able to deal with them.
+    name: Anonymous
+    title: Marketing Strategist
+    tags: [subscription]
+  -
+    text: |
       A fantastic and highly knowledgeable Drupal Developer. Oliver saved a struggling Drupal project with his wealth of Drupal experience.
     name: Adam Cuddihy
     title: Web Development Manager
@@ -176,14 +186,6 @@ testimonials:
     image:
       url: '%site.assets_url%/assets/images/recommendations/scott-euser.jpg'
     tags: [testing, coaching]
-  -
-    text: |
-      Oliver was great to work with. He has expert knowledge with Drupal and delivered exactly what we were looking for on time. He's understanding, friendly and easy to get along with. I would enjoy working with him again in the future.
-    name: Brian Hartwell
-    title: Interactive Creative Director
-    url: ~
-    image: ~
-    tags: [subscription]
   -
     text: |
       I have had the pleasure of working with Oliver on several projects at Microserve. He is a natural innovator and a great mentor who inspires others to explore new technologies and approaches. He is a highly knowledgeable professional with a passion for all things Drupal and the tenacity required to get the job done well.
@@ -217,6 +219,14 @@ testimonials:
     tags: [subscription]
   -
     text: |
+      Oliver was great to work with. He has expert knowledge with Drupal and delivered exactly what we were looking for on time. He's understanding, friendly and easy to get along with. I would enjoy working with him again in the future.
+    name: Brian Hartwell
+    title: Interactive Creative Director
+    url: ~
+    image: ~
+    tags: [subscription]
+  -
+    text: |
       Oliver was fantastic to work with - pro-active and highly responsive, he worked well remotely and as part of a project team. His understanding of the project requirement(s) and ability to translate it into working code was essential and he delivered.
     name: Brian Healy
     title: Director of Business Development at Tincan
@@ -237,14 +247,4 @@ testimonials:
       Oliver is seasoned Drupal and all round highly skilled and experienced web developer. I have worked with Oliver on an important project where he was reliable, prompt and ensured strict client deadline delivery and confidentiality at all times.
     name: Daniel Easterbrook
     title: Digital Strategy Consultant
-    tags: [subscription]
-  -
-    text: |
-      We have only worked together for a short while but I can see Oliver is a Drupal expert.
-
-      His technical knowledge means we have been able to make improvements to the sites we manage quickly and efficiently.
-
-      If we have complex issues to contend with in the future I feel confident he will be able to deal with them.
-    name: Anonymous
-    title: Marketing Strategist
     tags: [subscription]
