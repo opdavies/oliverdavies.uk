@@ -1,13 +1,15 @@
 {% set limit = limit ?? 10 %}
 {% set offset = offset ?? 0 %}
 
-
 {% set testimonials = site.testimonials %}
+
 {% if tag is not null %}
   {% set testimonials = testimonials|filter(testimonial => tag in testimonial.tags) %}
 {% endif %}
 
-{% set testimonials = testimonials|slice(offset, limit) %}
+{% if limit > 0 %}
+  {% set testimonials = testimonials|slice(offset, limit) %}
+{% endif %}
 
 <section>
   <h2 class="text-xl font-bold">{{ title|default('Testimonials') }}</h2>
