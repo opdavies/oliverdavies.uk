@@ -1,0 +1,19 @@
+menu_links:
+  -
+    title: About
+    url: /
+  -
+    title: Press Info
+    url: /press
+  -
+    title: Services
+    url: /pricing
+  -
+    title: Talks
+    url: /talks
+  -
+    title: Podcast
+    url: /podcast
+  -
+    title: Daily list
+    url: /daily
