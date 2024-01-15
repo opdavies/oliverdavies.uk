@@ -10,14 +10,7 @@ title: Register for daily software development emails
 
 {% block content_bottom %}
   {% include 'testimonials.html.twig' with {
-    names: [
-      'Alexander Carr',
-      'Adam Nuttall',
-      'Mike Karthauser',
-      'Marcos Duran',
-      'Stephen Mulvihill',
-      'Patty O\'Callaghan',
-    ],
+    tag: 'daily',
     title: 'What subscribers have said',
   } %}
 

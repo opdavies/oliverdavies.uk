@@ -88,9 +88,10 @@ meta:
       <p>If you need lighter-touch guidance and advice, I also offer one-time consulting calls and pair programming sessions.</p>
     </section>
 
-    {% include 'testimonials.html.twig' with {
-      names: ['Mike Karthauser', 'Tawny Bartlett', 'Joe Howell', 'Scott Euser', 'Mick Felton'],
-      title: 'More that others have said',
+    {% include 'testimonials' with {
+      tag: 'coaching',
+      limit: 5,
+      title: 'What others have said',
     } %}
 
     {# Uniqueness #}
@@ -130,8 +131,9 @@ meta:
       } %}
     </div>
 
-    {% include 'testimonials.html.twig' with {
-      names: ['Duncan Davidson', 'Adam Cuddihy', 'Alan Hatch', 'Anonymous'],
+    {% include 'testimonials' with {
+      tag: 'coaching',
+      offset: 5,
       title: 'More that others have said',
     } %}
 

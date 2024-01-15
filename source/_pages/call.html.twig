@@ -2,10 +2,6 @@
 title: Book a 1-on-1 consulting call
 link: https://savvycal.com/opdavies/consulting-call
 price: 350
-testimonials:
-  - Tawny Bartlett
-  - Tom Evans
-  - Michael Itkoff
 faqs:
   -
     - What happens after I pay?
@@ -62,9 +58,7 @@ faqs:
 
 {# Social proof #}
 
-{% include 'testimonials' with {
-  names: page.testimonials,
-} %}
+{% include 'testimonials' with { tag: 'call' } %}
 
 {# Overcome objections #}
 

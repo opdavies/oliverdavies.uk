@@ -31,10 +31,8 @@ Here are [all my products and services][pricing]. If you still can't find what y
 {% endblock %}
 
 {% block content_bottom %}
-  {% include 'testimonials.html.twig' with {
+  {% include 'testimonials' with {
     title: 'Kind words from clients, subscribers, and past colleagues',
-    merge: true,
-    names: ["Matthieu Scarset"],
   } %}
 
   {% include 'daily-email-form.html.twig' with {
