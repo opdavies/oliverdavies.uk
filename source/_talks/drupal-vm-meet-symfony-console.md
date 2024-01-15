@@ -7,7 +7,8 @@ speakerdeck:
   url: https://speakerdeck.com/opdavies/drupal-vm-meet-symfony-console
 image: drupal-vm-meet-symfony-console.png
 events:
-  - name: DrupalCamp Bristol 2016
+  -
+    name: DrupalCamp Bristol 2016
     location: Bristol, UK
     date: 2016-07-23
 ---

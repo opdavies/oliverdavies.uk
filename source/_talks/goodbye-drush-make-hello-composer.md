@@ -10,17 +10,18 @@ video:
   type: youtube
   id: ZL2FtRTX9Y8
 events:
-  - name: Drupal Bristol
-    location: Bristol, UK
-    url: https://www.drupalbristol.org.uk
-    date: 2016-11-17
-
-  - name: PHP UK Conference 2018
+  -
+    name: PHP UK Conference 2018
     location: London, UK
     date: 2018-02-16
     time: "14:40 - 15:40"
     url: https://www.phpconference.co.uk
     joindin: https://joind.in/talk/650ab
+  -
+    name: Drupal Bristol
+    location: Bristol, UK
+    url: https://www.drupalbristol.org.uk
+    date: 2016-11-17
 ---
 
 One of the main outcomes of Drupal 8 was “getting off the island” with third-party code included in core and adopting modern best practices from the wider PHP ecosystem - including [Composer][1], PHP’s dependency manager.

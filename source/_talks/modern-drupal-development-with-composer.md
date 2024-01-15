@@ -11,7 +11,8 @@ video:
   type: youtube
   id: Yi_FPI3xHwc
 events:
-  - name: PHP South West
+  -
+    name: PHP South West
     location: Bristol, UK
     url: https://phpsw.uk
     date: 2016-11-09

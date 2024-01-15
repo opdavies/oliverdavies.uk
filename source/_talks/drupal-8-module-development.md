@@ -20,7 +20,8 @@ meta:
       height: 540
       width: 960
 events:
-  - name: DrupalCamp London 2016
+  -
+    name: DrupalCamp London 2016
     location: London, UK
     date: 2016-03-05
 ---

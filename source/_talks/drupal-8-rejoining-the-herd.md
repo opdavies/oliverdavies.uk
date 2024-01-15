@@ -7,7 +7,8 @@ speakerdeck:
   ratio: "1.37081659973226"
   url: https://speakerdeck.com/opdavies/drupal-rejoining-the-herd
 events:
-  - name: PHP South Coast 2016
+  -
+    name: PHP South Coast 2016
     location: Portsmouth, UK
     url: http://2016.phpsouthcoast.co.uk
     date: 2016-06-11

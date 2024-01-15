@@ -11,21 +11,16 @@ video:
   type: youtube
   id: AcYMXiom0o8
 events:
-  - name: DrupalNYC
-    location: New York, USA
-    url: https://ti.to/drupalnyc/meetup-2020-09-02
-    date: 2020-09-02
+  -
+    name: Midwest PHP
+    url: https://midwestphp.org/talks/7C0m4I87vq72cDoXvsHFRp/Upgrading_your_site_to_Drupal_9
+    date: 2021-04-22
     online: true
-
-  - name: Leeds PHP
+  -
+    name: Leeds PHP
     location: Leeds, UK
     url: https://www.meetup.com/leedsphp/events/272504993
     date: 2020-09-23
-    online: true
-
-  - name: Midwest PHP
-    url: https://midwestphp.org/talks/7C0m4I87vq72cDoXvsHFRp/Upgrading_your_site_to_Drupal_9
-    date: 2021-04-22
     online: true
 ---
 

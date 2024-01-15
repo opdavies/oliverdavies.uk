@@ -3,14 +3,13 @@ title: Dancing for Drupal
 description: A talk on Drupal, presented alongside others representing Umbraco, Sitecore and Episerver.
 tags: [meetup, umbristol, drupal]
 tweets: yes
-
 speakerdeck:
   id: ffa9b6dea6dc4a8eb207b9982ed6e1bd
   ratio: "1.33333333333333"
   url: https://speakerdeck.com/opdavies/umbristol-dancing-for-drupal
-
 events:
-  - name: umBristol
+  -
+    name: umBristol
     location: Bristol, UK
     url: http://umbristol.co.uk
     date: 2015-08-25

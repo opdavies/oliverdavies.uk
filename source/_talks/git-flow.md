@@ -10,7 +10,8 @@ video:
   id: T-miCpHxfds
 tweets: yes
 events:
-  - name: DrupalCamp London 2014
+  -
+    name: DrupalCamp London 2014
     location: London, UK
     date: 2014-03-01
 ---
