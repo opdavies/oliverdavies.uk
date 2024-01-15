@@ -172,6 +172,14 @@ And we'll figure out what's best for you.
 
 ---
 
+{% include 'testimonials' with {
+  limit: 5,
+  tag: 'subscription',
+  title: 'Kind words from clients',
+} %}
+
+---
+
 ## Frequently asked questions
 
 {% for faq in page.faqs %}
@@ -182,7 +190,11 @@ And we'll figure out what's best for you.
 
 ---
 
-{% include 'testimonials' with { tag: 'subscription' } %}
+{% include 'testimonials' with {
+  tag: 'subscription',
+  offset: 5,
+  title: 'More kind words from clients and colleagues',
+} %}
 
 {% endblock %}
 
