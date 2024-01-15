@@ -182,23 +182,7 @@ And we'll figure out what's best for you.
 
 ---
 
-{% include 'testimonials.html.twig' with {
-  names: [
-    'Joe Howell',
-    'Jon Hallett',
-    'Michael Itkoff',
-    'Mick Felton',
-    'Duncan Davidson',
-    'Adam Cuddihy',
-    'Huw Davies',
-    'Brian Hartwell',
-    'Holly Ross',
-    'Josh Mitchell',
-    'Brian Healy',
-    'Daniel Easterbrook',
-    'Anonymous',
-  ],
-} %}
+{% include 'testimonials' with { tag: 'subscription' } %}
 
 {% endblock %}
 

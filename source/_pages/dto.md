@@ -45,6 +45,4 @@ Seats are available at <span class="font-bold">{{ page.is_early_bird ? 'an early
 
 <hr />
 
-{% include 'testimonials.html.twig' with {
-  names: page.testimonials,
-} %}
+{% include 'testimonials' with { tag: 'testing' } %}
