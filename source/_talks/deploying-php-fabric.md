@@ -17,24 +17,25 @@ meta:
       height: 1440
       type: image/png
 events:
-  - name: Nomad PHP
-    date: 2017-04-20
-    time: "19:00 (CET)"
-    url: https://nomadphp.com
-    online: true
-
-  - name: PHP South West
-    location: Bristol, UK
-    url: https://phpsw.uk
-    date: 2017-09-13
-    joindin: https://joind.in/talk/a5ff3
-
-  - name: PHP North West 2017
+  -
+    name: PHP North West 2017
     location: Manchester, UK
     date: 2017-10-01
     time: "09:00 - 09:45"
     url: http://conference.phpnw.org.uk/phpnw17
     joindin: https://joind.in/talk/4e35d
+  -
+    name: PHP South West
+    location: Bristol, UK
+    url: https://phpsw.uk
+    date: 2017-09-13
+    joindin: https://joind.in/talk/a5ff3
+  -
+    name: Nomad PHP
+    date: 2017-04-20
+    time: "19:00 (CET)"
+    url: https://nomadphp.com
+    online: true
 ---
 
 You’ve built your application, and now you just need to deploy it. There are various ways that this could be done – from (S)FTP, to SCP and rsync, to running commands like “git pull” and “composer install” directly on the server (not recommended).

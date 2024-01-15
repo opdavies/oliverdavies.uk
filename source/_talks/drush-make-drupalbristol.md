@@ -6,7 +6,8 @@ speakerdeck:
   ratio: "1.29456384323641"
   url: https://speakerdeck.com/opdavies/drush-make-drupalbristol
 events:
-  - name: Drupal Bristol
+  -
+    name: Drupal Bristol
     location: Bristol, UK
     url: https://www.drupalbristol.org.uk
     date: 2014-08-19

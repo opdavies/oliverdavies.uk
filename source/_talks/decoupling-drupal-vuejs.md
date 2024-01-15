@@ -9,7 +9,8 @@ speakerdeck:
   url: https://speakerdeck.com/opdavies/decoupling-drupal-with-vue-dot-js
 
 events:
-  - name: Blue Conf 2019
+  -
+    name: Blue Conf 2019
     location: Cardiff, UK
     url: https://blueconf.co.uk
     date: 2019-06-07

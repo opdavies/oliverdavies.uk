@@ -7,7 +7,8 @@ speakerdeck:
   url: https://speakerdeck.com/opdavies/out-of-the-box-initiative-update
 video: ~
 events:
-  - name: Drupal Bristol
+  -
+    name: Drupal Bristol
     location: Bristol, UK
     url: https://www.drupalbristol.org.uk
     date: 2019-03-27

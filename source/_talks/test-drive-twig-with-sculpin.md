@@ -8,7 +8,8 @@ speakerdeck:
 code: https://github.com/opdavies/sculpin-demo
 tweets: yes
 events:
-  - name: DrupalCamp North 2015
+  -
+    name: DrupalCamp North 2015
     location: Sunderland, UK
     url: http://drupalcampnorth.org
     date: 2015-07-25

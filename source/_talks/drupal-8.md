@@ -12,7 +12,8 @@ video:
   id: 36zCxPrOOzM
 tweets: yes
 events:
-  - name: PHP South West
+  -
+    name: PHP South West
     location: Bristol, UK
     url: https://phpsw.uk
     date: 2015-04-08
