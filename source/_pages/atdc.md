@@ -13,7 +13,7 @@ Learn to test things like:
 * Whether pages exist.
 * Whether users can view specific pages based on their permissions.
 * Whether certain content is visible on a page given particular circumstances.
-* Refactoring code to test dedicated classes such as Repositories, Builders, Actions and Services.
+* Refactoring code to test dedicated classes such as Services, Repositories, Builders and Actions.
 
 {% include 'email-course-form.html.twig' %}
 {% endblock %}
