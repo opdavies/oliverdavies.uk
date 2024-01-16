@@ -81,6 +81,6 @@ With testing being one of the Drupal core gates, with tests needing to be includ
 
 In this talk, we'll cover the methodology and terminology involved with automated testing and then take a test-driven approach to create a new Drupal module.
 
-P.S. If you want to learn more about automated testing and test-driven development in Drupal, [register for my free 7-day email course][course].
+P.S. If you want to learn more about automated testing and test-driven development in Drupal, [register for my free 10-day email course][course].
 
 [course]: /atdc
