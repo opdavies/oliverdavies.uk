@@ -64,7 +64,7 @@ products:
       text: Book your session now
       url: /pair
   -
-    title: Introduction to Automated Testing in Drupal - 7-day email course
+    title: Introduction to Automated Testing in Drupal - 10-day email course
     description: |
       Register for my free email course on automated testing in Drupal.
     link:
