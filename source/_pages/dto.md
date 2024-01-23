@@ -1,15 +1,11 @@
 ---
 title: Introduction to Automated Testing and Test-Driven Development with Drupal
-testimonials:
-  - Tawny Bartlett
-  - Mike Karthauser
-  - Scott Euser
 drupal_version: 10
 prices:
-  early: 395
-  full: 495
+  early: 299
+  full: 499
 is_early_bird: true
-next_date: 2022-04-04
+next_date: 2024-02-23
 ---
 
 Are you a Drupal Developer who wants to learn about automated testing and test-driven development, or do you manage a development team that you'd like to train?
@@ -40,7 +36,7 @@ Seats are available at <span class="font-bold">{{ page.is_early_bird ? 'an early
 
 {% include 'button.html.twig' with {
   text: 'Book your seat &rarr;',
-  url: 'https://buy.stripe.com/6oE3cW4Su7DA1t6144',
+  url: 'https://buy.stripe.com/aEU9Bk2KmaPM3Be8wJ',
 } %}
 
 <hr />
