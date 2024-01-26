@@ -1,0 +1,16 @@
+name: oliverdavies-uk
+type: sculpin
+language: php
+
+flake:
+  devshell:
+    packages:
+      - nodePackages.pnpm
+      - nodejs
+      - php81
+      - php81Packages.composer
+
+git:
+  ignore:
+    - /node_modules/
+    - /source/build/

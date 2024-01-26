@@ -16,7 +16,7 @@ tmux new-session -d -s "${session_name}" -n vim -c "${session_path}"
 # 1. Main window: Vim
 tmux send-keys -t "${session_name}:vim" "nvim" Enter
 tmux split-pane -t "${session_name}:vim" -h -c "${session_path}" -p 40
-tmux send-keys -t "${session_name}:vim.right" "vendor/bin/sculpin generate --server --watch" Enter
+tmux send-keys -t "${session_name}:vim.right" "./run start" Enter
 
 # 2. General shell use.
 tmux new-window -t "${session_name}" -c "${session_path}"
