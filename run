@@ -1,56 +1,12 @@
 #!/usr/bin/env bash
 
+set -o errexit
 set -o nounset
 set -o pipefail
 
-function clean {
-  rm -fr output_*/ source/build/
-}
+PATH="${PATH}:./vendor/bin"
 
-# Create a new daily email.
-function create-daily {
-  local date="${1}"
-  local title="${2}"
-
-  if [ "${date}" == "next" ]; then
-    next_date=$(ls -1 source/_daily_emails | tail -n 1 | tr -d '.md' | xargs -I {} date +%Y-%m-%d -d '{} +1 day')
-  else
-    next_date="${date}"
-  fi
-
-  filepath="source/_daily_emails/${next_date}.md"
-
-  shift 1
-
-  # Generate the title and slug.
-  title="${*}"
-  slug=$(echo "${title}" | \
-    tr '[:upper:]' '[:lower:]' | \
-    sed 's/[^a-z0-9]/-/g' | \
-    sed 's/\-\-+/-/g' | \
-    sed 's/^\-//;s/\-$//')
-
-  # Create the file.
-  cp -f --no-clobber stub.md "${filepath}"
-
-  date=$(date -d "${next_date}" +%Y-%m-%d)
-  day=$(date -d "${next_date}" +%d)
-  month=$(date -d "${next_date}" +%m)
-  year=$(date -d "${next_date}" +%Y)
-
-  # Replace the placeholders.
-  sed -i "s/{{ date }}/${date}/" "${filepath}"
-  sed -i "s/{{ title }}/${title}/" "${filepath}"
-  sed -i "s#{{ permalink }}#archive/${year}/${month}/${day}/${slug}#" "${filepath}"
-
-  # Create a commit with the appropriate date in the message
-  git add "${filepath}"
-  git commit --quiet -m "Add daily email for ${date}
-
-${title}"
-
-  echo "${filepath}"
-}
+# Generate the site.
 function generate {
   local args=()
 
@@ -71,35 +27,15 @@ function help {
   printf "\nExtended help:\n  Each task has comments for general usage\n"
 }
 
-function npm:build:css {
-  local args=()
-
-  if [[ "${NODE_ENV:-}" == "production" ]]; then
-    args=(--minify)
-  else
-    args=(--watch)
-  fi
-
-  npx tailwindcss \
-    --config assets/tailwind.config.ts \
-    --output source/build/tailwind.css "${args[@]}"
+# Start the project.
+function start {
+  sculpin generate --server --watch "${@}"
 }
 
-function publish {
-  export NODE_ENV=production
-  export APP_ENV=production
-
-  git stash
-
-  clean
-  npm:build:css
-  generate
-
-  rsync --archive --verbose --compress --update --delete \
-    output_prod/ ssh.oliverdavies.uk:/srv/oliverdavies.uk-sculpin
-
-  git stash pop
-}
+# Include any local tasks.
+[[ -e run.local ]] && source run.local
 
 TIMEFORMAT="Task completed in %3lR"
 time "${@:-help}"
+
+# vim: ft=bash
