@@ -13,6 +13,11 @@ video:
   id: xRTiWR9nBSA
 events:
   -
+    name: PHP South West
+    date: 2024-02-14
+    location: Bristol, UK
+    url: https://www.meetup.com/php-sw/events/298880313
+  -
     name: GroningenPHP
     date: 2021-12-09
     location: Groningen, Netherlands
