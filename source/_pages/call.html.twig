@@ -60,6 +60,12 @@ faqs:
 
 <p>In this 1-on-1 video call, I can help you answer questions in these areas or any others you may have.</p>
 
+{% include 'button' with {
+  position: 'centre',
+  text: 'Book your call now &rarr;',
+  url: page.link,
+} %}
+
 {# Social proof #}
 
 {% include 'testimonials' with { tag: 'call' } %}
