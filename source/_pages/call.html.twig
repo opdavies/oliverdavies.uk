@@ -54,7 +54,11 @@ faqs:
 
 {# 1st call to action #}
 
-<!-- <Button href={frontmatter.link} text="Book your call now" /> -->
+{% include 'button' with {
+  position: 'centre',
+  text: 'Book your call now &rarr;',
+  url: page.link,
+} %}
 
 {# Social proof #}
 
