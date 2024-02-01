@@ -34,6 +34,14 @@ faqs:
 
 <p>As a professional Software Developer and Consultant with {{ macros.yearsExperience }} years of Drupal and PHP experience, I have a lot of knowledge that I use to help customers and their projects.</p>
 
+{# 1st call to action #}
+
+{% include 'button' with {
+  position: 'centre',
+  text: 'Book your call now &rarr;',
+  url: page.link,
+} %}
+
 <h2>Some things I can help you with</h2>
 
 <ul>
@@ -51,14 +59,6 @@ faqs:
 </ul>
 
 <p>In this 1-on-1 video call, I can help you answer questions in these areas or any others you may have.</p>
-
-{# 1st call to action #}
-
-{% include 'button' with {
-  position: 'centre',
-  text: 'Book your call now &rarr;',
-  url: page.link,
-} %}
 
 {# Social proof #}
 
@@ -97,7 +97,7 @@ faqs:
 } %}
   {% block callout_content %}
     {% include 'button.html.twig' with {
-      text: 'Book your session now for £' ~ page.price|number_format ~ ' &rarr;',
+      text: 'Book your call now for £' ~ page.price|number_format ~ ' &rarr;',
       url: page.link,
     } %}
 
