@@ -12,8 +12,13 @@ flake:
 
 git:
   ignore:
-    - /node_modules/
-    - /source/build/
+    - '/source/build/'
+    - '!/assets/'
+    - '!/data/'
+    - '!/package.json'
+    - '!/pnpm-lock.yaml'
+    - '!/stub.md'
 
 experimental:
+  createInclusiveGitIgnoreFile: true
   createTmuxStartupFile: true
