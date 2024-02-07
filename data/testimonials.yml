@@ -1,250 +1,250 @@
 testimonials:
-  -
-    text: |
-      Following your "Automated tests" emails and they are great! Such a pleasant reading. I love how you start from the very beginning and keeping things simple, step by step.
+    -
+        text: |
+            Following your "Automated tests" emails and they are great! Such a pleasant reading. I love how you start from the very beginning and keeping things simple, step by step.
 
-      Looking forward to more content!
-    name: Matthieu Scarset
-    title: Drupal Expert
-    url: https://matthieuscarset.com
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/matthieu-scarset.jpg'
-    tags: [testing]
-  -
-    text: |
-      Hi Oliver, we met briefly at the Tech Connect event in London last month. Been reading through a few of your latest posts and have found the messages valuable, especially as we spent the week learning about unit, integration and e2e testing. I have signed up to your mailing list to keep the good advice flowing!
-    name: Alexander Carr
-    title: Full Stack Software Engineer at School of Code
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/alexander-carr.jpg'
-    tags: [daily]
-  -
-    text: |
-      These emails are superb and make for very interesting reading. Thank you!
-    name: Adam Nuttall
-    title: Drupal Engineer
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/adam-nuttall.jpg'
-    tags: [daily]
-  -
-    text: 
-      Oliver's approach to testing is a continual reminder of his commitment to delivering high-quality, bug-free, software.
-    name: Mike Karthauser
-    title: Senior Software Engineer
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/mike-karthauser.jpg'
-    tags: [daily, testing, coaching]
-  -
-    text: |
-      I had the opportunity and good fortune to work with Oliver solving two problems that I was having on a Drupal Commerce site.  I have done several Drupal sites using UberCart, but since it is deprecated, I chose to use Commerce. I had searched, posted to forums, and other normal means to find answers to my problems, to no response and to no avail.
+            Looking forward to more content!
+        name: Matthieu Scarset
+        title: Drupal Expert
+        url: https://matthieuscarset.com
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/matthieu-scarset.jpg'
+        tags: [testing]
+    -
+        text: |
+            Hi Oliver, we met briefly at the Tech Connect event in London last month. Been reading through a few of your latest posts and have found the messages valuable, especially as we spent the week learning about unit, integration and e2e testing. I have signed up to your mailing list to keep the good advice flowing!
+        name: Alexander Carr
+        title: Full Stack Software Engineer at School of Code
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/alexander-carr.jpg'
+        tags: [daily]
+    -
+        text: |
+            These emails are superb and make for very interesting reading. Thank you!
+        name: Adam Nuttall
+        title: Drupal Engineer
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/adam-nuttall.jpg'
+        tags: [daily]
+    -
+        text: 
+            Oliver's approach to testing is a continual reminder of his commitment to delivering high-quality, bug-free, software.
+        name: Mike Karthauser
+        title: Senior Software Engineer
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/mike-karthauser.jpg'
+        tags: [daily, testing, coaching]
+    -
+        text: |
+            I had the opportunity and good fortune to work with Oliver solving two problems that I was having on a Drupal Commerce site.    I have done several Drupal sites using UberCart, but since it is deprecated, I chose to use Commerce. I had searched, posted to forums, and other normal means to find answers to my problems, to no response and to no avail.
 
-      I got a referral to Oliver and scheduled an appointment to discuss the problems on a Zoom call. After showing him via screen share where I was stumped, he offered different approaches to what I was doing, which I was fine with as long as it worked.
+            I got a referral to Oliver and scheduled an appointment to discuss the problems on a Zoom call. After showing him via screen share where I was stumped, he offered different approaches to what I was doing, which I was fine with as long as it worked.
 
-      Once we solved the first problem, I was really elated and then focused on the second one, which was an easier fix.  So in a short period of time, both problems were fixed and tested.
+            Once we solved the first problem, I was really elated and then focused on the second one, which was an easier fix.    So in a short period of time, both problems were fixed and tested.
 
-      I found Oliver was affable and easy to work with.  He has a strong work ethic and a desire to solve problems for his customers and can recommend working with him.  I think one of his strengths is to find alternative solutions to problems.
-    name: Tom Evans
-    title: ~
-    image: ~
-    tags: [call]
-  -
-    text: |
-      I am a big fan of your git approaches. I especially remember pairing with you and watching how many commands you run to solve many problems and how fast you were. It's a skill I believe not many have, particularly those who are used to working with a GUI like me, and personally I think it is quite valuable.
-    name: Marcos Duran
-    title: Senior Software Engineer
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/marcos-duran.jpg'
-    tags: [git, daily, coaching]
-  -
-    text: |
-      I like the "$ git log -S" and "$ git log --grep" commands, will definitely be using these, thanks!
-    name: Stephen Mulvihill
-    title: Solutions Architect
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/stephen-mulvihill.jpg'
-    tags: [git, daily, coaching]
-  -
-    text: |
-      Just wanted to say that your blog is amazing <3 I absolutely love it and usually share it with colleagues and some of the kids at my Code Club.
+            I found Oliver was affable and easy to work with.    He has a strong work ethic and a desire to solve problems for his customers and can recommend working with him.    I think one of his strengths is to find alternative solutions to problems.
+        name: Tom Evans
+        title: ~
+        image: ~
+        tags: [call]
+    -
+        text: |
+            I am a big fan of your git approaches. I especially remember pairing with you and watching how many commands you run to solve many problems and how fast you were. It's a skill I believe not many have, particularly those who are used to working with a GUI like me, and personally I think it is quite valuable.
+        name: Marcos Duran
+        title: Senior Software Engineer
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/marcos-duran.jpg'
+        tags: [git, daily, coaching]
+    -
+        text: |
+            I like the "$ git log -S" and "$ git log --grep" commands, will definitely be using these, thanks!
+        name: Stephen Mulvihill
+        title: Solutions Architect
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/stephen-mulvihill.jpg'
+        tags: [git, daily, coaching]
+    -
+        text: |
+            Just wanted to say that your blog is amazing <3 I absolutely love it and usually share it with colleagues and some of the kids at my Code Club.
 
-      Thanks for contributing to the community with your amazing content!
-    name: Patty O'Callaghan
-    title: Tech Lead
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/patty-ocallaghan.jpg'
-    tags: [daily]
-  -
-    text: |
-      I've wanted to explore testing for a while, but as a PHP developer with 10 years of Drupal experience who'd written next to no tests, I really needed guidance. Oliver's expertise in testing and TDD motivated me to seek his help.
+            Thanks for contributing to the community with your amazing content!
+        name: Patty O'Callaghan
+        title: Tech Lead
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/patty-ocallaghan.jpg'
+        tags: [daily]
+    -
+        text: |
+            I've wanted to explore testing for a while, but as a PHP developer with 10 years of Drupal experience who'd written next to no tests, I really needed guidance. Oliver's expertise in testing and TDD motivated me to seek his help.
 
-      Before our call, I'd started writing tests for my modules but needed direction, understanding the code to a degree but needing help with approach. Oliver clarified both unit and integration testing, providing solutions for my challenges, and shared his code for inspiration and help. He also gave me ideas on how to utilise contrib code to help me further.
+            Before our call, I'd started writing tests for my modules but needed direction, understanding the code to a degree but needing help with approach. Oliver clarified both unit and integration testing, providing solutions for my challenges, and shared his code for inspiration and help. He also gave me ideas on how to utilise contrib code to help me further.
 
-      Consulting with an expert, I gained the clarity and confidence I needed in tackling testing with structured, maintainable practices. Oliver's adaptability and tailored services make him highly recommendable.
+            Consulting with an expert, I gained the clarity and confidence I needed in tackling testing with structured, maintainable practices. Oliver's adaptability and tailored services make him highly recommendable.
 
-      Thanks, Oliver - I feel empowered and know exactly what approach to take now!
-    name: Tawny Bartlett
-    title: Senior Drupal Developer
-    url: https://www.playingwithpixels.co.uk
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/tawny.jpg'
-    tags: [testing, coaching, call]
-  -
-    text: |
-      I've worked with Oliver for a number of years on B2C and B2B web projects and he has always demonstrated himself to be an expert in his field.
+            Thanks, Oliver - I feel empowered and know exactly what approach to take now!
+        name: Tawny Bartlett
+        title: Senior Drupal Developer
+        url: https://www.playingwithpixels.co.uk
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/tawny.jpg'
+        tags: [testing, coaching, call]
+    -
+        text: |
+            I've worked with Oliver for a number of years on B2C and B2B web projects and he has always demonstrated himself to be an expert in his field.
 
-      As an insurance provider, some of our products and services don't naturally fit within a traditional ecommerce journey - but Oliver has always been able to come up with innovative ways to leverage core Drupal functionality and develop custom modules to meet our needs.
+            As an insurance provider, some of our products and services don't naturally fit within a traditional ecommerce journey - but Oliver has always been able to come up with innovative ways to leverage core Drupal functionality and develop custom modules to meet our needs.
 
-      Friendly, flexible and diligent - I wouldn't hesitate to recommend Oliver to anyone looking for a Drupal developer to progress their next project.
-    name: Joe Howell
-    title: Director, Bastion Insurance
-    url: https://www.bastioninsurance.co.uk
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/joe-howell.jpg'
-    tags: [subscription, coaching]
-  -
-    text: |
-      We use Oliver for maintaining a couple of Drupal sites for which we no longer have the skills ourselves. We became aware of Oliver through his work in the Drupal community, and about a year ago we approached him to help us with the deep dive aspects of maintaining and developing Drupal sites. He's been really helpful and very responsive. Much appreciated!
-    name: Jon Hallett
-    title: Senior Systems Administrator at the University of Bristol
-    url: https://bristol.ac.uk
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/jon-hallett.jpeg'
-    tags: [subscription]
-  -
-    text: |
-      For over a decade we have worked with Oliver on a number of different projects. Initially our collaboration consisted of web maintenance and troubleshooting but we soon tapped Oliver to design, build and maintain a custom awards site which includes both submission and judging functionality. Oliver has deep and wide-ranging skills and I would certainly recommend his services!
-    name: Michael Itkoff
-    title: Cofounder
-    url: https://www.daylightbooks.org
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/michael-itkoff.jpg'
-    tags: [subscription]
-  -
-    text: |
-      Working with Oliver on the Seren website has been easy and beneficial.
+            Friendly, flexible and diligent - I wouldn't hesitate to recommend Oliver to anyone looking for a Drupal developer to progress their next project.
+        name: Joe Howell
+        title: Director, Bastion Insurance
+        url: https://www.bastioninsurance.co.uk
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/joe-howell.jpg'
+        tags: [subscription, coaching]
+    -
+        text: |
+            We use Oliver for maintaining a couple of Drupal sites for which we no longer have the skills ourselves. We became aware of Oliver through his work in the Drupal community, and about a year ago we approached him to help us with the deep dive aspects of maintaining and developing Drupal sites. He's been really helpful and very responsive. Much appreciated!
+        name: Jon Hallett
+        title: Senior Systems Administrator at the University of Bristol
+        url: https://bristol.ac.uk
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/jon-hallett.jpeg'
+        tags: [subscription]
+    -
+        text: |
+            For over a decade we have worked with Oliver on a number of different projects. Initially our collaboration consisted of web maintenance and troubleshooting but we soon tapped Oliver to design, build and maintain a custom awards site which includes both submission and judging functionality. Oliver has deep and wide-ranging skills and I would certainly recommend his services!
+        name: Michael Itkoff
+        title: Cofounder
+        url: https://www.daylightbooks.org
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/michael-itkoff.jpg'
+        tags: [subscription]
+    -
+        text: |
+            Working with Oliver on the Seren website has been easy and beneficial.
 
-      As well as providing general maintenance support, he built a new Drupal module which integrated with our partners Glassboxx so that we could sell ebooks directly from our website. Oliver worked closely with the team at Glassboxx to create the integration which needed to communicate with the Glassboxx app so that users could download their purchases. He was able to resolve issues which came up along the way in order to create a functioning module which we now use on our site.
+            As well as providing general maintenance support, he built a new Drupal module which integrated with our partners Glassboxx so that we could sell ebooks directly from our website. Oliver worked closely with the team at Glassboxx to create the integration which needed to communicate with the Glassboxx app so that users could download their purchases. He was able to resolve issues which came up along the way in order to create a functioning module which we now use on our site.
 
-      Oliver has extensive knowledge of Drupal and his familiarity with the Seren site meant he was able to fix problems quickly and efficiently as they arose.
+            Oliver has extensive knowledge of Drupal and his familiarity with the Seren site meant he was able to fix problems quickly and efficiently as they arose.
 
-      He is reliable and has always been willing to discuss new ideas for how the site could function.
+            He is reliable and has always been willing to discuss new ideas for how the site could function.
 
-      We would recommend working with him for his invaluable knowledge and ability to find solutions to problems at short notice. It has been a pleasure to work with him over the years.
-    name: Mick Felton
-    title: Publisher at Poetry Wales Press Ltd (Seren Books)
-    url: https://www.serenbooks.com
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/mick-felton.jpg'
-    tags: [subscription, coaching]
-  -
-    text: |
-      Oliver is a pleasure to work with, and I would engage him again without hesitation. He communicates regularly, ensures that he meets requirements, and suggests improvements to the potential solutions to the brief.
-    name: Duncan Davidson
-    title: Director at Rohallion
-    url: https://rohallion.agency
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/duncan.jpeg'
-    tags: [subscription, coaching]
-  -
-    text: |
-      We have only worked together for a short while but I can see Oliver is a Drupal expert.
+            We would recommend working with him for his invaluable knowledge and ability to find solutions to problems at short notice. It has been a pleasure to work with him over the years.
+        name: Mick Felton
+        title: Publisher at Poetry Wales Press Ltd (Seren Books)
+        url: https://www.serenbooks.com
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/mick-felton.jpg'
+        tags: [subscription, coaching]
+    -
+        text: |
+            Oliver is a pleasure to work with, and I would engage him again without hesitation. He communicates regularly, ensures that he meets requirements, and suggests improvements to the potential solutions to the brief.
+        name: Duncan Davidson
+        title: Director at Rohallion
+        url: https://rohallion.agency
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/duncan.jpeg'
+        tags: [subscription, coaching]
+    -
+        text: |
+            We have only worked together for a short while but I can see Oliver is a Drupal expert.
 
-      His technical knowledge means we have been able to make improvements to the sites we manage quickly and efficiently.
+            His technical knowledge means we have been able to make improvements to the sites we manage quickly and efficiently.
 
-      If we have complex issues to contend with in the future I feel confident he will be able to deal with them.
-    name: Anonymous
-    title: Marketing Strategist
-    tags: [subscription]
-  -
-    text: |
-      A fantastic and highly knowledgeable Drupal Developer. Oliver saved a struggling Drupal project with his wealth of Drupal experience.
-    name: Adam Cuddihy
-    title: Web Development Manager
-    url: ~
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/adam.jpeg'
-    tags: [subscription]
-  -
-    text: |
-      I had the pleasure of working with Oliver whilst building the first version of our drupal based intranet. His knowledge of Drupal and the wider infrastructure required to run a site was really invaluable.
+            If we have complex issues to contend with in the future I feel confident he will be able to deal with them.
+        name: Anonymous
+        title: Marketing Strategist
+        tags: [subscription]
+    -
+        text: |
+            A fantastic and highly knowledgeable Drupal Developer. Oliver saved a struggling Drupal project with his wealth of Drupal experience.
+        name: Adam Cuddihy
+        title: Web Development Manager
+        url: ~
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/adam.jpeg'
+        tags: [subscription]
+    -
+        text: |
+            I had the pleasure of working with Oliver whilst building the first version of our drupal based intranet. His knowledge of Drupal and the wider infrastructure required to run a site was really invaluable.
 
-      At the time, we were very new to Drupal, so it gave us a great platform to learn from and expand our own knowledge.
+            At the time, we were very new to Drupal, so it gave us a great platform to learn from and expand our own knowledge.
 
-      He's the only external contractor that we've kept in touch with over the years, which goes to show how much we valued his input.
-    name: Huw Davies
-    title: Web Dev Manager / DevOps / Team Manager at Admiral Group Plc
-    url: https://admiral.com
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/huw.jpeg'
-    tags: [subscription]
-  -
-    text: |
-      Oliver really knows his stuff. Whether you are just starting out or looking to take your knowledge to the next level, his patient and clear way of explaining will help get you there.
-    name: Scott Euser
-    title: Head of Web Development
-    url: ~
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/scott-euser.jpg'
-    tags: [testing, coaching]
-  -
-    text: |
-      I have had the pleasure of working with Oliver on several projects at Microserve. He is a natural innovator and a great mentor who inspires others to explore new technologies and approaches. He is a highly knowledgeable professional with a passion for all things Drupal and the tenacity required to get the job done well.
-    name: Alan Hatch
-    title: Senior Drupal Developer at Microserve
-    url: ~
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/alan.jpeg'
-    tags: [coaching]
-  -
-    text: |
-      Oliver has been an outstanding contributor to the Drupal Association team. He is a talented developer who writes great code and applies his curiosity and love of learning to every project. He is also a fantastic team member, who gives to the team as much as he gets.
+            He's the only external contractor that we've kept in touch with over the years, which goes to show how much we valued his input.
+        name: Huw Davies
+        title: Web Dev Manager / DevOps / Team Manager at Admiral Group Plc
+        url: https://admiral.com
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/huw.jpeg'
+        tags: [subscription]
+    -
+        text: |
+            Oliver really knows his stuff. Whether you are just starting out or looking to take your knowledge to the next level, his patient and clear way of explaining will help get you there.
+        name: Scott Euser
+        title: Head of Web Development
+        url: ~
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/scott-euser.jpg'
+        tags: [testing, coaching]
+    -
+        text: |
+            I have had the pleasure of working with Oliver on several projects at Microserve. He is a natural innovator and a great mentor who inspires others to explore new technologies and approaches. He is a highly knowledgeable professional with a passion for all things Drupal and the tenacity required to get the job done well.
+        name: Alan Hatch
+        title: Senior Drupal Developer at Microserve
+        url: ~
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/alan.jpeg'
+        tags: [coaching]
+    -
+        text: |
+            Oliver has been an outstanding contributor to the Drupal Association team. He is a talented developer who writes great code and applies his curiosity and love of learning to every project. He is also a fantastic team member, who gives to the team as much as he gets.
 
-      Oliver is the embodiment of everything good about the Drupal community.
-    name: Holly Ross
-    title: Executive Director at the Drupal Association
-    url: https://www.drupal.org/association
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/holly-ross.png'
-    tags: [subscription]
-  -
-    text: |
-      Oliver is a skilled Drupal developer with a passion for the Drupal community. As his direct supervisor, I was able to watch Oliver grow with the Drupal Association and contribute an amazing amount of effort and integrity to all of his work.
+            Oliver is the embodiment of everything good about the Drupal community.
+        name: Holly Ross
+        title: Executive Director at the Drupal Association
+        url: https://www.drupal.org/association
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/holly-ross.png'
+        tags: [subscription]
+    -
+        text: |
+            Oliver is a skilled Drupal developer with a passion for the Drupal community. As his direct supervisor, I was able to watch Oliver grow with the Drupal Association and contribute an amazing amount of effort and integrity to all of his work.
 
-      Everything we have thrown at Oliver, he has approached with an open and flexible mind that has allowed him to work on a wide range of projects and features for Drupal products.
-    name: Josh Mitchell
-    title: CTO at Drupal Association
-    url: https://joshuami.com
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/josh-mitchell.png'
-    tags: [subscription]
-  -
-    text: |
-      Oliver was great to work with. He has expert knowledge with Drupal and delivered exactly what we were looking for on time. He's understanding, friendly and easy to get along with. I would enjoy working with him again in the future.
-    name: Brian Hartwell
-    title: Interactive Creative Director
-    url: ~
-    image: ~
-    tags: [subscription]
-  -
-    text: |
-      Oliver was fantastic to work with - pro-active and highly responsive, he worked well remotely and as part of a project team. His understanding of the project requirement(s) and ability to translate it into working code was essential and he delivered.
-    name: Brian Healy
-    title: Director of Business Development at Tincan
-    url: ~
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/brian-healy.png'
-    tags: [subscription]
-  -
-    text: |
-      Oliver is an amazing colleague, he's professional, full of knowledge and I could not recommend him more.
-    name: Chris Jarvis
-    title: Developer at Microserve
-    url: ~
-    image:
-      url: '%site.assets_url%/assets/images/recommendations/chris-jarvis.jpg'
-  -
-    text: |
-      Oliver is seasoned Drupal and all round highly skilled and experienced web developer. I have worked with Oliver on an important project where he was reliable, prompt and ensured strict client deadline delivery and confidentiality at all times.
-    name: Daniel Easterbrook
-    title: Digital Strategy Consultant
-    tags: [subscription]
+            Everything we have thrown at Oliver, he has approached with an open and flexible mind that has allowed him to work on a wide range of projects and features for Drupal products.
+        name: Josh Mitchell
+        title: CTO at Drupal Association
+        url: https://joshuami.com
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/josh-mitchell.png'
+        tags: [subscription]
+    -
+        text: |
+            Oliver was great to work with. He has expert knowledge with Drupal and delivered exactly what we were looking for on time. He's understanding, friendly and easy to get along with. I would enjoy working with him again in the future.
+        name: Brian Hartwell
+        title: Interactive Creative Director
+        url: ~
+        image: ~
+        tags: [subscription]
+    -
+        text: |
+            Oliver was fantastic to work with - pro-active and highly responsive, he worked well remotely and as part of a project team. His understanding of the project requirement(s) and ability to translate it into working code was essential and he delivered.
+        name: Brian Healy
+        title: Director of Business Development at Tincan
+        url: ~
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/brian-healy.png'
+        tags: [subscription]
+    -
+        text: |
+            Oliver is an amazing colleague, he's professional, full of knowledge and I could not recommend him more.
+        name: Chris Jarvis
+        title: Developer at Microserve
+        url: ~
+        image:
+            url: '%site.assets_url%/assets/images/recommendations/chris-jarvis.jpg'
+    -
+        text: |
+            Oliver is seasoned Drupal and all round highly skilled and experienced web developer. I have worked with Oliver on an important project where he was reliable, prompt and ensured strict client deadline delivery and confidentiality at all times.
+        name: Daniel Easterbrook
+        title: Digital Strategy Consultant
+        tags: [subscription]

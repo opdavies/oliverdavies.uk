@@ -2,7 +2,7 @@
 title: Do you need a certified Drupal expert, core contributor and module maintainer?
 permalink: /
 meta:
-  title: '%site.slogan% | %site.name%'
+    title: '%site.slogan% | %site.name%'
 ---
 
 {% block meta_title %}Certified Drupal expert, Developer and Consultant | {{ site.name }}{% endblock %}

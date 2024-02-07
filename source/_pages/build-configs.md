@@ -1,14 +1,14 @@
 ---
 title: "Build Configs - configuration files as a service"
 products:
-  -
-    price: 2500
-    link: https://buy.stripe.com/14kbJs98K1fc0p29AC
-    buttonText: Get started
-  -
-    price: 1000
-    link: https://buy.stripe.com/7sIdRAbgS8HEfjWfZ1
-    buttonText: Sign up
+    -
+        price: 2500
+        link: https://buy.stripe.com/14kbJs98K1fc0p29AC
+        buttonText: Get started
+    -
+        price: 1000
+        link: https://buy.stripe.com/7sIdRAbgS8HEfjWfZ1
+        buttonText: Sign up
 ---
 
 **Sprint zero in a box.**

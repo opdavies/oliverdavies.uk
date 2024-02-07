@@ -1,7 +1,7 @@
 ---
 title: The Beyond Blocks podcast
 use:
-  - podcast_episodes
+    - podcast_episodes
 ---
 
 {% block content_bottom %}{% endblock %}

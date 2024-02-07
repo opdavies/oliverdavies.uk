@@ -1,7 +1,6 @@
 ---
 title: Talks and Workshops
-use:
-  - talks
+use: [talks]
 ---
 
 {% set talkCount = 0 %}

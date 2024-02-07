@@ -1,7 +1,7 @@
 ---
 title: Welcome to the Test-Driven Drupal email course
 meta:
-  title: Welcome to the Test-Driven Drupal email course | %site.name%
+    title: Welcome to the Test-Driven Drupal email course | %site.name%
 ---
 
 {% block head_meta %}
