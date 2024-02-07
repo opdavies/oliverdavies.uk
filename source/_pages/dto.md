@@ -2,8 +2,8 @@
 title: Introduction to Automated Testing and Test-Driven Development with Drupal
 drupal_version: 10
 prices:
-  early: 299
-  full: 499
+    early: 299
+    full: 499
 is_early_bird: true
 next_date: 2024-02-23
 ---

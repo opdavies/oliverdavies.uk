@@ -3,8 +3,8 @@ title: {{ title }}
 date: {{ date }}
 permalink: {{ permalink }}
 snippet: |
-  TODO
+    TODO
 # tags:
-#   - a
-#   - b
+#     - a
+#     - b
 ---

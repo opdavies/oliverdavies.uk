@@ -2,15 +2,15 @@
 title: Drupal VM, Meet Symfony Console
 description: How to develop command line applications using Symfony Console, using the Drupal VM CLI as an example.
 speakerdeck:
-  id: 56c79770f73f4e47a542a30243437c49
-  ratio: "1.37081659973226"
-  url: https://speakerdeck.com/opdavies/drupal-vm-meet-symfony-console
+    id: 56c79770f73f4e47a542a30243437c49
+    ratio: "1.37081659973226"
+    url: https://speakerdeck.com/opdavies/drupal-vm-meet-symfony-console
 image: drupal-vm-meet-symfony-console.png
 events:
-  -
-    name: DrupalCamp Bristol 2016
-    location: Bristol, UK
-    date: 2016-07-23
+    -
+        name: DrupalCamp Bristol 2016
+        location: Bristol, UK
+        date: 2016-07-23
 ---
 
 _TL;DR - Come and learn about Symfony Console, with examples from a real-world

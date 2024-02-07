@@ -2,34 +2,34 @@
 title: Getting (Your Data) Into Drupal 8
 description: An overview of Drupal’s Migrate functionality, and a look at how to write your own migrations.
 speakerdeck:
-  id: 63e5dfce996e46699e304d50e896477b
-  ratio: "1.77777777777778"
-  url: "https://speakerdeck.com/opdavies/getting-your-data-into-drupal-8-drupal_bristol"
+    id: 63e5dfce996e46699e304d50e896477b
+    ratio: "1.77777777777778"
+    url: "https://speakerdeck.com/opdavies/getting-your-data-into-drupal-8-drupal_bristol"
 video:
-  type: youtube
-  id: jtmARTuYhp8
+    type: youtube
+    id: jtmARTuYhp8
 tags: [drupalcamp, migration, drupal-8]
 meta:
-  og:
-    title: Getting (Your Data) into Drupal 8
-    description: "How I migrated the Drupal Bristol website onto Drupal 8."
-    type: website
-    image:
-      url: '%site.assets_url%/assets/images/talks/getting-your-data-into-drupal-8.png'
-      width: 2560
-      height: 1440
-      type: image/png
+    og:
+        title: Getting (Your Data) into Drupal 8
+        description: "How I migrated the Drupal Bristol website onto Drupal 8."
+        type: website
+        image:
+            url: '%site.assets_url%/assets/images/talks/getting-your-data-into-drupal-8.png'
+            width: 2560
+            height: 1440
+            type: image/png
 events:
-  -
-    name: DrupalCamp London 2017
-    date: 2017-03-04
-    time: "12:05 - 12:50"
-    location: London, UK
-  -
-    name: Drupal Bristol
-    date: 2017-01-18
-    location: Bristol, UK
-    url: https://www.drupalbristol.org.uk
+    -
+        name: DrupalCamp London 2017
+        date: 2017-03-04
+        time: "12:05 - 12:50"
+        location: London, UK
+    -
+        name: Drupal Bristol
+        date: 2017-01-18
+        location: Bristol, UK
+        url: https://www.drupalbristol.org.uk
 ---
 
 If you’ve moved a site from Drupal 6 to 7, the chances are that you’ve either used the upgrade path to update your old site in-place, or you built a new site from scratch and used the Migrate module from contrib to migrate your data from the old database.

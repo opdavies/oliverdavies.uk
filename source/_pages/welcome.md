@@ -1,7 +1,7 @@
 ---
 title: Welcome!
 meta:
-  title: Welcome to my Daily Email list | %site.name%
+    title: Welcome to my Daily Email list | %site.name%
 ---
 
 {% block head_meta %}
