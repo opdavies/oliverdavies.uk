@@ -1,10 +1,9 @@
-<div class="p-3 bg-[#ffc82c] text-black text-base mb-4 dark:text-white dark:bg-[#856200]">
-  <div class="min-w-full mx-auto px-6">
-    <div class="mx-auto max-w-xl prose prose-p:text-black prose:a:font-normal prose-p:text-sm prose-p:leading-normal dark:prose-p:text-white dark:prose-a:text-white text-center">
-      <p>
-        Is your New Year's resolution to deliver better software, faster?
-        I have availability for <a href="/team-coaching">team coaching starting in January 2024</a>.
-      </p>
+{% if site.banner_text %}
+  <div class="p-3 bg-[#ffc82c] text-black text-base mb-4 dark:text-white dark:bg-[#856200]">
+    <div class="min-w-full mx-auto px-6">
+      <div class="mx-auto max-w-xl prose prose-p:text-black prose:a:font-normal prose-p:text-sm prose-p:leading-normal dark:prose-p:text-white dark:prose-a:text-white text-center">
+        {{ site.banner_text|markdown }}
+      </div>
     </div>
   </div>
-</div>
+{% endif %}

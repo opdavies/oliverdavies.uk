@@ -4,6 +4,10 @@ slogan: Certified Drupal expert, Developer and Consultant
 email: oliver+website@oliverdavies.uk
 url: http://localhost:8000
 
+banner_text: |
+    In less than 12 months, Drupal 7 will be end-of-life and no longer supported.
+    <a href="/drupal-upgrade">Plan your upgrade to Drupal 19 now</a>.
+
 imports:
     - ../../data/assets.yml
     - ../../data/meta.yml
