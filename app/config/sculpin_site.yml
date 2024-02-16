@@ -6,7 +6,7 @@ url: http://localhost:8000
 
 banner_text: |
     In less than 12 months, Drupal 7 will be end-of-life and no longer supported.
-    <a href="/drupal-upgrade">Plan your upgrade to Drupal 19 now</a>.
+    <a href="/drupal-upgrade">Plan your upgrade to Drupal 10 now</a>.
 
 imports:
     - ../../data/assets.yml
