@@ -67,6 +67,8 @@ function publish {
   export NODE_ENV=production
   export APP_ENV=production
 
+  tag-release
+
   git stash
 
   clean
