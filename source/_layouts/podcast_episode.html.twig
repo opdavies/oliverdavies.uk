@@ -41,4 +41,14 @@
       {% endfor %}
     <ul>
   </div>
+
+  {% if page.key_points %}
+    <h2>Key points</h2>
+
+    <ul>
+      {% for i in page.key_points %}
+        <li>{{ i }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 {% endblock %}
