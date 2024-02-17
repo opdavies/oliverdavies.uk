@@ -1,5 +1,5 @@
 ---
-date: 2024-01-10
+date: 2024-02-10
 topic: Twig, Symfony and SymfonyCasts
 guests:
     - Ryan Weaver
