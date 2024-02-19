@@ -1,11 +1,11 @@
 ---
-title: Do you need a certified Drupal expert, core contributor and module maintainer?
+title: Do you need a Drupal expert to improve your website or development team?
 permalink: /
 meta:
     title: '%site.slogan% | %site.name%'
 ---
 
-{% block meta_title %}Certified Drupal expert, Developer and Consultant | {{ site.name }}{% endblock %}
+{% block meta_title %}Drupal Strategist, Consultant and certified Drupal expert | {{ site.name }}{% endblock %}
 
 {% block content %}
 
