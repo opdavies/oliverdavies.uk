@@ -24,11 +24,6 @@ ctas:
     module: |
         If you're creating a new Drupal module, try my <a href="https://github.com/opdavies/drupal-module-template">free Drupal module template</a>.
 
-links:
-    youtube:
-        name: opdavies
-        url: https://www.youtube.com/@%links.youtube.name%
-
 menu_links:
     -
         title: About
@@ -309,3 +304,8 @@ transistor:
         url: https://feeds.transistor.fm/beyond-blocks
     share:
         url: https://share.transistor.fm/e
+
+youtube:
+    channel:
+        slug: opdavies
+        url: https://www.youtube.com/@%youtube.channel.slug%
