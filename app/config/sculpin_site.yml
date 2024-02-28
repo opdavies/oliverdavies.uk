@@ -58,7 +58,7 @@ testimonials:
         title: Drupal Expert
         url: https://matthieuscarset.com
         image:
-            url: '%site.assets_url%/assets/images/recommendations/matthieu-scarset.jpg'
+            url: '%site.assets.url%/assets/images/recommendations/matthieu-scarset.jpg'
         tags: [testing]
     -
         text: |
@@ -66,7 +66,7 @@ testimonials:
         name: Alexander Carr
         title: Full Stack Software Engineer at School of Code
         image:
-            url: '%site.assets_url%/assets/images/recommendations/alexander-carr.jpg'
+            url: '%site.assets.url%/assets/images/recommendations/alexander-carr.jpg'
         tags: [daily]
     -
         text: |
@@ -74,7 +74,7 @@ testimonials:
         name: Adam Nuttall
         title: Drupal Engineer
         image:
-            url: '%site.assets_url%/assets/images/recommendations/adam-nuttall.jpg'
+            url: '%site.assets.url%/assets/images/recommendations/adam-nuttall.jpg'
         tags: [daily]
     -
         text: 
@@ -82,7 +82,7 @@ testimonials:
         name: Mike Karthauser
         title: Senior Software Engineer
         image:
-            url: '%site.assets_url%/assets/images/recommendations/mike-karthauser.jpg'
+            url: '%site.assets.url%/assets/images/recommendations/mike-karthauser.jpg'
         tags: [daily, testing, coaching]
     -
         text: |
@@ -103,7 +103,7 @@ testimonials:
         name: Marcos Duran
         title: Senior Software Engineer
         image:
-            url: '%site.assets_url%/assets/images/recommendations/marcos-duran.jpg'
+            url: '%site.assets.url%/assets/images/recommendations/marcos-duran.jpg'
         tags: [git, daily, coaching]
     -
         text: |
@@ -111,7 +111,7 @@ testimonials:
         name: Stephen Mulvihill
         title: Solutions Architect
         image:
-            url: '%site.assets_url%/assets/images/recommendations/stephen-mulvihill.jpg'
+            url: '%site.assets.url%/assets/images/recommendations/stephen-mulvihill.jpg'
         tags: [git, daily, coaching]
     -
         text: |
@@ -121,7 +121,7 @@ testimonials:
         name: Patty O'Callaghan
         title: Tech Lead
         image:
-            url: '%site.assets_url%/assets/images/recommendations/patty-ocallaghan.jpg'
+            url: '%site.assets.url%/assets/images/recommendations/patty-ocallaghan.jpg'
         tags: [daily]
     -
         text: |
@@ -136,7 +136,7 @@ testimonials:
         title: Senior Drupal Developer
         url: https://www.playingwithpixels.co.uk
         image:
-            url: '%site.assets_url%/assets/images/recommendations/tawny.jpg'
+            url: '%site.assets.url%/assets/images/recommendations/tawny.jpg'
         tags: [testing, coaching, call]
     -
         text: |
@@ -149,7 +149,7 @@ testimonials:
         title: Director, Bastion Insurance
         url: https://www.bastioninsurance.co.uk
         image:
-            url: '%site.assets_url%/assets/images/recommendations/joe-howell.jpg'
+            url: '%site.assets.url%/assets/images/recommendations/joe-howell.jpg'
         tags: [subscription, coaching]
     -
         text: |
@@ -158,7 +158,7 @@ testimonials:
         title: Senior Systems Administrator at the University of Bristol
         url: https://bristol.ac.uk
         image:
-            url: '%site.assets_url%/assets/images/recommendations/jon-hallett.jpeg'
+            url: '%site.assets.url%/assets/images/recommendations/jon-hallett.jpeg'
         tags: [subscription]
     -
         text: |
@@ -167,7 +167,7 @@ testimonials:
         title: Cofounder
         url: https://www.daylightbooks.org
         image:
-            url: '%site.assets_url%/assets/images/recommendations/michael-itkoff.jpg'
+            url: '%site.assets.url%/assets/images/recommendations/michael-itkoff.jpg'
         tags: [subscription]
     -
         text: |
@@ -184,7 +184,7 @@ testimonials:
         title: Publisher at Poetry Wales Press Ltd (Seren Books)
         url: https://www.serenbooks.com
         image:
-            url: '%site.assets_url%/assets/images/recommendations/mick-felton.jpg'
+            url: '%site.assets.url%/assets/images/recommendations/mick-felton.jpg'
         tags: [subscription, coaching]
     -
         text: |
@@ -193,7 +193,7 @@ testimonials:
         title: Director at Rohallion
         url: https://rohallion.agency
         image:
-            url: '%site.assets_url%/assets/images/recommendations/duncan.jpeg'
+            url: '%site.assets.url%/assets/images/recommendations/duncan.jpeg'
         tags: [subscription, coaching]
     -
         text: |
@@ -212,7 +212,7 @@ testimonials:
         title: Web Development Manager
         url: ~
         image:
-            url: '%site.assets_url%/assets/images/recommendations/adam.jpeg'
+            url: '%site.assets.url%/assets/images/recommendations/adam.jpeg'
         tags: [subscription]
     -
         text: |
@@ -225,7 +225,7 @@ testimonials:
         title: Web Dev Manager / DevOps / Team Manager at Admiral Group Plc
         url: https://admiral.com
         image:
-            url: '%site.assets_url%/assets/images/recommendations/huw.jpeg'
+            url: '%site.assets.url%/assets/images/recommendations/huw.jpeg'
         tags: [subscription]
     -
         text: |
@@ -234,7 +234,7 @@ testimonials:
         title: Head of Web Development
         url: ~
         image:
-            url: '%site.assets_url%/assets/images/recommendations/scott-euser.jpg'
+            url: '%site.assets.url%/assets/images/recommendations/scott-euser.jpg'
         tags: [testing, coaching]
     -
         text: |
@@ -243,7 +243,7 @@ testimonials:
         title: Senior Drupal Developer at Microserve
         url: ~
         image:
-            url: '%site.assets_url%/assets/images/recommendations/alan.jpeg'
+            url: '%site.assets.url%/assets/images/recommendations/alan.jpeg'
         tags: [coaching]
     -
         text: |
@@ -254,7 +254,7 @@ testimonials:
         title: Executive Director at the Drupal Association
         url: https://www.drupal.org/association
         image:
-            url: '%site.assets_url%/assets/images/recommendations/holly-ross.png'
+            url: '%site.assets.url%/assets/images/recommendations/holly-ross.png'
         tags: [subscription]
     -
         text: |
@@ -265,7 +265,7 @@ testimonials:
         title: CTO at Drupal Association
         url: https://joshuami.com
         image:
-            url: '%site.assets_url%/assets/images/recommendations/josh-mitchell.png'
+            url: '%site.assets.url%/assets/images/recommendations/josh-mitchell.png'
         tags: [subscription]
     -
         text: |
@@ -282,7 +282,7 @@ testimonials:
         title: Director of Business Development at Tincan
         url: ~
         image:
-            url: '%site.assets_url%/assets/images/recommendations/brian-healy.png'
+            url: '%site.assets.url%/assets/images/recommendations/brian-healy.png'
         tags: [subscription]
     -
         text: |
@@ -291,7 +291,7 @@ testimonials:
         title: Developer at Microserve
         url: ~
         image:
-            url: '%site.assets_url%/assets/images/recommendations/chris-jarvis.jpg'
+            url: '%site.assets.url%/assets/images/recommendations/chris-jarvis.jpg'
     -
         text: |
             Oliver is seasoned Drupal and all round highly skilled and experienced web developer. I have worked with Oliver on an important project where he was reliable, prompt and ensured strict client deadline delivery and confidentiality at all times.
