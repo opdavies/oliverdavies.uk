@@ -15,6 +15,12 @@ Hi, I'm Oliver - a certified Drupal Expert and Software Development Consultant w
 
 I'm a Drupal core contributor, module and theme maintainer, former Developer for the Drupal Association, and multiple-time DrupalCon speaker.
 
+{% include 'button' with {
+    position: 'centre',
+    text: 'Click here to email Oliver &rarr;',
+    url: 'mailto:' ~ site.email,
+} %}
+
 ## What I can help you with
 
 If you have a Drupal application, register for a [Drupal development subscription][subscription] and have unlimited access to an expert Drupal developer for a fixed monthly price.
@@ -34,6 +40,22 @@ Here are [all my products and services][pricing]. If you still can't find what y
   {% include 'testimonials' with {
     title: 'Kind words from clients, subscribers, and past colleagues',
   } %}
+
+  <section>
+      <h2 class="font-bold text-xl">Get in touch</h2>
+      <div class="mt-4 grid gap-4">
+        <div class="prose prose-p:text-black prose-a:font-light prose-a:text-blue-primary prose-p:text-lg prose-blockquote:border-blue-primary dark:marker:text-white prose-li:my-1 prose-li:text-lg prose-figcaption:text-white prose-li:text-black marker:text-black dark:prose-p:text-white dark:prose-invert dark:prose-a:text-blue-400 dark:prose-blockquote:border-blue-400 dark:prose-li:text-white hover:prose-a:no-underline prose-h2:text-xl prose-code:font-normal prose-h2:mb-4 prose-ul:my-3 dark:prose-hr:border-grey-400 prose-code:before:content-[''] prose-code:after:content-['']">
+            <p>There's no reason to wait. Send me an email and I'll get back to you ASAP.</p>
+        </div>
+        <div>
+            {% include 'button' with {
+                position: 'centre',
+                text: 'Click here to email Oliver &rarr;',
+                url: 'mailto:' ~ site.email,
+            } %}
+        </div>
+      </div>
+  </section>
 
   {% include 'daily-email-form.html.twig' with {
     title: 'Register for daily software development emails',
