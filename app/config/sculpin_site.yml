@@ -5,7 +5,7 @@ email: oliver+website@oliverdavies.uk
 url: http://localhost:8000
 
 assets:
-    url: https://oliverdavies-uk.s3.eu-west-2.amazonaws.com
+    url: '%url%'
     version: 3
 
 banner_text: |
