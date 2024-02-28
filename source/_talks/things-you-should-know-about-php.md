@@ -11,7 +11,7 @@ video:
 meta:
     og:
         image:
-            url: '%site.assets_url%/assets/images/talks/things-you-should-know-about-php.png'
+            url: '%site.assets.url%/assets/images/talks/things-you-should-know-about-php.png'
 events:
     -
         name: PHP Stoke

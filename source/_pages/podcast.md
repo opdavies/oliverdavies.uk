@@ -9,7 +9,7 @@ use:
 {% block content %}
 A weekly podcast about Drupal, open-source, and related software development topics.
 
-Subscribe at <https://feeds.transistor.fm/beyond-blocks>.
+Subscribe at <a href="{{ site.transistor.feed.url }}">{{ site.transistor.feed.url }}</a>.
 
 ## Episodes
 

@@ -9,7 +9,7 @@ video:
     type: youtube
     id: 81J0dPvqG-g
 image:
-    url: '%site.assets_url%/assets/images/talks/test-driven-drupal-development.png'
+    url: '%site.assets.url%/assets/images/talks/test-driven-drupal-development.png'
     width: 2560
     height: 1440
     type: image/png
