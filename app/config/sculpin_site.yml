@@ -51,6 +51,15 @@ meta:
 testimonials:
     -
         text: |
+                I really love your daily posts. They are opinionated, and this gives room for thoughts, I appreciate this.
+        name: Boris Böhne
+        title: Drupal Developer
+        url: https://www.drupal.org/u/drubb
+        image:
+            url: '%site.assets.url%/assets/images/recommendations/boris-bohne.jpg'
+        tags: [daily]
+    -
+        text: |
             Following your "Automated tests" emails and they are great! Such a pleasant reading. I love how you start from the very beginning and keeping things simple, step by step.
 
             Looking forward to more content!
