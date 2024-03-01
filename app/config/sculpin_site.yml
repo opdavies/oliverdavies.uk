@@ -129,6 +129,7 @@ testimonials:
             Thanks for contributing to the community with your amazing content!
         name: Patty O'Callaghan
         title: Tech Lead
+        url: https://pattyocallaghan.com
         image:
             url: '%site.assets.url%/assets/images/recommendations/patty-ocallaghan.jpg'
         tags: [daily]
