@@ -151,8 +151,9 @@ High quality code that just works. Or I fix it, for free!
 
     <footer class="mt-6">
       {% include 'button.html.twig' with {
-        text: 'Register now for the ' ~ plan.name|lower ~ ' plan &rarr;',
+        text: 'Register now for the ' ~ plan.name|lower ~ ' plan',
         url: plan.url,
+        withArrow: true,
       } %}
     </footer>
   </div>
@@ -165,9 +166,10 @@ High quality code that just works. Or I fix it, for free!
 And we'll figure out what's best for you.
 
 {% include 'button' with {
-    text: 'Get in touch &rarr;',
+    text: 'Get in touch',
     type: 'secondary',
     url: 'https://savvycal.com/opdavies/subscription',
+    withArrow: true,
 } %}
 
 ---

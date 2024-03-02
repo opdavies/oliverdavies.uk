@@ -17,8 +17,9 @@ I'm a Drupal core contributor, module and theme maintainer, former Developer for
 
 {% include 'button' with {
     position: 'centre',
-    text: 'Click here to email Oliver &rarr;',
+    text: 'Click here to email Oliver',
     url: 'mailto:' ~ site.email,
+    withArrow: true,
 } %}
 
 ## What I can help you with
@@ -50,8 +51,9 @@ Here are [all my products and services][pricing]. If you still can't find what y
         <div>
             {% include 'button' with {
                 position: 'centre',
-                text: 'Click here to email Oliver &rarr;',
+                text: 'Click here to email Oliver',
                 url: 'mailto:' ~ site.email,
+                withArrow: true,
             } %}
         </div>
       </div>

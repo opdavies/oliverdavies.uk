@@ -56,7 +56,8 @@ I offer consulting calls and services to reduce your onboarding time and get you
 
 <div class="mt-6">
   {% include 'button.html.twig' with {
-    text: 'Book your call &rarr;',
+    text: 'Book your call ',
     url: '/call',
+    withArrow: true,
   } %}
 </div>
