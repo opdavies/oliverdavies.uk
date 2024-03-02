@@ -37,8 +37,9 @@ An upgrade roadmap is a personalised audit of your Drupal website and includes d
 {# 1st call to action #}
 
 {% include 'button.html.twig' with {
-  text: page.button.text ~ ' &rarr;',
+  text: page.button.text ~ ' ',
   url: page.button.url,
+  withArrow: true,
 } %}
 
 ## How does it work?
@@ -54,8 +55,9 @@ An upgrade roadmap is a personalised audit of your Drupal website and includes d
 {# 2nd CTA #}
 
 {% include 'button.html.twig' with {
-  text: page.button.text ~ ' &rarr;',
+  text: page.button.text,
   url: page.button.url,
+  withArrow: true,
 } %}
 
 {# Social proof #}

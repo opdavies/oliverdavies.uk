@@ -1,5 +1,13 @@
 <div class="my-4 not-prose {{ position == 'centre' ? 'flex justify-center' }}">
-  <a class="inline-flex justify-center items-center py-3 px-6 w-full text-base font-medium text-white no-underline rounded-md duration-200 ease-in-out md:w-auto hover:bg-white focus:bg-white bg-blue-primary transition-color hover:text-blue-primary focus:text-blue-primary"href="{{ url }}">
-    {{ text|raw }}
-  </a>
+    <a class="inline-flex justify-center items-center py-3 px-6 w-full text-base font-medium text-white no-underline rounded-md duration-200 ease-in-out md:w-auto hover:bg-white focus:bg-white bg-blue-primary transition-color gap-2 hover:text-blue-primary focus:text-blue-primary" href="{{ url }}">
+        <span>
+            {{ text|raw }}
+        </span>
+
+        <span>
+            <svg class="size-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+        </span>
+    </a>
 </div>

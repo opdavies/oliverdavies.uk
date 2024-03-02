@@ -37,9 +37,10 @@ faqs:
 {# 1st call to action #}
 
 {% include 'button' with {
-  position: 'centre',
-  text: 'Book your call now &rarr;',
-  url: page.link,
+    position: 'centre',
+    text: 'Book your call now',
+    url: page.link,
+    withArrow: true,
 } %}
 
 <h2>Some things I can help you with</h2>
@@ -61,9 +62,10 @@ faqs:
 <p>In this 1-on-1 video call, I can help you answer questions in these areas or any others you may have.</p>
 
 {% include 'button' with {
-  position: 'centre',
-  text: 'Book your call now &rarr;',
-  url: page.link,
+    position: 'centre',
+    text: 'Book your call now',
+    url: page.link,
+    withArrow: true,
 } %}
 
 {# Social proof #}
@@ -103,8 +105,9 @@ faqs:
 } %}
   {% block callout_content %}
     {% include 'button.html.twig' with {
-      text: 'Book your call now for £' ~ page.price|number_format ~ ' &rarr;',
-      url: page.link,
+        text: 'Book your call now for £' ~ page.price|number_format ~ '',
+        url: page.link,
+        withArrow: true,
     } %}
 
     <p class="mb-0">You can pay and reserve your time slot straight away. There are a limited number of available slots each month. If, after the call, you decide to do a longer engagement with me, the cost of this call will be deducted from that engagement.</p>

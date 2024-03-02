@@ -63,8 +63,9 @@ link: https://savvycal.com/opdavies/pair
 } %}
   {% block callout_content %}
     {% include 'button.html.twig' with {
-      text: 'Book your session now for £' ~ page.price|number_format ~ ' &rarr;',
+      text: 'Book your session now for £' ~ page.price|number_format ~ ' ',
       url: page.link,
+      withArrow: true,
     } %}
 
     <p class="mb-0">You can pay and reserve your time slot straight away. There are a limited number of available slots each month. If, after the call, you decide to do a longer engagement with me, the cost of this call will be deducted from that engagement.</p>
