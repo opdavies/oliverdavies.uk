@@ -3,7 +3,7 @@ title: {{ title }}
 date: {{ date }}
 permalink: {{ permalink }}
 tags:
-    - softare-development
+    - software-development
     # - drupal
     # - php
     # - podcast
