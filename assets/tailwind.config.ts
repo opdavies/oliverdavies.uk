@@ -4,7 +4,10 @@ import formsPlugin from '@tailwindcss/forms';
 import typographyPlugin from "@tailwindcss/typography";
 
 export default {
-  content: ["./source/**/*.{md,twig}"],
+  content: [
+    "./app/config/**/*.yml",
+    "./source/**/*.{md,twig}",
+  ],
   theme: {
     colors: {
       black: "#000",
