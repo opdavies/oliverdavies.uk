@@ -13,18 +13,16 @@ banner_text: |
     <a href="/drupal-upgrade">Plan your upgrade to Drupal 10 now</a>.
 
 ctas:
-    call: |
-        Are you still using Drupal 7 and don’t know what’s involved to upgrade to Drupal 10? <a href="%site.url%/call">Book a Drupal 7 upgrade consultation call</a> or <a href="%site.url%/drupal-upgrade">an upgrade roadmap</a>.
     d7eol: |
         There's less than a year until Drupal 7's end-of-life date. <a href="%site.url%/drupal-upgrade">Plan your upgrade to Drupal 10 now!</a>
-    module: |
-        If you're creating a new Drupal module, try my <a href="https://github.com/opdavies/drupal-module-template">free Drupal module template</a>.
     subscription: |
         Do you need immediate access to an expert Drupal Developer? With my <a href="%site.url%/subscription">Drupal development subscription</a>, make unlimited requests for a fixed monthly price in less time than posting to a job board!
-    testing_course: |
-        Do you want to learn about automated testing in Drupal? Take my [free 10-day email course]({{site.url}}/atdc] and get daily lessons straight to your inbox.
+    call: |
+        Are you still using Drupal 7 and don’t know what’s involved to upgrade to Drupal 10? <a href="%site.url%/call">Book a Drupal 7 upgrade consultation call</a> or <a href="%site.url%/drupal-upgrade">an upgrade roadmap</a>.
     pair: |
         Need help or want another pair of eyes on your code? Book a <a href="%site.url%/call">1-on-1 consulting call</a> or an <a href="%site.url%/pair">online pair programming session</a> with a 100% money-back guarantee.,
+    module: |
+        If you're creating a new Drupal module, try my <a href="https://github.com/opdavies/drupal-module-template">free Drupal module template</a>.
 
 menu_links:
     -
