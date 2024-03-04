@@ -18,7 +18,7 @@ links:
     -
         - Web Component Design System
         - https://web-components-design-system.mark.ie
-key_points:
+talking_points:
     - Building better websites faster, including Drupal distributions, such as LocalGov.
     - What Drupal gives you out of the box and using the right tool for the job.
     - Drupal migrations and migrating Drupal configuration from a spreadsheet.
