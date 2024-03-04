@@ -22,7 +22,7 @@ ctas:
     subscription: |
         Do you need immediate access to an expert Drupal Developer? With my <a href="%site.url%/subscription">Drupal development subscription</a>, make unlimited requests for a fixed monthly price in less time than posting to a job board!
     testing_course: |
-        Do you want to learn about automated testing in Drupal? Take my [free 10-day email course](%site.url%/atdc) and get daily lessons straight to your inbox.
+        Do you want to learn about automated testing in Drupal? Take my <a href="%site.url%/atdc">free 10-day email course</a> and get daily lessons straight to your inbox.
     pair: |
         Need help or want another pair of eyes on your code? Book a <a href="%site.url%/call">1-on-1 consulting call</a> or an <a href="%site.url%/pair">online pair programming session</a> with a 100% money-back guarantee.,
 
