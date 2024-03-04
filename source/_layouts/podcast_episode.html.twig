@@ -30,6 +30,30 @@
 
   {{ parent() }}
 
+  {% if page.talking_points %}
+    <div>
+      <h2>Key points</h2>
+
+      <ul>
+        {% for point in page.talking_points %}
+          <li>{{ point }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
+  {% if page.quotes %}
+    <div>
+      <h2>Quotes</h2>
+
+      <ul>
+        {% for quote in page.quotes %}
+          <li>{{ quote }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
   <div>
     <h2>Links</h2>
 
@@ -41,14 +65,4 @@
       {% endfor %}
     <ul>
   </div>
-
-  {% if page.key_points %}
-    <h2>Key points</h2>
-
-    <ul>
-      {% for i in page.key_points %}
-        <li>{{ i }}</li>
-      {% endfor %}
-    </ul>
-  {% endif %}
 {% endblock %}
