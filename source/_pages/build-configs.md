@@ -19,7 +19,7 @@ Build Configs is a tool I've written to maintain a canonical set of templates an
 
 This makes it quicker and easier for me to create or onboard new projects to work on and, as all of the base files are centralised, when I fix something or add a new feature, the changes can be pushed to every project that uses it.
 
-I've been using this on personal projects such as my [Drupal](https://github.com/opdavies/docker-example-drupal), [LocalGov Drupal](https://github.com/opdavies/docker-example-drupal-localgov) and [Drupal Commerce Kickstart](https://github.com/opdavies/docker-example-drupal-commerce-kicksart) Docker examples and for various client projects.
+I've been using this on personal projects such as my [Drupal](https://github.com/opdavies/docker-example-drupal), [LocalGov Drupal](https://github.com/opdavies/docker-example-drupal-localgov) and [Drupal Commerce Kickstart](https://github.com/opdavies/docker-example-drupal-commerce-kickstart) Docker examples and for various client projects.
 
 ## How does it work?
 
