@@ -43,6 +43,10 @@
   <body>
     {% block body %}{% endblock %}
 
+    {% if site.plausible.domain %}
+      <script defer data-domain="{{ site.plausible.domain }}" src="https://plausible.io/js/script.js"></script>
+    {% endif %}
+
     {% block scripts %}{% endblock %}
   </body>
 </html>
