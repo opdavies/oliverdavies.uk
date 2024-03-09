@@ -6,6 +6,6 @@ sculpin_content_types:
   podcast_episodes:
     permalink: /podcast/:basename/
   posts:
-    enabled: false
+    permalink: /blog/:basename/
   talks:
     permalink: /talks/:basename/
