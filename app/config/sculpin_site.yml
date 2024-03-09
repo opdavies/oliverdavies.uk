@@ -162,7 +162,7 @@ testimonials:
         url: https://www.bastioninsurance.co.uk
         image:
             url: '%site.assets.url%/assets/images/recommendations/joe-howell.jpg'
-        tags: [subscription, coaching]
+        tags: [front, subscription, coaching]
     -
         text: |
             We use Oliver for maintaining a couple of Drupal sites for which we no longer have the skills ourselves. We became aware of Oliver through his work in the Drupal community, and about a year ago we approached him to help us with the deep dive aspects of maintaining and developing Drupal sites. He's been really helpful and very responsive. Much appreciated!
@@ -171,7 +171,7 @@ testimonials:
         url: https://bristol.ac.uk
         image:
             url: '%site.assets.url%/assets/images/recommendations/jon-hallett.jpeg'
-        tags: [subscription]
+        tags: [front, subscription]
     -
         text: |
             For over a decade we have worked with Oliver on a number of different projects. Initially our collaboration consisted of web maintenance and troubleshooting but we soon tapped Oliver to design, build and maintain a custom awards site which includes both submission and judging functionality. Oliver has deep and wide-ranging skills and I would certainly recommend his services!
@@ -180,7 +180,7 @@ testimonials:
         url: https://www.daylightbooks.org
         image:
             url: '%site.assets.url%/assets/images/recommendations/michael-itkoff.jpg'
-        tags: [subscription]
+        tags: [front, subscription]
     -
         text: |
             Working with Oliver on the Seren website has been easy and beneficial.
@@ -197,7 +197,7 @@ testimonials:
         url: https://www.serenbooks.com
         image:
             url: '%site.assets.url%/assets/images/recommendations/mick-felton.jpg'
-        tags: [subscription, coaching]
+        tags: [front, subscription, coaching]
     -
         text: |
             Oliver is a pleasure to work with, and I would engage him again without hesitation. He communicates regularly, ensures that he meets requirements, and suggests improvements to the potential solutions to the brief.
@@ -206,7 +206,7 @@ testimonials:
         url: https://rohallion.agency
         image:
             url: '%site.assets.url%/assets/images/recommendations/duncan.jpeg'
-        tags: [subscription, coaching]
+        tags: [front, subscription, coaching]
     -
         text: |
             We have only worked together for a short while but I can see Oliver is a Drupal expert.
@@ -216,7 +216,7 @@ testimonials:
             If we have complex issues to contend with in the future I feel confident he will be able to deal with them.
         name: Anonymous
         title: Marketing Strategist
-        tags: [subscription]
+        tags: [front, subscription]
     -
         text: |
             A fantastic and highly knowledgeable Drupal Developer. Oliver saved a struggling Drupal project with his wealth of Drupal experience.
@@ -225,7 +225,7 @@ testimonials:
         url: ~
         image:
             url: '%site.assets.url%/assets/images/recommendations/adam.jpeg'
-        tags: [subscription]
+        tags: [front, subscription]
     -
         text: |
             I had the pleasure of working with Oliver whilst building the first version of our drupal based intranet. His knowledge of Drupal and the wider infrastructure required to run a site was really invaluable.
@@ -238,7 +238,7 @@ testimonials:
         url: https://admiral.com
         image:
             url: '%site.assets.url%/assets/images/recommendations/huw.jpeg'
-        tags: [subscription]
+        tags: [front, subscription]
     -
         text: |
             Oliver really knows his stuff. Whether you are just starting out or looking to take your knowledge to the next level, his patient and clear way of explaining will help get you there.
@@ -267,7 +267,7 @@ testimonials:
         url: https://www.drupal.org/association
         image:
             url: '%site.assets.url%/assets/images/recommendations/holly-ross.png'
-        tags: [subscription]
+        tags: [front, subscription]
     -
         text: |
             Oliver is a skilled Drupal developer with a passion for the Drupal community. As his direct supervisor, I was able to watch Oliver grow with the Drupal Association and contribute an amazing amount of effort and integrity to all of his work.
@@ -278,7 +278,7 @@ testimonials:
         url: https://joshuami.com
         image:
             url: '%site.assets.url%/assets/images/recommendations/josh-mitchell.png'
-        tags: [subscription]
+        tags: [front, subscription]
     -
         text: |
             Oliver was great to work with. He has expert knowledge with Drupal and delivered exactly what we were looking for on time. He's understanding, friendly and easy to get along with. I would enjoy working with him again in the future.
@@ -286,7 +286,7 @@ testimonials:
         title: Interactive Creative Director
         url: ~
         image: ~
-        tags: [subscription]
+        tags: [front, subscription]
     -
         text: |
             Oliver was fantastic to work with - pro-active and highly responsive, he worked well remotely and as part of a project team. His understanding of the project requirement(s) and ability to translate it into working code was essential and he delivered.
@@ -295,7 +295,7 @@ testimonials:
         url: ~
         image:
             url: '%site.assets.url%/assets/images/recommendations/brian-healy.png'
-        tags: [subscription]
+        tags: [front, subscription]
     -
         text: |
             Oliver is an amazing colleague, he's professional, full of knowledge and I could not recommend him more.
@@ -309,7 +309,7 @@ testimonials:
             Oliver is seasoned Drupal and all round highly skilled and experienced web developer. I have worked with Oliver on an important project where he was reliable, prompt and ensured strict client deadline delivery and confidentiality at all times.
         name: Daniel Easterbrook
         title: Digital Strategy Consultant
-        tags: [subscription]
+        tags: [front, subscription]
 
 plausible:
     domain: ~

@@ -39,6 +39,7 @@ Here are [all my products and services][pricing]. If you still can't find what y
 
 {% block content_bottom %}
   {% include 'testimonials' with {
+    tag: 'front',
     title: 'Kind words from clients, subscribers, and past colleagues',
   } %}
 
