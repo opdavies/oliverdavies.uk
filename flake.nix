@@ -23,8 +23,8 @@
           packages = with pkgs; [
             "nodePackages.pnpm"
             "nodejs"
-            "php81"
-            "php81Packages.composer"
+            "php82"
+            "php82Packages.composer"
           ];
         };
 
