@@ -185,9 +185,9 @@ And we'll figure out what's best for you.
 ## Frequently asked questions
 
 {% for faq in page.faqs %}
-    <h3>{{ faq.0 }}</h3>
+  <h3>{{ faq.0 }}</h3>
 
-    {{ faq.1|markdown }}
+  {{ faq.1|markdown }}
 {% endfor %}
 
 ---
