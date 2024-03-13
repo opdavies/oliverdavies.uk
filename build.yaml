@@ -13,6 +13,7 @@ flake:
 git:
   ignore:
     - '/source/build/'
+    - '!/.markdownlint.yaml'
     - '!/assets/'
     - '!/data/'
     - '!/package.json'
