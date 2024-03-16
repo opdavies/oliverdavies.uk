@@ -66,7 +66,5 @@ asdf
       tag: 'subscription',
       title: 'Kind words from clients',
     } %}
-
-    {{ parent() }}
   </div>
 {% endblock %}
