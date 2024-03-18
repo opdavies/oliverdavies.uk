@@ -1,9 +1,6 @@
 imports:
     - sculpin_site.yml
 
-assets:
-    url: https://oliverdavies-uk.s3.eu-west-2.amazonaws.com
-
 plausible:
     domain: oliverdavies.uk
 
