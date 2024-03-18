@@ -53,6 +53,15 @@ meta:
 testimonials:
     -
         text: |
+            I'm liking your short emails. They're just the right length that isn't too distracting but I'm able to consume it in a single glance.
+        name: Kevin Coyle
+        title: Design System Engineering Consultant
+        url: https://www.coyledesign.co.uk
+        image:
+            url: '%site.assets.url%/assets/images/recommendations/kevin-coyle.jpg'
+        tags: [daily]
+    -
+        text: |
                 I really love your daily posts. They are opinionated, and this gives room for thoughts, I appreciate this.
         name: Boris Böhne
         title: Drupal Developer
