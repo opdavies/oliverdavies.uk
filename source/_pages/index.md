@@ -1,6 +1,8 @@
 ---
 title: Get Unlimited Drupal Consulting for a Fixed Monthly Price
 permalink: /
+meta:
+    title: Unlimited Drupal Consulting by Oliver Davies
 supported_version: 10
 plans:
     -
