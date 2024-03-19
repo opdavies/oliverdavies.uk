@@ -5,20 +5,15 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
 
-  outputs = inputs @ {flake-parts, ...}:
-    flake-parts.lib.mkFlake {inherit inputs;} {
-      imports = [inputs.devshell.flakeModule];
+  outputs = inputs@{ flake-parts, ... }:
+    flake-parts.lib.mkFlake { inherit inputs; } {
+      imports = [ inputs.devshell.flakeModule ];
 
-      systems = ["x86_64-linux"];
+      systems = [ "x86_64-linux" ];
 
-      perSystem = {
-        config,
-        self',
-        inputs',
-        pkgs,
-        system,
-        ...
-      }: {
+      perSystem = { config, self', inputs', pkgs, system, ... }: {
+        formatter = pkgs.nixfmt;
+
         devshells.default = {
           packages = with pkgs; [
             "nodePackages.pnpm"
@@ -27,8 +22,6 @@
             "php82Packages.composer"
           ];
         };
-
-        formatter = pkgs.alejandra;
       };
     };
 }
