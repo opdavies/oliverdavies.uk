@@ -85,7 +85,7 @@ faqs:
 
 {% block content %}
 
- In less time than it takes to post on a job board, and for a fraction of the cost, get unlimited access to a certified Drupal development expert, core contributor and multiple-time DrupalCon speaker for a fixed monthly fee. No surprises. Cancel anytime.
+ In less time than it takes to post on a job board, and for a fraction of the cost, get **unlimited access to a certified Drupal development expert**, core contributor and multiple-time DrupalCon speaker for a fixed monthly fee. No surprises. Cancel anytime.
 
 ---
 
