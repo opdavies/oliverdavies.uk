@@ -81,6 +81,8 @@ faqs:
         - Do you have a refund policy?
         - |-
             Yes, of course. If you're unhappy with my work for any reason during your first month of service, just say the word, and I'll give you a full refund. No questions asked.
+urls:
+    exploratory_call: https://savvycal.com/opdavies/drupal-consulting-exploratory-call
 ---
 
 {% block content %}
@@ -92,6 +94,20 @@ faqs:
 ## You're already running my code in production
 
 I've contributed code to Drupal core and written popular contributed Drupal modules and themes, PHP and JavaScript libraries, and Tailwind CSS plugins.
+
+---
+
+## What does it include?
+
+{# TODO: add more information about each of these. #}
+
+- Analysis and audit
+- Roadmap and planning
+- Implementation and maintenance
+- Team training
+- Ongoing advisory
+
+**Looking for something else?** I also offer fixed-scope consulting engagements and one-time advisory calls. [Book a short exploratory call]({{page.urls.exploratory_call}}) to see if we'd be a good match.
 
 ---
 
