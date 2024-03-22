@@ -95,6 +95,8 @@ urls:
 
 I've contributed code to Drupal core and written popular contributed Drupal modules and themes, PHP and JavaScript libraries, and Tailwind CSS plugins.
 
+For example, the Override Node Options module is used on around 40,000 active Drupal websites.
+
 ---
 
 ## What does it include?
