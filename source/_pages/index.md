@@ -224,7 +224,3 @@ And we'll figure out what's best for you.
 {# TODO: add daily subscription form #}
 
 {% endblock %}
-
-{% block content_top %}
-  {% include 'message.html.twig' %}
-{% endblock %}
