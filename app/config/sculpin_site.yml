@@ -8,9 +8,7 @@ assets:
     url: '%url%'
     version: 4
 
-banner_text: |
-    In less than 12 months, Drupal 7 will be end-of-life and no longer supported.
-    <a href="/drupal-upgrade">Plan your upgrade to Drupal 10 now</a>.
+banner_text: ~
 
 ctas:
     call: |
