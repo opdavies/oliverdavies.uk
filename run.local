@@ -68,6 +68,7 @@ function publish {
   export APP_ENV=production
 
   tag-release
+  git push
 
   git stash
 
