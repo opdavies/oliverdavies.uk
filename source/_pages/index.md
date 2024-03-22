@@ -62,7 +62,7 @@ faqs:
     -
         - What if I don't like how something turned out?
         - |-
-            Development is an iterative process. Unlike an agency that will charge you extra for change orders, you get unlimited revisions until you’re happy with the work.
+            Development is an iterative process. Unlike an agency that will charge you extra for change orders, you get unlimited revisions until you're happy with the work.
     -
         - What if I only have a single request?
         - |-
@@ -103,11 +103,13 @@ For example, the Override Node Options module is used on around 40,000 active Dr
 
 {# TODO: add more information about each of these. #}
 
-- Analysis and audit
-- Roadmap and planning
-- Implementation and maintenance
-- Team training
-- Ongoing advisory
+- **Analysis & Audit**. I can help you identify expensive bottlenecks, hidden issues, and potential problems with your site. I'll put together a detailed report with actionable next-steps on how to fix any issues.
+- **Roadmap & Planning**. We'll identify your goals and challenges, and I'll put together a custom roadmap to help you get there.
+- **Implementation and Maintenance**. I can build your project for you, or work with your engineering team to accelerate your progress.
+- **Team Training**. Give your team the skills they need to get more done. Grow, retain, and attract talented developers.
+- **Ongoing Advisory**. Throughout the duration of your project, I'll be available to review progress, answer questions, recommend tools and processes, share emerging best practices, and keep your project on the right track.
+
+{# TODO: I don't want people to book an advisory call before an advisory call or pair programming session. #}
 
 **Looking for something else?** I also offer fixed-scope consulting engagements and one-time advisory calls. [Book a short exploratory call]({{page.urls.exploratory_call}}) to see if we'd be a good match.
 
