@@ -223,4 +223,5 @@ And we'll figure out what's best for you.
 
 {# TODO: add daily subscription form #}
 
+{% include 'drupal-association' %}
 {% endblock %}
