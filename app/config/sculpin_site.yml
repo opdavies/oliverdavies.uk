@@ -6,7 +6,7 @@ url: http://localhost:8000
 
 assets:
     url: '%url%'
-    version: 3
+    version: 4
 
 banner_text: |
     In less than 12 months, Drupal 7 will be end-of-life and no longer supported.
