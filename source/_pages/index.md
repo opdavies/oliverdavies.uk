@@ -38,6 +38,10 @@ faqs:
 
             My suggestion is to do them regularly to reduce the risk of an update breaking your application.
     -
+        - Do you work with Drupal Commerce?
+        - |-
+            Yes, I have a lot of experience with Drupal Commerce and have used it for [various types of e-commerce applications](/archive/2024/03/19/drupal-commerce-not-just-for-selling-t-shirts-and-hats).
+    -
         - Is there a limit to how many requests I can have?
         - |-
             No. Once you're subscribed, you can add as many tasks to your queue as you'd like, and they'll be delivered one-by-one.
