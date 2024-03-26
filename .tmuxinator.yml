@@ -1,0 +1,10 @@
+name: oliverdavies-uk
+root: .
+
+windows:
+  - vim: nvim
+  - workers:
+      panes:
+        - ./run start
+        - ./run npm:build:css
+  - shell:
