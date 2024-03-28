@@ -91,7 +91,25 @@ urls:
 
 {% block content %}
 
- In less time than it takes to post on a job board, and for a fraction of the cost, get **unlimited access to a certified Drupal development expert**, core contributor and multiple-time DrupalCon speaker for a fixed monthly fee. No surprises. Cancel anytime.
+{# Pain #}
+
+- Are bugs and errors on your Drupal website losing you customers?
+- Are you stuck on an outdated or unsupported version of Drupal?
+- Are you unable to efficiently change your website and spend your time searching for workarounds?
+- Does it take too long to release new features and bug fixes?
+- Are you considering switching to Drupal from your current CMS and wondering if it's the right choice?
+
+<!--
+- Do you need something added or fixed on your website but don't know where to start?
+- Do you want to enhance and upskill your in-house development team?
+- Is your website full of legacy code that no one understands or you don't use and that you still need to maintain?
+-->
+
+---
+
+{# Solution #}
+
+In less time than it takes to post on a job board, and for a fraction of the cost, get **unlimited access to a certified Drupal development expert**, core contributor and multiple-time DrupalCon speaker for a fixed monthly fee. No surprises. Cancel anytime.
 
 ---
 
