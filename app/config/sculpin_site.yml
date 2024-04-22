@@ -51,6 +51,14 @@ meta:
 testimonials:
     -
         text: |
+            Well done. You've created a really excellent resource here that has the potential to bring Drupal development forward a huge leap. You’ve managed to simplify and share some often complex seeming issues.
+        name: Adam Nuttall
+        title: Drupal Engineer
+        image:
+            url: '%site.assets.url%/assets/images/recommendations/adam-nuttall.jpg'
+        tags: [testing]
+    -
+        text: |
             I'm liking your short emails. They're just the right length that isn't too distracting but I'm able to consume it in a single glance.
         name: Kevin Coyle
         title: Design System Engineering Consultant
