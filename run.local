@@ -46,7 +46,7 @@ function create-daily {
 
 ${title}"
 
-  git log --stat -1
+  echo "${filepath}"
 }
 
 function npm:build:css {
