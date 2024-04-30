@@ -51,12 +51,20 @@ meta:
 testimonials:
     -
         text: |
+            The course was very informative. One of the biggest pain points with Drupal testing was that there was no clear and definitive guide on setting up the php unit XML file to get functional and kernel tests working right away. Your guide was fantastic and I will definitely be using it going forward in my module development for work.
+        name: Frank Landry
+        title: ~
+        image:
+            url: '%site.assets.url%/assets/images/recommendations/frank-landry.jpg'
+        tags: [testing, atdc]
+    -
+        text: |
             Well done. You've created a really excellent resource here that has the potential to bring Drupal development forward a huge leap. You’ve managed to simplify and share some often complex seeming issues.
         name: Adam Nuttall
         title: Drupal Engineer
         image:
             url: '%site.assets.url%/assets/images/recommendations/adam-nuttall.jpg'
-        tags: [testing]
+        tags: [testing, atdc]
     -
         text: |
             I'm liking your short emails. They're just the right length that isn't too distracting but I'm able to consume it in a single glance.
@@ -85,7 +93,7 @@ testimonials:
         url: https://matthieuscarset.com
         image:
             url: '%site.assets.url%/assets/images/recommendations/matthieu-scarset.jpg'
-        tags: [testing]
+        tags: [testing, atdc]
     -
         text: |
             Hi Oliver, we met briefly at the Tech Connect event in London last month. Been reading through a few of your latest posts and have found the messages valuable, especially as we spent the week learning about unit, integration and e2e testing. I have signed up to your mailing list to keep the good advice flowing!
@@ -109,7 +117,7 @@ testimonials:
         title: Senior Software Engineer
         image:
             url: '%site.assets.url%/assets/images/recommendations/mike-karthauser.jpg'
-        tags: [daily, testing, coaching]
+        tags: [daily, testing, coaching, atdc]
     -
         text: |
             I had the opportunity and good fortune to work with Oliver solving two problems that I was having on a Drupal Commerce site.    I have done several Drupal sites using UberCart, but since it is deprecated, I chose to use Commerce. I had searched, posted to forums, and other normal means to find answers to my problems, to no response and to no avail.
@@ -164,7 +172,7 @@ testimonials:
         url: https://www.playingwithpixels.co.uk
         image:
             url: '%site.assets.url%/assets/images/recommendations/tawny.jpg'
-        tags: [testing, coaching, call]
+        tags: [testing, coaching, call, atdc]
     -
         text: |
             I've worked with Oliver for a number of years on B2C and B2B web projects and he has always demonstrated himself to be an expert in his field.
