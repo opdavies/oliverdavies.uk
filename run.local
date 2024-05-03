@@ -76,8 +76,9 @@ function publish {
   npm:build:css
   generate
 
-  rsync --archive --verbose --compress --update --delete \
-    output_prod/ ssh.oliverdavies.uk:/srv/oliverdavies.uk-sculpin
+  ansible-playbook tools/ansible/deploy.yaml \
+    -i tools/ansible/hosts.ini \
+    --ask-become-pass
 
   git stash pop
 }
