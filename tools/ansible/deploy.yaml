@@ -1,0 +1,18 @@
+---
+- hosts: all
+
+  vars:
+    project_dir: /srv/www.oliverdavies.uk
+
+  tasks:
+    - ansible.builtin.file:
+        path: "{{ project_dir }}"
+        state: directory
+        owner: opdavies
+        group: opdavies
+      become: true
+
+    - ansible.builtin.synchronize:
+        src: ../../output_prod/
+        dest: "{{ project_dir }}"
+        delete: true

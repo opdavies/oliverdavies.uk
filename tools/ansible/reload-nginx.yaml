@@ -1,0 +1,16 @@
+---
+- hosts: all
+  become: true
+
+  vars:
+    domain: www.oliverdavies.uk
+
+  tasks:
+    - ansible.builtin.copy:
+        src: ../nginx/{{ domain }}.conf
+        dest: /etc/nginx/sites-available/{{ domain }}.conf
+
+    - ansible.builtin.file:
+        src: /etc/nginx/sites-available/{{ domain }}.conf
+        dest: /etc/nginx/sites-enabled/{{ domain }}.conf
+        state: link
