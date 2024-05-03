@@ -8,7 +8,6 @@ speakerdeck:
 video:
     type: youtube
     id: jtmARTuYhp8
-tags: [drupalcamp, migration, drupal-8]
 meta:
     og:
         title: Getting (Your Data) into Drupal 8
