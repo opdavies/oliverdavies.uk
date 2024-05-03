@@ -7,3 +7,7 @@
 
 /node_modules/
 /source/build/
+
+# PHPUnit.
+/.phpunit.cache/
+/.phpunit.result.cache
