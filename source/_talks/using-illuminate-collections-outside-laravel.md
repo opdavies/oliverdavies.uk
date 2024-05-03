@@ -8,7 +8,6 @@ speakerdeck:
 video:
     type: youtube
     id: 1l0kO-iaN_o
-tags: [nomad-php, lightning-talk, laravel, collections]
 type: Lightning talk
 events:
     -

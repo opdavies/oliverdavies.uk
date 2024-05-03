@@ -1,7 +1,6 @@
 ---
 title: "Drupal 8: Rejoining the Herd"
 description: A talk highlighting some of the recent technical and non-technical changes in Drupal 8.
-tags: [conference, php, drupal, drupal-8]
 speakerdeck:
     id: 440fd6592f474741bc606c96bc32c104
     ratio: "1.37081659973226"

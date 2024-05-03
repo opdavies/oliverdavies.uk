@@ -1,7 +1,6 @@
 ---
 title: Goodbye Drush Make. Hello Composer!
 description: How to use Composer to manage your Drupal applications.
-tags: ["meetup", "drupal", "composer"]
 speakerdeck:
     id: 1c1e0e129ab34816bd4c4edb5f6642c2
     ratio: "1.37081659973226"

@@ -5,7 +5,6 @@ speakerdeck:
     id: c147618ce07546ca92f92983c52d6a41
     ratio: "1.77777777777778"
     url: https://speakerdeck.com/opdavies/deploying-php-applications-with-fabric
-tags: [meetup, conference, php, fabric]
 meta:
     og:
         title: Deploying PHP Applcations with Fabric

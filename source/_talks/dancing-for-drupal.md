@@ -1,7 +1,6 @@
 ---
 title: Dancing for Drupal
 description: A talk on Drupal, presented alongside others representing Umbraco, Sitecore and Episerver.
-tags: [meetup, umbristol, drupal]
 tweets: yes
 speakerdeck:
     id: ffa9b6dea6dc4a8eb207b9982ed6e1bd

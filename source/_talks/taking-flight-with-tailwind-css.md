@@ -9,7 +9,6 @@ speakerdeck:
 video:
     id: C20QZbGlmZ8
     type: youtube
-tags: [css, tailwind, meetup]
 events:
     -
         name: DrupalCamp Belgium
