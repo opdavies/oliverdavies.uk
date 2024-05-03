@@ -2,7 +2,3 @@
 {% macro dailiesCount(dailies) %}
     {{- dailies|length|round(-1, 'floor') -}}+
 {% endmacro %}
-
-{% macro yearsExperience() %}
-    {{- today|date('Y') - 2007 -}}
-{% endmacro %}
