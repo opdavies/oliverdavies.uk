@@ -44,6 +44,34 @@ class OpdaviesTwigExtensionTest extends TestCase
         self::assertSame(1, $this->extension->getPastTalkCount([$talkA, $talkB]));
     }
 
+    public function testSingleTalkWithMultiplePastEvents(): void
+    {
+        $talk = $this->createTalk(
+            events: [
+                ['date' => (new \DateTime('-1 days'))->getTimestamp()],
+                ['date' => (new \DateTime('-1 week'))->getTimestamp()],
+                ['date' => (new \DateTime('-1 year'))->getTimestamp()],
+            ],
+        );
+
+        self::assertSame(3, $this->extension->getPastTalkCount([$talk]));
+    }
+
+    public function testSingleTalkWithMultiplePastAndFutureEvents(): void
+    {
+        $talk = $this->createTalk(
+            events: [
+                ['date' => (new \DateTime('+1 day'))->getTimestamp()],
+                ['date' => (new \DateTime('-1 day'))->getTimestamp()],
+                ['date' => (new \DateTime('-1 week'))->getTimestamp()],
+                ['date' => (new \DateTime('+1 year'))->getTimestamp()],
+                ['date' => (new \DateTime('-1 year'))->getTimestamp()],
+            ],
+        );
+
+        self::assertSame(3, $this->extension->getPastTalkCount([$talk]));
+    }
+
     public function testMultiplePastEvents(): void
     {
         $talkA = $this->createTalk(
