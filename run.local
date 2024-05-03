@@ -82,4 +82,8 @@ function publish {
   git stash pop
 }
 
+function test {
+  ./vendor/bin/phpunit "${@}"
+}
+
 # vim: ft=bash
