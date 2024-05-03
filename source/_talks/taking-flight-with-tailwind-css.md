@@ -12,6 +12,11 @@ video:
 tags: [css, tailwind, meetup]
 events:
     -
+        name: DrupalCamp Belgium
+        location: Ghent, Belgium
+        date: 2024-05-11
+        url: https://www.drupalcamp.be/en/drupalcamp-ghent-2024/session/taking-flight-tailwi%E2%80%A6
+    -
         name: Norfolk Developers Conference
         location: Norwich, UK
         date: 2023-02-23

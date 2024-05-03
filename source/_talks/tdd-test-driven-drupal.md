@@ -16,6 +16,11 @@ image:
 use: [talks]
 events:
     -
+        name: DrupalCamp Belgium
+        location: Ghent, Belgium
+        date: 2024-05-10
+        url: https://www.drupalcamp.be/en/drupalcamp-ghent-2024/session/tdd-test-driven-drup%E2%80%A6
+    -
         name: DrupalCon Lille 2023
         location: Lille, France
         date: 2023-10-17
