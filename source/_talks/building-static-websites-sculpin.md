@@ -13,6 +13,11 @@ video:
     id: xRTiWR9nBSA
 events:
     -
+        name: BrumPHP
+        date: 2024-05-23
+        location: Birmingham, UK
+        url: https://www.eventbrite.com/e/brumphp-23rd-may-2024-tickets-803037766577
+    -
         name: PHP South West
         date: 2024-02-14
         location: Bristol, UK
