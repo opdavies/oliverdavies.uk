@@ -10,7 +10,7 @@ Please feel free to use anything here as-is without checking with me first. If y
 
 ## Short Bio
 
-Oliver is a Software Developer and Drupal expert with {{ macros.yearsExperience }} years experience. He specialises in code quality, automated testing and test-driven development.
+Oliver is a Software Developer and Drupal expert with {{ get_years_of_experience() }} years experience. He specialises in code quality, automated testing and test-driven development.
 
 ## Sample Topics
 

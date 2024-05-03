@@ -6,6 +6,10 @@
     "config": {
         "allow-plugins": {
             "sculpin/sculpin-theme-composer-plugin": true
-        }
-    }
+       }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src" }
+   }
 }
