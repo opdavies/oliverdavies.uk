@@ -24,7 +24,7 @@ class OpdaviesTwigExtensionTest extends TestCase
             ],
         );
 
-        self::assertSame(0, $this->extension->getPastTalkCount([$talk]));
+        $this->assertTalkCount(expectedCount: 0, talks: [$talk]);
     }
 
     public function testSinglePastEvent(): void
@@ -41,7 +41,7 @@ class OpdaviesTwigExtensionTest extends TestCase
             ],
         );
 
-        self::assertSame(1, $this->extension->getPastTalkCount([$talkA, $talkB]));
+        $this->assertTalkCount(expectedCount: 1, talks: [$talkA, $talkB]);
     }
 
     public function testSingleTalkWithMultiplePastEvents(): void
@@ -54,7 +54,7 @@ class OpdaviesTwigExtensionTest extends TestCase
             ],
         );
 
-        self::assertSame(3, $this->extension->getPastTalkCount([$talk]));
+        $this->assertTalkCount(expectedCount: 3, talks: [$talk]);
     }
 
     public function testSingleTalkWithMultiplePastAndFutureEvents(): void
@@ -69,7 +69,7 @@ class OpdaviesTwigExtensionTest extends TestCase
             ],
         );
 
-        self::assertSame(3, $this->extension->getPastTalkCount([$talk]));
+        $this->assertTalkCount(expectedCount: 3, talks: [$talk]);
     }
 
     public function testMultiplePastEvents(): void
@@ -87,7 +87,18 @@ class OpdaviesTwigExtensionTest extends TestCase
             ],
         );
 
-        self::assertSame(2, $this->extension->getPastTalkCount([$talkA, $talkB]));
+        $this->assertTalkCount(expectedCount: 2, talks: [$talkA, $talkB]);
+    }
+
+    /**
+     * Assert the extension uses the correct number of talks.
+     */
+    private function assertTalkCount(int $expectedCount, array $talks): void
+    {
+        self::assertSame(
+            actual: $this->extension->getPastTalkCount($talks),
+            expected: $expectedCount,
+        );
     }
 
     /**
