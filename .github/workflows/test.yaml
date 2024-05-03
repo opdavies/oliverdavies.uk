@@ -19,4 +19,4 @@ jobs:
 
       - run: |
           nix develop -c composer install
-          nix develop -c ./run test
+          nix develop -c ./run test --testdox --colors=always
