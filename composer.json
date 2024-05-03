@@ -1,7 +1,8 @@
 {
     "require": {
-        "sculpin/sculpin": "^3.2",
-        "opdavies/sculpin-twig-markdown-bundle": "^0.2.0"
+        "illuminate/collections": "^11.6",
+        "opdavies/sculpin-twig-markdown-bundle": "^0.2.0",
+        "sculpin/sculpin": "^3.2"
     },
     "config": {
         "allow-plugins": {

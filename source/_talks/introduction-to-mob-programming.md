@@ -10,7 +10,7 @@ events:
     -
         name: PHP South Wales
         location: Cardiff, Wales
-        date: '2022-09-28'
+        date: 2022-09-28
         url: https://www.meetup.com/php-south-wales/events/288359737
 ---
 
