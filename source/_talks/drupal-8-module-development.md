@@ -1,7 +1,6 @@
 ---
 title: Getting Started with Drupal 8 Module Development
 description: How to build your first module for Drupal 8.
-tweets: yes
 code: https://github.com/opdavies/dclondon16-d8-module
 speakerdeck:
     id: 0041804e52664d12a8e31cd118264813

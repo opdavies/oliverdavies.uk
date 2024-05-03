@@ -8,7 +8,6 @@ speakerdeck:
 video:
     type: youtube
     id: T-miCpHxfds
-tweets: yes
 events:
     -
         name: DrupalCamp London 2014

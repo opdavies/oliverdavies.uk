@@ -6,7 +6,6 @@ speakerdeck:
     ratio: "1.77777777777778"
     url: https://speakerdeck.com/opdavies/building-static-websites-with-sculpin
 code: https://github.com/opdavies/sculpin-demo
-tweets: yes
 video:
     type: youtube
     id: axy6ltc9meA

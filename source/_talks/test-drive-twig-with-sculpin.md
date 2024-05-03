@@ -6,7 +6,6 @@ speakerdeck:
     ratio: "1.77777777777778"
     url: https://speakerdeck.com/opdavies/test-drive-twig-with-sculpin
 code: https://github.com/opdavies/sculpin-demo
-tweets: yes
 events:
     -
         name: DrupalCamp North 2015

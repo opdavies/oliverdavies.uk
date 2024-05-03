@@ -10,7 +10,6 @@ speakerdeck:
 video:
     type: youtube
     id: 36zCxPrOOzM
-tweets: yes
 events:
     -
         name: PHP South West
