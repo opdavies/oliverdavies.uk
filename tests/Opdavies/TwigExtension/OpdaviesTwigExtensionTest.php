@@ -20,18 +20,18 @@ class OpdaviesTwigExtensionTest extends TestCase
     {
         $talk = $this->createTalk(
             events: [
-                    ['date' => (new \DateTime('+1 days'))->getTimestamp()],
+                ['date' => (new \DateTime('+1 days'))->getTimestamp()],
             ],
         );
 
-       self::assertSame(0, $this->extension->getPastTalkCount([$talk]));
+        self::assertSame(0, $this->extension->getPastTalkCount([$talk]));
     }
 
     public function testSinglePastEvent(): void
     {
         $talkA = $this->createTalk(
             events: [
-                    ['date' => (new \DateTime('+1 days'))->getTimestamp()],
+                ['date' => (new \DateTime('+1 days'))->getTimestamp()],
             ],
         );
 
@@ -48,8 +48,8 @@ class OpdaviesTwigExtensionTest extends TestCase
     {
         $talkA = $this->createTalk(
             events: [
-                    ['date' => (new \DateTime('-1 days'))->getTimestamp()],
-                    ['date' => (new \DateTime('+1 days'))->getTimestamp()],
+                ['date' => (new \DateTime('-1 days'))->getTimestamp()],
+                ['date' => (new \DateTime('+1 days'))->getTimestamp()],
             ],
         );
 
