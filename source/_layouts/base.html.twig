@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en-GB">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
     <link href="{{ site.assets.url }}/build/tailwind.css?v={{ site.assets.version }}" rel="stylesheet">
-    <link rel="canonical" href="{{ site.url }}{{ page.url|trim('/', 'right') }}" />
-    <meta name="author" content="Oliver Davies" />
-    <meta name="generator" content="Sculpin (https://sculpin.io)" />
-    <meta name="keywords" content="Drupal Developer, Drupal Consultant, Drupal Architect, Drupal Strategist, Drupal Trainer, Triple Certified Drupal Expert, Public Speaker, Workshop Trainer, Technical Lead, Technical Coach, Software Development Coach, Automated Testing, Test-Driven Development" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url|trim('/', 'right') }}">
+    <meta name="author" content="Oliver Davies">
+    <meta name="generator" content="Sculpin (https://sculpin.io)">
+    <meta name="keywords" content="Drupal Developer, Drupal Consultant, Drupal Architect, Drupal Strategist, Drupal Trainer, Triple Certified Drupal Expert, Public Speaker, Workshop Trainer, Technical Lead, Technical Coach, Software Development Coach, Automated Testing, Test-Driven Development">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:creator" content="@opdavies">
-    <meta name="twitter:image" content="{{ site.assets.url }}/assets/images/od-logo.jpg" />
+    <meta name="twitter:image" content="{{ site.assets.url }}/assets/images/od-logo.jpg">
     <meta name="twitter:site" content="@opdavies">
-    <meta property="og:image" name="image" content="{{ site.assets.url }}/assets/images/od-logo.jpg" />
-    <meta property="og:site_name" content="Oliver Davies" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ site.url }}{{ page.url|trim('/', 'right') }}" />
+    <meta property="og:image" name="image" content="{{ site.assets.url }}/assets/images/od-logo.jpg">
+    <meta property="og:site_name" content="Oliver Davies">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url|trim('/', 'right') }}">
 
     {% if page.meta.description %}
-      <meta name="description" content="{{ page.meta.description }}" />
+      <meta name="description" content="{{ page.meta.description }}">
     {% else %}
-      <meta name="description" content="{{ site.meta.description }}" />
+      <meta name="description" content="{{ site.meta.description }}">
     {% endif %}
 
     {% block head_title %}
       {% if page.meta.title %}
         <title>{{ page.meta.title }}</title>
-        <meta property="og:title" content="{{ page.meta.title }}" />
-        <meta property="twitter:title" content="{{ page.meta.title }}" />
+        <meta property="og:title" content="{{ page.meta.title }}">
+        <meta property="twitter:title" content="{{ page.meta.title }}">
       {% else %}
         <title>{{ page.title }} | {{ site.name }}</title>
-        <meta property="og:title" content="{{ page.title }} | {{ site.name }}" />
-        <meta property="twitter:title" content="{{ page.title }} | {{ site.name }}" />
+        <meta property="og:title" content="{{ page.title }} | {{ site.name }}">
+        <meta property="twitter:title" content="{{ page.title }} | {{ site.name }}">
       {% endif %}
     {% endblock %}
 
