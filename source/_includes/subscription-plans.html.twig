@@ -1,0 +1,26 @@
+{% for plan in plans %}
+  <div>
+    <h3>
+      <strong>
+        {{ plan.name }}:
+        £{{ plan.price|number_format }} per month
+      </strong>
+    </h3>
+
+    <p>{{ plan.tagline }}</p>
+
+    <ul>
+      {% for feature in plan.features|merge(page.features) %}
+        <li>{{ feature }}</li>
+      {% endfor %}
+    </ul>
+
+    <footer class="mt-6">
+      {% include 'button.html.twig' with {
+        text: 'Register now for the ' ~ plan.name|lower ~ ' plan',
+        url: plan.url,
+        withArrow: true,
+      } %}
+    </footer>
+  </div>
+{% endfor %}
