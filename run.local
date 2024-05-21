@@ -38,7 +38,7 @@ function create-daily {
   # Replace the placeholders.
   sed -i "s/{{ date }}/${date}/" "${filepath}"
   sed -i "s/{{ title }}/${title}/" "${filepath}"
-  sed -i "s#{{ permalink }}#archive/${year}/${month}/${day}/${slug}#" "${filepath}"
+  sed -i "s#{{ permalink }}#daily/${year}/${month}/${day}/${slug}#" "${filepath}"
 
   # Create a commit with the appropriate date in the message
   git add "${filepath}"
