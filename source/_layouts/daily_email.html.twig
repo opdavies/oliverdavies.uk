@@ -6,14 +6,6 @@
   {{ parent() }}
 
   <p>- Oliver</p>
-
-  {% block cta %}
-    {% if page.cta and site.ctas[page.cta] is defined %}
-      <p>P.S. {{ site.ctas[page.cta]|raw }}</p>
-    {% else %}
-      <p>P.S. {{ random(site.ctas)|raw }}</p>
-    {% endif %}
-  {% endblock %}
 {% endblock %}
 
 {% block content_bottom %}
