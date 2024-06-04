@@ -2,17 +2,6 @@
 title: Products and Services
 products:
     -
-        title: Development team coaching
-        description: |
-            Do you want to upskill your in-house team or have someone provide oversight and guidance as they deliver a project? Does your company want to learn to contribute to open-source software? Get unlimited 1-on-1 private Slack access to me and regular check-in calls to ensure things are on track.
-        perMonth: true
-        isLimited: true
-        price: 10000
-        remainingPlaces: 1
-        link:
-            text: Apply now
-            url: /team-coaching
-    -
         title: Drupal development subscription
         description: |
             In less time than it takes to post on a job board, and for a fraction of the cost, get unlimited access to a certified Drupal development expert, core contributor and multiple-time DrupalCon speaker for a fixed monthly fee. No surprises. Cancel anytime.
