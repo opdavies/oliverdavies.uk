@@ -13,7 +13,7 @@ use:
   <channel>
     <title>{{ page.title }}</title>
     <description>{{ page.description }}</description>
-    <link>{{ site.url }}</link>
+    <link>{{ site.url }}/daily</link>
     {% for email in data.daily_emails[:1] %}
       {% set tags = [] %}
       {%- for tag in ['dev']|merge(email.tags|default([])) -%}
@@ -29,9 +29,10 @@ use:
         <link>{{ site.url }}{{ email.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ email.url }}</guid>
         <description>
-          <![CDATA[<div style="max-width: 550px;">
+          <div style="max-width: 550px;">
             {{- email.blocks.content -}}
 
+            <![CDATA[
             {% if email.cta and site.ctas[email.cta] is defined %}
               <p>P.S. {{ site.ctas[email.cta]|raw }}</p>
             {% else %}
