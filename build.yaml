@@ -5,7 +5,6 @@ language: php
 flake:
   devshell:
     packages:
-      - ansible
       - nodePackages.pnpm
       - nodejs
       - php82

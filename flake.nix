@@ -12,7 +12,7 @@
       inherit (pkgs) mkShell;
     in {
       devShells.${system}.default =
-        mkShell { buildInputs = with pkgs; [ ansible nodePackages.pnpm nodejs php82 php82Packages.composer ]; };
+        mkShell { buildInputs = with pkgs; [ nodePackages.pnpm nodejs php82 php82Packages.composer ]; };
 
       formatter.${system} = pkgs.nixfmt;
     };
