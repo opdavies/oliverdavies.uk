@@ -77,7 +77,7 @@ function publish {
   generate
 
   rsync --archive --verbose --compress --update --delete \
-    output_prod/ ssh.oliverdavies.uk:/srv/oliverdavies.uk-sculpin
+    output_prod/ ssh.oliverdavies.uk:/srv/www.oliverdavies.uk
 
   git stash pop
 }
