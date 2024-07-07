@@ -1,0 +1,25 @@
+---
+title: Running automated checks in a CI pipeline
+date: 2024-07-07
+permalink: daily/2024/07/07/running-automated-checks-in-a-ci-pipeline
+tags:
+    - software-development
+    - automated-testing
+cta: ~
+snippet: |
+    What checks do you run in your CI pipeline?
+---
+
+As well as [committing build artifacts][0], another common use for CI pipelines is for running automated checks.
+
+This could include code linting, static analysis, automated tests, checking for security vulnerabilities, and more.
+
+Instead of relying on Developers running these checks manually, running them automatically in a CI pipeline ensures they're run regularly and that each commit is deployable.
+
+If all the checks pass, a commit can be promoted and released.
+
+If not, the commit should not be deployed and it should be fixed.
+
+This makes a CI pipeline and automated checks vital to ensure the quality of your software, to identify regressions, and to avoid promoting and releasing broken code.
+
+[0]: {{site.url}}/daily/2024/07/03/committing-ci-artifacts
