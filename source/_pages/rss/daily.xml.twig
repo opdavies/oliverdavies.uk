@@ -17,6 +17,9 @@ use:
     {% for email in data.daily_emails[:1] %}
       {% set tags = [] %}
       {%- for tag in ['dev']|merge(email.tags|default([])) -%}
+        {% if tag == "tailwind-css" %}
+          {% set tag = "TailwindCSS" %}
+        {% endif %}
         {% set words = tag|split('-') -%}
         {% if words|length == 1 %}
           {% set tags = tags|merge(['#' ~ tag]) %}
