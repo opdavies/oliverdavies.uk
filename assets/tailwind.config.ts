@@ -5,8 +5,8 @@ import typographyPlugin from "@tailwindcss/typography";
 
 export default {
   content: [
-    "./app/config/**/*.yml",
-    "./source/**/*.{md,twig}",
+    "../app/config/**/*.yml",
+    "../source/**/*.{md,twig}",
   ],
   theme: {
     colors: {

@@ -12,5 +12,5 @@ flake:
 
 git:
   ignore:
+    - '/assets/node_modules/'
     - '/source/build/'
-    - '/node_modules/'

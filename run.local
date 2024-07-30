@@ -58,9 +58,11 @@ function npm:build:css {
     args=(--watch)
   fi
 
-  npx tailwindcss \
-    --config assets/tailwind.config.ts \
-    --output source/build/tailwind.css "${args[@]}"
+  cd assets || exit
+
+  tailwindcss \
+    --config tailwind.config.ts \
+    --output ../source/build/tailwind.css "${args[@]}"
 }
 
 function publish {
