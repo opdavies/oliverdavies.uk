@@ -5,6 +5,7 @@ language: php
 flake:
   devshell:
     packages:
+      - bashInteractive
       - nodePackages.pnpm
       - nodejs
       - php82
