@@ -6,5 +6,5 @@
 
 /.direnv/
 
-/node_modules/
+/assets/node_modules/
 /source/build/
