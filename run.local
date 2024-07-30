@@ -28,7 +28,7 @@ function create-daily {
     sed 's/^\-//;s/\-$//')
 
   # Create the file.
-  cp -f --no-clobber stub.md "${filepath}"
+  cp -f --no-clobber resources/daily-email-stub.md "${filepath}"
 
   date=$(date -d "${next_date}" +%Y-%m-%d)
   day=$(date -d "${next_date}" +%d)
