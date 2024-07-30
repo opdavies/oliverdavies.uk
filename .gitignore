@@ -6,5 +6,6 @@
 
 /.direnv/
 
+/.phpunit.cache/
 /assets/node_modules/
 /source/build/
