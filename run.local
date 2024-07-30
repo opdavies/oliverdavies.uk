@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function clean {
-  rm -fr output_*/ source/build/
+  rm -fr assets/node_modules/ output_*/ source/build/ vendor/
 }
 
 # Create a new daily email.
