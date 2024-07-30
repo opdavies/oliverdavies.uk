@@ -85,7 +85,7 @@ function publish {
 }
 
 function test {
-  ./vendor/bin/phpunit "${@}"
+  phpunit "${@}"
 }
 
 # vim: ft=bash
