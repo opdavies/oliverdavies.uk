@@ -433,5 +433,5 @@ Redirect 301 /wp-tailwind-starter https://github.com/opdavies/wordpress-tailwind
 Redirect 301 /wp-tailwind-static https://wp-tailwind.oliverdavies.uk
 Redirect 301 /yXhoS /talks/things-you-should-know-about-php
 
-# ~^/archive/(.*)/?$ /daily/$1;
-# ~^/articles/(.*)/?$ /blog/$1;
+RewriteRule ^archive/(.*) /daily/$1 [R=301,L]
+RewriteRule ^articles/(.*) /blog/$1 [R=301,L]
