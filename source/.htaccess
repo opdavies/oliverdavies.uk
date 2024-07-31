@@ -348,6 +348,7 @@ Redirect 301 /roadmap /drupal-upgrade
 Redirect 301 /rss /rss.xml
 Redirect 301 /rst2pdf /talks/building-presenting-slide-decks-rst2pdf
 Redirect 301 /s9MjJ https://symfonycasts.com/screencast/symfony
+Redirect 301 /sculpin /talks/building-static-websites-sculpin
 Redirect 301 /sculpin-encore-versioning https://github.com/opdavies/oliverdavies.uk/commit/d192b04aefa6e7a21bfc1f2e0fe0a16111e0e8a2
 Redirect 301 /sites/default/files/images/social-avatar. /images/social-avatar.jpg
 Redirect 301 /skills https://opdavies-skills-tailwindcss.netlify.com/
