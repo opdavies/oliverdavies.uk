@@ -21,6 +21,11 @@ RewriteRule ^(.*)index\.html$ /$1 [L,R=301]
 
 ErrorDocument 404 /404/index.html
 
+RewriteCond %{REQUEST_URI} !^/archive/?$
+RewriteRule ^archive/(.*)$ /daily/$1 [L,R=301]
+
+RewriteRule ^articles/(.*) /blog/$1 [L,R=301]
+
 Redirect 301 /10-useful-drupal-6-modules-i-use-every-project /blog/10-useful-drupal-6-modules
 Redirect 301 /2010/04/05/styling-drupal-6s-taxonomy-lists-with-php-css-and-jquery /blog/style-drupal-6s-taxonomy-lists-php-css-jquery
 Redirect 301 /2010/04/28/using-imagecache-and-imagecrop-for-my-portfolio /blog/using-imagecache-imagecrop-my-portfolio
@@ -429,6 +434,3 @@ Redirect 301 /wp-tailwind-repo https://github.com/opdavies/wordcamp-bristol-2019
 Redirect 301 /wp-tailwind-starter https://github.com/opdavies/wordpress-tailwindcss-startker-kit
 Redirect 301 /wp-tailwind-static https://wp-tailwind.oliverdavies.uk
 Redirect 301 /yXhoS /talks/things-you-should-know-about-php
-
-# RewriteRule ^archive/(.*) /daily/$1 [R=301,L]
-# RewriteRule ^articles/(.*) /blog/$1 [R=301,L]
