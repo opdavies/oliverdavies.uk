@@ -10,9 +10,3 @@ flake:
       - nodejs
       - php82
       - php82Packages.composer
-
-git:
-  ignore:
-    - '/.phpunit.cache/'
-    - '/assets/node_modules/'
-    - '/source/build/'
