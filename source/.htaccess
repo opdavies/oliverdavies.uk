@@ -13,11 +13,11 @@ RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_URI} !/$
 RewriteCond %{REQUEST_FILENAME}/index.html -f
 RewriteRule (.*) $1/index.html [L]
-RewriteRule ^(.*)/$ /$1 [L,R]
+RewriteRule ^(.*)/$ /$1 [L,R=301]
 
 # Remove index.html from URLs.
 RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
-RewriteRule ^(.*)index\.html$ /$1 [L]
+RewriteRule ^(.*)index\.html$ /$1 [L,R=301]
 
 ErrorDocument 404 /404/index.html
 
