@@ -1,29 +1,25 @@
-Options +FollowSymLinks -MultiViews -Indexes
+Options +FollowSymLinks -MultiViews
 
 RewriteEngine on
-RewriteBase /
-
-ErrorDocument 404 /404/index.html
-
-# RewriteOptions AllowNoSlash
-# DirectorySlash off
-# DirectoryIndex index.html
 
 # Redirect all users to access the site WITH the 'www.' prefix.
 RewriteCond %{HTTP_HOST} .
 RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteRule ^ http%{ENV:protossl}://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Remove trailing slashes if not a folder.
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} (.+)/$
-RewriteRule ^ %1 [L,R]
-# RewriteRule ^ %1 [L,R=301]
+# Remove trailing slashes from directories.
+DirectorySlash Off
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !/$
+RewriteCond %{REQUEST_FILENAME}/index.html -f
+RewriteRule (.*) $1/index.html [L]
+RewriteRule ^(.*)/$ /$1 [L,R]
 
-# RewriteCond %{REQUEST_FILENAME} !-f
-# RewriteCond %{REQUEST_FILENAME} !-d
-# RewriteCond %{REQUEST_URI} !=/favicon.ico
-# RewriteRule ^ index.html [L]
+# Remove index.html from URLs.
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
+RewriteRule ^(.*)index\.html$ /$1 [L]
+
+ErrorDocument 404 /404/index.html
 
 Redirect 301 /10-useful-drupal-6-modules-i-use-every-project /blog/10-useful-drupal-6-modules
 Redirect 301 /2010/04/05/styling-drupal-6s-taxonomy-lists-with-php-css-and-jquery /blog/style-drupal-6s-taxonomy-lists-php-css-jquery
@@ -434,5 +430,5 @@ Redirect 301 /wp-tailwind-starter https://github.com/opdavies/wordpress-tailwind
 Redirect 301 /wp-tailwind-static https://wp-tailwind.oliverdavies.uk
 Redirect 301 /yXhoS /talks/things-you-should-know-about-php
 
-RewriteRule ^archive/(.*) /daily/$1 [R=301,L]
-RewriteRule ^articles/(.*) /blog/$1 [R=301,L]
+# RewriteRule ^archive/(.*) /daily/$1 [R=301,L]
+# RewriteRule ^articles/(.*) /blog/$1 [R=301,L]
