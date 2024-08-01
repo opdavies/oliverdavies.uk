@@ -1,6 +1,0 @@
-/bin/
-/node_modules/
-/output_*/
-/source/build/
-/vendor/
-/.phpunit.result.cache

@@ -1,8 +1,0 @@
----
-permalink: none
----
-User-agent: *
-Disallow: /_testimonials/
-Disallow: /404.html
-
-Sitemap: {{ site.url }}/sitemap.xml

@@ -1,7 +1,0 @@
----
-imports:
-    - sculpin_site.yml
-url: https://www.oliverdavies.uk
-short_url: oliverdavies.uk
-google_analytics:
-    id: UA-11967257-1
