@@ -1,0 +1,12 @@
+---
+name: oliverdavies-uk
+template: sculpin-site
+parameters:
+  nix:
+    devshell:
+      packages:
+        - bashInteractive
+        - nodePackages.pnpm
+        - nodejs
+        - php82
+        - php82Packages.composer
