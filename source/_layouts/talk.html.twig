@@ -1,0 +1,17 @@
+{% extends 'page' %}
+
+{% block content_wrapper %}
+  {{ parent() }}
+
+  {% include 'talk/slides' with {
+    speakerdeck: page.speakerdeck,
+  } %}
+
+  {% include 'talk/video' with {
+    video: page.video,
+  } %}
+
+  {% include 'talk/events' with {
+    events: page.events,
+  } %}
+{% endblock %}

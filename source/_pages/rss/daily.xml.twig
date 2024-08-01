@@ -1,0 +1,57 @@
+---
+layout: feed
+title: Oliver's daily email list
+description: |-
+  A daily email newsletter about software development, DevOps, community, and open-source.
+permalink: /rss/daily.xml
+use:
+  - daily_emails
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ page.title }}</title>
+    <description>{{ page.description }}</description>
+    <link>{{ site.url }}/daily</link>
+    {% for email in data.daily_emails[:1] %}
+      {% set tags = [] %}
+      {%- for tag in ['dev']|merge(email.tags|default([])) -%}
+        {% if tag == "tailwind-css" %}
+          {% set tag = "TailwindCSS" %}
+        {% endif %}
+        {% set words = tag|split('-') -%}
+        {% if words|length == 1 %}
+          {% set tags = tags|merge(['#' ~ tag]) %}
+        {% else %}
+          {% set tags = tags|merge(['#' ~ tag|title|replace({ '-': '' })]) %}
+        {% endif %}
+      {% endfor %}
+      <item>
+        <title>{{ email.title }}</title>
+        <link>{{ site.url }}{{ email.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ email.url }}</guid>
+        <description>
+          <div style="max-width: 550px;">
+            {{- email.blocks.content -}}
+
+            <![CDATA[
+            {% if email.cta and site.ctas[email.cta] is defined %}
+              <p>P.S. {{ site.ctas[email.cta]|raw }}</p>
+            {% else %}
+              <p>P.S. {{ random(site.ctas)|raw }}</p>
+            {% endif %}
+            ]]>
+          </div>
+        </description>
+        <pubDate>{{ email.date|date('D, d M Y H:i:s') }} GMT</pubDate>
+        <snippet>{{ email.snippet }}</snippet>
+        {% if tags is not empty -%}
+          <tags>
+            {{- tags|join(' ') -}}
+          </tags>
+        {% endif %}
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

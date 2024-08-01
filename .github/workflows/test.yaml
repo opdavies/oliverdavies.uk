@@ -1,0 +1,22 @@
+name: Run tests
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: cachix/install-nix-action@v26
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+
+      - uses: actions/checkout@v4
+
+      - run: |
+          nix develop -c composer install
+          nix develop -c ./run test --testdox --colors=always

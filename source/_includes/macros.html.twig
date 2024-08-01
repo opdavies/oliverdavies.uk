@@ -1,0 +1,4 @@
+{# Return a rounded count of daily emails I've sent (e.g. the actual number is 449, return 440+). #}
+{% macro dailiesCount(dailies) %}
+    {{- dailies|length|round(-1, 'floor') -}}+
+{% endmacro %}

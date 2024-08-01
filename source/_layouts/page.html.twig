@@ -1,0 +1,23 @@
+{% extends 'default' %}
+
+{% block content_bottom %}
+  {% include 'about-me.html.twig' %}
+{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/github-dark.min.css">
+
+<style>
+.hljs {
+  background: transparent;
+}
+</style>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
+<script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/languages/php.min.js"></script>
+<script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/languages/twig.min.js"></script>
+
+<script>hljs.highlightAll();</script>
+{% endblock %}

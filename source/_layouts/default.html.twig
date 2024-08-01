@@ -1,0 +1,37 @@
+{% extends 'base' %}
+
+{% block body %}
+  <div class="min-h-screen font-sans text-base font-light md:text-xl dark:text-white text-grey-900 selection:bg-blue-primary selection:text-white dark:bg-grey-900 dark:selection:bg-blue-primary dark:selection:text-white">
+    {% include 'banner.html.twig' %}
+
+    <div class="py-4 px-4 mx-auto max-w-xl">
+      <header class="flex flex-col justify-between items-center md:flex-row">
+        {% include 'logo.html.twig' %}
+      </header>
+    </div>
+
+    <div class="py-10 px-6 mx-auto max-w-xl md:py-10">
+      <div class="space-y-10">
+        {% block content_top %}{% endblock %}
+
+        <main>
+          <h1 class="mb-4 text-xl font-bold md:text-2xl">
+            {% block page_title %}{{ page.title }}{% endblock %}
+          </h1>
+
+          <div class="{{ site.prose_classes }}">
+            {% block content_wrapper %}
+              {% block content %}{% endblock %}
+            {% endblock %}
+          </div>
+        </main>
+
+        {% block content_bottom %}{% endblock %}
+      </div>
+
+      <footer class="mt-16 mb-6">
+        {% include 'main-menu.html.twig' %}
+      </footer>
+    </div>
+  </div>
+{% endblock %}

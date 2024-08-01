@@ -1,0 +1,90 @@
+#!/usr/bin/env bash
+
+function clean {
+  rm -fr output_*/ source/build/
+}
+
+# Create a new daily email.
+function create-daily {
+  local date="${1}"
+  local title="${2}"
+
+  if [ "${date}" == "next" ]; then
+    next_date=$(ls -1 source/_daily_emails | tail -n 1 | tr -d '.md' | xargs -I {} date +%Y-%m-%d -d '{} +1 day')
+  else
+    next_date="${date}"
+  fi
+
+  filepath="source/_daily_emails/${next_date}.md"
+
+  shift 1
+
+  # Generate the title and slug.
+  title="${*}"
+  slug=$(echo "${title}" | \
+    tr '[:upper:]' '[:lower:]' | \
+    sed 's/[^a-z0-9]/-/g' | \
+    sed 's/\-\-+/-/g' | \
+    sed 's/^\-//;s/\-$//')
+
+  # Create the file.
+  cp -f --no-clobber resources/daily-email-stub.md "${filepath}"
+
+  date=$(date -d "${next_date}" +%Y-%m-%d)
+  day=$(date -d "${next_date}" +%d)
+  month=$(date -d "${next_date}" +%m)
+  year=$(date -d "${next_date}" +%Y)
+
+  # Replace the placeholders.
+  sed -i "s/{{ date }}/${date}/" "${filepath}"
+  sed -i "s/{{ title }}/${title}/" "${filepath}"
+  sed -i "s#{{ permalink }}#daily/${year}/${month}/${day}/${slug}#" "${filepath}"
+
+  # Create a commit with the appropriate date in the message
+  git add "${filepath}"
+  git commit --quiet -m "Add daily email for ${date}
+
+${title}"
+
+  echo "${filepath}"
+}
+
+# Build CSS assets, this is meant to be run within the `assets` directory.
+function npm:build:css {
+  local args=()
+
+  if [[ "${NODE_ENV:-}" == "production" ]]; then
+    args=(--minify)
+  else
+    args=(--watch)
+  fi
+
+  tailwindcss \
+    --config tailwind.config.ts \
+    --output ../source/build/tailwind.css "${args[@]}"
+}
+
+function publish {
+  export NODE_ENV=production
+  export APP_ENV=production
+
+  tag-release
+  git push
+
+  git stash
+
+  clean
+  (cd assets && npm:build:css)
+  generate
+
+  rsync --archive --verbose --compress --update --delete \
+    output_prod/ ssh.oliverdavies.uk:/var/www/vhosts/www.oliverdavies.uk
+
+  git stash pop
+}
+
+function test {
+  phpunit "${@}"
+}
+
+# vim: ft=bash

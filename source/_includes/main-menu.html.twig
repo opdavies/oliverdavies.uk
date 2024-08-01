@@ -1,0 +1,7 @@
+<nav class="flex flex-wrap justify-center -mb-3">
+  {% for link in site.menu_links %}
+    <a class="mx-3 mb-3 text-base underline md:text-lg dark:text-white hover:no-underline link dark:hover:text-blue-400 hover:text-gray-900" href="{{ link.url }}">
+      {{ link.title }}
+    </a>
+  {% endfor %}
+</nav>

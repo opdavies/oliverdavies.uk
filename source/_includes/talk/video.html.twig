@@ -1,0 +1,7 @@
+{% if video.type == 'youtube' and video.id %}
+  <section>
+    <h2>Video</h2>
+
+    {% include 'youtube-video.html.twig' with { id: video.id } %}
+  </section>
+{% endif %}
