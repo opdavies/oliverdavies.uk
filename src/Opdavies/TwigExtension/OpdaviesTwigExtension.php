@@ -23,7 +23,7 @@ class OpdaviesTwigExtension extends AbstractExtension
 
     public function getPastTalkCount(array $talks): int
     {
-        $today = (new \DateTime())->getTimestamp();
+        $today = (new \DateTime('today'))->getTimestamp();
 
         return collect($talks)
             ->flatMap(fn (ProxySourceItem $talk) => $talk->data()->get('events'))

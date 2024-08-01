@@ -90,6 +90,30 @@ class OpdaviesTwigExtensionTest extends TestCase
         $this->assertTalkCount(expectedCount: 2, talks: [$talkA, $talkB]);
     }
 
+    public function testTheCurrentDayIsNotCounted(): void
+    {
+        $talkA = $this->createTalk(
+            events: [
+                ['date' => (new \DateTime('yesterday'))->getTimestamp()],
+                ['date' => (new \DateTime('today'))->getTimestamp()],
+            ],
+        );
+
+        $talkB = $this->createTalk(
+            events: [
+                ['date' => (new \DateTime('today'))->getTimestamp()],
+            ],
+        );
+
+        $talkC = $this->createTalk(
+            events: [
+                ['date' => (new \DateTime('yesterday'))->getTimestamp()],
+            ],
+        );
+
+        $this->assertTalkCount(expectedCount: 2, talks: [$talkA, $talkB, $talkC]);
+    }
+
     /**
      * Assert the extension uses the correct number of talks.
      */
