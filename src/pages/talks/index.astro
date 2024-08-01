@@ -1,0 +1,49 @@
+---
+import ListingPage from "~/components/ListingPage.astro";
+import Markdown from "~/components/Markdown.astro";
+import _ from "lodash";
+import { getCollection } from "astro:content";
+
+const talks = await getCollection("talk");
+
+const today = new Date().valueOf();
+
+const talkCount = _(talks)
+  .flatMap((talk) => talk.data.events)
+  .filter((event): boolean => new Date(event.date).valueOf() <= today)
+  .size();
+
+const sortedTalks = talks
+  .map((talk) => {
+    const slug = `/talks/${talk.slug}`;
+
+    return { slug, item: talk };
+  })
+  .sort((b, a) => {
+    const events = [
+      a.item.data.events[a.item.data.events.length - 1],
+      b.item.data.events[b.item.data.events.length - 1],
+    ];
+
+    const dates = [
+      new Date(events[0].date).valueOf(),
+      new Date(events[1].date).valueOf(),
+    ];
+
+    if (dates[0] >= today) {
+      return 1;
+    }
+
+    return dates[0] - dates[1];
+  });
+---
+
+<ListingPage items={sortedTalks} title="Talks and workshops">
+  <Markdown slot="intro">
+    <p>
+      Starting with my first talk in September 2012, I have given {talkCount} presentations
+      and workshops at various conferences and meetups, in-person and remotely, on
+      topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.
+    </p>
+  </Markdown>
+</ListingPage>

@@ -1,0 +1,22 @@
+---
+layout: ~/layouts/PageLayout.astro
+title: "Introduction to Automated Testing in Drupal email course"
+---
+
+import AboutMe from "../components/AboutMe.astro";
+import EmailCourseForm from "../components/EmailCourseForm.astro";
+import Testimonials from "../components/Testimonials.astro";
+
+Register below for my free upcoming 7-day email course on automated testing in Drupal:
+
+<EmailCourseForm />
+
+<div class="space-y-12">
+  <Testimonials names={[
+    "mike-karthauser",
+    "tawny-bartlett",
+    "scott-euser",
+  ]} />
+
+  <AboutMe />
+</div>

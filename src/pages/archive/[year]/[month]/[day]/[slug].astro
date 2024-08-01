@@ -1,0 +1,39 @@
+---
+import DailyEmailForm from "~/components/DailyEmailForm.astro";
+import Layout from "~/layouts/DailyEmailLayout.astro";
+import { format } from "date-fns";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const emails = await getCollection("daily-email");
+
+  return emails.map((email) => {
+    const slug = email.data.permalink.replace("archive/", "").replace("\n", "");
+
+    const slugParts = slug.split("/");
+
+    return {
+      params: {
+        day: format(email.data.pubDate, "dd"),
+        month: format(email.data.pubDate, "MM"),
+        slug: slugParts.reverse()[0],
+        year: format(email.data.pubDate, "Y"),
+      },
+      props: {
+        email,
+      },
+    };
+  });
+}
+
+const { Content } = await Astro.props.email.render();
+const { pubDate, title } = Astro.props.email.data;
+---
+
+<Layout title={title}>
+  <time datetime={format(pubDate, "yyyy-MM-dd")}>
+    {format(pubDate, "PPP")}
+  </time>
+
+  <Content class="mt-6" />
+</Layout>

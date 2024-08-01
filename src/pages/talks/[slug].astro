@@ -1,0 +1,49 @@
+---
+import AboutMe from "~/components/AboutMe.astro";
+import Events from "~/components/talk/Events.astro";
+import Layout from "~/layouts/Layout.astro";
+import Markdown from "~/components/Markdown.astro";
+import Slides from "~/components/talk/Slides.astro";
+import Video from "~/components/talk/Video.astro";
+import _ from "lodash";
+import type { Event } from "~/components/talk/Events";
+import { getCollection } from "astro:content";
+import { getSlugFromFile } from "~/utils.ts";
+
+export async function getStaticPaths() {
+  const talks = await getCollection("talk");
+
+  return talks.map((talk) => {
+    return {
+      params: { slug: talk.slug },
+      props: { talk },
+    };
+  });
+}
+
+const { Content } = await Astro.props.talk.render();
+const { events, speakerdeck, title, video } = Astro.props.talk.data;
+
+const getOrderedEvents = (events: Record<number, Event>) => {
+  return _(events)
+    .sortBy((event: Event) => new Date(event.date))
+    .reverse()
+    .value();
+};
+---
+
+<Layout title={title}>
+  <div class="space-y-8">
+    <Markdown>
+      <Content />
+    </Markdown>
+
+    {speakerdeck && <Slides id={speakerdeck.id} ratio={speakerdeck.ratio} />}
+
+    {video && <Video id={video.id} type={video.type} />}
+
+    <Events events={getOrderedEvents(events)} />
+
+    <AboutMe />
+  </div>
+</Layout>

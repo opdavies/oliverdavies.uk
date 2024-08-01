@@ -1,0 +1,21 @@
+---
+interface Props {
+  href: string;
+  position?: string;
+  text: string;
+}
+
+const { href, position, text } = Astro.props as Props;
+---
+
+<div
+  class="mt-6 not-prose"
+  class:list={[position === "centre" ? "flex justify-center" : null]}
+>
+  <a
+    class="inline-flex justify-center items-center py-3 px-6 w-full text-base font-medium text-white no-underline rounded-md duration-200 ease-in-out md:w-auto hover:bg-white focus:bg-white bg-blue-primary transition-color hover:text-blue-primary focus:text-blue-primary"
+    href={href}
+  >
+    {text} &rarr;
+  </a>
+</div>

@@ -1,0 +1,80 @@
+#!/usr/bin/env bash
+
+set -eu
+
+TTY="${TTY:-}"
+if [[ ! -t 1 ]]; then
+  TTY="-T"
+fi
+
+# Build the website within the continuous integration (CI) pipeline.
+function ci:build {
+  nix develop --command yarn
+  nix develop --command yarn build
+}
+
+# Deploy the website within the continuous integration (CI) pipeline.
+function ci:deploy {
+  rsync -r -avhP --delete dist/* opdavies@104.248.165.137:/srv/oliverdavies.uk
+}
+
+# Create a new daily email.
+function create-daily {
+  local date="${1}"
+  local title="${2}"
+
+  if [ "${date}" == "next" ]; then
+    next_date=$(ls -1 src/content/daily-email | tail -n 1 | tr -d '.md' | xargs -I {} date +%Y-%m-%d -d '{} +1 day')
+  else
+    next_date="${date}"
+  fi
+
+  filepath="src/content/daily-email/${next_date}.md"
+
+  shift 1
+
+  # Generate the title and slug.
+  title="${*}"
+  slug=$(echo "${title}" | \
+    tr '[:upper:]' '[:lower:]' | \
+    sed 's/[^a-z0-9]/-/g' | \
+    sed 's/\-\-+/-/g' | \
+    sed 's/^\-//;s/\-$//')
+
+  # Create the file.
+  cp -f --no-clobber stub.md "${filepath}"
+
+  date=$(date -d "${next_date}" +%Y-%m-%d)
+  day=$(date -d "${next_date}" +%d)
+  month=$(date -d "${next_date}" +%m)
+  year=$(date -d "${next_date}" +%Y)
+
+  # Replace the placeholders.
+  sed -i "s/{{ date }}/${date}/" "${filepath}"
+  sed -i "s/{{ title }}/${title}/" "${filepath}"
+  sed -i "s#{{ permalink }}#archive/${year}/${month}/${day}/${slug}#" "${filepath}"
+
+  # Create a commit with the appropriate date in the message
+  git add "${filepath}"
+  git commit --quiet -m "Add daily email for ${date}
+
+${title}"
+
+  echo "${filepath}"
+}
+
+# Display a list of all available commands.
+function help {
+  printf "%s <task> args\n\nTasks:\n" "${0}"
+
+  compgen -A function | grep -v "^_" | cat -n
+
+  printf "\nExtended help:\n  Each task has comments for general usage\n"
+}
+
+function start {
+  astro dev
+}
+
+TIMEFORMAT=$'\nTask completed in %3lR'
+time "${@:-help}"

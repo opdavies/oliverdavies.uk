@@ -1,0 +1,57 @@
+---
+layout: ~/layouts/PageLayout.astro
+title: Do you need a certified Drupal expert, core contributor and module maintainer?
+isFront: true
+---
+
+import AboutMe from '~/components/AboutMe.astro';
+import DailyEmailForm from '~/components/DailyEmailForm.astro';
+import Testimonials from '~/components/Testimonials.astro';
+
+<div class="space-y-16">
+  {/*
+  <div>
+  ### Do you want to learn about automated testing with Drupal?
+
+  Sign up for my free 7-day email course, "Automated Testing for Drupal Developers" or book to attend my next online workshop.
+  </div>
+  */}
+
+  <div>
+    ## What I can help you with
+
+    If you are stuck on an unsupported version of Drupal, such as 7, 8 or 9, and don't know what's involved in upgrading, book a [Drupal upgrade consultation call][call] or a [roadmap for your website][upgrade-roadmap].
+
+    If you need help or another pair of eyes on your code, book a [1-on-1 consultation call][call] or an [online pair programming session][pair] with me, with a 100% money-back guarantee.
+
+    If you want to learn to write better software faster, I'm available for [development team coaching][team coaching].
+
+    ### Looking for something else?
+
+    Here are all of my <a href="/services">products and services</a>. If you still can't find what you need, <a href="mailto:oliver+website@oliverdavies.uk">send me an email</a>, and I'll see what I can do.
+  </div>
+
+  {/* <aside>
+    ## Register for daily software development emails
+
+    Receive daily emails from me about software development, automated testing, clean code, and best practices for delivering better software.
+
+    <DailyEmailForm>
+      <div class="mt-10">
+        <Testimonials names={["adam-nuttall"]} titleClasses={["sr-only"]} />
+      </div>
+    </DailyEmailForm>
+  </aside> */}
+
+  <Testimonials title="Kind words from clients, subscribers, and past colleagues" />
+
+  <AboutMe />
+</div>
+
+[call]: /call
+[daily]: /daily
+[drupal.org]: https://drupal.org/u/opdavies
+[github]: https://github.com/opdavies
+[pair]: /pair
+[team coaching]: /team-coaching
+[upgrade-roadmap]: /drupal-upgrade

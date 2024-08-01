@@ -1,0 +1,70 @@
+---
+layout: ~/layouts/PageLayout.astro
+title: Pair program with me
+price: £499
+link: https://savvycal.com/opdavies/pair
+---
+
+import Button from "~/components/Button.astro";
+import Callout from "~/components/Callout.astro";
+import Testimonials from "~/components/Testimonials.astro";
+import { numberOfYears } from '~/utils';
+
+{/* Pain */}
+
+Are you stuck adding a new feature or fixing a bug?
+
+Do you need help starting a new Drupal module or theme?
+
+Would you like another pair of eyes on your code, providing real-time suggestions and feedback rather than waiting for a code review?
+
+{/* Dream */}
+
+{/* Fix */}
+
+## Book a pair programming session
+
+What if you could have a pair programming session with a Lead Developer and Drupal Expert with {numberOfYears} years of professional experience?
+
+Book a 2-hour pair programming call, and we can work on your code together - adding new functionality, fixing bugs, writing tests for existing code, or something else.
+
+Price: {frontmatter.price}
+
+{/* 1st call to action */}
+
+<Button href={frontmatter.link} text="Book your session now" />
+
+{/* Social proof */}
+
+<Testimonials />
+
+{/* Overcome objections */}
+
+## 100% money-back guarantee!
+
+If you don't find the session valuable, just let me know, and I'll refund 100% of the cost.
+
+{/* Uniqueness */}
+
+## Who am I?
+
+- I'm an Acquia-certified Drupal expert with over {numberOfYears} years of professional development experience.
+- I'm a former Drupal Association employee who was responsible for improving and maintaining Drupal.org.
+- I'm a Drupal core contributor and maintain numerous Drupal projects, including the Override Node Options module, which is used on over 38,000 websites.
+- I'm a multiple-time DrupalCon speaker who regularly presents talks and workshops at conferences and meetups.
+
+{/* 2nd CTA */}
+
+<Callout title="Ready to book your session?">
+  <Button href={frontmatter.link} text={`Book your session now for ${frontmatter.price}`} />
+
+  <p class="mb-0">You can pay and reserve your time slot straight away. There are a limited number of available slots each month. If, after the call, you decide to do a longer engagement with me, the cost of this call will be deducted from that engagement.</p>
+</Callout>
+
+{/* Urgency */}
+
+## Availability is limited
+
+I’m only available for a few pair programming sessions per month.
+
+Scheduling is first come, first served, so the sooner you book your time slot, the sooner you will have the answers you need to move your project forward.

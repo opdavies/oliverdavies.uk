@@ -1,0 +1,67 @@
+---
+layout: ~/layouts/PageLayout.astro
+title: Introduction to Automated Testing and Test-Driven Development with Drupal
+testimonials:
+  - tawny-bartlett
+  - mike-karthauser
+  - scott-euser
+---
+
+import Button from "~/components/Button.astro";
+import Testimonials from "~/components/Testimonials.astro";
+
+export const drupalVersions = "9 and 10";
+
+export const prices = {
+  early: "395.00",
+  full: "495.00",
+};
+
+export const isEarlyBird = true;
+
+export const nextDate = "2022-04-04";
+
+Are you a Drupal Developer who wants to learn about automated testing and test-driven development, or do you manage a development team that you'd like to train?
+
+I've delivered large Drupal projects using automated tests and test-driven development for custom functionality, and maintain Drupal modules with thousands of installations whilst using their tests to ensure working code and prevent regressions.
+
+I offer an interactive full-day workshop (previously presented at DrupalCamp London, and remotely for DrupalCamp NYC) that provides an introduction to automated testing in Drupal and how to utilise test-driven development - which I've updated specifically for Drupal {drupalVersions}.
+
+## Contents
+
+- What is automated testing, and why write tests?
+- What types of tests are available in Drupal?
+- Outside-in vs. inside-out testing.
+- Configuring Drupal and PHPUnit to run tests locally.
+- Exercise: writing tests for existing Drupal core functionality.
+- Exercise: adding tests to an existing custom module.
+- What is test-driven development?
+- Exercise: writing a new Drupal module from scratch with test-driven development.
+- Q&A
+
+<hr />
+
+## Dates and prices
+
+The workshop is currently only available remotely, and the next available date is <span class="font-bold">{new Date(nextDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', })}</span>.
+
+Seats are available at <span class="font-bold">{isEarlyBird ? `an early bird price of £${prices.early}` : `a price of £${prices.full}`}</span>, with a 10% discount for bulk orders of 5 or more seats.
+
+<Button
+  href="https://buy.stripe.com/6oE3cW4Su7DA1t6144"
+  text="Book your seat"
+/>
+
+<hr />
+
+<Testimonials names={frontmatter.testimonials} />
+
+{/*
+## Not 100% sure?
+
+Here's a video where I implement some of these approaches by adding related articles to a custom blog module for Drupal 9 (narrated version coming soon).
+
+<YouTubeVideo id="0iL27rbcgFA" />
+
+TODO: add another Buy button
+*/}

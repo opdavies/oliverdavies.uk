@@ -1,0 +1,49 @@
+---
+import Markdown from "../Markdown.astro";
+
+export type Event = {
+  date: string;
+  location: string;
+  name: string;
+  online?: boolean;
+  time?: string;
+  url?: string;
+}
+
+interface Props {
+  events: Event[];
+}
+
+const { events } = Astro.props;
+---
+
+{
+  events && (
+    <Markdown>
+      <h2>Events</h2>
+
+      <div>
+        <ul>
+          {events.map((event) => (
+            <li>
+              {event.url ? (
+                <a class="inline-block" href={event.url}>
+                  {event.name}
+                </a>
+              ) : (
+                event.name
+              )}{" "}
+              {event.location && `in ${event.location} -`}{" "}
+              {new Date(event.date).toLocaleDateString("en-GB", {
+                day: "numeric",
+                month: "long",
+                year: "numeric",
+              })}{" "}
+              {event.online && "(online)"}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </Markdown>
+  )
+}

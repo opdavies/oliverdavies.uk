@@ -1,0 +1,138 @@
+---
+import "../../assets/css/tailwind.pcss";
+
+import Banner from "../components/Banner.astro";
+import Message from "~/components/Message.astro";
+import Navbar from "../components/Navbar.astro";
+
+export interface Props {
+  isFront: boolean;
+  title: string;
+}
+
+const { title } = Astro.props;
+
+interface Link {
+  title: string;
+  href: string;
+}
+
+const footerLinks = [
+  {
+    title: "About",
+    href: "/",
+  },
+  {
+    title: "Press Info",
+    href: "/press",
+  },
+  {
+    title: "Services",
+    href: "/pricing",
+  },
+  {
+    title: "Talks",
+    href: "/talks",
+  },
+  {
+    title: "Podcast",
+    href: "/podcast",
+  },
+  {
+    title: "Daily list",
+    href: "/daily",
+  },
+];
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString().replace(/\/$/, "");
+const isFrontPage = Astro.props.isFront;
+
+const showDrupalAssociationMessage = [
+  "diagnostic",
+  "drupal-upgrade",
+  "dto",
+  "pricing",
+  "team-coaching",
+].includes(Astro.url.pathname.replace(/^\/+|\/+$/g, ''),)
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="canonical" href={canonicalURL} />
+    <meta property="og:image" content={`${Astro?.site.origin}/images/od-logo.jpg`} />
+    <meta property="og:site_name" content="Oliver Davies" />
+    <meta property="og:title" content={isFrontPage ? title : `${title} | Oliver Davies`} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@opdavies">
+    <meta name="twitter:site" content="@opdavies">
+    <meta name="twitter:image" content={`${Astro?.site.origin}/images/od-logo.jpg`} />
+    <meta property="twitter:title" content={isFrontPage ? title : `${title} | Oliver Davies`} />
+    <title>{isFrontPage ? title : `${title} | Oliver Davies`}</title>
+  </head>
+  <body>
+    <div
+      class="min-h-screen font-sans text-base font-light md:text-xl dark:text-white text-grey-900 selection:bg-blue-primary selection:text-white dark:bg-grey-900 dark:selection:bg-blue-primary dark:selection:text-white"
+    >
+      {false && (
+        <Banner text={"<a href='/dto'>Register now for my Drupal automated testing workshop &rarr;</a>"} />
+      )}
+
+      {false && (
+        <Banner text={"Drupal 9 is now end of life and unsupported. If you're stuck on Drupal 7, 8 or 9, get unstuck with a <a href='/drupal-upgrade'>Drupal upgrade roadmap and upgrade to Drupal 10</a>."} />
+      )}
+
+      {true && (
+        <Banner text={"Is your New Year's resolution to deliver better software, faster? I have availability for <a href='/team-coaching'>team coaching starting in January 2024</a>."} />
+      )}
+
+      <Navbar />
+
+      <div class="py-10 px-6 mx-auto max-w-xl md:py-10">
+        {showDrupalAssociationMessage && (
+          <Message>
+            <p>
+              <strong>Work with me and support the Drupal project.</strong>
+              5% from any Drupal-related product or service is donated to the <a href="https://www.drupal.org/association">Drupal Association</a>.
+            </p>
+          </Message>
+        )}
+
+        <h1 class="mb-4 text-xl font-bold md:text-2xl">{title}</h1>
+
+        <main>
+          <slot />
+        </main>
+
+        <div class="mt-16 mb-6">
+          <footer>
+            <nav class="flex flex-wrap justify-center -mb-3">
+              {
+                footerLinks &&
+                  footerLinks.map((link) => (
+                    <a
+                      class="mx-3 mb-3 text-base underline md:text-lg dark:text-white hover:no-underline link dark:hover:text-blue-400 hover:text-grey-900"
+                      href={link.href}
+                    >
+                      {link.title}
+                    </a>
+                  ))
+              }
+            </nav>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

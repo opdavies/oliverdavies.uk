@@ -1,0 +1,13 @@
+---
+import Markdown from "./Markdown.astro";
+---
+
+<div class="mb-10 border border-gray-800 dark:border-gray-600">
+  <div
+    class="py-4 px-4 border-l-4 prose prose-p:first:mt-0 prose-strong:text-current border-blue-primary"
+  >
+    <Markdown>
+      <slot />
+    </Markdown>
+  </div>
+</div>

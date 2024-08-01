@@ -1,0 +1,10 @@
+name: oliverdavies-uk
+type: astro
+language: typescript
+
+flake:
+  devshell:
+    packages:
+      - awscli
+      - nodejs_20
+      - yarn

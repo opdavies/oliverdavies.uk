@@ -1,0 +1,42 @@
+---
+import DailyEmailForm from "~/components/DailyEmailForm.astro";
+import Layout from "~/layouts/DailyEmailLayout.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths({ paginate }) {
+  const emails = await getCollection("daily-email");
+
+  const sortedEmails = emails.sort(
+    (a, b) =>
+      new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+  );
+
+  return paginate(sortedEmails, { pageSize: 20 });
+}
+
+const { page } = Astro.props;
+---
+
+<Layout title={"Daily email archive"}>
+  <ul>
+    {
+      page.data.map((email) => (
+        <li>
+          <a href={`/${email.data.permalink}`}>
+            {new Date(email.data.pubDate).toLocaleDateString("en-GB", {
+              day: "numeric",
+              month: "long",
+              year: "numeric",
+            })}:
+            {email.data.title}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <nav class="flex justify-center pt-10 space-x-6">
+    {page.url.prev ? <a href={page.url.prev}>&larr; Newer emails</a> : null}
+    {page.url.next ? <a href={page.url.next}>Older emails &rarr;</a> : null}
+  </nav>
+</Layout>

@@ -1,0 +1,43 @@
+---
+import Markdown from "~/components/Markdown.astro";
+import Layout from "~/layouts/PodcastEpisodeLayout.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const episodes = await getCollection("podcast-episode");
+  const publishedEpisodes = episodes.filter((episode) => !episode.data.draft);
+  
+  return publishedEpisodes.map((episode) => {
+    return {
+      params: { slug: episode.slug },
+      props: { episode },
+    };
+  });
+}
+
+const { Content } = await Astro.props.episode.render();
+const { id } = Astro.props.episode;
+const { guests, links, title, topic, transistor } = Astro.props.episode.data;
+---
+
+<Layout
+  episodeUrl={transistor?.id ? `https://share.transistor.fm/e/${transistor.id}` : null}
+  title={`Episode ${id.match(/^[\d+]/)} - ${topic} with ${guests}`}
+>
+  <Markdown>
+    <Content />
+
+    {links && (
+      <div>
+        <h2>Links</h2>
+        <ul>
+          {links.map((link: {0: string, 1: string}) => (
+            <li>
+              <a href={link[1]}>{link[0]}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </Markdown>
+</Layout>
