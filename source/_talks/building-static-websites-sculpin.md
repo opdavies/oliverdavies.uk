@@ -11,6 +11,11 @@ video:
     id: axy6ltc9meA
 events:
     -
+        name: PHP Berkshire
+        date: 2024-08-28
+        location: Reading, UK
+        url: https://www.meetup.com/php-berkshire/events/301850284
+    -
         name: BrumPHP
         date: 2024-05-23
         location: Birmingham, UK
