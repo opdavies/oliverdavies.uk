@@ -1,0 +1,155 @@
+events:
+    blue_conf_19:
+        name: Blue Conf 2019
+        location: Cardiff, UK
+        url: https://blueconf.co.uk
+
+    bristol_devops:
+        name: Bristol Cloud Native & DevOps
+        location: Bristol, UK
+        url: https://www.meetup.com/Bristol-Cloud-Native-DevOps
+
+    cms_philly_20:
+        name: CMS Philly
+        location: Philadelphia, USA
+        url: https://cmsphilly.org
+
+    drupal_bristol:
+        name: Drupal Bristol
+        location: Bristol, UK
+        url: https://www.drupalbristol.org.uk
+
+    drupal_dev_days_18:
+        name: Drupal Developer Days 2018
+        location: Lisbon, Portugal
+        url: http://lisbon2018.drupaldays.org
+
+    drupal_edinburgh:
+        name: Drupal Edinburgh
+        url: https://www.meetup.com/Drupal-Edinburgh
+
+    drupal_somerset:
+        name: Drupal Somerset
+        location: Glastonbury, UK
+
+    drupal_yorkshire:
+        name: Drupal Yorkshire
+        location: Leeds, UK
+        url: https://www.meetup.com/DrupalYorkshire
+
+    drupalcamp_brighton_15:
+        name: DrupalCamp Brighton 2015
+        location: Brighton, UK
+
+    drupalcamp_bristol_16:
+        name: DrupalCamp Bristol 2016
+        location: Bristol, UK
+        url: https://2016.drupalcampbristol.org.uk
+
+    drupalcamp_dublin_17:
+        name: DrupalCamp Dublin 2017
+        location: Dublin, Ireland
+        url: http://2017.drupal.ie
+
+    drupalcamp_london_14:
+        name: DrupalCamp London 2014
+        location: London, UK
+
+    drupalcamp_london_15:
+        name: DrupalCamp London 2015
+        location: London, UK
+
+    drupalcamp_london_16:
+        name: DrupalCamp London 2016
+        location: London, UK
+
+    drupalcamp_london_17:
+        name: DrupalCamp London 2017
+        location: London, UK
+
+    drupalcamp_london_18:
+        name: DrupalCamp London 2018
+        location: London, UK
+
+    drupalcamp_london_19:
+        name: DrupalCamp London 2019
+        location: London, UK
+        url: http://drupalcamp.london
+
+    drupalcamp_london_20:
+        name: DrupalCamp London 2020
+        location: London, UK
+        url: http://drupalcamp.london
+
+    drupalcamp_north_15:
+        name: DrupalCamp North 2015
+        location: Sunderland, UK
+        url: http://drupalcampnorth.org
+
+    drupalcon_eu_19:
+        name: DrupalCon Europe 2019
+        location: Amsterdam, NL
+        url: https://events.drupal.org/amsterdam2019
+
+    nomad_php:
+        name: Nomad PHP
+        url: https://nomadphp.com
+
+    nwdug:
+        name: NWDUG
+        location: Manchester, UK
+        url: http://nwdrupal.org.uk
+
+    phpnw_17:
+        name: PHP North West 2017
+        location: Manchester, UK
+        url: http://conference.phpnw.org.uk/phpnw17
+
+    php_south_coast_16:
+        name: PHP South Coast 2016
+        location: Portsmouth, UK
+        url: http://2016.phpsouthcoast.co.uk
+
+    php_south_wales:
+        name: PHP South Wales
+        location: Cardiff, UK
+        url: https://www.phpsouthwales.uk
+
+    phpsw:
+        name: PHPSW
+        location: Bristol, UK
+        url: https://phpsw.uk
+
+    php_uk_18:
+        name: PHP UK Conference 2018
+        location: London, UK
+        url: https://www.phpconference.co.uk
+
+    ssdc:
+        name: Swansea Software Development Meetup (SSDC)
+        location: Swansea, UK
+        url: https://www.meetup.com/Swansea-Software-Development-Meetup
+
+    swdug:
+        name: SWDUG
+        location: Cardiff, UK
+
+    umbristol:
+        name: umBristol
+        location: Bristol, UK
+        url: http://umbristol.co.uk
+
+    unified_diff:
+        name: 'unified.diff'
+        location: Cardiff, UK
+        url: http://unifieddiff.co.uk
+
+    wordcamp_bristol_2019:
+        name: 'WordCamp Bristol 2019'
+        location: Bristol, UK
+        url: https://2019.bristol.wordcamp.org
+
+    wpchelt:
+        name: Cheltenham WordPress Meetup
+        location: Cheltenham, UK
+        url: https://www.meetup.com/Cheltenham-WordPress-Meetup

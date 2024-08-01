@@ -1,0 +1,12 @@
+{% macro talkEventName(event) %}
+    {% if event.url %}
+        <a href="{{ event.url }}">{{ event.name }}</a>
+    {% else %}
+        {{ event.name }}
+    {% endif %}
+{% endmacro %}
+
+{% macro talkEventLocation(event) %}
+    {{ event.location ? 'in ' ~ event.location }}
+    {{ event.remote ? ' (Remote)' }}
+{% endmacro %}

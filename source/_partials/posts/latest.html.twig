@@ -1,0 +1,15 @@
+{% if data.posts and page.url != '/blog' %}
+    <div class="markup">
+        <h2 class="mb-2">Latest Blog Posts</h2>
+
+        <ul class="pl-4">
+            {% for post in data.posts|slice(0, site.latest_posts) %}
+                <li>
+                    <a href="{{ post.url }}">
+                        {{- post.title -}}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}

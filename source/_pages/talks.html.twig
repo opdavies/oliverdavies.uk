@@ -1,0 +1,47 @@
+---
+title: Talks
+meta:
+    description: 'Information about previous and upcoming talks that Oliver has presented at conferences and user groups'
+use: [talks]
+talks:
+    - title: 'Drupal and the LDAP module'
+      description: A review and demonstration of some of the recent single sign-on work that I did using Drupal’s LDAP module.
+      events:
+          - event: swdug
+            date: 2013-07-10
+
+    - title: 'About the Drupal Association'
+      description: An impromptu talk about what the Drupal Association is, and what work I’ve been doing since I joined the Association staff.
+      events:
+          - event: swdug
+            date: 2014-08-19
+
+    - title: 'Automated testing and Test Driven Development in Drupal 8'
+      description: A workshop that I gave about automated testing and test driven development in Drupal 8.
+      type: Workshop
+      events:
+          - event: drupal_bristol
+            date: 2018-06-27
+          - event: drupalcamp_london_20
+            date: 2020-03-13
+---
+{% block content %}
+    {% set talks = page.talks|merge(data.talks) %}
+
+    <header>
+        <p class="lead">
+            After giving my first talk in September 2012, I have now given {{ get_past_talk_count(talks) }} presentations at various conferences and meetups,
+            on topics including PHP, Drupal, Git, CSS and systems administration.
+        </p>
+    </header>
+
+    <div class="spaced-y-10 mt-6">
+        {% include 'talks/upcoming' with {
+            talks: get_upcoming_talks(talks),
+        } only %}
+
+        {% include 'talks/past' with {
+            talks: get_past_talks(talks),
+        } only %}
+    </div>
+{% endblock %}

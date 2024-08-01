@@ -1,0 +1,39 @@
+---
+layout: default
+title: Tag Archive
+generator:
+    - posts_tag_index
+---
+{% block head_meta %}
+    <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/articles/tags/{{ page.tag|url_encode(true) }}.xml" title="{{ site.title }} '{{ page.tag }}' tag feed" />
+    <meta name="robots" content="noindex, follow">
+{% endblock %}
+
+{% block page_title %}
+    {{ page.title }}: "{{ page.tag }}"
+{% endblock %}
+
+{% block content %}
+    <div class="table-responsive">
+        <table class="table is-striped">
+            <thead>
+                <tr>
+                    <th>Post Title</th>
+                    <th class="w-48">Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for post in page.tag_posts %}
+                    <tr>
+                        <td>
+                            <a href="{{ post.url }}">
+                                {{ post.title }}
+                            </a>
+                        </td>
+                        <td>{{ post.date|date('j F Y') }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

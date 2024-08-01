@@ -1,0 +1,21 @@
+<article>
+    <h3 class="text-lg leading-snug text-gray-800">
+        <a href="{{ talk.url }}" class="text-inherit" tabindex="-1">
+            {{ talk.title }}
+        </a>
+    </h3>
+
+    <div class="mt-1">
+        <p>{{ talk.description }}</p>
+    </div>
+
+    {% if talk.url %}
+        <footer class="mt-1">
+            <a href="{{ talk.url }}" class="text-sm text-gray-600 hover:text-gray-900 focus:text-gray-900 no-underline hover:underline">
+                Find out more
+                <span class="visuallyhidden">about {{ talk.title }}</span>
+                &rarr;
+            </a>
+        </footer>
+    {% endif %}
+</article>

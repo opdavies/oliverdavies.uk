@@ -1,0 +1,57 @@
+---
+title: Projects
+projects:
+    - title: Rebuilding Acquia
+      description: A clone of Acquia’s hosting dashboard, built with Vue.js and Tailwind CSS.
+      url: https://github.com/opdavies/rebuilding-acquia
+
+    - title: Rebuilding Bartik
+      description: A clone of Bartik (Drupal’s default theme), built with Vue.js and Tailwind CSS.
+      url: https://github.com/opdavies/rebuilding-bartik
+
+    - title: Joind.in Winner Picker
+      description: A Symfony 4 application that determines a randomly selected winner from a section of feedback left on Joind.in. Developed on behalf of the PHP South West (PHPSW) user group.
+      url: https://github.com/opdavies/joindin-winner-picker-new
+
+    - title: Drupal.org API library
+      description: A PHP library for interacting with the Drupal.org API.
+      url: https://github.com/opdavies/drupalorg-api-php
+
+    - title: Drupal Meetups Twitterbot
+      description: A Symfony 4 application for retweeting tweets about Drupal meetups.
+      url: https://github.com/opdavies/sculpin-skeleton
+
+    - title: Gmail Filter Builder
+      description: A library for writing Gmail filters in PHP, then exporting them to importable XML.
+      url: https://github.com/opdavies/gmail-filter-builder
+
+    - title: Sculpin Skeleton
+      description: A skeleton project for the Sculpin static site generator.
+      url: https://github.com/opdavies/sculpin-skeleton
+---
+<div class="spaced-y-4">
+    <p class="lead">Here are some of the open source projects that I’ve written or currently maintain.</p>
+    <p class="lead">For the full list, see my <a href="{{ site.github.url }}">GitHub</a> and <a href="{{ site.drupalorg.url_new }}">Drupal.org</a> profiles.</p>
+</div>
+
+<div class="mt-8 spaced-y-10">
+    {% for project in page.projects %}
+        <article>
+            <h2 class="text-lg">
+                <a class="text-inherit" href="{{ project.url }}" tabindex="-1">
+                    {{ project.title }}
+                </a>
+            </h2>
+
+            <p class="mt-1">{{ project.description }}</p>
+
+            <p class="mt-2 text-sm">
+                <a class="text-gray-600 hover:text-black" href="{{ project.url }}">
+                    Find out more
+                    <span class="visuallyhidden">about {{ project.title }}</span>
+                    &rarr;
+                </a>
+            </p>
+        </article>
+    {% endfor %}
+</div>

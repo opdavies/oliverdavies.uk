@@ -1,0 +1,49 @@
+---
+permalink: sitemap.xml
+use: [posts, talks]
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ site.url }}</loc>
+    <lastmod>{{ site.calculated_date|date('Y-m-d') }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+    {% set pages = { 0: 'accessibility', 1: 'blog', 2: 'company-information', 3: 'contact', 4: 'services', 5: 'talks', 6: 'work' } %}
+    {% for page in pages %}
+      <url>
+        <loc>{{ site.url }}/{{ page }}/</loc>
+        <lastmod>{{ site.calculated_date|date('Y-m-d') }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+      </url>
+    {% endfor %}
+
+  <url>
+    <loc>{{ site.url }}/articles</loc>
+    <lastmod>{{ site.calculated_date|date('Y-m-d') }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  {% for post in data.posts %}
+  <url>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    <lastmod>{{ post.date|date('c') }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {% endfor %}
+
+  {% for talk in data.talks if not talk.hide_page %}
+  <url>
+    <loc>{{ site.url }}{{ talk.url }}</loc>
+    <lastmod>{{ talk.date|date('c') }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {% endfor %}
+
+</urlset>

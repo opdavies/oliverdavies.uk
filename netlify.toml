@@ -1,0 +1,11 @@
+[build]
+command = """
+composer test && \
+  npm run lint --fix-dry-run && \
+  npm run production && \
+  composer run production
+"""
+publish = "output_prod"
+
+[build.environment]
+PHP_VERSION = "7.2"

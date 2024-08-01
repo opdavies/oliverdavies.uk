@@ -1,0 +1,99 @@
+---
+title: Podcasts
+podcasts:
+    howtocodewell:
+        name: How to Code Well
+        url: https://howtocodewell.fm
+    talking_drupal:
+        name: Talking Drupal
+        url: http://talkingdrupal.com
+    thatpodcast:
+        name: That Podcast
+        url: https://thatpodcast.io
+episodes:
+    - title: 'Episode #175 - Automated Testing'
+      description: I joined the Talking Drupal team to discuss automated testing.
+      podcast: talking_drupal
+      date: 2018-09-05
+      url: http://talkingdrupal.com/175
+      audio: true
+
+    - title: 'Episode #204 - A Few Things'
+      description: I joined the Talking Drupal team again, where we discussed Drupal updates, conferences and more.
+      podcast: talking_drupal
+      date: 2019-03-25
+      url: http://talkingdrupal.com/204
+      audio: true
+
+    - title: What's new in Drupal 8+
+      description: Talking about Drupal, open source, Drupal 7 vs Drupal 8, module development, testing and more.
+      podcast: howtocodewell
+      date: 2019-04-12
+      url: https://howtocodewell.fm/episode/15-whats-new-in-drupal-8-plus-oliver-davies-interview
+      audio: true
+      video: true
+
+    - title: 'Episode 60 - The One Where We Talk Twig, Drupal, and Sculpin'
+      description: I joined Beau and Dave to talk about various topics including Drupal, the Sculpin static site generator, Twig, Tailwind CSS and Symfony.
+      podcast: thatpodcast
+      date: 2019-07-01
+      url: https://thatpodcast.io/episodes/episode-60-the-one-where-we-talk-twig-drupal-and-sculpin-with-oliver-davies
+      audio: true
+
+    - title: Static Site Generators
+      description: |
+        Talking again with Peter Fisher, this time about static site generators. We talk about what they are, when you should and shouldn’t use them, and how to use them with a content management system like Drupal.
+      podcast: howtocodewell
+      date: 2019-07-19
+      url: https://howtocodewell.fm/episode/29-what-are-static-site-generators-oliver-davies
+      audio: true
+      video: true
+---
+{% macro episodeTitle(podcast, episode) -%}
+    {{ podcast.name }}: {{ episode.title }}
+{%- endmacro %}
+
+{% import _self as helpers %}
+
+<header class="markup">
+    <p class="text-lg">As well as <a href="{{ site.menus.main.articles.href }}">writing posts</a> and <a href="{{ site.menus.main.talks.href }}">giving talks</a>, I also enjoy being on podcasts and speaking about interesting topics.</p>
+    <p class="text-lg">Here are the podcasts that I’ve been on, including <a href="{{ page.podcasts.talking_drupal.url }}">{{ page.podcasts.talking_drupal.name }}</a> and <a href="{{ page.podcasts.howtocodewell.url }}">{{ page.podcasts.howtocodewell.name }}</a>.</p>
+</header>
+
+<div class="mt-10 spaced-y-10">
+    {% for episode in page.episodes|reverse %}
+        {% set podcast = page.podcasts[episode.podcast] %}
+
+        <article>
+            <h2 class="text-lg">
+                {% if episode.url %}
+                    <a href="{{ episode.url }}" class="text-inherit" tabindex="-1">
+                        {{ helpers.episodeTitle(podcast, episode) }}
+                    </a>
+                {% else %}
+                    {{ helpers.episodeTitle(podcast, episode) }}
+                {% endif %}
+            </h2>
+
+            <time class="text-sm text-gray-800 block mt-px mb-2" datetime="{{ episode.date|date('Y-m-d') }}">
+                {{ episode.date|date('jS F Y') }}
+            </time>
+
+            <div class="markup">
+                {{ episode.description|markdown }}
+            </div>
+
+            {% if episode.url %}
+                <a href="{{ episode.url }}" class="inline-block mt-2 text-sm text-gray-600 hover:text-gray-800 focus:text-gray-800">
+                    {% if episode.video %}
+                        Watch {{ episode.video and episode.audio ? 'or listen to' }}
+                    {% elseif episode.audio %}
+                        Listen to
+                    {% endif %} this
+                    <span class="visuallyhidden">{{ podcast.name }}</span>
+                    episode &rarr;
+                </a>
+            {% endif %}
+        </article>
+    {% endfor %}
+</div>

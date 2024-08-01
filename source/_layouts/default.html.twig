@@ -1,0 +1,33 @@
+{% extends 'app' %}
+
+{% block body %}
+    {% include 'layout/navbar' %}
+
+    <div class="mt-10 container">
+        <main id="main-content" class="flex-1 wrap {{ page.layout == 'front' ? 'is-wide' : '' }}">
+            {# {% if page.layout in ['post', 'talk'] %}
+                {% include 'site-message' %}
+            {% endif %} #}
+
+            {% block page_title_wrapper %}
+                <h1 class="leading-tight mb-4">
+                    {% block page_title %}{{ page.title }}{% endblock %}
+                </h1>
+            {% endblock %}
+
+            {% block content_wrapper %}
+                {% block content %}{% endblock %}
+            {% endblock %}
+        </main>
+
+        {% include 'layout/footer' %}
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    {% if page.has_tweets or page.type == 'tweet' %}
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    {% endif %}
+
+    <script>hljs.initHighlightingOnLoad();</script>
+{% endblock %}

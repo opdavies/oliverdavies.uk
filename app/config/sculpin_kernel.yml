@@ -1,0 +1,27 @@
+sculpin:
+    ignore: ['**/.DS*', '**/*.swp']
+
+sculpin_content_types:
+    pages:
+        permalink: /:basename/
+    posts:
+        permalink: articles/:basename/
+        taxonomies: [tags]
+    talks:
+        permalink: talks/:basename/
+        taxonomies: [tags]
+
+parameters:
+    asset.manifest_dir: '%sculpin.source_dir%'
+
+services:
+    App\Asset\TwigExtension\EncoreExtension:
+        autowire: true
+        arguments:
+            $manifestDir: '%asset.manifest_dir%'
+        tags:
+            - { name: twig.extension }
+
+    App\Talk\TwigExtension\TalksExtension:
+        tags:
+            - { name: twig.extension }

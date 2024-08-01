@@ -1,0 +1,9 @@
+<div class="spaced-y-4">
+    <h2 class="font-bold">Previous Talks</h2>
+
+    <div class="spaced-y-10">
+        {% for talk in talks|reverse %}
+            {% include 'talks/talk' %}
+        {% endfor %}
+    </div>
+</div>

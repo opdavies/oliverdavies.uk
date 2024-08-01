@@ -1,0 +1,17 @@
+{% import 'helpers' as helpers %}
+
+{% if events %}
+    <div>
+        <h2>Presented at</h2>
+
+        <ul class="markup mt-2 list-disc ml-5">
+            {% for event in events %}
+                <li>
+                    {{ helpers.talkEventName(event) }}
+                    {{ helpers.talkEventLocation(event) }}
+                    <span class="text-gray-800">- {{ event.date|date('jS F Y') }}</span>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}

@@ -1,0 +1,23 @@
+title: Oliver Davies
+subtitle: Full Stack Web Developer (Drupal, Symfony, Laravel, Linux)
+description: 'Oliver Davies, Drupal Developer'
+email: oliver+website@oliverdavies.uk
+apple_touch_icon_sizes: [ 57, 114, 72, 144, 60, 120, 76, 152 ]
+favicon_sizes: [ 160, 96, 32, 16 ]
+
+author: Oliver Davies
+
+avatar:
+    url: /images/me-precedent.jpg
+
+favicon:
+    url: /images/me-phpnw.png
+
+imports:
+    - data/availability.yml
+    - data/companies.yml
+    - data/events.yml
+    - data/links.yml
+    - data/menus.yml
+    - data/redirects.yml
+    - data/work.yml

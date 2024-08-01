@@ -1,0 +1,100 @@
+---
+title: Testimonials
+use: [posts]
+testimonials:
+    - name: Ed Welsby
+      image: ed-welsby.png
+      role: Senior Developer at <a class="text-blue-600 inline-block" href="http://www.proctors.co.uk">Proctor & Stevenson</a>
+      text: |
+          Oliver was great to work with, he has a solid knowledge of the various aspects of web development and never minded helping me out with Linux commands!
+
+    - name: Brian Healy
+      image: brian-healy.png
+      role: Director of Business Development at <a class="text-blue-600 inline-block" href="http://tincan.co.uk">Tincan</a>.
+      text: |
+          Oliver was fantastic to work with - pro-active and highly responsive, he worked well remotely and as part of a project team. His understanding of the project requirement(s) and ability to translate it into working code was essential and he delivered.
+
+    - name: Marlon Duncanson
+      role: 'Brand & Web Specialist'
+      text: |
+          Oliver is a great guy and really easy to work with. He really goes the extra mile to make sure the project is done properly. I would recommend him and will not hesitate to use him again in future.
+
+    - name: Brian Hartwell
+      role: Interactive Creative Director
+      text: |
+          Oliver was great to work with. He has expert knowledge with Drupal and delivered exactly what we were looking for on time. He's understanding, friendly and easy to get along with. I would enjoy working with him again in the future.
+
+    - name: Daniel Easterbrook
+      role: Digital Strategy Consultant
+      text: |
+          Oliver is seasoned Drupal and all round highly skilled and experienced web developer. I have worked with Oliver on an important project where he was reliable, prompt and ensured strict client deadline delivery and confidentiality at all times.
+
+    - name: James Chapman
+      role: Director at <a class="text-blue-600 inline-block" href="http://www.developmentdoneright.co.uk">Development Done Right</a>
+      image: james-chapman.png
+      text: |
+          We used Oliver on a number of occasions throughout 2012 and I have to say we've been delighted with his work. His skills working with Drupal are excellent particularly with custom module development and we wouldn’t hesitate to recommend him others.
+
+    - name: Léonie Watson
+      role: >
+          Director of Accessibility at <a class="text-blue-600 inline-block" href="http://www.nomensa.com">Nomensa</a>
+      image: leonie-watson.jpg
+      text: |
+          Oliver is a flexible and hardworking developer, with a terrific knowledge of Drupal. He promotes accessibility best practice within the Drupal community, and is always happy to share his knowledge with other people.
+
+    - name: Holly Ross
+      role: >
+          Executive Director at the <a class="text-blue-600 inline-block" href="https://assoc.drupal.org">Drupal Association</a>
+      image: holly-ross.png
+      text: |
+          Oliver has been an outstanding contributor to the Drupal Association team. He is a talented developer who writes great code and applies his curiosity and love of learning to every project. He is also a fantastic team member, who gives to the team as much as he gets.
+
+          Oliver is the embodiment of everything good about the Drupal community.
+
+    - name: Josh Mitchell
+      role: CTO at the <a class="text-blue-600 inline-block" href="https://assoc.drupal.org">Drupal Association</a>
+      image: josh-mitchell.png
+      text: |
+          Oliver is a skilled Drupal developer with a passion for the Drupal community. As his direct supervisor, I was able to watch Oliver grow with the Drupal Association and contribute an amazing amount of effort and integrity to all of his work.
+
+          Everything we have thrown at Oliver, he has approached with an open and flexible mind that has allowed him to work on a wide range of projects and features for Drupal products.
+
+    - name: Chris Jarvis
+      image: chris-jarvis.jpg
+      role: Developer at <a class="text-blue-600 inline-block" href="https://microserve.io">Microserve</a>
+      text: |
+          Oliver is an amazing colleague, he's professional, full of knowledge and I could not recommend him more.
+---
+{% block content %}
+    <div class="spaced-y-12">
+        {% for testimonial in page.testimonials|reverse %}
+            <article class="flex flex-row-reverse items-center">
+                {% if testimonial.image %}
+                    <div class="flex-none">
+                        <img
+                            src="{{ site.url }}/images/testimonials/{{ testimonial.image }}"
+                            alt="{{ testimonial.name }}"
+                            class="with-border with-padding rounded-full w-16 h-16 ml-4"
+                        >
+                    </div>
+                {% endif %}
+
+                <div class="flex-1">
+                    <div class="mb-3">
+                        <h2 class="mb-1 leading-none">{{ testimonial.name }}</h2>
+
+                        {% if testimonial.role %}
+                            <div class="text-gray-600 text-sm">
+                                {{ testimonial.role|raw }}
+                            </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="markup">
+                        {{ testimonial.text|markdown }}
+                    </div>
+                </div>
+            </article>
+        {% endfor %}
+    </div>
+{% endblock %}

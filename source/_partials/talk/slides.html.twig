@@ -1,0 +1,9 @@
+{% if page.speakerdeck.id and page.speakerdeck.ratio %}
+    <div>
+        <h2 class="mb-2">Slides</h2>
+
+        {% include 'speakerdeck' with {
+            data: page.speakerdeck,
+        } %}
+    </div>
+{% endif %}

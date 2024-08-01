@@ -1,0 +1,82 @@
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="w-1/5">Date</th>
+                {% if not talk_page %}<th class="w-1/3">Talk</th>{% endif %}
+                <th>Event</th>
+                {% if not upcoming %}<th class="w-1/6">Feedback</th>{% endif %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for talk in talks %}
+                <tr>
+                    <td>
+                        <span class="block md:hidden">
+                            {{ talk.event.date|date(talk.event.fuzzy_date ? 'M Y' : 'j M Y') }}
+                        </span>
+                        <span class="hidden md:block">
+                            {{ talk.event.date|date(talk.event.fuzzy_date ? 'F Y' : 'j F Y') }}
+                        </span>
+
+                        {% if talk.event.time is defined %}
+                            <div class="text-xs text-gray-600">
+                                {{ talk.event.time }}
+                            </div>
+                        {% endif %}
+                    </td>
+
+                    {% if not talk_page %}
+                        <td class="whitespace-no-wrap xl:whitespace-normal">
+                            {% if talk.talk.url is not empty %}
+                                <a href="{{ talk.talk.url }}">
+                                    {{ talk.talk.title }}
+                                </a>
+                            {% else %}
+                                {{ talk.talk.title }}
+                            {% endif %}
+
+                            <div class="text-xs text-gray-600">
+                                {% if talk.talk.type %}
+                                    {{ talk.talk.type }}
+                                {% else %}
+                                    {{ talk.event.type|default('Talk') }}
+                                {% endif %}
+                            </div>
+                        </td>
+                    {% endif %}
+
+                    <td class="whitespace-no-wrap xl:whitespace-normal">
+                        {% if talk.event.url is not empty %}
+                            <a href="{{ talk.event.url }}">
+                                {{ talk.event.name }}
+                            </a>
+                        {% else %}
+                            {{ talk.event.name }}
+                        {% endif %}
+
+                        {% if talk.event.location is defined %}
+                            <div class="text-xs text-gray-600">
+                                {{ talk.event.location }}
+                            </div>
+                        {% endif %}
+                    </td>
+
+                    {% if not upcoming %}
+                        <td>
+                            {% if talk.event.joindin and talk.event.date <= 'today'|date('Y-m-d') %}
+                                <a
+                                    href="{{ talk.event.joindin }}"
+                                    class="button"
+                                    title="Read or leave feedback for this talk"
+                                >
+                                    <i class="fa fa-comment-o"></i> joind.in
+                                </a>
+                            {% endif %}
+                        </td>
+                    {% endif %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
