@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Opdavies\TwigExtension;
+namespace Modules\Talk\TwigExtension;
 
 use Sculpin\Contrib\ProxySourceCollection\ProxySourceItem;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 
-class OpdaviesTwigExtension extends AbstractExtension
+class TalkTwigExtension extends AbstractExtension
 {
     public function getFunctions(): array
     {
