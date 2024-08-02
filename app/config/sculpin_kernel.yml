@@ -12,6 +12,6 @@ sculpin_content_types:
     permalink: /talks/:basename/
 
 services:
-  App\Opdavies\TwigExtension\OpdaviesTwigExtension:
+  Modules\Talk\TwigExtension\TalkTwigExtension:
     tags:
       - {name: twig.extension}

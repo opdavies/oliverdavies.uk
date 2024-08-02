@@ -1,19 +1,19 @@
 <?php
 
-namespace App\Tests\Opdavies\TwigExtension;
+namespace Modules\Talk\Tests\TwigExtension;
 
-use App\Opdavies\TwigExtension\OpdaviesTwigExtension;
 use Dflydev\DotAccessConfiguration\Configuration;
+use Modules\Talk\TwigExtension\TalkTwigExtension;
 use PHPUnit\Framework\TestCase;
 use Sculpin\Contrib\ProxySourceCollection\ProxySourceItem;
 
-class OpdaviesTwigExtensionTest extends TestCase
+class TalkTwigExtensionTest extends TestCase
 {
-    private OpdaviesTwigExtension $extension;
+    private TalkTwigExtension $extension;
 
     public function setUp(): void
     {
-        $this->extension = new OpdaviesTwigExtension();
+        $this->extension = new TalkTwigExtension();
     }
 
     public function testNoPastEvents(): void
