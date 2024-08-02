@@ -11,7 +11,7 @@
             {{ event.name }}
           {% endif %}
 
-          {% if event.location %}
+          {% if event.location and not event.online %}
             in {{ event.location }}
           {% endif %}
 
