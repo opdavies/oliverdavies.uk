@@ -8,6 +8,8 @@ use Twig\TwigFunction;
 
 class ExperienceTwigExtension extends AbstractExtension
 {
+    private static $startYear = 2007;
+
     public function getFunctions(): array
     {
         return [
@@ -22,6 +24,6 @@ class ExperienceTwigExtension extends AbstractExtension
 
     public function getYearsOfExperience(): int
     {
-        return (new \DateTimeImmutable())->format('Y') - 2007;
+        return (new \DateTimeImmutable())->format('Y') - self::$startYear;
     }
 }
