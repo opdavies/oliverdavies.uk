@@ -12,6 +12,9 @@ sculpin_content_types:
     permalink: /talks/:basename/
 
 services:
+  Modules\Experience\TwigExtension\ExperienceTwigExtension:
+    tags:
+      - {name: twig.extension}
   Modules\Talk\TwigExtension\TalkTwigExtension:
     tags:
       - {name: twig.extension}

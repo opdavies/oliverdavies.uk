@@ -12,13 +12,12 @@ class TalkTwigExtension extends AbstractExtension
     {
         return [
             new TwigFunction('get_past_talk_count', [$this, 'getPastTalkCount']),
-            new TwigFunction('get_years_of_experience', [$this, 'getYearsOfExperience']),
         ];
     }
 
     public function getName(): string
     {
-        return 'app.opdavies_twig_extension';
+        return 'modules.talk';
     }
 
     public function getPastTalkCount(array $talks): int
@@ -35,10 +34,5 @@ class TalkTwigExtension extends AbstractExtension
                 }
             )
             ->count();
-    }
-
-    public function getYearsOfExperience(): int
-    {
-        return (new \DateTimeImmutable())->format('Y') - 2007;
     }
 }
