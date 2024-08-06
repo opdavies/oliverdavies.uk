@@ -4,7 +4,7 @@
   {{ parent() }}
 
   {% if page.url == "//" or page.url == "/daily/" %}
-    <a class="hidden" rel="me" href="https://mastodon.social/@opdavies">Mastodon</a>
+    <a class="hidden" rel="me" href="{{ site.mastodon.url }}">Mastodon</a>
   {% endif %}
 {% endblock %}
 
