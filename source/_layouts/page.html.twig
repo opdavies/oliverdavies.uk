@@ -1,5 +1,13 @@
 {% extends 'default' %}
 
+{% block body %}
+  {{ parent() }}
+
+  {% if page.url == "//" %}
+    <a class="hidden" rel="me" href="https://mastodon.social/@opdavies">Mastodon</a>
+  {% endif %}
+{% endblock %}
+
 {% block content_bottom %}
   {% include 'about-me.html.twig' %}
 {% endblock %}
