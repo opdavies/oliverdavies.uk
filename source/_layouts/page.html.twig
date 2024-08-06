@@ -3,7 +3,7 @@
 {% block body %}
   {{ parent() }}
 
-  {% if page.url == "//" %}
+  {% if page.url == "//" or page.url == "/daily/" %}
     <a class="hidden" rel="me" href="https://mastodon.social/@opdavies">Mastodon</a>
   {% endif %}
 {% endblock %}
