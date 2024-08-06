@@ -43,6 +43,9 @@
   <body>
     {% block body %}{% endblock %}
 
+    {# Add the Mastodon verification link so pages can be verified. #}
+    <a class="hidden" rel="me" href="{{ site.mastodon.url }}">Mastodon</a>
+
     {% if site.plausible.domain %}
       <script defer data-domain="{{ site.plausible.domain }}" src="https://plausible.io/js/script.js"></script>
     {% endif %}
