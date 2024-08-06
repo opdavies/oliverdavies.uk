@@ -2,15 +2,14 @@
 title: Dancing for Drupal
 description: A talk on Drupal, presented alongside others representing Umbraco, Sitecore and Episerver.
 speakerdeck:
-    id: ffa9b6dea6dc4a8eb207b9982ed6e1bd
-    ratio: "1.33333333333333"
-    url: https://speakerdeck.com/opdavies/umbristol-dancing-for-drupal
+  id: ffa9b6dea6dc4a8eb207b9982ed6e1bd
+  ratio: "1.33333333333333"
+  url: https://speakerdeck.com/opdavies/umbristol-dancing-for-drupal
 events:
-    -
-        name: umBristol
-        location: Bristol, UK
-        url: http://umbristol.co.uk
-        date: 2015-08-25
+  - name: umBristol
+    location: Bristol, UK
+    url: http://umbristol.co.uk
+    date: 2015-08-25
 ---
 
 As part of their [CMS Dance-Off][1], I was selected to speak about Drupal alongside other speakers representing Umbraco, Sitecore and Episerver.
