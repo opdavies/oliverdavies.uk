@@ -9,19 +9,19 @@ video:
   type: youtube
   id: oO0-E_FBS-U
 events:
-  - name: PHP North West
-    url: https://www.phpnw.org.uk
-    date: 2021-02-02
+  - name: NWDUG
+    location: Manchester, UK
+    url: https://www.meetup.com/nwdrupal/events/272098270
+    date: 2020-08-11
     online: true
   - name: PHP South West
     location: Bristol, UK
     url: https://www.meetup.com/php-sw/events/272787346
     date: 2020-09-09
     online: true
-  - name: NWDUG
-    location: Manchester, UK
-    url: https://www.meetup.com/nwdrupal/events/272098270
-    date: 2020-08-11
+  - name: PHP North West
+    url: https://www.phpnw.org.uk
+    date: 2021-02-02
     online: true
 ---
 

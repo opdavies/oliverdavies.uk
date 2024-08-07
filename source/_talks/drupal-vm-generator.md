@@ -11,14 +11,14 @@ video:
   type: youtube
   id: U1pbKAAO2Wo
 events:
-  - name: Drupal Bristol
-    location: Bristol, UK
-    url: https://www.drupalbristol.org.uk
-    date: 2016-04-02
   - name: NWDUG
     url: http://nwdrupal.org.uk
     location: Manchester, UK
     date: 2016-03-08
+  - name: Drupal Bristol
+    location: Bristol, UK
+    url: https://www.drupalbristol.org.uk
+    date: 2016-04-02
 ---
 
 An short talk about the [Drupal VM Generator][1] project.

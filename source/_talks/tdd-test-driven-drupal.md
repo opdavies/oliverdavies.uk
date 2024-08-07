@@ -15,54 +15,55 @@ image:
   type: image/png
 use: [talks]
 events:
-  - name: DrupalCamp Belgium
-    location: Ghent, Belgium
-    date: 2024-05-10
-    url: https://www.drupalcamp.be/en/drupalcamp-ghent-2024/session/tdd-test-driven-drup%E2%80%A6
-  - name: DrupalCon Lille 2023
-    location: Lille, France
-    date: 2023-10-17
-    time: "15:00 - 15:45"
-    url: https://events.drupal.org/lille2023/session/tdd-test-driven-drupal-introduction-automated-testing-and-test-driven-development
-  - name: DrupalCon Europe 2020
-    date: 2020-12-08
-    url: https://events.drupal.org/europe2020/sessions/tdd-test-driven-drupal
-    online: true
-  - name: Bay Area Drupal Camp (BADCamp)
-    date: 2020-10-14
-    url: https://2020.badcamp.org/session/tdd-test-driven-drupal
-    online: true
-  - name: NWDUG
-    date: 2020-05-12
-    location: Manchester, UK
-    url: http://nwdrupal.org.uk
-    online: true
-  - name: DrupalCamp London 2019
-    date: 2019-03-02
-    time: "14:00 - 14:45"
+  - name: DrupalCamp London 2017
     location: London, UK
+    date: 2017-03-04
+    time: "16:15 - 17:00"
     url: http://drupalcamp.london
-  - name: Drupal Developer Days 2018
-    date: 2018-07-05
-    time: "12:15 - 13:00"
-    location: Lisbon, Portugal
-    url: http://lisbon2018.drupaldays.org
-  - name: Drupal Somerset
-    date: 2018-06-14
-    location: Glastonbury, UK
-  - name: Drupal Bristol
-    date: 2017-11-22
-    location: Bristol, UK
-    url: https://www.drupalbristol.org.uk
   - name: DrupalCamp Dublin 2017
     location: Dublin, Ireland
     date: 2017-10-21
     time: "12:00 - 12:40"
     url: http://2017.drupal.ie
-  - name: DrupalCamp London 2017
+  - name: Drupal Bristol
+    date: 2017-11-22
+    location: Bristol, UK
+    url: https://www.drupalbristol.org.uk
+  - name: Drupal Somerset
+    date: 2018-06-14
+    location: Glastonbury, UK
+  - name: Drupal Developer Days 2018
+    date: 2018-07-05
+    time: "12:15 - 13:00"
+    location: Lisbon, Portugal
+    url: http://lisbon2018.drupaldays.org
+  - name: DrupalCamp London 2019
+    date: 2019-03-02
+    time: "14:00 - 14:45"
     location: London, UK
-    date: 2017-03-04
-    time: "16:15 - 17:00"
+    url: http://drupalcamp.london
+  - name: NWDUG
+    date: 2020-05-12
+    location: Manchester, UK
+    url: http://nwdrupal.org.uk
+    online: true
+  - name: Bay Area Drupal Camp (BADCamp)
+    date: 2020-10-14
+    url: https://2020.badcamp.org/session/tdd-test-driven-drupal
+    online: true
+  - name: DrupalCon Europe 2020
+    date: 2020-12-08
+    url: https://events.drupal.org/europe2020/sessions/tdd-test-driven-drupal
+    online: true
+  - name: DrupalCon Lille 2023
+    location: Lille, France
+    date: 2023-10-17
+    time: "15:00 - 15:45"
+    url: https://events.drupal.org/lille2023/session/tdd-test-driven-drupal-introduction-automated-testing-and-test-driven-development
+  - name: DrupalCamp Belgium
+    location: Ghent, Belgium
+    date: 2024-05-10
+    url: https://www.drupalcamp.be/en/drupalcamp-ghent-2024/session/tdd-test-driven-drup%E2%80%A6
 ---
 
 Testing is important.

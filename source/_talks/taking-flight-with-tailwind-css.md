@@ -20,42 +20,30 @@ meta:
       height: 1440
       type: "image/png"
 events:
-  - name: DrupalCamp Belgium
-    location: Ghent, Belgium
-    date: 2024-05-11
-    url: https://www.drupalcamp.be/en/drupalcamp-ghent-2024/session/taking-flight-tailwi%E2%80%A6
-  - name: Norfolk Developers Conference
-    location: Norwich, UK
-    date: 2023-02-23
-    url: https://nordevcon.com
-  - name: Bristol Software Development Meetup
+  - name: Drupal Bristol
     location: Bristol, UK
-    date: 2023-02-16
-    url: https://www.meetup.com/south-wales-tech/events/291092930
-  - name: Nashville PHP
-    location: Nashville, TN, USA
-    date: 2021-02-09
-    url: https://www.meetup.com/nashvillephp/events/kzkdwryccdbmb
-    online: true
-  - name: PHP Cambridge
-    location: Cambridge, UK
-    date: 2021-01-19
-    url: https://www.meetup.com/phpcambridge
-    online: true
-  - name: "Drupal Virtual Cafe #3"
-    location: Kyiv, Ukraine
-    date: 2020-10-15
-    url: https://groups.drupal.org/ukraine
-    online: true
-  - name: Bristol JS
+    date: 2018-01-17
+    url: https://www.drupalbristol.org.uk
+  - name: PHP South Wales
+    location: Cardiff, UK
+    date: 2018-07-31
+    url: https://www.phpsouthwales.uk
+  - name: Cheltenham WordPress Meetup
+    location: Cheltenham, UK
+    date: 2019-04-17
+    url: https://www.meetup.com/Cheltenham-WordPress-Meetup
+  - name: WordCamp Bristol 2019
     location: Bristol, UK
-    date: 2020-09-30
-    url: https://techtalks.io/events/f8e26038-2561-484e-8a74-7a1e3a0369b8
-    online: true
-  - name: DigitalCamp Atlanta 2020
-    location: Atlanta, GA
-    date: 2020-09-11
-    url: https://www.drupalcampatlanta.com/2020/sessions/taking-flight-tailwind-css
+    date: 2019-05-18
+    url: https://2019.bristol.wordcamp.org
+  - name: Blue Conf 2019
+    location: Cardiff, UK
+    date: 2019-06-07
+    url: https://blueconf.co.uk
+  - name: CMS Philly
+    location: Philadelphia, USA
+    date: 2020-05-01
+    url: https://cmsphilly.org
     online: true
   - name: Drupal Yorkshire
     location: Leeds, UK
@@ -67,31 +55,43 @@ events:
     date: 2020-07-08
     url: https://www.meetup.com/meetup-group-yzpbvTYv/events/271430269
     online: true
-  - name: CMS Philly
-    location: Philadelphia, USA
-    date: 2020-05-01
-    url: https://cmsphilly.org
+  - name: DigitalCamp Atlanta 2020
+    location: Atlanta, GA, USA
+    date: 2020-09-11
+    url: https://www.drupalcampatlanta.com/2020/sessions/taking-flight-tailwind-css
     online: true
-  - name: Blue Conf 2019
-    location: Cardiff, UK
-    date: 2019-06-07
-    url: https://blueconf.co.uk
-  - name: WordCamp Bristol 2019
+  - name: Bristol JS
     location: Bristol, UK
-    date: 2019-05-18
-    url: https://2019.bristol.wordcamp.org
-  - name: Cheltenham WordPress Meetup
-    location: Cheltenham, UK
-    date: 2019-04-17
-    url: https://www.meetup.com/Cheltenham-WordPress-Meetup
-  - name: PHP South Wales
-    location: Cardiff, UK
-    date: 2018-07-31
-    url: https://www.phpsouthwales.uk
-  - name: Drupal Bristol
+    date: 2020-09-30
+    url: https://techtalks.io/events/f8e26038-2561-484e-8a74-7a1e3a0369b8
+    online: true
+  - name: "Drupal Virtual Cafe #3"
+    location: Kyiv, Ukraine
+    date: 2020-10-15
+    url: https://groups.drupal.org/ukraine
+    online: true
+  - name: PHP Cambridge
+    location: Cambridge, UK
+    date: 2021-01-19
+    url: https://www.meetup.com/phpcambridge
+    online: true
+  - name: Nashville PHP
+    location: Nashville, TN, USA
+    date: 2021-02-09
+    url: https://www.meetup.com/nashvillephp/events/kzkdwryccdbmb
+    online: true
+  - name: Bristol Software Development Meetup
     location: Bristol, UK
-    date: 2018-01-17
-    url: https://www.drupalbristol.org.uk
+    date: 2023-02-16
+    url: https://www.meetup.com/south-wales-tech/events/291092930
+  - name: Norfolk Developers Conference
+    location: Norwich, UK
+    date: 2023-02-23
+    url: https://nordevcon.com
+  - name: DrupalCamp Belgium
+    location: Ghent, Belgium
+    date: 2024-05-11
+    url: https://www.drupalcamp.be/en/drupalcamp-ghent-2024/session/taking-flight-tailwi%E2%80%A6
 ---
 
 An introduction to utility class and component-based styling, and how to soar with [Tailwind CSS][1].

@@ -10,38 +10,38 @@ video:
   type: youtube
   id: axy6ltc9meA
 events:
-  - name: PHP Berkshire
-    date: 2024-08-28
-    location: Reading, UK
-    url: https://www.meetup.com/php-berkshire/events/301850284
-  - name: BrumPHP
-    date: 2024-05-23
-    location: Birmingham, UK
-    url: https://www.eventbrite.com/e/brumphp-23rd-may-2024-tickets-803037766577
   - name: PHP South West
-    date: 2024-02-14
     location: Bristol, UK
-    url: https://www.meetup.com/php-sw/events/298880313
-  - name: GroningenPHP
-    date: 2021-12-09
-    location: Groningen, Netherlands
-    url: https://www.meetup.com/GroningenPHP/events/281648855
+    date: 2015-10-14
+    url: https://phpsw.uk/events/2015-10-lightning-talks
+    joindin: https://joind.in/talk/view/15486
+  - name: Drupal Yorkshire
+    date: 2021-08-19
+    location: Leeds, UK
+    url: https://www.meetup.com/DrupalYorkshire/events/280100968
     online: true
   - name: PHP North West (PHPNW)
     date: 2021-09-07
     location: Manchester, UK
     url: https://www.phpnw.org.uk
     online: true
-  - name: Drupal Yorkshire
-    date: 2021-08-19
-    location: Leeds, UK
-    url: https://www.meetup.com/DrupalYorkshire/events/280100968
+  - name: GroningenPHP
+    date: 2021-12-09
+    location: Groningen, Netherlands
+    url: https://www.meetup.com/GroningenPHP/events/281648855
     online: true
   - name: PHP South West
+    date: 2024-02-14
     location: Bristol, UK
-    date: 2015-10-14
-    url: https://phpsw.uk/events/2015-10-lightning-talks
-    joindin: https://joind.in/talk/view/15486
+    url: https://www.meetup.com/php-sw/events/298880313
+  - name: BrumPHP
+    date: 2024-05-23
+    location: Birmingham, UK
+    url: https://www.eventbrite.com/e/brumphp-23rd-may-2024-tickets-803037766577
+  - name: PHP Berkshire
+    date: 2024-08-28
+    location: Reading, UK
+    url: https://www.meetup.com/php-berkshire/events/301850284
 ---
 
 [Sculpin][0] is a static site generator written in PHP. It converts Markdown

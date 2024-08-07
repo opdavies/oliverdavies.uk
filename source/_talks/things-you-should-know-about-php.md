@@ -13,18 +13,18 @@ meta:
     image:
       url: '%site.assets.url%/assets/images/talks/things-you-should-know-about-php.png'
 events:
-  - name: PHP Stoke
-    location: Stoke-on-Trent, UK
-    url: https://www.eventbrite.com/e/php-stoke-tickets-429043128547
-    date: 2023-01-12
-  - name: PHP South West
-    location: Bristol, UK
-    url: https://www.meetup.com/php-sw/events/284341510
-    date: 2022-03-09
   - name: Swansea Software Development Meetup (SSDC)
     location: Swansea, UK
     url: https://www.meetup.com/Swansea-Software-Development-Meetup
     date: 2019-01-28
+  - name: PHP South West
+    location: Bristol, UK
+    url: https://www.meetup.com/php-sw/events/284341510
+    date: 2022-03-09
+  - name: PHP Stoke
+    location: Stoke-on-Trent, UK
+    url: https://www.eventbrite.com/e/php-stoke-tickets-429043128547
+    date: 2023-01-12
 ---
 
 An introduction to PHP, presented to the Swansea Software Development Community (SSDC) meetup and PHP South West.
