@@ -2,8 +2,6 @@
 title: Press Info
 ---
 
-{% import 'macros' as macros %}
-
 The following information is provided as a cut-and-paste resource for conference organisers, media professionals, podcast hosts, and other interested parties.
 
 Please feel free to use anything here as-is without checking with me first. If you have additional questions, you can <a href="mailto:{{ site.email }}">email me directly</a>.

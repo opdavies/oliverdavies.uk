@@ -5,8 +5,6 @@ button:
     url: https://buy.stripe.com/aEU4h0gBc4ro0p27sz
 ---
 
-{% import 'macros' as macros %}
-
 {# Pain #}
 
 Drupal 7 will be unsupported on the **5th of January 2025**.
