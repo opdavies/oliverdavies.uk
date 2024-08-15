@@ -2,8 +2,6 @@
 title: Speaker Information
 ---
 
-{% import 'macros' as macros %}
-
 ## Bio
 
 Oliver is a Software Developer and Drupal Expert with {{ get_years_of_experience() }} years of experience. As well as consulting on large Drupal projects, Oliver helps Drupal Developers learn automated testing and test-driven development via a free email course and paid coaching and workshops. He regularly contributes to open-source software projects, including Drupal core.

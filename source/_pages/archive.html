@@ -9,9 +9,7 @@ use:
 ---
 
 {% block content %}
-  {% import 'macros' as macros %}
-
-  <p>This is an archive of the {{ macros.dailiesCount(data.daily_emails) }} email messages I have sent to <a href="/daily">my daily mailing list</a> since the 12th of August, 2022. Enjoy!</p>
+  <p>This is an archive of the {{ data.daily_emails|length }} email messages I have sent to <a href="/daily">my daily mailing list</a> since the 12th of August, 2022. Enjoy!</p>
 
   <div class="mt-6 space-y-16">
     <div>
