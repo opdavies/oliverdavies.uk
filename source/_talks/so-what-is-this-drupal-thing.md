@@ -5,7 +5,8 @@ video:
   type: vimeo
   id: '49827006'
 events:
-  - location: Cardiff, UK
+  - name: unified.diff
+    location: Cardiff, UK
     url: http://unifieddiff.co.uk
     date: 2012-09-05
 ---
