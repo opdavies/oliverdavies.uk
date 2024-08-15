@@ -1,7 +1,20 @@
-{% if video.type == 'youtube' and video.id %}
+{% if video.id %}
   <section>
     <h2>Video</h2>
 
-    {% include 'youtube-video.html.twig' with { id: video.id } %}
+    <div>
+    {% if video.type == 'vimeo' %}
+      <div>
+        <iframe
+          allowfullscreen
+          class="w-full border border-gray-500 aspect-[16/9]"
+          frameborder="0"
+          src="https://player.vimeo.com/video/{{ video.id }}"
+        ></iframe>
+      </div>
+    {% elseif video.type == 'youtube' %}
+      {% include 'youtube-video.html.twig' with { id: video.id } %}
+    {% endif %}
+    </div>
   </section>
 {% endif %}
