@@ -65,15 +65,15 @@ function npm:build:css {
 }
 
 function publish {
-  export NODE_ENV=production
-  export APP_ENV=production
-
-  tag-release
   git push
+  tag-release
+  git push --tags
 
   git stash
-
   clean
+
+  export APP_ENV=prod
+  export NODE_ENV=production
   (cd assets && npm:build:css)
   generate
 
