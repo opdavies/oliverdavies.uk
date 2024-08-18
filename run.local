@@ -65,17 +65,15 @@ function npm:build:css {
 }
 
 function publish {
-  export NODE_ENV=production
-  export APP_ENV=production
-
-  tag-release
   git push
+  tag-release
+  git push --tags
 
   git stash
 
   clean
-  (cd assets && npm:build:css)
-  generate
+  (NODE_ENV=production cd assets && npm:build:css)
+  APP_ENV=prod generate
 
   rsync --archive --verbose --compress --update --delete \
     output_prod/ ssh.oliverdavies.uk:/var/www/vhosts/www.oliverdavies.uk
