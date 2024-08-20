@@ -15,6 +15,16 @@
         {% block content_top %}{% endblock %}
 
         <main>
+          {% if page.url matches "#^/atdc/#" %}
+            <div class="mb-10 border border-grey-800 dark:border-grey-600">
+              <div class="py-4 px-4">
+                <div class="{{ site.prose_classes }}">
+                  <p>I'm currently updating this course for Drupal 11. If you find any bugs or have any issues, <a href="mailto:{{ site.email }}?subject=ATDC">please let me know</a>.
+                </div>
+              </div>
+            </div>
+          {% endif %}
+
           <h1 class="mb-4 text-xl font-bold md:text-2xl">
             {% block page_title %}{{ page.title }}{% endblock %}
           </h1>
