@@ -64,6 +64,17 @@ function npm:build:css {
     --output ../source/build/tailwind.css "${args[@]}"
 }
 
+function setup {
+  git submodule update --recursive --init
+  git submodule update --recursive --remote || true
+
+  composer install
+  (cd assets && pnpm install)
+
+  (cd assets && NODE_ENV=production npm:build:css)
+  APP_ENV=prod generate
+}
+
 function publish {
   git push
 
