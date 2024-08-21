@@ -1,5 +1,9 @@
 ---
 title: Sign up for the Daily Drupaler Email List
+meta:
+  title: The Daily Drupaler - daily software development thoughts and tips | %site.name%
+  description: |-
+    Daily software development thoughts and tips by %site.name%.
 ---
 
 {% block content %}
