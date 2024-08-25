@@ -1,0 +1,20 @@
+layout {
+  pane split_direction="vertical" {
+    pane command="nvim" size="60%"
+
+    pane split_direction="horizontal" {
+      run name="Generate the website" { args "start"; }
+      run name="Run tests" { args "test"; }
+      run name="Publish the website" { args "publish"; }
+    }
+  }
+
+  pane size=1 borderless=true {
+    plugin location="zellij:compact-bar"
+  }
+
+  pane_template name="run" {
+    command "./run"
+    start_suspended true
+  }
+}
