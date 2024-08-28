@@ -318,6 +318,7 @@ Redirect 301 /first-drupal-core-issue https://www.drupal.org/project/drupal/issu
 Redirect 301 /first-npm-package https://www.npmjs.com/package/tailwindcss-vuejs
 Redirect 301 /freeagent https://opdavies.freeagent.com
 Redirect 301 /git-flow /talks/git-flow
+Redirect 301 /github-sculpin https://github.com/opdavies?tab=repositories&q=sculpin
 Redirect 301 /gitlab https://gitlab.com/opdavies
 Redirect 301 /gitstore https://enjoy.gitstore.app/maintainers/opdavies
 Redirect 301 /gmail-filters https://gitlab.com/opdavies/gmail-filters
