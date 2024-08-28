@@ -268,7 +268,7 @@ Redirect 301 /blog/using-the-pcss-extension-postcss-webpack-encore /blog/using-p
 Redirect 301 /blog/weeknotes-june-5th /blog/weeknotes-2021-06-05
 Redirect 301 /blog/writing-drupal-module-test-driven-development-tdd /blog/writing-new-drupal-8-module-using-test-driven-development-tdd
 Redirect 301 /book /test-driven-drupal
-Redirect 301 /build-configs /daily/2024/08/27/build-configs-is-now-open-source
+Redirect 301 /build-configs /daily/2024/08/27/build-configs-is-open-source
 Redirect 301 /calendars? https://savvycal.com/opdavies
 Redirect 301 /cms-philly /articles/presenting-on-tailwind-css-and-ansible-at-cms-philly
 Redirect 301 /code-enigma-interview https://blog.codeenigma.com/interview-with-a-drupal-expert-9fcd8e0fad28
