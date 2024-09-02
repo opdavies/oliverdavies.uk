@@ -438,6 +438,7 @@ RewriteRule ^wp-tailwind-static$ https://wp-tailwind.oliverdavies.uk [R=301]
 RewriteRule ^yXhoS$ /presentations/things-you-should-know-about-php [R=301]
 
 RewriteCond %{REQUEST_URI}$ !^/archive/?$
+RewriteCond %{REQUEST_URI}$ !^/archive/page/
 RewriteRule ^archive/(.*)$ /daily/$1 [L,R=301]
 
 RewriteRule ^articles/(.*)$ /blog/$1 [L,R=301]
