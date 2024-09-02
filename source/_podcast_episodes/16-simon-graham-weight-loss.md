@@ -2,13 +2,12 @@
 date: 2024-05-01
 topic: Health, fitness and weight loss
 guests:
-    - Simon Graham
+  - Simon Graham
 transistor:
-    id: da3e6309
+  id: da3e6309
 links:
-    -
-        - simongpt.co.uk
-        - https://www.simongpt.co.uk
+  - - simongpt.co.uk
+    - https://www.simongpt.co.uk
 talking_points: []
 quotes: []
 chapters: []

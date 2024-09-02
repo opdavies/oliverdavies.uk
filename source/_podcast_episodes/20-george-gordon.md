@@ -2,16 +2,16 @@
 date: 2024-09-06
 topic: Bootcamps, Hackathons, Meetups and Drupal
 guests:
-    - George Gordon
+  - George Gordon
 transistor:
-    id: ec999352
+  id: ec999352
 links:
-    - - School of Code
-      - https://schoolofcode.co.uk
-    - - Versantus
-      - https://www.versantus.co.uk
-    - - George on LinkedIn
-      - https://www.linkedin.com/in/george-gordon-70aa3a82
+  - - School of Code
+    - https://schoolofcode.co.uk
+  - - Versantus
+    - https://www.versantus.co.uk
+  - - George on LinkedIn
+    - https://www.linkedin.com/in/george-gordon-70aa3a82
 talking_points: []
 quotes: []
 chapters: []
