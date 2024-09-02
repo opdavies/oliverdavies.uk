@@ -8,13 +8,13 @@ sculpin_content_types:
     permalink: /podcast/:basename/
   posts:
     permalink: /blog/:basename/
-  talks:
-    permalink: /talks/:basename/
+  presentations:
+    permalink: /presentations/:basename/
 
 services:
   Modules\Experience\TwigExtension\ExperienceTwigExtension:
     tags:
       - {name: twig.extension}
-  Modules\Talk\TwigExtension\TalkTwigExtension:
+  Modules\Presentations\TwigExtension\PresentationTwigExtension:
     tags:
       - {name: twig.extension}

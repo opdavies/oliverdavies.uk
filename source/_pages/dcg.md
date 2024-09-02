@@ -28,8 +28,8 @@ All emails are sent from my personal email address, so you can press reply and c
 [consulting]: /consulting
 [course]: /atdc
 [email list]: /daily
-[tailwind css]: /talks/taking-flight-with-tailwind-css
-[test driven drupal]: /talks/tdd-test-driven-drupal
+[tailwind css]: /presentations/taking-flight-with-tailwind-css
+[test driven drupal]: /presentations/tdd-test-driven-drupal
 [workshop]: /archive/2024/01/22/tailwind-css-workshop-recording
 
 {% endblock %}

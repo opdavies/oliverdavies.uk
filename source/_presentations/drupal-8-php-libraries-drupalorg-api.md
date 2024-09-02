@@ -52,4 +52,4 @@ This session will cover various topics including:
 [4]: https://laravel.com/docs/collections
 [5]: https://github.com/opdavies/drupal-module-drupalorg-project-statistics
 [6]: https://github.com/opdavies/drupal-module-drupalversary
-[7]: /talks/using-laravel-collections-outside-laravel/
+[7]: /presentations/using-laravel-collections-outside-laravel/

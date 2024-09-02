@@ -9,7 +9,7 @@ title: PHP Berkshire
 {% block content %}
 Thank you for attending my Sculpin talk at PHP Berkshire.
 
-[The slides and a previous recording](/talks/building-static-websites-sculpin) are on the talk page.
+[The slides and a previous recording](/presentations/building-static-websites-sculpin) are on the talk page.
 
 To see an example of a Sculpin project, you can see [the source code for this website](https://github.com/opdavies/oliverdavies.uk), [my Zettlekasten](https://github.com/opdavies/zet.oliverdavies.uk) or [my demo for PHP South West](https://github.com/opdavies/phpsw-sculpin-demo).
 
