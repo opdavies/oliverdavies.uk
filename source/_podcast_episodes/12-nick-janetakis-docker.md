@@ -2,19 +2,16 @@
 date: 2024-02-26
 topic: Docker
 guests:
-    - Nick Janetakis
+  - Nick Janetakis
 transistor:
-    id: a0498296
+  id: a0498296
 links:
-    -
-        - Nick's website and blog
-        - https://nickjanetakis.com
-    -
-        - Nick on YouTube
-        - https://www.youtube.com/@NickJanetakis
-    -
-        - Nick's Docker example repositories on GitHub
-        - https://github.com/nickjj?tab=repositories&q=-example
+  - - Nick's website and blog
+    - https://nickjanetakis.com
+  - - Nick on YouTube
+    - https://www.youtube.com/@NickJanetakis
+  - - Nick's Docker example repositories on GitHub
+    - https://github.com/nickjj?tab=repositories&q=-example
 talking_points: []
 ---
 

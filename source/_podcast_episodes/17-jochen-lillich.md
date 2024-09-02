@@ -2,22 +2,18 @@
 date: 2024-07-18
 topic: Automation, Linux training and mechanical keyboards
 guests:
-    - Jochen Lillich
+  - Jochen Lillich
 transistor:
-    id: d8858593
+  id: d8858593
 links:
-    -
-      - Jochen's personal website
-      - https://www.geewiz.dev
-    -
-      - Jochen on Twitch
-      - https://www.twitch.tv/monospacementor
-    -
-      - monospacementor.com
-      - https://monospacementor.com
-    -
-      - freistil.it
-      - https://www.freistil.it
+  - - Jochen's personal website
+    - https://www.geewiz.dev
+  - - Jochen on Twitch
+    - https://www.twitch.tv/monospacementor
+  - - monospacementor.com
+    - https://monospacementor.com
+  - - freistil.it
+    - https://www.freistil.it
 talking_points: []
 quotes: []
 chapters: []
