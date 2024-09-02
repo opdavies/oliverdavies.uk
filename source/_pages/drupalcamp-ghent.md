@@ -11,7 +11,7 @@ Thank you for attending my session at DrupalCamp Ghent.
 
 You can view the slides and previous recordings of my [Test Driven Drupal](/talks/tdd-test-driven-drupal) and [Tailwind CSS](/talks/taking-flight-with-tailwind-css) talks on this website.
 
-If you want to learn more, I released a video of the [Tailwind CSS workshop](/archive/2024/01/22/tailwind-css-workshop-recording) I gave for DrupalCamp Florida, and I've created a [free 10-day email course](/atdc) on automated testing in Drupal.
+If you want to learn more, I released a video of the [Tailwind CSS workshop](/daily/2024/01/22/tailwind-css-workshop-recording) I gave for DrupalCamp Florida, and I've created a [free 10-day email course](/atdc) on automated testing in Drupal.
 
 ## Can we work together?
 
