@@ -13,7 +13,7 @@ tweets: true
 Here are my slides from my "What is Git Flow?" session at
 [DrupalCamp London](http://2014.drupalcamplondon.co.uk).
 
-{% include 'talk/slides' with { speakerdeck: {
+{% include 'presentation/slides' with { speakerdeck: {
     data_id: '201559e0f103013198dd5a5f6f23ab67' }
 } only %}
 

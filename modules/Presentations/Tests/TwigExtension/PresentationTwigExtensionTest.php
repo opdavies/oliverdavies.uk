@@ -1,52 +1,52 @@
 <?php
 
-namespace Modules\Talk\Tests\TwigExtension;
+namespace Modules\Presentations\Tests\TwigExtension;
 
 use Dflydev\DotAccessConfiguration\Configuration;
-use Modules\Talk\TwigExtension\TalkTwigExtension;
+use Modules\Presentations\TwigExtension\PresentationTwigExtension;
 use PHPUnit\Framework\TestCase;
 use Sculpin\Contrib\ProxySourceCollection\ProxySourceItem;
 
-class TalkTwigExtensionTest extends TestCase
+class PresentationTwigExtensionTest extends TestCase
 {
-    private TalkTwigExtension $extension;
+    private PresentationTwigExtension $extension;
 
     public function setUp(): void
     {
-        $this->extension = new TalkTwigExtension();
+        $this->extension = new PresentationTwigExtension();
     }
 
     public function testNoPastEvents(): void
     {
-        $talk = $this->createTalk(
+        $presentation = $this->createPresentation(
             events: [
                 ['date' => (new \DateTime('+1 days'))->getTimestamp()],
             ],
         );
 
-        $this->assertTalkCount(expectedCount: 0, talks: [$talk]);
+        $this->assertPresentationCount(expectedCount: 0, presentations: [$presentation]);
     }
 
     public function testSinglePastEvent(): void
     {
-        $talkA = $this->createTalk(
+        $presentationA = $this->createPresentation(
             events: [
                 ['date' => (new \DateTime('+1 days'))->getTimestamp()],
             ],
         );
 
-        $talkB = $this->createTalk(
+        $presentationB = $this->createPresentation(
             events: [
                 ['date' => (new \DateTime('-3 days'))->getTimestamp()],
             ],
         );
 
-        $this->assertTalkCount(expectedCount: 1, talks: [$talkA, $talkB]);
+        $this->assertPresentationCount(expectedCount: 1, presentations: [$presentationA, $presentationB]);
     }
 
-    public function testSingleTalkWithMultiplePastEvents(): void
+    public function testSinglePresentationWithMultiplePastEvents(): void
     {
-        $talk = $this->createTalk(
+        $presentation = $this->createPresentation(
             events: [
                 ['date' => (new \DateTime('-1 days'))->getTimestamp()],
                 ['date' => (new \DateTime('-1 week'))->getTimestamp()],
@@ -54,12 +54,12 @@ class TalkTwigExtensionTest extends TestCase
             ],
         );
 
-        $this->assertTalkCount(expectedCount: 3, talks: [$talk]);
+        $this->assertPresentationCount(expectedCount: 3, presentations: [$presentation]);
     }
 
-    public function testSingleTalkWithMultiplePastAndFutureEvents(): void
+    public function testSinglePresentationWithMultiplePastAndFutureEvents(): void
     {
-        $talk = $this->createTalk(
+        $presentation = $this->createPresentation(
             events: [
                 ['date' => (new \DateTime('+1 day'))->getTimestamp()],
                 ['date' => (new \DateTime('-1 day'))->getTimestamp()],
@@ -69,73 +69,73 @@ class TalkTwigExtensionTest extends TestCase
             ],
         );
 
-        $this->assertTalkCount(expectedCount: 3, talks: [$talk]);
+        $this->assertPresentationCount(expectedCount: 3, presentations: [$presentation]);
     }
 
     public function testMultiplePastEvents(): void
     {
-        $talkA = $this->createTalk(
+        $presentationA = $this->createPresentation(
             events: [
                 ['date' => (new \DateTime('-1 days'))->getTimestamp()],
                 ['date' => (new \DateTime('+1 days'))->getTimestamp()],
             ],
         );
 
-        $talkB = $this->createTalk(
+        $presentationB = $this->createPresentation(
             events: [
                 ['date' => (new \DateTime('-3 days'))->getTimestamp()],
             ],
         );
 
-        $this->assertTalkCount(expectedCount: 2, talks: [$talkA, $talkB]);
+        $this->assertPresentationCount(expectedCount: 2, presentations: [$presentationA, $presentationB]);
     }
 
     public function testTheCurrentDayIsNotCounted(): void
     {
-        $talkA = $this->createTalk(
+        $presentationA = $this->createPresentation(
             events: [
                 ['date' => (new \DateTime('yesterday'))->getTimestamp()],
                 ['date' => (new \DateTime('today'))->getTimestamp()],
             ],
         );
 
-        $talkB = $this->createTalk(
+        $presentationB = $this->createPresentation(
             events: [
                 ['date' => (new \DateTime('today'))->getTimestamp()],
             ],
         );
 
-        $talkC = $this->createTalk(
+        $presentationC = $this->createPresentation(
             events: [
                 ['date' => (new \DateTime('yesterday'))->getTimestamp()],
             ],
         );
 
-        $this->assertTalkCount(expectedCount: 2, talks: [$talkA, $talkB, $talkC]);
+        $this->assertPresentationCount(expectedCount: 2, presentations: [$presentationA, $presentationB, $presentationC]);
     }
 
     /**
-     * Assert the extension uses the correct number of talks.
+     * Assert the extension uses the correct number of presentations.
      */
-    private function assertTalkCount(int $expectedCount, array $talks): void
+    private function assertPresentationCount(int $expectedCount, array $presentations): void
     {
         self::assertSame(
-            actual: $this->extension->getPastTalkCount($talks),
+            actual: $this->extension->getPresentationCount($presentations),
             expected: $expectedCount,
         );
     }
 
     /**
-     * Create a mock talk with a list of events.
+     * Create a mock presentation with a list of events.
      */
-    private function createTalk(array $events): ProxySourceItem
+    private function createPresentation(array $events): ProxySourceItem
     {
         $configuration = $this->createMock(Configuration::class);
         $configuration->method('get')->with($this->identicalTo('events'))->willReturn($events);
 
-        $talk = $this->createMock(ProxySourceItem::class);
-        $talk->method('data')->willReturn($configuration);
+        $presentation = $this->createMock(ProxySourceItem::class);
+        $presentation->method('data')->willReturn($configuration);
 
-        return $talk;
+        return $presentation;
     }
 }

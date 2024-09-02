@@ -21,11 +21,6 @@ RewriteRule ^(.*)index\.html$ /$1 [L,R=301]
 
 ErrorDocument 404 /404/index.html
 
-# RewriteCond %{REQUEST_URI} !^/archive/?$
-# RewriteRule ^archive/(.*)$ /daily/$1 [L,R=301]
-
-RewriteRule ^articles/(.*) /blog/$1 [L,R=301]
-
 Redirect 301 /daily/2024/08/15/docblocks-or-annotations /daily/2024/08/15/docblocks-or-attributes
 Redirect 301 /10-useful-drupal-6-modules-i-use-every-project /blog/10-useful-drupal-6-modules
 Redirect 301 /2010/04/05/styling-drupal-6s-taxonomy-lists-with-php-css-and-jquery /blog/style-drupal-6s-taxonomy-lists-php-css-jquery
@@ -59,7 +54,7 @@ Redirect 301 /ansible https://galaxy.ansible.com/opdavies
 Redirect 301 /ansible-molecule /articles/test-driven-ansible-role-development-molecule
 Redirect 301 /ansistrano-code https://github.com/opdavies/dransible
 Redirect 301 /ansistrano-demo https://www.youtube.com/watch?v=PLS4ET7FAcU
-Redirect 301 /ansistrano-slides /talks/deploying-php-ansible-ansistrano
+Redirect 301 /ansistrano-slides /presentations/deploying-php-ansible-ansistrano
 Redirect 301 /archive/2022/10/20/run-vs-task-runner /archive/2022/10/19/run-vs-task-runners
 Redirect 301 /atNOQ https://youtu.be/r41dkD2EOo8
 Redirect 301 /automatically-updating-talk-created-date https://gist.github.com/opdavies/4e75e1753d8603113f07f8264bb783d6
@@ -206,7 +201,7 @@ Redirect 301 /blog/drupal-8-commerce-fixing-no-such-customer-error-checkout /blo
 Redirect 301 /blog/drupal-8-commerce-fixing-no-such-customer-error-on-checkout /blog/drupal-8-commerce-fixing-no-such-customer-error-checkou
 Redirect 301 /blog/drupal-vm-generator-291-released /blog/drupal-vm-generator-updates
 Redirect 301 /blog/drupalcamp-london-2019-tickets /blog/drupalcamp-london-2019-tickets-available-call-sessions
-Redirect 301 /blog/drush-make-drupalbristol /talks/drush-make-drupalbristol
+Redirect 301 /blog/drush-make-drupalbristol /presentations/drush-make-drupalbristol
 Redirect 301 /blog/easier-git-repository-cloning-with-insteadof /blog/easier-git-repository-cloning-insteadof
 Redirect 301 /blog/easier-sculpin-commands-with-composer-and-npm-scripts /blog/easier-sculpin-commands-composer-npm-scripts
 Redirect 301 /blog/editing-meetup-videos-kdenlive /blog/editing-meetup-videos-linux-kdenlive
@@ -275,7 +270,7 @@ Redirect 301 /code-enigma-interview https://blog.codeenigma.com/interview-with-a
 Redirect 301 /consulting /
 Redirect 301 /contrib-half-hour https://www.youtube.com/playlist?list=PLu-MxhbnjI9rHroPvZO5LEUhr58Yl0j_F
 Redirect 301 /cv /cv.txt
-Redirect 301 /d0P5z /talks/drupal-8-php-libraries-drupalorg-api
+Redirect 301 /d0P5z /presentations/drupal-8-php-libraries-drupalorg-api
 Redirect 301 /d7 /drupal7
 Redirect 301 /dcbristol-cfp https://www.papercall.io/drupalcamp-bristol-2019
 Redirect 301 /dcbristol17-videos https://www.youtube.com/playlist?list=PLOwPvExSyLLngtd6R4PUD9MCXa6QL_obA
@@ -284,7 +279,7 @@ Redirect 301 /dclondon-sat https://drupalcamp.london/schedule/saturday
 Redirect 301 /dclondon-sun https://drupalcamp.london/schedule/sunday
 Redirect 301 /dclondon20 /articles/drupalcamp-london-testing-workshop
 Redirect 301 /ddev-phpunit-command /blog/creating-custom-phpunit-command-ddev
-Redirect 301 /deploying-php-ansible /talks/deploying-php-ansible-ansistrano
+Redirect 301 /deploying-php-ansible /presentations/deploying-php-ansible-ansistrano
 Redirect 301 /dks7E https://www.youtube.com/watch?v=PLS4ET7FAcU
 Redirect 301 /do-library https://github.com/opdavies/drupalorg-api-php
 Redirect 301 /do-projects https://github.com/opdavies/drupal-module-drupalorg-projects
@@ -306,7 +301,7 @@ Redirect 301 /drupal-php-developer /drupal-consultant
 Redirect 301 /drupal-php-developer-consultant-uk /drupal-php-developer
 Redirect 301 /drupal-tailwind-demo https://www.youtube.com/watch?v=1eM-Gw6GI4g
 Redirect 301 /drupal-tailwindcss https://www.drupal.org/project/tailwindcss
-Redirect 301 /drupal-vuejs /talks/decoupling-drupal-vuejs/
+Redirect 301 /drupal-vuejs /presentations/decoupling-drupal-vuejs
 Redirect 301 /drupal7 /drupal-upgrade
 Redirect 301 /drupalcamp-london-2019-tickets /articles/drupalcamp-london-2019-tickets
 Redirect 301 /drupalcamp-nyc-training https://www.youtube.com/watch?v=3M9c4UUzKm0
@@ -318,7 +313,7 @@ Redirect 301 /feed /rss.xml
 Redirect 301 /first-drupal-core-issue https://www.drupal.org/project/drupal/issues/753898
 Redirect 301 /first-npm-package https://www.npmjs.com/package/tailwindcss-vuejs
 Redirect 301 /freeagent https://opdavies.freeagent.com
-Redirect 301 /git-flow /talks/git-flow
+Redirect 301 /git-flow /presentations/git-flow
 Redirect 301 /github-sculpin https://github.com/opdavies?tab=repositories&q=sculpin
 Redirect 301 /gitlab https://gitlab.com/opdavies
 Redirect 301 /gitstore https://enjoy.gitstore.app/maintainers/opdavies
@@ -338,7 +333,7 @@ Redirect 301 /oliver-davies-uk-based-drupal-symfony-developer /oliver-davies-uk-
 Redirect 301 /pair-programming /pair
 Redirect 301 /pair-with-me /pair
 Redirect 301 /pairing /pair
-Redirect 301 /php-ansible /talks/deploying-php-ansible-ansistrano
+Redirect 301 /php-ansible /presentations/deploying-php-ansible-ansistrano
 Redirect 301 /qSHAl /articles/published-my-first-npm-package/
 Redirect 301 /qT1Rb https://github.com/opdavies/drupal-meetups-twitterbot
 Redirect 301 /rebuilding-acquia https://rebuilding-acquia.oliverdavies.uk
@@ -350,9 +345,9 @@ Redirect 301 /rebuilding-symfony https://github.com/opdavies/rebuilding-symfony
 Redirect 301 /rk29B https://www.meetup.com/PHP-South-Wales/events/268422525
 Redirect 301 /roadmap /drupal-upgrade
 # Redirect 301 /rss /rss.xml
-Redirect 301 /rst2pdf /talks/building-presenting-slide-decks-rst2pdf
+Redirect 301 /rst2pdf /presentations/building-presenting-slide-decks-rst2pdf
 Redirect 301 /s9MjJ https://symfonycasts.com/screencast/symfony
-Redirect 301 /sculpin /talks/building-static-websites-sculpin
+Redirect 301 /sculpin /presentations/building-static-websites-sculpin
 Redirect 301 /sculpin-encore-versioning https://github.com/opdavies/oliverdavies.uk/commit/d192b04aefa6e7a21bfc1f2e0fe0a16111e0e8a2
 Redirect 301 /sites/default/files/images/social-avatar. /images/social-avatar.jpg
 Redirect 301 /skills https://opdavies-skills-tailwindcss.netlify.com/
@@ -371,69 +366,76 @@ Redirect 301 /symfony https://connect.symfony.com/profile/opdavies
 Redirect 301 /symfony-server /articles/running-drupal-with-symfony-local-server
 Redirect 301 /symfonylive /articles/live-blogging-symfonylive-london
 Redirect 301 /symposium https://symposiumapp.com/u/opdavies
-Redirect 301 /tailwind-css-talk /talks/taking-flight-tailwind-css
+Redirect 301 /tailwind-css-talk /presentations/taking-flight-tailwind-css
 Redirect 301 /tailwind-repos https://github.com/opdavies?utf8=%E2%9C%93&tab=repositories&q=tailwindcss
-Redirect 301 /tailwind-talk /talks/taking-flight-with-tailwind-css
+Redirect 301 /tailwind-talk /presentations/taking-flight-with-tailwind-css
 Redirect 301 /tailwindcss-demo http://tailwindcss-demo.oliverdavies.uk/
+Redirect 301 /talks /presentations
 Redirect 301 /talks-offer-tweet https://twitter.com/opdavies/status/1250870367712935938
-Redirect 301 /talks/2012/09/05/what-is-this-drupal-thing-unified-diff /talks/what-is-this-drupal-thing
-Redirect 301 /talks/2013/07/10/drupal-ldap-swdug /talks/drupal-ldap
-Redirect 301 /talks/2014/03/01/git-flow-drupalcamp-london-2014 /talks/git-flow
-Redirect 301 /talks/2014/07/02/drush-make-drupalbristol-drupal-bristol /talks/drush-make-drupalbristol
-Redirect 301 /talks/2014/08/19/drupal-association-swdug /talks/drupal-association
-Redirect 301 /talks/2015/01/18/drupalorg-2015-drupalcamp-brighton-2015 /talks/drupalorg-in-2015-whats-coming-next
-Redirect 301 /talks/2015/02/28/drupalorg-2015-drupalcamp-london-2015 /talks/drupalorg-in-2015-whats-coming-next
-Redirect 301 /talks/2015/04/08/drupal-8-phpsw /talks/drupal-8
-Redirect 301 /talks/2015/07/25/test-drive-twig-with-sculpin-drupalcamp-north-2015 /talks/test-drive-twig-with-sculpin
-Redirect 301 /talks/2015/08/25/dancing-for-drupal-umbristol /talks/dancing-for-drupal
-Redirect 301 /talks/2015/10/14/sculpin-phpsw /talks/sculpin
-Redirect 301 /talks/2016/03/05/drupal-8-module-development-drupalcamp-london-2016 /talks/getting-started-with-drupal-8-module-development
-Redirect 301 /talks/2016/03/09/drupal-vm-generator-nwdug /talks/drupal-vm-generator
-Redirect 301 /talks/2016/04/02/drupal-vm-generator-drupal-bristol /talks/drupal-vm-generator
-Redirect 301 /talks/2016/06/11/drupal-8-rejoining-the-herd-php-south-coast-2016 /talks/drupal-8-rejoining-the-herd
-Redirect 301 /talks/2016/07/23/drupal-vm-meet-symfony-console-drupalcamp-bristol-2016 /talks/drupal-vm-meet-symfony-console
-Redirect 301 /talks/2016/11/09/drupal-development-with-composer-phpsw /talks/drupal-development-with-composer
-Redirect 301 /talks/2016/11/17/goodbye-drush-make-hello-composer-drupal-bristol /talks/goodbye-drush-make-hello-composer
-Redirect 301 /talks/2017/01/18/getting-your-data-into-drupal-8-drupal-bristol /talks/getting-your-data-into-drupal-8
-Redirect 301 /talks/2017/03/04/getting-your-data-into-drupal-8-drupalcamp-london-2017 /talks/getting-your-data-into-drupal-8
-Redirect 301 /talks/ansible-ansistrano https://www.oliverdavies.uk/talks/deploying-php-ansible-ansistrano
-Redirect 301 /talks/archive /talks
-Redirect 301 /talks/deploying-php-applications-fabric /talks/deploying-php-fabric
-Redirect 301 /talks/deploying-php-applications-with-fabric /talks/deploying-php-fabric
-Redirect 301 /talks/drupal-vm-generator-2 /talks/drupal-vm-generator
-Redirect 301 /talks/drupalorg-2015-2 /talks/drupalorg-2015
-Redirect 301 /talks/drupalorg-in-2015-whats-coming-next /talks/drupalorg-2015
+Redirect 301 /talks/2012/09/05/what-is-this-drupal-thing-unified-diff /presentations/what-is-this-drupal-thing
+Redirect 301 /talks/2013/07/10/drupal-ldap-swdug /presentations/drupal-ldap
+Redirect 301 /talks/2014/03/01/git-flow-drupalcamp-london-2014 /presentations/git-flow
+Redirect 301 /talks/2014/07/02/drush-make-drupalbristol-drupal-bristol /presentations/drush-make-drupalbristol
+Redirect 301 /talks/2014/08/19/drupal-association-swdug /presentations/drupal-association
+Redirect 301 /talks/2015/01/18/drupalorg-2015-drupalcamp-brighton-2015 /presentations/drupalorg-in-2015-whats-coming-next
+Redirect 301 /talks/2015/02/28/drupalorg-2015-drupalcamp-london-2015 /presentations/drupalorg-in-2015-whats-coming-next
+Redirect 301 /talks/2015/04/08/drupal-8-phpsw /presentations/drupal-8
+Redirect 301 /talks/2015/07/25/test-drive-twig-with-sculpin-drupalcamp-north-2015 /presentations/test-drive-twig-with-sculpin
+Redirect 301 /talks/2015/08/25/dancing-for-drupal-umbristol /presentations/dancing-for-drupal
+Redirect 301 /talks/2015/10/14/sculpin-phpsw /presentations/sculpin
+Redirect 301 /talks/2016/03/05/drupal-8-module-development-drupalcamp-london-2016 /presentations/getting-started-with-drupal-8-module-development
+Redirect 301 /talks/2016/03/09/drupal-vm-generator-nwdug /presentations/drupal-vm-generator
+Redirect 301 /talks/2016/04/02/drupal-vm-generator-drupal-bristol /presentations/drupal-vm-generator
+Redirect 301 /talks/2016/06/11/drupal-8-rejoining-the-herd-php-south-coast-2016 /presentations/drupal-8-rejoining-the-herd
+Redirect 301 /talks/2016/07/23/drupal-vm-meet-symfony-console-drupalcamp-bristol-2016 /presentations/drupal-vm-meet-symfony-console
+Redirect 301 /talks/2016/11/09/drupal-development-with-composer-phpsw /presentations/drupal-development-with-composer
+Redirect 301 /talks/2016/11/17/goodbye-drush-make-hello-composer-drupal-bristol /presentations/goodbye-drush-make-hello-composer
+Redirect 301 /talks/2017/01/18/getting-your-data-into-drupal-8-drupal-bristol /presentations/getting-your-data-into-drupal-8
+Redirect 301 /talks/2017/03/04/getting-your-data-into-drupal-8-drupalcamp-london-2017 /presentations/getting-your-data-into-drupal-8
+Redirect 301 /talks/ansible-ansistrano https://www.oliverdavies.uk/presentations/deploying-php-ansible-ansistrano
+Redirect 301 /talks/archive /presentations
+Redirect 301 /talks/deploying-php-applications-fabric /presentations/deploying-php-fabric
+Redirect 301 /talks/deploying-php-applications-with-fabric /presentations/deploying-php-fabric
+Redirect 301 /talks/drupal-vm-generator-2 /presentations/drupal-vm-generator
+Redirect 301 /talks/drupalorg-2015-2 /presentations/drupalorg-2015
+Redirect 301 /talks/drupalorg-in-2015-whats-coming-next /presentations/drupalorg-2015
 Redirect 301 /talks/getting-started-with-drupal-8-module-development /drupal-8-module-development
-Redirect 301 /talks/having-fun-drupal-8-php-libraries-drupalorg-api /talks/drupal-8-php-libraries-drupalorg-api
-Redirect 301 /talks/never-commit-master-introduction-git-flow /talks/git-flow
-Redirect 301 /talks/sculpin /talks/building-static-websites-sculpin
-Redirect 301 /talks/tailwind /talks/taking-flight-with-tailwind-css/
-Redirect 301 /talks/taking-flight-tailwind-css /talks/taking-flight-with-tailwind-css
-Redirect 301 /talks/using-laravel-collections-outside-laravel /talks/using-illuminate-collections-outside-laravel
-Redirect 301 /talks/working-workspace /talks/working-with-workspace
+Redirect 301 /talks/having-fun-drupal-8-php-libraries-drupalorg-api /presentations/drupal-8-php-libraries-drupalorg-api
+Redirect 301 /talks/never-commit-master-introduction-git-flow /presentations/git-flow
+Redirect 301 /talks/sculpin /presentations/building-static-websites-sculpin
+Redirect 301 /talks/tailwind /presentations/taking-flight-with-tailwind-css/
+Redirect 301 /talks/taking-flight-tailwind-css /presentations/taking-flight-with-tailwind-css
+Redirect 301 /talks/using-laravel-collections-outside-laravel /presentations/using-illuminate-collections-outside-laravel
+Redirect 301 /talks/working-workspace /presentations/working-with-workspace
 Redirect 301 /tdd-blog https://github.com/opdavies/drupal-module-tdd-blog
-Redirect 301 /tdd-test-driven-drupal /talks/tdd-test-driven-drupal/
+Redirect 301 /tdd-test-driven-drupal /presentations/tdd-test-driven-drupal/
 Redirect 301 /team-coaching /
 Redirect 301 /test-driven-drupal-book /test-driven-drupal
-Redirect 301 /testing-drupal https://www.oliverdavies.uk/talks/tdd-test-driven-drupal
+Redirect 301 /testing-drupal /presentations/tdd-test-driven-drupal
 Redirect 301 /testing-drupal-intro https://inviqa.com/blog/drupal-automated-testing-introduction
 Redirect 301 /testing-tailwind-plugins /articles/testing-tailwindcss-plugins-with-jest
 Redirect 301 /testing-workshop https://github.com/opdavies/workshop-drupal-automated-testing
 Redirect 301 /testing-workshop-code https://github.com/opdavies/workshop-drupal-automated-testing-code
 Redirect 301 /todoist-filters https://gist.github.com/opdavies/6709fbdac5c3babbd94137bcc8b8e3c2
 Redirect 301 /twitter-tweaks https://github.com/opdavies/chrome-extension-twitter-tweaks
-Redirect 301 /upgrading-to-drupal-9 /talks/upgrading-your-site-drupal-9
+Redirect 301 /upgrading-to-drupal-9 /presentations/upgrading-your-site-drupal-9
 Redirect 301 /uxbjV https://www.drupal.org/project/copyright_block
 Redirect 301 /vyTEF https://www.npmjs.com/package/tailwindcss-vuejs
 Redirect 301 /webpack-encore-pcss-regex https://regexr.com/51iaf
 Redirect 301 /wordcamp-bristol-tailwindcss https://2019.bristol.wordcamp.org/session/taking-flight-with-tailwind-css
 Redirect 301 /wordpress-tailwind https://github.com/opdavies/wordcamp-bristol-2019
 Redirect 301 /work /drupal-php-developer
-Redirect 301 /working-with-workspace /talks/working-with-workspace
+Redirect 301 /working-with-workspace /presentations/working-with-workspace
 Redirect 301 /workshop-drupal-testing https://github.com/opdavies/workshop-drupal-automated-testing
 Redirect 301 /workspace-demo https://github.com/opdavies/working-with-workspace-demo
 Redirect 301 /wp-tailwind https://wp-tailwind.oliverdavies.uk
 Redirect 301 /wp-tailwind-repo https://github.com/opdavies/wordcamp-bristol-2019
 Redirect 301 /wp-tailwind-starter https://github.com/opdavies/wordpress-tailwindcss-startker-kit
 Redirect 301 /wp-tailwind-static https://wp-tailwind.oliverdavies.uk
-Redirect 301 /yXhoS /talks/things-you-should-know-about-php
+Redirect 301 /yXhoS /presentations/things-you-should-know-about-php
+
+# RewriteCond %{REQUEST_URI} !^/archive/?$
+# RewriteRule ^archive/(.*)$ /daily/$1 [L,R=301]
+
+RewriteRule ^articles/(.*) /blog/$1 [L,R=301]
+RewriteRule ^talks/(.*) /presentations/$1 [L,R=301]

@@ -1,31 +1,31 @@
 <?php
 
-namespace Modules\Talk\TwigExtension;
+namespace Modules\Presentations\TwigExtension;
 
 use Sculpin\Contrib\ProxySourceCollection\ProxySourceItem;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 
-class TalkTwigExtension extends AbstractExtension
+class PresentationTwigExtension extends AbstractExtension
 {
     public function getFunctions(): array
     {
         return [
-            new TwigFunction('get_past_talk_count', [$this, 'getPastTalkCount']),
+            new TwigFunction('get_presentation_count', [$this, 'getPresentationCount']),
         ];
     }
 
     public function getName(): string
     {
-        return 'modules.talk';
+        return 'modules.presentations';
     }
 
-    public function getPastTalkCount(array $talks): int
+    public function getPresentationCount(array $presentations): int
     {
         $today = (new \DateTime('today'))->getTimestamp();
 
-        return collect($talks)
-            ->flatMap(fn (ProxySourceItem $talk) => $talk->data()->get('events'))
+        return collect($presentations)
+            ->flatMap(fn (ProxySourceItem $presentation) => $presentation->data()->get('events'))
             ->filter(
                 function (array $event) use ($today): bool {
                     assert(array_key_exists(array: $event, key: 'date'));

@@ -70,7 +70,7 @@ that we’ve written on my work project over the last few months.
 I didn’t record this workshop, but I have exported the slides and embedded them
 below:
 
-{% include 'talk/slides' with {
+{% include 'presentation/slides' with {
     speakerdeck: {
         id: '2679401cb2ad421789d372cb8d38e368',
         ratio: '1.77777777777778',
