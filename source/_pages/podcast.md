@@ -26,9 +26,8 @@ Subscribe at <a href="{{ site.transistor.feed.url }}">{{ site.transistor.feed.ur
 
   {{ episode.blocks.content|markdown }}
 
-  <a href="{{ episode.url|trim('/', 'right') }}">
+  <a href="{{ episode.url|trim('/', 'right') }}" aria-label="Listen to episode {{ episodeNumber }}">
     Listen now
-    <span class="sr-only">to episode {{ episodeNumber }} with {{ episode.guests.0 }}</span>
     &rarr;
   </a>
 {% endfor %}
