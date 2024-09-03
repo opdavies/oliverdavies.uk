@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Experience\TwigExtension;
+namespace App\Experience\TwigExtension;
 
 use Sculpin\Contrib\ProxySourceCollection\ProxySourceItem;
 use Twig\Extension\AbstractExtension;
@@ -19,7 +19,7 @@ class ExperienceTwigExtension extends AbstractExtension
 
     public function getName(): string
     {
-        return 'modules.experience';
+        return 'experience';
     }
 
     public function getYearsOfExperience(): int

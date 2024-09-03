@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Presentations\TwigExtension;
+namespace App\Presentations\TwigExtension;
 
 use Sculpin\Contrib\ProxySourceCollection\ProxySourceItem;
 use Twig\Extension\AbstractExtension;
@@ -17,7 +17,7 @@ class PresentationTwigExtension extends AbstractExtension
 
     public function getName(): string
     {
-        return 'modules.presentations';
+        return 'presentations';
     }
 
     public function getPresentationCount(array $presentations): int
