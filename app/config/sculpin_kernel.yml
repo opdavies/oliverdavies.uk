@@ -12,9 +12,9 @@ sculpin_content_types:
     permalink: /presentations/:basename/
 
 services:
-  Modules\Experience\TwigExtension\ExperienceTwigExtension:
+  App\Experience\TwigExtension\ExperienceTwigExtension:
     tags:
       - {name: twig.extension}
-  Modules\Presentations\TwigExtension\PresentationTwigExtension:
+  App\Presentations\TwigExtension\PresentationTwigExtension:
     tags:
       - {name: twig.extension}

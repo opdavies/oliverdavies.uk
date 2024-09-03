@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\Presentations\Tests\TwigExtension;
+namespace Tests\Presentations\Tests\TwigExtension;
 
+use App\Presentations\TwigExtension\PresentationTwigExtension;
 use Dflydev\DotAccessConfiguration\Configuration;
-use Modules\Presentations\TwigExtension\PresentationTwigExtension;
 use PHPUnit\Framework\TestCase;
 use Sculpin\Contrib\ProxySourceCollection\ProxySourceItem;
 
