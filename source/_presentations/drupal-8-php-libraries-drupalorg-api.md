@@ -21,7 +21,7 @@ events:
     joindin: https://joind.in/talk/14851
   - name: DrupalCamp London 2019
     location: London, UK
-    url: http://drupalcamp.london
+    url: ~
     date: 2019-03-03
     time: "12:05 - 12:50"
 ---
