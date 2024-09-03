@@ -19,7 +19,7 @@ events:
     location: London, UK
     date: 2017-03-04
     time: "16:15 - 17:00"
-    url: http://drupalcamp.london
+    url: ~
   - name: DrupalCamp Dublin 2017
     location: Dublin, Ireland
     date: 2017-10-21
@@ -41,7 +41,7 @@ events:
     date: 2019-03-02
     time: "14:00 - 14:45"
     location: London, UK
-    url: http://drupalcamp.london
+    url: ~
   - name: NWDUG
     date: 2020-05-12
     location: Manchester, UK
