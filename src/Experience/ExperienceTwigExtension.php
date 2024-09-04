@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Experience\TwigExtension;
+namespace App\Experience;
 
 use Sculpin\Contrib\ProxySourceCollection\ProxySourceItem;
 use Twig\Extension\AbstractExtension;
