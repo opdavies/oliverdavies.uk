@@ -7,9 +7,6 @@ speakerdeck:
   url: https://speakerdeck.com/opdavies/deploying-php-applications-with-fabric
 meta:
   og:
-    title: Deploying PHP Applcations with Fabric
-    description: "You've built your PHP application, now learn how to deploy it with Fabric."
-    type: website
     image:
       url: '%site.assets.url%/assets/images/talks/deploying-php-fabric.png'
       width: 2560

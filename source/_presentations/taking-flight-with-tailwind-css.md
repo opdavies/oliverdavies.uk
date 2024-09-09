@@ -11,9 +11,6 @@ video:
   type: youtube
 meta:
   og:
-    title: Taking Flight with Tailwind CSS
-    description: An introduction to utility CSS and Tailwind.
-    type: website
     image:
       url: '%site.assets.url%/assets/images/talks/taking-flight-tailwind.jpg'
       width: 2560

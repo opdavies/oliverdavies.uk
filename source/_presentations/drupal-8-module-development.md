@@ -11,7 +11,6 @@ video:
   id: qO_Wh5WE3VA
 meta:
   og:
-    title: Getting Started with Drupal 8 Module Development
     image:
       url: '%site.assets.url%/assets/images/talks/dclondon16.png'
       type: "image/png"

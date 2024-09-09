@@ -10,9 +10,6 @@ video:
   id: jtmARTuYhp8
 meta:
   og:
-    title: Getting (Your Data) into Drupal 8
-    description: "How I migrated the Drupal Bristol website onto Drupal 8."
-    type: website
     image:
       url: '%site.assets.url%/assets/images/talks/getting-your-data-into-drupal-8.png'
       width: 2560
