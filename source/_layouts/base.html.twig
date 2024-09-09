@@ -11,16 +11,20 @@
     <meta name="author" content="Oliver Davies">
     <meta name="generator" content="Sculpin (https://sculpin.io)">
     <meta name="keywords" content="Drupal Developer, Drupal Consultant, Drupal Architect, Drupal Strategist, Drupal Trainer, Triple Certified Drupal Expert, Public Speaker, Workshop Trainer, Technical Lead, Technical Coach, Software Development Coach, Automated Testing, Test-Driven Development">
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:creator" content="@opdavies">
     <meta name="twitter:image" content="{{ site.assets.url }}/assets/images/od-logo.jpg">
     <meta name="twitter:site" content="@opdavies">
+
     <meta property="og:image" name="image" content="{{ site.assets.url }}/assets/images/od-logo.jpg">
     <meta property="og:site_name" content="Oliver Davies">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ site.url }}{{ page.url|trim('/', 'right') }}">
 
-    {% if page.meta.description %}
+    {% if page.blocks.meta_description %}
+      <meta name="description" content="{{ page.blocks.meta_description }}">
+    {% elseif page.meta.description %}
       <meta name="description" content="{{ page.meta.description }}">
     {% else %}
       <meta name="description" content="{{ site.meta.description }}">
