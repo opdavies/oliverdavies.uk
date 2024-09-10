@@ -1,6 +1,6 @@
 {% extends 'page' %}
 
-{% block meta_description %}{{ page.snippet }}{% endblock %}
+{% block meta_description %}{{ page.snippet|trim }}{% endblock %}
 
 {% block content_wrapper %}
   <time datetime="{{ page.date|date('Y-m-d') }}">{{ page.date|date('F jS, Y') }}</time>
