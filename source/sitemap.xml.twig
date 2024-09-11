@@ -1,0 +1,23 @@
+---
+permalink: /sitemap.xml
+use:
+  - daily_emails
+  - pages
+  - podcast_episodes
+  - posts
+  - presentations
+default_priorities:
+  posts: '0.2'
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for content_type, content in data %}
+    {% for item in content %}
+      <url>
+        <loc>{{ site.url }}{{ item.url|trim('/', 'right') }}</loc>
+        <priority>{{ page.default_priorities[content_type]|default('0.5') }}</priority>
+      </url>
+    {% endfor %}
+  {% endfor %}
+</urlset>
