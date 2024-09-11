@@ -5,6 +5,7 @@ permalink: {{ permalink }}
 tags:
   - software-development
   # - drupal
+  # - drupal-planet
   # - php
   # - podcast
 cta: ~
