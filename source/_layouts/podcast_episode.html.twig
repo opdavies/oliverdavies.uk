@@ -1,5 +1,9 @@
 {% extends 'page' %}
 
+{% block meta_description -%}
+  Discussing {{ page.topic }} with {{ page.guests.0 }}.
+{%- endblock %}
+
 {% block page_title %}
   {% set episodeNumber = page.url|trim('/')|split('/')|last|split('-')|first %}
 
