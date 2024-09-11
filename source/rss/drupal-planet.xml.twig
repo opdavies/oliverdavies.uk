@@ -1,0 +1,28 @@
+---
+layout: feed
+title: The Daily Drupaler
+description: |-
+  A daily email newsletter about Drupal, software development, DevOps, community, and open-source.
+permalink: /rss/drupal-planet.xml
+use: [daily_emails]
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ page.title }}</title>
+    <description>{{ page.description }}</description>
+    <link>{{ site.url }}/daily</link>
+    {% for email in data.daily_emails if 'drupal-planet' in email.tags %}
+      <item>
+        <title>{{ email.title }}</title>
+        <link>{{ site.url }}{{ email.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ email.url }}</guid>
+        <description>
+          {{- email.blocks.content -}}
+        </description>
+        <pubDate>{{ email.date|date('D, d M Y H:i:s') }} GMT</pubDate>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
