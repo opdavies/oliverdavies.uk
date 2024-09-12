@@ -19,18 +19,15 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install dependencies
-        run: nix develop --command composer install
+        run: ./run ci:install
 
       - name: Run tests
-        run: nix develop --command ./run test --testdox --colors=always
+        run: ./run ci:test
 
       - name: Generate the website
         run: |
-          nix develop --command ./run generate
+          ./run ci:build
           tree output_prod
-        env:
-          APP_ENV: prod
-          NODE_ENV: production
 
       - name: Install the deploy key and known hosts
         run: |

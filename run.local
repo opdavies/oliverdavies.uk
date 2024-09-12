@@ -1,5 +1,17 @@
 #!/usr/bin/env bash
 
+function ci:build {
+  APP_ENV=prod nix develop --command ./run generate
+}
+
+function ci:install {
+  nix develop --command composer install
+}
+
+function ci:test {
+  nix develop --command ./run test --testdox --colors=always
+}
+
 function clean {
   rm -fr output_*/ source/build/
 }
