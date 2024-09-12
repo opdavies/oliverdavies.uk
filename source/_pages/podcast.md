@@ -1,5 +1,7 @@
 ---
 title: The Beyond Blocks podcast
+meta:
+  description: A weekly podcast about Drupal, PHP open-source and software development.
 use:
     - podcast_episodes
 ---
