@@ -1,0 +1,33 @@
+---
+name: Build and Deploy
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: cachix/install-nix-action@v26
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: nix develop --command composer install
+
+      - name: Run tests
+        run: nix develop --command ./run test --testdox --colors=always
+
+      - name: Generate the website
+        run: |
+          nix develop --command ./run generate
+          tree output_prod
+        env:
+          APP_ENV: prod
+          NODE_ENV: production
