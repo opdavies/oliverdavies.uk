@@ -7,7 +7,7 @@ use:
 {% block content_bottom %}{% endblock %}
 
 {% block content %}
-A weekly podcast about Drupal, open-source, and related software development topics.
+A weekly podcast about Drupal, PHP, open-source, and related software development topics.
 
 Subscribe at <a href="{{ site.transistor.feed.url }}">{{ site.transistor.feed.url }}</a>.
 
