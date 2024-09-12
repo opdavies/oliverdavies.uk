@@ -31,3 +31,12 @@ jobs:
         env:
           APP_ENV: prod
           NODE_ENV: production
+
+      - name: Install the deploy key and known hosts
+        run: |
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          echo "${{ secrets.SSH_DEPLOY_KEY }}" > ~/.ssh/deploy && chmod 600 ~/.ssh/deploy
+          echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts && chmod 600 ~/.ssh/known_hosts
+
+      - name: Deploy the website
+        run: ssh -i ~/.ssh/deploy oliverdavies-uk@ssh.oliverdavies.uk
