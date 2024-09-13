@@ -16,7 +16,7 @@ use:
     <link>{{ site.url }}/daily</link>
     {% for email in data.daily_emails[:1] %}
       {% set tags = [] %}
-      {%- for tag in ['dev']|merge(email.tags|default([]))|filter((v) => v != "drupal-planet") -%}
+      {%- for tag in ['dev']|merge(email.tags|default([])) -%}
         {% if tag == "tailwind-css" %}
           {% set tag = "TailwindCSS" %}
         {% endif %}
