@@ -45,7 +45,7 @@ use:
           </div>
         </description>
         <pubDate>{{ email.date|date('D, d M Y H:i:s') }} GMT</pubDate>
-        <snippet>{{ email.snippet }}</snippet>
+        <snippet>{{ email.snippet|trim }}</snippet>
         {% if tags is not empty -%}
           <tags>
             {{- tags|join(' ') -}}
