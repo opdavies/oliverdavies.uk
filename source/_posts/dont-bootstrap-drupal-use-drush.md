@@ -3,9 +3,9 @@ title: Don't Bootstrap Drupal, Use Drush
 date: 2013-11-19
 excerpt: Avoid bootstrapping Drupal manually in your scratch files - Drush has you covered!
 tags:
-    - drupal-planet
     - drush
     - php
+drupal_planet: true
 ---
 
 There are times when doing Drupal development when you need to run a custom PHP

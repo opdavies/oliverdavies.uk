@@ -13,7 +13,7 @@ use: [daily_emails]
     <title>{{ page.title }}</title>
     <description>{{ page.description }}</description>
     <link>{{ site.url }}/daily</link>
-    {% for email in data.daily_emails if 'drupal-planet' in email.tags %}
+    {% for email in data.daily_emails if email.drupal_planet %}
       <item>
         <title>{{ email.title }}</title>
         <link>{{ site.url }}{{ email.url }}</link>
