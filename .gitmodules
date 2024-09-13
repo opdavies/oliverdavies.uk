@@ -1,3 +1,4 @@
 [submodule "source/_pages/atdc"]
 	path = source/_pages/atdc
 	url = git@github.com:opdavies/atdc-pages.git
+	branch = main
