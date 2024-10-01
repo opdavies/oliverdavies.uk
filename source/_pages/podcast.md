@@ -13,7 +13,7 @@ A weekly podcast about Drupal, PHP, open-source, and related software developmen
 
 Subscribe at <a href="{{ site.transistor.feed.url }}">{{ site.transistor.feed.url }}</a>.
 
-## Episodes
+## Episodes {.sr-only}
 
 {% for episode in data.podcast_episodes|reverse %}
   {% set episodeNumber = episode.url|trim('/')|split('/')|last|split('-')|first %}
