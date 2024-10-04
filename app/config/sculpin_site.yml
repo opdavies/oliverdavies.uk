@@ -24,6 +24,9 @@ ctas:
   pair: |
     Need help or want another pair of eyes on your code? Book a <a href="%site.url%/call">1-on-1 consulting call</a> or an <a href="%site.url%/pair">online pair programming session</a> with a 100% money-back guarantee.,
 
+hotjar:
+  id: ~
+
 mastodon:
   username: opdavies
   url: https://mastodon.social/@%mastodon.username%
