@@ -2,6 +2,9 @@
 imports:
   - sculpin_site.yml
 
+hotjar:
+  id: 5159836
+
 plausible:
   domain: oliverdavies.uk
 
