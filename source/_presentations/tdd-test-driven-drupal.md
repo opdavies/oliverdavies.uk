@@ -64,6 +64,10 @@ events:
     location: Ghent, Belgium
     date: 2024-05-10
     url: https://www.drupalcamp.be/en/drupalcamp-ghent-2024/session/tdd-test-driven-drup%E2%80%A6
+  - name: Drupal London Meetup
+    location: London, UK
+    date: 2024-11-20
+    url: https://www.meetup.com/london-drupal-user-group/events/303500889
 ---
 
 Testing is important.
