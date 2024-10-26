@@ -10,8 +10,7 @@ use:
 
 {% block content %}
 A weekly podcast about Drupal, PHP, open-source, and related software development topics.
-
-Subscribe at <a href="{{ site.transistor.feed.url }}">{{ site.transistor.feed.url }}</a>.
+Guests include people like [Matt Glaman](/podcast/1-retrofit), [Eirik Morland](/podcast/8-eirik-morland-violinist), [Tim Lehnen](/podcast/9-tim-lehnen), [Ryan Szrama](/podcast/13-ryan-szrama-centarro) and [Sam Mortenson](/podcast/19-sam-mortenson).
 
 ## Episodes {.sr-only}
 
