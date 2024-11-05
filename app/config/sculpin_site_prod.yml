@@ -2,7 +2,4 @@
 imports:
   - sculpin_site.yml
 
-plausible:
-  domain: oliverdavies.uk
-
 url: https://www.oliverdavies.uk
