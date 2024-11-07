@@ -1,15 +1,15 @@
 ---
 title: The Beyond Blocks podcast
 meta:
-  description: A weekly podcast about Drupal, PHP open-source and software development.
+  description: A podcast about Drupal, PHP open-source and software development.
 use:
-    - podcast_episodes
+  - podcast_episodes
 ---
 
 {% block content_bottom %}{% endblock %}
 
 {% block content %}
-A weekly podcast about Drupal, PHP, open-source, and related software development topics.
+A podcast about Drupal, PHP, open-source, and related software development topics.
 Guests include people like [Matt Glaman](/podcast/1-retrofit), [Eirik Morland](/podcast/8-eirik-morland-violinist), [Tim Lehnen](/podcast/9-tim-lehnen), [Ryan Szrama](/podcast/13-ryan-szrama-centarro) and [Sam Mortenson](/podcast/19-sam-mortenson).
 
 ## Episodes {.sr-only}
