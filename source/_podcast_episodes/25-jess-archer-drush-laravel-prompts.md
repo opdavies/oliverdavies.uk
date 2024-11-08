@@ -23,4 +23,4 @@ quotes: []
 chapters: []
 ---
 
-In this episode, Oliver and Jess Archer (Laravel core Team Member) discuss Laravel Prompts and Drush, PHP, Linux and working on the command line with tools like Neovim and tmux.
+In this episode, Oliver and Jess Archer (Engineering Team Lead at Laravel) discuss Laravel Prompts and Drush, PHP, Linux and working on the command line with tools like Neovim and tmux.
