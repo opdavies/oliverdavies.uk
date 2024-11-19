@@ -68,6 +68,7 @@ events:
     location: London, UK
     date: 2024-11-20
     url: https://www.meetup.com/london-drupal-user-group/events/303500889
+    online: true
 ---
 
 Testing is important.
