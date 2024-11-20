@@ -9,7 +9,7 @@ title: Drupal London
 {% block content %}
 Thank you for attending my session for the Drupal London meetup.
 
-You can [view the slides and previous recording][slides] of the talk on this website.
+You can [view the slides and previous recording][slides] of the talk on this website and [the example repository on GitHub][repo].
 
 If you want to learn more, I released a [free 10-day email course][course] on automated testing in Drupal and [live stream on YouTube][youtube]. Most recently, [I contributed tests to the Content Access by Path module][video].
 
@@ -31,6 +31,7 @@ I also host the [Beyond Blocks podcast][podcast] where I discuss Drupal, PHP and
 [course]: /atdc
 [email list]: /daily
 [podcast]: /podcast
+[repo]: http://github.com/opdavies/drupal-london-meetup
 [slides]: /presentations/tdd-test-driven-drupal
 [video]: https://www.youtube.com/watch?v=XTpliKd47Lg
 [youtube]: https://www.youtube.com/@opdavies
