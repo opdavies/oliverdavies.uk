@@ -6,6 +6,8 @@ link: https://savvycal.com/opdavies/pair
 
 {% block content %}
 
+{% import "_macros" as macros %}
+
 {# Pain #}
 
 <p>Are you stuck adding a new feature or fixing a bug?</p>
@@ -48,7 +50,7 @@ link: https://savvycal.com/opdavies/pair
 <h2>Who am I?</h2>
 
 <ul>
-  <li>I'm an Acquia-certified Drupal expert with {{ get_years_of_experience() }} years of professional development experience.</li>
+  <li>I'm an Acquia-certified Drupal expert with {{ macros.yearsOfExperience }} years of professional development experience.</li>
   <li>I'm a former Drupal Association employee who was responsible for improving and maintaining Drupal.org.</li>
   <li>I'm a Drupal core contributor and maintain numerous Drupal projects, including the Override Node Options module, which is used on over 38,000 websites.</li>
   <li>I'm a multiple-time DrupalCon speaker who regularly presents talks and workshops at conferences and meetups.</li>

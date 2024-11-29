@@ -22,6 +22,8 @@ faqs:
 
 {% block content %}
 
+{% import "_macros" as macros %}
+
 {# <h2>Who is this for?</h2> #}
 
 {# Pain #}
@@ -30,7 +32,7 @@ faqs:
 
 {# Fix #}
 
-<p>As a professional Software Developer and Consultant with {{ get_years_of_experience() }} years of Drupal and PHP experience, I have a lot of knowledge that I use to help customers and their projects.</p>
+<p>As a professional Software Developer and Consultant with {{ macros.yearsOfExperience }} years of Drupal and PHP experience, I have a lot of knowledge that I use to help customers and their projects.</p>
 
 {# 1st call to action #}
 
@@ -90,7 +92,7 @@ faqs:
 <h2>Who am I?</h2>
 
 <ul>
-  <li>I'm an Acquia-certified Drupal expert with {{ get_years_of_experience() }} years of professional development experience.</li>
+  <li>I'm an Acquia-certified Drupal expert with {{ macros.yearsOfExperience }} years of professional development experience.</li>
   <li>I'm a former Drupal Association employee who was responsible for improving and maintaining Drupal.org.</li>
   <li>I'm a Drupal core contributor and maintain numerous Drupal projects, including the Override Node Options module, which is used on over 38,000 websites.</li>
   <li>I'm a multiple-time DrupalCon speaker who regularly presents talks and workshops at conferences and meetups.</li>
