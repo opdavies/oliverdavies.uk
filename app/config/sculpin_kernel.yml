@@ -10,11 +10,3 @@ sculpin_content_types:
     permalink: /blog/:basename/
   presentations:
     permalink: /presentations/:basename/
-
-services:
-  App\Experience\ExperienceTwigExtension:
-    tags:
-      - {name: twig.extension}
-  App\Presentations\PresentationTwigExtension:
-    tags:
-      - {name: twig.extension}

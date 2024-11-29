@@ -3,7 +3,10 @@ title: Presentations
 use: [presentations]
 ---
 
-Since September 2012, I have given {{ get_presentation_count(data.presentations) }} public talks and workshops at various conferences and meetups, in-person and remotely, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.
+{% set today = 'today'|date('U') %}
+{% set presentation_count = data.presentations|reduce((count, presentation) => count + (presentation.events|filter(e => e.date|date('U') < today)|length), 0) %}
+
+<p>Since September 2012, I have given {{ presentation_count }} public talks and workshops at various conferences and meetups, in-person and remotely, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.</p>
 
 {% for talk in data.presentations|sort((a, b) => a.events|last.date|date('U') > b.events|last.date|date('U') ? -1 : 1) %}
   <article>
