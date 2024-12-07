@@ -17,7 +17,9 @@ use:
     {% for email in data.daily_emails[:1] %}
       {% set tags = [] %}
       {%- for tag in ['dev']|merge(email.tags|default([])) -%}
-        {% if tag == "nixos" %}
+        {% if tag == "drupal-cms" %}
+          {% set tag = "DrupalCMS" %}
+        {% elseif tag == "nixos" %}
           {% set tag = "NixOS" %}
         {% elseif tag == "tailwind-css" %}
           {% set tag = "TailwindCSS" %}
