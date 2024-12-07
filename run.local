@@ -73,6 +73,7 @@ function npm:build:css {
 
   tailwindcss \
     --config tailwind.config.ts \
+    --input css/tailwind.css \
     --output ../source/build/tailwind.css "${args[@]}"
 }
 
