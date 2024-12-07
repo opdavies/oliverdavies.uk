@@ -6,7 +6,7 @@ url: http://localhost:8000
 
 assets:
   url: '%url%'
-  version: 4
+  version: 6
 
 banner_text: ~
 
