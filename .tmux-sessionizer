@@ -5,3 +5,5 @@ tmux new-window -dn server
 tmux new-window -dn daily_emails -c "source/_daily_emails"
 
 tmux send-keys -t server "./run start" Enter
+
+nvim
