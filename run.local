@@ -71,6 +71,8 @@ function npm:build:css {
     args=(--watch)
   fi
 
+  cd assets || exit
+
   tailwindcss \
     --config tailwind.config.ts \
     --input css/tailwind.css \
