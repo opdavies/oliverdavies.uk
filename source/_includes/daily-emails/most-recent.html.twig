@@ -1,0 +1,13 @@
+
+
+<section>
+  <h2>{{ title }}</h2>
+
+  <p>Here are the emails I sent this week:</p>
+
+  <ul>
+    {% for email in emails %}
+      <li><a href="{{ email.url }}">{{ email.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
