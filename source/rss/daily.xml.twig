@@ -16,21 +16,6 @@ use:
     <link>{{ site.url }}/daily</link>
     {% for email in data.daily_emails[:1] %}
       {% set tags = [] %}
-      {%- for tag in ['dev']|merge(email.tags|default([])) -%}
-        {% if tag == "drupal-cms" %}
-          {% set tag = "DrupalCMS" %}
-        {% elseif tag == "nixos" %}
-          {% set tag = "NixOS" %}
-        {% elseif tag == "tailwind-css" %}
-          {% set tag = "TailwindCSS" %}
-        {% endif %}
-        {% set words = tag|split('-') -%}
-        {% if words|length == 1 %}
-          {% set tags = tags|merge(['#' ~ tag]) %}
-        {% else %}
-          {% set tags = tags|merge(['#' ~ tag|title|replace({ '-': '' })]) %}
-        {% endif %}
-      {% endfor %}
       <item>
         <title>{{ email.title }}</title>
         <link>{{ site.url }}{{ email.url }}</link>
