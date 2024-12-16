@@ -3,3 +3,5 @@ imports:
   - sculpin_site.yml
 
 url: https://www.oliverdavies.uk
+
+use_transistor: true
