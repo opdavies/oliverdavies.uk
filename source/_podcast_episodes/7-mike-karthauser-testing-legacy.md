@@ -30,6 +30,7 @@ links:
     - https://automica.io
   - - Mike on LinkedIn
     - https://www.linkedin.com/in/mikekarthauser
+episode_filename: 7-testing-legacy.mp3
 ---
 
 Oliver and Mike discuss e-commerce, legacy code, technical debt, automated testing, test-driven development, refactoring, code vs. no-code solutions, and Mike's recent talk at PHP South West in Bristol.

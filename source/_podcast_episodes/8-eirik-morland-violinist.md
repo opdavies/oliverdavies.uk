@@ -22,6 +22,7 @@ links:
     - https://www.drupal.org/about/core/strategic-initiatives/automatic-updates
   - - Logo is a conductor, not a composer
     - https://github.com/composer/getcomposer.org/issues/36
+episode_filename: 8-violinist.mp3
 ---
 
 Oliver and Eirik Morland discuss automated dependency updates with Violinist, PHP and Composer, why automation is good, and focusing on providing value for clients and customers.

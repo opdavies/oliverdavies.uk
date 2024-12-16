@@ -28,6 +28,7 @@ links:
     - https://github.com/weaverryan
   - - Ryan on YouTube
     - https://www.youtube.com/@weaverryan
+episode_filename: 10-symfonycasts.mp3
 ---
 
 This week, Oliver is joined by Ryan Weaver - Symfony Developer, Symfony core team member and Writer for SymfonyCasts to discuss the recent developments in Twig templates, SymfonyCasts, release cycles, and similarities between the Drupal and Symfony projects and communities.
