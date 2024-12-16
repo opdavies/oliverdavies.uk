@@ -28,6 +28,7 @@ links:
     - https://twitter.com/TimLehnen
 transistor:
   id: e5d5ba38
+episode_filename: 9-drupal-association.mp3
 ---
 
 This week, Oliver is joined by Tim Lehnen - the CTO of the Drupal Association.

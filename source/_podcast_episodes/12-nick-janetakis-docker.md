@@ -13,6 +13,7 @@ links:
   - - Nick's Docker example repositories on GitHub
     - https://github.com/nickjj?tab=repositories&q=-example
 talking_points: []
+episode_filename: 12-docker.mp3
 ---
 
 This week, Oliver is joined by Nick Janetakis - a Software Developer, Docker Captain and Teacher who focuses on building and deploying web apps - to discuss Docker, content creation and more.

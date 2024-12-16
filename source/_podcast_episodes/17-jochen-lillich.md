@@ -17,6 +17,7 @@ links:
 talking_points: []
 quotes: []
 chapters: []
+episode_filename: 17-automation-linux.mp3
 ---
 
 This week, Oliver is joined by the Monospace Mentor - Jochen Lillich.

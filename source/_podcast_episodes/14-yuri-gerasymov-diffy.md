@@ -36,6 +36,7 @@ quotes:
   - With visual testing, it's very easy to get started. (YG)
   - Visual testing is great for showing your client your work. (YG)
 chapters: []
+episode_filename: 14-diffy.mp3
 ---
 
 This week, Oliver discusses visual regression testing and Diffy with Yuri Gerasymov.
