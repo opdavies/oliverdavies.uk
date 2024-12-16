@@ -19,17 +19,23 @@
 {% endblock %}
 
 {% block content_wrapper %}
-  {% if page.transistor.id %}
-    <div>
-      <iframe
-        width="100%"
-        height="180"
-        frameborder="no"
-        scrolling="no"
-        seamless=""
-        src="{{ site.transistor.share.url }}/{{ page.transistor.id }}">
-      </iframe>
-    </div>
+  {% if site.use_transistor %}
+    {% if page.transistor.id %}
+      <div>
+        <iframe
+          width="100%"
+          height="180"
+          frameborder="no"
+          scrolling="no"
+          seamless=""
+          src="{{ site.transistor.share.url }}/{{ page.transistor.id }}">
+        </iframe>
+      </div>
+    {% endif %}
+  {% else %}
+    <audio controls>
+      <source src="/files/bb/episodes/{{ page.episode_filename }}" type="audio/mp3">
+    </audio>
   {% endif %}
 
   {{ parent() }}
