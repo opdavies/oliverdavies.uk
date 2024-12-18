@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Sign up for the Daily Drupaler Email List
 meta:
   title: The Daily Drupaler - Daily Software Development Thoughts and Tips | %site.name%
