@@ -97,16 +97,17 @@ touch][13].
 [0]: https://github.com/opdavies/drupal-testing-workshop
 [1]: https://github.com/drupal-composer/drupal-project
 [2]: https://docksal.io
-
-[3]: {{site.companies['microserve'].url}} [4]:
-https://github.com/drupal-composer/drupal-project [5]:
-https://www.drupal.org/project/examples [6]:
-/articles/creating-a-custom-phpunit-command-for-docksal [7]:
-/articles/using-environment-variables-settings-docksal [8]:
-https://github.com/opdavies/drupal-testing-workshop-exercises [9]:
-/talks/tdd-test-driven-drupal [10]:
-https://www.drupal.org/project/private_message_queue [11]:
-https://www.drupal.org/project/system_user [12]:
-{{site.events.drupal_dev_days_18.url}} [13]: /contact [14]:
-{{site.events.drupal_bristol.url}} [15]: /test-driven-drupal [16]:
-https://groups.drupal.org/node/520891
+[3]: {{site.companies['microserve'].url}}
+[4]: https://github.com/drupal-composer/drupal-project
+[5]: https://www.drupal.org/project/examples
+[6]: /blog/creating-a-custom-phpunit-command-for-docksal
+[7]: /blog/using-environment-variables-settings-docksal
+[8]: https://github.com/opdavies/drupal-testing-workshop-exercises
+[9]: /talks/tdd-test-driven-drupal
+[10]: https://www.drupal.org/project/private_message_queue
+[11]: https://www.drupal.org/project/system_user
+[12]: {{site.events.drupal_dev_days_18.url}}
+[13]: /contact
+[14]: {{site.events.drupal_bristol.url}}
+[15]: /test-driven-drupal
+[16]: https://groups.drupal.org/node/520891

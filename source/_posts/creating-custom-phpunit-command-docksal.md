@@ -360,7 +360,7 @@ Since writing this post, I’ve had a [pull request][8] accepted for this comman
 [5]:
   https://github.com/docksal/docksal/blob/develop/examples/.docksal/commands/phpcs
 [6]: /talks/tdd-test-driven-drupal
-[7]: /articles/tags/testing
+[7]: /blog/tags/testing
 [8]: https://github.com/docksal/addons/pull/15
 [9]: https://blog.docksal.io/installing-addons-in-a-docksal-project-172a6c2d8a5b
 [10]: https://github.com/docksal/addons

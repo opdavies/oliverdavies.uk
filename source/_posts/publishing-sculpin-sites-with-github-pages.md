@@ -104,10 +104,9 @@ does allow for HTTPS traffic.
 
 [0]: https://pages.github.com
 [1]: https://github.com/opdavies/oliverdavies.uk
-[2]:
-  https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch
+[2]: https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch
 [3]: https://github.com/opdavies/oliverdavies.uk/blob/master/publish.sh
-[4]: /articles/2015/07/21/automating-sculpin-jenkins
+[4]: /blog/2015/07/21/automating-sculpin-jenkins
 [5]: https://github.com/blog/572-bypassing-jekyll-on-github-pages
 [6]: https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare
 [7]: https://github.com/blog/2186-https-for-github-pages
