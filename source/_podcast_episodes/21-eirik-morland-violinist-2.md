@@ -21,7 +21,7 @@ links:
   - - Feature Flags
     - https://martinfowler.com/articles/feature-toggles.html
   - - Deployments vs releases
-    - /archive/2023/06/21/deployments-or-releases
+    - /daily/2023/06/21/deployments-or-releases
 talking_points: []
 quotes: []
 chapters: []

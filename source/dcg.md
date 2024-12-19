@@ -30,6 +30,6 @@ All emails are sent from my personal email address, so you can press reply and c
 [email list]: /daily
 [tailwind css]: /presentations/taking-flight-with-tailwind-css
 [test driven drupal]: /presentations/tdd-test-driven-drupal
-[workshop]: /archive/2024/01/22/tailwind-css-workshop-recording
+[workshop]: /daily/2024/01/22/tailwind-css-workshop-recording
 
 {% endblock %}
