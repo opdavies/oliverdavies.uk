@@ -36,4 +36,4 @@ DrupalCamp London is the 1-3 March 2019. Early bird tickets are available until
 [0]: https://twitter.com/DrupalCampLDN/status/1064584179113971712
 [1]: https://drupalcamp.london
 [2]: https://drupalcamp.london/get-involved/submit-a-session
-[3]: /articles/tweets-drupalcamp-london
+[3]: /blog/tweets-drupalcamp-london
