@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Introduction to Automated Testing in Drupal email course
 ---
 
