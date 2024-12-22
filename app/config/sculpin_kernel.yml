@@ -2,6 +2,8 @@
 sculpin_content_types:
   daily_emails:
     permalink: /daily/:year/:month/:day/:basename/
+  pages:
+    permalink: /:basename/
   podcast_episodes:
     permalink: /podcast/:basename/
   posts:
