@@ -1,0 +1,44 @@
+---
+layout: feed
+title: Beyond Blocks
+description: ~
+permalink: /rss/bb.xml
+use: [podcast_episodes]
+
+# TODO:
+# - Add durations and file size to each episode.
+# - Add a short description to each episode.
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Beyond Blocks</title>
+    <link>{{ site.url }}</link>
+    <description>{{ page.description }}</description>
+    <language>en-gb</language>
+    <copyright>2024 {{ site.name }}</copyright>
+    <itunes:author>{{ site.name }}</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="{{ site.url }}/images/beyond-blocks-cover.jpg" />
+    <itunes:owner>
+      <itunes:name>{{ site.name }}</itunes:name>
+      <itunes:email>{{ site.email }}</itunes:email>
+    </itunes:owner>
+
+    {% for episode in data.podcast_episodes %}
+      {% set episode_url = site.url ~ '/' ~ episode.url|trim('/') %}
+
+      <item>
+        <title>{{ episode.topic }} with {{ episode.guests|first }}</title>
+        <description>TODO.</description>
+        <pubDate>{{ episode.date|date('r') }}</pubDate>
+        <enclosure url="{{ site.url }}/files/beyond-blocks/{{ episode.episode_filename }}" length="{{ episode.file_size }}" type="audio/mpeg" />
+        <guid isPermalink="true">{{ episode_url }}</guid>
+        <link>{{ episode_url }}</link>
+        <itunes:duration>{{ episode.duration }}</itunes:duration>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
