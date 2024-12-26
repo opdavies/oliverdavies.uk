@@ -33,6 +33,8 @@ links:
   - - Symfony Terminal component
     - https://speakerdeck.com/fabpot/the-symfony-terminal-component
 episode_filename: 6-tuis-clis.mp3
+file_size: 22071243
+duration: 0:53:17
 ---
 
 In this week's episode, Oliver is joined by Dan Leech to discuss building command-line applications and TUIs with PHP based on Dan's open-source projects - Phpactor, PHPBench and, most recently, PHP-TUI.

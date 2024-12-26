@@ -21,6 +21,8 @@ links:
 transistor:
   id: 5f7e3397
 episode_filename: 2-alternate-realities.mp3
+file_size: 19346455
+duration: 0:43:51
 ---
 
 In this episode, Oliver is joined by Panagiotis Moutsopoulos to discuss about the whole first-time DrupalCon experience of Lille (France) and more specifically, his session Drupal’s Alternate Realities A BoF session presenting some history but mainly the different ways to tackle a problem in Drupal using different methodologies.
