@@ -37,6 +37,8 @@ quotes:
   - Visual testing is great for showing your client your work. (YG)
 chapters: []
 episode_filename: 14-diffy.mp3
+file_size: 22892297
+duration: 0:46:25
 ---
 
 This week, Oliver discusses visual regression testing and Diffy with Yuri Gerasymov.

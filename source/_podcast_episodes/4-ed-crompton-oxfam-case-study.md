@@ -33,4 +33,6 @@ links:
   - - Drupal Test Traits
     - https://gitlab.com/weitzman/drupal-test-traits
 episode_filename: 4-oxfam.mp3
+file_size: 21505533
+duration: 0:47:36
 ---

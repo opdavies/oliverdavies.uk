@@ -22,6 +22,8 @@ talking_points: []
 quotes: []
 chapters: []
 episode_filename: 25-laravel-prompts.mp3
+file_size: 20523767
+duration: 1:02:41
 ---
 
 In this episode, Oliver and Jess Archer (Engineering Team Lead at Laravel) discuss Laravel Prompts and Drush, PHP, Linux and working on the command line with tools like Neovim and tmux.

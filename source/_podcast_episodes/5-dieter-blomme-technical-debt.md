@@ -27,4 +27,6 @@ links:
   - - Decision by traffic light
     - https://www.linkedin.com/pulse/decision-making-101-traffic-lights-puppy-case-study-valerio-magliulo
 episode_filename: 5-technical-debt.mp3
+file_size: 23248532
+duration: 0:52:22
 ---

@@ -12,6 +12,8 @@ talking_points: []
 quotes: []
 chapters: []
 episode_filename: 16-health-fitness-weight.mp3
+file_size: 22258088
+duration: 0:42:06
 ---
 
 This week, Oliver discusses health, fitness and weight loss with Personal Trainer and Weight Loss Coach, Simon Graham.

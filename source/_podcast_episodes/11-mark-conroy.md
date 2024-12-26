@@ -27,6 +27,8 @@ talking_points:
   - Building a design system/component library with web components.
   - The Content Access by Path module that was developed for Essex County Council.
 episode_filename: 11-something-useful.mp3
+file_size: 30369780
+duration: 1:02:28
 ---
 
 This week, Oliver is joined by Mark Conroy - Director of Development at Annertech - to discuss all things front-end and how to build something useful in one day.
