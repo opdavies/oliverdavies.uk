@@ -39,10 +39,16 @@ menu_links:
     url: /presentations
   - title: Podcast
     url: /podcast
+    attributes:
+      title: The Beyond Blocks Podcast
   - title: Daily list
     url: /daily
+    attributes:
+      title: The Daily Drupaler Email List
   - title: Contact
     url: 'mailto:%email%'
+    attributes:
+      title: Contact Oliver
 
 meta:
   description: |-
