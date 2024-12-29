@@ -41,6 +41,8 @@ menu_links:
     url: /podcast
   - title: Daily list
     url: /daily
+  - title: Contact
+    url: 'mailto:%email%'
 
 meta:
   description: |-
