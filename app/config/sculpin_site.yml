@@ -29,7 +29,7 @@ mastodon:
   url: https://mastodon.social/@%mastodon.username%
 
 menu_links:
-  - title: About
+  - title: Home
     url: /
   - title: Press Info
     url: /press
