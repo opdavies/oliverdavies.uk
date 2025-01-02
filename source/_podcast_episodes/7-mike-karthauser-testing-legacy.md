@@ -33,6 +33,7 @@ links:
 episode_filename: 7-testing-legacy.mp3
 file_size: 24294452
 duration: 0:53:23
+use: [podcast_episodes]
 ---
 
 Oliver and Mike discuss e-commerce, legacy code, technical debt, automated testing, test-driven development, refactoring, code vs. no-code solutions, and Mike's recent talk at PHP South West in Bristol.

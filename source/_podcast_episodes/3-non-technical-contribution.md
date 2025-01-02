@@ -27,6 +27,7 @@ transistor:
 episode_filename: 3-community-engagement.mp3
 file_size: 24882117
 duration: 0:50:39
+use: [podcast_episodes]
 ---
 
 This week, Oliver is joined by Niklas Franke to discuss DrupalCon Lille, contributing to Drupal as a non-technical enthusiast, the Splash Awards and the Drupal community in Germany. 

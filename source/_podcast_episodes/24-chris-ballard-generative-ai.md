@@ -22,6 +22,7 @@ chapters: []
 episode_filename: 24-generative-ai.mp3
 file_size: 29900397
 duration: 00:58:33
+use: [podcast_episodes]
 ---
 
 In this episode, Oliver is joined by Chris Ballard to discuss his recent talk at PHP South West about using generative AI in PHP, speaking at meetups and live coding.

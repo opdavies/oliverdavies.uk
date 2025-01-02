@@ -1,0 +1,22 @@
+{% set other_episodes = [] %}
+
+{% for episode in all_episodes %}
+  {% if episode.guests|first is same as(guest) and episode.topic is not same as(topic) %}
+    {% set other_episodes = other_episodes|merge([episode]) %}
+  {% endif %}
+{% endfor %}
+
+{% if other_episodes is not empty %}
+  <section>
+    <h2>Other episodes with {{ guest }}</h2>
+
+    <ul>
+      {% for episode in other_episodes %}
+        <li>
+          <a href="{{ episode.url|trim('/', 'right') }}">{{ episode.topic }}</a>
+          - {{ episode.date|date('jS F Y') }}
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}

@@ -28,6 +28,7 @@ chapters: []
 episode_filename: 22-static-analysis.mp3
 file_size: 25543869
 duration: 0:58:55
+use: [podcast_episodes]
 ---
 
 In this episode, Oliver is joined by Dave Liddament - Director at Lamp Bristol and Organiser of PHP South West - to discuss PHPStan and static analysis.

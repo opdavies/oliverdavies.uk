@@ -31,6 +31,7 @@ transistor:
 episode_filename: 9-drupal-association.mp3
 file_size: 36650781
 duration: 1:06:23
+use: [podcast_episodes]
 ---
 
 This week, Oliver is joined by Tim Lehnen - the CTO of the Drupal Association.
