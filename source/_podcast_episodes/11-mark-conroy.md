@@ -29,6 +29,7 @@ talking_points:
 episode_filename: 11-something-useful.mp3
 file_size: 30369780
 duration: 1:02:28
+use: [podcast_episodes]
 ---
 
 This week, Oliver is joined by Mark Conroy - Director of Development at Annertech - to discuss all things front-end and how to build something useful in one day.

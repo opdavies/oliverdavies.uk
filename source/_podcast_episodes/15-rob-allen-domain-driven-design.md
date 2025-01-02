@@ -45,6 +45,7 @@ chapters: []
 episode_filename: 15-ddd.mp3
 file_size: 24444165
 duration: 0:56:08
+use: [podcast_episodes]
 ---
 
 This week, Oliver discusses Domain-Driven Design with PHP UK speaker, Rob Allen.

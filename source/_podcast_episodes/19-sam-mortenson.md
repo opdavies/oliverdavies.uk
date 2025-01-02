@@ -24,6 +24,7 @@ chapters: []
 episode_filename: 19-sfc-static-drupal.mp3
 file_size: 15153981
 duration: 0:30:58
+use: [podcast_episodes]
 ---
 
 In this episode, Oliver speaks with Sam Mortenson (samuelmortenson) about single file components in Drupal and Tome (a Drupal-based static website generator).

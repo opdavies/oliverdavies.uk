@@ -75,4 +75,12 @@
       {% endfor %}
     <ul>
   </div>
+
+  {% for guest in page.guests %}
+    {% include 'podcast/other-episodes.html.twig' with {
+      all_episodes: data.podcast_episodes,
+      guest,
+      topic: page.topic,
+    } only %}
+  {% endfor %}
 {% endblock %}

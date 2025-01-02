@@ -28,6 +28,7 @@ chapters: []
 episode_filename: 21-violinist.mp3
 file_size: 30666885
 duration: 1:01:55
+use: [podcast_episodes]
 ---
 
 Oliver is joined again by Eirik Morland (the first returning guest) to discuss recent improvements and enhancements to Violinist, such as Team support (a.k.a. multi-user subscriptions).

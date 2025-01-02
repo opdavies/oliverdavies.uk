@@ -35,4 +35,5 @@ links:
 episode_filename: 4-oxfam.mp3
 file_size: 21505533
 duration: 0:47:36
+use: [podcast_episodes]
 ---

@@ -57,6 +57,7 @@ chapters:
 episode_filename: 13-drupal-commerce.mp3
 file_size: 30353061
 duration: 1:03:36
+use: [podcast_episodes]
 ---
 
 This week, Oliver is joined by Ryan Szrama, CEO of Centarro, to discuss Drupal Commerce, Commerce Kickstart, Mario Kart and the dreaded `cache_form` table.
