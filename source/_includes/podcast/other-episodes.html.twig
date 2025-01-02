@@ -1,7 +1,7 @@
 {% set other_episodes = [] %}
 
 {% for episode in all_episodes %}
-  {% if episode.guests|first is same as(guest) and episode.topic is not same as(topic) %}
+  {% if guest in episode.guests and episode.topic is not same as topic %}
     {% set other_episodes = other_episodes|merge([episode]) %}
   {% endif %}
 {% endfor %}
