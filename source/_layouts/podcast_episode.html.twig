@@ -4,13 +4,11 @@
   Discussing {{ page.topic }} with {{ page.guests.0 }}.
 {%- endblock %}
 
-{% block page_title %}
-  {% set episodeNumber = page.url|trim('/')|split('/')|last|split('-')|first %}
+{% block page_title -%}
+  {% set episodeNumber = page.url|trim('/')|split('/')|last|split('-')|first -%}
 
-  Episode {{ episodeNumber }}:
-  {{ page.topic }}
-  with {{ page.guests.0 }}
-{% endblock %}
+  Episode {{ episodeNumber }}: {{ page.topic }} with {{ page.guests.0 }}
+{%- endblock %}
 
 {% block head_title %}
   <title>{{ block('page_title') }} | Beyond Blocks podcast | {{ site.name }}</title>
