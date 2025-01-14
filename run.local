@@ -99,9 +99,6 @@ function publish {
   git stash
   clean
 
-  # Copy static files, such as generated CSS files.
-  cp -r static/* source
-
   # export NODE_ENV=production
   # (cd assets && npm:build:css)
   APP_ENV=prod generate
