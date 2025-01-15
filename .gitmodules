@@ -1,4 +1,3 @@
-[submodule "source/_pages/atdc"]
-	path = source/_pages/atdc
-	url = git@github.com:opdavies/atdc-pages.git
-	branch = main
+[submodule "source/atdc"]
+	path = source/atdc
+	url = forgejo@ssh.oliverdavies.uk:opdavies/atdc-pages.git
