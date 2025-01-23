@@ -12,7 +12,7 @@ video:
 meta:
   og:
     image:
-      url: '%site.assets.url%/assets/images/talks/dclondon16.png'
+      url: '/assets/images/talks/dclondon16.png'
       type: "image/png"
       height: 540
       width: 960

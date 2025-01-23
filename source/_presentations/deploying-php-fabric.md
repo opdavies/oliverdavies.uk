@@ -8,7 +8,7 @@ speakerdeck:
 meta:
   og:
     image:
-      url: '%site.assets.url%/assets/images/talks/deploying-php-fabric.png'
+      url: '/assets/images/talks/deploying-php-fabric.png'
       width: 2560
       height: 1440
       type: image/png

@@ -12,7 +12,7 @@ video:
 meta:
   og:
     image:
-      url: '%site.assets.url%/assets/images/talks/taking-flight-tailwind.jpg'
+      url: '/assets/images/talks/taking-flight-tailwind.jpg'
       width: 2560
       height: 1440
       type: "image/png"

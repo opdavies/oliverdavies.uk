@@ -11,7 +11,7 @@ video:
 meta:
   og:
     image:
-      url: '%site.assets.url%/assets/images/talks/things-you-should-know-about-php.png'
+      url: '/assets/images/talks/things-you-should-know-about-php.png'
 events:
   - name: Swansea Software Development Meetup (SSDC)
     location: Swansea, UK
