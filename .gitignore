@@ -7,6 +7,15 @@
 node_modules
 source/build
 
+# ATDC pages
+/source/atdc/*
+
+# Direnv
 /.direnv/
 
-/source/atdc/*
+# Devenv
+.devenv*
+devenv.local.nix
+
+# Pre-commit
+.pre-commit-config.yaml
