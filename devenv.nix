@@ -1,38 +1,33 @@
-{
-  pkgs,
-  lib,
-  config,
-  inputs,
-  ...
-}:
+{ pkgs, ... }:
 
 {
-  packages = with pkgs; [ git ];
+  packages = with pkgs; [
+    git
+    tailwindcss
+  ];
 
   languages = {
-    javascript = {
-      enable = true;
-
-      pnpm = {
-        enable = true;
-        install.enable = true;
-      };
-    };
-
     php.enable = true;
   };
 
   processes = {
     sculpin.exec = "vendor/bin/sculpin generate --server --watch";
-    tailwind.exec = "npx tailwindcss --config tailwind.config.ts --input css/tailwind.css --output ../source/build/tailwind.css";
+
+    tailwind = {
+      exec = "tailwindcss --config tailwind.config.ts --input css/tailwind.css --output ../source/build/tailwind.css --watch";
+
+      process-compose = {
+        is_tty = true;
+        working_dir = "assets";
+      };
+    };
   };
 
+  tasks = { };
+
   enterShell = ''
-    which composer
     [[ ! -d vendor ]] && composer install
   '';
-
-  tasks = { };
 
   enterTest = '''';
 
@@ -41,6 +36,11 @@
       sculpin generate --env prod
       rsync -avz static/ output_prod
       rsync -avz output_prod/ ssh.oliverdavies.uk:/var/www/vhosts/www.oliverdavies.uk
+    '';
+
+    "tailwind-build".exec = ''
+      cd assets
+      tailwindcss --config tailwind.config.ts --input css/tailwind.css --output ../source/build/tailwind.css --minify
     '';
   };
 
