@@ -35,4 +35,13 @@
   tasks = { };
 
   enterTest = '''';
+
+  scripts = {
+    publish.exec = ''
+      sculpin generate --env prod
+      rsync -avz static/ output_prod
+      rsync -avz output_prod/ ssh.oliverdavies.uk:/var/www/vhosts/www.oliverdavies.uk
+    '';
+  };
+
 }
