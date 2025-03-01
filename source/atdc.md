@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introduction to Automated Testing in Drupal email course
+title: Automated Testing in Drupal email course
 ---
 
 {% block content %}
