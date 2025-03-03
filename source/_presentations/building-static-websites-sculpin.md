@@ -42,6 +42,10 @@ events:
     date: 2024-08-28
     location: Reading, UK
     url: https://www.meetup.com/php-berkshire/events/301850284
+  - name: PHP Thames Valley
+    date: 2025-03-20
+    location: Oxford, UK
+    url: https://www.meetup.com/php-thames-valley/events/305915971
 ---
 
 [Sculpin][0] is a static site generator written in PHP. It converts Markdown
