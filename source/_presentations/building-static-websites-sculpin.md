@@ -57,4 +57,3 @@ then will move into some demonstrations of how to build a Sculpin site and what
 it can do!
 
 [0]: http://sculpin.io
-[1]: https://opdavies.github.io/slides-phpsw-sculpin
