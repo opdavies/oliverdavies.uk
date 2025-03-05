@@ -26,7 +26,7 @@ use: [podcast_episodes]
       <itunes:email>{{ site.email }}</itunes:email>
     </itunes:owner>
 
-    {% for episode in data.podcast_episodes %}
+    {% for episode in data.podcast_episodes|reverse %}
       {% set episode_url = site.url ~ '/' ~ episode.url|trim('/') %}
 
       <item>
