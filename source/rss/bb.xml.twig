@@ -30,7 +30,7 @@ use: [podcast_episodes]
       {% set episode_url = site.url ~ '/' ~ episode.url|trim('/') %}
 
       <item>
-        <title>{{ episode.topic }} with {{ episode.guests|first }}</title>
+        <title>{{ episode.topic }} with {{ episode.guests|join(' and ') }}</title>
         <description>TODO.</description>
         <pubDate>{{ episode.date|date('r') }}</pubDate>
         <enclosure url="{{ site.url }}/files/beyond-blocks/{{ episode.episode_filename }}" length="{{ episode.file_size }}" type="audio/mpeg" />
