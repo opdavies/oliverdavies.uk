@@ -25,7 +25,9 @@ events:
   - name: PHP South West
     date: 2024-02-14
     location: Bristol, UK
-    url: https://www.meetup.com/php-sw/events/298880313
+    urls:
+      video: https://www.youtube.com/watch?v=axy6ltc9meA
+      demo: https://phpsw-sculpin-demo.oliverdavies.uk
   - name: BrumPHP
     date: 2024-05-23
     location: Birmingham, UK

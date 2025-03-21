@@ -27,7 +27,9 @@
                   <li>
                     <a href="{{ link }}" title="{% spaceless %}
                       {{ key == 'code' ? 'View the example code from %s.'|format(event.name) }}
+                      {{ key == 'demo' ? 'View the demo from %s.'|format(event.name) }}
                       {{ key == 'slides' ? 'View the slides from %s.'|format(event.name) }}
+                      {{ key == 'video' ? 'Watch the video recording from %s.'|format(event.name) }}
                       {{ key == 'website' ? 'View the website for %s.'|format(event.name) }}
                     {% endspaceless %}">
                       {{- key|capitalize -}}
