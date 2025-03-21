@@ -16,4 +16,6 @@ events:
     online: true
 ---
 
+{% block abstract %}
 I've recently used [rst2pdf](https://rst2pdf.org) for building presentation slides. This short talk will show some examples of how I built and presented a slide deck using reStructuredText and rst2pdf.
+{% endblock %}

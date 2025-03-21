@@ -12,6 +12,7 @@ events:
     date: 2016-07-23
 ---
 
+{% block abstract %}
 _TL;DR - Come and learn about Symfony Console, with examples from a real-world
 project._
 
@@ -22,3 +23,4 @@ After an introduction to Drupal VM itself and the Drupal VM Generator, we’ll j
 [0]: http://symfony.com/doc/current/components/console/introduction.html
 [1]: https://www.drupalvm.com
 [2]: https://www.drupalvmgenerator.com
+{% endblock %}

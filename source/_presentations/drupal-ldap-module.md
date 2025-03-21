@@ -7,4 +7,6 @@ events:
     date: 2013-07-10
 ---
 
+{% block abstract %}
 A review and demonstration of some of the recent single sign-on work that I did using Drupal’s LDAP module.
+{% endblock %}

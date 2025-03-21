@@ -13,6 +13,7 @@ events:
     date: 2015-07-25
 ---
 
+{% block abstract %}
 [Sculpin][1] is a static site generator written in PHP, and based on [Symfony components][2]. It uses [YAML][3] and [Twig][4], which makes it very appealing to Drupal people wanting to learn these in preparation for Drupal 8.
 
 This session covered how to install Sculpin itself, as well as how to use it to build a static site from Markdown, HTML and Twig templates. We also covered Sculpin concepts such as content types, themes and partials, and Twig layouts, blocks and inheritance, as well as some tips and tricks that I've found whilst developing with Sculpin.
@@ -21,3 +22,4 @@ This session covered how to install Sculpin itself, as well as how to use it to 
 [2]: http://symfony.com/doc/current/components/index.html
 [3]: http://yaml.org
 [4]: http://twig.sensiolabs.org
+{% endblock %}

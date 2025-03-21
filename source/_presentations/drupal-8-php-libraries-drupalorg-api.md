@@ -26,6 +26,7 @@ events:
     time: "12:05 - 12:50"
 ---
 
+{% block abstract %}
 A overview and demo of some of the open source projects that I’ve been working on lately that are based on information from the Drupal.org API, including a PHP library for the API itself as well as some Drupal 8 modules that use it.
 
 This session will cover various topics including:
@@ -53,3 +54,4 @@ This session will cover various topics including:
 [5]: https://github.com/opdavies/drupal-module-drupalorg-project-statistics
 [6]: https://github.com/opdavies/drupal-module-drupalversary
 [7]: /presentations/using-laravel-collections-outside-laravel/
+{% endblock %}

@@ -25,8 +25,10 @@ events:
     online: true
 ---
 
+{% block abstract %}
 For most Drupal Developers and users, the idea of moving a project from onemajor version of Drupal to another can be daunting, with modules and themeshaving to being changed significantly or rebuilt completely, and data beingmigrated from the old site to the new one.
 
 This was no more so than the move from Drupal 7 to 8, but luckily this haschanged for Drupal 9 and an upgrade can be done with minimal changes and not adata migration in sight!
 
 In this talk, we'll look at some of the changes to Drupal's tools and processesthat have made this possible, and how to move your Drupal site to Drupal 9.
+{% endblock %}

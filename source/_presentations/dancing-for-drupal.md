@@ -12,6 +12,7 @@ events:
     date: 2015-08-25
 ---
 
+{% block abstract %}
 As part of their [CMS Dance-Off][1], I was selected to speak about Drupal alongside other speakers representing Umbraco, Sitecore and Episerver.
 
 The points to cover were:
@@ -27,3 +28,4 @@ The points to cover were:
 In each point, tried to cover the differences between Drupal core and developing a project using Drupal, as well as between Drupal 7 and Drupal 8, as things like source control and versioning would be approached differently.
 
 [1]: http://www.meetup.com/umBristol/events/223807592
+{% endblock %}

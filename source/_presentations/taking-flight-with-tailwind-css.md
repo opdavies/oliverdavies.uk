@@ -91,6 +91,7 @@ events:
     url: https://www.drupalcamp.be/en/drupalcamp-ghent-2024/session/taking-flight-tailwi%E2%80%A6
 ---
 
+{% block abstract %}
 An introduction to utility class and component-based styling, and how to soar with [Tailwind CSS][1].
 
 Things we'll cover:
@@ -102,3 +103,4 @@ Things we'll cover:
 - How to write and test your own custom project-specific plugins.
 
 [1]: https://tailwindcss.com
+{% endblock %}

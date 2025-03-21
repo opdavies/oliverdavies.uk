@@ -13,4 +13,6 @@ events:
     date: 2018-07-25
 ---
 
+{% block abstract %}
 A short notice talk on configuration management in Drupal 8, and things I’ve learned working on my current Drupal 8 project.
+{% endblock %}

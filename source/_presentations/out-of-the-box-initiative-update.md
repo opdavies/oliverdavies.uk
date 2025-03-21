@@ -13,6 +13,7 @@ events:
     date: 2019-03-27
 ---
 
+{% block abstract %}
 From the [DrupalCamp London website](https://drupalcamp.london/session/out-box-initiative-update):
 
 > Since the last DrupalCamp London, the Umami Demo install profile is now one of the options shown to anyone installing Drupal. But this doesn't mean we've finished.
@@ -24,3 +25,4 @@ From the [DrupalCamp London website](https://drupalcamp.london/session/out-box-i
 - Our targets for inclusion in Drupal 8.7.0
 - How you can help!
 - Plans for the more distant future
+{% endblock %}

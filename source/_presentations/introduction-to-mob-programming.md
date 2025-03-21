@@ -13,6 +13,8 @@ events:
     url: https://www.meetup.com/php-south-wales/events/288359737
 ---
 
+{% block abstract %}
 Pair and mob programming are collaborative approaches to software development where tasks are completed in small groups instead of by individuals.
 
 In this talk, I’ll explain more about mob programming, its benefits and how it works, and then we’ll put it into practice with an interactive mob session where we add a feature to a codebase.
+{% endblock %}

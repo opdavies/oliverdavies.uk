@@ -22,6 +22,8 @@ events:
     url: https://www.meetup.com/php-oxford/events/297556113
 ---
 
+{% block abstract %}
 [Build Configs](/build-configs) is a tool I've created for creating and managing customised per-project configuration files, such as Docker, Docker Compose, Nix Flakes, and PHPUnit and PHPStan configuration.
 
 In this lightning talk, I'll discuss why I created it, what problem it solves, more about what it does, and how it works.
+{% endblock %}

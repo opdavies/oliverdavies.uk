@@ -22,6 +22,7 @@ events:
     date: 2016-03-05
 ---
 
+{% block abstract %}
 New to object-orientated PHP, Symfony or YAML, and want to get started building modules in Drupal 8? This is the session for you!
 
 In this session, we’ll cover:
@@ -36,3 +37,4 @@ What we won’t be covering:
 
 - Automated testing in PHPUnit or Simpletest.
 - Adding third party libraries and external dependencies via Composer.
+{% endblock %}

@@ -12,8 +12,10 @@ events:
     url: https://www.eventbrite.co.uk/e/techconnect-london-tickets-698416712187
 ---
 
+{% block abstract %}
 I'm a self-taught Developer who's been writing code since 2007, working with and contributing to open-source technologies. I've been a mentor at events like DrupalCon and for bootcamps, including School of Code.
 
 I'm part of different open-source and tech communities, organised meetups and conferences, and have given nearly 100 presentations.
 
 In this talk, I'll speak more about the communities I'm part of, my contributions, how I started, why I do it, and who benefits and how.
+{% endblock %}

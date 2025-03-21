@@ -16,6 +16,8 @@ events:
     date: 2015-04-08
 ---
 
+{% block abstract %}
 This was a ten minute lightning talk, designed to highlight the major changes coming in Drupal 8.
 
 I categorised the technical changes into groups for site builders, developers and themers, and also highlighted the cultural shift from "not invented here" to "proudly found elsewhere" and the benefits that brings.
+{% endblock %}

@@ -25,6 +25,8 @@ events:
     online: true
 ---
 
+{% block abstract %}
 [Workspace](https://github.com/my127/workspace) is an open source tool developed by [Inviqa](https://inviqa.com), as a way to create custom commands for your project environments, and an alternative to a bash script or a Makefile.
 
 In this short talk and demo, we'll look at what Workspace does, some of its features including attributes, generating configuration files and managing secrets, and and how it can be added to and used on a project.
+{% endblock %}

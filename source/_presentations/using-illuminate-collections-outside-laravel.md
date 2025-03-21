@@ -21,6 +21,8 @@ events:
     date: 2018-08-28
 ---
 
+{% block abstract %}
 Laravel's Illuminate Collections are a powerful object-orientated way of interacting with PHP arrays, but did you know that they can be used outside of Laravel, in any PHP project?
 
 This short talk shows how we can use Composer to include Illuminate Collections within a non-Laravel project and put them to use within your own code.
+{% endblock %}

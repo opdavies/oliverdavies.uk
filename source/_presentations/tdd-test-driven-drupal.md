@@ -71,6 +71,7 @@ events:
     online: true
 ---
 
+{% block abstract %}
 Testing is important.
 
 It allows developers to add new features and edit and refactor existing code without the worry of adding regressions, reduces the reliance on manual testing to discover bugs, and by taking a test-driven approach, your implementation code is leaner as you only write what is needed for your tests to pass.
@@ -84,3 +85,4 @@ In this talk, we'll cover the methodology and terminology involved with automate
 P.S. If you want to learn more about automated testing and test-driven development in Drupal, [register for my free 10-day email course][course].
 
 [course]: /atdc
+{% endblock %}
