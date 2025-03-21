@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link href="/build/tailwind.css?v={{ site.assets.version }}" rel="stylesheet">
+    {% if site.features.new_css %}
+    {% else %}
+      <link href="/build/tailwind.css?v={{ site.assets.version }}" rel="stylesheet">
+    {% endif %}
     <link rel="canonical" href="{{ site.url }}{{ page.url|trim('/', 'right') }}">
     <meta name="author" content="Oliver Davies">
     <meta name="generator" content="Sculpin (https://sculpin.io)">

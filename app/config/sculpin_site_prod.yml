@@ -2,6 +2,9 @@
 imports:
   - sculpin_site.yml
 
+features:
+  new_css: false
+
 url: https://www.oliverdavies.uk
 
 use_transistor: false

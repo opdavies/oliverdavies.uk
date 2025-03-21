@@ -30,6 +30,9 @@ drupalorg:
   url: https://www.drupal.org/u/%drupalorg.username%
   username: opdavies
 
+features:
+  new_css: true
+
 github:
   url: https://github.com/%github.username%
   username: opdavies
