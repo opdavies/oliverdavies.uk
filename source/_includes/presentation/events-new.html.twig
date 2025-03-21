@@ -25,7 +25,7 @@
               <ul>
                 {% for key, link in event.urls %}
                   <li>
-                    <a href="{{ link }}" title="{% spaceless %}
+                    <a class="text-sm" href="{{ link }}" title="{% spaceless %}
                       {{ key == 'code' ? 'View the example code from %s.'|format(event.name) }}
                       {{ key == 'demo' ? 'View the demo from %s.'|format(event.name) }}
                       {{ key == 'slides' ? 'View the slides from %s.'|format(event.name) }}
