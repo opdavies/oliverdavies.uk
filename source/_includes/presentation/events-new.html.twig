@@ -1,0 +1,44 @@
+<section>
+  <h2>Events</h2>
+
+  <table>
+    <thead>
+      <th>Event name</th>
+      <th>Date</th>
+      <th>Location</th>
+      <th>Links</th>
+    </thead>
+    <tbody>
+      {% for event in events|sort((a, b) => b.date <=> a.date) %}
+        <tr>
+          <td>{{ event.name }}</td>
+          <td><time datetime="{{ event.date|date('Y-m-d') }}">{{ event.date|date('jS F Y') }}</time></td>
+          <td>
+            {% if event.online %}
+              Online
+            {% elseif event.location %}
+              {{ event.location }}
+            {% endif %}
+          </td>
+          <td>
+            {% if event.urls %}
+              <ul>
+                {% for key, link in event.urls %}
+                  <li>
+                    <a href="{{ link }}" title="{% spaceless %}
+                      {{ key == 'code' ? 'View the example code from %s.'|format(event.name) }}
+                      {{ key == 'slides' ? 'View the slides from %s.'|format(event.name) }}
+                      {{ key == 'website' ? 'View the website for %s.'|format(event.name) }}
+                    {% endspaceless %}">
+                      {{- key|capitalize -}}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>

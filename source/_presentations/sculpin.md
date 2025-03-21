@@ -1,14 +1,6 @@
 ---
 title: Building Static Websites with Sculpin
 description: How to use Sculpin to generate static HTML websites.
-speakerdeck:
-  id: 6c9c4be1a1344f1291ff13a391674a66
-  ratio: "1.77777777777778"
-  url: https://speakerdeck.com/opdavies/building-static-websites-with-sculpin
-code: https://github.com/opdavies/sculpin-demo
-video:
-  type: youtube
-  id: axy6ltc9meA
 events:
   - name: PHP South West
     location: Bristol, UK
@@ -41,13 +33,20 @@ events:
   - name: PHP Berkshire
     date: 2024-08-28
     location: Reading, UK
-    url: https://www.meetup.com/php-berkshire/events/301850284
+    urls:
+      slides: /files/presentations/sculpin/php-berkshire.pdf
+      website: https://www.meetup.com/php-berkshire/events/301850284
   - name: PHP Thames Valley
     date: 2025-03-20
     location: Oxford, UK
-    url: https://www.meetup.com/php-thames-valley/events/305915971
+    urls:
+      slides: /files/presentations/sculpin/php-thames-valley.pdf
+      code: https://code.oliverdavies.uk/opdavies/sculpin-demo/src/branch/php-thames-valley
+      website: https://www.meetup.com/php-thames-valley/events/305915971
+new_events: true
 ---
 
+{% block abstract %}
 [Sculpin][0] is a static site generator written in PHP. It converts Markdown
 files, Twig templates and standard HTML into a static HTML site that can be
 easily deployed.
@@ -57,3 +56,4 @@ then will move into some demonstrations of how to build a Sculpin site and what
 it can do!
 
 [0]: http://sculpin.io
+{% endblock %}
