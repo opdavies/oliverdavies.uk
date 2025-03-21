@@ -341,8 +341,6 @@ transistor:
   share:
     url: https://share.transistor.fm/e
 
-use_transistor: false
-
 youtube:
   channel:
     slug: opdavies
