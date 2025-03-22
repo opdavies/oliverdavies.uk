@@ -40,7 +40,7 @@ common_searches:
   <ul>
     {% for term in page.common_searches %}
       <li>
-        <a href="https://www.google.com/search?q=site%3Awww.oliverdavies.uk+%22{{ term }}%22">
+        <a href="https://duckduckgo.com/?q={{ term|replace({' ': '+'}) }}+site%3A{{ site.url|url_encode }}">
           {{ term }}
         </a>
       </li>
