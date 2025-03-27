@@ -3,7 +3,7 @@
     <h2>Events</h2>
 
     <ul>
-      {% for event in events %}
+      {% for event in events|sort((a, b) => b.date <=> a.date) %}
         <li>
           {% if event.url %}
             <a href="{{ event.url }}">{{ event.name }}</a>
