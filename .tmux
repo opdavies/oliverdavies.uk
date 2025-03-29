@@ -6,4 +6,4 @@ tmux new-window -dn daily_emails -c "source/_daily_emails"
 
 tmux send-keys -t server "devenv up" Enter
 
-nvim
+nvim .
