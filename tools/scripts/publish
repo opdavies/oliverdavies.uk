@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -o errexit
+set -o nounset
+set -o pipefail
+
+vendor/bin/sculpin generate --env prod
+rsync -uvrP static/ output_prod "$@"
+rsync -uvrP output_prod/ ssh.oliverdavies.uk:/var/www/vhosts/www.oliverdavies.uk "$@"

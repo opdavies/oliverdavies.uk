@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
 
-tmux new-window -dn shell
-tmux new-window -dn server
-tmux new-window -dn daily_emails -c "source/_daily_emails"
+PATH="${PATH}:./vendor/bin"
 
-tmux send-keys -t server "devenv up" Enter
+tmux new-window -dn scratch
+tmux new-window -dn sculpin
+tmux new-window -dn tailwind
+
+tmux send-keys -t sculpin "sculpin generate --server --watch" Enter
+tmux send-keys -t tailwind "cd assets && tailwindcss --input css/tailwind.css --output ../source/build/tailwind-new.css --watch" Enter
 
 nvim .
