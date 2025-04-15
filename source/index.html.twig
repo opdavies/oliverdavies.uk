@@ -52,10 +52,50 @@ urls:
 
 <hr>
 
+<h2>Here's some of my recent work</h2>
+
+<ul>
+  <li>I developed a Drupal module to integrate with a third-party translation provider, enabling automated translations of English-only content from XML feeds into different languages.</li>
+  <li>I created an example eCommerce application using Drupal Commerce for an asset finance company for their presentation to a multinational eCommerce company.</li>
+  <li>I migrated a membership portal for a UK health association from Drupal 7 to Drupal 10, migrating their content and users and rebuilding the required custom functionality.</li>
+  <li>I presented workshops on  automated testing and test-driven development at Drupal conferences.</li>
+  <li>I assisted a UK consultancy in hiring their in-house Senior Drupal Developer by providing technical input for interviews and candidate feedback.</li>
+  <li>I developed a Tailwind CSS-based theme for a multi-tenant Drupal application, delivering the theme scaffolding, build system, and initial components. I also trained and supported the in-house development team.</li>
+  <li>I developed a Drupal Commerce application for an annual international photography competition that allows photographers to pay and submit their entries, including custom scoring functionality for jurors.</li>
+</ul>
+
+<hr>
+
+<h2>Get in touch</h2>
+
+<p>Unlike working with large agencies, you'll <strong>only work directly with me</strong>. You won't be handed off sub-contractors, offshore teams or Junior Developers who are learning on the job.</p>
+
+<p>I only give fixed prices so <strong>you'll know upfront how much my work will cost</strong> and all of my work is covered by a bug-free guarantee.</p>
+
+
+{% include 'button.html.twig' with {
+  full_width: true,
+  text: 'Click here to email Oliver',
+  url: 'mailto:' ~ site.email,
+} %}
+
+<hr>
+
 {% include 'testimonials' with {
   limit: 5,
   tag: 'front',
   title: 'Kind words from clients and colleagues',
 } %}
 
+<hr>
+
+<h2>Get in touch</h2>
+
+<p>There’s no reason to wait. Drop me a line and I'll get back to you ASAP.</p>
+
+{% include 'button.html.twig' with {
+  full_width: true,
+  text: 'Click here to email Oliver',
+  url: 'mailto:' ~ site.email,
+} %}
 {% endblock %}
