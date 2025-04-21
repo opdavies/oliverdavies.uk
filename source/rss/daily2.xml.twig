@@ -1,0 +1,31 @@
+---
+layout: feed
+title: Oliver's daily email list
+description: |-
+  A daily email newsletter about software development, DevOps, community, and open-source.
+permalink: /rss/daily2.xml
+use:
+  - daily_emails
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ page.title }}</title>
+    <description>{{ page.description }}</description>
+    <link>{{ site.url }}/daily</link>
+    {% for email in data.daily_emails %}
+      <item>
+        <title>{{ email.title }}</title>
+        <link>{{ email.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ email.url }}</guid>
+        <description>
+          <div>
+            {{- email.blocks.content -}}
+          </div>
+        </description>
+        <pubDate>{{ email.date|date('D, d M Y H:i:s') }} GMT</pubDate>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
