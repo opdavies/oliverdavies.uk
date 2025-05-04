@@ -21,6 +21,10 @@ class PresentationTwigExtension extends AbstractExtension
         return 'presentations';
     }
 
+
+    /**
+     * @param ProxySourceItem[] $presentations
+     */
     public function getPresentationCount(array $presentations): int
     {
         $presentationCollection = new PresentationCollection($presentations);

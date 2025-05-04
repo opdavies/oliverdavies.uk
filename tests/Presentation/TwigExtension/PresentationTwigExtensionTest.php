@@ -116,6 +116,8 @@ class PresentationTwigExtensionTest extends TestCase
 
     /**
      * Assert the extension uses the correct number of presentations.
+     *
+     * @param ProxySourceItem[] $presentations
      */
     private function assertPresentationCount(int $expectedCount, array $presentations): void
     {
@@ -127,6 +129,8 @@ class PresentationTwigExtensionTest extends TestCase
 
     /**
      * Create a mock presentation with a list of events.
+     *
+     * @param array{date: int}[] $events
      */
     private function createPresentation(array $events): ProxySourceItem
     {

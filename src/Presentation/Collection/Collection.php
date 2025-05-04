@@ -10,6 +10,7 @@ use Iterator;
 use IteratorAggregate;
 
 /**
+ * @implements IteratorAggregate<TItem>
  * @template TItem
  */
 class Collection implements Countable, IteratorAggregate
@@ -26,6 +27,9 @@ class Collection implements Countable, IteratorAggregate
         return count($this->items);
     }
 
+    /**
+     * @return self<TItem>
+     */
     public function filter(callable $callback): self
     {
         return new static(
