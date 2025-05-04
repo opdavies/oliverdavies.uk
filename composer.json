@@ -5,8 +5,9 @@
     },
     "config": {
         "allow-plugins": {
-            "sculpin/sculpin-theme-composer-plugin": true
-       }
+            "sculpin/sculpin-theme-composer-plugin": true,
+            "phpstan/extension-installer": true
+        }
     },
     "autoload": {
         "psr-4": {
@@ -19,6 +20,9 @@
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "^12.1"
+        "phpunit/phpunit": "^12.1",
+        "phpstan/phpstan": "^2.1",
+        "phpstan/phpstan-strict-rules": "^2.0",
+        "phpstan/extension-installer": "^1.4"
     }
 }

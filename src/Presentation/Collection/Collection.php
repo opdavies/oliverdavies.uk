@@ -9,9 +9,15 @@ use Countable;
 use Iterator;
 use IteratorAggregate;
 
-abstract class AbstractCollection implements Countable, IteratorAggregate
+/**
+ * @template TItem
+ */
+class Collection implements Countable, IteratorAggregate
 {
-    public function __construct(protected array $items = [])
+    /**
+     * @param TItem[] $items
+     */
+    final public function __construct(protected array $items = [])
     {
     }
 
@@ -35,6 +41,9 @@ abstract class AbstractCollection implements Countable, IteratorAggregate
         return new ArrayIterator($this->items);
     }
 
+    /**
+     * @return TItem[]
+     */
     public function toArray(): array
     {
         return $this->items;

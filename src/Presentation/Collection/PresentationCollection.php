@@ -7,9 +7,9 @@ namespace App\Presentation\Collection;
 use DateTimeImmutable;
 use Sculpin\Contrib\ProxySourceCollection\ProxySourceItem;
 
-final class PresentationCollection extends AbstractCollection
+final class PresentationCollection extends Collection
 {
-    public function getAllEvents(): EventCollection
+    public function getAllEvents(): Collection
     {
         $events = array_reduce(
             array: $this->items,
@@ -21,10 +21,10 @@ final class PresentationCollection extends AbstractCollection
             initial: [],
         );
 
-        return new EventCollection(array_merge(...$events));
+        return new Collection(array_merge(...$events));
     }
 
-    public function getPastEvents(): EventCollection
+    public function getPastEvents(): Collection
     {
         $today = new DateTimeImmutable('today');
 
