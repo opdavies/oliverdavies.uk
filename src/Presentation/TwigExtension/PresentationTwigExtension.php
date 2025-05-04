@@ -2,6 +2,7 @@
 
 namespace App\Presentation\TwigExtension;
 
+use App\Presentation\Collection\PresentationCollection;
 use Sculpin\Contrib\ProxySourceCollection\ProxySourceItem;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
@@ -22,17 +23,8 @@ class PresentationTwigExtension extends AbstractExtension
 
     public function getPresentationCount(array $presentations): int
     {
-        $today = (new \DateTime('today'))->getTimestamp();
+        $presentationCollection = new PresentationCollection($presentations);
 
-        return collect($presentations)
-            ->flatMap(fn (ProxySourceItem $presentation) => $presentation->data()->get('events'))
-            ->filter(
-                function (array $event) use ($today): bool {
-                    assert(array_key_exists(array: $event, key: 'date'));
-
-                    return $event['date'] < $today;
-                }
-            )
-            ->count();
+        return $presentationCollection->getPastEvents()->count();
     }
 }
