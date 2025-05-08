@@ -10,6 +10,10 @@ assets:
 
 banner_text: ~
 
+code:
+  url: https://code.oliverdavies.uk
+  username: opdavies
+
 ctas:
   call: |
     Are you still using Drupal 7 and don’t know what’s involved to upgrade to Drupal 10? <a href="%site.url%/call">Book a Drupal 7 upgrade consultation call</a> or <a href="%site.url%/drupal-upgrade">an upgrade roadmap</a>.
