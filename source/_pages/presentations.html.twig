@@ -14,6 +14,10 @@ use: [presentations]
       </h2>
     </div>
 
-    <p>{{ presentation.description }}</p>
+    {% if presentation.blocks.description %}
+      {{ presentation.blocks.description|raw }}
+    {% else %}
+      <p>{{ presentation.description }}</p>
+    {% endif %}
   </article>
 {% endfor %}
