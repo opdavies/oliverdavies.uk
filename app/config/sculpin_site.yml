@@ -75,6 +75,13 @@ meta:
 
 testimonials:
   - text: |
+      Oliver devised a creative and original approach to Drupal theme switching based on Tailwind and provided us with the building blocks and basic theming.
+
+      He gave several helpful mentoring sessions with our front end developer to support us to build this approach into our site.
+    name: Technical Director, European knowledge platform
+    image: ~
+    tags: [front]
+  - text: |
       This course is really great and I've recommended it to my coworkers here at Palantir.net.
     name: Daniel Davis-Boxleitner
     title: Senior Engineer at Palantir.net
