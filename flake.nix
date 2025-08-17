@@ -10,7 +10,12 @@
     {
       devShells.${system}.default = pkgs.mkShell {
         buildInputs = with pkgs; [
-          php83
+          (php83.buildEnv {
+            extraConfig = ''
+              error_reporting = E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED
+            '';
+          })
+
           php83Packages.composer
           tailwindcss
         ];
