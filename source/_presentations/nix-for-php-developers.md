@@ -8,7 +8,7 @@ events:
 ---
 
 {% block description %}
-How PHP Developers can use Nix in their projects to create robust and reproducible environments and replace tools like Docker and Vagrant.
+How PHP Developers can use Nix to create robust and reproducible environments and replace tools like Docker and Vagrant.
 {% endblock %}
 
 {% block abstract %}
