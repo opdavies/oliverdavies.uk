@@ -102,7 +102,7 @@ function publish {
   APP_ENV=prod generate
 
   rsync --archive --verbose --compress --update --delete \
-    output_prod/ ssh.oliverdavies.uk:/var/www/vhosts/www.oliverdavies.uk
+    output_prod/ ssh.oliverdavies.uk:/var/www/vhosts/website-sculpin
 
   git stash pop
 }
