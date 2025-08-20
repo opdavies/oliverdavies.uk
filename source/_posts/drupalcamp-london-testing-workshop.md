@@ -10,8 +10,6 @@ lead_image:
     url: /images/blog/testing-workshop-drupalcamp-london/lead.jpg
 ---
 
-<img src={frontmatter.lead_image.url} />
-
 This year, I’m teaching a workshop at DrupalCamp London.
 
 The subject will be automated testing and test driven development in Drupal 8,
