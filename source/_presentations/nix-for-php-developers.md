@@ -4,7 +4,10 @@ events:
   - name: PHP Thames Valley
     location: Reading, UK
     date: 2025-08-20
-    url: https://www.eventbrite.co.uk/e/php-thames-valley-oxfordshire-and-berkshire-3-x-speakers-networking-tickets-1512713198899
+    urls:
+      slides: /files/presentations/nix-php-developers/php-thames-valley.pdf
+      website: https://www.eventbrite.co.uk/e/php-thames-valley-oxfordshire-and-berkshire-3-x-speakers-networking-tickets-1512713198899
+new_events: true
 ---
 
 {% block description %}
