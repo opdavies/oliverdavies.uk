@@ -10,6 +10,8 @@
     {
       devShells.${system}.default = pkgs.mkShell {
         buildInputs = with pkgs; [
+          nodePackages.browser-sync
+
           (php83.buildEnv {
             extraConfig = ''
               error_reporting = E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED
