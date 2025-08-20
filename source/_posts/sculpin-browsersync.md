@@ -23,7 +23,7 @@ Whilst `sculpin generate --watch` will automatically re-generate the website, it
 
 This is common in other projects like Fractal (a component library) and Astro (another static site generator).
 
-To fix this, I introduced [BrowserSync][2] - xxx - into my project.
+To fix this, I introduced [BrowserSync][2] into my project.
 
 It's a node package that runs a webserver and can watch for changes to files - just like Sculpin - but it can automatically refresh the browser so I can see changes immediately.
 
