@@ -1,0 +1,11 @@
+---
+title: Blog
+use: [posts]
+draft: true
+---
+
+<ul>
+  {% for post in data.posts %}
+    <li><a href="{{ post.url|trim('/', 'right') }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
