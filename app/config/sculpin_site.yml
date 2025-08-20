@@ -62,6 +62,8 @@ menu_links:
     url: /daily
     attributes:
       title: The Daily Drupaler Email List
+  - title: Books
+    url: /books
   - title: Sponsor me
     url: /sponsor
   - title: Contact
