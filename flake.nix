@@ -20,6 +20,8 @@
 
           php83Packages.composer
           tailwindcss
+
+          (import ./drafts.nix { inherit pkgs; })
         ];
       };
 
