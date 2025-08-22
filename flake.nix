@@ -22,6 +22,7 @@
           tailwindcss
 
           (import ./drafts.nix { inherit pkgs; })
+          (import ./new-draft.nix { inherit pkgs; })
         ];
       };
 
