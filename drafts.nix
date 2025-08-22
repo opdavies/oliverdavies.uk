@@ -6,6 +6,6 @@ pkgs.writeShellApplication {
   runtimeInputs = with pkgs; [ gnugrep ];
 
   text = ''
-    grep -r 'draft: true' source
+    grep -r 'draft: true' "''${1:-source}"
   '';
 }
