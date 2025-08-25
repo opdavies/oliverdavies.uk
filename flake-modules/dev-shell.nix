@@ -8,10 +8,6 @@
     {
       devshells.default = {
         packages = with pkgs; [
-          self'.packages.drafts
-          self'.packages.new-draft
-          self'.packages.publish
-
           nodePackages.browser-sync
 
           (php83.buildEnv {
@@ -21,6 +17,11 @@
           })
 
           php83Packages.composer
+
+          self'.packages.drafts
+          self'.packages.new-draft
+          self'.packages.publish
+
           tailwindcss
         ];
       };
