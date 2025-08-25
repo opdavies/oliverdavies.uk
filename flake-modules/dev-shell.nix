@@ -20,6 +20,7 @@
 
         (import ../drafts.nix { inherit pkgs; })
         (import ../new-draft.nix { inherit pkgs; })
+        (import ../publish.nix { inherit pkgs; })
       ];
     };
 }
