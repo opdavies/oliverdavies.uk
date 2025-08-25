@@ -3,24 +3,26 @@
 {
   imports = [ inputs.devshell.flakeModule ];
 
-  perSystem.devshells.default =
-    { pkgs, ... }:
+  perSystem =
+    { pkgs, self', ... }:
     {
-      packages = with pkgs; [
-        nodePackages.browser-sync
+      devshells.default = {
+        packages = with pkgs; [
+          self'.packages.drafts
+          self'.packages.new-draft
+          self'.packages.publish
 
-        (php83.buildEnv {
-          extraConfig = ''
-            error_reporting = E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED
-          '';
-        })
+          nodePackages.browser-sync
 
-        php83Packages.composer
-        tailwindcss
+          (php83.buildEnv {
+            extraConfig = ''
+              error_reporting = E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED
+            '';
+          })
 
-        (import ../drafts.nix { inherit pkgs; })
-        (import ../new-draft.nix { inherit pkgs; })
-        (import ../publish.nix { inherit pkgs; })
-      ];
+          php83Packages.composer
+          tailwindcss
+        ];
+      };
     };
 }
