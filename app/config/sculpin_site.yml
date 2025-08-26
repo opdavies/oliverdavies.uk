@@ -48,20 +48,14 @@ mastodon:
 menu_links:
   - title: Home
     url: /
-  - title: Press Info
-    url: /press
-  - title: Services
-    url: /pricing
   - title: Presentations
     url: /presentations
+  - title: Blog
+    url: /blog
   - title: Podcast
     url: /podcast
     attributes:
       title: The Beyond Blocks Podcast
-  - title: Daily list
-    url: /daily
-    attributes:
-      title: The Daily Drupaler Email List
   - title: Books
     url: /books
   - title: Sponsor me
