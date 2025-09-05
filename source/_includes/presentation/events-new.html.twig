@@ -23,7 +23,7 @@
           <td>
             {% if event.urls %}
               <ul>
-                {% for key, link in event.urls %}
+                {% for key, link in event.urls if link %}
                   <li>
                     <a class="text-sm" href="{{ link }}" title="{% spaceless %}
                       {{ key == 'code' ? 'View the example code from %s.'|format(event.name) }}
