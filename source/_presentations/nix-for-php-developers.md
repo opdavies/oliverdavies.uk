@@ -7,6 +7,12 @@ events:
     urls:
       slides: /files/presentations/nix-php-developers/php-thames-valley.pdf
       website: https://www.eventbrite.co.uk/e/php-thames-valley-oxfordshire-and-berkshire-3-x-speakers-networking-tickets-1512713198899
+  - name: unified.diff
+    location: Cardiff, UK
+    date: 2025-09-25
+    urls:
+      slides: ~
+      website: https://www.meetup.com/unified-diff/events/310886970
 new_events: true
 ---
 
