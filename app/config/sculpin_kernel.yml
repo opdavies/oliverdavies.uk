@@ -8,8 +8,6 @@ sculpin_content_types:
     permalink: /blog/:basename/
   presentations:
     permalink: /presentations/:basename/
-  zets:
-    permalink: /zet/:basename-:title/
 
 services:
   App\Experience\TwigExtension\ExperienceTwigExtension:
