@@ -36,6 +36,7 @@ drupalorg:
 
 features:
   new_css: false
+  show_blog_post_count: true
 
 github:
   url: https://github.com/%github.username%
