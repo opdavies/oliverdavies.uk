@@ -1,0 +1,21 @@
+/.phpunit.cache
+/.phpunit.result.cache
+/output_*/
+/vendor/
+
+# Front-end assets.
+node_modules
+source/build
+
+# ATDC pages
+/source/atdc/*
+
+# Direnv
+/.direnv/
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+# Pre-commit
+.pre-commit-config.yaml

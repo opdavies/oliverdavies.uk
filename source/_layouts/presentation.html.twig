@@ -1,0 +1,31 @@
+{% extends 'page' %}
+
+{% block meta_description %}{{ page.title }} presented by Oliver Davies{% endblock %}
+
+{% block content_wrapper %}
+  {{ parent() }}
+
+  {% if block('abstract') %}
+    <h2>Abstract</h2>
+
+    {% block abstract %}{% endblock %}
+  {% endif %}
+
+  {% if page.new_events %}
+    {% include 'presentation/events-new' with {
+      events: page.events,
+    } %}
+  {% else %}
+    {% include 'presentation/slides' with {
+      speakerdeck: page.speakerdeck,
+    } %}
+
+    {% include 'presentation/video' with {
+      video: page.video,
+    } %}
+
+    {% include 'presentation/events' with {
+      events: page.events,
+    } %}
+  {% endif %}
+{% endblock %}

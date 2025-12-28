@@ -1,0 +1,3 @@
+[submodule "source/atdc"]
+	path = source/atdc
+	url = forgejo@ssh.oliverdavies.uk:opdavies/atdc-pages.git

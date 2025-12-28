@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    {% if site.features.new_css %}
+    {% else %}
+      <link href="/build/tailwind.css?v={{ site.assets.version }}" rel="stylesheet">
+    {% endif %}
+    <link rel="canonical" href="{{ site.url }}{{ page.url|trim('/', 'right') }}">
+    <meta name="author" content="Oliver Davies">
+    <meta name="generator" content="Sculpin (https://sculpin.io)">
+    <meta name="keywords" content="Drupal Developer, Drupal Consultant, Drupal Architect, Drupal Strategist, Drupal Trainer, Triple Certified Drupal Expert, Public Speaker, Workshop Trainer, Technical Lead, Technical Coach, Software Development Coach, Automated Testing, Test-Driven Development">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@opdavies">
+    <meta name="twitter:image" content="/assets/images/od-logo.jpg">
+    <meta name="twitter:site" content="@opdavies">
+
+    <meta property="og:image" name="image" content="/assets/images/od-logo.jpg">
+    <meta property="og:site_name" content="Oliver Davies">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url|trim('/', 'right') }}">
+
+    {% if page.blocks.meta_description %}
+      <meta name="description" content="{{ page.blocks.meta_description }}">
+    {% elseif page.meta.description %}
+      <meta name="description" content="{{ page.meta.description }}">
+    {% else %}
+      <meta name="description" content="{{ site.meta.description }}">
+    {% endif %}
+
+    {% block head_title %}
+      {% if page.meta.title %}
+        <title>{{ page.meta.title }}</title>
+        <meta property="og:title" content="{{ page.meta.title }}">
+        <meta property="twitter:title" content="{{ page.meta.title }}">
+      {% else %}
+        <title>{{ page.title }} | {{ site.name }}</title>
+        <meta property="og:title" content="{{ page.title }} | {{ site.name }}">
+        <meta property="twitter:title" content="{{ page.title }} | {{ site.name }}">
+      {% endif %}
+    {% endblock %}
+
+    {% block styles %}{% endblock %}
+  </head>
+  <body>
+    <a class="sr-only focus:not-sr-only" href="#footer">Jump to the navigation menu</a>
+
+    <div class="min-h-screen font-sans text-base font-light md:text-xl dark:text-white text-grey-900 selection:bg-blue-primary selection:text-white dark:bg-grey-900 dark:selection:bg-blue-primary dark:selection:text-white">
+      {% include 'banner.html.twig' %}
+
+      <div class="py-4 px-4 mx-auto max-w-xl">
+        <header class="flex flex-col justify-between items-center md:flex-row">
+          {% include 'logo.html.twig' %}
+        </header>
+      </div>
+
+      <div class="py-10 px-6 mx-auto max-w-xl md:py-10">
+        <div class="space-y-10">
+          {% block content_top %}{% endblock %}
+
+          <main>
+            {% if page.url matches "#^/atdc/#" %}
+              <div class="mb-10 border border-grey-800 dark:border-grey-600">
+                <div class="py-4 px-4">
+                  <div class="{{ site.prose_classes }}">
+                    <p>I'm currently updating this course for Drupal 11. If you find any bugs or have any issues, <a href="mailto:{{ site.email }}?subject=ATDC">please let me know</a>.
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+
+            <h1 class="mb-4 text-xl font-bold md:text-2xl">
+              {% block page_title %}{{ page.title }}{% endblock %}
+            </h1>
+
+            <div class="{{ site.prose_classes }}">
+              {% block content_wrapper %}
+                {% block content %}{% endblock %}
+              {% endblock %}
+            </div>
+          </main>
+
+          {% block content_bottom %}{% endblock %}
+        </div>
+
+        <footer class="mt-16 mb-6">
+          <a id="footer" tabindex="-1"></a>
+
+          {% include 'main-menu.html.twig' %}
+        </footer>
+      </div>
+    </div>
+
+    {# Add the Mastodon verification link so pages can be verified. #}
+    <a class="hidden" rel="me" href="{{ site.mastodon.url }}">Mastodon</a>
+
+    {% block scripts %}{% endblock %}
+  </body>
+</html>

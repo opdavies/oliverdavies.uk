@@ -1,0 +1,50 @@
+{% set limit = limit ?? 10 %}
+{% set offset = offset ?? 0 %}
+
+{% set testimonials = site.testimonials %}
+
+{% if tag is not null %}
+  {% set testimonials = testimonials|filter(testimonial => tag in testimonial.tags) %}
+{% endif %}
+
+{% if limit > 0 %}
+  {% set testimonials = testimonials|slice(offset, limit) %}
+{% endif %}
+
+<section>
+  <h2 class="text-xl font-bold">{{ title|default('Testimonials') }}</h2>
+
+  <div class="mt-4 space-y-12">
+    {% for testimonial in testimonials %}
+      <div>
+      <div class="{{ site.prose_classes }}">
+        <blockquote>
+            {{ testimonial.text|markdown }}
+          </blockquote>
+
+          <div>
+            <footer class="mt-8 flex items-center space-x-4 space-x-reverse">
+              <span class="text-base">
+                {% if testimonial.url %}
+                  <a href="{{ testimonial.url }}">{{ testimonial.name }}</a>
+                {% else %}
+                  {{ testimonial.name }}
+                {% endif %}
+
+                {% if testimonial.title %}
+                  - {{ testimonial.title }}
+                {% endif %}
+              </span>
+
+              {% if testimonial.image %}
+                <span class="not-prose order-first flex-shrink-0">
+                  <img class="size-16 rounded-full ring-[3px] ring-blue-primary dark:ring-white" alt="Photo of {{ testimonial.name }}" src="{{ testimonial.image.url }}">
+                </span>
+              {% endif %}
+            </footer>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

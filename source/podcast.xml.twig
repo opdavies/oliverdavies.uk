@@ -1,0 +1,70 @@
+---
+title: Beyond Blocks
+description: A podcast about Drupal, open-source, and related software development topics.
+use: [podcast_episodes]
+permalink: /podcast.xml
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="stylesheet.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <atom:link rel="self" type="application/atom+xml" href="{{ site.url }}{{ page.url|trim('/', 'right') }}" title="MP3 Audio"/>
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+    <title>{{ page.title }}</title>
+    <itunes:new-feed-url>{{ site.url }}{{ page.url }}</itunes:new-feed-url>
+    <description>{{ page.description }}</description>
+    <copyright>© 2025 Oliver Davies</copyright>
+    <language>en</language>
+    <pubDate>Sat, 01 Mar 2025 07:08:47 +0000</pubDate>
+    <lastBuildDate>Sat, 01 Mar 2025 07:09:06 +0000</lastBuildDate>
+    <link>{{ site.url }}</link>
+    <image>
+      <url>{{ site.url }}/files/beyond-blocks.jpg</url>
+      <title>{{ page.title }}</title>
+      <link>{{ site.url }}</link>
+    </image>
+    <itunes:category text="Technology"/>
+    <itunes:type>episodic</itunes:type>
+    <itunes:author>Oliver Davies</itunes:author>
+    <itunes:image href="{{ site.url }}/files/beyond-blocks.jpg"/>
+    <itunes:summary>{{ page.description }}</itunes:summary>
+    <itunes:subtitle>{{ page.description }}</itunes:subtitle>
+    <itunes:keywords></itunes:keywords>
+    <itunes:owner>
+      <itunes:name>Oliver Davies</itunes:name>
+    </itunes:owner>
+    <itunes:complete>No</itunes:complete>
+    <itunes:explicit>No</itunes:explicit>
+    {% for episode in data.podcast_episodes %}
+      {% set episodeNumber = episode.url|trim('/')|split('/')|last|split('-')|first %}
+      {% set title = episode.topic ~ ' with ' ~ episode.guests|join(' and ') %}
+      {% set durationParts = episode.duration|split(':') %}
+      <item>
+        <title>{{ title }}</title>
+        <itunes:episode>{{ episodeNumber }}</itunes:episode>
+        <podcast:episode>{{ episodeNumber }}</podcast:episode>
+        <itunes:title>{{ title }}</itunes:title>
+        <itunes:episodeType>full</itunes:episodeType>
+        <guid isPermaLink="false">{{ episodeNumber }}</guid>
+        <link>{{ site.url }}{{ episode.url|trim('/', 'right') }}</link>
+        <description>
+          <![CDATA[{{ episode.blocks.content|raw -}}]]>
+        </description>
+        <content:encoded>
+          <![CDATA[{{ episode.blocks.content|raw -}}]]>
+        </content:encoded>
+        <pubDate>{{ episode.date }}</pubDate>
+        <author>Oliver Davies</author>
+        <enclosure url="{{ site.url }}/files/bb/episodes/{{ episode.episode_filename }}" length="{{ episode.file_size }}" type="audio/mpeg"/>
+        <itunes:author>Oliver Davies</itunes:author>
+        <itunes:duration>{{ (durationParts[0] * 60 * 60) + (durationParts[1] * 60) + durationParts[2] }}</itunes:duration>
+        <itunes:summary>
+          <![CDATA[{{ episode.blocks.content|raw -}}]]>
+        </itunes:summary>
+        <itunes:keywords></itunes:keywords>
+        <itunes:explicit>No</itunes:explicit>
+      </item>
+    {%- endfor -%}
+  </channel>
+</rss>

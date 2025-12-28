@@ -1,0 +1,19 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Dynamic call to static method PHPUnit\\Framework\\Assert\:\:identicalTo\(\)\.$#'
+			identifier: staticMethod.dynamicCall
+			count: 1
+			path: tests/Presentation/TwigExtension/PresentationTwigExtensionTest.php
+
+		-
+			message: '#^Static method PHPUnit\\Framework\\Assert\:\:assertSame\(\) invoked with named argument \$actual, but it''s not allowed because of @no\-named\-arguments\.$#'
+			identifier: argument.named
+			count: 1
+			path: tests/Presentation/TwigExtension/PresentationTwigExtensionTest.php
+
+		-
+			message: '#^Static method PHPUnit\\Framework\\Assert\:\:assertSame\(\) invoked with named argument \$expected, but it''s not allowed because of @no\-named\-arguments\.$#'
+			identifier: argument.named
+			count: 1
+			path: tests/Presentation/TwigExtension/PresentationTwigExtensionTest.php

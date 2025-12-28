@@ -1,0 +1,10 @@
+<div class="my-4 flex justify-center {{ class }}">
+  <blockquote
+      class="twitter-tweet"
+      lang="en"
+      {% if not data_cards %}data-cards="hidden"{% endif %}
+      {% if no_parent %}data-conversation="none"{% endif %}
+  >
+      {{ content|raw }}
+  </blockquote>
+</div>

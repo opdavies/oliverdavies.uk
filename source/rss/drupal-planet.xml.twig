@@ -1,0 +1,27 @@
+---
+layout: feed
+title: Oliver Davies
+description: ~
+permalink: /rss/drupal-planet.xml
+use: [posts]
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ page.title }}</title>
+    <description>{{ page.description }}</description>
+    <link>{{ site.url }}/daily</link>
+    {% for post in data.posts if post.drupal_planet %}
+      <item>
+        <title>{{ post.title }}</title>
+        <link>{{ site.url }}{{ post.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        <description>
+          {{- post.blocks.content -}}
+        </description>
+        <pubDate>{{ post.date|date('D, d M Y H:i:s') }} GMT</pubDate>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
