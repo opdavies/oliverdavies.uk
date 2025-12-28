@@ -1,8 +1,0 @@
-{% if page.date|date('U') < 'now'|date_modify('-12 months')|date('U') %}
-    <div class="border-2 border-blue-600 p-4 mb-6">
-        <p class="text-sm mb-0">
-            <span class="font-bold">Warning:</span>
-            This post is over a year old. I don't always update old posts with new information, so some of this information may be out of date.
-        </p>
-    </div>
-{% endif %}
