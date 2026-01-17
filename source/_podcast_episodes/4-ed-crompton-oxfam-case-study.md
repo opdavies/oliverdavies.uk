@@ -32,7 +32,7 @@ links:
     - https://phenaproxima.net/2018/08/07/behat-insanity.html
   - - Drupal Test Traits
     - https://gitlab.com/weitzman/drupal-test-traits
-episode_filename: 4-oxfam.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/04-oxfam.mp3
 file_size: 21505533
 duration: 0:47:36
 use: [podcast_episodes]

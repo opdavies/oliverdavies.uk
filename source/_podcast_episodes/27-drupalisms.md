@@ -19,7 +19,7 @@ links:
     - https://www.drupal.org/u/cellear
 quotes: []
 chapters: []
-episode_filename: 27-drupalisms.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/27-drupalisms.mp3
 file_size: 24474764
 duration: 00:52:29
 use: [podcast_episodes]

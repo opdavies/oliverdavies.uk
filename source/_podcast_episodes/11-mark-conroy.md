@@ -26,7 +26,7 @@ talking_points:
   - Lowering the barrier to entry to contribute to open-source projects.
   - Building a design system/component library with web components.
   - The Content Access by Path module that was developed for Essex County Council.
-episode_filename: 11-something-useful.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/11-something-useful.mp3
 file_size: 30369780
 duration: 1:02:28
 use: [podcast_episodes]

@@ -13,7 +13,7 @@ links:
   - - Nick's Docker example repositories on GitHub
     - https://github.com/nickjj?tab=repositories&q=-example
 talking_points: []
-episode_filename: 12-docker.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/12-docker.mp3
 file_size: 28021353
 duration: 0:51:48
 use: [podcast_episodes]

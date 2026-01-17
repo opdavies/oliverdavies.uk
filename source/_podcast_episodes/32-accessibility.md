@@ -30,7 +30,7 @@ links:
   - https://www.drupal.org/docs/develop/standards/accessibility-coding-standards
 - - Shift-left testing
   - https://en.wikipedia.org/wiki/Shift-left_testing
-episode_filename: 32-web-accessibility.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/32-web-accessibility.mp3
 file_size: 38235236
 duration: 01:23:01
 use: [podcast_episodes]

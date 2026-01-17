@@ -28,7 +28,7 @@ links:
     - https://github.com/weaverryan
   - - Ryan on YouTube
     - https://www.youtube.com/@weaverryan
-episode_filename: 10-symfonycasts.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/10-symfonycasts.mp3
 file_size: 26892969
 duration: 0:53:59
 use: [podcast_episodes]

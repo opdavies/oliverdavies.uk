@@ -54,7 +54,7 @@ chapters:
   - 51:58 Certified Centarro partners?
   - 57:38 Centarro roadmap.
   - 62:06 Wrapping up.
-episode_filename: 13-drupal-commerce.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/13-drupal-commerce.mp3
 file_size: 30353061
 duration: 1:03:36
 use: [podcast_episodes]

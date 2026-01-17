@@ -14,7 +14,7 @@ links:
     - https://www.drupalcampengland.org
   - - Video recording of Ev's talk
     - https://www.youtube.com/watch?v=Q_9fWVCAUtU
-episode_filename: 30-engineering-culture.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/30-engineering-culture.mp3
 file_size: 30861164
 duration: 01:08:43
 use: [podcast_episodes]

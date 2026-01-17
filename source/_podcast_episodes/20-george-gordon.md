@@ -15,7 +15,7 @@ links:
 talking_points: []
 quotes: []
 chapters: []
-episode_filename: 20-bootcamps.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/20-bootcamps.mp3
 file_size: 23938605
 duration: 0:48:12
 use: [podcast_episodes]

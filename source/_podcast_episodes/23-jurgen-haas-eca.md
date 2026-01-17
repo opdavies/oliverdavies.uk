@@ -17,7 +17,7 @@ links:
 talking_points: []
 quotes: []
 chapters: []
-episode_filename: 23-eca.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/23-eca.mp3
 file_size: 21181821
 duration: 0:51:53
 use: [podcast_episodes]

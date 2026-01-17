@@ -21,7 +21,7 @@ links:
 talking_points: []
 quotes: []
 chapters: []
-episode_filename: 25-laravel-prompts.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/25-laravel-prompts.mp3
 file_size: 20523767
 duration: 1:02:41
 use: [podcast_episodes]

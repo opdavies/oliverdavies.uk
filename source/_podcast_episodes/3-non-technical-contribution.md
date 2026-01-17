@@ -24,7 +24,7 @@ links:
     - https://www.youtube.com/channel/UCJslkuiIJLTRmYEvN2y-jzA
 transistor:
   id: 85bdc4c7
-episode_filename: 3-community-engagement.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/03-community-engagement.mp3
 file_size: 24882117
 duration: 0:50:39
 use: [podcast_episodes]

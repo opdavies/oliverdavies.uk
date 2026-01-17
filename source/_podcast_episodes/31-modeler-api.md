@@ -28,7 +28,7 @@ links:
   - https://www.drupal.org/project/mcp
 - - Using AI tools for web coding with Luke McCormick
   - /podcast/28-using-ai-tools-web-coding
-episode_filename: 31-modeler-api.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/31-modeler-api.mp3
 file_size: 21761540
 duration: 00:46:05
 use: [podcast_episodes]

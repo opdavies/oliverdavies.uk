@@ -32,7 +32,7 @@ links:
     - https://github.com/laravel/prompts
   - - Symfony Terminal component
     - https://speakerdeck.com/fabpot/the-symfony-terminal-component
-episode_filename: 6-tuis-clis.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/06-tuis-clis.mp3
 file_size: 22071243
 duration: 0:53:17
 use: [podcast_episodes]

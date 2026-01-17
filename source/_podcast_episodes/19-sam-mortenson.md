@@ -21,7 +21,7 @@ links:
 talking_points: []
 quotes: []
 chapters: []
-episode_filename: 19-sfc-static-drupal.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/19-sfc-static-drupal.mp3
 file_size: 15153981
 duration: 0:30:58
 use: [podcast_episodes]

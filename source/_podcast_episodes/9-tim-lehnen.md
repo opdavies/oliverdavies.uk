@@ -28,7 +28,7 @@ links:
     - https://twitter.com/TimLehnen
 transistor:
   id: e5d5ba38
-episode_filename: 9-drupal-association.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/09-drupal-association.mp3
 file_size: 36650781
 duration: 1:06:23
 use: [podcast_episodes]

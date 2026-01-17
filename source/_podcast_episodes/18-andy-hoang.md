@@ -15,7 +15,7 @@ links:
 talking_points: []
 quotes: []
 chapters: []
-episode_filename: 18-lego-robotics.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/18-lego-robotics.mp3
 file_size: 25854381
 duration: 0:51:06
 use: [podcast_episodes]

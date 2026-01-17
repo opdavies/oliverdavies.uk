@@ -42,7 +42,7 @@ quotes:
   - It's in the customer's best interest for you to get it right the first time. (OD)
   - You have to be proactive. It doesn't happen by default. (RA)
 chapters: []
-episode_filename: 15-ddd.mp3
+episode_filename: https://files.oliverdavies.uk/bb/episodes/15-ddd.mp3
 file_size: 24444165
 duration: 0:56:08
 use: [podcast_episodes]
