@@ -8,7 +8,7 @@ events:
     url: https://reading.activatelearning.ac.uk
     date: 2025-05-09
     urls:
-      slides: /files/presentations/reading-college.pdf
+      slides: https://files.oliverdavies.uk/presentations/reading-college.pdf
       code: https://code.oliverdavies.uk/opdavies/reading-college
 new_events: true
 ---

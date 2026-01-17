@@ -5,7 +5,7 @@ events:
     location: Reading, UK
     date: 2025-08-20
     urls:
-      slides: nix-for-php-developers-php-thames-valley.pdf
+      slides: https://files.oliverdavies.uk/presentations/nix-for-php-developers-php-thames-valley.pdf
       website: https://www.eventbrite.co.uk/e/php-thames-valley-oxfordshire-and-berkshire-3-x-speakers-networking-tickets-1512713198899
   - name: unified.diff
     location: Cardiff, UK
@@ -17,13 +17,13 @@ events:
     location: Birmingham, UK
     date: 2025-11-13
     urls:
-      slides: nix-for-php-developers-techmids-2025.pdf
+      slides: https://files.oliverdavies.uk/presentations/nix-for-php-developers-techmids-2025.pdf
       website: https://conf.techmids.org
   - name: PHP South West
     location: Bristol, UK
     date: 2026-01-14
     urls:
-      slides: nix-for-php-developers-phpsw.pdf
+      slides: https://files.oliverdavies.uk/presentations/nix-for-php-developers-phpsw.pdf
       website: https://www.meetup.com/php-sw/events/312728273
 new_events: true
 description: |

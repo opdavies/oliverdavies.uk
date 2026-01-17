@@ -36,13 +36,13 @@ events:
     date: 2024-08-28
     location: Reading, UK
     urls:
-      slides: /files/presentations/sculpin/php-berkshire.pdf
+      slides: https://files.oliverdavies.uk/presentations/sculpin-php-berkshire.pdf
       website: https://www.meetup.com/php-berkshire/events/301850284
   - name: PHP Thames Valley
     date: 2025-03-20
     location: Oxford, UK
     urls:
-      slides: /files/presentations/sculpin/php-thames-valley.pdf
+      slides: https://files.oliverdavies.uk/presentations/sculpin-php-thames-valley.pdf
       code: https://code.oliverdavies.uk/opdavies/sculpin-demo/src/branch/php-thames-valley
       website: https://www.meetup.com/php-thames-valley/events/305915971
 new_events: true
