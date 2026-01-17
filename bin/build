@@ -2,4 +2,6 @@
 
 set -uexo pipefail
 
-vendor/bin/sculpin generate --watch --server "$@"
+export PATH="$PATH:vendor/bin"
+
+sculpin generate --env prod

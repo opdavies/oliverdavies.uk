@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+rsync -avzP output_prod/ home02:/nginx-data/oliverdavies.uk --delete --delete-after
