@@ -49,3 +49,5 @@ for filepath in *; do
 
   sed -i '/^date:[[:space:]]*/d' "$new_filename"
 done
+
+rm source/_posts/\~*

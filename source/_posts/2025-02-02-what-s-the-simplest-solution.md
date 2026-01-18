@@ -1,0 +1,25 @@
+---
+title: What's the simplest solution?
+permalink: daily/2025/02/02/simple
+tags:
+  - software-development
+cta: ~
+snippet: |
+  What's the simplest solution to achieve what you need?
+---
+
+I still like RSS and consume a lot of my online content from RSS feeds.
+
+I've recently switched from a self hosted RSS reader application on my homelab to a simpler terminal-based one.
+
+It's very simple to use, fast, and easy to configure and manage feed URLs - just by editing two text files.
+
+There's no UI to click around and no Docker containers or database services running.
+
+Everything is stored in a local SQLite database, which also makes it easy to backup and move between devices if needed.
+
+## Here's the thing
+
+When writing software, I always try and think of the simplest solution to solve a problem.
+
+I like solutions that are easy to use, configure, manage and maintain and want to avoid complex or "feature bloated" software.

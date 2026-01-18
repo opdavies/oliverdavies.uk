@@ -1,7 +1,0 @@
----
-date: 2025-06-02
-title: Squashing commits can be OK
-permalink: /daily/2025/06/02/squashing-commits-can-be-ok
----
-
-<p>As well as <a href="/daily/2025/04/04/good">writing good commit messages</a>, I've previously written about <a href="/daily/2023/01/25/to-squash-or-not-to-squash">not squashing commits</a> when merging.</p><p>I think it's beneficial to keep the history of the commits that led to a change, especially if detailed messages have been written for some of the commits.</p><p>Typically, if the commits are squashed as part of a pull or merge request, the history and information is lost or all the messages are merged together - making them hard to read and, arguably, less valuable.</p><p>If you're working in a pair or mob and <a href="/daily/2025/06/01/good-commit-messages-dont-always-matter">creating temporary commits on a short-lived branch</a>, that's a situation when squashing commits is OK - as long as it's done properly.</p><p>I wouldn't have a generic automatically generated message.</p><p>I'd take the time to review the changes on the temporary branch and compare them to the mainline, remove any unrelated changes and write a new commit message that describes all the changes.</p><p>I'd make sure the new message is used and not lost when merged - especially when using online tools.</p><p>Then I can squash any temporary commits and merge the final squashed version.</p>

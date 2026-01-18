@@ -1,0 +1,33 @@
+---
+title: I have a Peertube
+permalink: daily/2025/05/09/peertube
+tags:
+  - software-development
+cta: ~
+snippet: |
+  I was looking for a solution for storing and backing up the videos from my YouTube channel. Then, I found Peertube.
+---
+
+I've been looking for a solution for storing and backing up the videos from [my YouTube channel][0].
+
+Then, I found Peertube.
+
+A distributed platform for hosting and sharing videos - similar to Mastodon.
+
+I've found Peertube instances created by other YouTubers like [lukesmithxyz][2] and [Veronica Explains][3].
+
+Now [my homelab is up and running][1] and I'm self-hosting production services like this website and my Forgejo instance, I wanted to host my own Peertube instance to back up my videos and provide an alternative place for people to watch them.
+
+I'm using NixOS for my homelab, which has options for Peertube, so setting it up was easily.
+
+My homelab configuration is public in my [nix-config][4] directory, so you can see how I have configured it.
+
+You can also see the videos on my Peertube at <https://videos.oliverdavies.uk>.
+
+I plan on doing more videos and live streams soon, which will also be uploaded to my Peertube.
+
+[0]: https://youtube.com/@opdavies
+[1]: {{site.url}}/homelab
+[2]: https://videos.lukesmith.xyz
+[3]: https://tinkerbetter.tube
+[4]: https://code.oliverdavies.uk/opdavies/nix-config

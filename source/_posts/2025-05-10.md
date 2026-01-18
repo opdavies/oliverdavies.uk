@@ -1,7 +1,0 @@
----
-date: 2025-05-10
-title: Write it down
-permalink: /daily/2025/05/10/write
----
-
-<p>There's nothing more frustrating for me than seeing an error I've seen before and not remembering how I fixed it last time.</p><p>I try to remember and search for the error message, just to find and read the same articles and posts again or watch the same videos.</p><p>I wrote my first blog post on my website in 2010 to document my learning for myself and to share with others.</p><p>I've also been a keen note taker, using tools like Evernote and others to take notes and write documentation for myself to refer to in the future.</p><p>These days, I just <a href="/daily/2024/11/10/write-plain-text-files">write plain text files</a> using <a href="https://github.com/nickjj/notes">Nick Janetakis' notes program</a>, which I've modified slightly <a href="/daily/2025/04/21/patch">by patching it</a> to create daily notes instead of monthly ones.&nbsp;</p><p>They're fast to write, easy to search and available offline if I'm traveling or away from my computer.</p><p>I much prefer being able to search my notes and find what I'm looking for or, if it's a post that I've written publicly, searching online and finding my own answer.</p><p>Whether you're a new or experienced Developer, you're always learning new things, so write them down for yourself and, if you want, write publicly and share your learnings with others.</p>

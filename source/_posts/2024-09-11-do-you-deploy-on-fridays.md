@@ -1,0 +1,21 @@
+---
+title: Do you deploy on Fridays?
+permalink: daily/2024/09/11/do-you-deploy-on-fridays
+tags:
+  - software-development
+  - devops
+cta: d7eol
+snippet: |
+  Do you deploy changes to production on Fridays?
+drupal_planet: true
+---
+
+Do you deploy changes to production on Fridays?
+
+Some people don't as they're worried about potential issues occurring over the weekend.
+
+When's the last time you did a deployment which caused a issue 24 or 48 hours later?
+
+In my experience, most issues are visible immediately or shortly after a deployment and not days later.
+
+Deploying on a Friday may not be as risky as you think.

@@ -1,0 +1,22 @@
+---
+title: When did you last deploy to production?
+permalink: daily/2024/09/12/when-did-you-last-deploy-to-production
+tags:
+  - software-development
+cta: ~
+snippet: |
+  When did you last deploy a change to production?
+drupal_planet: true
+---
+
+If you've experienced issues or are worried about deploying changes to production, [on a Friday or another day][0], when did you last deploy something?
+
+Can you make deployments smaller and more frequent?
+
+Deploying regularly makes each deployment less risky and having a smaller changeset makes it easier to find and fix any issues that arise.
+
+I'm much happier deploying to production if I've already done so that day, or at least that week.
+
+Any time more than that, or if the changeset is large, the more likely there will be issues and the longer it will take to resolve them.
+
+[0]: {{site.url}}/daily/2024/09/11/do-you-deploy-on-fridays

@@ -1,0 +1,36 @@
+---
+title: Don't pre-optimise
+permalink: daily/2025/02/16/pre-optimise
+tags:
+  - software-development
+cta: ~
+snippet: |
+  Don't write code for scenarios that may not happen.
+---
+
+I recently had [my first podcast episode with two guests][0], where I discussed Drupal terminology and Drupalisms with Emma Horrell and Luke McCormick.
+
+It was a great episode, but there was something I needed to do before I could release it.
+
+Before I could release the episode, I needed to update my website to show both guest names.
+
+The other 26 episodes only had a single guest per episode, and my podcast pages were built to only show the first guest name.
+
+When building the pages for the [first episode with Matt Glaman][1], I only needed to show a single guest name.
+
+There was no need to show multiple guest names until I had an episode with multiple guests.
+
+I wrote the simplest code to achieve the requirements I had at the time.
+
+If I wrote for two guests but never had an episode with two guests, my website would be bloated and have functionality that wasn't needed or used.
+
+Now my requirements have changed.
+
+I can have an episode with one or two guests, but not three or more guests.
+
+If I have an episode with more than two guests, I'll write that functionality then.
+
+But not before.
+
+[0]: {{site.url}}/podcast/27-drupalisms
+[1]: {{site.url}}/podcast/1-retrofit
