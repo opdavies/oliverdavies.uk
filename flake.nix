@@ -36,15 +36,6 @@
                 sculpin generate --clean --env "''${1:-prod}" --no-interaction
               '')
 
-              (pkgs.writeScriptBin "build-css" ''
-                #!${lib.getExe pkgs.bash}
-
-                tailwindcss \
-                  --config tailwind.config.ts \
-                  --input css/tailwind.css \
-                  --output ../source/build/tailwind.css
-              '')
-
               (pkgs.writeScriptBin "clean" ''
                 #!${lib.getExe pkgs.bash}
 
