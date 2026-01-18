@@ -1,6 +1,6 @@
 ---
 title: Review of the Teleport Module
-excerpt: My review of Drupal’s Teleport module.
+excerpt: My review of Drupal's Teleport module.
 tags:
     - drupal-planet
     - drupal-6

@@ -20,9 +20,9 @@ Here's an excerpt:
 
 > I prefer to think of a software system as a collection of blades.
 >
-> A dull blade is never preferable to a sharp one. Sometimes it may be better to just cut with the dull blade instead of taking the time to sharpen the blade before cutting, but it’s clear that that’s a compromise. No one would talk about “strategic dull blades” the way they talk about strategic technical debt.
+> A dull blade is never preferable to a sharp one. Sometimes it may be better to just cut with the dull blade instead of taking the time to sharpen the blade before cutting, but it's clear that that's a compromise. No one would talk about “strategic dull blades” the way they talk about strategic technical debt.
 >
-> Unlike debt which you can simply choose not to take on, blades unavoidably get dull with use. Having technical debt makes it sound like you did something wrong. But you don’t have to do anything wrong in order to end up with bad code. Often, bad code is simply the result of entropy. The blade metaphor makes it clear that dullness is normal and unavoidable.
+> Unlike debt which you can simply choose not to take on, blades unavoidably get dull with use. Having technical debt makes it sound like you did something wrong. But you don't have to do anything wrong in order to end up with bad code. Often, bad code is simply the result of entropy. The blade metaphor makes it clear that dullness is normal and unavoidable.
 
 If you like this, you can [read the whole article][1].
 

@@ -8,7 +8,7 @@ tags:
     - twig
 ---
 
-Here’s a list of resources that I compiled whilst preparing for my
+Here's a list of resources that I compiled whilst preparing for my
 [Sculpin and Twig talk](http://drupalcampnorth.org/session/test-drive-twig-sculpin)
 at [DrupalCamp North](http://drupalcampnorth.org).
 

@@ -14,17 +14,17 @@ for some client projects as part of the [Ansible and Ansistrano deployment
 process][talk], as it can populate these files with credentials stored in
 Ansible Vault.
 
-I uploaded an initial version of the role [onto GitHub][github], but haven’t yet
+I uploaded an initial version of the role [onto GitHub][github], but haven't yet
 released it onto Ansible Galaxy.
 
-I’d seen in other people’s roles and read elsewhere about writing automated
+I'd seen in other people's roles and read elsewhere about writing automated
 tests for Ansible roles using a tool called [Molecule][molecule], and wanted to
 write some tests for this role before publishing it onto Galaxy.
 
 I looked around for resources about Molecule, and found a [blog post by Jeff
 Geerling][jeff-post], but also this YouTube video that I found very helpful.
 
-I’ve since been re-writing the role from scratch based on Molecule, and plan to
+I've since been re-writing the role from scratch based on Molecule, and plan to
 release an official version of it soon.
 
 {% include 'youtube-video' with { id: DAnMyBZ8-Qs } %}

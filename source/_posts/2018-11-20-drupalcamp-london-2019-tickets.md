@@ -17,11 +17,11 @@ It was announced this week that [early-bird tickets are now available][0] for
 ',
 } %}
 
-I’ve attended, given talks and volunteered previously, would definitely
+I've attended, given talks and volunteered previously, would definitely
 recommend others doing so, and I plan on attending and submitting again myself
-for 2019. If there’s something in particular that you’d like to see me give a
-talk on, let me know - I’d be happy to hear any suggestions. Alternatively, if
-you’d like to submit and would like some help writing an abstract or want some
+for 2019. If there's something in particular that you'd like to see me give a
+talk on, let me know - I'd be happy to hear any suggestions. Alternatively, if
+you'd like to submit and would like some help writing an abstract or want some
 feedback on a talk idea, please get in touch.
 
 _Note: I am not an organiser of DrupalCamp London, nor am I involved with the

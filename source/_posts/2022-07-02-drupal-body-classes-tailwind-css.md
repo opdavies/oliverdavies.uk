@@ -33,7 +33,7 @@ Adding any classes to the safelist will force them to be generated, or prevent t
 
 This is refered to within the Tailwind CSS documentation for [safelisting classes](https://tailwindcss.com/docs/content-configuration#safelisting-classes):
 
-> One example of where this can be useful is if your site displays user-generated content and you want users to be able to use a constrained set of Tailwind classes in their content that might not exist in your own site’s source files.
+> One example of where this can be useful is if your site displays user-generated content and you want users to be able to use a constrained set of Tailwind classes in their content that might not exist in your own site's source files.
 
 ## Extracting the safelist to a file
 

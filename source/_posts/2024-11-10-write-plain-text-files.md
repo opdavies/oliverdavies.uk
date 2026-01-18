@@ -29,6 +29,6 @@ From the conclusion of Derek's post:
 
 > Reliable, flexible, portable, independent, and long-lasting. Plain text files will be readable by future generations, hundreds of years from now.
 >
-> I especially enjoy the tranquility of their offline, non-commercial nature. They’re quiet. They’re focused. (As I aim to be.)
+> I especially enjoy the tranquility of their offline, non-commercial nature. They're quiet. They're focused. (As I aim to be.)
 
 [0]: https://sive.rs/plaintext

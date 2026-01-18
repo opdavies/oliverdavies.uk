@@ -1,6 +1,6 @@
 ---
 title: Examples of using Laravel Collections in Drupal
-excerpt: Some examples of using Laravel’s Illuminate Collections within Drupal projects.
+excerpt: Some examples of using Laravel's Illuminate Collections within Drupal projects.
 tags:
     - drupal
     - drupal-7
@@ -13,14 +13,14 @@ has_tweets: true
 ---
 
 Since starting to work with Laravel as well as Drupal and Symfony, watching Adam
-Wathan’s [Refactoring to Collections][0] course as well as [lessons on
-Laracasts][6], I’ve become a fan of [Laravel’s Illuminate Collections][1] and
+Wathan's [Refactoring to Collections][0] course as well as [lessons on
+Laracasts][6], I've become a fan of [Laravel's Illuminate Collections][1] and
 the object-orientated pipeline approach for interacting with PHP arrays.
 
-In fact I’ve given a talk on [using Collections outside Laravel][2] and have
+In fact I've given a talk on [using Collections outside Laravel][2] and have
 written a [Collection class module][3] for Drupal 7.
 
-I’ve also tweeted several examples of code that I’ve written within Drupal that
+I've also tweeted several examples of code that I've written within Drupal that
 use Collections, and I thought it would be good to collate them all here for
 reference.
 

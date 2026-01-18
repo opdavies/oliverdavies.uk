@@ -19,7 +19,7 @@ in the same way that you would do so in a [Composer][2] based project such as
 Drupal 8 or Symfony.
 
 It supports both the [PSR-0][3] and [PSR-4][4] standards, as well as providing a
-wildcard syntax for Drupal’s `file[]` syntax in .info files.
+wildcard syntax for Drupal's `file[]` syntax in .info files.
 
 To use it, download and enable it from Drupal.org as you would for any other
 module, and then add it as a dependency within your module. The xautoload
@@ -49,7 +49,7 @@ files[] = includes/nodes/article.inc
 files[] = includes/nodes/page.inc
 ```
 
-In this example, each custom migration class is stored in it’s own file within
+In this example, each custom migration class is stored in it's own file within
 the `includes` directory, and each class needs to be loaded separately using the
 `files[] = filename` syntax.
 
@@ -65,7 +65,7 @@ This will load any .inc files within the `includes` directory as well as any
 sub-directories, like 'node' in the original example.
 
 This means that any new migration classes that are added will be automatically
-loaded, so you don’t need to declare each include separately within
+loaded, so you don't need to declare each include separately within
 foo_migrate.info again. The great thing about this approach is that it works
 with the existing directory and file structure.
 
@@ -73,7 +73,7 @@ with the existing directory and file structure.
 
 If you want to use the [PSR-4][4] approach, you can do that too.
 
-In order to do so, you’ll need to complete the following steps:
+In order to do so, you'll need to complete the following steps:
 
 1. Rename the `includes` directory to `src`.
 2. Ensure that there is one PHP class per file, and that the file extension is
@@ -85,7 +85,7 @@ In order to do so, you’ll need to complete the following steps:
    including the machine name of the module. For example, `Drupal\foo_migrate`.
    - If the class is within a sub-directory, then this will also need to be
      included within the namespace - e.g. `Drupal\foo_migrate\Node`.
-   - You’ll also need to import any class names that you are referencing,
+   - You'll also need to import any class names that you are referencing,
      including class names that are you extending, by adding `use` statements at
      the top of the file. You may be able to prefix it with `\` instead (e.g.
      `\DrupalNode6Migration`), but I prefer to use imports.

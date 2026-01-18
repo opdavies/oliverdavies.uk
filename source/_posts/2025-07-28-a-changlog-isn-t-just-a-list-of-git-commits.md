@@ -7,7 +7,7 @@ Yesterday, I wrote about [keeping a CHANGELOG][0] for software projects, and abo
 
 I like this slogan on their website:
 
-> Don’t let your friends dump git logs into changelogs.
+> Don't let your friends dump git logs into changelogs.
 
 A CHANGELOG shouldn't be a list of Git commits in a file.
 

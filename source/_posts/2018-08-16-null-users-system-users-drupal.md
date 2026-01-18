@@ -17,12 +17,12 @@ internal site message?
 If you just create a new user, how do you identify that user going forward? Do
 you hard-code the 'magic' user ID in your custom code? What if the user has a
 different ID on different environments of your site? You could declare it in
-each environment’s settings file and retrieve it from there, but what then if
+each environment's settings file and retrieve it from there, but what then if
 you need to do the same on another site? That would mean some duplication of
 code - and something that could have been abstracted and re-used.
 
 I had to do this recently, and rather than just duplicate the code I decided to
-make it into it’s own module - which then became two modules.
+make it into it's own module - which then became two modules.
 
 ## System users
 
@@ -40,13 +40,13 @@ From <https://www.ssh.com/iam/user/system-account>:
 > System accounts often have predefiend user ids. Examples of system accounts
 > include the root account in Linux.
 
-A system user isn’t an account that we’d expect a person to log in with and
+A system user isn't an account that we'd expect a person to log in with and
 perform routine tasks like updating content, but rather for the system (site) to
 use to perform tasks like the earlier examples.
 
 ### Declaring a user as a system user
 
-System User module adds a base field to Drupal’s User entity, which determines
+System User module adds a base field to Drupal's User entity, which determines
 whether or not each user is a system user - i.e. if this field is `TRUE`, that
 user is a system user. This means that users can easily be queried to identify
 which are system users, without having to rely on magic, environment and site
@@ -57,17 +57,17 @@ needed.
 .p-1}
 
 In the Drupal 8 version of the module, a `SystemUser` is a custom entity, that
-contains it’s own `create` method for creating new system users. This is a
+contains it's own `create` method for creating new system users. This is a
 essentially a wrapper around `User::create()` that automatically sets the value
 of the system user field as part of the creation.
 
 The original intention is that system users would always be created manually in
-an custom install or update hook, however since releasing the module, I’ve also
+an custom install or update hook, however since releasing the module, I've also
 added an install hook to the module to automatically create a new system user
 when the module is installed, basing the username on the site name.
 
 There is also an open issue to add a Drush command to create a new system user,
-and I’d imagine I’ll also add a Drupal Console command too.
+and I'd imagine I'll also add a Drupal Console command too.
 
 ### Retrieving system users
 
@@ -92,7 +92,7 @@ module.
 ## Null users
 
 The [Null User module][2] is an implementation of the [null object pattern][3]
-for users in Drupal 8. In this case, a [NullUser][4] is an extension of Drupal’s
+for users in Drupal 8. In this case, a [NullUser][4] is an extension of Drupal's
 `AnonymousUserSession`, which means that it inherits sensible defaults to return
 for a non-existent User. Though, through inheritance, the `id`, `getRoles` and
 `hasPermission` methods are overridden to return relevant values.
@@ -123,7 +123,7 @@ if ($system_user->isActive()) {
 }
 ```
 
-Because instead we’re returning a `NullUser`, which through class inheritance
+Because instead we're returning a `NullUser`, which through class inheritance
 has the same methods and properties as a regular user, there is no need to do
 the additional check as you will always receive a relevant object, and the
 expected methods will always be present.
@@ -138,8 +138,8 @@ if ($system_user->isActive()) {
 
 This means we have less code, which also is simpler and more readable.
 
-System User module is the only one that I’m aware of that makes use of Null
-User, but I’ve added a list to the [project page][2] so let me know if you can
+System User module is the only one that I'm aware of that makes use of Null
+User, but I've added a list to the [project page][2] so let me know if you can
 think of any others.
 
 ## Resources

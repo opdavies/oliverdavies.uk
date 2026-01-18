@@ -8,10 +8,10 @@ has_tweets: true
 
 Following a recent conversation on Twitter with
 [socketwench](https://twitter.com/socketwench) about project switching in
-PhpStorm, I thought I’d document my workflow here.
+PhpStorm, I thought I'd document my workflow here.
 
 Here is the original tweet and my initial response. I also have a lot of
-PhpStorm projects, and as I’m always working on multiple projects I regularly
+PhpStorm projects, and as I'm always working on multiple projects I regularly
 need to switch between them.
 
 {% include 'tweet' with {
@@ -26,14 +26,14 @@ see projects that start with that input.
 ![The PhpStorm welcome screen with filters applied to the project list](/images/blog/quick-project-switching-phpstorm/welcome-screen.png){.with-border
 .with-padding}
 
-That’s great when opening a project from scratch, but what about when we’re
+That's great when opening a project from scratch, but what about when we're
 already within a project and just want to be able to switch to another?
 
 {% include 'tweet' with {
     content: '<p lang="en" dir="ltr">You can also use &#39;Open recent&#39; within the actions list, and then filter the list of projects. <a href="https://t.co/k8G9iIQNP0">pic.twitter.com/k8G9iIQNP0</a></p>&mdash; Oliver Davies (@opdavies) <a href="https://twitter.com/opdavies/status/1034542753651281920?ref_src=twsrc%5Etfw">August 28, 2018</a>',
 } %}
 
-There’s also a way to access this list once PhpStorm is open, by clicking 'Open
+There's also a way to access this list once PhpStorm is open, by clicking 'Open
 Recent' within the File menu. The issue here though is that this list is not
 filterable.
 

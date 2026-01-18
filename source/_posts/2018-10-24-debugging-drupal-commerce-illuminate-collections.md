@@ -1,6 +1,6 @@
 ---
 title: Debugging Drupal Commerce Promotions and Adjustments using Illuminate Collections (Drupal 8)
-excerpt: Using Laravel’s Illuminate Collections to debug an issue with a Drupal Commerce promotion.
+excerpt: Using Laravel's Illuminate Collections to debug an issue with a Drupal Commerce promotion.
 tags:
   - drupal
   - drupal-8
@@ -55,8 +55,8 @@ $order = [
 
 ## Getting the order items
 
-I started by using `$order->getItems()` to load the order’s items, converted
-them into a Collection, and used the Collection’s `pipe()` method and the
+I started by using `$order->getItems()` to load the order's items, converted
+them into a Collection, and used the Collection's `pipe()` method and the
 `dump()` function provided by the [Devel module][2] to output the order items.
 
 ```php
@@ -68,11 +68,11 @@ collect($order->getItems())
 
 ## Get the order item adjustments
 
-Now we have a Collection of order items, for each item we need to get it’s
+Now we have a Collection of order items, for each item we need to get it's
 adjustments. We can do this with `map()`, then call `getAdjustments()` on the
 order item.
 
-This would return a Collection of arrays, with each array containing it’s own
+This would return a Collection of arrays, with each array containing it's own
 adjustments, so we can use `flatten()` to collapse all the adjustments into one
 single-dimensional array.
 
@@ -99,9 +99,9 @@ collect($order->getItems())
 ## Filtering
 
 In this scenario, each order item had three adjustments - the correct promotion,
-the incorrect one and the standard VAT addition. I wasn’t concerned about the
+the incorrect one and the standard VAT addition. I wasn't concerned about the
 VAT adjustment for debugging, so I used `filter()` to remove it based on the
-result of the adjustment’s `getSourceId()` method.
+result of the adjustment's `getSourceId()` method.
 
 ```php
 collect($order->getItems())
@@ -114,10 +114,10 @@ collect($order->getItems())
 ## Conclusion
 
 Now I have just the relevant adjustments, I want to be able to load each one to
-load it and check it’s conditions. To do this, I need just the source IDs.
+load it and check it's conditions. To do this, I need just the source IDs.
 
 Again, I can use a higher order message to directly call `getSourceId()` on the
-adjustment and return it’s value to `map()`.
+adjustment and return it's value to `map()`.
 
 ```php
 collect($order->getItems())

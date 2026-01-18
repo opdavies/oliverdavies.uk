@@ -16,7 +16,7 @@ In the post, the author recommends stopping using the version number and "just s
 
 Here's a quote from the article that stood out to me:
 
-> This is no longer true! We have successfully eliminated the need for organizations to leave Drupal because “it’s cheaper to just rebuild it in Wordpress than upgrade from 8 to 9 or from 9 to 10.” We’ve made it easier for our clients to spend less on major upgrades, we should be proud!
+> This is no longer true! We have successfully eliminated the need for organizations to leave Drupal because “it's cheaper to just rebuild it in Wordpress than upgrade from 8 to 9 or from 9 to 10.” We've made it easier for our clients to spend less on major upgrades, we should be proud!
 
 Another suggestion was to also use the term "Modern Drupal" for anything since Drupal 8.
 

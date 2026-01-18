@@ -13,11 +13,11 @@ After reading this, my question is, "Should you, or do you need to, create branc
 
 These days, I use trunk-based development as much as possible, so I hardly ever create new branches, whether working on a project myself or with a team.
 
-[I used to use Git Flow]({{site.url}}/presentations/git-flow) and create branches for every new feature and bug fix, but I remember, whilst demonstrating two work-in-progress features to a client, switching between the different branches caused my local site to break. Whilst it wasn’t a major issue, it wouldn't have seemed professional.
+[I used to use Git Flow]({{site.url}}/presentations/git-flow) and create branches for every new feature and bug fix, but I remember, whilst demonstrating two work-in-progress features to a client, switching between the different branches caused my local site to break. Whilst it wasn't a major issue, it wouldn't have seemed professional.
 
 In a team environment, feature branches are intended to keep different changes and different people's work separate.
 
-But is this needed if you’re the only in the team?
+But is this needed if you're the only in the team?
 
 Assumingly, you're only working on one change at a time, so what's the benefit of creating a separate branch?
 
@@ -25,8 +25,8 @@ If you need to switch to a different task, another approach could be to revert y
 
 The other part of the tweet said, “I like the little integrations to make sure the tests pass”.
 
-I’m comfortable working on a single branch and committing and pushing small changes often.
+I'm comfortable working on a single branch and committing and pushing small changes often.
 
-My CI pipelines run for every change that I push, and if one fails, I’ll either push a small fix to get it passing again or revert the failing change and investigate further.
+My CI pipelines run for every change that I push, and if one fails, I'll either push a small fix to get it passing again or revert the failing change and investigate further.
 
-For me, working on a single branch keeps my workflow simple and lean, allowing me to focus on the changes and the tasks that I need to work on and not worry about which branch I’m working on.
+For me, working on a single branch keeps my workflow simple and lean, allowing me to focus on the changes and the tasks that I need to work on and not worry about which branch I'm working on.

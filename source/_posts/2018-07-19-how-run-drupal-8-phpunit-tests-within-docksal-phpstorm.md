@@ -11,17 +11,17 @@ tags:
 promoted: true
 ---
 
-I’ve recently re-watched [A Clean PHPUnit Workflow in PHPStorm][0] on
+I've recently re-watched [A Clean PHPUnit Workflow in PHPStorm][0] on
 [Laracasts][1], where Jeffrey configures PhpStorm to run tests from within the
 IDE. With Drupal 8 using PHPUnit too, I decided to try and do the same with a
 local D8 site.
 
-Though because I’m using [Docksal][4] for my local development environment
+Though because I'm using [Docksal][4] for my local development environment
 which, at least on a Mac, runs Docker containers within a virtual machine, there
 were some additional steps needed to achieve this and to have the tests run
 within the Docksal virtual machine and using the correct containers.
 
-In this post, I’ll be using my [Drupal Testing Workshop codebase][2] as an
+In this post, I'll be using my [Drupal Testing Workshop codebase][2] as an
 example, which is based on the [Drupal Composer project][3] with some
 pre-configured Docksal configuration.
 
@@ -35,16 +35,16 @@ This post is separated into a few different sections:
 
 ## Allow PhpStorm to connect to the CLI container
 
-The first thing to do is to allow PhpStorm to connect to Docksal’s CLI container
-to allow it to run the tests. We can do this by exposing the container’s SSH
-port so that it’s available to the host machine and PhpStorm.
+The first thing to do is to allow PhpStorm to connect to Docksal's CLI container
+to allow it to run the tests. We can do this by exposing the container's SSH
+port so that it's available to the host machine and PhpStorm.
 
-As this is going to be unique to my environment, I’m going to add this to
+As this is going to be unique to my environment, I'm going to add this to
 `.docksal/docksal-local.yml` which I have in `.gitignore`, rather than
 committing it into the repository and enforcing the same port number for
 everyone else and potentially causing conflicts.
 
-In this case I’ll expose port 22 in the container to port 2225 locally.
+In this case I'll expose port 22 in the container to port 2225 locally.
 
 ```
 version: '2.1'
@@ -55,7 +55,7 @@ services:
       - '2225:22'
 ```
 
-Once added, run `fin start` to rebuild the project’s containers.
+Once added, run `fin start` to rebuild the project's containers.
 
 You can verify the change by running `fin ps` and you should see something like
 `0.0.0.0:2225->22/tcp` under Ports for the CLI container.
@@ -65,7 +65,7 @@ You can verify the change by running `fin ps` and you should see something like
 Now PhpStorm can connect to Docksal, I can configure it to do so by adding a new
 deployment server.
 
-- Open PhpStorm’s preferences, and go to 'Build, Execution, Deployment' and
+- Open PhpStorm's preferences, and go to 'Build, Execution, Deployment' and
   'Deployment'.
 - Click 'Add' to configure a new deployment server.
 - Enter a name like 'Docksal', and select SFTP as the server type.
@@ -102,7 +102,7 @@ CLI interpreter.
 
 ![The PHP preferences in PhpStorm](/images/blog/phpstorm-phpunit-docksal/cli-interpreter-1.png){.with-border}
 
-In this case I’ve called it 'Docksal PHP 7.1', used the Docksal deployment
+In this case I've called it 'Docksal PHP 7.1', used the Docksal deployment
 configuration, and set the path to the PHP executable to `/usr/local/bin/php`
 (the same path that we would get if we ran `fin run which php`). You should see
 both the deployment host URL displayed as well as the remote PHP version and
@@ -128,7 +128,7 @@ PhpStorm uses the version required by Drupal core, and set the path to
 `/var/www/vendor/autoload.php`.
 
 Also specify the path to the default (phpunit.xml) configuration file. This will
-depend on how your project is structured, in this case it’s at
+depend on how your project is structured, in this case it's at
 `/var/www/web/core/phpunit.xml`.
 
 ![Configuring PHPUnit in PHPstorm](/images/blog/phpstorm-phpunit-docksal/phpunit-4.png){.with-border}
@@ -153,7 +153,7 @@ From here, you also have the ability to re-run all of the tests, as well as a
 single test method or a specific test class.
 
 Any test failures are shown here too, and for some failures like differences
-between two arrays you can use PhpStorm’s internal comparison tools to view the
+between two arrays you can use PhpStorm's internal comparison tools to view the
 difference rather than needing to do so on the command line.
 
 ![Showing a failing test](/images/blog/phpstorm-phpunit-docksal/test-failure-1.png){.with-border}
@@ -163,8 +163,8 @@ difference rather than needing to do so on the command line.
 
 ### Keyboard shortcuts
 
-As per the video, I’ve also added some keyboard shortcuts to my keymap, so I can
-press ⌘T to run the current test method or class that I’m in, and ⇧⌘T to re-run
+As per the video, I've also added some keyboard shortcuts to my keymap, so I can
+press ⌘T to run the current test method or class that I'm in, and ⇧⌘T to re-run
 the last test.
 
 ![Adding a keyboard shortcut to run the current test](/images/blog/phpstorm-phpunit-docksal/keyboard-shortcuts-1.png){.with-border}
@@ -182,7 +182,7 @@ error like the one below:
 > handbook</a>, or contact your hosting provider.
 
 In `settings.php`, I check for the presence of `/.dockerenv` to ensure that
-we’re inside a Docker container, as well as the presence of a
+we're inside a Docker container, as well as the presence of a
 `docksal.settings.yml` file. The latter contains the database credentials for
 Drupal to connect to the MySQL database.
 

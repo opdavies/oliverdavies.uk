@@ -1,13 +1,13 @@
 ---
 title: Published my first NPM package
-excerpt: Yesterday I published my first module onto NPM, and it’s a plugin for Tailwind CSS to be used alongside Vue.js.
+excerpt: Yesterday I published my first module onto NPM, and it's a plugin for Tailwind CSS to be used alongside Vue.js.
 tags:
   - npm
   - tailwind-css
   - vuejs
 ---
 
-Yesterday I published my first module onto NPM, and it’s a plugin for [Tailwind
+Yesterday I published my first module onto NPM, and it's a plugin for [Tailwind
 CSS][tailwind] to be used alongside [Vue.js](https://vuejs.org).
 
 The plugin adds classes for showing and hiding elements in different display
@@ -62,7 +62,7 @@ which it is removed. Therefore adding a `v-cloak-block` class to an element will
 make it `display: block` whilst Vue is compiling and the element is cloaked, and
 `display: none` afterwards when the Vue markup is compiled and rendered.
 
-In my `base.html.twig` template, I’ve added `v-cloak` to the wrapper div within
+In my `base.html.twig` template, I've added `v-cloak` to the wrapper div within
 the `body`.
 
 <div v-pre markdown="1">
@@ -79,7 +79,7 @@ the `body`.
 
 Within my `navbar.html.twig` partial, I have a placeholder div that also
 contains the site name, which is instantly visible but has the `v-cloak-block`
-class so it’s hidden once Vue has compiled and the `Navbar` Vue component is
+class so it's hidden once Vue has compiled and the `Navbar` Vue component is
 visible instead.
 
 <div v-pre markdown="1">
@@ -101,8 +101,8 @@ visible instead.
 
 </div>
 
-I was originally surprised that these classes weren’t included as part of
-Tailwind or as part of an existing plugin, but as I’ve already used these styles
+I was originally surprised that these classes weren't included as part of
+Tailwind or as part of an existing plugin, but as I've already used these styles
 on several projects that include Vue.js with Symfony or Sculpin, it made sense
 to extract it into a plugin and make it available as a npm package which I can
 easily add to any project - as well as making it easier to maintain if I need to

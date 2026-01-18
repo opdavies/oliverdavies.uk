@@ -27,7 +27,7 @@ events:
 ---
 
 {% block abstract %}
-A overview and demo of some of the open source projects that I’ve been working on lately that are based on information from the Drupal.org API, including a PHP library for the API itself as well as some Drupal 8 modules that use it.
+A overview and demo of some of the open source projects that I've been working on lately that are based on information from the Drupal.org API, including a PHP library for the API itself as well as some Drupal 8 modules that use it.
 
 This session will cover various topics including:
 

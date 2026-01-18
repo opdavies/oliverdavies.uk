@@ -14,4 +14,4 @@ events:
     date: 2014-03-01
 ---
 
-An introduction to the Git Flow branching model and the git-flow plugin, and how I’ve used them to manage a Drupal development project.
+An introduction to the Git Flow branching model and the git-flow plugin, and how I've used them to manage a Drupal development project.

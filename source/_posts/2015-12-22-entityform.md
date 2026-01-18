@@ -12,7 +12,7 @@ I recently had my first experience using the
 [Entityform module](https://www.drupal.org/project/entityform) in a project. It
 was quite easy to configure with different form types, but then I needed to
 embed the form into an overlay. I was expecting to use the `drupal_get_form()`
-function and render it, but this didn’t work.
+function and render it, but this didn't work.
 
 Here are the steps that I took to be able to load, render and embed the form.
 
@@ -44,8 +44,8 @@ $output = entityform_form_wrapper($form, 'submit', 'embedded'),
 ```
 
 The first argument is the `Entityform` object that was created in the previous
-step (I’ve [submitted a patch](https://www.drupal.org/node/2639584) to type hint
-this within entityform so that it’s clearer what is expected), which is
+step (I've [submitted a patch](https://www.drupal.org/node/2639584) to type hint
+this within entityform so that it's clearer what is expected), which is
 required.
 
 The other two arguments are optional. The second argument is the mode (`submit`

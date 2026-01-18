@@ -1,6 +1,6 @@
 ---
 title: Drupal and the LDAP module
-description: A review and demonstration of some of the recent single sign-on work that I did using Drupal’s LDAP module.
+description: A review and demonstration of some of the recent single sign-on work that I did using Drupal's LDAP module.
 events:
   - name: South Wales Drupal user group (SWDUG)
     location: Cardiff, UK
@@ -8,5 +8,5 @@ events:
 ---
 
 {% block abstract %}
-A review and demonstration of some of the recent single sign-on work that I did using Drupal’s LDAP module.
+A review and demonstration of some of the recent single sign-on work that I did using Drupal's LDAP module.
 {% endblock %}

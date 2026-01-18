@@ -21,4 +21,4 @@ Some people won't upgrade regardless and will continue until their site breaks.
 
 That would be messy (and costly) to fix, though!
 
-P.S. Are you still using Drupal 7 and don’t know what’s involved to upgrade to Drupal 10? Book a [Drupal 7 upgrade consultation call]({{site.url}}/call).
+P.S. Are you still using Drupal 7 and don't know what's involved to upgrade to Drupal 10? Book a [Drupal 7 upgrade consultation call]({{site.url}}/call).

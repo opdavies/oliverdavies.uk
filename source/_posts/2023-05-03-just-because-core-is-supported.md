@@ -15,7 +15,7 @@ Since the Drupal 8 release in 2015, I've seen numerous examples of modules that 
 
 Whilst it isn't marked as unsupported, it isn't being updated either.
 
-I recently explained to a client that their site uses a module last released in 2014. It’s buggy, but there’s no newer version to use and issues in the queue are no longer being fixed or triaged.
+I recently explained to a client that their site uses a module last released in 2014. It's buggy, but there's no newer version to use and issues in the queue are no longer being fixed or triaged.
 
 Override Node Options - a popular module I maintain - is in a similar situation. The most recent Drupal 9/10 version was in February 2023, whereas the last Drupal 7 release was in March 2018.
 

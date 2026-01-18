@@ -10,25 +10,25 @@ promoted: true
 ---
 
 <div class="note" markdown="1">
-**Note:** The content of this post is based on tests seen in Adam Wathan’s ["Working on Tailwind 1.0" video][working-on-tailwind-video], the Jest documentation website, and existing tests for other Tailwind plugins that I’ve used such as [Tailwind CSS Interaction Variants][tailwindcss-interaction-variants].
+**Note:** The content of this post is based on tests seen in Adam Wathan's ["Working on Tailwind 1.0" video][working-on-tailwind-video], the Jest documentation website, and existing tests for other Tailwind plugins that I've used such as [Tailwind CSS Interaction Variants][tailwindcss-interaction-variants].
 </div>
 
 ## Preface
 
 In Tailwind 0.x, there was a `list-reset` utility that reset the list style and
 padding on a HTML list, though it was removed prior to 1.0 and moved into
-Tailwind’s base styles and applied by default.
+Tailwind's base styles and applied by default.
 
 However, on a few projects I use Tailwind in addition to either existing custom
-styling or another CSS framework, and don’t use `@tailwind base` (formerly
-`@tailwind preflight`) so don’t get the base styles.
+styling or another CSS framework, and don't use `@tailwind base` (formerly
+`@tailwind preflight`) so don't get the base styles.
 
 Whilst I could re-create this by replacing it with two other classes
 (`list-none` and `p-0`), I decided to write [my own Tailwind CSS plugin][repo]
 to re-add the `list-reset` class. This way I could keep backwards compatibility
 in my projects and only need to add one class in other future instances.
 
-In this post, I’ll use this as an example to show how to write tests for
+In this post, I'll use this as an example to show how to write tests for
 Tailwind CSS plugins with a JavaScript testing framework called [Jest][jest].
 
 More information about plugins for Tailwind CSS themselves can be found on the
@@ -52,7 +52,7 @@ This could be done with `yarn add` or `npm install`.
 ## Writing the first test
 
 In this plugin, the tests are going to be added into a new file called
-`test.js`. This file is automatically loaded by Jest based on it’s [testRegex
+`test.js`. This file is automatically loaded by Jest based on it's [testRegex
 setting][jest-testregex-setting].
 
 This is the format for writing test methods:
@@ -66,7 +66,7 @@ test('a description of the test', () => {
 The first test is to ensure that the correct CSS is generated from the plugin
 using no options.
 
-We do this by generating the plugin’s CSS, and asserting that it matches the
+We do this by generating the plugin's CSS, and asserting that it matches the
 expected CSS within the test.
 
 ```js
@@ -84,9 +84,9 @@ test('it generates the list reset class', () => {
 
 However, there are some additional steps needed to get this working.
 
-### Generating the plugin’s CSS
+### Generating the plugin's CSS
 
-Firstly, we need to import the plugin’s main `index.js` file, as well as PostCSS
+Firstly, we need to import the plugin's main `index.js` file, as well as PostCSS
 and Tailwind. This is done at the beginning of the `test.js` file.
 
 ```js
@@ -97,7 +97,7 @@ const tailwindcss = require('tailwindcss');
 
 Now we need a way to generate the CSS so assertions can be written against it.
 
-In this case, I’ve created a function called `generatePluginCss` that accepts
+In this case, I've created a function called `generatePluginCss` that accepts
 some optional options, processes PostCSS and Tailwind, and returns the CSS.
 
 ```js
@@ -119,7 +119,7 @@ be replaced with `@tailwind components`.
 })
 ```
 
-Whilst `from: undefined` isn’t required, if it’s not included you will get this
+Whilst `from: undefined` isn't required, if it's not included you will get this
 message:
 
 > Without `from` option PostCSS could generate wrong source map and will not
@@ -129,7 +129,7 @@ message:
 ### Configuring Tailwind
 
 In order for the plugin to generate CSS, it needs to be enabled within the test,
-and Tailwind’s core plugins need to be disabled so that we can assert against
+and Tailwind's core plugins need to be disabled so that we can assert against
 just the output from the plugin.
 
 As of Tailwind 1.0.0-beta5, this can be done as follows:
@@ -173,7 +173,7 @@ expect.extend({
 })
 ```
 
-Without it, you’ll get an error message like _"TypeError: expect(...).toMatchCss
+Without it, you'll get an error message like _"TypeError: expect(...).toMatchCss
 is not a function"_ when running the tests.
 
 ## The next test: testing variants

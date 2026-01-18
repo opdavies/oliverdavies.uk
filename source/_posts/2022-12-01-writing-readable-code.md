@@ -18,14 +18,14 @@ I also watched a video of a conference talk titled "Writing code you won't hate 
 They are from "The ThoughtWorks Anthology" book and are some steps that include some of the points that I had written:
 
 1. Use only one level of indentation per method.
-1. Don’t use the else keyword.
+1. Don't use the else keyword.
 1. Wrap all primitives and strings.
 1. Use only one dot per line.
-1. Don’t abbreviate.
+1. Don't abbreviate.
 1. Keep all entities small.
-1. Don’t use any classes with more than two instance variables.
+1. Don't use any classes with more than two instance variables.
 1. Use first-class collections.
-1. Don’t use any getters/setters/properties
+1. Don't use any getters/setters/properties
 
 As well as the original book, there are numerous blog posts and videos on this topic.
 

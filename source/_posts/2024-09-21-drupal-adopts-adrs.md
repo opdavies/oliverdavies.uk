@@ -15,7 +15,7 @@ Today I noticed that Drupal's Experience Builder project [has adopted architectu
 
 From the issue:
 
-> I proposed [...] to start adopting ADRs to document decisions that were made. That’d allow us to stop rehashing past conversations and allow people to onboard with fewer meetings.
+> I proposed [...] to start adopting ADRs to document decisions that were made. That'd allow us to stop rehashing past conversations and allow people to onboard with fewer meetings.
 > … or so I think.
 > Because I think that ADRs could be an excellent way to scale this project up to A) many people, B) many timezones.
 

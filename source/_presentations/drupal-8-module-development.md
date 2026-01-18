@@ -25,7 +25,7 @@ events:
 {% block abstract %}
 New to object-orientated PHP, Symfony or YAML, and want to get started building modules in Drupal 8? This is the session for you!
 
-In this session, we’ll cover:
+In this session, we'll cover:
 
 - Where Drupal 8 modules are located, and how they are structured.
 - How to build a simple module, including our own permissions and routes.
@@ -33,7 +33,7 @@ In this session, we’ll cover:
 - What is the service/dependency injection container, and how do we use it?
 - How we can use tools such as PhpStorm and Drupal Console to speed up the process.
 
-What we won’t be covering:
+What we won't be covering:
 
 - Automated testing in PHPUnit or Simpletest.
 - Adding third party libraries and external dependencies via Composer.

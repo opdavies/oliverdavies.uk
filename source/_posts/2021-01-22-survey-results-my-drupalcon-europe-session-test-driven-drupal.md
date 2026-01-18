@@ -53,7 +53,7 @@ Total survey responses: 45
 
 Total survey responses: 47
 
-### How would you rate the speaker(s)’s slides and other session materials?
+### How would you rate the speaker(s)'s slides and other session materials?
 
 * Excellent - 47.8%
 * Very good - 30.4%

@@ -8,11 +8,11 @@ permalink: >-
 #     - b
 ---
 
-Yesterday's email was about a proof-of-concept application that I’d quickly built to validate an idea and explore some initial approaches.
+Yesterday's email was about a proof-of-concept application that I'd quickly built to validate an idea and explore some initial approaches.
 
-Today, I’ve been working on a client project that I’ve improved and maintained for a few years.
+Today, I've been working on a client project that I've improved and maintained for a few years.
 
-When I started working with this client, they had one website, built with Drupal 7 and Drupal Commerce. Now, there are x websites using the same codebase due to Drupal’s multi-site functionality.
+When I started working with this client, they had one website, built with Drupal 7 and Drupal Commerce. Now, there are x websites using the same codebase due to Drupal's multi-site functionality.
 
 My main task for the last few months has been to get one of their sites onto Drupal 9 (which I did, it went live in October).
 

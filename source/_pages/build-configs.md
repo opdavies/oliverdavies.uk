@@ -27,7 +27,7 @@ I've been using this on personal projects such as my [Drupal](https://github.com
 - I create a `build.yaml` file for the project that contains its configuration - what version of PHP it needs, which web server to use, which paths to run automated tests from or static analysis on, etc.
 - I run the `build-configs` tool which generates the required files, such as a Dockerfile, Docker Compose file, PHPStan and PHPUnit configuration files, and a `run` script for automating project commands.
 - The files are committed to version control and pushed to your code repository (GitHub, GitLab, Bitbucket, etc).
-- As I add new features or make changes, I will re-run the process to re-generate the files and push any changes - ensuring you’re always up to date.
+- As I add new features or make changes, I will re-run the process to re-generate the files and push any changes - ensuring you're always up to date.
 
 ## What are some of the recent new features?
 
@@ -61,7 +61,7 @@ Once you have a project with `build-configs`, if you want to receive ongoing upd
 
 This also includes unlimited support via a dedicated Slack channel and you can make feature requests for me to consider adding to the roadmap.
 
-If you like, I can add you to a beta users list and you’ll get new experimental features before anyone else.
+If you like, I can add you to a beta users list and you'll get new experimental features before anyone else.
 
 {% include 'button.html.twig' with {
   text: page.products.1.buttonText,
@@ -75,4 +75,4 @@ If you have multiple Drupal sites, [contact me](/contact) and we can work someth
 
 `build-configs` can also be added to an existing project. It can be tricky and will be different from project to project so [contact me](/contact) and we can discuss it further.
 
-Once I know more about your project, I’ll be happy to give you a fixed-price quote to do the work.
+Once I know more about your project, I'll be happy to give you a fixed-price quote to do the work.

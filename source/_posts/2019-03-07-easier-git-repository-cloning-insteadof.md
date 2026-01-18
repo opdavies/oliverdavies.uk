@@ -9,10 +9,10 @@ When working on client or open source projects, I clone a lot of
 [Git](https://git-scm.com) repositories - either from GitHub, GitLab, Bitbucket
 or Drupal.org. The standard `git clone` commands though provided by these sites
 can be quite verbose with long repository URLs and use a mixture of different
-protocols, and I’d regularly need to go back to each website and look up the
+protocols, and I'd regularly need to go back to each website and look up the
 necessary command every time.
 
-For example, here is the command provided to clone Drupal’s
+For example, here is the command provided to clone Drupal's
 [Override Node Options module](https://www.drupal.org/project/override_node_options):
 
 ```
@@ -67,7 +67,7 @@ To shorten and simplify this, I can add this snippet to my `~/.gitconfig` file:
 ```
 
 With that added, I can now instead run `git clone drupal:{name}` or
-`git clone do:{name}` to clone the repository, specifying the project’s machine
+`git clone do:{name}` to clone the repository, specifying the project's machine
 name.
 
 For example, to clone the Override Node Options module, I can now do this using

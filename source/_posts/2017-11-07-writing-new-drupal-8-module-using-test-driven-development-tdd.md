@@ -21,7 +21,7 @@ promoted: true
 I recently gave a [talk on automated testing in Drupal][0] talk at [DrupalCamp
 Dublin][1] and as a lunch and learn session for my colleagues at Microserve. As
 part of the talk, I gave an example of how to build a Drupal 8 module using a
-test driven approach. I’ve released the [module code on GitHub][2], and this
+test driven approach. I've released the [module code on GitHub][2], and this
 post outlines the steps of the process.
 
 ## Prerequisites
@@ -39,7 +39,7 @@ For the module, we are going to satisfy this example acceptance criteria:
 
 ## Initial Setup
 
-Let’s start by writing the minimal code needed in order for the new module to be
+Let's start by writing the minimal code needed in order for the new module to be
 enabled. In Drupal 8, this is the `.info.yml` file.
 
 ```yaml
@@ -51,7 +51,7 @@ core: 8.x
 type: module
 ```
 
-We can also add the test file structure at this point too. We’ll call it
+We can also add the test file structure at this point too. We'll call it
 `PageTestTest.php` and put it within a `tests/src/Functional` directory. As this
 is a functional test, it extends the `BrowserTestBase` class, and we need to
 ensure that the tdd_dublin module is enabled by adding it to the `$modules`
@@ -77,7 +77,7 @@ With this in place, we can now start adding test methods.
 
 ### Writing the First Test
 
-Let’s start by testing that the listing page exists at /pages. We can do this by
+Let's start by testing that the listing page exists at /pages. We can do this by
 loading the page and checking the status code. If the page exists, the code will
 be 200, otherwise it will be 404.
 
@@ -108,14 +108,14 @@ In order to run the tests, you either need to include `-c core` or be inside the
 `core` directory when running the command, to ensure that the test classes are
 autoloaded so can be found, though the path to the `vendor` directory may be
 different depending on your project structure. You can also specify a path
-within which to run the tests - e.g. within the module’s `test` directory.
+within which to run the tests - e.g. within the module's `test` directory.
 
 ```
 $ vendor/bin/phpunit -c core modules/custom/tdd_dublin/tests
 ```
 
 <div class="note" markdown="1">
-Note: I’m using Docksal, and I’ve noticed that I need to run the tests from within the CLI container. You can do this by running the `fin bash` command.
+Note: I'm using Docksal, and I've noticed that I need to run the tests from within the CLI container. You can do this by running the `fin bash` command.
 </div>
 
 ```
@@ -150,7 +150,7 @@ the acceptance criteria.
 
 With the first version of the view built, it needs to be incldued within the
 module so that it can be enabled when the test is run. To do this, we need to
-export the configuration for the view, and place it within the module’s
+export the configuration for the view, and place it within the module's
 `config/install` directory. This can be done using the `drush config-export`
 command or from within the Drupal UI. In either case, the `uid` line at the top
 of the file needs to be removed so the configuration can be installed.
@@ -357,9 +357,9 @@ FAILURES!
 Tests: 1, Assertions: 0, Errors: 1.
 ```
 
-This error is identifying unmet dependencies within the module’s configuration.
-In this case, the view that we’ve added depends on the node and views modules,
-but these aren’t enabled. To fix this, we can add the extra modules as
+This error is identifying unmet dependencies within the module's configuration.
+In this case, the view that we've added depends on the node and views modules,
+but these aren't enabled. To fix this, we can add the extra modules as
 dependencies of tdd_dublin so they will be enabled too.
 
 ```yaml
@@ -398,7 +398,7 @@ We now have a test to ensure that the listing page exists.
 ### Writing the Test
 
 Now that we have a working page, we can now move on to checking that the correct
-content is returned. Again, I’ll start by writing comments and then translate
+content is returned. Again, I'll start by writing comments and then translate
 that into code.
 
 The objectives of this test are:
@@ -436,12 +436,12 @@ public function testOnlyPublishedPagesAreShown() {
 ```
 
 We could use `drupalGet()` again to browse to the page and write assertions
-based on the rendered HTML, though I’d rather do this against the data returned
-from the view itself. This is so that the test isn’t too tightly coupled to the
-presentation logic, and we won’t be in a situation where at a later date the
+based on the rendered HTML, though I'd rather do this against the data returned
+from the view itself. This is so that the test isn't too tightly coupled to the
+presentation logic, and we won't be in a situation where at a later date the
 test fails because of changes made to how the data is displayed.
 
-Rather, I’m going to use `views_get_view_result()` to programmatically get the
+Rather, I'm going to use `views_get_view_result()` to programmatically get the
 result of the view. This returns an array of `Drupal\views\ResultRow` objects,
 which contain the nodes. I can use `array_column` to extract the node IDs from
 the view result into an array.
@@ -524,7 +524,7 @@ OK (1 test, 3 assertions)
 ### Writing the Test
 
 As we know that the correct content is being returned, we can now focus on
-displaying it in the correct order. We’ll start again by adding a new test
+displaying it in the correct order. We'll start again by adding a new test
 method and filling out the comments.
 
 ```php
@@ -537,7 +537,7 @@ public function testResultsAreOrderedAlphabetically() {
 }
 ```
 
-To begin with this time, I’ll create a number of different nodes and specify the
+To begin with this time, I'll create a number of different nodes and specify the
 title for each. These are intentionally in the incorrect order alphabetically so
 that we can see the test fail initially and then see it pass after making a
 change so we know that the change worked.
@@ -646,7 +646,7 @@ fixed before deployment.
 
 ## Next Steps
 
-I’ve started looking into whether some of the tests can be rewritten as kernel
+I've started looking into whether some of the tests can be rewritten as kernel
 tests, which should result in quicker test execution. I will post any updated
 code to the [GitHub repository][3], and will also do another blog post
 highlighting the differences between functional and kernel tests and the steps

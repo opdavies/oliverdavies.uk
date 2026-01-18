@@ -19,16 +19,16 @@ Earlier this week I moved this site from my personal Linode server to [GitHub
 Pages][0].
 
 This made sense as I already kept the source code in [on GitHub][1], the issue
-was that GitHub Pages doesn’t know how to dynamically parse and generate a
+was that GitHub Pages doesn't know how to dynamically parse and generate a
 Sculpin site like it does with some other static site generators. It can though
-parse and serve HTML files, which is what Sculpin generates. It’s just a case of
+parse and serve HTML files, which is what Sculpin generates. It's just a case of
 how those files are added to GitHub.
 
-I’ve seen different implementations of this, mostly where the Sculpin code is on
+I've seen different implementations of this, mostly where the Sculpin code is on
 one branch, and the generated HTML code is on a separate `gh-pages` or `master`
-branch (depending on your repository name). I’m not fond of this approach as it
+branch (depending on your repository name). I'm not fond of this approach as it
 means automatically checking out and merging branches which can get messy, and
-also it’s weird to look at a repo’s branches page and see one branch maybe tens
+also it's weird to look at a repo's branches page and see one branch maybe tens
 or hundreds of commits both ahead and behind the default branch.
 
 This has been made simpler and tidier now that we can use a `docs` directory
@@ -43,7 +43,7 @@ This means that I can simply re-generate the site after making changes and add
 it as an additional commit to my main branch with no need to switch branches or
 perform a merge.
 
-To simplify this, I’ve added a new [publish.sh script][3] into my repository to
+To simplify this, I've added a new [publish.sh script][3] into my repository to
 automate the sites. This is how it currently looks:
 
 ```bash
@@ -79,7 +79,7 @@ automatically served by GitHub Pages.
 
 GitHub Pages unfortunately does [not support HTTPS for custom domains][7].
 
-As the site was previously using HTTPS, I didn’t want to have to go back to
+As the site was previously using HTTPS, I didn't want to have to go back to
 HTTP, break any incoming links and lose any potential traffic. To continue using
 HTTPS, I decided to [use Cloudflare][6] to serve the site via their CDN which
 does allow for HTTPS traffic.
@@ -88,7 +88,7 @@ does allow for HTTPS traffic.
 
 - Enable automatically running `publish.sh` when new changes are pushed to
   GitHub rather than running it manually. I was previously [using Jenkins][4]
-  and Fabric for this, though I’m also going to look into using Travis to
+  and Fabric for this, though I'm also going to look into using Travis to
   accomplish this.
 - Add the pre-build steps such as running `composer install` and `yarn` to
   install dependencies, and `gulp` to create the front-end assets. This was

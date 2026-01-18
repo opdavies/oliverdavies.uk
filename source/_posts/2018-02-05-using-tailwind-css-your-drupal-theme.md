@@ -49,7 +49,7 @@ module.exports = {
 
 ## Configuration for Drupal
 
-There are some configuration settings within `tailwind.js` that you’ll need to
+There are some configuration settings within `tailwind.js` that you'll need to
 change to make things work nicely with Drupal. These are within the `options`
 section:
 
@@ -63,7 +63,7 @@ options: {
 
 ### Prefix
 
-By adding a prefix like `tw-`, we can ensure that the Tailwind classes don’t
+By adding a prefix like `tw-`, we can ensure that the Tailwind classes don't
 conflict with core HTML classes like `block`. We can also ensure that they won't
 conflict with any other existing HTML or CSS.
 
@@ -77,12 +77,12 @@ With prefix:
 
 ### Important
 
-We can also set the `!important` rule on all Tailwind’s generated classes. We
+We can also set the `!important` rule on all Tailwind's generated classes. We
 need to do this if we want to override core styles which have more specific
 rules.
 
 For example: if I had this core markup then the left margin added by `tw-ml-4`
-would be overridden by core’s `.item-list ul` styling.
+would be overridden by core's `.item-list ul` styling.
 
 ```html
 <div class="item-list">
@@ -94,7 +94,7 @@ would be overridden by core’s `.item-list ul` styling.
 
 ![](/images/blog/using-tailwind-drupal/important-1.png){.with-border}
 
-With the `!important` rule enabled though, the Tailwind’s class takes precedence
+With the `!important` rule enabled though, the Tailwind's class takes precedence
 and is applied.
 
 ![](/images/blog/using-tailwind-drupal/important-2.png){.with-border}

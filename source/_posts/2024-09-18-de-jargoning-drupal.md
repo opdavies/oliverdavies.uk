@@ -14,7 +14,7 @@ This week, I learned there is a Drupalisms Working Group - a group focused on de
 
 From [the introductory blog post][0]:
 
-> If you’re familiar with Drupal, you will have learned its language. You will be familiar with words like Views, Blocks and Paragraphs, and you will appreciate their respective features and functions. But for those new to Drupal, getting to grips with what words mean can mean a steep learning curve. 
+> If you're familiar with Drupal, you will have learned its language. You will be familiar with words like Views, Blocks and Paragraphs, and you will appreciate their respective features and functions. But for those new to Drupal, getting to grips with what words mean can mean a steep learning curve. 
 
 Drupalisms is something I've discussed on a few episodes of Beyond Blocks, including [the most recent episode and the seonc with Eirik Morland][1].
 

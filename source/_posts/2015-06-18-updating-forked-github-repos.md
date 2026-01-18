@@ -97,20 +97,20 @@ me a tweet</a> with any comments.
 
 ## Up
 
-**December 2015:** I’ve found that PhpStorm has an option available to rebase a
+**December 2015:** I've found that PhpStorm has an option available to rebase a
 fork from within the IDE. This is within the _VCS_ > _Git_ menu.
 
 I believe that it will use an existing "upstream" remote if it exists, otherwise
 it will add one automatically for you, linking to the repository that you forked
 from.
 
-Once you’ve completed the rebase, you can then push your updated branch either
+Once you've completed the rebase, you can then push your updated branch either
 from the terminal, or using the _Push_ command from the same menu.
 
 ![Rebasing a forked repository in PhpStorm using the VCS menu.](/images/blog/github-fork-rebase-phpstorm.png)
 
 It would be great to see something similar added to
-[hub](https://hub.github.com) too (I’ve created
+[hub](https://hub.github.com) too (I've created
 [an issue](https://github.com/github/hub/issues/1047))!
 
 ## Resources

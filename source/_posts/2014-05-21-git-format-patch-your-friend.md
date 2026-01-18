@@ -14,7 +14,7 @@ Drupal's Git workflow.
 ## The Problem
 
 As an active contributor to the [Drupal](http://drupal.org) project, I spend a
-lot of time working with other peoples’ modules and themes, and occassionally
+lot of time working with other peoples' modules and themes, and occassionally
 have to fix a bug or add some new functionality.
 
 In the Drupal community, we use a patch based workflow where any changes that I
@@ -37,11 +37,11 @@ on their Drupal.org profile page.
 
 If this is added to the end of the commit message, the resulting commit will
 show that it was committed by the maintainer but authored by a different user.
-This will then display on Drupal.org that you’ve made a commit to that project.
+This will then display on Drupal.org that you've made a commit to that project.
 
 ![A screenshot of a commit that was authored by rli but committed by opdavies](/images/blog/git-format-patch.png)
 
-The problem is that some project maintainers either don’t know about this option
+The problem is that some project maintainers either don't know about this option
 or occasionally forget to add it. [Dreditor](http://dreditor.org) can suggest a
 commit message and assign an author, but it is optional and, of course, not all
 maintainers use Dreditor (although they probably should).
@@ -70,7 +70,7 @@ Subject: [PATCH] Exclude comment entities when checking if this is the page,
 
 As mentioned above, the patch is structured in an email format. The commit
 message is used as the subject line, and the date that the commit was made
-locally is used for the date. What we’re interested in is the “From” value. This
+locally is used for the date. What we're interested in is the “From” value. This
 contains your name and email address from your `~/.gitconfig` file and is used
 to author the patch automatically.
 
@@ -95,11 +95,11 @@ How did I create this patch? Here are the steps that I took:
 
 _Note:_ I am defining 7.x-1.x in the last step as the original branch to compare
 (i.e. the original branch that we forked to make our issue branch). This will
-change depending on the project that you are patching, and it’s version number.
+change depending on the project that you are patching, and it's version number.
 Also, commits should always be made against the development branch and not the
 stable release.
 
-By default, a separate patch file will be created for each commit that we’ve
+By default, a separate patch file will be created for each commit that we've
 made. This is overridden by the `--stdout` option which combines all of the
 patches into a single file. This is the recommended approach when uploading to
 Drupal.org.

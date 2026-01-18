@@ -8,7 +8,7 @@ tags:
     - stripe
 ---
 
-Recently I was experiencing an issue on the Drupal 8 website I’m working on,
+Recently I was experiencing an issue on the Drupal 8 website I'm working on,
 where a small number of users were not able to complete the checkout process and
 instead got a generic `The site has encountered an unexpected error` message.
 

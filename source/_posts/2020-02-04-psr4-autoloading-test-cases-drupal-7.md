@@ -18,7 +18,7 @@ tags:
 The typical way of including test cases in Drupal 7 is to add one or more
 classes within a `.test` file - e.g. `opdavies.test`. This would typically
 include all of the different test cases for that module, and would be placed in
-the root of the module’s directory alongside the `.info` and `.module` files.
+the root of the module's directory alongside the `.info` and `.module` files.
 
 In order to load the files, each file would need to be declared within the
 `.info` file for the module.

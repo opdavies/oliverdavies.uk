@@ -1,6 +1,6 @@
 ---
 title: Create a Slideshow of Multiple Images Using Fancy Slide
-excerpt: How to create a slideshow of images using Drupal’s Fancy Slide module.
+excerpt: How to create a slideshow of images using Drupal's Fancy Slide module.
 tags:
     - drupal
     - drupal-6

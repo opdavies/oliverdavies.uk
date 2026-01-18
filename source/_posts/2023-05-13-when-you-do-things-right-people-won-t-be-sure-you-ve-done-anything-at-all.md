@@ -9,7 +9,7 @@ tags:
 
 I think this quote from Futurama also applies well to software development:
 
-> When You Do Things Right, People Won’t Be Sure You’ve Done Anything at All
+> When You Do Things Right, People Won't Be Sure You've Done Anything at All
 
 Today I did multiple releases to production websites. There were no outages or downtime, or messages from clients or colleagues.
 

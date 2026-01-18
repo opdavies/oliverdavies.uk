@@ -35,7 +35,7 @@ The survey results from my automated testing and test-driven development session
 * Fair - 8.3%
 * Poor - 0%
 
-## How would you rate the speaker(s)’s slides and other session materials?
+## How would you rate the speaker(s)'s slides and other session materials?
 
 25 responses.
 

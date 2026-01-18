@@ -4,9 +4,9 @@ pubDate: 2022-09-12
 permalink: "daily/2022/09/12/month-daily-emails"
 ---
 
-It’s already been a month since I started my email list and writing daily emails.
+It's already been a month since I started my email list and writing daily emails.
 
-Since then, I’ve written emails on various development and workflow-based topics, including Drupal, Git, Docker, Neovim, Ansible and Tailwind CSS.
+Since then, I've written emails on various development and workflow-based topics, including Drupal, Git, Docker, Neovim, Ansible and Tailwind CSS.
 
 The first email was written on Thursday the 12th of August and after initially wondering whether I should start on the upcoming Monday, or how often to post, I decided to jump in with both feet and wrote the first daily post that day. The first few weren't actually emailed as I waited to see if I could sustain writing a daily post (I was just posting them to my website), but after a few days, I set up the email list and started sending the posts.
 

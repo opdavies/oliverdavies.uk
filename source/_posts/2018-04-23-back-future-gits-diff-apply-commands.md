@@ -1,11 +1,11 @@
 ---
-title: Back to the future with Git’s diff and apply commands
+title: Back to the future with Git's diff and apply commands
 excerpt: How to revert files using Git, but as a new commit to prevent force pushing.
 tags:
     - git
 ---
 
-This is one of those “there’s probably already a better way to do this”
+This is one of those “there's probably already a better way to do this”
 situations, but it worked.
 
 I was having some issues this past weekend where, despite everything working
@@ -13,10 +13,10 @@ fine locally, a server was showing a “500 Internal Server” after I pushed so
 changes to a site. In order to bring the site back online, I needed to revert
 the site files back to the previous version, but as part of a new commit.
 
-The `git reset` commands removed the interim commits which meant that I couldn’t
-push to the remote (force pushing, quite rightly, isn’t allowed for the
+The `git reset` commands removed the interim commits which meant that I couldn't
+push to the remote (force pushing, quite rightly, isn't allowed for the
 production branch), and using `git revert` was resulting in merge conflicts in
-`composer.lock` that I’d rather have avoided if possible.
+`composer.lock` that I'd rather have avoided if possible.
 
 This is what `git log --oneline -n 4` was outputting:
 
@@ -33,7 +33,7 @@ fc058bb Add services.yml
 
 My first solution was to use `git diff` to create a single patch file of all of
 the changes from the current point back to the original commit. In this case,
-I’m using `head~3` (four commits before `head`) as the original reference, I
+I'm using `head~3` (four commits before `head`) as the original reference, I
 could have alternatively used a commit ID, tag or branch name.
 
 ```
@@ -67,5 +67,5 @@ can be piped straight into `git apply`.
 git diff head~3 head | git apply -v
 ```
 
-This means that there’s only one command to run and no leftover patch file, and
+This means that there's only one command to run and no leftover patch file, and
 I can go ahead and add and commit the changes straight away.

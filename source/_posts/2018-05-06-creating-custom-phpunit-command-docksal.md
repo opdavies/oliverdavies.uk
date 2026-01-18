@@ -12,7 +12,7 @@ tags:
     - testing
 ---
 
-This week I’ve started writing some custom commands for my Drupal projects that
+This week I've started writing some custom commands for my Drupal projects that
 use Docksal, including one to easily run PHPUnit tests in Drupal 8. This is the
 process of how I created this command.
 
@@ -27,11 +27,11 @@ There was a [great talk][1] recently at Drupaldelphia about Docksal.
 ## Why write a custom command?
 
 One of the things that Docksal offers (and is covered in the talk) is the
-ability to add custom commands to the Docksal’s `fin` CLI, either globally or as
+ability to add custom commands to the Docksal's `fin` CLI, either globally or as
 part of your project.
 
 As an advocate of automated testing and TDD practitioner, I write a lot of tests
-and run PHPUnit numerous times a day. I’ve also given [talks][6] and have
+and run PHPUnit numerous times a day. I've also given [talks][6] and have
 [written other posts][7] on this site relating to testing in Drupal.
 
 There are a couple of ways to run PHPUnit with Docksal. The first is to use
@@ -60,7 +60,7 @@ By adding a custom command, I intend to:
 
 1. Make it easier to get set up to run PHPUnit tests - i.e. setting up a
    `phpunit.xml` file.
-1. Make it easier to run the tests that we’d written by shortening the command
+1. Make it easier to run the tests that we'd written by shortening the command
    and making it so it can be run anywhere within our project.
 
 I also hoped to make it project agnostic so that I could add it onto any project
@@ -84,7 +84,7 @@ This will create a new, empty `.docksal/commands/phpunit` file, and now the
 
 ![](/images/blog/docksal-phpunit-command/1.gif)
 
-You can write commands with any interpreter. I’m going to use bash, so I’ll add
+You can write commands with any interpreter. I'm going to use bash, so I'll add
 the shebang to the top of the file.
 
 ```bash
@@ -97,7 +97,7 @@ displayed or actions performed as the rest of the file is empty.
 ## Adding a description and help text
 
 Currently the description for our command when we run `fin` is the default "No
-description" text. I’d like to add something more relevant, so I’ll start by
+description" text. I'd like to add something more relevant, so I'll start by
 adding a new description.
 
 fin interprets lines starting with `##` as documentation - the first of which it
@@ -114,7 +114,7 @@ Now when I run it, I see the new description.
 ![](/images/blog/docksal-phpunit-command/2.gif)
 
 Any additional lines are used as help text with running `fin help phpunit`. Here
-I’ll add an example command to demonstrate how to run it as well as some more
+I'll add an example command to demonstrate how to run it as well as some more
 in-depth text about what the command will do.
 
 ```bash
@@ -136,8 +136,8 @@ Now when I run `fin help phpunit`, I see the new help text.
 
 ### Setting the target
 
-As I want the commands to be run within Docksal’s "cli" container, I can specify
-that with `exec_target`. If one isn’t specified, the commands are run locally on
+As I want the commands to be run within Docksal's "cli" container, I can specify
+that with `exec_target`. If one isn't specified, the commands are run locally on
 the host machine.
 
 ```
@@ -156,7 +156,7 @@ commands:
 - `DOCKER_RUNNING` - (string) "true" or "false".
 
 <div class="note" markdown="1">
-**Note:** If the `DOCROOT` variable is not defined within the cli container, ensure that it’s added to the environment variables in `.docksal/docksal.yml`. For example:
+**Note:** If the `DOCROOT` variable is not defined within the cli container, ensure that it's added to the environment variables in `.docksal/docksal.yml`. For example:
 
 ```
 version: "2.1"
@@ -183,10 +183,10 @@ my custom command and not need to type it every time.
 By using `"$@"` I can capture any additional arguments, such as the test
 directory path, and append them to the command to execute.
 
-I’m using `$PROJECT_ROOT` to prefix the command with the absolute path to
-`phpunit` so that I don’t need to be in that directory when I run the custom
+I'm using `$PROJECT_ROOT` to prefix the command with the absolute path to
+`phpunit` so that I don't need to be in that directory when I run the custom
 command, and `$DOCROOT` to always enter the sub-directory where Drupal is
-located. In this case, it’s "docroot" though I also use "web" and I’ve seen
+located. In this case, it's "docroot" though I also use "web" and I've seen
 various others used.
 
 ```bash
@@ -216,12 +216,12 @@ fi
 
 ### Creating phpunit.xml - step 1
 
-My first thought was that if a `phpunit.xml` file doesn’t exist was to duplicate
-core’s `phpunit.xml.dist` file. However this isn’t enough to run the tests, as
+My first thought was that if a `phpunit.xml` file doesn't exist was to duplicate
+core's `phpunit.xml.dist` file. However this isn't enough to run the tests, as
 values such as `SIMPLETEST_BASE_URL`, `SIMPLETEST_DB` and
 `BROWSERTEST_OUTPUT_DIRECTORY` need to be populated.
 
-As the tests wouldn't run at this point, I’ve exited early and displayed a
+As the tests wouldn't run at this point, I've exited early and displayed a
 message to the user to edit the new `phpunit.xml` file and run `fin phpunit`
 again.
 
@@ -236,7 +236,7 @@ else
 fi
 ```
 
-However this isn’t as streamlined as I originally wanted as it still requires
+However this isn't as streamlined as I originally wanted as it still requires
 the user to perform an additional step before the tests can run.
 
 ### Creating phpunit.xml - step 2
@@ -250,7 +250,7 @@ customisations made to the default settings. I decided on
 Also, if this file is copied then we can go ahead and run the tests straight
 away rather than needing to exit early.
 
-If a pre-configured file doesn’t exist, then we can default back to copying
+If a pre-configured file doesn't exist, then we can default back to copying
 `phpunit.xml.dist`.
 
 To avoid duplication, I created a reusable `run_tests()` function so it could be
@@ -278,7 +278,7 @@ fi
 ```
 
 This means that I can execute less steps and run a much shorter command compared
-to the original, and even if someone didn’t have a `phpunit.xml` file created
+to the original, and even if someone didn't have a `phpunit.xml` file created
 they could have copied into place and have tests running with only one command.
 
 ## The finished file
@@ -319,23 +319,23 @@ else
 fi
 ```
 
-It’s currently available as a [GitHub Gist][2], though I’m planning on moving it
+It's currently available as a [GitHub Gist][2], though I'm planning on moving it
 into a public GitHub repository either on my personal account or the [Microserve
 organisation][3], for people to either use as examples or to download and use
 directly.
 
-I’ve also started to add other commands to projects such as `config-export` to
+I've also started to add other commands to projects such as `config-export` to
 standardise the way to export configuration from Drupal 8, run Drupal 7 tests
 with SimpleTest, and compile front-end assets like CSS within custom themes.
 
-I think it’s a great way to shorten existing commands, or to group multiple
+I think it's a great way to shorten existing commands, or to group multiple
 commands into one like in this case, and I can see a lot of other potential uses
 for it during local development and continuous integration. Also being able to
 run one command like `fin init` and have it set up everything for your project
 is very convenient and a big time saver!
 
 <div class="note" markdown="1">
-Since writing this post, I’ve had a [pull request][8] accepted for this command to be added as a [Docksal add-on][9]. This means that the command can be added to any Docksal project by running `fin addon install phpunit`. It will be installed into the `.docksal/addons/phpunit` directory, and displayed under "Addons" rather than "Custom commands" when you run `fin`.
+Since writing this post, I've had a [pull request][8] accepted for this command to be added as a [Docksal add-on][9]. This means that the command can be added to any Docksal project by running `fin addon install phpunit`. It will be installed into the `.docksal/addons/phpunit` directory, and displayed under "Addons" rather than "Custom commands" when you run `fin`.
 </div>
 
 ## Resources

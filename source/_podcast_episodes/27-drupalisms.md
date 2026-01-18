@@ -7,7 +7,7 @@ guests:
 transistor:
   id: ~
 links:
-  - - De-jargoning Drupal – working with the community to open up Drupal’s terminology
+  - - De-jargoning Drupal – working with the community to open up Drupal's terminology
     - https://www.drupal.org/association/blog/de-jargoning-drupal-working-with-the-community-to-open-up-drupals-terminology
   - - Locating Drupalisms (core issue)
     - https://www.drupal.org/project/drupal/issues/3381734

@@ -11,8 +11,8 @@ Earlier this week I wrote a small PHP library called [GmailFilterBuilder][0]
 that allows you to write Gmail filters in PHP and export them to XML.
 
 I was already aware of a Ruby library called [gmail-britta][1] that does the
-same thing, but a) I’m not that familiar with Ruby so the syntax wasn’t that
-natural to me - it’s been a while since I wrote any Puppet manifests, and b) it
+same thing, but a) I'm not that familiar with Ruby so the syntax wasn't that
+natural to me - it's been a while since I wrote any Puppet manifests, and b) it
 seemed like a interesting little project to work on one evening.
 
 The library contains two classes - `GmailFilter` which is used to create each
@@ -56,7 +56,7 @@ I also added a custom Twig extension that I moved into a separate
 [twig-extensions][5] library so that I and other people can re-use it in other
 projects.
 
-It’s a simple filter that accepts a boolean and returns `true` or `false` as a
+It's a simple filter that accepts a boolean and returns `true` or `false` as a
 string, but meant that I could remove three ternary operators from the template
 and replace them with the `boolean_string` filter.
 

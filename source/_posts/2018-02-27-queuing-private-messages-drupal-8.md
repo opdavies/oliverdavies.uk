@@ -25,7 +25,7 @@ The module provices a `PrivateMessageQueuer` service
 method.
 
 The method accepts an array of `User` objects as the messsage recipients, the
-message body text and another user as the message owner. (I’m currently
+message body text and another user as the message owner. (I'm currently
 considering [whether to make the owner optional][4], and default to the current
 user if one is not specified)
 

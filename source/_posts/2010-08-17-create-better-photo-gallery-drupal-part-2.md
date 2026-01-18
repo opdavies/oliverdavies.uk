@@ -1,6 +1,6 @@
 ---
 title: Create a Better Photo Gallery in Drupal - Part 2
-excerpt: Updating the galleries’ created and modified dates.
+excerpt: Updating the galleries' created and modified dates.
 tags:
     - drupal-6
     - drupal-planet

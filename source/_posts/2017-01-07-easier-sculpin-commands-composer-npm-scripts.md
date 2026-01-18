@@ -28,7 +28,7 @@ custom Composer and NPM scripts.
 
 ## Scripts
 
-Here are the scripts that I’m using - they are slightly different from those in
+Here are the scripts that I'm using - they are slightly different from those in
 the video. I use the `--generate` and `--watch` options for Sculpin and the
 `gulp watch` command for NPM. I had to change these before the recording as I
 was using the [demo magic][0] script to run the commands, and existing from a

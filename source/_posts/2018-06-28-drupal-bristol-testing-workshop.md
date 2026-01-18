@@ -28,7 +28,7 @@ template][4] along with the [Examples module][5] (which includes some PHPUnit
 tests) with a pre-configured [Docksal][2] environment to use locally - Docksal
 being our standard local development environment that we use at
 {{ site.companies['microserve'].name }} for all of our projects, so something
-that I’m familiar with using.
+that I'm familiar with using.
 
 In addition to the default stack, I added [the PHPUnit add-on that I wrote][6]
 so that it was easier to run tests, [configured settings.php using environment
@@ -53,7 +53,7 @@ code.
 Once these exercises were completed, we looked at creating a blog page using
 test driven development - the example that I use in the [TDD - Test-Driven
 Drupal talk][9], to give a more real-word scenario. It would have been good to
-have gone through this as an exercise too, if we’d have had more time.
+have gone through this as an exercise too, if we'd have had more time.
 
 ## Wrap Up
 
@@ -62,11 +62,11 @@ working with Docksal) and showed some of the tests that I wrote for the [Private
 Message Queue][10] and [System User][11] modules, to see how things like adding
 items to queues and processing them, ensuring that emails are sent, to the right
 users and contain the right data, can be tested, as well as some of the tests
-that we’ve written on my work project over the last few months.
+that we've written on my work project over the last few months.
 
 ## Slides
 
-I didn’t record this workshop, but I have exported the slides and embedded them
+I didn't record this workshop, but I have exported the slides and embedded them
 below:
 
 {% include 'presentation/slides' with {
@@ -84,13 +84,13 @@ interesting.
 
 A couple of people mentioned about providing handouts to refer the code examples
 whilst working on the exercises, rather than relying on the slides and avoiding
-the need to sometimes switch back and forth between slides. I’ve found that I
-can export the slide deck as PNGs or JPGs from Deckset, so I’ll definitely do
+the need to sometimes switch back and forth between slides. I've found that I
+can export the slide deck as PNGs or JPGs from Deckset, so I'll definitely do
 that next time.
 
-I’m giving the [Test-Driven Drupal][9] talk at the [Drupal Dev Days
-conference][12] next week, and I’m hoping to give it again at other meetups and
-events in the UK. If you’d like me to do either at your meetup or event, [get in
+I'm giving the [Test-Driven Drupal][9] talk at the [Drupal Dev Days
+conference][12] next week, and I'm hoping to give it again at other meetups and
+events in the UK. If you'd like me to do either at your meetup or event, [get in
 touch][13].
 
 [0]: https://github.com/opdavies/drupal-testing-workshop

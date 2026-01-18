@@ -12,15 +12,15 @@ This morning, I was asked a “Could you build…” question.
 
 It was an idea mentioned a short while ago and involves a simple, interactive form on the front end that sends requests to a public API, filters the results from the response and displays them to the user.
 
-I’d probably want to hide the API request behind a service responsible for interacting with the API and filtering the results - ensuring that the API could be switched with something else later if needed.
+I'd probably want to hide the API request behind a service responsible for interacting with the API and filtering the results - ensuring that the API could be switched with something else later if needed.
 
 This afternoon, I built a small proof-of-concept application with Vue.js and TypeScript.
 
-There’s no API, or service retrieving real-time results. All of the data is hard-coded within the App component, as well as the code that filters, sorts and returns the results.
+There's no API, or service retrieving real-time results. All of the data is hard-coded within the App component, as well as the code that filters, sorts and returns the results.
 
 The results are shown by adding a `<pre>{{ results }}</pre>` to the page, with a `<pre>{{ state.selection }}</pre>` to show the input data.
 
-There isn’t even any styling, with just some basic horizontal rules to split the page - similar to [these screenshots from Taylor Otwell](https://twitter.com/taylorotwell/status/1203356860818087944) of some work-in-progress versions of Vapor and Nova.
+There isn't even any styling, with just some basic horizontal rules to split the page - similar to [these screenshots from Taylor Otwell](https://twitter.com/taylorotwell/status/1203356860818087944) of some work-in-progress versions of Vapor and Nova.
 
 A working proof of concept, or a "spike", answers the initial "Can we build..." question. It can be shown to a client or other stakeholders, act as a starting point for discussions and requirements gathering and then be turned into user stories. It also allows the Developers to validate their initial thoughts and experiment with different approaches.
 

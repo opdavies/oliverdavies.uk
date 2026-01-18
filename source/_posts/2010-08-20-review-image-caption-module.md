@@ -1,6 +1,6 @@
 ---
 title: Review of the Image Caption Module
-excerpt: My review of Drupal’s Image Caption module.
+excerpt: My review of Drupal's Image Caption module.
 tags:
     - drupal
     - drupal-6

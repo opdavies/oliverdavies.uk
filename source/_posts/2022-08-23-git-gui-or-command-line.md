@@ -6,11 +6,11 @@ tags:
   - "git"
 ---
 
-I’ve been using Git for a long time. My first full-time Developer role in 2010 was working on an in-house team and that project used Git as it’s version control system.
+I've been using Git for a long time. My first full-time Developer role in 2010 was working on an in-house team and that project used Git as it's version control system.
 
 I remember typing commands into an Ubuntu terminal and trying to wrap my head around the process of adding and staging files, (sometimes) pulling, and then pushing to a remote. I think the remote was a simple bare repository on a server, so there was no UI like there is in GitHub and similar tools today.
 
-In fact, GitHub only started two years earlier in 2008, and GitLab wasn’t around until 2014.
+In fact, GitHub only started two years earlier in 2008, and GitLab wasn't around until 2014.
 
 Looking back, my introduction to Git as a Junior Developer wasn't easy and I remember starting to get frustrated until it eventually "clicked" and made sense.
 
@@ -20,7 +20,7 @@ Whilst working locally, I've tried some of the desktop GUI tools like Sourcetree
 
 While a Git GUI tool may make it easier to learn Git initially as a Junior Developer, I'd recommend trying to learn the command line too.
 
-In my opinion, understanding what’s happening "under the hood" when is important working with a GUI - just in case you find yourself unexpectedly having to use the command line. I’ve seen an error in a Git GUI that suggests running commands in the terminal to debug or fix the issue. If you aren't familiar with the terminal commands or what they do, then I'd expect this to be intimidating and confusing.
+In my opinion, understanding what's happening "under the hood" when is important working with a GUI - just in case you find yourself unexpectedly having to use the command line. I've seen an error in a Git GUI that suggests running commands in the terminal to debug or fix the issue. If you aren't familiar with the terminal commands or what they do, then I'd expect this to be intimidating and confusing.
 
 If you're working as part of a team or contributing to an open-source project then the consistency that the command line provides will make it easier when working with colleagues or getting help from project maintainers. You're also learning Git itself rather than a tool that may add it's own terminology or change how Git itself works, also causing confusion.
 

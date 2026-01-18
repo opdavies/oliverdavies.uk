@@ -1,6 +1,6 @@
 ---
 title: Drupal VM Generator 2.9.1 Released
-excerpt: I’ve released some new versions of the Drupal VM Generator.
+excerpt: I've released some new versions of the Drupal VM Generator.
 tags:
     - drupal-vm-generator
     - releases
@@ -12,7 +12,7 @@ The main updates are:
   `boolean_as_string` Twig filter from the opdavies/twig-extensions library when
   the `config:generate` command was run in non-interactive mode.
 - Adding a working test suite for the existing commands, using PhpUnit and
-  Symfony’s Process component. This is now linked to [Travis CI][2], and the
+  Symfony's Process component. This is now linked to [Travis CI][2], and the
   tests are run on each commit and pull request.
 - The version requirements have been changed to allow 2.7 versions of the used
   Symfony Components, as well as the 3.x versions. This was done to resolve a

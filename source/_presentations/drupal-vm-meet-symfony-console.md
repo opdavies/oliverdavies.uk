@@ -18,7 +18,7 @@ project._
 
 The [Drupal VM Generator][2] is a CLI application, built on [Symfony Console][0], that generates configuration files for [Drupal VM][1] based on personal settings and user interaction.
 
-After an introduction to Drupal VM itself and the Drupal VM Generator, we’ll jump into the code and see how Symfony Console applications are structured, how to write new commands, and how to integrate additional libraries like Guzzle, Twig and other Symfony components - whilst referencing code from the Drupal VM Generator project.
+After an introduction to Drupal VM itself and the Drupal VM Generator, we'll jump into the code and see how Symfony Console applications are structured, how to write new commands, and how to integrate additional libraries like Guzzle, Twig and other Symfony components - whilst referencing code from the Drupal VM Generator project.
 
 [0]: http://symfony.com/doc/current/components/console/introduction.html
 [1]: https://www.drupalvm.com

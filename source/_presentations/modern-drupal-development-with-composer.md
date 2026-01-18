@@ -21,5 +21,5 @@ Building a Drupal application? You no longer need to download archives to add ne
 
 With Drupal "getting off the island" there has been an increase in the adoption of common PHP tools within the Drupal ecosystem.
 
-In this lightning talk, I’ll show how to build a Drupal application using Composer for dependency management.
+In this lightning talk, I'll show how to build a Drupal application using Composer for dependency management.
 {% endblock %}

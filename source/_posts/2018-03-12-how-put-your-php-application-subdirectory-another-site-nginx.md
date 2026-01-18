@@ -8,8 +8,8 @@ tags:
 
 In January, [Chris Fidao][0] posted a video to [Servers for Hackers][1] showing
 how to put different PHP applications in different subdirectories and have them
-serving on different paths with Nginx. I’ve had to do this a few times
-previously, and it’s great to have this video as a reference.
+serving on different paths with Nginx. I've had to do this a few times
+previously, and it's great to have this video as a reference.
 
 > In this video, we work through how to put your PHP application in a
 > subdirectory of another site.

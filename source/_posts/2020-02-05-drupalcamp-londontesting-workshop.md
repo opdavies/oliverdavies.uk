@@ -1,6 +1,6 @@
 ---
 title: Testing Workshop at DrupalCamp London 2020
-excerpt: This year, I’m teaching a workshop at DrupalCamp London.
+excerpt: This year, I'm teaching a workshop at DrupalCamp London.
 tags:
     - drupal
     - drupalcamp
@@ -9,12 +9,12 @@ lead_image:
     url: /images/blog/testing-workshop-drupalcamp-london/lead.jpg
 ---
 
-This year, I’m teaching a workshop at DrupalCamp London.
+This year, I'm teaching a workshop at DrupalCamp London.
 
 The subject will be automated testing and test driven development in Drupal 8,
 and it will be on Friday 13th March 2020, between 1pm and 5pm.
 
-In the workshop, I’ll cover the methodology, approaches and terminology involved
+In the workshop, I'll cover the methodology, approaches and terminology involved
 with automated testing, look at some examples and work through some exercises,
 and then take a test driven development approach to creating a new Drupal
 module.

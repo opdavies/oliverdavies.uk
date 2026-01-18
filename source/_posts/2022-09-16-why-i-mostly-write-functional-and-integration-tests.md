@@ -7,7 +7,7 @@ tags: ["drupal"]
 
 In [Wednesday's email]({{site.url}}/daily/2022/09/14/simpletest-drupal-test), I showed how quick it is to get started writing automated tests for a new Drupal module, starting with a functional test.
 
-I prefer the outside-in style (or London approach) of test-driven development, where I start with a the highest-level test that I can for a task. If the task needs me to make a HTTP request, then I’ll use a functional test. If not, I’ll use a kernel (or integration) test.
+I prefer the outside-in style (or London approach) of test-driven development, where I start with a the highest-level test that I can for a task. If the task needs me to make a HTTP request, then I'll use a functional test. If not, I'll use a kernel (or integration) test.
 
 I find that these higher-level types of tests are easier and quicker to set up compared to starting with lower-level unit tests, cover more functionality, and make it easier to refactor.
 

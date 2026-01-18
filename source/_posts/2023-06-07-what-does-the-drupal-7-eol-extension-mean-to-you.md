@@ -21,6 +21,6 @@ If you're involved with one of the ~400,000 Drupal 7 websites (according to http
 
 Will you use the time to find the budget to upgrade, assemble a migration plan, port any missing contributed modules or refactor your custom modules or theme to make it easier to upgrade?
 
-Is it different knowing it’s the final extension compared to the previous time when it wasn’t known if it would be extended again?
+Is it different knowing it's the final extension compared to the previous time when it wasn't known if it would be extended again?
 
 If you're stuck on Drupal 7 or staying on it into 2024 or 2025, what's stopping you from upgrading?

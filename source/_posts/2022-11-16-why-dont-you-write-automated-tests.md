@@ -7,7 +7,7 @@ tags:
   - testing
 ---
 
-Many projects I’ve worked on in the past haven’t had an automated test suite.
+Many projects I've worked on in the past haven't had an automated test suite.
 
 If you don't or can't write tests for your project for some reason, I'd love it if you could reply to this email or [let me know on Twitter](https://twitter.com/opdavies) and let me know why.
 

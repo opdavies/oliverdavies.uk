@@ -29,7 +29,7 @@ To install it, run this command:
 curl -sS https://get.symfony.com/cli/installer | bash
 ```
 
-Even though it’s by Symfony, the local webserver works with any type of
+Even though it's by Symfony, the local webserver works with any type of
 project - including Drupal 8 (and 9) and Drupal 7.
 
 ## Getting started
@@ -78,7 +78,7 @@ echo "7.3" > .php-version
 Next time the server is started, this file will be read and the correct version
 of PHP will be used.
 
-If you’re using macOS and want to install another version of PHP, you can do it
+If you're using macOS and want to install another version of PHP, you can do it
 using Homebrew:
 
 ```bash
@@ -94,7 +94,7 @@ by adding a `php.ini` file.
 The Symfony server allows for serving sites via HTTPS locally by installing its
 own local certificate authority.
 
-If it’s not installed automatically, run this command to install it:
+If it's not installed automatically, run this command to install it:
 
 ```
 symfony server:ca:install
@@ -109,7 +109,7 @@ If you need to run a site with just HTTP, add the `--no-tls` option to the
 ## Adding Databases (and other services) with Docker
 
 The Symfony server has an integration with Docker for providing extra services -
-such as databases that we’ll need to install Drupal.
+such as databases that we'll need to install Drupal.
 
 This is my `docker-compose.yaml` file which defines a `database` service for
 MySQL:
@@ -154,7 +154,7 @@ SYMFONY_TUNNEL_ENV=
 ```
 
 Now these environment variables can be used within `settings.php` file to allow
-configure Drupal’s database connection settings:
+configure Drupal's database connection settings:
 
 ```php
 // web/sites/default/settings.php
@@ -188,7 +188,7 @@ if ($_SERVER['SYMFONY_DEFAULT_ROUTE_URL'] && file_exists(__DIR__ . '/settings.sy
 Now that Drupal can connect to the (empty) database, we can install the site. I
 usually do this using Drush, which is added as a dependency via Composer.
 
-The command that I’d usually run is:
+The command that I'd usually run is:
 
 ```bash
 cd web
@@ -233,11 +233,11 @@ domains served from the same codebase).
 
 ### Setting up a multisite
 
-Here’s an example of how I would use local domains to configure a multisite
+Here's an example of how I would use local domains to configure a multisite
 Drupal installation (taken from
 <https://github.com/opdavies/symfony-server-drupal-test>).
 
-The first thing is to add the subdomain to the proxy. In this example, I’m going
+The first thing is to add the subdomain to the proxy. In this example, I'm going
 to set up a version of the Umami demo installation profile at
 `https://umami.wip`.
 
@@ -246,7 +246,7 @@ to set up a version of the Umami demo installation profile at
 symfony proxy:domain:attach umami
 ```
 
-Now we can add it to Drupal’s `sites.php` file to route requests to the correct
+Now we can add it to Drupal's `sites.php` file to route requests to the correct
 site directory:
 
 ```php

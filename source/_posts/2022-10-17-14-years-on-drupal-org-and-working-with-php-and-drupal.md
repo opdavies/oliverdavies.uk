@@ -4,11 +4,11 @@ pubDate: 2022-10-17
 permalink: 'daily/2022/10/17/14-years-drupalorg'
 ---
 
-Today I saw that my Drupal.org profile is showing that I’ve been on that website for 14 years.
+Today I saw that my Drupal.org profile is showing that I've been on that website for 14 years.
 
 ![A screenshot of my Drupal.org profile showing "On Drupal.org for 14 years 1 hour".]({{site.url}}/assets/images/14-drupalorg.jpg)
 
-Drupal.org is the online home of the open-source Drupal CMS project, and where I registered to ask questions on the forums as I started to learn Drupal. More recently, it’s been where I’ve uploaded and maintain my own contributed projects and contribute patches to others, including Drupal core.
+Drupal.org is the online home of the open-source Drupal CMS project, and where I registered to ask questions on the forums as I started to learn Drupal. More recently, it's been where I've uploaded and maintain my own contributed projects and contribute patches to others, including Drupal core.
 
 I even spent time working for the Drupal Association on Drupal.org itself.
 

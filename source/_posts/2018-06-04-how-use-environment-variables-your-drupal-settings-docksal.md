@@ -29,7 +29,7 @@ database name, for example.
 Also if one of these values were to change, then Drupal wouldn't be aware of
 that and would no longer be able to connect to the database.
 
-It also means that the file can’t simply be re-used on another project as it
+It also means that the file can't simply be re-used on another project as it
 contains project-specific credentials.
 
 We can improve this by using the environment variables within the settings file.
@@ -70,7 +70,7 @@ However, you may see a message like this when you try and load the site:
 > Access denied for user ''@'172.19.0.4' (using password: NO) in
 > /var/www/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php on line 156
 
-If you see this, the environment variables aren’t being passed into Docksal’s
+If you see this, the environment variables aren't being passed into Docksal's
 `cli` container, so the values are not being populated. To enable them, edit
 `.docksal/docksal.yml` and add `MYSQL_DATABASE`, `MYSQL_PASSWORD` and
 `MYSQL_USER` to the `environment` section of the `cli` service.

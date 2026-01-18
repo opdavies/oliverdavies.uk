@@ -1,6 +1,6 @@
 ---
 title: How to split a new Drupal contrib project from within another repository
-excerpt: How to use Git to split a directory from within an existing repository into it’s own.
+excerpt: How to use Git to split a directory from within an existing repository into it's own.
 tags:
     - drupal
     - drupal-7
@@ -10,10 +10,10 @@ tags:
     - open-source
 ---
 
-Yay! You’ve written a new Drupal module, theme or installation profile as part
-of your site, and now you’ve decided to open source it and upload it to
+Yay! You've written a new Drupal module, theme or installation profile as part
+of your site, and now you've decided to open source it and upload it to
 Drupal.org as a new contrib project. But how do you split it from the main site
-repository into it’s own?
+repository into it's own?
 
 Well, there are a couple of options.
 
@@ -23,7 +23,7 @@ An interesting thing to consider is, does it _need_ to be a part of the site
 repository in the first place?
 
 If from the beginning you intend to contribute the module, theme or distribution
-and it’s written as generic and re-usable from the start, then it _could_ be
+and it's written as generic and re-usable from the start, then it _could_ be
 created as a separate project on Drupal.org or as a private repository on your
 Git server from the beginning, and added as a dependency of the main project
 rather than part of it. It could already have the correct branch name and adhere
@@ -40,7 +40,7 @@ it, then pushing it straight to Drupal.org would either complicate that process
 or bypass it completely. Pushing it to a separate private repository may depend
 on your team's level of familiarity with [Composer][3], for example.
 
-It does though avoid the “we’ll clean it up and contribute it later” scenario
+It does though avoid the “we'll clean it up and contribute it later” scenario
 which probably happens less than people intend.
 
 ## Create a new, empty repository
@@ -70,15 +70,15 @@ git push origin 8.x-1.x
 ```
 
 There is a huge issue with this approach though - **you now have only one single
-commit, and you’ve lost the commmit history!**
+commit, and you've lost the commmit history!**
 
 This means that you lose the story and context of how the project was developed,
 and what decisions and changes were made during the lifetime of the project so
 far. Also, if multiple people developed it, now there is only one person being
 attributed - the one who made the single new commit.
 
-Also, if I’m considering adding your module to my project, personally I’m less
-likely to do so if I only see one "initial commit". I’d like to see the activity
+Also, if I'm considering adding your module to my project, personally I'm less
+likely to do so if I only see one "initial commit". I'd like to see the activity
 from the days, weeks or months prior to it being released.
 
 What this does allow though is to easily remove references to client names etc
@@ -88,7 +88,7 @@ before pushing the code.
 
 An alternative method is to use [git-subtree][0], a Git command that "merges
 subtrees together and split repository into subtrees". In this scenario, we can
-use `split` to take a directory from within the site repo and split it into it’s
+use `split` to take a directory from within the site repo and split it into it's
 own separate repository, keeping the commit history intact.
 
 Here is the description for the `split` command from the Git project itself:
@@ -107,7 +107,7 @@ To find the path to the top level, run `git rev-parse --show-toplevel`.
 </div>
 
 In order to do this, you need specify the prefix for the subtree (i.e. the
-directory that contains the project you’re splitting) as well as a name of a new
+directory that contains the project you're splitting) as well as a name of a new
 branch that you want to split onto.
 
 ```
@@ -146,9 +146,9 @@ git push username@git.drupal.org:project/my_new_module.git split_my_new_module:8
 
 In this case, the new branch will be `8.x-1.x`.
 
-Here is a screenshot of example module that I’ve split and pushed to GitLab.
+Here is a screenshot of example module that I've split and pushed to GitLab.
 Notice that there are multiple commits in the history, and each still attributed
-to it’s original author.
+to it's original author.
 
 ![Screenshot of a split project repo on GitLab](/images/blog/subtree-split-drupal-module.png)
 

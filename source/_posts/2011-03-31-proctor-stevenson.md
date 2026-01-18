@@ -1,6 +1,6 @@
 ---
 title: Proctor & Stevenson
-excerpt: I’m moving jobs.
+excerpt: I'm moving jobs.
 tags:
     - personal
 ---

@@ -1,6 +1,6 @@
 ---
 title: Croeso PHP South Wales!
-excerpt: Last night was the first meetup of Cardiff’s PHP South Wales user group.
+excerpt: Last night was the first meetup of Cardiff's PHP South Wales user group.
 tags:
     - php
     - php-south-wales
@@ -8,12 +8,12 @@ tags:
 has_tweets: true
 ---
 
-Last night was the first meetup of Cardiff’s [PHP South Wales user group][0]! It
+Last night was the first meetup of Cardiff's [PHP South Wales user group][0]! It
 was a great first event, and it was great to meet a lot of new people as well as
 catch up some familiars within the 36 (according to meetup.com) attendees -
 including some [PHP South West][9] regulars.
 
-Organised by Steve and Amy McDougall, it was held in Barclays’ [Eagle Lab][1]
+Organised by Steve and Amy McDougall, it was held in Barclays' [Eagle Lab][1]
 which was a great space, and it was cool to be back in Brunel House having
 worked in that building previously whilst at Appnovation.
 
@@ -27,7 +27,7 @@ worked in that building previously whilst at Appnovation.
 
 [Rob Allen][2] was the main speaker, who gave an interesting talk and a brave
 live demo on serverless PHP and OpenWhisk. I always enjoy watching Rob speak,
-which I’ve done a number of times at different events, and it was great to be
+which I've done a number of times at different events, and it was great to be
 able to chat for a while after the meetup too.
 
 {% include 'tweet' with {
@@ -43,7 +43,7 @@ the full talk soon).
 
 I gave an updated version of my [Tailwind CSS lightning talk][4], and enjoyed
 being able to show some examples of new sites using Tailwind such as [Laravel
-Nova][5], [Spatie][6]’s new website and PHP South Wales itself!
+Nova][5], [Spatie][6]'s new website and PHP South Wales itself!
 
 {% include 'tweet' with {
     class: 'my-6',
@@ -53,17 +53,17 @@ Nova][5], [Spatie][6]’s new website and PHP South Wales itself!
 
 ## Conclusion
 
-It’s great to have a meetup in Cardiff again, and having thought about organsing
-something myself previously, I’m glad to see someone step forward to do so. This
+It's great to have a meetup in Cardiff again, and having thought about organsing
+something myself previously, I'm glad to see someone step forward to do so. This
 shows that there's still a strong PHP community in Cardiff and South Wales, and
-hopefully this will be the first meetup of many. I’ll look forward to seeing the
+hopefully this will be the first meetup of many. I'll look forward to seeing the
 local community grow!
 
 Thanks again to Steve and Amy for organising, Eagle Labs for hosting, the
 sponsors, and Rob and Ismael for speaking.
 
-It would be great to see even more people at the next one. If you’re interested,
-take a look at the [group’s website][0], [meetup.com group][7] and [Twitter
+It would be great to see even more people at the next one. If you're interested,
+take a look at the [group's website][0], [meetup.com group][7] and [Twitter
 profile][8]. Alternatively, get in touch with myself or one of the organisers
 for more information.
 

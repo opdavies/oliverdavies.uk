@@ -27,4 +27,4 @@ It's definitely work upgrading, in my opinion, as the updates between Drupal 8, 
 
 Hit reply and let me know what you think.
 
-P.S. Are you still using Drupal 7 and don’t know what’s involved to upgrade to Drupal 10? Book a [Drupal 7 upgrade consultation call]({{site.url}}/call).
+P.S. Are you still using Drupal 7 and don't know what's involved to upgrade to Drupal 10? Book a [Drupal 7 upgrade consultation call]({{site.url}}/call).

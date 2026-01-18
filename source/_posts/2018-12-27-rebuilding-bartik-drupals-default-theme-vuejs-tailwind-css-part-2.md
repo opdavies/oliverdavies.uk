@@ -1,5 +1,5 @@
 ---
-title: Rebuilding Bartik (Drupal’s Default Theme) with Vue.js and Tailwind CSS - part 2
+title: Rebuilding Bartik (Drupal's Default Theme) with Vue.js and Tailwind CSS - part 2
 excerpt: A follow-up to my original post on rebuilding Bartik with Tailwind and Vue.js.
 tags:
     - drupal
@@ -10,11 +10,11 @@ has_tweets: true
 ---
 
 In [the original post](/blog/rebuilding-bartik-with-vuejs-tailwind-css) I
-detailed how I built [a clone of Drupal’s Bartik theme][netlify] with
+detailed how I built [a clone of Drupal's Bartik theme][netlify] with
 [Vue.js][vuejs] and [Tailwind CSS][tailwind]. This follow-up post details some
-updates that I’ve made to it since then.
+updates that I've made to it since then.
 
-## Customising Tailwind’s colours
+## Customising Tailwind's colours
 
 During the first version of the page, my thoughts were to not edit the Tailwind
 configuration, however I changed my mind on this whilst working on the
@@ -22,12 +22,12 @@ subsequent updates and did make some changes and customisations to the
 `tailwind.js` file.
 
 By default, Tailwind includes a full colour palette including colours such as
-yellows, oranges, reds that weren’t being used in this page so they were
+yellows, oranges, reds that weren't being used in this page so they were
 removed. This makes the file more readable as well as reduces the number of
 classes that Tailwind generates.
 
 Whist I was changing the colours, I also took the opportunity to tweak the
-values of the remaining colours to more closely match Bartik’s original colours.
+values of the remaining colours to more closely match Bartik's original colours.
 
 I also added a `black-60` class which uses
 [RGBA](https://css-tricks.com/the-power-of-rgba) to provide a semi-transparent
@@ -83,7 +83,7 @@ for links based on their location on the page -
 
         <div class="mb-6">
           <p>
-            A clone of <a href="https://www.drupal.org">Drupal</a>’s default theme (Bartik).
+            A clone of <a href="https://www.drupal.org">Drupal</a>'s default theme (Bartik).
             Built by <a href="https://www.oliverdavies.uk">Oliver Davies</a>
             using <a href="https://vuejs.org">Vue.js</a>
             and <a href="https://tailwindcss.com">Tailwind CSS</a>.
@@ -96,8 +96,8 @@ for links based on their location on the page -
 </template>
 ```
 
-Within the `style` section, I’m able to use Tailwind’s custom `@apply` directive
-to inject it’s rules into more traditional CSS, rather than needing to add them
+Within the `style` section, I'm able to use Tailwind's custom `@apply` directive
+to inject it's rules into more traditional CSS, rather than needing to add them
 onto every link.
 
 ```vue-html
@@ -132,7 +132,7 @@ onto every link.
 As well as being able to extract re-usable components within Tailwind, the same
 can be done within Vue. As the page could potentially have multiple sidebar
 blocks, I extracted a `SidebarBlock` component which would act as a wrapper
-around the block’s contents.
+around the block's contents.
 
 ```vue-html
 // src/components/Sidebar.vue
@@ -165,7 +165,7 @@ One thing
 the 'Skip to main content link'. This an accessibility feature that allows for
 users who are navigating the page using only a keyboard to bypass the navigation
 links and skip straight to the main content if they wish by clicking a link that
-is hidden and only visible whilst it’s focussed on.
+is hidden and only visible whilst it's focussed on.
 
 Here is the markup that I used, which is placed directly after the opening
 `<body>` tag.
@@ -180,8 +180,8 @@ Here is the markup that I used, which is placed directly after the opening
 ```
 
 I initially tried to implement the same feature on this website using
-[Tailwind’s visually hidden plugin](https://www.npmjs.com/package/tailwindcss-visuallyhidden)
-which also contains a `focussable` class, though I wasn’t able to style it the
+[Tailwind's visually hidden plugin](https://www.npmjs.com/package/tailwindcss-visuallyhidden)
+which also contains a `focussable` class, though I wasn't able to style it the
 way that I needed. I created my own
 [Tailwind skip link plugin](https://www.npmjs.com/package/tailwindcss-skip-link)
 and moved the re-usable styling there.
@@ -217,7 +217,7 @@ skip link that I did within the `style` section of `App.vue`.
 
 ## Adding the DrupalMessage component
 
-I also added a version of Drupal’s status message as another Vue component. This
+I also added a version of Drupal's status message as another Vue component. This
 also uses a slot to include the message contents and accepts a
 [prop](https://vuejs.org/v2/guide/components-props.html) for the message type.
 
@@ -285,7 +285,7 @@ modules: {
 ```
 
 The message is included within the Welcome component by including the
-`<drupal-message />` element, though rather than importing it there, it’s
+`<drupal-message />` element, though rather than importing it there, it's
 registed as a global component so it would be available to any other components
 that could be added in the future.
 

@@ -10,7 +10,7 @@ tags:
 
 Joel Clermont [replied to a previous email on Twitter](https://twitter.com/jclermont/status/1690872089878691840):
 
-> I once toyed around with the idea of charging MORE to do it without tests. Had a client pushing back very hard when I mentioned testing (what I thought they’d perceive as a benefit). Ended up not pursuing it, but was a fun idea at the time.
+> I once toyed around with the idea of charging MORE to do it without tests. Had a client pushing back very hard when I mentioned testing (what I thought they'd perceive as a benefit). Ended up not pursuing it, but was a fun idea at the time.
 
 It's an interesting idea.
 

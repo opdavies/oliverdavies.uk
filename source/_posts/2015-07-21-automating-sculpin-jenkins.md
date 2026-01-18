@@ -21,7 +21,7 @@ deployments of Drupal websites, so that was the logical choice to use.
 
 ## Installing Jenkins and Sculpin
 
-If you don’t already have Jenkins installed and configured, I'd suggest using
+If you don't already have Jenkins installed and configured, I'd suggest using
 [Jeff Geerling](http://jeffgeerling.com/) (aka geerlingguy)'s
 [Ansible role for Jenkins CI](https://galaxy.ansible.com/list#/roles/440).
 
@@ -42,11 +42,11 @@ Code Management** section (the Git option _may_ have been added by the
 [Git plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin) that I have
 installed).
 
-As we don’t need any write access back to the repo, using the HTTP URL rather
-than the SSH one was fine, and I didn’t need to provide any additional
+As we don't need any write access back to the repo, using the HTTP URL rather
+than the SSH one was fine, and I didn't need to provide any additional
 credentials.
 
-Also, as I knew that I’d be working a lot with feature branches, I entered
+Also, as I knew that I'd be working a lot with feature branches, I entered
 `*/master` as the only branch to build. This meant that pushing changes or
 making edits on any other branches would not trigger a build.
 
@@ -116,7 +116,7 @@ The Twig layout:
 {% endverbatim %}
 ```
 
-I also didn’t want to have to push an empty commit or manually trigger a job in
+I also didn't want to have to push an empty commit or manually trigger a job in
 Jenkins after doing a talk in order for it to be positioned in the correct place
 on the page, so I also wanted Jenkins to schedule a regular build regardless of
 whether or not code had been pushed, so ensure that my talks page would be up to
@@ -136,14 +136,14 @@ any updates to the site.
 ## Next Steps
 
 This workflow works great for one site, but as I roll out more Sculpin sites,
-I'd like to reduce duplication. I see this mainly as I’ll end up creating a
-separate `sculpin_build` item that’s decoupled from the site that it’s building,
+I'd like to reduce duplication. I see this mainly as I'll end up creating a
+separate `sculpin_build` item that's decoupled from the site that it's building,
 and instead passing variables such as environment, server name and docroot path
 as parameters in a parameterized build.
 
 I'll probably also take the raw shell script out of Jenkins and save it in a
 text file that's stored locally on the server, and execute that via Jenkins.
-This means that I’d be able to store this file in a separate Git repository with
+This means that I'd be able to store this file in a separate Git repository with
 my other Jenkins scripts and get the standard advantages of using version
 control.
 

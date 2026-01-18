@@ -1,6 +1,6 @@
 ---
 title: Yay, the Mediacurrent Contrib Half Hour is Back!
-excerpt: Mediacurrent’s "contrib half hour sessions" are back.
+excerpt: Mediacurrent's "contrib half hour sessions" are back.
 tags:
     - contribution
     - drupal
@@ -38,11 +38,11 @@ session. Here is the first one from November:
 <iframe width="678" height="408" src="//www.youtube.com/embed/8xHE5y1rA1g" frameborder="0" allowfullscreen></iframe>
 </div> -->
 
-I enjoyed watching the first few videos, as I’m always interested in
+I enjoyed watching the first few videos, as I'm always interested in
 contribution to Drupal and open-source and how to encourage it, but then no new
-videos were uploaded for a while and I hoped that it hadn’t faded away.
+videos were uploaded for a while and I hoped that it hadn't faded away.
 
-I’m glad to see today that it’s back and that all of the previous videos have
+I'm glad to see today that it's back and that all of the previous videos have
 been uploaded and added to the [YouTube playlist][0], and that [on the update
 post][3] there are scheduled topics for the rest of this month including
 documentation and automated testing.
@@ -52,7 +52,7 @@ documentation and automated testing.
 </div>
 
 I do enjoy watching these, and I like both the presentation and Q&A format that
-they alternate between. I’ll look forward to catching up over the next few days,
+they alternate between. I'll look forward to catching up over the next few days,
 and to hopefully seeing them continue to be uploaded after future meetings.
 
 Thanks Damien and Mediacurrent!
