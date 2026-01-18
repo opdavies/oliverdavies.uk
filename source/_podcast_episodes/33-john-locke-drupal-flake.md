@@ -6,6 +6,8 @@ guests:
 links:
   - - John Locke on Drupal.org
     - https://www.drupal.org/u/freelock
+  - - Freelock
+    - https://www.freelock.com
   - - Freelock on Drupal.org
     - https://www.drupal.org/freelock
   - - The Drupal Flake project
