@@ -16,7 +16,6 @@ episode_filename: https://files.oliverdavies.uk/bb/episodes/33-john-locke-drupal
 file_size: 31158164
 duration: 0:56:05
 use: [podcast_episodes]
-draft: true
 ---
 
 In this episode, Oliver is joined by John Locke - founder of Freelock, a Drupal DevOps shop based in Seattle, Washington - to discuss Drupal, Nix and the Drupal Flake project.
