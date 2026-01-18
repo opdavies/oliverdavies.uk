@@ -18,6 +18,7 @@
         {
           devshells.default = {
             packages = with pkgs; [
+              # TODO: create a `start-browsersync` script.
               nodePackages.browser-sync
 
               (php83.buildEnv {
