@@ -18,10 +18,6 @@
 
           php83Packages.composer
 
-          self'.packages.drafts
-          self'.packages.new-draft
-          self'.packages.publish
-
           tailwindcss
 
           (pkgs.writeScriptBin "build" ''
