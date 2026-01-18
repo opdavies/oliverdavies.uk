@@ -50,7 +50,6 @@
                 ${lib.getExe pkgs.rsync} -avzP output_prod/ \
                   home02:/nginx-data/oliverdavies.uk \
                   --delete --delete-after
-                  ;;
               '')
 
               (pkgs.writeScriptBin "start" ''
