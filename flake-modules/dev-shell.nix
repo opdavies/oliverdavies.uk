@@ -23,6 +23,48 @@
           self'.packages.publish
 
           tailwindcss
+
+          (pkgs.writeScriptBin "build" ''
+            #!${lib.getExe pkgs.bash}
+
+            export PATH="$PATH:vendor/bin"
+
+            sculpin generate --clean --env "''${1:-prod}" --no-interaction
+          '')
+
+          (pkgs.writeScriptBin "build-css" ''
+            #!${lib.getExe pkgs.bash}
+
+            tailwindcss \
+              --config tailwind.config.ts \
+              --input css/tailwind.css \
+              --output ../source/build/tailwind.css
+          '')
+
+          (pkgs.writeScriptBin "clean" ''
+            #!${lib.getExe pkgs.bash}
+
+            rm -rfv output_*/ vendor/
+          '')
+
+          (pkgs.writeScriptBin "deploy" ''
+            #!${lib.getExe pkgs.bash}
+
+            export PATH="$PATH:vendor/bin"
+
+            ${lib.getExe pkgs.rsync} -avzP output_prod/ \
+              home02:/nginx-data/oliverdavies.uk \
+              --delete --delete-after
+              ;;
+          '')
+
+          (pkgs.writeScriptBin "start" ''
+            #!${lib.getExe pkgs.bash}
+
+            export PATH="$PATH:vendor/bin"
+
+            sculpin generate --clean --no-interaction --server --watch "$@"
+          '')
         ];
       };
     };

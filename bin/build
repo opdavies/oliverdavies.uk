@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-set -uexo pipefail
-
-export PATH="$PATH:vendor/bin"
-
-sculpin generate --env prod

@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-set -euo pipefail
-
-if command -v direnv > /dev/null; then
-  direnv allow
-fi
