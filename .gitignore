@@ -5,7 +5,6 @@
 
 # Front-end assets.
 node_modules
-source/build
 
 # ATDC pages
 /source/atdc/*

@@ -18,8 +18,6 @@
 
           php83Packages.composer
 
-          tailwindcss
-
           (pkgs.writeScriptBin "build" ''
             #!${lib.getExe pkgs.bash}
 
