@@ -1,5 +1,5 @@
 ---
-date: 2026-01-17
+date: 2026-01-18
 topic: Drush and Drupal Test Traits
 guests:
   - Moshe Weitzman
@@ -16,7 +16,6 @@ episode_filename: https://files.oliverdavies.uk/bb/episodes/34-moshe-weitzman.mp
 file_size: 27682508
 duration: 0:56:49
 use: [podcast_episodes]
-draft: true
 ---
 
 In this episode, Oliver is joined by Moshe Weitzman to discuss Drush and Drupal Test Traits.
