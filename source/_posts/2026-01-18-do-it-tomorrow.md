@@ -4,11 +4,9 @@ tags:
   - book-notes
 ---
 
-<div class="mb-10 border border-grey-800 dark:border-grey-600">
-  <div class="py-4 px-4 border-l-4 border-blue-primary">
-    <div class="{{ site.prose_classes }}">
-      <p>This is a work-in-progress note rather than a completed blog post. Its content is not final and can be changed and updated over time.</p>
-    </div>
+<div class="messages">
+  <div class="message">
+    <p>This is a work-in-progress note rather than a completed blog post. Its content is not final and can be changed and updated over time.</p>
   </div>
 </div>
 

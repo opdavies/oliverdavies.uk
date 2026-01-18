@@ -1,0 +1,31 @@
+:root {
+  --color--primary-base: #24608a;
+
+  --border--base: black;
+
+  --border-width--base: 1px;
+  --border-width--thick: 4px;
+
+  --font-size--50: 0.875rem;
+  --font-size--100: 1rem;
+  --font-size--200: 1.25rem;
+  --font-size--300: 1.5rem;
+  --font-size--400: 2.25rem;
+  --font-size--500: 3.75rem;
+
+  --line-height--base: 1.5;
+  --line-height--tight: 1.2;
+
+  --space--base: 1rem;
+  --space--large: 2rem;
+  --space--medium: 1.5rem;
+  --space--small: 0.75rem;
+  --space--x-large: 3rem;
+  --space--x-small: 0.5rem;
+  --space--xx-large: 4rem;
+  --space--xx-small: 0.25rem;
+
+  @media (prefers-color-scheme: dark) {
+    --border--base: #57534e;
+  }
+}
