@@ -18,9 +18,6 @@
         {
           devshells.default = {
             packages = with pkgs; [
-              # TODO: create a `start-browsersync` script.
-              nodePackages.browser-sync
-
               (php83.buildEnv {
                 extraConfig = ''
                   error_reporting = E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED
@@ -59,6 +56,17 @@
                 export PATH="$PATH:vendor/bin"
 
                 sculpin generate --clean --no-interaction --server --watch "$@"
+              '')
+
+              (pkgs.writeScriptBin "start-browsersync" ''
+                #!${lib.getExe pkgs.bash}
+
+                ${pkgs.nodePackages.browser-sync}/bin/browser-sync start \
+                  --files output_dev \
+                  --no-notify \
+                  --no-open \
+                  --no-ui \
+                  --server output_dev
               '')
             ];
           };
