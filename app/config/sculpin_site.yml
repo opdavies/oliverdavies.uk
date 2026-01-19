@@ -16,7 +16,7 @@ code:
 
 ctas:
   call: |
-    Are you still using Drupal 7 and don’t know what’s involved to upgrade to Drupal 10? <a href="%site.url%/call">Book a Drupal 7 upgrade consultation call</a> or <a href="%site.url%/drupal-upgrade">an upgrade roadmap</a>.
+    Are you still using Drupal 7 and don't know what's involved to upgrade to Drupal 10? <a href="%site.url%/call">Book a Drupal 7 upgrade consultation call</a> or <a href="%site.url%/drupal-upgrade">an upgrade roadmap</a>.
   d7eol: |
     Are you stuck on Drupal 7? <a href="%site.url%/drupal-upgrade">Plan your upgrade to Drupal 10 now!</a>
   module: |
@@ -93,7 +93,7 @@ testimonials:
       url: /assets/images/recommendations/frank-landry.jpg
     tags: [testing, atdc]
   - text: |
-      Well done. You've created a really excellent resource here that has the potential to bring Drupal development forward a huge leap. You’ve managed to simplify and share some often complex seeming issues.
+      Well done. You've created a really excellent resource here that has the potential to bring Drupal development forward a huge leap. You've managed to simplify and share some often complex seeming issues.
     name: Adam Nuttall
     title: Drupal Engineer
     image:
