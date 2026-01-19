@@ -19,9 +19,7 @@
           devshells.default = {
             packages = with pkgs; [
               (php83.buildEnv {
-                extraConfig = ''
-                  error_reporting = E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED
-                '';
+                extraConfig = ''error_reporting = E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED'';
               })
 
               php83Packages.composer
@@ -29,7 +27,10 @@
               (pkgs.writeScriptBin "build" ''
                 #!${lib.getExe pkgs.bash}
 
-                vendor/bin/sculpin generate --clean --env "''${1:-prod}" --no-interaction
+                vendor/bin/sculpin generate \
+                  --clean \
+                  --env "''${1:-prod}" \
+                  --no-interaction
               '')
 
               (pkgs.writeScriptBin "clean" ''
@@ -41,7 +42,8 @@
               (pkgs.writeScriptBin "deploy" ''
                 #!${lib.getExe pkgs.bash}
 
-                ${lib.getExe pkgs.rsync} -avzP output_prod/ \
+                ${lib.getExe pkgs.rsync} -avzP \
+                  output_prod/ \
                   home02:/nginx-data/oliverdavies.uk \
                   --delete --delete-after
               '')
@@ -49,7 +51,12 @@
               (pkgs.writeScriptBin "start" ''
                 #!${lib.getExe pkgs.bash}
 
-                vendor/bin/sculpin generate --clean --no-interaction --server --watch "$@"
+                vendor/bin/sculpin generate \
+                  --clean \
+                  --no-interaction \
+                  --server \
+                  --watch \
+                  "$@"
               '')
 
               (pkgs.writeScriptBin "start-browsersync" ''
