@@ -1,0 +1,45 @@
+---
+title: Testimonial
+variants:
+  - { has_link: true,  has_title: true,  has_photo: true }
+  - { has_link: false, has_title: true,  has_photo: true }
+  - { has_link: true,  has_title: false, has_photo: true }
+  - { has_link: true,  has_title: true,  has_photo: false }
+  - { has_link: false, has_title: false, has_photo: false }
+---
+
+{% set testimonial = site.testimonials[16] %}
+
+<div style="display: grid; gap: 2rem;">
+
+  {% for variant in page.variants %}
+    <article>
+      <blockquote>
+        {{ testimonial.text|markdown }}
+      </blockquote>
+
+      <div>
+        <footer class="mt-8 flex items-center space-x-4 space-x-reverse">
+          <span class="text-base">
+            {% if variant.has_link %}
+              <a href="#0">{{ testimonial.name }}</a>
+            {% else %}
+              {{ testimonial.name }}
+            {% endif %}
+
+            {% if variant.has_title %}
+              - {{ testimonial.title }}
+            {% endif %}
+          </span>
+
+          {% if variant.has_photo %}
+            <span class="not-prose order-first flex-shrink-0">
+              <img class="size-16 rounded-full ring-[3px] ring-blue-primary dark:ring-white" alt="Photo of {{ testimonial.name }}" src="{{ testimonial.image.url }}">
+            </span>
+          {% endif %}
+        </footer>
+      </div>
+    </article>
+  {% endfor %}
+
+</div>

@@ -1,5 +1,7 @@
 ---
 sculpin_content_types:
+  components:
+    permalink: /component-library/:basename/
   pages:
     permalink: /:basename/
   podcast_episodes:
