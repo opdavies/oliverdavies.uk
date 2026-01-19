@@ -3,8 +3,6 @@ date: 2024-09-30
 topic: Static Analysis
 guests:
   - Dave Liddament
-transistor:
-  id: 9b2a9587
 links:
   - - Dave's website
     - https://www.daveliddament.co.uk

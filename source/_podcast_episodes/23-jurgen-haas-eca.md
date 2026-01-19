@@ -3,8 +3,6 @@ date: 2024-10-09
 topic: Drupal Events, Conditions and Actions
 guests:
   - Jürgen Haas
-transistor:
-  id: f68650c9
 links:
   - - Jürgen on Drupal.org
     - https://www.drupal.org/u/jurgenhaas

@@ -3,8 +3,6 @@ date: 2024-02-10
 topic: Twig, Symfony and SymfonyCasts
 guests:
   - Ryan Weaver
-transistor:
-  id: f276e486
 links:
   - - Symfony
     - https://symfony.com

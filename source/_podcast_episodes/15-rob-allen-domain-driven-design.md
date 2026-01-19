@@ -3,8 +3,6 @@ date: 2024-03-20
 topic: Domain-Driven Design
 guests:
   - Rob Allen
-transistor:
-  id: 0de0b405
 links:
   - - Rob's blog
     - https://akrabat.com

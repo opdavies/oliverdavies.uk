@@ -3,8 +3,6 @@ date: 2024-10-16
 topic: Generative AI in PHP
 guests:
   - Chris Ballard
-transistor:
-  id: ab87d408
 links:
   - - Chris on LinkedIn
     - https://www.linkedin.com/in/chris-ballard-3b573b3

@@ -3,8 +3,6 @@ date: 2024-08-09
 topic: LEGO, robotics and open-source software
 guests:
   - Andy Hoang
-transistor:
-  id: 82fb51bf
 links:
   - - Beyond Blocks website
     - https://www.beyondblocks.co.uk

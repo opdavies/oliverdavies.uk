@@ -3,8 +3,6 @@ date: 2024-01-10
 topic: Testing Legacy
 guests:
   - Mike Karthauser
-transistor:
-  id: c264ca69
 links:
   - - Huboo
     - https://huboo.com

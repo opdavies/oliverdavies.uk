@@ -26,8 +26,6 @@ links:
     - https://www.drupal.org/u/hestenet
   - - Tim on Twitter
     - https://twitter.com/TimLehnen
-transistor:
-  id: e5d5ba38
 episode_filename: https://files.oliverdavies.uk/bb/episodes/09-drupal-association.mp3
 file_size: 36650781
 duration: 1:06:23

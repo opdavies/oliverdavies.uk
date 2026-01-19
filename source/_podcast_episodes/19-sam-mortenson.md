@@ -3,8 +3,6 @@ date: 2024-08-27
 topic: Single File Components and Static Drupal Websites
 guests:
   - Sam Mortenson
-transistor:
-  id: 824e9f2b
 links:
   - - Sam Mortenson on Drupal.org
     - https://www.drupal.org/u/samuelmortenson

@@ -3,8 +3,6 @@ date: 2023-12-01
 topic: A case study from Oxfam
 guests:
   - Ed Crompton
-transistor:
-  id: 0ff9802a
 links:
   - - Ed Crompton on Drupal.org
     - https://www.drupal.org/u/eddie_c

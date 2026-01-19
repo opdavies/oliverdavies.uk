@@ -3,8 +3,6 @@ date: 2024-11-07
 topic: Drush and Laravel Prompts
 guests:
   - Jess Archer
-transistor:
-  id: 8f4510b0
 links:
   - - Jess' website
     - https://jessarcher.com

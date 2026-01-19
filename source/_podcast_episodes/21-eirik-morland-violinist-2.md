@@ -3,8 +3,6 @@ date: 2024-09-13
 topic: Violinist, Render Arrays and Feature Flags
 guests:
   - Eirik Morland
-transistor:
-  id: a4f651a7
 links:
   - - violinist.io
     - https://violinist.io

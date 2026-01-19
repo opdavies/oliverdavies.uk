@@ -3,8 +3,6 @@ date: 2023-12-09
 topic: Managing technical debt
 guests:
   - Dieter Blomme
-transistor:
-  id: 40066a7f
 links:
   - - DrupalCon Lille
     - https://events.drupal.org/lille2023

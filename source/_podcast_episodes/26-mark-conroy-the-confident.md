@@ -3,8 +3,6 @@ date: 2024-12-31
 topic: The Confident and open source sustainability
 guests:
   - Mark Conroy
-transistor:
-  id: 30d1a880
 links:
   - - mark.ie
     - https://mark.ie

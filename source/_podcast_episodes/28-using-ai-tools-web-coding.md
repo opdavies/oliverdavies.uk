@@ -3,8 +3,6 @@ date: 2025-05-23
 topic: Using AI tools for web coding
 guests:
   - Luke McCormick
-transistor:
-  id: ~
 links:
   - - Luke on Drupal.org
     - https://www.drupal.org/u/cellear

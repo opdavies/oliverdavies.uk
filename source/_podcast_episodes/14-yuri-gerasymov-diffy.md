@@ -3,8 +3,6 @@ date: 2024-03-11
 topic: Diffy and Visual Regression Testing
 guests:
   - Yuri Gerasymov
-transistor:
-  id: 5940d69f
 links:
   - - About Yuri
     - https://ygerasimov.com/about-me

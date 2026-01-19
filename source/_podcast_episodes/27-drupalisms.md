@@ -4,8 +4,6 @@ topic: Discussing Drupalisms
 guests:
   - Emma Horrell
   - Luke McCormick
-transistor:
-  id: ~
 links:
   - - De-jargoning Drupal – working with the community to open up Drupal's terminology
     - https://www.drupal.org/association/blog/de-jargoning-drupal-working-with-the-community-to-open-up-drupals-terminology

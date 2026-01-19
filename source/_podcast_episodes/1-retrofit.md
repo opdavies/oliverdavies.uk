@@ -26,8 +26,6 @@ links:
     - https://www.youtube.com/@nmdmatt
   - - Matt on Twitch
     - https://www.twitch.tv/mglaman
-transistor:
-  id: 7d728873
 episode_filename: https://files.oliverdavies.uk/bb/episodes/01-retrofit.mp3
 file_size: 20523767
 duration: 0:43:52

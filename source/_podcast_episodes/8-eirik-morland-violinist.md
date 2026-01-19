@@ -3,8 +3,6 @@ date: 2024-01-29
 topic: Violinist and automation
 guests:
   - Eirik Morland
-transistor:
-  id: ba4405e5
 links:
   - - violinist.io
     - https://violinist.io

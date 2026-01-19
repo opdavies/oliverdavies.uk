@@ -3,8 +3,6 @@ date: 2025-05-30
 topic: Drupal CMS Recipes
 guests:
   - Gareth Alexander
-transistor:
-  id: ~
 links:
   - - The Drupal recipes cookbook
     - https://www.drupal.org/docs/extending-drupal/contributed-modules/contributed-module-documentation/distributions-and-recipes-initiative/recipes-cookbook

@@ -3,8 +3,6 @@ date: 2024-02-26
 topic: Docker
 guests:
   - Nick Janetakis
-transistor:
-  id: a0498296
 links:
   - - Nick's website and blog
     - https://nickjanetakis.com

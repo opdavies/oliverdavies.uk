@@ -3,8 +3,6 @@ date: 2024-03-04
 topic: Centarro and Drupal Commerce
 guests:
   - Ryan Szrama
-transistor:
-  id: ab539bef
 links:
   - - Centarro
     - https://www.centarro.io

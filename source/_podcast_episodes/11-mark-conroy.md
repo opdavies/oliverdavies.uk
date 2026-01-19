@@ -3,8 +3,6 @@ date: 2024-02-16
 topic: Build something useful in one day
 guests:
   - Mark Conroy
-transistor:
-  id: c2c3f7b3
 links:
   - - mark.ie
     - https://mark.ie

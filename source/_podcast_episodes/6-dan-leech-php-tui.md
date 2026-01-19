@@ -3,8 +3,6 @@ date: 2023-12-19
 topic: 'TUIs, CLIs and open-source'
 guests:
   - Dan Leech
-transistor:
-  id: 45d57d43
 links:
   - - PHP TUI on GitHub
     - https://github.com/php-tui

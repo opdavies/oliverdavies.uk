@@ -3,8 +3,6 @@ date: 2024-09-06
 topic: Bootcamps, Hackathons, Meetups and Drupal
 guests:
   - George Gordon
-transistor:
-  id: ec999352
 links:
   - - School of Code
     - https://schoolofcode.co.uk

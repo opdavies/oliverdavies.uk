@@ -3,8 +3,6 @@ date: 2024-07-18
 topic: Automation, Linux training and mechanical keyboards
 guests:
   - Jochen Lillich
-transistor:
-  id: d8858593
 links:
   - - Jochen's personal website
     - https://www.geewiz.dev
