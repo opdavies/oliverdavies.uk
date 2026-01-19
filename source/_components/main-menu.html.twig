@@ -1,0 +1,11 @@
+---
+title: Main menu
+---
+
+<nav id="main-menu">
+  {% for link in site.menu_links %}
+    <a href="{{ link.url }}" title="{{ link.attributes.title ?? link.title }}">
+      {{ link.title }}
+    </a>
+  {% endfor %}
+</nav>
