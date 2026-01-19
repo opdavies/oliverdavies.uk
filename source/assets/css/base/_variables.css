@@ -26,6 +26,8 @@
   --space--xx-small: 0.25rem;
 
   @media (prefers-color-scheme: dark) {
+    --color--primary-base: #60a5fa;
+
     --border--base: #57534e;
   }
 }

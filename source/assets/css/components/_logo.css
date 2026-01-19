@@ -1,0 +1,5 @@
+.site-logo {
+  fill: var(--color--primary-base);
+  height: var(--space--xx-large);
+  width: var(--space--xx-large);
+}
