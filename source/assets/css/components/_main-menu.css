@@ -1,0 +1,14 @@
+#main-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  > * {
+    margin: 0 var(--space--small) var(--space--small);
+  }
+
+  a {
+    font-size: var(--font-size--150);
+    text-decoration: underline;
+  }
+}
