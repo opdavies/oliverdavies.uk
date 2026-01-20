@@ -1,11 +1,35 @@
 ---
 title: Testimonial
 variants:
-  - { has_link: true,  has_title: true,  has_photo: true }
-  - { has_link: false, has_title: true,  has_photo: true }
-  - { has_link: true,  has_title: false, has_photo: true }
-  - { has_link: true,  has_title: true,  has_photo: false }
-  - { has_link: false, has_title: false, has_photo: false }
+  - title: ~
+    context:
+      has_link: true
+      has_photo: true
+      has_title: true
+
+  - title: No link
+    context:
+      has_link: false
+      has_photo: true
+      has_title: true
+
+  - title: No title
+    context:
+      has_link: true
+      has_photo: true
+      has_title: false
+
+  - title: No photo
+    context:
+      has_link: true
+      has_photo: false
+      has_title: true
+
+  - title: No photo or link
+    context:
+      has_link: false
+      has_photo: false
+      has_title: false
 ---
 
 {% set testimonial = site.testimonials[16] %}
@@ -13,33 +37,39 @@ variants:
 <div style="display: grid; gap: 4rem;">
 
   {% for variant in page.variants %}
-    <article class="testimonial">
-      <blockquote>
-        {{ testimonial.text|markdown }}
-      </blockquote>
+    <div>
+      {% if variant.title %}
+        <h2>{{ variant.title }}</h2>
+      {% endif %}
 
-      <div>
-        <footer class="mt-8 flex items-center space-x-4 space-x-reverse">
-          <span class="text-base">
-            {% if variant.has_link %}
-              <a href="#0">{{ testimonial.name }}</a>
-            {% else %}
-              {{ testimonial.name }}
-            {% endif %}
+      <article class="testimonial">
+        <blockquote>
+          {{ testimonial.text|markdown }}
+        </blockquote>
 
-            {% if variant.has_title %}
-              - {{ testimonial.title }}
-            {% endif %}
-          </span>
+        <div>
+          <footer class="mt-8 flex items-center space-x-4 space-x-reverse">
+            <span class="text-base">
+              {% if variant.context.has_link %}
+                <a href="#0">{{ testimonial.name }}</a>
+              {% else %}
+                {{ testimonial.name }}
+              {% endif %}
 
-          {% if variant.has_photo %}
-            <span class="not-prose order-first flex-shrink-0">
-              <img class="size-16 rounded-full ring-[3px] ring-blue-primary dark:ring-white" alt="Photo of {{ testimonial.name }}" src="{{ testimonial.image.url }}">
+              {% if variant.context.has_title %}
+                - {{ testimonial.title }}
+              {% endif %}
             </span>
-          {% endif %}
-        </footer>
-      </div>
-    </article>
+
+            {% if variant.context.has_photo %}
+              <span class="not-prose order-first flex-shrink-0">
+                <img class="size-16 rounded-full ring-[3px] ring-blue-primary dark:ring-white" alt="Photo of {{ testimonial.name }}" src="{{ testimonial.image.url }}">
+              </span>
+            {% endif %}
+          </footer>
+        </div>
+      </article>
+    </div>
   {% endfor %}
 
 </div>

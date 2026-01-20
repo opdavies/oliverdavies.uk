@@ -1,3 +1,12 @@
+h2 {
+  font-weight: var(--font-weight--bold) !important;
+  margin: var(--space--large) 0 var(--space--medium) !important;
+
+  &:first-of-type {
+    margin-top: 0 !important;
+  }
+}
+
 p:first-of-type {
   margin-top: 0;
 }
