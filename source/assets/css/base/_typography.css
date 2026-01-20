@@ -5,3 +5,12 @@ p:first-of-type {
 p:last-of-type {
   margin-bottom: 0;
 }
+
+a {
+  color: var(--color--link) !important;
+  text-decoration: underline !important;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}

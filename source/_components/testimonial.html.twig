@@ -10,10 +10,10 @@ variants:
 
 {% set testimonial = site.testimonials[16] %}
 
-<div style="display: grid; gap: 2rem;">
+<div style="display: grid; gap: 4rem;">
 
   {% for variant in page.variants %}
-    <article>
+    <article class="testimonial">
       <blockquote>
         {{ testimonial.text|markdown }}
       </blockquote>

@@ -1,6 +1,7 @@
 :root {
   --color--primary-base: #24608a;
 
+  --color--border: var(--color--primary-base);
   --color--link: var(--color--primary-base);
 
   --border--base: black;
