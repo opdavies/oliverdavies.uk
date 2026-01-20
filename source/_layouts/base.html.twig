@@ -77,7 +77,11 @@
               {% block page_title %}{{ page.title }}{% endblock %}
             </h1>
 
-            <div class="{{ site.prose_classes }}">
+            {% if page.url matches "#^/component-library/#" %}
+              <div>
+            {% else %}
+              <div class="{{ site.prose_classes }}">
+            {% endif %}
               {% block content_wrapper %}
                 {% block content %}{% endblock %}
               {% endblock %}
