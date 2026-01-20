@@ -1,6 +1,7 @@
 @import "base/_typography.css";
 @import "base/_variables.css";
 
+@import "components/_container.css";
 @import "components/_logo.css";
 @import "components/_main-menu.css";
 @import "components/_messages.css";

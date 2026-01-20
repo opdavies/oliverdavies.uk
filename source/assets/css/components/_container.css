@@ -1,0 +1,12 @@
+.container {
+  margin: 0 auto;
+  max-width: var(--container--base) !important;
+  padding: 0 var(--space--base);
+  width: 100%;
+}
+
+@media (width >= 40rem) {
+  .container {
+    padding: 0 var(--space--medium);
+  }
+}

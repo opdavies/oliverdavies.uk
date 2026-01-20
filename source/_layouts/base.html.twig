@@ -50,9 +50,7 @@
     <a class="sr-only focus:not-sr-only" href="#footer">Jump to the navigation menu</a>
 
     <div class="min-h-screen font-sans text-base font-light md:text-xl dark:text-white text-grey-900 selection:bg-blue-primary selection:text-white dark:bg-grey-900 dark:selection:bg-blue-primary dark:selection:text-white">
-      {% include 'banner.html.twig' %}
-
-      <div class="py-4 px-4 mx-auto max-w-xl">
+      <div class="container">
         {% if not (page.url matches "#^/component-library/#") %}
           <header class="flex flex-col justify-between items-center md:flex-row">
             {% include 'logo.html.twig' %}
@@ -60,7 +58,7 @@
         {% endif %}
       </div>
 
-      <div class="py-10 px-6 mx-auto max-w-xl md:py-10">
+      <div class="container | py-10 md:py-10">
         <div class="space-y-10">
           {% block content_top %}{% endblock %}
 

@@ -6,6 +6,8 @@
   --border-width--base: 1px;
   --border-width--thick: 4px;
 
+  --container--base: 36rem;
+
   --font-size--50: 0.875rem;
   --font-size--100: 1rem;
   --font-size--150: 1.125rem;
