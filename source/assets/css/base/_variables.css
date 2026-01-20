@@ -1,6 +1,8 @@
 :root {
   --color--primary-base: #24608a;
 
+  --color--link: var(--color--primary-base);
+
   --border--base: black;
 
   --border-width--base: 1px;
@@ -15,6 +17,8 @@
   --font-size--300: 1.5rem;
   --font-size--400: 2.25rem;
   --font-size--500: 3.75rem;
+
+  --font-weight--bold: 600;
 
   --line-height--base: 1.5;
   --line-height--tight: 1.2;

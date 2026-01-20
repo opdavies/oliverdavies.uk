@@ -1,0 +1,18 @@
+---
+title: Presentation list
+use: [presentations]
+---
+
+{% set presentations = data.presentations[:4] %}
+
+<div class="grid gap-y--large">
+  {% for presentation in presentations %}
+    <article class="presentation presentation--teaser gap-y--x-small">
+      <h2><a href="#0">{{ presentation.title }}</a></h2>
+
+      <div>
+        <p>{{ presentation.description }}</p>
+      </div>
+    </article>
+  {% endfor %}
+</div>
