@@ -7,21 +7,21 @@ pagination:
 use: [posts]
 ---
 
-{% if site.features.show_blog_post_count %}
-  {{ data.posts|length|number_format }}
-{% endif %}
+<p>Here are the {{ data.posts|length|number_format }} blog posts and public notes I have written (so far), on topics including software development, open source software, productivity, public speaking and personal updates.</p>
 
-<ul>
-  {% for post in page.pagination.items %}
-    <li>
-      <a href="{{ post.url|trim('/', 'right') }}">{{ post.title }}</a> - {{ post.date|date('jS F Y') }}
-    </li>
-  {% endfor %}
+<div style="margin-top: 2rem;">
+  <ul>
+    {% for post in page.pagination.items %}
+      <li>
+        <a href="{{ post.url|trim('/', 'right') }}">{{ post.title }}</a> - {{ post.date|date('jS F Y') }}
+      </li>
+    {% endfor %}
 
-  {% if page.pagination.previous_page or page.pagination.next_page %}
-    <nav class="flex justify-center pt-10 space-x-6">
-      {% if page.pagination.previous_page %}<a href="{{ site.url }}{{ page.pagination.previous_page.url }}">&larr; Newer Posts{% endif %}<br />
-      {% if page.pagination.next_page %}<a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Posts &rarr;</a>{% endif %}<br />
-    </nav>
-  {% endif %}
-</ul>
+    {% if page.pagination.previous_page or page.pagination.next_page %}
+      <nav class="flex justify-center pt-10 space-x-6">
+        {% if page.pagination.previous_page %}<a href="{{ site.url }}{{ page.pagination.previous_page.url }}">&larr; Newer Posts{% endif %}<br />
+        {% if page.pagination.next_page %}<a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Posts &rarr;</a>{% endif %}<br />
+      </nav>
+    {% endif %}
+  </ul>
+</div>
