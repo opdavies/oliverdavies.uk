@@ -18,9 +18,7 @@ drupalorg:
   url: https://www.drupal.org/u/%drupalorg.username%
   username: opdavies
 
-features:
-  new_css: false
-  show_blog_post_count: true
+features: []
 
 github:
   url: https://github.com/%github.username%

@@ -2,8 +2,4 @@
 imports:
   - sculpin_site.yml
 
-features:
-  new_css: false
-  show_blog_post_count: false
-
 url: https://www.oliverdavies.uk
