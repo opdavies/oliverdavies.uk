@@ -24,46 +24,47 @@ variants:
       has_link: true
       has_photo: false
       has_title: true
+use: [testimonials]
 ---
 
-{% set testimonial = site.testimonials[16] %}
-
 <div style="display: grid; gap: 4rem;">
+  {% set testimonial = data.testimonials|filter(t => t.name == 'Jon Hallett')|first %}
 
-  {% for variant in page.variants %}
-    <div>
-      {% if variant.title %}
-        <h2>{{ variant.title }}</h2>
-      {% endif %}
+  {% if testimonial %}
+    {% for variant in page.variants %}
+      <div>
+        {% if variant.title %}
+          <h2>{{ variant.title }}</h2>
+        {% endif %}
 
-      <article class="testimonial">
-        <blockquote>
-          {{ testimonial.text|markdown }}
-        </blockquote>
+        <article class="testimonial">
+          <blockquote>
+            {{ testimonial.blocks.content|raw }}
+          </blockquote>
 
-        <div>
-          <footer class="mt-8 flex items-center space-x-4 space-x-reverse">
-            <span class="text-base">
-              {% if variant.context.has_link %}
-                <a href="#0">{{ testimonial.name }}</a>
-              {% else %}
-                {{ testimonial.name }}
-              {% endif %}
+          <div>
+            <footer class="mt-8 flex items-center space-x-4 space-x-reverse">
+              <span class="text-base">
+                {% if variant.context.has_link %}
+                  <a href="#0">{{ testimonial.name }}</a>
+                {% else %}
+                  {{ testimonial.name }}
+                {% endif %}
 
-              {% if variant.context.has_title %}
-                - {{ testimonial.title }}
-              {% endif %}
-            </span>
-
-            {% if variant.context.has_photo %}
-              <span class="not-prose order-first flex-shrink-0">
-                <img class="size-16 rounded-full ring-[3px] ring-blue-primary dark:ring-white" alt="Photo of {{ testimonial.name }}" src="{{ testimonial.image.url }}">
+                {% if variant.context.has_title %}
+                  - {{ testimonial.title }}
+                {% endif %}
               </span>
-            {% endif %}
-          </footer>
-        </div>
-      </article>
-    </div>
-  {% endfor %}
 
+              {% if variant.context.has_photo %}
+                <span class="not-prose order-first flex-shrink-0">
+                  <img class="size-16 rounded-full ring-[3px] ring-blue-primary dark:ring-white" alt="Photo of {{ testimonial.name }}" src="{{ testimonial.image.url }}">
+                </span>
+              {% endif %}
+            </footer>
+          </div>
+        </article>
+      </div>
+    {% endfor %}
+  {% endif %}
 </div>
