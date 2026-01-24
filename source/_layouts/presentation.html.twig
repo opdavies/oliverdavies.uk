@@ -5,27 +5,31 @@
 {% block content_wrapper %}
   {{ parent() }}
 
-  {% if block('abstract') %}
-    <h2>Abstract</h2>
+  <div class="gap-y--large">
+    {% if block('abstract') %}
+      <div>
+        <h2>Abstract</h2>
 
-    {% block abstract %}{% endblock %}
-  {% endif %}
+        {% block abstract %}{% endblock %}
+      </div>
+    {% endif %}
 
-  {% if page.new_events %}
-    {% include 'presentation/events-new' with {
-      events: page.events,
-    } %}
-  {% else %}
-    {% include 'presentation/slides' with {
-      speakerdeck: page.speakerdeck,
-    } %}
+    {% if page.new_events %}
+      {% include 'presentation/events-new' with {
+        events: page.events,
+      } %}
+    {% else %}
+      {% include 'presentation/slides' with {
+        speakerdeck: page.speakerdeck,
+      } %}
 
-    {% include 'presentation/video' with {
-      video: page.video,
-    } %}
+      {% include 'presentation/video' with {
+        video: page.video,
+      } %}
 
-    {% include 'presentation/events' with {
-      events: page.events,
-    } %}
-  {% endif %}
+      {% include 'presentation/events' with {
+        events: page.events,
+      } %}
+    {% endif %}
+  </div>
 {% endblock %}
