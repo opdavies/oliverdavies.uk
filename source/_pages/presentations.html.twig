@@ -4,7 +4,13 @@ title: Presentations
 use: [presentations]
 ---
 
-<p>Since September 2012, I have given {{ get_presentation_count(data.presentations) }} public talks and workshops at various conferences and meetups, in-person and remotely, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.</p>
+{% set presentationCount = 0 -%}
+
+{% for presentation in data.presentations -%}
+  {% set presentationCount = presentationCount + presentation.events|length -%}
+{% endfor %}
+
+<p>Since September 2012, I have given {{ presentationCount }} public talks and workshops at various conferences and meetups, in-person and remotely, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.</p>
 
 <div style="margin-top: 3rem;">
   <div class="grid gap-y--large">
