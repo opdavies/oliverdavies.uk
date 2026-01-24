@@ -5,9 +5,7 @@
 {%- endblock %}
 
 {% block page_title -%}
-  {% set episodeNumber = page.url|trim('/')|split('/')|last|split('-')|first -%}
-
-  Episode {{ episodeNumber }}: {{ page.topic }} with {{ page.guests|join(' and ') }}
+  Episode {{ page.episode_number }}: {{ page.topic }} with {{ page.guests|join(' and ') }}
 {%- endblock %}
 
 {% block head_title %}
