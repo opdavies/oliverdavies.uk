@@ -24,6 +24,33 @@
 
               php83Packages.composer
 
+              (pkgs.writeScriptBin "create-blog-post" ''
+                #!${lib.getExe pkgs.bash}
+
+                set -euo pipefail
+
+                if [[ $# -lt 1 ]]; then
+                  echo "Usage: $(basename $0) <slug>"
+
+                  exit 1
+                fi
+
+                today="$(date +%Y-%m-%d)"
+
+                filename="$today-$1.md"
+
+                cat << EOF_POST > "source/_posts/$filename"
+                ---
+                title:
+                tags: []
+                ---
+
+
+                EOF_POST
+
+                "$EDITOR" "source/_posts/$filename"
+              '')
+
               (pkgs.writeScriptBin "build" ''
                 #!${lib.getExe pkgs.bash}
 
