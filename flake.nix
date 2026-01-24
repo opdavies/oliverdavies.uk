@@ -14,7 +14,7 @@
       imports = [ inputs.devshell.flakeModule ];
 
       perSystem =
-        { pkgs, self', ... }:
+        { pkgs, ... }:
         {
           devshells.default = {
             packages = with pkgs; [
