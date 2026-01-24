@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Things you should know about PHP
 ---
 

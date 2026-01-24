@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Sponsor me to work on Open Source Software
 ---
 

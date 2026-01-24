@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Welcome!
 meta:
     title: Welcome to my Daily Email list | %site.name%

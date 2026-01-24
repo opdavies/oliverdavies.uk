@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Hi, PHP UserGroup Munich!
 ---
 

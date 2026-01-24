@@ -1,5 +1,4 @@
 ---
-layout: page
 title: DrupalCamp Ghent 2024
 ---
 

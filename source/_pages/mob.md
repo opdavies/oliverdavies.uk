@@ -1,5 +1,4 @@
 ---
-layout: page
 title: An Introduction to Mob Programming
 ---
 

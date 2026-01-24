@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Welcome to the Test-Driven Drupal email course
 meta:
     title: Welcome to the Test-Driven Drupal email course | %site.name%

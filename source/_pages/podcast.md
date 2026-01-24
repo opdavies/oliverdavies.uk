@@ -1,5 +1,4 @@
 ---
-layout: page
 title: The Beyond Blocks podcast
 meta:
   description: A podcast about Drupal, PHP open-source and software development.

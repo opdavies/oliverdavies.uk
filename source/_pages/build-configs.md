@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Build Configs - configuration files as a service"
 products:
     -

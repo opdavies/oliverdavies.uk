@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Are you stuck on Drupal 7, 8 or 9?
 button:
     text: Book your roadmap now

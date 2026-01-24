@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Introduction to Automated Testing and Test-Driven Development with Drupal
 drupal_version: 10
 prices:
