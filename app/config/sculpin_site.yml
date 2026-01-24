@@ -24,10 +24,6 @@ github:
   url: https://github.com/%github.username%
   username: opdavies
 
-mastodon:
-  username: opdavies
-  url: https://mastodon.social/@%mastodon.username%
-
 menu_links:
   - title: Home
     url: /
