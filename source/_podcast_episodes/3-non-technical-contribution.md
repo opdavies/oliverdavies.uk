@@ -22,7 +22,7 @@ links:
     - https://www.drupal.org/factorial-gmbh
   - - 'Factorial on YouTube'
     - https://www.youtube.com/channel/UCJslkuiIJLTRmYEvN2y-jzA
-episode_filename: https://files.oliverdavies.uk/bb/episodes/03-community-engagement.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/03-community-engagement.mp3
 file_size: 24882117
 duration: 0:50:39
 use: [podcast_episodes]

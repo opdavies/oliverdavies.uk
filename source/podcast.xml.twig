@@ -56,7 +56,7 @@ permalink: /podcast.xml
         </content:encoded>
         <pubDate>{{ episode.date }}</pubDate>
         <author>Oliver Davies</author>
-        <enclosure url="{{ site.url }}/files/bb/episodes/{{ episode.episode_filename }}" length="{{ episode.file_size }}" type="audio/mpeg"/>
+        <enclosure url="{{ episode.embed_url }}" length="{{ episode.file_size }}" type="audio/mpeg"/>
         <itunes:author>Oliver Davies</itunes:author>
         <itunes:duration>{{ (durationParts[0] * 60 * 60) + (durationParts[1] * 60) + durationParts[2] }}</itunes:duration>
         <itunes:summary>

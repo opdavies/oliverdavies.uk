@@ -16,7 +16,7 @@ links:
     - https://simplifydrupal.com
 quotes: []
 chapters: []
-episode_filename: https://files.oliverdavies.uk/bb/episodes/28-using-ai-web-coding.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/28-using-ai-web-coding.mp3
 file_size: 28682900
 duration: 00:56:04
 use: [podcast_episodes]

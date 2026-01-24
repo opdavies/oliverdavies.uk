@@ -14,7 +14,7 @@ links:
     - https://www.drupal.org/u/the_g_bomb
   - - Gareth's presentation at DrupalCamp England
     - https://www.youtube.com/watch?v=b7MDA-kKCCk
-episode_filename: https://files.oliverdavies.uk/bb/episodes/29-drupal-cms-recipes.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/29-drupal-cms-recipes.mp3
 file_size: 30861164
 duration: 00:59:29
 use: [podcast_episodes]

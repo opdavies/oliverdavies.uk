@@ -28,7 +28,7 @@ links:
     - https://automica.io
   - - Mike on LinkedIn
     - https://www.linkedin.com/in/mikekarthauser
-episode_filename: https://files.oliverdavies.uk/bb/episodes/07-testing-legacy.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/07-testing-legacy.mp3
 file_size: 24294452
 duration: 0:53:23
 use: [podcast_episodes]

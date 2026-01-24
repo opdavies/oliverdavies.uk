@@ -9,7 +9,7 @@ links:
 talking_points: []
 quotes: []
 chapters: []
-episode_filename: https://files.oliverdavies.uk/bb/episodes/16-health-fitness-weight.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/16-health-fitness-weight.mp3
 file_size: 22258088
 duration: 0:42:06
 use: [podcast_episodes]

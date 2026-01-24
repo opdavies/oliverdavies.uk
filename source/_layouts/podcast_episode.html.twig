@@ -17,9 +17,9 @@
 {% endblock %}
 
 {% block content_wrapper %}
-  {% if page.episode_filename %}
+  {% if page.embed_url %}
     <audio controls>
-      <source src="{{ page.episode_filename }}" type="audio/mp3">
+      <source src="{{ page.embed_url }}" type="audio/mp3">
     </audio>
   {% endif %}
 

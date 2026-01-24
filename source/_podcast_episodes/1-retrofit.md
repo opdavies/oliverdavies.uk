@@ -26,7 +26,7 @@ links:
     - https://www.youtube.com/@nmdmatt
   - - Matt on Twitch
     - https://www.twitch.tv/mglaman
-episode_filename: https://files.oliverdavies.uk/bb/episodes/01-retrofit.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/01-retrofit.mp3
 file_size: 20523767
 duration: 0:43:52
 use: [podcast_episodes]

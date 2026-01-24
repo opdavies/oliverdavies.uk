@@ -24,7 +24,7 @@ links:
     - https://blog.holacracy.org/holacracy-basics-understanding-objections-d87b579d00d1
   - - Decision by traffic light
     - https://www.linkedin.com/pulse/decision-making-101-traffic-lights-puppy-case-study-valerio-magliulo
-episode_filename: https://files.oliverdavies.uk/bb/episodes/05-technical-debt.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/05-technical-debt.mp3
 file_size: 23248532
 duration: 0:52:22
 use: [podcast_episodes]

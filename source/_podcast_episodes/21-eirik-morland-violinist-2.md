@@ -23,7 +23,7 @@ links:
 talking_points: []
 quotes: []
 chapters: []
-episode_filename: https://files.oliverdavies.uk/bb/episodes/21-violinist.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/21-violinist.mp3
 file_size: 30666885
 duration: 1:01:55
 use: [podcast_episodes]

@@ -18,7 +18,7 @@ links:
     - https://drupal.org.gr
   - - Frontend United
     - https://www.frontendunited.com
-episode_filename: https://files.oliverdavies.uk/bb/episodes/02-alternate-realities.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/02-alternate-realities.mp3
 file_size: 19346455
 duration: 0:43:51
 use: [podcast_episodes]

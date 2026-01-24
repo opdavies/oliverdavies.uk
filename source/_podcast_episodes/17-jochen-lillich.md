@@ -15,7 +15,7 @@ links:
 talking_points: []
 quotes: []
 chapters: []
-episode_filename: https://files.oliverdavies.uk/bb/episodes/17-automation-linux.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/17-automation-linux.mp3
 file_size: 26449557
 duration: 0:54:23
 use: [podcast_episodes]

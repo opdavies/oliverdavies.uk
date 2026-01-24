@@ -14,7 +14,7 @@ links:
     - https://www.drupal.org/project/drupal_flake
   - - Containerless Dev environments for Drupal development with Nix | DrupalCon Atlanta 2025
     - https://www.youtube.com/watch?v=0SSce2kXKNQ
-episode_filename: https://files.oliverdavies.uk/bb/episodes/33-john-locke-drupal-flake.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/33-john-locke-drupal-flake.mp3
 file_size: 31158164
 duration: 0:56:05
 use: [podcast_episodes]

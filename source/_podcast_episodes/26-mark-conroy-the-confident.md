@@ -12,7 +12,7 @@ links:
     - https://the-confident.com
 quotes: []
 chapters: []
-episode_filename: https://files.oliverdavies.uk/bb/episodes/26-the-confident.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/26-the-confident.mp3
 file_size: 25367036
 duration: 00:48:53
 use: [podcast_episodes]

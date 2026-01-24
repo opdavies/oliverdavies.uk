@@ -12,7 +12,7 @@ links:
     - https://www.drush.org
   - - Drush on GitHub
     - https://github.com/drush-ops/drush
-episode_filename: https://files.oliverdavies.uk/bb/episodes/34-moshe-weitzman.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/34-moshe-weitzman.mp3
 file_size: 27682508
 duration: 0:56:49
 use: [podcast_episodes]

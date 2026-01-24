@@ -23,7 +23,7 @@ links:
 talking_points: []
 quotes: []
 chapters: []
-episode_filename: https://files.oliverdavies.uk/bb/episodes/22-static-analysis.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/22-static-analysis.mp3
 file_size: 25543869
 duration: 0:58:55
 use: [podcast_episodes]

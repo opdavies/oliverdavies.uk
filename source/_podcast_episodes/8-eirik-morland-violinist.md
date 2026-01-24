@@ -20,7 +20,7 @@ links:
     - https://www.drupal.org/about/core/strategic-initiatives/automatic-updates
   - - Logo is a conductor, not a composer
     - https://github.com/composer/getcomposer.org/issues/36
-episode_filename: https://files.oliverdavies.uk/bb/episodes/08-violinist.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/08-violinist.mp3
 file_size: 27664298
 duration: 1:00:01
 use: [podcast_episodes]

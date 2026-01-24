@@ -17,7 +17,7 @@ links:
 talking_points: []
 quotes: []
 chapters: []
-episode_filename: https://files.oliverdavies.uk/bb/episodes/24-generative-ai.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/24-generative-ai.mp3
 file_size: 29900397
 duration: 00:58:33
 use: [podcast_episodes]

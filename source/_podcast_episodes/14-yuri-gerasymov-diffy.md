@@ -34,7 +34,7 @@ quotes:
   - With visual testing, it's very easy to get started. (YG)
   - Visual testing is great for showing your client your work. (YG)
 chapters: []
-episode_filename: https://files.oliverdavies.uk/bb/episodes/14-diffy.mp3
+embed_url: https://files.oliverdavies.uk/bb/episodes/14-diffy.mp3
 file_size: 22892297
 duration: 0:46:25
 use: [podcast_episodes]
