@@ -1,9 +1,15 @@
 {% extends 'page' %}
 
 {% block content_wrapper %}
-  <time datetime="{{ page.date|date('Y-m-d') }}">{{ page.date|date('F jS, Y') }}</time>
+  <div class="gap-y--base">
+    <div>
+      <time datetime="{{ page.date|date('Y-m-d') }}">{{ page.date|date('F jS, Y') }}</time>
+    </div>
 
-  {{ parent() }}
+    <div>
+      {{ parent() }}
+    </div>
+  </div>
 {% endblock %}
 
 {% block content_bottom %}
