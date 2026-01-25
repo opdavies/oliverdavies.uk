@@ -8,8 +8,11 @@ Last year, I recorded two new episodes of the Beyond Blocks podcast but, for var
 
 Apologies to both guests for the delay, but I'm glad to now have them published.
 
-One episode was with John Locke, and we discussed [Nix and the Drupal Flake project](/podcast/33-john-locke-drupal-flake) following his talk at DrupalCon Atlanta.
+One episode was with John Locke, and we discussed [Nix and the Drupal Flake project][0] following his talk at DrupalCon Atlanta.
 
-The other was with Moshe Weitzman, and we discussed [Drush and Drupal Test Traits](/podcast/34-moshe-weitzman-drush) as well as going down memory lane about Drupal.org and the Drupal project itself.
+The other was with Moshe Weitzman, and we discussed [Drush and Drupal Test Traits][1] as well as going down memory lane about Drupal.org and the Drupal project itself.
 
 I'm going to take a break from recording for now, but may return with new guests and episodes in the future.
+
+[0]: {{site.url}}/podcast/33-john-locke-drupal-flake
+[1]: {{site.url}}/podcast/34-moshe-weitzman-drush
