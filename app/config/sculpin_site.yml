@@ -39,6 +39,8 @@ menu_links:
     url: /books
   - title: Sponsor me
     url: /sponsor
+  - title: Mentoring
+    url: /mentor
   - title: Contact
     url: 'mailto:%email%'
     attributes:
