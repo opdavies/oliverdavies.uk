@@ -18,6 +18,8 @@
         {
           devshells.default = {
             packages = with pkgs; [
+              nixd
+
               (pkgs.writeScriptBin "create-blog-post" ''
                 #!${lib.getExe pkgs.bash}
 
