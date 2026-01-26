@@ -6,7 +6,6 @@ tags:
   - sculpin
   - nix
   - open-source
-draft: true
 ---
 
 I recently created a pull request to [add Sculpin to nixpkgs](https://github.com/NixOS/nixpkgs/pull/476433).
