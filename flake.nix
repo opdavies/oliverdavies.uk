@@ -3,7 +3,7 @@
     devshell.inputs.nixpkgs.follows = "nixpkgs";
     devshell.url = "github:numtide/devshell";
     flake-parts.url = "github:hercules-ci/flake-parts";
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:opdavies/nixpkgs/add-sculpin";
   };
 
   outputs =
@@ -18,12 +18,6 @@
         {
           devshells.default = {
             packages = with pkgs; [
-              (php83.buildEnv {
-                extraConfig = ''error_reporting = E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED'';
-              })
-
-              php83Packages.composer
-
               (pkgs.writeScriptBin "create-blog-post" ''
                 #!${lib.getExe pkgs.bash}
 
@@ -54,7 +48,7 @@
               (pkgs.writeScriptBin "build" ''
                 #!${lib.getExe pkgs.bash}
 
-                vendor/bin/sculpin generate \
+              ${lib.getExe pkgs.sculpin} generate \
                   --clean \
                   --env "''${1:-prod}" \
                   --no-interaction
@@ -93,7 +87,7 @@
               (pkgs.writeScriptBin "start" ''
                 #!${lib.getExe pkgs.bash}
 
-                vendor/bin/sculpin generate \
+                ${lib.getExe pkgs.sculpin} generate \
                   --clean \
                   --no-interaction \
                   --server \

@@ -19,7 +19,7 @@ Guests include people like [Matt Glaman](/podcast/1-retrofit), [Eirik Morland](/
 
   <time datetime="{{ episode.date|date('Y-m-d') }}">{{ episode.date|date('F jS, Y') }}</time>
 
-  {{ episode.blocks.content|markdown }}
+  {{ episode.blocks.content|raw }}
 
   <a href="{{ episode.url|trim('/', 'right') }}" aria-label="Listen to episode {{ episodeNumber }}">
     Listen now
