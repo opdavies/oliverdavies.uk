@@ -4,12 +4,17 @@ use: [presentations]
 ---
 
 {% set presentationCount = 0 -%}
+{% set locations = [] %}
 
 {% for presentation in data.presentations -%}
   {% set presentationCount = presentationCount + presentation.events|length -%}
-{% endfor %}
 
-<p>Since September 2012, I have given {{ presentationCount }} public talks and workshops at various conferences and meetups, in-person and remotely, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.</p>
+  {% for event in presentation.events if event.location and not event.online and event.location not in locations -%}
+    {% set locations = locations|merge([event.location]) -%}
+  {% endfor -%}
+{% endfor -%}
+
+<p>Since September 2012, I have given {{ presentationCount }} public talks and workshops at conferences and meetups in {{ locations|length }} cities, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.</p>
 
 <div style="margin-top: 3rem;">
   <div class="grid gap-y--large">
