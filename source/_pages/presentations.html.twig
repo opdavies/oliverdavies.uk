@@ -14,7 +14,9 @@ use: [presentations]
   {% endfor -%}
 {% endfor -%}
 
-<p>Since September 2012, I have given {{ presentationCount }} public talks and workshops at conferences and meetups in {{ locations|length }} cities, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.</p>
+<p>Since September 2012, I have given {{ presentationCount }} public talks and workshops at conferences and meetups in {{ locations|length }} cities
+{%- if site.features.show_country_count %} and 3 countries{% endif -%}
+, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.</p>
 
 <div style="margin-top: 3rem;">
   <div class="grid gap-y--large">
