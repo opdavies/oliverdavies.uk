@@ -39,6 +39,7 @@
                 ---
                 title:
                 tags: []
+                date: $today
                 ---
 
 
