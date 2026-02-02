@@ -6,6 +6,8 @@
 
   --border--base: black;
 
+  --border-radius--full: 100%;
+
   --border-width--base: 1px;
   --border-width--thick: 4px;
 
