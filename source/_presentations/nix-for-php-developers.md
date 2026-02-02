@@ -25,6 +25,9 @@ events:
     urls:
       slides: https://files.oliverdavies.uk/presentations/nix-for-php-developers-phpsw.pdf
       website: https://www.meetup.com/php-sw/events/312728273
+  - name: PHP Sussex
+    location: Brighton, UK
+    date: 2026-04-08
 new_events: true
 description: |
   How PHP Developers (and everyone else) can use Nix to create robust and reproducible environments and replace tools like Docker and Vagrant.
