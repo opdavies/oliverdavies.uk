@@ -73,20 +73,6 @@
                   --exclude='_*/'
               '')
 
-
-              (pkgs.writeScriptBin "publish" ''
-                #!${lib.getExe pkgs.bash}
-
-                set -euo pipefail
-
-                # TODO: ask for a commit message and commit any changes with the message.
-                # TODO: tag the commit with the current timestamp?
-
-                build
-                deploy
-                git push
-              '')
-
               (pkgs.writeScriptBin "start" ''
                 #!${lib.getExe pkgs.bash}
 
