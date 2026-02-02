@@ -7,10 +7,12 @@ use: [presentations]
 {% set locations = [] %}
 
 {% for presentation in data.presentations -%}
-  {% set presentationCount = presentationCount + presentation.events|length -%}
+  {% for event in presentation.events if event.date < 'today'|date('U') -%}
+    {% set presentationCount = presentationCount + 1 %}
 
-  {% for event in presentation.events if event.location and not event.online and event.location not in locations -%}
-    {% set locations = locations|merge([event.location]) -%}
+    {% if event.location and not event.online and event.location not in locations %}
+      {% set locations = locations|merge([event.location]) -%}
+    {% endif -%}
   {% endfor -%}
 {% endfor -%}
 
