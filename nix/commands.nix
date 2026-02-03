@@ -5,8 +5,6 @@ let
 in
 [
   {
-    help = "builds the website artifact for production";
-    name = "build";
     category = "[build commands]";
     command = ''
       build-css
@@ -16,11 +14,11 @@ in
         --env "''${1:-prod}" \
         --no-interaction
     '';
+    help = "builds the website artifact for production";
+    name = "build";
   }
 
   {
-    help = "builds the CSS stylesheet for production";
-    name = "build-css";
     category = "[build commands]";
     command = ''
       ${getExe pkgs.lightningcss} \
@@ -29,18 +27,18 @@ in
         --output-file source/build/app.css \
         source/assets/css/index.css
     '';
+    help = "builds the CSS stylesheet for production";
+    name = "build-css";
   }
 
   {
-    help = "cleans temporary files";
-    name = "clean";
     category = "[build commands]";
     command = ''rm -rfv output_*/ source/build/app.css'';
+    help = "cleans temporary files";
+    name = "clean";
   }
 
   {
-    help = "scaffolds a new blog post with a given slug";
-    name = "create-blog-post";
     command = ''
       if [[ $# -lt 1 ]]; then
         echo "Usage: $(basename $0) <slug>"
@@ -64,11 +62,11 @@ in
 
       "$EDITOR" "source/_posts/$filename"
     '';
+    help = "scaffolds a new blog post with a given slug";
+    name = "create-blog-post";
   }
 
   {
-    name = "deploy";
-    help = "deploys the built artifact to production";
     command = ''
       ${getExe pkgs.rsync} -avzP \
         output_prod/ \
@@ -76,11 +74,11 @@ in
         --delete --delete-after \
         --exclude='_*/'
     '';
+    help = "deploys the built artifact to production";
+    name = "deploy";
   }
 
   {
-    name = "start";
-    help = "starts the sculpin server";
     category = "[dev commands]";
     command = ''
       ${getExe pkgs.sculpin} generate \
@@ -90,11 +88,11 @@ in
         --watch \
         "$@"
     '';
+    help = "starts the sculpin server";
+    name = "start";
   }
 
   {
-    name = "start-browsersync";
-    help = "starts browsersync";
     category = "[dev commands]";
     command = ''
       ${pkgs.nodePackages.browser-sync}/bin/browser-sync start \
@@ -104,5 +102,7 @@ in
         --no-ui \
         --server output_dev
     '';
+    help = "starts browsersync";
+    name = "start-browsersync";
   }
 ]
