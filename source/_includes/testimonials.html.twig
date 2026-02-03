@@ -14,7 +14,7 @@
 <section>
   <h2 class="text-xl font-bold">{{ title|default('Testimonials') }}</h2>
 
-  <div class="mt-4 space-y-12">
+  <div class="space-y-12">
     {% for testimonial in testimonials %}
       <div class="{{ site.prose_classes }}">
         <blockquote>
