@@ -51,10 +51,22 @@
               (pkgs.writeScriptBin "build" ''
                 #!${lib.getExe pkgs.bash}
 
-              ${lib.getExe pkgs.sculpin} generate \
+                build-css
+
+                ${lib.getExe pkgs.sculpin} generate \
                   --clean \
                   --env "''${1:-prod}" \
                   --no-interaction
+              '')
+
+              (pkgs.writeScriptBin "build-css" ''
+                #!${lib.getExe pkgs.bash}
+
+                ${lib.getExe pkgs.lightningcss} \
+                  --bundle \
+                  --minify \
+                  --output-file source/build/app.css \
+                  source/assets/css/index.css
               '')
 
               (pkgs.writeScriptBin "clean" ''

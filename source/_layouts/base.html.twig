@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link href="/assets/css/index.css?v={{ site.assets.version }}" rel="stylesheet">
+    {% if site.use_bundled_css %}
+      <link href="/build/app.css?v={{ site.assets.version }}" rel="stylesheet">
+    {% else %}
+      <link href="/assets/css/index.css?v={{ site.assets.version }}" rel="stylesheet">
+    {% endif %}
     <link href="/build/tailwind.css?v={{ site.assets.version }}" rel="stylesheet">
     <link rel="canonical" href="{{ site.url }}{{ page.url|trim('/', 'right') }}">
     <meta name="author" content="Oliver Davies">

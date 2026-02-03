@@ -2,4 +2,6 @@
 imports:
   - sculpin_site.yml
 
+use_bundled_css: true
+
 url: https://www.oliverdavies.uk
