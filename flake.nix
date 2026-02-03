@@ -14,98 +14,115 @@
       imports = [ inputs.devshell.flakeModule ];
 
       perSystem =
-        { pkgs, ... }:
+        { pkgs, lib, ... }:
         {
           devshells.default = {
+            commands =
+              let
+                inherit (lib) getExe;
+              in
+              [
+                {
+                  help = "builds the website artifact for production";
+                  name = "build";
+                  command = ''
+                    build-css
+
+                    ${getExe pkgs.sculpin} generate \
+                      --clean \
+                      --env "''${1:-prod}" \
+                      --no-interaction
+                  '';
+                }
+
+                {
+                  help = "builds the CSS stylesheet for production";
+                  name = "build-css";
+                  command = ''
+                    ${getExe pkgs.lightningcss} \
+                      --bundle \
+                      --minify \
+                      --output-file source/build/app.css \
+                      source/assets/css/index.css
+                  '';
+                }
+
+                {
+                  help = "cleans temporary files";
+                  name = "clean";
+                  command = ''rm -rfv output_*/ source/build/app.css'';
+                }
+
+                {
+                  help = "scaffolds a new blog post with a given slug";
+                  name = "create-blog-post";
+                  command = ''
+                    if [[ $# -lt 1 ]]; then
+                      echo "Usage: $(basename $0) <slug>"
+
+                      exit 1
+                    fi
+
+                    today="$(date +%Y-%m-%d)"
+
+                    filename="$today-$1.md"
+
+                    cat << EOF_POST > "source/_posts/$filename"
+                    ---
+                    title:
+                    tags: []
+                    date: $today
+                    ---
+
+
+                    EOF_POST
+
+                    "$EDITOR" "source/_posts/$filename"
+                  '';
+                }
+
+                {
+                  name = "deploy";
+                  help = "deploys the built artifact to production";
+                  command = ''
+                    ${getExe pkgs.rsync} -avzP \
+                      output_prod/ \
+                      home02:/nginx-data/oliverdavies.uk \
+                      --delete --delete-after \
+                      --exclude='_*/'
+                  '';
+                }
+
+                {
+                  name = "start";
+                  help = "starts the sculpin server";
+                  command = ''
+                    ${getExe pkgs.sculpin} generate \
+                      --clean \
+                      --no-interaction \
+                      --server \
+                      --watch \
+                      "$@"
+                  '';
+                }
+
+                {
+                  name = "start-browsersync";
+                  help = "starts browsersync";
+                  command = ''
+                    ${pkgs.nodePackages.browser-sync}/bin/browser-sync start \
+                      --files output_dev \
+                      --no-notify \
+                      --no-open \
+                      --no-ui \
+                      --server output_dev
+                  '';
+                }
+              ];
+
             packages = with pkgs; [
               nixd
-
-              (pkgs.writeScriptBin "create-blog-post" ''
-                #!${lib.getExe pkgs.bash}
-
-                set -euo pipefail
-
-                if [[ $# -lt 1 ]]; then
-                  echo "Usage: $(basename $0) <slug>"
-
-                  exit 1
-                fi
-
-                today="$(date +%Y-%m-%d)"
-
-                filename="$today-$1.md"
-
-                cat << EOF_POST > "source/_posts/$filename"
-                ---
-                title:
-                tags: []
-                date: $today
-                ---
-
-
-                EOF_POST
-
-                "$EDITOR" "source/_posts/$filename"
-              '')
-
-              (pkgs.writeScriptBin "build" ''
-                #!${lib.getExe pkgs.bash}
-
-                build-css
-
-                ${lib.getExe pkgs.sculpin} generate \
-                  --clean \
-                  --env "''${1:-prod}" \
-                  --no-interaction
-              '')
-
-              (pkgs.writeScriptBin "build-css" ''
-                #!${lib.getExe pkgs.bash}
-
-                ${lib.getExe pkgs.lightningcss} \
-                  --bundle \
-                  --minify \
-                  --output-file source/build/app.css \
-                  source/assets/css/index.css
-              '')
-
-              (pkgs.writeScriptBin "clean" ''
-                #!${lib.getExe pkgs.bash}
-
-                rm -rfv output_*/ vendor/
-              '')
-
-              (pkgs.writeScriptBin "deploy" ''
-                #!${lib.getExe pkgs.bash}
-
-                ${lib.getExe pkgs.rsync} -avzP \
-                  output_prod/ \
-                  home02:/nginx-data/oliverdavies.uk \
-                  --delete --delete-after \
-                  --exclude='_*/'
-              '')
-
-              (pkgs.writeScriptBin "start" ''
-                #!${lib.getExe pkgs.bash}
-
-                ${lib.getExe pkgs.sculpin} generate \
-                  --clean \
-                  --no-interaction \
-                  --server \
-                  --watch \
-                  "$@"
-              '')
-
-              (pkgs.writeScriptBin "start-browsersync" ''
-                #!${lib.getExe pkgs.bash}
-
-                ${pkgs.nodePackages.browser-sync}/bin/browser-sync start \
-                  --files output_dev \
-                  --no-notify \
-                  --no-open \
-                  --no-ui \
-                  --server output_dev
-              '')
+              sculpin
             ];
           };
 
