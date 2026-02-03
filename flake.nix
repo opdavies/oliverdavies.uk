@@ -25,6 +25,7 @@
                 {
                   help = "builds the website artifact for production";
                   name = "build";
+                  category = "[build commands]";
                   command = ''
                     build-css
 
@@ -38,6 +39,7 @@
                 {
                   help = "builds the CSS stylesheet for production";
                   name = "build-css";
+                  category = "[build commands]";
                   command = ''
                     ${getExe pkgs.lightningcss} \
                       --bundle \
@@ -50,6 +52,7 @@
                 {
                   help = "cleans temporary files";
                   name = "clean";
+                  category = "[build commands]";
                   command = ''rm -rfv output_*/ source/build/app.css'';
                 }
 
@@ -96,6 +99,7 @@
                 {
                   name = "start";
                   help = "starts the sculpin server";
+                  category = "[dev commands]";
                   command = ''
                     ${getExe pkgs.sculpin} generate \
                       --clean \
@@ -109,6 +113,7 @@
                 {
                   name = "start-browsersync";
                   help = "starts browsersync";
+                  category = "[dev commands]";
                   command = ''
                     ${pkgs.nodePackages.browser-sync}/bin/browser-sync start \
                       --files output_dev \
