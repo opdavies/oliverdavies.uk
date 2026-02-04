@@ -1,17 +1,15 @@
 {% import "_macros" as macros %}
 
-<div>
+<aside class="about">
   <h2 class="text-xl font-bold">About me</h2>
 
   <div>
-    <div class="flex space-x-4">
-      <div class="flex flex-col flex-shrink-0 justify-start">
-        <img src="/assets/images/social-avatar.jpg" alt="Picture of Oliver" class="image--circle my-0 w-16 h-16 ring-[3px] ring-blue-primary dark:ring-white">
-      </div>
+    <div class="about__image">
+      <img src="/assets/images/social-avatar.jpg" alt="Picture of Oliver" class="image--circle my-0 w-16 h-16 ring-[3px] ring-blue-primary dark:ring-white">
+    </div>
 
-      <div class="{{ site.prose_classes }}">
-        <p>I'm an certified Drupal Triple Expert with {{ macros.yearsOfExperience() }} years of experience, a Drupal core contributor, <a href="/mentor">mentor</a> and <a href="/presentations">public speaker</a>.</p>
-      </div>
+    <div class="{{ site.prose_classes }}">
+      <p>I'm an certified Drupal Triple Expert with {{ macros.yearsOfExperience() }} years of experience, a Drupal core contributor, <a href="/mentor">mentor</a> and <a href="/presentations">public speaker</a>.</p>
     </div>
   </div>
-</div>
+</aside>
