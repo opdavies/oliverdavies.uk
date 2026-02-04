@@ -1,8 +1,13 @@
 :root {
+  --color--black: #000000;
+  --color--white: #ffffff;
+
   --color--primary-base: #24608a;
 
+  --color--bg: var(--color--white);
   --color--border: var(--color--primary-base);
   --color--link: var(--color--primary-base);
+  --color--text: var(--color--black);
 
   --border--base: black;
 
@@ -21,7 +26,9 @@
   --font-size--400: 2.25rem;
   --font-size--500: 3.75rem;
 
-  --font-weight--bold: 600;
+  --font-weight--bold: 700;
+  --font-weight--light: 300;
+  --font-weight--normal: 400;
 
   --line-height--base: 1.5;
   --line-height--tight: 1.2;
@@ -39,5 +46,8 @@
     --color--primary-base: #60a5fa;
 
     --border--base: #57534e;
+
+    --color--bg: #1c1917;
+    --color--text: var(--color--white);
   }
 }
