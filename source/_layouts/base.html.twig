@@ -73,8 +73,8 @@
               </div>
             {% endif %}
 
-            <h1 class="mb-4 text-xl font-bold md:text-2xl">
-              {% block page_title %}{{ page.title }}{% endblock %}
+            <h1>
+              {%- block page_title %}{{ page.title }}{% endblock -%}
             </h1>
 
             {% if page.url matches "#^/component-library/#" %}

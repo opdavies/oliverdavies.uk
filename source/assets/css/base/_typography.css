@@ -3,6 +3,12 @@ body {
   font-weight: var(--font-weight--light);
 }
 
+h1 {
+  font-size: var(--font-size--200);
+  font-weight: var(--font-weight--bold) !important;
+  margin-bottom: var(--space--base) !important;
+}
+
 h2 {
   font-weight: var(--font-weight--bold) !important;
   margin: var(--space--large) 0 var(--space--medium) !important;
@@ -26,5 +32,11 @@ a:not(.text-white) {
 
   &:hover {
     text-decoration: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: var(--font-size--300) !important;
   }
 }
