@@ -54,7 +54,7 @@
     <div class="min-h-screen font-sans text-base md:text-xl selection:bg-blue-primary selection:text-white dark:selection:bg-blue-primary dark:selection:text-white">
       <div class="container">
         {% if not (page.url matches "#^/component-library/#") %}
-          <header class="flex flex-col justify-between items-center md:flex-row">
+          <header id="page-header">
             {% include 'logo.html.twig' %}
           </header>
         {% endif %}

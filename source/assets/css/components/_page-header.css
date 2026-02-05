@@ -1,0 +1,10 @@
+#page-header {
+  display: grid;
+  place-items: center;
+}
+
+@media (width >= 30rem) {
+  #page-header {
+    place-items: start;
+  }
+}
