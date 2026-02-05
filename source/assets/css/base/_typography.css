@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  font-size: var(--font-size--200);
+  font-size: var(--font-size--200) !important;
   font-weight: var(--font-weight--bold) !important;
   margin-bottom: var(--space--base) !important;
 }
