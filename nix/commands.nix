@@ -35,7 +35,7 @@ in
   {
     command = ''
       ${getExe pkgs.rsync} -avzP \
-        output_prod/ \
+        result/ \
         home02:/nginx-data/oliverdavies.uk \
         --delete --delete-after \
         --exclude='_*/'
