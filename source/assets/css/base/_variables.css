@@ -6,12 +6,19 @@
 
   --color--bg: var(--color--white);
   --color--border: var(--color--primary-base);
+  --color--code: #e5e7eb;
   --color--link: var(--color--primary-base);
   --color--text: var(--color--black);
 
+  --bg--code: #1f2937;
+
   --border--base: black;
 
+  --border-radius--base: 0.5rem;
+  --border-radius--circle: 100%;
   --border-radius--full: 100%;
+  --border-radius--large: 1.5rem;
+  --border-radius--pill: 4rem;
 
   --border-width--base: 1px;
   --border-width--thick: 4px;
@@ -43,9 +50,11 @@
   --space--xx-small: 0.25rem;
 
   @media (prefers-color-scheme: dark) {
-    --color--primary-base: #60a5fa;
+    --bg--code: rgba(0, 0, 0, .5);
 
     --border--base: #57534e;
+
+    --color--primary-base: #60a5fa;
 
     --color--bg: #1c1917;
     --color--text: var(--color--white);

@@ -29,6 +29,15 @@ p {
   &:last-of-type {
     margin-bottom: 0;
   }
+
+  code {
+    background: var(--bg--code);
+    border-radius: 6px;
+    color: var(--color--code) !important;
+    display: inline-block;
+    font-size: var(--font-size--50) !important;
+    padding: 0 var(--space--x-small);
+  }
 }
 
 a:not(.text-white) {
