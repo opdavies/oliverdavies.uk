@@ -33,7 +33,10 @@ use: [posts]
       {% endif %}
 
       <li>
-        <a href="{{ post.url|trim('/', 'right') }}">{{ post.title }}</a> - {{ post.date|date('jS F Y') }}
+        <a href="{{ post.url|trim('/', 'right') }}">{{ post.title }}</a> -
+        <time datetime="{{ post.date|date('Y-m-d') }}">
+          {{ post.date|date('jS F Y') }}
+        </time>
       </li>
     {% endfor %}
 
