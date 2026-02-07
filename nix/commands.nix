@@ -5,40 +5,6 @@ let
 in
 [
   {
-    category = "[build commands]";
-    command = ''
-      build-css
-
-      ${getExe pkgs.sculpin} generate \
-        --clean \
-        --env "''${1:-prod}" \
-        --no-interaction
-    '';
-    help = "builds the website artifact for production";
-    name = "build";
-  }
-
-  {
-    category = "[build commands]";
-    command = ''
-      ${getExe pkgs.lightningcss} \
-        --bundle \
-        --minify \
-        --output-file source/build/app.css \
-        source/assets/css/index.css
-    '';
-    help = "builds the CSS stylesheet for production";
-    name = "build-css";
-  }
-
-  {
-    category = "[build commands]";
-    command = ''rm -rfv output_*/ source/build/app.css'';
-    help = "cleans temporary files";
-    name = "clean";
-  }
-
-  {
     command = ''
       if [[ $# -lt 1 ]]; then
         echo "Usage: $(basename $0) <slug>"
