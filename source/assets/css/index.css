@@ -4,6 +4,7 @@
 @import "base/_variables.css";
 
 @import "components/_about-me.css";
+@import "components/_banner.css";
 @import "components/_container.css";
 @import "components/_image.css";
 @import "components/_logo.css";

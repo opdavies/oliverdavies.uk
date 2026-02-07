@@ -8,7 +8,9 @@ assets:
   url: '%url%'
   version: 6
 
-banner_text: ~
+banner_text: |
+  <p>I'm currently taking on new clients for fixed-price projects or retainers.</p>
+  <p>If I can help you, please <a href="/contact">get in touch</a> and we can get started.</p>
 
 code:
   url: https://git.oliverdavies.uk
