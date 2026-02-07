@@ -1,3 +1,11 @@
+.flex {
+  display: flex;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
 .grid {
   display: grid;
 }
