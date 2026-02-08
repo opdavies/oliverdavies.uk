@@ -6,7 +6,7 @@
   ];
 
   perSystem =
-    { pkgs, ... }:
+    { config, ... }:
     {
       treefmt = {
         programs = {
@@ -15,6 +15,7 @@
         };
 
       };
-      formatter = pkgs.nixfmt;
+
+      formatter = config.treefmt.build.wrapper;
     };
 }
