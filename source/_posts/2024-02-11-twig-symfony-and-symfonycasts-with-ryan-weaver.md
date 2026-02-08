@@ -21,11 +21,12 @@ We discussed recent developments in Twig templates, SymfonyCasts, release cycles
 
 I've been a long-time subscriber of SymfonyCasts and it was a big help when I was learning Drupal 8 for Twig and object-orientated PHP, so it was great to speak with Ryan.
 
-[episode]: {{site.url}}/podcast/10-ryan-weaver-symfonycasts
 {% endblock %}
 
 {% block cta %}
 P.S. Do you need immediate access to an expert Drupal Developer? [With my Drupal development subscription][subscription], make unlimited requests for a fixed monthly price in less time than posting to a job board!
 
-[subscription]: {{site.url}}/subscription
 {% endblock %}
+
+[episode]: %7B%7Bsite.url%7D%7D/podcast/10-ryan-weaver-symfonycasts
+[subscription]: %7B%7Bsite.url%7D%7D/subscription

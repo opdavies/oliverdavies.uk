@@ -6,8 +6,8 @@ tags:
   - drupal
   - php
   - sculpin
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Have you tried feature flags (aka feature toggles)? This is how I used a feature flag when swapping my podcast player.
 ---
 
@@ -27,7 +27,7 @@ You isolate the code you want to be togglable within a conditional - i.e. an `if
 
 My website built with Sculpin, so I can add `self_host_podcast_episodes: false` to my sculpin_site.yml file.
 
-This will be available as `site.self_host_podcast_episodes`  and I can use this in my code to show the appropriate player.
+This will be available as `site.self_host_podcast_episodes` and I can use this in my code to show the appropriate player.
 
 Something like:
 
@@ -53,7 +53,7 @@ In Drupal applications, I use the [Feature Toggle module][2], so I can toggle fe
 
 I also [wrote a module][3] with a Twig function so I can check if a feature toggle is enabled directly in a Twig template - the same as I'm doing in Sculpin.
 
-[0]: {{site.url}}/daily/2024/12/18/self-hosting-podcast
-[1]: {{site.url}}/daily/2024/12/19/working-iteratively
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/12/18/self-hosting-podcast
+[1]: %7B%7Bsite.url%7D%7D/daily/2024/12/19/working-iteratively
 [2]: https://www.drupal.org/project/feature_toggle
 [3]: https://www.drupal.org/project/feature_toggle_twig

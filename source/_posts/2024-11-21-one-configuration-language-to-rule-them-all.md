@@ -5,8 +5,8 @@ tags:
   - software-development
   - linux
   - nix
-cta: ~
-snippet: |
+cta:
+snippet: |-
   No more YAML, TOML, INI or JSON configuration files for me.
 ---
 

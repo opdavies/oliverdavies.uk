@@ -5,8 +5,8 @@ tags:
   - software-development
   - drupal
   - open-source
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How do you vet open-source software you're thinking of adding to your project?
 ---
 

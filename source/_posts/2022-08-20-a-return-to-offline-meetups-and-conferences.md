@@ -1,15 +1,15 @@
 ---
 pubDate: 2022-08-20
-title: "A return to offline meetups and conferences"
-permalink: "daily/2022/08/20/return-to-offline-meetups-conferences"
-tags: ["community"]
+title: A return to offline meetups and conferences
+permalink: daily/2022/08/20/return-to-offline-meetups-conferences
+tags: [community]
 ---
 
 Yesterday, I dusted off our Meetup page and posted our next [PHP South Wales meetup](https://www.meetup.com/php-south-wales) event.
 
 We've had online meetups and code practice sessions throughout the pandemic and during lockdowns, but this will be our first offline/in person/IRL meetup since February 2020.
 
-As well as organising our online meetups during COVID, I attended a lot of other online events, [usually giving various talks or workshops]({{site.url}}/blog/speaking-remotely-during-covid-19), and whilst they were good for a while, I eventually started to get burned out by them.
+As well as organising our online meetups during COVID, I attended a lot of other online events, [usually giving various talks or workshops](%7B%7Bsite.url%7D%7D/blog/speaking-remotely-during-covid-19), and whilst they were good for a while, I eventually started to get burned out by them.
 
 I've been an organiser of various meetups and conferences for a long time, and attending events has been a very large part of my career so far - providing opportunities to learn, to network and socialise with other attendees, and pass knowledge on through talks, workshops and mentoring.
 

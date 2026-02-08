@@ -37,5 +37,5 @@ What's interesting is that whilst the number of installations has been consisten
 
 Assuming these numbers are correct, this makes me feel very positive and happy about the adoption of newer versions of Drupal and that people are upgrading their D7 websites to Drupal 10 or 11.
 
-[0]: {{site.url}}/daily/2024/11/13/speaking-at-the-drupal-london-meetup
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/13/speaking-at-the-drupal-london-meetup
 [1]: https://www.drupal.org/project/override_node_options

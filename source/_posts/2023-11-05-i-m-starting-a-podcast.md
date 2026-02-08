@@ -17,4 +17,4 @@ I have the first guests lined up, including some speakers from last month's Drup
 If you'd like to be a guest, [get in touch][form] and let me know what you'd like to discuss.
 
 [form]: https://forms.gle/wdVqmEyQSWUx8cnm8
-[podcast]: {{site.url}}/podcast
+[podcast]: %7B%7Bsite.url%7D%7D/podcast

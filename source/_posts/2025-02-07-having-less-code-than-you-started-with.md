@@ -3,8 +3,8 @@ title: Having less code than you started with
 permalink: daily/2025/02/07/less
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   My favourite type of commits and merge requsts are ones that have less code than there was before.
 ---
 

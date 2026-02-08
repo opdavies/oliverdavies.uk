@@ -2,9 +2,9 @@
 title: Yay, the Mediacurrent Contrib Half Hour is Back!
 excerpt: Mediacurrent's "contrib half hour sessions" are back.
 tags:
-    - contribution
-    - drupal
-    - open-source
+  - contribution
+  - drupal
+  - open-source
 has_tweets: true
 ---
 
@@ -58,9 +58,6 @@ and to hopefully seeing them continue to be uploaded after future meetings.
 Thanks Damien and Mediacurrent!
 
 [0]: https://www.youtube.com/playlist?list=PLu-MxhbnjI9rHroPvZO5LEUhr58Yl0j_F
-[1]:
-  https://www.mediacurrent.com/blog/introducing-mediacurrent-contrib-half-hour
-[2]:
-  https://www.mediacurrent.com/blog/introducing-mediacurrent-contrib-half-hour
-[3]:
-  https://www.mediacurrent.com/blog/updates-mediacurrent-contrib-half-hour-weekly-meeting
+[1]: https://www.mediacurrent.com/blog/introducing-mediacurrent-contrib-half-hour
+[2]: https://www.mediacurrent.com/blog/introducing-mediacurrent-contrib-half-hour
+[3]: https://www.mediacurrent.com/blog/updates-mediacurrent-contrib-half-hour-weekly-meeting

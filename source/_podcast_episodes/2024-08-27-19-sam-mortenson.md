@@ -4,18 +4,18 @@ episode_number: 19
 guests:
   - Sam Mortenson
 links:
-  - - Sam Mortenson on Drupal.org
-    - https://www.drupal.org/u/samuelmortenson
-  - - Sam Mortenson on Twitter/X
-    - https://x.com/mortensonsam
-  - - mortenson.coffee
-    - https://mortenson.coffee
-  - - The Tome project on Drupal.org
-    - https://www.drupal.org/project/tome
-  - - The Bookish distribution
-    - https://github.com/drupal-tome/bookish
-  - - AwaySync
-    - https://awaysync.com
+  -   - Sam Mortenson on Drupal.org
+      - https://www.drupal.org/u/samuelmortenson
+  -   - Sam Mortenson on Twitter/X
+      - https://x.com/mortensonsam
+  -   - mortenson.coffee
+      - https://mortenson.coffee
+  -   - The Tome project on Drupal.org
+      - https://www.drupal.org/project/tome
+  -   - The Bookish distribution
+      - https://github.com/drupal-tome/bookish
+  -   - AwaySync
+      - https://awaysync.com
 talking_points: []
 quotes: []
 chapters: []

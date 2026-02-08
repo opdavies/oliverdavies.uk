@@ -7,7 +7,7 @@ tags:
   - php
   - automated-testing
 cta: subscription
-snippet: |
+snippet: |-
   As promised, I've added some tests to the Content Access by Path module.
 ---
 
@@ -26,6 +26,6 @@ Hopefully, it'll be reviewed soon, but I've done what I promised, contributed to
 [Subscribe to my YouTube channel][channel] to be notified of future live streams!
 
 [channel]: https://www.youtube.com/@opdavies
-[episode]: {{site.url}}/podcast/11-mark-conroy
+[episode]: %7B%7Bsite.url%7D%7D/podcast/11-mark-conroy
 [issue]: https://www.drupal.org/project/content_access_by_path/issues/3428680
 [stream]: https://www.youtube.com/live/XTpliKd47Lg?si=o4-my-XHGvcM_mWS

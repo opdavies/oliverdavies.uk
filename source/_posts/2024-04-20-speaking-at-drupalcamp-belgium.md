@@ -5,8 +5,8 @@ tags:
   - drupal
   - drupalcamp
   - public-speaking
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I'm happy to be speaking at DrupalCamp Belgium next month.
 ---
 
@@ -18,6 +18,6 @@ I spoke about testing most recently at DrupalCon Lille, and I'm looking forward 
 
 [Tickets are still available][tickets] and it would be great to see you there.
 
-[testing]: https://www.drupalcamp.be/en/drupalcamp-ghent-2024/schedule/friday
 [tailwind]: https://www.drupalcamp.be/en/drupalcamp-ghent-2024/schedule/saturday
+[testing]: https://www.drupalcamp.be/en/drupalcamp-ghent-2024/schedule/friday
 [tickets]: https://www.drupalcamp.be/en/drupalcamp-ghent-2024/tickets

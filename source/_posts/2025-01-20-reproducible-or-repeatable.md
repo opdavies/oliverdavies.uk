@@ -6,8 +6,8 @@ tags:
   - nix
   - linux
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Is your software environment reproducible or just repeatable?
 ---
 
@@ -25,4 +25,4 @@ With `flake.lock`, the environment isn't just repeatable - it's completely repro
 
 Locally, in a CI pipeline or in production.
 
-[0]: {{site.url}}/daily/2025/01/19/minimum-viable-development-environment
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/01/19/minimum-viable-development-environment

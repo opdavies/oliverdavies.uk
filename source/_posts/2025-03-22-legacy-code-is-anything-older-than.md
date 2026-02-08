@@ -3,8 +3,8 @@ title: Legacy code is anything older than...
 permalink: daily/2025/03/22/legacy
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How old does code need to be before it's considered legacy?
 ---
 

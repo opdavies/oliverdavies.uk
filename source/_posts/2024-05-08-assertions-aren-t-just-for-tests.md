@@ -6,8 +6,8 @@ tags:
   - drupal
   - php
   - automated-testing
-cta: ~
-snippet: |
+cta:
+snippet: |-
   `assert()` isn't just for automated tests.
 ---
 

@@ -3,11 +3,10 @@ title: Simpler code doesn't mean less code
 permalink: daily/2025/02/09/simpler
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Simpler code doesn't necessarily mean less code.
 ---
-
 
 Just because I consider some code to be simpler, that doesn't necessarily mean there's less code.
 

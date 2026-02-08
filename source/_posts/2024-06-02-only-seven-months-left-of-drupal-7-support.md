@@ -6,7 +6,7 @@ tags:
   - drupal
   - php
 cta: d7eol
-snippet: |
+snippet: |-
   Are you still on Drupal 7? There are only seven months left of support and updates remaining!
 ---
 
@@ -22,4 +22,4 @@ Will you be migrating to Drupal 10, or something else?
 
 If you need help, with [my Drupal 7 upgrade roadmap][roadmap], I'll create an individual plan to upgrade and enjoy easy upgrades to Drupal 11 and beyond!
 
-[roadmap]: {{site.url}}/drupal-upgrade
+[roadmap]: %7B%7Bsite.url%7D%7D/drupal-upgrade

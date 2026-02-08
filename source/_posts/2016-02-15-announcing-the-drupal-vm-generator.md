@@ -2,11 +2,11 @@
 title: Announcing the Drupal VM Generator
 excerpt: For the past few weeks, I've been working on a personal side project based on Drupal VM - the Drupal VM Generator.
 tags:
-    - drupal
-    - drupal-planet
-    - drupal-vm
-    - drupal-vm-generator
-    - symfony
+  - drupal
+  - drupal-planet
+  - drupal-vm
+  - drupal-vm-generator
+  - symfony
 ---
 
 For the past few weeks, I've been working on a personal side project based on
@@ -97,7 +97,6 @@ package via Composer, and this has been tagged as the [1.0.1 release][12]
 [7]: http://symfony.com/doc/current/components/console/introduction.html
 [8]: http://twig.sensiolabs.org
 [9]: http://symfony.com/doc/current/components/filesystem/introduction.html
-[10]:
-  https://github.com/opdavies/drupal-vm-generator/blob/master/README.md#installation
+[10]: https://github.com/opdavies/drupal-vm-generator/blob/master/README.md#installation
 [11]: https://github.com/opdavies/drupal-vm-generator/issues
 [12]: https://github.com/opdavies/drupal-vm-generator/releases/tag/1.0.1

@@ -2,8 +2,8 @@
 title: Quickly Apply Patches Using Git and curl or wget
 excerpt: How to quickly download a patch file and apply it to a Git repository in one line.
 tags:
-    - drupal-planet
-    - git
+  - drupal-planet
+  - git
 ---
 
 Testing a patch file is usually a two-step process. First you download the patch

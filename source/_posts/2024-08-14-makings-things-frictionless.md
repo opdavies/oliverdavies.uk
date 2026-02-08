@@ -3,8 +3,8 @@ title: Makings things frictionless
 permalink: daily/2024/08/14/makings-things-frictionless
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   If you want people to do things, you need to make them as simple as possible.
 ---
 
@@ -22,4 +22,4 @@ I have snippets to generate complex code or commands I need to run often, saving
 
 The more frictionless and easy I can make running a task, the more likely I am and others are to do them.
 
-[0]: {{site.url}}/talks/building-presenting-slide-decks-rst2pdf
+[0]: %7B%7Bsite.url%7D%7D/talks/building-presenting-slide-decks-rst2pdf

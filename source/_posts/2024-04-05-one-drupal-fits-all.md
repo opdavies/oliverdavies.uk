@@ -6,7 +6,7 @@ tags:
   - drupal
   - php
 cta: d7eol
-snippet: |
+snippet: |-
   Drupal works well for small and simple applications, as well large and compex applications.
 ---
 

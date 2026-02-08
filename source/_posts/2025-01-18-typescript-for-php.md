@@ -6,8 +6,8 @@ tags:
   - php
   - static-analysis
   - phpstan
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Are static analysis tools the same as TypeScript for PHP?
 ---
 

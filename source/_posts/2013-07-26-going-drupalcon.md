@@ -2,8 +2,8 @@
 title: Going to DrupalCon
 excerpt: Precedent are sending myself and two of our other Drupal Developers to Drupalcon Prague.
 tags:
-    - drupalcon
-    - precedent
+  - drupalcon
+  - precedent
 ---
 
 [Precedent](http://www.precedent.co.uk) are sending myself and two of our other

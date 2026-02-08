@@ -4,8 +4,8 @@ permalink: daily/2024/08/18/mermaid-markdown-for-charts
 tags:
   - software-development
   - documentation
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Mermaid is a nice way to generate and store diagrams within your projects.
 ---
 
@@ -17,7 +17,6 @@ Another approach to documentation that I like is to create diagrams and flow cha
 
 I've used various tools to do this, but recently, I've started to use [Mermaid][2], which is a Markdown-like syntax to generate charts and diagrams.
 
-
 ## Here's the thing
 
 There are online tools to do this, but there's also `mmdc` command-line tool that generates diagrams locally.
@@ -28,7 +27,7 @@ This means that I can easily generate diagrams and store in the codebase too, an
 
 [Here's one I did for the Build Configs tool][3], which I recently open-sourced, and that GitHub renders by default (you can click the 'Code' tab to see the code for the chart).
 
-[0]: {{site.url}}/daily/2024/08/16/what-are-err--req-and-res
-[1]: {{site.url}}/daily/2022/09/23/adrs-technical-design-documents
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/08/16/what-are-err--req-and-res
+[1]: %7B%7Bsite.url%7D%7D/daily/2022/09/23/adrs-technical-design-documents
 [2]: https://github.com/mermaid-js/mermaid
 [3]: https://github.com/opdavies/build-configs/blob/f02fce7ff5b5cff202ec8b893a4b3c7e7c56f3c4/docs/diagram.mmd

@@ -6,7 +6,7 @@ tags:
   - drupal
   - php
 cta: d7eol
-snippet: |
+snippet: |-
   Drupal 7 is supported for a few more months, but changes to its security policy came into effect on Thursday.
 ---
 
@@ -14,10 +14,10 @@ As announced in the Drupal 7 end-of-life announcement, changes have been made to
 
 In summary:
 
-* The Drupal Security Team may post moderately critical and less critical issues affecting Drupal 7 in the public issue queue, as long as they are not mass-exploitable.
-* Drupal 7 branches of unsupported modules and themes are no longer eligible for new maintainership.
-* PHP 5.5 and below will no longer be supported on Drupal 7 (PHP 5.5 was end-of-life in July 2016).
-* Security fixes will no longer be provided for Drupal 7 Windows-only issues.
+- The Drupal Security Team may post moderately critical and less critical issues affecting Drupal 7 in the public issue queue, as long as they are not mass-exploitable.
+- Drupal 7 branches of unsupported modules and themes are no longer eligible for new maintainership.
+- PHP 5.5 and below will no longer be supported on Drupal 7 (PHP 5.5 was end-of-life in July 2016).
+- Security fixes will no longer be provided for Drupal 7 Windows-only issues.
 
 [There is more information in the announcement][0], but if you're still on Drupal 7, now is the time to upgrade before its end-of-life date in five months.
 

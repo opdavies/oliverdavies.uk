@@ -4,8 +4,8 @@ permalink: daily/2024/05/11/don-t-delete-my-commit-messages
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Please don't squash my commits and delete my commit messages.
 ---
 
@@ -21,4 +21,4 @@ I'd rather [keep the original commits intact][yesterday] but, if you need to squ
 
 People can see the changes by viewing the commits, but the information within the commit messages are valuable, too.
 
-[yesterday]: {{site.url}}/daily/2024/05/10/optimise-for-revertability
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/05/10/optimise-for-revertability

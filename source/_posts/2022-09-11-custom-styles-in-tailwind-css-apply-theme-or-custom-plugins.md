@@ -1,8 +1,8 @@
 ---
-title: "Custom styles in Tailwind CSS: `@apply`, `theme` or custom plugins"
+title: 'Custom styles in Tailwind CSS: `@apply`, `theme` or custom plugins'
 pubDate: 2022-09-11
-permalink: "daily/2022/09/11/custom-styles-tailwind-css-apply-theme-custom-plugins"
-tags: ["tailwind-css"]
+permalink: daily/2022/09/11/custom-styles-tailwind-css-apply-theme-custom-plugins
+tags: [tailwind-css]
 ---
 
 There are three ways to add custom styles to a Tailwind CSS project. As there have been [some recent tweets](https://twitter.com/adamwathan/status/1559250403547652097) around one of them - the `@apply` directive - I'd like to look at and give examples for each.

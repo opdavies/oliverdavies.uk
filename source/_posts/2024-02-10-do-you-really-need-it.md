@@ -32,11 +32,12 @@ In a Drupal project, each choice could mean adding a different field, taxonomy t
 
 The more we can achieve with fewer options means the application will be easier to maintain and work on in the future.
 
-[gitignore]: {{site.url}}/daily/2024/01/27/gitignore-inclusive-or-exclusive
 {% endblock %}
 
 {% block cta %}
 P.S. Do you need immediate access to an expert Drupal Developer? [With my Drupal development subscription][subscription], make unlimited requests for a fixed monthly price in less time than posting to a job board!
 
-[subscription]: {{site.url}}/subscription
 {% endblock %}
+
+[gitignore]: %7B%7Bsite.url%7D%7D/daily/2024/01/27/gitignore-inclusive-or-exclusive
+[subscription]: %7B%7Bsite.url%7D%7D/subscription

@@ -3,11 +3,10 @@ title: Code reviews are about the code, not code style
 permalink: daily/2024/10/30/code-reviews-are-about-the-code-not-code-style
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   If you do code reviews, they should be about reviewing the code itself and not about the style of the code.
 ---
-
 
 If you do code reviews, they should be about reviewing the code and not about the style of the code.
 

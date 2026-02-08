@@ -2,10 +2,10 @@
 title: Looking forward to DrupalCamp London
 excerpt: This weekend is DrupalCamp London 2018. I'll be there along with a number of my Microserve colleagues.
 tags:
-    - drupal
-    - drupalcamp
-    - drupalcamp-london
-    - speaking
+  - drupal
+  - drupalcamp
+  - drupalcamp-london
+  - speaking
 ---
 
 This weekend is [DrupalCamp London 2018][1]. I'll be there along with a number
@@ -55,11 +55,11 @@ DrupalCamp London.
 
 See everyone this weekend!
 
-[0]: {{site.url}}/blog/2014/02/09/drupalcamp-london-2014
+[0]: %7B%7Bsite.url%7D%7D/blog/2014/02/09/drupalcamp-london-2014
 [1]: https://drupalcamp.london
-[2]: {{site.companies.microserve.url}}
-[3]: {{site.url}}/talks/git-flow
-[4]: {{site.url}}/talks/deploying-drupal-fabric
+[2]: %7B%7Bsite.companies.microserve.url%7D%7D
+[3]: %7B%7Bsite.url%7D%7D/talks/git-flow
+[4]: %7B%7Bsite.url%7D%7D/talks/deploying-drupal-fabric
 [5]: http://ryanszrama.com
 [6]: https://commerceguys.com
 [7]: https://www.youtube.com/channel/UCsaB96zszIP4Y3czs-ndiIA

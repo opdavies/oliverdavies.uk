@@ -1,7 +1,7 @@
 ---
-title: "ADRs and Technical Design Documents"
+title: ADRs and Technical Design Documents
 pubDate: 2022-09-23
-permalink: "daily/2022/09/23/adrs-technical-design-documents"
+permalink: daily/2022/09/23/adrs-technical-design-documents
 tags: []
 ---
 
@@ -11,10 +11,10 @@ Architectural Decision Records (ADRs) are documents to record software design ch
 
 They usually consist of the sections:
 
-* Status - is it proposed, accepted, rejected, deprecated, superseded, etc.?
-* Context - what is the issue that is causing the decision or change?
-* Decision - what is the change that's being done or proposed?
-* Consequences - what becomes easier or more difficult to do?
+- Status - is it proposed, accepted, rejected, deprecated, superseded, etc.?
+- Context - what is the issue that is causing the decision or change?
+- Decision - what is the change that's being done or proposed?
+- Consequences - what becomes easier or more difficult to do?
 
 Any change that is architecturally significant should require an ADR to be written, after which it can be reviewed and potentially actioned.
 
@@ -30,10 +30,10 @@ Similar to the Context heading in an ADR, this should include a short paragraph 
 
 Unlike ADRs, there are no other set headings but these are some suggested ones:
 
--  What is the current process?
--  What are any requirements?
--  How do we solve this problem?
--  Alternative approaches
+- What is the current process?
+- What are any requirements?
+- How do we solve this problem?
+- Alternative approaches
 
 I like after describing the problem, being able to move straight into describing what's appropriate and relevant for this task and ignore sections that aren't needed.
 

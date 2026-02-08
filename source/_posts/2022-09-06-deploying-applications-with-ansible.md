@@ -1,14 +1,14 @@
 ---
-title: "Deploying applications with Ansible"
+title: Deploying applications with Ansible
 pubDate: 2022-09-06
-permalink: "daily/2022/09/06/deploying-applications-with-ansible"
+permalink: daily/2022/09/06/deploying-applications-with-ansible
 ---
 
 The last few days' emails have been about using Ansible to create and configure infrastructure, but it can also be used to deploy application code.
 
 The simplest way being that an artifact is built locally - e.g. a directory of static HTML pages from a static site generator - and uploaded onto the server, and for this you could use Ansible's `synchronize` module.
 
-It's a wrapper around the `rsync` command and makes it as simple as specifying `src` and `dest` values for the local and remote paths. 
+It's a wrapper around the `rsync` command and makes it as simple as specifying `src` and `dest` values for the local and remote paths.
 
 For more complicated deployments, I like to use a tool called Ansistrano - an Ansible port of a deployment tool called Capistrano.
 
@@ -18,9 +18,8 @@ As well as being able to configure settings such as the deployment strategy, how
 
 If you're running your applications in Docker, you could use Ansible to pull the latest images and restart your applications.
 
-For more information and examples, I've given a talk on Ansible at various PHP events, which covers some Ansible basics before moving on to [deploying applications with Ansistrano]({{site.url}}/talks/deploying-php-ansible-ansistrano).
+For more information and examples, I've given a talk on Ansible at various PHP events, which covers some Ansible basics before moving on to [deploying applications with Ansistrano](%7B%7Bsite.url%7D%7D/talks/deploying-php-ansible-ansistrano).
 
----
+______________________________________________________________________
 
-Want to learn more about how I use Ansible? [Register for my upcoming free email course]({{site.url}}/ansible-course).
-
+Want to learn more about how I use Ansible? [Register for my upcoming free email course](%7B%7Bsite.url%7D%7D/ansible-course).

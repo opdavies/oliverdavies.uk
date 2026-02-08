@@ -1,7 +1,7 @@
 ---
-title: "The simplest Drupal test"
+title: The simplest Drupal test
 pubDate: 2022-09-14
-permalink: "daily/2022/09/14/simpletest-drupal-test"
+permalink: daily/2022/09/14/simpletest-drupal-test
 ---
 
 Most of my work uses the Drupal framework, and I've given talks and workshops on automated testing and building custom Drupal modules with test-driven development. Today, I wanted to see how quickly I could get a working test suite on a new Drupal project.
@@ -64,4 +64,4 @@ public function the_admin_page_is_accessible_by_admin_users() {
 }
 ```
 
-Hopefully, this shows how quickly you can get tests running for a Drupal module. If you'd like to see more, the slides and video recording of my [Test-Driven Drupal talk]({{site.url}}/presentations/tdd-test-driven-drupal) are online.
+Hopefully, this shows how quickly you can get tests running for a Drupal module. If you'd like to see more, the slides and video recording of my [Test-Driven Drupal talk](%7B%7Bsite.url%7D%7D/presentations/tdd-test-driven-drupal) are online.

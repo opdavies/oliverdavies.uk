@@ -3,8 +3,8 @@ title: I have a Peertube
 permalink: daily/2025/05/09/peertube
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I was looking for a solution for storing and backing up the videos from my YouTube channel. Then, I found Peertube.
 ---
 
@@ -27,7 +27,7 @@ You can also see the videos on my Peertube at <https://videos.oliverdavies.uk>.
 I plan on doing more videos and live streams soon, which will also be uploaded to my Peertube.
 
 [0]: https://youtube.com/@opdavies
-[1]: {{site.url}}/homelab
+[1]: %7B%7Bsite.url%7D%7D/homelab
 [2]: https://videos.lukesmith.xyz
 [3]: https://tinkerbetter.tube
 [4]: https://code.oliverdavies.uk/opdavies/nix-config

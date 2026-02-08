@@ -1,5 +1,5 @@
 ---
-title: "Creating a component library in Sculpin: Part 1"
+title: 'Creating a component library in Sculpin: Part 1'
 tags: [sculpin, php]
 date: 2026-02-02 18:13
 ---
@@ -31,9 +31,11 @@ Each content type needs a layout, so I created one at
 `source/_layouts/component.html.twig`:
 
 {% verbatim %}
+
 ```twig
 {% extends "base" %}
 ```
+
 {% endverbatim %}
 
 It only extends my `base.html.twig` layout, but I can customise it in the
@@ -45,6 +47,7 @@ I could then create my first component at
 `source/_components/about-me.html.twig`:
 
 {% verbatim %}
+
 ```twig
 ---
 title: '"About Me" block'
@@ -52,6 +55,7 @@ title: '"About Me" block'
 
 <p>About me</p>
 ```
+
 {% endverbatim %}
 
 This was then accessible at <http://localhost:8000/component-library/about-me>
@@ -61,4 +65,4 @@ In the next post, I'd explain the changes I needed to make to `base.html.twig`
 to create a minimal version of my page layout for the component library
 section.
 
-[0]: {{site.url}}/blog/building-component-library
+[0]: %7B%7Bsite.url%7D%7D/blog/building-component-library

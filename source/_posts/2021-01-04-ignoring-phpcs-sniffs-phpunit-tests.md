@@ -2,10 +2,10 @@
 title: Ignoring PHPCS sniffs for PHPUnit tests
 excerpt: How to exclude certain PHPCS sniffs within your PHPUnit tests, so that you can write your tests methods how you'd like without getting coding standards errors.
 tags:
-    - drupal
-    - drupal-planet
-    - php
-    - phpunit
+  - drupal
+  - drupal-planet
+  - php
+  - phpunit
 ---
 
 **Note:** This post is written with a Drupal context, but applies to any PHP project.
@@ -17,6 +17,7 @@ public function testThatPathAliasesAreNotTransferredToTheNewLanguageWhenOneIsAdd
   // ...
 }
 ```
+
 It has a long method name that describes the test that is being run. However, it's quite hard to read. Generally, I prefer to write tests like this, using the `@test` annotation (so that I can remove the `test` prefix) and snake case method names:
 
 ```php

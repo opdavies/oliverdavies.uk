@@ -5,8 +5,8 @@ tags:
   - software-development
   - css
   - tailwind-css
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Getting started with Tailwind CSS using `@apply`.
 ---
 

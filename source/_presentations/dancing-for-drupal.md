@@ -3,7 +3,7 @@ title: Dancing for Drupal
 description: A talk on Drupal, presented alongside others representing Umbraco, Sitecore and Episerver.
 speakerdeck:
   id: ffa9b6dea6dc4a8eb207b9982ed6e1bd
-  ratio: "1.33333333333333"
+  ratio: '1.33333333333333'
   url: https://speakerdeck.com/opdavies/umbristol-dancing-for-drupal
 events:
   - name: umBristol
@@ -27,5 +27,6 @@ The points to cover were:
 
 In each point, tried to cover the differences between Drupal core and developing a project using Drupal, as well as between Drupal 7 and Drupal 8, as things like source control and versioning would be approached differently.
 
-[1]: http://www.meetup.com/umBristol/events/223807592
 {% endblock %}
+
+[1]: http://www.meetup.com/umBristol/events/223807592

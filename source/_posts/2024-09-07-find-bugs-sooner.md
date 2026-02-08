@@ -3,7 +3,7 @@ title: Find bugs sooner
 permalink: daily/2024/09/07/find-bugs-sooner
 tags:
   - software-development
-cta: ~
+cta:
 snippet: |
   Bugs are cheaper to fix the sooner you find them.
 drupal_planet: true

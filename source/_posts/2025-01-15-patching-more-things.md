@@ -3,8 +3,8 @@ title: Patching more things
 permalink: daily/2025/01/15/more-patches
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Since patching ThePrimeagen's tmux-sessionizer script, I've started to think of more situations where patching would be useful.
 ---
 
@@ -22,6 +22,6 @@ As someone who creates and maintains open source software, and develops applicat
 
 P.S. If you want to hear a conversation between Nick and myself about Docker, course creation and more, listen to the [episode with Nick on the Beyond Blocks podcast][2].
 
-[0]: {{site.url}}/daily/2025/01/13/patches
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/01/13/patches
 [1]: https://code.oliverdavies.uk/opdavies/dotfiles/commit/3e9a27874a8110f5e6af2afff3de6efbc5b71e8f
-[2]: {{site.url}}/podcast/12-nick-janetakis-docker
+[2]: %7B%7Bsite.url%7D%7D/podcast/12-nick-janetakis-docker

@@ -5,8 +5,8 @@ tags:
   - software-development
   - continuous-integration
   - trunk-based-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   What do you do if someone's pushed a failing commit and broken the CI pipeline?
 ---
 

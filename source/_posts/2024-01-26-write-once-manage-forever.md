@@ -20,4 +20,4 @@ As I only work on fixed-price engagements, it's in my interest to be able to cre
 
 The Build Configs tool enables me to do that.
 
-[build configs]: {{site.url}}/build-config
+[build configs]: %7B%7Bsite.url%7D%7D/build-config

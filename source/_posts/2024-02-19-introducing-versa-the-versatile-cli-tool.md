@@ -2,7 +2,7 @@
 title: Introducing Versa - the versatile CLI tool
 permalink: daily/2024/02/19/introducing-versa
 snippet: |
-   Introducing Versa - the versatile CLI tool 
+  Introducing Versa - the versatile CLI tool 
 tags:
   - software-development
   - php
@@ -34,5 +34,5 @@ That'll be where the more complex code will be added and when I start doing test
 
 Interested? [Take a look at the code][github].
 
-[build configs]: {{site.url}}/build-configs
+[build configs]: %7B%7Bsite.url%7D%7D/build-configs
 [github]: https://github.com/opdavies/versa

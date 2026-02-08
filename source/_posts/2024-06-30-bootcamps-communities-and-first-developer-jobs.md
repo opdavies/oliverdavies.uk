@@ -3,8 +3,8 @@ title: Bootcamps, communities and first Developer jobs
 permalink: daily/2024/06/30/bootcamps--communities-and-first-developer-jobs
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   This week is a new School of Code cohort, and I'm excited to be mentoring again.
 ---
 
@@ -18,5 +18,5 @@ We discussed his experience with coding bootcamps, getting into the software ind
 
 It will be released soon on [the Beyond Blocks podcast page][1].
 
-[0]: {{site.url}}/presentations/communities-contribution
-[1]: {{site.url}}/podcast
+[0]: %7B%7Bsite.url%7D%7D/presentations/communities-contribution
+[1]: %7B%7Bsite.url%7D%7D/podcast

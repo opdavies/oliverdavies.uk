@@ -16,10 +16,10 @@ The series was created from two full-day live streams to create a minimum viable
 
 Several times, things like this were said:
 
-* This will eventually need to be customisable.
-* When we have multiple users, but now we only have one.
-* Let's hard-code this for now and refactor it later.
-* This isn't pixel-perfect, but let's move on.
+- This will eventually need to be customisable.
+- When we have multiple users, but now we only have one.
+- Let's hard-code this for now and refactor it later.
+- This isn't pixel-perfect, but let's move on.
 
 ## Here's the thing
 

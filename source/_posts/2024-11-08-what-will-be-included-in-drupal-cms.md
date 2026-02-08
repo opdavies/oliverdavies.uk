@@ -5,8 +5,8 @@ tags:
   - software-development
   - drupal
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Could things like Drush and Pathauto be included in Drupal CMS?
 ---
 
@@ -20,4 +20,4 @@ With the recent Starshot initiative and recently-named "Drupal CMS" project, cou
 
 It'll be interesting to see how both the Drupal and Drupal CMS projects evolve, what will be the same and what will be different.
 
-[0]: {{site.url}}/daily/2024/11/07/should-drush-be-in-drupal-core
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/07/should-drush-be-in-drupal-core

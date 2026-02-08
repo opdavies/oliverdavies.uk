@@ -1,14 +1,14 @@
 ---
 title: Adding Custom Theme Templates in Drupal 7
 excerpt: >
-    Today, I had a situation where I was displaying a list of teasers for news
-    article nodes. The article content type had several different fields assigned
-    to it, including main and thumbnail images. In this case, I wanted to have
-    different output and fields displayed when a teaser was displayed compared to
-    when a complete node was displayed.
+  Today, I had a situation where I was displaying a list of teasers for news
+  article nodes. The article content type had several different fields assigned
+  to it, including main and thumbnail images. In this case, I wanted to have
+  different output and fields displayed when a teaser was displayed compared to
+  when a complete node was displayed.
 tags:
-    - drupal
-    - drupal-planet
+  - drupal
+  - drupal-planet
 ---
 
 Today, I had a situation where I was displaying a list of teasers for news
@@ -79,5 +79,5 @@ array (
 Now, within my theme I can create a new node--article-teaser.tpl.php template
 file and this will get called instead of the node--article.tpl.php when a teaser
 is loaded. As I'm not specifying the node type specifically and using the
-dynamic <em>\$node->type</em> value within my suggestion, this will also apply
+dynamic <em>$node->type</em> value within my suggestion, this will also apply
 for all other content types on my site and not just news articles.

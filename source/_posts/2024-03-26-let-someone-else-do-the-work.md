@@ -6,8 +6,8 @@ tags:
   - drupal
   - php
   - open-source
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Why would I write something myself if there's already code available that solves my problem?
 ---
 

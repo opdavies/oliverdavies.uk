@@ -4,8 +4,8 @@ permalink: daily/2025/01/02/anyone
 tags:
   - software-development
   - open-source
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Another great thing about open source software is anyone can use it. From a solo Developer to huge companies like Acquia and Red Hat.
 ---
 

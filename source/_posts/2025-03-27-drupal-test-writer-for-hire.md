@@ -7,7 +7,7 @@ tags:
   - php
   - automated-testing
 cta: testing_course
-snippet: |
+snippet: |-
   Is your Drupal module missing tests or does your issue need a test to be written for it to progress? I can help!
 ---
 
@@ -31,8 +31,8 @@ I have around a day a week available for sponsored contribution time.
 
 If you're interested, reply and let's get it arranged.
 
-[0]: https://www.drupal.org/project/issues/search?status[]=1&status[]=13&issue_tags_op=%3D&issue_tags=Needs+tests
+[0]: https://www.drupal.org/project/issues/search?status%5B%5D=1&status%5B%5D=13&issue_tags_op=%3D&issue_tags=Needs+tests
 [1]: https://www.drupal.org/project/content_access_by_path/issues/3428680
-[2]: {{site.url}}/podcast/11-mark-conroy
-[3]: {{site.url}}/sponsor
+[2]: %7B%7Bsite.url%7D%7D/podcast/11-mark-conroy
+[3]: %7B%7Bsite.url%7D%7D/sponsor
 [4]: https://www.youtube.com/watch?v=XTpliKd47Lg

@@ -4,8 +4,8 @@ permalink: daily/2025/04/02/commit
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you commit changes with `git commit -m`? It seems to be the default option for people when learning Git, but I think it's a bad choice.
 ---
 

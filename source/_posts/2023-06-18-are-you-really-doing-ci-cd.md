@@ -13,12 +13,12 @@ Does your team really do CI/CD (continuous integration and delivery)?
 
 I recently watched a recording of a talk from another daily emailer, [Jonathan Hall](https://jhall.io), who started by asking the audience to raise their hands and keep them raised if...
 
-* They did a release to production in the last week.
-* They did a release to production yesterday.
-* They do not have a permanent branch called `develop`.
-* They do not have a special "hotfix" procedure.
-* Every Developer on their team merged work into `main` yesterday.
-* They have no pull requests more than 24 hours old.
+- They did a release to production in the last week.
+- They did a release to production yesterday.
+- They do not have a permanent branch called `develop`.
+- They do not have a special "hotfix" procedure.
+- Every Developer on their team merged work into `main` yesterday.
+- They have no pull requests more than 24 hours old.
 
 ## CI/CD is about process
 

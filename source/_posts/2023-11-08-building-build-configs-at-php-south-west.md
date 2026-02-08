@@ -23,5 +23,5 @@ If you have any questions, hit reply and let me know!
 
 [commerce_example]: https://github.com/opdavies/docker-example-drupal-commerce-kickstart
 [example]: https://github.com/opdavies/docker-example-drupal
-[slides]: {{site.url}}/presentations/building-build-configs
-[video]: {{site.url}}/build-configs
+[slides]: %7B%7Bsite.url%7D%7D/presentations/building-build-configs
+[video]: %7B%7Bsite.url%7D%7D/build-configs

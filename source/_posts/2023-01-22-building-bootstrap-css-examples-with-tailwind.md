@@ -8,7 +8,7 @@ tags:
   - tailwind-css
 ---
 
-Previously when I gave my [Taking Flight with Tailwind CSS]({{site.url}}/presentations/taking-flight-with-tailwind-css) talk, I created examples that relate to the event such as something related to that technology or event.
+Previously when I gave my [Taking Flight with Tailwind CSS](%7B%7Bsite.url%7D%7D/presentations/taking-flight-with-tailwind-css) talk, I created examples that relate to the event such as something related to that technology or event.
 
 The nor(DEV):con website already uses Tailwind CSS so I've been looking for other examples and have started to build some of the [Bootstrap CSS components](https://getbootstrap.com/docs/4.0/examples) with Tailwind CSS.
 

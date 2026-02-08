@@ -7,8 +7,6 @@ tags:
   - tailwind-css
 ---
 
-
-
 One of the main concerns for Developers evaluating or starting with a utility-first approach to styling is maintainability due to the number and duplication of classes.
 
 For example, with this component, as I duplicate it to add more links, I also duplicate the classes applied to the link - making it harder to maintain:

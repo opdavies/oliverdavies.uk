@@ -5,8 +5,8 @@ tags:
   - software-development
   - css
   - tailwind-css
-cta: ~
-snippet: |
+cta:
+snippet: |-
   With consistent class names from Tailwind CSS, you can build dramatically different-looking UIs.
 ---
 
@@ -22,8 +22,8 @@ And, when you move to other application, the same classes are there and availabl
 
 You just need to customise them, use what you need and ignore what you don't.
 
-[0]: {{site.url}}/presentations/taking-flight-with-tailwind-css.md
-[2]: {{site.url}}/daily/2024/11/19/tailwind-css-v4-is-so-easy-to-set-up
+[0]: %7B%7Bsite.url%7D%7D/presentations/taking-flight-with-tailwind-css.md
+[2]: %7B%7Bsite.url%7D%7D/daily/2024/11/19/tailwind-css-v4-is-so-easy-to-set-up
 [3]: https://rebuilding-bartik.oliverdavies.uk
 [4]: https://rebuilding-acquia.oliverdavies.uk
 [5]: https://rebuilding-bristol-js.oliverdavies.uk

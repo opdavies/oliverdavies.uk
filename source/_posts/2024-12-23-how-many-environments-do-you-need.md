@@ -5,8 +5,8 @@ tags:
   - software-development
   - git
   - deployments
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How many environments do you have for your software application? How many do you need?
 ---
 

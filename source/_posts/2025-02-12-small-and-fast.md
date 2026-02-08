@@ -3,8 +3,8 @@ title: Small and fast
 permalink: daily/2025/02/12/small-and-fast
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Try and keep your codebase as lean and performant as possible. You never know what connection people will be using your code from, so avoid bloat and optimise for performance.
 ---
 

@@ -4,8 +4,8 @@ permalink: daily/2025/01/24/what-why
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   A good Git commit message doesn't describe what was changed. It explains why it was changed.
 ---
 

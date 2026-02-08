@@ -31,7 +31,7 @@ This is using PHPat - an extension for PHPStan - that finds all classes in an `A
 
 If the class name is incorrect, PHPStan will return an error:
 
-> App\Action\DoesSomethingAction should be named matching the regex /^(?!.*Action$).*$/
+> App\\Action\\DoesSomethingAction should be named matching the regex /^(?!.*Action$).*$/
 
 I [created more examples][0] to ensure the classes are final, read-only and don't extend or implement anything.
 

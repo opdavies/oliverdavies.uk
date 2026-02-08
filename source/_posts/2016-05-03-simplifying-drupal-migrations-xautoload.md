@@ -2,11 +2,11 @@
 title: Simplifying Drupal Migrations with xautoload
 excerpt: How to use the xautoload module to autoload migration classes within your Drupal 7 migration modules.
 tags:
-    - autoloading
-    - drupal
-    - drupal-7
-    - drupal-planet
-    - php
+  - autoloading
+  - drupal
+  - drupal-7
+  - drupal-planet
+  - php
 ---
 
 How to use the [xautoload][1] module to autoload migration classes within your
@@ -76,12 +76,12 @@ If you want to use the [PSR-4][4] approach, you can do that too.
 In order to do so, you'll need to complete the following steps:
 
 1. Rename the `includes` directory to `src`.
-2. Ensure that there is one PHP class per file, and that the file extension is
+1. Ensure that there is one PHP class per file, and that the file extension is
    `.php` rather than `.inc`.
-3. Ensure that the name of the file matches the name of the class -
+1. Ensure that the name of the file matches the name of the class -
    `FooArticleNodeMigration` would be in a file called
    `FooArticleNodeMigration.php`.
-4. Add a namespace to each PHP file. This uses the same format as Drupal 8,
+1. Add a namespace to each PHP file. This uses the same format as Drupal 8,
    including the machine name of the module. For example, `Drupal\foo_migrate`.
    - If the class is within a sub-directory, then this will also need to be
      included within the namespace - e.g. `Drupal\foo_migrate\Node`.

@@ -4,8 +4,8 @@ permalink: daily/2025/01/26/layout-builder
 tags:
   - software-development
   - drupal
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I've built Drupal websites for 18 years. These are some reasons why I like the Layout Builder that's been included in Drupal core since 8.7.
 ---
 

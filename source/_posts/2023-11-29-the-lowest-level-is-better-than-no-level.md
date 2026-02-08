@@ -21,5 +21,5 @@ Level 0 includes:
 
 P.S. If you want to utilise PHPStan and static analysis on your development team and get fewer bugs, I have [availability for team coaching][coaching]. I'll show you how!
 
-[coaching]: {{site.url}}/team-coaching
-[yesterday]: {{site.url}}/daily/2023/11/28/which-phpstan-level-should-you-use
+[coaching]: %7B%7Bsite.url%7D%7D/team-coaching
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2023/11/28/which-phpstan-level-should-you-use

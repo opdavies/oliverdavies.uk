@@ -6,8 +6,8 @@ tags:
   - static-websites
   - static-site-generators
   - sculpin
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Static websites are the easiest way to build websites.
 ---
 

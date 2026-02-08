@@ -24,5 +24,5 @@ If you want to attend, [RSVP on the meetup event page][0].
 If you can't, check out my [free Drupal testing email course][1] or [book a 1-on-1 consulting call][2] and I'll get you started.
 
 [0]: https://www.meetup.com/london-drupal-user-group/events/303500889
-[1]: {{site.url}}/atdc
-[2]: {{site.url}}/call
+[1]: %7B%7Bsite.url%7D%7D/atdc
+[2]: %7B%7Bsite.url%7D%7D/call

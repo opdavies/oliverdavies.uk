@@ -6,7 +6,7 @@ tags:
   - drupal
   - drupal-modules
   - php
-cta: ~
+cta:
 snippet: |
   I've recently been experimenting with the Default Content module.
 drupal_planet: true

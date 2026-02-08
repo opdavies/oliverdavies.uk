@@ -1,8 +1,8 @@
 ---
-title: "Releasing a Drupal module template"
+title: Releasing a Drupal module template
 pubDate: 2022-09-22
-permalink: "daily/2022/09/22/releasing-drupal-module-template"
-tags: ["drupal"]
+permalink: daily/2022/09/22/releasing-drupal-module-template
+tags: [drupal]
 ---
 
 Today, I an the idea to create a reusable template for new Drupal modules, based on how I like to build modules and how I've shown others to do so in my Drupal testing workshop.

@@ -2,9 +2,9 @@
 title: How to Install and Configure Subversion (SVN) Server on Ubuntu
 excerpt: How to install and configure your own SVN server.
 tags:
-    - svn
-    - ubuntu
-    - version-control
+  - svn
+  - ubuntu
+  - version-control
 ---
 
 Recently, I needed to set up a Subversion (SVN) server on a Ubuntu Linux server.

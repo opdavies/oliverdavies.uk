@@ -42,4 +42,4 @@ In PHP, a common approach is to use the `assert()` function, as we saw in [yeste
 
 Then, write automated tests that don't test just the happy path but also the unhappy paths.
 
-[yesterday]: {{site.url}}/daily/2024/02/20/which-level-is-right-for-you
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/02/20/which-level-is-right-for-you

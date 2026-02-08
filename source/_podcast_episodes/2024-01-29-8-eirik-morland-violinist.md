@@ -4,22 +4,22 @@ episode_number: 8
 guests:
   - Eirik Morland
 links:
-  - - violinist.io
-    - https://violinist.io
-  - - Violinist on Drupal.org
-    - https://www.drupal.org/violinist
-  - - Eirik on Drupal.org
-    - https://www.drupal.org/u/eiriksm
-  - - Composer
-    - https://getcomposer.org
-  - - Packagist
-    - https://packagist.org
-  - - Private Packagist
-    - https://packagist.com
-  - - Automatic Updates initiative
-    - https://www.drupal.org/about/core/strategic-initiatives/automatic-updates
-  - - Logo is a conductor, not a composer
-    - https://github.com/composer/getcomposer.org/issues/36
+  -   - violinist.io
+      - https://violinist.io
+  -   - Violinist on Drupal.org
+      - https://www.drupal.org/violinist
+  -   - Eirik on Drupal.org
+      - https://www.drupal.org/u/eiriksm
+  -   - Composer
+      - https://getcomposer.org
+  -   - Packagist
+      - https://packagist.org
+  -   - Private Packagist
+      - https://packagist.com
+  -   - Automatic Updates initiative
+      - https://www.drupal.org/about/core/strategic-initiatives/automatic-updates
+  -   - Logo is a conductor, not a composer
+      - https://github.com/composer/getcomposer.org/issues/36
 embed_url: https://files.oliverdavies.uk/bb/episodes/08-violinist.mp3
 file_size: 27664298
 duration: 1:00:01

@@ -6,8 +6,8 @@ tags:
   - php
   - sculpin
   - static-site-generators
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I like the Sculpin static site generator, namely because as a PHP Developer, it's easy for me to extend and add custom functionality to.
 ---
 
@@ -29,5 +29,5 @@ I've added `src` and `tests` directories to [my website repository][1], which co
 
 There are a lot of choices for static site generators, including several PHP-based ones, but the familiarity and customisability of Sculpin make it a good choice for me.
 
-[0]: {{site.url}}/presentations/sculpin
+[0]: %7B%7Bsite.url%7D%7D/presentations/sculpin
 [1]: https://code.oliverdavies.uk/opdavies/oliverdavies.uk/src/commit/f21bb125c5b01a9e5cd572c77dca0e8d5cc13849

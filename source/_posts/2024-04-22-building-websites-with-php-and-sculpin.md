@@ -5,11 +5,10 @@ tags:
   - software-development
   - php
   - public-speaking
-cta: ~
-snippet: |
+cta:
+snippet: |-
   The video of my most recent talk at PHPSW has been released.
 ---
-
 
 The video of the most recent version of my [Building static websites with PHP and Sculpin][talk] from February's PHP South West meetup [has been released][video].
 
@@ -17,5 +16,5 @@ In the talk, I explain what Sculpin is and how it works before a live demo where
 
 If you have any feedback or questions, reply to this email and let me know.
 
-[talk]: {{site.url}}/presentations/building-static-websites-sculpin
+[talk]: %7B%7Bsite.url%7D%7D/presentations/building-static-websites-sculpin
 [video]: https://youtu.be/axy6ltc9meA?si=FtR4DZ5BVi_Se60J

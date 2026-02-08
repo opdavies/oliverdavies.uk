@@ -5,7 +5,7 @@ type: Lightning talk
 code: https://github.com/opdavies/drupal-vm-generator
 speakerdeck:
   id: a27ee1d2bfed4a209dc395fa455acb41
-  ratio: "1.37081659973226"
+  ratio: '1.37081659973226'
   url: https://speakerdeck.com/opdavies/bristol-dug-drupal-vm-generator
 video:
   type: youtube

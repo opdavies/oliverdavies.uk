@@ -8,7 +8,7 @@ tags:
   - tailwind-css
 ---
 
-In my [Taking Flight with Tailwind CSS talk]({{site.url}}/talks/taking-flight-with-tailwind-css), I've described Tailwind as a CSS utility class generator. You write a configuration file that Tailwind reads and generates the appropriate classes.
+In my [Taking Flight with Tailwind CSS talk](%7B%7Bsite.url%7D%7D/talks/taking-flight-with-tailwind-css), I've described Tailwind as a CSS utility class generator. You write a configuration file that Tailwind reads and generates the appropriate classes.
 
 Yesterday I mentioned the [PHP South West user group](https://phpsw.uk) website. It's a project that [I worked on in November 2017](https://twitter.com/opdavies/status/934488762276564993) and uses Tailwind 0.5.
 

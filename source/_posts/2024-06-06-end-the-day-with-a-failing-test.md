@@ -6,7 +6,7 @@ tags:
   - automated-testing
   - test-driven-development
 cta: testing_course
-snippet: |
+snippet: |-
   Do you know what to start working on tomorrow? Finish the day with a failing test.
 ---
 

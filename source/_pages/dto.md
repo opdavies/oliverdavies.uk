@@ -2,8 +2,8 @@
 title: Introduction to Automated Testing and Test-Driven Development with Drupal
 drupal_version: 10
 prices:
-    early: 299
-    full: 499
+  early: 299
+  full: 499
 is_early_bird: true
 next_date: 2024-02-23
 ---
@@ -35,9 +35,9 @@ The workshop is currently only available remotely, and the next available date i
 Seats are available at <span class="font-bold">{{ page.is_early_bird ? 'an early bird price of £' ~ page.prices.early : 'a price of £' ~ page.prices.full }}</span>, with a 10% discount for bulk orders of 5 or more seats.
 
 {% include 'button.html.twig' with {
-  text: 'Book your seat',
-  url: 'https://buy.stripe.com/aEU9Bk2KmaPM3Be8wJ',
-  withArrow: true,
+text: 'Book your seat',
+url: 'https://buy.stripe.com/aEU9Bk2KmaPM3Be8wJ',
+withArrow: true,
 } %}
 
 <hr />

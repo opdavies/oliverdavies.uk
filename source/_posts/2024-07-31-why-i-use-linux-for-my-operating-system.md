@@ -5,8 +5,8 @@ tags:
   - software-development
   - linux
   - open-source
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Why I use Linux for my operating system.
 ---
 

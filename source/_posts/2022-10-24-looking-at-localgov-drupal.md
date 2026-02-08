@@ -7,7 +7,7 @@ tags:
   - drupal
 ---
 
-Today, I've been looking at [LocalGov](https://localgovdrupal.org) - a Drupal distribution for building council websites, with a focus on code reuse and collaboration. 
+Today, I've been looking at [LocalGov](https://localgovdrupal.org) - a Drupal distribution for building council websites, with a focus on code reuse and collaboration.
 
 After a few small changes, I was able to get it running based on my [Docker Examples](https://github.com/opdavies/docker-examples) repository.
 

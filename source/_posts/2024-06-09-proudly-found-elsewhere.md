@@ -4,8 +4,8 @@ permalink: daily/2024/06/09/proudly-found-elsewhere
 tags:
   - software-development
   - drupal
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Drupal got off the island.
 ---
 
@@ -27,4 +27,4 @@ As well as the code, we've also been influenced by approaches, such as the moder
 
 Looking back, a lot has improved since 2015 which makes Drupal a very interesting place to be.
 
-[0]: {{site.url}}/daily/2024/06/07/not-invented-here
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/06/07/not-invented-here

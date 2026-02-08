@@ -1,7 +1,7 @@
 ---
 title: BTEC Computing at Reading College
 description: I was asked to speak to a group of 40 BTEC Computing students at Reading College.
-video: ~
+video:
 events:
   - name: Reading College
     location: Reading, UK

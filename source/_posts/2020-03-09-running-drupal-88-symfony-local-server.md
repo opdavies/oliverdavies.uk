@@ -2,9 +2,9 @@
 title: Running Drupal 8.8 with the Symfony Local Server
 excerpt: How to use Symfony's local web server to run a Drupal 8.8 website.
 tags:
-    - drupal
-    - drupal-8
-    - symfony
+  - drupal
+  - drupal-8
+  - symfony
 ---
 
 ![A screenshot of a terminal window running a Drupal project with the Symfony local server](/images/blog/running-drupal-with-symfony-local-server/terminal.png)
@@ -199,7 +199,7 @@ cd web
 However, this will cause an error like this because Drupal cannot connect to the
 database when Drush is run in this way.
 
-> Error: Class 'Drush\Sql\Sql' not found in Drush\Sql\SqlBase::getInstance()
+> Error: Class 'Drush\\Sql\\Sql' not found in Drush\\Sql\\SqlBase::getInstance()
 
 To fix this, ensure that the command is prefixed with `symfony php`. This will
 ensure that the correct PHP version and configuration is used, and that the
@@ -224,11 +224,11 @@ the site relies on using a specific URL such as a multisite setup (multiple
 domains served from the same codebase).
 
 {% include 'figure' with {
-  image: {
-    src: '/images/blog/running-drupal-with-symfony-local-server/proxy.png',
-    alt: 'A screenshot of the proxy overview screen, showing three local projects with their local domains, ports and directories.',
-  },
-  caption: 'The proxy overview screen'
+image: {
+src: '/images/blog/running-drupal-with-symfony-local-server/proxy.png',
+alt: 'A screenshot of the proxy overview screen, showing three local projects with their local domains, ports and directories.',
+},
+caption: 'The proxy overview screen'
 } only %}
 
 ### Setting up a multisite

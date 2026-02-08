@@ -19,45 +19,45 @@ The survey results from my automated testing and test-driven development session
 
 24 responses.
 
-* Excellent - 33.3%
-* Very good - 50%
-* Good - 16.7%
-* Fair - 0%
-* Poor - 0%
+- Excellent - 33.3%
+- Very good - 50%
+- Good - 16.7%
+- Fair - 0%
+- Poor - 0%
 
 ## How would you rate the speaker(s)'s presentation skills?
 
 24 responses.
 
-* Excellent - 20.8%
-* Very good - 37.5%
-* Good - 33.3%
-* Fair - 8.3%
-* Poor - 0%
+- Excellent - 20.8%
+- Very good - 37.5%
+- Good - 33.3%
+- Fair - 8.3%
+- Poor - 0%
 
 ## How would you rate the speaker(s)'s slides and other session materials?
 
 25 responses.
 
-* Excellent - 24%
-* Very good - 32%
-* Good - 36%
-* Fair - 8%
-* Poor - 0%
+- Excellent - 24%
+- Very good - 32%
+- Good - 36%
+- Fair - 8%
+- Poor - 0%
 
 ## Overall, how would you rate this session?
 
 25 responses.
 
-* Excellent - 36%
-* Very good - 28%
-* Good - 36%
-* Fair - 0%
-* Poor - 0%
+- Excellent - 36%
+- Very good - 28%
+- Good - 36%
+- Fair - 0%
+- Poor - 0%
 
 Thanks to everyone who completed the survey for their feedback.
 
 P.S. If you'd like your own software development training or coaching, including automated testing and test-driven development, I currently have availability for [team coaching] and [private talks and workshops][workshops].
 
-[team coaching]: {{site.url}}/team-coaching
-[workshops]: {{site.url}}/pricing
+[team coaching]: %7B%7Bsite.url%7D%7D/team-coaching
+[workshops]: %7B%7Bsite.url%7D%7D/pricing

@@ -5,8 +5,8 @@ tags:
   - software-development
   - drupal
   - ddev
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How to use Nix to make DDEV reproducible.
 ---
 

@@ -4,8 +4,8 @@ permalink: daily/2024/09/28/testing-personal-projects
 tags:
   - software-development
   - automated-testing
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you write automated tests for your personal projects?
 ---
 

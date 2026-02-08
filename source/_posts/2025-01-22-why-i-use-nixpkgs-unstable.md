@@ -4,7 +4,7 @@ permalink: daily/2025/01/22/nixpkgs-unstable
 tags:
   - software-development
   - nix
-snippet: |
+snippet: |-
   Why do I use nixpkgs-unstable by default?
 ---
 
@@ -32,5 +32,5 @@ See [my dotfiles repository][1] for an example, where I have four versions of ni
 
 Every input is still locked in the `flake.lock` file, so everything is still reproducible whichever versions of nixpkgs I decide to use.
 
-[0]: {{site.url}}/daily/2025/01/19/minimum-viable-development-environment
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/01/19/minimum-viable-development-environment
 [1]: https://code.oliverdavies.uk/opdavies/dotfiles/src/commit/a5c1c891020c5026ca1c2d83afd6cbe8002a136c/flake.nix

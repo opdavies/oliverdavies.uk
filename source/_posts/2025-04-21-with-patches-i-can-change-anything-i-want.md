@@ -4,8 +4,8 @@ permalink: daily/2025/04/21/patch
 tags:
   - software-development
   - linux
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Using patches, I can change software in any way I want or need.
 ---
 

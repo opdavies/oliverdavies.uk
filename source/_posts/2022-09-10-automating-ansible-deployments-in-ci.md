@@ -1,8 +1,8 @@
 ---
-title: "Automating Ansible deployments in CI"
+title: Automating Ansible deployments in CI
 pubDate: 2022-09-10
-permalink: "daily/2022/09/10/automating-ansible-deployments-ci"
-tags: ["ansible"]
+permalink: daily/2022/09/10/automating-ansible-deployments-ci
+tags: [ansible]
 ---
 
 Once you have a deployment that's run using Ansible, rather than running it manually, it's easy to automate it as part of a continuous integration pipeline and have your changes pushed automatically by tools like GitHub Actions and GitLab CI.

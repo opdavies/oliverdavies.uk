@@ -7,8 +7,8 @@ tags:
   - php
   - static-websites
   - static-site-generators
-cta: ~
-snippet: |
+cta:
+snippet: |-
   If you no longer need to edit content in your CMS-powered website, why not archive it as a static website?
 ---
 
@@ -30,7 +30,7 @@ This is what I've done for old websites like our old DrupalCamp Bristol websites
 
 That means they're still available for people to see, but without the maintenance and security overhead.
 
-[0]: {{site.url}}/presentations/sculpin
-[1]: {{site.url}}/daily/2025/03/15/tome
+[0]: %7B%7Bsite.url%7D%7D/presentations/sculpin
+[1]: %7B%7Bsite.url%7D%7D/daily/2025/03/15/tome
 [2]: https://www.drupal.org/docs/administering-a-drupal-site/creating-a-static-archive-of-a-drupal-site
-[3]: {{site.url}}/daily/2025/03/13/deploy
+[3]: %7B%7Bsite.url%7D%7D/daily/2025/03/13/deploy

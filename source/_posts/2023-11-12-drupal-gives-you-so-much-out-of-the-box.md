@@ -12,18 +12,18 @@ When you download and install Drupal, you get so much functionality available ou
 
 For example:
 
-* Content creation and editing capabilities with a flexible content type
-* A taxonomy system for categorising content.
-* Tools for managing editorial workflows.
-* User registration and authentication.
-* A role-based permission system.
-* Support for creating multilingual websites with translation tools.
-* Caching mechanisms to optimise performance.
-* Scalability features for handling high-traffic websites.
-* Built-in search functionality.
-* Robust security features, including input validation and output filtering.
-* RESTful web services for building web applications and mobile apps.
-* A flexible page and layout builder.
+- Content creation and editing capabilities with a flexible content type
+- A taxonomy system for categorising content.
+- Tools for managing editorial workflows.
+- User registration and authentication.
+- A role-based permission system.
+- Support for creating multilingual websites with translation tools.
+- Caching mechanisms to optimise performance.
+- Scalability features for handling high-traffic websites.
+- Built-in search functionality.
+- Robust security features, including input validation and output filtering.
+- RESTful web services for building web applications and mobile apps.
+- A flexible page and layout builder.
 
 There are over 50,000 contributed modules on Drupal.org that you can download to add functionality like eCommerce, analytics, social media integrations, quizzes, webforms and surveys.
 

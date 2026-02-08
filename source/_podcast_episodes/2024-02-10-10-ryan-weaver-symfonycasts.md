@@ -4,28 +4,28 @@ episode_number: 10
 guests:
   - Ryan Weaver
 links:
-  - - Symfony
-    - https://symfony.com
-  - - SymfonyCasts
-    - https://symfonycasts.com
-  - - Symfony UX
-    - https://ux.symfony.com
-  - - Twig
-    - https://twig.symfony.com
-  - - Twig Components
-    - https://ux.symfony.com/twig-component
-  - - Composer
-    - https://getcomposer.org
-  - - 'Symfony: The Fast Track'
-    - https://symfony.com/book
-  - - SymfonyCasts Blog
-    - https://symfonycasts.com/blog
-  - - Ryan on Twitter
-    - https://twitter.com/weaverryan
-  - - Ryan on GitHub
-    - https://github.com/weaverryan
-  - - Ryan on YouTube
-    - https://www.youtube.com/@weaverryan
+  -   - Symfony
+      - https://symfony.com
+  -   - SymfonyCasts
+      - https://symfonycasts.com
+  -   - Symfony UX
+      - https://ux.symfony.com
+  -   - Twig
+      - https://twig.symfony.com
+  -   - Twig Components
+      - https://ux.symfony.com/twig-component
+  -   - Composer
+      - https://getcomposer.org
+  -   - 'Symfony: The Fast Track'
+      - https://symfony.com/book
+  -   - SymfonyCasts Blog
+      - https://symfonycasts.com/blog
+  -   - Ryan on Twitter
+      - https://twitter.com/weaverryan
+  -   - Ryan on GitHub
+      - https://github.com/weaverryan
+  -   - Ryan on YouTube
+      - https://www.youtube.com/@weaverryan
 embed_url: https://files.oliverdavies.uk/bb/episodes/10-symfonycasts.mp3
 file_size: 26892969
 duration: 0:53:59

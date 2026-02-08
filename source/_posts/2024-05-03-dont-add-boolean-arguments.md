@@ -5,8 +5,8 @@ tags:
   - software-development
   - drupal
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Don't add boolean arguments to your methods.
 ---
 
@@ -17,6 +17,7 @@ For example, if I have this function:
 ```php
 public function getPosts() { ... }
 ```
+
 If I wanted to only get published posts, one way would be to add a boolean argument:
 
 ```php
@@ -34,4 +35,5 @@ public function getAllPosts() { ... }
 
 public function getPublishedPosts() { ... }
 ```
+
 Whilst we have two methods now instead of one, it's much clearer what each does and there aren't any random `true` or `false`s wherever the method is used.

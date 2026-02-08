@@ -5,8 +5,8 @@ tags:
   - software-development
   - linux
   - nix
-cta: ~
-snippet: |
+cta:
+snippet: |-
   On my computer, there are no more random or leftover packages or configuration files. Everything is managed with Nix and NixOS - making it easy to read, add to or edit my setup.
 ---
 

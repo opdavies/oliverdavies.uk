@@ -6,7 +6,7 @@ tags:
   - drupal
   - php
 cta: subscription
-snippet: |
+snippet: |-
   Should we remove the version number from Drupal's marketing materials and standardise how we refer to legacy and modern versions of Drupal?
 ---
 

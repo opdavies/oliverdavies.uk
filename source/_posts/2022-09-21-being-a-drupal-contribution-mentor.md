@@ -1,8 +1,8 @@
 ---
-title: "Being a Drupal contribution mentor"
+title: Being a Drupal contribution mentor
 pubDate: 2022-09-21
-permalink: "daily/2022/09/21/being-drupal-contribution-mentor"
-tags: ["drupal"]
+permalink: daily/2022/09/21/being-drupal-contribution-mentor
+tags: [drupal]
 ---
 
 This week is DrupalCon Prague, and although I'm not at this event, I'd like to write about some my experiences at DrupalCon - in particular about being a contribution mentor.

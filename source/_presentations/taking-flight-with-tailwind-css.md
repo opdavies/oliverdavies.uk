@@ -1,10 +1,9 @@
 ---
 title: Taking Flight with Tailwind CSS
-description:
-  An introduction to the utility-first approach to writing CSS with a focus on the Tailwind CSS framework.
+description: An introduction to the utility-first approach to writing CSS with a focus on the Tailwind CSS framework.
 speakerdeck:
   id: 10ca51f23560443d83b898a92929b4b3
-  ratio: "1.77777777777778"
+  ratio: '1.77777777777778'
   url: https://speakerdeck.com/opdavies/taking-flight-with-tailwind-css
 video:
   id: C20QZbGlmZ8
@@ -12,10 +11,10 @@ video:
 meta:
   og:
     image:
-      url: '/assets/images/talks/taking-flight-tailwind.jpg'
+      url: /assets/images/talks/taking-flight-tailwind.jpg
       width: 2560
       height: 1440
-      type: "image/png"
+      type: image/png
 events:
   - name: Drupal Bristol
     location: Bristol, UK
@@ -62,7 +61,7 @@ events:
     date: 2020-09-30
     url: https://techtalks.io/events/f8e26038-2561-484e-8a74-7a1e3a0369b8
     online: true
-  - name: "Drupal Virtual Cafe #3"
+  - name: 'Drupal Virtual Cafe #3'
     location: Kyiv, Ukraine
     date: 2020-10-15
     url: https://groups.drupal.org/ukraine
@@ -102,5 +101,6 @@ Things we'll cover:
 - How to extend Tailwind CSS and add extra classes with community-written plugins.
 - How to write and test your own custom project-specific plugins.
 
-[1]: https://tailwindcss.com
 {% endblock %}
+
+[1]: https://tailwindcss.com

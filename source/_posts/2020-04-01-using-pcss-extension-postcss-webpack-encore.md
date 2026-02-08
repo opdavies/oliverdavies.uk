@@ -2,10 +2,10 @@
 title: Using the pcss extension for PostCSS with Webpack Encore
 excerpt: How to use the .pcss file extension for PostCSS files with Webpack Encore.
 tags:
-    - encore
-    - postcss
-    - symfony
-    - webpack
+  - encore
+  - postcss
+  - symfony
+  - webpack
 ---
 
 I've been watching Christopher Pitt ([assertchris][assertchris-twitter])'s [streams on Twitch][assertchris-twitch] over the last few months, in one of which he was doing some work with Tailwind CSS and using a `.pcss` file extension for his PostCSS files.
@@ -14,7 +14,7 @@ I couldn't remember seeing this extension before, but this made a lot of sense t
 
 It's also shorter that the `.postcss` extension, and has been suggested by [@PostCSS on Twitter](https://twitter.com/PostCSS/status/661645290622083073) previously.
 
-Some of my projects use [Laravel Mix][] which support this extension by default, but some of them use Symfony's [Webpack Encore][] which didn't seem to, so I decided to look into it. (Note that both are agnostic and not coupled to their respective frameworks, so can be used with other projects too including Drupal and Sculpin).
+Some of my projects use [Laravel Mix] which support this extension by default, but some of them use Symfony's [Webpack Encore] which didn't seem to, so I decided to look into it. (Note that both are agnostic and not coupled to their respective frameworks, so can be used with other projects too including Drupal and Sculpin).
 
 ## Updating Webpack Encore's configuration
 
@@ -88,6 +88,5 @@ I've also submitted a pull request to Encore to add support for the `.pcss` exte
 
 [assertchris-twitch]: https://www.twitch.tv/assertchris "assertchris on Twitch"
 [assertchris-twitter]: https://twitter.com/assertchris "assertchris on Twitter"
-[gitstore]: https://gitstore.app
 [laravel mix]: https://laravel-mix.com
 [webpack encore]: https://github.com/symfony/webpack-encore

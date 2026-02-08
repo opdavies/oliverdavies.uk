@@ -1,5 +1,5 @@
 ---
-title: "Tailwind: why I prefer to extract HTML components"
+title: 'Tailwind: why I prefer to extract HTML components'
 pubDate: 2023-02-20
 permalink: >-
   daily/2023/02/20/tailwind-why-i-prefer-to-extract-html-components

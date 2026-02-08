@@ -3,8 +3,8 @@ title: Things aren't perfect
 permalink: daily/2024/07/24/things-aren-t-perfect
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   When developing software, things aren't always perfect.
 ---
 
@@ -20,4 +20,4 @@ There isn't always an ideal or perfect solution.
 
 Sometimes, the icky solution is the right one.
 
-[0]: {{site.url}}/daily/2024/07/22/there-isnt-just-one-way-to-do-something
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/07/22/there-isnt-just-one-way-to-do-something

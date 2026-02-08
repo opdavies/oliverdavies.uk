@@ -2,12 +2,12 @@
 title: Upgrading the Dransible project to Drupal 9
 excerpt: How I recently upgraded the Dransible example project from Drupal 8.8 to 9.0.
 tags:
-    - composer
-    - dransible
-    - drupal
-    - drupal-9
-    - drupal-planet
-    - php
+  - composer
+  - dransible
+  - drupal
+  - drupal-9
+  - drupal-planet
+  - php
 ---
 
 This week I gave [a new talk on upgrading to Drupal 9](/talks/upgrading-your-site-drupal-9) for the Drupal NYC meetup. Whilst preparing for that, I decided to upgrade my [Dransible example project](https://github.com/opdavies/dransible) that I use for my [Ansible and Ansistrano talk](/talks/deploying-php-ansible-ansistrano) to Drupal 9 and document the process.
@@ -27,7 +27,7 @@ To begin with, let's update to the latest version of Drupal 8 so that we can do 
 1. Add the [Upgrade Status module](https://www.drupal.org/project/upgrade_status) by running `composer require drupal/upgrade_status`.
 1. Upgrade to Drush 10 by running `composer require drush/drush:^10`.
 1. Remove the [Config Installer module](https://www.drupal.org/project/config_installer) by running `composer remove drupal/config_installer`. This is no longer needed since Drupal 8.6, and there will be no Drupal 9 version.
-1. Update the [Admin Toolbar module](https://www.drupal.org/project/admin_toolbar) to 2.3, a  Drupal 9 compatible version, by running `composer update drupal/admin_toolbar`.
+1. Update the [Admin Toolbar module](https://www.drupal.org/project/admin_toolbar) to 2.3, a Drupal 9 compatible version, by running `composer update drupal/admin_toolbar`.
 
 As I'd previously updated the Simple Message custom module to be Drupal 9 compatible (adding the `core_version_requirement` key to the info.yml file, and removing usages of deprecated code), no changes needed to be made to that.
 

@@ -3,8 +3,8 @@ title: Putting glue on pizza
 permalink: daily/2024/05/31/putting-glue-on-pizza
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you use AI-based tools in your development workflow?
 ---
 

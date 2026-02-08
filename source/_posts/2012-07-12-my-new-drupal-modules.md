@@ -2,12 +2,12 @@
 title: My new Drupal modules
 excerpt: After a busy few days, I've released two new contrib Drupal modules.
 tags:
-    - accessibility
-    - drupal
-    - drupal-6
-    - drupal-7
-    - drupal-modules
-    - drupal-planet
+  - accessibility
+  - drupal
+  - drupal-6
+  - drupal-7
+  - drupal-modules
+  - drupal-planet
 ---
 
 After a busy few days, I've released two new contrib Drupal modules.

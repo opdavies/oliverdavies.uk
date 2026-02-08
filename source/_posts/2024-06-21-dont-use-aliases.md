@@ -5,8 +5,8 @@ tags:
   - software-development
   - git
   - zsh
-cta: ~
-snippet: |
+cta:
+snippet: |-
   If you're giving a presentation or mob programming, avoid using custom aliases.
 ---
 

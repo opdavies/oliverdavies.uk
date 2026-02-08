@@ -5,7 +5,7 @@ tags:
   - software-development
   - drupal
   - php
-cta: ~
+cta:
 snippet: |
   Drupal's Experience Builder project adopts ADRs.
 drupal_planet: true
@@ -28,5 +28,5 @@ As the work on Experience Builder continues, new contributors can read these doc
 I'm interested to see how ADRs work for the Experience Builder project and whether they're adopted more widely in other parts of the Drupal ecosystem.
 
 [0]: https://www.drupal.org/project/experience_builder/issues/3454669
-[1]: {{site.url}}/daily/2024/06/12/recording-architectural-decisions
+[1]: %7B%7Bsite.url%7D%7D/daily/2024/06/12/recording-architectural-decisions
 [2]: https://git.drupalcode.org/project/experience_builder/-/tree/0.x/docs/adr?ref_type=heads

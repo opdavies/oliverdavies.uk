@@ -4,8 +4,8 @@ permalink: daily/2024/10/04/make-the-change-easy--then-make-the-easy-change
 tags:
   - software-development
   - clean-code
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Make the change easy, then make the easy change.
 ---
 

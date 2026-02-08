@@ -2,7 +2,7 @@
 title: Quick Project Switching in PhpStorm
 excerpt: How to quickly switch between projects in PhpStorm.
 tags:
-    - phpstorm
+  - phpstorm
 has_tweets: true
 ---
 
@@ -15,7 +15,7 @@ PhpStorm projects, and as I'm always working on multiple projects I regularly
 need to switch between them.
 
 {% include 'tweet' with {
-    content: '<p lang="en" dir="ltr">I think you can start typing and it will filter?</p>&mdash; Oliver Davies (@opdavies) <a href="https://twitter.com/opdavies/status/1034472920532365312?ref_src=twsrc%5Etfw">August 28, 2018</a>',
+  content: '<p lang="en" dir="ltr">I think you can start typing and it will filter?</p>— Oliver Davies (@opdavies) <a href="https://twitter.com/opdavies/status/1034472920532365312?ref_src=twsrc%5Etfw">August 28, 2018</a>',
 } %}
 
 On the PhpStorm welcome screen that displays when you first open it, your recent
@@ -30,7 +30,7 @@ That's great when opening a project from scratch, but what about when we're
 already within a project and just want to be able to switch to another?
 
 {% include 'tweet' with {
-    content: '<p lang="en" dir="ltr">You can also use &#39;Open recent&#39; within the actions list, and then filter the list of projects. <a href="https://t.co/k8G9iIQNP0">pic.twitter.com/k8G9iIQNP0</a></p>&mdash; Oliver Davies (@opdavies) <a href="https://twitter.com/opdavies/status/1034542753651281920?ref_src=twsrc%5Etfw">August 28, 2018</a>',
+  content: '<p lang="en" dir="ltr">You can also use "Open recent" within the actions list, and then filter the list of projects. <a href="https://t.co/k8G9iIQNP0">pic.twitter.com/k8G9iIQNP0</a></p>— Oliver Davies (@opdavies) <a href="https://twitter.com/opdavies/status/1034542753651281920?ref_src=twsrc%5Etfw">August 28, 2018</a>',
 } %}
 
 There's also a way to access this list once PhpStorm is open, by clicking 'Open

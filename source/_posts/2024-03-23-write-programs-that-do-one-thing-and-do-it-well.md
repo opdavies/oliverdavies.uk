@@ -5,8 +5,8 @@ tags:
   - software-development
   - unix
   - linux
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Write programs that do one thing and do it well.
 ---
 

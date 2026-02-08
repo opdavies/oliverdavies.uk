@@ -12,13 +12,13 @@ When doing test-driven development, you start by writing a failing test and then
 
 This is the design phase where you ask questions and decide how you want the code to work.
 
-* Are you going to use a global function or a method on a class?
-* Will you create a new class or add a method to an existing class?
-* What will it be called?
-* Will you use a named method or make the class invokable like a single-method Controller or Action?
-* Will it accept any parameters?
-* If so, what will the parameters be, what will they be named, and will they take any default values?
-* Will it return a value?
-* Should it throw an Exception?
+- Are you going to use a global function or a method on a class?
+- Will you create a new class or add a method to an existing class?
+- What will it be called?
+- Will you use a named method or make the class invokable like a single-method Controller or Action?
+- Will it accept any parameters?
+- If so, what will the parameters be, what will they be named, and will they take any default values?
+- Will it return a value?
+- Should it throw an Exception?
 
 You might iterate on the design and change it as you write more assertions or tests, but take the opportunity to decide how you want the code to work at this point before you start writing the implementation.

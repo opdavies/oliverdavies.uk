@@ -7,7 +7,7 @@ tags:
   - php
   - localgov
 cta: subscription
-snippet: |
+snippet: |-
   Newport City Council is now the first Welsh council to use LocalGov Drupal.
 ---
 

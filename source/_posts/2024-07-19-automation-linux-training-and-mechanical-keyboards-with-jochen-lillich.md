@@ -4,8 +4,8 @@ permalink: daily/2024/07/19/automation-linux-training-and-mechanical-keyboards
 tags:
   - software-development
   - podcast
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Discussing automation, Linux training and mechanical keyboards with Jochen Lillich.
 ---
 
@@ -23,6 +23,6 @@ I have a few more recorded episodes that will be released over the next few week
 
 If you want to be a guest on Beyond Blocks, [let me know][2].
 
-[0]: {{site.url}}/podcast
-[1]: {{site.url}}/podcast/17-jochen-lillich
+[0]: %7B%7Bsite.url%7D%7D/podcast
+[1]: %7B%7Bsite.url%7D%7D/podcast/17-jochen-lillich
 [2]: https://forms.gle/5LCDdrXyqyrbC4ry9

@@ -6,7 +6,7 @@ tags:
   - automated-testing
   - test-driven-development
 cta: testing_course
-snippet: |
+snippet: |-
   Sometimes, I write my test assertions first.
 ---
 
@@ -67,4 +67,4 @@ Now the test passes.
 
 Doing test-driven development keeps my code clean and minimal, and I find this approach keeps my test clean, too.
 
-[0]: {{site.url}}/daily/2024/06/03/writing-comments-first
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/06/03/writing-comments-first

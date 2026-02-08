@@ -5,8 +5,8 @@ tags:
   - software-development
   - drupal
   - front-end
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Should you have a separate front-end for your Drupal website?
 ---
 
@@ -28,5 +28,5 @@ You could also be excluding yourself from any new features that will be availabl
 
 Whilst decoupled/headless builds are a viable option and can work well in some situations, it's not something I recommend often.
 
-[0]: {{site.url}}/presentations/decoupling-drupal-vuejs
-[1]: {{site.url}}/daily/2025/01/26/layout-builder
+[0]: %7B%7Bsite.url%7D%7D/presentations/decoupling-drupal-vuejs
+[1]: %7B%7Bsite.url%7D%7D/daily/2025/01/26/layout-builder

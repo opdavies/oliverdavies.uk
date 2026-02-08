@@ -2,14 +2,14 @@
 title: How to Define a Minimum Drupal Core Version
 excerpt: How to define a minimum Drupal core version for your module or theme.
 tags:
-    - drupal
-    - drupal-7
-    - drupal-planet
+  - drupal
+  - drupal-7
+  - drupal-planet
 meta:
-    og:
-        title: 'How to Define a Minimum Drupal Core Version'
-        excerpt: 'How to define a minimum Drupal core version for your module or theme.'
-        type: article
+  og:
+    title: How to Define a Minimum Drupal Core Version
+    excerpt: How to define a minimum Drupal core version for your module or theme.
+    type: article
 ---
 
 This week, my first code patch was
@@ -71,7 +71,7 @@ We can also use the following as part of the field for extra granularity:
 - > greater than
 - < lesser than
 - > = greater than or equal to
-- <= lesser than or equal to
+- \<= lesser than or equal to
 - != not equal to
 
 In the original scenario, we want to specify that the module can only be enabled

@@ -46,6 +46,6 @@ It's quicker to create and onboard projects using existing configurations instea
 
 If you want to see an example, [watch this video][video] where I set up a new Drupal 10 project from nothing to running website in less than a minute.
 
-[build configs]: {{site.url}}/build-configs
-[talk]: {{site.url}}/presentations/building-build-configs
+[build configs]: %7B%7Bsite.url%7D%7D/build-configs
+[talk]: %7B%7Bsite.url%7D%7D/presentations/building-build-configs
 [video]: https://www.youtube.com/watch?v=LkhsdmxReUc

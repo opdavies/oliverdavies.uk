@@ -3,7 +3,7 @@ title: Working with Workspace
 description: Workspace is an open-source local development tool from Inviqa. This talk covers what it is, what it does, and how to use it in your PHP project.
 speakerdeck:
   id: e87103bd5f8b4f16bbed73a9d4d2a592
-  ratio: "1.77777777777778"
+  ratio: '1.77777777777778'
   url: https://speakerdeck.com/opdavies/taking-flight-with-tailwind-css
 video:
   type: youtube

@@ -6,8 +6,8 @@ tags:
   - static-websites
   - static-site-generators
   - sculpin
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Static websites are easy to backup and restore.
 ---
 
@@ -25,5 +25,5 @@ I have a scheduled cron job that downloads everything from the `/var/www/vhosts`
 
 If I need to restore from a backup or migrate to a different server, I just run the appropriate rsync command to re-upload them - the same as how I deployed them originally.
 
-[0]: {{site.url}}/daily/2025/03/12/easy
-[1]: {{site.url}}/daily/2025/03/13/deploy
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/03/12/easy
+[1]: %7B%7Bsite.url%7D%7D/daily/2025/03/13/deploy

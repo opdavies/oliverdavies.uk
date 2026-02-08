@@ -4,7 +4,7 @@ permalink: daily/2024/05/29/make-it-easy
 tags:
   - software-development
 cta: d7eol
-snippet: |
+snippet: |-
   What can you do to make your current task easier to achieve?
 ---
 

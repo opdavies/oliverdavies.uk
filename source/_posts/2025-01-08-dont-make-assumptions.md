@@ -4,7 +4,7 @@ permalink: daily/2025/01/08/don-t-make-assumptions
 tags:
   - software-development
 cta: call
-snippet: |
+snippet: |-
   I recently caught myself making assumptions and creating new requirements in a codebase that no-one asked for.
 ---
 

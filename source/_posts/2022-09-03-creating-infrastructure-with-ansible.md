@@ -2,7 +2,7 @@
 pubDate: 2022-09-03
 title: Creating infrastructure with Ansible
 permalink: dailys/2022/09/03/creating-infrastructure-with-ansible
-tags: ["ansible"]
+tags: [ansible]
 ---
 
 Let's start at the beginning.
@@ -52,6 +52,6 @@ This doesn't apply just to servers - you can also use Ansible to create security
 
 Once we have our infrastructure in place, we can start using Ansible to set and manage its configuration, which we'll do in tomorrow's email.
 
----
+______________________________________________________________________
 
-Want to learn more about how I use Ansible? [Register for my upcoming free email course]({{site.url}}/ansible-course).
+Want to learn more about how I use Ansible? [Register for my upcoming free email course](%7B%7Bsite.url%7D%7D/ansible-course).

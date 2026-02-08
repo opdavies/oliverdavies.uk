@@ -7,7 +7,7 @@ tags:
   - drupal7
   - php
 cta: d7eol
-snippet: |
+snippet: |-
   There's only one more month of Drupal 7 support!
 ---
 
@@ -19,4 +19,4 @@ There are a lot of Drupal 7 sites still in production, but it's been interesting
 
 I'm excited to see Drupal usage continue to move towards the newer versions so everyone can benefit from the new features and improvements in Drupal 10 and 11 and the new Drupal CMS project.
 
-[0]: {{site.url}}/daily/2024/11/16/an-interesting-thing-i-spotted-about-the-override-node-options-module
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/16/an-interesting-thing-i-spotted-about-the-override-node-options-module

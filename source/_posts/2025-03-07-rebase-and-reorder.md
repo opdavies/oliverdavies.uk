@@ -4,8 +4,8 @@ permalink: daily/2025/03/07/rebase-and-reorder
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Sometimes when tidying my commits or updating a local branch with remote changes, the order of commits changes - making them out of order in the Git log. This is how I fix it.
 ---
 
@@ -23,4 +23,4 @@ The commit date can be reset using `git reset --amend`, and combining these comm
 
 Running `git rebase --interactive --exec "git commit --amend --no-edit --date now"` will amend and update each commit, keeping the commit message the same, but changing the commit date to the current time - leaving the Git log in the correct order.
 
-[0]: {{site.url}}/daily/2025/02/11/tidy
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/02/11/tidy

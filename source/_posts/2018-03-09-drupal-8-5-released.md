@@ -1,9 +1,9 @@
 ---
-title: 'Drupal 8.5.0 Released'
+title: Drupal 8.5.0 Released
 excerpt: This week, the latest version of Drupal 8 was released.
 tags:
-    - drupal
-    - drupal-core
+  - drupal
+  - drupal-core
 ---
 
 This week the latest minor version of Drupal 8, 8.5.0, was released.
@@ -31,7 +31,5 @@ I'm already looking forward to see what's coming in 8.6 later this year!
 
 For more information on the 8.5 release, see the [blog post on Drupal.org][1].
 
-[0]: https://dri.es/drupal-8-5-0-released
 [1]: https://www.drupal.org/blog/drupal-8-5-0
-[2]:
-  https://www.drupal.org/docs/8/umami-drupal-8-demonstration-installation-profile
+[2]: https://www.drupal.org/docs/8/umami-drupal-8-demonstration-installation-profile

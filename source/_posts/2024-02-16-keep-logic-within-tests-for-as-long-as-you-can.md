@@ -50,8 +50,8 @@ It confirms no node ID exists when starting, runs some setup setups (this is a K
 
 There are two things that you may be wondering...
 
-* Why do you have test setup code that you'll need within the test? Won't you need that for every test?
-* Why are you creating the node within the test and not somewhere else?
+- Why do you have test setup code that you'll need within the test? Won't you need that for every test?
+- Why are you creating the node within the test and not somewhere else?
 
 The answer to both is that this is the first test, and I want to write **as little code as possible for it to pass**.
 

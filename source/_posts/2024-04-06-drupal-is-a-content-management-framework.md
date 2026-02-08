@@ -6,7 +6,7 @@ tags:
   - drupal
   - php
 cta: d7eol
-snippet: |
+snippet: |-
   Drupal isn't just a content management system. It's a content management framework.
 ---
 

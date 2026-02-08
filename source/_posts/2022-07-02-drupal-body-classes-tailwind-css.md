@@ -2,8 +2,8 @@
 title: Exporting Drupal body classes to use with Tailwind CSS
 excerpt: How I've exported content from Drupal's body fields so they aren't missed by Tailwind's JIT mode or PurgeCSS.
 tags:
-    - drupal
-    - tailwind-css
+  - drupal
+  - tailwind-css
 ---
 
 I was recently [asked a question](https://www.drupal.org/project/tailwindcss/issues/3271487) in the issue queue for my [Tailwind starter kit Drupal theme](https://www.drupal.org/project/tailwindcss), about how to use classes within content with Tailwind CSS.

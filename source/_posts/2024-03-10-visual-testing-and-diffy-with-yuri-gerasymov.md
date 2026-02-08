@@ -7,7 +7,7 @@ tags:
   - podcast
   - automated-testing
 cta: subscription
-snippet: |
+snippet: |-
   This week on Beyond Blocks, I'm joined by Yuri Gerasymov to discuss Diffy visual regression testing.
 ---
 
@@ -44,4 +44,4 @@ I learned a lot during this conversation and have added visual regression testin
 
 [Listen to the episode][episode]
 
-[episode]: {{site.url}}/podcast/14-yuri-gerasymov-diffy
+[episode]: %7B%7Bsite.url%7D%7D/podcast/14-yuri-gerasymov-diffy

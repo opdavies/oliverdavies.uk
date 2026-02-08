@@ -5,8 +5,8 @@ tags:
   - software-development
   - docker
   - nix
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Your application code is only part of the puzzle.
 ---
 

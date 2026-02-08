@@ -57,15 +57,17 @@ This talk will cover a little of the background to Sculpin and what it is, and
 then will move into some demonstrations of how to build a Sculpin site and what
 it can do!
 
-[0]: http://sculpin.io
 {% endblock %}
 
 {% block content %}
+
 <article>
   <blockquote>
     <p>Another great talk yesterday by Oliver Davies about building static websites using sculpin. learned a lot, even though I was new to it.</p>
   </blockquote>
 
-  <footer>PHP Thames Valley attendee.</footer>
+<footer>PHP Thames Valley attendee.</footer>
 </article>
 {% endblock %}
+
+[0]: http://sculpin.io

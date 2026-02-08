@@ -6,7 +6,7 @@ tags:
   - drupal
   - drush
   - php
-cta: ~
+cta:
 snippet: |
   I've used Drush for as long as I've used Drupal, so why isn't it included by default?
 drupal_planet: true

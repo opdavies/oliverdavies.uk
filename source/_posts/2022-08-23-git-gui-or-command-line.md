@@ -1,9 +1,9 @@
 ---
 pubDate: 2022-08-23
-title: "Git: GUI or command-line?"
-permalink: "daily/2022/08/23/git-gui-command-line"
+title: 'Git: GUI or command-line?'
+permalink: daily/2022/08/23/git-gui-command-line
 tags:
-  - "git"
+  - git
 ---
 
 I've been using Git for a long time. My first full-time Developer role in 2010 was working on an in-house team and that project used Git as it's version control system.

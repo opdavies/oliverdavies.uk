@@ -2,10 +2,10 @@
 title: Using Tailwind CSS in your Drupal Theme
 excerpt: What is Tailwind CSS, and how do I use it in Drupal theme?
 tags:
-    - drupal
-    - drupal-planet
-    - drupal-theming
-    - tailwind-css
+  - drupal
+  - drupal-planet
+  - drupal-theming
+  - tailwind-css
 ---
 
 ## What is Tailwind?
@@ -104,8 +104,5 @@ and is applied.
 For an example of Tailwind within a Drupal 8 theme, see the custom theme for the
 [Drupal Bristol website][0] on GitHub.
 
-[0]:
-  https://github.com/drupalbristol/drupal-bristol-website/tree/master/web/themes/custom/drupalbristol
+[0]: https://github.com/drupalbristol/drupal-bristol-website/tree/master/web/themes/custom/drupalbristol
 [1]: https://tailwindcss.com/docs/installation
-[2]: https://www.npmjs.com/get-npm
-[3]: https://yarnpkg.com/lang/en/docs/install

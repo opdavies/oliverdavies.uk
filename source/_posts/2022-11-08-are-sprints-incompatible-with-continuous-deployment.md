@@ -12,7 +12,7 @@ It's been common for me whilst working on software projects to have work organis
 
 In my experience, those changes are usually released at the end of that cycle. But it seems that's not always the case; see [release sprints](https://scrumdictionary.com/term/release-sprint):
 
-> A specialised sprint whose purpose is to release deliverable results; it contains stories specific to release activities and finishing undone work.  A release sprint usually contains no additional development.
+> A specialised sprint whose purpose is to release deliverable results; it contains stories specific to release activities and finishing undone work. A release sprint usually contains no additional development.
 
 If we worked in two-week cycles and released at the end of each one, it would be at least two weeks before a change could be deployed to production. But what if we wanted to follow continuous deployment and release more frequently? Maybe daily or hourly?
 

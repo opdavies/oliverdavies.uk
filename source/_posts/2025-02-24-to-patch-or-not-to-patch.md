@@ -3,8 +3,8 @@ title: To patch or not to patch
 permalink: daily/2025/02/24/patch
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   To patch or not to patch.
 ---
 
@@ -26,5 +26,5 @@ There are some patches I commonly apply to Drupal projects, but I'll try to eith
 
 Sometimes, though, [patching is the only option][1].
 
-[0]: {{site.url}}/daily/2025/01/13/patches
-[1]: {{site.url}}/daily/2025/01/14/patching-drupal
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/01/13/patches
+[1]: %7B%7Bsite.url%7D%7D/daily/2025/01/14/patching-drupal

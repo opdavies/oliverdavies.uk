@@ -4,8 +4,8 @@ permalink: daily/2024/07/02/ci-not-ci-pipeline
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Continuous integration is not the same as a CI pipeline.
 ---
 
@@ -31,4 +31,4 @@ What most people think of as CI or CI/CD is a set of automated checks that run w
 
 Whilst important, it's not "CI".
 
-[0]: {{site.url}}/blog/continuous-integration-vs-continuous-integration
+[0]: %7B%7Bsite.url%7D%7D/blog/continuous-integration-vs-continuous-integration

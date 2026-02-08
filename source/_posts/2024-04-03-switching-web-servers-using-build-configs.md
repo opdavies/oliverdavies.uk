@@ -4,8 +4,8 @@ permalink: daily/2024/04/03/switching-web-servers-using-build-configs
 tags:
   - software-development
   - build-configs
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Today, I used my Build Configs tool to easily switch a project from one web server to another.
 ---
 
@@ -21,4 +21,4 @@ This is an excellent example of why I built this tool: to save time and reduce d
 
 For this change, it did both.
 
-[build configs]: {{site.url}}/talks/building-build-configs
+[build configs]: %7B%7Bsite.url%7D%7D/talks/building-build-configs

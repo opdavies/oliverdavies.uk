@@ -5,7 +5,7 @@ tags:
   - software-development
   - open-source
 cta: d7eol
-snippet: |
+snippet: |-
   Regular open-source releases encourage contribution to your project.
 ---
 

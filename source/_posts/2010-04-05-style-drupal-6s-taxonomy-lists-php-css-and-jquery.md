@@ -2,10 +2,10 @@
 title: Style Drupal 6's Taxonomy Lists with PHP, CSS and jQuery
 excerpt: Getting started with Drupal theming by styling Drupal's taxonomy lists.
 tags:
-    - drupal-6
-    - drupal-planet
-    - drupal-theming
-    - taxonomy
+  - drupal-6
+  - drupal-planet
+  - drupal-theming
+  - taxonomy
 ---
 
 Whilst developing this, and other Drupal websites for clients, I decided that I

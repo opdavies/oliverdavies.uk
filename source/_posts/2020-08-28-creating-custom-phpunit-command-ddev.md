@@ -2,10 +2,10 @@
 title: Creating a custom PHPUnit command for DDEV
 excerpt: How to create a custom command to run PHPUnit commands in DDEV.
 tags:
-    - ddev
-    - drupal
-    - drupal-planet
-    - php
+  - ddev
+  - drupal
+  - drupal-planet
+  - php
 ---
 
 To begin with, let's create an empty file for our command:
@@ -13,6 +13,7 @@ To begin with, let's create an empty file for our command:
 ```bash
 touch .ddev/commands/web/phpunit
 ```
+
 Commands are located within the `.ddev/commands` directory, with a sub-directory for the container name in which the command should be executed - or `host` if it's a command that is to be run on the host machine.
 
 As [the example repo](https://github.com/opdavies/ddev-phpunit-command-example) has a `web` sub-directory to mimic my Drupal application structure, the command should be run inside the web container so the file should be placed within the `.ddev/commands/web` directory.

@@ -4,8 +4,8 @@ permalink: daily/2024/04/27/can-you-make-a-test-fail
 tags:
   - software-development
   - automated-testing
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Can you make an automated test fail when you want?
 ---
 

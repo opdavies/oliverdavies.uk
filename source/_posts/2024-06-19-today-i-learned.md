@@ -4,8 +4,8 @@ permalink: daily/2024/06/19/today-i-learned
 tags:
   - software-development
   - drupal
-cta: ~
-snippet: |
+cta:
+snippet: |-
   TIL
 ---
 

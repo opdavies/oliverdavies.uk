@@ -6,7 +6,7 @@ tags:
   - javascript
   - stimulus
 cta: call
-snippet: |
+snippet: |-
   For the last few projects, I've been using and liking Stimulus - the modest JavaScript framework for the HTML you already have.
 ---
 
@@ -22,4 +22,4 @@ If you want an example of how I've set up stimulus with esbuild, [take a look at
 
 I skipped the lessons on Stimulus before and didn't try it for a while, but I'm glad I have.
 
-[podcast]: {{site.url}}/podcast/10-ryan-weaver-symfonycasts
+[podcast]: %7B%7Bsite.url%7D%7D/podcast/10-ryan-weaver-symfonycasts

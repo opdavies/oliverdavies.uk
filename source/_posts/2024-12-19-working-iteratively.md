@@ -3,8 +3,8 @@ title: Working iteratively
 permalink: daily/2024/12/19/working-iteratively
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   What's the smallest deployable piece you can break a task into?
 ---
 
@@ -32,4 +32,4 @@ You're deploying changes in smaller parts, making it less likely for something t
 
 And, if you need to roll back or revert a change, you can affect only the part you need instead of everything.
 
-[0]: {{site.url}}/daily/2024/12/18/self-hosting-podcast
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/12/18/self-hosting-podcast

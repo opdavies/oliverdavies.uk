@@ -6,8 +6,8 @@ tags:
   - php
   - automated-testing
   - test-driven-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   PHPUnit or Pest? Which do you prefer?
 ---
 

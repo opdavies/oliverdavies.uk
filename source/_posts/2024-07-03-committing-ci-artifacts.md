@@ -4,8 +4,8 @@ permalink: daily/2024/07/03/committing-ci-artifacts
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you commit artifacts from your CI pipeline?
 ---
 
@@ -19,4 +19,4 @@ This introduces a separate set of challenges, but people like having the files i
 
 Which do you prefer?
 
-[0]: {{site.url}}/daily/2024/07/02/ci-not-ci-pipeline
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/07/02/ci-not-ci-pipeline

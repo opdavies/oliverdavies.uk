@@ -1,7 +1,7 @@
 ---
-title: "A month of daily emails"
+title: A month of daily emails
 pubDate: 2022-09-12
-permalink: "daily/2022/09/12/month-daily-emails"
+permalink: daily/2022/09/12/month-daily-emails
 ---
 
 It's already been a month since I started my email list and writing daily emails.

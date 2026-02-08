@@ -4,7 +4,7 @@ permalink: daily/2024/06/03/writing-comments-first
 tags:
   - software-development
 cta: d7eol
-snippet: |
+snippet: |-
   Why I usually start by writing my code comments before my code.
 ---
 

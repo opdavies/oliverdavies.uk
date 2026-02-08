@@ -5,8 +5,8 @@ tags:
   - software-development
   - automated-testing
   - test-driven-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How often are the tests run on your project?
 ---
 

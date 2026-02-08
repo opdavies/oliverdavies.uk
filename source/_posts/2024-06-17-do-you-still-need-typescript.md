@@ -5,8 +5,8 @@ tags:
   - software-development
   - typescript
   - javascript
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you still need TypeScript?
 ---
 

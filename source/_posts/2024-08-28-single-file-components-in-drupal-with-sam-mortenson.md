@@ -6,7 +6,7 @@ tags:
   - drupal
   - php
   - podcast
-cta: ~
+cta:
 snippet: |
   I recently discussed Single File Components in Drupal with Sam Mortenson.
 drupal_planet: true
@@ -20,6 +20,6 @@ As a Drupal Specialist who works with other technologies including Vue.js, Symfo
 
 Also, prior to releasing this episode, the total downloads for the podcast are almost at 1,000. Thank you to all the previous guests and everyone who listens to the podcast!
 
-[0]: {{site.url}}/podcast
+[0]: %7B%7Bsite.url%7D%7D/podcast
 [1]: https://mortenson.coffee
-[2]: {{site.url}}/podcast/19-sam-mortenson
+[2]: %7B%7Bsite.url%7D%7D/podcast/19-sam-mortenson

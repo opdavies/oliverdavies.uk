@@ -4,7 +4,7 @@ permalink: daily/2024/03/15/everything-is-a-trade-off
 tags:
   - software-development
 cta: d7eol
-snippet: |
+snippet: |-
   All solutions have advantages and disadvantages. Which works best for you?
 ---
 

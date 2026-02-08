@@ -5,7 +5,7 @@ tags:
   - software-development
   - drupal
   - php
-cta: ~
+cta:
 snippet: Come for the software, stay for the community
 ---
 

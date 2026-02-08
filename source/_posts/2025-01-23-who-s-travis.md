@@ -4,8 +4,8 @@ permalink: daily/2025/01/23/travis
 tags:
   - software-development
   - ci
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Who's Travis? Are they a new member of the team?
 ---
 

@@ -4,8 +4,8 @@ permalink: daily/2025/02/25/suckless-drupal
 tags:
   - software-development
   - drupal
-cta: ~
-snippet: |
+cta:
+snippet: |-
   What would a suckless version of Drupal look like?
 ---
 
@@ -27,5 +27,5 @@ Core functionality like user registration and logins, password management, conte
 
 But I can think of a number of other things that could be removed.
 
-[0]: {{site.url}}/daily/2024/11/08/what-will-be-included-in-drupal-cms
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/08/what-will-be-included-in-drupal-cms
 [1]: https://suckless.org/philosophy

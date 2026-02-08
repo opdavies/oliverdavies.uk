@@ -2,12 +2,12 @@
 title: Add a Taxonomy Term to Multiple Nodes Using SQL
 excerpt: How to add a new taxonomy term to multiple nodes in Drupal using SQL.
 tags:
-    - database
-    - drupal-6
-    - drupal-planet
-    - sequal-pro
-    - sql
-    - taxonomy
+  - database
+  - drupal-6
+  - drupal-planet
+  - sequal-pro
+  - sql
+  - taxonomy
 ---
 
 In preparation for my Blog posts being added to

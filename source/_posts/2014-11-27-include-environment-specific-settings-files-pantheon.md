@@ -2,10 +2,10 @@
 title: Include environment-specific settings files on Pantheon
 excerpt: How to load a different settings file per environment on Pantheon.
 tags:
-    - drupal
-    - drupal-planet
-    - pantheon
-    - settings.php
+  - drupal
+  - drupal-planet
+  - pantheon
+  - settings.php
 ---
 
 I was recently doing some work on a site hosted on

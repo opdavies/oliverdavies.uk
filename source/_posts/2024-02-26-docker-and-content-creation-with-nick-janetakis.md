@@ -5,7 +5,7 @@ tags:
   - software-development
   - docker
   - podcast
-snippet: |
+snippet: |-
   This week's guest on Beyond Blocks is Docker Captain, Nick Janetakis.
 ---
 
@@ -13,4 +13,4 @@ This week's guest on the Beyond Blocks podcast is Nick Janetakis - a Software De
 
 I'm a long-time consumer of Nick's content via his blog, YouTube channel and courses, so it was great to discuss Docker, content creation and more with him.
 
-[Listen to the episode]({{site.url}}/podcast/12-nick-janetakis-docker)
+[Listen to the episode](%7B%7Bsite.url%7D%7D/podcast/12-nick-janetakis-docker)

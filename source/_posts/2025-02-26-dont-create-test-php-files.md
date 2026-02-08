@@ -5,8 +5,8 @@ tags:
   - software-development
   - automated-testing
   - test-driven-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Stop writing test.php files. Write real tests instead.
 ---
 

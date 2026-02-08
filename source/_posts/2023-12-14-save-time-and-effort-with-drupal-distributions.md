@@ -24,4 +24,4 @@ If you're starting a new project, try starting with an appropriate distribution 
 
 Don't know if using a distribution could help for you? [Book a 1-on-1 consulting call][call], and I'll help you out.
 
-[call]: {{site.url}}/call
+[call]: %7B%7Bsite.url%7D%7D/call

@@ -4,8 +4,8 @@ permalink: daily/2024/03/30/leaving-a-trail-of-breadcrumbs
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   A commit log is like leaving a trail of breadcrumbs for yourself as you work on a task.
 ---
 

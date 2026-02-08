@@ -4,10 +4,10 @@ episode_number: 15
 guests:
   - Rob Allen
 links:
-  - - Rob's blog
-    - https://akrabat.com
-  - - Nineteen Feet
-    - https://19ft.com
+  -   - Rob's blog
+      - https://akrabat.com
+  -   - Nineteen Feet
+      - https://19ft.com
 talking_points:
   - Rebuild vs. rewrite.
   - Writing good commit messages.

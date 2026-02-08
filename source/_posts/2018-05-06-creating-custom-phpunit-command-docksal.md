@@ -1,15 +1,13 @@
 ---
 title: Creating a Custom PHPUnit Command for Docksal
-excerpt:
-    How to write custom commands for Docksal, including one to easily run PHPUnit
-    tests in Drupal 8.
+excerpt: How to write custom commands for Docksal, including one to easily run PHPUnit tests in Drupal 8.
 tags:
-    - docksal
-    - drupal
-    - drupal-8
-    - drupal-planet
-    - phpunit
-    - testing
+  - docksal
+  - drupal
+  - drupal-8
+  - drupal-planet
+  - phpunit
+  - testing
 ---
 
 This week I've started writing some custom commands for my Drupal projects that
@@ -351,15 +349,13 @@ Since writing this post, I've had a [pull request][8] accepted for this command 
 - [Docksal addons blog post][9]
 - [Docksal addons repository][10]
 
-[0]: {{site.companies.microserve.url}}
+[0]: %7B%7Bsite.companies.microserve.url%7D%7D
 [1]: https://youtu.be/1sjsvnx1P7g
 [2]: https://gist.github.com/opdavies/72611f198ffd2da13f363ea65264b2a5
-[3]: {{site.companies.microserve.github}}
+[3]: %7B%7Bsite.companies.microserve.github%7D%7D
 [4]: https://www.drupal.org/docs/8/phpunit
-[5]:
-  https://github.com/docksal/docksal/blob/develop/examples/.docksal/commands/phpcs
+[5]: https://github.com/docksal/docksal/blob/develop/examples/.docksal/commands/phpcs
 [6]: /talks/tdd-test-driven-drupal
 [7]: /blog/tags/testing
-[8]: https://github.com/docksal/addons/pull/15
 [9]: https://blog.docksal.io/installing-addons-in-a-docksal-project-172a6c2d8a5b
 [10]: https://github.com/docksal/addons

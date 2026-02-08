@@ -7,7 +7,7 @@ tags:
   - localgov-drupal
   - open-source
 cta: subscription
-snippet: |
+snippet: |-
   This week, I submitted my first change to the LocalGov Microsites distribution.
 ---
 

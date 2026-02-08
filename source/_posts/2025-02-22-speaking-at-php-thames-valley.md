@@ -6,8 +6,8 @@ tags:
   - php
   - speaking
   - sculpin
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I'm happy to be giving my first presentation in 2025 at PHP Thames Valley.
 ---
 

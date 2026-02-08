@@ -3,8 +3,8 @@ title: Which environment should I test?
 permalink: daily/2024/12/29/which-environment
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I recently had a discussion with a client who was confused about which branch contained which changes, and which environment they should be testing.
 ---
 

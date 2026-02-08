@@ -2,7 +2,7 @@
 title: Docker resources
 excerpt: A list of Docker resources that I've compiled.
 tags:
-    - docker
+  - docker
 ---
 
 I've been speaking with a few people recently about Docker. Here are some resources that I found useful when I was learning Docker:

@@ -2,10 +2,10 @@
 title: Decorating an Entity Metadata Wrapper to add and refactor methods
 excerpt: How to use the Decorator design pattern with Drupal 7's EntityMetadataWrapper to extend it, and add and refactor custom methods.
 tags:
-    - drupal
-    - drupal-7
-    - drupal-planet
-    - php
+  - drupal
+  - drupal-7
+  - drupal-planet
+  - php
 ---
 
 Following [yesterday's Entity Metadata Wrapper blog post](/blog/cleanly-retrieving-user-profile-data-using-entity-metadata-wrapper) and as I continued to work on this task, I noticed some duplication and found that I was repeating several of the same chaining steps in different methods in the same file. For example:
@@ -68,7 +68,7 @@ final class PupilWrapper extends \EntityDrupalWrapper {
 
 Whilst this has worked in previous situations, this time I had this error:
 
-> Error: Call to undefined method EntityDrupalWrapper::getFirstNameFromBasicProfile() in Drupal\my_module\EntityWrapper\PupilWrapper->getTeacherFirstName
+> Error: Call to undefined method EntityDrupalWrapper::getFirstNameFromBasicProfile() in Drupal\\my_module\\EntityWrapper\\PupilWrapper->getTeacherFirstName
 
 This is because the `get()` method is returning an instance of `EntityStructureWrapper` (another class that extends `EntityDrupalWrapper`) which means that `getFirstNameFromBasicProfile()` is not accessible though it's in the same file.
 
@@ -115,7 +115,7 @@ In this case, the constructor argument is an instance of `EntityMetadataWrapper`
 
 As the `get()` method is missing, this would cause an error:
 
-> Error: Call to undefined method Drupal\my_module\EntityWrapper\PupilWrapper::get() in Drupal\my_module\EntityWrapper\PupilWrapper->getFirstName()
+> Error: Call to undefined method Drupal\\my_module\\EntityWrapper\\PupilWrapper::get() in Drupal\\my_module\\EntityWrapper\\PupilWrapper->getFirstName()
 
 However, we can re-add it, have it get the value from `accountWrapper` and return another instance of `PupilWrapper` so that `getFirstNameFromBasicProfile()` will be available.
 
@@ -127,7 +127,7 @@ public function get(string $property): self {
 
 The `value()` method is also required, but this can delegate to the decorated wrapper:
 
-> Error: Call to undefined method Drupal\my_module\EntityWrapper\PupilWrapper::value() in Drupal\my_module\EntityWrapper\PupilWrapper->getFirstName()
+> Error: Call to undefined method Drupal\\my_module\\EntityWrapper\\PupilWrapper::value() in Drupal\\my_module\\EntityWrapper\\PupilWrapper->getFirstName()
 
 ```php
 public function value(): string {

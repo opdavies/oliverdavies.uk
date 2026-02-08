@@ -28,4 +28,4 @@ Keeping it the default value would make it easier to work on, collaborate on and
 
 Maybe, I'll leave it as `gray` in the future.
 
-[0]: {{site.url}}/blog/renaming-gray-grey-tailwind-css
+[0]: %7B%7Bsite.url%7D%7D/blog/renaming-gray-grey-tailwind-css

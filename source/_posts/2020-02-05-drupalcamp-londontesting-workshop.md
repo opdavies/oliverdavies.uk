@@ -2,11 +2,11 @@
 title: Testing Workshop at DrupalCamp London 2020
 excerpt: This year, I'm teaching a workshop at DrupalCamp London.
 tags:
-    - drupal
-    - drupalcamp
-    - testing
+  - drupal
+  - drupalcamp
+  - testing
 lead_image:
-    url: /images/blog/testing-workshop-drupalcamp-london/lead.jpg
+  url: /images/blog/testing-workshop-drupalcamp-london/lead.jpg
 ---
 
 This year, I'm teaching a workshop at DrupalCamp London.
@@ -23,4 +23,4 @@ There are also other workshops on topics including Composer, Drupal Commerce,
 profiling, and chatbots.
 
 For more information and to register, go to the
-[DrupalCamp London website](https://opdavi.es/dclondon20 'Find out more and register on the DrupalCamp London website').
+[DrupalCamp London website](https://opdavi.es/dclondon20 "Find out more and register on the DrupalCamp London website").

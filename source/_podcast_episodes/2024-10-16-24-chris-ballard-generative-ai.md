@@ -4,16 +4,16 @@ episode_number: 24
 guests:
   - Chris Ballard
 links:
-  - - Chris on LinkedIn
-    - https://www.linkedin.com/in/chris-ballard-3b573b3
-  - - Scoot Software
-    - https://www.scootsoftware.com
-  - - Byte to Eat (Chris' example application)
-    - https://github.com/chris-ballard/byte-to-eat
-  - - The Drupal AI module
-    - https://www.drupal.org/project/ai
-  - - AI content migration demo from DrupalCon
-    - https://youtu.be/nhPiL4g972A?si=pAQ9sPIuQqdDf3y0&t=2687
+  -   - Chris on LinkedIn
+      - https://www.linkedin.com/in/chris-ballard-3b573b3
+  -   - Scoot Software
+      - https://www.scootsoftware.com
+  -   - Byte to Eat (Chris' example application)
+      - https://github.com/chris-ballard/byte-to-eat
+  -   - The Drupal AI module
+      - https://www.drupal.org/project/ai
+  -   - AI content migration demo from DrupalCon
+      - https://youtu.be/nhPiL4g972A?si=pAQ9sPIuQqdDf3y0&t=2687
 talking_points: []
 quotes: []
 chapters: []

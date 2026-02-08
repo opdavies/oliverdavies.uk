@@ -26,4 +26,4 @@ A fixed release schedule makes it easier for users and Developers to plan their 
 
 As Ryan said on a [recent episode of Beyond Blocks][episode], "It takes the drama out of open-source".
 
-[episode]: {{site.url}}/podcast/10-ryan-weaver-symfonycasts
+[episode]: %7B%7Bsite.url%7D%7D/podcast/10-ryan-weaver-symfonycasts

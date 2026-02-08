@@ -24,7 +24,7 @@ public function testSomething(): void {
 
 This is probably expected and complies with the PSR code style standards like PSR-12.
 
-Something that I've seen some PHP developers and some frameworks prefer is to write their test methods using snake-case letters and  commonly removing the `test` prefix in favour of using an annotation:
+Something that I've seen some PHP developers and some frameworks prefer is to write their test methods using snake-case letters and commonly removing the `test` prefix in favour of using an annotation:
 
 ```language-php
 /** @test */

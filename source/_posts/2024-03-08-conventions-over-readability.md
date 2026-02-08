@@ -6,8 +6,8 @@ tags:
   - clean-code
   # - php
   # - podcast
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Which is more important? To write readable code or following existing conventions?
 ---
 

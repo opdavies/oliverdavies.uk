@@ -4,8 +4,8 @@ permalink: daily/2025/03/05/slow
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   As well as causing merge conflicts, feature branches slow the delivery of new features.
 ---
 
@@ -25,5 +25,5 @@ And, if you're [doing continuous delivery][1], any changes will be automatically
 
 No more bottleneck.
 
-[0]: {{site.url}}/daily/2025/02/18/conflicts
-[1]: {{site.url}}/daily/2025/02/17/ci-cd
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/02/18/conflicts
+[1]: %7B%7Bsite.url%7D%7D/daily/2025/02/17/ci-cd

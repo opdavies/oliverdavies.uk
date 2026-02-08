@@ -3,8 +3,8 @@ title: Roll back or fix forward?
 permalink: daily/2025/02/19/back-or-forward
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How do you resolve issues after a deployment? Do you roll back to the previous version or fix the issue and deploy it and move forward?
 ---
 

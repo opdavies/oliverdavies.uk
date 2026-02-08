@@ -4,8 +4,8 @@ permalink: daily/2025/05/04/college
 tags:
   - software-development
   - public-speaking
-cta: ~
-snippet: |
+cta:
+snippet: |-
   This week I'm giving a guest presentation to students at Reading College.
 ---
 

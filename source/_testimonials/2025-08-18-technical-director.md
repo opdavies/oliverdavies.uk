@@ -1,6 +1,6 @@
 ---
 name: Technical Director, European knowledge platform
-image: ~
+image:
 tags: [front]
 ---
 

@@ -67,4 +67,4 @@ But with this `flake.nix` file, I can use my fork of nixpkgs that the branch tha
 Changing `inputs.nixpkgs.url` to my fork uses it as the nixpkgs repository instead of the official one, and now I can add `sculpin` as if it were already committed.
 
 [0]: https://github.com/NixOS/nixpkgs/pull/476433
-[1]: {{site.url}}/blog/rebooting-php-south-wales-website
+[1]: %7B%7Bsite.url%7D%7D/blog/rebooting-php-south-wales-website

@@ -3,8 +3,8 @@ title: Don't over rely on AI
 permalink: daily/2025/01/12/reliance
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I've noticed I've started to go to AI for answers to simple questions I could find or figure out myself. Am I losing my problem-solving skills?
 ---
 

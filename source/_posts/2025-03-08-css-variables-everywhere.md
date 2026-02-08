@@ -5,8 +5,8 @@ tags:
   - software-development
   - css
   - tailwind-css
-cta: ~
-snippet: |
+cta:
+snippet: |-
   CSS variables are everywhere...
 ---
 
@@ -20,6 +20,6 @@ Tailwind has a arbitrary syntax to easily use CSS variables - e.g. `bg-(--color-
 
 CSS variables aren't specific to Tailwind CSS, so if I wasn't using Tailwind in a codebase, I'd use the new native CSS features [instead of a preprocessor like Sass][2].
 
-[0]: {{site.url}}/daily/2025/02/28/preprocessors
-[1]: {{site.url}}/daily/2024/07/16/tailwind-css-v4--with-even-more-css
-[2]: {{site.url}}/daily/2024/05/26/is-it-time-to-stop-writing-sass
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/02/28/preprocessors
+[1]: %7B%7Bsite.url%7D%7D/daily/2024/07/16/tailwind-css-v4--with-even-more-css
+[2]: %7B%7Bsite.url%7D%7D/daily/2024/05/26/is-it-time-to-stop-writing-sass

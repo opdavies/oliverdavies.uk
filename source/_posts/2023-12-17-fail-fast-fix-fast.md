@@ -23,10 +23,10 @@ If you have an appropriate plan to follow in the case of an issue, that mitigate
 
 Two of the DORA metrics refer to failure rate and restoration time:
 
-* Deployment frequency
-* Lead time for changes
-* Change failure rate
-* Time to restore service
+- Deployment frequency
+- Lead time for changes
+- Change failure rate
+- Time to restore service
 
 Then, it depends on your organisation's tolerance for risk and what's acceptable.
 

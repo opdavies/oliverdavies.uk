@@ -12,7 +12,7 @@ To create a flake for a new Drupal application is simple as running `nix flake i
 
 I've started to use Drupal Flake for some of my projects, including getting the [old PHP South Wales website][3] running locally on PHP 7.4, and it's worked very well.
 
-[0]: {{site.url}}/blog/building-nix-flake-templates
+[0]: %7B%7Bsite.url%7D%7D/blog/building-nix-flake-templates
 [1]: https://www.drupal.org/project/drupal_flake
-[2]: {{site.url}}/podcast/33-john-locke-drupal-flake
-[3]: {{site.url}}/blog/rebooting-php-south-wales-website
+[2]: %7B%7Bsite.url%7D%7D/podcast/33-john-locke-drupal-flake
+[3]: %7B%7Bsite.url%7D%7D/blog/rebooting-php-south-wales-website

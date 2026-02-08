@@ -5,8 +5,8 @@ tags:
   - software-development
   - drupal
   - drupalcon
-cta: ~
-snippet: |
+cta:
+snippet: |-
   The call for session proposals is currently open for DrupalCon Europe. Have you submitted yours?
 ---
 

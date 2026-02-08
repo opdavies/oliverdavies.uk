@@ -23,13 +23,14 @@ This is a big improvement just from running a single Composer command to add Par
 
 There's also [an open issue][issue] for using it for Drupal core's tests, which is something I'll keep an eye on and will look to contribute to.
 
-[atdc]: {{site.url}}/atdc
-[issue]: https://www.drupal.org/project/drupal/issues/2781123
-[paratest]: https://github.com/paratestphp/paratest
 {% endblock %}
 
 {% block cta %}
 P.S. Do you need immediate access to an expert Drupal Developer? [With my Drupal development subscription][subscription], make unlimited requests for a fixed monthly price in less time than posting to a job board!
 
-[subscription]: {{site.url}}/subscription
 {% endblock %}
+
+[atdc]: %7B%7Bsite.url%7D%7D/atdc
+[issue]: https://www.drupal.org/project/drupal/issues/2781123
+[paratest]: https://github.com/paratestphp/paratest
+[subscription]: %7B%7Bsite.url%7D%7D/subscription

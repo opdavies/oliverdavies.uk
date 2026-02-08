@@ -9,7 +9,7 @@ tags:
   - contribution
 ---
 
-An argument against the [contribution-first and open-source-first approach]({{site.url}}/daily/2023/12/01/the-contribution-first-workflow) is that it takes longer than writing custom code.
+An argument against the [contribution-first and open-source-first approach](%7B%7Bsite.url%7D%7D/daily/2023/12/01/the-contribution-first-workflow) is that it takes longer than writing custom code.
 
 I think that this is due to thinking that you need to cover all use cases within the code if it's open-sourced, whereas, in custom code, you only write the code you need.
 

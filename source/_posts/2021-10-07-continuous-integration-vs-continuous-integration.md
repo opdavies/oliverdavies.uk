@@ -2,7 +2,7 @@
 title: Continuous Integration vs Continuous Integration
 excerpt: My views on the definitions of "continuous integration".
 tags:
-    - git
+  - git
 ---
 
 ![A meme with Spider-Man pointing at Spider-Man, both labelled with 'Continuous Integration'](/images/blog/continuous-integration-spiderman.jpg)

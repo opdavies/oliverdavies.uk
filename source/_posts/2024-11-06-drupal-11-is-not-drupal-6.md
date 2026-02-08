@@ -5,8 +5,8 @@ tags:
   - software-development
   - php
   - drupal
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Drupal has evolved over the years, so why do a lot of people remember old versions?
 ---
 

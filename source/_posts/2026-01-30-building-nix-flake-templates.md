@@ -18,8 +18,9 @@ For example, this will use the `sculpin` template to scaffold a new project:
 ```console
 nix flake init -t git+https://git.oliverdavies.uk/opdavies/nix-flake-templates#sculpin
 ```
+
 Instead of a pre-built dev shell, this creates a new flake.nix and flake.lock file as well as any other files or directories within the template.
 
 It's like a mini version of [Build Configs][0].
 
-[0]: {{site.url}}/presentations/building-build-configs
+[0]: %7B%7Bsite.url%7D%7D/presentations/building-build-configs

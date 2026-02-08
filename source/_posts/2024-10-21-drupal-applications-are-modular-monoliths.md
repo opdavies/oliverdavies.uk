@@ -6,7 +6,7 @@ tags:
   - drupal
   - php
 cta: d7eol
-snippet: |
+snippet: |-
   Drupal applications are modular monoliths.
 ---
 

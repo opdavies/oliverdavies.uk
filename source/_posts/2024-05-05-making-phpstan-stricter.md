@@ -5,8 +5,8 @@ tags:
   - software-development
   - php
   - phpstan
-cta: ~
-snippet: |
+cta:
+snippet: |-
   As well as PHP, you can make PHPStan stricter.
 ---
 
@@ -16,14 +16,14 @@ Adding the [PHPStan Strict Rules extension][extension] makes PHPStan stricter by
 
 For example:
 
-* Require booleans in if, elseif, ternary operator, after !, and on both sides of && and ||.
-* Use the `$strict` parameter with `in_array`, `array_search`, `array_keys` and `base64_decode`.
-* Disallow empty().
-* Require calling parent constructor.
+- Require booleans in if, elseif, ternary operator, after !, and on both sides of && and ||.
+- Use the `$strict` parameter with `in_array`, `array_search`, `array_keys` and `base64_decode`.
+- Disallow empty().
+- Require calling parent constructor.
 
 You can enable and disable rules as needed but, like setting the PHPStan level, ideally I like to enable them all by default and see how strict I go.
 
 It depends on the code being tested and the preference of the team, though I find the stricter the rules, the less bugs there are.
 
 [extension]: https://github.com/phpstan/phpstan-strict-rules
-[yesterday]: {{site.url}}/daily/2024/05/04/strict-typing-in-php
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/05/04/strict-typing-in-php

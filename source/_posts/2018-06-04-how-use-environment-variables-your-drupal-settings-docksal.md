@@ -2,9 +2,9 @@
 title: How to Use Environment Variables for your Drupal Settings with Docksal
 excerpt: How to leverage environment variables with Drupal and Docksal.
 tags:
-    - docksal
-    - drupal
-    - drupal-planet
+  - docksal
+  - drupal
+  - drupal-planet
 ---
 
 Within the [Docksal documentation for Drupal settings][0], the example database
@@ -66,7 +66,7 @@ environment variables will always be used.
 
 However, you may see a message like this when you try and load the site:
 
-> Drupal\Core\Database\DatabaseAccessDeniedException: SQLSTATE[HY000][1045]
+> Drupal\\Core\\Database\\DatabaseAccessDeniedException: SQLSTATE[HY000][1045]
 > Access denied for user ''@'172.19.0.4' (using password: NO) in
 > /var/www/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php on line 156
 

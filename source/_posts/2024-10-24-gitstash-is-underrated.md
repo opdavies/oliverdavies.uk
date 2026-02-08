@@ -4,8 +4,8 @@ permalink: daily/2024/10/24/git-stash-is-underrated
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   `git stash` is underrated.
 ---
 

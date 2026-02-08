@@ -4,7 +4,7 @@ permalink: daily/2024/08/07/people-read-more-code-than-they-write
 tags:
   - software-development
   - clean-code
-snippet: |
+snippet: |-
   People read more code than they write.
 ---
 
@@ -16,4 +16,4 @@ If you include colleagues' code, logs and CI pipeline output, open-source softwa
 
 Which is why it's important to [optimise for readability][0].
 
-[0]: {{site.url}}/daily/2024/08/06/computers-dont-care
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/08/06/computers-dont-care

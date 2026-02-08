@@ -43,4 +43,4 @@ We didn't need to clean them up or refactor them beforehand. We didn't need to d
 
 [null user module]: https://www.drupal.org/project/null_user
 [system user module]: https://www.drupal.org/project/system_user
-[yesterday]: {{site.url}}/daily/2023/12/04/writing-contrib-modules-as-glue-between-your-custom-code
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2023/12/04/writing-contrib-modules-as-glue-between-your-custom-code

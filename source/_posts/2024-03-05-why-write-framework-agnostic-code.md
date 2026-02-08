@@ -6,7 +6,7 @@ tags:
   - php
   - clean-code
 cta: testing_course
-snippet: |
+snippet: |-
   Why you should consider separating your business logic from your framework code. What benefits does it offer?
 ---
 
@@ -14,7 +14,7 @@ snippet: |
 
 Something else you can do with this approach is to write framework-agnostic code.
 
-By writing your business logic in code that isn't tied to a specific framework or CMS, with a small adapter layer, you can upgrade to a newer version of the framework, such as Drupal 7 to 10, or a different framework,  keep most of the code the same and only update the parts that connect the business logic and the framework.
+By writing your business logic in code that isn't tied to a specific framework or CMS, with a small adapter layer, you can upgrade to a newer version of the framework, such as Drupal 7 to 10, or a different framework, keep most of the code the same and only update the parts that connect the business logic and the framework.
 
 This is something that Commerce Guys (now Centarro) did when creating Drupal Commerce 2.0.
 
@@ -27,4 +27,4 @@ It's something to consider when writing your next Drupal module.
 It's something [I did recently][nre parser] and have done on client projects previously, and it can be a good approach.
 
 [nre parser]: https://github.com/opdavies/national-rail-enquiries-feed-parser
-[yesterday]: {{site.url}}//daily/2024/03/04/why-you-need-layers-in-your-application-code
+[yesterday]: %7B%7Bsite.url%7D%7D//daily/2024/03/04/why-you-need-layers-in-your-application-code

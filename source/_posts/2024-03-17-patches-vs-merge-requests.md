@@ -7,7 +7,7 @@ tags:
   - php
   - open-source
 cta: d7eol
-snippet: |
+snippet: |-
   Which do you prefer? Patches or merge requests?
 ---
 
@@ -27,4 +27,4 @@ I look forward to adapting and using it more now that the patch workflow is depr
 
 Another step forward for Drupal.org and the Drupal project.
 
-[yesterday]: {{site.url}}/daily/2024/03/16/adding-tests-to-the-content-access-by-path-module
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/03/16/adding-tests-to-the-content-access-by-path-module

@@ -6,7 +6,7 @@ tags:
   - drupal
   - php
   - automated-testing
-cta: ~
+cta:
 snippet: |
   As well as types, PHP's named arguments also add context - particularly within tests.
 drupal_planet: true
@@ -28,5 +28,5 @@ While I can tell from the assertion that I'm checking two values are the same, a
 
 In fact, if you use named arguments, the order no longer matters, so I can put them in whichever order I want and it will work the same way.
 
-[0]: {{site.url}}/daily/2024/08/17/types-add-context
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/08/17/types-add-context
 [1]: https://www.php.net/manual/en/functions.arguments.php#functions.named-arguments

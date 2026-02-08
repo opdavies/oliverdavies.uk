@@ -2,12 +2,12 @@
 title: Create a Block of Social Media Icons using CCK, Views and Nodequeue
 excerpt: How to create a block of social media icons in Drupal.
 tags:
-    - drupal
-    - drupal-6
-    - drupal-planet
-    - nodequeue
-    - oliverdavies.co.uk
-    - views
+  - drupal
+  - drupal-6
+  - drupal-planet
+  - nodequeue
+  - oliverdavies.co.uk
+  - views
 ---
 
 I recently decided that I wanted to have a block displayed in a sidebar on my

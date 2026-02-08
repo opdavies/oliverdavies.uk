@@ -6,8 +6,8 @@ tags:
   - shell
   - zsh
   - linux
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Why I prefer abbreviations over aliases in my zsh configuration.
 ---
 

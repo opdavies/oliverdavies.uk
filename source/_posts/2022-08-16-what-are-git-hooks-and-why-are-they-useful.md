@@ -1,8 +1,8 @@
 ---
 permalink: daily/2022/08/16/what-are-git-hooks-why-are-they-useful
 pubDate: 2022-08-16
-title: "What are Git hooks and why are they useful?"
-tags: ["git"]
+title: What are Git hooks and why are they useful?
+tags: [git]
 ---
 
 In yesterday's email, I mentioned Git hooks but didn't go into any detail. So, what are they?

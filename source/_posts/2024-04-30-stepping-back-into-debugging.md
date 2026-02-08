@@ -4,8 +4,8 @@ permalink: daily/2024/04/30/stepping-back-into-debugging
 tags:
   - software-development
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   This week, I've set up Xdebug on a new project to help with some complicated debugging.
 ---
 
@@ -31,5 +31,5 @@ If you use Docker Compose on Linux, it may be useful for you.
 
 If you haven't tried Xdebug before, I suggest giving it a try and see if improves your debugging.
 
-[build configs]: {{site.url}}/build-configs
+[build configs]: %7B%7Bsite.url%7D%7D/build-configs
 [repo]: https://github.com/opdavies/docker-example-drupal

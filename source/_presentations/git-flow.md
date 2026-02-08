@@ -3,7 +3,7 @@ title: Never Commit to Master - An Introduction to Git Flow
 description: An introduction to and demonstration of the Git Flow branching model.
 speakerdeck:
   id: 201559e0f103013198dd5a5f6f23ab67
-  ratio: "1.29456384323641"
+  ratio: '1.29456384323641'
   url: https://speakerdeck.com/opdavies/never-commit-to-master-an-introduction-to-git-flow
 video:
   type: youtube

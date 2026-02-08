@@ -2,10 +2,10 @@
 title: DrupalCamp London 2019 - Tickets Available and Call for Sessions
 excerpt: DrupalCamp London early-bird tickets are now available, and their call for sessions is open.
 tags:
-    - conferences
-    - drupal
-    - drupalcamp
-    - drupalcamp-london
+  - conferences
+  - drupal
+  - drupalcamp
+  - drupalcamp-london
 has_tweets: true
 ---
 
@@ -13,7 +13,7 @@ It was announced this week that [early-bird tickets are now available][0] for
 [DrupalCamp London 2019][1], as well as their [call for sessions being open][2].
 
 {% include 'tweet' with {
-    content: '<p lang="en" dir="ltr">The time is finally here. You can now purchase your tickets. Early Bird finishes on 2nd January 2019 - <a href="https://t.co/aG6jstmWzv">https://t.co/aG6jstmWzv</a> <a href="https://twitter.com/hashtag/Drupal?src=hash&amp;ref_src=twsrc%5Etfw">#Drupal</a></p>&mdash; DrupalCamp London (@DrupalCampLDN) <a href="https://twitter.com/DrupalCampLDN/status/1064584179113971712?ref_src=twsrc%5Etfw">November 19, 2018</a>
+content: '<p lang="en" dir="ltr">The time is finally here. You can now purchase your tickets. Early Bird finishes on 2nd January 2019 - <a href="https://t.co/aG6jstmWzv">https://t.co/aG6jstmWzv</a> <a href="https://twitter.com/hashtag/Drupal?src=hash&amp;ref_src=twsrc%5Etfw">#Drupal</a></p>— DrupalCamp London (@DrupalCampLDN) <a href="https://twitter.com/DrupalCampLDN/status/1064584179113971712?ref_src=twsrc%5Etfw">November 19, 2018</a>
 ',
 } %}
 

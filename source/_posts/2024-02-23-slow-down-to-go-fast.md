@@ -11,7 +11,7 @@ cta: subscription
 
 I've recently been improving my typing.
 
-![A screenshot of a typing test.]({{site.url}}/assets/images/daily-emails/typing.png)
+![A screenshot of a typing test.](%7B%7Bsite.url%7D%7D/assets/images/daily-emails/typing.png)
 
 My speed is usually good, but my accuracy is not where I'd like it to be (it's usually around 95%, and I'd like it to be nearer 99%).
 

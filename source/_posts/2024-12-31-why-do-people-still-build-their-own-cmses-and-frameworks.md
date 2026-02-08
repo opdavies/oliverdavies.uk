@@ -3,8 +3,8 @@ title: Why do people still build their own CMSes and frameworks?
 permalink: daily/2024/12/31/build
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Why do companies still build and sell their own CMSes and frameworks? I'm surprised this still happens.
 ---
 
@@ -22,4 +22,4 @@ That's one of the main benefits of open source software.
 
 There isn't just one company that provides services for it and customers can choose who they want to work with.
 
-[0]: {{site.url}}/daily/2024/12/30/domain-names
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/12/30/domain-names

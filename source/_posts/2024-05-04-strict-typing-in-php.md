@@ -4,8 +4,8 @@ permalink: daily/2024/05/04/strict-typing-in-php
 tags:
   - software-development
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you enable strict types in your PHP code?
 ---
 

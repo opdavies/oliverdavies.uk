@@ -22,4 +22,4 @@ There will be no further releases of Drupal 9 so you need to upgrade.
 
 If you're stuck on Drupal 9, 8, or 7, get unstuck with a [Drupal upgrade roadmap][roadmap] and get directions how to upgrade to Drupal 10.
 
-[roadmap]: {{site.url}}/drupal-upgrade
+[roadmap]: %7B%7Bsite.url%7D%7D/drupal-upgrade

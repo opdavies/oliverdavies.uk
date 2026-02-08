@@ -1,13 +1,12 @@
 ---
 title: Create Virtual Hosts on Mac OS X Using VirtualHostX
-excerpt:
-    How to use the VirtualHostX application to manage virtual hosts on Mac OS X.
+excerpt: How to use the VirtualHostX application to manage virtual hosts on Mac OS X.
 tags:
-    - drupal-6
-    - drupal-planet
-    - mamp
-    - virtual-hosts
-    - virtualhostx
+  - drupal-6
+  - drupal-planet
+  - mamp
+  - virtual-hosts
+  - virtualhostx
 ---
 
 This isn't a Drupal related topic per se, but it is a walk-through of one of the

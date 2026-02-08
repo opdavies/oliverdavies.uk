@@ -2,9 +2,9 @@
 title: Easily Embed TypeKit Fonts into your Drupal Website
 excerpt: How to use the @font-your-face module to embed TypeKit fonts into your Drupal website.
 tags:
-    - drupal-6
-    - drupal-planet
-    - typekit
+  - drupal-6
+  - drupal-planet
+  - typekit
 ---
 
 To begin with, you will need to

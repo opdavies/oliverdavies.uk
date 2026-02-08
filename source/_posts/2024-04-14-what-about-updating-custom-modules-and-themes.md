@@ -6,7 +6,7 @@ tags:
   - drupal
   - php
 cta: d7eol
-snippet: |
+snippet: |-
   But, how do you update custom modules and themes between major modern versions of Drupal?
 ---
 
@@ -22,4 +22,4 @@ Once you've removed any deprecations, your module or theme will be ready for the
 
 This is the approach I've used to upgrade numerous websites between major modern versions of Drupal, making small updates to existing code instead of having to rewrite it from scratch.
 
-[yesterday]: {{site.url}}/daily/2024/04/12/drupal-rector-and-the-project-update-bot
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/04/12/drupal-rector-and-the-project-update-bot

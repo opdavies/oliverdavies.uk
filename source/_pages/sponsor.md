@@ -26,5 +26,5 @@ We can discuss how much time you want to sponsor and what you want me to focus o
 
 You'll be mentioned on any relevant blog posts, live streams, issues and pull or merge requests, so everyone will know that you sponsored me and you'll get the kudos.
 
-[0]: {{site.drupalorg.url}}
-[1]: {{site.github.url}}
+[0]: %7B%7Bsite.drupalorg.url%7D%7D
+[1]: %7B%7Bsite.github.url%7D%7D

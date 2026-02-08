@@ -27,4 +27,4 @@ Until you run `git push`, your commits are yours and yours only.
 
 You have the opportunity to tidy up and organise your changes - making your commits easier to review and more likely to be approved in a code review.
 
-[0]: {{site.url}}/daily/2024/08/31/make-it-work-then-make-it-good
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/08/31/make-it-work-then-make-it-good

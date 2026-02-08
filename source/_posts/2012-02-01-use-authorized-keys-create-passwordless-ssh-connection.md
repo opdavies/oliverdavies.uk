@@ -2,8 +2,8 @@
 title: How to use Authorized Keys to Create a Passwordless SSH Connection
 excerpt: How to generate a SSH key, and how to use to log in to a server using SSH without entering a password.
 tags:
-    - linux
-    - ssh
+  - linux
+  - ssh
 ---
 
 If you're accessing Linux servers or automating tasks between servers, rather
@@ -17,7 +17,7 @@ and storing it within the _authorized_keys_ file on the remote server.
    address of your remote server. `$ ssh-copy-id myserver`
 
 If you're using Mac OS X and you don't have ssh-copy-id installed, download and
-install [Homebrew](http://mxcl.github.com/homebrew 'Homebrew') and run the
+install [Homebrew](http://mxcl.github.com/homebrew "Homebrew") and run the
 `brew install ssh-copy-id` command.
 
 If successful, you should now see a message like:

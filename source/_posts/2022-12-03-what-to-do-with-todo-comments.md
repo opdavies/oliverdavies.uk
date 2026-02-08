@@ -5,7 +5,7 @@ permalink: >-
   daily/2022/12/03/what-to-do-with-todo-comments
 ---
 
-[In a previous email]({{site.url}}/daily/2022/11/20/version-controlled-commented-out-code), I wrote about commented-out code and whether it should remain in a codebase - especially if it's version controlled and there's a commit log of all changes.
+[In a previous email](%7B%7Bsite.url%7D%7D/daily/2022/11/20/version-controlled-commented-out-code), I wrote about commented-out code and whether it should remain in a codebase - especially if it's version controlled and there's a commit log of all changes.
 
 But what about TODO comments that remind you to do something?
 

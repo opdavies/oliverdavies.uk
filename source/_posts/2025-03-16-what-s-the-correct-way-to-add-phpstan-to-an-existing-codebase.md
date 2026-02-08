@@ -6,8 +6,8 @@ tags:
   - php
   - phpstan
   - static-analysis
-cta: ~
-snippet: |
+cta:
+snippet: |-
   What's the correct way to add PHPStan to an existing codebase?
 ---
 
@@ -47,4 +47,4 @@ This I think is a better approach and how I add PHPStan to existing codebases.
 
 To learn more about static analysis and PHPStan, listen to [episode 22 of the Beyond Blocks podcast][0] with Dave Liddament.
 
-[0]: {{site.url}}/podcast/22-dave-liddament
+[0]: %7B%7Bsite.url%7D%7D/podcast/22-dave-liddament

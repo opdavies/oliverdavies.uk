@@ -6,8 +6,8 @@ tags:
   - drupal
   - php
   # - podcast
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Drupal 10.3 released
 ---
 

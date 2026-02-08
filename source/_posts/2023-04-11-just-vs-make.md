@@ -42,7 +42,7 @@ composer:
 
 Now I can run `make composer COMPOSER_ARGS="info drupal/core"` and see what I was expecting but the syntax isn't what I'd want.
 
-`just`, on the other hand, allows for defining parameters to its recipes: 
+`just`, on the other hand, allows for defining parameters to its recipes:
 
 ```language-yaml
 composer *args:

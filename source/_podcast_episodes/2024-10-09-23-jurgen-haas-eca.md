@@ -4,14 +4,14 @@ episode_number: 23
 guests:
   - Jürgen Haas
 links:
-  - - Jürgen on Drupal.org
-    - https://www.drupal.org/u/jurgenhaas
-  - - ECA module
-    - https://www.drupal.org/project/eca
-  - - ECA Guide
-    - https://ecaguide.org
-  - - NWDUG talk and demo
-    - https://www.youtube.com/watch?v=b512Lk1PSSk
+  -   - Jürgen on Drupal.org
+      - https://www.drupal.org/u/jurgenhaas
+  -   - ECA module
+      - https://www.drupal.org/project/eca
+  -   - ECA Guide
+      - https://ecaguide.org
+  -   - NWDUG talk and demo
+      - https://www.youtube.com/watch?v=b512Lk1PSSk
 talking_points: []
 quotes: []
 chapters: []

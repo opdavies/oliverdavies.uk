@@ -4,12 +4,12 @@ episode_number: 26
 guests:
   - Mark Conroy
 links:
-  - - mark.ie
-    - https://mark.ie
-  - - LocalGov Drupal
-    - https://localgovdrupal.org
-  - - The Confident
-    - https://the-confident.com
+  -   - mark.ie
+      - https://mark.ie
+  -   - LocalGov Drupal
+      - https://localgovdrupal.org
+  -   - The Confident
+      - https://the-confident.com
 quotes: []
 chapters: []
 embed_url: https://files.oliverdavies.uk/bb/episodes/26-the-confident.mp3

@@ -3,8 +3,8 @@ title: Ask questions
 permalink: daily/2024/05/30/ask-questions
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Don't ask only technical questions.
 ---
 

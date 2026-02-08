@@ -17,7 +17,7 @@ As it's a major version update, there are breaking changes that mean you may nee
 
 Here's an example of an error caused by a breaking change:
 
-> Drupal\Core\Entity\Query\QueryException: Entity queries must explicitly set whether the query should be access checked or not. See Drupal\Core\Entity\Query\QueryInterface::accessCheck(). 
+> Drupal\\Core\\Entity\\Query\\QueryException: Entity queries must explicitly set whether the query should be access checked or not. See Drupal\\Core\\Entity\\Query\\QueryInterface::accessCheck().
 
 To fix this, you need to call the `accessCheck()` method before executing a query and specify whether it should be checked.
 

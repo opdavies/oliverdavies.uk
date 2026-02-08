@@ -1,18 +1,18 @@
 ---
 title: Writing a new Drupal 8 Module using Test-Driven Development (TDD)
 tags:
-    - drupal
-    - phpunit
-    - simpletest
-    - tdd
-    - testing
+  - drupal
+  - phpunit
+  - simpletest
+  - tdd
+  - testing
 excerpt: How to write automated tests and follow test driven development for Drupal modules.
 meta:
-    image:
-        url: /images/talks/test-driven-drupal-development.png
-        width: 2560
-        height: 1440
-        type: image/png
+  image:
+    url: /images/talks/test-driven-drupal-development.png
+    width: 2560
+    height: 1440
+    type: image/png
 promoted: true
 ---
 
@@ -652,9 +652,8 @@ code to the [GitHub repository][3], and will also do another blog post
 highlighting the differences between functional and kernel tests and the steps
 taken to do the conversion.
 
-[0]: {{site.url}}/talks/tdd-test-driven-drupal
+[0]: %7B%7Bsite.url%7D%7D/talks/tdd-test-driven-drupal
 [1]: http://2017.drupal.ie
 [2]: https://github.com/opdavies/tdd_dublin
 [3]: https://packagist.org/packages/tightenco/collect
-[4]: http://php.net/manual/en/function.array-column.php
 [5]: https://gist.github.com/opdavies/dc5f0cea46ccd349b34a9f3a463c14bb

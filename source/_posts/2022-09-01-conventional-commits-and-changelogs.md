@@ -1,8 +1,8 @@
 ---
 pubDate: 2022-09-01
-title: "Conventional commits and CHANGELOGs"
+title: Conventional commits and CHANGELOGs
 tags: []
-permalink: "daily/2022/09/01/conventional-commits-changelogs"
+permalink: daily/2022/09/01/conventional-commits-changelogs
 ---
 
 One of the things that I've done since joining my current team is to implement a standard approach for our commit messages.

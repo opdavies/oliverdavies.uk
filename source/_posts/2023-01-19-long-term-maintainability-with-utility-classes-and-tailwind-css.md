@@ -16,7 +16,7 @@ Today, [I saw this tweet](https://twitter.com/mauro_codes/status/161572603673757
 
 > You can say whatever you want about @tailwindcss, but I just opened a legacy project with tailwind 0.7 that I didn't touch for almost three years... and I was able to update the whole branding in 30 minutes.
 
-  One of my earliest Tailwind projects was the [PHP South West website](https://phpsw.uk). We [worked on this in November 2017](https://twitter.com/opdavies/status/934488762276564993) and it still uses Tailwind CSS 0.5.
+One of my earliest Tailwind projects was the [PHP South West website](https://phpsw.uk). We [worked on this in November 2017](https://twitter.com/opdavies/status/934488762276564993) and it still uses Tailwind CSS 0.5.
 
 These are the classes used on the main menu:
 

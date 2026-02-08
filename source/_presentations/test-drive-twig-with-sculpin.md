@@ -3,7 +3,7 @@ title: Test Drive Twig with Sculpin
 description: With Drupal 8 just around the corner, see how you can develop your Twig skills with Sculpin - a static site generator based on Symfony components and Twig.
 speakerdeck:
   id: 54589d2e50a3476a9a75aed809e9edf1
-  ratio: "1.77777777777778"
+  ratio: '1.77777777777778'
   url: https://speakerdeck.com/opdavies/test-drive-twig-with-sculpin
 code: https://github.com/opdavies/sculpin-demo
 events:
@@ -18,8 +18,9 @@ events:
 
 This session covered how to install Sculpin itself, as well as how to use it to build a static site from Markdown, HTML and Twig templates. We also covered Sculpin concepts such as content types, themes and partials, and Twig layouts, blocks and inheritance, as well as some tips and tricks that I've found whilst developing with Sculpin.
 
+{% endblock %}
+
 [1]: https://sculpin.io
 [2]: http://symfony.com/doc/current/components/index.html
 [3]: http://yaml.org
 [4]: http://twig.sensiolabs.org
-{% endblock %}

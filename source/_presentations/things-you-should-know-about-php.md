@@ -3,7 +3,7 @@ title: Things you should know about PHP
 description: An introduction to PHP, presented to the Swansea Software Development Community (SSDC) meetup and PHPSW.
 speakerdeck:
   id: fe360f1030f34bdb9eb14cdab907bb3c
-  ratio: "1.78343949044586"
+  ratio: '1.78343949044586'
   url: https://speakerdeck.com/opdavies/things-you-should-know-about-php-a58cd83b-e10c-40df-9ab4-3ed5d55827e7
 video:
   id: NH1mVSwCzWs
@@ -11,7 +11,7 @@ video:
 meta:
   og:
     image:
-      url: '/assets/images/talks/things-you-should-know-about-php.png'
+      url: /assets/images/talks/things-you-should-know-about-php.png
 events:
   - name: Swansea Software Development Meetup (SSDC)
     location: Swansea, UK

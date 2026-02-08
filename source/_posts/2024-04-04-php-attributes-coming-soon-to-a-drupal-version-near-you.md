@@ -1,12 +1,12 @@
 ---
-title: "PHP attributes: coming soon to a Drupal version near you"
+title: 'PHP attributes: coming soon to a Drupal version near you'
 permalink: daily/2024/04/04/php-attributes--coming-soon-to-a-drupal-version-near-you
 tags:
   - software-development
   - drupal
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Have you used PHP attributes in Drupal yet? They've started to be available for some plugin types since version 10.2.
 ---
 

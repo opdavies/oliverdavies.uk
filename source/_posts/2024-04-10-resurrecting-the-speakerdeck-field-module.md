@@ -6,8 +6,8 @@ tags:
   - drupal
   - php
   - open-source
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Resurrecting the Speakerdeck Field Drupal module
 ---
 

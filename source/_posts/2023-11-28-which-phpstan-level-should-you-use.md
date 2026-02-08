@@ -48,4 +48,4 @@ Again, if you haven't used PHPStan or static analysis before, maybe stick with a
 
 If you start with a lower level, you can increase it later.
 
-[yesterday]: {{site.url}}/daily/2023/11/27/finding-the-best-test-base
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2023/11/27/finding-the-best-test-base

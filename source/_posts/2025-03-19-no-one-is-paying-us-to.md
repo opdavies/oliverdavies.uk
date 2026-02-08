@@ -5,8 +5,8 @@ tags:
   - software-development
   - automated-testing
   - test-driven-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   What are people not paying you for that you need to do to work effectively?
 ---
 
@@ -28,5 +28,5 @@ Whether people know they're paying for me to write automated tests as part or no
 
 Both when writing the code, but also if it needs to be [refactored or changed in the future][1].
 
-[0]: {{site.url}}/daily/2025/02/23/line-item
-[1]: {{site.url}}/daily/2024/10/20/test-then-refactor
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/02/23/line-item
+[1]: %7B%7Bsite.url%7D%7D/daily/2024/10/20/test-then-refactor

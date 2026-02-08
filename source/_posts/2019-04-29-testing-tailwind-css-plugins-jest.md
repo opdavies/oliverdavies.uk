@@ -2,10 +2,10 @@
 title: Testing Tailwind CSS plugins with Jest
 excerpt: How to write tests for Tailwind CSS plugins using Jest.
 tags:
-    - javascript
-    - jest
-    - tailwind-css
-    - testing
+  - javascript
+  - jest
+  - tailwind-css
+  - testing
 promoted: true
 ---
 
@@ -29,7 +29,7 @@ to re-add the `list-reset` class. This way I could keep backwards compatibility
 in my projects and only need to add one class in other future instances.
 
 In this post, I'll use this as an example to show how to write tests for
-Tailwind CSS plugins with a JavaScript testing framework called [Jest][jest].
+Tailwind CSS plugins with a JavaScript testing framework called [Jest].
 
 More information about plugins for Tailwind CSS themselves can be found on the
 [Tailwind website][tailwind-docs-plugins].
@@ -144,7 +144,7 @@ tailwindcss({
 In prior versions, each plugin in `corePlugins` needed to be set to `false`
 separately.
 
-I did that using a `disableCorePlugins()` function and [lodash][lodash], using
+I did that using a `disableCorePlugins()` function and [lodash], using
 the keys from `variants`:
 
 ```
@@ -267,17 +267,12 @@ the tests will be run automatically.
 For this plugin, you can see the results at
 <https://travis-ci.org/opdavies/tailwindcss-list-reset>.
 
+[jest]: https://jestjs.io
 [jest-css-matcher]: https://www.npmjs.com/package/jest-matcher-css
 [jest-expect-extend]: https://jestjs.io/docs/en/expect#expectextendmatchers
-[jest-testregex-setting]:
-  https://jestjs.io/docs/en/configuration#testregex-string-array-string
-[jest]: https://jestjs.io
+[jest-testregex-setting]: https://jestjs.io/docs/en/configuration#testregex-string-array-string
 [lodash]: https://lodash.com
 [repo]: https://github.com/opdavies/tailwindcss-list-reset
 [tailwind-docs-plugins]: https://tailwindcss.com/docs/plugins
-[tailwindcss-interaction-variants]:
-  https://www.npmjs.com/package/tailwindcss-interaction-variants
-[travis-nodejs-example]:
-  https://docs.travis-ci.com/user/languages/javascript-with-nodejs
 [travis]: https://travis-ci.org
-[working-on-tailwind-video]: https://www.youtube.com/watch?v=SkTKN38wSEM
+[travis-nodejs-example]: https://docs.travis-ci.com/user/languages/javascript-with-nodejs

@@ -5,8 +5,8 @@ tags:
   - software-development
   - css
   - tailwind-css
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How did I start using atomic classes and utility-first CSS?
 ---
 

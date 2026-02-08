@@ -4,8 +4,8 @@ permalink: daily/2024/08/11/commits-are-cheap
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Commits are cheap. Debugging without a commit isn't.
 ---
 

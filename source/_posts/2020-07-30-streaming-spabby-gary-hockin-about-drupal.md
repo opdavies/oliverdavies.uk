@@ -2,10 +2,10 @@
 title: Streaming with Spabby (Gary Hockin) about Drupal
 excerpt: I recently joined my friend Gary on his stream to discuss Drupal.
 tags:
-    - drupal
-    - php
-    - drupal-9
-    - streaming
+  - drupal
+  - php
+  - drupal-9
+  - streaming
 ---
 
 I recently joined my friend and fellow [PHP South Wales](https://phpsouthwales.uk) regular [Gary Hockin](https://twitter.com/GeeH "Gary on Twitter") (aka GeeH, aka Spabby) on his stream to discuss one of my favourite topics, Drupal.

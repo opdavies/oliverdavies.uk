@@ -5,8 +5,8 @@ tags:
   - software-development
   - front-end
   - css
-cta: ~
-snippet: |
+cta:
+snippet: |-
   More projects are moving away from complicated build processes for their front-end assets and back to something simpler.
 ---
 

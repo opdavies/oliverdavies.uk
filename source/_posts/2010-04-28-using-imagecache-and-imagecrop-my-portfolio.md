@@ -2,12 +2,12 @@
 title: Using ImageCache and ImageCrop for my Portfolio
 excerpt: How to create thumbnail images using the ImageCache and ImageCrop modules.
 tags:
-    - drupal
-    - drupal-6
-    - cck
-    - imagecache
-    - imagecrop
-    - imagefield
+  - drupal
+  - drupal-6
+  - cck
+  - imagecache
+  - imagecrop
+  - imagefield
 ---
 
 Whilst working on my own portfolio/testimonial website, I decided to have a

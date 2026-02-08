@@ -3,8 +3,8 @@ title: AI as a pair-programming partner
 permalink: daily/2024/10/09/ai-as-a-pair-programming-partner
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Is AI a good pair-programming partner?
 ---
 
@@ -18,5 +18,5 @@ Just make sure to validate and verify whatever it gives you.
 
 Once you've committed it, you're responsible for it.
 
-[0]: {{site.url}}/daily/2024/05/31/putting-glue-on-pizza
-[1]: {{site.url}}/daily/2024/10/08/ai-in-drupal
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/05/31/putting-glue-on-pizza
+[1]: %7B%7Bsite.url%7D%7D/daily/2024/10/08/ai-in-drupal

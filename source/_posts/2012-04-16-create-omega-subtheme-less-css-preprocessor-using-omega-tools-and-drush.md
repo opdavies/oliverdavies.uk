@@ -2,12 +2,12 @@
 title: Create an Omega Subtheme with LESS CSS Preprocessor using Omega Tools and Drush
 excerpt: How to create an Omega subtheme on the command line using Drush.
 tags:
-    - drupal
-    - drupal-7
-    - drupal-planet
-    - less
-    - omega
-    - theming
+  - drupal
+  - drupal-7
+  - drupal-planet
+  - less
+  - omega
+  - theming
 ---
 
 In this tutorial I'll be showing how to create an
@@ -16,7 +16,7 @@ In this tutorial I'll be showing how to create an
 with the [LESS CSS preprocessor](http://lesscss.org).
 
 The first thing that I need to do is download the Omega theme and the Omega
-Tools and [LESS](http://drupal.org/project/less 'LESS module on drupal.org')
+Tools and [LESS](http://drupal.org/project/less "LESS module on drupal.org")
 modules, and then to enable both modules. I'm doing this using Drush, but you
 can of course do this via the admin interface at admin/modules.
 

@@ -24,11 +24,11 @@ Vincent Driessen wrote the original Git Flow blog post in January 2010, though h
 > This model was conceived in 2010, now more than 10 years ago, and not very long after Git itself came into being. In those 10 years, git-flow (the branching model laid out in this article) has become hugely popular in many a software team to the point where people have started treating it like a standard of sorts — but unfortunately also as a dogma or panacea.
 >
 > During those 10 years, Git itself has taken the world by a storm, and the most popular type of software that is being developed with Git is shifting more towards web apps — at least in my filter bubble. Web apps are typically continuously delivered, not rolled back, and you don't have to support multiple versions of the software running in the wild.
-> 
+>
 > This is not the class of software that I had in mind when I wrote the blog post 10 years ago. If your team is doing continuous delivery of software, I would suggest to adopt a much simpler workflow (like GitHub flow) instead of trying to shoehorn git-flow into your team.
-> 
+>
 > If, however, you are building software that is explicitly versioned, or if you need to support multiple versions of your software in the wild, then git-flow may still be as good of a fit to your team as it has been to people in the last 10 years. In that case, please read on.
-> 
+>
 > To conclude, always remember that panaceas don't exist. Consider your own context. Don't be hating. Decide for yourself.
 
 Since adopting trunk-based development and continuous integration and delivery, I've worked faster and avoided merge conflicts, which wasn't the case before, even when I was the only one working on a codebase.
@@ -41,4 +41,4 @@ I don't need to think about whether this branch is a feature or a hotfix, and I'
 
 Do what works best for you and your team, but don't adopt something because it's the "standard" approach.
 
-[talk]: {{site.url}}/presentations/git-flow
+[talk]: %7B%7Bsite.url%7D%7D/presentations/git-flow

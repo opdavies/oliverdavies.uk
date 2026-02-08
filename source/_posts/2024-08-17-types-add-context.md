@@ -4,8 +4,8 @@ permalink: daily/2024/08/17/types-add-context
 tags:
   - software-development
   - clean-code
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Types add helpful context to code, making it easier to read and understand.
 ---
 
@@ -29,4 +29,4 @@ function handle(Request req, Response res): void {
 
 Even with the same variable names, I know what their types are and what the function returns, I have better completions and diagnostics in my editor and better static analysis of my code, making it easier to identify and fix potential bugs.
 
-[0]: {{site.url}}/daily/2024/08/16/what-are-err--req-and-res
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/08/16/what-are-err--req-and-res

@@ -5,8 +5,8 @@ tags:
   - software-development
   - css
   - tailwind-css
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I used Tailwind CSS v4 on a recent consulting engagement, and it's so easy to set up and use!
 ---
 
@@ -32,4 +32,4 @@ All the colour configuration and adding plugins is done in the CSS file and Tail
 
 It's worked well for this project, and I'll look forward to using Tailwind v4 more on YouTube and for personal and client projects.
 
-[0]: {{site.url}}/blog/uis-ive-rebuilt-tailwind-css
+[0]: %7B%7Bsite.url%7D%7D/blog/uis-ive-rebuilt-tailwind-css

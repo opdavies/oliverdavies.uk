@@ -4,8 +4,8 @@ permalink: daily/2024/05/18/should-you-strictly-enforce-the-5072-rule
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Should you strictly enforce the 50/72 rule in your commit messages?
 ---
 
@@ -31,5 +31,5 @@ I'd rather they focused on writing a good and descriptive commit message and if 
 
 Whilst I could automate checks for this, I don't think it's the best use of everyone's time and, especially for Junior Developers who already have enough to learn already, not where their focus should be.
 
-[git hooks]: {{site.url}}/daily/2022/08/16/what-are-git-hooks-why-are-they-useful
-[yesterday]: {{site.url}}/daily/2024/05/17/why-i-dont-commit-with--m
+[git hooks]: %7B%7Bsite.url%7D%7D/daily/2022/08/16/what-are-git-hooks-why-are-they-useful
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/05/17/why-i-dont-commit-with--m

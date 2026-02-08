@@ -4,8 +4,8 @@ permalink: daily/2025/03/03/cost
 tags:
   - software-development
   - drupal
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How long would it take and how much would it cost to build Drupal from scratch?
 ---
 

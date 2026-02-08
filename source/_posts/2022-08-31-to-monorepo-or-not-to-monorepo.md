@@ -1,8 +1,8 @@
 ---
-title: "To monorepo, or not to monorepo?"
-permalink: "daily/2022/08/31/monorepo-or-not"
+title: To monorepo, or not to monorepo?
+permalink: daily/2022/08/31/monorepo-or-not
 pubDate: 2022-08-31
-tags: ["git"]
+tags: [git]
 ---
 
 I listened to a podcast episode recently which talked about monorepos - i.e. code repositories that contain multiple project codebases rather than a single repository for each codebase - and this got me thinking about whether I should be using these more.

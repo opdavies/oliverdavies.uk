@@ -1,19 +1,17 @@
 ---
 title: Create a Flickr Photo Gallery Using Feeds, CCK and Views
-excerpt:
-    In this tutorial, I'll show you how to create a photo gallery which uses
-    photos imported from Flickr.
+excerpt: In this tutorial, I'll show you how to create a photo gallery which uses photos imported from Flickr.
 tags:
-    - drupal-planet
-    - drupal-6
-    - photo-gallery
-    - views
-    - cck
-    - imagecache
-    - feeds
-    - filefield
-    - flickr
-    - imagefield
+  - drupal-planet
+  - drupal-6
+  - photo-gallery
+  - views
+  - cck
+  - imagecache
+  - feeds
+  - filefield
+  - flickr
+  - imagefield
 ---
 
 In this tutorial, I'll show you how to create a photo gallery which uses photos

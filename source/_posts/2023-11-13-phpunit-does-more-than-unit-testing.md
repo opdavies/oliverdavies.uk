@@ -14,7 +14,7 @@ tags:
   - symfony
 ---
 
-As the name suggests, [PHPUnit][] is a unit testing framework for PHP.
+As the name suggests, [PHPUnit] is a unit testing framework for PHP.
 
 It's the defacto PHP testing framework used by the major PHP projects, such as Drupal, Symfony, Laravel.
 

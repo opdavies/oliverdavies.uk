@@ -5,7 +5,7 @@ tags:
   - software-development
   - drupal
   - php
-cta: ~
+cta:
 snippet: |
   How do you write your PHP code?
 drupal_planet: true

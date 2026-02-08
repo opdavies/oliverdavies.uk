@@ -2,9 +2,9 @@
 title: Easier Sculpin Commands with Composer and NPM Scripts
 excerpt: In this video, I show you how I've simplied my Sculpin and Gulp workflow using custom Composer and NPM scripts.
 tags:
-    - composer
-    - gulp
-    - sculpin
+  - composer
+  - gulp
+  - sculpin
 ---
 
 In this video, I show you how I've simplied my Sculpin and Gulp workflow using

@@ -4,8 +4,8 @@ permalink: daily/2025/04/05/strategies
 tags:
   - software-development
   - drupal
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I've recently developed a new custom module for a Drupal project against two different versions of an API at the same time. Instead of tightly coupling to one version, I can add new strategies as needed and even support multiple at once.
 ---
 

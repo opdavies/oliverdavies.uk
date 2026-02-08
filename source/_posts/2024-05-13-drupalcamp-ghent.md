@@ -6,8 +6,8 @@ tags:
   - drupal
   - php
   - drupalcamp
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Last week, I attended and spoke at DrupalCamp Ghent in Belgium.
 ---
 
@@ -21,4 +21,4 @@ It was a great event and it's always nice to see and meet new people within the 
 
 Reply and let me know if you have any feedback on the sessions or if you'd like me to present a talk or workshop at your event.
 
-[1]: {{site.url}}/dcg
+[1]: %7B%7Bsite.url%7D%7D/dcg

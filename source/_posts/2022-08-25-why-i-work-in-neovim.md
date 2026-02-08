@@ -1,11 +1,11 @@
 ---
 pubDate: 2022-08-25
-title: "Why I work in Neovim"
-tags: ["vim", "neovim"]
-permalink: "daily/2022/08/25/why-i-work-in-neovim"
+title: Why I work in Neovim
+tags: [vim, neovim]
+permalink: daily/2022/08/25/why-i-work-in-neovim
 ---
 
-Over a year ago, I posted that I was [switching to using Neovim full-time]({{site.url}}/blog/going-full-vim) for my development work.
+Over a year ago, I posted that I was [switching to using Neovim full-time](%7B%7Bsite.url%7D%7D/blog/going-full-vim) for my development work.
 
 I'd used Vim one file at a time on remote servers, and added Vim plugins in other IDEs and editors, so I was already familiar with a lot of the key bindings and motions before I decided to use it full-time.
 

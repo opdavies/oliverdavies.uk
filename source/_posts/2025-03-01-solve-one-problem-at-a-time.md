@@ -4,8 +4,8 @@ permalink: daily/2025/03/01/one-problem
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   When you're committing a change, it should only solve a single problem.
 ---
 
@@ -33,5 +33,5 @@ I want to keep the history of the changes intact and as it originally was.
 
 I do sometimes need to [tidy up my own commits][1], though, before I push them for anyone else to see.
 
-[0]: {{site.url}}/daily/2024/05/11/don-t-delete-my-commit-messages
-[1]: {{site.url}}/daily/2025/02/11/tidy
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/05/11/don-t-delete-my-commit-messages
+[1]: %7B%7Bsite.url%7D%7D/daily/2025/02/11/tidy

@@ -2,10 +2,10 @@
 title: git format-patch is your Friend
 excerpt: An explanation of the "git format-patch" command, and how it could be used in Drupal's Git workflow.
 tags:
-    - drupal
-    - drupal-planet
-    - git
-    - patches
+  - drupal
+  - drupal-planet
+  - git
+  - patches
 ---
 
 An explanation of the "git format-patch" command, and how it could be used in
@@ -87,10 +87,10 @@ How did I create this patch? Here are the steps that I took:
 1. Clone the source repository using
    `$ git clone --branch 7.x-1.x http://git.drupal.org/project/metatag.git` and
    move into that directory.
-2. Create a branch for this patch using
+1. Create a branch for this patch using
    `$ git checkout -b 2265447-comment-fragment-conflict`.
-3. Add and commit any changes as normal.
-4. Generate the patch file using
+1. Add and commit any changes as normal.
+1. Generate the patch file using
    `$ git format-patch 7.x-1.x --stdout > metatag-comment-fragment-conflict-2265447-4.patch`.
 
 _Note:_ I am defining 7.x-1.x in the last step as the original branch to compare

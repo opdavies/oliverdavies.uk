@@ -5,7 +5,7 @@ tags:
   - software-development
   - drupal
   - podcast
-cta: ~
+cta:
 snippet: |
   Beyond Blocks passes 1,000 downloads!
 drupal_planet: true
@@ -21,5 +21,5 @@ This week's episode will be with Eirik Morland again - the first returning guest
 
 Thanks to all the guests and listeners of the podcast, and if you'd like to be a guest or suggest a topic, reply and let me know.
 
-[0]: {{site.url}}/podcast
-[1]: {{site.url}}/podcast/8-eirik-morland-violinist
+[0]: %7B%7Bsite.url%7D%7D/podcast
+[1]: %7B%7Bsite.url%7D%7D/podcast/8-eirik-morland-violinist

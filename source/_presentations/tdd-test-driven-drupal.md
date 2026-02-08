@@ -3,13 +3,13 @@ title: TDD - Test-Driven Drupal
 description: How to write automated tests for Drupal, and how to create a new Drupal module using test driven development.
 speakerdeck:
   id: 088cb18033064f5cb18d1079795294a1
-  ratio: "1.77777777777778"
-  url: "https://speakerdeck.com/opdavies/tdd-test-driven-drupal"
+  ratio: '1.77777777777778'
+  url: https://speakerdeck.com/opdavies/tdd-test-driven-drupal
 video:
   type: youtube
   id: 81J0dPvqG-g
 image:
-  url: '/assets/images/talks/test-driven-drupal-development.png'
+  url: /assets/images/talks/test-driven-drupal-development.png
   width: 2560
   height: 1440
   type: image/png
@@ -18,12 +18,12 @@ events:
   - name: DrupalCamp London 2017
     location: London, UK
     date: 2017-03-04
-    time: "16:15 - 17:00"
-    url: ~
+    time: 16:15 - 17:00
+    url:
   - name: DrupalCamp Dublin 2017
     location: Dublin, Ireland
     date: 2017-10-21
-    time: "12:00 - 12:40"
+    time: 12:00 - 12:40
     url: http://2017.drupal.ie
   - name: Drupal Bristol
     date: 2017-11-22
@@ -34,14 +34,14 @@ events:
     location: Glastonbury, UK
   - name: Drupal Developer Days 2018
     date: 2018-07-05
-    time: "12:15 - 13:00"
+    time: 12:15 - 13:00
     location: Lisbon, Portugal
     url: http://lisbon2018.drupaldays.org
   - name: DrupalCamp London 2019
     date: 2019-03-02
-    time: "14:00 - 14:45"
+    time: 14:00 - 14:45
     location: London, UK
-    url: ~
+    url:
   - name: NWDUG
     date: 2020-05-12
     location: Manchester, UK
@@ -58,7 +58,7 @@ events:
   - name: DrupalCon Lille 2023
     location: Lille, France
     date: 2023-10-17
-    time: "15:00 - 15:45"
+    time: 15:00 - 15:45
     url: https://events.drupal.org/lille2023/session/tdd-test-driven-drupal-introduction-automated-testing-and-test-driven-development
   - name: DrupalCamp Belgium
     location: Ghent, Belgium
@@ -84,5 +84,6 @@ In this talk, we'll cover the methodology and terminology involved with automate
 
 P.S. If you want to learn more about automated testing and test-driven development in Drupal, [register for my free 10-day email course][course].
 
-[course]: /atdc
 {% endblock %}
+
+[course]: /atdc

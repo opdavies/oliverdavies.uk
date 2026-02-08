@@ -8,42 +8,42 @@ permalink: /daily/2025/05/28/drupal-powered-podcast-pages
   server_name www.oliverdavies.uk:
   root /var/www/vhosts/website-sculpin;
 
-  location / {
-    try_files $uri $uri.html $uri/index.html =404;
-  }
+location / {
+try_files $uri $uri.html $uri/index.html =404;
+}
 
-  location ~ ^/archive {
-    try_files $uri $uri.html $uri/index.html =404;
-    root /var/www/vhosts/website-tome;
-  }
+location ~ ^/archive {
+try_files $uri $uri.html $uri/index.html =404;
+root /var/www/vhosts/website-tome;
+}
 
-  location ~ ^/core {
-    try_files $uri $uri.html $uri/index.html =404;
-    root /var/www/vhosts/website-tome;
-  }
+location ~ ^/core {
+try_files $uri $uri.html $uri/index.html =404;
+root /var/www/vhosts/website-tome;
+}
 
-  location ~ ^/daily/.+ {
-    try_files $uri $uri.html $uri/index.html =404;
-    root /var/www/vhosts/website-tome;
-  }
+location ~ ^/daily/.+ {
+try_files $uri $uri.html $uri/index.html =404;
+root /var/www/vhosts/website-tome;
+}
 
-  location ~ ^/homelab {
-    try_files $uri $uri.html $uri/index.html =404;
-    root /var/www/vhosts/website-tome;
-  }
+location ~ ^/homelab {
+try_files $uri $uri.html $uri/index.html =404;
+root /var/www/vhosts/website-tome;
+}
 
-  location ~ ^/podcast {
-    try_files $uri $uri.html $uri/index.html =404;
-    root /var/www/vhosts/website-tome;
-  }
+location ~ ^/podcast {
+try_files $uri $uri.html $uri/index.html =404;
+root /var/www/vhosts/website-tome;
+}
 
-  location ~ ^/sites/default/files {
-    try_files $uri $uri.html $uri/index.html =404;
-    root /var/www/vhosts/website-tome;
-  }
+location ~ ^/sites/default/files {
+try_files $uri $uri.html $uri/index.html =404;
+root /var/www/vhosts/website-tome;
+}
 
-  location ~ ^/themes/custom/opdavies {
-    try_files $uri $uri.html $uri/index.html =404;
-    root /var/www/vhosts/website-tome;
-  }
+location ~ ^/themes/custom/opdavies {
+try_files $uri $uri.html $uri/index.html =404;
+root /var/www/vhosts/website-tome;
+}
 }</code></pre><p>This is the same approach as <a href="/daily/2025/04/17/incrementally">upgrading incrementally</a> from old versions of software to new versions or different software.</p><p>Neither site knows about the other and they work independently.</p><p>My Nginx configuration is managed within <a href="https://code.oliverdavies.uk/opdavies/nix-config/src/commit/a994777ba631cf95a16e2bb8f71e344a50bc11f3/hosts/nixedo/modules/nginx/www.oliverdavies.uk/default.nix#L11-L39">my NixOS configuration</a>, so you can see the whole configuration for my website and how I've leveraged the Nix language to simplify the process of migrating new paths to Tome.</p>

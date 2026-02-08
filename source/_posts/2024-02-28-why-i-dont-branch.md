@@ -5,7 +5,7 @@ tags:
   - softare-development
   - git
 cta: d7eol
-snippet: |
+snippet: |-
   Why I no longer create different Git branches for every change, and why I switched to trunk-based development.
 ---
 
@@ -29,4 +29,4 @@ Working mostly on a single branch avoids merge conflicts, saves time, and simpli
 
 No more confusion, merge conflicts or broken demos.
 
-[previous]: {{site.url}}/daily/2024/02/25/why-do-people-still-use-git-flow
+[previous]: %7B%7Bsite.url%7D%7D/daily/2024/02/25/why-do-people-still-use-git-flow

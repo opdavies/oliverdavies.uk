@@ -90,7 +90,7 @@ Now we have a test with an assertion, we need to run it and see if it passes.
 
 On the command line, run `vendor/bin/phpunit web/modules/custom`, and you'll get an error like:
 
-> PHPUnit\TextUI\RuntimeException: Class "Drupal\Tests\BrowserTestBase" not found.
+> PHPUnit\\TextUI\\RuntimeException: Class "Drupal\\Tests\\BrowserTestBase" not found.
 
 This isn't an assertion failure, but that PHPUnit can't find the files it needs to run.
 
@@ -171,11 +171,11 @@ I'm using the constants on the `Response` class, but you can also use the status
 
 Running `vendor/bin/phpunit`, you'll get two errors:
 
-> 1) Drupal\Tests\atdc\Functional\ExampleTest::testFrontPage
-> Behat\Mink\Exception\ExpectationException: Current response status code is 200, but 403 expected.
+> 1. Drupal\\Tests\\atdc\\Functional\\ExampleTest::testFrontPage
+>    Behat\\Mink\\Exception\\ExpectationException: Current response status code is 200, but 403 expected.
 >
-> 2) Drupal\Tests\atdc\Functional\ExampleTest::testAdminPage
-> Behat\Mink\Exception\ExpectationException: Current response status code is 403, but 200 expected.
+> 1. Drupal\\Tests\\atdc\\Functional\\ExampleTest::testAdminPage
+>    Behat\\Mink\\Exception\\ExpectationException: Current response status code is 403, but 200 expected.
 >
 > ERRORS!<br />
 > Tests: 2, Assertions: 4, Errors: 2.
@@ -202,4 +202,4 @@ From this, you can hopefully see that automated testing doesn't need to be diffi
 
 I hope you enjoyed this sneak peek, and if you'd like to receive the course once it's complete, [register here for free][atdc].
 
-[atdc]: {{site.url}}/atdc
+[atdc]: %7B%7Bsite.url%7D%7D/atdc

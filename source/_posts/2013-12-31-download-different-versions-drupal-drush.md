@@ -2,13 +2,13 @@
 title: Download Different Versions of Drupal with Drush
 excerpt: How to download different versions of Drupal core using Drush.
 tags:
-    - drupal
-    - drupal-planet
-    - drush
+  - drupal
+  - drupal-planet
+  - drush
 ---
 
 If you use
-[Drush](https://raw.github.com/drush-ops/drush/master/README.md 'About Drush'),
+[Drush](https://raw.github.com/drush-ops/drush/master/README.md "About Drush"),
 it's likely that you've used the `drush pm-download` (or `drush dl` for short)
 command to start a new project. This command downloads projects from Drupal.org,
 but if you don't specify a project or type "drush dl drupal", the command will
@@ -55,4 +55,4 @@ $ drush dl drupal-8
 
 For a full list of the available options, type "drush help pm-download" into a
 Terminal window or take a look at the entry on
-[drush.ws](http://drush.ws/#pm-download, 'The entry for pm-download on drush.ws').
+[drush.ws](http://drush.ws/#pm-download, "The entry for pm-download on drush.ws").

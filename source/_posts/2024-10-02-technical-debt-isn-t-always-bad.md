@@ -4,7 +4,7 @@ permalink: daily/2024/10/02/technical-debt-isn-t-always-bad
 tags:
   - software-development
 cta: d7eol
-snippet: |
+snippet: |-
   Taking on technical debt isn't always bad.
 ---
 
@@ -22,4 +22,4 @@ The client and I decided to take on this technical debit in advance so we could 
 
 This was a good situation, not a bad one.
 
-[0]: {{site.url}}/daily/2024/10/01/not-all-legacy-code-is-technical-debt
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/10/01/not-all-legacy-code-is-technical-debt

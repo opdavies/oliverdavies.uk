@@ -30,7 +30,7 @@ When the whole test suite was in place and passing, I knew there was feature par
 
 ## Resolving a large merge conflict
 
-I was reviewing a feature request that had been open for some time, which included a large patch file with the code changes to implement it. 
+I was reviewing a feature request that had been open for some time, which included a large patch file with the code changes to implement it.
 
 However, the patch no longer applied to the code, which caused various merge conflicts.
 

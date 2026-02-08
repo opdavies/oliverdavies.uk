@@ -6,8 +6,8 @@ tags:
   - nix
   - nixos
   - linux
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I use Nix for all my application development projects.
 ---
 
@@ -21,5 +21,5 @@ And if you need services like MySQL and you're not using NixOS, you can also use
 
 For me, Nix and devenv have [replaced Docker and Docker Compose][1] on my development projects.
 
-[0]: {{site.url}}/daily/2024/11/12/why-consistency-and-reproducibility-are-important
-[1]: {{site.url}}/daily/2024/11/11/could-nix-and-devenv-replace-docker-compose
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/12/why-consistency-and-reproducibility-are-important
+[1]: %7B%7Bsite.url%7D%7D/daily/2024/11/11/could-nix-and-devenv-replace-docker-compose

@@ -6,7 +6,7 @@ tags:
   - drupal
   - php
   - phpstan
-cta: ~
+cta:
 snippet: |
   I wrote a custom PHPStan rule!
 drupal_planet: true
@@ -24,5 +24,5 @@ I was able to get a version working quickly and have [posted it as a gist][1].
 
 I'm sure some improvements can be made, but it was a successful experiment and something I can see me using more in the future.
 
-[0]: {{site.url}}/atdc
+[0]: %7B%7Bsite.url%7D%7D/atdc
 [1]: https://gist.github.com/opdavies/a2f9d92cf3b67db6a64b9fca4e4e6697

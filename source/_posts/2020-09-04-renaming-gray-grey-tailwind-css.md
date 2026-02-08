@@ -2,7 +2,7 @@
 title: Renaming gray to grey in Tailwind CSS
 excerpt: How to change the colour "gray" to "grey" in Tailwind CSS.
 tags:
-    - tailwind-css
+  - tailwind-css
 ---
 
 In `tailwind.config.js`:

@@ -6,8 +6,8 @@ tags:
   - linux
   - nix
   - nixos
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I use Nix and Home Manager to manage my dotfiles and configure the programs I use, and it works on NixOS and standalone.
 ---
 
@@ -27,8 +27,8 @@ A good example is [my .gitconfig configuration][3]. It includes settings for Git
 
 All in one file and all in one language.
 
-[0]: {{site.url}}/daily/2024/11/25/nix-the-package-manager
-[1]: {{site.url}}/daily/2024/11/27/nix-as-an-operating-system
-[2]: {{site.url}}/daily/2024/11/21/one-configuration-language-to-rule-them-all
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/25/nix-the-package-manager
+[1]: %7B%7Bsite.url%7D%7D/daily/2024/11/27/nix-as-an-operating-system
+[2]: %7B%7Bsite.url%7D%7D/daily/2024/11/21/one-configuration-language-to-rule-them-all
 [3]: https://github.com/opdavies/dotfiles/blob/3acd73f6a2e19eadcc16baf22afad5dfad5e049b/nix/modules/home-manager/features/cli/git.nix
 [4]: https://zet.oliverdavies.uk/notes/10

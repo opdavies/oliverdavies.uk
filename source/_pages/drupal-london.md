@@ -27,6 +27,8 @@ All emails are sent from my personal email address, so you can press reply and c
 
 I also host the [Beyond Blocks podcast][podcast] where I discuss Drupal, PHP and other software-related topics with people.
 
+{% endblock %}
+
 [consulting]: /consulting
 [course]: /atdc
 [email list]: /daily
@@ -35,5 +37,3 @@ I also host the [Beyond Blocks podcast][podcast] where I discuss Drupal, PHP and
 [slides]: /presentations/tdd-test-driven-drupal
 [video]: https://www.youtube.com/watch?v=XTpliKd47Lg
 [youtube]: https://www.youtube.com/@opdavies
-
-{% endblock %}

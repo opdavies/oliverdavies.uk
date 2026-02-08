@@ -2,13 +2,13 @@
 title: Drupal Association
 excerpt: Next week, I'll be working for the Drupal Association.
 tags:
-    - drupal
-    - personal
+  - drupal
+  - personal
 ---
 
 Today was my last day working at [Precedent](http://www.precedent.com). Next
 week, I'll be starting my
-[new job](https://assoc.drupal.org/node/18923 'Drupal.org Developer') at the
+[new job](https://assoc.drupal.org/node/18923 "Drupal.org Developer") at the
 [Drupal Association](http://assoc.drupal.org) working on Drupal's home -
 [Drupal.org](http://www.drupal.org).
 
@@ -27,7 +27,7 @@ It was good to be able to introduce some new tools like
 [Vagrant](http://www.vagrantup.com), [Puppet](http://www.puppetlabs.com),
 [SASS](http://www.sass-lang.com) and [Compass](http://www.compass-style.org)
 into the team. I was pleased to introduce and champion the
-[Git Flow](http://danielkummer.github.io/git-flow-cheatsheet 'Git Flow Cheat Sheet')
+[Git Flow](http://danielkummer.github.io/git-flow-cheatsheet "Git Flow Cheat Sheet")
 branching model, which them became the standard approach for all Drupal
 projects, and hopefully soon all development projects.
 

@@ -8,7 +8,7 @@ tags:
   - localgov-drupal
 ---
 
-After [previously looking at the LocalGov Drupal distribution]({{site.url}}/daily/2022/10/24/looking-at-localgov-drupal), today I added a LocalGov Drupal example to my [Docker Examples repository](https://github.com/opdavies/docker-examples/tree/main/drupal-localgov).
+After [previously looking at the LocalGov Drupal distribution](%7B%7Bsite.url%7D%7D/daily/2022/10/24/looking-at-localgov-drupal), today I added a LocalGov Drupal example to my [Docker Examples repository](https://github.com/opdavies/docker-examples/tree/main/drupal-localgov).
 
 Based on the Drupal 10 example, the LocalGov Drupal example used Composer's `create-project` command to scaffold the project plus some additional configuration files such as the `Dockerfile`, `docker-compose.yaml` and a `justfile`.
 

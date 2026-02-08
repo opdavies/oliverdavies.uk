@@ -4,8 +4,8 @@ permalink: daily/2025/04/15/nix-nvm
 tags:
   - software-development
   - nix
-cta: ~
-snippet: |
+cta:
+snippet: |-
   nix is like nvm, but for everything.
 ---
 

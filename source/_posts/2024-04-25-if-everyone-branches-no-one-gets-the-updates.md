@@ -4,8 +4,8 @@ permalink: daily/2024/04/25/if-everyone-branches-no-one-gets-updates
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   If everyone works on their own branch, no-one gets any changes.
 ---
 

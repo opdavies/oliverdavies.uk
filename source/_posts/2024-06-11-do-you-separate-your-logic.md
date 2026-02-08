@@ -4,8 +4,8 @@ permalink: daily/2024/06/11/do-you-separate-your-logic
 tags:
   - software-development
   - clean-code
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you separate your logic into different categories?
 ---
 

@@ -1,15 +1,15 @@
 ---
 title: Overcoming deployment anxiety
 pubDate: 2022-10-12
-permalink: 'daily/2022/10/12/overcoming-deployment-anxiety'
+permalink: daily/2022/10/12/overcoming-deployment-anxiety
 ---
 
 As a Developer with 15 years of experience, I still sometimes get "deployment anxiety" - when I've backed up the database and tagged a release, but even though the CI pipelines are passing and the staging site is working, I'm holding off on pushing the latest code to be released to production - trying to think of any potential issues that could arise from this deployment and avoid any downtime.
 
 When I thought about this further, the releases that I've felt anxious or nervous about have usually been in at one or both of the following categories:
 
-* The release includes a lot of changes, and maybe a combination of different types of changes such as framework or CMS updates, bug fixes, or new features.
-* It's been a long time, maybe weeks or months, since the last production release.
+- The release includes a lot of changes, and maybe a combination of different types of changes such as framework or CMS updates, bug fixes, or new features.
+- It's been a long time, maybe weeks or months, since the last production release.
 
 The best way to resolve both of these issues, I think, is to break down the large releases into smaller ones, and to deploy them more frequently.
 
@@ -23,6 +23,6 @@ There are other advantages too - clients or product owners are generally happier
 
 If you're familiar with the DevOps Research and Assessment (DORA) team, three of their key metrics are deployment frequency, lead time for changes, and time to restore service. All of these are improved by small and frequent releases.
 
-In my [Deployments with Ansible and Ansistrano talk]({{site.url}}/presentations/deploying-php-ansible-ansistrano), I mention that there is a separate rollback role, but I don't think that I've ever used it.
+In my [Deployments with Ansible and Ansistrano talk](%7B%7Bsite.url%7D%7D/presentations/deploying-php-ansible-ansistrano), I mention that there is a separate rollback role, but I don't think that I've ever used it.
 
 Because I'm deploying small changes often, it's usually much easier to fix forward than it is to rollback, and knowing this makes me a lot less anxious when deploying changes.

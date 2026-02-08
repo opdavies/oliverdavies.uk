@@ -5,7 +5,7 @@ tags:
   - software-development
   - drupal
   - drupalcon
-cta: ~
+cta:
 snippet: |
   Next week is DrupalCon in Barcelona.
 drupal_planet: true

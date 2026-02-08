@@ -5,7 +5,7 @@ tags:
   - software-development
   - drupal
 cta: d7eol
-snippet: |
+snippet: |-
   Drupal is older than...
 ---
 
@@ -26,4 +26,4 @@ Here's a list of project release dates from ChatGPT, which seem correct to me at
 
 Looking at this list, when speaking about "not invented here", a lot of what Drupal would come to use and depend on just didn't exist in its early years.
 
-[yesterday]: {{site.url}}/daily/2024/06/07/not-invented-here
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/06/07/not-invented-here

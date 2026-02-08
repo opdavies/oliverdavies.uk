@@ -24,7 +24,6 @@ I'd like to do more open source contributions in 2026, and Sculpin is a project 
 [1]: https://git.oliverdavies.uk/opdavies/sculpin-skeleton/commit/2977a119761b7b4b507d613d21aaadf755ed86c6
 [2]: https://git.oliverdavies.uk/opdavies/oliverdavies.uk/commit/502fe964b91c822bc13571c9781f5bf3c1942b49
 [3]: /presentations/test-drive-twig-with-sculpin
-[4]: /presentations/sculpin
 [5]: https://www.youtube.com/watch?v=axy6ltc9meA
 [6]: /presentations/reading-college
 [7]: https://github.com/sculpin/sculpin/pull/503

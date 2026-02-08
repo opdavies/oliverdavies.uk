@@ -22,4 +22,4 @@ I've had paid development work directly from my open-source code contributions, 
 
 Like companies, if you make money from open-source software - either a salary or from paid projects or courses - it's in your interest to contribute so the software you use is maintained and improved so it's the best it can be.
 
-[yesterday]: {{site.url}}/daily/2023/11/03/why-your-company-should-contribute-to-open-source-software
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2023/11/03/why-your-company-should-contribute-to-open-source-software

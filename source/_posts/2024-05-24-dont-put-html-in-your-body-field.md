@@ -5,7 +5,7 @@ tags:
   - software-development
   - drupal
 cta: d7eol
-snippet: |
+snippet: |-
   Do you put raw HTML code in your rich-text fields?
 ---
 

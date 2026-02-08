@@ -2,10 +2,10 @@
 title: Test-Driven Drupal presentation from DrupalCon Europe
 excerpt: Links to the video and slides from my automated testing session from DrupalCon Europe.
 tags:
-    - drupal
-    - drupal-8
-    - drupalcon
-    - speaking
+  - drupal
+  - drupal-8
+  - drupalcon
+  - speaking
 ---
 
 Today, the sessions from DrupalCon Europe were posted on the [Drupal Association YouTube channel](https://www.youtube.com/playlist?list=PLpeDXSh4nHjTP7vRC6LCak9adK2yp1P5S), including my session on automated testing and test-driven development in Drupal 8 (and 9):

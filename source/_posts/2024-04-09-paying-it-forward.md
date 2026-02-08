@@ -5,8 +5,8 @@ tags:
   - software-development
   - drupal
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Now, it's my turn to pay it forward.
 ---
 

@@ -7,8 +7,8 @@ tags:
   # - drupal-planet
   # - php
   # - podcast
-cta: ~
-snippet: |
+cta:
+snippet: |-
   The more differences there are between your environments, the more likely there will be issues or bugs.
 ---
 
@@ -26,4 +26,4 @@ It also meant that I needed to write my changes in an automated and repeatable w
 
 How in sync are your environments and how similar to production is the environment you're testing against?
 
-[0]: {{site.url}}/daily/2024/12/24/moving-changes
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/12/24/moving-changes

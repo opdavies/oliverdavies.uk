@@ -2,10 +2,10 @@
 title: Updating Forked Repositories on GitHub
 excerpt: I just had to update a repo that I forked on GitHub. This is how I did it. Did I do it the correct way?
 tags:
-    - git
-    - github
-    - phpstorm
-    - sculpin
+  - git
+  - github
+  - phpstorm
+  - sculpin
 ---
 
 I just had to update a repo that I forked on GitHub. This is how I did it. Did I
@@ -73,19 +73,19 @@ people and at the correct date and time - and I went ahead and created a new
 feature branch and pull request based on that master branch.
 
 {% include 'figure' with {
-    image: {
-        src: '/images/blog/forked-github-repo-commits.png',
-        alt: 'The commits on my master branch after rebasing',
-    },
-    caption: 'The commits on my forked master branch after rebasing and pushing. All good!',
+image: {
+src: '/images/blog/forked-github-repo-commits.png',
+alt: 'The commits on my master branch after rebasing',
+},
+caption: 'The commits on my forked master branch after rebasing and pushing. All good!',
 } %}
 
 {% include 'figure' with {
-    image: {
-        src: '/images/blog/my-commit-to-the-rebased-branch.png',
-        alt: 'The new feature branch with my additional commit',
-    },
-    caption: 'The new feature branch with the new commit.',
+image: {
+src: '/images/blog/my-commit-to-the-rebased-branch.png',
+alt: 'The new feature branch with my additional commit',
+},
+caption: 'The new feature branch with the new commit.',
 } %}
 
 ## Is There a Better Way?

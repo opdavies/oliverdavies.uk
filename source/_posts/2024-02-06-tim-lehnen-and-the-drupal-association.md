@@ -20,11 +20,12 @@ We discussed what the Drupal Association is and what it does, how companies and 
 
 This Friday, I'm releasing an episode with Ryan Weaver from SymfonyCasts.
 
-[episode]: {{site.url}}/podcast/9-tim-lehnen
 {% endblock %}
 
 {% block cta %}
 P.S. Do you need immediate access to an expert Drupal Developer? [With my Drupal development subscription][subscription], make unlimited requests for a fixed monthly price in less time than posting to a job board!
 
-[subscription]: {{site.url}}/subscription
 {% endblock %}
+
+[episode]: %7B%7Bsite.url%7D%7D/podcast/9-tim-lehnen
+[subscription]: %7B%7Bsite.url%7D%7D/subscription

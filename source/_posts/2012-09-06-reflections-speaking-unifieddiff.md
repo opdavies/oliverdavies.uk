@@ -2,7 +2,7 @@
 title: Reflections on speaking at UnifiedDiff
 excerpt: Yesterday evening I went along and spoke at the UnifiedDiff meetup in Cardiff.
 tags:
-    - speaking
+  - speaking
 ---
 
 Yesterday evening I went along and spoke at the

@@ -19,5 +19,5 @@ However, if anyone wants to see the full slides that show some of the Build Conf
 
 As well as the Drupal, Fractal, Drupal Commerce Kickstart and Drupal LocalGov examples on GitHub, I created Symfony and Laravel examples that are still unreleased in private repositories. I plan on reviewing those, making them public soon and continuing to iterate on and improve the Build Configs tool itself - making it more valuable to me and my customers and clients.
 
-[build configs]: {{site.url}}/build-configs
-[talk]: {{site.url}}/talks/building-build-configs
+[build configs]: %7B%7Bsite.url%7D%7D/build-configs
+[talk]: %7B%7Bsite.url%7D%7D/talks/building-build-configs

@@ -2,15 +2,15 @@
 title: Publishing Sculpin Sites with GitHub Pages
 excerpt: How I moved my website to GitHub pages.
 tags:
-    - github
-    - php
-    - sculpin
+  - github
+  - php
+  - sculpin
 meta:
-    image:
-      url: '/images/blog/jackson-octocat.png'
-      type: 'image/png'
-      height: 200
-      width: 451
+  image:
+    url: /images/blog/jackson-octocat.png
+    type: image/png
+    height: 200
+    width: 451
 ---
 
 <p class="text-center" markdown="1">![](/images/blog/jackson-octocat.png)</p>
@@ -34,7 +34,7 @@ or hundreds of commits both ahead and behind the default branch.
 This has been made simpler and tidier now that we can use a `docs` directory
 within the repository to serve content.
 
-<img src="/images/blog/github-pages.png" alt="" class="is-centered"
+\<img src="/images/blog/github-pages.png" alt="" class="is-centered"
 style="margin-top: 20px; margin-bottom: 20px"
 
 >

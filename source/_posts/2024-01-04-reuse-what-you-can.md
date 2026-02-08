@@ -36,5 +36,5 @@ As someone who works on fixed-price projects and includes a bug-free guarantee, 
 P.S. Are you stuck on Drupal 7? Purchase a [Drupal upgrade consulting call][call] or [upgrade roadmap][roadmap] and I'll help you on your way to Drupal 10.
 {% endblock %}
 
-[call]: {{site.url}}/call
-[roadmap]: {{site.url}}/drupal-upgrade
+[call]: %7B%7Bsite.url%7D%7D/call
+[roadmap]: %7B%7Bsite.url%7D%7D/drupal-upgrade

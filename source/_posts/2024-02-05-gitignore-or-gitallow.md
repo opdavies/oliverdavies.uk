@@ -25,12 +25,13 @@ This would be clearer for people when they first open the file.
 
 However, if you decide to use the allow approach instead, document it in an [ADR or design document][adr] and why you decided to do it that way and provide context for people working on the codebase in the future.
 
-[adr]: {{site.url}}/daily/2022/09/23/adrs-technical-design-documents
-[previous]: {{site.url}}/daily/2024/01/27/gitignore-inclusive-or-exclusive
 {% endblock %}
 
 {% block cta %}
 P.S. Do you need immediate access to an expert Drupal Developer? [With my Drupal development subscription][subscription], make unlimited requests for a fixed monthly price in less time than posting to a job board!
 
-[subscription]: {{site.url}}/subscription
 {% endblock %}
+
+[adr]: %7B%7Bsite.url%7D%7D/daily/2022/09/23/adrs-technical-design-documents
+[previous]: %7B%7Bsite.url%7D%7D/daily/2024/01/27/gitignore-inclusive-or-exclusive
+[subscription]: %7B%7Bsite.url%7D%7D/subscription

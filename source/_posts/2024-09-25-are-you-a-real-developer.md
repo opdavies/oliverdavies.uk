@@ -5,8 +5,8 @@ tags:
   - software-development
   - automated-testing
   - test-driven-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Are you a "real" Software Developer if you don't write automated tests?
 ---
 

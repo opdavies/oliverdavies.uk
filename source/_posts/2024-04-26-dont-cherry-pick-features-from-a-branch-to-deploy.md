@@ -4,8 +4,8 @@ permalink: daily/2024/04/26/don-t-cherry-pick-features-from-a-branch-to-deploy
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Don't cherry-pick features from a branch to deploy
 ---
 

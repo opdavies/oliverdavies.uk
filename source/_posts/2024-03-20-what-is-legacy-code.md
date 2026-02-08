@@ -4,8 +4,8 @@ permalink: daily/2024/03/20/what-is-legacy-code
 tags:
   - software-development
   - clean-code
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How do _you_ define legacy code? I can think of several potential definitions.
 ---
 

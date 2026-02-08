@@ -2,10 +2,10 @@
 title: Rebuilding Bartik (Drupal's Default Theme) with Vue.js and Tailwind CSS - part 2
 excerpt: A follow-up to my original post on rebuilding Bartik with Tailwind and Vue.js.
 tags:
-    - drupal
-    - tailwind-css
-    - tweet
-    - vuejs
+  - drupal
+  - tailwind-css
+  - tweet
+  - vuejs
 has_tweets: true
 ---
 
@@ -74,25 +74,27 @@ for links based on their location on the page -
 <template>
   ...
 
-  <div id="footer" class="text-xs text-white">
+<div id="footer" class="text-xs text-white">
     <div class="container px-4 pt-16 pb-4 mx-auto">
       <div class="pt-6 -mb-6 border-t border-gray-900 border-solid">
         <div class="mb-6">
           <p><a href="#0">Contact</a></p>
         </div>
 
-        <div class="mb-6">
-          <p>
-            A clone of <a href="https://www.drupal.org">Drupal</a>'s default theme (Bartik).
-            Built by <a href="https://www.oliverdavies.uk">Oliver Davies</a>
-            using <a href="https://vuejs.org">Vue.js</a>
-            and <a href="https://tailwindcss.com">Tailwind CSS</a>.
-          </p>
-        </div>
-      </div>
+```
+    <div class="mb-6">
+      <p>
+        A clone of <a href="https://www.drupal.org">Drupal</a>'s default theme (Bartik).
+        Built by <a href="https://www.oliverdavies.uk">Oliver Davies</a>
+        using <a href="https://vuejs.org">Vue.js</a>
+        and <a href="https://tailwindcss.com">Tailwind CSS</a>.
+      </p>
     </div>
-
   </div>
+</div>
+```
+
+</div>
 </template>
 ```
 

@@ -6,7 +6,7 @@ tags:
   - automated-testing
   - test-driven-drupal
 cta: testing_course
-snippet: |
+snippet: |-
   You're about to refactor or add to some existing application code. How confident are you it will work afterwards?
 ---
 

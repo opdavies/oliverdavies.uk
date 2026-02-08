@@ -31,12 +31,13 @@ Drupal and Symfony are separate projects, and Drupal uses more than just Symfony
 
 I'm looking forward to seeing the next thing - [Twig components][podcast], maybe - in Drupal.
 
-[atdc]: {{site.url}}/atdc
-[podcast]: {{site.url}}/podcast/10-ryan-weaver-symfonycasts
 {% endblock %}
 
 {% block cta %}
 P.S. Do you need immediate access to an expert Drupal Developer? [With my Drupal development subscription][subscription], make unlimited requests for a fixed monthly price in less time than posting to a job board!
 
-[subscription]: {{site.url}}/subscription
 {% endblock %}
+
+[atdc]: %7B%7Bsite.url%7D%7D/atdc
+[podcast]: %7B%7Bsite.url%7D%7D/podcast/10-ryan-weaver-symfonycasts
+[subscription]: %7B%7Bsite.url%7D%7D/subscription

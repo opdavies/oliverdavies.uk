@@ -4,8 +4,8 @@ permalink: daily/2025/02/23/line-item
 tags:
   - software-development
   - automated-testing
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Automated tests should be part of the software development process, not a separate line item.
 ---
 

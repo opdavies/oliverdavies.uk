@@ -5,7 +5,7 @@ tags:
   - software-development
   - feature-flags
 cta: subscription
-snippet: |
+snippet: |-
   Feature flags should be short-lived. Once the change has been released, the flags should be removed.
 ---
 
@@ -19,7 +19,7 @@ The website is powered by Sculpin, a static site generator written in PHP (so th
 
 ## What Problem Am I Trying to Solve?
 
-Depending on the language, commands like `versa install` will need to execute a different command - e.g., composer install` or `npm install` (or an equivalent node package manager).
+Depending on the language, commands like `versa install` will need to execute a different command - e.g., composer install`or`npm install\` (or an equivalent node package manager).
 
 I added PHP support first, so if a composer.json file is found, the PHP command is run as the default.
 
@@ -46,4 +46,4 @@ A feature flag is a temporary solution for separating the deployment of code fro
 Once it's been released, the flag should be removed.
 
 [tweet]: https://twitter.com/opdavies/status/1767846980250714261
-[versa]: {{site.url}}/daily/2024/02/19/introducing-versa
+[versa]: %7B%7Bsite.url%7D%7D/daily/2024/02/19/introducing-versa

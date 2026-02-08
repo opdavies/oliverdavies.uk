@@ -4,12 +4,12 @@ episode_number: 20
 guests:
   - George Gordon
 links:
-  - - School of Code
-    - https://schoolofcode.co.uk
-  - - Versantus
-    - https://www.versantus.co.uk
-  - - George on LinkedIn
-    - https://www.linkedin.com/in/george-gordon-70aa3a82
+  -   - School of Code
+      - https://schoolofcode.co.uk
+  -   - Versantus
+      - https://www.versantus.co.uk
+  -   - George on LinkedIn
+      - https://www.linkedin.com/in/george-gordon-70aa3a82
 talking_points: []
 quotes: []
 chapters: []

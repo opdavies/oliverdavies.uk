@@ -6,7 +6,7 @@ tags:
   - drupal
   - php
 cta: testing_course
-snippet: |
+snippet: |-
   As of the 3rd of March, the Override Node Options module is used on 40,624 Drupal websites.
 ---
 
@@ -22,4 +22,4 @@ As of the 3rd of March, the Override Node Options module is used on 40,624 Drupa
 
 That's pretty cool!
 
-[talk]: {{site.url}}/talks/tdd-test-driven-drupal
+[talk]: %7B%7Bsite.url%7D%7D/talks/tdd-test-driven-drupal

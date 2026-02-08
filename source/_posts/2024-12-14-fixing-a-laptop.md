@@ -4,8 +4,8 @@ permalink: daily/2024/12/14/fixing
 tags:
   - software-development
   - linux
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Today, I rediscovered my hardware knowledge and fixed my son's laptop.
 ---
 
@@ -35,5 +35,5 @@ Similar to [having control and ownership of my own data][0], I like the ability 
 
 As well as installing and running my own software, [starting a homelab][1] has also reignited my interest in hardware and being able to upgrade and repair my own devices.
 
-[0]: {{site.url}}/daily/2024/12/13/gitea
-[1]: {{site.url}}/daily/2024/12/01/homelabbing-with-nixos
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/12/13/gitea
+[1]: %7B%7Bsite.url%7D%7D/daily/2024/12/01/homelabbing-with-nixos

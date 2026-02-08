@@ -2,8 +2,8 @@
 title: Introducing the Drupal Meetups Twitterbot
 excerpt: I've written a twitterbot for promoting Drupal meetups.
 tags:
-    - php
-    - twitter
+  - php
+  - twitter
 ---
 
 <p class="text-center" markdown="1">![](/images/blog/drupal-meetups-twitterbot.png)</p>
@@ -22,7 +22,6 @@ accounts, please [open an issue][4] on the GitHub repo.
 
 [0]: https://github.com/opdavies/drupal-meetups-twitterbot
 [1]: https://twitter.com/drupal_meetups
-[2]:
-  https://github.com/opdavies/drupal-meetups-twitterbot/blob/master/bootstrap/config.php
+[2]: https://github.com/opdavies/drupal-meetups-twitterbot/blob/master/bootstrap/config.php
 [3]: https://www.jublo.net/projects/codebird/php
 [4]: https://github.com/opdavies/drupal-meetups-twitterbot/issues/new

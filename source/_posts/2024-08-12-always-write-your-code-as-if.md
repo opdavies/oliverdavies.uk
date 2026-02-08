@@ -4,14 +4,14 @@ permalink: daily/2024/08/12/always-write-your-code-as-if
 tags:
   - software-development
 cta: d7eol
-snippet: |
+snippet: |-
   Always write your code as if...
 ---
 
 There's a famous programming quote (and variations of it):
 
 > Always code as if the (person) who ends up maintaining your code will be a
-violent psychopath who knows where you live. Code for readability.
+> violent psychopath who knows where you live. Code for readability.
 
 I believe [it comes from this Google thread](https://groups.google.com/g/comp.lang.c++/c/rYCO5yn4lXw/m/oITtSkZOtoUJ).
 

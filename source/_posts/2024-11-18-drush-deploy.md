@@ -6,8 +6,8 @@ tags:
   - drupal
   - drush
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you use the "drush deploy" command? I found out about it this week and will be refactoring some deployment pipelines to use it.
 ---
 

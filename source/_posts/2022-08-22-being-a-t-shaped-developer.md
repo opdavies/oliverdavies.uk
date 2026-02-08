@@ -1,7 +1,7 @@
 ---
 permalink: daily/2022/08/22/2022-08-22
 pubDate: 2022-08-22
-title: "Being a T-shaped Developer"
+title: Being a T-shaped Developer
 ---
 
 A blog post appeared on my feed this morning, titled [How to be T-Shaped](https://www.nomensa.com/blog/how-to-be-t-shaped).

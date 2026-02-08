@@ -4,7 +4,7 @@ description: |
   How to use Ansible and Ansistrano to perform robust, secure deployments of your PHP applications.
 speakerdeck:
   id: c11fe635ed8f4741b35bf3ebe53e8323
-  ratio: "1.77777777777778"
+  ratio: '1.77777777777778'
   url: https://speakerdeck.com/opdavies/deploying-php-applications-with-ansible-ansible-vault-and-ansistrano
 video:
   type: youtube

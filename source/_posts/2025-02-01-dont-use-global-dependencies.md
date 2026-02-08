@@ -3,8 +3,8 @@ title: Don't use global dependencies
 permalink: daily/2025/02/01/global-dependencies
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Don't use global system-wide versions of your dependencies, use the ones that are defined in your project.
 ---
 
@@ -22,4 +22,4 @@ Dependencies should be installed with a package manager that generates a lock fi
 
 For PHP or nodejs, I'd suggest using Docker or Nix, [which has its own lock file][0], to make your environment as reproducible and consistent as possible.
 
-[0]: {{site.url}}/daily/2025/01/20/reproducible
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/01/20/reproducible

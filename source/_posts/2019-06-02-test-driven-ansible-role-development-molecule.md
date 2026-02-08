@@ -2,10 +2,10 @@
 title: Test-Driven Ansible Role Development with Molecule
 excerpt: Some resources that I found for testing Ansible roles with a tool called Molecule.
 tags:
-    - ansible
-    - molecule
-    - testing
-    - video
+  - ansible
+  - molecule
+  - testing
+  - video
 ---
 
 I used to maintain a number of [Ansible roles][roles], and I recently wrote one
@@ -18,7 +18,7 @@ I uploaded an initial version of the role [onto GitHub][github], but haven't yet
 released it onto Ansible Galaxy.
 
 I'd seen in other people's roles and read elsewhere about writing automated
-tests for Ansible roles using a tool called [Molecule][molecule], and wanted to
+tests for Ansible roles using a tool called [Molecule], and wanted to
 write some tests for this role before publishing it onto Galaxy.
 
 I looked around for resources about Molecule, and found a [blog post by Jeff
@@ -30,9 +30,7 @@ release an official version of it soon.
 {% include 'youtube-video' with { id: DAnMyBZ8-Qs } %}
 
 [github]: https://github.com/opdavies/ansible-role-drupal-settings
-[jeff-post]:
-  https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule
+[jeff-post]: https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule
 [molecule]: https://molecule.readthedocs.io
-[roles]:
-  https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html
+[roles]: https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html
 [talk]: /talks/deploying-php-ansible-ansistrano

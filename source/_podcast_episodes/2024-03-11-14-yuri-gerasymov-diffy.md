@@ -4,12 +4,12 @@ episode_number: 14
 guests:
   - Yuri Gerasymov
 links:
-  - - About Yuri
-    - https://ygerasimov.com/about-me
-  - - Diffy
-    - https://diffy.website
-  - - Yuri on Drupal.org
-    - https://www.drupal.org/u/ygerasimov
+  -   - About Yuri
+      - https://ygerasimov.com/about-me
+  -   - Diffy
+      - https://diffy.website
+  -   - Yuri on Drupal.org
+      - https://www.drupal.org/u/ygerasimov
 talking_points:
   - What is visual regression testing?
   - How do you deal with false positives?

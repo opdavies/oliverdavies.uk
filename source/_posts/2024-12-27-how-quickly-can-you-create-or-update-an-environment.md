@@ -3,8 +3,8 @@ title: How quickly can you create or update an environment?
 permalink: daily/2024/12/27/quick
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   If you needed to update an environment for your application, or create a new one from scratch, how easy would that be?
 ---
 
@@ -30,6 +30,6 @@ You can also use automation to perform long or complex tasks outside of working 
 
 The more you can automate, the better.
 
-[0]: {{site.url}}/daily/2022/08/15/using-run-file-simplify-project-tasks
-[1]: {{site.url}}/daily/2024/11/11/could-nix-and-devenv-replace-docker-compose
-[2]: {{site.url}}/daily/2024/12/25/localhost
+[0]: %7B%7Bsite.url%7D%7D/daily/2022/08/15/using-run-file-simplify-project-tasks
+[1]: %7B%7Bsite.url%7D%7D/daily/2024/11/11/could-nix-and-devenv-replace-docker-compose
+[2]: %7B%7Bsite.url%7D%7D/daily/2024/12/25/localhost

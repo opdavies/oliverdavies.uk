@@ -2,8 +2,8 @@
 title: Building Gmail Filters with PHP
 excerpt: How to use PHP to generate and export filters for Gmail.
 tags:
-    - gmail
-    - php
+  - gmail
+  - php
 promoted: true
 ---
 

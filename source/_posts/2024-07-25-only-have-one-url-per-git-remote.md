@@ -4,8 +4,8 @@ permalink: daily/2024/07/25/only-have-one-url-per-git-remote
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Did you know Git remotes can have multiple URLs, but this can cause issues.
 ---
 

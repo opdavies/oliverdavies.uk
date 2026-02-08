@@ -15,13 +15,14 @@ Guests include people like [Matt Glaman](/podcast/1-retrofit), [Eirik Morland](/
 ## Episodes {.sr-only}
 
 {% for episode in data.podcast_episodes|reverse %}
-  <h3>Episode {{ episode.episode_number }}: {{ episode.topic }} with {{ episode.guests|join(' and ') }}</h3>
 
-  <time datetime="{{ episode.date|date('Y-m-d') }}">{{ episode.date|date('F jS, Y') }}</time>
+<h3>Episode {{ episode.episode_number }}: {{ episode.topic }} with {{ episode.guests|join(' and ') }}</h3>
 
-  {{ episode.blocks.content|raw }}
+<time datetime="{{ episode.date|date('Y-m-d') }}">{{ episode.date|date('F jS, Y') }}</time>
 
-  <a href="{{ episode.url|trim('/', 'right') }}" aria-label="Listen to episode {{ episodeNumber }}">
+{{ episode.blocks.content|raw }}
+
+<a href="{{ episode.url|trim('/', 'right') }}" aria-label="Listen to episode {{ episodeNumber }}">
     Listen now
     &rarr;
   </a>

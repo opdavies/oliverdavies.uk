@@ -2,13 +2,13 @@
 title: Presenting on Tailwind CSS and Ansible at CMS Philly
 excerpt: I'll be presenting on Tailwind CSS and deployments with Ansible at CMS Philly on May 1st.
 tags:
-    - ansible
-    - ansistrano
-    - conference
-    - drupal
-    - drupal-planet
-    - speaking
-    - tailwind-css
+  - ansible
+  - ansistrano
+  - conference
+  - drupal
+  - drupal-planet
+  - speaking
+  - tailwind-css
 ---
 
 ![](/images/blog/presenting-on-tailwind-css-and-ansible-at-cms-philly/cms-philly-logo.png){.mx-auto}

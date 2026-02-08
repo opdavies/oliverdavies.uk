@@ -3,7 +3,7 @@ title: Drupal VM, Meet Symfony Console
 description: How to develop command line applications using Symfony Console, using the Drupal VM CLI as an example.
 speakerdeck:
   id: 56c79770f73f4e47a542a30243437c49
-  ratio: "1.37081659973226"
+  ratio: '1.37081659973226'
   url: https://speakerdeck.com/opdavies/drupal-vm-meet-symfony-console
 image: drupal-vm-meet-symfony-console.png
 events:
@@ -20,7 +20,8 @@ The [Drupal VM Generator][2] is a CLI application, built on [Symfony Console][0]
 
 After an introduction to Drupal VM itself and the Drupal VM Generator, we'll jump into the code and see how Symfony Console applications are structured, how to write new commands, and how to integrate additional libraries like Guzzle, Twig and other Symfony components - whilst referencing code from the Drupal VM Generator project.
 
+{% endblock %}
+
 [0]: http://symfony.com/doc/current/components/console/introduction.html
 [1]: https://www.drupalvm.com
 [2]: https://www.drupalvmgenerator.com
-{% endblock %}

@@ -4,8 +4,8 @@ permalink: daily/2024/03/31/making-git-work-the-way-you-want
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Merge or rebase - which do you use?
 ---
 

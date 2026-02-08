@@ -1,8 +1,8 @@
 ---
-title: "Store Wars: different state management in Vue.js"
+title: 'Store Wars: different state management in Vue.js'
 pubDate: 2022-09-30
-permalink: "daily/2022/09/30/store-wars-vuejs"
-tags: ["vue"]
+permalink: daily/2022/09/30/store-wars-vuejs
+tags: [vue]
 ---
 
 I'm currently working on a Vue.js application that I started building in Vue 2 before starting to use the Composition API, and then moved it to Vue 3.

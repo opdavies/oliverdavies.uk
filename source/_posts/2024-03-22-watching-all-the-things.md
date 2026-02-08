@@ -4,8 +4,8 @@ permalink: daily/2024/03/22/watching-all-the-things
 tags:
   - software-development
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   For some things, I use watch commands. For others, I have integrations in ny text editor.
 ---
 
@@ -17,4 +17,4 @@ This works well for tests, but for other checks, such as static analysis with PH
 
 If a line fails static analysis or coding standards, a diagnostic message is shown so I can fix it immediately, and I don't need to use a watcher or wait for my CI pipeline to fail.
 
-[yesterday]: {{site.url}}/daily/2024/03/21/git-hooks---yay-or-nay
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/03/21/git-hooks---yay-or-nay

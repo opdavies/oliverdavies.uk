@@ -16,4 +16,4 @@ We discussed focussing on delivering value, prioritising based on usefulness to 
 
 [Listen to the episode now][listen].
 
-[listen]: {{site.url}}/podcast/4-ed-crompton-oxfam-case-study
+[listen]: %7B%7Bsite.url%7D%7D/podcast/4-ed-crompton-oxfam-case-study

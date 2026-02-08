@@ -4,8 +4,8 @@ permalink: daily/2024/04/28/replicating-a-bug-with-a-test
 tags:
   - software-development
   - automated-testing
-cta: ~
-snippet: |
+cta:
+snippet: |-
   When fixing a bug, do you try to replicate it with a test?
 ---
 

@@ -2,8 +2,8 @@
 title: How to put your PHP application in a subdirectory of another site with Nginx
 excerpt: How to configure Nginx to serve a PHP application from within a subdirectory of another.
 tags:
-    - nginx
-    - php
+  - nginx
+  - php
 ---
 
 In January, [Chris Fidao][0] posted a video to [Servers for Hackers][1] showing

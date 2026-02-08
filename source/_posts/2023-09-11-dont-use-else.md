@@ -8,7 +8,6 @@ tags:
   - clean-code
 ---
 
-
 A popular approach to writing clean code is to avoid the "else" keyword and, if possible, avoid nesting `if` statements within other `if` statements.
 If I look at some code, I want to see as few indentation levels as possible, making the code easier to read and understand.
 

@@ -2,8 +2,8 @@
 title: Restructuring my tailwind.js configuration files
 excerpt: How I've started structuring my tailwind.js configuration files in preparation for Tailwind 1.0.
 tags:
-    - laravel-mix
-    - tailwind-css
+  - laravel-mix
+  - tailwind-css
 ---
 
 After watching Adam Wathan's recent
@@ -116,29 +116,29 @@ Here are the steps that I took to create this file:
     <p markdown="1">This line is present but commented out in the current generated `tailwind.js` file.</p>
   </li>
 
-  <li>
+<li>
     <p markdown="1">**Create the colors object.** This will by default override Tailwind's default colours, however you can add `...defaultConfig.colors` to include them and then add or edit values as needed.</p>
     <p markdown="1">In this example, I'm overridding the value used for the `black` colour classes to match the existing colour in the other CSS.</p>
   </li>
 
-  <li>
+<li>
     <p markdown="1">**Return the main configuration object.** For sites with no overrides, this could just be `module.exports = defaultConfig` for a minimal configuration.</p>
     <p markdown="1">To extend the defaults, add `...defaultConfig` at the beginning.</p>
   </li>
 
-  <li>
+<li>
     <p markdown="1">**Assign our colours.** Use them for `colors`, `textColors`, `backgroundColors` and `borderColours`.</p>
   </li>
 
-  <li>
+<li>
     <p markdown="1">**Add any plugins**. I use plugins on most projects, in this case I'm using [tailwindcss-interaction-variants](https://www.npmjs.com/package/tailwindcss-interaction-variants) and [tailwindcss-spaced-items](https://www.npmjs.com/package/tailwindcss-spaced-items). Usually the default `container` plugin would be here too.</p>
   </li>
 
-  <li>
+<li>
     <p markdown="1">**Add or override modules.** Here I'm adding the `hocus` (hover and focus) variant provided by the interaction variants plugin to the text style classes.</p>
   </li>
 
-  <li>
+<li>
     <p markdown="1">**Add or override options.** As this markup was originally from a Drupal website, I needed to override some of the options values. I've added the `tw-` prefix to avoid Tailwind classes from clashing with Drupal's default markup, and set all Tailwind classes to use `!important` so that they override any existing styles.</p>
   </li>
 </ol>

@@ -3,8 +3,8 @@ title: Bug free guarantee
 permalink: daily/2024/06/16/bug-free-guarantee
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   What is a bug-free guarantee?
 ---
 
@@ -22,4 +22,4 @@ No additional charges, invoices or change requests.
 
 Just working code.
 
-[0]: {{site.url}}/pricing
+[0]: %7B%7Bsite.url%7D%7D/pricing

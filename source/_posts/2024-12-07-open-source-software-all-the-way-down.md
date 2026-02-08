@@ -8,8 +8,8 @@ tags:
   - nix
   - nixos
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I'm using open source software all the way down.
 ---
 
@@ -27,6 +27,6 @@ And if there isn't, I can write one.
 
 As well as creating free and open source software, I want to use it as much as I can as well as using open source software to create my open source software.
 
-[0]: {{site.url}}/daily/2024/11/10/write-plain-text-files
-[1]: {{site.url}}/daily/2024/11/28/running-nixos-in-the-cloud
-[2]: {{site.url}}/daily/2024/11/23/no-more-random-packages
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/10/write-plain-text-files
+[1]: %7B%7Bsite.url%7D%7D/daily/2024/11/28/running-nixos-in-the-cloud
+[2]: %7B%7Bsite.url%7D%7D/daily/2024/11/23/no-more-random-packages

@@ -3,8 +3,8 @@ title: Proof of concept
 permalink: daily/2024/06/20/proof-of-concept
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How can you prove a concept?
 ---
 

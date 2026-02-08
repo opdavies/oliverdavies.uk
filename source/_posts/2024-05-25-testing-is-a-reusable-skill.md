@@ -6,7 +6,7 @@ tags:
   - automated-testing
   - test-driven-development
 cta: testing_course
-snippet: |
+snippet: |-
   Writing automated tests is a reusable skill.
 ---
 

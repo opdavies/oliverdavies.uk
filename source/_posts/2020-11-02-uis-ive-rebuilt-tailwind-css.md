@@ -2,8 +2,8 @@
 title: UIs that I've Rebuilt with Tailwind CSS
 excerpt: A collection of all of the UIs that I've rebuilt using Tailwind CSS for talk demos etc.
 tags:
-    - css
-    - tailwind-css
+  - css
+  - tailwind-css
 ---
 
 Like Adam Wathan and other Tailwind CSS users, I've rebuilt a number of existing websites and user interfaces with [Tailwind CSS](https://tailwindcss.com), either for practice, to try out some new features, or for a demo for a talk where I like to have a relevant example for that audience.

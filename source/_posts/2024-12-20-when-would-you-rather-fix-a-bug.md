@@ -3,8 +3,8 @@ title: When would you rather fix a bug?
 permalink: daily/2024/12/20/bug
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Would you rather fix a bug in code you wrote today or six months ago?
 ---
 

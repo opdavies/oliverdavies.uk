@@ -6,7 +6,7 @@ tags:
   - automated-testing
   - test-driven-development
 cta: testing_course
-snippet: |
+snippet: |-
   Having automated tests reduces your debugging time.
 ---
 
@@ -38,4 +38,4 @@ I could confidently tell the client that the issue wasn't with our code and must
 
 Writing tests takes some time, but having tests saves time.
 
-[0]: {{site.url}}/presentations/tdd-test-driven-drupal
+[0]: %7B%7Bsite.url%7D%7D/presentations/tdd-test-driven-drupal

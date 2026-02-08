@@ -5,8 +5,8 @@ tags:
   - software-development
   - drupal
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   If you're stuck on an old, outdated and unsupported version of Drupal, why should you upgrade?
 ---
 
@@ -24,7 +24,7 @@ Aside from Drupal 7 core, a lot of Drupal 7 modules and themes have been unsuppo
 
 ## Dependencies
 
-To keep up to date with the latest versions of PHP and MySQL - the software needed to run Drupal, and other dependencies - you should upgrade to Drupal 10 or 11. 
+To keep up to date with the latest versions of PHP and MySQL - the software needed to run Drupal, and other dependencies - you should upgrade to Drupal 10 or 11.
 
 Drupal 11 requires PHP 8.3 and MySQL 8.0, so by upgrading, you'll also keep your dependencies up to date, benefit from their security updates, bug fixes and performance improvements.
 

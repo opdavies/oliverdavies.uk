@@ -6,8 +6,8 @@ tags:
   - static-websites
   - static-site-generators
   - sculpin
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Static websites are easy to host and deploy changes.
 ---
 
@@ -29,4 +29,4 @@ It's fast, simple and minimal.
 
 If you prefer to use a service like Netlify or Vercel, they work great for static websites too.
 
-[0]: {{site.url}}/daily/2025/03/12/easy
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/03/12/easy

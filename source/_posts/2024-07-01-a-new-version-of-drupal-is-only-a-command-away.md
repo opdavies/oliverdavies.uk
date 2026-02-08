@@ -6,8 +6,8 @@ tags:
   - drupal
   - php
   - composer
-cta: ~
-snippet: |
+cta:
+snippet: |-
   A new version of Drupal is only a single command away.
 ---
 
@@ -23,6 +23,6 @@ If you want to only update Drupal core, then you'll need to run something like `
 
 I think adopting Composer was one of the best decisions the Drupal project made - not only [to include third-party code][2], such as Symfony components, but it also makes applications so much easier to update.
 
-[0]: {{site.url}}/daily/2024/06/23/drupal-10-3-released
-[1]: {{site.url}}/daily/2024/06/29/countdown-to-drupal-11
-[2]: {{site.url}}/daily/2024/06/09/proudly-found-elsewhere
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/06/23/drupal-10-3-released
+[1]: %7B%7Bsite.url%7D%7D/daily/2024/06/29/countdown-to-drupal-11
+[2]: %7B%7Bsite.url%7D%7D/daily/2024/06/09/proudly-found-elsewhere

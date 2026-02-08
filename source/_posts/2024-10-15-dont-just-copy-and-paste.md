@@ -3,8 +3,8 @@ title: Don't just copy and paste
 permalink: daily/2024/10/15/dont-just-copy-and-paste
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Don't just copy and paste.
 ---
 
@@ -16,4 +16,4 @@ Process and understand it and its pros and cons so you can decide why and when t
 
 Once you've committed it, you're responsible for it and need to maintain it - regardless of where it came from.
 
-[0]: {{site.url}}/daily/2024/10/09/ai-as-a-pair-programming-partner
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/10/09/ai-as-a-pair-programming-partner

@@ -5,7 +5,7 @@ tags:
   - software-development
   - automated-testing
 cta: testing_course
-snippet: |
+snippet: |-
   Do you rely on AI tools to write your automated tests?
 ---
 
@@ -25,4 +25,4 @@ Are the tests running the implementation code or just testing mocks or running m
 
 Writing tests is about building confidence, which you can't do if you don't know what your tests are testing or how.
 
-[0]: {{site.url}}/daily/2024/05/31/putting-glue-on-pizza
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/05/31/putting-glue-on-pizza

@@ -4,7 +4,7 @@ permalink: daily/2025/01/07/competent
 tags:
   - software-development
 cta: sponsor
-snippet: |
+snippet: |-
   One of the key points from DHH's keynote from Rails World is that it's fun to be competent.
 ---
 
@@ -44,4 +44,4 @@ And it is more fun.
 It just takes time and effort.
 
 [0]: https://www.youtube.com/watch?v=-cEn_83zRFw
-[1]: {{site.url}}/blog/going-full-vim
+[1]: %7B%7Bsite.url%7D%7D/blog/going-full-vim

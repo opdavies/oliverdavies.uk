@@ -88,9 +88,9 @@ This specified the name cannot be an empty string and the shape of the options a
 
 With this, we get these errors that weren't included before:
 
-* Parameter #1 $name of function sayHello expects non-empty-string, '' given.
-* Parameter #2 $options of function sayHello expects array{shout: bool}, array{shout2: true} given.
-* Parameter #2 $options of function sayHello expects array{shout: bool}, array{shout: 'banana'} given.
+- Parameter #1 $name of function sayHello expects non-empty-string, '' given.
+- Parameter #2 $options of function sayHello expects array{shout: bool}, array{shout2: true} given.
+- Parameter #2 $options of function sayHello expects array{shout: bool}, array{shout: 'banana'} given.
 
 ## Here's the thing
 

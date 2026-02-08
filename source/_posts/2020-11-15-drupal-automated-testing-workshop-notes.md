@@ -2,7 +2,7 @@
 title: Drupal automated testing workshop notes
 excerpt: If you attended my automated testing with Drupal workshop this weekend, here are the links.
 tags:
-    - drupal
+  - drupal
 ---
 
 If you attended my automated testing and test driven development workshop this weekend at DrupalCamp NYC, or at DrupalCamp London in March, [here are the notes][notes] that we went through during the session.

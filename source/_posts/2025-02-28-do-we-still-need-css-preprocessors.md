@@ -4,8 +4,8 @@ permalink: daily/2025/02/28/preprocessors
 tags:
   - software-development
   - css
-cta: ~
-snippet: |
+cta:
+snippet: |-
   With all the recent improvements to CSS, do we still need preprocessors like Sass and Less?
 ---
 

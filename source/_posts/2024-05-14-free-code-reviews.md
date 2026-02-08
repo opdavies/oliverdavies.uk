@@ -4,8 +4,8 @@ permalink: daily/2024/05/14/free-code-reviews
 tags:
   - software-development
   - open-source
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you want free code reviews? What about contributing to open-source?
 ---
 

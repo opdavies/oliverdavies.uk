@@ -3,8 +3,8 @@ title: Who is your BDFL?
 permalink: daily/2025/01/11/bdfl
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Most open source projects have a BDFL who makes the ultimate decisions for the project. Who is the BDFL in your codebase?
 ---
 

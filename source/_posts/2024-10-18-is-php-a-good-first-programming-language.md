@@ -5,8 +5,8 @@ tags:
   - software-development
   - drupal
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Is PHP a good first programming language?
 ---
 

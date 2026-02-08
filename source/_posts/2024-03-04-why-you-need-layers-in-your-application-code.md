@@ -5,8 +5,8 @@ tags:
   - software-development
   - software-architecture
   - clean-code
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Why should you make your code more robust and flexible by introducing layers into your code?
 ---
 

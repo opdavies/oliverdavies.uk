@@ -2,7 +2,7 @@
 title: Easier Git Repository Cloning with insteadOf
 excerpt: How to simplify 'git clone' commands by using the insteadOf configuration option within your .gitconfig file.
 tags:
-    - git
+  - git
 ---
 
 When working on client or open source projects, I clone a lot of

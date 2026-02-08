@@ -18,4 +18,4 @@ After sending [yesterday's email][yesterday], Dave Hall replied [with a LinkedIn
 Just because you can do something, it doesn't mean you should.
 
 [comment]: https://www.linkedin.com/feed/update/urn:li:activity:7124401304315027456
-[yesterday]: {{site.url}}/daily/2023/10/28/can-you-move-faster-without-tests
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2023/10/28/can-you-move-faster-without-tests

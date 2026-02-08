@@ -4,8 +4,8 @@ permalink: daily/2024/07/17/queuing-long-running-tasks
 tags:
   - software-development
   - drupal
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you have long-running tasks in your application? Have you tried using queues?
 ---
 

@@ -3,8 +3,8 @@ title: Is the abstraction worth it?
 permalink: daily/2024/06/04/is-the-abstraction-worth-it
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Is adding an abstraction within your code beneficial?
 ---
 

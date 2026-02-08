@@ -4,8 +4,8 @@ permalink: daily/2025/04/03/selective
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Be more selective about what you're staging and committing in Git.
 ---
 
@@ -27,4 +27,4 @@ I'll also review my staged changes before committing and the commit once it's be
 
 Only once I'm sure my commits include only what I intended will I push them or submit them for review.
 
-[0]: {{site.url}}/daily/2025/04/02/commit
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/04/02/commit

@@ -11,19 +11,19 @@ tags:
 
 I've just added the hundredth test to a client project I'm developing.
 
-I'm following [the outside-in approach]({{site.url}}/daily/2023/09/14/outside-in-or-inside-out), starting with functional tests and moving to kernel and unit tests where needed - meaning more functional tests and fewer unit tests - most of which cover some complex search functionality containing custom blocks, forms, endpoints for autocomplete lists, pattern matching and results pages, which is the core functionality of the project.
+I'm following [the outside-in approach](%7B%7Bsite.url%7D%7D/daily/2023/09/14/outside-in-or-inside-out), starting with functional tests and moving to kernel and unit tests where needed - meaning more functional tests and fewer unit tests - most of which cover some complex search functionality containing custom blocks, forms, endpoints for autocomplete lists, pattern matching and results pages, which is the core functionality of the project.
 
 Here's the breakdown of the different types of tests:
 
-* Functional - 57 tests, 180 assertions
-* Kernel - 38 tests, 495 assertions
-* Unit - 5 tests, 18 assertions
+- Functional - 57 tests, 180 assertions
+- Kernel - 38 tests, 495 assertions
+- Unit - 5 tests, 18 assertions
 
 The tests are run automatically in a CI pipeline by GitHub Actions and Docker and usually run in two or three minutes.
 
 The project is still in progress, so I'll add more tests for the remaining functionality and possibly remove some too, as I refactor some of the code.
 
----
+______________________________________________________________________
 
 P.S. Are you interested in automated testing and test-driven development? I'm speaking about it at DrupalCon Europe on the 17th of October!
 

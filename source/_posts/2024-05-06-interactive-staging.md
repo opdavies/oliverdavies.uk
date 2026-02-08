@@ -4,8 +4,8 @@ permalink: daily/2024/05/06/interactive-staging
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   TODO
 ---
 

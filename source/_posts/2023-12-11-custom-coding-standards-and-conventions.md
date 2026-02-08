@@ -15,15 +15,15 @@ Open-source projects like Drupal and Symfony have their own published coding sta
 
 For example, from [Symfony's coding standards][symfony]:
 
-* Prefix all abstract classes with `Abstract` except PHPUnit `*TestCase`.
-* Suffix interfaces with `Interface`;
-* Suffix traits with `Trait`;
+- Prefix all abstract classes with `Abstract` except PHPUnit `*TestCase`.
+- Suffix interfaces with `Interface`;
+- Suffix traits with `Trait`;
 
 And from [Drupal's][drupal]:
 
-* Use an indent of 2 spaces, with no tabs.
-* Lines should have no trailing whitespace at the end.
-* Variables should be named using lowercase, and words should be separated either with uppercase characters (example: `$lowerCamelCase`) or with an underscore (example: `$snake_case`). Be consistent; do not mix camelCase and snake_case variable naming inside a file.
+- Use an indent of 2 spaces, with no tabs.
+- Lines should have no trailing whitespace at the end.
+- Variables should be named using lowercase, and words should be separated either with uppercase characters (example: `$lowerCamelCase`) or with an underscore (example: `$snake_case`). Be consistent; do not mix camelCase and snake_case variable naming inside a file.
 
 But what about within custom applications?
 

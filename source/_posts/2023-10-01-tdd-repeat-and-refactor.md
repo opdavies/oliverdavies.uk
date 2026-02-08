@@ -1,5 +1,5 @@
 ---
-title: "TDD: repeat and refactor"
+title: 'TDD: repeat and refactor'
 pubDate: 2023-10-01
 permalink: >-
   daily/2023/10/01/tdd--repeat-and-refactor

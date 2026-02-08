@@ -6,7 +6,7 @@ tags:
   - drupal
   - php
 cta: sponsor
-snippet: |
+snippet: |-
   Today is the day! Drupal 7 is now officially end-of-life.
 ---
 

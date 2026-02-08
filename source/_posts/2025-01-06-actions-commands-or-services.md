@@ -5,8 +5,8 @@ tags:
   - software-development
   - drupal
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   To Action or not to Action? I was writing a new class today and wondered whether it should be an Action, Command or Service. Which would you pick?
 ---
 

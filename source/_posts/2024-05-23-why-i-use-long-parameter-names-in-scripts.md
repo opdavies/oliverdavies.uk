@@ -6,8 +6,8 @@ tags:
   - bash
   - zsh
   - linux
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Why I use long parameter names in scripts, such as `--force` instead of `-f`.
 ---
 
@@ -33,4 +33,4 @@ sort "${result_file}" -rn -o "${result_file}"
 
 Whilst the original is more verbose and longer to type, I prefer its verbosity which makes it easier for me or others to read and understand in the future.
 
-[0]: {{site.url}}/daily/2024/05/21/which-commit-has-the-largest-message
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/05/21/which-commit-has-the-largest-message

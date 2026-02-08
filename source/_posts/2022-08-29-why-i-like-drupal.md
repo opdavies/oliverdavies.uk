@@ -1,8 +1,8 @@
 ---
 pubDate: 2022-08-29
-title: "Why I like Drupal"
-permalink: "daily/2022/08/29/why-like-drupal"
-tags: ["drupal"]
+title: Why I like Drupal
+permalink: daily/2022/08/29/why-like-drupal
+tags: [drupal]
 ---
 
 As I said in yesterday's email, I developed my first website project on Drupal. It allowed me to take a static HTML and CSS website and convert it into something that was much easier and quicker for me to update, and allowed me to create more users with permissions to do those tasks too.

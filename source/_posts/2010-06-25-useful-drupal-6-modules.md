@@ -2,10 +2,10 @@
 title: 10 Useful Drupal 6 Modules
 excerpt: A list of 10 contributed modules that I currently use on each Drupal project.
 tags:
-    - drupal
-    - drupal-6
-    - drupal-modules
-    - drupal-planet
+  - drupal
+  - drupal-6
+  - drupal-modules
+  - drupal-planet
 ---
 
 Aside from the obvious candidates such as Views, CCK etc, here are a list of 10
@@ -19,21 +19,21 @@ So, in no particular order:
   newly-required
   [Rubik](http://code.developmentseed.org/rubik)/[Tao](http://code.developmentseed.org/tao)
   themes. So far, so good!
-- **[Better Permissions](http://drupal.org/project/better_perms)/[Filter Permissions](http://drupal.org/project/filter_perms):
-  <br>**Basic permissions is a basic module which enhances the Drupal
+- \*\*[Better Permissions](http://drupal.org/project/better_perms)/[Filter Permissions](http://drupal.org/project/filter_perms):
+  <br>\*\*Basic permissions is a basic module which enhances the Drupal
   Permissions page to support collapsing and expanding permission rows. Filter
   permissions provides filters at the top of the Permissions page for easier
   management when your site has a large amount of roles and/or permissions.
-- **[Better Formats](http://drupal.org/project/better_formats): <br>**Better
+- \*\*[Better Formats](http://drupal.org/project/better_formats): <br>\*\*Better
   formats is a module to add more flexibility to Drupal's core input format
   system.
 - **[Clone module](http://drupal.org/project/node_clone):**<br>Allows users to
   make a copy of an existing item of site content (a node) and then edit that
   copy.
-- **[Vertical Tabs](http://drupal.org/project/vertical_tabs):<br>**Integrated
+- \*\*[Vertical Tabs](http://drupal.org/project/vertical_tabs):<br>\*\*Integrated
   into Drupal 7 core, this module adds vertical tabs to the node add and edit
   forms.
-- **[Context](http://drupal.org/project/context):<br>**Context allows you to
+- \*\*[Context](http://drupal.org/project/context):<br>\*\*Context allows you to
   manage contextual conditions and reactions for different portions of your
   site. You can think of each context as representing a "section" of your site.
   For each context, you can choose the conditions that trigger this context to

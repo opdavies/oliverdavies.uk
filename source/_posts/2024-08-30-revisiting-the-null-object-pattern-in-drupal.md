@@ -8,7 +8,7 @@ tags:
   - open-source
   - php
   - design-patterns
-cta: ~
+cta:
 snippet: |
   Whilst working on my secret side project, today I decided to revisit the Null User Drupal module.
 drupal_planet: true

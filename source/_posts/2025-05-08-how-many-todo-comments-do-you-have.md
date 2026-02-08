@@ -3,8 +3,8 @@ title: How many TODO comments do you have?
 permalink: daily/2025/05/08/todos
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How many TODO comments do you have in your codebase?
 ---
 
@@ -28,4 +28,4 @@ Some were added by Developers who no longer work on the project.
 
 This is something I'll often do in the future to review the number of TODOs, fix them in-place or move them into a ticketing system.
 
-[0]: {{site.url}}/daily/2025/05/07/st
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/05/07/st

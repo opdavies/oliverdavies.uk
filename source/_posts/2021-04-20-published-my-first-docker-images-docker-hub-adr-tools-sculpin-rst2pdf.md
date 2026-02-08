@@ -2,9 +2,9 @@
 title: Published my first Docker images on Docker Hub (ADR Tools, Sculpin, rst2pdf)
 excerpt: I recently released my first images to the Docker Hub, for ADR Tools, the Sculpin site generator, and rst2pdf.
 tags:
-    - docker
-    - rst2pdf
-    - sculpin
+  - docker
+  - rst2pdf
+  - sculpin
 ---
 
 I've used Docker for some time for local development, making use of container images from Docker Hub and creating my own project-specific images, but I hadn't pushed any to [my Docker Hub profile](https://hub.docker.com/u/opdavies) for anyone else to use - until now.
@@ -17,15 +17,15 @@ I've pushed several images to Docker Hub recently:
 
 <article class="contextual-region media media--type-image media--view-mode-full">
   <div data-contextual-id="media:media=33:changed=1618442055&amp;langcode=en" data-contextual-token="C-PHggch0hrNv19fZsR9MuBKN4Uce-ILhiKAQ4_bNio"></div>
-      
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+
+<div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
     <div class="field__label visually-hidden">Image</div>
               <div class="field__item">  <img src="/sites/default/files/2021-04/Selection_055.png" width="1286" height="656" alt="My Docker images on Docker Hub" />
 
 </div>
           </div>
 
-  </article>
+</article>
 
 ## ADR Tools
 
@@ -66,15 +66,15 @@ I've tested this with some of my own personal and client Sculpin projects, as we
 
 <article class="contextual-region media media--type-image media--view-mode-full">
   <div data-contextual-id="media:media=32:changed=1618439494&amp;langcode=en" data-contextual-token="1837Bvj_qHQyj5LyqWvlZ7jL63PcDvJ24mhS7Umk8yI"></div>
-      
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+
+<div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
     <div class="field__label visually-hidden">Image</div>
               <div class="field__item">  <img src="/sites/default/files/2021-04/Home%20%E2%80%94%20Sculpin%20Blog%20Skeleton%20%E2%80%94%20To%20Get%20You%20Started%20%E2%80%94%20Mozilla%20Firefox_002.png" width="1920" height="1053" alt="The Sculpin Blog Skeleton running with the sculpin-serve image" />
 
 </div>
           </div>
 
-  </article>
+</article>
 
 ## rst2pdf
 

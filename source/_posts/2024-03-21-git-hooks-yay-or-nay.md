@@ -4,8 +4,8 @@ permalink: daily/2024/03/21/git-hooks---yay-or-nay
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Are you in favour of Git hooks or not?
 ---
 

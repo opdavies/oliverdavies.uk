@@ -1,8 +1,8 @@
 ---
-title: "Experimenting with the Nix package manager"
+title: Experimenting with the Nix package manager
 pubDate: 2022-09-26
-permalink: "daily/2022/09/26/experimenting-with-the-nix-package-manager"
-tags: ["nix"]
+permalink: daily/2022/09/26/experimenting-with-the-nix-package-manager
+tags: [nix]
 ---
 
 After seeing it on some recent live streams and YouTube videos, I've recently been trying out the Nix package manager and looking into how I might use it for my local environment setup - potentially replacing some of my current Ansible configuration.

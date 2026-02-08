@@ -4,7 +4,7 @@ permalink: daily/2025/04/17/incrementally
 tags:
   - software-development
 cta: pair
-snippet: |
+snippet: |-
   Did you know you can have more than one version of your website in production at the same time?
 ---
 

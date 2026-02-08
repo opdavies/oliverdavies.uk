@@ -4,8 +4,8 @@ permalink: daily/2024/04/19/when-should-you-tag-1-0
 tags:
   - software-development
   - open-source
-cta: ~
-snippet: |
+cta:
+snippet: |-
   When should you tag version 1.0 of your project?
 ---
 

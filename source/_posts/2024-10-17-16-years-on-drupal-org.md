@@ -4,7 +4,7 @@ permalink: daily/2024/10/17/16-years-on-drupal-org
 tags:
   - software-development
   - drupal
-cta: ~
+cta:
 snippet: |
   I've been on Drupal.org for 16 years!
 drupal_planet: true
@@ -21,4 +21,4 @@ I've even [started to interview some of them][1] on my podcast.
 Here's to the next 16 years, and I'm very excited so see where Drupal and PHP go.
 
 [0]: https://www.drupal.org/u/opdavies
-[1]: {{site.url}}/podcast
+[1]: %7B%7Bsite.url%7D%7D/podcast

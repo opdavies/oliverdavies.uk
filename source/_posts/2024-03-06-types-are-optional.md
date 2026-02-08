@@ -5,7 +5,7 @@ tags:
   - software-development
   - php
 cta: subscription
-snippet: |
+snippet: |-
   Types are optional in the programming languages I write most in. I like them, but I also like people can decide whether to use types or not.
 ---
 

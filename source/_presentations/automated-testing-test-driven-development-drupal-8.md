@@ -7,7 +7,7 @@ events:
     date: 2018-06-27
   - name: DrupalCamp London 2020
     location: London, UK
-    url: ~
+    url:
     date: 2020-03-13
   - name: DrupalCamp NYC
     location: New York, USA

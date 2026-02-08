@@ -14,7 +14,7 @@ This week, I learned there is a Drupalisms Working Group - a group focused on de
 
 From [the introductory blog post][0]:
 
-> If you're familiar with Drupal, you will have learned its language. You will be familiar with words like Views, Blocks and Paragraphs, and you will appreciate their respective features and functions. But for those new to Drupal, getting to grips with what words mean can mean a steep learning curve. 
+> If you're familiar with Drupal, you will have learned its language. You will be familiar with words like Views, Blocks and Paragraphs, and you will appreciate their respective features and functions. But for those new to Drupal, getting to grips with what words mean can mean a steep learning curve.
 
 Drupalisms is something I've discussed on a few episodes of Beyond Blocks, including [the most recent episode and the seonc with Eirik Morland][1].
 
@@ -23,4 +23,4 @@ I didn't realise there were BoF sessions about this at DrupalCon Lille last year
 Anything that helps Drupal easier to use and adopt is a good thing.
 
 [0]: https://www.drupal.org/association/blog/de-jargoning-drupal-working-with-the-community-to-open-up-drupals-terminology
-[1]: {{site.url}}/podcast/21-eirik-morland-violinist-2
+[1]: %7B%7Bsite.url%7D%7D/podcast/21-eirik-morland-violinist-2

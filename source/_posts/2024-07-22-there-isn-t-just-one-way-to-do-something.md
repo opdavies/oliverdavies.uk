@@ -6,7 +6,7 @@ tags:
   - pair-programming
   - mob-programming
 cta: pair
-snippet: |
+snippet: |-
   There isn't just one way to do something in software development.
 ---
 

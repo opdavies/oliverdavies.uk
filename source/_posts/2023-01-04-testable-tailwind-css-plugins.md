@@ -7,7 +7,7 @@ tags:
   - tailwind-css
 ---
 
-A great thing about [Tailwind CSS plugins]({{site.url}}/daily/2023/01/03/tailwind-css-extensibility-is-one-of-its-best-features) being written in JavaScript is that they can be tested using tools like Jest.
+A great thing about [Tailwind CSS plugins](%7B%7Bsite.url%7D%7D/daily/2023/01/03/tailwind-css-extensibility-is-one-of-its-best-features) being written in JavaScript is that they can be tested using tools like Jest.
 
 Here's an example from https://github.com/opdavies/tailwindcss-plugin-jest-example (it may need updating to work with the latest Tailwind versions or to use the latest best practices):
 

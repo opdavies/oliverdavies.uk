@@ -11,12 +11,12 @@ I had some early presents this month and have been accepted to present talks at 
 
 ## PHP Stoke
 
-The first PHP Stoke meetup will be held at Genr8 Smithfield Works on the 12th of January. I'll be presenting "[Things you should know about PHP]({{site.url}}/presentations/things-you-should-know-about-php)". It'll be great to be the first speaker at this new meetup.
+The first PHP Stoke meetup will be held at Genr8 Smithfield Works on the 12th of January. I'll be presenting "[Things you should know about PHP](%7B%7Bsite.url%7D%7D/presentations/things-you-should-know-about-php)". It'll be great to be the first speaker at this new meetup.
 
 ## nor(DEV):con
 
 The Norfolk Developers conference is in Norwich on the 23rd and 24th of February.
 
-I'll be presenting "[Taking Flight about Tailwind CSS]({{site.url}}/presentations/taking-flight-with-tailwind-css)". It's been a while since I last gave this talk so I'm looking forward to updating it with the latest changes and new features in Tailwind CSS.
+I'll be presenting "[Taking Flight about Tailwind CSS](%7B%7Bsite.url%7D%7D/presentations/taking-flight-with-tailwind-css)". It's been a while since I last gave this talk so I'm looking forward to updating it with the latest changes and new features in Tailwind CSS.
 
 It'll be great to be speaking at these events and hopefully others in 2023.

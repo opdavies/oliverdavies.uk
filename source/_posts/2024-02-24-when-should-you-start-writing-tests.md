@@ -27,4 +27,4 @@ Now I've started to add this functionality - such as determining the project typ
 
 At this phase, I can see the value, which I couldn't when setting up the application to begin with, and different have any logic worth testing.
 
-[versa]: {{site.url}}/daily/2024/02/19/introducing-versa
+[versa]: %7B%7Bsite.url%7D%7D/daily/2024/02/19/introducing-versa

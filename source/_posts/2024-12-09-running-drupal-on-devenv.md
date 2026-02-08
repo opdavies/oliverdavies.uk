@@ -7,8 +7,8 @@ tags:
   - php
   - nix
   - devenv
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Here's an example of how I'm running Drupal applications locally with Nix and devenv.
 ---
 
@@ -97,5 +97,5 @@ With this approach, there's no need for containers as everything is run locally 
 
 All of my current development projects are using this approach and I think it'll be my default method for future projects.
 
-[0]: {{site.url}}/daily/2024/11/30/using-nix-for-local-application-development
-[1]: {{site.url}}/presentations/tdd-test-driven-drupal
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/30/using-nix-for-local-application-development
+[1]: %7B%7Bsite.url%7D%7D/presentations/tdd-test-driven-drupal

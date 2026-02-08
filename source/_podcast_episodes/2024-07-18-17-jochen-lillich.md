@@ -4,14 +4,14 @@ episode_number: 17
 guests:
   - Jochen Lillich
 links:
-  - - Jochen's personal website
-    - https://www.geewiz.dev
-  - - Jochen on Twitch
-    - https://www.twitch.tv/monospacementor
-  - - monospacementor.com
-    - https://monospacementor.com
-  - - freistil.it
-    - https://www.freistil.it
+  -   - Jochen's personal website
+      - https://www.geewiz.dev
+  -   - Jochen on Twitch
+      - https://www.twitch.tv/monospacementor
+  -   - monospacementor.com
+      - https://monospacementor.com
+  -   - freistil.it
+      - https://www.freistil.it
 talking_points: []
 quotes: []
 chapters: []

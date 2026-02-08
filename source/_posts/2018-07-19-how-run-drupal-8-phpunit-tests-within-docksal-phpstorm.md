@@ -2,12 +2,12 @@
 title: How to run Drupal 8 PHPUnit Tests within Docksal from PhpStorm
 excerpt: How to configure PhpStorm to run automated tests within Docksal.
 tags:
-    - docksal
-    - drupal
-    - drupal-8
-    - phpstorm
-    - phpunit
-    - testing
+  - docksal
+  - drupal
+  - drupal-8
+  - phpstorm
+  - phpunit
+  - testing
 promoted: true
 ---
 
@@ -176,7 +176,7 @@ the last test.
 When running functional tests that require a database, I was getting a database
 error like the one below:
 
-> Drupal\Core\Installer\Exception\InstallerException : Resolve all issues below
+> Drupal\\Core\\Installer\\Exception\\InstallerException : Resolve all issues below
 > to continue the installation. For help configuring your database server, see
 > the <a href="https://www.drupal.org/getting-started/install">installation
 > handbook</a>, or contact your hosting provider.

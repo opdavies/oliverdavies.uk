@@ -5,8 +5,8 @@ tags:
   - software-development
   - test-driven-development
   - automated-testing
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Is your test suite passing? If not, what value is it providing?
 ---
 

@@ -4,8 +4,8 @@ permalink: daily/2024/03/24/why-i-dont-use-a-gui-for-git
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you use a GUI when working with Git? This is why I don't.
 ---
 

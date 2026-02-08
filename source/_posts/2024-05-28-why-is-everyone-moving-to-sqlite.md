@@ -4,7 +4,7 @@ permalink: daily/2024/05/28/why-is-everyone-moving-to-sqlite
 tags:
   - software-development
 cta: d7eol
-snippet: |
+snippet: |-
   Why is everyone moving to SQLite?
 ---
 
@@ -18,4 +18,4 @@ Drupal supports using SQLite, but, other than for [my automated testing course][
 
 Maybe this is something to keep an eye on and potentially use more for some scenarios in the future.
 
-[course]: {{site.url}}/atdc
+[course]: %7B%7Bsite.url%7D%7D/atdc

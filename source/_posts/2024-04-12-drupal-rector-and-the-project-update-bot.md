@@ -6,7 +6,7 @@ tags:
   - drupal
   - php
 cta: d7eol
-snippet: |
+snippet: |-
   How do I know the SpeakerDeck Field module still works on Drupal 10 and 11?
 ---
 
@@ -20,4 +20,4 @@ It runs automatically on modules, including Speakerdeck Field, via the Project U
 
 CI pipelines with GitLab CI and a reliable test suite make it much easier to upgrade modules to the latest Drupal version and ensure they still work.
 
-[wednesday]: {{site.url}}/daily/2024/04/10/resurrecting-the-speakerdeck-field-module
+[wednesday]: %7B%7Bsite.url%7D%7D/daily/2024/04/10/resurrecting-the-speakerdeck-field-module

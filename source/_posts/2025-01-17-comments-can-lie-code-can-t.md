@@ -3,8 +3,8 @@ title: Comments can lie. Code can't.
 permalink: daily/2025/01/17/lies
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Comments in code can lie, but the code itself can't.
 ---
 
@@ -27,4 +27,4 @@ But, if you want something that will alert you if the functionality changes, loo
 
 If you have a passing test that suddenly starts to fail, you know the behaviour has changed.
 
-[0]: {{site.url}}/atdc
+[0]: %7B%7Bsite.url%7D%7D/atdc

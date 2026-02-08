@@ -32,4 +32,4 @@ Other quality tools like static analysis can also be considered testing tools.
 
 ## Want to learn more?
 
-If you want to learn more about automated testing in Drupal, [I have a talk about that]({{site.url}}/talks/tdd-test-driven-drupal).
+If you want to learn more about automated testing in Drupal, [I have a talk about that](%7B%7Bsite.url%7D%7D/talks/tdd-test-driven-drupal).

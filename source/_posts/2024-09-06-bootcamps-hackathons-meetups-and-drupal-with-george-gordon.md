@@ -6,7 +6,7 @@ tags:
   - drupal
   - php
   - podcast
-cta: ~
+cta:
 snippet: |
   This week I spoke with George Gordon, who recently got their first Software Developer role.
 drupal_planet: true
@@ -20,4 +20,4 @@ I wasn't George's mentor, but I met him at a hackday earlier this year and at a 
 
 [Listen to the episode now][0].
 
-[0]: {{site.url}}/podcast/20-george-gordon
+[0]: %7B%7Bsite.url%7D%7D/podcast/20-george-gordon

@@ -2,9 +2,9 @@
 title: Croeso PHP South Wales!
 excerpt: Last night was the first meetup of Cardiff's PHP South Wales user group.
 tags:
-    - php
-    - php-south-wales
-    - meetups
+  - php
+  - php-south-wales
+  - meetups
 has_tweets: true
 ---
 
@@ -18,9 +18,9 @@ which was a great space, and it was cool to be back in Brunel House having
 worked in that building previously whilst at Appnovation.
 
 {% include 'tweet' with {
-    class: 'my-6',
-    data_cards: true,
-    content: '<p lang="en" dir="ltr">Pretty cool being back in the centre of Cardiff. <a href="https://t.co/kh7Oi2tPDD">pic.twitter.com/kh7Oi2tPDD</a></p>&mdash; Oliver Davies (@opdavies) <a href="https://twitter.com/opdavies/status/1024377438611156992?ref_src=twsrc%5Etfw">July 31, 2018</a>',
+class: 'my-6',
+data_cards: true,
+content: '<p lang="en" dir="ltr">Pretty cool being back in the centre of Cardiff. <a href="https://t.co/kh7Oi2tPDD">pic.twitter.com/kh7Oi2tPDD</a></p>— Oliver Davies (@opdavies) <a href="https://twitter.com/opdavies/status/1024377438611156992?ref_src=twsrc%5Etfw">July 31, 2018</a>',
 } %}
 
 ## Speakers
@@ -31,9 +31,9 @@ which I've done a number of times at different events, and it was great to be
 able to chat for a while after the meetup too.
 
 {% include 'tweet' with {
-    class: 'my-6',
-    data_cards: true,
-    content: '<p lang="en" dir="ltr">Great to see ⁦<a href="https://twitter.com/akrabat?ref_src=twsrc%5Etfw">@akrabat</a>⁩ speaking about serverless PHP at the first ⁦<a href="https://twitter.com/phpSouthWales?ref_src=twsrc%5Etfw">@phpSouthWales</a>⁩ meetup. <a href="https://twitter.com/hashtag/php?src=hash&amp;ref_src=twsrc%5Etfw">#php</a> <a href="https://twitter.com/hashtag/phpc?src=hash&amp;ref_src=twsrc%5Etfw">#phpc</a> <a href="https://twitter.com/hashtag/cardiff?src=hash&amp;ref_src=twsrc%5Etfw">#cardiff</a> <a href="https://t.co/Q9YaQ6O1fB">pic.twitter.com/Q9YaQ6O1fB</a></p>&mdash; Oliver Davies (@opdavies) <a href="https://twitter.com/opdavies/status/1024359937063956484?ref_src=twsrc%5Etfw">July 31, 2018</a>',
+class: 'my-6',
+data_cards: true,
+content: '<p lang="en" dir="ltr">Great to see ⁦<a href="https://twitter.com/akrabat?ref_src=twsrc%5Etfw">@akrabat</a>⁩ speaking about serverless PHP at the first ⁦<a href="https://twitter.com/phpSouthWales?ref_src=twsrc%5Etfw">@phpSouthWales</a>⁩ meetup. <a href="https://twitter.com/hashtag/php?src=hash&amp;ref_src=twsrc%5Etfw">#php</a> <a href="https://twitter.com/hashtag/phpc?src=hash&amp;ref_src=twsrc%5Etfw">#phpc</a> <a href="https://twitter.com/hashtag/cardiff?src=hash&amp;ref_src=twsrc%5Etfw">#cardiff</a> <a href="https://t.co/Q9YaQ6O1fB">pic.twitter.com/Q9YaQ6O1fB</a></p>— Oliver Davies (@opdavies) <a href="https://twitter.com/opdavies/status/1024359937063956484?ref_src=twsrc%5Etfw">July 31, 2018</a>',
 } %}
 
 We also had a couple of lightning talks, starting with [Ismael Velasco][3]
@@ -46,9 +46,9 @@ being able to show some examples of new sites using Tailwind such as [Laravel
 Nova][5], [Spatie][6]'s new website and PHP South Wales itself!
 
 {% include 'tweet' with {
-    class: 'my-6',
-    data_cards: true,
-    content: '<p lang="en" dir="ltr">Lightning talk time, first <a href="https://twitter.com/IsmaelVelasco?ref_src=twsrc%5Etfw">@IsmaelVelasco</a> talking about <a href="https://twitter.com/hashtag/PWA?src=hash&amp;ref_src=twsrc%5Etfw">#PWA</a> 😎🎉 <a href="https://t.co/KrJGZlIp7V">pic.twitter.com/KrJGZlIp7V</a></p>&mdash; PHP South Wales (@phpSouthWales) <a href="https://twitter.com/phpSouthWales/status/1024377906456420352?ref_src=twsrc%5Etfw">July 31, 2018</a>',
+class: 'my-6',
+data_cards: true,
+content: '<p lang="en" dir="ltr">Lightning talk time, first <a href="https://twitter.com/IsmaelVelasco?ref_src=twsrc%5Etfw">@IsmaelVelasco</a> talking about <a href="https://twitter.com/hashtag/PWA?src=hash&amp;ref_src=twsrc%5Etfw">#PWA</a> 😎🎉 <a href="https://t.co/KrJGZlIp7V">pic.twitter.com/KrJGZlIp7V</a></p>— PHP South Wales (@phpSouthWales) <a href="https://twitter.com/phpSouthWales/status/1024377906456420352?ref_src=twsrc%5Etfw">July 31, 2018</a>',
 } %}
 
 ## Conclusion

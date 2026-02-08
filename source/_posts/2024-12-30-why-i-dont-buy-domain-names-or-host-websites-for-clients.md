@@ -4,8 +4,8 @@ permalink: daily/2024/12/30/domain-names
 tags:
   - software-development
   - hosting
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you purchase domain names and manage hosting for clients? I don't and here's why.
 ---
 

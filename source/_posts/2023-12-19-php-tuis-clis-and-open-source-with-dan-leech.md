@@ -18,5 +18,5 @@ I use one of Dan's other open-source projects - Phpactor - within Neovim, and he
 
 [Listen to the episode now][episode], and I'll be back with more in the New Year.
 
-[episode]: {{site.url}}/podcast/6-dan-leech-php-tui
-[podcast]: {{site.url}}/podcast
+[episode]: %7B%7Bsite.url%7D%7D/podcast/6-dan-leech-php-tui
+[podcast]: %7B%7Bsite.url%7D%7D/podcast

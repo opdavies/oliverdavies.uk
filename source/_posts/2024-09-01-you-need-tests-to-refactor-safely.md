@@ -28,4 +28,4 @@ If they pass, the code still works and the refactoring was successful.
 
 If not, the code is broken and you need to revert the changes and start again.
 
-[0]: {{site.url}}/daily/2024/08/31/make-it-work-then-make-it-good
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/08/31/make-it-work-then-make-it-good

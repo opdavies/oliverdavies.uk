@@ -3,8 +3,8 @@ title: Why write software for this?
 permalink: daily/2024/03/07/why-write-software-for-this
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   What questions do you ask when speaking to prospective clients?
 ---
 

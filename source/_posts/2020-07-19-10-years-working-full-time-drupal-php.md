@@ -2,9 +2,9 @@
 title: 10 years working full time with Drupal and PHP
 excerpt: 10 years ago today, I started working for Horse & Country TV in what was my full-time Drupal development role.
 tags:
-    - drupal
-    - personal
-    - php
+  - drupal
+  - personal
+  - php
 ---
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">10 years ago today, I started my first full-time Web Developer job, working for <a href="https://twitter.com/HorseAndCountry?ref_src=twsrc%5Etfw">@HorseAndCountry</a> on their (at the time) <a href="https://twitter.com/hashtag/Drupal?src=hash&amp;ref_src=twsrc%5Etfw">#Drupal</a> 6 website.</p>&mdash; Oliver Davies (@opdavies) <a href="https://twitter.com/opdavies/status/1284744784037335040?ref_src=twsrc%5Etfw">July 19, 2020</a></blockquote>

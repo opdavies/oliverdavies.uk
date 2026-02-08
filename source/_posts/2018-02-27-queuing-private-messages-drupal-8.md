@@ -2,11 +2,11 @@
 title: Queuing Private Messages in Drupal 8
 excerpt: Introducing the Private Message Queue module for Drupal 8.
 tags:
-    - drupal
-    - drupal-8
-    - drupal-modules
-    - drupal-planet
-    - open-source
+  - drupal
+  - drupal-8
+  - drupal-modules
+  - drupal-planet
+  - open-source
 ---
 
 My current project at [Microserve][0] is a Drupal 8 website that uses the
@@ -76,7 +76,7 @@ $ drush queue-run private_message_queue
 Processed 19 items from the private_message_queue queue in 3.34 sec.
 ```
 
-[0]: {{site.companies.microserve.url}}
+[0]: %7B%7Bsite.companies.microserve.url%7D%7D
 [1]: https://www.drupal.org/project/private_message
 [2]: https://www.drupal.org/project/private_message_queue
 [3]: https://www.drupal.org/project/ultimate_cron

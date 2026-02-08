@@ -7,8 +7,8 @@ tags:
   - php
   - automated-testing
   - test-driven-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Getting the first automated test working is the hardest part.
 ---
 

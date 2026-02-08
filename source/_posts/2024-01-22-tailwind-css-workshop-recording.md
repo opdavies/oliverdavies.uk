@@ -19,13 +19,14 @@ It's one of my most popular talks and, during COVID lockdowns, I also gave a wor
 
 If this helps anyone on their Tailwind CSS learning journey, please reply and let me know!
 
-[recording]: https://www.youtube.com/watch?v=phFDKF-9j0Y
-[talk]: {{site.url}}/presentations/taking-flight-with-tailwind-css
 {% endblock %}
 
 {% block cta %}
 P.S. If you'd like your own workshop on Tailwind CSS, Drupal, automated testing or something else, I offer private talks and workshops and [team coaching][coaching] or, if you need something more hands-on, monthly [Drupal development subscriptions][subscription].
 
-[coaching]: {{site.url}}/team-coaching
-[subscription]: {{site.url}}/subscription
 {% endblock %}
+
+[coaching]: %7B%7Bsite.url%7D%7D/team-coaching
+[recording]: https://www.youtube.com/watch?v=phFDKF-9j0Y
+[subscription]: %7B%7Bsite.url%7D%7D/subscription
+[talk]: %7B%7Bsite.url%7D%7D/presentations/taking-flight-with-tailwind-css

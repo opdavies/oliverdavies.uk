@@ -4,30 +4,29 @@ episode_number: 7
 guests:
   - Mike Karthauser
 links:
-  - - Huboo
-    - https://huboo.com
-  - - PHPUnit
-    - https://phpunit.de
-  - - Laravel
-    - https://laravel.com
-  - - Expression Engine
-    - https://expressionengine.com
-  - - PHPBench
-    - https://phpbench.com
-  - - Working in small batches
-    - http://www.startuplessonslearned.com/2009/02/work-in-small-batches.html
-  - - Cyclomatic complexity
-    - https://en.wikipedia.org/wiki/Cyclomatic_complexity
-  - - Shopify
-    - https://www.shopify.com
-  - - Drupal Commerce
-     - https://drupalcommerce.org
-  - - PHP South West
-    - https://phpsw.uk
-  - - Automica labs
-    - https://automica.io
-  - - Mike on LinkedIn
-    - https://www.linkedin.com/in/mikekarthauser
+  -   - Huboo
+      - https://huboo.com
+  -   - PHPUnit
+      - https://phpunit.de
+  -   - Laravel
+      - https://laravel.com
+  -   - Expression Engine
+      - https://expressionengine.com
+  -   - PHPBench
+      - https://phpbench.com
+  -   - Working in small batches
+      - http://www.startuplessonslearned.com/2009/02/work-in-small-batches.html
+  -   - Cyclomatic complexity
+      - https://en.wikipedia.org/wiki/Cyclomatic_complexity
+  -   - Shopify
+      - https://www.shopify.com
+  -   - Drupal Commerce - https://drupalcommerce.org
+  -   - PHP South West
+      - https://phpsw.uk
+  -   - Automica labs
+      - https://automica.io
+  -   - Mike on LinkedIn
+      - https://www.linkedin.com/in/mikekarthauser
 embed_url: https://files.oliverdavies.uk/bb/episodes/07-testing-legacy.mp3
 file_size: 24294452
 duration: 0:53:23

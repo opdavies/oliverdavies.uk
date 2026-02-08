@@ -7,8 +7,8 @@ tags:
   - docker
   - nix
   - nixos
-cta: ~
-snippet: |
+cta:
+snippet: |-
   My homelab laptop is running a combination of native NixOS services and some running with Docker and Docker Compose.
 ---
 
@@ -31,4 +31,4 @@ This made it easy to take a Docker Compose file and convert it to a Docker or Po
 My preference is to use NixOS services if they exist, but it's great to be able to do this as an alternative when needed.
 
 [0]: https://github.com/opdavies/dotfiles/blob/8cdc6a511dab5a31b1bc0a90bcdcf361043498e7/nix/modules/nixos/features/homelab/tubearchivist-container.nix
-[1]: {{site.url}}/daily/2024/12/09/drupal-devenv
+[1]: %7B%7Bsite.url%7D%7D/daily/2024/12/09/drupal-devenv

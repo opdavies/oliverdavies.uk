@@ -4,8 +4,8 @@ permalink: daily/2024/05/26/is-it-time-to-stop-writing-sass
 tags:
   - software-development
   - css
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Is it time to stop writing stylesheets is Sass?
 ---
 
@@ -19,4 +19,4 @@ Using regular CSS also makes it easier to onboard new Developers onto your proje
 
 [custom properties]: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 [nesting]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting
-[podcast]: {{site.url}}/podcast/11-mark-conroy
+[podcast]: %7B%7Bsite.url%7D%7D/podcast/11-mark-conroy

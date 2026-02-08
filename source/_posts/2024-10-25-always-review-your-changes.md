@@ -4,8 +4,8 @@ permalink: daily/2024/10/25/always-review-your-changes
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Always review your staged changes before committing.
 ---
 
@@ -25,4 +25,4 @@ I also use `git diff` and `git diff --staged` to review changes as well as `git 
 
 By doing this, I know my commits will be in the best state for others to review now or for me to review if I need to in the future.
 
-[0]: {{site.url}}/daily/2024/10/24/git-stash-is-underrated
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/10/24/git-stash-is-underrated

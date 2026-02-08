@@ -3,8 +3,8 @@ title: Computers don't care
 permalink: daily/2024/08/06/computers-dont-care
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Computers don't care how your code is written.
 ---
 

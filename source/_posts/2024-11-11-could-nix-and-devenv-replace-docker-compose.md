@@ -7,8 +7,8 @@ tags:
   - php
   - nix
   - linux
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Could Nix and devenv replace Docker and Docker Compose for me in my Drupal projects?
 ---
 

@@ -47,12 +47,13 @@ I still need to edit the files to remove the `uuid` and `_core` values, but this
 
 I used this approach when [writing my SaaS code yesterday][yesterday] and it worked well.
 
-[atdc]: {{site.url}}/atdc
-[yesterday]: {{site.url}}/daily/2024/02/16/keep-logic-within-tests-for-as-long-as-you-can
 {% endblock %}
 
 {% block cta %}
 P.S. Do you need immediate access to an expert Drupal Developer? [With my Drupal development subscription][subscription], make unlimited requests for a fixed monthly price in less time than posting to a job board!
 
-[subscription]: {{site.url}}/subscription
 {% endblock %}
+
+[atdc]: %7B%7Bsite.url%7D%7D/atdc
+[subscription]: %7B%7Bsite.url%7D%7D/subscription
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/02/16/keep-logic-within-tests-for-as-long-as-you-can

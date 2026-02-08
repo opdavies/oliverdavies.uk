@@ -4,8 +4,8 @@ permalink: daily/2024/04/16/regularly-releasing-open-source-software
 tags:
   - software-development
   - open-source
-cta: ~
-snippet: |
+cta:
+snippet: |-
   As with client applications, I recommend releasing new versions of open-source software as often as possible.
 ---
 

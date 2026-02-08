@@ -4,20 +4,20 @@ episode_number: 2
 guests:
   - Panagiotis Moutsopoulos
 links:
-  - - DrupalCon Lille
-    - https://events.drupal.org/lille2023
-  - - Panagiotis' BoF session
-    - https://events.drupal.org/lille2023/session/drupals-alternate-realities
-  - - Panagiotis on Drupal.org (vensires)
-    - https://www.drupal.org/u/vensires
-  - - E-Sepia
-    - https://www.e-sepia.gr
-  - - Panagiotis on LinkedIn
-    - https://www.linkedin.com/in/panagiotis-moutsopoulos/
-  - - https://drupal.org.gr
-    - https://drupal.org.gr
-  - - Frontend United
-    - https://www.frontendunited.com
+  -   - DrupalCon Lille
+      - https://events.drupal.org/lille2023
+  -   - Panagiotis' BoF session
+      - https://events.drupal.org/lille2023/session/drupals-alternate-realities
+  -   - Panagiotis on Drupal.org (vensires)
+      - https://www.drupal.org/u/vensires
+  -   - E-Sepia
+      - https://www.e-sepia.gr
+  -   - Panagiotis on LinkedIn
+      - https://www.linkedin.com/in/panagiotis-moutsopoulos/
+  -   - https://drupal.org.gr
+      - https://drupal.org.gr
+  -   - Frontend United
+      - https://www.frontendunited.com
 embed_url: https://files.oliverdavies.uk/bb/episodes/02-alternate-realities.mp3
 file_size: 19346455
 duration: 0:43:51

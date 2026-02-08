@@ -7,7 +7,7 @@ tags:
   - drupal-commerce
   - php
 cta: subscription
-snippet: |
+snippet: |-
   Drupal Commerce can do so much more than just selling t-shirts, hats and furniture.
 ---
 
@@ -33,4 +33,4 @@ This website also included a loyalty scheme for event organisers and attendees, 
 
 Drupal Commerce can do a lot and isn't just selling t-shirts, hats, books or furniture.
 
-[podcast]: {{site.url}}/podcast/13-ryan-szrama-centarro
+[podcast]: %7B%7Bsite.url%7D%7D/podcast/13-ryan-szrama-centarro

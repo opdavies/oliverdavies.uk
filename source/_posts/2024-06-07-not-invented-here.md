@@ -5,7 +5,7 @@ tags:
   - software-development
   - drupal
 cta: d7eol
-snippet: |
+snippet: |-
   Drupal used to suffer from a case of "not invented here".
 ---
 

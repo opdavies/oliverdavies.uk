@@ -3,15 +3,15 @@ title: Getting (Your Data) Into Drupal 8
 description: An overview of Drupal's Migrate functionality, and a look at how to write your own migrations.
 speakerdeck:
   id: 63e5dfce996e46699e304d50e896477b
-  ratio: "1.77777777777778"
-  url: "https://speakerdeck.com/opdavies/getting-your-data-into-drupal-8-drupal_bristol"
+  ratio: '1.77777777777778'
+  url: https://speakerdeck.com/opdavies/getting-your-data-into-drupal-8-drupal_bristol
 video:
   type: youtube
   id: jtmARTuYhp8
 meta:
   og:
     image:
-      url: '/assets/images/talks/getting-your-data-into-drupal-8.png'
+      url: /assets/images/talks/getting-your-data-into-drupal-8.png
       width: 2560
       height: 1440
       type: image/png
@@ -22,7 +22,7 @@ events:
     url: https://www.drupalbristol.org.uk
   - name: DrupalCamp London 2017
     date: 2017-03-04
-    time: "12:05 - 12:50"
+    time: 12:05 - 12:50
     location: London, UK
 ---
 

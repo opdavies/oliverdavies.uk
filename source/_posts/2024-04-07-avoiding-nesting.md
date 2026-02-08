@@ -4,10 +4,11 @@ permalink: daily/2024/04/07/avoiding-nesting
 tags:
   - software-development
   - clean-code
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How many levels of nesting do you have in your code? It's something I try to keep to a minimum.
 ---
+
 One of my goals when coding is to reduce the amount of nesting in the code I write.
 
 I mean both in my PHP code where if conditions and foreach loops can be nested within each other, and CSS and Sass files, which support nesting CSS rules.

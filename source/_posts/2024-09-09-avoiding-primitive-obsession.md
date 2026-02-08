@@ -6,7 +6,7 @@ tags:
   - php
   - clean-code
   - drupal
-cta: ~
+cta:
 snippet: |
   Avoiding primitive obsession with value objects.
 drupal_planet: true

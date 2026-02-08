@@ -4,8 +4,8 @@ permalink: daily/2025/02/13/readonly
 tags:
   - software-development
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Did you know you can make classes and properties read-only since PHP 8.1?
 ---
 
@@ -31,7 +31,7 @@ class MyDto {
 
 I don't need to make the properties private or protected and write getter methods for them.
 
-I can make them public,  knowing the values can't be changed.
+I can make them public, knowing the values can't be changed.
 
 ## readonly classes
 
@@ -57,4 +57,4 @@ This is a great example of how the PHP language continues to evolve and improve,
 
 If you want a way to easily add `readonly` to properties or classes, [take a look at Rector][0] which can automate it for you.
 
-[0]: {{site.url}}/daily/2025/01/31/rector
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/01/31/rector

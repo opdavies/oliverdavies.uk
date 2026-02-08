@@ -3,10 +3,10 @@ title: Having Fun with Drupal 8, PHP libraries and the Drupal.org API
 description: A crash course in developing PHP packages and Drupal 8 modules, based on the Drupal.org API.
 speakerdeck:
   id: 6e42ae9620bb4e91b3955f8c30d66934
-  ratio: "1.77777777777778"
+  ratio: '1.77777777777778'
   url: https://speakerdeck.com/opdavies/having-fun-with-drupal-8-php-libraries-and-the-drupal-dot-org-api
 image:
-  url: '/assets/images/talks/having-fun-drupalorg-api.png'
+  url: /assets/images/talks/having-fun-drupalorg-api.png
   width: 2000
   height: 1125
   type: image/png
@@ -21,9 +21,9 @@ events:
     joindin: https://joind.in/talk/14851
   - name: DrupalCamp London 2019
     location: London, UK
-    url: ~
+    url:
     date: 2019-03-03
-    time: "12:05 - 12:50"
+    time: 12:05 - 12:50
 ---
 
 {% block abstract %}
@@ -47,11 +47,11 @@ This session will cover various topics including:
 - Example module: [Drupalversary][6]
 - Talk: [Using Laravel Collections outside Laravel][7]
 
-[0]: https://www.drupalbristol.org.uk
+{% endblock %}
+
 [2]: https://github.com/opdavies/drupalorg-api-php
 [3]: https://www.drupal.org/drupalorg/docs/api
 [4]: https://laravel.com/docs/collections
 [5]: https://github.com/opdavies/drupal-module-drupalorg-project-statistics
 [6]: https://github.com/opdavies/drupal-module-drupalversary
 [7]: /presentations/using-laravel-collections-outside-laravel/
-{% endblock %}

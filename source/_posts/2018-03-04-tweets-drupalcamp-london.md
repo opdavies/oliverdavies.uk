@@ -2,9 +2,9 @@
 title: Tweets from DrupalCamp London
 excerpt: I wasn't able to make it to DrupalCamp London, but here are some of the tweets that I saw.
 tags:
-    - drupal
-    - drupalcamp
-    - drupalcamp-london
+  - drupal
+  - drupalcamp
+  - drupalcamp-london
 has_tweets: true
 ---
 

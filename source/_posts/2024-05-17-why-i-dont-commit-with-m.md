@@ -4,8 +4,8 @@ permalink: daily/2024/05/17/why-i-dont-commit-with--m
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Why I don't use `git commit -m` when committing changes.
 ---
 

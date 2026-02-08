@@ -7,7 +7,7 @@ tags:
   - php
   - feature-flags
   - css
-cta: ~
+cta:
 snippet: |
   How I combined a feature flag and a data attribute to release some new CSS styles to a project.
 drupal_planet: true

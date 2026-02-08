@@ -4,8 +4,8 @@ permalink: daily/2024/05/10/optimise-for-revertability
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   If you needed to revert a commit in a codebase, could you do so easily?
 ---
 

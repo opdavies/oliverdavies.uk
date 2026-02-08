@@ -6,8 +6,8 @@ tags:
   - php
   - phpstan
   - static-analysis
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Using new PHPDoc types and better static analysis with PHPStan.
 ---
 

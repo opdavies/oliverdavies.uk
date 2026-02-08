@@ -7,7 +7,6 @@ tags:
   - changelog
 ---
 
-
 ## What is a Changelog?
 
 A Changelog is a file that documents changes made to a codebase.
@@ -17,7 +16,6 @@ In its simplest form, it's a plain text file within a code repository, or it can
 It's not a copy of the Git log. It's a summary of the changes to be read by humans and for them to see what's changed, not a list of Git commits.
 
 If you're considering using my open-source package, you can see what changes I've released, when, and what changes are due to release.
-
 
 ## How is it structured?
 

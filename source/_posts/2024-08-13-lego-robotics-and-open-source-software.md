@@ -5,8 +5,8 @@ tags:
   - software-development
   - open-source
   - podcast
-cta: ~
-snippet: |
+cta:
+snippet: |-
   LEGO, robotics and open- source software.
 ---
 
@@ -16,4 +16,4 @@ In the most recent episode of Beyond Blocks, I discuss LEGO, robotics, teaching 
 
 Next week, Sam Mortenson and I discuss single file components in Drupal.
 
-[0]: {{site.url}}/podcast/18-andy-hoang
+[0]: %7B%7Bsite.url%7D%7D/podcast/18-andy-hoang

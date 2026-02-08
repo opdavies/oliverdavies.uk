@@ -3,10 +3,10 @@ title: Building "Build Configs"
 description: In this lightning talk, I discuss the "Build Configs" tool I've built to create configuration files.
 speakerdeck:
   id: e1403f0dfd8245e5a71df9761dc6bc7b
-  ratio: "1.78343949044586"
+  ratio: '1.78343949044586'
   url: https://speakerdeck.com/opdavies/building-build-configs
-video: ~
-image: ~
+video:
+image:
 events:
   - name: PHP South West (PHPSW)
     location: Bristol, UK

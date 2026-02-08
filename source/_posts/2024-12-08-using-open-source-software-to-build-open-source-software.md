@@ -6,8 +6,8 @@ tags:
   - open-source
   - php
   - drupal
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I use open source software to build open source software.
 ---
 
@@ -29,7 +29,7 @@ I also use OBS, Kdenlive and GIMP to record and edit my content, which are all a
 
 I run an open source business, using open source tools and projects and contribute to and [maintain my own open source software projects][3].
 
-[0]: {{site.url}}/daily/2024/12/07/open-source
-[1]: {{site.url}}/daily/2024/09/08/my-laptop-died
-[2]: {{site.url}}/daily/2024/11/30/using-nix-for-local-application-development
-[3]: {{site.url}}/daily/2024/03/09/override-node-options-40624-drupal-websites
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/12/07/open-source
+[1]: %7B%7Bsite.url%7D%7D/daily/2024/09/08/my-laptop-died
+[2]: %7B%7Bsite.url%7D%7D/daily/2024/11/30/using-nix-for-local-application-development
+[3]: %7B%7Bsite.url%7D%7D/daily/2024/03/09/override-node-options-40624-drupal-websites

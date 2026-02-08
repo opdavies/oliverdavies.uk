@@ -4,16 +4,16 @@ episode_number: 30
 guests:
   - Ev Maslovskiy
 links:
-  - - Ev on Drupal.org
-    - https://www.drupal.org/u/spleshka
-  - - SystemSeed
-    - https://systemseed.com
-  - - SystemSeed on Drupal.org
-    - https://www.drupal.org/systemseed
-  - - DrupalCamp England
-    - https://www.drupalcampengland.org
-  - - Video recording of Ev's talk
-    - https://www.youtube.com/watch?v=Q_9fWVCAUtU
+  -   - Ev on Drupal.org
+      - https://www.drupal.org/u/spleshka
+  -   - SystemSeed
+      - https://systemseed.com
+  -   - SystemSeed on Drupal.org
+      - https://www.drupal.org/systemseed
+  -   - DrupalCamp England
+      - https://www.drupalcampengland.org
+  -   - Video recording of Ev's talk
+      - https://www.youtube.com/watch?v=Q_9fWVCAUtU
 embed_url: https://files.oliverdavies.uk/bb/episodes/30-engineering-culture.mp3
 file_size: 30861164
 duration: 01:08:43

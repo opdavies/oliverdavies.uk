@@ -3,8 +3,8 @@ title: Recording architectural decisions
 permalink: daily/2024/06/12/recording-architectural-decisions
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you record architectural and technological decisions made on your projects?
 ---
 

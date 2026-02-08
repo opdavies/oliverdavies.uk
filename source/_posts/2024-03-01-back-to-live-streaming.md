@@ -7,7 +7,7 @@ tags:
   - symfony
   - php
 cta: subscription
-snippet: |
+snippet: |-
   This week, I did my first coding live stream in around two years - working on my Symfony-based Build Configs tool.
 ---
 
@@ -24,6 +24,6 @@ You can [watch the full stream][video] on YouTube now. I'll split it into sectio
 
 I won't post a link to every video here, so please subscribe to my YouTube channel to be notified when I go live next.
 
-[build configs]: {{site.url}}/build-configs
-[talk]: {{site.url}}/presentations/building-build-configs
+[build configs]: %7B%7Bsite.url%7D%7D/build-configs
+[talk]: %7B%7Bsite.url%7D%7D/presentations/building-build-configs
 [video]: https://www.youtube.com/watch?v=Wlkcf1PLWN8

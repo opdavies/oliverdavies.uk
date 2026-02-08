@@ -5,8 +5,8 @@ tags:
   - software-development
   - css
   - tailwind-css
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I don't often use them, but arbitrary classes in Tailwind can be powerful.
 ---
 
@@ -20,7 +20,7 @@ Today, I needed to fix an issue with the first and last "paths" as they were str
 
 This is the class I added to fix the problem:
 
-> mr-[calc(50%_-_calc(var(--path-width)_/_2))]
+> mr-\[calc(50%\_-_calc(var(--path-width)_/\_2))\]
 
 It adds an arbitrary amount of right margin, which is 50% of the container minus half of the path width, which is the `--path-width` variable.
 
@@ -28,5 +28,5 @@ This class uses the `calc` function as well as `var` to determine the correct ma
 
 And, as this is a value that's only used in this component, there's no benefit to writing this in a stylesheet - making an arbitrary value was a good option.
 
-[0]: {{site.url}}/daily/2023/01/02/dont-use-arbitrary-values-in-tailwind-css
+[0]: %7B%7Bsite.url%7D%7D/daily/2023/01/02/dont-use-arbitrary-values-in-tailwind-css
 [1]: https://x.com/opdavies/status/1755332703308652730

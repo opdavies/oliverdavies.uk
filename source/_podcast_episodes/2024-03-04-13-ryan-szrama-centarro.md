@@ -4,12 +4,12 @@ episode_number: 13
 guests:
   - Ryan Szrama
 links:
-  - - Centarro
-    - https://www.centarro.io
-  - - Ryan on Twitter
-    - https://twitter.com/ryanszrama
-  - - Ryan on Drupal Answers
-    - https://drupal.stackexchange.com/users/866/ryan-szrama
+  -   - Centarro
+      - https://www.centarro.io
+  -   - Ryan on Twitter
+      - https://twitter.com/ryanszrama
+  -   - Ryan on Drupal Answers
+      - https://drupal.stackexchange.com/users/866/ryan-szrama
 talking_points:
   - eCommerce, Ubercart and Drupal Commerce.
   - How Commerce Guys started.

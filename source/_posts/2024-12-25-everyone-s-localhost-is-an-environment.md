@@ -3,11 +3,10 @@ title: Everyone's localhost is an environment
 permalink: daily/2024/12/25/localhost
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you consider local development sites as pre-production environments? They need to be updated, too!
 ---
-
 
 A few days ago, I asked [how many pre-production environments][0] you have for your software application.
 
@@ -23,5 +22,5 @@ They also [need to be easily updatable][1] and consistent with the other environ
 
 When was the last time you or your Developers updated your local environment?
 
-[0]: {{site.url}}/daily/2024/12/23/how-many-environments-do-you-need
-[1]: {{site.url}}/daily/2024/12/24/moving-changes
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/12/23/how-many-environments-do-you-need
+[1]: %7B%7Bsite.url%7D%7D/daily/2024/12/24/moving-changes

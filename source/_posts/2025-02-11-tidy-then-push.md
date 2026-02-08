@@ -3,8 +3,8 @@ title: Tidy then push
 permalink: daily/2025/02/11/tidy
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   If you can, tidy your commits before pushing them for review.
 ---
 
@@ -20,4 +20,4 @@ Whilst there is an option to squash all the commits when merging, I don't like i
 
 This means the commits are easier to review and you can keep the original commit history and all the context within the messages instead of a generic `Merge commit..` message.
 
-[0]: {{site.url}}/daily/2025/02/10/refactoring
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/02/10/refactoring

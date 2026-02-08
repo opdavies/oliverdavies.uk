@@ -38,11 +38,12 @@ This is why I've been [experimenting with architectural testing][yesterday]. To 
 
 Then, if I had the same situation again, I'd know straight away that there was an issue and not have to wait for the bug to be deployed to production.
 
-[yesterday]: {{site.url}}/daily/2024/02/08/experimenting-with-architectural-testing
 {% endblock %}
 
 {% block cta %}
 P.S. Do you need immediate access to an expert Drupal Developer? [With my Drupal development subscription][subscription], make unlimited requests for a fixed monthly price in less time than posting to a job board!
 
-[subscription]: {{site.url}}/subscription
 {% endblock %}
+
+[subscription]: %7B%7Bsite.url%7D%7D/subscription
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/02/08/experimenting-with-architectural-testing

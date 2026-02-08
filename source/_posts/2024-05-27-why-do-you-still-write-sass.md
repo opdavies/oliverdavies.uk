@@ -4,8 +4,8 @@ permalink: daily/2024/05/27/why-do-you-still-write-sass
 tags:
   - software-development
   - css
-cta: ~
-snippet: |
+cta:
+snippet: |-
   If you still write Sass, why do you do it?
 ---
 
@@ -17,4 +17,4 @@ Reply to this email and let me know.
 
 I'm working on a project and migrating from the existing Sass styles to Tailwind CSS-generated utility classes, but with CSS custom properties (variables) and other Sass-like features now supported by browsers, writing vanilla CSS again is an interesting option.
 
-[0]: {{site.url}}/daily/2024/05/26/is-it-time-to-stop-writing-sass
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/05/26/is-it-time-to-stop-writing-sass

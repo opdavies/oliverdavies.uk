@@ -20,5 +20,5 @@ Version control systems have a log of each change, so if you need to see previou
 You can also see any other files that were changed in the same commit, and usually, there will be a reference to the issue or ticket that required that change.
 
 If you need to re-add a change that had been removed, you can either do this manually or by reverting the commit.
- 
+
 Should there be commented-out code within a codebase if it's version controlled? I'd say no unless there's a good reason for it to be there and it's providing some additional context or for a specific purpose. If it's an outdated implementation, some old debugging code, or a component that's no longer needed, I think that it should be removed, and people can use version control tools to find or re-introduce those changes if needed.

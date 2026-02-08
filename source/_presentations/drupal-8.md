@@ -1,11 +1,10 @@
 ---
 title: Drupal 8
-description:
-  A lightning talk presented to the PHPSW user group, highlighting some of the relevant changes in Drupal 8.
+description: A lightning talk presented to the PHPSW user group, highlighting some of the relevant changes in Drupal 8.
 speakerdeck:
   url: https://speakerdeck.com/opdavies/drupal-8
   id: 46ba4ba577d94a32b7abdade610ceb69
-  ratio: "1.29456384323641"
+  ratio: '1.29456384323641'
 video:
   type: youtube
   id: 36zCxPrOOzM

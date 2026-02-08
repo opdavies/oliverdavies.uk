@@ -2,8 +2,8 @@
 title: Don't Bootstrap Drupal, Use Drush
 excerpt: Avoid bootstrapping Drupal manually in your scratch files - Drush has you covered!
 tags:
-    - drush
-    - php
+  - drush
+  - php
 drupal_planet: true
 ---
 
@@ -60,7 +60,7 @@ $ drush scr ../scripts/foo
 ```
 
 Or, if you're using
-[Drush aliases](http://deeson-online.co.uk/labs/drupal-drush-aliases-and-how-use-them 'Drupal, Drush aliases, and how to use them'):
+[Drush aliases](http://deeson-online.co.uk/labs/drupal-drush-aliases-and-how-use-them "Drupal, Drush aliases, and how to use them"):
 
 ```bash
 $ drush @mysite.local scr foo
@@ -69,4 +69,4 @@ $ drush @mysite.local scr foo
 If you commonly use the same scripts for different projects, you could also
 store these within a separate Git repository and checkout the scripts directory
 using a
-[Git submodule](http://git-scm.com/book/en/Git-Tools-Submodules 'Git Submodules').
+[Git submodule](http://git-scm.com/book/en/Git-Tools-Submodules "Git Submodules").

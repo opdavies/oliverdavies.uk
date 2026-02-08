@@ -1,13 +1,11 @@
 ---
 title: Creating and using custom tokens in Drupal 7
-excerpt:
-    This post outlines the steps required to create your own custom tokens in
-    Drupal.
+excerpt: This post outlines the steps required to create your own custom tokens in Drupal.
 tags:
-    - drupal
-    - drupal-7
-    - drupal-planet
-    - tokens
+  - drupal
+  - drupal-7
+  - drupal-planet
+  - tokens
 ---
 
 This post outlines the steps required to create your own custom tokens in

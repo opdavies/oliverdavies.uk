@@ -6,8 +6,8 @@ tags:
   - drupal
   - php
   - open-source
-cta: ~
-snippet: |
+cta:
+snippet: |-
   If you want people to use your open-source software, make it easy to use and update.
 ---
 

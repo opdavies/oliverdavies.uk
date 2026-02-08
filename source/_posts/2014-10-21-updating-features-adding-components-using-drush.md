@@ -2,10 +2,10 @@
 title: Updating Features and Adding Components Using Drush
 excerpt: How to update features on the command line using Drush.
 tags:
-    - drupal
-    - drupal-planet
-    - drush
-    - features
+  - drupal
+  - drupal-planet
+  - drush
+  - features
 ---
 
 If you use the [Features module](http://drupal.org/project/features) to manage

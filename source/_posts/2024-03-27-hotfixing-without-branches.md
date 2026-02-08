@@ -5,7 +5,7 @@ tags:
   - software-development
   - git
 cta: subscription
-snippet: |
+snippet: |-
   How do I deal with hotfixes if I don't branch?
 ---
 
@@ -26,7 +26,7 @@ After sending that email, I received this question from a reader (shared with pe
 
 ## Option 1: Worktrees
 
-Whilst I don't create branches, I do use [Git worktrees][], which allows me to have multiple versions of the code checked out at the same time - similar to having multiple clones of a repository.
+Whilst I don't create branches, I do use [Git worktrees], which allows me to have multiple versions of the code checked out at the same time - similar to having multiple clones of a repository.
 
 Having multiple worktrees, you don't need to stash the code for your incomplete feature or worry about commits you haven't pushed yet.
 
@@ -49,13 +49,14 @@ You can just turn the feature flag back off.
 
 I hope that helps!
 
-[git worktrees]: {{site.url}}/daily/2022/08/12/git-worktrees-docker-compose
-[feature flags]: {{site.url}}/daily/2022/12/07/separating-releases-from-deployments-with-feature-flags
-[post]: {{site.url}}/daily/2024/02/28/why-i-dont-branch
 {% endblock %}
 
 {% block cta %}
 P.S. If you want to learn how to use feature flags and continuous integration and delivery, register for team coaching and training as part of my [unlimited monthly Drupal consulting subscription][subscription].
 
-[subscription]: {{site.url}}/subscription
 {% endblock %}
+
+[feature flags]: %7B%7Bsite.url%7D%7D/daily/2022/12/07/separating-releases-from-deployments-with-feature-flags
+[git worktrees]: %7B%7Bsite.url%7D%7D/daily/2022/08/12/git-worktrees-docker-compose
+[post]: %7B%7Bsite.url%7D%7D/daily/2024/02/28/why-i-dont-branch
+[subscription]: %7B%7Bsite.url%7D%7D/subscription

@@ -4,8 +4,8 @@ permalink: daily/2024/06/29/countdown-to-drupal-11
 tags:
   - software-development
   - drupal
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Drupal 10.3 has been released, and Drupal 11 isn't far behind.
 ---
 
@@ -23,5 +23,5 @@ It also gives module and theme maintainers the opportunity to make their project
 
 I'm looking forward to upgrading my applications and projects to Drupal 11, and seeing what's to come in 11.1 and beyond.
 
-[0]: {{site.url}}/daily/2024/06/23/drupal-10-3-released
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/06/23/drupal-10-3-released
 [1]: https://www.drupal.org/about/core/policies/core-release-cycles/schedule#current

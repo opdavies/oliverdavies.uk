@@ -4,8 +4,8 @@ permalink: daily/2024/12/12/local-squashing
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   If you want to squash all the commits on your Git branch locally without rebasing, there is a way!
 ---
 
@@ -47,4 +47,4 @@ If you want to do that, you can still use the rebase approach.
 
 If not, use `git merge --squash`.
 
-[0]: {{site.url}}/daily/2022/09/20/why-like-trunk-based-development
+[0]: %7B%7Bsite.url%7D%7D/daily/2022/09/20/why-like-trunk-based-development

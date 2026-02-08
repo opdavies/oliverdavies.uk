@@ -2,16 +2,16 @@
 title: Going "Full Vim" for my development work
 excerpt: I've recently been using Neovim for all of my coding, as well as for my blog posts and slide decks.
 tags:
-    - vim
+  - vim
 ---
 
-For the past few months, I've gone "full Vim" ([Neovim][], to be exact) when writing any code - including anything for work or freelance projects, this blog post, and any presentation slide decks.
+For the past few months, I've gone "full Vim" ([Neovim], to be exact) when writing any code - including anything for work or freelance projects, this blog post, and any presentation slide decks.
 
 I've been a long-time casual Vim user, enabling Vi or Vim mode within other editors, including Sublime Text, PhpStorm, and VS Code, and using Vim to write Git commit messages or to edit single files before closing it again. I remember searching how to add Vim features like relative line numbers in other editors, and trying things that would work within Vim but not when using in a plugin or extension.
 
-I've seen people and companies like [Lorna Jane Mitchell][], Suz Hinton ([noopkat][]), and [Thoughtbot][] using Vim in their presentations and videos for a long time but I haven't tried to switch before myself.
+I've seen people and companies like [Lorna Jane Mitchell], Suz Hinton ([noopkat]), and [Thoughtbot] using Vim in their presentations and videos for a long time but I haven't tried to switch before myself.
 
-Inspired by them and others including [Robin Malfait][], [TheAltF4Stream][], [Codico][], [Michael Dyrynda][], [ThePrimeagen][] with their recent live streams, videos, podcasts, and courses, I decided to give it a try.
+Inspired by them and others including [Robin Malfait], [TheAltF4Stream], [Codico], [Michael Dyrynda], [ThePrimeagen] with their recent live streams, videos, podcasts, and courses, I decided to give it a try.
 
 ## Plugins
 

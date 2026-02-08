@@ -7,7 +7,7 @@ tags:
   - php
   - podcast
 cta: d7eol
-snippet: |
+snippet: |-
   Today, I started a design system with Symfony in a few hours, based on recent podcast episodes with Mark Conroy and Ryan Weaver.
 ---
 
@@ -24,6 +24,6 @@ Each component is a Twig component with its own PHP class and Twig template, whi
 
 You can [view the code on GitHub][repo], and it may be something I use and work on in the future.
 
-[mark]: {{site.url}}/podcast/11-mark-conroy
+[mark]: %7B%7Bsite.url%7D%7D/podcast/11-mark-conroy
 [repo]: https://github.com/opdavies/symfony-design-system
-[ryan]: {{site.url}}/podcast/10-ryan-weaver-symfonycasts
+[ryan]: %7B%7Bsite.url%7D%7D/podcast/10-ryan-weaver-symfonycasts

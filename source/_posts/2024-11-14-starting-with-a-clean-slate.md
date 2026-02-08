@@ -4,8 +4,8 @@ permalink: daily/2024/11/14/starting-with-a-clean-slate
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Whenever I need to start a new task, I always try to start with a clean slate.
 ---
 
@@ -25,6 +25,6 @@ If you have uncommitted changes that you want to hide for now but re-add later, 
 
 If you want your changes to be completely separate, maybe [git worktrees are for you][2].
 
-[0]: {{site.url}}/daily/2024/10/24/git-stash-is-underrated
-[1]: {{site.url}}/daily/2024/10/25/always-review-your-changes
-[2]: {{site.url}}/daily/2022/08/12/git-worktrees-docker-compose
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/10/24/git-stash-is-underrated
+[1]: %7B%7Bsite.url%7D%7D/daily/2024/10/25/always-review-your-changes
+[2]: %7B%7Bsite.url%7D%7D/daily/2022/08/12/git-worktrees-docker-compose

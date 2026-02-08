@@ -4,8 +4,8 @@ permalink: daily/2024/11/10/write-plain-text-files
 tags:
   - software-development
   - documentation
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I recently started writing all my notes in plain text files. Here's why.
 ---
 

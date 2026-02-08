@@ -4,8 +4,8 @@ permalink: daily/2025/04/20/config
 tags:
   - software-development
   - drupal
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Instead of manually creating the same content types, fields, blocks and configuration, use Drupal's configuration management system to automate the changes and re-apply them the same way every time.
 ---
 

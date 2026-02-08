@@ -19,4 +19,4 @@ In this episode, Niklas and I discussed his first experience of DrupalCon, prese
 
 [Listen to the episode now][episode].
 
-[episode]: {{site.url}}/podcast/3-non-technical-contribution
+[episode]: %7B%7Bsite.url%7D%7D/podcast/3-non-technical-contribution

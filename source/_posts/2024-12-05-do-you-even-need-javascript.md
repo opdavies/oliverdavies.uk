@@ -5,8 +5,8 @@ tags:
   - software-development
   - javascript
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Does your website even need JavaScript?
 ---
 

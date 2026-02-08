@@ -5,8 +5,8 @@ tags:
   - software-development
   - drupal
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   TODO
 ---
 
@@ -66,5 +66,5 @@ For local development, I have a `FakeApiClient` that returns a static response t
 
 The possibilities are endless.
 
-[0]: {{site.url}}/daily/2025/04/05/strategies
-[1]: {{site.url}}/daily/2022/12/08/the-decorator-design-pattern
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/04/05/strategies
+[1]: %7B%7Bsite.url%7D%7D/daily/2022/12/08/the-decorator-design-pattern

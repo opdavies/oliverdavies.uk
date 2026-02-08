@@ -7,8 +7,8 @@ tags:
   - drupalcamp
   - php
   - public-speaking
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I'm almost at 100 talks and presentations given!
 ---
 
@@ -22,6 +22,6 @@ This means that these will be my 99th and 100th presentations!
 
 I enjoy speaking at events such as meetups and conferences, and I hope people have learned from them as well.
 
-[tailwind css]: {{site.url}}/talks/taking-flight-with-tailwind-css
-[testing]: {{site.url}}/talks/tdd-test-driven-drupal
-[talks]: {{site.url}}/talks
+[tailwind css]: %7B%7Bsite.url%7D%7D/talks/taking-flight-with-tailwind-css
+[talks]: %7B%7Bsite.url%7D%7D/talks
+[testing]: %7B%7Bsite.url%7D%7D/talks/tdd-test-driven-drupal

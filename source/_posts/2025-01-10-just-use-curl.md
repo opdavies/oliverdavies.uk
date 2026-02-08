@@ -5,7 +5,7 @@ tags:
   - software-development
   - linux
 cta: sponsor
-snippet: |
+snippet: |-
   I don't use complicated or bloated applications to test HTTP requests and API endpoints. I just use curl.
 ---
 

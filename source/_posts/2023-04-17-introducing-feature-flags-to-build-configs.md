@@ -6,7 +6,7 @@ permalink: >-
 tags: []
 ---
 
-Yesterday, I wanted to make a breaking change to my [build-configs project]({{site.url}}/daily/2023/03/04/why-i-built-a-tool-to-generate-configuration-files) - changing the default database credentials that are used by Docker Compose.
+Yesterday, I wanted to make a breaking change to my [build-configs project](%7B%7Bsite.url%7D%7D/daily/2023/03/04/why-i-built-a-tool-to-generate-configuration-files) - changing the default database credentials that are used by Docker Compose.
 
 As I have several projects based on generated files by the tool, changing the values could cause issues in those projects in the future and this is something that I wanted to avoid.
 

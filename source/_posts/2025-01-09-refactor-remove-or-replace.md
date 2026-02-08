@@ -3,12 +3,12 @@ title: Refactor, remove or replace
 permalink: daily/2025/01/09/rrr
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   There are three things you can do with legacy code. Refactor it, remove it or replace it.
 ---
 
-There are three things you can do with legacy code. 
+There are three things you can do with legacy code.
 
 Refactor it, remove it or replace it.
 

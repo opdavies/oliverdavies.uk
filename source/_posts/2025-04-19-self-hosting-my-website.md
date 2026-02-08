@@ -6,8 +6,8 @@ tags:
   - self-hosting
   - linux
   - drupal
-cta: ~
-snippet: |
+cta:
+snippet: |-
   My website is no longer in the Cloud and has been moved onto my home server.
 ---
 
@@ -28,8 +28,8 @@ I'm migrating my email list archive and daily pages first and will later move my
 If you like, you can [see my NixOS configuration][3] that includes my laptop and homelab and [my Tome repository][4] and keep track as I migrate things across.
 
 [0]: https://code.oliverdavies.uk
-[1]: {{site.url}}/presentations/sculpin
-[2]: {{site.url}}/daily/2025/04/17/incrementally
+[1]: %7B%7Bsite.url%7D%7D/presentations/sculpin
+[2]: %7B%7Bsite.url%7D%7D/daily/2025/04/17/incrementally
 [3]: https://code.oliverdavies.uk/opdavies/nixos-configuraton
 [4]: https://code.oliverdavies.uk/opdavies/oliverdavies.uk-tome
-[5]: {{site.url}}/daily/2025/04/18/static-drupal
+[5]: %7B%7Bsite.url%7D%7D/daily/2025/04/18/static-drupal

@@ -4,7 +4,7 @@ permalink: daily/2024/10/01/not-all-legacy-code-is-technical-debt
 tags:
   - software-development
 cta: d7eol
-snippet: |
+snippet: |-
   Not all legacy code is technical debt.
 ---
 

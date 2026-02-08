@@ -5,8 +5,8 @@ tags:
   - software-development
   - podcast
   - sculpin
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I'm now self hosting the episodes of the Beyond Blocks podcast.
 ---
 
@@ -30,7 +30,7 @@ My website is built with Sculpin, so I was able to do this easily with Twig by a
 
 This is already live. You can see it on [any of the podcast episode pages][1].
 
-The other thing I'm using is the feed that publishes episodes to Spotify,  iTunes, etc.
+The other thing I'm using is the feed that publishes episodes to Spotify, iTunes, etc.
 
 But I have all the information and ability to create this myself.
 
@@ -46,5 +46,5 @@ I have some new guests lined up for 2025, which I'm looking forward to.
 
 If you want to be a guest on the podcast or want to make a suggestion for someone I should have on, reply to this email and let me know.
 
-[0]: {{site.url}}/podcast
-[1]: {{site.url}}/podcast/25-jess-archer-drush-laravel-prompts
+[0]: %7B%7Bsite.url%7D%7D/podcast
+[1]: %7B%7Bsite.url%7D%7D/podcast/25-jess-archer-drush-laravel-prompts

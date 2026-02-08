@@ -1,10 +1,10 @@
 ---
 title: Live Blogging From SymfonyLive London 2019
 tags:
-    - conference
-    - php
-    - symfony
-    - symfonylive
+  - conference
+  - php
+  - symfony
+  - symfonylive
 ---
 
 Inspired by [Matt Stauffer](https://twitter.com/stauffermatt)'s
@@ -102,15 +102,23 @@ Notifier
 ### How can we leverage this new infrastructure?
 
 - `Monolog NotifierHandler` - triggered on `Error` level logs
+
 - Uses notified channel configuration
+
 - Converts Error level logs to importance levels
+
 - Configurablelike other Notifications
+
 - 40 lines of code
+
 - Failed Messages Listener - 10 lines of glue code
 
 - **Experimental component in 5.0**
+
 - Can't in in 4.4 as it's a LTS version
+
 - First time an experimental component is added
+
 - Stable in 5.1
 
 ## Queues, busses and the Messenger component (Tobias Nyholm)
@@ -189,6 +197,7 @@ Notifier
 #### Creating entities
 
 - What if two users registered at the same tiem? Use uuids rather than IDs.
+
 - Symfony validation - can be used on messages, not just forms.
 
 - Cache everything
@@ -237,15 +246,21 @@ Notifier
 #### Some of the options
 
 - `timeout` - control inactivity periods
+
 - `proxy` - get through a http proxy
+
 - `on_progress` - display a progress bar / build a scoped client
+
 - `base_url` - resolve relative URLS / build a scoped client
+
 - `resolve` - protect webhooks against calls to internal endpoints
+
 - `max_redirects` - disable or limit redirects
 
 - Robust and failsafe by default
 
 - Streamable uploads - `$mimeParts->toIterable()`.
+
 - donwload a file
 
   ```php
@@ -559,17 +574,23 @@ benefits be added with Twig?
 
 - Business part applies to all context. Start talking about what needs to be
   done, start communicating
+
 - Implement contexts for UI and API
+
 - 12716 steps, 1175 scenarios, 8 min 8 sec, 2.4 scenarios /sec
+
 - 12x faster than JS (17 min 48 sec, 0.19 scenario / sec)
+
 - Treat test CI environment like production
 
   - Turn off debug settings, add caching
   - Enable OPcache
 
 - Write features in a natural way
+
 - Too many setup steps - merge steps. less visual debt. e.g. Create currency,
   zone and locale when creating a store
+
 - Avoid scenarios that are too detailed. You should specify only what's
   important to this scenario.
 
@@ -580,15 +601,22 @@ benefits be added with Twig?
   deploying via FTP. Done over a ~3 month period.
 
 - Subscription based index of suppliers
+
 - New requirements to implement by the client
+
 - Our requirements: Needed a deployment process, make it testable, fix the build
   chain
+
 - Solution attempt 1: Migrate to a new version of the current framework
+
   - Minor template and design changes were fine
   - Modifiy features, add new dependencies.
+
 - Solution attempt 2: Upgrade to the latest version - same outcome due to
   multiple BC breaks (no semver), lots of manual steps
+
 - Solution attempt 3: Symfony!
+
   - Semver! Backwards compatibility promise
   - Symfony app to run in parallel, Apache proxy rules and minor changes to the
     legacy app, added data transfer mechanisms

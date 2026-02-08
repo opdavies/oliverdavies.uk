@@ -1,8 +1,8 @@
 ---
-title: "Why I like trunk-based development"
+title: Why I like trunk-based development
 pubDate: 2022-09-20
-permalink: "daily/2022/09/20/why-like-trunk-based-development"
-tags: ["git"]
+permalink: daily/2022/09/20/why-like-trunk-based-development
+tags: [git]
 ---
 
 For the majority of my software development career, I've worked with version control in a very similar way.

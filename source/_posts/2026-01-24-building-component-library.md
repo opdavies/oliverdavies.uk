@@ -19,5 +19,5 @@ Before I refactor a component, I'll move it into the component library to make i
 
 It's a process that works well for my clients, so why wouldn't I do it for myself?
 
-[0]: {{site.url}}/component-library
-[1]: {{site.url}}/component-library/testimonial
+[0]: %7B%7Bsite.url%7D%7D/component-library
+[1]: %7B%7Bsite.url%7D%7D/component-library/testimonial

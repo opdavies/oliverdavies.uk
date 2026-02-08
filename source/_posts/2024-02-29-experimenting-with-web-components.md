@@ -6,7 +6,7 @@ tags:
   - web-components
   - front-end
 cta: subscription
-snippet: |
+snippet: |-
   After speaking with Mark Conroy, I've been experimenting with web components.
 ---
 
@@ -24,4 +24,4 @@ After this spike, I'm intrigued to see how we could use web components and what 
 
 Are you interested in web components, too? [Listen to the podcast episode with Mark Conroy][episode].
 
-[episode]: {{site.url}}/podcast/11-mark-conroy
+[episode]: %7B%7Bsite.url%7D%7D/podcast/11-mark-conroy

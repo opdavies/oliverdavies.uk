@@ -2,10 +2,10 @@
 title: 'DrupalCamp London: What is Git Flow?'
 excerpt: Here are my slides from my "What is Git Flow?" session at DrupalCamp London.
 tags:
-    - git
-    - git-flow
-    - drupalcamp-london
-    - talks
+  - git
+  - git-flow
+  - drupalcamp-london
+  - talks
 tweets: true
 ---
 
@@ -13,7 +13,7 @@ Here are my slides from my "What is Git Flow?" session at
 [DrupalCamp London](http://2014.drupalcamplondon.co.uk).
 
 {% include 'presentation/slides' with { speakerdeck: {
-    data_id: '201559e0f103013198dd5a5f6f23ab67' }
+data_id: '201559e0f103013198dd5a5f6f23ab67' }
 } only %}
 
 ## Take aways
@@ -46,13 +46,13 @@ evaluation form</a> that you can complete on the DrupalCamp London website.
 I've had some great feedback via Twitter:
 
 {% include 'tweet' with {
-  content: '<p><a href="https://twitter.com/opdavies">@opdavies</a> <a href="https://twitter.com/DrupalCampLDN">@DrupalCampLDN</a> always had trouble with git. Your talk + Git flow has made it all very easy.</p>&mdash; James Tombs (@jtombs) <a href="https://twitter.com/jtombs/statuses/440108072078696449">March 2, 2014</a>'
+content: '<p><a href="https://twitter.com/opdavies">@opdavies</a> <a href="https://twitter.com/DrupalCampLDN">@DrupalCampLDN</a> always had trouble with git. Your talk + Git flow has made it all very easy.</p>— James Tombs (@jtombs) <a href="https://twitter.com/jtombs/statuses/440108072078696449">March 2, 2014</a>'
 } %}
 
 {% include 'tweet' with {
-  content: '<p>Great presentation by <a href="https://twitter.com/opdavies">@opdavies</a> on git flow at <a href="https://twitter.com/search?q=%23dclondon&amp;src=hash">#dclondon</a> very well prepared and presented. <a href="http://t.co/tDINp2Nsbn">pic.twitter.com/tDINp2Nsbn</a></p>&mdash; Greg Franklin (@gfranklin) <a href="https://twitter.com/gfranklin/statuses/440104311276969984">March 2, 2014</a>'
+content: '<p>Great presentation by <a href="https://twitter.com/opdavies">@opdavies</a> on git flow at <a href="https://twitter.com/search?q=%23dclondon&amp;src=hash">#dclondon</a> very well prepared and presented. <a href="http://t.co/tDINp2Nsbn">pic.twitter.com/tDINp2Nsbn</a></p>— Greg Franklin (@gfranklin) <a href="https://twitter.com/gfranklin/statuses/440104311276969984">March 2, 2014</a>'
 } %}
 
 {% include 'tweet' with {
-  content: '<p>Great talk on git flow <a href="https://twitter.com/opdavies">@opdavies</a> <a href="https://twitter.com/search?q=%23dclondon&amp;src=hash">#dclondon</a></p>&mdash; Curve Agency (@CurveAgency) <a href="https://twitter.com/CurveAgency/statuses/440095250775035904">March 2, 2014</a>'
+content: '<p>Great talk on git flow <a href="https://twitter.com/opdavies">@opdavies</a> <a href="https://twitter.com/search?q=%23dclondon&amp;src=hash">#dclondon</a></p>— Curve Agency (@CurveAgency) <a href="https://twitter.com/CurveAgency/statuses/440095250775035904">March 2, 2014</a>'
 } %}

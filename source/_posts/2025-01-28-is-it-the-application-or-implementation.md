@@ -4,8 +4,8 @@ permalink: daily/2025/01/28/application-or-implementation
 tags:
   - software-development
   - drupal
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Is your issue with the application you're using or how it has been implemented?
 ---
 

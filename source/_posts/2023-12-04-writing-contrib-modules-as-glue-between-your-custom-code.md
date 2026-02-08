@@ -11,7 +11,6 @@ tags:
   - php
 ---
 
-
 A few years ago, I worked on an event booking and management website for a charity in the UK.
 
 One required piece of functionality was to allow event organisers to send a private message to all attendees of an event.
@@ -22,9 +21,9 @@ We decided that we needed to use a queue and have it process and send the messag
 
 This split the feature into three parts:
 
-* The UI for event organisers to enter and send their messages.
-* The queue that stores and processes pending messages in the background.
-* The Private Message module that would create and send each message, provide an inbox for each user, and provide notifications.
+- The UI for event organisers to enter and send their messages.
+- The queue that stores and processes pending messages in the background.
+- The Private Message module that would create and send each message, provide an inbox for each user, and provide notifications.
 
 The UI for event organisers was specific to the project and had to be custom code and not open-sourced.
 

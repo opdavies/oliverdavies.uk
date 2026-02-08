@@ -9,7 +9,7 @@ Sometimes I just need PHP, nodejs or Tailwind CSS.
 
 So, I've made some ready to go development shells that I can use.
 
-Each devshell has extra packages installed, such as Composer and Phpactor for PHP, and the the Tailwind CSS language server and watchman for Tailwind CSS. 
+Each devshell has extra packages installed, such as Composer and Phpactor for PHP, and the the Tailwind CSS language server and watchman for Tailwind CSS.
 
 The code is in a [public Git repository][0], so I can run a simple one-line command to start the devshell:
 

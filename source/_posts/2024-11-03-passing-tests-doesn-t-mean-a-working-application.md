@@ -6,7 +6,7 @@ tags:
   - automated-testing
   - test-driven-development
 cta: d7eol
-snippet: |
+snippet: |-
   Having a passing test suite doesn't mean your application works.
 ---
 

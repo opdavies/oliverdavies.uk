@@ -3,7 +3,7 @@ title: Using Illuminate Collections... Outside Laravel
 description: How to include and use Laravel's Illuminate Collections in your non-Laravel PHP projects.
 speakerdeck:
   id: 76f1718a75a74940b0b028aac8b9f78b
-  ratio: "1.77777777777778"
+  ratio: '1.77777777777778'
   url: https://speakerdeck.com/opdavies/using-laravel-collections-dot-dot-dot-outside-laravel-php-south-wales-august-2018
 video:
   type: youtube

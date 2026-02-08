@@ -3,8 +3,8 @@ title: What's the simplest solution?
 permalink: daily/2025/02/02/simple
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   What's the simplest solution to achieve what you need?
 ---
 

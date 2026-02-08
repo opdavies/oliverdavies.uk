@@ -5,8 +5,8 @@ tags:
   - software-development
   - drupal
   - open-source
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Contrib-first development doesn't mean building for every use case upfront.
 ---
 

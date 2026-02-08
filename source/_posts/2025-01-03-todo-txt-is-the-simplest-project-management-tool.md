@@ -4,7 +4,7 @@ permalink: daily/2025/01/03/todotxt
 tags:
   - software-development
 cta: sponsor
-snippet: |
+snippet: |-
   todo.txt is the simplest project management tool I've ever used.
 ---
 

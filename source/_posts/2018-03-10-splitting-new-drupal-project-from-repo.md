@@ -2,12 +2,12 @@
 title: How to split a new Drupal contrib project from within another repository
 excerpt: How to use Git to split a directory from within an existing repository into it's own.
 tags:
-    - drupal
-    - drupal-7
-    - drupal-8
-    - drupal-planet
-    - git
-    - open-source
+  - drupal
+  - drupal-7
+  - drupal-8
+  - drupal-planet
+  - git
+  - open-source
 ---
 
 Yay! You've written a new Drupal module, theme or installation profile as part
@@ -156,7 +156,5 @@ Also, as this is standard Git functionality, you can follow the same process to
 extract PHP libraries, Symfony bundles, WordPress plugins or anything else.
 
 [0]: https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt
-[1]:
-  https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt#L101-L108
-[2]: {{site.companies.drupal_association.url}}
+[2]: %7B%7Bsite.companies.drupal_association.url%7D%7D
 [3]: https://getcomposer.org

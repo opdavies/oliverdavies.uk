@@ -7,8 +7,8 @@ tags:
   - phpunit
   - automated-testing
   - test-driven-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How would you write this test name?
 ---
 

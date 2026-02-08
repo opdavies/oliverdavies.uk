@@ -7,7 +7,7 @@ tags:
   - phpstan
   - static-analysis
   - podcast
-cta: ~
+cta:
 snippet: |
   I spoke with Dave Liddament about PHPStan and static analysis.
 drupal_planet: true
@@ -19,4 +19,4 @@ We discuss using PHPStan and static analysis in PHP projects as well as taking s
 
 [Listen to the episode now][0].
 
-[0]: {{site.url}}/podcast/22-dave-liddament
+[0]: %7B%7Bsite.url%7D%7D/podcast/22-dave-liddament

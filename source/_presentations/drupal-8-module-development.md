@@ -4,7 +4,7 @@ description: How to build your first module for Drupal 8.
 code: https://github.com/opdavies/dclondon16-d8-module
 speakerdeck:
   id: 0041804e52664d12a8e31cd118264813
-  ratio: "1.77777777777778"
+  ratio: '1.77777777777778'
   url: https://speakerdeck.com/opdavies/getting-started-with-drupal-8-module-development
 video:
   type: youtube
@@ -12,8 +12,8 @@ video:
 meta:
   og:
     image:
-      url: '/assets/images/talks/dclondon16.png'
-      type: "image/png"
+      url: /assets/images/talks/dclondon16.png
+      type: image/png
       height: 540
       width: 960
 events:

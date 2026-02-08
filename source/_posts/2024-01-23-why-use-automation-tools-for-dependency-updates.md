@@ -30,4 +30,4 @@ If they aren't done often, they will be riskier to deploy due to the larger chan
 
 Having a service like Violinist performing the updates for you means they can be applied and deployed more regularly, reducing the risk and making it easier to stay up-to-date and run secure versions of your dependencies.
 
-[podcast]: {{site.url}}/podcast
+[podcast]: %7B%7Bsite.url%7D%7D/podcast

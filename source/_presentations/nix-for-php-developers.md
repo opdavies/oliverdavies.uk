@@ -11,7 +11,7 @@ events:
     location: Cardiff, UK
     date: 2025-09-25
     urls:
-      slides: ~
+      slides:
       website: https://www.meetup.com/unified-diff/events/310886970
   - name: TechMids Conf
     location: Birmingham, UK
@@ -29,7 +29,7 @@ events:
     location: Brighton, UK
     date: 2026-04-08
 new_events: true
-description: |
+description: |-
   How PHP Developers (and everyone else) can use Nix to create robust and reproducible environments and replace tools like Docker and Vagrant.
 ---
 

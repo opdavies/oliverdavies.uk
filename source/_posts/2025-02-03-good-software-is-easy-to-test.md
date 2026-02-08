@@ -5,7 +5,7 @@ tags:
   - software-development
   - testing
 cta: testing_course
-snippet: |
+snippet: |-
   Good software is easy to write automated tests for.
 ---
 

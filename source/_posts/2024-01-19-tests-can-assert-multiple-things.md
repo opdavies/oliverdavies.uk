@@ -19,9 +19,9 @@ Instead, I focus on one test case per test.
 
 If I'm testing the following:
 
-* A blog page exists.
-* Only post nodes are visible.
-* Only published posts are visible,
-* Posts are returned in a specified order.
+- A blog page exists.
+- Only post nodes are visible.
+- Only published posts are visible,
+- Posts are returned in a specified order.
 
 These will be split into separate tests - making it easier to read and maintain the code and have faster execution times by running only the tests I want with the minimum amount of code in each - regardless of how many assertions are in each.

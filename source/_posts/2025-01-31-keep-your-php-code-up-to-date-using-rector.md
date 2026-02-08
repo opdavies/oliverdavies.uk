@@ -4,8 +4,8 @@ permalink: daily/2025/01/31/rector
 tags:
   - software-development
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you want to keep your PHP code up to date with the latest standards and using the latest features? You can automate this with Rector.
 ---
 

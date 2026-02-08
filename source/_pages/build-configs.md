@@ -1,14 +1,12 @@
 ---
-title: "Build Configs - configuration files as a service"
+title: Build Configs - configuration files as a service
 products:
-    -
-        price: 2500
-        link: https://buy.stripe.com/14kbJs98K1fc0p29AC
-        buttonText: Get started
-    -
-        price: 1000
-        link: https://buy.stripe.com/7sIdRAbgS8HEfjWfZ1
-        buttonText: Sign up
+  - price: 2500
+    link: https://buy.stripe.com/14kbJs98K1fc0p29AC
+    buttonText: Get started
+  - price: 1000
+    link: https://buy.stripe.com/7sIdRAbgS8HEfjWfZ1
+    buttonText: Sign up
 ---
 
 **Sprint zero in a box.**
@@ -30,10 +28,10 @@ I've been using this on personal projects such as my [Drupal](https://github.com
 
 ## What are some of the recent new features?
 
-* Adding additional databases for working with migrations or multi-site projects.
-* Adding additional `run` tasks.
-* Adding CI pipelines with GitHub Actions to run automated quality checks.
-* Creating and running Git hooks to run automated checks before changes are pushed.
+- Adding additional databases for working with migrations or multi-site projects.
+- Adding additional `run` tasks.
+- Adding CI pipelines with GitHub Actions to run automated quality checks.
+- Creating and running Git hooks to run automated checks before changes are pushed.
 
 ## Example
 
@@ -50,8 +48,8 @@ From nothing to a ready-to-work-on Drupal website in less than a minute.
 To get your project started on the right foot, I will create a new Drupal project skeleton for you using `build-configs` that is ready to work on, including all of the generated files. You can even edit them if you like as they will get no ongoing updates.
 
 {% include 'button.html.twig' with {
-  text: page.products.0.buttonText,
-  url: page.products.0.link,
+text: page.products.0.buttonText,
+url: page.products.0.link,
 } %}
 
 ### Ongoing updates and support (single site) - £{{ page.products.1.price|number_format }} per month
@@ -63,10 +61,9 @@ This also includes unlimited support via a dedicated Slack channel and you can m
 If you like, I can add you to a beta users list and you'll get new experimental features before anyone else.
 
 {% include 'button.html.twig' with {
-  text: page.products.1.buttonText,
-  url: page.products.1.link,
+text: page.products.1.buttonText,
+url: page.products.1.link,
 } %}
-
 
 If you have multiple Drupal sites, [contact me](/contact) and we can work something out.
 

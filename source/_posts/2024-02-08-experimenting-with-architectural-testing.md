@@ -52,12 +52,13 @@ final class ArchitectureTest {
 
 I plan to continue expanding this configuration as I become more familiar with PHPat, and because it's a PHPStan extension, it's already available to run within my projects locally and within the CI pipeline.
 
-[atdc]: {{site.url}}/atdc
-[yesterday]: {{site.url}}/daily/2024/02/07/running-tests-in-parallel-with-paratest
 {% endblock %}
 
 {% block cta %}
 P.S. Do you need immediate access to an expert Drupal Developer? [With my Drupal development subscription][subscription], make unlimited requests for a fixed monthly price in less time than posting to a job board!
 
-[subscription]: {{site.url}}/subscription
 {% endblock %}
+
+[atdc]: %7B%7Bsite.url%7D%7D/atdc
+[subscription]: %7B%7Bsite.url%7D%7D/subscription
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/02/07/running-tests-in-parallel-with-paratest

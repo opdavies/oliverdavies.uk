@@ -6,8 +6,8 @@ tags:
   - refactoring
   - test-driven-development
   - automated-testing
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you make sure you have automated tests before you refactor?
 ---
 
@@ -21,4 +21,4 @@ Then you know the functionality is the same and the code still works after it's 
 
 If you don't have tests, how do you know everything still works, or how likely are you to do the refactor at all?
 
-[0]: {{site.url}}/daily/2024/10/19/phpunit-or-pest
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/10/19/phpunit-or-pest

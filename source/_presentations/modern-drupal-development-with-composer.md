@@ -4,7 +4,7 @@ description: A lightning talk on how to use Composer to manage your Drupal proje
 type: Lightning talk
 speakerdeck:
   id: 7a1358502526425a9cfd288f85fb32f3
-  ratio: "1.37081659973226"
+  ratio: '1.37081659973226'
   url: https://speakerdeck.com/opdavies/modern-drupal-development-with-composer
 video:
   type: youtube

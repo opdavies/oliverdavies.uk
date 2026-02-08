@@ -3,8 +3,8 @@ title: Publishing a Zettelkasten
 permalink: daily/2024/08/21/publishing-a-zettelkasten
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I'm started writing a Zettelkasten and I'll be publishing it online.
 ---
 
@@ -23,4 +23,4 @@ There is no styling yet, as I wanted to focus on deploying the MVP version, but 
 At the moment, I'm focusing on writing as often as possible for this email list and in my new Zettelkasten.
 
 [0]: https://zet.oliverdavies.uk
-[1]: {{site.url}}/presentations/building-static-websites-sculpin
+[1]: %7B%7Bsite.url%7D%7D/presentations/building-static-websites-sculpin

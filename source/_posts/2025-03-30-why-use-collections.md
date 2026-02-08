@@ -5,8 +5,8 @@ tags:
   - software-development
   - php
   - collections
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Why should you use Collection objects in PHP?
 ---
 
@@ -30,6 +30,6 @@ This is also why I like value objects.
 
 Giving objects specific names instead of relying on the language's primitive types makes the code more robust and easier to read and understand.
 
-[0]: {{site.url}}/daily/2025/03/29/collections
-[1]: {{site.url}}/blog/using-laravel-collections-drupal
-[2]: {{site.url}}/presentations/using-illuminate-collections-outside-laravel
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/03/29/collections
+[1]: %7B%7Bsite.url%7D%7D/blog/using-laravel-collections-drupal
+[2]: %7B%7Bsite.url%7D%7D/presentations/using-illuminate-collections-outside-laravel

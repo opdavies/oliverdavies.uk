@@ -1,10 +1,9 @@
 ---
 title: Upgrading your site to Drupal 9
-description:
-  How to update your site to Drupal 9, and why it's much different to any major Drupal version upgrade before!
+description: How to update your site to Drupal 9, and why it's much different to any major Drupal version upgrade before!
 speakerdeck:
   id: 19f439b7a9a4450baa79bb73ec3dd117
-  ratio: "1.77777777777778"
+  ratio: '1.77777777777778'
   url: https://speakerdeck.com/opdavies/deploying-php-applications-with-ansible-ansible-vault-and-ansistrano
 video:
   type: youtube

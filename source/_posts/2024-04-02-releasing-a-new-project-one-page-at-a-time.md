@@ -4,8 +4,8 @@ permalink: daily/2024/04/02/releasing-a-new-project-one-page-at-a-time
 tags:
   - software-development
   - drupal
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How do you release a new website? One page at a time.
 ---
 

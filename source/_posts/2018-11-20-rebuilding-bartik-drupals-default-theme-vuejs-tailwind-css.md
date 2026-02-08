@@ -2,10 +2,10 @@
 title: Rebuilding Bartik (Drupal's Default Theme) with Vue.js and Tailwind CSS
 excerpt: How I rebuilt Drupal's Bartik theme using Vue.js and Tailwind CSS.
 tags:
-    - drupal
-    - tailwind-css
-    - tweet
-    - vuejs
+  - drupal
+  - tailwind-css
+  - tweet
+  - vuejs
 has_tweets: true
 ---
 
@@ -14,7 +14,7 @@ Earlier this week, I built a clone of [Drupal][0]'s default theme, Bartik, with
 [site itself on Netlify][4].
 
 {% include 'tweet' with {
-    content: '<p lang="en" dir="ltr">I built a clone of Bartik, <a href="https://twitter.com/hashtag/Drupal?src=hash&amp;ref_src=twsrc%5Etfw">#Drupal</a>&#39;s default theme, with <a href="https://twitter.com/vuejs?ref_src=twsrc%5Etfw">@vuejs</a> and <a href="https://twitter.com/tailwindcss?ref_src=twsrc%5Etfw">@tailwindcss</a>. See the result at <a href="https://t.co/nPsTt2cawL">https://t.co/nPsTt2cawL</a>, and the code at <a href="https://t.co/Dn8eysV4gf">https://t.co/Dn8eysV4gf</a>.<br><br>Blog post coming soon... <a href="https://t.co/7BgqjmkCX0">pic.twitter.com/7BgqjmkCX0</a></p>&mdash; Oliver Davies (@opdavies) <a href="https://twitter.com/opdavies/status/1064906717392191488?ref_src=twsrc%5Etfw">November 20, 2018</a>',
+  content: '<p lang="en" dir="ltr">I built a clone of Bartik, <a href="https://twitter.com/hashtag/Drupal?src=hash&amp;ref_src=twsrc%5Etfw">#Drupal</a>&#39;s default theme, with <a href="https://twitter.com/vuejs?ref_src=twsrc%5Etfw">@vuejs</a> and <a href="https://twitter.com/tailwindcss?ref_src=twsrc%5Etfw">@tailwindcss</a>. See the result at <a href="https://t.co/nPsTt2cawL">https://t.co/nPsTt2cawL</a>, and the code at <a href="https://t.co/Dn8eysV4gf">https://t.co/Dn8eysV4gf</a>.<br><br>Blog post coming soon... <a href="https://t.co/7BgqjmkCX0">pic.twitter.com/7BgqjmkCX0</a></p>&mdash; Oliver Davies (@opdavies) <a href="https://twitter.com/opdavies/status/1064906717392191488?ref_src=twsrc%5Etfw">November 20, 2018</a>',
     data_cards: true,
 } %}
 
@@ -102,75 +102,77 @@ export default {
               </div>
             </div>
 
-            <div class="flex justify-end text-sm">
-              <a href="#0">Log in</a>
-            </div>
-          </div>
+```
+        <div class="flex justify-end text-sm">
+          <a href="#0">Log in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main-menu></main-menu>
+</div>
+
+<div class="pt-3 pb-4 bg-white lg:pb-12">
+  <div class="container px-4 mx-auto">
+    <div class="flex flex-col my-6 md:flex-row-reverse md:-mx-8">
+      <div id="main" class="mb-8 w-full md:flex-1 md:px-6 md:mb-0 md:w-auto">
+        <div class="font-serif">
+          <h1 class="font-normal">Welcome to {{ title }}</h1>
+          <p>No front page content has been created yet.</p>
+          <p>Follow the <a href="#0" class="no-underline border-b border-blue-600 border-dotted hover:text-blue-600 text-blue-dark hover:bg-solid">User Guide</a> to start building your site.</p>
+        </div>
+
+        <div class="mt-10">
+          <a href="#0">
+            <img src="img/feed.svg" alt="">
+          </a>
         </div>
       </div>
 
-      <main-menu></main-menu>
-    </div>
+      <div class="flex-none w-full md:px-6 md:w-1/3 lg:w-1/4">
+        <div class="flex-none w-full md:px-6 md:w-1/3 lg:w-1/4">
+            <div class="p-4" style="background-color: #f6f6f2">
+              <h2 class="mb-3 font-serif text-base font-normal text-gray-900 border-b border-gray-300 border-solid">Search</h2>
 
-    <div class="pt-3 pb-4 bg-white lg:pb-12">
-      <div class="container px-4 mx-auto">
-        <div class="flex flex-col my-6 md:flex-row-reverse md:-mx-8">
-          <div id="main" class="mb-8 w-full md:flex-1 md:px-6 md:mb-0 md:w-auto">
-            <div class="font-serif">
-              <h1 class="font-normal">Welcome to {{ title }}</h1>
-              <p>No front page content has been created yet.</p>
-              <p>Follow the <a href="#0" class="no-underline border-b border-blue-600 border-dotted hover:text-blue-600 text-blue-dark hover:bg-solid">User Guide</a> to start building your site.</p>
-            </div>
+              <div>
+                <form action="#" class="flex">
+                  <input type="text" class="p-2 w-full border border-solid xl:w-auto border-gray">
 
-            <div class="mt-10">
-              <a href="#0">
-                <img src="img/feed.svg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="flex-none w-full md:px-6 md:w-1/3 lg:w-1/4">
-            <div class="flex-none w-full md:px-6 md:w-1/3 lg:w-1/4">
-                <div class="p-4" style="background-color: #f6f6f2">
-                  <h2 class="mb-3 font-serif text-base font-normal text-gray-900 border-b border-gray-300 border-solid">Search</h2>
-
-                  <div>
-                    <form action="#" class="flex">
-                      <input type="text" class="p-2 w-full border border-solid xl:w-auto border-gray">
-
-                      <button type="submit" class="flex-none px-3 ml-2 bg-gray-300 rounded-full border-b border-gray-600 border-solid" style="background-color: #f0f0f0">
-                        <img src="img/loupe.svg" class="block">
-                      </button>
-                    </form>
-                  </div>
-                </div>
+                  <button type="submit" class="flex-none px-3 ml-2 bg-gray-300 rounded-full border-b border-gray-600 border-solid" style="background-color: #f0f0f0">
+                    <img src="img/loupe.svg" class="block">
+                  </button>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
-    <div id="footer" class="text-xs text-white">
-      <div class="container px-4 pt-16 pb-4 mx-auto">
-        <div class="pt-6 -mb-6 border-t border-gray-900 border-solid">
-          <div class="mb-6">
-            <p><a href="#0">Contact</a></p>
-          </div>
+<div id="footer" class="text-xs text-white">
+  <div class="container px-4 pt-16 pb-4 mx-auto">
+    <div class="pt-6 -mb-6 border-t border-gray-900 border-solid">
+      <div class="mb-6">
+        <p><a href="#0">Contact</a></p>
+      </div>
 
-          <div class="mb-6">
-            <p>
-              A clone of <a href="https://www.drupal.org">Drupal</a>'s default theme (Bartik).
-              Built by <a href="https://www.oliverdavies.uk">Oliver Davies</a>
-              using <a href="https://vuejs.org">Vue.js</a>
-              and <a href="https://tailwindcss.com">Tailwind CSS</a>.
-            </p>
-          </div>
-        </div>
+      <div class="mb-6">
+        <p>
+          A clone of <a href="https://www.drupal.org">Drupal</a>'s default theme (Bartik).
+          Built by <a href="https://www.oliverdavies.uk">Oliver Davies</a>
+          using <a href="https://vuejs.org">Vue.js</a>
+          and <a href="https://tailwindcss.com">Tailwind CSS</a>.
+        </p>
       </div>
     </div>
-
   </div>
+</div>
+```
+
+</div>
 </template>
 
 <script>

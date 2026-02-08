@@ -3,8 +3,8 @@ title: Your CI pipeline is your gatekeeper
 permalink: daily/2025/01/30/gatekeeper
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Your CI pipeline should be what determines if a commit is deployable or not.
 ---
 
@@ -26,4 +26,4 @@ If your CI pipeline passes, the commit is good can be deployed.
 
 If it fails, the commit should not be deployed and you should get it passing again as quickly as possible as [there's no value in a broken CI pipeline][0].
 
-[0]: {{site.url}}/daily/2023/06/28/theres-no-value-in-a-broken-ci-pipeline
+[0]: %7B%7Bsite.url%7D%7D/daily/2023/06/28/theres-no-value-in-a-broken-ci-pipeline

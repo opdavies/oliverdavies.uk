@@ -2,14 +2,14 @@
 title: Drupal Bristol Testing Workshop
 excerpt: Yesterday evening, I did my first workshop, held at the Drupal Bristol user group.
 tags:
-    - composer
-    - docksal
-    - drupal
-    - drupal-8
-    - drupal-bristol
-    - php
-    - phpunit
-    - testing
+  - composer
+  - docksal
+  - drupal
+  - drupal-8
+  - drupal-bristol
+  - php
+  - phpunit
+  - testing
 ---
 
 Yesterday evening, I did [my first workshop][16] (and I believe, the first
@@ -70,10 +70,10 @@ I didn't record this workshop, but I have exported the slides and embedded them
 below:
 
 {% include 'presentation/slides' with {
-    speakerdeck: {
-        id: '2679401cb2ad421789d372cb8d38e368',
-        ratio: '1.77777777777778',
-    }
+speakerdeck: {
+id: '2679401cb2ad421789d372cb8d38e368',
+ratio: '1.77777777777778',
+}
 } %}
 
 ## Thoughts
@@ -94,9 +94,7 @@ events in the UK. If you'd like me to do either at your meetup or event, [get in
 touch][13].
 
 [0]: https://github.com/opdavies/drupal-testing-workshop
-[1]: https://github.com/drupal-composer/drupal-project
 [2]: https://docksal.io
-[3]: {{site.companies['microserve'].url}}
 [4]: https://github.com/drupal-composer/drupal-project
 [5]: https://www.drupal.org/project/examples
 [6]: /blog/creating-a-custom-phpunit-command-for-docksal
@@ -105,8 +103,8 @@ touch][13].
 [9]: /talks/tdd-test-driven-drupal
 [10]: https://www.drupal.org/project/private_message_queue
 [11]: https://www.drupal.org/project/system_user
-[12]: {{site.events.drupal_dev_days_18.url}}
+[12]: %7B%7Bsite.events.drupal_dev_days_18.url%7D%7D
 [13]: /contact
-[14]: {{site.events.drupal_bristol.url}}
+[14]: %7B%7Bsite.events.drupal_bristol.url%7D%7D
 [15]: /test-driven-drupal
 [16]: https://groups.drupal.org/node/520891

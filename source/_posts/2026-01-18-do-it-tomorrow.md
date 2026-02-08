@@ -14,18 +14,18 @@ I've recently been re-reading [Do It Tomorrow and Other Secrets of Time Manageme
 
 These are my notes:
 
-* Reactive brain (not intelligent) vs rational brain (intelligent).
-* Do it now or do it tomorrow.
-* What needs an immediate response?
-* What requires a same-day response?
-* What can be done tomorrow?
-* Open lists (to do lists) vs closed lists (checklists).
-* Do all the tasks every day.
-* If you do all the tasks, the order you do them in doesn't matter.
-* Resistance.
-* Do one thing at a time. Avoid context switching.
-* Work in short bursts to avoid procrastination.
-* What is the current initiative? What is the first thing you do every day?
-* Write a "Will do" list, not a "To do" list.
-* Take breaks, have a definitive finish time.
-* Continuous projects.
+- Reactive brain (not intelligent) vs rational brain (intelligent).
+- Do it now or do it tomorrow.
+- What needs an immediate response?
+- What requires a same-day response?
+- What can be done tomorrow?
+- Open lists (to do lists) vs closed lists (checklists).
+- Do all the tasks every day.
+- If you do all the tasks, the order you do them in doesn't matter.
+- Resistance.
+- Do one thing at a time. Avoid context switching.
+- Work in short bursts to avoid procrastination.
+- What is the current initiative? What is the first thing you do every day?
+- Write a "Will do" list, not a "To do" list.
+- Take breaks, have a definitive finish time.
+- Continuous projects.

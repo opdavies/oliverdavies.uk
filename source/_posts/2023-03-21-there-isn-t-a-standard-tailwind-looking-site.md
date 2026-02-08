@@ -9,10 +9,10 @@ tags:
 
 When looking at some websites, you can tell that it was built using a certain CSS framework.
 
-Whether it's using a standard component like a navbar or card, or it's using the default colour palette, you can confidently know that website uses ___.
+Whether it's using a standard component like a navbar or card, or it's using the default colour palette, you can confidently know that website uses \_\_\_.
 
 As Tailwind includes no components (other than the `container`) and only has low-level utility classes for things like spacing and colours (amongst many other things), you can build radically different-looking websites with the same classes.
 
-There are some [examples of UIs that I've rebuilt]({{site.url}}/blog/uis-ive-rebuilt-tailwind-css) and some websites that I show in my [Taking Flight with Tailwind CSS talk]({{site.url}}/talks/taking-flight-with-tailwind-css).
+There are some [examples of UIs that I've rebuilt](%7B%7Bsite.url%7D%7D/blog/uis-ive-rebuilt-tailwind-css) and some websites that I show in my [Taking Flight with Tailwind CSS talk](%7B%7Bsite.url%7D%7D/talks/taking-flight-with-tailwind-css).
 
 If you take a look, you'll see what I mean.

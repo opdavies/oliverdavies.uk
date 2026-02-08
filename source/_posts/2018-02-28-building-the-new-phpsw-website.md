@@ -1,12 +1,10 @@
 ---
 title: Building the new PHPSW Website
-excerpt:
-    Earlier this week we had another hack night, working on the new PHPSW user
-    group website.
+excerpt: Earlier this week we had another hack night, working on the new PHPSW user group website.
 tags:
-    - phpsw
-    - symfony
-    - tailwind-css
+  - phpsw
+  - symfony
+  - tailwind-css
 has_tweets: true
 ---
 

@@ -21,11 +21,11 @@ In this talk, Matt has a slide that goes further into this, titled "Test to save
 
 The best place to start your tests is by asking yourself: "What part of this app, if broken, would make me worried for my job?"
 
-* What's most likely to break?
-* What do I have the least control over?
-* What are we about to refactor?
-* What would make my clients stress out?
-* What would make me stressed out?
+- What's most likely to break?
+- What do I have the least control over?
+- What are we about to refactor?
+- What would make my clients stress out?
+- What would make me stressed out?
 
 ## What about you?
 

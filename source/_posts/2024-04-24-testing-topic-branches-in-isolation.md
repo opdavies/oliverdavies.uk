@@ -4,8 +4,8 @@ permalink: daily/2024/04/26/testing-topic-branches-in-isolation
 tags:
   - software-development
   - git
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Do you test topic branches in isolation?
 ---
 

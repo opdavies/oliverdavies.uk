@@ -19,4 +19,4 @@ Alternatively, maybe keep a template composer.json file to base new projects on 
 
 That could declare the modules and themes you want to include, without the additional overhead.
 
-[drupal distribution]({{site.url}}/daily/2023/12/14/save-time-and-effort-with-drupal-distributions)
+[drupal distribution](%7B%7Bsite.url%7D%7D/daily/2023/12/14/save-time-and-effort-with-drupal-distributions)

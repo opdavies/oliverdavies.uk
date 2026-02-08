@@ -12,7 +12,7 @@ tags:
 
 Here is some code from my website:
 
-![A screenshot of the code that calculates the number of talks I've given.]({{site.url}}/assets/images/talk-count-code.png)
+![A screenshot of the code that calculates the number of talks I've given.](%7B%7Bsite.url%7D%7D/assets/images/talk-count-code.png)
 
 If you want, you can also [view it on GitHub](https://raw.githubusercontent.com/opdavies/oliverdavies.uk/main/source/_pages/presentations.md).
 

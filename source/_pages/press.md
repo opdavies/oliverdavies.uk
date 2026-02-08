@@ -14,21 +14,21 @@ Oliver is a Software Developer and Drupal expert with {{ macros.yearsOfExperienc
 
 ## Sample Topics
 
-* Getting started in software development, Drupal, or open-source software.
-* Building your first Drupal website.
-* Drupal module and theme development.
-* Automated testing and test-driven development (TDD).
-* Static analysis in PHP applications.
-* Utility-first styling and Tailwind CSS.
-* Git and different ways to use it (continuous integration, trunk-based development).
-* Contributing to open-source software.
+- Getting started in software development, Drupal, or open-source software.
+- Building your first Drupal website.
+- Drupal module and theme development.
+- Automated testing and test-driven development (TDD).
+- Static analysis in PHP applications.
+- Utility-first styling and Tailwind CSS.
+- Git and different ways to use it (continuous integration, trunk-based development).
+- Contributing to open-source software.
 
 ## Social Media and Elsewhere
 
-* [Drupal.org][drupal]
-* [GitHub][]
-* [LinkedIn][]
-* [Twitter][]
+- [Drupal.org][drupal]
+- [GitHub]
+- [LinkedIn]
+- [Twitter]
 
 ## Physical Location
 

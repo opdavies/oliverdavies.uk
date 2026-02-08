@@ -1,7 +1,7 @@
 ---
-title: "Using Feature Flags with Sculpin"
+title: Using Feature Flags with Sculpin
 excerpt: |
-    How I've started using feature flags within a client's Sculpin website.
+  How I've started using feature flags within a client's Sculpin website.
 tags: [sculpin]
 ---
 

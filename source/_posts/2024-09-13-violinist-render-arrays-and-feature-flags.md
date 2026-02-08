@@ -5,7 +5,7 @@ tags:
   - software-development
   - drupal
   - podcast
-cta: ~
+cta:
 snippet: |
   This week, I spoke with Eirik Morland again about recent improvements to violinist.io.
 drupal_planet: true
@@ -19,6 +19,6 @@ I was great to speak to Eirik again and for him to be the first returning guest 
 
 [Listen to the first episode with Eirik][2].
 
-[0]: {{site.url}}/podcast
-[1]: {{site.url}}/podcast/21-eirik-morland-violinist-2
-[2]: {{site.url}}/podcast/8-eirik-morland-violinist
+[0]: %7B%7Bsite.url%7D%7D/podcast
+[1]: %7B%7Bsite.url%7D%7D/podcast/21-eirik-morland-violinist-2
+[2]: %7B%7Bsite.url%7D%7D/podcast/8-eirik-morland-violinist

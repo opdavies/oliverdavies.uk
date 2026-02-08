@@ -15,5 +15,5 @@ The other was with Moshe Weitzman, and we discussed [Drush and Drupal Test Trait
 
 I'm going to take a break from recording for now, but may return with new guests and episodes in the future.
 
-[0]: {{site.url}}/podcast/33-john-locke-drupal-flake
-[1]: {{site.url}}/podcast/34-moshe-weitzman-drush
+[0]: %7B%7Bsite.url%7D%7D/podcast/33-john-locke-drupal-flake
+[1]: %7B%7Bsite.url%7D%7D/podcast/34-moshe-weitzman-drush

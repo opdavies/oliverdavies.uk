@@ -6,8 +6,8 @@ tags:
   - drupal
   - drupal-planet
   - php
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Don't "hack" or edit files within Drupal core or contrib directories in projects, unless you want to risk losing them. If you need to change them, patch them.
 ---
 
@@ -25,4 +25,4 @@ If you can, commit the changes upstream.
 
 Then you won't need to patch files and others will benefit from the contribution.
 
-[0]: {{site.url}}/daily/2025/01/14/patching-drupal
+[0]: %7B%7Bsite.url%7D%7D/daily/2025/01/14/patching-drupal

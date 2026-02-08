@@ -7,7 +7,7 @@ tags:
   - drupal-commerce
   - podcast
 cta: d7eol
-snippet: |
+snippet: |-
   This week on Beyond Blocks, Oliver is joined by Ryan Szrama, CEO of Centarro.
 ---
 
@@ -44,4 +44,4 @@ This week on Beyond Blocks, I'mj oined by Ryan Szrama, CEO of Centarro, to discu
 - Do you know when you should not use Views and when you decouple that component and use JavaScript and the REST API? (RS)
 - If we can reduce the number of times introduce those kinds of problems, that's how I would certify somebody. (RS)
 
-[episode]: {{site.url}}/podcast/13-ryan-szrama-centarro
+[episode]: %7B%7Bsite.url%7D%7D/podcast/13-ryan-szrama-centarro

@@ -3,19 +3,19 @@ title: Deploying PHP Applications with Fabric
 description: How to use Fabric, a Python command line based library, to deploy your PHP applications.
 speakerdeck:
   id: c147618ce07546ca92f92983c52d6a41
-  ratio: "1.77777777777778"
+  ratio: '1.77777777777778'
   url: https://speakerdeck.com/opdavies/deploying-php-applications-with-fabric
 meta:
   og:
     image:
-      url: '/assets/images/talks/deploying-php-fabric.png'
+      url: /assets/images/talks/deploying-php-fabric.png
       width: 2560
       height: 1440
       type: image/png
 events:
   - name: Nomad PHP
     date: 2017-04-20
-    time: "19:00 (CET)"
+    time: 19:00 (CET)
     url: https://nomadphp.com
     online: true
   - name: PHP South West
@@ -26,7 +26,7 @@ events:
   - name: PHP North West 2017
     location: Manchester, UK
     date: 2017-10-01
-    time: "09:00 - 09:45"
+    time: 09:00 - 09:45
     url: http://conference.phpnw.org.uk/phpnw17
     joindin: https://joind.in/talk/4e35d
 ---
@@ -38,5 +38,6 @@ My favourite deployment tool of late is [Fabric][1] – a Python based command l
 
 This talk will cover some introduction to Fabric and how to write your own fabfiles, and then look at some examples of different use case deployments for your PHP project.
 
-[1]: http://www.fabfile.org
 {% endblock %}
+
+[1]: http://www.fabfile.org

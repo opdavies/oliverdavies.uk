@@ -2,7 +2,7 @@
 title: Create a Better Photo Gallery in Drupal - Part 3
 excerpt: Grouping galleries by category.
 tags:
-    - drupal
+  - drupal
 ---
 
 The next part of the new gallery that I want to implement is to group the

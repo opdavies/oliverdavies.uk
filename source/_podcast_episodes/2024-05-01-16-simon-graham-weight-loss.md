@@ -4,8 +4,8 @@ episode_number: 16
 guests:
   - Simon Graham
 links:
-  - - simongpt.co.uk
-    - https://www.simongpt.co.uk
+  -   - simongpt.co.uk
+      - https://www.simongpt.co.uk
 talking_points: []
 quotes: []
 chapters: []

@@ -6,8 +6,8 @@ tags:
   # - drupal
   # - php
   # - podcast
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How easy it is to configure or extend the code?
 ---
 

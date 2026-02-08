@@ -4,8 +4,8 @@ permalink: daily/2024/06/14/dead-or-done
 tags:
   - software-development
   - open-source
-cta: ~
-snippet: |
+cta:
+snippet: |-
   How do you know if a project is dead or feature complete?
 ---
 
@@ -31,4 +31,4 @@ Add a note to the README.md or CONTRIBUTING.md file saying if the project is fea
 
 If the project is no longer maintained, you can also document it and potentially archive the repository too to show that it will no longer be updated and to avoid confusion.
 
-[0]: {{site.url}}/daily/2024/06/13/vetting-third-party-open-source-software
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/06/13/vetting-third-party-open-source-software

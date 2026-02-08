@@ -1,7 +1,7 @@
 ---
 permalink: daily/2022/08/14/why-i-write-tests
 pubDate: 2022-08-14
-title: "Why I write automated tests"
+title: Why I write automated tests
 tags: [testing]
 ---
 
@@ -33,4 +33,4 @@ I also worked on an event booking and management website, where we had code resp
 
 The great thing about testing is that it gives you confidence that everything still works how you expect - not only when you wrote the code, but also in the future.
 
-I've talked about this, and how to get started with automated testing in Drupal, in a presentation called [TDD - Test-Driven Drupal]({{site.url}}/presentations/tdd-test-driven-drupal). If you want to find out more, the slides and a video recording are embedded there.
+I've talked about this, and how to get started with automated testing in Drupal, in a presentation called [TDD - Test-Driven Drupal](%7B%7Bsite.url%7D%7D/presentations/tdd-test-driven-drupal). If you want to find out more, the slides and a video recording are embedded there.

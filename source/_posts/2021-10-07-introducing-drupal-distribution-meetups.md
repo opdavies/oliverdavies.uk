@@ -2,13 +2,13 @@
 title: Introducing a Drupal distribution for meetup websites
 excerpt: I'm starting development on a new Drupal distribution for building meetup group websites.
 tags:
-    - drupal
-    - drupal-9
-    - drupal-distribution
-    - drupal-meetup-distribution
-    - personal
-    - php
-    - php-south-wales
+  - drupal
+  - drupal-9
+  - drupal-distribution
+  - drupal-meetup-distribution
+  - personal
+  - php
+  - php-south-wales
 ---
 
 I'm the current organiser of the [PHP South Wales user group](https://www.phpsouthwales.uk) and built the current website with Drupal 8, which I started in 2019.
@@ -19,7 +19,7 @@ Inspired by other Drupal distributions like [LocalGov](https://www.drupal.org/pr
 
 This also means that any new functionality can be added straight to the distribution and immediately available for everyone.
 
-I've created a [project page on Drupal.org][drupalorg] and a [Drupal Meetup organisation on GitHub][github] which contains repositories for the distribution as well as a project template that are pushed to [Packagist][packagist] to that they can be installed with Composer - e.g. `composer create-project --stability dev drupal-meetup/drupal-meetup-project my-new-meetup`.
+I've created a [project page on Drupal.org][drupalorg] and a [Drupal Meetup organisation on GitHub][github] which contains repositories for the distribution as well as a project template that are pushed to [Packagist] to that they can be installed with Composer - e.g. `composer create-project --stability dev drupal-meetup/drupal-meetup-project my-new-meetup`.
 
 This seems like a good opportunity to do some more Drupal contribution and may benefit others too who want to build their own meetup group websites.
 

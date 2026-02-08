@@ -5,7 +5,6 @@ permalink: daily/2022/10/03/refactoring-value-objects
 tags: [php]
 ---
 
-
 Here's a snippet of some Drupal code that I wrote last week. It's responsible for converting an array of nodes into a Collection of one of it's field values.
 
 ```language-php
@@ -66,6 +65,7 @@ return Collection::make($stationNodes)
   ->map(fn (StationInterface $station): string => $station->getStationCode())
   ->values();
 ```
+
 I've added an additional `map` to convert the nodes to the value object, but the second map can now use the new typehint - ensuring better type safety and also giving us auto-completion in IDEs and text editors. If an incorrect node type is passed in, then the Exception will be thrown and a much clearer error message will be shown.
 
 Finally, I can use the helper method to get the field value, encapsulating the logic within the value object and making it intention clearer and easier to read.

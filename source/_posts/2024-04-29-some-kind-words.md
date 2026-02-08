@@ -7,7 +7,7 @@ tags:
   - automated-testing
   - test-driven-development
 cta: atdc
-snippet: |
+snippet: |-
   I recently received these kind words someone who recently completed my Drupal automated testing email course.
 ---
 
@@ -23,4 +23,4 @@ Thanks, Frank, for your feedback.
 
 It's great to get feedback on my content and to know it's helping and providing value to people.
 
-[course]: {{site.url}}/atdc
+[course]: %7B%7Bsite.url%7D%7D/atdc

@@ -7,11 +7,10 @@ tags:
   - localgov-drupal
   - php
   - open-source
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I was recently happy to see that the Override Node Options module is used by LocalGov Drupal in their microsites distribution!
 ---
-
 
 [In yesterday's email][0], I showed some of the usage numbers of the Override Node Options module and how the current numbers match those around a year ago.
 
@@ -21,5 +20,5 @@ Somewhere I was happy to see it being used recently is within the [LocalGov Drup
 
 It's great when being brought into a project to see your modules being used, but it's fantastic to see a module I maintain and code that I wrote being used by a large distribution like LocalGov Drupal and benefiting local councils and people in the UK and Ireland.
 
-[0]: {{site.url}}/daily/2024/11/16/an-interesting-thing-i-spotted-about-the-override-node-options-module
+[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/16/an-interesting-thing-i-spotted-about-the-override-node-options-module
 [1]: https://localgovdrupal.org/products/microsites

@@ -5,8 +5,8 @@ tags:
   - software-development
   - php
   - sculpin
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Why use a static site generator instead of a CMS?
 ---
 
@@ -24,4 +24,4 @@ Still, for some projects, static site generators are a great option.
 
 For Drupal, there's Tome - a module that creates a static website from a Drupal installation, and something I plan to investigate.
 
-[yesterday]: {{site.url}}/daily/2024/04/22/building-websites-with-php-and-sculpin
+[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/04/22/building-websites-with-php-and-sculpin

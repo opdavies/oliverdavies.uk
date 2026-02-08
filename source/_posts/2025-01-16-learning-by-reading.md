@@ -3,8 +3,8 @@ title: Learning by reading
 permalink: daily/2025/01/16/learning
 tags:
   - software-development
-cta: ~
-snippet: |
+cta:
+snippet: |-
   I read a lot of other people's code, and learned a lot from it.
 ---
 

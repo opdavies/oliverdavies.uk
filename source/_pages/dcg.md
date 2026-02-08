@@ -9,7 +9,7 @@ title: DrupalCamp Ghent 2024
 {% block content %}
 Thank you for attending my session at DrupalCamp Ghent.
 
-You can view the slides and previous recordings of my [Test Driven Drupal][] and [Tailwind CSS][] talks on this website.
+You can view the slides and previous recordings of my [Test Driven Drupal] and [Tailwind CSS] talks on this website.
 
 If you want to learn more, I released a video of the [Tailwind CSS workshop][workshop] I gave for DrupalCamp Florida, and I've created a [free 10-day email course][course] on automated testing in Drupal.
 
@@ -25,11 +25,11 @@ The best way to stay in touch with me is my [email list] to which I send daily e
 
 All emails are sent from my personal email address, so you can press reply and contact me directly.
 
+{% endblock %}
+
 [consulting]: /consulting
 [course]: /atdc
 [email list]: /daily
 [tailwind css]: /presentations/taking-flight-with-tailwind-css
 [test driven drupal]: /presentations/tdd-test-driven-drupal
 [workshop]: /daily/2024/01/22/tailwind-css-workshop-recording
-
-{% endblock %}

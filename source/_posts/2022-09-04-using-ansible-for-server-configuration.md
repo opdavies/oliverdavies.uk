@@ -1,10 +1,10 @@
 ---
-title: "Using Ansible for server configuration"
+title: Using Ansible for server configuration
 pubDate: 2022-09-04
-permalink: "daily/2022/09/04/using-ansible-for-server-configuration"
+permalink: daily/2022/09/04/using-ansible-for-server-configuration
 ---
 
-[In yesterday's email]({{site.url}}/archives/2022/09/03/creating-infrastructure-with-ansible), I described how to set up a blank server with Ansible.
+[In yesterday's email](%7B%7Bsite.url%7D%7D/archives/2022/09/03/creating-infrastructure-with-ansible), I described how to set up a blank server with Ansible.
 
 Now that we've done that, it needs to be configured.
 
@@ -18,6 +18,6 @@ If you have a group of related tasks, such as for installing a piece of software
 
 Very quickly, you can get a full stack installed and configured - ready to serve your application.
 
----
+______________________________________________________________________
 
-Want to learn more about how I use Ansible? [Register for my upcoming free email course]({{site.url}}/ansible-course).
+Want to learn more about how I use Ansible? [Register for my upcoming free email course](%7B%7Bsite.url%7D%7D/ansible-course).

@@ -5,8 +5,8 @@ tags:
   - software-development
   - drupal
   - drupal-cms
-cta: ~
-snippet: |
+cta:
+snippet: |-
   The Drupal Association recently launched the "Adopt a Document" program for Drupal.org, making documentation pages available for adoption.
 ---
 

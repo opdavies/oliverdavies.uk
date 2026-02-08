@@ -2,9 +2,9 @@
 title: Speaking at DrupalCon Europe 2020
 excerpt: I'm excited to be speaking again at DrupalCon, this time online at DrupalCon Europe.
 tags:
-    - drupal
-    - conferences
-    - speaking
+  - drupal
+  - conferences
+  - speaking
 ---
 
 After giving my [Ansible and Ansistrano talk](/talks/deploying-php-ansible-ansistrano) in Amsterdam, I'm excited that another of my talks has been accepted for DrupalCon!

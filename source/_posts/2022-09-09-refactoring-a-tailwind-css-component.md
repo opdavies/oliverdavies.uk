@@ -1,8 +1,8 @@
 ---
-title: "Refactoring a Tailwind CSS component"
+title: Refactoring a Tailwind CSS component
 pubDate: 2022-09-09
-permalink: "daily/2022/09/09/refactoring-tailwind-component"
-tags: ["tailwind-css"]
+permalink: daily/2022/09/09/refactoring-tailwind-component
+tags: [tailwind-css]
 ---
 
 After last night's Pro Tailwind theming workshop, I decided to revisit and refactor some similar code that I'd worked on before.

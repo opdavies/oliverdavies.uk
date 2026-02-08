@@ -5,8 +5,8 @@ tags:
   - software-development
   - symfony
   - stimulus
-cta: ~
-snippet: |
+cta:
+snippet: |-
   Have you used Stimulus? I took it for a test drivet this week.
 ---
 

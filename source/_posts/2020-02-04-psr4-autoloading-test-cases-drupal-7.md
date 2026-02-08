@@ -2,13 +2,13 @@
 title: Using PSR-4 Autoloading for your Drupal 7 Test Cases
 excerpt: How to use the PSR-4 autoloading standard for Drupal 7 Simpletest test cases.
 tags:
-    - drupal
-    - drupal-planet
-    - drupal-7
-    - testing
-    - simpletest
-    - php
-    - psr
+  - drupal
+  - drupal-planet
+  - drupal-7
+  - testing
+  - simpletest
+  - php
+  - psr
 ---
 
 <p>{{ page.excerpt }}</p>
@@ -39,9 +39,7 @@ files[] = tests/bar.test
 
 Whilst splitting tests into separate files makes things more organised, each
 file needs to be loaded separately. This can be made simpler by using the
-[Xautoload module][], which supports wildcards when declaring files.
-
-[xautoload module]: https://www.drupal.org/project/xautoload
+[Xautoload module], which supports wildcards when declaring files.
 
 ```ini
 files[] = tests/**/*.test
@@ -78,9 +76,6 @@ and `Unit` directories if you like.
 
 If you want to see an real-world example, see the Drupal 7 branch of the
 [Override Node Options module][override_node_options].
-
-[override_node_options]:
-  https://git.drupalcode.org/project/override_node_options/tree/7.x-1.x
 
 ### Digging into the simpletest_test_get_all function
 
@@ -140,3 +135,6 @@ need to include the fully qualified name.
 ```
 php scripts/run-tests.sh --class Drupal\\opdavies\\Tests\\Functional\\OliverDaviesTest
 ```
+
+[override_node_options]: https://git.drupalcode.org/project/override_node_options/tree/7.x-1.x
+[xautoload module]: https://www.drupal.org/project/xautoload

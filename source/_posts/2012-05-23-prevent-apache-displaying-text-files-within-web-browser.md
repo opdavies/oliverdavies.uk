@@ -2,9 +2,9 @@
 title: Prevent Apache from displaying text files within a web browser
 excerpt: How to prevent Apache from displaying the contents of files like CHANGELOG.txt.
 tags:
-    - apache
-    - code
-    - drupal
+  - apache
+  - code
+  - drupal
 ---
 
 When you download [Drupal](http://drupal.org/project/drupal), there are several

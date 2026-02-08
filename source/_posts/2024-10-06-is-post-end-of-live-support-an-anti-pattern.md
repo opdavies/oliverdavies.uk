@@ -18,4 +18,4 @@ Is this deterring companies from upgrading if they know this is an option, or sh
 
 According to <https://www.drupal.org/project/usage/drupal>, there are still 281,000 active Drupal 7 installations.
 
-It's considerably less than before - this  time last year, it was over 380,000 installations - but it's still a lot of Drupal 7 being used.
+It's considerably less than before - this time last year, it was over 380,000 installations - but it's still a lot of Drupal 7 being used.
