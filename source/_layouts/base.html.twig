@@ -51,7 +51,7 @@
   <body>
     <a class="sr-only focus:not-sr-only" href="#footer">Jump to the navigation menu</a>
 
-    <div class="flex flex-col-reverse min-h-screen text-base md:text-xl selection:bg-blue-primary selection:text-white dark:selection:bg-blue-primary dark:selection:text-white">
+    <div class="flex flex-col min-h-screen text-base md:text-xl selection:bg-blue-primary selection:text-white dark:selection:bg-blue-primary dark:selection:text-white">
       <div class="container">
         {% if not (page.url matches "#^/component-library/#") %}
           <header id="page-header">
@@ -102,7 +102,9 @@
         {% endif %}
       </div>
 
-      {% include 'banner' %}
+      <div class="order-first">
+        {% include 'banner' %}
+      </div>
     </div>
 
     {% block scripts %}{% endblock %}
