@@ -1,15 +1,20 @@
 { inputs, ... }:
+
 {
   imports = [
     inputs.treefmt-nix.flakeModule
   ];
 
-  perSystem.treefmt = {
-    flakeCheck = true;
+  perSystem =
+    { pkgs, ... }:
+    {
+      treefmt = {
+        programs = {
+          nixfmt.enable = true;
+          yamlfmt.enable = true;
+        };
 
-    programs = {
-      nixfmt.enable = true;
-      yamlfmt.enable = true;
+      };
+      formatter = pkgs.nixfmt;
     };
-  };
 }
