@@ -14,32 +14,9 @@
       systems = [ "x86_64-linux" ];
 
       imports = [
-        inputs.devshell.flakeModule
-
+        ./nix/dev-shell.nix
         ./nix/formatting.nix
         ./nix/packages.nix
       ];
-
-      perSystem =
-        {
-          lib,
-          pkgs,
-          self',
-          ...
-        }:
-        {
-
-          devshells.default = {
-            commands = import ./nix/commands.nix { inherit lib pkgs; };
-
-            packagesFrom = [
-              self'.packages.default
-            ];
-
-            packages = with pkgs; [
-              nixd
-            ];
-          };
-        };
     };
 }
