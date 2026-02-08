@@ -28,8 +28,6 @@
           "source/_pages/drupal-upgrade.md"
           "source/_pages/mentor.md"
           "source/_pages/press.md"
-          "source/_pages/press.md"
-          "source/_pages/speaker.md"
           "source/_pages/speaker.md"
           "source/_posts/2018-09-04-quick-project-switching-phpstorm.md"
           "source/_posts/2018-11-20-rebuilding-bartik-drupals-default-theme-vuejs-tailwind-css.md"
