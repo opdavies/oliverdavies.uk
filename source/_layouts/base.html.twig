@@ -102,9 +102,11 @@
         {% endif %}
       </div>
 
-      <div class="order-first">
-        {% include 'banner' %}
-      </div>
+      {% if not (page.url matches "#^/component-library/#") %}
+        <div class="order-first">
+          {% include 'banner' %}
+        </div>
+      {% endif %}
     </div>
 
     {% block scripts %}{% endblock %}
