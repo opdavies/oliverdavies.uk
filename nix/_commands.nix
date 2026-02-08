@@ -5,7 +5,9 @@ let
 in
 [
   {
-    command = ''
+    command =
+    # bash
+    ''
       if [[ $# -lt 1 ]]; then
         echo "Usage: $(basename $0) <slug>"
 
@@ -33,7 +35,9 @@ in
   }
 
   {
-    command = ''
+    command =
+    # bash
+    ''
       ${getExe pkgs.rsync} -avzP \
         result/ \
         home02:/nginx-data/oliverdavies.uk \
@@ -46,7 +50,9 @@ in
 
   {
     category = "[dev commands]";
-    command = ''
+    command =
+    # bash
+    ''
       ${getExe pkgs.sculpin} generate \
         --clean \
         --no-interaction \
@@ -60,7 +66,9 @@ in
 
   {
     category = "[dev commands]";
-    command = ''
+    command =
+    # bash
+    ''
       ${pkgs.nodePackages.browser-sync}/bin/browser-sync start \
         --files output_dev \
         --no-notify \
