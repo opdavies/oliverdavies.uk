@@ -32,6 +32,7 @@
           "source/_posts/2018-09-04-quick-project-switching-phpstorm.md"
           "source/_posts/2018-11-20-rebuilding-bartik-drupals-default-theme-vuejs-tailwind-css.md"
           "source/_posts/2020-04-22-test-driven-drupal-on-gitstore-leanpub.md"
+          "source/_posts/2026-02-09-nix-php-developers-phpsw.md"
           "source/_presentations/drupal-8-module-development.md"
           "source/_presentations/out-of-the-box-initiative-update.md"
         ];
