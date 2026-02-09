@@ -24,6 +24,7 @@ events:
     date: 2026-01-14
     urls:
       slides: https://files.oliverdavies.uk/presentations/nix-for-php-developers-phpsw.pdf
+      video: https://www.youtube.com/watch?v=bStpaYIKwnY
       website: https://www.meetup.com/php-sw/events/312728273
   - name: PHP Sussex
     location: Brighton, UK
