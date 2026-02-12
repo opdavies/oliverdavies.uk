@@ -1,5 +1,5 @@
 ---
-title: Simplifying Drupal's default.settings.php file in Vim
+title: Simplifying Drupal's default.settings.php file with Vim
 tags: [php, drupal, vim]
 date: 2026-02-12
 ---
