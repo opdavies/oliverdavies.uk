@@ -43,8 +43,8 @@ use: [testimonials]
           </blockquote>
 
           <div>
-            <footer class="mt-8 flex items-center space-x-4 space-x-reverse">
-              <span class="text-base">
+            <footer>
+              <span class="testimonial__name">
                 {% if variant.context.has_link %}
                   <a href="#0">{{ testimonial.name }}</a>
                 {% else %}
@@ -57,8 +57,8 @@ use: [testimonials]
               </span>
 
               {% if variant.context.has_photo %}
-                <span class="not-prose order-first flex-shrink-0">
-                  <img class="image--circle size-16 ring-[3px] ring-blue-primary dark:ring-white" alt="Photo of {{ testimonial.name }}" src="{{ testimonial.image.url }}">
+                <span class="testimonial__photo">
+                  <img class="image--circle" alt="Photo of {{ testimonial.name }}" src="{{ testimonial.image.url }}">
                 </span>
               {% endif %}
             </footer>

@@ -16,14 +16,14 @@
 
   <div class="space-y-12">
     {% for testimonial in testimonials %}
-      <div class="{{ site.prose_classes }}">
+      <article class="testimonial">
         <blockquote>
           {{ testimonial.blocks.content|raw }}
         </blockquote>
 
         <div>
-          <footer class="mt-8 flex items-center space-x-4 space-x-reverse">
-            <span class="text-base">
+          <footer>
+            <span class="testimonial__name">
               {% if testimonial.website %}
                 <a href="{{ testimonial.website }}">{{ testimonial.name }}</a>
               {% else %}
@@ -36,13 +36,13 @@
             </span>
 
             {% if testimonial.image %}
-              <span class="not-prose order-first flex-shrink-0">
-                <img class="image--circle size-16 ring-[3px] ring-blue-primary dark:ring-white" alt="Photo of {{ testimonial.name }}" src="{{ testimonial.image.url }}">
+              <span class="testimonial__photo">
+                <img class="image--circle" alt="Photo of {{ testimonial.name }}" src="{{ testimonial.image.url }}">
               </span>
             {% endif %}
           </footer>
         </div>
-      </div>
+      </article>
     {% endfor %}
   </div>
 </section>
