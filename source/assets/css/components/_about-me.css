@@ -1,4 +1,4 @@
-aside.about {
+.about {
   > div {
     display: flex;
     flex-direction: column;
@@ -10,6 +10,25 @@ aside.about {
     display: flex;
     flex-shrink: 0;
     justify-content: center;
+  }
+
+  img {
+    --photo-border: var(--color--primary-base);
+
+    border: 3px solid;
+    border-bottom-color: var(--photo-border) !important;
+    border-left-color: var(--photo-border) !important;
+    border-right-color: var(--photo-border) !important;
+    border-top-color: var(--photo-border) !important;
+    height: var(--space--xx-large);
+    margin: 0;
+    width: var(--space--xx-large);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .about img {
+    --photo-border: var(--color--white);
   }
 }
 
