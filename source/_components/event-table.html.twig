@@ -5,10 +5,6 @@ use: [presentations]
 
 {% set sortedPresentations = data.presentations|sort((a, b) => a.events|last.date|date('U') > b.events|last.date|date('U') ? -1 : 1) %}
 
-{% set presentation = sortedPresentations|first %}
-
-<div class="{{ site.prose_classes }}">
-  {% include "presentation/events-new" with {
-    events: presentation.events,
-  } %}
-</div>
+{% include "presentation/events-new" with {
+  events: sortedPresentations|first.events,
+} %}

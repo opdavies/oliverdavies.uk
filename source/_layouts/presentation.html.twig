@@ -15,9 +15,11 @@
     {% endif %}
 
     {% if page.new_events %}
-      {% include 'presentation/events-new' with {
-        events: page.events,
-      } %}
+      <div class="not-prose">
+        {% include 'presentation/events-new' with {
+          events: page.events,
+        } %}
+      </div>
     {% else %}
       {% include 'presentation/slides' with {
         speakerdeck: page.speakerdeck,
