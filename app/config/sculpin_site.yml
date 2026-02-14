@@ -6,7 +6,7 @@ url: http://localhost:8000
 
 assets:
   url: '%url%'
-  version: 7
+  version: 8
 
 banner_text: |
   <p>I'm currently taking on new clients for fixed-price projects or retainers.</p>
