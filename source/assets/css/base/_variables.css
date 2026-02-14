@@ -49,6 +49,9 @@
   --space--xx-large: 4rem;
   --space--xx-small: 0.25rem;
 
+  --transition-duration--base: 0.2s;
+  --transition-timing--base: ease-in-out;
+
   @media (prefers-color-scheme: dark) {
     --bg--code: rgba(0, 0, 0, .5);
 

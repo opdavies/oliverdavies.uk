@@ -3,6 +3,8 @@
 @import "base/_typography.css";
 @import "base/_variables.css";
 
+@import "base/_button.css";
+
 @import "components/_about-me.css";
 @import "components/_banner.css";
 @import "components/_container.css";
