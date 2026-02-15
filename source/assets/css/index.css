@@ -1,3 +1,4 @@
+@import "base/_body.css";
 @import "base/_fonts.css";
 @import "base/_tables.css";
 @import "base/_theme.css";
@@ -14,6 +15,7 @@
 @import "components/_main-menu.css";
 @import "components/_messages.css";
 @import "components/_page-header.css";
+@import "components/_page-footer.css";
 @import "components/_presentation.css";
 @import "components/_testimonial.css";
 
