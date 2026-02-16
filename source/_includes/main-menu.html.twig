@@ -1,6 +1,12 @@
 <nav aria-label="Main menu" id="main-menu">
   {% for link in site.menu_links %}
-    <a href="{{ link.url }}" title="{{ link.attributes.title ?? link.title }}">
+    <a
+      {%- if page.url is same as (link.url ~ '/') %}
+        aria-current="page"
+      {%- endif %}
+      href="{{ link.url }}"
+      title="{{ link.attributes.title ?? link.title }}"
+    >
       {{ link.title }}
     </a>
   {% endfor %}
