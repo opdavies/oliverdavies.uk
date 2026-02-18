@@ -23,6 +23,6 @@ I've created the Album and Pricing card examples so far, but may do more soon.
 I've recently ported this website to be [a Sculpin-powered website][2], so if you want to see another Sculpin example, you can take a look [at the source code][3].
 
 [0]: https://bootstrap-with-tailwind.oliverdavies.uk
-[1]: %7B%7Bsite.url%7D%7D/blog/uis-ive-rebuilt-tailwind-css
-[2]: %7B%7Bsite.url%7D%7D/presentations/sculpin
+[1]: {{site.url}}/blog/uis-ive-rebuilt-tailwind-css
+[2]: {{site.url}}/presentations/sculpin
 [3]: https://code.oliverdavies.uk/opdavies/bootstrap-with-tailwind

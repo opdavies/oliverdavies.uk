@@ -40,4 +40,4 @@ Once pushed, the commit IDs should never change, so this will be a permanent ref
 
 Helpfully, websites like GitHub, GitLab and Bitbucket will identify it as a commit sha and make it clickable so you can easily navigate to the referenced commit.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/05/15/should-you-include-issue-ids-in-your-commit-messages
+[0]: {{site.url}}/daily/2024/05/15/should-you-include-issue-ids-in-your-commit-messages

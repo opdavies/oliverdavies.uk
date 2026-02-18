@@ -9,7 +9,7 @@ tags:
   - docker
 ---
 
-A side effect of [using a tool to generate build configuration files](%7B%7Bsite.url%7D%7D/daily/2023/03/04/why-i-built-a-tool-to-generate-configuration-files) with templates is the consistency that it introduces.
+A side effect of [using a tool to generate build configuration files]({{site.url}}/daily/2023/03/04/why-i-built-a-tool-to-generate-configuration-files) with templates is the consistency that it introduces.
 
 The majority of my projects use a PHP-FPM or PHP CLI container. In my Docker Compose file, the service was mostly named `php` but sometimes it was `php-fpm`. In the templated file, it's always named `php`.
 

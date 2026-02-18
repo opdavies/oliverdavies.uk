@@ -8,7 +8,7 @@ tags:
   - test-driven-development
 ---
 
-If you have multiple implementations of a service, as I [mentioned in yesterday's email](%7B%7Bsite.url%7D%7D/daily/2023/08/23/dont-use-third-party-services-directly), you need to ensure they all provide the same functionality.
+If you have multiple implementations of a service, as I [mentioned in yesterday's email]({{site.url}}/daily/2023/08/23/dont-use-third-party-services-directly), you need to ensure they all provide the same functionality.
 
 You need to be able to run the same tests against each implementation and have them pass.
 

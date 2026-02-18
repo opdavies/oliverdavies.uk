@@ -24,6 +24,6 @@ Each component is a Twig component with its own PHP class and Twig template, whi
 
 You can [view the code on GitHub][repo], and it may be something I use and work on in the future.
 
-[mark]: %7B%7Bsite.url%7D%7D/podcast/11-mark-conroy
+[mark]: {{site.url}}/podcast/11-mark-conroy
 [repo]: https://github.com/opdavies/symfony-design-system
-[ryan]: %7B%7Bsite.url%7D%7D/podcast/10-ryan-weaver-symfonycasts
+[ryan]: {{site.url}}/podcast/10-ryan-weaver-symfonycasts

@@ -23,6 +23,6 @@ I have a few more recorded episodes that will be released over the next few week
 
 If you want to be a guest on Beyond Blocks, [let me know][2].
 
-[0]: %7B%7Bsite.url%7D%7D/podcast
-[1]: %7B%7Bsite.url%7D%7D/podcast/17-jochen-lillich
+[0]: {{site.url}}/podcast
+[1]: {{site.url}}/podcast/17-jochen-lillich
 [2]: https://forms.gle/5LCDdrXyqyrbC4ry9

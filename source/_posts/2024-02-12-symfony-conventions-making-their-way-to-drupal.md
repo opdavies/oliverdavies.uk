@@ -38,6 +38,6 @@ P.S. Do you need immediate access to an expert Drupal Developer? [With my Drupal
 
 {% endblock %}
 
-[atdc]: %7B%7Bsite.url%7D%7D/atdc
-[podcast]: %7B%7Bsite.url%7D%7D/podcast/10-ryan-weaver-symfonycasts
-[subscription]: %7B%7Bsite.url%7D%7D/subscription
+[atdc]: {{site.url}}/atdc
+[podcast]: {{site.url}}/podcast/10-ryan-weaver-symfonycasts
+[subscription]: {{site.url}}/subscription

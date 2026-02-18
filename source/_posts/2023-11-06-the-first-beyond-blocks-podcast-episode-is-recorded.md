@@ -20,4 +20,4 @@ Thank you, Matt, for being the first guest on the Beyond Blocks podcast.
 
 I have other guests booked for this week, so the episode with Matt will be [published soon][podcast].
 
-[podcast]: %7B%7Bsite.url%7D%7D/podcast
+[podcast]: {{site.url}}/podcast

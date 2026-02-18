@@ -30,4 +30,4 @@ public function it_returns_the_endpoint()
 
 Which do you prefer?
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/04/04/php-attributes--coming-soon-to-a-drupal-version-near-you
+[0]: {{site.url}}/daily/2024/04/04/php-attributes--coming-soon-to-a-drupal-version-near-you

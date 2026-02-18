@@ -20,5 +20,5 @@ This is daily email #714, which means I'll get to 1,000 emails in October - whic
 
 Of course, I want to continue growing my email list, podcast listeners and YouTube followers, so if anything is interesting to you, please share it with anyone else you think would benefit from it.
 
-[0]: %7B%7Bsite.url%7D%7D/podcast
+[0]: {{site.url}}/podcast
 [1]: https://www.youtube.com/@opdavies/streams

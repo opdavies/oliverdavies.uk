@@ -28,5 +28,5 @@ P.S. Do you need immediate access to an expert Drupal Developer? [With my Drupal
 
 {% endblock %}
 
-[episode]: %7B%7Bsite.url%7D%7D/podcast/10-ryan-weaver-symfonycasts
-[subscription]: %7B%7Bsite.url%7D%7D/subscription
+[episode]: {{site.url}}/podcast/10-ryan-weaver-symfonycasts
+[subscription]: {{site.url}}/subscription

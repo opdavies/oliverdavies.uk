@@ -38,4 +38,4 @@ Are you doing CI or CD?
 
 What other Drupal or techy jargon terms do you see regularly?
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2025/02/14/drupalisms
+[0]: {{site.url}}/daily/2025/02/14/drupalisms

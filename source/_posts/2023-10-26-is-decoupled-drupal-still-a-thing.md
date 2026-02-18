@@ -30,4 +30,4 @@ If not, or if you've moved back to a more traditional approach, why?
 
 Reply and let me know.
 
-[talk]: %7B%7Bsite.url%7D%7D/talks/decoupling-drupal-vuejs
+[talk]: {{site.url}}/talks/decoupling-drupal-vuejs

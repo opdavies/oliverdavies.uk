@@ -27,4 +27,4 @@ This finds TODO comments in the st.c file so those can be included.
 [0]: https://git.suckless.org/st/file/TODO.html
 [1]: https://st.suckless.org
 [2]: https://github.com/search?q=path%3Atodo.txt+OR+path%3Atodo.md+OR+path%3Atodo.html&type=code
-[3]: %7B%7Bsite.url%7D%7D/daily/2025/01/03/todotxt
+[3]: {{site.url}}/daily/2025/01/03/todotxt

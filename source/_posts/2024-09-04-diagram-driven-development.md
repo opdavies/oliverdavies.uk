@@ -21,6 +21,6 @@ Similar to writing the README first, creating a diagram upfront helps me clarify
 
 And using Mermaid means I can create it and push a temporary branch or create a pull or merge request to share it with colleagues to review before I start.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/08/18/mermaid-markdown-for-charts
+[0]: {{site.url}}/daily/2024/08/18/mermaid-markdown-for-charts
 [1]: https://github.com/opdavies/build-configs/tree/f02fce7ff5b5cff202ec8b893a4b3c7e7c56f3c4/docs
-[2]: %7B%7Bsite.url%7D%7D/daily/2024/08/27/build-configs-is-open-source
+[2]: {{site.url}}/daily/2024/08/27/build-configs-is-open-source

@@ -46,4 +46,4 @@ A feature flag is a temporary solution for separating the deployment of code fro
 Once it's been released, the flag should be removed.
 
 [tweet]: https://twitter.com/opdavies/status/1767846980250714261
-[versa]: %7B%7Bsite.url%7D%7D/daily/2024/02/19/introducing-versa
+[versa]: {{site.url}}/daily/2024/02/19/introducing-versa

@@ -50,6 +50,6 @@ ______________________________________________________________________
 
 FYI, there is an existing `notes` program in nixpkgs, but I overwrote it with Nick's, which is another great thing about using Nix!
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/10/write-plain-text-files
+[0]: {{site.url}}/daily/2024/11/10/write-plain-text-files
 [1]: https://youtu.be/NasPBjSev88?si=nSaCxdtXuznQ_YYb
-[2]: %7B%7Bsite.url%7D%7D/podcast/12-nick-janetakis-docker
+[2]: {{site.url}}/podcast/12-nick-janetakis-docker

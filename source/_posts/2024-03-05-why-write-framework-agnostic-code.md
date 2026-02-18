@@ -27,4 +27,4 @@ It's something to consider when writing your next Drupal module.
 It's something [I did recently][nre parser] and have done on client projects previously, and it can be a good approach.
 
 [nre parser]: https://github.com/opdavies/national-rail-enquiries-feed-parser
-[yesterday]: %7B%7Bsite.url%7D%7D//daily/2024/03/04/why-you-need-layers-in-your-application-code
+[yesterday]: {{site.url}}//daily/2024/03/04/why-you-need-layers-in-your-application-code

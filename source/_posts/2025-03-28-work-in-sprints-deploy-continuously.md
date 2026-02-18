@@ -43,6 +43,6 @@ If you need to do manual testing, use feature flags to [separate deploying the c
 
 Then, when it's ready to go live, you only need to enable the feature flag - no code deployment needed.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2023/06/21/deployments-or-releases
-[1]: %7B%7Bsite.url%7D%7D/daily/2022/12/07/separating-releases-from-deployments-with-feature-flags
-[2]: %7B%7Bsite.url%7D%7D/daily/2025/02/18/conflicts
+[0]: {{site.url}}/daily/2023/06/21/deployments-or-releases
+[1]: {{site.url}}/daily/2022/12/07/separating-releases-from-deployments-with-feature-flags
+[2]: {{site.url}}/daily/2025/02/18/conflicts

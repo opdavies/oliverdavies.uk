@@ -18,5 +18,5 @@ Just make sure to validate and verify whatever it gives you.
 
 Once you've committed it, you're responsible for it.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/05/31/putting-glue-on-pizza
-[1]: %7B%7Bsite.url%7D%7D/daily/2024/10/08/ai-in-drupal
+[0]: {{site.url}}/daily/2024/05/31/putting-glue-on-pizza
+[1]: {{site.url}}/daily/2024/10/08/ai-in-drupal

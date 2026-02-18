@@ -27,4 +27,4 @@ Ansible is a great tool for this type of task and, just because it's a tool I ha
 It's still in my toolkit, just in case I need it.
 
 [commit]: https://github.com/opdavies/oliverdavies.uk/commit/cd6575c6fcc091a0b7c98b6985b3a92b85e279e3
-[talk]: %7B%7Bsite.url%7D%7D/presentations/deploying-php-ansible-ansistrano
+[talk]: {{site.url}}/presentations/deploying-php-ansible-ansistrano

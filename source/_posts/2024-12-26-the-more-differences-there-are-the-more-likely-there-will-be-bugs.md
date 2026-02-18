@@ -26,4 +26,4 @@ It also meant that I needed to write my changes in an automated and repeatable w
 
 How in sync are your environments and how similar to production is the environment you're testing against?
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/12/24/moving-changes
+[0]: {{site.url}}/daily/2024/12/24/moving-changes

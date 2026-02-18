@@ -19,4 +19,4 @@ I'm much happier deploying to production if I've already done so that day, or at
 
 Any time more than that, or if the changeset is large, the more likely there will be issues and the longer it will take to resolve them.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/09/11/do-you-deploy-on-fridays
+[0]: {{site.url}}/daily/2024/09/11/do-you-deploy-on-fridays

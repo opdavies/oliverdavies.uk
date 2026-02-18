@@ -28,7 +28,7 @@ Sam Mortenson (the creator of Tome) and I discussed it on [episode 19 of the Bey
 So, if you like Drupal and the benefits of static sites, Tome may be a good solution for you.
 
 [0]: https://www.drupal.org/project/tome
-[1]: %7B%7Bsite.url%7D%7D/podcast/19-sam-mortenson
-[2]: %7B%7Bsite.url%7D%7D/daily/2025/03/12/easy
-[3]: %7B%7Bsite.url%7D%7D/daily/2025/03/13/deploy
-[4]: %7B%7Bsite.url%7D%7D/presentations/sculpin
+[1]: {{site.url}}/podcast/19-sam-mortenson
+[2]: {{site.url}}/daily/2025/03/12/easy
+[3]: {{site.url}}/daily/2025/03/13/deploy
+[4]: {{site.url}}/presentations/sculpin

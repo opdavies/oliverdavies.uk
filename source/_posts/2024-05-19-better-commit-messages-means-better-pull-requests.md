@@ -21,6 +21,6 @@ The text will also remain in the pull or merge request, even if [someone squashe
 
 The issue then is, [what if you move to a different Git hosting service][2]?
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/05/17/why-i-dont-commit-with--m
-[1]: %7B%7Bsite.url%7D%7D/daily/2024/05/11/don-t-delete-my-commit-messages
-[2]: %7B%7Bsite.url%7D%7D/daily/2024/05/15/should-you-include-issue-ids-in-your-commit-messages
+[0]: {{site.url}}/daily/2024/05/17/why-i-dont-commit-with--m
+[1]: {{site.url}}/daily/2024/05/11/don-t-delete-my-commit-messages
+[2]: {{site.url}}/daily/2024/05/15/should-you-include-issue-ids-in-your-commit-messages

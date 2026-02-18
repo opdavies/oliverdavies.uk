@@ -23,4 +23,4 @@ Instead of a pre-built dev shell, this creates a new flake.nix and flake.lock fi
 
 It's like a mini version of [Build Configs][0].
 
-[0]: %7B%7Bsite.url%7D%7D/presentations/building-build-configs
+[0]: {{site.url}}/presentations/building-build-configs

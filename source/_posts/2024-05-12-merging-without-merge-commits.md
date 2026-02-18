@@ -38,5 +38,5 @@ When working with online tools such as GitHub and GitLab, I avoid any options li
 
 Or use [trunk-based development][2] and don't work on topic branches at all.
 
-[1]: %7B%7Bsite.url%7D%7D/daily/2024/05/10/optimise-for-revertability
-[2]: %7B%7Bsite.url%7D%7D/daily/2023/06/17/avoid-git-merge-hell-with-trunk-based-development
+[1]: {{site.url}}/daily/2024/05/10/optimise-for-revertability
+[2]: {{site.url}}/daily/2023/06/17/avoid-git-merge-hell-with-trunk-based-development

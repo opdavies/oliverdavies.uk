@@ -18,6 +18,6 @@ Otherwise, when you need to add to or refactor this code in the future, it will 
 
 Consistency is key.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/09/19/the-two-ways-of-writing-php-code
-[1]: %7B%7Bsite.url%7D%7D/daily/2023/04/19/camel-case-or-snake-case-for-drupal-code
-[2]: %7B%7Bsite.url%7D%7D/daily/2022/11/14/camel-case-or-snake-case-for-test-methods
+[0]: {{site.url}}/daily/2024/09/19/the-two-ways-of-writing-php-code
+[1]: {{site.url}}/daily/2023/04/19/camel-case-or-snake-case-for-drupal-code
+[2]: {{site.url}}/daily/2022/11/14/camel-case-or-snake-case-for-test-methods

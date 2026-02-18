@@ -25,4 +25,4 @@ For example:
 
 Next time, instead of manually reverting a commit, give `git revert` a try.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/05/20/referencing-other-commits-in-commit-messages
+[0]: {{site.url}}/daily/2024/05/20/referencing-other-commits-in-commit-messages

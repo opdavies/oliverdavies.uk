@@ -27,5 +27,5 @@ Happy testing!
 {% endblock %}
 
 {% block cta %}
-P.S. Did you on this list by mistake? If you want the email course but are getting these daily emails instead, feel free to unsubscribe from this list and re-register for the course at [{{site.url}}/atdc](%7B%7Bsite.url%7D%7D/atdc).
+P.S. Did you on this list by mistake? If you want the email course but are getting these daily emails instead, feel free to unsubscribe from this list and re-register for the course at [{{site.url}}/atdc]({{site.url}}/atdc).
 {% endblock %}

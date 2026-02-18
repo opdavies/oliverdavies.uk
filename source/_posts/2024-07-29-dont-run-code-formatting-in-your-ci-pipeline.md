@@ -31,6 +31,6 @@ If you're working on a topic branch and creating a pull or merge request, you ca
 
 Instead of relying on a CI pipeline to run code formatting, [make it easy to run those tasks locally][2].
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/07/25/only-have-one-url-per-git-remote
-[1]: %7B%7Bsite.url%7D%7D/daily/2024/05/11/don-t-delete-my-commit-messages
-[2]: %7B%7Bsite.url%7D%7D/daily/2022/08/15/using-run-file-simplify-project-tasks
+[0]: {{site.url}}/daily/2024/07/25/only-have-one-url-per-git-remote
+[1]: {{site.url}}/daily/2024/05/11/don-t-delete-my-commit-messages
+[2]: {{site.url}}/daily/2022/08/15/using-run-file-simplify-project-tasks

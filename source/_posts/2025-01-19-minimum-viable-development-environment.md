@@ -68,5 +68,5 @@ Once the database server is running and Drupal is installed, I can run `drush ru
 
 If you want to see another example, see the [flake.nix file for this website][1].
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/11/could-nix-and-devenv-replace-docker-compose
+[0]: {{site.url}}/daily/2024/11/11/could-nix-and-devenv-replace-docker-compose
 [1]: https://code.oliverdavies.uk/opdavies/oliverdavies.uk/src/commit/4350852406e9556b63a1df448f225abbd7883651/flake.nix

@@ -121,6 +121,6 @@ grep -r "date:" source/_presentations/*.md | awk -v today="$(date +%Y-%m-%d)" '{
 
 This isn't how I'm calculating this on my website (I'm using a [custom Twig extension in Sculpin][2] for that), but this is an example of how multiple command line utilities can work together to perform a task - made possible using the static files from my website.
 
-[0]: %7B%7Bsite.url%7D%7D/presentations/sculpin
-[1]: %7B%7Bsite.url%7D%7D/presentations/rst2pdf
-[2]: %7B%7Bsite.url%7D%7D/daily/2025/05/02/extend
+[0]: {{site.url}}/presentations/sculpin
+[1]: {{site.url}}/presentations/rst2pdf
+[2]: {{site.url}}/daily/2025/05/02/extend

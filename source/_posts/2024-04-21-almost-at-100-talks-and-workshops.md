@@ -22,6 +22,6 @@ This means that these will be my 99th and 100th presentations!
 
 I enjoy speaking at events such as meetups and conferences, and I hope people have learned from them as well.
 
-[tailwind css]: %7B%7Bsite.url%7D%7D/talks/taking-flight-with-tailwind-css
-[talks]: %7B%7Bsite.url%7D%7D/talks
-[testing]: %7B%7Bsite.url%7D%7D/talks/tdd-test-driven-drupal
+[tailwind css]: {{site.url}}/talks/taking-flight-with-tailwind-css
+[talks]: {{site.url}}/talks
+[testing]: {{site.url}}/talks/tdd-test-driven-drupal

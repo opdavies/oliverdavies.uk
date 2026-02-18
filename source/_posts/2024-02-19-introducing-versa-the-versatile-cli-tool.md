@@ -34,5 +34,5 @@ That'll be where the more complex code will be added and when I start doing test
 
 Interested? [Take a look at the code][github].
 
-[build configs]: %7B%7Bsite.url%7D%7D/build-configs
+[build configs]: {{site.url}}/build-configs
 [github]: https://github.com/opdavies/versa

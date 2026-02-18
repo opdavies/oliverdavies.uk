@@ -20,6 +20,6 @@ Similar to my [automated testing email course][1], this will send a lesson every
 
 If you want to be added when it's ready or have questions, reply to this email and let me know.
 
-[0]: %7B%7Bsite.url%7D%7D/presentations/test-drive-twig-with-sculpin
-[1]: %7B%7Bsite.url%7D%7D/atdc
-[2]: %7B%7Bsite.url%7D%7D/presentations/building-static-websites-sculpin
+[0]: {{site.url}}/presentations/test-drive-twig-with-sculpin
+[1]: {{site.url}}/atdc
+[2]: {{site.url}}/presentations/building-static-websites-sculpin

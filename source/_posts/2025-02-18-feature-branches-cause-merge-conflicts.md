@@ -35,6 +35,6 @@ I do [test-driven development][2] and usually commit after each passing test.
 
 If you work on a single branch and pull and push changes regularly, you're much less likely to get merge conflicts and Developers can focus on pushing code instead of fixing merge conflicts.
 
-[0]: %7B%7Bsite.url%7D%7D/presentations/git-flow
-[1]: %7B%7Bsite.url%7D%7D/daily/2025/02/17/ci-cd
-[2]: %7B%7Bsite.url%7D%7D/atdc
+[0]: {{site.url}}/presentations/git-flow
+[1]: {{site.url}}/daily/2025/02/17/ci-cd
+[2]: {{site.url}}/atdc

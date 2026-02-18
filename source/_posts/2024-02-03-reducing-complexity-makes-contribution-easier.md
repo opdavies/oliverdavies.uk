@@ -25,4 +25,4 @@ This is a big advantage in the open-source space and for companies and project t
 Having simpler code and fewer tools makes it easier for others to understand and work on your codebase, making them productive sooner.
 
 [mark]: https://mark.ie
-[podcast]: %7B%7Bsite.url%7D%7D/podcast
+[podcast]: {{site.url}}/podcast

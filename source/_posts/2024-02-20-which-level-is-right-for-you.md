@@ -85,4 +85,4 @@ Similar to 100% test coverage, is aiming for the highest PHPStan level an object
 
 Which level is right for you and this codebase?
 
-[versa]: %7B%7Bsite.url%7D%7D/daily/2024/02/19/introducing-versa
+[versa]: {{site.url}}/daily/2024/02/19/introducing-versa

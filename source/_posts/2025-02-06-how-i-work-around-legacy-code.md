@@ -70,4 +70,4 @@ You can incrementally migrate to the new approach and refactor out the old code,
 
 Do you do the same thing or do you handle legacy code in a different way?
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2025/02/03/testable
+[0]: {{site.url}}/daily/2025/02/03/testable

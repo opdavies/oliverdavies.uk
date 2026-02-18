@@ -21,4 +21,4 @@ I'm going to be giving a talk and demo of [automated testing and test-driven dev
 
 RSVPs are still open for the event and hopefully I'll get to attend Drupal London in person in the future.
 
-[0]: %7B%7Bsite.url%7D%7D/presentations/tdd-test-driven-drupal
+[0]: {{site.url}}/presentations/tdd-test-driven-drupal

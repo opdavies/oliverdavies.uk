@@ -33,4 +33,4 @@ If I can, I much prefer the install approach rather than importing.
 
 Which do you do, or do you do something else?
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/09/16/experimenting-with-the-default-content-module
+[0]: {{site.url}}/daily/2024/09/16/experimenting-with-the-default-content-module

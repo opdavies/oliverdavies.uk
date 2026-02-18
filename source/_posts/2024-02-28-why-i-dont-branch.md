@@ -29,4 +29,4 @@ Working mostly on a single branch avoids merge conflicts, saves time, and simpli
 
 No more confusion, merge conflicts or broken demos.
 
-[previous]: %7B%7Bsite.url%7D%7D/daily/2024/02/25/why-do-people-still-use-git-flow
+[previous]: {{site.url}}/daily/2024/02/25/why-do-people-still-use-git-flow

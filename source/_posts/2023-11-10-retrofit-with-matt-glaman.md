@@ -11,7 +11,7 @@ tags:
   - beyond-blocks
 ---
 
-Today, I released [the first episode of the "Beyond Blocks" podcast](%7B%7Bsite.url%7D%7D/podcast/1-retrofit).
+Today, I released [the first episode of the "Beyond Blocks" podcast]({{site.url}}/podcast/1-retrofit).
 
 I spoke with Matt Glaman - Principal Software Engineer at Acquia and author of Retrofit.
 
@@ -19,4 +19,4 @@ Retrofit makes it easier to upgrade from Drupal 7 by adding compatibility layers
 
 I've been aware of Matt and his work for some time, including his work on Drupal Commerce, so it was great to speak with him and for him to be the first guest on the podcast.
 
-Future episodes will be [published online](%7B%7Bsite.url%7D%7D/podcast) weekly, so feel free to subscribe and let me know if you have feedback, suggestions for future guests and topics, or want to be a guest.
+Future episodes will be [published online]({{site.url}}/podcast) weekly, so feel free to subscribe and let me know if you have feedback, suggestions for future guests and topics, or want to be a guest.

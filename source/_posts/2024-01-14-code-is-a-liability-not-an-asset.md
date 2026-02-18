@@ -30,4 +30,4 @@ It also depends on whether you want to maintain the code you write over time, fi
 
 Like a house, car or pet, any code you write will need ongoing care and maintenance in the future - not just now.
 
-[episode]: %7B%7Bsite.url%7D%7D/podcast/7-mike-karthauser-testing-legacy
+[episode]: {{site.url}}/podcast/7-mike-karthauser-testing-legacy

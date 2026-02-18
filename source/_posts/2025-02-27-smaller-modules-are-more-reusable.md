@@ -32,4 +32,4 @@ Then, if you need, you can extend the code in a custom module or add features [b
 
 [0]: https://www.drupal.org/project/system_user
 [1]: https://www.drupal.org/project/null_user
-[2]: %7B%7Bsite.url%7D%7D/daily/2025/02/24/patch
+[2]: {{site.url}}/daily/2025/02/24/patch

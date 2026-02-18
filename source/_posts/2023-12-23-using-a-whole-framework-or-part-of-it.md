@@ -24,4 +24,4 @@ Start small, keep things simple, and add what you need.
 
 You don't need to go all in on one option, you can pick the pieces you like and that work for you.
 
-[yesterday]: %7B%7Bsite.url%7D%7D/daily/2023/12/22/best-language-cms-or-framework
+[yesterday]: {{site.url}}/daily/2023/12/22/best-language-cms-or-framework

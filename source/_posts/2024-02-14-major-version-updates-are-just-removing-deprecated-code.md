@@ -38,5 +38,5 @@ Then, finally, you *just* update to the next major version.
 
 All the hard work has already been done.
 
-[podcast]: %7B%7Bsite.url%7D%7D/podcast/10-ryan-weaver-symfonycasts
+[podcast]: {{site.url}}/podcast/10-ryan-weaver-symfonycasts
 [video]: https://symfonycasts.com/screencast/symfony7-upgrade

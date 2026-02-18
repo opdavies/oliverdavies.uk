@@ -56,7 +56,7 @@ P.S. If you want to learn how to use feature flags and continuous integration an
 
 {% endblock %}
 
-[feature flags]: %7B%7Bsite.url%7D%7D/daily/2022/12/07/separating-releases-from-deployments-with-feature-flags
-[git worktrees]: %7B%7Bsite.url%7D%7D/daily/2022/08/12/git-worktrees-docker-compose
-[post]: %7B%7Bsite.url%7D%7D/daily/2024/02/28/why-i-dont-branch
-[subscription]: %7B%7Bsite.url%7D%7D/subscription
+[feature flags]: {{site.url}}/daily/2022/12/07/separating-releases-from-deployments-with-feature-flags
+[git worktrees]: {{site.url}}/daily/2022/08/12/git-worktrees-docker-compose
+[post]: {{site.url}}/daily/2024/02/28/why-i-dont-branch
+[subscription]: {{site.url}}/subscription

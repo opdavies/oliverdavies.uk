@@ -21,4 +21,4 @@ This is an excellent example of why I built this tool: to save time and reduce d
 
 For this change, it did both.
 
-[build configs]: %7B%7Bsite.url%7D%7D/talks/building-build-configs
+[build configs]: {{site.url}}/talks/building-build-configs

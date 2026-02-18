@@ -17,5 +17,5 @@ We discussed the work happening in Drupal and Drupal CMS to de-jargon Drupal, th
 
 If you want to be a guest on the [Beyond Blocks podcast][1], reply and let me know.
 
-[0]: %7B%7Bsite.url%7D%7D/podcast/27-drupalisms
-[1]: %7B%7Bsite.url%7D%7D/podcast
+[0]: {{site.url}}/podcast/27-drupalisms
+[1]: {{site.url}}/podcast

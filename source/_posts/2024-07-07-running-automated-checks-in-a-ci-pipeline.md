@@ -21,4 +21,4 @@ If not, the commit should not be deployed and it should be fixed.
 
 This makes a CI pipeline and automated checks vital to ensure the quality of your software, to identify regressions, and to avoid promoting and releasing broken code.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/07/03/committing-ci-artifacts
+[0]: {{site.url}}/daily/2024/07/03/committing-ci-artifacts

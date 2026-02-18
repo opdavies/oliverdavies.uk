@@ -26,4 +26,4 @@ There's an ecosystem around configuration management, including Config Split for
 
 I recently worked on a project where we didn't have a CI pipeline running configuration imports on each change and things were very difficult to manage. Once that was in place, though, things were much easier, more consistent and changes were quicker to release.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/12/23/how-many-environments-do-you-need
+[0]: {{site.url}}/daily/2024/12/23/how-many-environments-do-you-need

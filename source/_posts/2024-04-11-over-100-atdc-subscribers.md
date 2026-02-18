@@ -20,4 +20,4 @@ Automated testing and test-driven development were game changers for me and enab
 
 If you'd like to take the course and learn how to do automated testing in Drupal, you can [register for free][register] and get them direct to your inbox.
 
-[register]: %7B%7Bsite.url%7D%7D/atdc
+[register]: {{site.url}}/atdc

@@ -25,5 +25,5 @@ Because of this, I can subscribe to the feeds I want from any website that creat
 
 Long live the open web!
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2025/02/02/simple
+[0]: {{site.url}}/daily/2025/02/02/simple
 [1]: https://www.drupal.org/association/open-web-manifesto

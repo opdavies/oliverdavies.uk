@@ -23,4 +23,4 @@ There are more places for bugs and issues to hide.
 Keeping the amount of code to a minimum makes it quicker and easier to write, review and release as well as fix any bugs that are found in the future.
 
 [0]: https://github.com/AlDanial/cloc
-[1]: %7B%7Bsite.url%7D%7D/daily/2025/02/16/pre-optimise
+[1]: {{site.url}}/daily/2025/02/16/pre-optimise

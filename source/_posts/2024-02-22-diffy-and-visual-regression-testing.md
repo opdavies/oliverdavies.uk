@@ -21,4 +21,4 @@ There are types of issues, though, such as breakages within the page layout or s
 
 I added to my website during the recording and can see what value it offers as an additional layer of testing on top of the tests I already write.
 
-[podcast]: %7B%7Bsite.url%7D%7D/podcast
+[podcast]: {{site.url}}/podcast

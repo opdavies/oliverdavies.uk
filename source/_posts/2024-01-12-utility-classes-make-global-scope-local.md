@@ -9,7 +9,7 @@ tags:
   - tailwind-css
 ---
 
-In my [recent pair programming session](%7B%7Bsite.url%7D%7D/daily/2024/01/09/using-tailwind-css-is-a-great-way-to-learn-css), building components with Tailwind CSS, we experienced another benefit of styling with utility classes.
+In my [recent pair programming session]({{site.url}}/daily/2024/01/09/using-tailwind-css-is-a-great-way-to-learn-css), building components with Tailwind CSS, we experienced another benefit of styling with utility classes.
 
 CSS usually has a global scope, but utility classes change it to a local scope.
 

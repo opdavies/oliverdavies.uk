@@ -652,7 +652,7 @@ code to the [GitHub repository][3], and will also do another blog post
 highlighting the differences between functional and kernel tests and the steps
 taken to do the conversion.
 
-[0]: %7B%7Bsite.url%7D%7D/talks/tdd-test-driven-drupal
+[0]: {{site.url}}/talks/tdd-test-driven-drupal
 [1]: http://2017.drupal.ie
 [2]: https://github.com/opdavies/tdd_dublin
 [3]: https://packagist.org/packages/tightenco/collect

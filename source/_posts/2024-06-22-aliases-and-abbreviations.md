@@ -25,5 +25,5 @@ I use aliases for commands I don't want to expand, but I've moved everything els
 
 If you use zsh, I recommend trying it.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/06/21/dont-use-aliases
+[0]: {{site.url}}/daily/2024/06/21/dont-use-aliases
 [1]: https://github.com/opdavies/dotfiles.nix/commit/0df5f17dae4328546b5d08eef141656a5de2b522

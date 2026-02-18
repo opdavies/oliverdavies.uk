@@ -40,4 +40,4 @@ There is a larger refactor I could do by introducing another layout or
 additional Twig blocks, but this was the simplest solution to achieve what I
 wanted.
 
-[0]: %7B%7Bsite.url%7D%7D/blog/sculpin-component-library-part1
+[0]: {{site.url}}/blog/sculpin-component-library-part1

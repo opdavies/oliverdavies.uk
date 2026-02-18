@@ -16,6 +16,6 @@ I was building a hosted dashboard for multiple Drupal applications so people cou
 
 I have a short list of other ideas, but if you have one, reply and let me know.
 
-[0]: %7B%7Bsite.url%7D%7D/atdc
+[0]: {{site.url}}/atdc
 [1]: https://symposiumapp.com
 [2]: https://www.drupal-remote-dashboard.com

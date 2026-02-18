@@ -58,5 +58,5 @@ If I tried searching for `.sidebar-wrapper` or `.sidebar-wrapper a:hover`, they 
 
 It's taken me a while to get back into this way of working with CSS, but it does remind me [why I prefer to use utility styles][talk] for my own projects.
 
-[nesting]: %7B%7Bsite.url%7D%7D/daily/2024/07/08/back-to-sass-and-traditional-css
-[talk]: %7B%7Bsite.url%7D%7D/presentations/taking-flight-with-tailwind-css
+[nesting]: {{site.url}}/daily/2024/07/08/back-to-sass-and-traditional-css
+[talk]: {{site.url}}/presentations/taking-flight-with-tailwind-css

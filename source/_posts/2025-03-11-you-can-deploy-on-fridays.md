@@ -34,5 +34,5 @@ Ideally, a production release every day - even if the changes are small or every
 
 Deploying on Friday is easy if you last deployed on Thursday.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2025/01/30/gatekeeper
-[1]: %7B%7Bsite.url%7D%7D/daily/2023/09/28/feature-flags-enable-continuous-integration
+[0]: {{site.url}}/daily/2025/01/30/gatekeeper
+[1]: {{site.url}}/daily/2023/09/28/feature-flags-enable-continuous-integration

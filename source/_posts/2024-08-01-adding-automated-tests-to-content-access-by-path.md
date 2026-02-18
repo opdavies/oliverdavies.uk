@@ -24,7 +24,7 @@ Today, that merge request was approved and the tests were added to the module, s
 
 I also added GitLab configuration, so the tests will automatically run for every change and help avoid regressions in the future.
 
-[0]: %7B%7Bsite.url%7D%7D/podcast/11-mark-conroy
+[0]: {{site.url}}/podcast/11-mark-conroy
 [1]: https://runningplangenerator.com
 [2]: https://www.drupal.org/project/content_access_by_path
 [3]: https://www.youtube.com/live/XTpliKd47Lg

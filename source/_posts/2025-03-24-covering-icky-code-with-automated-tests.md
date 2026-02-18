@@ -28,4 +28,4 @@ This will make it easier to understand what the code does as the tests will act 
 
 Once there are tests, the code will be easier to add to, change, refactor, read and understand.
 
-[0]: %7B%7Bsite.url%7D%7D/presentations/tdd-test-driven-drupal
+[0]: {{site.url}}/presentations/tdd-test-driven-drupal

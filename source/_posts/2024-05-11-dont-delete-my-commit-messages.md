@@ -21,4 +21,4 @@ I'd rather [keep the original commits intact][yesterday] but, if you need to squ
 
 People can see the changes by viewing the commits, but the information within the commit messages are valuable, too.
 
-[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/05/10/optimise-for-revertability
+[yesterday]: {{site.url}}/daily/2024/05/10/optimise-for-revertability

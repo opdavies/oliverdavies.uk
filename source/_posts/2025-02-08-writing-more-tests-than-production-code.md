@@ -20,4 +20,4 @@ There should be different tests for different situations, such as different type
 
 Looking at the diff of a commit or merge request, there should be more changes to the test then the code it's testing.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2025/02/07/less
+[0]: {{site.url}}/daily/2025/02/07/less

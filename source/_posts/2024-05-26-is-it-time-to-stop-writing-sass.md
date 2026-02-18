@@ -19,4 +19,4 @@ Using regular CSS also makes it easier to onboard new Developers onto your proje
 
 [custom properties]: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 [nesting]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting
-[podcast]: %7B%7Bsite.url%7D%7D/podcast/11-mark-conroy
+[podcast]: {{site.url}}/podcast/11-mark-conroy

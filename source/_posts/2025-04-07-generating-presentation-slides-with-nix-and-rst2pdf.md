@@ -102,4 +102,4 @@ Each talk is its own derivation, so I can run `nix run .#test-driven-drupal` and
 
 The source code is available at <https://code.oliverdavies.uk/opdavies/talks> if you want to see how I use rst2pdf to create my presentations and I've even [given a presentation about how I create presentations][0].
 
-[0]: %7B%7Bsite.url%7D%7D/presentations/building-presenting-slide-decks-rst2pdf
+[0]: {{site.url}}/presentations/building-presenting-slide-decks-rst2pdf

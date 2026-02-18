@@ -26,4 +26,4 @@ I like this approach of working in small feedback cycles and alternating between
 
 Testing this way isn't boring or a chore and much more interesting for me compared to writing all the code first and maybe writing the tests later.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/09/28/testing-personal-projects
+[0]: {{site.url}}/daily/2024/09/28/testing-personal-projects

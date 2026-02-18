@@ -28,5 +28,5 @@ If you have an existing solution, I don't think it will be removed or abandoned 
 
 But, for new Drupal users and teams, one official development environment would be a big plus.
 
-[mine]: %7B%7Bsite.url%7D%7D/daily/2022/08/21/2022-08-21
+[mine]: {{site.url}}/daily/2022/08/21/2022-08-21
 [post]: https://kevinquillen.com/ddev-being-considered-official-drupal-development-environment

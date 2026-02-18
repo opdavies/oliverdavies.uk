@@ -32,6 +32,6 @@ P.S. Do you need immediate access to an expert Drupal Developer? [With my Drupal
 
 {% endblock %}
 
-[adr]: %7B%7Bsite.url%7D%7D/daily/2022/09/23/adrs-technical-design-documents
-[previous]: %7B%7Bsite.url%7D%7D/daily/2024/01/27/gitignore-inclusive-or-exclusive
-[subscription]: %7B%7Bsite.url%7D%7D/subscription
+[adr]: {{site.url}}/daily/2022/09/23/adrs-technical-design-documents
+[previous]: {{site.url}}/daily/2024/01/27/gitignore-inclusive-or-exclusive
+[subscription]: {{site.url}}/subscription

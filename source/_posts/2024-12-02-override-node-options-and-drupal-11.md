@@ -21,5 +21,5 @@ Whilst [the overall number of installations has been consistent][2], the number 
 With a Drupal 11-compatible version now available, I hope it continues to increase.
 
 [0]: https://www.drupal.org/project/override_node_options
-[1]: %7B%7Bsite.url%7D%7D/daily/2024/11/17/override-node-options-used-by-localgov-drupal
-[2]: %7B%7Bsite.url%7D%7D/daily/2024/11/16/an-interesting-thing-i-spotted-about-the-override-node-options-module
+[1]: {{site.url}}/daily/2024/11/17/override-node-options-used-by-localgov-drupal
+[2]: {{site.url}}/daily/2024/11/16/an-interesting-thing-i-spotted-about-the-override-node-options-module

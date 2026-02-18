@@ -54,4 +54,4 @@ nix build .#"$selected"
 
 This is a simple example, but it shows how programs can be used together and output can be passed through each program to get the result you want.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2025/04/07/nix-rst2pdf
+[0]: {{site.url}}/daily/2025/04/07/nix-rst2pdf

@@ -45,6 +45,6 @@ Similar to feature flags, this is temporary code that will later be removed when
 
 In the future, I can refactor the internal logic to use a different approach and when I'm ready, eventually remove the compatibility layer and tag a new major version with the breaking changes.
 
-[0]: %7B%7Bsite.url%7D%7D/presentations/building-build-configs
-[1]: %7B%7Bsite.url%7D%7D/presentations/working-with-workspace
+[0]: {{site.url}}/presentations/building-build-configs
+[1]: {{site.url}}/presentations/working-with-workspace
 [2]: https://github.com/ALT-F4-LLC/build-configs

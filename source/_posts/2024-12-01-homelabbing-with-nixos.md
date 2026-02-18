@@ -23,6 +23,6 @@ Next, I'd like to add home automation with Home Assistant and explore running a 
 
 I'm looking forward to these, and seeing what else I can add to this setup using Nix and NixOS.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/30/using-nix-for-local-application-development
-[1]: %7B%7Bsite.url%7D%7D/daily/2024/11/28/running-nixos-in-the-cloud
-[2]: %7B%7Bsite.url%7D%7D/daily/2024/11/27/nix-as-an-operating-system
+[0]: {{site.url}}/daily/2024/11/30/using-nix-for-local-application-development
+[1]: {{site.url}}/daily/2024/11/28/running-nixos-in-the-cloud
+[2]: {{site.url}}/daily/2024/11/27/nix-as-an-operating-system

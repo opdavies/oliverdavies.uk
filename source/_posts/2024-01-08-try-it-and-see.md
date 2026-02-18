@@ -27,4 +27,4 @@ If you use it and don't like it, don't continue and return to what you did befor
 
 Whether you keep it or not, you better understand what you're evaluating and not dismiss it out of hand.
 
-[talk]: %7B%7Bsite.url%7D%7D/presentations/taking-flight-with-tailwind-css
+[talk]: {{site.url}}/presentations/taking-flight-with-tailwind-css

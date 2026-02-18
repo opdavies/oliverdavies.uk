@@ -21,4 +21,4 @@ I also got to meet Jürgen at DrupalCon in Barcelona, as well as several other p
 
 If you'd like to be a guest on the podcast or want to suggest a topic, reply and let me know!
 
-[0]: %7B%7Bsite.url%7D%7D/podcast/23-jurgen-haas-eca
+[0]: {{site.url}}/podcast/23-jurgen-haas-eca

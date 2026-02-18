@@ -65,4 +65,4 @@ In the next post, I'd explain the changes I needed to make to `base.html.twig`
 to create a minimal version of my page layout for the component library
 section.
 
-[0]: %7B%7Bsite.url%7D%7D/blog/building-component-library
+[0]: {{site.url}}/blog/building-component-library

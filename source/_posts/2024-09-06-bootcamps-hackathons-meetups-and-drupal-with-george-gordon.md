@@ -20,4 +20,4 @@ I wasn't George's mentor, but I met him at a hackday earlier this year and at a 
 
 [Listen to the episode now][0].
 
-[0]: %7B%7Bsite.url%7D%7D/podcast/20-george-gordon
+[0]: {{site.url}}/podcast/20-george-gordon

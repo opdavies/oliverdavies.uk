@@ -29,4 +29,4 @@ Not working on Drupal applications (although, I offer [paid pair programming ses
 
 If you have ideas or feedback, or if this is something you'd be interested in attending, reply and let me know!
 
-[0]: %7B%7Bsite.url%7D%7D/pair
+[0]: {{site.url}}/pair

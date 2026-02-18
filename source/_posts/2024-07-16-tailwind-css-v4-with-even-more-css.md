@@ -20,5 +20,5 @@ As I [already use CSS variables in some situations][1], I like that it will make
 
 As well as simple variables, such as colours and spacing, I'm interested to see how everything else will translate to the new configuration approach in Tailwind v4, as well as anything else new that will be included.
 
-[0]: %7B%7Bsite.url%7D%7D/blog/uis-ive-rebuilt-tailwind-css
-[1]: %7B%7Bsite.url%7D%7D/daily/2024/07/15/the-power-of-arbitrary-classes
+[0]: {{site.url}}/blog/uis-ive-rebuilt-tailwind-css
+[1]: {{site.url}}/daily/2024/07/15/the-power-of-arbitrary-classes

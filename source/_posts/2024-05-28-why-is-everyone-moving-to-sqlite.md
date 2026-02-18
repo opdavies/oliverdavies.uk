@@ -18,4 +18,4 @@ Drupal supports using SQLite, but, other than for [my automated testing course][
 
 Maybe this is something to keep an eye on and potentially use more for some scenarios in the future.
 
-[course]: %7B%7Bsite.url%7D%7D/atdc
+[course]: {{site.url}}/atdc

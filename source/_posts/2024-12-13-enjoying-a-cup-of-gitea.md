@@ -24,4 +24,4 @@ And, because I use NixOS for my homelab, installing Gitea was as easy as `servic
 
 There is also a Docker Compose image and Gitea Cloud, but running something like Gitea for your private code is something I'd like to see more Developers and agencies do.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/12/01/homelabbing-with-nixos
+[0]: {{site.url}}/daily/2024/12/01/homelabbing-with-nixos

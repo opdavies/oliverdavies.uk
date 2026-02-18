@@ -19,5 +19,5 @@ We also talked about attending and speaking at meetups and live coding, and I sp
 
 If you'd like to be a guest on the podcast or want to suggest a topic, reply and let me know!
 
-[0]: %7B%7Bsite.url%7D%7D/podcast
-[1]: %7B%7Bsite.url%7D%7D/podcast/24-chris-ballard-generative-ai
+[0]: {{site.url}}/podcast
+[1]: {{site.url}}/podcast/24-chris-ballard-generative-ai

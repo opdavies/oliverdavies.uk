@@ -26,6 +26,6 @@ The Inter font is available in nixpkgs, but it downloads an `InterVariable.ttf` 
 
 I'm happy that I was able to achieve this, as my repository is leaner and I'm continuing to find new and interesting uses for Nix in my workflows.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2025/04/07/nix-rst2pdf
-[1]: %7B%7Bsite.url%7D%7D/presentations/building-presenting-slide-decks-rst2pdf
+[0]: {{site.url}}/daily/2025/04/07/nix-rst2pdf
+[1]: {{site.url}}/presentations/building-presenting-slide-decks-rst2pdf
 [2]: https://code.oliverdavies.uk/opdavies/talks/commit/e24d2df83f04e492151b1a1f4901490ce76ffd45

@@ -20,6 +20,6 @@ I've used it for my [Docker examples on GitHub][3] done [live streams where I've
 There are still more I'd like to do with it, including improving documentation and adding examples, but if you'd like to contribute to it, contributions and pull requests are welcome.
 
 [0]: https://github.com/opdavies/build-configs
-[1]: %7B%7Bsite.url%7D%7D/talks/building-build-configs
+[1]: {{site.url}}/talks/building-build-configs
 [2]: https://www.youtube.com/watch?v=Wlkcf1PLWN8
 [3]: https://github.com/opdavies?tab=repositories&q=docker-example-

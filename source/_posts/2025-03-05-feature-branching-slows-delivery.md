@@ -25,5 +25,5 @@ And, if you're [doing continuous delivery][1], any changes will be automatically
 
 No more bottleneck.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2025/02/18/conflicts
-[1]: %7B%7Bsite.url%7D%7D/daily/2025/02/17/ci-cd
+[0]: {{site.url}}/daily/2025/02/18/conflicts
+[1]: {{site.url}}/daily/2025/02/17/ci-cd

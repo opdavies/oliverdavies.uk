@@ -17,5 +17,5 @@ We discuss why you'd want to use a tool like Violinist to manage your dependency
 
 We also discuss running a SaaS business and why Drupal is a good choice for SaaS products - though this could be a full episode on its own.
 
-[episode]: %7B%7Bsite.url%7D%7D/podcast/8-eirik-morland-violinist
+[episode]: {{site.url}}/podcast/8-eirik-morland-violinist
 [violinist]: https://violinist.io

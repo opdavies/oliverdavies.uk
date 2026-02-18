@@ -21,4 +21,4 @@ Without the tests, I'd either need to check everything else manually (which take
 
 Having tests meant I could be confident that the new and existing functionality worked.
 
-[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/01/30/tdd-doesnt-mean-you-know-everything-upfront
+[yesterday]: {{site.url}}/daily/2024/01/30/tdd-doesnt-mean-you-know-everything-upfront

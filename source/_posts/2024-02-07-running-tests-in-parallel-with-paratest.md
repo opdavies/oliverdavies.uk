@@ -30,7 +30,7 @@ P.S. Do you need immediate access to an expert Drupal Developer? [With my Drupal
 
 {% endblock %}
 
-[atdc]: %7B%7Bsite.url%7D%7D/atdc
+[atdc]: {{site.url}}/atdc
 [issue]: https://www.drupal.org/project/drupal/issues/2781123
 [paratest]: https://github.com/paratestphp/paratest
-[subscription]: %7B%7Bsite.url%7D%7D/subscription
+[subscription]: {{site.url}}/subscription

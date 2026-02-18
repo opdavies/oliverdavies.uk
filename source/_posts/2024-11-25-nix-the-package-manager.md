@@ -31,5 +31,5 @@ I used a different Linux distribution when I started using Nix and installed it 
 
 If you're looking for an alternative package manager for Linux or macOS, I recommend giving Nix a try.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/21/one-configuration-language-to-rule-them-all
-[1]: %7B%7Bsite.url%7D%7D/daily/2024/11/12/why-consistency-and-reproducibility-are-important
+[0]: {{site.url}}/daily/2024/11/21/one-configuration-language-to-rule-them-all
+[1]: {{site.url}}/daily/2024/11/12/why-consistency-and-reproducibility-are-important

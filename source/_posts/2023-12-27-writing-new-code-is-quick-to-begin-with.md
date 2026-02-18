@@ -34,4 +34,4 @@ Having automated tests, using tools like static analysis, and minimising technic
 
 P.S. Is your New Year's resolution to deliver better software faster? [I have availability for team coaching][team coaching] starting in January 2024 and can help you avoid issues like this in your applications.
 
-[team coaching]: %7B%7Bsite.url%7D%7D/team-coaching
+[team coaching]: {{site.url}}/team-coaching

@@ -41,4 +41,4 @@ I don't need to think about whether this branch is a feature or a hotfix, and I'
 
 Do what works best for you and your team, but don't adopt something because it's the "standard" approach.
 
-[talk]: %7B%7Bsite.url%7D%7D/presentations/git-flow
+[talk]: {{site.url}}/presentations/git-flow

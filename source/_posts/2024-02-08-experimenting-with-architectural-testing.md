@@ -59,6 +59,6 @@ P.S. Do you need immediate access to an expert Drupal Developer? [With my Drupal
 
 {% endblock %}
 
-[atdc]: %7B%7Bsite.url%7D%7D/atdc
-[subscription]: %7B%7Bsite.url%7D%7D/subscription
-[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/02/07/running-tests-in-parallel-with-paratest
+[atdc]: {{site.url}}/atdc
+[subscription]: {{site.url}}/subscription
+[yesterday]: {{site.url}}/daily/2024/02/07/running-tests-in-parallel-with-paratest

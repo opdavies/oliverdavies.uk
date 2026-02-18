@@ -18,5 +18,5 @@ We discussed his experience with coding bootcamps, getting into the software ind
 
 It will be released soon on [the Beyond Blocks podcast page][1].
 
-[0]: %7B%7Bsite.url%7D%7D/presentations/communities-contribution
-[1]: %7B%7Bsite.url%7D%7D/podcast
+[0]: {{site.url}}/presentations/communities-contribution
+[1]: {{site.url}}/podcast

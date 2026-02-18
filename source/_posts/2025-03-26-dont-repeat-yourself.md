@@ -44,4 +44,4 @@ I think these docblocks aren't needed and in my projects, would suggest they be 
 
 Unless they're adding more information, such as [PHPStan PHPDoc types][0], there's no need to repeat what the code already says.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2025/03/21/phpdoc
+[0]: {{site.url}}/daily/2025/03/21/phpdoc

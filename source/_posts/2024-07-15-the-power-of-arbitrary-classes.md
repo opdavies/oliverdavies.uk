@@ -28,5 +28,5 @@ This class uses the `calc` function as well as `var` to determine the correct ma
 
 And, as this is a value that's only used in this component, there's no benefit to writing this in a stylesheet - making an arbitrary value was a good option.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2023/01/02/dont-use-arbitrary-values-in-tailwind-css
+[0]: {{site.url}}/daily/2023/01/02/dont-use-arbitrary-values-in-tailwind-css
 [1]: https://x.com/opdavies/status/1755332703308652730

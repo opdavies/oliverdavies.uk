@@ -26,7 +26,7 @@ P.S. If you'd like your own workshop on Tailwind CSS, Drupal, automated testing 
 
 {% endblock %}
 
-[coaching]: %7B%7Bsite.url%7D%7D/team-coaching
+[coaching]: {{site.url}}/team-coaching
 [recording]: https://www.youtube.com/watch?v=phFDKF-9j0Y
-[subscription]: %7B%7Bsite.url%7D%7D/subscription
-[talk]: %7B%7Bsite.url%7D%7D/presentations/taking-flight-with-tailwind-css
+[subscription]: {{site.url}}/subscription
+[talk]: {{site.url}}/presentations/taking-flight-with-tailwind-css

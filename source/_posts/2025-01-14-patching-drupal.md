@@ -40,5 +40,5 @@ And this works for core and contrib projects.
 
 The same as the tmux-sessionizer example, this approach means I can apply any changes without needing to duplicate or alter the code, and it makes it easy to contribute by testing other people's patches or applying and contributing your own.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2025/01/13/patches
+[0]: {{site.url}}/daily/2025/01/13/patches
 [1]: https://github.com/cweagans/composer-patches

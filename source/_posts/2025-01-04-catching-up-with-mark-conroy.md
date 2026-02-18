@@ -19,4 +19,4 @@ It was great to speak with Mark again, and I'm looking forward to speaking with 
 
 If you'd like to be on the podcast in 2025 or want to suggest a guest or topic, <a href="mailto:{{ site.email }}?subject=Beyond Blocks podcast suggestion">get in touch</a>.
 
-[0]: %7B%7Bsite.url%7D%7D/podcast/26-mark-conroy-the-confident
+[0]: {{site.url}}/podcast/26-mark-conroy-the-confident

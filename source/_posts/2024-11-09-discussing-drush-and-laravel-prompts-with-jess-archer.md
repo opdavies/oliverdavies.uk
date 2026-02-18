@@ -20,5 +20,5 @@ We discuss Laravel Prompts which was released at Laracon US last year and added 
 
 [Listen to the episode now][0].
 
-[0]: %7B%7Bsite.url%7D%7D/podcast/25-jess-archer-drush-laravel-prompts
+[0]: {{site.url}}/podcast/25-jess-archer-drush-laravel-prompts
 [1]: https://x.com/jessarchercodes

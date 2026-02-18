@@ -19,4 +19,4 @@ We discuss using PHPStan and static analysis in PHP projects as well as taking s
 
 [Listen to the episode now][0].
 
-[0]: %7B%7Bsite.url%7D%7D/podcast/22-dave-liddament
+[0]: {{site.url}}/podcast/22-dave-liddament

@@ -27,7 +27,7 @@ You can also see the videos on my Peertube at <https://videos.oliverdavies.uk>.
 I plan on doing more videos and live streams soon, which will also be uploaded to my Peertube.
 
 [0]: https://youtube.com/@opdavies
-[1]: %7B%7Bsite.url%7D%7D/homelab
+[1]: {{site.url}}/homelab
 [2]: https://videos.lukesmith.xyz
 [3]: https://tinkerbetter.tube
 [4]: https://code.oliverdavies.uk/opdavies/nix-config

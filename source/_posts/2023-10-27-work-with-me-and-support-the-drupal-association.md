@@ -34,4 +34,4 @@ If the Association or Drupal weren't there, I wouldn't be able to provide those 
 
 [association]: https://www.drupal.org/association
 [staff]: https://www.drupal.org/association/staff
-[team coaching]: %7B%7Bsite.url%7D%7D/team-coaching
+[team coaching]: {{site.url}}/team-coaching

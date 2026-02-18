@@ -33,4 +33,4 @@ Sam Mortenson, the creator of the Tome module discussed it on [our episode of th
 If you want the power of a flexible content management system and the performance and security benefits of a static website, Tome gives you the best of both worlds.
 
 [0]: https://www.drupal.org/project/tome
-[1]: %7B%7Bsite.url%7D%7D/podcast/19-sam-mortenson
+[1]: {{site.url}}/podcast/19-sam-mortenson

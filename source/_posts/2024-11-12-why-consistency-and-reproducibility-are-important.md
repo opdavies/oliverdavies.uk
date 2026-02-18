@@ -25,4 +25,4 @@ Ideally, you also want everything to be reproducible with locked dependencies an
 
 This is one of the main reasons I've [started to use Nix and devenv for projects][0] - because they create environments that are both consistent and reproducible, reducing the chances of dependency mismatches and bugs creeping into my code.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/11/could-nix-and-devenv-replace-docker-compose
+[0]: {{site.url}}/daily/2024/11/11/could-nix-and-devenv-replace-docker-compose

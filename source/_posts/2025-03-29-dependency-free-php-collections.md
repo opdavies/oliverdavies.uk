@@ -26,8 +26,8 @@ Looking at other repositories on GitHub, I was able to find other examples.
 
 I've done this on projects since Dan's talk and like taking the minimalist approach - avoiding adding a dependency to my project and only adding the functionality I need and functionality that's more specific to my domain.
 
-[1]: %7B%7Bsite.url%7D%7D/presentations/using-illuminate-collections-outside-laravel
+[1]: {{site.url}}/presentations/using-illuminate-collections-outside-laravel
 [2]: https://www.drupal.org/project/collection_class
 [3]: https://github.com/dantleech/onehourexpr/blob/8c4ee4a3c1680455118e16a3e1be2a08418ab207/src/Tokens.php
 [4]: https://www.youtube.com/watch?v=UpyVAcWGQhg
-[5]: %7B%7Bsite.url%7D%7D/podcast/6-dan-leech-php-tui
+[5]: {{site.url}}/podcast/6-dan-leech-php-tui

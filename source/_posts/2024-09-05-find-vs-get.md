@@ -30,5 +30,5 @@ What about you?
 Do you have similar conventions that you follow in your applications?
 
 [0]: https://tuhrig.de/find-vs-get
-[1]: %7B%7Bsite.url%7D%7D/podcast
+[1]: {{site.url}}/podcast
 [2]: https://www.daveliddament.co.uk

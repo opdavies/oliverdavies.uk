@@ -18,7 +18,7 @@ I've seen the conference talk [where Jess Archer unveiled Laravel Prompts][2] at
 
 It's great to see Laravel Prompts being used in other PHP projects, which was one of Jess' main objectives, and the Drupal ecosystem continuing to [get off the island][3].
 
-[0]: %7B%7Bsite.url%7D%7D/atdc
+[0]: {{site.url}}/atdc
 [1]: https://x.com/opdavies/status/1825940869595201905
 [2]: https://www.youtube.com/watch?v=PW-2_-KxF-8
-[3]: %7B%7Bsite.url%7D%7D/daily/2024/06/09/proudly-found-elsewhere
+[3]: {{site.url}}/daily/2024/06/09/proudly-found-elsewhere

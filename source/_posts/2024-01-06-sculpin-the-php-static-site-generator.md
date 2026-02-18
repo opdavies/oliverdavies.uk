@@ -35,5 +35,5 @@ I used it to [learn Twig before Drupal 8 was released][talk1], back in 2015.
 I've also given a talk on [building websites with Sculpin][talk2] which I may submit to some upcoming conferences.
 
 [markdown extension]: https://github.com/opdavies/sculpin-twig-markdown-bundle
-[talk1]: %7B%7Bsite.url%7D%7D/test-drive-twig-with-sculpin
-[talk2]: %7B%7Bsite.url%7D%7D/building-static-websites-sculpin
+[talk1]: {{site.url}}/test-drive-twig-with-sculpin
+[talk2]: {{site.url}}/building-static-websites-sculpin

@@ -23,4 +23,4 @@ I didn't realise there were BoF sessions about this at DrupalCon Lille last year
 Anything that helps Drupal easier to use and adopt is a good thing.
 
 [0]: https://www.drupal.org/association/blog/de-jargoning-drupal-working-with-the-community-to-open-up-drupals-terminology
-[1]: %7B%7Bsite.url%7D%7D/podcast/21-eirik-morland-violinist-2
+[1]: {{site.url}}/podcast/21-eirik-morland-violinist-2

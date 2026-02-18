@@ -24,4 +24,4 @@ After this spike, I'm intrigued to see how we could use web components and what 
 
 Are you interested in web components, too? [Listen to the podcast episode with Mark Conroy][episode].
 
-[episode]: %7B%7Bsite.url%7D%7D/podcast/11-mark-conroy
+[episode]: {{site.url}}/podcast/11-mark-conroy

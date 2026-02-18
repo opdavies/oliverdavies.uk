@@ -31,4 +31,4 @@ What most people think of as CI or CI/CD is a set of automated checks that run w
 
 Whilst important, it's not "CI".
 
-[0]: %7B%7Bsite.url%7D%7D/blog/continuous-integration-vs-continuous-integration
+[0]: {{site.url}}/blog/continuous-integration-vs-continuous-integration

@@ -31,7 +31,7 @@ Similar to [why I use Linux][4], I believe in owning your own content rather tha
 
 And I learned something new about Git at the same time.
 
-[0]: %7B%7Bsite.url%7D%7D/presentations/test-drive-twig-with-sculpin
+[0]: {{site.url}}/presentations/test-drive-twig-with-sculpin
 [1]: https://git-scm.com/docs/git-merge#Documentation/git-merge.txt---allow-unrelated-histories
-[4]: %7B%7Bsite.url%7D%7D/daily/2024/07/31/why-i-use-linux
-[5]: %7B%7Bsite.url%7D%7D/daily/2023/08/08/8-years-of-dotfiles
+[4]: {{site.url}}/daily/2024/07/31/why-i-use-linux
+[5]: {{site.url}}/daily/2023/08/08/8-years-of-dotfiles

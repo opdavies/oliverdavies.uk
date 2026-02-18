@@ -18,4 +18,4 @@ As someone keen to get more involved and contribute more to the project, and who
 If you want to attend also, there are a few remaining tickets available and you can [register on Eventbrite][event].
 
 [event]: https://www.eventbrite.co.uk/e/localgov-drupal-camp-2024-tickets-847025314517
-[newport]: %7B%7Bsite.url%7D%7D/daily/2024/03/25/newport-city-council-running-localgov-drupal
+[newport]: {{site.url}}/daily/2024/03/25/newport-city-council-running-localgov-drupal

@@ -25,5 +25,5 @@ When I need to update the file, I plug in the hard drive and run it again.
 
 A simple problem, and not something related to a particular project, but something I was able to solve with a Bash script.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2022/08/15/using-run-file-simplify-project-tasks
+[0]: {{site.url}}/daily/2022/08/15/using-run-file-simplify-project-tasks
 [1]: https://github.com/opdavies/dotfiles.nix/blob/a1ef2d1402c9c607e7a3e4427ce125d0cabeddcd/lib/shared/scripts/export-video-list.nix#L12-L31

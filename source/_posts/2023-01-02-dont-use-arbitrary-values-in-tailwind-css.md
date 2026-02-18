@@ -7,7 +7,7 @@ tags:
   - tailwind-css
 ---
 
-It's been almost five years since I gave the first version of my "[Taking Flight with Tailwind CSS](%7B%7Bsite.url%7D%7D/talks/taking-flight-with-tailwind-css)" talk at the Drupal Bristol meetup in January 2018.
+It's been almost five years since I gave the first version of my "[Taking Flight with Tailwind CSS]({{site.url}}/talks/taking-flight-with-tailwind-css)" talk at the Drupal Bristol meetup in January 2018.
 
 It's a talk that I've updated every time I've given it, showing new rebuilt example UIs and the new features in the framework, as well as tweaking content like installation steps for different audiences.
 

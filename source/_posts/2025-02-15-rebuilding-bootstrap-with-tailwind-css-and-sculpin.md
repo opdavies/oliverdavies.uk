@@ -26,7 +26,7 @@ I originally built the examples with Astro but have ported them to Sculpin, whic
 
 If you want to see how I've built these components or how for an example of building a static website with Sculpin, [check out the source code][2].
 
-[0]: %7B%7Bsite.url%7D%7D/presentations/taking-flight-with-tailwind-css
-[1]: %7B%7Bsite.url%7D%7D/blog/uis-ive-rebuilt-tailwind-css
+[0]: {{site.url}}/presentations/taking-flight-with-tailwind-css
+[1]: {{site.url}}/blog/uis-ive-rebuilt-tailwind-css
 [2]: https://code.oliverdavies.uk/opdavies/bootstrap-with-tailwind
 [3]: https://bootstrap-with-tailwind.oliverdavies.uk

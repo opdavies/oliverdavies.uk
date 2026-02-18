@@ -36,4 +36,4 @@ $entity_type_manager = \Drupal::entityTypeManager();
 
 I prefer not to have to consistently think about which to use and, if possible, like to use standard approaches in different codebases whether I'm working on a Drupal project, a Symfony project, or a PHP library.
 
-Plus, I get to use new PHP features like [promoted constructor properties](%7B%7Bsite.url%7D%7D/daily/2023/04/12/cleaner-php-code-with-promoted-constructor-properties) if everything is named in the same format.
+Plus, I get to use new PHP features like [promoted constructor properties]({{site.url}}/daily/2023/04/12/cleaner-php-code-with-promoted-constructor-properties) if everything is named in the same format.

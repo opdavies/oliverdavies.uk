@@ -23,4 +23,4 @@ Thanks, Frank, for your feedback.
 
 It's great to get feedback on my content and to know it's helping and providing value to people.
 
-[course]: %7B%7Bsite.url%7D%7D/atdc
+[course]: {{site.url}}/atdc

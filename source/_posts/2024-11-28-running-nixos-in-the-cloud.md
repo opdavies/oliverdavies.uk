@@ -22,6 +22,6 @@ And I can do this locally using [the same NixOS configuration files][1] and appl
 
 Now I'm running NixOS everywhere!
 
-[0]: %7B%7Bsite.url%7D%7D/blog/uis-ive-rebuilt-tailwind-css
+[0]: {{site.url}}/blog/uis-ive-rebuilt-tailwind-css
 [1]: https://github.com/opdavies/dotfiles/tree/ec2767adfb6667184f884080a4f9b5d2a388a03d/nix/hosts/hetznix
-[2]: %7B%7Bsite.url%7D%7D/daily/2024/11/27/nix-as-an-operating-system
+[2]: {{site.url}}/daily/2024/11/27/nix-as-an-operating-system

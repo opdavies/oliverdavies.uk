@@ -26,6 +26,6 @@ But, I don't need to assume they are available. Nix can do it automatically and 
 
 Now, if anyone else wanted to use this script, or I wanted to share another script with colleagues or a client, they can use it without needing to install any dependencies separately and the script will continue to work in the future using its explicitly-added dependencies.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/08/19/bash-scripting-for-fun-and-profit
+[0]: {{site.url}}/daily/2024/08/19/bash-scripting-for-fun-and-profit
 [1]: https://github.com/opdavies/dotfiles.nix/blob/a1ef2d1402c9c607e7a3e4427ce125d0cabeddcd/lib/shared/scripts/export-video-list.nix#L12-L31
-[2]: %7B%7Bsite.url%7D%7D/daily/2022/09/26/experimenting-with-the-nix-package-manager
+[2]: {{site.url}}/daily/2022/09/26/experimenting-with-the-nix-package-manager

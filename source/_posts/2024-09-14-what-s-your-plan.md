@@ -22,5 +22,5 @@ Asking these questions and making these initial decisions upfront greatly reduce
 
 And I can [capture these decisions in a README file][0] [or diagram][1], that's ideal.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2023/11/09/readme-driven-development
-[1]: %7B%7Bsite.url%7D%7D/daily/2024/09/04/diagram-driven-development
+[0]: {{site.url}}/daily/2023/11/09/readme-driven-development
+[1]: {{site.url}}/daily/2024/09/04/diagram-driven-development

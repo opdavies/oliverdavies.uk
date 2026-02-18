@@ -23,6 +23,6 @@ When done well, I think live coding can be very impactful when it's done well.
 
 It's something I want to get better at, and I plan to do more YouTube streams soon, such as refreshing my [automated testing email course][2] with some new examples, so subscribe on YouTube if you want to know when I next go live.
 
-[0]: %7B%7Bsite.url%7D%7D/talks/tdd-test-driven-drupal
+[0]: {{site.url}}/talks/tdd-test-driven-drupal
 [1]: https://www.youtube.com/@opdavies
-[2]: %7B%7Bsite.url%7D%7D/atdc
+[2]: {{site.url}}/atdc

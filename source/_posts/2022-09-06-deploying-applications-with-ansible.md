@@ -18,8 +18,8 @@ As well as being able to configure settings such as the deployment strategy, how
 
 If you're running your applications in Docker, you could use Ansible to pull the latest images and restart your applications.
 
-For more information and examples, I've given a talk on Ansible at various PHP events, which covers some Ansible basics before moving on to [deploying applications with Ansistrano](%7B%7Bsite.url%7D%7D/talks/deploying-php-ansible-ansistrano).
+For more information and examples, I've given a talk on Ansible at various PHP events, which covers some Ansible basics before moving on to [deploying applications with Ansistrano]({{site.url}}/talks/deploying-php-ansible-ansistrano).
 
 ______________________________________________________________________
 
-Want to learn more about how I use Ansible? [Register for my upcoming free email course](%7B%7Bsite.url%7D%7D/ansible-course).
+Want to learn more about how I use Ansible? [Register for my upcoming free email course]({{site.url}}/ansible-course).

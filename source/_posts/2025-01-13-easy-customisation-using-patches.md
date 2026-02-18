@@ -36,6 +36,6 @@ They release the core package and people write and contribute patch files to cus
 
 Although patches are no longer used on Drupal.org, they're still a great way to customise and contribute to open source software.
 
-[0]: %7B%7Bsite.url%7D%7D/blog/going-full-vim
-[1]: %7B%7Bsite.url%7D%7D/podcast/25-jess-archer-drush-laravel-prompts
+[0]: {{site.url}}/blog/going-full-vim
+[1]: {{site.url}}/podcast/25-jess-archer-drush-laravel-prompts
 [2]: https://code.oliverdavies.uk/opdavies/dotfiles/commit/5fd27efa502bd48eb7d897acec8aa3344bef2247

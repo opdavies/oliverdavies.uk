@@ -30,4 +30,4 @@ This week on the Beyond Blocks podcast, I'm joined by Mark Conroy - Director of 
 - Building a design system/component library with web components.
 - The Content Access by Path module that was developed for Essex County Council.
 
-[episode]: %7B%7Bsite.url%7D%7D/podcast/11-mark-conroy
+[episode]: {{site.url}}/podcast/11-mark-conroy

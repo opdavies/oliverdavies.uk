@@ -29,4 +29,4 @@ It's fast, simple and minimal.
 
 If you prefer to use a service like Netlify or Vercel, they work great for static websites too.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2025/03/12/easy
+[0]: {{site.url}}/daily/2025/03/12/easy

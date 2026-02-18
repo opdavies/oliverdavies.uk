@@ -9,7 +9,7 @@ tags:
   - vim
 ---
 
-Since [July 2021](%7B%7Bsite.url%7D%7D/blog/going-full-vim), I've used Neovim full-time for my development work and writing.
+Since [July 2021]({{site.url}}/blog/going-full-vim), I've used Neovim full-time for my development work and writing.
 
 Whilst Vim and Neovim are minimal by default, its functionality can be extended by adding plugins.
 

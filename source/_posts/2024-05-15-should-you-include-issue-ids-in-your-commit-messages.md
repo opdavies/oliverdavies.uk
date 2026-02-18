@@ -25,4 +25,4 @@ The Git log and commit messages will remain even if a different issue tracker is
 
 I'm not against putting the issue ID in the commit message but don't do it instead of writing a descriptive commit message.
 
-[1]: %7B%7Bsite.url%7D%7D/daily/2023/11/24/are-conventional-commits-worth-it
+[1]: {{site.url}}/daily/2023/11/24/are-conventional-commits-worth-it

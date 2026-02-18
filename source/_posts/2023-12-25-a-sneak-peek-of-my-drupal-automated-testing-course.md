@@ -202,4 +202,4 @@ From this, you can hopefully see that automated testing doesn't need to be diffi
 
 I hope you enjoyed this sneak peek, and if you'd like to receive the course once it's complete, [register here for free][atdc].
 
-[atdc]: %7B%7Bsite.url%7D%7D/atdc
+[atdc]: {{site.url}}/atdc

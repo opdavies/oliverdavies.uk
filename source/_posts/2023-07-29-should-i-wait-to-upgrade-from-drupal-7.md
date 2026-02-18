@@ -21,4 +21,4 @@ In that case, those modules will have no new features, bug fixes or security upd
 
 You may have a lot of custom code that needs to be ported to Drupal 10 or a complex data structure that needs to be migrated, These things will take time, so it's best not to leave it until the last minute.
 
-If you're stuck on Drupal 7, book an [upgrade consultation call](%7B%7Bsite.url%7D%7D/call) with me or purchase an [upgrade roadmap for your project](%7B%7Bsite.url%7D%7D/drupal7) and I'll get you unstuck.
+If you're stuck on Drupal 7, book an [upgrade consultation call]({{site.url}}/call) with me or purchase an [upgrade roadmap for your project]({{site.url}}/drupal7) and I'll get you unstuck.

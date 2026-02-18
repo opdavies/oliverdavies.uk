@@ -53,7 +53,7 @@ In Drupal applications, I use the [Feature Toggle module][2], so I can toggle fe
 
 I also [wrote a module][3] with a Twig function so I can check if a feature toggle is enabled directly in a Twig template - the same as I'm doing in Sculpin.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/12/18/self-hosting-podcast
-[1]: %7B%7Bsite.url%7D%7D/daily/2024/12/19/working-iteratively
+[0]: {{site.url}}/daily/2024/12/18/self-hosting-podcast
+[1]: {{site.url}}/daily/2024/12/19/working-iteratively
 [2]: https://www.drupal.org/project/feature_toggle
 [3]: https://www.drupal.org/project/feature_toggle_twig

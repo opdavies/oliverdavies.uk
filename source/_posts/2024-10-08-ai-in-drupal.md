@@ -25,4 +25,4 @@ I can see how a AI-driven approach to site building in Drupal could be useful, b
 
 What do you think?
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/05/31/putting-glue-on-pizza
+[0]: {{site.url}}/daily/2024/05/31/putting-glue-on-pizza

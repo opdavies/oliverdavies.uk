@@ -59,5 +59,5 @@ Thanks to everyone who completed the survey for their feedback.
 
 P.S. If you'd like your own software development training or coaching, including automated testing and test-driven development, I currently have availability for [team coaching] and [private talks and workshops][workshops].
 
-[team coaching]: %7B%7Bsite.url%7D%7D/team-coaching
-[workshops]: %7B%7Bsite.url%7D%7D/pricing
+[team coaching]: {{site.url}}/team-coaching
+[workshops]: {{site.url}}/pricing

@@ -15,7 +15,7 @@ He says that micro-refactors are safer than big refactors and have less chance o
 
 ## What's the issue?
 
-I agree with what Peter says and also encourage people to make small refactors to the code they're working on and follow the "[Boy Scout rule](%7B%7Bsite.url%7D%7D/daily/2022/12/22/the-boy-scout-rule)".
+I agree with what Peter says and also encourage people to make small refactors to the code they're working on and follow the "[Boy Scout rule]({{site.url}}/daily/2022/12/22/the-boy-scout-rule)".
 
 The main blocker to this I've seen is Git workflows that require people to work in separate branches that need to be reviewed before being merged, as this slows down the process.
 

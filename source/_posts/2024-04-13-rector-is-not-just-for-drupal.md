@@ -24,4 +24,4 @@ You define which rules or presets you want to use, run Rector on the code, and i
 
 Having Rector do this work leaves me free to stay focused on other tasks.
 
-[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/04/12/drupal-rector-and-the-project-update-bot
+[yesterday]: {{site.url}}/daily/2024/04/12/drupal-rector-and-the-project-update-bot

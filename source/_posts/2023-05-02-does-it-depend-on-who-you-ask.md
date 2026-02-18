@@ -9,7 +9,7 @@ tags:
   - phpc
 ---
 
-The answer to "[Should Drupal 7 support be extended again?](%7B%7Bsite.url%7D%7D/daily/2023/05/01/should-drupal-7-support-be-extended-again)" might depend on who you ask.
+The answer to "[Should Drupal 7 support be extended again?]({{site.url}}/daily/2023/05/01/should-drupal-7-support-be-extended-again)" might depend on who you ask.
 
 If you ask a Developer or agency, the answer would likely be that it shouldn't be extended again, and D7 should be sunsetted.
 
@@ -21,4 +21,4 @@ Some people won't upgrade regardless and will continue until their site breaks.
 
 That would be messy (and costly) to fix, though!
 
-P.S. Are you still using Drupal 7 and don't know what's involved to upgrade to Drupal 10? Book a [Drupal 7 upgrade consultation call](%7B%7Bsite.url%7D%7D/call).
+P.S. Are you still using Drupal 7 and don't know what's involved to upgrade to Drupal 10? Book a [Drupal 7 upgrade consultation call]({{site.url}}/call).

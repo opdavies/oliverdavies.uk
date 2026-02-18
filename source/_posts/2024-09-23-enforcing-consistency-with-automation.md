@@ -16,6 +16,6 @@ You can use static analysis tools such as PHPStan to find potential bugs but als
 
 By automating checks, you'll have a consistent result every time and don't need to wait for someone else to find small issues you could have fixed quickly.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/09/20/be-consistent
-[1]: %7B%7Bsite.url%7D%7D/daily/2024/09/05/find-vs-get
-[2]: %7B%7Bsite.url%7D%7D/daily/2024/09/22/writing-custom-phpstan-rules-for-drupal-projects
+[0]: {{site.url}}/daily/2024/09/20/be-consistent
+[1]: {{site.url}}/daily/2024/09/05/find-vs-get
+[2]: {{site.url}}/daily/2024/09/22/writing-custom-phpstan-rules-for-drupal-projects

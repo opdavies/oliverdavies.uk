@@ -29,5 +29,5 @@ Maybe you need to debug a failure in the pipeline or you want to test a change t
 
 By using a command in a `run` file, doing so is as simple as running that one command.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2022/08/15/using-run-file-simplify-project-tasks
+[0]: {{site.url}}/daily/2022/08/15/using-run-file-simplify-project-tasks
 [1]: https://github.com/opdavies/docker-example-drupal/blob/d18bf2242fba1291cabf1e16a5badb6fda7ce509/run#L16-L35

@@ -4,7 +4,7 @@ pubDate: 2022-09-05
 permalink: daily/2022/09/05/using-ansible-for-local-configuration
 ---
 
-As well as [configuring servers](%7B%7Bsite.url%7D%7D/daily/2022/09/04/using-ansible-for-server-configuration), you can use Ansible to configure your own local machine and development environment.
+As well as [configuring servers]({{site.url}}/daily/2022/09/04/using-ansible-for-server-configuration), you can use Ansible to configure your own local machine and development environment.
 
 The change that you need to make is within the `hosts.ini` file:
 
@@ -22,4 +22,4 @@ For an example of this, you can see [my dotfiles repository on GitHub](https://g
 
 ______________________________________________________________________
 
-Want to learn more about how I use Ansible? [Register for my upcoming free email course](%7B%7Bsite.url%7D%7D/ansible-course).
+Want to learn more about how I use Ansible? [Register for my upcoming free email course]({{site.url}}/ansible-course).

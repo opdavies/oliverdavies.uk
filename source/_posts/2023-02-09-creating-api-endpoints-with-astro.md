@@ -7,7 +7,7 @@ tags:
   - astro
 ---
 
-As well as [fetching API data](%7B%7Bsite.url%7D%7D/daily/2023/02/08/fetching-api-data-with-astro), you can also use Astro to generate your own API endpoints.
+As well as [fetching API data]({{site.url}}/daily/2023/02/08/fetching-api-data-with-astro), you can also use Astro to generate your own API endpoints.
 
 This is an example of an endpoint that I recently created as part of a demo application:
 

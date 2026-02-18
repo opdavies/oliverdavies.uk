@@ -36,4 +36,4 @@ I thought this was a great initiative in previous versions and I'm glad to see i
 
 I look forward to getting more of these emails for my [other contributed projects on Drupal.org][override node options].
 
-[override node options]: %7B%7Bsite.url%7D%7D/daily/2024/03/09/override-node-options-40624-drupal-websites
+[override node options]: {{site.url}}/daily/2024/03/09/override-node-options-40624-drupal-websites

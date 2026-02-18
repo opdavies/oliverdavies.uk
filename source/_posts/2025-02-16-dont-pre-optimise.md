@@ -32,5 +32,5 @@ If I have an episode with more than two guests, I'll write that functionality th
 
 But not before.
 
-[0]: %7B%7Bsite.url%7D%7D/podcast/27-drupalisms
-[1]: %7B%7Bsite.url%7D%7D/podcast/1-retrofit
+[0]: {{site.url}}/podcast/27-drupalisms
+[1]: {{site.url}}/podcast/1-retrofit

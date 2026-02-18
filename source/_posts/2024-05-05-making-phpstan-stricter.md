@@ -26,4 +26,4 @@ You can enable and disable rules as needed but, like setting the PHPStan level, 
 It depends on the code being tested and the preference of the team, though I find the stricter the rules, the less bugs there are.
 
 [extension]: https://github.com/phpstan/phpstan-strict-rules
-[yesterday]: %7B%7Bsite.url%7D%7D/daily/2024/05/04/strict-typing-in-php
+[yesterday]: {{site.url}}/daily/2024/05/04/strict-typing-in-php

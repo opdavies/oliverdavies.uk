@@ -54,4 +54,4 @@ Once we have our infrastructure in place, we can start using Ansible to set and 
 
 ______________________________________________________________________
 
-Want to learn more about how I use Ansible? [Register for my upcoming free email course](%7B%7Bsite.url%7D%7D/ansible-course).
+Want to learn more about how I use Ansible? [Register for my upcoming free email course]({{site.url}}/ansible-course).

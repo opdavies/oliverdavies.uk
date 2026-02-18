@@ -46,5 +46,5 @@ I have some new guests lined up for 2025, which I'm looking forward to.
 
 If you want to be a guest on the podcast or want to make a suggestion for someone I should have on, reply to this email and let me know.
 
-[0]: %7B%7Bsite.url%7D%7D/podcast
-[1]: %7B%7Bsite.url%7D%7D/podcast/25-jess-archer-drush-laravel-prompts
+[0]: {{site.url}}/podcast
+[1]: {{site.url}}/podcast/25-jess-archer-drush-laravel-prompts

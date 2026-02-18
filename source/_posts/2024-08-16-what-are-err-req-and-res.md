@@ -21,4 +21,4 @@ This makes the code clearer and easier to read and understand, particularly if y
 
 Readability is important as [people read more code than they write][0].
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/08/07/people-read-more-code-than-they-write
+[0]: {{site.url}}/daily/2024/08/07/people-read-more-code-than-they-write

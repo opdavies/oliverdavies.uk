@@ -18,8 +18,8 @@ Do you know anyone else who uses plain text files for their notes?
 
 If you don't, I'd recommend it.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/10/write-plain-text-files
-[1]: %7B%7Bsite.url%7D%7D/podcast/nick-janetakis-docker
+[0]: {{site.url}}/daily/2024/11/10/write-plain-text-files
+[1]: {{site.url}}/podcast/nick-janetakis-docker
 [2]: https://github.com/opdavies/dotfiles/commit/73d801d7acf53d82f341f738c655fb6a2fcdcd70
 [3]: https://kressle.in/txt
 [4]: https://www.youtube.com/watch?v=-afP8cpBpXU

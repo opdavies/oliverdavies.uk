@@ -21,4 +21,4 @@ Tests written outside-in are slower to run as they need to perform tasks like HT
 
 Which do you prefer? Reply and let me know.
 
-[yesterday]: %7B%7Bsite.url%7D%7D/daily/2023/09/13/which-type-of-test-should-i-use
+[yesterday]: {{site.url}}/daily/2023/09/13/which-type-of-test-should-i-use

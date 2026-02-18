@@ -19,5 +19,5 @@ If you'd like a sneak peek of the demo site I'm building, [it's on GitHub][repo]
 
 [event]: https://www.meetup.com/php-sw/events/298880313
 [repo]: https://github.com/opdavies/phpsw-sculpin-demo
-[talk]: %7B%7Bsite.url%7D%7D/presentations/test-drive-twig-with-sculpin
+[talk]: {{site.url}}/presentations/test-drive-twig-with-sculpin
 [tweet]: https://twitter.com/opdavies/status/1754629305575874738

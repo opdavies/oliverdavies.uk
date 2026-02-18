@@ -27,6 +27,6 @@ If I need to work on a different laptop, like when mine recently died, I can app
 
 If you want to see my current NixOS setup, you can [see it on my GitHub][2].
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/26/the-nix-language
-[1]: %7B%7Bsite.url%7D%7D/daily/2024/11/23/no-more-random-packages
+[0]: {{site.url}}/daily/2024/11/26/the-nix-language
+[1]: {{site.url}}/daily/2024/11/23/no-more-random-packages
 [2]: https://github.com/opdavies/dotfiles

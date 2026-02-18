@@ -32,4 +32,4 @@ If it goes well, I can see me contributing more packages in the future.
 
 [0]: https://code.oliverdavies.uk/opdavies/nix-config
 [1]: https://github.com/NixOS/nixpkgs/pull/395028
-[2]: %7B%7Bsite.url%7D%7D/daily/2024/05/14/free-code-reviews
+[2]: {{site.url}}/daily/2024/05/14/free-code-reviews

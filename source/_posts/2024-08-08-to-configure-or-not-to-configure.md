@@ -32,5 +32,5 @@ I'm not going to reset all my configuration files to their default values, but I
 
 The same as in an application, I don't want to add modules or plugins that I'm not going to use or aren't adding value, and I want to ensure I'm making the most of what the software offers.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2023/08/08/8-years-of-dotfiles
+[0]: {{site.url}}/daily/2023/08/08/8-years-of-dotfiles
 [1]: https://github.com/opdavies/dotfiles.nix

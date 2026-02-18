@@ -40,8 +40,8 @@ For Drupal, there is a [Feature Toggle module][2] and [an extension that I wrote
 
 And, if an issue is discovered, it can also be easily disabled [without needing to roll back to the previous version][4].
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2025/02/18/conflicts
-[1]: %7B%7Bsite.url%7D%7D/daily/2025/02/17/ci-cd
+[0]: {{site.url}}/daily/2025/02/18/conflicts
+[1]: {{site.url}}/daily/2025/02/17/ci-cd
 [2]: https://www.drupal.org/project/feature_toggle
 [3]: https://www.drupal.org/project/feature_toggle_twig
-[4]: %7B%7Bsite.url%7D%7D/daily/2025/02/19/back-or-forward
+[4]: {{site.url}}/daily/2025/02/19/back-or-forward

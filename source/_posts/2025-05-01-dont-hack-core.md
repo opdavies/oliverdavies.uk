@@ -25,4 +25,4 @@ If you can, commit the changes upstream.
 
 Then you won't need to patch files and others will benefit from the contribution.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2025/01/14/patching-drupal
+[0]: {{site.url}}/daily/2025/01/14/patching-drupal

@@ -5,7 +5,7 @@ permalink: daily/2022/09/02/automating-all-the-things-with-ansible
 tags: [ansible]
 ---
 
-Ansible is a tool for automating IT tasks. It's one of my preferred tools to use, and one that I've written about and [presented talks on](%7B%7Bsite.url%7D%7D/talks/deploying-php-ansible-ansistrano) previously.
+Ansible is a tool for automating IT tasks. It's one of my preferred tools to use, and one that I've written about and [presented talks on]({{site.url}}/talks/deploying-php-ansible-ansistrano) previously.
 
 It's typically thought of as a tool for managing configuration on servers. For example. you have a new VPS that you want to use as a web server, so it needs Nginx, MySQL, PHP, etc to be installed - or whatever your application uses. You define the desired state and run Ansible, which will perform whatever tasks are needed to get to that state.
 
@@ -19,4 +19,4 @@ In the next few emails, I'll explain how I've been able to utilise Ansible for e
 
 ______________________________________________________________________
 
-Want to learn more about how I use Ansible? [Register for my upcoming free email course](%7B%7Bsite.url%7D%7D/ansible-course).
+Want to learn more about how I use Ansible? [Register for my upcoming free email course]({{site.url}}/ansible-course).

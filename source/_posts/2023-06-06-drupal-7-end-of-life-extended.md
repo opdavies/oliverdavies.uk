@@ -15,4 +15,4 @@ Whilst there's no official announcement yet, it seems this is the final extensio
 
 Of course, it doesn't mean all of the contributed modules, themes and distributions will be supported or updated until then, but this will give additional time to plan and migrate the remaining Drupal 7 websites whilst still giving clarity by setting a final date that will not be extended again.
 
-If you're still on Drupal 7 and need to learn more about upgrading to Drupal 10, [book an advisory call](%7B%7Bsite.url%7D%7D/call) or [an upgrade roadmap](%7B%7Bsite.url%7D%7D/drupal7) for your Drupal 7 project.
+If you're still on Drupal 7 and need to learn more about upgrading to Drupal 10, [book an advisory call]({{site.url}}/call) or [an upgrade roadmap]({{site.url}}/drupal7) for your Drupal 7 project.

@@ -43,6 +43,6 @@ Feature flags are a great approach to splitting up large changes into manageable
 
 Essentially, they are a simple boolean value that you can use to execute different code based on whether it's false or true.
 
-[0]: %7B%7Bsite.url%7D%7D/presentations/sculpin
+[0]: {{site.url}}/presentations/sculpin
 [1]: https://code.oliverdavies.uk/opdavies/oliverdavies.uk/commit/8b721e63fb64f3c98b81353ca9cec7545d72a595
 [2]: https://code.oliverdavies.uk/opdavies/oliverdavies.uk/commit/fa884644cf5aa233ad22fb28b83c5a0b150b037d

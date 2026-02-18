@@ -44,4 +44,4 @@ I learned a lot during this conversation and have added visual regression testin
 
 [Listen to the episode][episode]
 
-[episode]: %7B%7Bsite.url%7D%7D/podcast/14-yuri-gerasymov-diffy
+[episode]: {{site.url}}/podcast/14-yuri-gerasymov-diffy

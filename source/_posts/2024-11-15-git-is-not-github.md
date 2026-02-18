@@ -21,4 +21,4 @@ This can cause confusion, which is why [I think it's important to learn Git itse
 
 And, if you're going to use a remote repository, consider something like Gitea, which you can host yourself and keep control of your data.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2022/08/23/git-gui-command-line
+[0]: {{site.url}}/daily/2022/08/23/git-gui-command-line

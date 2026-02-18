@@ -21,4 +21,4 @@ I've even [started to interview some of them][1] on my podcast.
 Here's to the next 16 years, and I'm very excited so see where Drupal and PHP go.
 
 [0]: https://www.drupal.org/u/opdavies
-[1]: %7B%7Bsite.url%7D%7D/podcast
+[1]: {{site.url}}/podcast

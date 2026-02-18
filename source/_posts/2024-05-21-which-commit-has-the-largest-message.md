@@ -23,6 +23,6 @@ The longest in this website's code base is [546 characters][2], which is fairly 
 
 What's the longest commit message in the repository you're working in?
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/05/17/why-i-dont-commit-with--m
+[0]: {{site.url}}/daily/2024/05/17/why-i-dont-commit-with--m
 [1]: https://github.com/opdavies/git-commit-length-counter
 [2]: https://github.com/opdavies/oliverdavies.uk-drupal/commit/cbd1417b24a608df8b451a3ab5c9f888de41e758

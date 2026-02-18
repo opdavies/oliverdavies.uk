@@ -22,5 +22,5 @@ They also [need to be easily updatable][1] and consistent with the other environ
 
 When was the last time you or your Developers updated your local environment?
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/12/23/how-many-environments-do-you-need
-[1]: %7B%7Bsite.url%7D%7D/daily/2024/12/24/moving-changes
+[0]: {{site.url}}/daily/2024/12/23/how-many-environments-do-you-need
+[1]: {{site.url}}/daily/2024/12/24/moving-changes

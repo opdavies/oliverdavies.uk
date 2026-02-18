@@ -23,4 +23,4 @@ The commit date can be reset using `git reset --amend`, and combining these comm
 
 Running `git rebase --interactive --exec "git commit --amend --no-edit --date now"` will amend and update each commit, keeping the commit message the same, but changing the commit date to the current time - leaving the Git log in the correct order.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2025/02/11/tidy
+[0]: {{site.url}}/daily/2025/02/11/tidy

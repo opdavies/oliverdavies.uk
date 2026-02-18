@@ -30,6 +30,6 @@ You can also use automation to perform long or complex tasks outside of working 
 
 The more you can automate, the better.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2022/08/15/using-run-file-simplify-project-tasks
-[1]: %7B%7Bsite.url%7D%7D/daily/2024/11/11/could-nix-and-devenv-replace-docker-compose
-[2]: %7B%7Bsite.url%7D%7D/daily/2024/12/25/localhost
+[0]: {{site.url}}/daily/2022/08/15/using-run-file-simplify-project-tasks
+[1]: {{site.url}}/daily/2024/11/11/could-nix-and-devenv-replace-docker-compose
+[2]: {{site.url}}/daily/2024/12/25/localhost

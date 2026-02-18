@@ -12,7 +12,7 @@ tags:
 ---
 
 {% block content %}
-Last week, Mike Karthauser - Senior Software Developer at Huboo - [joined me on the Beyond Blocks podcast](%7B%7Bsite.url%7D%7D/podcast/7-mike-karthauser-testing-legacy).
+Last week, Mike Karthauser - Senior Software Developer at Huboo - [joined me on the Beyond Blocks podcast]({{site.url}}/podcast/7-mike-karthauser-testing-legacy).
 
 Mike also gave a talk recently at the PHP South West meetup on "Testing Legacy" which explained how he works with and tests legacy applications.
 

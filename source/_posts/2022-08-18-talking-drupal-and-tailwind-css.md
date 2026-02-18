@@ -14,7 +14,7 @@ I've become a big fan of this approach to styling websites and was an early adop
 
 ## Rebuilding Talking Drupal with Tailwind
 
-Usually when I give a Tailwind CSS talk at a conference or user group, I rebuild something familiar - maybe a page of their website - as an example and to explain some of the concepts and anything that was particularly interesting during the build. (I have [a blog post](%7B%7Bsite.url%7D%7D/blog/uis-ive-rebuilt-tailwind-css) that lists the ones that I've done before).
+Usually when I give a Tailwind CSS talk at a conference or user group, I rebuild something familiar - maybe a page of their website - as an example and to explain some of the concepts and anything that was particularly interesting during the build. (I have [a blog post]({{site.url}}/blog/uis-ive-rebuilt-tailwind-css) that lists the ones that I've done before).
 
 After this podcast episode, I built a [Tailwind version of the Talking Drupal homepage](https://talking-drupal-tailwindcss.oliverdavies.uk).
 
@@ -24,4 +24,4 @@ Drupal seemed like too much for a single page example, and Symfony or Sculpin co
 
 [The code repository](https://github.com/opdavies/talking-drupal-tailwindcss) is publicly viewable on my GitHub profile so people can look at the code and see some of the things that I talked about during the episode in practice and not just the resulting HTML a browser.
 
-You can [listen to the episode](https://talkingdrupal.com/338), and if you want any more information, the slides and video from my [Taking Flight with Tailwind CSS talk](%7B%7Bsite.url%7D%7D/talks/taking-flight-with-tailwind-css) are on my website.
+You can [listen to the episode](https://talkingdrupal.com/338), and if you want any more information, the slides and video from my [Taking Flight with Tailwind CSS talk]({{site.url}}/talks/taking-flight-with-tailwind-css) are on my website.

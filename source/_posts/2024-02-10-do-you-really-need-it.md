@@ -39,5 +39,5 @@ P.S. Do you need immediate access to an expert Drupal Developer? [With my Drupal
 
 {% endblock %}
 
-[gitignore]: %7B%7Bsite.url%7D%7D/daily/2024/01/27/gitignore-inclusive-or-exclusive
-[subscription]: %7B%7Bsite.url%7D%7D/subscription
+[gitignore]: {{site.url}}/daily/2024/01/27/gitignore-inclusive-or-exclusive
+[subscription]: {{site.url}}/subscription

@@ -25,4 +25,4 @@ In some projects, with existing stylesheets and usually other frameworks, you ca
 
 Usually, if I want to introduce utility classes to an existing project, I start by writing my own that are inspired by a framework such as Tailwind CSS and maybe refactor to the framework later once the concept has been introduced and the codebase is able to work with it.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/07/08/back-to-sass-and-traditional-css
+[0]: {{site.url}}/daily/2024/07/08/back-to-sass-and-traditional-css

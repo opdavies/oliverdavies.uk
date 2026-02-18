@@ -47,4 +47,4 @@ If you want to do that, you can still use the rebase approach.
 
 If not, use `git merge --squash`.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2022/09/20/why-like-trunk-based-development
+[0]: {{site.url}}/daily/2022/09/20/why-like-trunk-based-development

@@ -22,4 +22,4 @@ No additional charges, invoices or change requests.
 
 Just working code.
 
-[0]: %7B%7Bsite.url%7D%7D/pricing
+[0]: {{site.url}}/pricing

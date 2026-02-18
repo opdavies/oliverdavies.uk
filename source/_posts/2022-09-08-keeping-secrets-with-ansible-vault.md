@@ -27,8 +27,8 @@ You can use it within a playbook, and you'll be prompted to re-enter the passwor
 
 Rather than a single string, you could have a file of variables that you want to encrypt. You can do this by running `ansible-vault encrypt vault.yml` and include it as before. Again, you'll be prompted by Ansible so that it can decrypt and use the values.
 
-For an example of how I'm using Ansible Vault, see [the Dransible repository](https://github.com/opdavies/dransible/tree/986ba5097d62ff4cd0e637d40181bab2c4417f2e/tools/ansible) on GitHub or my [ Deploying PHP applications with Ansible, Ansible Vault and Ansistrano](%7B%7Bsite.url%7D%7D/presentations/deploying-php-ansible-ansistrano) talk.
+For an example of how I'm using Ansible Vault, see [the Dransible repository](https://github.com/opdavies/dransible/tree/986ba5097d62ff4cd0e637d40181bab2c4417f2e/tools/ansible) on GitHub or my [ Deploying PHP applications with Ansible, Ansible Vault and Ansistrano]({{site.url}}/presentations/deploying-php-ansible-ansistrano) talk.
 
 ______________________________________________________________________
 
-Want to learn more about how I use Ansible? [Register for my upcoming free email course](%7B%7Bsite.url%7D%7D/ansible-course).
+Want to learn more about how I use Ansible? [Register for my upcoming free email course]({{site.url}}/ansible-course).

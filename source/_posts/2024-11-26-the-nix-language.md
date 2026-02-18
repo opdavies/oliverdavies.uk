@@ -59,6 +59,6 @@ Once you have written the configuration, you can run it and install what you've 
 
 For a crash course in the Nix language, take a look at <https://zero-to-nix.com/concepts/nix-language> or one of the many open-sourced configurations on GitHub.
 
-[0]: %7B%7Bsite.url%7D%7D/daily/2024/11/25/nix-the-package-manager
+[0]: {{site.url}}/daily/2024/11/25/nix-the-package-manager
 [1]: https://github.com/opdavies/dotfiles/tree/main/nix
-[2]: %7B%7Bsite.url%7D%7D/daily/2024/11/11/could-nix-and-devenv-replace-docker-compose
+[2]: {{site.url}}/daily/2024/11/11/could-nix-and-devenv-replace-docker-compose

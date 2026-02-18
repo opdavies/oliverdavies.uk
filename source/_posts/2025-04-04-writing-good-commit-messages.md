@@ -34,4 +34,4 @@ I can even include Chris' rules in my commit message template so I see them when
 This additional feedback helps me create my commit messages how I intend.
 
 [0]: https://cbea.ms/git-commit
-[1]: %7B%7Bsite.url%7D%7D/daily/2025/04/02/commit
+[1]: {{site.url}}/daily/2025/04/02/commit
