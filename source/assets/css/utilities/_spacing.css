@@ -1,0 +1,32 @@
+.margin-top--base {
+  margin-top: var(--space--base);
+}
+
+.margin-top--large {
+  margin-top: var(--space--large);
+}
+
+.margin-top--medium {
+  margin-top: var(--space--medium);
+}
+
+.margin-top--small {
+  margin-top: var(--space--small);
+}
+
+.margin-top--x-large {
+  margin-top: var(--space--x-large);
+}
+
+.margin-top--x-small {
+  margin-top: var(--space--x-small);
+}
+
+.margin-top--xx-large {
+  margin-top: var(--space--xx-large);
+}
+
+.margin-top--xx-small {
+  margin-top: var(--space--xx-small);
+}
+
