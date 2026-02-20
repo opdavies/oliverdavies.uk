@@ -51,6 +51,10 @@ a:not(.text-white) {
   }
 }
 
+hr {
+  margin: var(--space--x-large) 0;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: var(--font-size--300) !important;
