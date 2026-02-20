@@ -8,14 +8,14 @@ body {
 
 h1 {
   font-size: var(--font-size--200) !important;
-  font-weight: var(--font-weight--bold) !important;
+  font-weight: var(--font-weight--bolder) !important;
   line-height: var(--line-height--tight);
   margin-bottom: var(--space--base) !important;
 }
 
 h2 {
   font-size: var(--font-size--200) !important;
-  font-weight: var(--font-weight--bold) !important;
+  font-weight: var(--font-weight--bolder) !important;
   margin: var(--space--large) 0 var(--space--medium) !important;
 
   &:first-of-type {
@@ -51,6 +51,10 @@ a:not(.text-white) {
 
 hr {
   margin: var(--space--x-large) 0;
+}
+
+strong {
+  font-weight: var(--font-weight--bold);
 }
 
 @media (min-width: 768px) {
