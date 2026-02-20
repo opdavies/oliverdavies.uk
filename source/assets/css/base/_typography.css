@@ -14,6 +14,7 @@ h1 {
 }
 
 h2 {
+  font-size: var(--font-size--200) !important;
   font-weight: var(--font-weight--bold) !important;
   margin: var(--space--large) 0 var(--space--medium) !important;
 
