@@ -73,12 +73,13 @@ use:
 
 <p>I only give fixed prices so <strong>you'll know upfront how much my work will cost</strong> and all of my work is covered by a bug-free guarantee.</p>
 
-
-{% include 'button.html.twig' with {
-  full_width: true,
-  text: 'Click here to email Oliver',
-  url: 'mailto:' ~ site.email,
-} %}
+<div class="margin-top--large">
+  {% include 'button.html.twig' with {
+    full_width: true,
+    text: 'Click here to email Oliver',
+    url: 'mailto:' ~ site.email,
+  } %}
+</div>
 
 <hr>
 
@@ -94,9 +95,11 @@ use:
 
 <p>There's no reason to wait. Drop me a line and I'll get back to you ASAP.</p>
 
-{% include 'button.html.twig' with {
-  full_width: true,
-  text: 'Click here to email Oliver',
-  url: 'mailto:' ~ site.email,
-} %}
+<div class="margin-top--large">
+  {% include 'button.html.twig' with {
+    full_width: true,
+    text: 'Click here to email Oliver',
+    url: 'mailto:' ~ site.email,
+  } %}
+</div>
 {% endblock %}
