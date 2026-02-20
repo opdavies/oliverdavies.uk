@@ -1,3 +1,5 @@
+@import "resets/_box-sizing.css";
+
 @import "base/_body.css";
 @import "base/_fonts.css";
 @import "base/_tables.css";
