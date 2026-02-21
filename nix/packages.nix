@@ -19,7 +19,7 @@
             --bundle \
             --minify \
             --output-file source/assets/css/build/app.css \
-            source/assets/css/index.css
+            source/assets/css/app.css
 
           sculpin generate --env prod
 
