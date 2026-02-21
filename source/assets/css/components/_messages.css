@@ -14,7 +14,7 @@
   padding: var(--space--base);
 
   > * {
-    font-size: var(--font-size--xs) !important;
+    font-size: var(--font-size--xs);
     line-height: var(--line-height--base);
   }
 }

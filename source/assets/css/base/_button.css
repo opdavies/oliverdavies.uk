@@ -9,7 +9,7 @@ a.button {
   border-radius: 6px;
   border: 1px solid var(--button-border-color);
   box-sizing: border-box;
-  color: var(--button-text-color) !important;
+  color: var(--button-text-color);
   display: inline-flex;
   font-size: var(--font-size--100);
   font-weight: var(--font-weight--bold);
@@ -17,7 +17,7 @@ a.button {
   justify-content: center;
   padding: var(--space--small) var(--space--base);
   text-align: center;
-  text-decoration: none !important;
+  text-decoration: none;
   transition-duration: var(--transition-duration--base);
   transition-property: background-color, color;
   transition-timing-function: var(--transition-timing--base);

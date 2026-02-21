@@ -33,10 +33,10 @@
     --photo-border: var(--color--primary-base);
 
     border: 3px solid;
-    border-bottom-color: var(--photo-border) !important;
-    border-left-color: var(--photo-border) !important;
-    border-right-color: var(--photo-border) !important;
-    border-top-color: var(--photo-border) !important;
+    border-bottom-color: var(--photo-border);
+    border-left-color: var(--photo-border);
+    border-right-color: var(--photo-border);
+    border-top-color: var(--photo-border);
     height: var(--space--xx-large);
     margin: 0;
     width: var(--space--xx-large);
