@@ -29,7 +29,10 @@ p {
   &:first-of-type {
     margin-top: 0;
   }
+}
 
+p,
+li {
   code {
     background: var(--bg--code);
     border-radius: 6px;
