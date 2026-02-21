@@ -15,48 +15,50 @@
 {% endblock %}
 
 {% block content_wrapper %}
-  {% if page.embed_url %}
-    <audio controls>
-      <source src="{{ page.embed_url }}" type="audio/mp3">
-    </audio>
-  {% endif %}
+  <div class="gap-y--medium">
+    {% if page.embed_url %}
+      <audio controls>
+        <source src="{{ page.embed_url }}" type="audio/mp3">
+      </audio>
+    {% endif %}
 
-  {{ parent() }}
+    {{ parent() }}
 
-  {% if page.talking_points %}
+    {% if page.talking_points %}
+      <div>
+        <h2>Key points</h2>
+
+        <ul>
+          {% for point in page.talking_points %}
+            <li>{{ point }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    {% if page.quotes %}
+      <div>
+        <h2>Quotes</h2>
+
+        <ul>
+          {% for quote in page.quotes %}
+            <li>{{ quote }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
     <div>
-      <h2>Key points</h2>
+      <h2>Links</h2>
 
       <ul>
-        {% for point in page.talking_points %}
-          <li>{{ point }}</li>
+        {% for link in page.links %}
+          <li>
+            <a href="{{ link.1 }}">{{ link.0 }}</a>
+          </li>
         {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
-
-  {% if page.quotes %}
-    <div>
-      <h2>Quotes</h2>
-
       <ul>
-        {% for quote in page.quotes %}
-          <li>{{ quote }}</li>
-        {% endfor %}
-      </ul>
     </div>
-  {% endif %}
-
-  <div>
-    <h2>Links</h2>
-
-    <ul>
-      {% for link in page.links %}
-        <li>
-          <a href="{{ link.1 }}">{{ link.0 }}</a>
-        </li>
-      {% endfor %}
-    <ul>
   </div>
 
   {% for guest in page.guests %}
