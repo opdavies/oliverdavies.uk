@@ -24,7 +24,7 @@ h2 {
 }
 
 p {
-  margin: var(--space--small) 0 0;
+  margin: var(--space--base) 0 0;
 
   &:first-of-type {
     margin-top: 0;
