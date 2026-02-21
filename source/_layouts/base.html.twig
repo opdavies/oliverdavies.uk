@@ -74,15 +74,9 @@
               {%- block page_title %}{{ page.title }}{% endblock -%}
             </h1>
 
-            {% if page.url matches "#^/component-library/#" %}
-              <div>
-            {% else %}
-              <div class="gap-y--x-large">
-            {% endif %}
-              {% block content_wrapper %}
-                {% block content %}{% endblock %}
-              {% endblock %}
-            </div>
+            {% block content_wrapper %}
+              {% block content %}{% endblock %}
+            {% endblock %}
           </main>
 
           {% if not (page.url matches "#^/component-library/#") %}
