@@ -39,13 +39,13 @@ use: [posts]
         </time>
       </li>
     {% endfor %}
-
-    {% if page.pagination.previous_page or page.pagination.next_page %}
-      <nav class="flex justify-center pt-10 space-x-6">
-        {% if page.pagination.previous_page %}<a href="{{ site.url }}{{ page.pagination.previous_page.url }}">&larr; Newer Posts{% endif %}<br />
-        {% if page.pagination.next_page %}<a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Posts &rarr;</a>{% endif %}<br />
-      </nav>
-    {% endif %}
   </ul>
+
+  {% if page.pagination.previous_page or page.pagination.next_page %}
+    <nav class="flex justify-center pt-10 space-x-6">
+      {% if page.pagination.previous_page %}<a href="{{ site.url }}{{ page.pagination.previous_page.url }}">&larr; Newer Posts{% endif %}<br />
+      {% if page.pagination.next_page %}<a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Posts &rarr;</a>{% endif %}<br />
+    </nav>
+  {% endif %}
 </div>
 {% endblock %}
