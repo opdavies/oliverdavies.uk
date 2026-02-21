@@ -16,7 +16,7 @@ h1 {
 h2 {
   font-size: var(--font-size--200) !important;
   font-weight: var(--font-weight--bolder) !important;
-  margin: var(--space--large) 0 var(--space--medium) !important;
+  margin: var(--space--large) 0 var(--space--base) !important;
 
   &:first-of-type {
     margin-top: 0 !important;
