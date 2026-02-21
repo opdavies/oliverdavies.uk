@@ -18,7 +18,7 @@ use: [posts]
 
 {% set month_and_year = null -%}
 
-<div>
+<div class="margin-top--large">
   <ul>
     {% for post in page.pagination.items %}
       {% set post_month_and_year = post.date|date('F Y') %}
