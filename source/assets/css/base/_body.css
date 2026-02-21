@@ -1,3 +1,5 @@
 body {
+  display: flex;
+  flex-direction: column;
   padding: 0 var(--space--base) var(--space--medium);
 }

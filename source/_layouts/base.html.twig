@@ -50,55 +50,53 @@
   <body>
     <a class="visually-hidden visually-hidden--focus-unhide" href="#footer">Jump to the navigation menu</a>
 
-    <div class="flex flex-col min-h-screen text-base md:text-xl selection:bg-blue-primary selection:text-white dark:selection:bg-blue-primary dark:selection:text-white">
-      <div class="container">
-        {% if not (page.url matches "#^/component-library/#") %}
-          <header id="page-header">
-            {% include 'logo.html.twig' %}
-          </header>
-        {% endif %}
+    <div class="container">
+      {% if not (page.url matches "#^/component-library/#") %}
+        <header id="page-header">
+          {% include 'logo.html.twig' %}
+        </header>
+      {% endif %}
 
-        <div class="gap-y--x-large">
-          {% block content_top %}{% endblock %}
+      <div class="gap-y--x-large">
+        {% block content_top %}{% endblock %}
 
-          <main>
-            {% if page.url matches "#^/atdc/#" %}
-              <div class="mb-10 border border-grey-800 dark:border-grey-600">
-                <div class="py-4 px-4">
-                  <p>I'm currently updating this course for Drupal 11. If you find any bugs or have any issues, <a href="mailto:{{ site.email }}?subject=ATDC">please let me know</a>.
-                </div>
+        <main>
+          {% if page.url matches "#^/atdc/#" %}
+            <div class="mb-10 border border-grey-800 dark:border-grey-600">
+              <div class="py-4 px-4">
+                <p>I'm currently updating this course for Drupal 11. If you find any bugs or have any issues, <a href="mailto:{{ site.email }}?subject=ATDC">please let me know</a>.
               </div>
-            {% endif %}
-
-            <h1>
-              {%- block page_title %}{{ page.title }}{% endblock -%}
-            </h1>
-
-            {% block content_wrapper %}
-              {% block content %}{% endblock %}
-            {% endblock %}
-          </main>
-
-          {% if not (page.url matches "#^/component-library/#") %}
-            {% block content_bottom %}{% endblock %}
+            </div>
           {% endif %}
-        </div>
+
+          <h1>
+            {%- block page_title %}{{ page.title }}{% endblock -%}
+          </h1>
+
+          {% block content_wrapper %}
+            {% block content %}{% endblock %}
+          {% endblock %}
+        </main>
 
         {% if not (page.url matches "#^/component-library/#") %}
-          <footer class="page-footer">
-            <a id="footer" tabindex="-1"></a>
-
-            {% include 'main-menu.html.twig' %}
-          </footer>
+          {% block content_bottom %}{% endblock %}
         {% endif %}
       </div>
 
       {% if not (page.url matches "#^/component-library/#") %}
-        <div class="order--first">
-          {% include 'banner' %}
-        </div>
+        <footer class="page-footer">
+          <a id="footer" tabindex="-1"></a>
+
+          {% include 'main-menu.html.twig' %}
+        </footer>
       {% endif %}
     </div>
+
+    {% if not (page.url matches "#^/component-library/#") %}
+      <div class="order--first">
+        {% include 'banner' %}
+      </div>
+    {% endif %}
 
     {% block scripts %}{% endblock %}
   </body>
