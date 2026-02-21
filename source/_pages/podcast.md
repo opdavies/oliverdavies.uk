@@ -12,7 +12,7 @@ use:
 A podcast about Drupal, PHP, open-source, and related software development topics.
 Guests include people like [Matt Glaman](/podcast/1-retrofit), [Eirik Morland](/podcast/8-eirik-morland-violinist), [Tim Lehnen](/podcast/9-tim-lehnen), [Ryan Szrama](/podcast/13-ryan-szrama-centarro), [Sam Mortenson](/podcast/19-sam-mortenson) and [Jess Archer](/podcast/25-jess-archer-drush-laravel-prompts).
 
-## Episodes {.sr-only}
+## Episodes {.visually-hidden}
 
 {% for episode in data.podcast_episodes|reverse %}
 <article class="gap-y--base">
