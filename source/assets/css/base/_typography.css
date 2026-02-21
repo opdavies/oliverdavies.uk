@@ -53,11 +53,19 @@ a:not(.text-white) {
 }
 
 hr {
+  border: 0;
+  border-top: 1px solid #44403c;
   margin: var(--space--x-large) 0;
 }
 
 strong {
   font-weight: var(--font-weight--bold);
+}
+
+@media (prefers-color-scheme: dark) {
+  hr {
+    border-top-color: var(--color--white);
+  }
 }
 
 @media (min-width: 768px) {
