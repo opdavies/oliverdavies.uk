@@ -12,11 +12,13 @@ use: [posts]
 {% endblock %}
 
 {% block content %}
-<p>Here are the {{ data.posts|length|number_format }} blog posts and public notes I have written (so far), on topics including software development, open source software, productivity, public speaking and personal updates.</p>
+<div>
+  <p>Here are the {{ data.posts|length|number_format }} blog posts and public notes I have written (so far), on topics including software development, open source software, productivity, public speaking and personal updates.</p>
+</div>
 
 {% set month_and_year = null -%}
 
-<div style="margin-top: 2rem;">
+<div>
   <ul>
     {% for post in page.pagination.items %}
       {% set post_month_and_year = post.date|date('F Y') %}

@@ -16,11 +16,13 @@ use: [presentations]
   {% endfor -%}
 {% endfor -%}
 
-<p>Since September 2012, I have given {{ presentationCount }} public talks and workshops at conferences and meetups in {{ locations|length }} cities
-{%- if site.features.show_country_count %} and 3 countries{% endif -%}
-, on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.</p>
+<div>
+  <p>Since September 2012, I have given {{ presentationCount }} public talks and workshops at conferences and meetups in {{ locations|length }} cities
+  {%- if site.features.show_country_count %} and 3 countries{% endif -%}
+  , on topics including PHP, Drupal, automated testing, Git, CSS, and systems administration.</p>
+</div>
 
-<div style="margin-top: 3rem;">
+<div>
   <div class="grid gap-y--large">
     {% for presentation in data.presentations|sort((a, b) => a.events|last.date|date('U') > b.events|last.date|date('U') ? -1 : 1) %}
       <article>
