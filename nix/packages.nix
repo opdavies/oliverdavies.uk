@@ -18,7 +18,7 @@
           lightningcss \
             --bundle \
             --minify \
-            --output-file source/build/app.css \
+            --output-file source/assets/css/build/app.css \
             source/assets/css/index.css
 
           sculpin generate --env prod
