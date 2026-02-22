@@ -1,6 +1,6 @@
 ---
 title: Stick to conventions
-pubDate: 2023-07-27
+date: 2023-07-27
 permalink: >-
   daily/2023/07/27/stick-to-conventions
 tags:

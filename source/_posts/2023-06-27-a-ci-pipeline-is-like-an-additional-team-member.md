@@ -1,6 +1,6 @@
 ---
 title: A CI pipeline is like an additional team member
-pubDate: 2023-06-27
+date: 2023-06-27
 permalink: >-
   daily/2023/06/27/ci-pipeline-additional-team-member
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Feature flags enable continuous integration
-pubDate: 2023-09-28
+date: 2023-09-28
 permalink: >-
   daily/2023/09/28/feature-flags-enable-continuous-integration
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Do you need that module?
-pubDate: 2023-10-11
+date: 2023-10-11
 permalink: >-
   daily/2023/10/11/do-you-need-that-module
 tags:

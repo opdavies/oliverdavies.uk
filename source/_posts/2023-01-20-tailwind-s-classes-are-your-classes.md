@@ -1,6 +1,6 @@
 ---
 title: Tailwind's classes are your classes
-pubDate: 2023-01-20
+date: 2023-01-20
 permalink: >-
   daily/2023/01/20/tailwinds-classes-are-your-classes
 tags:

@@ -1,6 +1,6 @@
 ---
 title: This should never happen
-pubDate: 2023-12-24
+date: 2023-12-24
 permalink: >-
   daily/2023/12/24/this-should-never-happen
 tags:

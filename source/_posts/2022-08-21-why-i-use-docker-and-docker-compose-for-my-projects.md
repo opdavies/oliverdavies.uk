@@ -1,6 +1,6 @@
 ---
 permalink: daily/2022/08/21/2022-08-21
-pubDate: 2022-08-21
+date: 2022-08-21
 title: Why I use Docker and Docker Compose for my projects
 tags:
   - docker

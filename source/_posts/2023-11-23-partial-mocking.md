@@ -1,6 +1,6 @@
 ---
 title: Partial mocking
-pubDate: 2023-11-23
+date: 2023-11-23
 permalink: >-
   daily/2023/11/23/partial-mocking
 tags:

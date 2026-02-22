@@ -1,6 +1,6 @@
 ---
 title: A Drupal case study from Oxfam
-pubDate: 2023-12-07
+date: 2023-12-07
 permalink: >-
   daily/2023/12/07/a-drupal-case-study-from-oxfam
 tags:

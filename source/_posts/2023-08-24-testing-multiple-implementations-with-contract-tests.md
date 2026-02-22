@@ -1,6 +1,6 @@
 ---
 title: Testing multiple implementations with contract tests
-pubDate: 2023-08-24
+date: 2023-08-24
 permalink: >-
   daily/2023/08/24/testing-multiple-implementations-with-contract-tests
 tags:

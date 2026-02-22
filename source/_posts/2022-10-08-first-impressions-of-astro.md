@@ -1,6 +1,6 @@
 ---
 title: First impressions of Astro
-pubDate: 2022-10-08
+date: 2022-10-08
 permalink: daily/2022/10/08/first-impressions-astro
 tags: [astro]
 ---

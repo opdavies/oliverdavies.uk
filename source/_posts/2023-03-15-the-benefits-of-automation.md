@@ -1,6 +1,6 @@
 ---
 title: The benefits of automation
-pubDate: 2023-03-15
+date: 2023-03-15
 permalink: >-
   daily/2023/03/15/the-benefits-of-automation
 tags:

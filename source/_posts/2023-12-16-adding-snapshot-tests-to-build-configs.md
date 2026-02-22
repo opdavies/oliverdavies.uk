@@ -1,6 +1,6 @@
 ---
 title: Adding snapshot tests to Build Configs
-pubDate: 2023-12-16
+date: 2023-12-16
 permalink: >-
   daily/2023/12/16/adding-snapshot-tests-to-build-configs
 tags:

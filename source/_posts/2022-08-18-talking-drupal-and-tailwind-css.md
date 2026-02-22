@@ -1,6 +1,6 @@
 ---
 permalink: daily/2022/08/18/talking-drupal-tailwind-css
-pubDate: 2022-08-18
+date: 2022-08-18
 title: "'Talking Drupal' and Tailwind CSS"
 tags:
   - css

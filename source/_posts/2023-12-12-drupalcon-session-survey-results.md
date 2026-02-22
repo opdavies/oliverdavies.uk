@@ -1,6 +1,6 @@
 ---
 title: DrupalCon session survey results
-pubDate: 2023-12-12
+date: 2023-12-12
 permalink: >-
   daily/2023/12/12/drupalcon-session-survey-results
 tags:

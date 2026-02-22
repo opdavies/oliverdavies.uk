@@ -1,6 +1,6 @@
 ---
 title: just vs make
-pubDate: 2023-04-11
+date: 2023-04-11
 permalink: >-
   daily/2023/04/11/just-vs-make
 tags:

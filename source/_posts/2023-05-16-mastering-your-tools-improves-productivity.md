@@ -1,6 +1,6 @@
 ---
 title: Mastering your tools improves productivity
-pubDate: 2023-05-16
+date: 2023-05-16
 permalink: >-
   daily/2023/05/16/mastering-your-tools-improves-productivity
 tags:

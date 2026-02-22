@@ -1,6 +1,6 @@
 ---
 title: Writing test and implementation code are the same task
-pubDate: 2023-08-15
+date: 2023-08-15
 permalink: >-
   daily/2023/08/15/writing-test-and-implementation-code-are-the-same-task
 tags:

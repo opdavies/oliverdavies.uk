@@ -1,6 +1,6 @@
 ---
 title: Should you feature flag everything?
-pubDate: 2023-06-13
+date: 2023-06-13
 permalink: >-
   daily/2023/06/13/should-you-feature-flag-everything
 tags:

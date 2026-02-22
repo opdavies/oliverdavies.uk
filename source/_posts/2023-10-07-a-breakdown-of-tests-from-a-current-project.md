@@ -1,6 +1,6 @@
 ---
 title: A breakdown of tests from a current project
-pubDate: 2023-10-07
+date: 2023-10-07
 permalink: >-
   daily/2023/10/07/a-breakdown-of-tests-from-a-current-project
 tags:

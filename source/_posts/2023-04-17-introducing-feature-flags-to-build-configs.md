@@ -1,6 +1,6 @@
 ---
 title: Introducing feature flags to "build-configs"
-pubDate: 2023-04-17
+date: 2023-04-17
 permalink: >-
   daily/2023/04/17/introducing-feature-flags-to-build-configs
 tags: []

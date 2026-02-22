@@ -1,6 +1,6 @@
 ---
 title: Everyone tests their code
-pubDate: 2023-08-11
+date: 2023-08-11
 permalink: >-
   daily/2023/08/11/everyone-tests-their-code
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Separating releases from deployments with feature flags
-pubDate: 2022-12-07
+date: 2022-12-07
 permalink: >-
   daily/2022/12/07/separating-releases-from-deployments-with-feature-flags
 ---

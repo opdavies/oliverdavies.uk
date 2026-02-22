@@ -1,6 +1,6 @@
 ---
 title: Why keep a dotfiles repository
-pubDate: 2023-08-14
+date: 2023-08-14
 permalink: >-
   daily/2023/08/14/why-keep-a-dotfiles-repository
 tags:

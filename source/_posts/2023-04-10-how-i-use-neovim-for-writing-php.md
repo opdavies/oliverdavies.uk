@@ -1,6 +1,6 @@
 ---
 title: How I use Neovim for writing PHP
-pubDate: 2023-04-10
+date: 2023-04-10
 permalink: >-
   daily/2023/04/10/how-i-use-neovim-for-writing-php
 tags:

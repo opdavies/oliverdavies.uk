@@ -1,6 +1,6 @@
 ---
 title: Comments as communication
-pubDate: 2023-07-21
+date: 2023-07-21
 permalink: >-
   daily/2023/07/21/comments-as-communication
 tags: []

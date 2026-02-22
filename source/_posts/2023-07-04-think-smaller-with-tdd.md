@@ -1,6 +1,6 @@
 ---
 title: Think smaller with TDD
-pubDate: 2023-07-04
+date: 2023-07-04
 permalink: >-
   daily/2023/07/04/think-smaller-with-tdd
 tags:

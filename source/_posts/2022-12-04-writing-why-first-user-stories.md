@@ -1,6 +1,6 @@
 ---
 title: Writing "Why first" user stories
-pubDate: 2022-12-04
+date: 2022-12-04
 permalink: >-
   daily/2022/12/04/writing-why-first-user-stories
 ---

@@ -1,6 +1,6 @@
 ---
 title: Separating environments with feature flags
-pubDate: 2023-09-27
+date: 2023-09-27
 permalink: >-
   daily/2023/09/27/separating-environments-with-feature-flags
 tags:

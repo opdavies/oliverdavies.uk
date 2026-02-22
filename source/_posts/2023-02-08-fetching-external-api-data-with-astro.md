@@ -1,6 +1,6 @@
 ---
 title: Fetching external API data with Astro
-pubDate: 2023-02-08
+date: 2023-02-08
 permalink: >-
   daily/2023/02/08/fetching-api-data-with-astro
 tags:

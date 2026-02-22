@@ -1,6 +1,6 @@
 ---
 title: Speaking at PHP London
-pubDate: 2023-04-07
+date: 2023-04-07
 permalink: >-
   daily/2023/04/07/speaking-at-php-london
 tags:

@@ -1,6 +1,6 @@
 ---
 title: A lack of tests discourages refactoring
-pubDate: 2023-09-09
+date: 2023-09-09
 permalink: >-
   daily/2023/09/09/a-lack-of-tests-discourages-refactoring
 tags:

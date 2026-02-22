@@ -1,6 +1,6 @@
 ---
 title: Tailwind CSS at the Norfolk Developer Conference
-pubDate: 2023-03-01
+date: 2023-03-01
 permalink: >-
   daily/2023/03/01/tailwind-css-at-the-norfolk-developer-conference
 tags:

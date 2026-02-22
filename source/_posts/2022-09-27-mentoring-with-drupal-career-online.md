@@ -1,6 +1,6 @@
 ---
 title: Mentoring with Drupal Career Online
-pubDate: 2022-09-27
+date: 2022-09-27
 permalink: daily/2022/09/27/mentoring-with-drupal-career-online
 tags: [drupal]
 ---

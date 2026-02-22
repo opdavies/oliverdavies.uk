@@ -1,6 +1,6 @@
 ---
 title: Custom coding standards and conventions
-pubDate: 2023-12-11
+date: 2023-12-11
 permalink: >-
   daily/2023/12/11/custom-coding-standards-and-conventions
 tags:

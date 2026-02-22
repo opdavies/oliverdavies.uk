@@ -1,6 +1,6 @@
 ---
 title: Don't write generic commit messages
-pubDate: 2023-07-28
+date: 2023-07-28
 permalink: >-
   daily/2023/07/28/generic-commit-messages
 tags:

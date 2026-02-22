@@ -1,6 +1,6 @@
 ---
 title: Work in small batches
-pubDate: 2023-11-11
+date: 2023-11-11
 permalink: >-
   daily/2023/11/11/work-in-small-batches
 tags:

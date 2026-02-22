@@ -1,6 +1,6 @@
 ---
 title: Tailwind CSS' extensibility is one of its best features
-pubDate: 2023-01-03
+date: 2023-01-03
 permalink: >-
   daily/2023/01/03/tailwind-css-extensibility-is-one-of-its-best-features
 tags:

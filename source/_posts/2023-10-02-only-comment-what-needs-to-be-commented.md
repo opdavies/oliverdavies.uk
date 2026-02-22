@@ -1,6 +1,6 @@
 ---
 title: Only comment what needs to be commented
-pubDate: 2023-10-02
+date: 2023-10-02
 permalink: >-
   daily/2023/10/02/only-comment-what-needs-to-be-commented
 tags:

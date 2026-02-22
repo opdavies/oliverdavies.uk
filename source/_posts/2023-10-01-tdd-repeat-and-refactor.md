@@ -1,6 +1,6 @@
 ---
 title: 'TDD: repeat and refactor'
-pubDate: 2023-10-01
+date: 2023-10-01
 permalink: >-
   daily/2023/10/01/tdd--repeat-and-refactor
 tags:

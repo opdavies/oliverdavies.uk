@@ -1,6 +1,6 @@
 ---
 title: Don't inject too many dependencies
-pubDate: 2023-09-12
+date: 2023-09-12
 permalink: >-
   daily/2023/09/12/dont-inject-too-many-dependencies
 tags:

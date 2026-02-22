@@ -1,6 +1,6 @@
 ---
 title: Keeping secrets with Ansible Vault
-pubDate: 2022-09-08
+date: 2022-09-08
 permalink: daily/2022/09/08/keeping-secrets-with-ansible-vault
 tags: [ansible]
 ---

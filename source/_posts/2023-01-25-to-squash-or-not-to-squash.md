@@ -1,6 +1,6 @@
 ---
 title: To squash or not to squash
-pubDate: 2023-01-25
+date: 2023-01-25
 permalink: >-
   daily/2023/01/25/to-squash-or-not-to-squash
 tags:

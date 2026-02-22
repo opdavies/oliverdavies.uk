@@ -1,6 +1,6 @@
 ---
 title: Suffixing names
-pubDate: 2023-12-10
+date: 2023-12-10
 permalink: >-
   daily/2023/12/10/suffixing-names
 tags:

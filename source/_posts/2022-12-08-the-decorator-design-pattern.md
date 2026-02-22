@@ -1,6 +1,6 @@
 ---
 title: The Decorator design pattern
-pubDate: 2022-12-08
+date: 2022-12-08
 permalink: >-
   daily/2022/12/08/the-decorator-design-pattern
 tags:

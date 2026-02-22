@@ -1,6 +1,6 @@
 ---
 title: Should Drupal 7 support be extended again?
-pubDate: 2023-05-01
+date: 2023-05-01
 permalink: >-
   daily/2023/05/01/should-drupal-7-support-be-extended-again
 tags:

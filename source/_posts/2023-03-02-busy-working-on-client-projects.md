@@ -1,6 +1,6 @@
 ---
 title: Busy working on client projects
-pubDate: 2023-03-02
+date: 2023-03-02
 permalink: >-
   daily/2023/03/02/busy-working-on-client-projects
 tags: []

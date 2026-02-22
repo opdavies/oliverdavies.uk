@@ -1,6 +1,6 @@
 ---
 title: Retrofit with Matt Glaman
-pubDate: 2023-11-10
+date: 2023-11-10
 permalink: >-
   daily/2023/11/10/retrofit-with-matt-glaman
 tags:

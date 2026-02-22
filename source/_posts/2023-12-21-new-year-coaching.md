@@ -1,6 +1,6 @@
 ---
 title: New year coaching
-pubDate: 2023-12-21
+date: 2023-12-21
 permalink: >-
   daily/2023/12/21/new-year-coaching
 tags:

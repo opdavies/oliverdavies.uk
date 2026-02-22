@@ -1,6 +1,6 @@
 ---
 title: README-driven development
-pubDate: 2023-11-09
+date: 2023-11-09
 permalink: >-
   daily/2023/11/09/readme-driven-development
 tags:

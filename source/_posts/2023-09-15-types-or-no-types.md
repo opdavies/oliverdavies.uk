@@ -1,6 +1,6 @@
 ---
 title: Types or no types
-pubDate: 2023-09-15
+date: 2023-09-15
 permalink: >-
   daily/2023/09/15/types-or-no-types
 tags:

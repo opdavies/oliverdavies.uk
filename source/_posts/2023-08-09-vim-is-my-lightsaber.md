@@ -1,6 +1,6 @@
 ---
 title: Vim is my lightsaber
-pubDate: 2023-08-09
+date: 2023-08-09
 permalink: >-
   daily/2023/08/09/vim-is-my-lightsaber
 tags:

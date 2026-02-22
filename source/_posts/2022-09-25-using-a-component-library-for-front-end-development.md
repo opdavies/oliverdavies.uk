@@ -1,6 +1,6 @@
 ---
 title: Using a component library for front-end development
-pubDate: 2022-09-25
+date: 2022-09-25
 permalink: daily/2022/09/25/using-component-library-for-front-end-development
 tags: []
 ---

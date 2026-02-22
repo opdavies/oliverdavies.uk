@@ -1,6 +1,6 @@
 ---
 title: Writing good automated test names
-pubDate: 2022-11-15
+date: 2022-11-15
 permalink: >-
   daily/2022/11/15/writing-good-automated-test-names
 tags:

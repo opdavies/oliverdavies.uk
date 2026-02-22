@@ -1,6 +1,6 @@
 ---
 title: Which type of test should I use?
-pubDate: 2023-09-13
+date: 2023-09-13
 permalink: >-
   daily/2023/09/13/which-type-of-test-should-i-use
 tags:

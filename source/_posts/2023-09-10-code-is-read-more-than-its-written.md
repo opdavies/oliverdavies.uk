@@ -1,6 +1,6 @@
 ---
 title: Code is read more than it's written
-pubDate: 2023-09-10
+date: 2023-09-10
 permalink: >-
   daily/2023/09/10/code-is-read-more-than-it-s-written
 tags:

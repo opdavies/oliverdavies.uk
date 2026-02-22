@@ -1,6 +1,6 @@
 ---
 title: Are missing tests a blocker to refactoring?
-pubDate: 2022-11-19
+date: 2022-11-19
 permalink: >-
   daily/2022/11/19/are-missing-tests-a-blocker-to-refactoring
 ---

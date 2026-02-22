@@ -1,6 +1,6 @@
 ---
 title: The Boy Scout rule
-pubDate: 2022-12-22
+date: 2022-12-22
 permalink: >-
   daily/2022/12/22/the-boy-scout-rule
 ---

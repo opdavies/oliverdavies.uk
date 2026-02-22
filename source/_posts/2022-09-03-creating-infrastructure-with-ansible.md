@@ -1,5 +1,5 @@
 ---
-pubDate: 2022-09-03
+date: 2022-09-03
 title: Creating infrastructure with Ansible
 permalink: dailys/2022/09/03/creating-infrastructure-with-ansible
 tags: [ansible]

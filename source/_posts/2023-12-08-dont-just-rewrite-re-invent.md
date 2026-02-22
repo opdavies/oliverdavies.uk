@@ -1,6 +1,6 @@
 ---
 title: Don't just rewrite. Re-invent.
-pubDate: 2023-12-08
+date: 2023-12-08
 permalink: >-
   daily/2023/12/08/dont-just-rewrite
 tags:

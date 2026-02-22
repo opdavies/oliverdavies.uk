@@ -1,6 +1,6 @@
 ---
 title: Write the test backwards
-pubDate: 2023-04-27
+date: 2023-04-27
 permalink: >-
   daily/2023/04/27/tdd-write-the-test-backwards
 tags:

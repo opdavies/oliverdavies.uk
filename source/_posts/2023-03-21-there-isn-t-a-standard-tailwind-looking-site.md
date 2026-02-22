@@ -1,6 +1,6 @@
 ---
 title: There isn't a standard "Tailwind-looking" site
-pubDate: 2023-03-21
+date: 2023-03-21
 permalink: >-
   daily/2023/03/21/there-isnt-a-tailwind-looking-site
 tags:

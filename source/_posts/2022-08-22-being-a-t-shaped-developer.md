@@ -1,6 +1,6 @@
 ---
 permalink: daily/2022/08/22/2022-08-22
-pubDate: 2022-08-22
+date: 2022-08-22
 title: Being a T-shaped Developer
 ---
 

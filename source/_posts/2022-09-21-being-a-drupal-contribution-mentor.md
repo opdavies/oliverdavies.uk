@@ -1,6 +1,6 @@
 ---
 title: Being a Drupal contribution mentor
-pubDate: 2022-09-21
+date: 2022-09-21
 permalink: daily/2022/09/21/being-drupal-contribution-mentor
 tags: [drupal]
 ---

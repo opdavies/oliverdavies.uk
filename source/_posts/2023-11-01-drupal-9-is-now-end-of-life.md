@@ -1,6 +1,6 @@
 ---
 title: Drupal 9 is now end of life
-pubDate: 2023-11-01
+date: 2023-11-01
 permalink: >-
   daily/2023/11/01/drupal-9-is-now-end-of-life
 tags:

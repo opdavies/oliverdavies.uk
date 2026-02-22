@@ -1,6 +1,6 @@
 ---
 title: The simplest Drupal test
-pubDate: 2022-09-14
+date: 2022-09-14
 permalink: daily/2022/09/14/simpletest-drupal-test
 ---
 

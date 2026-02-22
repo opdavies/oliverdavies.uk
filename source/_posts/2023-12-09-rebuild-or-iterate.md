@@ -1,6 +1,6 @@
 ---
 title: Rebuild or iterate
-pubDate: 2023-12-09
+date: 2023-12-09
 permalink: >-
   daily/2023/12/09/rebuild-or-iterate
 tags:

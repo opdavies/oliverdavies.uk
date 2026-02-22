@@ -1,6 +1,6 @@
 ---
 title: Why do code katas?
-pubDate: 2022-10-01
+date: 2022-10-01
 permalink: daily/2022/10/01/code-katas
 tags: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: Outside-in or inside-out?
-pubDate: 2023-09-14
+date: 2023-09-14
 permalink: >-
   daily/2023/09/14/outside-in-or-inside-out
 tags:

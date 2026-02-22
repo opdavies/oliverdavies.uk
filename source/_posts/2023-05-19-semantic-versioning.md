@@ -1,6 +1,6 @@
 ---
 title: Semantic versioning
-pubDate: 2023-05-19
+date: 2023-05-19
 permalink: >-
   daily/2023/05/19/semantic-versioning
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Plan, then code
-pubDate: 2022-11-25
+date: 2022-11-25
 permalink: >-
   daily/2022/11/25/plan-then-code
 ---

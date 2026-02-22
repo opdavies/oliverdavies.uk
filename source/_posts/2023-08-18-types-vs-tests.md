@@ -1,6 +1,6 @@
 ---
 title: Types vs tests
-pubDate: 2023-08-18
+date: 2023-08-18
 permalink: >-
   daily/2023/08/18/types-vs-tests
 tags:

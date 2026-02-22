@@ -1,6 +1,6 @@
 ---
 title: Creating a Drupal 10 compatible version of Override Node Options
-pubDate: 2023-02-18
+date: 2023-02-18
 permalink: >-
   daily/2023/02/18/drupal-10-version-of-override-node-options
 tags:

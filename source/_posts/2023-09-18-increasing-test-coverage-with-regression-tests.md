@@ -1,6 +1,6 @@
 ---
 title: Increasing test coverage with regression tests
-pubDate: 2023-09-18
+date: 2023-09-18
 permalink: >-
   daily/2023/09/18/increasing-test-coverage-with-regression-tests
 tags:

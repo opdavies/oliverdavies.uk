@@ -1,6 +1,6 @@
 ---
 title: Always listen to the mob
-pubDate: 2023-05-12
+date: 2023-05-12
 permalink: >-
   daily/2023/05/12/always-listen-to-the-mob
 tags:

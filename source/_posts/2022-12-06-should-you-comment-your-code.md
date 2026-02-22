@@ -1,6 +1,6 @@
 ---
 title: Should you comment your code?
-pubDate: 2022-12-06
+date: 2022-12-06
 permalink: >-
   daily/2022/12/06/should-you-comment-your-code
 ---

@@ -1,6 +1,6 @@
 ---
 title: '"Building Build Configs" at PHP South West'
-pubDate: 2023-11-08
+date: 2023-11-08
 permalink: >-
   daily/2023/11/08/building-build-configs
 tags:

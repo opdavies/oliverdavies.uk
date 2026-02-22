@@ -1,6 +1,6 @@
 ---
 title: Long-term maintainability with utility classes and Tailwind CSS
-pubDate: 2023-01-19
+date: 2023-01-19
 permalink: >-
   daily/2023/01/19/long-term-maintainability-with-utility-classes-and-tailwind-css
 tags:

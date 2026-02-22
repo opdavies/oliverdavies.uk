@@ -1,6 +1,6 @@
 ---
 title: Pair and mob programming
-pubDate: 2022-10-18
+date: 2022-10-18
 permalink: daily/2022/10/18/pair-mob-programming
 ---
 

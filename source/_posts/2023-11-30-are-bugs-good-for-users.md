@@ -1,6 +1,6 @@
 ---
 title: Are bugs good for users?
-pubDate: 2023-11-30
+date: 2023-11-30
 permalink: >-
   daily/2023/11/30/are-bugs-good-for-users
 tags:

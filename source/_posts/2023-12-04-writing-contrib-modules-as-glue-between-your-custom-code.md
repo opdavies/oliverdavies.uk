@@ -1,6 +1,6 @@
 ---
 title: Writing contrib modules as glue between your custom code
-pubDate: 2023-12-04
+date: 2023-12-04
 permalink: >-
   daily/2023/12/04/writing-contrib-modules-as-glue-between-your-custom-code
 tags:

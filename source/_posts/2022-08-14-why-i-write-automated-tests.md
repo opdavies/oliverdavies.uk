@@ -1,6 +1,6 @@
 ---
 permalink: daily/2022/08/14/why-i-write-tests
-pubDate: 2022-08-14
+date: 2022-08-14
 title: Why I write automated tests
 tags: [testing]
 ---

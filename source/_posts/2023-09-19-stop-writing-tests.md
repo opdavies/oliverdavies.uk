@@ -1,6 +1,6 @@
 ---
 title: Stop writing tests
-pubDate: 2023-09-19
+date: 2023-09-19
 permalink: >-
   daily/2023/09/19/stop-writing-tests
 tags:

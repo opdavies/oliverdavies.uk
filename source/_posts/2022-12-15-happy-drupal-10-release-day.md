@@ -1,6 +1,6 @@
 ---
 title: Happy Drupal 10 release day!
-pubDate: 2022-12-15
+date: 2022-12-15
 permalink: >-
   daily/2022/12/15/happy-drupal-10-release-day
 tags:

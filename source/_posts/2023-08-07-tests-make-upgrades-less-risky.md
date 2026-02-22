@@ -1,6 +1,6 @@
 ---
 title: Tests make upgrades less risky
-pubDate: 2023-08-07
+date: 2023-08-07
 permalink: >-
   daily/2023/08/07/tests-make-upgrades-less-risky
 tags:

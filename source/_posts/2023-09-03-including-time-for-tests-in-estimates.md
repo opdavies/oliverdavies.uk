@@ -1,6 +1,6 @@
 ---
 title: Including time for tests in estimates
-pubDate: 2023-09-03
+date: 2023-09-03
 permalink: >-
   daily/2023/09/03/including-time-for-tests-in-estimates
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Outcomes or output
-pubDate: 2022-12-05
+date: 2022-12-05
 permalink: >-
   daily/2022/12/05/outcomes-or-output
 ---

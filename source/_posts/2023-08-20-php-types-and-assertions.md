@@ -1,6 +1,6 @@
 ---
 title: PHP types and assertions
-pubDate: 2023-08-20
+date: 2023-08-20
 permalink: >-
   daily/2023/08/20/php-types-and-assertions
 tags:

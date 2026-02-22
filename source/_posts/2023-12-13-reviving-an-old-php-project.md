@@ -1,6 +1,6 @@
 ---
 title: Reviving an old PHP project
-pubDate: 2023-12-13
+date: 2023-12-13
 permalink: >-
   daily/2023/12/13/reviving-an-old-php-project
 tags:

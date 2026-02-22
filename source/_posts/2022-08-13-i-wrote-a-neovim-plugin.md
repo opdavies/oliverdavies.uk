@@ -1,6 +1,6 @@
 ---
 permalink: daily/2022/08/13/i-wrote-a-neovim-plugin
-pubDate: 2022-08-13
+date: 2022-08-13
 title: I wrote a Neovim plugin
 tags:
   - neovim

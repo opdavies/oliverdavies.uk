@@ -1,6 +1,6 @@
 ---
 title: The open-source-first development workflow
-pubDate: 2022-10-29
+date: 2022-10-29
 permalink: >-
   daily/2022/10/29/the-open-source-first-development-workflow
 tags:

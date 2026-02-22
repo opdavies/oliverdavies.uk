@@ -1,6 +1,6 @@
 ---
 title: Testing, fixed prices and bug-free guarantees
-pubDate: 2023-08-10
+date: 2023-08-10
 permalink: >-
   daily/2023/08/10/testing-fixed-prices-and-bug-free-guarantees
 tags:

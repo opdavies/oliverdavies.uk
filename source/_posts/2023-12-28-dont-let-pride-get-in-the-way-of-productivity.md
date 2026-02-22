@@ -1,6 +1,6 @@
 ---
 title: Don't let pride get in the way of productivity
-pubDate: 2023-12-28
+date: 2023-12-28
 permalink: >-
   daily/2023/12/28/pride-and-productivity
 snippet: >-

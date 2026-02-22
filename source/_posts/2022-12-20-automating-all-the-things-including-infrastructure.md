@@ -1,6 +1,6 @@
 ---
 title: Automating all the things, including infrastructure
-pubDate: 2022-12-20
+date: 2022-12-20
 permalink: >-
   daily/2022/12/20/automating-all-the-things,-including-infrastructure
 tags:

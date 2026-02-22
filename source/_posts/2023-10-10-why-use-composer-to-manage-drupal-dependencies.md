@@ -1,6 +1,6 @@
 ---
 title: Why use Composer to manage Drupal dependencies?
-pubDate: 2023-10-10
+date: 2023-10-10
 permalink: >-
   daily/2023/10/10/why-use-composer-to-manage-drupal-dependencies
 tags:

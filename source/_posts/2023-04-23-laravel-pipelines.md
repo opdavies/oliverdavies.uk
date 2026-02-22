@@ -1,6 +1,6 @@
 ---
 title: Laravel Pipelines
-pubDate: 2023-04-23
+date: 2023-04-23
 permalink: >-
   daily/2023/04/23/laravel-pipelines
 tags:

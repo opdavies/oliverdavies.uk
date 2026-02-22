@@ -1,6 +1,6 @@
 ---
 title: Laravel Prompts and framework-agnostic tools
-pubDate: 2023-08-04
+date: 2023-08-04
 permalink: >-
   daily/2023/08/04/laravel-prompts
 tags:

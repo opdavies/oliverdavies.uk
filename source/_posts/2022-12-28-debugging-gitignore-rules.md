@@ -1,6 +1,6 @@
 ---
 title: Debugging gitignore rules
-pubDate: 2022-12-28
+date: 2022-12-28
 permalink: >-
   daily/2022/12/28/debugging-gitignore-rules
 tags:

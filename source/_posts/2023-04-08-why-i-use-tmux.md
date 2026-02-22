@@ -1,6 +1,6 @@
 ---
 title: Why I use tmux
-pubDate: 2023-04-08
+date: 2023-04-08
 permalink: >-
   daily/2023/04/08/why-i-use-tmux
 tags:

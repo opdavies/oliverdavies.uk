@@ -1,6 +1,6 @@
 ---
 title: Upgrading my Drupal example project to Drupal 10
-pubDate: 2023-02-17
+date: 2023-02-17
 permalink: >-
   daily/2023/02/17/upgrading-my-drupal-example-project-to-drupal-10
 tags:

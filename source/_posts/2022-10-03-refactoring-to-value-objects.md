@@ -1,6 +1,6 @@
 ---
 title: Refactoring to value objects
-pubDate: 2022-10-03
+date: 2022-10-03
 permalink: daily/2022/10/03/refactoring-value-objects
 tags: [php]
 ---

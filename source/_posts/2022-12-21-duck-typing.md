@@ -1,6 +1,6 @@
 ---
 title: Duck typing
-pubDate: 2022-12-21
+date: 2022-12-21
 permalink: >-
   daily/2022/12/21/duck-typing
 ---

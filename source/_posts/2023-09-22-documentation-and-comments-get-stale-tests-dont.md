@@ -1,6 +1,6 @@
 ---
 title: Documentation and comments get stale. Tests don't.
-pubDate: 2023-09-22
+date: 2023-09-22
 permalink: >-
   daily/2023/09/22/documentation-and-comments-get-stale
 tags:

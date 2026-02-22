@@ -1,6 +1,6 @@
 ---
 title: Astro as a static site generator
-pubDate: 2023-02-07
+date: 2023-02-07
 permalink: >-
   daily/2023/02/07/astro-as-a-static-site-generator
 tags:

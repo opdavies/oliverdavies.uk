@@ -1,6 +1,6 @@
 ---
 title: Automated testing is more than just unit testing
-pubDate: 2023-07-06
+date: 2023-07-06
 permalink: >-
   daily/2023/07/06/automated-testing-is-more-than-just-unit-testing
 tags:

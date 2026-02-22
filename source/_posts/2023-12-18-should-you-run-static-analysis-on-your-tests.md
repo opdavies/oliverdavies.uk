@@ -1,6 +1,6 @@
 ---
 title: Should you run static analysis on your tests?
-pubDate: 2023-12-18
+date: 2023-12-18
 permalink: >-
   daily/2023/12/18/static-analysis-on-tests
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 8 years of dotfiles
-pubDate: 2023-08-08
+date: 2023-08-08
 permalink: >-
   daily/2023/08/08/8-years-of-dotfiles
 tags:

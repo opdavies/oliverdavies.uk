@@ -1,6 +1,6 @@
 ---
 title: Prove the concept
-pubDate: 2023-07-26
+date: 2023-07-26
 permalink: >-
   daily/2023/07/26/prove-the-concept
 tags:

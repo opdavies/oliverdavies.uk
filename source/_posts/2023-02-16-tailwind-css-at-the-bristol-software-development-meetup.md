@@ -1,6 +1,6 @@
 ---
 title: Tailwind CSS at the Bristol Software Development Meetup
-pubDate: 2023-02-16
+date: 2023-02-16
 permalink: >-
   daily/2023/02/16/tailwind-css-at-the-bristol-software-development-meetup
 tags:

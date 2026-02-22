@@ -1,6 +1,6 @@
 ---
 title: Just because core is supported...
-pubDate: 2023-05-03
+date: 2023-05-03
 permalink: >-
   daily/2023/05/03/just-because-core-is-supported
 tags:

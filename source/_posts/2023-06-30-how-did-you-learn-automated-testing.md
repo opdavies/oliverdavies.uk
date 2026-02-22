@@ -1,6 +1,6 @@
 ---
 title: How did you learn automated testing?
-pubDate: 2023-06-30
+date: 2023-06-30
 permalink: >-
   daily/2023/06/30/how-did-you-learn-automated-testing
 tags:

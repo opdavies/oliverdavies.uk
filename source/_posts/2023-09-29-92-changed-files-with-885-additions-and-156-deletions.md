@@ -1,6 +1,6 @@
 ---
 title: 92 changed files with 885 additions and 156 deletions
-pubDate: 2023-09-29
+date: 2023-09-29
 permalink: >-
   daily/2023/09/29/92-changed-files-with-885-additions-and-156-deletions
 tags:

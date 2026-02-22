@@ -1,6 +1,6 @@
 ---
 title: Micro-refactorings
-pubDate: 2023-04-20
+date: 2023-04-20
 permalink: >-
   daily/2023/04/20/micro-refactorings
 tags:

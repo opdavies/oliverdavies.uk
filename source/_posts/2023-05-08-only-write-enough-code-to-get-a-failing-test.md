@@ -1,6 +1,6 @@
 ---
 title: Only write enough code to get a failing test
-pubDate: 2023-05-08
+date: 2023-05-08
 permalink: >-
   daily/2023/05/08/only-write-enough-code-to-get-a-failing-test
 tags:

@@ -1,6 +1,6 @@
 ---
 title: TDD as a concept is simple, but TDD is difficult
-pubDate: 2023-07-18
+date: 2023-07-18
 permalink: >-
   daily/2023/07/18/tdd-as-a-concept-is-simple-but-tdd-is-difficult
 tags:

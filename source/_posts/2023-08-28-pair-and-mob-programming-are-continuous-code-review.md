@@ -1,6 +1,6 @@
 ---
 title: Pair and mob programming are continuous code review
-pubDate: 2023-08-28
+date: 2023-08-28
 permalink: >-
   daily/2023/08/28/pair-and-mob-programming-are-continuous-code-review
 tags:

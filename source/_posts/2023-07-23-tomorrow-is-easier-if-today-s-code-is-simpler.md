@@ -1,6 +1,6 @@
 ---
 title: Tomorrow is easier if today's code is simpler
-pubDate: 2023-07-23
+date: 2023-07-23
 permalink: >-
   daily/2023/07/23/tomorrow-is-easier-if-todays-code-is-simpler
 tags: []

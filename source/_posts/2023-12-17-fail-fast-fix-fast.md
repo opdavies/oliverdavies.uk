@@ -1,6 +1,6 @@
 ---
 title: Fail fast, fix fast
-pubDate: 2023-12-17
+date: 2023-12-17
 permalink: >-
   daily/2023/12/17/fail-fast-fix-fast
 tags:

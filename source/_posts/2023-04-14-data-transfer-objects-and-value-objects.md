@@ -1,6 +1,6 @@
 ---
 title: Data transfer objects and value objects
-pubDate: 2023-04-14
+date: 2023-04-14
 permalink: >-
   daily/2023/04/14/data-transfer-objects-and-value-objects
 tags: []

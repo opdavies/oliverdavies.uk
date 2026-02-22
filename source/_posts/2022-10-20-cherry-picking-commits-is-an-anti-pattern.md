@@ -1,6 +1,6 @@
 ---
 title: Cherry picking commits is an anti-pattern
-pubDate: 2022-10-20
+date: 2022-10-20
 permalink: >-
   daily/2022/10/20/cherry-picking-commits-is-an-anti-pattern
 tags:

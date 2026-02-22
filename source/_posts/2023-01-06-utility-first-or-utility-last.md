@@ -1,6 +1,6 @@
 ---
 title: Utility-first or utility-last?
-pubDate: 2023-01-06
+date: 2023-01-06
 permalink: >-
   daily/2023/01/06/utility-first-or-utility-last
 tags:

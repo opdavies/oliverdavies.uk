@@ -1,6 +1,6 @@
 ---
 title: Managing databases with Neovim and Docker
-pubDate: 2022-12-10
+date: 2022-12-10
 permalink: >-
   daily/2022/12/10/managing-databases-with-neovim-and-docker
 tags:

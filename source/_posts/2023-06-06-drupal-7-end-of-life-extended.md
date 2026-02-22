@@ -1,6 +1,6 @@
 ---
 title: Drupal 7 end-of-life extended
-pubDate: 2023-06-06
+date: 2023-06-06
 permalink: >-
   daily/2023/06/06/drupal-7-end-of-life-extended
 tags:

@@ -1,6 +1,6 @@
 ---
 title: With utility styles, your CSS stops growing
-pubDate: 2023-03-22
+date: 2023-03-22
 permalink: >-
   daily/2023/03/22/with-utility-styles-your-css-stops-growing
 tags:

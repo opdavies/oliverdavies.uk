@@ -1,6 +1,6 @@
 ---
 title: Too many choices?
-pubDate: 2023-07-17
+date: 2023-07-17
 permalink: >-
   daily/2023/07/17/too-many-choices
 tags:

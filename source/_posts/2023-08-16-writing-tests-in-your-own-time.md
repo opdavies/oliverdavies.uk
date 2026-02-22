@@ -1,6 +1,6 @@
 ---
 title: Writing tests in your own time
-pubDate: 2023-08-16
+date: 2023-08-16
 permalink: >-
   daily/2023/08/16/writing-tests-in-your-own-time
 tags:

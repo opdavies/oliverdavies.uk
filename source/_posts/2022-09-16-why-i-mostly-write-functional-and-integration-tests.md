@@ -1,6 +1,6 @@
 ---
 title: Why I mostly write functional and integration tests
-pubDate: 2022-09-16
+date: 2022-09-16
 permalink: daily/2022/09/16/why-mostly-write-functional-and-integration-tests
 tags: [drupal]
 ---

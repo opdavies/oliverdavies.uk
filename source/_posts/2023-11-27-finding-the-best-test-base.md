@@ -1,6 +1,6 @@
 ---
 title: Finding the best test base
-pubDate: 2023-11-27
+date: 2023-11-27
 permalink: >-
   daily/2023/11/27/finding-the-best-test-base
 tags:
