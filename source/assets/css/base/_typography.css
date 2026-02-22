@@ -31,16 +31,26 @@ p {
   }
 }
 
+code {
+  background: var(--bg--code);
+  border-radius: 6px;
+  color: var(--color--code);
+  font-size: var(--font-size--50);
+}
+
 p,
 li {
   code {
-    background: var(--bg--code);
-    border-radius: 6px;
-    color: var(--color--code);
     display: inline-block;
-    font-size: var(--font-size--50);
     padding: 0 var(--space--x-small);
   }
+}
+
+pre code {
+  display: block;
+  overflow-x: scroll;
+  padding: var(--space--medium);
+  width: 100%;
 }
 
 a:not(.text-white) {
