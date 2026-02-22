@@ -19,5 +19,16 @@
           nixd
         ];
       };
+
+      devshells.cms = {
+        packages = with pkgs; [ nodejs ];
+
+        commands = [
+          {
+            command = "npx decap-server";
+            name = "start";
+          }
+        ];
+      };
     };
 }

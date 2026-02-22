@@ -1,0 +1,147 @@
+---
+local_backend:
+  allowed_hosts:
+    - localhost
+    - oliverdavies.localhost
+  url: http://localhost:8082/api/v1
+
+backend:
+  name: git-gateway
+
+editor:
+  preview: false
+
+show_preview_links: false
+
+media_folder: source/assets/images
+public_folder: /assets/images
+
+collections:
+  - name: site_data
+    label: Site data
+    media_folder: /source/assets/images/recommendations
+    public_folder: /assets/images/recommendations
+    files:
+      - name: testimonials
+        label: Testimonials
+        file: data/testimonials.yml
+        fields:
+          - name: testimonials
+            label: Testimonials
+            label_singular: Testimonial
+            widget: list
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: title, label: Title, widget: string, required: false }
+              - { name: text, label: Body, widget: text }
+              - { name: image, label: Photo, widget: image, required: false }
+
+              - name: tags
+                label: Tags
+                widget: select
+                multiple: true
+                required: false
+                options:
+                  - coaching
+                  - front
+                  - subscription
+                  - testing
+
+  - name: blog
+    label: Blog
+    label_singular: Post
+    create: true
+    format: frontmatter
+    folder: source/_posts
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{fields.title}} - {{fields.date}}"
+    fields:
+      - name: title
+        label: Title
+        widget: string
+
+      - name: slug
+        label: Slug
+        widget: string
+        required: false
+
+      - label: Date
+        name: date
+        widget: "datetime"
+        default: "{{now}}"
+        format: "YYYY-MM-DD HH:mm"
+        picker_utc: false
+        required: false
+
+      - { name: body, widget: markdown }
+
+      - name: tags
+        label: Tags
+        widget: select
+        multiple: true
+        required: false
+        options:
+          - automation
+          - command-line
+          - conference
+          - css
+          - devops
+          - drupal
+          - drupalcamp
+          - drupalcon
+          - drupal-planet
+          - linux
+          - meetup
+          - neovim
+          - nix
+          - open-source
+          - personal
+          - php
+          - public-speaking
+          - sculpin
+          - tailwind-css
+          - vim
+
+      - name: draft
+        label: Draft
+        widget: "boolean"
+        required: false
+
+    view_groups:
+      - label: Year
+        field: date
+        pattern: \d{4}
+
+      - label: Drafts
+        field: draft
+
+  - name: presentations
+    label: Presentations
+    label_singular: Presentation
+    create: true
+    format: frontmatter
+    folder: source/_presentations
+    fields:
+      - name: title
+        label: Title
+        widget: string
+
+      - { name: body, widget: markdown }
+
+      - label: "Events"
+        label_singular: "Event"
+        name: "events"
+        widget: "list"
+        summary: "{{fields.name}} ({{fields.date}})"
+        fields:
+          - { label: "Event name", name: "name", widget: "string" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
+          - label: "URLs"
+            name: "urls"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Website", name: "website", widget: "string", required: false }
+              - { label: "Slides", name: "slides", widget: "string", required: false }
+              - { label: "Video", name: "video", widget: "string", required: false }

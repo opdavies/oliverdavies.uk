@@ -24,6 +24,9 @@
           sculpin generate --env prod
 
           cp -r output_prod/* "$out"
+
+          rm -fr "$out"/_*
+          rm -fr "$out/admin"
         '';
       };
     };
