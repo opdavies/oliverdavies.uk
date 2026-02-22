@@ -2,8 +2,7 @@
 name: Jon Hallett
 title: Senior Systems Administrator at the University of Bristol
 website: https://bristol.ac.uk
-image:
-  url: /assets/images/recommendations/jon-hallett.jpeg
+image: /assets/images/recommendations/jon-hallett.jpeg
 tags: [front, subscription]
 ---
 

@@ -2,8 +2,7 @@
 name: Josh Mitchell
 title: CTO at Drupal Association
 website: https://joshuami.com
-image:
-  url: /assets/images/recommendations/josh-mitchell.png
+image: /assets/images/recommendations/josh-mitchell.png
 tags: [front, subscription]
 ---
 

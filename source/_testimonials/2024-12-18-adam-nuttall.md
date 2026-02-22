@@ -1,8 +1,7 @@
 ---
 name: Adam Nuttall
 title: Drupal Engineer
-image:
-  url: /assets/images/recommendations/adam-nuttall.jpg
+image: /assets/images/recommendations/adam-nuttall.jpg
 tags: [daily]
 ---
 

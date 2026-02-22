@@ -1,7 +1,6 @@
 ---
 name: Brian Hartwell
 title: Interactive Creative Director
-image:
 tags: [front, subscription]
 draft: true
 ---

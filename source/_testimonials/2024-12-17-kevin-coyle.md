@@ -2,8 +2,7 @@
 name: Kevin Coyle
 title: Design System Engineering Consultant
 website: https://www.coyledesign.co.uk
-image:
-  url: /assets/images/recommendations/kevin-coyle.jpg
+image: /assets/images/recommendations/kevin-coyle.jpg
 tags: [daily]
 ---
 

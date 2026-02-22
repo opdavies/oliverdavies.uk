@@ -1,8 +1,7 @@
 ---
 name: Alexander Carr
 title: Full Stack Software Engineer at School of Code
-image:
-  url: /assets/images/recommendations/alexander-carr.jpg
+image: /assets/images/recommendations/alexander-carr.jpg
 tags: [daily]
 ---
 

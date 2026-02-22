@@ -1,8 +1,7 @@
 ---
 name: Mike Karthauser
 title: Senior Software Engineer
-image:
-  url: /assets/images/recommendations/mike-karthauser.jpg
+image: /assets/images/recommendations/mike-karthauser.jpg
 tags: [daily, testing, coaching, atdc]
 ---
 

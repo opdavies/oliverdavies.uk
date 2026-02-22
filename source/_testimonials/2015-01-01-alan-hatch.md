@@ -1,8 +1,7 @@
 ---
 name: Alan Hatch
 title: Senior Drupal Developer at Microserve
-image:
-  url: /assets/images/recommendations/alan.jpeg
+image: /assets/images/recommendations/alan.jpeg
 tags: [coaching]
 ---
 

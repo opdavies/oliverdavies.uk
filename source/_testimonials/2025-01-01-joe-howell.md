@@ -2,8 +2,7 @@
 name: Joe Howell
 title: Director, Bastion Insurance
 website: https://www.bastioninsurance.co.uk
-image:
-  url: /assets/images/recommendations/joe-howell.jpg
+image: /assets/images/recommendations/joe-howell.jpg
 tags: [front, subscription, coaching]
 ---
 

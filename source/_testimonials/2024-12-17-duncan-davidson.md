@@ -2,8 +2,7 @@
 name: Duncan Davidson
 title: Director at Rohallion
 website: https://rohallion.agency
-image:
-  url: /assets/images/recommendations/duncan.jpeg
+image: /assets/images/recommendations/duncan.jpeg
 tags: [front, subscription, coaching]
 ---
 

@@ -2,8 +2,7 @@
 name: Michael Itkoff
 title: Cofounder
 website: https://www.daylightbooks.org
-image:
-  url: /assets/images/recommendations/michael-itkoff.jpg
+image: /assets/images/recommendations/michael-itkoff.jpg
 tags: [front, subscription]
 ---
 

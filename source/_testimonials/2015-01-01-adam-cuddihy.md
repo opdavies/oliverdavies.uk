@@ -1,8 +1,7 @@
 ---
 name: Adam Cuddihy
 title: Web Development Manager
-image:
-  url: /assets/images/recommendations/adam.jpeg
+image: /assets/images/recommendations/adam.jpeg
 tags: [front, subscription]
 ---
 

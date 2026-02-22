@@ -2,8 +2,7 @@
 name: Mick Felton
 title: Publisher at Poetry Wales Press Ltd (Seren Books)
 website: https://www.serenbooks.com
-image:
-  url: /assets/images/recommendations/mick-felton.jpg
+image: /assets/images/recommendations/mick-felton.jpg
 tags: [front, subscription, coaching]
 ---
 

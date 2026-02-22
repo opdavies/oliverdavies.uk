@@ -1,8 +1,7 @@
 ---
 name: Daniel Davis-Boxleitner
 title: Senior Engineer at Palantir.net
-image:
-  url: /assets/images/recommendations/daniel-davis-boxleitner.jpg
+image: /assets/images/recommendations/daniel-davis-boxleitner.jpg
 tags: [testing, atdc]
 ---
 

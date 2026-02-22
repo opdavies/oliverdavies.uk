@@ -2,8 +2,7 @@
 name: Huw Davies
 title: Web Dev Manager / DevOps / Team Manager at Admiral Group Plc
 website: https://admiral.com
-image:
-  url: /assets/images/recommendations/huw.jpeg
+image: /assets/images/recommendations/huw.jpeg
 tags: [front, subscription]
 ---
 

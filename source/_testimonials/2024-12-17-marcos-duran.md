@@ -1,8 +1,7 @@
 ---
 name: Marcos Duran
 title: Senior Software Engineer
-image:
-  url: /assets/images/recommendations/marcos-duran.jpg
+image: /assets/images/recommendations/marcos-duran.jpg
 tags: [git, daily, coaching]
 ---
 

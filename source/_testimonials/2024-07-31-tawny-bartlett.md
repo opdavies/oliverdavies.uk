@@ -2,8 +2,7 @@
 name: Tawny Bartlett
 title: Senior Drupal Developer
 website: https://www.playingwithpixels.co.uk
-image:
-  url: /assets/images/recommendations/tawny.jpg
+image: /assets/images/recommendations/tawny.jpg
 tags: [testing, coaching, call, atdc]
 ---
 

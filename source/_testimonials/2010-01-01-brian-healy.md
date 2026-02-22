@@ -1,8 +1,7 @@
 ---
 name: Brian Healy
 title: Director of Business Development at Tincan
-image:
-  url: /assets/images/recommendations/brian-healy.png
+image: /assets/images/recommendations/brian-healy.png
 tags: [front, subscription]
 draft: true
 ---

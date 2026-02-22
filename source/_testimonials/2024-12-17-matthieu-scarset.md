@@ -2,8 +2,7 @@
 name: Matthieu Scarset
 title: Drupal Expert
 website: https://matthieuscarset.com
-image:
-  url: /assets/images/recommendations/matthieu-scarset.jpg
+image: /assets/images/recommendations/matthieu-scarset.jpg
 tags: [testing, atdc]
 ---
 

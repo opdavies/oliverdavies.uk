@@ -2,8 +2,7 @@
 name: Holly Ross
 title: Executive Director at the Drupal Association
 website: https://www.drupal.org/association
-image:
-  url: /assets/images/recommendations/holly-ross.png
+image: /assets/images/recommendations/holly-ross.png
 tags: [front, subscription]
 draft: true
 ---

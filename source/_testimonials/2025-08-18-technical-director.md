@@ -1,7 +1,5 @@
 ---
 name: Technical Director, European knowledge platform
-image:
-tags: [front]
 ---
 
 Oliver devised a creative and original approach to Drupal theme switching based on Tailwind and provided us with the building blocks and basic theming.

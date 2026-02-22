@@ -1,8 +1,7 @@
 ---
 name: Stephen Mulvihill
 title: Solutions Architect
-image:
-  url: /assets/images/recommendations/stephen-mulvihill.jpg
+image: /assets/images/recommendations/stephen-mulvihill.jpg
 tags: [git, daily, coaching]
 ---
 

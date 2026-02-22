@@ -1,8 +1,7 @@
 ---
 name: Scott Euser
 title: Head of Web Development
-image:
-  url: /assets/images/recommendations/scott-euser.jpg
+image: /assets/images/recommendations/scott-euser.jpg
 tags: [testing, coaching]
 ---
 

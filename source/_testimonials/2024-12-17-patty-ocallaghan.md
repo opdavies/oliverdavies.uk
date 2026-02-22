@@ -2,8 +2,7 @@
 name: Patty O'Callaghan
 title: Tech Lead
 website: https://pattyocallaghan.com
-image:
-  url: /assets/images/recommendations/patty-ocallaghan.jpg
+image: /assets/images/recommendations/patty-ocallaghan.jpg
 tags: [daily]
 ---
 

@@ -1,8 +1,7 @@
 ---
 name: Frank Landry
 title:
-image:
-  url: /assets/images/recommendations/frank-landry.jpg
+image: /assets/images/recommendations/frank-landry.jpg
 tags: [testing, atdc]
 ---
 

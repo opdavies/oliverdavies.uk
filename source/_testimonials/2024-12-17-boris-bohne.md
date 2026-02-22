@@ -2,8 +2,7 @@
 name: Boris Böhne
 title: Drupal Developer
 website: https://www.drupal.org/u/drubb
-image:
-  url: /assets/images/recommendations/boris-bohne.jpg
+image: /assets/images/recommendations/boris-bohne.jpg
 tags: [daily]
 ---
 
