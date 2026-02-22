@@ -1,6 +1,5 @@
 ---
 title: Off to DrupalCon
-pubDate: 2023-10-15
 permalink: >-
   daily/2023/10/15/off-to-drupalcon
 tags:

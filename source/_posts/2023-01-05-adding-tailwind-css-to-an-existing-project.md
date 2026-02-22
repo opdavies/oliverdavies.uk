@@ -1,6 +1,5 @@
 ---
 title: Adding Tailwind CSS to an existing project
-pubDate: 2023-01-05
 permalink: >-
   daily/2023/01/05/adding-tailwind-to-an-existing-project
 tags:

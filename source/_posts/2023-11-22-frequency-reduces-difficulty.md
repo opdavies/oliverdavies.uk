@@ -1,6 +1,5 @@
 ---
 title: Frequency reduces difficulty
-pubDate: 2023-11-22
 permalink: >-
   daily/2023/11/22/frequency-reduces-difficulty
 tags:

@@ -1,6 +1,5 @@
 ---
 title: 'Drupal 9: almost end-of-life already'
-pubDate: 2023-05-21
 permalink: >-
   daily/2023/05/21/drupal-9-almost-end-of-life-already
 tags:

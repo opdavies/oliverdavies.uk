@@ -1,6 +1,5 @@
 ---
 title: Some solutions are good enough
-pubDate: 2023-10-05
 permalink: >-
   daily/2023/10/05/some-solutions-are-good-enough
 tags:

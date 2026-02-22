@@ -1,6 +1,5 @@
 ---
 title: Refactoring a Tailwind CSS component
-pubDate: 2022-09-09
 permalink: daily/2022/09/09/refactoring-tailwind-component
 tags: [tailwind-css]
 ---

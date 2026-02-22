@@ -1,5 +1,4 @@
 ---
-pubDate: 2022-09-01
 title: Conventional commits and CHANGELOGs
 tags: []
 permalink: daily/2022/09/01/conventional-commits-changelogs

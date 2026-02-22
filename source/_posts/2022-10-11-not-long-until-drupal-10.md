@@ -1,6 +1,5 @@
 ---
 title: Not long until Drupal 10
-pubDate: 2022-10-11
 permalink: daily/2022/10/11/not-long-until-drupal-10
 tags: [drupal, php]
 ---

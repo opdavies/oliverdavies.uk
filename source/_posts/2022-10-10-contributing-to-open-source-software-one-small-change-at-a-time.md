@@ -1,6 +1,5 @@
 ---
 title: Contributing to open-source software, one small change at a time
-pubDate: 2022-10-10
 permalink: daily/2022/10/10/contributing-open-source-software-one-small-change-time
 tags: [open-source]
 ---

@@ -1,6 +1,5 @@
 ---
 title: Releasing a Drupal module template
-pubDate: 2022-09-22
 permalink: daily/2022/09/22/releasing-drupal-module-template
 tags: [drupal]
 ---

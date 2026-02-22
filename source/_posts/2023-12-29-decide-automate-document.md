@@ -1,6 +1,5 @@
 ---
 title: Decide, automate, document
-pubDate: 2023-12-29
 permalink: >-
   daily/2023/12/29/decide-automate-document
 snippet: >

@@ -1,6 +1,5 @@
 ---
 title: Business logic in template files?
-pubDate: 2023-10-12
 permalink: >-
   daily/2023/10/12/business-logic-in-template-files
 tags:

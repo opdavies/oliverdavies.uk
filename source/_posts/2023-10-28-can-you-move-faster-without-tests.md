@@ -1,6 +1,5 @@
 ---
 title: Can you move faster without tests?
-pubDate: 2023-10-28
 permalink: >-
   daily/2023/10/28/can-you-move-faster-without-tests
 tags:

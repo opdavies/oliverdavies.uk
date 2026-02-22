@@ -1,6 +1,5 @@
 ---
 title: Speaking at PHP Stoke and nor(DEV):con
-pubDate: 2022-12-23
 permalink: >-
   daily/2022/12/23/speaking-at-php-stoke-and-nordevcon
 tags:

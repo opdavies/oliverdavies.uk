@@ -1,7 +1,6 @@
 ---
 permalink: daily/2022/08/12/git-worktrees-docker-compose
 title: Git Worktrees and Docker Compose
-pubDate: 2022-08-12
 ---
 
 I've recently started trialing Git worktrees again as part of my development workflow.

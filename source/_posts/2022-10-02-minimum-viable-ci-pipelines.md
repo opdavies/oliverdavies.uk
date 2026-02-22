@@ -1,6 +1,5 @@
 ---
 title: Minimum viable CI pipelines
-pubDate: 2022-10-02
 permalink: daily/2022/10/02/minimum-viable-pipelines
 tags: []
 ---

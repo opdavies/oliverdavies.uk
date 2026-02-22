@@ -1,6 +1,5 @@
 ---
 title: Just start writing
-pubDate: 2022-12-31
 permalink: >-
   daily/2022/12/31/just-start-writing
 tags:

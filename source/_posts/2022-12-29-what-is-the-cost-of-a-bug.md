@@ -1,6 +1,5 @@
 ---
 title: What is the cost of a bug?
-pubDate: 2022-12-29
 permalink: >-
   daily/2022/12/29/what-is-the-cost-of-a-bug
 ---

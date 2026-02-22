@@ -1,6 +1,5 @@
 ---
 title: There's no value in a broken CI pipeline
-pubDate: 2023-06-28
 permalink: >-
   daily/2023/06/28/theres-no-value-in-a-broken-ci-pipeline
 tags:

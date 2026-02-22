@@ -1,6 +1,5 @@
 ---
 title: To docblock or not to docblock
-pubDate: 2023-11-26
 permalink: >-
   daily/2023/11/26/to-docblock-or-not-to-docblock
 tags:

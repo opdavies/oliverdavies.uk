@@ -1,6 +1,5 @@
 ---
 title: Experimenting with the Nix package manager
-pubDate: 2022-09-26
 permalink: daily/2022/09/26/experimenting-with-the-nix-package-manager
 tags: [nix]
 ---

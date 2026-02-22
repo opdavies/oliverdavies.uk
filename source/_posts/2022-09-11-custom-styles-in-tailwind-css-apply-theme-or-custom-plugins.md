@@ -1,6 +1,5 @@
 ---
 title: 'Custom styles in Tailwind CSS: `@apply`, `theme` or custom plugins'
-pubDate: 2022-09-11
 permalink: daily/2022/09/11/custom-styles-tailwind-css-apply-theme-custom-plugins
 tags: [tailwind-css]
 ---

@@ -1,6 +1,5 @@
 ---
 title: Deployments or releases
-pubDate: 2023-06-21
 permalink: >-
   daily/2023/06/21/deployments-or-releases
 tags:

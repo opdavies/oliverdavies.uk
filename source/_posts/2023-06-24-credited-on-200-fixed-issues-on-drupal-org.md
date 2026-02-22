@@ -1,6 +1,5 @@
 ---
 title: Credited on 200 fixed issues on Drupal.org
-pubDate: 2023-06-24
 permalink: >-
   daily/2023/06/24/credited-on-200-fixed-issues
 tags:

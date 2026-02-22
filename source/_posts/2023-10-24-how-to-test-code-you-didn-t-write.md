@@ -1,6 +1,5 @@
 ---
 title: How to test code you didn't write
-pubDate: 2023-10-24
 permalink: >-
   daily/2023/10/24/how-to-test-code-you-didnt-write
 tags:

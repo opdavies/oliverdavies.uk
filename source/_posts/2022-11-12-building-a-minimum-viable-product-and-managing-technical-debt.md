@@ -1,6 +1,5 @@
 ---
 title: Building a minimum viable product and managing technical debt
-pubDate: 2022-11-12
 permalink: >-
   daily/2022/11/12/building-a-minimum-viable-product-and-managing-technical-debt
 # tags:

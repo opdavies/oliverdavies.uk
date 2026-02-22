@@ -1,6 +1,5 @@
 ---
 title: Automated testing and test-driven development are not the same
-pubDate: 2022-10-21
 permalink: >-
   daily/2022/10/21/automated-testing-and-test-driven-development-are-not-the-same
 tags:

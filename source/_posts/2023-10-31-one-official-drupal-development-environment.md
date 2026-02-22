@@ -1,6 +1,5 @@
 ---
 title: One official Drupal development environment?
-pubDate: 2023-10-31
 permalink: >-
   daily/2023/10/31/one-official-drupal-development-environment
 tags:

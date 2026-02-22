@@ -1,6 +1,5 @@
 ---
 title: What problem are we trying to solve?
-pubDate: 2023-08-03
 permalink: >-
   daily/2023/08/03/what-problem-are-we-trying-to-solve
 tags:

@@ -1,6 +1,5 @@
 ---
 title: Refactoring one large test into multiple smaller tests
-pubDate: 2022-10-30
 permalink: >-
   daily/2022/10/30/refactoring-one-large-test-into-multiple-smaller-tests
 tags:

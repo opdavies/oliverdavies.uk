@@ -1,5 +1,4 @@
 ---
-pubDate: 2022-08-23
 title: 'Git: GUI or command-line?'
 permalink: daily/2022/08/23/git-gui-command-line
 tags:

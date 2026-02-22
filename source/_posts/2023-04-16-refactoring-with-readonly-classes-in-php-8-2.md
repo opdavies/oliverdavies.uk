@@ -1,6 +1,5 @@
 ---
 title: Refactoring with readonly classes in PHP 8.2
-pubDate: 2023-04-16
 permalink: >-
   daily/2023/04/16/refactoring-with-readonly-classes-in-php-8-2
 tags:

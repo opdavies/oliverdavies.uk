@@ -1,6 +1,5 @@
 ---
 title: Automating infrastructure with IaC
-pubDate: 2023-03-08
 permalink: >-
   daily/2023/03/08/automating-infrastructure-with-iac
 tags:

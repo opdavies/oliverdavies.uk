@@ -1,6 +1,5 @@
 ---
 title: Why I like pair and mob programming
-pubDate: 2023-05-11
 permalink: >-
   daily/2023/05/11/why-i-like-pair-and-mob-programming
 tags:

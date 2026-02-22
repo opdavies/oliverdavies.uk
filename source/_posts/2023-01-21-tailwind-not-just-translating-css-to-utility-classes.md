@@ -1,6 +1,5 @@
 ---
 title: 'Tailwind: Not just translating CSS to utility classes'
-pubDate: 2023-01-21
 permalink: >-
   daily/2023/01/21/tailwind-not-just-translating-css-to-utility-classes
 tags:

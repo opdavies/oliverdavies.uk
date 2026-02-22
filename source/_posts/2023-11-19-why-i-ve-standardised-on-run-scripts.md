@@ -1,6 +1,5 @@
 ---
 title: Why I've standardised on 'run' scripts
-pubDate: 2023-11-19
 permalink: >-
   daily/2023/11/19/why-ive-standardised-on-run-scripts
 tags:

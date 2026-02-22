@@ -1,6 +1,5 @@
 ---
 title: Why I built "Build Configs"
-pubDate: 2023-11-21
 permalink: >-
   daily/2023/11/21/why-i-built-build-configs
 tags:

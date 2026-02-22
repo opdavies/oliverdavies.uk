@@ -1,6 +1,5 @@
 ---
 title: More code, more problems
-pubDate: 2023-07-22
 permalink: >-
   daily/2023/07/22/more-code-more-problems
 tags: []

@@ -1,6 +1,5 @@
 ---
 title: Debugging with git bisect
-pubDate: 2023-01-23
 permalink: >-
   daily/2023/01/23/debugging-with-git-bisect
 tags:

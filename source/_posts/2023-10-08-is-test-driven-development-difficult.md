@@ -1,6 +1,5 @@
 ---
 title: Is test-driven development difficult?
-pubDate: 2023-10-08
 permalink: >-
   daily/2023/10/08/is-test-driven-development-difficult
 tags:

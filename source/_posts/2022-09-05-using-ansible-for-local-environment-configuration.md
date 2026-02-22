@@ -1,6 +1,5 @@
 ---
 title: Using Ansible for local environment configuration
-pubDate: 2022-09-05
 permalink: daily/2022/09/05/using-ansible-for-local-configuration
 ---
 

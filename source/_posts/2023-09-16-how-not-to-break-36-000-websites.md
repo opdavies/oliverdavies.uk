@@ -1,6 +1,5 @@
 ---
 title: How not to break 36,000 websites
-pubDate: 2023-09-16
 permalink: >-
   daily/2023/09/16/how-not-to-break-36-000-websites
 tags:

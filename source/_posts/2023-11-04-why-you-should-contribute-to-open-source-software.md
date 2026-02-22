@@ -1,6 +1,5 @@
 ---
 title: Why you should contribute to open-source software
-pubDate: 2023-11-04
 permalink: >-
   daily/2023/11/04/why-you-should-contribute-to-open-source-software
 tags:

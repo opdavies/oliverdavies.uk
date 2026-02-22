@@ -1,6 +1,5 @@
 ---
 title: Write less Drupal code
-pubDate: 2023-06-08
 permalink: >-
   daily/2023/06/08/write-less-drupal-code
 tags:

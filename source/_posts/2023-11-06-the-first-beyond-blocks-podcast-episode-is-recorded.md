@@ -1,6 +1,5 @@
 ---
 title: The first Beyond Blocks podcast episode is recorded
-pubDate: 2023-11-06
 permalink: >-
   daily/2023/11/06/the-first-beyond-blocks-podcast-episode-is-recorded
 tags:

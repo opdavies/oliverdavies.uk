@@ -1,6 +1,5 @@
 ---
 title: Open-source encourages more open-source
-pubDate: 2023-12-05
 permalink: >-
   daily/2023/12/05/open-source-encourages-open-source
 tags:

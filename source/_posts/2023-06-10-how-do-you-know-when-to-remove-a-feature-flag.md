@@ -1,6 +1,5 @@
 ---
 title: How do you know when to remove a feature flag?
-pubDate: 2023-06-10
 permalink: >-
   daily/2023/06/10/how-do-you-know-when-to-remove-a-feature-flag
 tags:

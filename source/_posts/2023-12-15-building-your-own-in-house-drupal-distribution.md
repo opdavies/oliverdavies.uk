@@ -1,6 +1,5 @@
 ---
 title: Building your own in-house Drupal distribution
-pubDate: 2023-12-15
 permalink: >-
   daily/2023/12/15/building-your-own-in-house-drupal-distribution
 tags:

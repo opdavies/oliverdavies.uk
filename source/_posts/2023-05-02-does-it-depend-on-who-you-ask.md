@@ -1,6 +1,5 @@
 ---
 title: Does it depend on who you ask?
-pubDate: 2023-05-02
 permalink: >-
   daily/2023/05/02/does-it-depend-on-who-you-ask
 tags:

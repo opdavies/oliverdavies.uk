@@ -1,6 +1,5 @@
 ---
 title: 'Store Wars: different state management in Vue.js'
-pubDate: 2022-09-30
 permalink: daily/2022/09/30/store-wars-vuejs
 tags: [vue]
 ---

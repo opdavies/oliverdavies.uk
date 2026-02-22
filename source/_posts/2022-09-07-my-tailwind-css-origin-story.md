@@ -1,6 +1,5 @@
 ---
 title: My Tailwind CSS origin story
-pubDate: 2022-09-07
 permalink: daily/2022/09/07/my-tailwind-css-origin-story
 tags: [tailwind-css]
 ---

@@ -1,6 +1,5 @@
 ---
 title: Automated testing offers repeatability
-pubDate: 2023-09-30
 permalink: >-
   daily/2023/09/30/automated-testing-offers-repeatability
 tags:

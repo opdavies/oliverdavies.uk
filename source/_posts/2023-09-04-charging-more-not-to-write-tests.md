@@ -1,6 +1,5 @@
 ---
 title: Charging more _not_ to write tests
-pubDate: 2023-09-04
 permalink: >-
   daily/2023/09/04/charging-more-not-to-write-tests
 tags:

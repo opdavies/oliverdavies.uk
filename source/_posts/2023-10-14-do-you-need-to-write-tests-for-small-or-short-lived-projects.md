@@ -1,6 +1,5 @@
 ---
 title: Do you need to write tests for small or short-lived projects?
-pubDate: 2023-10-14
 permalink: >-
   daily/2023/10/14/do-you-need-to-write-tests-for-small-or-short-lived-projects
 tags:

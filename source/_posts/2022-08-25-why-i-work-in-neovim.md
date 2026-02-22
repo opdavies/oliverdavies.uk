@@ -1,5 +1,4 @@
 ---
-pubDate: 2022-08-25
 title: Why I work in Neovim
 tags: [vim, neovim]
 permalink: daily/2022/08/25/why-i-work-in-neovim

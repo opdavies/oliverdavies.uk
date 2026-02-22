@@ -1,6 +1,5 @@
 ---
 title: Nix, NixOS, Home Manager, and WSL2
-pubDate: 2023-04-09
 permalink: >-
   daily/2023/04/09/nix-nixos-home-manager-and-wsl2
 tags:

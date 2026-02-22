@@ -1,6 +1,5 @@
 ---
 title: Why write framework agnostic packages?
-pubDate: 2022-10-28
 permalink: >-
   daily/2022/10/28/why-write-framework-agnostic-packages
 tags:

@@ -1,6 +1,5 @@
 ---
 title: Creating a small proof-of-concept application in an afternoon
-pubDate: 2022-11-11
 permalink: >-
   daily/2022/11/12/creating-small-proof-of-concept-application-afternoon
 # tags:

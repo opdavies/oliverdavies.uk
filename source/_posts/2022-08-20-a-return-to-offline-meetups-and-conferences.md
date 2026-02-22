@@ -1,5 +1,4 @@
 ---
-pubDate: 2022-08-20
 title: A return to offline meetups and conferences
 permalink: daily/2022/08/20/return-to-offline-meetups-conferences
 tags: [community]

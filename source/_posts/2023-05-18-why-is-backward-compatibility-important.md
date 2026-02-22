@@ -1,6 +1,5 @@
 ---
 title: Why is backward compatibility important?
-pubDate: 2023-05-18
 permalink: >-
   daily/2023/05/18/why-is-backward-compatibility-important
 tags:

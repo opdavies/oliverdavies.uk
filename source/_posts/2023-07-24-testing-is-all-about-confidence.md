@@ -1,6 +1,5 @@
 ---
 title: Testing is all about confidence
-pubDate: 2023-07-24
 permalink: >-
   daily/2023/07/24/testing-is-all-about-confidence
 tags:

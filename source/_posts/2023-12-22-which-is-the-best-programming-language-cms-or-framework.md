@@ -1,6 +1,5 @@
 ---
 title: Which is the best programming language, CMS or framework?
-pubDate: 2023-12-22
 permalink: >-
   daily/2023/12/22/best-language-cms-or-framework
 tags:

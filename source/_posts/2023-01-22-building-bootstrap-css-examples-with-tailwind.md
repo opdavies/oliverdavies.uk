@@ -1,6 +1,5 @@
 ---
 title: Building Bootstrap CSS examples with Tailwind
-pubDate: 2023-01-22
 permalink: >-
   daily/2023/01/22/building-bootstrap-css-examples-with-tailwind
 tags:

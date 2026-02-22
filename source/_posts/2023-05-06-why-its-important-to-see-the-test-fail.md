@@ -1,6 +1,5 @@
 ---
 title: Why it's important to see the test fail
-pubDate: 2023-05-06
 permalink: >-
   daily/2023/05/06/why-its-important-to-see-the-test-fail
 tags:

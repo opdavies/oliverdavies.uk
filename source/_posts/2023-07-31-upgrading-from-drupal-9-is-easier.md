@@ -1,6 +1,5 @@
 ---
 title: Upgrading from Drupal 9 is easier
-pubDate: 2023-07-31
 permalink: >-
   daily/2023/07/31/upgrading-from-drupal-9-is-easier
 tags:

@@ -1,6 +1,5 @@
 ---
 title: Why I prefer integration tests to unit tests
-pubDate: 2023-11-14
 permalink: >-
   daily/2023/11/14/why-i-prefer-integration-tests-to-unit-tests
 tags:

@@ -1,6 +1,5 @@
 ---
 title: 14 years on Drupal.org and working with PHP and Drupal
-pubDate: 2022-10-17
 permalink: daily/2022/10/17/14-years-drupalorg
 ---
 

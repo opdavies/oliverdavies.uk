@@ -1,6 +1,5 @@
 ---
 title: Camel-case or snake-case for test methods?
-pubDate: 2022-11-14
 permalink: >-
   daily/2022/11/14/camel-case-or-snake-case-for-test-methods
 tags:

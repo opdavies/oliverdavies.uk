@@ -1,6 +1,5 @@
 ---
 title: Don't use arbitrary values in Tailwind CSS
-pubDate: 2023-01-02
 permalink: >-
   daily/2023/01/02/dont-use-arbitrary-values-in-tailwind-css
 tags:

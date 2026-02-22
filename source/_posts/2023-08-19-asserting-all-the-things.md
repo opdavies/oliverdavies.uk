@@ -1,6 +1,5 @@
 ---
 title: Asserting all the things
-pubDate: 2023-08-19
 permalink: >-
   daily/2023/08/19/asserting-all-the-things
 tags:

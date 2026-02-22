@@ -1,6 +1,5 @@
 ---
 title: Your conference talk has been accepted
-pubDate: 2022-11-09
 permalink: >-
   daily/2022/11/09/your-conference-talk-has-been-accepted
 ---

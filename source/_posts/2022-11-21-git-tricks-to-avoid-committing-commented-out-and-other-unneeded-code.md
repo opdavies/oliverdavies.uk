@@ -1,6 +1,5 @@
 ---
 title: Git tricks to avoid committing commented-out and other unneeded code
-pubDate: 2022-11-21
 permalink: >-
   daily/2022/11/21/git-tricks-to-avoid-committing-commented-out-and-other-unneeded-code
 tags:

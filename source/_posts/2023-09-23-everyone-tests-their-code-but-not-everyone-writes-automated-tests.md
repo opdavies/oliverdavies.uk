@@ -1,6 +1,5 @@
 ---
 title: Everyone tests their code, but not everyone writes automated tests
-pubDate: 2023-09-23
 permalink: >-
   daily/2023/09/23/not-everyone-writes-automated-tests
 tags:

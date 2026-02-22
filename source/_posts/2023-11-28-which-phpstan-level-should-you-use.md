@@ -1,6 +1,5 @@
 ---
 title: Which PHPStan level should you use?
-pubDate: 2023-11-28
 permalink: >-
   daily/2023/11/28/which-phpstan-level-should-you-use
 tags:

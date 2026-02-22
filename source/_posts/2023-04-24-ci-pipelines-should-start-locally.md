@@ -1,6 +1,5 @@
 ---
 title: CI pipelines should start locally
-pubDate: 2023-04-24
 permalink: >-
   daily/2023/04/24/ci-pipelines-should-start-locally
 tags:

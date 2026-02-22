@@ -1,6 +1,5 @@
 ---
 permalink: daily/2022/08/19/pair-programming-or-code-reviews
-pubDate: 2022-08-19
 title: Pair programming or code reviews?
 ---
 

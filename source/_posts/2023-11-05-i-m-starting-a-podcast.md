@@ -1,6 +1,5 @@
 ---
 title: I'm starting a podcast
-pubDate: 2023-11-05
 permalink: >-
   daily/2023/11/05/i-m-starting-a-podcast
 tags:

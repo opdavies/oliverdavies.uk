@@ -1,6 +1,5 @@
 ---
 title: Which branch should be in which environment?
-pubDate: 2023-09-26
 permalink: >-
   daily/2023/09/26/which-branch-should-be-in-which-environment
 tags:

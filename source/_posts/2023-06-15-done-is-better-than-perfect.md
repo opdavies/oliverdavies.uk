@@ -1,6 +1,5 @@
 ---
 title: Done is better than perfect
-pubDate: 2023-06-15
 permalink: >-
   daily/2023/06/15/done-is-better-than-perfect
 tags: []

@@ -1,6 +1,5 @@
 ---
 title: Doing the simplest possible thing
-pubDate: 2022-11-24
 permalink: >-
   daily/2022/11/24/doing-the-simplest-possible-thing
 ---

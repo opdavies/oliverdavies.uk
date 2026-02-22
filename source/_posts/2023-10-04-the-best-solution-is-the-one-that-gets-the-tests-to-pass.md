@@ -1,6 +1,5 @@
 ---
 title: The best solution is the one that gets the tests to pass
-pubDate: 2023-10-04
 permalink: >-
   daily/2023/10/04/the-best-solution-is-the-one-that-gets-the-tests-to-pass
 tags:

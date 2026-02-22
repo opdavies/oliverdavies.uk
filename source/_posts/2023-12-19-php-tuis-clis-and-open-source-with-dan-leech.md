@@ -1,6 +1,5 @@
 ---
 title: PHP TUIs, CLIs and open-source with Dan Leech
-pubDate: 2023-12-19
 permalink: >-
   daily/2023/12/19/php-tui-dan-leech
 tags:

@@ -1,6 +1,5 @@
 ---
 title: Failing fast
-pubDate: 2023-06-11
 permalink: >-
   daily/2023/06/11/failing-fast
 tags: []

@@ -1,6 +1,5 @@
 ---
 title: Tests as communication
-pubDate: 2023-07-20
 permalink: >-
   daily/2023/07/20/tests-as-communication
 tags:

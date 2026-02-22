@@ -1,5 +1,4 @@
 ---
-pubDate: 2022-08-29
 title: Why I like Drupal
 permalink: daily/2022/08/29/why-like-drupal
 tags: [drupal]

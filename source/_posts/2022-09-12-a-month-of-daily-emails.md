@@ -1,6 +1,5 @@
 ---
 title: A month of daily emails
-pubDate: 2022-09-12
 permalink: daily/2022/09/12/month-daily-emails
 ---
 

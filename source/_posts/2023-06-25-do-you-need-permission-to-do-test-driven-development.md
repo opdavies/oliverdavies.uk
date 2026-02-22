@@ -1,6 +1,5 @@
 ---
 title: Do you need permission to do Test-Driven Development?
-pubDate: 2023-06-25
 permalink: >-
   daily/2023/06/25/do-you-need-permission-test-driven-development
 tags:

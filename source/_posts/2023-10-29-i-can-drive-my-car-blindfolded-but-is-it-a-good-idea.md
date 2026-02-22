@@ -1,6 +1,5 @@
 ---
 title: I can drive my car blindfolded, but is it a good idea?
-pubDate: 2023-10-29
 permalink: >-
   daily/2023/10/29/i-can-drive-my-car-blindfolded-but-is-it-a-good-idea
 tags:

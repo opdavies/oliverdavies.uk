@@ -1,6 +1,5 @@
 ---
 title: You don't need to think about what to do next
-pubDate: 2023-05-07
 permalink: >-
   daily/2023/05/07/you-dont-need-to-think-about-what-to-do-next
 tags:

@@ -1,6 +1,5 @@
 ---
 title: Start with a vague test
-pubDate: 2023-08-25
 permalink: >-
   daily/2023/08/25/start-with-a-vague-test
 tags:

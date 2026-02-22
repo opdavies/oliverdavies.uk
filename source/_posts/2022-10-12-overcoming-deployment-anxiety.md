@@ -1,6 +1,5 @@
 ---
 title: Overcoming deployment anxiety
-pubDate: 2022-10-12
 permalink: daily/2022/10/12/overcoming-deployment-anxiety
 ---
 

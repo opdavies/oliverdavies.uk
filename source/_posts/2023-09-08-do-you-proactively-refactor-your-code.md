@@ -1,6 +1,5 @@
 ---
 title: Do you proactively refactor your code?
-pubDate: 2023-09-08
 permalink: >-
   daily/2023/09/08/do-you-proactively-refactor-your-code
 tags:

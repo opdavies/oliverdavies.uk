@@ -1,6 +1,5 @@
 ---
 title: Are conventional commits worth it?
-pubDate: 2023-11-24
 permalink: >-
   daily/2023/11/24/are-conventional-commits-worth-it
 tags:

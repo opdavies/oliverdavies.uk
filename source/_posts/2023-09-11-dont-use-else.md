@@ -1,6 +1,5 @@
 ---
 title: Don't use "else"
-pubDate: 2023-09-11
 permalink: >-
   daily/2023/09/11/dont-use-else
 tags:

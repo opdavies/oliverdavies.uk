@@ -1,6 +1,5 @@
 ---
 title: Ship, Show or Ask
-pubDate: 2022-11-30
 permalink: >-
   daily/2022/11/30/ship-show-or-ask
 tags:
