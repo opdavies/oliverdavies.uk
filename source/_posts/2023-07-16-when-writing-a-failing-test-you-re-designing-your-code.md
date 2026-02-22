@@ -1,5 +1,6 @@
 ---
 title: When writing a failing test, you're designing your code
+pubDate: 2023-07-16
 permalink: >-
   daily/2023/07/16/when-writing-a-failing-test-youre-designing-your-code
 tags:

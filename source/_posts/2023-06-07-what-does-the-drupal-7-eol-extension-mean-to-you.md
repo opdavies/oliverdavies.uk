@@ -1,5 +1,6 @@
 ---
 title: What does the Drupal 7 EOL extension mean to you?
+pubDate: 2023-06-07
 permalink: >-
   daily/2023/06/07/what-does-the-drupal-7-eol-extension-mean-to-you
 tags:

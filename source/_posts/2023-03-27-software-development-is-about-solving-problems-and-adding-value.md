@@ -1,5 +1,6 @@
 ---
 title: Software development is about solving problems and adding value
+pubDate: 2023-03-27
 permalink: >-
   daily/2023/03/27/software-development-solving-problems-and-adding-value
 # tags:

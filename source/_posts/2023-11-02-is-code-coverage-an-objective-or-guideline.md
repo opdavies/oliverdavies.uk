@@ -1,5 +1,6 @@
 ---
 title: Is code coverage an objective or guideline?
+pubDate: 2023-11-02
 permalink: >-
   daily/2023/11/02/is-code-coverage-an-objective-or-guideline
 tags:

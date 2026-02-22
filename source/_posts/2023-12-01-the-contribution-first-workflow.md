@@ -1,5 +1,6 @@
 ---
 title: The contribution-first workflow
+pubDate: 2023-12-01
 permalink: >-
   daily/2023/12/01/the-contribution-first-workflow
 tags:

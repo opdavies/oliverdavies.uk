@@ -1,5 +1,6 @@
 ---
 title: Work with me and support the Drupal Association
+pubDate: 2023-10-27
 permalink: >-
   daily/2023/10/27/work-with-me-and-support-the-drupal-association
 tags:

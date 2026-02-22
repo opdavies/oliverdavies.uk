@@ -1,5 +1,6 @@
 ---
 title: Writing readable code
+pubDate: 2022-12-01
 permalink: >-
   daily/2022/12/01/writing-readable-code
 ---

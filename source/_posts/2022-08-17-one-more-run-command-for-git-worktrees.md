@@ -1,5 +1,6 @@
 ---
 permalink: daily/2022/08/17/one-more-run-command-git-worktrees
+pubDate: 2022-08-17
 title: One more "run" command, for Git worktrees
 tags: [drupal, git]
 ---

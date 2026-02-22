@@ -1,5 +1,6 @@
 ---
 permalink: daily/2022/08/15/using-run-file-simplify-project-tasks
+pubDate: 2022-08-15
 title: Using a "run" file to simplify project tasks
 tags: [php]
 ---

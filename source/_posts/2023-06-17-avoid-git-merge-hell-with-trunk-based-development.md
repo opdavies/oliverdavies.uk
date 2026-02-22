@@ -1,5 +1,6 @@
 ---
 title: Avoid Git merge hell with trunk-based development
+pubDate: 2023-06-17
 permalink: >-
   daily/2023/06/17/avoid-git-merge-hell-with-trunk-based-development
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Version-controlled commented-out code
+pubDate: 2022-11-20
 permalink: >-
   daily/2022/11/20/version-controlled-commented-out-code
 tags:

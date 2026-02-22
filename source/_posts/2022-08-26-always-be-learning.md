@@ -1,4 +1,5 @@
 ---
+pubDate: 2022-08-26
 title: Always be learning
 permalink: daily/2022/08/26/always-be-learning
 ---

@@ -1,5 +1,6 @@
 ---
 title: Immutable read-only properties in PHP 8.1
+pubDate: 2023-04-13
 permalink: >-
   daily/2023/04/13/immutable-read-only-properties-in-php-8-1
 tags:

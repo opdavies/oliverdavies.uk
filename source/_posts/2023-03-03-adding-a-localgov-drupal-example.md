@@ -1,5 +1,6 @@
 ---
 title: Adding a LocalGov Drupal example
+pubDate: 2023-03-03
 permalink: >-
   daily/2023/03/03/adding-a-localgov-drupal-example
 tags:

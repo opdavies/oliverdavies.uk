@@ -1,5 +1,6 @@
 ---
 title: run file vs task runners
+pubDate: 2022-10-19
 permalink: daily/2022/10/19/run-vs-task-runners
 # tags:
 #     -

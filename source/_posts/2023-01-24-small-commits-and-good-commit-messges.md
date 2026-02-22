@@ -1,5 +1,6 @@
 ---
 title: Small commits and good commit messges
+pubDate: 2023-01-24
 permalink: >-
   daily/2023/01/24/small-commits-and-good-commit-messges
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Deploying applications with Ansible
+pubDate: 2022-09-06
 permalink: daily/2022/09/06/deploying-applications-with-ansible
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Why I built a tool to generate configuration files
+pubDate: 2023-03-04
 permalink: >-
   daily/2023/03/04/why-i-built-a-tool-to-generate-configuration-files
 ---

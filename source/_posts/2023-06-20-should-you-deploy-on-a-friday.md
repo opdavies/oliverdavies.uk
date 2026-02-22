@@ -1,5 +1,6 @@
 ---
 title: Should you deploy on a Friday?
+pubDate: 2023-06-20
 permalink: >-
   daily/2023/06/20/should-you-deploy-on-a-friday
 tags:

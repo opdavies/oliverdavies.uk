@@ -1,5 +1,6 @@
 ---
 title: Deployments with your CI pipeline
+pubDate: 2023-08-22
 permalink: >-
   daily/2023/08/22/deployments-with-your-ci-pipeline
 tags:

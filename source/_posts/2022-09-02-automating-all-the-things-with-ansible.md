@@ -1,5 +1,6 @@
 ---
 title: Automating all the things with Ansible
+pubDate: 2022-09-02
 permalink: daily/2022/09/02/automating-all-the-things-with-ansible
 tags: [ansible]
 ---

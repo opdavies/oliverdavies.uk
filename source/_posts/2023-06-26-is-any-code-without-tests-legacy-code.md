@@ -1,5 +1,6 @@
 ---
 title: Is any code without tests legacy code?
+pubDate: 2023-06-26
 permalink: >-
   daily/2023/06/26/is-any-code-without-tests-legacy
 tags:

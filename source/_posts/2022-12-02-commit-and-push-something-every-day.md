@@ -1,5 +1,6 @@
 ---
 title: Commit and push something every day
+pubDate: 2022-12-02
 permalink: >-
   daily/2022/12/02/commit-and-push-something-every-day
 ---

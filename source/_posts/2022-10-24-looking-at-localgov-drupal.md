@@ -1,5 +1,6 @@
 ---
 title: Looking at LocalGov Drupal
+pubDate: 2022-10-24
 permalink: >-
   daily/2022/10/24/looking-at-localgov-drupal
 tags:

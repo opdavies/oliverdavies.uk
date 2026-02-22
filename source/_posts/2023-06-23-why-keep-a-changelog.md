@@ -1,5 +1,6 @@
 ---
 title: Why keep a Changelog?
+pubDate: 2023-06-23
 permalink: >-
   daily/2023/06/23/why-keep-a-changelog
 tags:

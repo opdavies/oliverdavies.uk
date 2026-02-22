@@ -1,5 +1,6 @@
 ---
 title: Mentoring for School of Code
+pubDate: 2023-03-05
 permalink: >-
   daily/2023/03/05/mentoring-for-school-of-code
 tags: []

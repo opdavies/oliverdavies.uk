@@ -1,5 +1,6 @@
 ---
 title: Releasing small changes often is less risky
+pubDate: 2023-05-14
 permalink: >-
   daily/2023/05/14/releasing-small-changes-often-is-less-risky
 tags:

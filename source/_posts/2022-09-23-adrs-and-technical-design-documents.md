@@ -1,5 +1,6 @@
 ---
 title: ADRs and Technical Design Documents
+pubDate: 2022-09-23
 permalink: daily/2022/09/23/adrs-technical-design-documents
 tags: []
 ---

@@ -1,5 +1,6 @@
 ---
 title: Writing tests is an investment
+pubDate: 2023-10-13
 permalink: >-
   daily/2023/10/13/writing-tests-is-an-investment
 tags:

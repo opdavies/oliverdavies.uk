@@ -1,5 +1,6 @@
 ---
 permalink: daily/2022/08/24/2022-08-24
+pubDate: 2022-08-24
 title: How I've configured Git
 tags:
   - git

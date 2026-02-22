@@ -1,5 +1,6 @@
 ---
 title: Automatically running commands with nodemon
+pubDate: 2023-04-15
 permalink: >-
   daily/2023/04/15/automatically-running-commands-with-nodemon
 tags: []

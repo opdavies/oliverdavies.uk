@@ -1,5 +1,6 @@
 ---
 title: Automating all the things
+pubDate: 2023-03-14
 permalink: >-
   daily/2023/03/14/automating-all-the-things
 tags:

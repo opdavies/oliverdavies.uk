@@ -1,5 +1,6 @@
 ---
 title: Coding defensively, and Implicit vs explicit coding
+pubDate: 2022-10-09
 permalink: daily/2022/10/09/coding-defensively-implicit-explicit
 tags: [tailwindcss, php]
 ---

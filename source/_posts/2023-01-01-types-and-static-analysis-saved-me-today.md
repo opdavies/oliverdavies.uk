@@ -1,5 +1,6 @@
 ---
 title: Types and static analysis saved me today
+pubDate: 2023-01-01
 permalink: >-
   daily/2023/01/01/types-and-static-analysis-saved-me-today
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Why write custom assertions in your tests?
+pubDate: 2023-07-03
 permalink: >-
   daily/2023/07/03/why-write-custom-assertions-in-your-tests
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Working backwards
+pubDate: 2023-07-25
 permalink: >-
   daily/2023/07/25/working-backwards
 tags: []

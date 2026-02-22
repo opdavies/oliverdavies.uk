@@ -1,5 +1,6 @@
 ---
 title: Why I like trunk-based development
+pubDate: 2022-09-20
 permalink: daily/2022/09/20/why-like-trunk-based-development
 tags: [git]
 ---

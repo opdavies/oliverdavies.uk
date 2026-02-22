@@ -1,5 +1,6 @@
 ---
 title: Back after PHP Stoke
+pubDate: 2023-01-16
 permalink: >-
   daily/2023/01/16/back-after-php-stoke
 # tags:

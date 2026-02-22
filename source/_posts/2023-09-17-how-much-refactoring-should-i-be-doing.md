@@ -1,5 +1,6 @@
 ---
 title: How much refactoring should I be doing?
+pubDate: 2023-09-17
 permalink: >-
   daily/2023/09/17/how-much-refactoring-should-i-be-doing
 tags:

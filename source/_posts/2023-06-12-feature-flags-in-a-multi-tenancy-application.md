@@ -1,5 +1,6 @@
 ---
 title: Feature flags in a multi-tenancy application
+pubDate: 2023-06-12
 permalink: >-
   daily/2023/06/12/feature-flags-in-a-multi-tenancy-application
 tags:

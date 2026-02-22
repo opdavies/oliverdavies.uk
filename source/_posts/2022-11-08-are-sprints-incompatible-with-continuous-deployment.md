@@ -1,5 +1,6 @@
 ---
 title: Are sprints incompatible with Continuous Deployment?
+pubDate: 2022-11-08
 permalink: >-
   daily/2022/11/08/are-sprints-incompatible-with-continuous-deployment
 # tags:

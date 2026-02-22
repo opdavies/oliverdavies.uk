@@ -1,5 +1,6 @@
 ---
 title: Camel-case or snake-case for Drupal code?
+pubDate: 2023-04-19
 permalink: >-
   daily/2023/04/19/camel-case-or-snake-case-for-drupal-code
 tags:

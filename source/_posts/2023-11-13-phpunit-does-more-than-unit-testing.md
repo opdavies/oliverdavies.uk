@@ -1,5 +1,6 @@
 ---
 title: PHPUnit does more than unit testing
+pubDate: 2023-11-13
 permalink: >-
   daily/2023/11/13/phpunit-does-more-than-unit-testing
 tags:

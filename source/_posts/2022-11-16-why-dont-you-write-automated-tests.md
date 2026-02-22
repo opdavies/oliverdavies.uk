@@ -1,5 +1,6 @@
 ---
 title: Why don't you write automated tests?
+pubDate: 2022-11-16
 permalink: >-
   daily/2022/11/16/why-don't-you-write-automated-tests
 tags:

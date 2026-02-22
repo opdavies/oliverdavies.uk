@@ -1,5 +1,6 @@
 ---
 title: A crash course into automated testing with Drupal
+pubDate: 2023-08-02
 permalink: >-
   daily/2023/08/02/a-crash-course-into-drupal-testing
 tags:

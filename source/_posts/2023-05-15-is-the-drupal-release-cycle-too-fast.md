@@ -1,5 +1,6 @@
 ---
 title: Is the Drupal release cycle too fast?
+pubDate: 2023-05-15
 permalink: >-
   daily/2023/05/15/is-the-drupal-release-cycle-too-fast
 tags:

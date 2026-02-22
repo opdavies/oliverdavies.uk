@@ -1,5 +1,6 @@
 ---
 title: How long should a feature flag live?
+pubDate: 2023-06-05
 permalink: >-
   daily/2023/06/05/how-long-should-a-feature-flag-live
 tags:

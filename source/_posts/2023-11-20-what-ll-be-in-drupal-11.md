@@ -1,5 +1,6 @@
 ---
 title: What'll be in Drupal 11?
+pubDate: 2023-11-20
 permalink: >-
   daily/2023/11/20/whatll-be-in-drupal-11
 tags:

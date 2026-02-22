@@ -1,5 +1,6 @@
 ---
 title: One test a day keeps bugs away
+pubDate: 2022-11-18
 permalink: >-
   daily/2022/11/18/one-test-a-day-keeps-bugs-away
 tags:

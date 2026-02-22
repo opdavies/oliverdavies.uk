@@ -1,5 +1,6 @@
 ---
 title: Reducing utility class duplication
+pubDate: 2023-01-07
 permalink: >-
   daily/2023/01/07/reducing-utility-class-duplication
 tags:

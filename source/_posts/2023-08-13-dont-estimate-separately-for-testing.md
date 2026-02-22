@@ -1,5 +1,6 @@
 ---
 title: Don't estimate separately for testing
+pubDate: 2023-08-13
 permalink: >-
   daily/2023/08/13/dont-estimate-separately-for-testing
 tags:

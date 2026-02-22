@@ -1,5 +1,6 @@
 ---
 title: Community engagement for non-technical Drupal enthusiasts
+pubDate: 2023-11-25
 permalink: >-
   daily/2023/11/25/community-engagement-for-non-technical-drupal-enthusiasts
 tags:

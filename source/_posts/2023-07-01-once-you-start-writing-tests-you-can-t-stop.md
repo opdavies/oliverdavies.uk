@@ -1,5 +1,6 @@
 ---
 title: Once you start writing tests, you can't stop
+pubDate: 2023-07-01
 permalink: >-
   daily/2023/07/01/once-you-start-writing-tests-you-cant-stop
 tags:

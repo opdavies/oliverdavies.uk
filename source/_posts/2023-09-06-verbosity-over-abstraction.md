@@ -1,5 +1,6 @@
 ---
 title: Verbosity over abstraction
+pubDate: 2023-09-06
 permalink: >-
   daily/2023/09/06/verbosity-over-abstraction
 tags:

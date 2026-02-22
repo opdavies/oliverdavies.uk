@@ -1,5 +1,6 @@
 ---
 title: Speaking at the Symfony UK meetup in London
+pubDate: 2023-05-04
 permalink: >-
   daily/2023/05/04/speaking-at-the-symfony-uk-meetup-london
 tags:

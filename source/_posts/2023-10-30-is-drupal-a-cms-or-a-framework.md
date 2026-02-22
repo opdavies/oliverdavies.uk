@@ -1,5 +1,6 @@
 ---
 title: Is Drupal a CMS or a framework?
+pubDate: 2023-10-30
 permalink: >-
   daily/2023/10/30/is-drupal-a-cms-or-a-framework
 tags:

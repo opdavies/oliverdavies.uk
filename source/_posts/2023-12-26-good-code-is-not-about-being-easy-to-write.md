@@ -2,6 +2,7 @@
 title: Good code is not about being easy to write
 snippet: >-
   Good code is not about being easy to write. It's about how easy it is to change.
+pubDate: 2023-12-26
 permalink: >-
   daily/2023/12/26/good-code-is-not-about-being-easy-to-write
 tags:

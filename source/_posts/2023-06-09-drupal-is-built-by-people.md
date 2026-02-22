@@ -1,5 +1,6 @@
 ---
 title: Drupal is built by people
+pubDate: 2023-06-09
 permalink: >-
   daily/2023/06/09/drupal-is-built-by-people
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Drupal's Alternate Realities
+pubDate: 2023-11-17
 permalink: >-
   daily/2023/11/17/drupal-s-alternate-realities
 tags:

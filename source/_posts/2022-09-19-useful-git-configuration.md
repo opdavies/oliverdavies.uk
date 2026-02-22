@@ -1,5 +1,6 @@
 ---
 title: Useful Git configuration
+pubDate: 2022-09-19
 permalink: daily/2022/09/19/useful-git-configuration
 tags: [git]
 ---

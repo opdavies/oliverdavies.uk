@@ -1,5 +1,6 @@
 ---
 title: Why I prefer types
+pubDate: 2023-09-20
 permalink: >-
   daily/2023/09/20/why-i-prefer-types
 tags:

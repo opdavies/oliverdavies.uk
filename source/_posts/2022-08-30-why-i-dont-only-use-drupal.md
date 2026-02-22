@@ -1,4 +1,5 @@
 ---
+pubDate: 2022-08-30
 title: Why I don't only use Drupal
 permalink: daily/2022/08/30/why-dont-only-use-drupal
 tags: [drupal]

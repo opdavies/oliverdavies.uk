@@ -1,5 +1,6 @@
 ---
 title: How I manage multiple Drupal websites using the same codebase
+pubDate: 2022-11-13
 permalink: >-
   daily/2022/11/13/how-i-manage-multiple-drupal-websites-using-the-same-codebase
 tags:

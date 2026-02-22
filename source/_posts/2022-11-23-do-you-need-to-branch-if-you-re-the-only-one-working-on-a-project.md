@@ -1,5 +1,6 @@
 ---
 title: Do you need to branch if you're the only one working on a project?
+pubDate: 2022-11-23
 permalink: >-
   daily/2022/11/23/do-you-need-to-branch
 tags:

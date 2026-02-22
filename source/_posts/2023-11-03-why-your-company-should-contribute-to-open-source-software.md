@@ -1,5 +1,6 @@
 ---
 title: Why your company should contribute to open-source software
+pubDate: 2023-11-03
 permalink: >-
   daily/2023/11/03/why-your-company-should-contribute-to-open-source-software
 tags:

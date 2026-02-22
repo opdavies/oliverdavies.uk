@@ -1,5 +1,6 @@
 ---
 title: Tests won't tell you if your code works
+pubDate: 2023-06-29
 permalink: >-
   daily/2023/06/29/tests-wont-tell-you-if-your-code-works
 tags:

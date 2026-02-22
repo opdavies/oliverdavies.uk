@@ -1,5 +1,6 @@
 ---
 title: Spotting new things in Drupal 10.1
+pubDate: 2023-10-09
 permalink: >-
   daily/2023/10/09/spotting-new-things-in-drupal-10-1
 tags:

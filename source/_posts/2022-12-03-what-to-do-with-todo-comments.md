@@ -1,5 +1,6 @@
 ---
 title: What to do with TODO comments
+pubDate: 2022-12-03
 permalink: >-
   daily/2022/12/03/what-to-do-with-todo-comments
 ---

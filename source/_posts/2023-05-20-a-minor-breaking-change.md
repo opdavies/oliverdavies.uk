@@ -1,5 +1,6 @@
 ---
 title: A minor breaking change
+pubDate: 2023-05-20
 permalink: >-
   daily/2023/05/20/a-minor-breaking-change
 tags:

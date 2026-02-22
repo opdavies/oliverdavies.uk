@@ -1,5 +1,6 @@
 ---
 title: CI pipelines are an automated code review
+pubDate: 2023-08-29
 permalink: >-
   daily/2023/08/29/ci-pipelines-are-an-automated-code-review
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Making my Drupal module template Drupal 10 compatible
+pubDate: 2023-04-21
 permalink: >-
   daily/2023/04/21/making-my-drupal-module-template-drupal-10-compatible
 tags:

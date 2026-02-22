@@ -1,5 +1,6 @@
 ---
 title: Getting to green
+pubDate: 2023-05-05
 permalink: >-
   daily/2023/05/05/getting-to-green
 tags:

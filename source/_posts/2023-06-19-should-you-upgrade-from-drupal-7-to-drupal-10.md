@@ -1,5 +1,6 @@
 ---
 title: Should you upgrade from Drupal 7 to Drupal 10?
+pubDate: 2023-06-19
 permalink: >-
   daily/2023/06/19/should-you-upgrade-from-drupal-7-to-drupal-10
 tags:

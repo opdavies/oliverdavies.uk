@@ -1,5 +1,6 @@
 ---
 title: Consistency is key
+pubDate: 2023-04-18
 permalink: >-
   daily/2023/04/18/consistency-is-key
 tags:

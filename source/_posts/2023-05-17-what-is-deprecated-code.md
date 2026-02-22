@@ -1,5 +1,6 @@
 ---
 title: What is deprecated code?
+pubDate: 2023-05-17
 permalink: >-
   daily/2023/05/17/what-is-deprecated-code
 tags:

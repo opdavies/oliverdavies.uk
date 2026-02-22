@@ -1,5 +1,6 @@
 ---
 title: A sneak peek of my Drupal automated testing course
+pubDate: 2023-12-25
 permalink: >-
   daily/2023/12/25/zero-to-test
 tags:

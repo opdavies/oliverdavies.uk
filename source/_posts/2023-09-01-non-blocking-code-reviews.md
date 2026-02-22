@@ -1,5 +1,6 @@
 ---
 title: Non-blocking code reviews
+pubDate: 2023-09-01
 permalink: >-
   daily/2023/09/01/non-blocking-code-reviews
 tags:

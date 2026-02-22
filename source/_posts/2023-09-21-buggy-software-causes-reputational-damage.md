@@ -1,5 +1,6 @@
 ---
 title: Buggy software causes reputational damage
+pubDate: 2023-09-21
 permalink: >-
   daily/2023/09/21/buggy-software-causes-reputational-damage
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Test-driven development makes you more productive
+pubDate: 2023-07-15
 permalink: >-
   daily/2023/07/15/test-driven-development-makes-you-more-productive
 tags:

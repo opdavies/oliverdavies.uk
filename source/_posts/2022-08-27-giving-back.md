@@ -1,4 +1,5 @@
 ---
+pubDate: 2022-08-27
 title: Giving back
 permalink: daily/2022/08/27/giving-back
 ---

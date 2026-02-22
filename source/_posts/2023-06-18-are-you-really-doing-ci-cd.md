@@ -1,5 +1,6 @@
 ---
 title: Are you really doing CI/CD?
+pubDate: 2023-06-18
 permalink: >-
   daily/2023/06/18/are-you-doing-ci-cd
 tags:

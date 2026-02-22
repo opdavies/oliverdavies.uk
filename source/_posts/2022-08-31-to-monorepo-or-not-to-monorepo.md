@@ -1,6 +1,7 @@
 ---
 title: To monorepo, or not to monorepo?
 permalink: daily/2022/08/31/monorepo-or-not
+pubDate: 2022-08-31
 tags: [git]
 ---
 

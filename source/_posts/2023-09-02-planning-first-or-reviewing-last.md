@@ -1,5 +1,6 @@
 ---
 title: Planning first or reviewing last?
+pubDate: 2023-09-02
 permalink: >-
   daily/2023/09/02/planning-first-or-reviewing-last
 tags:

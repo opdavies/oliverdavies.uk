@@ -1,5 +1,6 @@
 ---
 title: In what language should I write my automation?
+pubDate: 2023-03-09
 permalink: >-
   daily/2023/03/09/in-what-language-should-i-write-my-automation
 # tags:

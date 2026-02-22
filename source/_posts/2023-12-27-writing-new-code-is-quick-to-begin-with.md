@@ -1,5 +1,6 @@
 ---
 title: Writing new code is quick, to begin with
+pubDate: 2023-12-27
 permalink: >-
   daily/2023/12/27/writing-new-code-is-quick-to-begin-with
 snippet: >-

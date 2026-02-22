@@ -1,5 +1,6 @@
 ---
 title: The lowest level is better than no level
+pubDate: 2023-11-29
 permalink: >-
   daily/2023/11/29/the-lowest-level-is-better-than-no-level
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Configuration files as a service
+pubDate: 2023-04-22
 permalink: >-
   daily/2023/04/22/build-configs-as-a-service
 tags:

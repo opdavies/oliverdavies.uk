@@ -1,5 +1,6 @@
 ---
 title: Thoughts on automated code formatting
+pubDate: 2022-09-17
 permalink: daily/2022/09/17/thoughts-automated-code-formatting
 ---
 

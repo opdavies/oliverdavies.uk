@@ -1,5 +1,6 @@
 ---
 title: TDD is like clicker training
+pubDate: 2023-07-19
 permalink: >-
   daily/2023/07/19/tdd-is-like-clicker-training
 tags:

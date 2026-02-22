@@ -1,5 +1,6 @@
 ---
 title: Automated tests prevent regressions when upgrading
+pubDate: 2023-10-25
 permalink: >-
   daily/2023/10/25/automated-tests-prevent-regressions-when-upgrading
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Make the change easy, then make the easy change
+pubDate: 2023-06-16
 permalink: >-
   daily/2023/06/16/make-the-easy-change
 tags: []

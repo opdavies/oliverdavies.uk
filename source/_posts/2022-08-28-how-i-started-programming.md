@@ -1,4 +1,5 @@
 ---
+pubDate: 2022-08-28
 title: How I started programming
 permalink: daily/2022-08-28/how-started-programming
 ---

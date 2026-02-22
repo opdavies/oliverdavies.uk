@@ -1,5 +1,6 @@
 ---
 title: Using a whole framework or part of it
+pubDate: 2023-12-23
 permalink: >-
   daily/2023/12/23/using-a-whole-framework-or-part-of-it
 tags:

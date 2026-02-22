@@ -1,5 +1,6 @@
 ---
 title: It depends
+pubDate: 2023-11-07
 permalink: >-
   daily/2023/11/07/it-depends
 tags:

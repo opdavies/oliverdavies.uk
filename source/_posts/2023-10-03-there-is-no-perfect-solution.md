@@ -1,5 +1,6 @@
 ---
 title: There is no perfect solution
+pubDate: 2023-10-03
 permalink: >-
   daily/2023/10/03/there-is-no-perfect-solution
 tags:

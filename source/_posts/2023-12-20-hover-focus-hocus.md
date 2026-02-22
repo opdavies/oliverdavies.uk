@@ -1,5 +1,6 @@
 ---
 title: hover + focus = hocus
+pubDate: 2023-12-20
 permalink: >-
   daily/2023/12/20/hover-focus-hocus
 tags:

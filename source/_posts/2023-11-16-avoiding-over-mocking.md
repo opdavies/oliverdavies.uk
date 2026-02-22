@@ -1,5 +1,6 @@
 ---
 title: Avoiding over-mocking
+pubDate: 2023-11-16
 permalink: >-
   daily/2023/11/16/avoiding-over-mocking
 tags:

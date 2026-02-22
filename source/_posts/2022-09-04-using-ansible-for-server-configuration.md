@@ -1,5 +1,6 @@
 ---
 title: Using Ansible for server configuration
+pubDate: 2022-09-04
 permalink: daily/2022/09/04/using-ansible-for-server-configuration
 ---
 

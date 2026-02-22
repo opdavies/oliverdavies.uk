@@ -1,5 +1,6 @@
 ---
 title: Tests are living documentation
+pubDate: 2022-12-30
 permalink: >-
   daily/2022/12/30/tests-are-living-documentation
 tags:

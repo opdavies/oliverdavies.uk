@@ -1,5 +1,6 @@
 ---
 title: Drupal turns 22!
+pubDate: 2023-01-18
 permalink: >-
   daily/2023/01/18/drupal-turns-22
 tags:

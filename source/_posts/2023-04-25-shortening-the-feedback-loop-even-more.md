@@ -1,5 +1,6 @@
 ---
 title: Shortening the feedback loop even more
+pubDate: 2023-04-25
 permalink: >-
   daily/2023/04/25/shortening-the-feedback-loop-even-more
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Drupal gives you so much out-of-the-box
+pubDate: 2023-11-12
 permalink: >-
   daily/2023/11/12/drupal-gives-you-so-much-out-of-the-box
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Things to know about PHP
+pubDate: 2023-01-17
 permalink: >-
   daily/2023/01/17/things-to-know-about-php
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Work in small chunks
+pubDate: 2023-08-26
 permalink: >-
   daily/2023/08/26/work-in-small-chunks
 tags:

@@ -1,5 +1,6 @@
 ---
 title: The single responsibility principle
+pubDate: 2023-05-09
 permalink: >-
   daily/2023/05/09/the-single-responsibility-principle
 tags: []

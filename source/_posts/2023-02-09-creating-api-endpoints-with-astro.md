@@ -1,5 +1,6 @@
 ---
 title: Creating API endpoints with Astro
+pubDate: 2023-02-09
 permalink: >-
   daily/2023/02/09/creating-api-endpoints-with-astro
 tags:

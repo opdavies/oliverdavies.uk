@@ -1,5 +1,6 @@
 ---
 title: Clients dont care which design pattern you use
+pubDate: 2023-02-19
 permalink: >-
   daily/2023/02/19/clients-dont-care-which-design-pattern-you-use
 ---

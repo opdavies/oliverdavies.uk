@@ -1,5 +1,6 @@
 ---
 title: Spring clean before upgrading
+pubDate: 2023-09-05
 permalink: >-
   daily/2023/09/05/spring-clean-before-upgrading
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Testable Tailwind CSS plugins
+pubDate: 2023-01-04
 permalink: >-
   daily/2023/01/04/testable-tailwind-css-plugins
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Software development is like going to the Dentist
+pubDate: 2023-10-06
 permalink: >-
   daily/2023/10/06/software-development-is-like-going-to-the-dentist
 tags:

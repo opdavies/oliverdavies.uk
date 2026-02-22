@@ -1,5 +1,6 @@
 ---
 title: Commit often, deploy often
+pubDate: 2023-07-30
 permalink: >-
   daily/2023/07/30/commit-often-deploy-often
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Test to save your job
+pubDate: 2023-09-24
 permalink: >-
   daily/2023/09/24/test-to-save-your-job
 tags:

@@ -1,5 +1,6 @@
 ---
 title: What's the simplest test to begin with?
+pubDate: 2023-09-07
 permalink: >-
   daily/2023/09/07/what-s-the-simplest-test-to-begin-with
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Which part of the CI pipeline has the most value?
+pubDate: 2023-08-21
 permalink: >-
   daily/2023/08/21/which-part-of-the-ci-pipeline-has-the-most-value
 tags:

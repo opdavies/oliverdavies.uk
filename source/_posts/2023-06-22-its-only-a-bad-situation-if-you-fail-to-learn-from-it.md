@@ -1,5 +1,6 @@
 ---
 title: It's only a bad situation if you fail to learn from it
+pubDate: 2023-06-22
 permalink: >-
   daily/2023/06/22/fail-to-lear
 tags: []

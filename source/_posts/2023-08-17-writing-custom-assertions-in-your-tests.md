@@ -1,5 +1,6 @@
 ---
 title: Writing custom assertions in your tests
+pubDate: 2023-08-17
 permalink: >-
   daily/2023/08/17/writing-custom-assertions-in-your-tests
 tags:

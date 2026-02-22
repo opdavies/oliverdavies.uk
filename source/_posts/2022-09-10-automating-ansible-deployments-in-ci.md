@@ -1,5 +1,6 @@
 ---
 title: Automating Ansible deployments in CI
+pubDate: 2022-09-10
 permalink: daily/2022/09/10/automating-ansible-deployments-ci
 tags: [ansible]
 ---

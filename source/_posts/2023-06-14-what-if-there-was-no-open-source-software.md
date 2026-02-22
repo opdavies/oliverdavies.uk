@@ -1,5 +1,6 @@
 ---
 title: What if there was no open-source software
+pubDate: 2023-06-14
 permalink: >-
   daily/2023/06/14/what-if-there-was-no-open-source-software
 tags:

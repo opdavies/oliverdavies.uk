@@ -1,5 +1,6 @@
 ---
 title: Mob programming at PHP South Wales
+pubDate: 2022-09-28
 permalink: daily/2022/09/28/mob-programming-php-south-wales
 tags: []
 ---

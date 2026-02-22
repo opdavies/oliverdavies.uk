@@ -1,5 +1,6 @@
 ---
 title: Getting back into live streaming
+pubDate: 2022-10-27
 permalink: >-
   daily/2022/10/27/getting-back-into-live-streaming
 ---

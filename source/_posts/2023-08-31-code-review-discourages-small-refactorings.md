@@ -1,5 +1,6 @@
 ---
 title: Code review discourages small refactorings
+pubDate: 2023-08-31
 permalink: >-
   daily/2023/08/31/code-review-discourages-small-refactorings
 tags:

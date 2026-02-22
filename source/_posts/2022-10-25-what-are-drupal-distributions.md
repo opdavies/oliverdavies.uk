@@ -1,5 +1,6 @@
 ---
 title: What are Drupal distributions?
+pubDate: 2022-10-25
 permalink: >-
   daily/2022/10/25/what-are-drupal-distributions
 tags:

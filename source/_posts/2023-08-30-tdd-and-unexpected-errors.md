@@ -1,5 +1,6 @@
 ---
 title: TDD and "Unexpected errors"
+pubDate: 2023-08-30
 permalink: >-
   daily/2023/08/30/tdd-and-unexpected-errors
 tags:

@@ -1,5 +1,6 @@
 ---
 title: When should you run your tests?
+pubDate: 2023-10-23
 permalink: >-
   daily/2023/10/23/when-should-run-your-tests
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Neovim as a Personalised Development Environment
+pubDate: 2022-10-26
 permalink: >-
   daily/2022/10/26/neovim-as-a-personalised-development-environment
 tags:

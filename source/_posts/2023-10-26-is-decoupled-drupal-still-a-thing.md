@@ -1,5 +1,6 @@
 ---
 title: Is decoupled Drupal still a thing?
+pubDate: 2023-10-26
 permalink: >-
   daily/2023/10/26/is-decoupled-drupal-still-a-thing
 tags:

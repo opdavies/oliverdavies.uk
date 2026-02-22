@@ -1,5 +1,6 @@
 ---
 title: Writing good test names
+pubDate: 2023-11-18
 permalink: >-
   daily/2023/11/18/writing-good-test-names
 tags:

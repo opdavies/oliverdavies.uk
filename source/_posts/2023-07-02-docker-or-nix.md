@@ -1,5 +1,6 @@
 ---
 title: Docker or Nix?
+pubDate: 2023-07-02
 permalink: >-
   daily/2023/07/02/docker-or-nix
 tags:

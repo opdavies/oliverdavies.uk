@@ -1,5 +1,6 @@
 ---
 title: We've always done it this way
+pubDate: 2023-12-30
 permalink: >-
   daily/2023/12/30/weve-always-done-it-this-way
 snippet: >
