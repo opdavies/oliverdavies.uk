@@ -24,11 +24,10 @@ variants:
       has_link: true
       has_photo: false
       has_title: true
-use: [testimonials]
 ---
 
 <div style="display: grid; gap: 4rem;">
-  {% set testimonial = data.testimonials|filter(t => t.name == 'Jon Hallett')|first %}
+  {% set testimonial = site.testimonials|filter(t => t.name == 'Jon Hallett')|first %}
 
   {% if testimonial %}
     {% for variant in page.variants %}

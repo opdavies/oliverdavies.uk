@@ -1,7 +1,7 @@
 {% set limit = limit ?? 10 %}
 {% set offset = offset ?? 0 %}
 
-{% set testimonials = data.testimonials|default([])|sort((a, b) => b.date <=> a.date) %}
+{% set testimonials = site.testimonials|reverse %}
 
 {% if tag is not null %}
   {% set testimonials = testimonials|filter(testimonial => tag in testimonial.tags) %}
@@ -18,14 +18,14 @@
     {% for testimonial in testimonials %}
       <article class="testimonial">
         <blockquote>
-          {{ testimonial.blocks.content|raw }}
+          {{ testimonial.text|raw }}
         </blockquote>
 
         <div>
           <footer>
             <span class="testimonial__name">
-              {% if testimonial.website %}
-                <a href="{{ testimonial.website }}">{{ testimonial.name }}</a>
+              {% if testimonial.url %}
+                <a href="{{ testimonial.url }}">{{ testimonial.name }}</a>
               {% else %}
                 {{ testimonial.name }}
               {% endif %}

@@ -1,6 +1,5 @@
 ---
 title: Automated Testing in Drupal email course
-use: [testimonials]
 ---
 
 {% block content %}

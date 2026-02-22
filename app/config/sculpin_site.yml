@@ -56,3 +56,6 @@ youtube:
   channel:
     slug: opdavies
     url: https://www.youtube.com/@%youtube.channel.slug%
+
+imports:
+  - ../../data/testimonials.yml

@@ -10,6 +10,3 @@ sculpin_content_types:
     permalink: /blog/:basename/
   presentations:
     permalink: /presentations/:basename/
-  testimonials:
-    layout: base
-    permalink: ~
