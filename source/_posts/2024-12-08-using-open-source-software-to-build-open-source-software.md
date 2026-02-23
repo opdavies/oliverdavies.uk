@@ -1,4 +1,5 @@
 ---
+date: 2024-12-08
 title: Using open source software to build open source software
 permalink: daily/2024/12/08/building-open-source
 tags:

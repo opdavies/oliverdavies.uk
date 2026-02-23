@@ -1,4 +1,5 @@
 ---
+date: 2024-06-11
 title: Do you separate your logic?
 permalink: daily/2024/06/11/do-you-separate-your-logic
 tags:

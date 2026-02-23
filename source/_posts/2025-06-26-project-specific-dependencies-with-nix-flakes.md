@@ -1,4 +1,5 @@
 ---
+date: 2025-06-26
 title: Project-specific dependencies with Nix Flakes
 permalink: /daily/2025/06/26/project-specific-dependencies-nix-flakes
 ---

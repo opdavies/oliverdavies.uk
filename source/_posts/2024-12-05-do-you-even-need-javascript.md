@@ -1,4 +1,5 @@
 ---
+date: 2024-12-05
 title: Do you even need JavaScript?
 permalink: daily/2024/12/05/javascript
 tags:

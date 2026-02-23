@@ -1,4 +1,5 @@
 ---
+date: 2025-02-18
 title: Feature branches cause merge conflicts
 permalink: daily/2025/02/18/conflicts
 tags:

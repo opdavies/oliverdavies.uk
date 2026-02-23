@@ -1,4 +1,5 @@
 ---
+date: 2024-01-21
 title: Where is the value in your application?
 permalink: daily/2024/01/21/where-is-the-value-in-your-application
 snippet: |

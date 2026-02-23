@@ -1,4 +1,5 @@
 ---
+date: 2024-06-15
 title: Is the code extensible?
 permalink: daily/2024/06/15/is-the-code-extensible
 tags:

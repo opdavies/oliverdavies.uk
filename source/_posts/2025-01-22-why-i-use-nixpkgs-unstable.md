@@ -1,4 +1,5 @@
 ---
+date: 2025-01-22
 title: Why I use nixpkgs-unstable
 permalink: daily/2025/01/22/nixpkgs-unstable
 tags:

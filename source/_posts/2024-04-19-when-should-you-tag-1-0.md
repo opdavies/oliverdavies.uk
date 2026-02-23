@@ -1,4 +1,5 @@
 ---
+date: 2024-04-19
 title: When should you tag 1.0?
 permalink: daily/2024/04/19/when-should-you-tag-1-0
 tags:

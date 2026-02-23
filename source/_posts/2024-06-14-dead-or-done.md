@@ -1,4 +1,5 @@
 ---
+date: 2024-06-14
 title: Dead or done
 permalink: daily/2024/06/14/dead-or-done
 tags:

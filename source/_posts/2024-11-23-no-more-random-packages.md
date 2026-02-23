@@ -1,4 +1,5 @@
 ---
+date: 2024-11-23
 title: No more random packages
 permalink: daily/2024/11/23/no-more-random-packages
 tags:

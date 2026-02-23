@@ -1,4 +1,5 @@
 ---
+date: 2011-03-31
 title: Proctor & Stevenson
 excerpt: I'm moving jobs.
 tags:

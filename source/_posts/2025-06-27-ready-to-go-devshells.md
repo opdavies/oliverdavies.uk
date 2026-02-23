@@ -1,4 +1,5 @@
 ---
+date: 2025-06-27
 title: Ready to go devshells
 permalink: /daily/2025/06/27/ready-go-devshells
 ---

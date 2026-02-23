@@ -1,4 +1,5 @@
 ---
+date: 2025-06-29
 title: An example of generics in PHP
 permalink: /daily/2025/06/29/example-generics-php
 ---

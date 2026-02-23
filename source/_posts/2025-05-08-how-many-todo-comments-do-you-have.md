@@ -1,4 +1,5 @@
 ---
+date: 2025-05-08
 title: How many TODO comments do you have?
 permalink: daily/2025/05/08/todos
 tags:

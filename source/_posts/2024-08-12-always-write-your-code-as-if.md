@@ -1,4 +1,5 @@
 ---
+date: 2024-08-12
 title: Always write your code as if...
 permalink: daily/2024/08/12/always-write-your-code-as-if
 tags:

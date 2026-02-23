@@ -1,4 +1,5 @@
 ---
+date: 2024-05-24
 title: Don't put HTML in your body field
 permalink: daily/2024/05/24/dont-put-html-in-your-body-field
 tags:

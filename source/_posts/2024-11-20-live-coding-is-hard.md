@@ -1,4 +1,5 @@
 ---
+date: 2024-11-20
 title: Live coding is hard
 permalink: daily/2024/11/20/live-coding-is-hard
 tags:

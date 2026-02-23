@@ -1,4 +1,5 @@
 ---
+date: 2024-09-11
 title: Do you deploy on Fridays?
 permalink: daily/2024/09/11/do-you-deploy-on-fridays
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2026-01-24
 title: I'm Building my own Component Library
 tags: [php, sculpin, css]
 ---

@@ -1,4 +1,5 @@
 ---
+date: 2024-07-07
 title: Running automated checks in a CI pipeline
 permalink: daily/2024/07/07/running-automated-checks-in-a-ci-pipeline
 tags:

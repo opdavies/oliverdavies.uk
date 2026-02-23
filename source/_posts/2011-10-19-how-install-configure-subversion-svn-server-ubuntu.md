@@ -1,4 +1,5 @@
 ---
+date: 2011-10-19
 title: How to Install and Configure Subversion (SVN) Server on Ubuntu
 excerpt: How to install and configure your own SVN server.
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-12-04
 title: Sculpin from Scratch
 permalink: daily/2024/12/04/sculpin-from-scratch
 tags:

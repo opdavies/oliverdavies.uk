@@ -1,4 +1,5 @@
 ---
+date: 2025-04-16
 title: Building fonts with Nix
 permalink: daily/2025/04/16/fonts
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-06-09
 title: tmux is my session manager
 permalink: /daily/2025/06/09/tmux-my-session-manager
 ---

@@ -1,4 +1,5 @@
 ---
+date: 2025-03-19
 title: No-one is paying us to...
 permalink: daily/2025/03/19/effective
 tags:

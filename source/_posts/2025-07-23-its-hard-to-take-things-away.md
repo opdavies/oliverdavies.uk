@@ -1,4 +1,5 @@
 ---
+date: 2025-07-23
 title: It's hard to take things away
 permalink: /daily/2025/07/23/its-hard-take-things-away
 ---

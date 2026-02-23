@@ -1,4 +1,5 @@
 ---
+date: 2024-11-06
 title: Drupal 11 is not Drupal 6
 permalink: daily/2024/11/06/drupal-11-is-not-drupal-6
 tags:

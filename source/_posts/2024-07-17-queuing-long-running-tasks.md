@@ -1,4 +1,5 @@
 ---
+date: 2024-07-17
 title: Queuing long-running tasks
 permalink: daily/2024/07/17/queuing-long-running-tasks
 tags:

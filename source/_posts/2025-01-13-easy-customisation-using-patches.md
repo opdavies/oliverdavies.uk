@@ -1,4 +1,5 @@
 ---
+date: 2025-01-13
 title: Easy customisation using patches
 permalink: daily/2025/01/13/patches
 tags:

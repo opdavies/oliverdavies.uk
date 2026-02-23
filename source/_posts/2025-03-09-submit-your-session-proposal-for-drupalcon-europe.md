@@ -1,4 +1,5 @@
 ---
+date: 2025-03-09
 title: Submit your session proposal for DrupalCon Europe
 permalink: daily/2025/03/09/submit-your-session-proposal-for-drupalcon-europe
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-03-16
 title: What's the correct way to add PHPStan to an existing codebase?
 permalink: daily/2025/03/16/what-s-the-correct-way-to-add-phpstan-to-an-existing-codebase
 tags:

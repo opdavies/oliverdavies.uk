@@ -1,4 +1,5 @@
 ---
+date: 2025-03-28
 title: Work in sprints, deploy continuously
 permalink: daily/2025/03/28/continuous
 tags:

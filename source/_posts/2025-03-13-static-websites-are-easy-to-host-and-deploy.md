@@ -1,4 +1,5 @@
 ---
+date: 2025-03-13
 title: Static websites are easy to host and deploy
 permalink: daily/2025/03/13/deploy
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-03-21
 title: Extra PHPDoc types with PHPStan
 permalink: daily/2025/03/21/phpdoc
 tags:

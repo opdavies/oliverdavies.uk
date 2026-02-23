@@ -1,4 +1,5 @@
 ---
+date: 2024-05-16
 title: The first test is the hardest
 permalink: daily/2024/05/16/the-first-test-is-the-hardest
 tags:

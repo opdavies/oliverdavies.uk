@@ -1,4 +1,5 @@
 ---
+date: 2010-10-13
 title: Create a Better Photo Gallery in Drupal - Part 3
 excerpt: Grouping galleries by category.
 tags:

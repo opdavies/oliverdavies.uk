@@ -1,4 +1,5 @@
 ---
+date: 2024-02-06
 title: Tim Lehnen and the Drupal Association
 permalink: daily/2024/02/06/tim-lehnen-and-the-drupal-association
 snippet: |

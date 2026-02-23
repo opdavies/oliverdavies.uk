@@ -1,4 +1,5 @@
 ---
+date: 2024-11-13
 title: Speaking at the Drupal London meetup
 permalink: daily/2024/11/13/speaking-at-the-drupal-london-meetup
 tags:

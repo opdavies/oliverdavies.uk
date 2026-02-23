@@ -1,4 +1,5 @@
 ---
+date: 2024-08-14
 title: Makings things frictionless
 permalink: daily/2024/08/14/makings-things-frictionless
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-01-05
 title: Drupal is dead. Long live Drupal!
 permalink: daily/2025/01/05/drupal-is-dead--long-live-drupal
 tags:

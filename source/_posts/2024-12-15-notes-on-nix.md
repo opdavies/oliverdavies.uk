@@ -1,4 +1,5 @@
 ---
+date: 2024-12-15
 title: Notes on Nix
 permalink: daily/2024/12/15/notes-on-nix
 tags:

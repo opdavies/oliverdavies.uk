@@ -1,4 +1,5 @@
 ---
+date: 2024-03-18
 title: Automated Drupal 11 compatibility fixes
 permalink: daily/2024/03/18/automated-drupal-11-compatibility-fixes
 tags:

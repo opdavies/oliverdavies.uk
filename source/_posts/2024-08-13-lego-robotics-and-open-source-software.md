@@ -1,4 +1,5 @@
 ---
+date: 2024-08-13
 title: LEGO, robotics and open-source software
 permalink: daily/2024/08/13/lego-robotics-and-open-source
 tags:

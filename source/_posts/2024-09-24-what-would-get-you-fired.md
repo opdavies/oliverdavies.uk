@@ -1,4 +1,5 @@
 ---
+date: 2024-09-24
 title: What would get you fired?
 permalink: daily/2024/09/24/what-would-get-you-fired
 tags:

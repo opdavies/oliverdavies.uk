@@ -1,4 +1,5 @@
 ---
+date: 2013-01-09
 title: Checking if a user is logged into Drupal (the right way)
 excerpt: How to check if a user is logged in by using Drupal core API functions.
 tags:

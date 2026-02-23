@@ -1,4 +1,5 @@
 ---
+date: 2025-02-15
 title: Rebuilding Bootstrap with Tailwind CSS (and Sculpin)
 permalink: daily/2025/02/15/bootstrap
 tags:

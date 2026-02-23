@@ -1,4 +1,5 @@
 ---
+date: 2024-08-04
 title: Drupal 7 security support changes
 permalink: daily/2024/08/04/drupal-7-security-support-changes
 tags:

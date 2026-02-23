@@ -1,4 +1,5 @@
 ---
+date: 2019-07-25
 title: Speaking at DrupalCon Amsterdam
 excerpt: I'm going to be attending DrupalCon Europe again this year, but for the first time as a speaker.
 tags:

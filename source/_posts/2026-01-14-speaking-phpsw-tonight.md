@@ -1,4 +1,5 @@
 ---
+date: 2026-01-14
 title: Speaking at PHP South West tonight
 tags:
   - public-speaking

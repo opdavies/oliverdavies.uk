@@ -1,4 +1,5 @@
 ---
+date: 2024-01-01
 title: Continuous improvement
 permalink: daily/2024/01/01/continuous-improvement
 snippet: |

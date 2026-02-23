@@ -1,4 +1,5 @@
 ---
+date: 2015-04-03
 title: How to Define a Minimum Drupal Core Version
 excerpt: How to define a minimum Drupal core version for your module or theme.
 tags:

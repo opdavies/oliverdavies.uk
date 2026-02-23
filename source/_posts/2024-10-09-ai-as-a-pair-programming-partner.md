@@ -1,4 +1,5 @@
 ---
+date: 2024-10-09
 title: AI as a pair-programming partner
 permalink: daily/2024/10/09/ai-as-a-pair-programming-partner
 tags:

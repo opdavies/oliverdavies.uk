@@ -1,4 +1,5 @@
 ---
+date: 2020-04-01
 title: Using the pcss extension for PostCSS with Webpack Encore
 excerpt: How to use the .pcss file extension for PostCSS files with Webpack Encore.
 tags:

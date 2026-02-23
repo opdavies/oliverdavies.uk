@@ -1,4 +1,5 @@
 ---
+date: 2018-02-05
 title: Using Tailwind CSS in your Drupal Theme
 excerpt: What is Tailwind CSS, and how do I use it in Drupal theme?
 tags:

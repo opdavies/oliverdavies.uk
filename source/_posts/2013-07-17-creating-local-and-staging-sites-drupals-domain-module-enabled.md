@@ -1,4 +1,5 @@
 ---
+date: 2013-07-17
 title: Creating Local and Staging sites with Drupal's Domain Module Enabled
 excerpt: How to use aliases within Domain module for pre-production sites.
 tags:

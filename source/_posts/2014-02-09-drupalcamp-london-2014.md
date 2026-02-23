@@ -1,4 +1,5 @@
 ---
+date: 2014-02-09
 title: DrupalCamp London 2014
 excerpt: It's all booked, I'm going to be attending DrupalCamp London.
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-10-25
 title: Always review your changes
 permalink: daily/2024/10/25/always-review-your-changes
 tags:

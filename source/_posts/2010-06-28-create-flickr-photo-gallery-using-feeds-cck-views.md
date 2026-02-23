@@ -1,4 +1,5 @@
 ---
+date: 2010-06-28
 title: Create a Flickr Photo Gallery Using Feeds, CCK and Views
 excerpt: In this tutorial, I'll show you how to create a photo gallery which uses photos imported from Flickr.
 tags:

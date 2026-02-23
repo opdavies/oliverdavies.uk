@@ -1,4 +1,5 @@
 ---
+date: 2024-02-12
 title: Symfony conventions making their way to Drupal
 permalink: daily/2024/02/12/symfony-conventions-making-their-way-to-drupal
 snippet: |

@@ -1,4 +1,5 @@
 ---
+date: 2024-09-20
 title: Be consistent
 permalink: daily/2024/09/20/be-consistent
 tags:

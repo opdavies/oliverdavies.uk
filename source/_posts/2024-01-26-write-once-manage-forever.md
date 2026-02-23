@@ -1,4 +1,5 @@
 ---
+date: 2024-01-26
 title: Write once, manage forever
 permalink: daily/2024/01/26/write-once-manage-forever
 snippet: |

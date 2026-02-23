@@ -1,4 +1,5 @@
 ---
+date: 2024-04-27
 title: Can you make a test fail?
 permalink: daily/2024/04/27/can-you-make-a-test-fail
 tags:

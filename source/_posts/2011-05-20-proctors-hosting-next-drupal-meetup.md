@@ -1,4 +1,5 @@
 ---
+date: 2011-05-20
 title: Proctors Hosting the next Drupal Meetup
 excerpt: Proctor & Stevenson are going to be hosting the next Bristol & South West Drupal meetup.
 tags:

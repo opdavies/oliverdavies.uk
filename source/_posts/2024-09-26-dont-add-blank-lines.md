@@ -1,4 +1,5 @@
 ---
+date: 2024-09-26
 title: Don't add blank lines
 permalink: daily/2024/09/26/dont-add-blank-lines
 tags:

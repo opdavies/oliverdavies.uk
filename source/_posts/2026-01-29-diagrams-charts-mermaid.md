@@ -1,4 +1,5 @@
 ---
+date: 2026-01-29
 title: Creating diagrams and charts with Mermaid
 tags: []
 ---

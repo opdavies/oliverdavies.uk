@@ -1,4 +1,5 @@
 ---
+date: 2025-06-08
 title: Switching to NixVim
 permalink: /daily/2025/06/08/switching-nixvim
 ---

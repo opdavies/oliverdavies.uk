@@ -1,4 +1,5 @@
 ---
+date: 2024-01-27
 title: gitignore - inclusive or exclusive?
 permalink: daily/2024/01/27/gitignore-inclusive-or-exclusive
 snippet: |

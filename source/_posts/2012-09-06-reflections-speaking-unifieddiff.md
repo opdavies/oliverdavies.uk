@@ -1,4 +1,5 @@
 ---
+date: 2012-09-06
 title: Reflections on speaking at UnifiedDiff
 excerpt: Yesterday evening I went along and spoke at the UnifiedDiff meetup in Cardiff.
 tags:

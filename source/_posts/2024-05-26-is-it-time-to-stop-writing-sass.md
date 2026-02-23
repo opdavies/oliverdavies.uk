@@ -1,4 +1,5 @@
 ---
+date: 2024-05-26
 title: Is it time to stop writing Sass?
 permalink: daily/2024/05/26/is-it-time-to-stop-writing-sass
 tags:

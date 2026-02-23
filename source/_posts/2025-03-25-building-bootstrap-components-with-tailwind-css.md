@@ -1,4 +1,5 @@
 ---
+date: 2025-03-25
 title: Building Bootstrap components with Tailwind CSS
 permalink: daily/2025/03/25/bootstrap
 tags:

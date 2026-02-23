@@ -1,4 +1,5 @@
 ---
+date: 2025-03-18
 title: Archiving Drupal websites as static websites
 permalink: daily/2025/03/18/archiving
 tags:

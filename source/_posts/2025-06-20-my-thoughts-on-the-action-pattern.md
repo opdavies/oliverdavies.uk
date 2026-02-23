@@ -1,4 +1,5 @@
 ---
+date: 2025-06-20
 title: My thoughts on the Action pattern
 permalink: /daily/2025/06/20/my-thoughts-action-pattern
 ---

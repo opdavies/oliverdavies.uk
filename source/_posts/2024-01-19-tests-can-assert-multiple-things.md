@@ -1,4 +1,5 @@
 ---
+date: 2024-01-19
 title: Tests can assert multiple things
 permalink: daily/2024/01/19/tests-can-assert-multiple-things
 snippet: |

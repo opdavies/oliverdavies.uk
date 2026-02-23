@@ -1,4 +1,5 @@
 ---
+date: 2024-09-14
 title: What's your plan?
 permalink: daily/2024/09/14/whats-your-plan
 tags:

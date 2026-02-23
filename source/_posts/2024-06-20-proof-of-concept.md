@@ -1,4 +1,5 @@
 ---
+date: 2024-06-20
 title: Proof of concept
 permalink: daily/2024/06/20/proof-of-concept
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-07-22
 title: There isn't just one way to do something
 permalink: daily/2024/07/22/there-isnt-just-one-way-to-do-something
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-03-14
 title: Static websites are easy to backup
 permalink: daily/2025/03/14/backup
 tags:

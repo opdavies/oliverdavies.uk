@@ -1,4 +1,5 @@
 ---
+date: 2025-07-12
 title: My dotfiles repository turns 10
 permalink: /daily/2025/07/12/my-dotfiles-repository-turns-10
 ---

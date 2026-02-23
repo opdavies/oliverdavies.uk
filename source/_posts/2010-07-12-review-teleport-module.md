@@ -1,4 +1,5 @@
 ---
+date: 2010-07-12
 title: Review of the Teleport Module
 excerpt: My review of Drupal's Teleport module.
 tags:

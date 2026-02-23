@@ -1,4 +1,5 @@
 ---
+date: 2024-06-13
 title: Vetting third-party open-source software
 permalink: daily/2024/06/13/vetting-third-party-open-source-software
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-04-08
 title: Come for the software, stay for the community
 permalink: daily/2024/04/08/come-for-the-software--stay-for-the-community
 tags:

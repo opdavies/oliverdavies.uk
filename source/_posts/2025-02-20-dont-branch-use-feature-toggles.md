@@ -1,4 +1,5 @@
 ---
+date: 2025-02-20
 title: Don't branch, use feature toggles
 permalink: daily/2025/02/20/toggles
 tags:

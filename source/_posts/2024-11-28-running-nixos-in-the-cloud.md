@@ -1,4 +1,5 @@
 ---
+date: 2024-11-28
 title: Running NixOS in the Cloud
 permalink: daily/2024/11/28/running-nixos-in-the-cloud
 tags:

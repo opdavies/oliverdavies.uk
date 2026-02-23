@@ -1,4 +1,5 @@
 ---
+date: 2025-06-30
 title: Managing services without NixOS
 permalink: /daily/2025/06/30/managing-services-without-nixos
 ---

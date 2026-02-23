@@ -1,4 +1,5 @@
 ---
+date: 2020-09-04
 title: Renaming gray to grey in Tailwind CSS
 excerpt: How to change the colour "gray" to "grey" in Tailwind CSS.
 tags:

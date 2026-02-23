@@ -1,4 +1,5 @@
 ---
+date: 2018-08-15
 title: "Drupal 8 Commerce: Fixing 'No Such Customer' error on checkout"
 excerpt: Fixing a Drupal Commerce error when a user tries to complete a checkout.
 tags:

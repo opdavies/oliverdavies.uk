@@ -1,4 +1,5 @@
 ---
+date: 2015-07-19
 title: Sculpin and Twig Resources
 excerpt: A list of resources that I compiled whilst preparing for my Sculpin and Twig talk at DrupalCamp North.
 tags:

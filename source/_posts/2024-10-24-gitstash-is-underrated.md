@@ -1,4 +1,5 @@
 ---
+date: 2024-10-24
 title: git stash is underrated
 permalink: daily/2024/10/24/git-stash-is-underrated
 tags:

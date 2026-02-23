@@ -1,4 +1,5 @@
 ---
+date: 2013-04-20
 title: Leaving Nomensa, Joining Precedent
 excerpt: Yesterday was my last day working at Nomensa. Next week, I'll be starting as a Senior Developer at Precedent.
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-04-04
 title: Writing good commit messages
 permalink: daily/2025/04/04/good
 tags:

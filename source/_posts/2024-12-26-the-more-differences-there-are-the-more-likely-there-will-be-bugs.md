@@ -1,4 +1,5 @@
 ---
+date: 2024-12-26
 title: The more differences there are, the more likely there will be bugs
 permalink: daily/2024/12/26/differences
 tags:

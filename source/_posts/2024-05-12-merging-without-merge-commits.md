@@ -1,4 +1,5 @@
 ---
+date: 2024-05-12
 title: Merging without merge commits
 permalink: daily/2024/05/12/merging-without-merge-commits
 tags:

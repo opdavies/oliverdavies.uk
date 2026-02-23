@@ -1,4 +1,5 @@
 ---
+date: 2025-01-09
 title: Refactor, remove or replace
 permalink: daily/2025/01/09/rrr
 tags:

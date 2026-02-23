@@ -1,4 +1,5 @@
 ---
+date: 2025-01-31
 title: Keep your PHP code up to date using Rector
 permalink: daily/2025/01/31/rector
 tags:

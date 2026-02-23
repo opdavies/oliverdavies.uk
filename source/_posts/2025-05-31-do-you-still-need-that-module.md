@@ -1,4 +1,5 @@
 ---
+date: 2025-05-31
 title: Do you still need that module?
 permalink: /daily/2025/05/31/do-you-still-need-module
 ---

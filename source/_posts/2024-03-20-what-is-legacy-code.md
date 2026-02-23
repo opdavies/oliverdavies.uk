@@ -1,4 +1,5 @@
 ---
+date: 2024-03-20
 title: What is legacy code?
 permalink: daily/2024/03/20/what-is-legacy-code
 tags:

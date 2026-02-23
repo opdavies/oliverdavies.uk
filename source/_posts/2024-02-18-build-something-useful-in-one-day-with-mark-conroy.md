@@ -1,4 +1,5 @@
 ---
+date: 2024-02-18
 title: Build something useful in one day with Mark Conroy
 permalink: daily/2024/02/18/build-something-useful-in-one-day-with-mark-conroy
 snippet: |

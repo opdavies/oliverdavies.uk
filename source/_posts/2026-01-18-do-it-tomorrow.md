@@ -1,4 +1,5 @@
 ---
+date: 2026-01-18
 title: '"Do It tomorrow" by Mark Forster'
 tags:
   - book-notes

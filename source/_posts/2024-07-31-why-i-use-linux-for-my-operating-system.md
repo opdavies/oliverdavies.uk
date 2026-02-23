@@ -1,4 +1,5 @@
 ---
+date: 2024-07-31
 title: Why I use Linux for my operating system
 permalink: daily/2024/07/31/why-i-use-linux
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2018-01-30
 title: DrupalCamp Bristol 2018 Statement
 excerpt: Unfortunately, we won't be running DrupalCamp Bristol this year.
 tags:

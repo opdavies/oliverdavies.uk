@@ -1,4 +1,5 @@
 ---
+date: 2025-06-10
 title: Easily amend commits with git-instafix
 permalink: /daily/2025/06/10/easily-amend-commits-git-instafix
 ---

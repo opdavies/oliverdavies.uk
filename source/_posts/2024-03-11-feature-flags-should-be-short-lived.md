@@ -1,4 +1,5 @@
 ---
+date: 2024-03-11
 title: Feature flags should be short-lived
 permalink: daily/2024/03/11/feature-flags-should-be-short-lived
 tags:

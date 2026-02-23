@@ -1,4 +1,5 @@
 ---
+date: 2013-12-31
 title: Download Different Versions of Drupal with Drush
 excerpt: How to download different versions of Drupal core using Drush.
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-08-28
 title: Single File Components in Drupal with Sam Mortenson
 permalink: daily/2024/08/28/single-file-components-in-drupal-with-sam-mortenson
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-04-15
 title: nix is like nvm, but for everything
 permalink: daily/2025/04/15/nix-nvm
 tags:

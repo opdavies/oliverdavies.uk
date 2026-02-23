@@ -1,4 +1,5 @@
 ---
+date: 2025-07-01
 title: PHP, Value Objects and You
 permalink: /daily/2025/07/01/php-value-objects-and-you
 ---

@@ -1,4 +1,5 @@
 ---
+date: 2024-11-21
 title: One configuration language to rule them all
 permalink: daily/2024/11/21/one-configuration-language-to-rule-them-all
 tags:

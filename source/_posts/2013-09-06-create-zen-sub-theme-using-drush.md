@@ -1,4 +1,5 @@
 ---
+date: 2013-09-06
 title: Create a Zen Sub-theme Using Drush
 excerpt: How to quickly create a Zen sub-theme using Drush.
 tags:

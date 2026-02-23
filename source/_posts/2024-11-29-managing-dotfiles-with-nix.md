@@ -1,4 +1,5 @@
 ---
+date: 2024-11-29
 title: Managing dotfiles with Nix
 permalink: daily/2024/11/29/managing-dotfiles-with-nix
 tags:

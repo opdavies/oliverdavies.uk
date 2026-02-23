@@ -1,4 +1,5 @@
 ---
+date: 2024-03-09
 title: Override Node Options is used on 40,624 Drupal websites
 permalink: daily/2024/03/09/override-node-options-40624-drupal-websites
 tags:

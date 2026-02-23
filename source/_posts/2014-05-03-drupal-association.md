@@ -1,4 +1,5 @@
 ---
+date: 2014-05-03
 title: Drupal Association
 excerpt: Next week, I'll be working for the Drupal Association.
 tags:

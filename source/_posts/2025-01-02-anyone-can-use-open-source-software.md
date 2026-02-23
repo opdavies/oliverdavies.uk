@@ -1,4 +1,5 @@
 ---
+date: 2025-01-02
 title: Anyone can use open source software
 permalink: daily/2025/01/02/anyone
 tags:

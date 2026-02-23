@@ -1,4 +1,5 @@
 ---
+date: 2025-03-22
 title: Legacy code is anything older than...
 permalink: daily/2025/03/22/legacy
 tags:

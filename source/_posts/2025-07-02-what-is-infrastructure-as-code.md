@@ -1,4 +1,5 @@
 ---
+date: 2025-07-02
 title: What is "Infrastructure as code"?
 permalink: /daily/2025/07/02/what-infrastructure-code
 ---

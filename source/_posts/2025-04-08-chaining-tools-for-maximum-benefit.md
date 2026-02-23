@@ -1,4 +1,5 @@
 ---
+date: 2025-04-08
 title: Chaining tools for maximum benefit
 permalink: daily/2025/04/08/chaining
 tags:

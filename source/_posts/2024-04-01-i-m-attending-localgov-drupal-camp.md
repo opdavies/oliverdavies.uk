@@ -1,4 +1,5 @@
 ---
+date: 2024-04-01
 title: I'm attending LocalGov Drupal Camp
 permalink: daily/2024/04/01/i-m-attending-localgov-drupal-camp
 tags:

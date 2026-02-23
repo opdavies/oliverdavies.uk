@@ -1,4 +1,5 @@
 ---
+date: 2012-05-23
 title: Prevent Apache from displaying text files within a web browser
 excerpt: How to prevent Apache from displaying the contents of files like CHANGELOG.txt.
 tags:

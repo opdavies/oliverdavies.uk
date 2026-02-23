@@ -1,4 +1,5 @@
 ---
+date: 2025-07-27
 title: Do you keep a changelog?
 permalink: /daily/2025/07/27/do-you-keep-changelog
 ---

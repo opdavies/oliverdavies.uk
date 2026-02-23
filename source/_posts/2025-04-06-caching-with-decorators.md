@@ -1,4 +1,5 @@
 ---
+date: 2025-04-06
 title: Caching with decorators
 permalink: daily/2025/04/06/caching
 tags:

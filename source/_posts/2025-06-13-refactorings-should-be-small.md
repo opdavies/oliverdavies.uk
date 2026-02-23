@@ -1,4 +1,5 @@
 ---
+date: 2025-06-13
 title: Refactorings should be small
 permalink: /daily/2025/06/13/refactorings-should-be-small
 ---

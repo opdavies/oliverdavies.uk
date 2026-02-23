@@ -1,4 +1,5 @@
 ---
+date: 2024-05-20
 title: Referencing other commits in commit messages
 permalink: daily/2024/05/20/referencing-other-commits-in-commit-messages
 tags:

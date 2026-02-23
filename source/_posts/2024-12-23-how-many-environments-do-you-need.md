@@ -1,4 +1,5 @@
 ---
+date: 2024-12-23
 title: How many environments do you need?
 permalink: daily/2024/12/23/how-many-environments-do-you-need
 tags:

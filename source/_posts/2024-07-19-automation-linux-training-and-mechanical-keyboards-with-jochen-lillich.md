@@ -1,4 +1,5 @@
 ---
+date: 2024-07-19
 title: Automation, Linux training and mechanical keyboards with Jochen Lillich
 permalink: daily/2024/07/19/automation-linux-training-and-mechanical-keyboards
 tags:

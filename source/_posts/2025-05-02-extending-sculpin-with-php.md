@@ -1,4 +1,5 @@
 ---
+date: 2025-05-02
 title: Extending Sculpin with PHP
 permalink: daily/2025/05/02/extend
 tags:

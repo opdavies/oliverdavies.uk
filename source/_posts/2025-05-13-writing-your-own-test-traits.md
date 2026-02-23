@@ -1,4 +1,5 @@
 ---
+date: 2025-05-13
 title: Writing your own test traits
 permalink: /daily/2025/05/13/writing-your-own-test-traits
 ---

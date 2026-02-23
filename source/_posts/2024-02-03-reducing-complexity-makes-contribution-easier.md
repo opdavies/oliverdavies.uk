@@ -1,4 +1,5 @@
 ---
+date: 2024-02-03
 title: Reducing complexity makes contribution easier
 permalink: daily/2024/02/03/reducing-complexity-makes-contribution-easier
 snippet: |

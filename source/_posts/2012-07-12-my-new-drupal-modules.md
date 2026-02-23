@@ -1,4 +1,5 @@
 ---
+date: 2012-07-12
 title: My new Drupal modules
 excerpt: After a busy few days, I've released two new contrib Drupal modules.
 tags:

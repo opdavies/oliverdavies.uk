@@ -1,4 +1,5 @@
 ---
+date: 2025-02-03
 title: Good software is easy to test
 permalink: daily/2025/02/03/testable
 tags:

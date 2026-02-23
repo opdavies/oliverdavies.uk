@@ -1,4 +1,5 @@
 ---
+date: 2024-09-08
 title: My laptop died
 permalink: daily/2024/09/08/my-laptop-died
 tags:

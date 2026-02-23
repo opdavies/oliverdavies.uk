@@ -1,4 +1,5 @@
 ---
+date: 2024-01-10
 title: Don't put business logic in templates
 permalink: daily/2024/01/10/dont-put-business-logic-in-templates
 snippet: |

@@ -1,4 +1,5 @@
 ---
+date: 2024-11-08
 title: What will be included in Drupal CMS?
 permalink: daily/2024/11/08/what-will-be-included-in-drupal-cms
 tags:

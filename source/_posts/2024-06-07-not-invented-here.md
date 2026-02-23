@@ -1,4 +1,5 @@
 ---
+date: 2024-06-07
 title: Not invented here
 permalink: daily/2024/06/07/not-invented-here
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2018-10-24
 title: Debugging Drupal Commerce Promotions and Adjustments using Illuminate Collections (Drupal 8)
 excerpt: Using Laravel's Illuminate Collections to debug an issue with a Drupal Commerce promotion.
 tags:

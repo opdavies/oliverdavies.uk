@@ -1,4 +1,5 @@
 ---
+date: 2024-06-10
 title: Online Drupal mob contribution sessions
 permalink: daily/2024/06/10/online-drupal-mob-contribution-sessions
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-12-07
 title: Open source software all the way down
 permalink: daily/2024/12/07/open-source
 tags:

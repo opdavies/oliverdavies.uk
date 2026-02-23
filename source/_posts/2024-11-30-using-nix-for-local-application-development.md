@@ -1,4 +1,5 @@
 ---
+date: 2024-11-30
 title: Using Nix for local application development
 permalink: daily/2024/11/30/using-nix-for-local-application-development
 tags:

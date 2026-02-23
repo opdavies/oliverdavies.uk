@@ -1,4 +1,5 @@
 ---
+date: 2025-01-11
 title: Who is your BDFL?
 permalink: daily/2025/01/11/bdfl
 tags:

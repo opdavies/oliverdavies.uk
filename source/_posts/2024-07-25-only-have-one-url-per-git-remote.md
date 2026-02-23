@@ -1,4 +1,5 @@
 ---
+date: 2024-07-25
 title: Only have one URL per Git remote
 permalink: daily/2024/07/25/only-have-one-url-per-git-remote
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2012-07-14
 title: Install and Configure the Nomensa Accessible Media Player in Drupal
 excerpt: This week I released the first version of the Nomensa Accessible Media Player module for Drupal 7. Here's some instructions of how to install and configure it.
 tags:

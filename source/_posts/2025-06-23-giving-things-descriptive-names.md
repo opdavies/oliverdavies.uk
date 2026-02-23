@@ -1,4 +1,5 @@
 ---
+date: 2025-06-23
 title: Giving things descriptive names
 permalink: /daily/2025/06/23/giving-things-descriptive-names
 ---

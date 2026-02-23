@@ -1,4 +1,5 @@
 ---
+date: 2024-02-04
 title: Speaking about Sculpin at PHPSW
 permalink: daily/2024/02/04/speaking-about-sculpin-at-phpsw
 snippet: |

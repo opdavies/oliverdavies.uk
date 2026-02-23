@@ -1,4 +1,5 @@
 ---
+date: 2025-06-15
 title: Is refactoring a lost art?
 permalink: /daily/2025/06/15/refactoring-lost-art
 ---

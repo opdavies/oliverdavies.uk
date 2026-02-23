@@ -1,4 +1,5 @@
 ---
+date: 2012-04-19
 title: Adding Custom Theme Templates in Drupal 7
 excerpt: >
   Today, I had a situation where I was displaying a list of teasers for news

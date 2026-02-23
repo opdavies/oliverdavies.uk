@@ -1,4 +1,5 @@
 ---
+date: 2025-01-01
 title: Happy New Year!
 permalink: daily/2025/01/01/hny
 tags:

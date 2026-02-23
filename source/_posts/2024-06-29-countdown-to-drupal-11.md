@@ -1,4 +1,5 @@
 ---
+date: 2024-06-29
 title: Countdown to Drupal 11
 permalink: daily/2024/06/29/countdown-to-drupal-11
 tags:

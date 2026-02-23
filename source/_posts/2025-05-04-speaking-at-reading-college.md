@@ -1,4 +1,5 @@
 ---
+date: 2025-05-04
 title: Speaking at Reading College
 permalink: daily/2025/05/04/college
 tags:

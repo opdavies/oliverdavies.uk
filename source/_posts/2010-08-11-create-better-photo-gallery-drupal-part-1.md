@@ -1,4 +1,5 @@
 ---
+date: 2010-08-11
 title: Create a Better Photo Gallery in Drupal - Part 1
 excerpt: How I started converting and migrating a Coppermine photo gallery into Drupal.
 tags:

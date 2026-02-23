@@ -1,4 +1,5 @@
 ---
+date: 2025-05-19
 title: Learning lessons
 permalink: /daily/2025/05/19/learning-lessons
 ---

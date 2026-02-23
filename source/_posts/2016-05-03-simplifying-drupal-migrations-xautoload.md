@@ -1,4 +1,5 @@
 ---
+date: 2016-05-03
 title: Simplifying Drupal Migrations with xautoload
 excerpt: How to use the xautoload module to autoload migration classes within your Drupal 7 migration modules.
 tags:

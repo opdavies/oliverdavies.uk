@@ -1,4 +1,5 @@
 ---
+date: 2015-12-22
 title: Programmatically Load an Entityform in Drupal 7
 excerpt: How to programmatically load, render and embed an entityform in Drupal 7.
 tags:

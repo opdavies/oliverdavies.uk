@@ -1,4 +1,5 @@
 ---
+date: 2025-02-25
 title: What would a suckless version of Drupal look like?
 permalink: daily/2025/02/25/suckless-drupal
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-07-21
 title: Exploring Drupal recipes
 permalink: /daily/2025/07/21/exploring-drupal-recipes
 ---

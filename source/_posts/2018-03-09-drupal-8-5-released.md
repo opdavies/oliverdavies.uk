@@ -1,4 +1,5 @@
 ---
+date: 2018-03-09
 title: Drupal 8.5.0 Released
 excerpt: This week, the latest version of Drupal 8 was released.
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-02-08
 title: Writing more tests than production code
 permalink: daily/2025/02/08/more-tests
 tags:

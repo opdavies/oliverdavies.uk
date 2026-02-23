@@ -1,4 +1,5 @@
 ---
+date: 2026-01-05
 title: Adding is optional
 tags:
   - git

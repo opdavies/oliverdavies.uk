@@ -1,4 +1,5 @@
 ---
+date: 2025-04-05
 title: Dealing with different API versions
 permalink: daily/2025/04/05/strategies
 tags:

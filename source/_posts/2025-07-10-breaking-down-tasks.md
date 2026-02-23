@@ -1,4 +1,5 @@
 ---
+date: 2025-07-10
 title: Breaking down tasks
 permalink: /daily/2025/07/10/breaking-down-tasks
 ---

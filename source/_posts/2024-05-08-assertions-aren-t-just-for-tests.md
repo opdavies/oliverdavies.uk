@@ -1,4 +1,5 @@
 ---
+date: 2024-05-08
 title: Assertions aren't just for tests
 permalink: daily/2024/05/08/assertions-arent-just-for-tests
 tags:

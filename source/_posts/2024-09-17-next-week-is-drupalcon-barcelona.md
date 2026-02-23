@@ -1,4 +1,5 @@
 ---
+date: 2024-09-17
 title: Next week is DrupalCon Barcelona
 permalink: daily/2024/09/17/next-week-is-drupalcon-barcelona
 tags:

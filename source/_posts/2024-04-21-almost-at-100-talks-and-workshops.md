@@ -1,4 +1,5 @@
 ---
+date: 2024-04-21
 title: Almost at 100 talks and workshops
 permalink: daily/2024/04/21/almost-at-100-talks-and-workshops
 tags:

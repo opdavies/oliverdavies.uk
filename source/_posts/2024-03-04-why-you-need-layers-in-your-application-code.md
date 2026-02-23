@@ -1,4 +1,5 @@
 ---
+date: 2024-03-04
 title: Why you need layers in your application code
 permalink: daily/2024/03/04/why-you-need-layers-in-your-application-code
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-12-09
 title: Running Drupal on devenv
 permalink: daily/2024/12/09/drupal-devenv
 tags:

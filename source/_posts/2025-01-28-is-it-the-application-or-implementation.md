@@ -1,4 +1,5 @@
 ---
+date: 2025-01-28
 title: Is it the application or implementation?
 permalink: daily/2025/01/28/application-or-implementation
 tags:

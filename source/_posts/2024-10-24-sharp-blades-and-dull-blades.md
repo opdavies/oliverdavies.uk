@@ -1,4 +1,5 @@
 ---
+date: 2024-10-24
 title: Sharp blades and dull blades
 permalink: daily/2024/10/24/sharp-blades-and-dull-blades
 tags:

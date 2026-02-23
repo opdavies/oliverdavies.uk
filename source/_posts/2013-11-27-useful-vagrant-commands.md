@@ -1,4 +1,5 @@
 ---
+date: 2013-11-27
 title: Useful Vagrant Commands
 excerpt: Here are the basic commands that you need to adminster a virtual machine using <a href="http://vagrantup.com" title="The Vagrant Home page">Vagrant</a>.
 tags:

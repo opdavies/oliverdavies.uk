@@ -1,4 +1,5 @@
 ---
+date: 2024-12-02
 title: Override Node Options and Drupal 11
 permalink: daily/2024/12/02/override-node-options-and-drupal-11
 tags:

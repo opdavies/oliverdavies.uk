@@ -1,4 +1,5 @@
 ---
+date: 2024-05-05
 title: Making PHPStan stricter
 permalink: daily/2024/05/05/making-phpstan-stricter
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-05-28
 title: Drupal-powered podcast pages
 permalink: /daily/2025/05/28/drupal-powered-podcast-pages
 ---

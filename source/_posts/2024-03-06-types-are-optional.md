@@ -1,4 +1,5 @@
 ---
+date: 2024-03-06
 title: Types are optional
 permalink: daily/2024/03/06/types-are-optional
 tags:

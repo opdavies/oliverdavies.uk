@@ -1,4 +1,5 @@
 ---
+date: 2024-11-15
 title: Git is not GitHub
 permalink: daily/2024/11/15/github-is-not-git
 tags:

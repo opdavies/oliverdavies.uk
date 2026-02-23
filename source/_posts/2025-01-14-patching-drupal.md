@@ -1,4 +1,5 @@
 ---
+date: 2025-01-14
 title: Patching Drupal
 permalink: daily/2025/01/14/patching-drupal
 tags:

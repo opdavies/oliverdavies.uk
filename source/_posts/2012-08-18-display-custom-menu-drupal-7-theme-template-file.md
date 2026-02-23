@@ -1,4 +1,5 @@
 ---
+date: 2012-08-18
 title: Display a Custom Menu in a Drupal 7 Theme Template File
 excerpt: The code needed to display a menu in a Drupal 7 template file.
 tags:

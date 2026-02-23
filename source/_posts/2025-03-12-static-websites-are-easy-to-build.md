@@ -1,4 +1,5 @@
 ---
+date: 2025-03-12
 title: Static websites are easy to build
 permalink: daily/2025/03/12/easy
 tags:

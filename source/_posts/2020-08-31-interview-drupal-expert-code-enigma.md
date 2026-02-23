@@ -1,4 +1,5 @@
 ---
+date: 2020-08-31
 title: Interview with a Drupal Expert (with Code Enigma)
 excerpt: I recently did an interview with Code Enigma for their blog.
 tags:

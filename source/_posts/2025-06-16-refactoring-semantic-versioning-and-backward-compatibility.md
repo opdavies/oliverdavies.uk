@@ -1,4 +1,5 @@
 ---
+date: 2025-06-16
 title: Refactoring, semantic versioning and backward compatibility
 permalink: /daily/2025/06/16/refactoring-semantic-versioning-and-backward-compatibility
 ---

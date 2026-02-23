@@ -1,4 +1,5 @@
 ---
+date: 2025-11-29
 title: PHP is Alive and Kicking!
 excerpt: |
   I was recently a guest on the "PHP Alive and Kicking" podcast with Chris and Mike from PHP Architect.

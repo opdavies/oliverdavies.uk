@@ -1,4 +1,5 @@
 ---
+date: 2024-12-18
 title: Self hosting the Beyond Blocks podcast
 permalink: daily/2024/12/18/self-hosting-podcast
 tags:

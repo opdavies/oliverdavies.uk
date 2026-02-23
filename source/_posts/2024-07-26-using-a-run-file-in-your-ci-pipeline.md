@@ -1,4 +1,5 @@
 ---
+date: 2024-07-26
 title: Using a run file in your CI pipeline
 permalink: daily/2024/07/26/using-a-run-file-in-your-ci-pipeline
 tags:

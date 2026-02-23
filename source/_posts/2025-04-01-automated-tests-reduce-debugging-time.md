@@ -1,4 +1,5 @@
 ---
+date: 2025-04-01
 title: Automated tests reduce debugging time
 permalink: daily/2025/04/01/debugging
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-01-08
 title: Don't make assumptions
 permalink: daily/2025/01/08/don-t-make-assumptions
 tags:

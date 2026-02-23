@@ -1,4 +1,5 @@
 ---
+date: 2025-05-09
 title: I have a Peertube
 permalink: daily/2025/05/09/peertube
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-06-25
 title: Nix and older versions of PHP
 permalink: /daily/2025/06/25/nix-and-older-versions-php
 ---

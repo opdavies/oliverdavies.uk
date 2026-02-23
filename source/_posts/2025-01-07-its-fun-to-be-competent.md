@@ -1,4 +1,5 @@
 ---
+date: 2025-01-07
 title: It's fun to be competent
 permalink: daily/2025/01/07/competent
 tags:

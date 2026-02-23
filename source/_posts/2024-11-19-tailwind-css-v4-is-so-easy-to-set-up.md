@@ -1,4 +1,5 @@
 ---
+date: 2024-11-19
 title: Tailwind CSS v4 is so easy to set up
 permalink: daily/2024/11/19/tailwind-css-v4-is-so-easy-to-set-up
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-08-15
 title: Docblocks or attributes?
 permalink: daily/2024/08/15/docblocks-or-attributes
 tags:

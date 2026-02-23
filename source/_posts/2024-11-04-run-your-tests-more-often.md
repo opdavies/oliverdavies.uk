@@ -1,4 +1,5 @@
 ---
+date: 2024-11-04
 title: Run your tests more often
 permalink: daily/2024/11/04/run-your-tests-more-often
 tags:

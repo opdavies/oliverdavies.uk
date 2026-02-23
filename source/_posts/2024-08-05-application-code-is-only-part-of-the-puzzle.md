@@ -1,4 +1,5 @@
 ---
+date: 2024-08-05
 title: Application code is only part of the puzzle
 permalink: daily/2024/08/05/application-code-is-only-part-of-the-puzzle
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-01-22
 title: Tailwind CSS workshop recording
 permalink: daily/2024/01/22/tailwind-css-workshop-recording
 snippet: |

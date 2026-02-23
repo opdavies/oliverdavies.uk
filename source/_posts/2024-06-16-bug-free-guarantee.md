@@ -1,4 +1,5 @@
 ---
+date: 2024-06-16
 title: Bug free guarantee
 permalink: daily/2024/06/16/bug-free-guarantee
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-09-10
 title: Beyond Blocks passes 1,000 downloads
 permalink: daily/2024/09/10/beyond-blocks-passes-1-000-downloads
 tags:

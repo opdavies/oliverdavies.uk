@@ -1,4 +1,5 @@
 ---
+date: 2025-06-24
 title: PHP and Nix shells
 permalink: /daily/2025/06/24/php-and-nix-shells
 ---

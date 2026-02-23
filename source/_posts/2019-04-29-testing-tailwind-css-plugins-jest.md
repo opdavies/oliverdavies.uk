@@ -1,4 +1,5 @@
 ---
+date: 2019-04-29
 title: Testing Tailwind CSS plugins with Jest
 excerpt: How to write tests for Tailwind CSS plugins using Jest.
 tags:

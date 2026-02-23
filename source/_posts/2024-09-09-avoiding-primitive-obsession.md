@@ -1,4 +1,5 @@
 ---
+date: 2024-09-09
 title: Avoiding primitive obsession
 permalink: daily/2024/09/09/avoiding-primitive-obsession
 tags:

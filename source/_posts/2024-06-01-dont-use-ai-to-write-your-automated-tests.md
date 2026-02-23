@@ -1,4 +1,5 @@
 ---
+date: 2024-06-01
 title: Don't use AI to write your automated tests
 permalink: daily/2024/06/01/dont-use-ai-to-write-your-automated-tests
 tags:

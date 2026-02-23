@@ -1,4 +1,5 @@
 ---
+date: 2024-01-07
 title: Things take as long as they take
 permalink: daily/2024/01/07/things-take-as-long-as-they-take
 snippet: |

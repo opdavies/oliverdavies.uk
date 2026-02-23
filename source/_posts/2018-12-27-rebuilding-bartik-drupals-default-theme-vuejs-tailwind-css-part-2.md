@@ -1,4 +1,5 @@
 ---
+date: 2018-12-27
 title: Rebuilding Bartik (Drupal's Default Theme) with Vue.js and Tailwind CSS - part 2
 excerpt: A follow-up to my original post on rebuilding Bartik with Tailwind and Vue.js.
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-10-17
 title: 16 years on Drupal.org
 permalink: daily/2024/10/17/16-years-on-drupal-org
 tags:

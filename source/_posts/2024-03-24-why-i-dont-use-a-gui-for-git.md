@@ -1,4 +1,5 @@
 ---
+date: 2024-03-24
 title: Why I don't use a GUI for Git
 permalink: daily/2024/03/24/why-i-dont-use-a-gui-for-git
 tags:

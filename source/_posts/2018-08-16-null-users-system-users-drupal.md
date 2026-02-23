@@ -1,4 +1,5 @@
 ---
+date: 2018-08-16
 title: Null Users and System Users in Drupal
 excerpt: Announcing the Null User and System User modules.
 tags:

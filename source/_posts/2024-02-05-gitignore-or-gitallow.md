@@ -1,4 +1,5 @@
 ---
+date: 2024-02-05
 title: .gitignore or .gitallow
 permalink: daily/2024/02/05/gitignore-or-gitallow
 snippet: |

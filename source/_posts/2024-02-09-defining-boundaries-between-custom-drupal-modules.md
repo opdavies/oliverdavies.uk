@@ -1,4 +1,5 @@
 ---
+date: 2024-02-09
 title: Defining boundaries between custom Drupal modules
 permalink: daily/2024/02/09/defining-boundaries-between-custom-drupal-modules
 snippet: |

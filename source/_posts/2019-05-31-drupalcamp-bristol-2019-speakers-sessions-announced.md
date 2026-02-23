@@ -1,4 +1,5 @@
 ---
+date: 2019-05-31
 title: Speakers and sessions announced for DrupalCamp Bristol 2019
 excerpt: DrupalCamp Bristol is returning next month, and the accepted speakers and sessions have just been announced.
 tags:

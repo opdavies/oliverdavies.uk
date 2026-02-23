@@ -1,4 +1,5 @@
 ---
+date: 2024-04-15
 title: A note to open-source software maintainers
 permalink: daily/2024/04/15/a-note-to-open-source-software-maintainers
 tags:

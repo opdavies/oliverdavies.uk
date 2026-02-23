@@ -1,4 +1,5 @@
 ---
+date: 2014-10-06
 title: How to fix Vagrant Loading the Wrong Virtual Machine
 excerpt: Here are the steps that I took to fix Vagrant and point it back at the correct VM.
 tags:

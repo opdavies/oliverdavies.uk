@@ -1,4 +1,5 @@
 ---
+date: 2025-05-15
 title: Don't dump. Write a test.
 permalink: /daily/2025/05/15/dont-dump-write-test
 ---

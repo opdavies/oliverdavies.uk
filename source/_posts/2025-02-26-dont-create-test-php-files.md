@@ -1,4 +1,5 @@
 ---
+date: 2025-02-26
 title: Don't create test.php files
 permalink: daily/2025/02/26/test-files
 tags:

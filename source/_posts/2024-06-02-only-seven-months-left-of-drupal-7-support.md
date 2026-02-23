@@ -1,4 +1,5 @@
 ---
+date: 2024-06-02
 title: Only seven months left of Drupal 7 support
 permalink: daily/2024/06/02/only-seven-months-left-of-drupal-7-support
 tags:

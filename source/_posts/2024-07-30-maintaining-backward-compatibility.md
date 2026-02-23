@@ -1,4 +1,5 @@
 ---
+date: 2024-07-30
 title: Maintaining backward compatibility
 permalink: daily/2024/07/30/maintaining-backward-compatibility
 tags:

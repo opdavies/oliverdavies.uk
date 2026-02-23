@@ -1,4 +1,5 @@
 ---
+date: 2025-07-19
 title: Exploring the Dendritic pattern
 permalink: /daily/2025/07/19/exploring-dendritic-pattern
 ---

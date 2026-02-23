@@ -1,4 +1,5 @@
 ---
+date: 2020-02-04
 title: Using PSR-4 Autoloading for your Drupal 7 Test Cases
 excerpt: How to use the PSR-4 autoloading standard for Drupal 7 Simpletest test cases.
 tags:

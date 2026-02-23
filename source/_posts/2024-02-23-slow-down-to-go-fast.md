@@ -1,4 +1,5 @@
 ---
+date: 2024-02-23
 title: Slow down to go fast
 permalink: daily/2024/02/23/slow-down-to-go-fast
 snippet: |

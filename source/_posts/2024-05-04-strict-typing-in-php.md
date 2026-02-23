@@ -1,4 +1,5 @@
 ---
+date: 2024-05-04
 title: Strict typing in PHP
 permalink: daily/2024/05/04/strict-typing-in-php
 tags:

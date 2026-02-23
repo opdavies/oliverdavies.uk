@@ -1,4 +1,5 @@
 ---
+date: 2024-12-22
 title: Easy feature flags
 permalink: daily/2024/12/22/feature-flags
 tags:

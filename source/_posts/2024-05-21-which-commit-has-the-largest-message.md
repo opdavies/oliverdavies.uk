@@ -1,4 +1,5 @@
 ---
+date: 2024-05-21
 title: Which commit has the largest message?
 permalink: daily/2024/05/21/which-commit-has-the-largest-message
 tags:

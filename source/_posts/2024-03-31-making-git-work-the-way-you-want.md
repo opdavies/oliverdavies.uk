@@ -1,4 +1,5 @@
 ---
+date: 2024-03-31
 title: Making Git work the way you want
 permalink: daily/2024/03/31/making-git-work-the-way-you-want
 tags:

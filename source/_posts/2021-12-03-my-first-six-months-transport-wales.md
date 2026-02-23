@@ -1,4 +1,5 @@
 ---
+date: 2021-12-03
 title: My first six months at Transport for Wales
 excerpt: It's been a busy six months since I started working as a Lead Software Developer at Transport for Wales.
 tags: [personal]

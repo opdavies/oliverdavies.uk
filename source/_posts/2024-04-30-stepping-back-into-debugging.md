@@ -1,4 +1,5 @@
 ---
+date: 2024-04-30
 title: Stepping back into debugging
 permalink: daily/2024/04/30/stepping-back-into-debugging
 tags:

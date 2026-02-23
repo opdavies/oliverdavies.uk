@@ -1,4 +1,5 @@
 ---
+date: 2018-06-04
 title: How to Use Environment Variables for your Drupal Settings with Docksal
 excerpt: How to leverage environment variables with Drupal and Docksal.
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2018-08-01
 title: Croeso PHP South Wales!
 excerpt: Last night was the first meetup of Cardiff's PHP South Wales user group.
 tags:

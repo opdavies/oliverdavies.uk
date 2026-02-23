@@ -1,4 +1,5 @@
 ---
+date: 2024-11-07
 title: Should Drush be in Drupal core?
 permalink: daily/2024/11/07/should-drush-be-in-drupal-core
 tags:

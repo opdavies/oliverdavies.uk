@@ -1,4 +1,5 @@
 ---
+date: 2024-10-04
 title: Make the change easy, then make the easy change
 permalink: daily/2024/10/04/make-the-change-easy--then-make-the-easy-change
 tags:

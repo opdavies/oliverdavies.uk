@@ -1,4 +1,5 @@
 ---
+date: 2024-01-11
 title: My Drupal testing email course is live
 permalink: daily/2024/01/11/my-drupal-testing-email-course-is-live
 snippet: |

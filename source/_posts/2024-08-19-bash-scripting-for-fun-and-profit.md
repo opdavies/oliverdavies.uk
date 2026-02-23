@@ -1,4 +1,5 @@
 ---
+date: 2024-08-19
 title: Bash scripting for fun (and profit?)
 permalink: daily/2024/08/19/bash-scripting-for-fun-and-profit
 tags:

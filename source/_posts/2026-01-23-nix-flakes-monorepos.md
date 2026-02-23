@@ -1,4 +1,5 @@
 ---
+date: 2026-01-23
 title: Nix, Flakes and Monorepos
 tags: [nix, git]
 ---

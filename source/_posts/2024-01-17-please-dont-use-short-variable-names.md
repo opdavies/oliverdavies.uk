@@ -1,4 +1,5 @@
 ---
+date: 2024-01-17
 title: Please don't use short variable names
 permalink: daily/2024/01/17/short-variable-names
 snippet: |

@@ -1,4 +1,5 @@
 ---
+date: 2025-01-29
 title: Make it work, then make it good
 permalink: daily/2025/01/29/make-it-work
 tags:

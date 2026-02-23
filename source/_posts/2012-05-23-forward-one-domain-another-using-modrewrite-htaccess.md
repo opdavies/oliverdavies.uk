@@ -1,4 +1,5 @@
 ---
+date: 2012-05-23
 title: Forward one domain to another using mod_rewrite and .htaccess
 excerpt: How to use the .htaccess file to forward to a different domain.
 tags:

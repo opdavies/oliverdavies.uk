@@ -1,4 +1,5 @@
 ---
+date: 2025-02-09
 title: Simpler code doesn't mean less code
 permalink: daily/2025/02/09/simpler
 tags:

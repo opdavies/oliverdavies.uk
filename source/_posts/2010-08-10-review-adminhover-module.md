@@ -1,4 +1,5 @@
 ---
+date: 2010-08-10
 title: Review of the Admin:hover Module
 excerpt: My review of Drupal's admin:hover module.
 tags:

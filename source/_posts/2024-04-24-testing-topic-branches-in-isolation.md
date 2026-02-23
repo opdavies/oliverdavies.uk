@@ -1,4 +1,5 @@
 ---
+date: 2024-04-24
 title: Testing topic branches in isolation
 permalink: daily/2024/04/26/testing-topic-branches-in-isolation
 tags:

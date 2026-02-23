@@ -1,4 +1,5 @@
 ---
+date: 2024-05-17
 title: Why I don't commit with -m
 permalink: daily/2024/05/17/why-i-dont-commit-with--m
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-01-06
 title: Actions, Commands or Services?
 permalink: daily/2025/01/06/actions-commands-services
 tags:

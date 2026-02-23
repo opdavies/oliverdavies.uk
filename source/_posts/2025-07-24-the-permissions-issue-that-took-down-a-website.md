@@ -1,4 +1,5 @@
 ---
+date: 2025-07-24
 title: The permissions issue that took down a website
 permalink: /daily/2025/07/24/permissions-issue-took-down-website
 ---

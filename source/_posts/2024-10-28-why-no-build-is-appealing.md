@@ -1,4 +1,5 @@
 ---
+date: 2024-10-28
 title: Why "no build" is appealing
 permalink: daily/2024/10/28/why-no-build-is-appealing
 tags:

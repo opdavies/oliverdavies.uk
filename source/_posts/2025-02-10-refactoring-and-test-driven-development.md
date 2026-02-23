@@ -1,4 +1,5 @@
 ---
+date: 2025-02-10
 title: Refactoring and Test-Driven Development
 permalink: daily/2025/02/10/refactoring
 tags:

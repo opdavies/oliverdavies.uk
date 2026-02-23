@@ -1,4 +1,5 @@
 ---
+date: 2025-02-07
 title: Having less code than you started with
 permalink: daily/2025/02/07/less
 tags:

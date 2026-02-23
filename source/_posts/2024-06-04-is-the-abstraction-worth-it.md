@@ -1,4 +1,5 @@
 ---
+date: 2024-06-04
 title: Is the abstraction worth it?
 permalink: daily/2024/06/04/is-the-abstraction-worth-it
 tags:

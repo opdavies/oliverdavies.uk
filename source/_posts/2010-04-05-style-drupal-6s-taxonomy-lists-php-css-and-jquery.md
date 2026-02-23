@@ -1,4 +1,5 @@
 ---
+date: 2010-04-05
 title: Style Drupal 6's Taxonomy Lists with PHP, CSS and jQuery
 excerpt: Getting started with Drupal theming by styling Drupal's taxonomy lists.
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-01-03
 title: Why you need to start upgrading from Drupal 7 now
 permalink: daily/2024/01/03/why-you-need-to-start-upgrading-from-drupal-7-now
 snippet: |

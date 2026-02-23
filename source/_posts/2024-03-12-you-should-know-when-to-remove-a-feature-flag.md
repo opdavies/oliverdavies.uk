@@ -1,4 +1,5 @@
 ---
+date: 2024-03-12
 title: You should know when to remove a feature flag
 permalink: daily/2024/03/12/you-should-know-when-to-remove-a-feature-flag
 tags:

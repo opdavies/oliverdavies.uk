@@ -1,4 +1,5 @@
 ---
+date: 2024-09-05
 title: find vs. get
 permalink: daily/2024/09/05/find-vs-get
 tags:

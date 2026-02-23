@@ -1,4 +1,5 @@
 ---
+date: 2024-09-23
 title: Enforcing consistency with automation
 permalink: daily/2024/09/23/enforce-consistency-with-automation
 tags:

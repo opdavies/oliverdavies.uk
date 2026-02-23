@@ -1,4 +1,5 @@
 ---
+date: 2024-10-06
 title: Is post-end-of-live support an anti-pattern?
 permalink: daily/2024/10/06/is-post-end-of-live-support-an-anti-pattern
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-12-06
 title: One more month of Drupal 7
 permalink: daily/2024/12/06/one-more-month
 tags:

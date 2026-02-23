@@ -1,4 +1,5 @@
 ---
+date: 2024-01-29
 title: Violinist and automation with Eirik Morland
 permalink: daily/2024/01/29/violinist-and-automation-with-eirik-morland
 snippet: |

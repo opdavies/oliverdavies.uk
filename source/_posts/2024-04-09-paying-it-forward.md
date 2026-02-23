@@ -1,4 +1,5 @@
 ---
+date: 2024-04-09
 title: Paying it forward
 permalink: daily/2024/04/09/paying-it-forward
 tags:

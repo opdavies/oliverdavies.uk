@@ -1,4 +1,5 @@
 ---
+date: 2024-12-13
 title: Enjoying a cup of Gitea
 permalink: daily/2024/12/13/gitea
 tags:

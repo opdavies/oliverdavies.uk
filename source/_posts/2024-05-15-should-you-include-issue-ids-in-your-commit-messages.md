@@ -1,4 +1,5 @@
 ---
+date: 2024-05-15
 title: Should you include issue IDs in your commit messages?
 permalink: daily/2024/05/15/should-you-include-issue-ids-in-your-commit-messages
 tags:

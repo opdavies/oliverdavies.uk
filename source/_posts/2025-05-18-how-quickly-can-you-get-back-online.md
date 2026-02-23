@@ -1,4 +1,5 @@
 ---
+date: 2025-05-18
 title: How quickly can you get back online?
 permalink: /daily/2025/05/18/how-quickly-can-you-get-back-online
 ---

@@ -1,4 +1,5 @@
 ---
+date: 2025-07-15
 title: PHP compatibility checking with phpcs
 permalink: /daily/2025/07/15/php-compatibility-checking-phpcs
 ---

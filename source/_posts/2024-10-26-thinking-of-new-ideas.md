@@ -1,4 +1,5 @@
 ---
+date: 2024-10-26
 title: Thinking of new ideas
 permalink: daily/2024/10/26/thinking-of-new-ideas
 tags:

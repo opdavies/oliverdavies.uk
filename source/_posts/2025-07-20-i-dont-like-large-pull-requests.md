@@ -1,4 +1,5 @@
 ---
+date: 2025-07-20
 title: I don't like large pull requests
 permalink: /daily/2025/07/20/i-dont-large-pull-requests
 ---

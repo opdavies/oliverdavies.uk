@@ -1,4 +1,5 @@
 ---
+date: 2013-11-19
 title: Don't Bootstrap Drupal, Use Drush
 excerpt: Avoid bootstrapping Drupal manually in your scratch files - Drush has you covered!
 tags:

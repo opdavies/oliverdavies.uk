@@ -1,4 +1,5 @@
 ---
+date: 2024-06-06
 title: End the day with a failing test
 permalink: daily/2024/06/06/end-the-day-with-a-failing-test
 tags:

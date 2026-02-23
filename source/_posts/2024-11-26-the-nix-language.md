@@ -1,4 +1,5 @@
 ---
+date: 2024-11-26
 title: The Nix language
 permalink: daily/2024/11/26/the-nix-language
 tags:

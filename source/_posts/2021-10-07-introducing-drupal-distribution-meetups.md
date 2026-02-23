@@ -1,4 +1,5 @@
 ---
+date: 2021-10-07
 title: Introducing a Drupal distribution for meetup websites
 excerpt: I'm starting development on a new Drupal distribution for building meetup group websites.
 tags:

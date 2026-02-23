@@ -1,4 +1,5 @@
 ---
+date: 2021-04-13
 title: Docker resources
 excerpt: A list of Docker resources that I've compiled.
 tags:

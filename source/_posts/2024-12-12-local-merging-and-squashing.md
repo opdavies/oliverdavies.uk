@@ -1,4 +1,5 @@
 ---
+date: 2024-12-12
 title: Local merging and squashing
 permalink: daily/2024/12/12/local-squashing
 tags:

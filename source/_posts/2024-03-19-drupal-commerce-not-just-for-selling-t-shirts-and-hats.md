@@ -1,4 +1,5 @@
 ---
+date: 2024-03-19
 title: 'Drupal Commerce: not just for selling t-shirts and hats'
 permalink: daily/2024/03/19/drupal-commerce-not-just-for-selling-t-shirts-and-hats
 tags:

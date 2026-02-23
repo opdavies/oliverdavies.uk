@@ -1,4 +1,5 @@
 ---
+date: 2024-05-01
 title: Broken pipeline? Fix or revert it.
 permalink: daily/2024/05/01/broken-pipeline-fix-or-revert-it
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-12-11
 title: Other plain texters
 permalink: daily/2024/12/11/other-plain-texters
 tags: []

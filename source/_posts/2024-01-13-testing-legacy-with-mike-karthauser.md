@@ -1,4 +1,5 @@
 ---
+date: 2024-01-13
 title: Testing Legacy with Mike Karthauser
 permalink: daily/2024/01/13/testing-legacy-with-mike-karthauser
 snippet: |

@@ -1,4 +1,5 @@
 ---
+date: 2025-04-21
 title: With patches, I can change anything I want
 permalink: daily/2025/04/21/patch
 tags:

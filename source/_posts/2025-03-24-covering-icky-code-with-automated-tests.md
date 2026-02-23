@@ -1,4 +1,5 @@
 ---
+date: 2025-03-24
 title: Covering icky code with automated tests
 permalink: daily/2025/03/24/icky
 tags:

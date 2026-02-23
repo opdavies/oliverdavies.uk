@@ -1,4 +1,5 @@
 ---
+date: 2024-03-21
 title: Git hooks - yay or nay?
 permalink: daily/2024/03/21/git-hooks---yay-or-nay
 tags:

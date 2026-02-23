@@ -1,4 +1,5 @@
 ---
+date: 2024-07-29
 title: Don't run code formatting in your CI pipeline
 permalink: daily/2024/07/29/dont-run-code-formatting-in-your-ci-pipeline
 tags:

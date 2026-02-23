@@ -1,4 +1,5 @@
 ---
+date: 2024-10-18
 title: Is PHP a good first programming language?
 permalink: daily/2024/10/18/is-php-a-good-first-programming-language
 tags:

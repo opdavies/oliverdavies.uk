@@ -1,4 +1,5 @@
 ---
+date: 2024-02-25
 title: Why do people still use Git Flow?
 permalink: daily/2024/02/25/why-do-people-still-use-git-flow
 snippet: |

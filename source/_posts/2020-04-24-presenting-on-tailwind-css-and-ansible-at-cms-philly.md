@@ -1,4 +1,5 @@
 ---
+date: 2020-04-24
 title: Presenting on Tailwind CSS and Ansible at CMS Philly
 excerpt: I'll be presenting on Tailwind CSS and deployments with Ansible at CMS Philly on May 1st.
 tags:

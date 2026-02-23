@@ -1,4 +1,5 @@
 ---
+date: 2024-09-12
 title: When did you last deploy to production?
 permalink: daily/2024/09/12/when-did-you-last-deploy-to-production
 tags:

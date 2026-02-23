@@ -1,4 +1,5 @@
 ---
+date: 2018-08-21
 title: Experimenting with events in Drupal 8
 excerpt: Trying a different way of structuring Drupal modules, using event subscribers and autowiring.
 tags:

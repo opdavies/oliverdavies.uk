@@ -1,4 +1,5 @@
 ---
+date: 2024-06-23
 title: Drupal 10.3 released
 permalink: daily/2024/06/23/drupal-10-3-released
 tags:

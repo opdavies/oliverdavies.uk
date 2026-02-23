@@ -1,4 +1,5 @@
 ---
+date: 2024-07-16
 title: Tailwind CSS v4, with even more CSS
 permalink: daily/2024/07/16/tailwind-css-v4--with-even-more-css
 tags:

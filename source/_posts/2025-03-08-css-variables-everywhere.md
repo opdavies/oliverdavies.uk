@@ -1,4 +1,5 @@
 ---
+date: 2025-03-08
 title: CSS variables everywhere
 permalink: daily/2025/03/08/variables
 tags:

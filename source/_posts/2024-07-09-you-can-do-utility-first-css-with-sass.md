@@ -1,4 +1,5 @@
 ---
+date: 2024-07-09
 title: You can do utility-first CSS with Sass
 permalink: daily/2024/07/09/you-can-do-utility-first-css-with-sass
 tags:

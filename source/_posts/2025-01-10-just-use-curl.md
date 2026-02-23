@@ -1,4 +1,5 @@
 ---
+date: 2025-01-10
 title: Just use curl
 permalink: daily/2025/01/10/curl
 tags:

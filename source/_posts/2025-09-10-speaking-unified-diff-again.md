@@ -1,4 +1,5 @@
 ---
+date: 2025-09-10
 title: Speaking again at unified.diff
 excerpt: |
   I'm going to be speaking again at the unified.diff meetup, 13 years and 106

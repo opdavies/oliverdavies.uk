@@ -1,4 +1,5 @@
 ---
+date: 2025-05-25
 title: Why I prefer a rolling Linux distribution
 permalink: /daily/2025/05/25/why-i-prefer-rolling-linux-distribution
 ---

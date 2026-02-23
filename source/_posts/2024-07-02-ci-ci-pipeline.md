@@ -1,4 +1,5 @@
 ---
+date: 2024-07-02
 title: CI !== CI Pipeline
 permalink: daily/2024/07/02/ci-not-ci-pipeline
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-07-08
 title: Back to Sass and traditional CSS
 permalink: daily/2024/07/08/back-to-sass-and-traditional-css
 tags:

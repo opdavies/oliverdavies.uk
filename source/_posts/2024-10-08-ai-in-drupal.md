@@ -1,4 +1,5 @@
 ---
+date: 2024-10-08
 title: AI in Drupal
 permalink: daily/2024/10/08/ai-in-drupal
 tags:

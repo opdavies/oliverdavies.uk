@@ -1,4 +1,5 @@
 ---
+date: 2025-03-07
 title: Rebase and reorder
 permalink: daily/2025/03/07/rebase-and-reorder
 tags:

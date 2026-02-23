@@ -1,4 +1,5 @@
 ---
+date: 2024-12-01
 title: Homelabbing with NixOS
 permalink: daily/2024/12/01/homelabbing-with-nixos
 tags:

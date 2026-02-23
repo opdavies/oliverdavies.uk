@@ -1,4 +1,5 @@
 ---
+date: 2025-04-19
 title: Self hosting my website
 permalink: daily/2025/04/19/self-hosting
 tags:

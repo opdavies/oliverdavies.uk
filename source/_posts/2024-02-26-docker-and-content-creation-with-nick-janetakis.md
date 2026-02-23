@@ -1,4 +1,5 @@
 ---
+date: 2024-02-26
 title: Docker and content creation with Nick Janetakis
 permalink: daily/2024/02/26/docker-and-content-creation-with-nick-janetakis
 tags:

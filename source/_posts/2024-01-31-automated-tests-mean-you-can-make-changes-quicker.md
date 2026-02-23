@@ -1,4 +1,5 @@
 ---
+date: 2024-01-31
 title: Automated tests mean you can make changes quicker
 permalink: daily/2024/01/31/automated-tests-mean-you-can-make-changes-quicker
 snippet: |

@@ -1,4 +1,5 @@
 ---
+date: 2024-12-24
 title: How easily can you move changes between environments?
 permalink: daily/2024/12/24/moving-changes
 tags:

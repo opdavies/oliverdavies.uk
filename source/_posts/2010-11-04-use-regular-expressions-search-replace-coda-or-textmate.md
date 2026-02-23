@@ -1,4 +1,5 @@
 ---
+date: 2010-11-04
 title: Use Regular Expressions to Search and Replace in Coda or TextMate
 excerpt: How to perform searches using regular expressions.
 tags:

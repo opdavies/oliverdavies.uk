@@ -1,4 +1,5 @@
 ---
+date: 2024-04-26
 title: Don't cherry-pick features from a branch to deploy
 permalink: daily/2024/04/26/don-t-cherry-pick-features-from-a-branch-to-deploy
 tags:

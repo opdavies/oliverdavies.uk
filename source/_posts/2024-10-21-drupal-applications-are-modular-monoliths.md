@@ -1,4 +1,5 @@
 ---
+date: 2024-10-21
 title: Drupal applications are modular monoliths
 permalink: daily/2024/10/21/drupal-applications-are-modular-monoliths
 tags:

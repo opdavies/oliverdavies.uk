@@ -1,4 +1,5 @@
 ---
+date: 2025-05-03
 title: A reason why I like static site generators
 permalink: daily/2025/05/03/like
 tags:

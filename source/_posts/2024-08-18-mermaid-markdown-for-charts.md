@@ -1,4 +1,5 @@
 ---
+date: 2024-08-18
 title: Mermaid - markdown for charts
 permalink: daily/2024/08/18/mermaid-markdown-for-charts
 tags:

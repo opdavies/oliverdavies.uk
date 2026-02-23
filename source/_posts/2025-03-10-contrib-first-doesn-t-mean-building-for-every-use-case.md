@@ -1,4 +1,5 @@
 ---
+date: 2025-03-10
 title: Contrib-first doesn't mean building for every use case
 permalink: daily/2025/03/10/contrib-first
 tags:

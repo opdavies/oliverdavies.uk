@@ -1,4 +1,5 @@
 ---
+date: 2024-09-02
 title: No-one sees your clean-up commits
 permalink: daily/2024/09/02/no-one-sees-your-clean-up-commits
 tags:

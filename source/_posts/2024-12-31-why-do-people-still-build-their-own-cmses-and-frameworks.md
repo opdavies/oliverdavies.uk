@@ -1,4 +1,5 @@
 ---
+date: 2024-12-31
 title: Why do people still build their own CMSes and frameworks?
 permalink: daily/2024/12/31/build
 tags:

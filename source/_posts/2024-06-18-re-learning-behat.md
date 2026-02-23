@@ -1,4 +1,5 @@
 ---
+date: 2024-06-18
 title: Re-learning Behat
 permalink: daily/2024/06/18/re-learning-behat
 tags:

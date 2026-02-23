@@ -1,4 +1,5 @@
 ---
+date: 2025-04-17
 title: Upgrading incrementally
 permalink: daily/2025/04/17/incrementally
 tags:

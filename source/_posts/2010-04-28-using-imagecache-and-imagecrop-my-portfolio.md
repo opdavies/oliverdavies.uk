@@ -1,4 +1,5 @@
 ---
+date: 2010-04-28
 title: Using ImageCache and ImageCrop for my Portfolio
 excerpt: How to create thumbnail images using the ImageCache and ImageCrop modules.
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-01-14
 title: Code is a liability, not an asset
 permalink: daily/2024/01/14/code-is-a-liability-not-an-asset
 snippet: |

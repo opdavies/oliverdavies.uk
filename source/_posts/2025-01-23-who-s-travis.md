@@ -1,4 +1,5 @@
 ---
+date: 2025-01-23
 title: Who's Travis?
 permalink: daily/2025/01/23/travis
 tags:

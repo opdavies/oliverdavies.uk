@@ -1,4 +1,5 @@
 ---
+date: 2024-07-18
 title: What's the smallest number of dependencies you can have?
 permalink: daily/2024/07/18/smallest-number-of-dependencies
 tags:

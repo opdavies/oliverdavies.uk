@@ -1,4 +1,5 @@
 ---
+date: 2024-12-16
 title: Browsing in plain text
 permalink: daily/2024/12/16/browsing-in-plain-text
 tags:

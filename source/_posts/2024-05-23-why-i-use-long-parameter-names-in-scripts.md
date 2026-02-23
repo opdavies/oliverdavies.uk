@@ -1,4 +1,5 @@
 ---
+date: 2024-05-23
 title: Why I use long parameter names in scripts
 permalink: daily/2024/05/23/why-i-use-long-parameter-names-in-scripts
 tags:

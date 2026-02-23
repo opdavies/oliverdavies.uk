@@ -1,4 +1,5 @@
 ---
+date: 2024-05-09
 title: Do you have a deadline?
 permalink: daily/2024/05/09/do-you-have-a-deadline
 tags:

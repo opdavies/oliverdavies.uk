@@ -1,4 +1,5 @@
 ---
+date: 2025-04-18
 title: Building static websites with Drupal
 permalink: daily/2025/04/18/static-drupal
 tags:

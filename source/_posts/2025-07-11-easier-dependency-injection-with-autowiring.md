@@ -1,4 +1,5 @@
 ---
+date: 2025-07-11
 title: Easier dependency injection with autowiring
 permalink: /daily/2025/07/11/easier-dependency-injection-autowiring
 ---

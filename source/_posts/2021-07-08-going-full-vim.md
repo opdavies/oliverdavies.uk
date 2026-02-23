@@ -1,4 +1,5 @@
 ---
+date: 2021-07-08
 title: Going "Full Vim" for my development work
 excerpt: I've recently been using Neovim for all of my coding, as well as for my blog posts and slide decks.
 tags:

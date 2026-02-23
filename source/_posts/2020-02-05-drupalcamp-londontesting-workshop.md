@@ -1,4 +1,5 @@
 ---
+date: 2020-02-05
 title: Testing Workshop at DrupalCamp London 2020
 excerpt: This year, I'm teaching a workshop at DrupalCamp London.
 tags:

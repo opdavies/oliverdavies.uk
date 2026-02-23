@@ -1,4 +1,5 @@
 ---
+date: 2025-02-13
 title: Using readonly in PHP
 permalink: daily/2025/02/13/readonly
 tags:

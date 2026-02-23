@@ -1,4 +1,5 @@
 ---
+date: 2025-03-01
 title: Solve one problem at a time
 permalink: daily/2025/03/01/one-problem
 tags:

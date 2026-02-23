@@ -1,4 +1,5 @@
 ---
+date: 2024-02-22
 title: Diffy and visual regression testing
 permalink: daily/2024/02/22/diffy-and-visual-regression-testing
 snippet: |

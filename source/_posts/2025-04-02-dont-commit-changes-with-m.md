@@ -1,4 +1,5 @@
 ---
+date: 2025-04-02
 title: Dont commit changes with `-m`
 permalink: daily/2025/04/02/commit
 tags:

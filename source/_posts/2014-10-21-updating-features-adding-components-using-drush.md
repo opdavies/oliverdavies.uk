@@ -1,4 +1,5 @@
 ---
+date: 2014-10-21
 title: Updating Features and Adding Components Using Drush
 excerpt: How to update features on the command line using Drush.
 tags:

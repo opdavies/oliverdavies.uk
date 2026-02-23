@@ -1,4 +1,5 @@
 ---
+date: 2024-03-23
 title: Write programs that do one thing and do it well
 permalink: daily/2024/03/23/write-programs-that-do-one-thing-and-do-it-well
 tags:

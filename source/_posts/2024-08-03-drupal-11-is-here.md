@@ -1,4 +1,5 @@
 ---
+date: 2024-08-03
 title: Drupal 11 is here!
 permalink: daily/2024/08/03/drupal-11-is-here
 tags:

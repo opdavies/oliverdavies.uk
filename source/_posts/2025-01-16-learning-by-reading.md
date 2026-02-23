@@ -1,4 +1,5 @@
 ---
+date: 2025-01-16
 title: Learning by reading
 permalink: daily/2025/01/16/learning
 tags:

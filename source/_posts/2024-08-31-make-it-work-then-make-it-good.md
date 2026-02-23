@@ -1,4 +1,5 @@
 ---
+date: 2024-08-31
 title: Make it work, then make it good
 permalink: daily/2024/08/31/make-it-work-then-make-it-good
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-02-11
 title: Tidy then push
 permalink: daily/2025/02/11/tidy
 tags:

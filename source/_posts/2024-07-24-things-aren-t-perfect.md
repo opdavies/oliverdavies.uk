@@ -1,4 +1,5 @@
 ---
+date: 2024-07-24
 title: Things aren't perfect
 permalink: daily/2024/07/24/things-aren-t-perfect
 tags:

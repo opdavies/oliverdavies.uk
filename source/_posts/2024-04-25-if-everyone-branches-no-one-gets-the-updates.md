@@ -1,4 +1,5 @@
 ---
+date: 2024-04-25
 title: If everyone branches, no-one gets the updates
 permalink: daily/2024/04/25/if-everyone-branches-no-one-gets-updates
 tags:

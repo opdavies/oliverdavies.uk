@@ -1,4 +1,5 @@
 ---
+date: 2025-02-24
 title: To patch or not to patch
 permalink: daily/2025/02/24/patch
 tags:

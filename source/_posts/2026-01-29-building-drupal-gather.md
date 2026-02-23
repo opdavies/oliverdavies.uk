@@ -1,4 +1,5 @@
 ---
+date: 2026-01-29
 title: Building Drupal Gather
 tags:
   - drupal

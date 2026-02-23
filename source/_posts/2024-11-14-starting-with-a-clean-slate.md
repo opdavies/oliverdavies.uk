@@ -1,4 +1,5 @@
 ---
+date: 2024-11-14
 title: Starting with a clean slate
 permalink: daily/2024/11/14/starting-with-a-clean-slate
 tags:

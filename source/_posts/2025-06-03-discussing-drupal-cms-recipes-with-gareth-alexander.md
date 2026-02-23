@@ -1,4 +1,5 @@
 ---
+date: 2025-06-03
 title: Discussing Drupal CMS Recipes with Gareth Alexander
 permalink: /daily/2025/06/03/discussing-drupal-cms-recipes-gareth-alexander
 ---

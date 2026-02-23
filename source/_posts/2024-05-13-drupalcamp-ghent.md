@@ -1,4 +1,5 @@
 ---
+date: 2024-05-13
 title: DrupalCamp Ghent
 permalink: daily/2024/05/13/drupalcamp-ghent
 tags:

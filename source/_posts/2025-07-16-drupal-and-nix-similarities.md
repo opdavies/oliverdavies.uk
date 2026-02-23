@@ -1,4 +1,5 @@
 ---
+date: 2025-07-16
 title: Drupal and Nix similarities
 permalink: /daily/2025/07/16/drupal-and-nix-similarities
 ---

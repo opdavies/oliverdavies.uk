@@ -1,4 +1,5 @@
 ---
+date: 2024-02-15
 title: gray or grey, and center or centre?
 permalink: daily/2024/02/15/gray-or-grey--and-center-or-centre
 snippet: |

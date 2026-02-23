@@ -1,4 +1,5 @@
 ---
+date: 2010-07-02
 title: Create Virtual Hosts on Mac OS X Using VirtualHostX
 excerpt: How to use the VirtualHostX application to manage virtual hosts on Mac OS X.
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-08-20
 title: Automatic Sculpin reloading with Browsersync
 tags:
   - php

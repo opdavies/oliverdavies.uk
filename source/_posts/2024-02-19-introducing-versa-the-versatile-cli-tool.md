@@ -1,4 +1,5 @@
 ---
+date: 2024-02-19
 title: Introducing Versa - the versatile CLI tool
 permalink: daily/2024/02/19/introducing-versa
 snippet: |

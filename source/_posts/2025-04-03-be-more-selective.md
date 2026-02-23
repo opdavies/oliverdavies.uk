@@ -1,4 +1,5 @@
 ---
+date: 2025-04-03
 title: Be more selective
 permalink: daily/2025/04/03/selective
 tags:

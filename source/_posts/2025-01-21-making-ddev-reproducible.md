@@ -1,4 +1,5 @@
 ---
+date: 2025-01-21
 title: Making ddev reproducible
 permalink: daily/2025/01/21/ddev
 tags:

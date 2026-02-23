@@ -1,4 +1,5 @@
 ---
+date: 2024-01-20
 title: PHPUnit or Pest?
 permalink: daily/2024/01/20/phpunit-or-pest
 snippet: |

@@ -1,4 +1,5 @@
 ---
+date: 2025-03-05
 title: Feature branching slows delivery
 permalink: daily/2025/03/05/slow
 tags:

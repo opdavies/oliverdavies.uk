@@ -1,4 +1,5 @@
 ---
+date: 2018-05-06
 title: Creating a Custom PHPUnit Command for Docksal
 excerpt: How to write custom commands for Docksal, including one to easily run PHPUnit tests in Drupal 8.
 tags:

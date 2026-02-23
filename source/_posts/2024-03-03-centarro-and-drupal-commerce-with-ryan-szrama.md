@@ -1,4 +1,5 @@
 ---
+date: 2024-03-03
 title: Centarro and Drupal Commerce with Ryan Szrama
 permalink: /daily/2024/03/03/centarro-and-drupal-commerce-with-ryan-szrama
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-02-10
 title: Do you really need it?
 permalink: daily/2024/02/10/do-you-really-need-it
 snippet: |

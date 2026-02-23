@@ -1,4 +1,5 @@
 ---
+date: 2020-09-05
 title: Upgrading the Dransible project to Drupal 9
 excerpt: How I recently upgraded the Dransible example project from Drupal 8.8 to 9.0.
 tags:

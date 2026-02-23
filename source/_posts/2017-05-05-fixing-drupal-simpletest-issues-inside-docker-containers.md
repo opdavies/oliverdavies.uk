@@ -1,4 +1,5 @@
 ---
+date: 2017-05-05
 title: Fixing Drupal SimpleTest issues inside Docker Containers
 excerpt: How I managed to get my Drupal SimpleTest tests to run and pass within Docker containers.
 tags:

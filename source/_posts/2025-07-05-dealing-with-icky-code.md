@@ -1,4 +1,5 @@
 ---
+date: 2025-07-05
 title: Dealing with icky code
 permalink: /daily/2025/07/05/dealing-icky-code
 ---

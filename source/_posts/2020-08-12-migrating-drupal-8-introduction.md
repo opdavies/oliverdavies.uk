@@ -1,4 +1,5 @@
 ---
+date: 2020-08-12
 title: 'Migrating to Drupal 8: Introduction'
 excerpt: An introduction to the 'Migrating to Drupal 8' blog post series.
 tags:

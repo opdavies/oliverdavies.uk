@@ -1,4 +1,5 @@
 ---
+date: 2024-11-16
 title: An interesting thing I spotted about the Override Node Options module
 permalink: daily/2024/11/16/an-interesting-thing-i-spotted-about-the-override-node-options-module
 tags:

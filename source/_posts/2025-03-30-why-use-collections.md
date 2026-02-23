@@ -1,4 +1,5 @@
 ---
+date: 2025-03-30
 title: Why use Collections?
 permalink: daily/2025/03/30/why-collections
 tags:

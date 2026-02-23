@@ -1,4 +1,5 @@
 ---
+date: 2019-03-08
 title: Restructuring my tailwind.js configuration files
 excerpt: How I've started structuring my tailwind.js configuration files in preparation for Tailwind 1.0.
 tags:

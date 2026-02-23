@@ -1,4 +1,5 @@
 ---
+date: 2020-07-07
 title: Speaking remotely during COVID-19
 excerpt: I've been quite busy during this lockdown, giving talks remotely at conferences and user groups.
 tags:

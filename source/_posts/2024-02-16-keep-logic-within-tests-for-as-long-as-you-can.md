@@ -1,4 +1,5 @@
 ---
+date: 2024-02-16
 title: Keep logic within tests for as long as you can
 permalink: daily/2024/02/16/keep-logic-within-tests-for-as-long-as-you-can
 snippet: |

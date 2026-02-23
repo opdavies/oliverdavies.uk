@@ -1,4 +1,5 @@
 ---
+date: 2024-11-10
 title: Write plain text files
 permalink: daily/2024/11/10/write-plain-text-files
 tags:

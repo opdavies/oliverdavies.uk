@@ -1,4 +1,5 @@
 ---
+date: 2024-01-30
 title: TDD doesn't mean you know everything upfront
 permalink: daily/2024/01/30/tdd-doesnt-mean-you-know-everything-upfront
 snippet: |

@@ -1,4 +1,5 @@
 ---
+date: 2025-07-07
 title: Asking the right question
 permalink: /daily/2025/07/07/asking-right-question
 ---

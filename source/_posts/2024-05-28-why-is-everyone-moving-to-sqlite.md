@@ -1,4 +1,5 @@
 ---
+date: 2024-05-28
 title: Why is everyone moving to SQLite?
 permalink: daily/2024/05/28/why-is-everyone-moving-to-sqlite
 tags:

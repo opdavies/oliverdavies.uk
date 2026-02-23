@@ -1,4 +1,5 @@
 ---
+date: 2025-01-18
 title: TypeScript for PHP
 permalink: daily/2025/01/18/typescript-php
 tags:

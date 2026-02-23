@@ -1,4 +1,5 @@
 ---
+date: 2025-05-24
 title: Using AI for web coding with Luke McCormick
 permalink: /daily/2025/05/24/using-ai-web-coding-luke-mccormick
 ---

@@ -1,4 +1,5 @@
 ---
+date: 2024-05-30
 title: Ask questions
 permalink: daily/2024/05/30/ask-questions
 tags:

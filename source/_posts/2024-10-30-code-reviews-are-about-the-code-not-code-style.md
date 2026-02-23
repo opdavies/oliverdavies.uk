@@ -1,4 +1,5 @@
 ---
+date: 2024-10-30
 title: Code reviews are about the code, not code style
 permalink: daily/2024/10/30/code-reviews-are-about-the-code-not-code-style
 tags:

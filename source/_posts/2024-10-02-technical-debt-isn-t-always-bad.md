@@ -1,4 +1,5 @@
 ---
+date: 2024-10-02
 title: Technical debt isn't always bad
 permalink: daily/2024/10/02/technical-debt-isn-t-always-bad
 tags:

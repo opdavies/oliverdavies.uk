@@ -1,4 +1,5 @@
 ---
+date: 2024-10-07
 title: Discussing Drupal's ECA module
 permalink: daily/2024/10/07/discussing-drupals-eca-module
 tags:

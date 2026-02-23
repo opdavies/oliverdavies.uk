@@ -1,4 +1,5 @@
 ---
+date: 2012-02-01
 title: How to use Authorized Keys to Create a Passwordless SSH Connection
 excerpt: How to generate a SSH key, and how to use to log in to a server using SSH without entering a password.
 tags:

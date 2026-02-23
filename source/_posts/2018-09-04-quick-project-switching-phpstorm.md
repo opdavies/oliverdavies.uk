@@ -1,4 +1,5 @@
 ---
+date: 2018-09-04
 title: Quick Project Switching in PhpStorm
 excerpt: How to quickly switch between projects in PhpStorm.
 tags:

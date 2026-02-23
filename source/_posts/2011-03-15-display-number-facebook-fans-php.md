@@ -1,4 +1,5 @@
 ---
+date: 2011-03-15
 title: Display the Number of Facebook fans in PHP
 excerpt: How to use PHP to display the number of fans of a Facebook page.
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-01-24
 title: Defining Ubiquitous language
 permalink: daily/2024/01/24/defining-ubiquitous-language
 snippet: |

@@ -1,4 +1,5 @@
 ---
+date: 2024-03-05
 title: Why write framework-agnostic code
 permalink: daily/2024/03/05/why-write-framework-agnostic-code
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-03-25
 title: Newport City Council running LocalGov Drupal
 permalink: daily/2024/03/25/newport-city-council-running-localgov-drupal
 tags:

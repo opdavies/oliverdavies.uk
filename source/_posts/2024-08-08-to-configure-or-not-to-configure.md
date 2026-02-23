@@ -1,4 +1,5 @@
 ---
+date: 2024-08-08
 title: To configure or not to configure
 permalink: daily/2024/08/08/to-configure-or-not-to-configure
 tags:

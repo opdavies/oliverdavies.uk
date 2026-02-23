@@ -1,4 +1,5 @@
 ---
+date: 2014-05-21
 title: git format-patch is your Friend
 excerpt: An explanation of the "git format-patch" command, and how it could be used in Drupal's Git workflow.
 tags:

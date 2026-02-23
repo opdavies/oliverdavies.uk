@@ -1,4 +1,5 @@
 ---
+date: 2025-11-10
 title: Remembering Ryan Weaver
 excerpt: |-
   I was sad to recently read that Ryan Weaver - co-founder of SymfonyCasts and Symfony core team member - has lost his battle with brain cancer.

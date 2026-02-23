@@ -1,4 +1,5 @@
 ---
+date: 2024-09-07
 title: Find bugs sooner
 permalink: daily/2024/09/07/find-bugs-sooner
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-01-12
 title: Utility classes make global scope local
 permalink: daily/2024/01/12/utility-classes-make-global-scope-local
 snippet: |

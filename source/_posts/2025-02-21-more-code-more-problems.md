@@ -1,4 +1,5 @@
 ---
+date: 2025-02-21
 title: More code, more problems
 permalink: daily/2025/02/21/more
 tags:

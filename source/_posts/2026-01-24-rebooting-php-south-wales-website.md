@@ -1,4 +1,5 @@
 ---
+date: 2026-01-24
 title: Rebooting the PHP South Wales website
 tags:
   - php

@@ -1,4 +1,5 @@
 ---
+date: 2025-01-04
 title: Catching up with Mark Conroy
 permalink: daily/2025/01/04/catching-up
 tags:

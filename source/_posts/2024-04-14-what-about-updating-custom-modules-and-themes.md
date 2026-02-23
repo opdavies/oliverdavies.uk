@@ -1,4 +1,5 @@
 ---
+date: 2024-04-14
 title: What about updating custom modules and themes?
 permalink: daily/2024/04/14/what-about-updating-custom-modules-and-themes
 tags:

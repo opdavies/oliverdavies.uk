@@ -1,4 +1,5 @@
 ---
+date: 2025-02-01
 title: Don't use global dependencies
 permalink: daily/2025/02/01/global-dependencies
 tags:

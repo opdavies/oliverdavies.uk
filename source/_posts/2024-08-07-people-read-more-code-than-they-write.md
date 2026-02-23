@@ -1,4 +1,5 @@
 ---
+date: 2024-08-07
 title: People read more code than they write
 permalink: daily/2024/08/07/people-read-more-code-than-they-write
 tags:

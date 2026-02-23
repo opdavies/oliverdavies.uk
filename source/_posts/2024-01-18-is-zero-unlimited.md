@@ -1,4 +1,5 @@
 ---
+date: 2024-01-18
 title: Is zero unlimited?
 permalink: daily/2024/01/18/is-zero-unlimited
 snippet: |

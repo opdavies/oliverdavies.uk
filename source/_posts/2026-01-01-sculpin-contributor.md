@@ -1,4 +1,5 @@
 ---
+date: 2026-01-01
 title: I'm a Sculpin contributor
 tags:
   - php

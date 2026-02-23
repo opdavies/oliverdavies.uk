@@ -1,4 +1,5 @@
 ---
+date: 2024-07-01
 title: A new version of Drupal is only a command away
 permalink: daily/2024/07/01/a-new-version-of-drupal-is-only-a-command-away
 tags:

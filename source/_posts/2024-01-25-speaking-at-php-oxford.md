@@ -1,4 +1,5 @@
 ---
+date: 2024-01-25
 title: Speaking at PHP Oxford
 permalink: daily/2024/01/25/speaking-at-php-oxford
 snippet: |

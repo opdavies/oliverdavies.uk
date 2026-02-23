@@ -1,4 +1,5 @@
 ---
+date: 2025-04-20
 title: Automate Drupal deployments with configuration
 permalink: daily/2025/04/20/config
 tags:

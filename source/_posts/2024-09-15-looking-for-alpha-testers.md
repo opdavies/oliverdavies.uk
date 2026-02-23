@@ -1,4 +1,5 @@
 ---
+date: 2024-09-15
 title: Looking for alpha testers
 permalink: daily/2024/09/15/looking-for-alpha-testers
 tags:

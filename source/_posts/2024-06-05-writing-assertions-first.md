@@ -1,4 +1,5 @@
 ---
+date: 2024-06-05
 title: Writing assertions first
 permalink: daily/2024/06/05/writing-assertions-first
 tags:

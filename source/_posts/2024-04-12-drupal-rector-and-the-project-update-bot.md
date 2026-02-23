@@ -1,4 +1,5 @@
 ---
+date: 2024-04-12
 title: Drupal Rector and the Project Update Bot
 permalink: daily/2024/04/12/drupal-rector-and-the-project-update-bot
 tags:

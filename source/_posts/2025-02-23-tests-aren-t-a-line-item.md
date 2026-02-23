@@ -1,4 +1,5 @@
 ---
+date: 2025-02-23
 title: Tests aren't a line item
 permalink: daily/2025/02/23/line-item
 tags:

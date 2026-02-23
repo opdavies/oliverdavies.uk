@@ -1,4 +1,5 @@
 ---
+date: 2025-05-20
 title: Why write your own CMS?
 permalink: /daily/2025/05/20/why-write-your-own-cms
 ---

@@ -1,4 +1,5 @@
 ---
+date: 2024-09-28
 title: Testing personal projects
 permalink: daily/2024/09/28/testing-personal-projects
 tags:

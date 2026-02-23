@@ -1,4 +1,5 @@
 ---
+date: 2024-08-02
 title: Merging unrelated histories
 permalink: daily/2024/08/02/merging-unrelated-histories
 tags:

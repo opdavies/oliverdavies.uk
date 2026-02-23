@@ -1,4 +1,5 @@
 ---
+date: 2024-10-19
 title: PHPUnit or Pest?
 permalink: daily/2024/10/19/phpunit-or-pest
 tags:

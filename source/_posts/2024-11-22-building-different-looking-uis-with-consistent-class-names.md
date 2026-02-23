@@ -1,4 +1,5 @@
 ---
+date: 2024-11-22
 title: Building different-looking UIs with consistent class names
 permalink: daily/2024/11/22/building-different-looking-uis-with-consistent-class-names
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-07-28
 title: A CHANGLOG isn't just a list of Git commits
 permalink: /daily/2025/07/28/changlog-isnt-just-list-git-commits
 ---

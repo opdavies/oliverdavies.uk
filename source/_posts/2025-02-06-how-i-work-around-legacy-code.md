@@ -1,4 +1,5 @@
 ---
+date: 2025-02-06
 title: How I work around legacy code
 permalink: daily/2025/02/06/legacy
 tags:

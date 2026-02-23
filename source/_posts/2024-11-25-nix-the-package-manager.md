@@ -1,4 +1,5 @@
 ---
+date: 2024-11-25
 title: Nix, the package manager
 permalink: daily/2024/11/25/nix-the-package-manager
 tags:

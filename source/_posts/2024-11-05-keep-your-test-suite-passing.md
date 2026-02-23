@@ -1,4 +1,5 @@
 ---
+date: 2024-11-05
 title: Keep your test suite passing
 permalink: daily/2024/11/05/keep-your-test-suite-passing
 tags:

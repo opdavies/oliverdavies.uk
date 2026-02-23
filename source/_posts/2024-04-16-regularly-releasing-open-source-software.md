@@ -1,4 +1,5 @@
 ---
+date: 2024-04-16
 title: Regularly releasing open-source software
 permalink: daily/2024/04/16/regularly-releasing-open-source-software
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-09-06
 title: Bootcamps, Hackathons, Meetups and Drupal with George Gordon
 permalink: daily/2024/09/06/bootcamps-hackathons-meetups-and-drupal
 tags:

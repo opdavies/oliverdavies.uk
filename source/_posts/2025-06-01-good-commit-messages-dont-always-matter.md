@@ -1,4 +1,5 @@
 ---
+date: 2025-06-01
 title: Good commit messages don't always matter
 permalink: /daily/2025/06/01/good-commit-messages-dont-always-matter
 ---

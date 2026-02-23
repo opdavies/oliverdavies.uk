@@ -1,4 +1,5 @@
 ---
+date: 2026-01-28
 title: '"New" Git commands for "old" people'
 tags: [git]
 ---

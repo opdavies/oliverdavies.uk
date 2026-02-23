@@ -1,4 +1,5 @@
 ---
+date: 2024-01-09
 title: Using Tailwind CSS is a great way to learn CSS
 permalink: daily/2024/01/09/using-tailwind-css-is-a-great-way-to-learn-css
 snippet: |

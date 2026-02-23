@@ -1,4 +1,5 @@
 ---
+date: 2025-07-06
 title: What type of change are you making?
 permalink: /daily/2025/07/06/what-type-change-are-you-making
 ---

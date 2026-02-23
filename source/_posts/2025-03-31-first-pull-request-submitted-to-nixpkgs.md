@@ -1,4 +1,5 @@
 ---
+date: 2025-03-31
 title: First pull request submitted to nixpkgs
 permalink: daily/2025/03/31/nixpkgs
 tags:

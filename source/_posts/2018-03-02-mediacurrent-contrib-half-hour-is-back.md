@@ -1,4 +1,5 @@
 ---
+date: 2018-03-02
 title: Yay, the Mediacurrent Contrib Half Hour is Back!
 excerpt: Mediacurrent's "contrib half hour sessions" are back.
 tags:

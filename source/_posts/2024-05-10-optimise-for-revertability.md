@@ -1,4 +1,5 @@
 ---
+date: 2024-05-10
 title: Optimise for revertability
 permalink: daily/2024/05/10/optimise-for-revertability
 tags:

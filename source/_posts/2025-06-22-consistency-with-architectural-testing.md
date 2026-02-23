@@ -1,4 +1,5 @@
 ---
+date: 2025-06-22
 title: Consistency with architectural testing
 permalink: /daily/2025/06/22/consistency-architectural-testing
 ---

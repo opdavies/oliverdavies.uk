@@ -1,4 +1,5 @@
 ---
+date: 2025-03-29
 title: Dependency-free PHP Collections
 permalink: daily/2025/03/29/collections
 tags:

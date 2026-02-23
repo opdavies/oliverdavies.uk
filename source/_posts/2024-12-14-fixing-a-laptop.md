@@ -1,4 +1,5 @@
 ---
+date: 2024-12-14
 title: Fixing a laptop
 permalink: daily/2024/12/14/fixing
 tags:

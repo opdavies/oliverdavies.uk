@@ -1,4 +1,5 @@
 ---
+date: 2018-02-27
 title: Looking forward to DrupalCamp London
 excerpt: This weekend is DrupalCamp London 2018. I'll be there along with a number of my Microserve colleagues.
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-11-09
 title: Discussing Drush and Laravel Prompts with Jess Archer
 permalink: daily/2024/11/09/discussing-drush-and-laravel-prompts-with-jess-archer
 tags:

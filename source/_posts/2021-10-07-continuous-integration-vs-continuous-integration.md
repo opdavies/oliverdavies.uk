@@ -1,4 +1,5 @@
 ---
+date: 2021-10-07
 title: Continuous Integration vs Continuous Integration
 excerpt: My views on the definitions of "continuous integration".
 tags:

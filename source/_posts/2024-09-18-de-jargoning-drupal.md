@@ -1,4 +1,5 @@
 ---
+date: 2024-09-18
 title: De-jargoning Drupal
 permalink: daily/2024/09/18/de-jargoning-drupal
 tags:

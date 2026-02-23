@@ -1,4 +1,5 @@
 ---
+date: 2024-02-08
 title: Experimenting with Architectural Testing
 permalink: daily/2024/02/08/experimenting-with-architectural-testing
 snippet: |

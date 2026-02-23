@@ -1,4 +1,5 @@
 ---
+date: 2025-04-07
 title: Generating presentation slides with Nix and rst2pdf
 permalink: daily/2025/04/07/nix-rst2pdf
 tags:

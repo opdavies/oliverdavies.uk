@@ -1,4 +1,5 @@
 ---
+date: 2024-12-29
 title: Which environment should I test?
 permalink: daily/2024/12/29/which-environment
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2012-01-04
 title: Site Upgraded to Drupal 7
 excerpt: As the vast majority of the Drupal websites that I currently work on are built on Drupal 7, I thought that it was time that I upgraded this site.
 tags:

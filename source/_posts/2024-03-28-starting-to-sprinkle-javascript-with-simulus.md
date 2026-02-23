@@ -1,4 +1,5 @@
 ---
+date: 2024-03-28
 title: Starting to sprinkle JavaScript with Simulus
 permalink: daily/2024/03/28/starting-to-sprinkle-javascript-with-simulus
 tags:

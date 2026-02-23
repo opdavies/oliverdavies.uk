@@ -1,4 +1,5 @@
 ---
+date: 2025-06-21
 title: Consistency is key
 permalink: /daily/2025/06/21/consistency-key
 ---

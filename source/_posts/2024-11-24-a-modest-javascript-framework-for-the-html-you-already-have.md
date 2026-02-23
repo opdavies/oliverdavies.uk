@@ -1,4 +1,5 @@
 ---
+date: 2024-11-24
 title: A modest JavaScript framework for the HTML you already have
 permalink: daily/2024/11/24/a-modest-javascript-framework-for-the-html-you-already-have
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-01-08
 title: Try it and see
 permalink: daily/2024/01/08/try-it-and-see
 snippet: |

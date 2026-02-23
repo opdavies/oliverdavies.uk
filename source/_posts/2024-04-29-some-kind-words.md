@@ -1,4 +1,5 @@
 ---
+date: 2024-04-29
 title: Some kind words
 permalink: daily/2024/04/29/some-kind-words
 tags:

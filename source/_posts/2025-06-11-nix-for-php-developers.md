@@ -1,4 +1,5 @@
 ---
+date: 2025-06-11
 title: Nix for PHP Developers
 permalink: /daily/2025/06/11/nix-php-developers
 ---

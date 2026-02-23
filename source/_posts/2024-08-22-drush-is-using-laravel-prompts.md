@@ -1,4 +1,5 @@
 ---
+date: 2024-08-22
 title: Drush is using Laravel Prompts
 permalink: daily/2024/08/22/drush-is-using-laravel-prompts
 tags:

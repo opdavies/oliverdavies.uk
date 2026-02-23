@@ -1,4 +1,5 @@
 ---
+date: 2011-02-14
 title: Easily Embed TypeKit Fonts into your Drupal Website
 excerpt: How to use the @font-your-face module to embed TypeKit fonts into your Drupal website.
 tags:

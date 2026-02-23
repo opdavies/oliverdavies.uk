@@ -1,4 +1,5 @@
 ---
+date: 2012-05-23
 title: How to add a date popup calendar onto a custom form
 excerpt: How to use a date popup calendar within your custom module.
 tags:

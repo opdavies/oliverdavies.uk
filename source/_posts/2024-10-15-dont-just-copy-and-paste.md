@@ -1,4 +1,5 @@
 ---
+date: 2024-10-15
 title: Don't just copy and paste
 permalink: daily/2024/10/15/dont-just-copy-and-paste
 tags:

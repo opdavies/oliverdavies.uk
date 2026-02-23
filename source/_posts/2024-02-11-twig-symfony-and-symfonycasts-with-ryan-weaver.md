@@ -1,4 +1,5 @@
 ---
+date: 2024-02-11
 title: Twig, Symfony and SymfonyCasts with Ryan Weaver
 permalink: daily/2024/02/11/ryan-weaver
 snippet: |

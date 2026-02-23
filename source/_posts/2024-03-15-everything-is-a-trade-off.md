@@ -1,4 +1,5 @@
 ---
+date: 2024-03-15
 title: Everything is a trade-off
 permalink: daily/2024/03/15/everything-is-a-trade-off
 tags:

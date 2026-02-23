@@ -1,4 +1,5 @@
 ---
+date: 2024-03-27
 title: Hotfixing without branches
 permalink: daily/2024/03/27/hotfixing-without-branches
 tags:

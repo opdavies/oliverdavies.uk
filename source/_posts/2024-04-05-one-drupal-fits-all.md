@@ -1,4 +1,5 @@
 ---
+date: 2024-04-05
 title: One Drupal fits all
 permalink: daily/2024/04/05/one-drupal-fits-all
 tags:

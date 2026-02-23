@@ -1,4 +1,5 @@
 ---
+date: 2025-02-05
 title: Drupal and the Open Web
 permalink: daily/2025/02/05/open
 tags:

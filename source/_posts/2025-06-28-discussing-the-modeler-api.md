@@ -1,4 +1,5 @@
 ---
+date: 2025-06-28
 title: Discussing the Modeler API with Jürgen Haas
 permalink: /daily/2025/06/28/discussing-modeler-api-jurgen-haas
 ---

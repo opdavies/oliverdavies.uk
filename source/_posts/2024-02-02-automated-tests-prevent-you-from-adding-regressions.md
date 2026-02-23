@@ -1,4 +1,5 @@
 ---
+date: 2024-02-02
 title: Automated tests prevent you from adding regressions
 permalink: daily/2024/02/02/automated-tests-prevent-you-from-adding-regressions
 snippet: |

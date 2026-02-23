@@ -1,4 +1,5 @@
 ---
+date: 2018-11-20
 title: DrupalCamp London 2019 - Tickets Available and Call for Sessions
 excerpt: DrupalCamp London early-bird tickets are now available, and their call for sessions is open.
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-05-02
 title: Re-evaluating old tools
 permalink: daily/2024/05/02/re-evaluating-old-tools
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-02-27
 title: Building a design system in a few hours with Symfony
 permalink: daily/2024/02/27/building-a-design-system-in-a-few-hours-with-symfony
 tags:

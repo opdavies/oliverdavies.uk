@@ -1,4 +1,5 @@
 ---
+date: 2024-11-18
 title: drush deploy
 permalink: daily/2024/11/18/drush-deploy
 tags:

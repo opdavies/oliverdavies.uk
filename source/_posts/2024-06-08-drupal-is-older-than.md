@@ -1,4 +1,5 @@
 ---
+date: 2024-06-08
 title: Drupal is older than...
 permalink: daily/2024/06/08/drupal-is-older-than
 tags:

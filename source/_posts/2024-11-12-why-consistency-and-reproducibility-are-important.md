@@ -1,4 +1,5 @@
 ---
+date: 2024-11-12
 title: Why consistency and reproducibility are important
 permalink: daily/2024/11/12/why-consistency-and-reproducibility-are-important
 tags:

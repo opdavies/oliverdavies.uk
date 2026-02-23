@@ -1,4 +1,5 @@
 ---
+date: 2019-09-13
 title: Live Blogging From SymfonyLive London 2019
 tags:
   - conference

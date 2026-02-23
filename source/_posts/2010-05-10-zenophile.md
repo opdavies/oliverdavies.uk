@@ -1,4 +1,5 @@
 ---
+date: 2010-05-10
 title: Quickly Create Zen Subthemes Using Zenophile
 excerpt: How to use the Zenophile module to create a Zen subtheme.
 tags:

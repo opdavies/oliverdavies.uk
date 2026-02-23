@@ -1,4 +1,5 @@
 ---
+date: 2010-08-17
 title: Create a Better Photo Gallery in Drupal - Part 2
 excerpt: Updating the galleries' created and modified dates.
 tags:

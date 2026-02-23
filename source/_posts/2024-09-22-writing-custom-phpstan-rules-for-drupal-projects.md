@@ -1,4 +1,5 @@
 ---
+date: 2024-09-22
 title: Writing custom PHPStan rules for Drupal projects
 permalink: daily/2024/09/22/writing-custom-phpstan-rules-for-drupal-projects
 tags:

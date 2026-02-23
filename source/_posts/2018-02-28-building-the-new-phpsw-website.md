@@ -1,4 +1,5 @@
 ---
+date: 2018-02-28
 title: Building the new PHPSW Website
 excerpt: Earlier this week we had another hack night, working on the new PHPSW user group website.
 tags:

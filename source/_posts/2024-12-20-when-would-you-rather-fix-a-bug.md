@@ -1,4 +1,5 @@
 ---
+date: 2024-12-20
 title: When would you rather fix a bug?
 permalink: daily/2024/12/20/bug
 tags:

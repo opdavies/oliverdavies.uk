@@ -1,4 +1,5 @@
 ---
+date: 2024-03-08
 title: Conventions over readability?
 permalink: daily/2024/03/08/conventions-over-readability
 tags:

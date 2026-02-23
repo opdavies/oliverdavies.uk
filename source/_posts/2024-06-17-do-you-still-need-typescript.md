@@ -1,4 +1,5 @@
 ---
+date: 2024-06-17
 title: Do you still need TypeScript?
 permalink: daily/2024/06/17/do-you-still-need-typescript
 tags:

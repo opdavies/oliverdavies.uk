@@ -1,4 +1,5 @@
 ---
+date: 2025-01-26
 title: Why I like Drupal's Layout Builder
 permalink: daily/2025/01/26/layout-builder
 tags:

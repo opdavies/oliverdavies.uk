@@ -1,4 +1,5 @@
 ---
+date: 2024-08-26
 title: Named arguments add context
 permalink: daily/2024/08/26/named-arguments-add-context
 tags:

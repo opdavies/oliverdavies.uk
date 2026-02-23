@@ -1,4 +1,5 @@
 ---
+date: 2010-06-02
 title: Improve JPG Quality in Imagecache and ImageAPI
 excerpt: How to fix the quality of uploaded images in Drupal.
 tags:

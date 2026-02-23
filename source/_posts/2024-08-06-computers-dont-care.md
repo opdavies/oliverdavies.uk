@@ -1,4 +1,5 @@
 ---
+date: 2024-08-06
 title: Computers don't care
 permalink: daily/2024/08/06/computers-dont-care
 tags:

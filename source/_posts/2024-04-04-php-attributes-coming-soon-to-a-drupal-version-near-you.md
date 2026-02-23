@@ -1,4 +1,5 @@
 ---
+date: 2024-04-04
 title: 'PHP attributes: coming soon to a Drupal version near you'
 permalink: daily/2024/04/04/php-attributes--coming-soon-to-a-drupal-version-near-you
 tags:

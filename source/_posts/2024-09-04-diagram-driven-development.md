@@ -1,4 +1,5 @@
 ---
+date: 2024-09-04
 title: Diagram-driven development
 permalink: daily/2024/09/04/diagram-driven-development
 tags:

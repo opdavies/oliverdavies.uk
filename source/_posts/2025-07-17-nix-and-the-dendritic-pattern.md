@@ -1,4 +1,5 @@
 ---
+date: 2025-07-17
 title: Nix and the Dendritic pattern
 permalink: /daily/2025/07/17/nix-and-dendritic-pattern
 ---

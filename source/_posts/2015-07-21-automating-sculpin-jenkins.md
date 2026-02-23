@@ -1,4 +1,5 @@
 ---
+date: 2015-07-21
 title: Automating Sculpin Builds with Jenkins CI
 excerpt: How to use Jenkins to automate building Sculpin websites.
 tags:

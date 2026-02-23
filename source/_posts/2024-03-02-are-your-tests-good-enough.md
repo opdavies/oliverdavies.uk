@@ -1,4 +1,5 @@
 ---
+date: 2024-03-02
 title: Are your tests good enough?
 permalink: daily/2024/03/02/are-your-tests-good-enough
 tags:

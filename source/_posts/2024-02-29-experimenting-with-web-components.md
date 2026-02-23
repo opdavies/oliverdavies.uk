@@ -1,4 +1,5 @@
 ---
+date: 2024-02-29
 title: Experimenting with web components
 permalink: daily/2024/02/29/experimenting-with-web-components
 tags:

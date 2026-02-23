@@ -1,4 +1,5 @@
 ---
+date: 2025-03-03
 title: How much would it cost to build Drupal?
 permalink: daily/2025/03/03/cost
 tags:

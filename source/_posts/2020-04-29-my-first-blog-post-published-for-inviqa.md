@@ -1,4 +1,5 @@
 ---
+date: 2020-04-29
 title: My first blog post published for Inviqa
 excerpt: My first blog post has been published on the inviqa.com website.
 tags:

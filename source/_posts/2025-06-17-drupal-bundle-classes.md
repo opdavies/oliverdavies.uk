@@ -1,4 +1,5 @@
 ---
+date: 2025-06-17
 title: Drupal Bundle Classes
 permalink: /daily/2025/06/17/drupal-bundle-classes
 ---

@@ -1,4 +1,5 @@
 ---
+date: 2021-02-24
 title: Decorating an Entity Metadata Wrapper to add and refactor methods
 excerpt: How to use the Decorator design pattern with Drupal 7's EntityMetadataWrapper to extend it, and add and refactor custom methods.
 tags:

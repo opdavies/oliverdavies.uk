@@ -1,4 +1,5 @@
 ---
+date: 2010-05-29
 title: Quickly Import Multiples Images Using the Imagefield_Import Module
 excerpt: How to use the Imagefield Import module.
 tags:

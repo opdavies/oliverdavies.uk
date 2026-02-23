@@ -1,4 +1,5 @@
 ---
+date: 2024-01-28
 title: Ignoring things globally
 permalink: daily/2024/01/28/ignoring-things-globally
 snippet: |

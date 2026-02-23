@@ -1,4 +1,5 @@
 ---
+date: 2025-07-08
 title: Writing robust bash scripts with Nix
 permalink: /daily/2025/07/08/writing-robust-bash-scripts-nix
 ---

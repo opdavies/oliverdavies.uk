@@ -1,4 +1,5 @@
 ---
+date: 2024-06-03
 title: Writing comments first
 permalink: daily/2024/06/03/writing-comments-first
 tags:

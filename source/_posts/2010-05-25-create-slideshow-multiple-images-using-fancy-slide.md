@@ -1,4 +1,5 @@
 ---
+date: 2010-05-25
 title: Create a Slideshow of Multiple Images Using Fancy Slide
 excerpt: How to create a slideshow of images using Drupal's Fancy Slide module.
 tags:

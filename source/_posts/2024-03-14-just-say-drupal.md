@@ -1,4 +1,5 @@
 ---
+date: 2024-03-14
 title: Just say Drupal
 permalink: daily/2024/03/14/just-say-drupal
 tags:

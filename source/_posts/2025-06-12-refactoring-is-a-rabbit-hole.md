@@ -1,4 +1,5 @@
 ---
+date: 2025-06-12
 title: Refactoring is a rabbit hole
 permalink: /daily/2025/06/12/refactoring-rabbit-hole
 ---

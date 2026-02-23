@@ -1,4 +1,5 @@
 ---
+date: 2017-11-07
 title: Writing a new Drupal 8 Module using Test-Driven Development (TDD)
 tags:
   - drupal

@@ -1,4 +1,5 @@
 ---
+date: 2024-04-03
 title: Switching web servers using Build Configs
 permalink: daily/2024/04/03/switching-web-servers-using-build-configs
 tags:

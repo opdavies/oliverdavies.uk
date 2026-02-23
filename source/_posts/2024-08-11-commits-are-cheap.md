@@ -1,4 +1,5 @@
 ---
+date: 2024-08-11
 title: Commits are cheap
 permalink: daily/2024/08/11/commits-are-cheap
 tags:

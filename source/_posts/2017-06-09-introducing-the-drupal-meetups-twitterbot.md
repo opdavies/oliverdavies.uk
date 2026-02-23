@@ -1,4 +1,5 @@
 ---
+date: 2017-06-09
 title: Introducing the Drupal Meetups Twitterbot
 excerpt: I've written a twitterbot for promoting Drupal meetups.
 tags:

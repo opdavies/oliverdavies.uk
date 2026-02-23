@@ -1,4 +1,5 @@
 ---
+date: 2024-04-02
 title: Releasing a new project one page at a time
 permalink: daily/2024/04/02/releasing-a-new-project-one-page-at-a-time
 tags:

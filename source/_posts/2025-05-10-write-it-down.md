@@ -1,4 +1,5 @@
 ---
+date: 2025-05-10
 title: Write it down
 permalink: /daily/2025/05/10/write
 ---

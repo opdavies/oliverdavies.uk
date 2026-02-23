@@ -1,4 +1,5 @@
 ---
+date: 2011-05-23
 title: Imagefield Import Archive
 excerpt: I've finally uploaded my first module onto Drupal.org!
 tags:

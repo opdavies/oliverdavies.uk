@@ -1,4 +1,5 @@
 ---
+date: 2025-02-14
 title: Drupalisms and de-jargoning Drupal
 permalink: daily/2025/02/14/drupalisms
 tags:

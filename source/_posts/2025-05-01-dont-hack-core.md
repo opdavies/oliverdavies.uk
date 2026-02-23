@@ -1,4 +1,5 @@
 ---
+date: 2025-05-01
 title: Don't hack core
 permalink: daily/2025/05/01/hack
 tags:

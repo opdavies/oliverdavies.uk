@@ -1,4 +1,5 @@
 ---
+date: 2024-08-20
 title: Writing bash scripts with Nix
 permalink: daily/2024/08/20/writing-bash-scripts-with-nix
 tags:

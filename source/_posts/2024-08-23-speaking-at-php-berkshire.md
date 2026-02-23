@@ -1,4 +1,5 @@
 ---
+date: 2024-08-23
 title: Speaking at PHP Berkshire
 permalink: daily/2024/08/23/speaking-at-php-berkshire
 tags:

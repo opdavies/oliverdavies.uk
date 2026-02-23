@@ -1,4 +1,5 @@
 ---
+date: 2024-10-01
 title: Not all legacy code is technical debt
 permalink: daily/2024/10/01/not-all-legacy-code-is-technical-debt
 tags:

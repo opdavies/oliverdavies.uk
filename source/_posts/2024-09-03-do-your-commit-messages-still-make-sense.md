@@ -1,4 +1,5 @@
 ---
+date: 2024-09-03
 title: Do your commit messages still make sense?
 permalink: daily/2024/09/03/do-your-commit-messages-still-make-sense
 tags:

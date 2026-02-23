@@ -1,4 +1,5 @@
 ---
+date: 2024-12-27
 title: How quickly can you create or update an environment?
 permalink: daily/2024/12/27/quick
 tags:

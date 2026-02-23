@@ -1,4 +1,5 @@
 ---
+date: 2016-02-15
 title: Announcing the Drupal VM Generator
 excerpt: For the past few weeks, I've been working on a personal side project based on Drupal VM - the Drupal VM Generator.
 tags:

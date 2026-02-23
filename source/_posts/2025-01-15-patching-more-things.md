@@ -1,4 +1,5 @@
 ---
+date: 2025-01-15
 title: Patching more things
 permalink: daily/2025/01/15/more-patches
 tags:

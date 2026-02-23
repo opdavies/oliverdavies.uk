@@ -1,4 +1,5 @@
 ---
+date: 2025-07-22
 title: Implementing the dendritic pattern
 permalink: /daily/2025/07/22/implementing-dendritic-pattern
 ---

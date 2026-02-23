@@ -1,4 +1,5 @@
 ---
+date: 2020-07-30
 title: Streaming with Spabby (Gary Hockin) about Drupal
 excerpt: I recently joined my friend Gary on his stream to discuss Drupal.
 tags:

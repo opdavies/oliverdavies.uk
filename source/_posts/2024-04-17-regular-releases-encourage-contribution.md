@@ -1,4 +1,5 @@
 ---
+date: 2024-04-17
 title: Regular releases encourage contribution
 permalink: daily/2024/04/17/regular-releases-encourage-contribution
 tags:

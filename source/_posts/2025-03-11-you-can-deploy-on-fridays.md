@@ -1,4 +1,5 @@
 ---
+date: 2025-03-11
 title: You can deploy on Fridays
 permalink: daily/2025/03/11/friday
 tags:

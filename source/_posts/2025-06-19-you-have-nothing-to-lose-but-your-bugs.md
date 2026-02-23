@@ -1,4 +1,5 @@
 ---
+date: 2025-06-19
 title: You have nothing to lose but your bugs
 permalink: /daily/2025/06/19/you-have-nothing-lose-your-bugs
 ---

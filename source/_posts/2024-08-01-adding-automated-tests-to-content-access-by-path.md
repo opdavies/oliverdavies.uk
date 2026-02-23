@@ -1,4 +1,5 @@
 ---
+date: 2024-08-01
 title: Adding automated tests to Content Access by Path
 permalink: daily/2024/08/01/adding-automated-tests-to-content-access-by-path
 tags:

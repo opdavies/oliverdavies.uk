@@ -1,4 +1,5 @@
 ---
+date: 2025-05-07
 title: Plain text TODOs
 permalink: daily/2025/05/07/st
 tags:

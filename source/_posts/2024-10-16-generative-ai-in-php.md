@@ -1,4 +1,5 @@
 ---
+date: 2024-10-16
 title: Generative AI in PHP
 permalink: daily/2024/10/16/generative-ai-in-php
 tags:

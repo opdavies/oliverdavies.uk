@@ -1,4 +1,5 @@
 ---
+date: 2025-01-12
 title: Don't over rely on AI
 permalink: daily/2025/01/12/reliance
 tags:

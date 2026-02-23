@@ -1,4 +1,5 @@
 ---
+date: 2024-11-27
 title: Nix as an operating system
 permalink: daily/2024/11/27/nix-as-an-operating-system
 tags:

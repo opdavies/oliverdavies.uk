@@ -1,4 +1,5 @@
 ---
+date: 2010-10-10
 title: How to Create and Apply Patches
 excerpt: How to create and apply patches, ready for the Drupal.org issue queues.
 tags:

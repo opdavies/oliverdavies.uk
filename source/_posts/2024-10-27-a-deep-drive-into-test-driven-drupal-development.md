@@ -1,4 +1,5 @@
 ---
+date: 2024-10-27
 title: A deep drive into test-driven Drupal development
 permalink: daily/2024/10/27/a-deep-drive-into-test-driven-drupal-development
 tags:

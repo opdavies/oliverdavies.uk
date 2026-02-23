@@ -1,4 +1,5 @@
 ---
+date: 2025-01-19
 title: Minimum viable development environment
 permalink: daily/2025/01/19/minimum-viable-development-environment
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-04-10
 title: Resurrecting the Speakerdeck Field module
 permalink: daily/2024/04/10/resurrecting-the-speakerdeck-field-module
 tags:

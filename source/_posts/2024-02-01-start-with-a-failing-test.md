@@ -1,4 +1,5 @@
 ---
+date: 2024-02-01
 title: Start with a failing test
 permalink: daily/2024/02/01/start-with-a-failing-test
 snippet: |

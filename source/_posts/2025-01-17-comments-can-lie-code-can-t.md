@@ -1,4 +1,5 @@
 ---
+date: 2025-01-17
 title: Comments can lie. Code can't.
 permalink: daily/2025/01/17/lies
 tags:

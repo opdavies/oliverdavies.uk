@@ -1,4 +1,5 @@
 ---
+date: 2024-01-02
 title: Flexible Mob and Pair Programming
 permalink: daily/2024/01/02/flexible-pair-programming
 snippet: |

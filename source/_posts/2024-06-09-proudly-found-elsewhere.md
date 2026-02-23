@@ -1,4 +1,5 @@
 ---
+date: 2024-06-09
 title: Proudly found elsewhere
 permalink: daily/2024/06/09/proudly-found-elsewhere
 tags:

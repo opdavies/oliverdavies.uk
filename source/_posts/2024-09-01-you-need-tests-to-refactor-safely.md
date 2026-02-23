@@ -1,4 +1,5 @@
 ---
+date: 2024-09-01
 title: You need tests to refactor safely
 permalink: daily/2024/09/01/you-need-tests-to-refactor-safely
 tags:

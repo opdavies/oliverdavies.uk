@@ -1,4 +1,5 @@
 ---
+date: 2025-02-04
 title: Good software is easy to change
 permalink: daily/2025/02/04/changeable
 tags:

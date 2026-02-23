@@ -1,4 +1,5 @@
 ---
+date: 2024-05-06
 title: Interactive staging
 permalink: daily/2024/05/06/interactive-staging
 tags:

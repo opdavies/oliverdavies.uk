@@ -1,4 +1,5 @@
 ---
+date: 2024-02-07
 title: Running tests in parallel with Paratest
 permalink: daily/2024/02/07/running-tests-in-parallel-with-paratest
 snippet: |

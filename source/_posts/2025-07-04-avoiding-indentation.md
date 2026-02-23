@@ -1,4 +1,5 @@
 ---
+date: 2025-07-04
 title: Avoiding indentation
 permalink: /daily/2025/07/04/avoiding-indentation
 ---

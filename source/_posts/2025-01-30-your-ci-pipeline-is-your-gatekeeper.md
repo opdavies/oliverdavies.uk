@@ -1,4 +1,5 @@
 ---
+date: 2025-01-30
 title: Your CI pipeline is your gatekeeper
 permalink: daily/2025/01/30/gatekeeper
 tags:

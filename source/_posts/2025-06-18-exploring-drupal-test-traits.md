@@ -1,4 +1,5 @@
 ---
+date: 2025-06-18
 title: Exploring Drupal Test Traits
 permalink: /daily/2025/06/18/exploring-drupal-test-traits
 ---

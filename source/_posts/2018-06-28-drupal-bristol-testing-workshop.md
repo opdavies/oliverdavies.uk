@@ -1,4 +1,5 @@
 ---
+date: 2018-06-28
 title: Drupal Bristol Testing Workshop
 excerpt: Yesterday evening, I did my first workshop, held at the Drupal Bristol user group.
 tags:

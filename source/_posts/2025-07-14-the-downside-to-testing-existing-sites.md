@@ -1,4 +1,5 @@
 ---
+date: 2025-07-14
 title: The downside to testing existing sites
 permalink: /daily/2025/07/14/downside-testing-existing-sites
 ---

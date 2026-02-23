@@ -1,4 +1,5 @@
 ---
+date: 2014-11-27
 title: Include environment-specific settings files on Pantheon
 excerpt: How to load a different settings file per environment on Pantheon.
 tags:

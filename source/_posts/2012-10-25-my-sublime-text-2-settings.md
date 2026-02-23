@@ -1,4 +1,5 @@
 ---
+date: 2012-10-25
 title: My Sublime Text 2 settings
 excerpt: <a href="http://www.sublimetext.com/2" title="Sublime Text 2">Sublime Text 2</a> has been my text editor of choice for the past few months, and I use it at home, in work, and on any virtual machines that I run. So rather than having to manually re-enter my settings each time, I thought that I'd document them here for future reference.
 tags:

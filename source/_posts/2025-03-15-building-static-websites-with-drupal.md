@@ -1,4 +1,5 @@
 ---
+date: 2025-03-15
 title: Building static websites with Drupal
 permalink: daily/2025/03/15/tome
 tags:

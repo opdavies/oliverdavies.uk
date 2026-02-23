@@ -1,4 +1,5 @@
 ---
+date: 2024-03-22
 title: Watching all the things
 permalink: daily/2024/03/22/watching-all-the-things
 tags:

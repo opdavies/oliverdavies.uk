@@ -1,4 +1,5 @@
 ---
+date: 2024-04-28
 title: Replicating a bug with a test
 permalink: daily/2024/04/28/replicating-a-bug-with-a-test
 tags:

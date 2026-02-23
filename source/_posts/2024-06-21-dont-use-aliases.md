@@ -1,4 +1,5 @@
 ---
+date: 2024-06-21
 title: Don't use aliases
 permalink: daily/2024/06/21/dont-use-aliases
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-01-05
 title: PHP in Neovim
 permalink: daily/2024/01/05/php-in-neovim
 snippet: |-

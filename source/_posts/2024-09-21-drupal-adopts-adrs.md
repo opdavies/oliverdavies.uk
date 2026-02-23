@@ -1,4 +1,5 @@
 ---
+date: 2024-09-21
 title: Drupal adopts ADRs
 permalink: daily/2024/09/21/drupal-adopts-adrs
 tags:

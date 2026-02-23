@@ -1,4 +1,5 @@
 ---
+date: 2025-07-09
 title: Discussing web accessibility with Mike Gifford
 permalink: /daily/2025/07/09/discussing-web-accessibility-mike-gifford
 ---

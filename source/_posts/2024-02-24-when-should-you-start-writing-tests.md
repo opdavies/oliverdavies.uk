@@ -1,4 +1,5 @@
 ---
+date: 2024-02-24
 title: When should you start writing tests?
 permalink: daily/2024/02/24/when-should-you-start-writing-tests
 snippet: |

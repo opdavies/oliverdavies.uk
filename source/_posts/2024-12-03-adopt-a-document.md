@@ -1,4 +1,5 @@
 ---
+date: 2024-12-03
 title: Adopt a Document
 permalink: daily/2024/12/03/adopt-a-document
 tags:

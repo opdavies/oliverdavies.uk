@@ -1,4 +1,5 @@
 ---
+date: 2025-01-27
 title: Should you have a separate front-end for your Drupal website?
 permalink: daily/2025/01/27/separate-front-end
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-06-02
 title: Squashing commits can be OK
 permalink: /daily/2025/06/02/squashing-commits-can-be-ok
 ---

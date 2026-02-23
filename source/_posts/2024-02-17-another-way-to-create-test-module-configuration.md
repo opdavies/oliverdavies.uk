@@ -1,4 +1,5 @@
 ---
+date: 2024-02-17
 title: Another way to create test module configuration
 permalink: daily/2024/02/17/another-way-to-create-test-module-configuration
 snippet: |

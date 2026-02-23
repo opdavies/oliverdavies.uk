@@ -1,4 +1,5 @@
 ---
+date: 2025-07-25
 title: Drupal roles are layerable
 permalink: /daily/2025/07/25/drupal-roles-are-layerable
 ---

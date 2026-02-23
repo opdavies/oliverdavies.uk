@@ -1,4 +1,5 @@
 ---
+date: 2010-06-25
 title: 10 Useful Drupal 6 Modules
 excerpt: A list of 10 contributed modules that I currently use on each Drupal project.
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-06-04
 title: Picking cherries
 permalink: /daily/2025/06/04/picking-cherries
 ---

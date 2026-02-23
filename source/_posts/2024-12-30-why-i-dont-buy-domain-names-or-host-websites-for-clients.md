@@ -1,4 +1,5 @@
 ---
+date: 2024-12-30
 title: Why I don't buy domain names or host websites for clients
 permalink: daily/2024/12/30/domain-names
 tags:

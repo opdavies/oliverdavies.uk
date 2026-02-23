@@ -1,4 +1,5 @@
 ---
+date: 2025-02-12
 title: Small and fast
 permalink: daily/2025/02/12/small-and-fast
 tags:

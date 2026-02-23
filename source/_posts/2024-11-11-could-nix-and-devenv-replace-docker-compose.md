@@ -1,4 +1,5 @@
 ---
+date: 2024-11-11
 title: Could Nix and devenv replace Docker Compose?
 permalink: daily/2024/11/11/could-nix-and-devenv-replace-docker-compose
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-03-17
 title: An example of feature flagging
 permalink: daily/2025/03/17/feature-flags
 tags:

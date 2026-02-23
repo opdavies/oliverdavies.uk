@@ -1,4 +1,5 @@
 ---
+date: 2025-02-16
 title: Don't pre-optimise
 permalink: daily/2025/02/16/pre-optimise
 tags:

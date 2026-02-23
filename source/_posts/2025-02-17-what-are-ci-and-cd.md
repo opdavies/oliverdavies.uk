@@ -1,4 +1,5 @@
 ---
+date: 2025-02-17
 title: What are CI and CD?
 permalink: daily/2025/02/17/ci-cd
 tags:

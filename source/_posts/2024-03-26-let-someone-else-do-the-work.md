@@ -1,4 +1,5 @@
 ---
+date: 2024-03-26
 title: Let someone else do the work
 permalink: daily/2024/03/26/let-someone-else-do-the-work
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-07-15
 title: The power of arbitrary classes
 permalink: daily/2024/07/15/the-power-of-arbitrary-classes
 tags:

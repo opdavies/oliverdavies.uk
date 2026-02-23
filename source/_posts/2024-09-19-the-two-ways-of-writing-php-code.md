@@ -1,4 +1,5 @@
 ---
+date: 2024-09-19
 title: The two ways of writing PHP code
 permalink: daily/2024/09/19/the-two-ways-of-writing-php-code
 tags:

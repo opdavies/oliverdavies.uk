@@ -1,4 +1,5 @@
 ---
+date: 2024-02-13
 title: It takes the drama out of open-source
 permalink: daily/2024/02/13/it-takes-the-drama-out-of-open-source
 snippet: |

@@ -1,4 +1,5 @@
 ---
+date: 2024-04-23
 title: Why use a static site generator
 permalink: daily/2024/04/23/why-use-a-static-site-generator
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-07-13
 title: Drupal Test Traits is not a replacement for traditional tests
 permalink: /daily/2025/07/13/drupal-test-traits-not-replacement-traditional-tests
 ---

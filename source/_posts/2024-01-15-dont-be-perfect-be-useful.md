@@ -1,4 +1,5 @@
 ---
+date: 2024-01-15
 title: Don't be perfect, be useful
 permalink: daily/2024/01/15/don-t-be-perfect--be-useful
 snippet: |

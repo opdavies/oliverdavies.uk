@@ -1,4 +1,5 @@
 ---
+date: 2017-07-13
 title: Publishing Sculpin Sites with GitHub Pages
 excerpt: How I moved my website to GitHub pages.
 tags:

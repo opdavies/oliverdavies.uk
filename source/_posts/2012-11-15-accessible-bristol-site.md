@@ -1,4 +1,5 @@
 ---
+date: 2012-11-15
 title: Accessible Bristol site launched
 excerpt: I'm happy to report that the Accessible Bristol was launched this week, on Drupal 7.
 tags:

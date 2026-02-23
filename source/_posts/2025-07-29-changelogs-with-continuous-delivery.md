@@ -1,4 +1,5 @@
 ---
+date: 2025-07-29
 title: Changelogs with Continuous Delivery
 permalink: /daily/2025/07/29/changelogs-continuous-delivery
 ---

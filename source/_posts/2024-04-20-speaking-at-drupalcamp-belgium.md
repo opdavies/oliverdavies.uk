@@ -1,4 +1,5 @@
 ---
+date: 2024-04-20
 title: Speaking at DrupalCamp Belgium
 permalink: daily/2024/04/20/speaking-at-drupalcamp-belgium
 tags:

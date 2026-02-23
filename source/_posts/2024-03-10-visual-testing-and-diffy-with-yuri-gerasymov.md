@@ -1,4 +1,5 @@
 ---
+date: 2024-03-10
 title: Visual testing and Diffy with Yuri Gerasymov
 permalink: daily/2024/03/10/visual-testing-and-diffy-with-yuri-gerasymov
 tags:

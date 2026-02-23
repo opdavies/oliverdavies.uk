@@ -1,4 +1,5 @@
 ---
+date: 2025-02-02
 title: What's the simplest solution?
 permalink: daily/2025/02/02/simple
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-01-23
 title: Why use automation tools for dependency updates
 permalink: daily/2024/01/23/why-use-automation-tools-for-dependency-updates
 snippet: |

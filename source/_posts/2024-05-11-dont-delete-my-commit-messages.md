@@ -1,4 +1,5 @@
 ---
+date: 2024-05-11
 title: Don't delete my commit messages
 permalink: daily/2024/05/11/don-t-delete-my-commit-messages
 tags:

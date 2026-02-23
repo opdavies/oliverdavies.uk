@@ -1,4 +1,5 @@
 ---
+date: 2024-03-30
 title: Leaving a trail of breadcrumbs
 permalink: daily/2024/03/30/leaving-a-trail-of-breadcrumbs
 tags:

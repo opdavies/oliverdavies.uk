@@ -1,4 +1,5 @@
 ---
+date: 2024-04-06
 title: Drupal is a content management framework
 permalink: daily/2024/04/06/drupal-is-a-content-management-framework
 tags:

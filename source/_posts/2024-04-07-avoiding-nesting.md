@@ -1,4 +1,5 @@
 ---
+date: 2024-04-07
 title: Avoiding nesting
 permalink: daily/2024/04/07/avoiding-nesting
 tags:

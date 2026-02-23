@@ -1,4 +1,5 @@
 ---
+date: 2024-05-22
 title: '`git revert` is your friend'
 permalink: daily/2024/05/22/git-revert-is-your-friend
 tags:

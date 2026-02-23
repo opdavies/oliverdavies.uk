@@ -1,4 +1,5 @@
 ---
+date: 2025-02-22
 title: Speaking at PHP Thames Valley
 permalink: daily/2025/02/22/speaking-at-php-thames-valley
 tags:

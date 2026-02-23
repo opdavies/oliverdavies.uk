@@ -1,4 +1,5 @@
 ---
+date: 2025-02-27
 title: Smaller modules are more reusable
 permalink: daily/2025/02/27/reusability
 tags:

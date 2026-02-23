@@ -1,4 +1,5 @@
 ---
+date: 2015-06-18
 title: Updating Forked Repositories on GitHub
 excerpt: I just had to update a repo that I forked on GitHub. This is how I did it. Did I do it the correct way?
 tags:

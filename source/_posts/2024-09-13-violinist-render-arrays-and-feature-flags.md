@@ -1,4 +1,5 @@
 ---
+date: 2024-09-13
 title: Violinist, render arrays and feature flags
 permalink: daily/2024/09/13/violinist-render-arrays-and-feature-flags
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-08-30
 title: Revisiting the Null Object pattern in Drupal
 permalink: daily/2024/08/30/revisiting-the-null-object-pattern-in-drupal
 tags:

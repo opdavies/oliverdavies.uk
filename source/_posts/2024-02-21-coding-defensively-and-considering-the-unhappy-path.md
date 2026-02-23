@@ -1,4 +1,5 @@
 ---
+date: 2024-02-21
 title: Coding defensively and considering the unhappy path
 permalink: daily/2024/02/21/coding-defensively-and-considering-the-unhappy-path
 snippet: |

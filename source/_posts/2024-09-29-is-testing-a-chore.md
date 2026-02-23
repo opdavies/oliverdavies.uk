@@ -1,4 +1,5 @@
 ---
+date: 2024-09-29
 title: Is testing a chore?
 permalink: daily/2024/09/29/is-testing-a-chore
 tags:

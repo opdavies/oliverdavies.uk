@@ -1,4 +1,5 @@
 ---
+date: 2025-07-18
 title: The John Carmack plan
 permalink: /daily/2025/07/18/john-carmack-plan
 ---

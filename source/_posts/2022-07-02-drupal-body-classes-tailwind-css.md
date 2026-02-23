@@ -1,4 +1,5 @@
 ---
+date: 2022-07-02
 title: Exporting Drupal body classes to use with Tailwind CSS
 excerpt: How I've exported content from Drupal's body fields so they aren't missed by Tailwind's JIT mode or PurgeCSS.
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-09-16
 title: Experimenting with the Default Content module
 permalink: daily/2024/09/16/experimenting-with-the-default-content-module
 tags:

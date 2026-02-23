@@ -1,4 +1,5 @@
 ---
+date: 2024-12-10
 title: Docker and NixOS playing nicely together
 permalink: daily/2024/12/10/docker-nixos
 tags:

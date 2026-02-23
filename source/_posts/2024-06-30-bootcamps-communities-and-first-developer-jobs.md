@@ -1,4 +1,5 @@
 ---
+date: 2024-06-30
 title: Bootcamps, communities and first Developer jobs
 permalink: daily/2024/06/30/bootcamps--communities-and-first-developer-jobs
 tags:

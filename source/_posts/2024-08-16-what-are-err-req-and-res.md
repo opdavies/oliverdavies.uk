@@ -1,4 +1,5 @@
 ---
+date: 2024-08-16
 title: What are err, req and res?
 permalink: daily/2024/08/16/what-are-err--req-and-res
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-07-26
 title: Don't share user accounts
 permalink: /daily/2025/07/26/dont-share-user-accounts
 ---

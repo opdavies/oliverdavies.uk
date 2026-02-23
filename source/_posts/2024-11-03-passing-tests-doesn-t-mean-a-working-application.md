@@ -1,4 +1,5 @@
 ---
+date: 2024-11-03
 title: Passing tests doesn't mean a working application
 permalink: daily/2024/11/03/passing-tests-doesnt-mean-a-working-application
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-01-25
 title: Why should you upgrade from Drupal 7?
 permalink: daily/2025/01/25/upgrade
 tags:

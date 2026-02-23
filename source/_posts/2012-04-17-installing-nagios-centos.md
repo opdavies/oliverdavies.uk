@@ -1,4 +1,5 @@
 ---
+date: 2012-04-17
 title: Installing Nagios on CentOS
 excerpt: How to install Nagios on CentOS.
 tags:

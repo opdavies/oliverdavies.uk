@@ -1,4 +1,5 @@
 ---
+date: 2024-12-19
 title: Working iteratively
 permalink: daily/2024/12/19/working-iteratively
 tags:

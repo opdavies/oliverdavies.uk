@@ -1,4 +1,5 @@
 ---
+date: 2025-03-27
 title: Drupal test writer for hire
 permalink: daily/2025/03/27/for-hire
 tags:

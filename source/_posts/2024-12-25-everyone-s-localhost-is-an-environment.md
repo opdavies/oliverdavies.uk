@@ -1,4 +1,5 @@
 ---
+date: 2024-12-25
 title: Everyone's localhost is an environment
 permalink: daily/2024/12/25/localhost
 tags:

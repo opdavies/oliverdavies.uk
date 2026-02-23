@@ -1,4 +1,5 @@
 ---
+date: 2010-10-22
 title: Create a Better Photo Gallery in Drupal - Part 2.1
 excerpt: The missing code to get totals of galleries and photos.
 tags:

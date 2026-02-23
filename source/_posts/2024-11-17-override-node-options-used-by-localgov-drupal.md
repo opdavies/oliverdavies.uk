@@ -1,4 +1,5 @@
 ---
+date: 2024-11-17
 title: Override Node Options used by LocalGov Drupal
 permalink: daily/2024/11/17/override-node-options-used-by-localgov-drupal
 tags:

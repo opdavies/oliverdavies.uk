@@ -1,4 +1,5 @@
 ---
+date: 2024-05-19
 title: Better commit messages means better pull requests
 permalink: daily/2024/05/19/better-commit-messages-better-pull-requests
 tags:

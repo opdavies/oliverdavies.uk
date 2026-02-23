@@ -1,4 +1,5 @@
 ---
+date: 2024-06-22
 title: Aliases and abbreviations
 permalink: daily/2024/06/22/aliases-and-abbreviations
 tags:

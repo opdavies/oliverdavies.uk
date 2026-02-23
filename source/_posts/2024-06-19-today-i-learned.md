@@ -1,4 +1,5 @@
 ---
+date: 2024-06-19
 title: Today I learned
 permalink: daily/2024/06/19/today-i-learned
 tags:

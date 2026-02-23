@@ -1,4 +1,5 @@
 ---
+date: 2025-05-12
 title: Writing tests for Tome
 permalink: /daily/2025/05/12/writing-tests-tome
 ---

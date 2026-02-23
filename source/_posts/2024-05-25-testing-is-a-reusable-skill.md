@@ -1,4 +1,5 @@
 ---
+date: 2024-05-25
 title: Testing is a reusable skill
 permalink: daily/2024/05/25/testing-is-a-reusable-skill
 tags:

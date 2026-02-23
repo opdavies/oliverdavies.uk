@@ -1,4 +1,5 @@
 ---
+date: 2024-10-22
 title: How would you write this test name?
 permalink: daily/2024/10/22/how-would-you-write-this-test-name
 tags:

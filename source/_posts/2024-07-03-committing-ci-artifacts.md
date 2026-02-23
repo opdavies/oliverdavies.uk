@@ -1,4 +1,5 @@
 ---
+date: 2024-07-03
 title: Committing CI artifacts
 permalink: daily/2024/07/03/committing-ci-artifacts
 tags:

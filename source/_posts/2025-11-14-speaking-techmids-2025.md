@@ -1,4 +1,5 @@
 ---
+date: 2025-11-14
 title: Speaking at TechMids 2025
 excerpt: |
   Today, I gave a last mintute talk about Nix and PHP at the TechMids 2025 conference in Birmingham, UK.

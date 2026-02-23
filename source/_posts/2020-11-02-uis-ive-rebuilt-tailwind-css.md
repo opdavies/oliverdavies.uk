@@ -1,4 +1,5 @@
 ---
+date: 2020-11-02
 title: UIs that I've Rebuilt with Tailwind CSS
 excerpt: A collection of all of the UIs that I've rebuilt using Tailwind CSS for talk demos etc.
 tags:

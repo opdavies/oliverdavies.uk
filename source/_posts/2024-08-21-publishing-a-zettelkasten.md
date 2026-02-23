@@ -1,4 +1,5 @@
 ---
+date: 2024-08-21
 title: Publishing a Zettelkasten
 permalink: daily/2024/08/21/publishing-a-zettelkasten
 tags:

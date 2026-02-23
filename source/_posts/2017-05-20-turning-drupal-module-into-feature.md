@@ -1,4 +1,5 @@
 ---
+date: 2017-05-20
 title: Turning Your Custom Drupal Module into a Feature
 excerpt: How to turn a custom Drupal module into a Feature.
 tags:

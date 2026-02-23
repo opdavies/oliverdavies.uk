@@ -1,4 +1,5 @@
 ---
+date: 2025-06-14
 title: Do code reviews prevent refactoring?
 permalink: /daily/2025/06/14/do-code-reviews-prevent-refactoring
 ---

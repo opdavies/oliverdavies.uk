@@ -1,4 +1,5 @@
 ---
+date: 2024-08-27
 title: Build Configs is now public and open-source
 permalink: daily/2024/08/27/build-configs-is-open-source
 tags:

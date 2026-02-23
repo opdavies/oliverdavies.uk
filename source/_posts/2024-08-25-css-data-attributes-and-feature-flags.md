@@ -1,4 +1,5 @@
 ---
+date: 2024-08-25
 title: CSS, data attributes and feature flags
 permalink: daily/2024/08/25/css--data-attributes-and-feature-flags
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-02-28
 title: Why I don't branch
 permalink: daily/2024/02/28/why-i-dont-branch
 tags:

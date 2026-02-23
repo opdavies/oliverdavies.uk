@@ -1,4 +1,5 @@
 ---
+date: 2024-09-25
 title: Are you a real Developer?
 permalink: daily/2024/09/25/are-you-a-real-developer
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2016-12-30
 title: Drupal VM Generator 2.9.1 Released
 excerpt: I've released some new versions of the Drupal VM Generator.
 tags:

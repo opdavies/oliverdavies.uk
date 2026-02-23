@@ -1,4 +1,5 @@
 ---
+date: 2026-01-30
 title: Writing my own Nix Flake templates
 tags: [nix, php, sculpin]
 ---

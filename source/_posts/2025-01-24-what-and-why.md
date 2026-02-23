@@ -1,4 +1,5 @@
 ---
+date: 2025-01-24
 title: What and why
 permalink: daily/2025/01/24/what-why
 tags:

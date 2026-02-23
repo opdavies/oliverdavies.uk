@@ -1,4 +1,5 @@
 ---
+date: 2024-08-17
 title: Types add context
 permalink: daily/2024/08/17/types-add-context
 tags:

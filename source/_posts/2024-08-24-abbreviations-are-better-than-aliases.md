@@ -1,4 +1,5 @@
 ---
+date: 2024-08-24
 title: Abbreviations are better than aliases
 permalink: daily/2024/08/24/abbreviations-are-better-than-aliases
 tags:

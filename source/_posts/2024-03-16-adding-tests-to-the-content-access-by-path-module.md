@@ -1,4 +1,5 @@
 ---
+date: 2024-03-16
 title: Adding tests to the Content Access by Path module
 permalink: daily/2024/03/16/adding-tests-to-the-content-access-by-path-module
 tags:

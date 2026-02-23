@@ -1,4 +1,5 @@
 ---
+date: 2024-04-13
 title: Rector is not just for Drupal
 permalink: daily/2024/04/13/rector-is-not-just-for-drupal
 tags:

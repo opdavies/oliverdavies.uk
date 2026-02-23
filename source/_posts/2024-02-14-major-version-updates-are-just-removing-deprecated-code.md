@@ -1,4 +1,5 @@
 ---
+date: 2024-02-14
 title: Major version updates are just removing deprecated code
 permalink: daily/2024/02/14/major-version-updates-are-just-removing-deprecated-code
 snippet: |

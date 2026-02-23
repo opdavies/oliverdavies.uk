@@ -1,4 +1,5 @@
 ---
+date: 2024-05-18
 title: Should you strictly enforce the 50/72 rule?
 permalink: daily/2024/05/18/should-you-strictly-enforce-the-5072-rule
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2025-01-03
 title: todo.txt is the simplest project management tool
 permalink: daily/2025/01/03/todotxt
 tags:

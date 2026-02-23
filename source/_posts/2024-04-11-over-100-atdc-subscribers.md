@@ -1,4 +1,5 @@
 ---
+date: 2024-04-11
 title: Over 100 ATDC subscribers
 permalink: daily/2024/04/11/over-100-atdc-subscribers
 tags:

@@ -1,4 +1,5 @@
 ---
+date: 2024-05-31
 title: Putting glue on pizza
 permalink: daily/2024/05/31/putting-glue-on-pizza
 tags:

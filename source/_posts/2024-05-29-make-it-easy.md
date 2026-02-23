@@ -1,4 +1,5 @@
 ---
+date: 2024-05-29
 title: Make it easy
 permalink: daily/2024/05/29/make-it-easy
 tags:

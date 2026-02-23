@@ -1,4 +1,5 @@
 ---
+date: 2012-05-23
 title: Checkout a specific revision from SVN from the command line
 excerpt: How to checkout a specific revision from a SVN (Subversion) repository.
 tags:

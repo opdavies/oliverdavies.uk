@@ -1,4 +1,5 @@
 ---
+date: 2025-01-20
 title: Reproducible or repeatable
 permalink: daily/2025/01/20/reproducible
 tags:

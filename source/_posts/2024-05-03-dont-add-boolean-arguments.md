@@ -1,4 +1,5 @@
 ---
+date: 2024-05-03
 title: Don't add boolean arguments
 permalink: daily/2024/05/03/dont-add-boolean-arguments
 tags:

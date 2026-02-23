@@ -1,4 +1,5 @@
 ---
+date: 2025-05-11
 title: My daily email archive, powered by Drupal and Tome
 permalink: /daily/2025/05/11/email-archive-tome
 ---

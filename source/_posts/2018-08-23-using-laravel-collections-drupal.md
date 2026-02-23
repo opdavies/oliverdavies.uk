@@ -1,4 +1,5 @@
 ---
+date: 2018-08-23
 title: Examples of using Laravel Collections in Drupal
 excerpt: Some examples of using Laravel's Illuminate Collections within Drupal projects.
 tags:

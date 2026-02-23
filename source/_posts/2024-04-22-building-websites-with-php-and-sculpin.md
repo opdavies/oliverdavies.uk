@@ -1,4 +1,5 @@
 ---
+date: 2024-04-22
 title: Building websites with PHP and Sculpin
 permalink: daily/2024/04/22/building-websites-with-php-and-sculpin
 tags:

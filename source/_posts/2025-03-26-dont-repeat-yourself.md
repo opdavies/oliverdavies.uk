@@ -1,4 +1,5 @@
 ---
+date: 2025-03-26
 title: Don't repeat yourself
 permalink: daily/2025/03/26/repeat
 tags:

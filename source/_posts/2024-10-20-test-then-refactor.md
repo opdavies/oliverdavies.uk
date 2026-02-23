@@ -1,4 +1,5 @@
 ---
+date: 2024-10-20
 title: Test, then refactor
 permalink: daily/2024/10/20/test-then-refactor
 tags:

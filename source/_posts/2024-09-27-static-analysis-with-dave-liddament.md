@@ -1,4 +1,5 @@
 ---
+date: 2024-09-27
 title: Static analysis with Dave Liddament
 permalink: daily/2024/09/27/static-analysis-with-dave-liddament
 tags:

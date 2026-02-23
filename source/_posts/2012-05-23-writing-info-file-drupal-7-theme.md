@@ -1,4 +1,5 @@
 ---
+date: 2012-05-23
 title: Writing a .info file for a Drupal 7 theme
 excerpt: An example .info file for a Drupal 7 theme.
 tags:

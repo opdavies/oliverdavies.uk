@@ -1,4 +1,5 @@
 ---
+date: 2024-01-16
 title: Daily or quarterly?
 permalink: daily/2024/01/16/daily-or-quarterly
 snippet: |
