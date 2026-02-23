@@ -19,11 +19,18 @@ public_folder: /assets/images
 collections:
   - name: site_settings
     label: Site settings
-    media_folder: /source/assets/images/recommendations
-    public_folder: /assets/images/recommendations
     files:
+      - name: global_settings
+        label: Global settings
+        file: data/global.yml
+        widget: list
+        fields:
+          - { name: banner_text, label: banner text, widget: text, required: false }
+
       - name: testimonials
         label: Testimonials
+        media_folder: /source/assets/images/recommendations
+        public_folder: /assets/images/recommendations
         file: data/testimonials.yml
         fields:
           - name: testimonials
