@@ -27,8 +27,6 @@ Oliver is a Software Developer and Drupal expert with {{ macros.yearsOfExperienc
 
 - [Drupal.org][drupal]
 - [GitHub]
-- [LinkedIn]
-- [Twitter]
 
 ## Physical Location
 
@@ -40,5 +38,3 @@ Oliver is a Software Developer and Drupal expert with {{ macros.yearsOfExperienc
 
 [drupal]: https://www.drupal.org/u/opdavies
 [github]: https://github.com/opdavies
-[linkedin]: https://www.linkedin.com/in/opdavies
-[twitter]: https://twitter.com/opdavies
