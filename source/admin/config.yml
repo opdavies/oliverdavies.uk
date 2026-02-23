@@ -82,25 +82,47 @@ collections:
         multiple: true
         required: false
         options:
+          - automated-testing
           - automation
+          - book-notes
+          - ci
           - command-line
+          - community
           - conference
           - css
+          - deployments
+          - development
           - devops
           - drupal
+          - drupal-planet
           - drupalcamp
           - drupalcon
-          - drupal-planet
+          - feature-flags
+          - front-end
+          - git
           - linux
           - meetup
+          - meetups
           - neovim
           - nix
+          - nixos
           - open-source
           - personal
           - php
+          - php-south-wales
+          - phpsw
+          - phpstan
+          - podcast
           - public-speaking
           - sculpin
+          - self-hosting
+          - software-development
+          - static-analysis
+          - static-site-generators
           - tailwind-css
+          - test-driven-development
+          - testing
+          - twig
           - vim
 
       - name: draft
