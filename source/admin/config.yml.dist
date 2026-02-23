@@ -3,7 +3,6 @@ local_backend:
   allowed_hosts:
     - localhost
     - oliverdavies.localhost
-  url: http://localhost:8082/api/v1
 
 backend:
   name: git-gateway

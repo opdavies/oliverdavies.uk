@@ -25,7 +25,12 @@
 
         commands = [
           {
-            command = "npx decap-server";
+            command = ''
+              cp -v --no-clobber source/admin/config.yml{.dist,}
+
+              npx decap-server
+            '';
+
             name = "start";
           }
         ];
