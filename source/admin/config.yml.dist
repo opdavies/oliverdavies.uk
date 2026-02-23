@@ -16,8 +16,8 @@ media_folder: source/assets/images
 public_folder: /assets/images
 
 collections:
-  - name: site_data
-    label: Site data
+  - name: site_settings
+    label: Site settings
     media_folder: /source/assets/images/recommendations
     public_folder: /assets/images/recommendations
     files:
