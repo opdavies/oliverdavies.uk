@@ -55,6 +55,7 @@ collections:
     folder: source/_posts
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     summary: "{{fields.title}} - {{fields.date}}"
+    sort: "date:desc"
     fields:
       - name: title
         label: Title
