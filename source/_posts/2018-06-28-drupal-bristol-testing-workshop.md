@@ -104,8 +104,8 @@ touch][13].
 [9]: /talks/tdd-test-driven-drupal
 [10]: https://www.drupal.org/project/private_message_queue
 [11]: https://www.drupal.org/project/system_user
-[12]: %7B%7Bsite.events.drupal_dev_days_18.url%7D%7D
+[12]: {{site.events.drupal_dev_days_18.url}}
 [13]: /contact
-[14]: %7B%7Bsite.events.drupal_bristol.url%7D%7D
+[14]: {{site.events.drupal_bristol.url}}
 [15]: /test-driven-drupal
 [16]: https://groups.drupal.org/node/520891

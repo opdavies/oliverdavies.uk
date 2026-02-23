@@ -157,5 +157,5 @@ Also, as this is standard Git functionality, you can follow the same process to
 extract PHP libraries, Symfony bundles, WordPress plugins or anything else.
 
 [0]: https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt
-[2]: %7B%7Bsite.companies.drupal_association.url%7D%7D
+[2]: {{site.companies.drupal_association.url}}
 [3]: https://getcomposer.org

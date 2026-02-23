@@ -350,10 +350,10 @@ Since writing this post, I've had a [pull request][8] accepted for this command 
 - [Docksal addons blog post][9]
 - [Docksal addons repository][10]
 
-[0]: %7B%7Bsite.companies.microserve.url%7D%7D
+[0]: {{site.companies.microserve.url}}
 [1]: https://youtu.be/1sjsvnx1P7g
 [2]: https://gist.github.com/opdavies/72611f198ffd2da13f363ea65264b2a5
-[3]: %7B%7Bsite.companies.microserve.github%7D%7D
+[3]: {{site.companies.microserve.github}}
 [4]: https://www.drupal.org/docs/8/phpunit
 [5]: https://github.com/docksal/docksal/blob/develop/examples/.docksal/commands/phpcs
 [6]: /talks/tdd-test-driven-drupal

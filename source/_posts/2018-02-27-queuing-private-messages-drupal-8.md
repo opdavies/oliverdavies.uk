@@ -77,7 +77,7 @@ $ drush queue-run private_message_queue
 Processed 19 items from the private_message_queue queue in 3.34 sec.
 ```
 
-[0]: %7B%7Bsite.companies.microserve.url%7D%7D
+[0]: {{site.companies.microserve.url}}
 [1]: https://www.drupal.org/project/private_message
 [2]: https://www.drupal.org/project/private_message_queue
 [3]: https://www.drupal.org/project/ultimate_cron

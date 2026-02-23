@@ -35,5 +35,5 @@ development and systems administration topics. So it's a nice conincedence that
 this will be my fiftieth (50th) talk.
 
 Thanks also to my employer,
-[{{site.companies.inviqa.name}}](%7B%7Bsite.companies.inviqa.url%7D%7D), who are giving
+[{{site.companies.inviqa.name}}]({{site.companies.inviqa.url}}), who are giving
 me the time and covering my costs to attend the conference.

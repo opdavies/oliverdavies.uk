@@ -21,4 +21,4 @@ I also use it to self-host these services:
 - [Uptime Kuma](https://uptime.kuma.pet)
 - [Vaultwarden](https://github.com/dani-garcia/vaultwarden)
 
-[0]: %7B%7Bsite.code.url%7D%7D/%7B%7Bsite.code.username%7D%7D/nix-config
+[0]: {{site.code.url}}/{{site.code.username}}/nix-config
