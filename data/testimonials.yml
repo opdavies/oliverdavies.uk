@@ -5,7 +5,7 @@ testimonials:
       was reliable, prompt and ensured strict client deadline delivery and
       confidentiality at all times.</p>
     name: Daniel Easterbrook
-    title: Digital Strategy Consultant
+    description: Digital Strategy Consultant
     tags:
       - front
       - subscription
@@ -13,7 +13,7 @@ testimonials:
       <p>Oliver is an amazing colleague, he's professional, full of knowledge
       and I could not recommend him more.</p>
     name: Chris Jarvis
-    title: Developer at Microserve
+    description: Developer at Microserve
     url: null
     image: /assets/images/recommendations/chris-jarvis.jpg
   - text: >
@@ -22,7 +22,7 @@ testimonials:
       of the project requirement(s) and ability to translate it into working
       code was essential and he delivered.</p>
     name: Brian Healy
-    title: Director of Business Development at Tincan
+    description: Director of Business Development at Tincan
     url: null
     image: /assets/images/recommendations/brian-healy.png
     tags:
@@ -34,7 +34,7 @@ testimonials:
       friendly and easy to get along with. I would enjoy working with him again
       in the future.</p>
     name: Brian Hartwell
-    title: Interactive Creative Director
+    description: Interactive Creative Director
     url: null
     tags:
       - front
@@ -47,7 +47,7 @@ testimonials:
 
       <p>Everything we have thrown at Oliver, he has approached with an open and flexible mind that has allowed him to work on a wide range of projects and features for Drupal products.</p>
     name: Josh Mitchell
-    title: CTO at Drupal Association
+    description: CTO at Drupal Association
     url: https://joshuami.com
     image: /assets/images/recommendations/josh-mitchell.png
     tags:
@@ -61,7 +61,7 @@ testimonials:
 
       <p>Oliver is the embodiment of everything good about the Drupal community.</p>
     name: Holly Ross
-    title: Executive Director at the Drupal Association
+    description: Executive Director at the Drupal Association
     url: https://www.drupal.org/association
     image: /assets/images/recommendations/holly-ross.png
     tags:
@@ -74,7 +74,7 @@ testimonials:
       knowledgeable professional with a passion for all things Drupal and the
       tenacity required to get the job done well.</p>
     name: Alan Hatch
-    title: Senior Drupal Developer at Microserve
+    description: Senior Drupal Developer at Microserve
     url: null
     image: /assets/images/recommendations/alan.jpeg
     tags:
@@ -84,7 +84,7 @@ testimonials:
       looking to take your knowledge to the next level, his patient and clear
       way of explaining will help get you there.</p>
     name: Scott Euser
-    title: Head of Web Development
+    description: Head of Web Development
     url: null
     image: /assets/images/recommendations/scott-euser.jpg
     tags:
@@ -99,7 +99,7 @@ testimonials:
 
       <p>He's the only external contractor that we've kept in touch with over the years, which goes to show how much we valued his input.</p>
     name: Huw Davies
-    title: Web Dev Manager / DevOps / Team Manager at Admiral Group Plc
+    description: Web Dev Manager / DevOps / Team Manager at Admiral Group Plc
     url: https://admiral.com
     image: /assets/images/recommendations/huw.jpeg
     tags:
@@ -109,7 +109,7 @@ testimonials:
       <p>A fantastic and highly knowledgeable Drupal Developer. Oliver saved a
       struggling Drupal project with his wealth of Drupal experience.</p>
     name: Adam Cuddihy
-    title: Web Development Manager
+    description: Web Development Manager
     url: null
     image: /assets/images/recommendations/adam.jpeg
     tags:
@@ -123,7 +123,7 @@ testimonials:
 
       <p>If we have complex issues to contend with in the future I feel confident he will be able to deal with them.</p>
     name: Anonymous
-    title: Marketing Strategist
+    description: Marketing Strategist
     tags:
       - front
       - subscription
@@ -132,7 +132,7 @@ testimonials:
       hesitation. He communicates regularly, ensures that he meets requirements,
       and suggests improvements to the potential solutions to the brief.</p>
     name: Duncan Davidson
-    title: Director at Rohallion
+    description: Director at Rohallion
     url: https://rohallion.agency
     image: /assets/images/recommendations/duncan.jpeg
     tags:
@@ -151,7 +151,7 @@ testimonials:
 
       <p>We would recommend working with him for his invaluable knowledge and ability to find solutions to problems at short notice. It has been a pleasure to work with him over the years.</p>
     name: Mick Felton
-    title: Publisher at Poetry Wales Press Ltd (Seren Books)
+    description: Publisher at Poetry Wales Press Ltd (Seren Books)
     url: https://www.serenbooks.com
     image: /assets/images/recommendations/mick-felton.jpg
     tags:
@@ -166,7 +166,7 @@ testimonials:
       functionality. Oliver has deep and wide-ranging skills and I would
       certainly recommend his services!</p>
     name: Michael Itkoff
-    title: Cofounder
+    description: Cofounder
     url: https://www.daylightbooks.org
     image: /assets/images/recommendations/michael-itkoff.jpg
     tags:
@@ -179,7 +179,7 @@ testimonials:
       help us with the deep dive aspects of maintaining and developing Drupal
       sites. He's been really helpful and very responsive. Much appreciated!</p>
     name: Jon Hallett
-    title: Senior Systems Administrator at the University of Bristol
+    description: Senior Systems Administrator at the University of Bristol
     url: https://bristol.ac.uk
     image: /assets/images/recommendations/jon-hallett.jpeg
     tags:
@@ -194,7 +194,7 @@ testimonials:
 
       <p>Friendly, flexible and diligent - I wouldn't hesitate to recommend Oliver to anyone looking for a Drupal developer to progress their next project.</p>
     name: Joe Howell
-    title: Director, Bastion Insurance
+    description: Director, Bastion Insurance
     url: https://www.bastioninsurance.co.uk
     image: /assets/images/recommendations/joe-howell.jpg
     tags:
@@ -213,7 +213,7 @@ testimonials:
 
       <p>Thanks, Oliver - I feel empowered and know exactly what approach to take now!</p>
     name: Tawny Bartlett
-    title: Senior Drupal Developer
+    description: Senior Drupal Developer
     url: https://www.playingwithpixels.co.uk
     image: /assets/images/recommendations/tawny.jpg
     tags:
@@ -228,7 +228,7 @@ testimonials:
 
       <p>Thanks for contributing to the community with your amazing content!</p>
     name: Patty O'Callaghan
-    title: Tech Lead
+    description: Tech Lead
     url: https://pattyocallaghan.com
     image: /assets/images/recommendations/patty-ocallaghan.jpg
     tags:
@@ -237,7 +237,7 @@ testimonials:
       <p>I like the "$ git log -S" and "$ git log --grep" commands, will
       definitely be using these, thanks!</p>
     name: Stephen Mulvihill
-    title: Solutions Architect
+    description: Solutions Architect
     image: /assets/images/recommendations/stephen-mulvihill.jpg
     tags:
       - git
@@ -250,7 +250,7 @@ testimonials:
       those who are used to working with a GUI like me, and personally I think
       it is quite valuable.</p>
     name: Marcos Duran
-    title: Senior Software Engineer
+    description: Senior Software Engineer
     image: /assets/images/recommendations/marcos-duran.jpg
     tags:
       - git
@@ -269,14 +269,14 @@ testimonials:
 
       <p>I found Oliver was affable and easy to work with.    He has a strong work ethic and a desire to solve problems for his customers and can recommend working with him.    I think one of his strengths is to find alternative solutions to problems.</p>
     name: Tom Evans
-    title: null
+    description: null
     tags:
       - call
   - text: >
       <p>Oliver's approach to testing is a continual reminder of his commitment
       to delivering high-quality, bug-free, software.</p>
     name: Mike Karthauser
-    title: Senior Software Engineer
+    description: Senior Software Engineer
     image: /assets/images/recommendations/mike-karthauser.jpg
     tags:
       - daily
@@ -287,7 +287,7 @@ testimonials:
       <p>These emails are superb and make for very interesting reading. Thank
       you!</p>
     name: Adam Nuttall
-    title: Drupal Engineer
+    description: Drupal Engineer
     image: /assets/images/recommendations/adam-nuttall.jpg
     tags:
       - daily
@@ -298,7 +298,7 @@ testimonials:
       integration and e2e testing. I have signed up to your mailing list to keep
       the good advice flowing!</p>
     name: Alexander Carr
-    title: Full Stack Software Engineer at School of Code
+    description: Full Stack Software Engineer at School of Code
     image: /assets/images/recommendations/alexander-carr.jpg
     tags:
       - daily
@@ -309,7 +309,7 @@ testimonials:
 
       <p>Looking forward to more content!</p>
     name: Matthieu Scarset
-    title: Drupal Expert
+    description: Drupal Expert
     url: https://matthieuscarset.com
     image: /assets/images/recommendations/matthieu-scarset.jpg
     tags:
@@ -319,7 +319,7 @@ testimonials:
       <p>I really love your daily posts. They are opinionated, and this gives
       room for thoughts, I appreciate this.</p>
     name: Boris Böhne
-    title: Drupal Developer
+    description: Drupal Developer
     url: https://www.drupal.org/u/drubb
     image: /assets/images/recommendations/boris-bohne.jpg
     tags:
@@ -328,7 +328,7 @@ testimonials:
       <p>I'm liking your short emails. They're just the right length that isn't
       too distracting but I'm able to consume it in a single glance.</p>
     name: Kevin Coyle
-    title: Design System Engineering Consultant
+    description: Design System Engineering Consultant
     url: https://www.coyledesign.co.uk
     image: /assets/images/recommendations/kevin-coyle.jpg
     tags:
@@ -338,7 +338,7 @@ testimonials:
       potential to bring Drupal development forward a huge leap. You've managed
       to simplify and share some often complex seeming issues.</p>
     name: Adam Nuttall
-    title: Drupal Engineer
+    description: Drupal Engineer
     image: /assets/images/recommendations/adam-nuttall.jpg
     tags:
       - testing
@@ -350,7 +350,7 @@ testimonials:
       away. Your guide was fantastic and I will definitely be using it going
       forward in my module development for work.</p>
     name: Frank Landry
-    title: null
+    description: null
     image: /assets/images/recommendations/frank-landry.jpg
     tags:
       - testing
@@ -359,7 +359,7 @@ testimonials:
       <p>This course is really great and I've recommended it to my coworkers
       here at Palantir.net.</p>
     name: Daniel Davis-Boxleitner
-    title: Senior Engineer at Palantir.net
+    description: Senior Engineer at Palantir.net
     image: /assets/images/recommendations/daniel-davis-boxleitner.jpg
     tags:
       - testing
