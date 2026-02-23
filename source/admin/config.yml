@@ -109,10 +109,6 @@ collections:
         required: false
 
     view_groups:
-      - label: Year
-        field: date
-        pattern: \d{4}
-
       - label: Drafts
         field: draft
 
