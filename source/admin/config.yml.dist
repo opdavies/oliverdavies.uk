@@ -164,3 +164,30 @@ collections:
               - { label: "Website", name: "website", widget: "string", required: false }
               - { label: "Slides", name: "slides", widget: "string", required: false }
               - { label: "Video", name: "video", widget: "string", required: false }
+
+  - name: pages
+    label: Pages
+    label_singular: Page
+    create: true
+    format: frontmatter
+    folder: source/_pages
+    fields:
+      - name: title
+        label: Title
+        widget: string
+
+      - name: slug
+        label: Slug
+        widget: string
+        required: false
+
+      - { name: body, widget: markdown }
+
+      - name: draft
+        label: Draft
+        widget: "boolean"
+        required: false
+
+    view_groups:
+      - label: Drafts
+        field: draft
