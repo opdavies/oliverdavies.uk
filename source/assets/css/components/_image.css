@@ -1,5 +1,0 @@
-img {
-  &.image--circle {
-    border-radius: var(--border-radius--full);
-  }
-}

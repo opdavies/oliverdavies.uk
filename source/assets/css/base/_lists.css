@@ -1,7 +1,0 @@
-li {
-  margin-top: var(--space--x-small);
-
-  &:first-of-type {
-    margin-top: 0;
-  }
-}
